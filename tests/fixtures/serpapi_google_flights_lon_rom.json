@@ -1,0 +1,229 @@
+{
+ "best_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "London Gatwick Airport",
+      "id": "LGW",
+      "time": "2026-11-10 06:45"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-10 10:20"
+     },
+     "duration": 155,
+     "airplane": "Airbus A321",
+     "airline": "easyJet",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
+     "travel_class": "Economy",
+     "flight_number": "U2 8323",
+     "extensions": [
+      "Carbon emissions estimate: 122 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 123000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -1
+   },
+   "price": 35,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1pWTWpnek1qTWFDZ2lWR3hBQ0dnTlZVMFE0SEhDVkd3PT0iLFtbIkxHVyIsIjIwMjYtMTEtMTAiLCJGQ08iLG51bGwsIlUyIiwiODMyMyJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "London Gatwick Airport",
+      "id": "LGW",
+      "time": "2026-11-10 12:20"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-10 15:55"
+     },
+     "duration": 155,
+     "airplane": "Airbus A321",
+     "airline": "easyJet",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
+     "travel_class": "Economy",
+     "flight_number": "U2 8325",
+     "extensions": [
+      "Carbon emissions estimate: 122 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 123000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -1
+   },
+   "price": 66,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1pWTWpnek1qVWFDZ2laTXhBQ0dnTlZVMFE0SEhDWk13PT0iLFtbIkxHVyIsIjIwMjYtMTEtMTAiLCJGQ08iLG51bGwsIlUyIiwiODMyNSJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-10 16:30"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-10 20:10"
+     },
+     "duration": 160,
+     "airplane": "Airbus A320neo",
+     "airline": "ITA",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+     "travel_class": "Economy",
+     "flight_number": "AZ 207",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 112 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 160,
+   "carbon_emissions": {
+    "this_flight": 112000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -10
+   },
+   "price": 93,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1ZCV2pJd054b0tDSlJJRUFJYUExVlRSRGdjY0pSSSIsW1siTEhSIiwiMjAyNi0xMS0xMCIsIkZDTyIsbnVsbCwiQVoiLCIyMDciXV1d"
+  }
+ ],
+ "other_flights": [
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "London Luton Airport",
+      "id": "LTN",
+      "time": "2026-11-10 21:45"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-11 01:20"
+     },
+     "duration": 155,
+     "airplane": "Airbus A321neo",
+     "airline": "Wizz Air",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/W4.png",
+     "travel_class": "Economy",
+     "flight_number": "W4 6006",
+     "extensions": [
+      "Carbon emissions estimate: 102 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 102000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -18
+   },
+   "price": 69,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/W4.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1pYTkRZd01EWWFDZ2lsTlJBQ0dnTlZVMFE0SEhDbE5RPT0iLFtbIkxUTiIsIjIwMjYtMTEtMTAiLCJGQ08iLG51bGwsIlc0IiwiNjAwNiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "London Luton Airport",
+      "id": "LTN",
+      "time": "2026-11-10 09:10"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-10 12:45"
+     },
+     "duration": 155,
+     "airplane": "Airbus A321neo",
+     "airline": "Wizz Air",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/W4.png",
+     "travel_class": "Economy",
+     "flight_number": "W4 6002",
+     "extensions": [
+      "Carbon emissions estimate: 102 kg"
+     ]
+    }
+   ],
+   "total_duration": 155,
+   "carbon_emissions": {
+    "this_flight": 102000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -18
+   },
+   "price": 86,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/W4.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1pYTkRZd01ESWFDZ2p3UWhBQ0dnTlZVMFE0SEhEd1FnPT0iLFtbIkxUTiIsIjIwMjYtMTEtMTAiLCJGQ08iLG51bGwsIlc0IiwiNjAwMiJdXV0="
+  },
+  {
+   "flights": [
+    {
+     "departure_airport": {
+      "name": "Heathrow Airport",
+      "id": "LHR",
+      "time": "2026-11-10 10:30"
+     },
+     "arrival_airport": {
+      "name": "Leonardo da Vinci International Airport",
+      "id": "FCO",
+      "time": "2026-11-10 14:10"
+     },
+     "duration": 160,
+     "airplane": "Airbus A320neo",
+     "airline": "ITA",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+     "travel_class": "Economy",
+     "flight_number": "AZ 203",
+     "legroom": "29 in",
+     "extensions": [
+      "Below average legroom (29 in)",
+      "Wi-Fi for a fee",
+      "In-seat USB outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 112 kg"
+     ],
+     "often_delayed_by_over_30_min": true
+    }
+   ],
+   "total_duration": 160,
+   "carbon_emissions": {
+    "this_flight": 112000,
+    "typical_for_this_route": 124000,
+    "difference_percent": -10
+   },
+   "price": 109,
+   "type": "One way",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+   "booking_token": "WyJDalJJWVU5dldsTnRkVmxKY2sxQlJVeFFXbWRDUnkwdExTMHRMUzB0ZDJaaVkzZzBPRUZCUVVGQlIzSmhRall3VEVsd1lqWkJFZ1ZCV2pJd014b0tDSTlWRUFJYUExVlRSRGdjY0k5ViIsW1siTEhSIiwiMjAyNi0xMS0xMCIsIkZDTyIsbnVsbCwiQVoiLCIyMDMiXV1d"
+  }
+ ]
+}
