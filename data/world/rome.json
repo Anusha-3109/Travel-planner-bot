@@ -1,0 +1,4883 @@
+{
+ "city": "Rome",
+ "country": "Italy",
+ "region": "Europe",
+ "latitude": 41.9028,
+ "longitude": 12.4964,
+ "currency": "EUR",
+ "usd_per_unit": 1.1234,
+ "rates_date": "2026-10-21",
+ "airbnb_scrape_date": "2026-09-17",
+ "fetched_at": "2026-10-22",
+ "accommodations": [
+  {
+   "name": "38 Viminale Hill - Camera Doppia 2",
+   "price": 270.29,
+   "price_local": 240.6,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 3189,
+   "url": "https://www.airbnb.com/rooms/35636293"
+  },
+  {
+   "name": "B&B Rione Monti",
+   "price": 128.07,
+   "price_local": 114.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.7,
+   "reviews": 1320,
+   "url": "https://www.airbnb.com/rooms/2399029"
+  },
+  {
+   "name": "B&B Rione Monti",
+   "price": 120.32,
+   "price_local": 107.1,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 1233,
+   "url": "https://www.airbnb.com/rooms/2709785"
+  },
+  {
+   "name": "Pettinarihome 2 Campo dei Fiori",
+   "price": 174.13,
+   "price_local": 155.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 1113,
+   "url": "https://www.airbnb.com/rooms/825299"
+  },
+  {
+   "name": "private access studio apartment",
+   "price": 108.28,
+   "price_local": 96.39,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.79,
+   "reviews": 1093,
+   "url": "https://www.airbnb.com/rooms/2131315"
+  },
+  {
+   "name": "The Suite in Rome",
+   "price": 188.73,
+   "price_local": 168.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 1088,
+   "url": "https://www.airbnb.com/rooms/1262834"
+  },
+  {
+   "name": "Residenza Giulia al Colosseo",
+   "price": 154.83,
+   "price_local": 137.82,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.77,
+   "reviews": 1087,
+   "url": "https://www.airbnb.com/rooms/33967855"
+  },
+  {
+   "name": "Sant'Agata Home",
+   "price": 145.48,
+   "price_local": 129.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.78,
+   "reviews": 1070,
+   "url": "https://www.airbnb.com/rooms/1385250"
+  },
+  {
+   "name": "Santini Home",
+   "price": 194.35,
+   "price_local": 173.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.89,
+   "reviews": 1044,
+   "url": "https://www.airbnb.com/rooms/1373696"
+  },
+  {
+   "name": "Delightful cottage in Rome",
+   "price": 120.2,
+   "price_local": 107.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 989,
+   "url": "https://www.airbnb.com/rooms/618566"
+  },
+  {
+   "name": "Colosseum View · Unique Duplex · Just 100m",
+   "price": 287.03,
+   "price_local": 255.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.92,
+   "reviews": 966,
+   "url": "https://www.airbnb.com/rooms/226372"
+  },
+  {
+   "name": "Small Cozy Studio In Super Location",
+   "price": 238.16,
+   "price_local": 212.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.81,
+   "reviews": 962,
+   "url": "https://www.airbnb.com/rooms/9952950"
+  },
+  {
+   "name": "Appartamento unico al Colosseo!! 5☆",
+   "price": 179.74,
+   "price_local": 160.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.89,
+   "reviews": 956,
+   "url": "https://www.airbnb.com/rooms/1049640"
+  },
+  {
+   "name": "Malva Palace",
+   "price": 204.46,
+   "price_local": 182.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 949,
+   "url": "https://www.airbnb.com/rooms/1361769"
+  },
+  {
+   "name": "Saint Peter's Dome",
+   "price": 242.29,
+   "price_local": 215.68,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.81,
+   "reviews": 937,
+   "url": "https://www.airbnb.com/rooms/15607569"
+  },
+  {
+   "name": "Charming Apartment, heart of Rome!",
+   "price": 257.26,
+   "price_local": 229.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.89,
+   "reviews": 907,
+   "url": "https://www.airbnb.com/rooms/1745265"
+  },
+  {
+   "name": "Casa Funari, in the heart of an ancient Rome",
+   "price": 193.22,
+   "price_local": 172.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 906,
+   "url": "https://www.airbnb.com/rooms/6988007"
+  },
+  {
+   "name": "Vintage Loft Apartment close Trevi Fountain, Rome",
+   "price": 208.95,
+   "price_local": 186.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 906,
+   "url": "https://www.airbnb.com/rooms/4129041"
+  },
+  {
+   "name": "SMALL STUDIO FLAT Btw Termini & Colosseum!",
+   "price": 104.48,
+   "price_local": 93.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.66,
+   "reviews": 901,
+   "url": "https://www.airbnb.com/rooms/113590"
+  },
+  {
+   "name": "Center Hostel Private Room Testaccio Easy Genuine",
+   "price": 65.16,
+   "price_local": 58.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.81,
+   "reviews": 893,
+   "url": "https://www.airbnb.com/rooms/3412386"
+  },
+  {
+   "name": "LPM Apartment 5 - Spanish Steps / Barberini",
+   "price": 365.1,
+   "price_local": 325.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.85,
+   "reviews": 891,
+   "url": "https://www.airbnb.com/rooms/26727206"
+  },
+  {
+   "name": "Turtle Room in apartment near the Colosseum",
+   "price": 184.24,
+   "price_local": 164.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.76,
+   "reviews": 890,
+   "url": "https://www.airbnb.com/rooms/1996805"
+  },
+  {
+   "name": "Studio Apartment with View near the Colosseum",
+   "price": 262.88,
+   "price_local": 234.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 878,
+   "url": "https://www.airbnb.com/rooms/2846542"
+  },
+  {
+   "name": "Antica Roma",
+   "price": 132.79,
+   "price_local": 118.2,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.77,
+   "reviews": 874,
+   "url": "https://www.airbnb.com/rooms/6497548"
+  },
+  {
+   "name": "LPM Apartment 3 - Trevi Fountain",
+   "price": 461.72,
+   "price_local": 411.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 874,
+   "url": "https://www.airbnb.com/rooms/16360810"
+  },
+  {
+   "name": "Luxury panoramic suite, 5mins Colosseo,2mins Metro",
+   "price": 156.15,
+   "price_local": 139.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.7,
+   "reviews": 872,
+   "url": "https://www.airbnb.com/rooms/13270751"
+  },
+  {
+   "name": "Chic Artist's Loft in Centre by Esquiline Suites",
+   "price": 134.7,
+   "price_local": 119.9,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 856,
+   "url": "https://www.airbnb.com/rooms/971905"
+  },
+  {
+   "name": "Green Apartment Studio Rione Monti Termini Station",
+   "price": 105.6,
+   "price_local": 94.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.85,
+   "reviews": 854,
+   "url": "https://www.airbnb.com/rooms/12897104"
+  },
+  {
+   "name": "-50% in winter time: holidays at Colosseum",
+   "price": 167.39,
+   "price_local": 149.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.58,
+   "reviews": 846,
+   "url": "https://www.airbnb.com/rooms/19473312"
+  },
+  {
+   "name": "Authentic Rome_Design_Metro_Ostiense Station_A/C",
+   "price": 223.11,
+   "price_local": 198.6,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.91,
+   "reviews": 843,
+   "url": "https://www.airbnb.com/rooms/8852355"
+  },
+  {
+   "name": "Just behind Coliseum",
+   "price": 255.46,
+   "price_local": 227.4,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.82,
+   "reviews": 840,
+   "url": "https://www.airbnb.com/rooms/15177565"
+  },
+  {
+   "name": "LPM Apartment 2 - Spanish Steps / Barberini",
+   "price": 354.99,
+   "price_local": 316.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.84,
+   "reviews": 840,
+   "url": "https://www.airbnb.com/rooms/17390379"
+  },
+  {
+   "name": "Anita Arte Roma B&B",
+   "price": 171.88,
+   "price_local": 153.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.87,
+   "reviews": 834,
+   "url": "https://www.airbnb.com/rooms/183969"
+  },
+  {
+   "name": "Colosseo's door - Carpegna",
+   "price": 212.32,
+   "price_local": 189.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.63,
+   "reviews": 827,
+   "url": "https://www.airbnb.com/rooms/2706974"
+  },
+  {
+   "name": "LPM Apartment 4 - Trevi Fountain / Barberini",
+   "price": 365.1,
+   "price_local": 325.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.85,
+   "reviews": 824,
+   "url": "https://www.airbnb.com/rooms/17358676"
+  },
+  {
+   "name": "Romantic apartment View of the Trevi Fountain",
+   "price": 530.24,
+   "price_local": 472.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.98,
+   "reviews": 824,
+   "url": "https://www.airbnb.com/rooms/17317706"
+  },
+  {
+   "name": "Extremely New, Bright Apartment in Central Rome!",
+   "price": 119.08,
+   "price_local": 106.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.82,
+   "reviews": 820,
+   "url": "https://www.airbnb.com/rooms/8214264"
+  },
+  {
+   "name": "Appartamento grande in centro storico",
+   "price": 397.12,
+   "price_local": 353.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.93,
+   "reviews": 820,
+   "url": "https://www.airbnb.com/rooms/3685610"
+  },
+  {
+   "name": "Real Best View Coliseum Luxury Loft History Center",
+   "price": 269.96,
+   "price_local": 240.31,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.79,
+   "reviews": 812,
+   "url": "https://www.airbnb.com/rooms/23880958"
+  },
+  {
+   "name": "Colosseum Charm · Design Duplex · Just 100m",
+   "price": 291.02,
+   "price_local": 259.05,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 802,
+   "url": "https://www.airbnb.com/rooms/2493261"
+  },
+  {
+   "name": "Colosseum Dream Casa, Rome city center.",
+   "price": 190.98,
+   "price_local": 170.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.8,
+   "reviews": 801,
+   "url": "https://www.airbnb.com/rooms/4272608"
+  },
+  {
+   "name": "Trastevere Interno 8 apartment",
+   "price": 179.74,
+   "price_local": 160.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.94,
+   "reviews": 792,
+   "url": "https://www.airbnb.com/rooms/3674909"
+  },
+  {
+   "name": "Large and bright apartment with views of Coliseum",
+   "price": 295.45,
+   "price_local": 263.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.9,
+   "reviews": 792,
+   "url": "https://www.airbnb.com/rooms/639627"
+  },
+  {
+   "name": "Artevere !",
+   "price": 133.68,
+   "price_local": 119.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.75,
+   "reviews": 789,
+   "url": "https://www.airbnb.com/rooms/166894"
+  },
+  {
+   "name": "Charming terrace apartment by spanish steps",
+   "price": 268.49,
+   "price_local": 239.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.79,
+   "reviews": 788,
+   "url": "https://www.airbnb.com/rooms/19992118"
+  },
+  {
+   "name": "Meraviglioso appartamento al centro di Roma",
+   "price": 180.87,
+   "price_local": 161.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 787,
+   "url": "https://www.airbnb.com/rooms/1049639"
+  },
+  {
+   "name": "Vintage Suite w/ Private Bath by Esquiline Suites",
+   "price": 138.63,
+   "price_local": 123.4,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.82,
+   "reviews": 785,
+   "url": "https://www.airbnb.com/rooms/20699"
+  },
+  {
+   "name": "A little cozy room, 800m Colosseo and Termini!#10",
+   "price": 104.48,
+   "price_local": 93.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.56,
+   "reviews": 783,
+   "url": "https://www.airbnb.com/rooms/17606907"
+  },
+  {
+   "name": "Charming flat near Trevi Fountain & Spanish Steps",
+   "price": 254.33,
+   "price_local": 226.39,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 782,
+   "url": "https://www.airbnb.com/rooms/4905802"
+  },
+  {
+   "name": "Delightful apartment 100 meters from the Colosseum",
+   "price": 237.6,
+   "price_local": 211.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.85,
+   "reviews": 781,
+   "url": "https://www.airbnb.com/rooms/871542"
+  },
+  {
+   "name": "Flat for real experts at Colosseum",
+   "price": 183.87,
+   "price_local": 163.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.87,
+   "reviews": 780,
+   "url": "https://www.airbnb.com/rooms/866871"
+  },
+  {
+   "name": "THE PLACE TO A SWEET ROMAN HOLIDAY",
+   "price": 210.66,
+   "price_local": 187.52,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 776,
+   "url": "https://www.airbnb.com/rooms/7083766"
+  },
+  {
+   "name": "Roman Holidays Hostel near Termini 5 ensuite",
+   "price": 83.13,
+   "price_local": 74.0,
+   "room_type": "Hotel room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.52,
+   "reviews": 775,
+   "url": "https://www.airbnb.com/rooms/38340397"
+  },
+  {
+   "name": "a COZY room balcony, 800m Colosseo,150mSubway",
+   "price": 80.88,
+   "price_local": 72.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.48,
+   "reviews": 772,
+   "url": "https://www.airbnb.com/rooms/10719987"
+  },
+  {
+   "name": "In the heart of Rome Apartment,Studio near Station",
+   "price": 106.35,
+   "price_local": 94.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.78,
+   "reviews": 770,
+   "url": "https://www.airbnb.com/rooms/15565536"
+  },
+  {
+   "name": "Roman Forum apartment",
+   "price": 190.42,
+   "price_local": 169.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.93,
+   "reviews": 768,
+   "url": "https://www.airbnb.com/rooms/2701366"
+  },
+  {
+   "name": "MARIEL COZY APARTMENT IN TRASTEVERE",
+   "price": 203.9,
+   "price_local": 181.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 767,
+   "url": "https://www.airbnb.com/rooms/2942031"
+  },
+  {
+   "name": "In the Shadow of the Colosseum · Quiet · 100m · AC",
+   "price": 301.07,
+   "price_local": 268.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 764,
+   "url": "https://www.airbnb.com/rooms/4167902"
+  },
+  {
+   "name": "My Suite Rome' Luxury Apartment at the Pantheon",
+   "price": 212.05,
+   "price_local": 188.76,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.9,
+   "reviews": 762,
+   "url": "https://www.airbnb.com/rooms/3130679"
+  },
+  {
+   "name": "Bright, Cheery Apartment by Saint Peter's Square",
+   "price": 192.66,
+   "price_local": 171.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 762,
+   "url": "https://www.airbnb.com/rooms/4356619"
+  },
+  {
+   "name": "Bed in 4-Bed Mixed Dorm Room Private Bathroom",
+   "price": 76.84,
+   "price_local": 68.4,
+   "room_type": "Hotel room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.68,
+   "reviews": 761,
+   "url": "https://www.airbnb.com/rooms/34163779"
+  },
+  {
+   "name": "Just Behind Coliseum 3",
+   "price": 247.37,
+   "price_local": 220.2,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.89,
+   "reviews": 759,
+   "url": "https://www.airbnb.com/rooms/21580691"
+  },
+  {
+   "name": "Elegant loft Spanish Steps",
+   "price": 196.9,
+   "price_local": 175.27,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 758,
+   "url": "https://www.airbnb.com/rooms/13499230"
+  },
+  {
+   "name": "Aunt's House Campo de Fiori",
+   "price": 154.47,
+   "price_local": 137.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 757,
+   "url": "https://www.airbnb.com/rooms/5182775"
+  },
+  {
+   "name": "St Peter Vatican Lovely Apartment & Patio, Rome",
+   "price": 208.95,
+   "price_local": 186.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.77,
+   "reviews": 753,
+   "url": "https://www.airbnb.com/rooms/1189026"
+  },
+  {
+   "name": "Windows on the Colosseum · 100m from Colosseum",
+   "price": 285.34,
+   "price_local": 254.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 753,
+   "url": "https://www.airbnb.com/rooms/2193487"
+  },
+  {
+   "name": "A lovely Panoramic View! 800m Colosseo, 350m Metro",
+   "price": 110.86,
+   "price_local": 98.68,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.59,
+   "reviews": 752,
+   "url": "https://www.airbnb.com/rooms/10720978"
+  },
+  {
+   "name": "Room Suite Rome (In the Heart) x 2 people",
+   "price": 185.36,
+   "price_local": 165.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.75,
+   "reviews": 751,
+   "url": "https://www.airbnb.com/rooms/12238666"
+  },
+  {
+   "name": "PignetoRhome : La casa a Scacchi",
+   "price": 160.65,
+   "price_local": 143.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.71,
+   "reviews": 750,
+   "url": "https://www.airbnb.com/rooms/4219733"
+  },
+  {
+   "name": "Cozy apartment in central Rome",
+   "price": 128.63,
+   "price_local": 114.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.8,
+   "reviews": 748,
+   "url": "https://www.airbnb.com/rooms/9623908"
+  },
+  {
+   "name": "DOUBLE BED WITH PRIVATE BATHROOM NEAR TERMINI",
+   "price": 140.42,
+   "price_local": 125.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.62,
+   "reviews": 744,
+   "url": "https://www.airbnb.com/rooms/18341498"
+  },
+  {
+   "name": "A cozy quite room + balcony,10 mins to Colosseo!",
+   "price": 96.61,
+   "price_local": 86.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.52,
+   "reviews": 743,
+   "url": "https://www.airbnb.com/rooms/14024883"
+  },
+  {
+   "name": "In the heart of Rome gorgeous house",
+   "price": 208.95,
+   "price_local": 186.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 740,
+   "url": "https://www.airbnb.com/rooms/6832506"
+  },
+  {
+   "name": "Exclusive Loft, vintage design near Colosseo",
+   "price": 275.23,
+   "price_local": 245.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.76,
+   "reviews": 739,
+   "url": "https://www.airbnb.com/rooms/17934201"
+  },
+  {
+   "name": "TRASTEVERE'S HOME",
+   "price": 249.39,
+   "price_local": 222.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.81,
+   "reviews": 738,
+   "url": "https://www.airbnb.com/rooms/1108531"
+  },
+  {
+   "name": "Colosseum Designer Suite Condo",
+   "price": 278.6,
+   "price_local": 248.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 733,
+   "url": "https://www.airbnb.com/rooms/13430344"
+  },
+  {
+   "name": "Steps to the Colosseum · Bright Duplex · Just 100m",
+   "price": 236.5,
+   "price_local": 210.52,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 732,
+   "url": "https://www.airbnb.com/rooms/5074547"
+  },
+  {
+   "name": "Flat for experts at Navona/Pantheon",
+   "price": 139.21,
+   "price_local": 123.92,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 732,
+   "url": "https://www.airbnb.com/rooms/870905"
+  },
+  {
+   "name": "Alloggio low cost con bagno privato a Roma Pigneto",
+   "price": 64.79,
+   "price_local": 57.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.62,
+   "reviews": 726,
+   "url": "https://www.airbnb.com/rooms/21204225"
+  },
+  {
+   "name": "The Gladiators’ House · Quiet 100m from Colosseum",
+   "price": 269.62,
+   "price_local": 240.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.92,
+   "reviews": 721,
+   "url": "https://www.airbnb.com/rooms/1727047"
+  },
+  {
+   "name": "Lorenzo home at Colosseum",
+   "price": 207.83,
+   "price_local": 185.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.68,
+   "reviews": 720,
+   "url": "https://www.airbnb.com/rooms/1728482"
+  },
+  {
+   "name": "★ The Black Swan BR ★ Trastevere's most Artsy APT",
+   "price": 132.7,
+   "price_local": 118.12,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.65,
+   "reviews": 719,
+   "url": "https://www.airbnb.com/rooms/2013581"
+  },
+  {
+   "name": "Piazza Navona Spacious Loft, Former Artist Atelier",
+   "price": 361.73,
+   "price_local": 322.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 8,
+   "rating": 4.8,
+   "reviews": 719,
+   "url": "https://www.airbnb.com/rooms/861697"
+  },
+  {
+   "name": "Pantheon Glam 1 - Pantheon / Piazza Navona",
+   "price": 360.61,
+   "price_local": 321.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 717,
+   "url": "https://www.airbnb.com/rooms/25965185"
+  },
+  {
+   "name": "a Charming room , 800m Colosseo.150m Metro A",
+   "price": 94.37,
+   "price_local": 84.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.55,
+   "reviews": 716,
+   "url": "https://www.airbnb.com/rooms/9256627"
+  },
+  {
+   "name": "DOMUS TRAST",
+   "price": 169.07,
+   "price_local": 150.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.7,
+   "reviews": 716,
+   "url": "https://www.airbnb.com/rooms/6907915"
+  },
+  {
+   "name": "1 TownHouse by the Spanish Steps",
+   "price": 306.69,
+   "price_local": 273.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.74,
+   "reviews": 715,
+   "url": "https://www.airbnb.com/rooms/9897368"
+  },
+  {
+   "name": "Trevi Fountain Luxury Home",
+   "price": 312.81,
+   "price_local": 278.45,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.92,
+   "reviews": 714,
+   "url": "https://www.airbnb.com/rooms/5534126"
+  },
+  {
+   "name": "Celeste luxury apartment Rome",
+   "price": 348.25,
+   "price_local": 310.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.71,
+   "reviews": 712,
+   "url": "https://www.airbnb.com/rooms/827269"
+  },
+  {
+   "name": "Lovely 3Chic Maison Plus Colosseum. District Monti",
+   "price": 221.31,
+   "price_local": 197.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.66,
+   "reviews": 712,
+   "url": "https://www.airbnb.com/rooms/4658454"
+  },
+  {
+   "name": "Centralissimo Delizioso loftTermini",
+   "price": 176.37,
+   "price_local": 157.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.62,
+   "reviews": 705,
+   "url": "https://www.airbnb.com/rooms/14753251"
+  },
+  {
+   "name": "Mini House - Huge Terrace with Hammock",
+   "price": 128.82,
+   "price_local": 114.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 703,
+   "url": "https://www.airbnb.com/rooms/11904781"
+  },
+  {
+   "name": "Malva apartment",
+   "price": 243.58,
+   "price_local": 216.82,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 702,
+   "url": "https://www.airbnb.com/rooms/1555602"
+  },
+  {
+   "name": "Calpurnia House close Colosseum",
+   "price": 283.1,
+   "price_local": 252.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.69,
+   "reviews": 702,
+   "url": "https://www.airbnb.com/rooms/163008"
+  },
+  {
+   "name": "SUITE CARDINALE MARMAGGI",
+   "price": 214.57,
+   "price_local": 191.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.82,
+   "reviews": 701,
+   "url": "https://www.airbnb.com/rooms/1072962"
+  },
+  {
+   "name": "Cosmopolitan - Roma Termini Suites, Camera 5",
+   "price": 103.85,
+   "price_local": 92.44,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.61,
+   "reviews": 700,
+   "url": "https://www.airbnb.com/rooms/14040202"
+  },
+  {
+   "name": "Gesù - DdG Heritage Collection",
+   "price": 223.56,
+   "price_local": 199.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.71,
+   "reviews": 699,
+   "url": "https://www.airbnb.com/rooms/4189136"
+  },
+  {
+   "name": "Spacious apartment shortwalk from the Colosseum",
+   "price": 219.46,
+   "price_local": 195.35,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.7,
+   "reviews": 699,
+   "url": "https://www.airbnb.com/rooms/3741096"
+  },
+  {
+   "name": "Private Jacuzzi | Metro A at your doorstep",
+   "price": 167.39,
+   "price_local": 149.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 697,
+   "url": "https://www.airbnb.com/rooms/771124"
+  },
+  {
+   "name": "Lucky Holiday Double.",
+   "price": 197.72,
+   "price_local": 176.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.57,
+   "reviews": 696,
+   "url": "https://www.airbnb.com/rooms/13927111"
+  },
+  {
+   "name": "Wake At Rome Guest House Colosseum",
+   "price": 257.26,
+   "price_local": 229.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.95,
+   "reviews": 694,
+   "url": "https://www.airbnb.com/rooms/8810744"
+  },
+  {
+   "name": "Corso37. Your apartment in the heart of Rome",
+   "price": 556.08,
+   "price_local": 495.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.94,
+   "reviews": 687,
+   "url": "https://www.airbnb.com/rooms/4515105"
+  },
+  {
+   "name": "La tua casa fascinosa a Monti / Colosseo",
+   "price": 217.94,
+   "price_local": 194.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.87,
+   "reviews": 687,
+   "url": "https://www.airbnb.com/rooms/10695820"
+  },
+  {
+   "name": "Flat close to Colosseum",
+   "price": 144.36,
+   "price_local": 128.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.87,
+   "reviews": 686,
+   "url": "https://www.airbnb.com/rooms/5821293"
+  },
+  {
+   "name": "Pucci's Holiday Home (WiFi). Rome",
+   "price": 230.76,
+   "price_local": 205.41,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 686,
+   "url": "https://www.airbnb.com/rooms/1478063"
+  },
+  {
+   "name": "Boutique Studio Flat in Centre by Esquiline Suites",
+   "price": 160.08,
+   "price_local": 142.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.75,
+   "reviews": 685,
+   "url": "https://www.airbnb.com/rooms/5151323"
+  },
+  {
+   "name": "Just Behind Coliseum Terrace",
+   "price": 237.94,
+   "price_local": 211.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.84,
+   "reviews": 684,
+   "url": "https://www.airbnb.com/rooms/29185492"
+  },
+  {
+   "name": "PignetoRhome: Casetta Allegra",
+   "price": 129.19,
+   "price_local": 115.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.67,
+   "reviews": 684,
+   "url": "https://www.airbnb.com/rooms/3920579"
+  },
+  {
+   "name": "House Vicenza - Camera Matrimoniale",
+   "price": 183.11,
+   "price_local": 163.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 683,
+   "url": "https://www.airbnb.com/rooms/31557503"
+  },
+  {
+   "name": "Pantheon Glam 2 - Pantheon / Historical Center",
+   "price": 311.18,
+   "price_local": 277.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 680,
+   "url": "https://www.airbnb.com/rooms/27153351"
+  },
+  {
+   "name": "Love nest near Colosseum - Foscolo Apt",
+   "price": 170.76,
+   "price_local": 152.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 679,
+   "url": "https://www.airbnb.com/rooms/14009154"
+  },
+  {
+   "name": "Your place by the Colosseum",
+   "price": 342.08,
+   "price_local": 304.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.88,
+   "reviews": 677,
+   "url": "https://www.airbnb.com/rooms/4561478"
+  },
+  {
+   "name": "Governo Home",
+   "price": 230.3,
+   "price_local": 205.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 677,
+   "url": "https://www.airbnb.com/rooms/16356340"
+  },
+  {
+   "name": "Casa di Emilio Roma",
+   "price": 123.57,
+   "price_local": 110.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 674,
+   "url": "https://www.airbnb.com/rooms/14605694"
+  },
+  {
+   "name": "Greenhouse Colosseo Roma best location center",
+   "price": 119.08,
+   "price_local": 106.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.78,
+   "reviews": 670,
+   "url": "https://www.airbnb.com/rooms/2149094"
+  },
+  {
+   "name": "Colosseum Beat · Quiet Duplex · Just 100m",
+   "price": 241.41,
+   "price_local": 214.89,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 670,
+   "url": "https://www.airbnb.com/rooms/8208849"
+  },
+  {
+   "name": "Casa di Emilio 2",
+   "price": 130.31,
+   "price_local": 116.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 670,
+   "url": "https://www.airbnb.com/rooms/13876513"
+  },
+  {
+   "name": "Roma Colosseo Apartment in the heart of Rome *****",
+   "price": 256.4,
+   "price_local": 228.24,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.61,
+   "reviews": 669,
+   "url": "https://www.airbnb.com/rooms/6174384"
+  },
+  {
+   "name": "Intero appartamento minimalista vicino al Colosseo",
+   "price": 443.74,
+   "price_local": 395.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 669,
+   "url": "https://www.airbnb.com/rooms/26660744"
+  },
+  {
+   "name": "Comfortable Flat - Both Metro lines, A/C, Termini",
+   "price": 206.93,
+   "price_local": 184.2,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 665,
+   "url": "https://www.airbnb.com/rooms/3090323"
+  },
+  {
+   "name": "Wonderful Penthouse Rome center",
+   "price": 156.15,
+   "price_local": 139.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.79,
+   "reviews": 665,
+   "url": "https://www.airbnb.com/rooms/2439905"
+  },
+  {
+   "name": "3, Grey Room at Colosseum - Pannonia Smart House",
+   "price": 153.91,
+   "price_local": 137.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.89,
+   "reviews": 661,
+   "url": "https://www.airbnb.com/rooms/18740879"
+  },
+  {
+   "name": "The White Fairy BR ❤ Trastevere's Most Artsy APT",
+   "price": 126.11,
+   "price_local": 112.26,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.62,
+   "reviews": 657,
+   "url": "https://www.airbnb.com/rooms/1987761"
+  },
+  {
+   "name": "Trevi fountain romantic stay-central w/ elevator",
+   "price": 364.08,
+   "price_local": 324.09,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 657,
+   "url": "https://www.airbnb.com/rooms/17951719"
+  },
+  {
+   "name": "SCALO25 (with car park)",
+   "price": 215.69,
+   "price_local": 192.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.69,
+   "reviews": 657,
+   "url": "https://www.airbnb.com/rooms/2323982"
+  },
+  {
+   "name": "Your room in Rome. Perfect position",
+   "price": 155.03,
+   "price_local": 138.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.79,
+   "reviews": 655,
+   "url": "https://www.airbnb.com/rooms/5769261"
+  },
+  {
+   "name": "Charming studio apartment Fontana di Trevi",
+   "price": 244.53,
+   "price_local": 217.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.82,
+   "reviews": 654,
+   "url": "https://www.airbnb.com/rooms/2365459"
+  },
+  {
+   "name": "Termini Guestouse B&B double room",
+   "price": 108.97,
+   "price_local": 97.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 653,
+   "url": "https://www.airbnb.com/rooms/13194514"
+  },
+  {
+   "name": "Charming Roman home 100 mt from the Colosseum.",
+   "price": 290.96,
+   "price_local": 259.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.77,
+   "reviews": 652,
+   "url": "https://www.airbnb.com/rooms/5032776"
+  },
+  {
+   "name": "Loft 55 -Secret garden-",
+   "price": 302.19,
+   "price_local": 269.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.77,
+   "reviews": 652,
+   "url": "https://www.airbnb.com/rooms/1409935"
+  },
+  {
+   "name": "Loft in ex-stables of ancient palace",
+   "price": 153.91,
+   "price_local": 137.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 651,
+   "url": "https://www.airbnb.com/rooms/23120002"
+  },
+  {
+   "name": "Maison De Fiori- Charming Apartment",
+   "price": 190.98,
+   "price_local": 170.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.77,
+   "reviews": 649,
+   "url": "https://www.airbnb.com/rooms/20405748"
+  },
+  {
+   "name": "HomeHoliday \"EsquilinHome\"@ Monti-Colisseum",
+   "price": 185.36,
+   "price_local": 165.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.88,
+   "reviews": 649,
+   "url": "https://www.airbnb.com/rooms/13179926"
+  },
+  {
+   "name": "Campani Slow, S.Lorenzo",
+   "price": 153.34,
+   "price_local": 136.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.74,
+   "reviews": 649,
+   "url": "https://www.airbnb.com/rooms/1698263"
+  },
+  {
+   "name": "Cozy and Central Apartment Near the Pantheon",
+   "price": 239.28,
+   "price_local": 213.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 647,
+   "url": "https://www.airbnb.com/rooms/5518839"
+  },
+  {
+   "name": "Little gem in Trevi Fountain . ❤️",
+   "price": 126.94,
+   "price_local": 113.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.59,
+   "reviews": 647,
+   "url": "https://www.airbnb.com/rooms/22746106"
+  },
+  {
+   "name": "HomeHoliday \"GiaRa\"@ Vatican - St.Peter Basilica",
+   "price": 178.06,
+   "price_local": 158.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.9,
+   "reviews": 647,
+   "url": "https://www.airbnb.com/rooms/8729241"
+  },
+  {
+   "name": "apartment in Piazza Navona",
+   "price": 175.21,
+   "price_local": 155.96,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.67,
+   "reviews": 646,
+   "url": "https://www.airbnb.com/rooms/307429"
+  },
+  {
+   "name": "A stone's throw from the Colosseum",
+   "price": 150.09,
+   "price_local": 133.6,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 5,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 646,
+   "url": "https://www.airbnb.com/rooms/3260174"
+  },
+  {
+   "name": "1, Green Room at Colosseum - Pannonia Smart House",
+   "price": 128.07,
+   "price_local": 114.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 645,
+   "url": "https://www.airbnb.com/rooms/18740273"
+  },
+  {
+   "name": "Historic nook in charming Trastevere",
+   "price": 196.59,
+   "price_local": 175.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.81,
+   "reviews": 645,
+   "url": "https://www.airbnb.com/rooms/24790948"
+  },
+  {
+   "name": "Central cozy room, private bathroom inside, Roma",
+   "price": 137.05,
+   "price_local": 122.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 644,
+   "url": "https://www.airbnb.com/rooms/12039415"
+  },
+  {
+   "name": "Colette's home Trastevere",
+   "price": 180.87,
+   "price_local": 161.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 3,
+   "rating": 4.9,
+   "reviews": 643,
+   "url": "https://www.airbnb.com/rooms/922888"
+  },
+  {
+   "name": "Adriana home at Colisseum",
+   "price": 255.01,
+   "price_local": 227.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 643,
+   "url": "https://www.airbnb.com/rooms/1444489"
+  },
+  {
+   "name": "TERMINI/COLOSSEO: the crossroad lodging",
+   "price": 217.57,
+   "price_local": 193.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 3,
+   "rating": 4.95,
+   "reviews": 639,
+   "url": "https://www.airbnb.com/rooms/1749720"
+  },
+  {
+   "name": "Colosseum Secret Cozy Studio",
+   "price": 218.58,
+   "price_local": 194.57,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 639,
+   "url": "https://www.airbnb.com/rooms/8043903"
+  },
+  {
+   "name": "Fori Suite 4 pax the heart of Rome",
+   "price": 223.22,
+   "price_local": 198.7,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.63,
+   "reviews": 638,
+   "url": "https://www.airbnb.com/rooms/852680"
+  },
+  {
+   "name": "VOLUPTA' S HOUSE in Rome",
+   "price": 185.36,
+   "price_local": 165.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.56,
+   "reviews": 637,
+   "url": "https://www.airbnb.com/rooms/16037882"
+  },
+  {
+   "name": "Charming studio apartment piazza Navona Vatican",
+   "price": 190.42,
+   "price_local": 169.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 637,
+   "url": "https://www.airbnb.com/rooms/1663034"
+  },
+  {
+   "name": "Single room in the center of Rome",
+   "price": 129.19,
+   "price_local": 115.0,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 1,
+   "rating": 4.79,
+   "reviews": 637,
+   "url": "https://www.airbnb.com/rooms/4900323"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cencio la Parolaccia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3 Vicolo del Cinque, 00153, Roma",
+   "website": "https://cenciolaparolaccia.it/"
+  },
+  {
+   "name": "La Pergola",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zi Rosetta - Ristorante Osteria Romana",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "8 Via della Rosetta, 00186, Roma",
+   "website": "https://linktr.ee/zirosetta"
+  },
+  {
+   "name": "Mi'Ndujo",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "79 Via Catania",
+   "website": "https://www.mindujo.it/"
+  },
+  {
+   "name": "Gandhi 2",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "29 Via Genova, 00186",
+   "website": "https://www.gandhiroma2.eu/"
+  },
+  {
+   "name": "Cicciotto O'Milionario",
+   "cuisines": [
+    "Italian Pizza",
+    "Italian"
+   ],
+   "address": "89 Via Fabio Massimo, 00192, Roma",
+   "website": "https://cicciotto.pizza"
+  },
+  {
+   "name": "Target",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "33 Via Torino, 00184, Roma",
+   "website": "https://www.targetrestaurant.it/"
+  },
+  {
+   "name": "Dao Bistrot",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "10 Via Ogliastra",
+   "website": "https://daobistrot.it/"
+  },
+  {
+   "name": "Momart",
+   "cuisines": [
+    "Italian",
+    "Bar",
+    "Italian Pizza"
+   ],
+   "address": "19 Viale Ventuno Aprile, 00162, Roma",
+   "website": "https://www.momartcafe.it/"
+  },
+  {
+   "name": "Ristorante Sahara",
+   "cuisines": [
+    "International",
+    "African",
+    "Erithrean",
+    "Ethiopian"
+   ],
+   "address": "63 Viale Ippocrate, 00161, Roma",
+   "website": "https://www.ristorante-sahara.com"
+  },
+  {
+   "name": "Kisaki Ramen & Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Ramen",
+    "Asian"
+   ],
+   "address": "54 Via Marianna Dionigi, 00193, Roma",
+   "website": "https://www.kisaki.it"
+  },
+  {
+   "name": "Buddy Veggy Restaurant Cafè",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Cake",
+    "Coffee Shop",
+    "Fine Dining",
+    "Italian"
+   ],
+   "address": "107 Corso Vittorio Emanuele Secondo, 00186, Roma",
+   "website": "https://www.buddyroma.com/"
+  },
+  {
+   "name": "Ristorante e Pinseria — Saba Caffè & Cucina",
+   "cuisines": [
+    "Italian",
+    "Pasta",
+    "Pizza"
+   ],
+   "address": "30 Via di San Saba, 00153",
+   "website": "https://sabaroma.it"
+  },
+  {
+   "name": "Eataly Roma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Piazzale XII Ottobre 1492, 00100, Roma",
+   "website": "https://www.eataly.net/it_it/negozi/roma/"
+  },
+  {
+   "name": "Il Brigantino",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "50 Via di San Martino ai Monti, 00184, Roma",
+   "website": "https://www.brigantinopizzeria.it/"
+  },
+  {
+   "name": "4 e 4'Otto by \"Luzzi\" dal 1945",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Via San Giovanni in Laterano, 88, 00184, Roma",
+   "website": "https://www.trattorialuzzi.it/4e4otto-by-luzzi/"
+  },
+  {
+   "name": "Manzoni",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "105 Viale Manzoni, 00185, Roma",
+   "website": "https://www.trattoriamanzoni.it/"
+  },
+  {
+   "name": "Voi",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "24 Via Giovanni Mingazzini",
+   "website": "https://voiroma.it/"
+  },
+  {
+   "name": "Kilo",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "28/30 Via della Lega Lombarda",
+   "website": "https://www.kilorestaurant.it/"
+  },
+  {
+   "name": "Washington",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Italian",
+    "Regional"
+   ],
+   "address": "4 Via del Viminale, 00184",
+   "website": "https://caffewashington.com"
+  },
+  {
+   "name": "Otello",
+   "cuisines": [
+    "Italian",
+    "Pizza",
+    "Regional"
+   ],
+   "address": "47/53 Via della Pelliccia",
+   "website": "https://www.trastevere-trattoria-otello.it/"
+  },
+  {
+   "name": "Dar Poeta",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "45 Vicolo del Bologna, Roma",
+   "website": "https://www.darpoeta.com/"
+  },
+  {
+   "name": "Tonnarello",
+   "cuisines": [
+    "Italian Pizza",
+    "Pasta",
+    "Regional"
+   ],
+   "address": "1 Via della Paglia, 00153, Roma",
+   "website": "https://tonnarello.it/"
+  },
+  {
+   "name": "La Matriciana",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "44 Via del Viminale, 00184, Roma",
+   "website": "https://www.lamatriciana.it/"
+  },
+  {
+   "name": "Mangiafuoco",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "37 Via Chiana, 00198, Roma",
+   "website": "http://www.mangiafuoco.org"
+  },
+  {
+   "name": "Beef Bazaar",
+   "cuisines": [
+    "Barbecue",
+    "Burger",
+    "Italian",
+    "Steak House"
+   ],
+   "address": "136 Via Germanico, 00192, Roma",
+   "website": "https://www.beefbazaar.it/"
+  },
+  {
+   "name": "Igio",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "26 Via Roma Libera, 00153, Roma",
+   "website": "https://ristoranteigio.com/"
+  },
+  {
+   "name": "Squarcia macelleria e ristorante Antichi Sapori",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "115 Via delle Sette Chiese, 00145, Roma",
+   "website": "https://www.facebook.com/Antichi-Sapori-by-Macelleria-Fratelli-Squarcia-1441728122797578/"
+  },
+  {
+   "name": "Gainn",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "18 Via dei Mille, 00185, Roma",
+   "website": "http://www.gainnrome.com/"
+  },
+  {
+   "name": "La Prosciutteria Roma Trevi - Cantina dei Papi",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "34a Via della Panetteria, 00187, Roma",
+   "website": "https://www.cantinadeipapi.com/prosciutteria-cantina-dei-papi-trevi-contatti/"
+  },
+  {
+   "name": "Mino",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "18 Via Milazzo, 00185, Roma",
+   "website": "https://www.ristorantemino.it/"
+  },
+  {
+   "name": "Felice a Testaccio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "29 Via Mastro Giorgio, 00153, Roma",
+   "website": "https://www.feliceatestaccio.com/"
+  },
+  {
+   "name": "PizzaRe",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "14 Via di Ripetta, Roma",
+   "website": "https://www.pizzare.it/"
+  },
+  {
+   "name": "Beppe e i suoi formaggi",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "9a11 Via di Santa Maria del Pianto, 00186, Roma",
+   "website": "http://beppeeisuoiformaggi.it"
+  },
+  {
+   "name": "Giulietta",
+   "cuisines": [
+    "Regional",
+    "Italian"
+   ],
+   "address": "169 Via Giulia, 00186, Roma",
+   "website": "https://www.giuliettavinoecucina.com/"
+  },
+  {
+   "name": "Osteria Il riposto",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://osteriailriposto.it"
+  },
+  {
+   "name": "Rossopomodoro",
+   "cuisines": [
+    "Pizza",
+    "Seafood"
+   ],
+   "address": "1 Largo di Torre Argentina, Roma",
+   "website": "https://www.rossopomodoro.it/ristoranti/ROMA/largoargentina"
+  },
+  {
+   "name": "L'Isola dei Sardi due",
+   "cuisines": [
+    "Pizza",
+    "Seafood"
+   ],
+   "address": "1/9 Vicolo della Garbatella, 00154, Roma",
+   "website": "https://www.isoladeisardidue.com/"
+  },
+  {
+   "name": "Kisaki Ramen Lab - Kitchen & Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "6 Piazza dell'Unità, 00192, Roma",
+   "website": "https://www.kisaki.it/lab"
+  },
+  {
+   "name": "pizzeria Baffetto 2",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "13 Vicolo della Cancelleria, 00186, Roma",
+   "website": "https://www.baffetto2.it/"
+  },
+  {
+   "name": "Il Secchio e l'Olivaro Garbatella",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "188 Via delle Sette Chiese, Roma",
+   "website": "https://www.ilsecchioelolivaro.it/"
+  },
+  {
+   "name": "Grazia & Graziella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "7 Piazza Scipione Ammirato",
+   "website": "https://graziaegraziella.it/"
+  },
+  {
+   "name": "Terre e Domus",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "82-84 Foro Traiano, 00187, Roma",
+   "website": "https://www.facebook.com/terreedomusristoranteroma/"
+  },
+  {
+   "name": "Made Bakery",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "30 Via dei Coronari, 00186, Roma",
+   "website": "https://www.tavernagape.it/pizzeria-rionale-agape/"
+  },
+  {
+   "name": "Ar Grottino der Traslocatore",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "2 Largo delle Sette Chiese, 00145, Roma",
+   "website": "https://www.argrottinodertraslocatore.com/"
+  },
+  {
+   "name": "Da Augusto",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "15 Piazza de' Renzi, 00153, Roma",
+   "website": "https://www.trattoria-romana.it/da/augusto"
+  },
+  {
+   "name": "433 restaurant & drink",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "123 Via del Governo Vecchio",
+   "website": "https://www.ristorante-433-roma.com/"
+  },
+  {
+   "name": "Ristorante Merulana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "138 Via Merulana, 00185, Roma",
+   "website": "https://www.merulana.it/"
+  },
+  {
+   "name": "Ramen Shifu Roma Trastevere",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "4 Viale di Trastevere, 00153",
+   "website": "https://ramenshifu.it/trastevere-roma/"
+  },
+  {
+   "name": "Ristorante il Focolare",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "40 Via Gabriele Rossetti, 00152, Roma",
+   "website": "http://www.ristorante-ilfocolare.it"
+  },
+  {
+   "name": "Mr. Manzo",
+   "cuisines": [
+    "Pizza",
+    "Steak House",
+    "Regional",
+    "Grill"
+   ],
+   "address": "82 Via Alberto da Giussano, 00176, Roma",
+   "website": "https://www.ristorantepigneto.it/"
+  },
+  {
+   "name": "Da Francesco",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "29 Piazza del Fico, 00186, Roma",
+   "website": "https://www.dafrancesco.it"
+  },
+  {
+   "name": "Strega",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "29 Piazza del Viminale, 00184, Roma",
+   "website": "https://www.ristorantestrega.eu/"
+  },
+  {
+   "name": "Da Bucatino",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "84;86 Via Luca della Robbia, 00153, Roma",
+   "website": "https://www.dabucatino.it/"
+  },
+  {
+   "name": "L'Idillio",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "29 Via Augusto Dulceri, 00176, Roma",
+   "website": "https://www.idillio.net/"
+  },
+  {
+   "name": "Sushi House Roma",
+   "cuisines": [
+    "Asian",
+    "Fish",
+    "Friture",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "150 Viale Ippocrate, 00161, Roma",
+   "website": "https://sushi-house-take-away.business.site/"
+  },
+  {
+   "name": "Pizzeria La Montecarlo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "13 Vicolo Savelli, 00186, Roma",
+   "website": "https://www.lamontecarlo.it/"
+  },
+  {
+   "name": "Chihana sushi restaurant",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "181 Via Marmorata, 00153, Roma",
+   "website": "https://chihanaroma.com/"
+  },
+  {
+   "name": "Necci dal 1924",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "68 Via Fanfulla da Lodi, 00176, Roma",
+   "website": "https://www.necci1924.com/"
+  },
+  {
+   "name": "The 2 Columns",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "18 Via Liberiana, 00184, Roma",
+   "website": "http://www.leduecolonne.it"
+  },
+  {
+   "name": "Vigneto",
+   "cuisines": [
+    "International"
+   ],
+   "address": "26/27 Piazza dei Condottieri, 00176, Roma",
+   "website": "https://www.facebook.com/enotecavigneto/"
+  },
+  {
+   "name": "Old Wild West",
+   "cuisines": [
+    "American"
+   ],
+   "address": "25 Via Tiburtina, 00185, Roma",
+   "website": "https://www.oldwildwest.it/"
+  },
+  {
+   "name": "La pecora pazza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "35 Via Statilia, 00185, Roma",
+   "website": "http://www.lapecorapazza.it/"
+  },
+  {
+   "name": "Bacco In Trastevere",
+   "cuisines": [
+    "Regional",
+    "Romana",
+    "Tradisionale"
+   ],
+   "address": "14 Piazza di San Giovanni della Malva, Roma",
+   "website": "https://baccointrastevere.shop/"
+  },
+  {
+   "name": "Pizza Forum",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "38",
+   "website": "https://www.pizzaforumroma.it/"
+  },
+  {
+   "name": "Passpartout",
+   "cuisines": [
+    "Local",
+    "Italian",
+    "Mediterranean",
+    "Salad",
+    "Pasta",
+    "Fish",
+    "Burger"
+   ],
+   "address": "50 Borgo Pio, 00193, Roma",
+   "website": "https://www.passpartoutroma.it/"
+  },
+  {
+   "name": "CIBO Limata",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "4 Via Catanzaro, 00161, Roma",
+   "website": "https://www.cibolimata.com/"
+  },
+  {
+   "name": "Taverna Severo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "13 Via Lugnano in Teverina, 00181",
+   "website": "http://tavernasevero.it"
+  },
+  {
+   "name": "Rosti",
+   "cuisines": [
+    "Italian",
+    "Burger"
+   ],
+   "address": "65 Via Bartolomeo d'Alviano, 00176, Roma",
+   "website": "https://www.rostialpigneto.it/"
+  },
+  {
+   "name": "Papilla",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "43 Via Veturia, 00181, Roma",
+   "website": "https://www.pizzeriapapilla.com/"
+  },
+  {
+   "name": "Il Baffetto",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "114 Via del Governo Vecchio, 00186, Roma",
+   "website": "https://www.pizzeriabaffetto.it/"
+  },
+  {
+   "name": "Renato e Luisa",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "25 Via dei Barbieri, 00186, Roma",
+   "website": "https://www.renatoeluisa.it/"
+  },
+  {
+   "name": "La Torricella 2",
+   "cuisines": [
+    "Pizza",
+    "Regional",
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "192 Circonvallazione Ostiense, 00154, Roma",
+   "website": "http://www.la-torricella.com/torricella2/"
+  },
+  {
+   "name": "dal pallarolo 1936",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "4/5 Via di Ripetta, 00186",
+   "website": "https://www.dalpollarolo1936.it/"
+  },
+  {
+   "name": "Ba'Ghetto",
+   "cuisines": [
+    "Jewish-Italian"
+   ],
+   "address": "57 Via del Portico d'Ottavia, 00186, Roma",
+   "website": "http://www.kosherinrome.it"
+  },
+  {
+   "name": "Taberna Persiana",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "36G Via Ostiense, 00154, Roma",
+   "website": "http://www.tabernapersiana.it"
+  },
+  {
+   "name": "Mama! Eat",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "7 Via di San Cosimato, 00153, Roma",
+   "website": "www.mamaeatroma.it"
+  },
+  {
+   "name": "VyTA Enoteca Regionale del Lazio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "94 Via Frattina, 00187, Roma",
+   "website": "https://enotecapalatium.it/"
+  },
+  {
+   "name": "Cesare",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "13 Via Crescenzio, Roma",
+   "website": "https://www.ristorantecesare.com/"
+  },
+  {
+   "name": "Canonica",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "13A Vicolo del Piede, 00153, Roma",
+   "website": "https://www.lacanonicaristorante.it"
+  },
+  {
+   "name": "Cantine Cavour",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "21 Via Paolo Mercuri, 00193, Roma",
+   "website": "http://www.cantinecavour.it/"
+  },
+  {
+   "name": "La Tavernetta Cucina Umbra",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "103 Viale Giulio Cesare, 00192, Roma",
+   "website": "http://www.latavernettaumbra.com"
+  },
+  {
+   "name": "Il Tarallo in Trastevere",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "3 Vicolo della Scala, 00153, Roma",
+   "website": "http://www.ristoranteiltarallo.com"
+  },
+  {
+   "name": "Origano Trevi",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "23/25 Via di Sant'Andrea delle Fratte, 00187, Roma",
+   "website": "https://origanotrevi.com/"
+  },
+  {
+   "name": "La Cucaracha",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "10a Via Mocenigo, 00192, Roma",
+   "website": "https://www.lacucaracha.it/"
+  },
+  {
+   "name": "Da Trani",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "20 Via Genova, 00184, Roma",
+   "website": "http://www.ristorantedatrani.com/"
+  },
+  {
+   "name": "That's Amore",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "115 Via in Arcione, 00187, Roma",
+   "website": "https://thats-amore.it/"
+  },
+  {
+   "name": "Ramen Bar Akira",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "73f Via Ostiense, 00154, Roma",
+   "website": "https://ramenbarakira.com/"
+  },
+  {
+   "name": "Amedeo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "16 Via Principe Amedeo, 00185, Roma",
+   "website": "https://www.amedeoristorante.com/"
+  },
+  {
+   "name": "Mercato centrale",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "36 Via Giovanni Giolitti, 00185, Roma",
+   "website": "https://www.mercatocentrale.it/roma/"
+  },
+  {
+   "name": "Trieste Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "112 Via Urbana, 00184, Roma",
+   "website": "https://www.trieste.pizza/"
+  },
+  {
+   "name": "06 Osteria Cucina Romana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "38 Via del Leoncino, 00186, Roma",
+   "website": "https://www.06osteria.com/"
+  },
+  {
+   "name": "Taverna Urbana",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "137 Via Urbana, 00184, Roma",
+   "website": "https://www.tavernaurbana.com/"
+  },
+  {
+   "name": "Taverna Giulia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "23 Vicolo dell'Oro, 00186, Roma",
+   "website": "http://www.tavernagiulia.it/"
+  },
+  {
+   "name": "Berberè",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5 Via Mantova, 00198",
+   "website": "https://www.berberepizza.it/berbere-roma-porta-pia/"
+  },
+  {
+   "name": "Frontoni",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "117 Via Assisi, 00181, Roma",
+   "website": "https://www.anticapizzeriafrontoni.it/"
+  },
+  {
+   "name": "Ristorante Isidoro",
+   "cuisines": [
+    "Seafood",
+    "Mediterranean",
+    "Pasta",
+    "Italian"
+   ],
+   "address": "59a Via di San Giovanni in Laterano, 00184",
+   "website": "https://www.hostariaisidoro.com/"
+  },
+  {
+   "name": "Ornelli",
+   "cuisines": [
+    "Italian",
+    "Steak House"
+   ],
+   "address": "224 Via Merulana, 00185, Roma",
+   "website": "http://www.ornelliristorantecaffe.it"
+  },
+  {
+   "name": "Il Fiammifero Strano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "32 Via Lombardia, 00187",
+   "website": "https://www.facebook.com/people/Il-Fiammifero-Strano/100054236030400/"
+  },
+  {
+   "name": "Saravanaa Bhavan",
+   "cuisines": [
+    "Chinese",
+    "Indian"
+   ],
+   "address": "1 Via Volturno, 00185",
+   "website": "https://saravanaabhavanroma.it/"
+  },
+  {
+   "name": "Osteria Olivia",
+   "cuisines": [
+    "Italian",
+    "Local"
+   ],
+   "address": "110 Via dei Serpenti, 00184",
+   "website": "https://bzarhotels.it/osteria-oliva/"
+  },
+  {
+   "name": "Enotico",
+   "cuisines": [
+    "Regional",
+    "Dessert"
+   ],
+   "address": "85 Via Giovanni Amendola, 00185, Roma",
+   "website": "https://enoticobistrot.com/"
+  },
+  {
+   "name": "Pizzeria ai Marmi",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "53 Viale di Trastevere, 00153, Roma",
+   "website": "http://m.facebook.com/aimarmi"
+  },
+  {
+   "name": "Da Giggetto",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "21/A - 22 Via Portico d'Ottavia, 00186, Roma",
+   "website": "https://www.giggetto.it/"
+  },
+  {
+   "name": "Enoteca Cavour 313",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "313 Via Cavour, 00184",
+   "website": "https://www.cavour313.it/"
+  },
+  {
+   "name": "Nonna Betta",
+   "cuisines": [
+    "Jewish",
+    "Italian"
+   ],
+   "address": "16 Via del Portico d'Ottavia, 00186, Roma",
+   "website": "https://www.nonnabetta.it/"
+  },
+  {
+   "name": "La Santeria",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "209 Via del Pigneto, 00176, Roma",
+   "website": "https://www.lasanteria.it/"
+  },
+  {
+   "name": "Glass Hostaria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "58 Vicolo del Cinque, 00153, Roma",
+   "website": "https://glasshostaria.it/"
+  },
+  {
+   "name": "La Scala in Trastevere",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "58 Piazza della Scala, 00153, Roma",
+   "website": "https://www.ristorantelascala.it/"
+  },
+  {
+   "name": "Baccano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "23 Via delle Muratte, 00187, Roma",
+   "website": "https://www.baccanoroma.com/"
+  },
+  {
+   "name": "Il Convivio Troiani",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "31 Vicolo dei Soldati, 00186, Roma",
+   "website": "http://www.ilconviviotroiani.com"
+  },
+  {
+   "name": "Hostaria Cannavota",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "20 Piazza di San Giovanni in Laterano, 00184, Roma",
+   "website": "https://www.cannavota.it/"
+  },
+  {
+   "name": "Propaganda Italian Cusine",
+   "cuisines": [
+    "Italian",
+    "Coffee Shop"
+   ],
+   "address": "15 Via Claudia, 00184, Roma",
+   "website": "https://www.propagandaitaliancuisine.it/"
+  },
+  {
+   "name": "Babette",
+   "cuisines": [
+    "Italian",
+    "International",
+    "Creative"
+   ],
+   "address": "1/d Via Margutta",
+   "website": "www.babetteristorante.it"
+  },
+  {
+   "name": "Flavio al Velavevodetto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "97 Via di Monte Testaccio, 00153, Roma",
+   "website": "https://www.ristorantevelavevodetto.it/"
+  },
+  {
+   "name": "L’Isola della Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "45 Via degli Scipioni, 00192",
+   "website": "http://isoladellapizza.com"
+  },
+  {
+   "name": "Ristorante Maestrale",
+   "cuisines": [
+    "Fish",
+    "Friture",
+    "Italian",
+    "Pasta",
+    "Seafood"
+   ],
+   "address": "5 Piazza Elio Callistio, 00199, Roma",
+   "website": "https://www.ristorantemaestrale.com/"
+  },
+  {
+   "name": "Tempio di Mecenate",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "14 Largo Leopardi, 00185, Roma",
+   "website": "https://www.tempiodimecenate.it/"
+  },
+  {
+   "name": "Pan Divino",
+   "cuisines": [
+    "Italian",
+    "Spanish"
+   ],
+   "address": "39 Via Del Paradiso, 00186",
+   "website": "https://www.facebook.com/PanDivino-559613234140028/"
+  },
+  {
+   "name": "Pasta Imperiale",
+   "cuisines": [
+    "Pasta",
+    "Salad",
+    "Piadina"
+   ],
+   "address": "112 Via del Boschetto, 00184, Roma",
+   "website": "https://www.pastaimperiale.com/"
+  },
+  {
+   "name": "Ristorante Tacito",
+   "cuisines": [
+    "Apulian"
+   ],
+   "address": "18 Via Tacito",
+   "website": "https://www.tacitoroma.it/"
+  },
+  {
+   "name": "Gastrò Cibo E Caffè",
+   "cuisines": [
+    "Italian",
+    "International"
+   ],
+   "address": "168 Via Prenestina, Roma",
+   "website": "http://www.gastrociboecaffe.it/"
+  },
+  {
+   "name": "Zi Gaetana",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "263 Via Cola di Rienzo, 00192, Roma",
+   "website": "https://www.zigaetana.com/IT"
+  },
+  {
+   "name": "Doppiozeroo",
+   "cuisines": [
+    "Italian",
+    "Brunch"
+   ],
+   "address": "68 Via Ostiense, 00154, Roma",
+   "website": "https://doppiozeroo.com/"
+  },
+  {
+   "name": "Fradiavolo Pizzeria - Roma Ostiense",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "7c Via del Porto Fluviale, 00154",
+   "website": "https://fradiavolopizzeria.com"
+  },
+  {
+   "name": "Domò Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "21 Via Novara, 00198, Roma",
+   "website": "https://www.domosushi.it/"
+  },
+  {
+   "name": "Taverna 51",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza",
+    "Pizza"
+   ],
+   "address": "85 Via della Lungaretta, Roma",
+   "website": "https://www.taverna51.com/"
+  },
+  {
+   "name": "Antica Birreria Viennese",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "21 Via della Croce, 00187",
+   "website": "http://anticabirreriaviennese.com"
+  },
+  {
+   "name": "Terra di Siena",
+   "cuisines": [
+    "Tuscan"
+   ],
+   "address": "78 Piazza di Pasquino, 00186",
+   "website": "https://www.ristoranteterradisiena.com/"
+  },
+  {
+   "name": "Ristorante Centro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "61 Via Cavour, 00184, Roma",
+   "website": "https://www.ristorantecentro.it"
+  },
+  {
+   "name": "Antica Bohéme",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "4 Via Napoli, 00184, Roma",
+   "website": "https://www.anticaboheme.it/"
+  },
+  {
+   "name": "Tema",
+   "cuisines": [
+    "Italian",
+    "Mediterranean"
+   ],
+   "address": "98 Via Panisperna, 00184, Roma",
+   "website": "http://www.ristorantetema.com/"
+  },
+  {
+   "name": "Nannarella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "41 Piazza Trilussa, 00153",
+   "website": "https://www.nannarellaroma.it/"
+  },
+  {
+   "name": "Ristorante Puntarella",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "10 Piazza del Drago, 00153, Roma",
+   "website": "https://ristorantepuntarella.it/"
+  },
+  {
+   "name": "Seu Pizza Illuminati",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "10-18 Via Angelo Bargoni, 00153, Roma",
+   "website": "https://www.seupizza.com/"
+  },
+  {
+   "name": "Trattoria Pizzeria Luzzi",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "88 Via di San Giovanni in Laterano, Roma",
+   "website": "https://trattorialuzzi.it/il-nostro-menu/"
+  },
+  {
+   "name": "DA MASSI",
+   "cuisines": [
+    "Local",
+    "Italian",
+    "Pasta"
+   ],
+   "address": "34 Via della Scala, 00153, Roma",
+   "website": "https://www.ristorantedamassi.com"
+  },
+  {
+   "name": "Tuk Tuk Ride",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "125 Via Giovannipoli, 00145",
+   "website": "http://tuktukride.it"
+  },
+  {
+   "name": "Il mondo d’oro",
+   "cuisines": [
+    "Chinese",
+    "Japanese"
+   ],
+   "address": "112 Via Genzano, 00179, Roma",
+   "website": "https://www.ristorantemondodoro.it/"
+  },
+  {
+   "name": "Waraku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "321a Via Prenestina, 00177, Roma",
+   "website": "https://warakuramen.com/"
+  },
+  {
+   "name": "Hokkaido",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "12 Via del Castro Pretorio, 00185, Roma",
+   "website": "https://www.ristorantehokkaido.com/"
+  },
+  {
+   "name": "The Bramble",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "40 Via Vicenza, 00185, Roma",
+   "website": "https://bramblebar.com"
+  },
+  {
+   "name": "Hokusai Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "123 Via Prenestina, 00176",
+   "website": "https://www.hokusairamen.it/"
+  },
+  {
+   "name": "Pho 1",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "115,116 Via Merulana, 00185, Roma",
+   "website": "https://pho1.eu/"
+  },
+  {
+   "name": "ilGaudio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "59 Via dei Volsci",
+   "website": "https://www.ilgaudio.it"
+  },
+  {
+   "name": "II Riqtoro dal Patriota",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "76 Piazza dell'Accademia di San Luca, 00187, Roma",
+   "website": "https://www.dalpatriota.it"
+  },
+  {
+   "name": "Colors Vegan Sushi",
+   "cuisines": [
+    "Fish",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "52 Via Festo Avieno, 00136, Roma",
+   "website": "https://colors.superbexperience.com"
+  },
+  {
+   "name": "Wild Ginger Restaurant",
+   "cuisines": [
+    "Thai",
+    "Japanese",
+    "Sushi",
+    "Chinese",
+    "Asian"
+   ],
+   "address": "97 Via Ostiense, 00154",
+   "website": "http://wildginger.it"
+  },
+  {
+   "name": "Bottega67",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "67 Via dei Santi Quattro, 00184",
+   "website": "https://bottega67.it/"
+  },
+  {
+   "name": "HanCook Ristorante Coreano Roma (한쿡)",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "84 Via Taranto, 00182, Roma",
+   "website": "https://instagram.com/ristorante_hancook"
+  },
+  {
+   "name": "Mr.Zhao",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "38 Circonvallazione Trionfale, 00136, Roma",
+   "website": "https://mrzhao.it"
+  },
+  {
+   "name": "Trattoria Da Lucia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2b Vicolo del Mattonato, 00153, Roma",
+   "website": "http://www.trattoriadalucia.com"
+  },
+  {
+   "name": "Royal art café",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1 Piazza del Colosseo, 00184",
+   "website": "https://www.royalartcafe.it/"
+  },
+  {
+   "name": "La taverna del ghetto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "8 Via del Portico d'Ottavia, 00186, Roma",
+   "website": "https://www.latavernadelghetto.com/"
+  },
+  {
+   "name": "Spirito Divino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "13А Via dei Genovesi, 00153, Roma",
+   "website": "http://www.ristorantespiritodivino.com/"
+  },
+  {
+   "name": "Aristocampo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "53 Via della Scala, 00153, Roma",
+   "website": "http://www.aristocampo.net"
+  },
+  {
+   "name": "Antico Arco",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "7 Piazzale Aurelio, 00152, Roma",
+   "website": "https://www.anticoarco.it/"
+  },
+  {
+   "name": "Vecchia Roma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "12/a Via Ferruccio, 00185, Roma",
+   "website": "https://www.trattoriavecchiaroma.it/"
+  },
+  {
+   "name": "Gregory's Live Jazz & Dinner Club",
+   "cuisines": [
+    "International",
+    "Italian"
+   ],
+   "address": "54 Via Gregoriana, 00187, Roma",
+   "website": "https://www.gregorysjazz.com/"
+  },
+  {
+   "name": "Navona Notte",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "44 Via del Teatro Pace, 00186, Roma",
+   "website": "http://ristorantenavonanotte.it"
+  },
+  {
+   "name": "Jaipur",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "56 Via di San Francesco a Ripa, 00153, Roma",
+   "website": "https://www.ristorantejaipur.com/"
+  },
+  {
+   "name": "Ad Hoc Piazza del popolo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "43 Via di Ripetta, Roma",
+   "website": "https://www.ristoranteadhoc.com/"
+  },
+  {
+   "name": "Moma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "42 Via di San Basilio, 00187, Roma",
+   "website": "https://www.ristorantemoma.it/"
+  },
+  {
+   "name": "Achilli Enoteca al Parlamento",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "15 Via dei Prefetti, Roma",
+   "website": "https://achilli.restaurant"
+  },
+  {
+   "name": "Armando al Pantheon",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "31 Salita de' Crescenzi, Roma",
+   "website": "https://www.armandoalpantheon.it/"
+  },
+  {
+   "name": "Trattoria de Gli Amici",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "6 Piazza di Sant'Egidio, Roma",
+   "website": "https://www.trattoriadegliamici.org/"
+  },
+  {
+   "name": "Ivo a Trastevere",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "158 Via di San Francesco a Ripa, 00153",
+   "website": "https://ivoatrastevere.it/"
+  },
+  {
+   "name": "Birrificio Marconi",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "71 - 73 Via Enrico Fermi, 00146, Roma",
+   "website": "https://www.birrificiomarconi.com"
+  },
+  {
+   "name": "Obicà Parlamento",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "26 Via dei Prefetti, 00187",
+   "website": "https://obica.com/"
+  },
+  {
+   "name": "Il gallo nero",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "7/h Via Principe Amedeo, 00185, Roma",
+   "website": "https://www.ristorantegalloneroroma.it/"
+  },
+  {
+   "name": "La Locanda di Eugenio e Fabio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "43 Via Crescenzio, 00193, Roma",
+   "website": "https://www.facebook.com/La-Locanda-di-Eugenio-e-Fabio-385178674905542"
+  },
+  {
+   "name": "Trattoria La Pancia Felice",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "10 Via di Porta Castello, 00193",
+   "website": "https://www.panciafelice.it/"
+  },
+  {
+   "name": "Cantina e Cucina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "87 Via del Governo Vecchio, 00186",
+   "website": "https://www.cantinaecucina.it/"
+  },
+  {
+   "name": "Roma Sparita",
+   "cuisines": [
+    "Pizza",
+    "Pasta",
+    "Local",
+    "Italian"
+   ],
+   "address": "24 Piazza di Santa Cecilia, 00153",
+   "website": "https://www.romasparita.com/"
+  },
+  {
+   "name": "Hostaria da Vincenzo",
+   "cuisines": [
+    "Italian",
+    "Fish"
+   ],
+   "address": "4/a Via Castelfidardo, 00185, Roma",
+   "website": "https://www.hostariadavincenzo.it/"
+  },
+  {
+   "name": "The Meat Market Grill",
+   "cuisines": [
+    "Steak House",
+    "Burger",
+    "Italian"
+   ],
+   "address": "318;320;322 Corso Vittorio Emanuele II, 00186, Roma",
+   "website": "http://themeatmarket.it"
+  },
+  {
+   "name": "Trapizzino Testaccio",
+   "cuisines": [
+    "Regional",
+    "Italian"
+   ],
+   "address": "88 Via Giovanni Branca, 00153, Roma",
+   "website": "https://trapizzino.it/"
+  },
+  {
+   "name": "Lumière",
+   "cuisines": [
+    "Bistro"
+   ],
+   "address": "25 Via Cicerone, 00193",
+   "website": "https://www.lumiereroma.com/"
+  },
+  {
+   "name": "Clemente Alla Maddalena",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "10 Piazza della Maddalena, 00186, Roma",
+   "website": "http://www.lamaddalenaroma.com"
+  },
+  {
+   "name": "Il Secchio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "36 Via Daniele Manin, 00185, Roma",
+   "website": "http://www.secchiorestaurant.it"
+  },
+  {
+   "name": "Fonzie - The Burger's House",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "13 Via Santa Maria del Pianto, 00186, Roma",
+   "website": "https://www.fonzietheburgershouse.com"
+  },
+  {
+   "name": "Al Simeto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "30/32 Via Simeto, 00198, Roma",
+   "website": "https://www.alsimeto.com/"
+  },
+  {
+   "name": "Blu marino",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "29; Via Terni, 00182, Roma",
+   "website": "https://ristoranteblumarino.it/"
+  },
+  {
+   "name": "Ristorante Gandhi Roma 1",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "124 Via Pellegrino Matteucci, 00154, Roma",
+   "website": "https://www.gandhiroma.it/"
+  },
+  {
+   "name": "Ristorante Massawa",
+   "cuisines": [
+    "African",
+    "Eritrean"
+   ],
+   "address": "28 Via Montebello, 00185, Roma",
+   "website": "http://www.massawa.it/"
+  },
+  {
+   "name": "Il Garigliano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "70a Via Garigliano, 00198",
+   "website": "http://ristoranteilgarigliano.it"
+  },
+  {
+   "name": "Ristorante Julie's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "65 Via Palestro, 00185, Roma",
+   "website": "https://ristorantejulies.metro.bar/"
+  },
+  {
+   "name": "Osteria dell'Arco",
+   "cuisines": [
+    "Italian",
+    "Wine"
+   ],
+   "address": "11 Via Giacomo Pagliari, 00168, Roma",
+   "website": "https://www.osteriadellarco.net"
+  },
+  {
+   "name": "Antico Forno a Testaccio",
+   "cuisines": [
+    "Italian",
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "28 Via Amerigo Vespucci, 00153, Roma",
+   "website": "https://www.anticofornotestaccio.com/"
+  },
+  {
+   "name": "Il Melarancio",
+   "cuisines": [
+    "Italian",
+    "Local"
+   ],
+   "address": "43 Via del Vantaggio, 00186, Roma",
+   "website": "https://www.ristorantemelarancio.it/"
+  },
+  {
+   "name": "Pirò",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "36 Vicolo della Cancelleria, 00186, Roma",
+   "website": "https://www.piroosteriadipesce.it/"
+  },
+  {
+   "name": "Luigi",
+   "cuisines": [
+    "Regional",
+    "Italian"
+   ],
+   "address": "55 Via Magenta, 00185, Roma",
+   "website": "https://www.ristoranteluigiroma.it/"
+  },
+  {
+   "name": "Crazy Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "167 Via Vittorio Veneto, 00187, Roma",
+   "website": "https://crazypizza.com/rome/"
+  },
+  {
+   "name": "Tian Ci Chong Qing Farm Hotpot",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "57 Via Barberini, 00187, Roma",
+   "website": "https://www.facebook.com/tiancihotpot"
+  },
+  {
+   "name": "Bella Napoli",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "11 Via Alessandria, 00198, Roma",
+   "website": "https://www.pizzerialabellanapoli.com/"
+  },
+  {
+   "name": "Marè osteria",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "225 Viale Regina Margherita, 00198",
+   "website": "https://osteriamare.it"
+  },
+  {
+   "name": "Perdinci Bistrò",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "8 Via della Stazione di San Pietro, Roma",
+   "website": "https://www.perdincibistro.it/"
+  },
+  {
+   "name": "Leon",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "22 Via Nocera Umbra, 00181, Roma",
+   "website": "https://www.filetterialeon.com/"
+  },
+  {
+   "name": "Annapoorna",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/annapoornaristoranteindiano/"
+  },
+  {
+   "name": "kokoro",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "717 Via Tiburtina, 00159",
+   "website": "https://www.kokorosushiroma.com/"
+  },
+  {
+   "name": "Sushi and noodles",
+   "cuisines": [
+    "Asian",
+    "Chinese",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "117 Viale Aventino",
+   "website": "https://sushienoodles.it"
+  },
+  {
+   "name": "Zoé Pasta Evolution",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "83a Via delle Fornaci, 00165, Roma",
+   "website": "https://www.zoefood.it/"
+  },
+  {
+   "name": "Tandoori",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "193 Via del Pigneto, 00176, Roma",
+   "website": "http://www.tigertandoori.com"
+  },
+  {
+   "name": "Pizzeria Ristorante Marcantonio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "146 Borgo Pio, 00193, Roma",
+   "website": "https://ristorantemarcantonio.it/"
+  },
+  {
+   "name": "Tanto pe'...Magnà",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "9/15 Via Giustino de Jacobis, Roma",
+   "website": "https://www.trattoria-romana.it/"
+  },
+  {
+   "name": "I clementini",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "106 Via di San Giovanni in Laterano, 00184, Roma",
+   "website": "https://www.iclementini.it/"
+  },
+  {
+   "name": "alla Rampa",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "18 Piazza Mignanelli, 00187, Roma",
+   "website": "https://www.allarampa.it/"
+  },
+  {
+   "name": "EnOsteria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "51A Via di Capo le Case",
+   "website": "https://www.enosteria.it"
+  },
+  {
+   "name": "Kiki's Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "9 Via Beniamino Franklin, 00153, Roma",
+   "website": "https://kikiskitchen.net/"
+  },
+  {
+   "name": "Ginger",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "43/44 Via Borgognona, Roma",
+   "website": "http://www.ginger.roma.it"
+  },
+  {
+   "name": "Life",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "29 Via della Vite, Roma",
+   "website": "http://www.ristorantelife.it"
+  },
+  {
+   "name": "Crispi 19",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "19 Via Francesco Crispi, Roma",
+   "website": "https://ristorantecrispi19.com/"
+  },
+  {
+   "name": "Osteria 44",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "42/44 Via Aureliana, Roma",
+   "website": "https://www.osteriaquarantaquattro.com/"
+  },
+  {
+   "name": "Le Tamerici",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "79 Vicolo Scavolino, Roma",
+   "website": "https://www.letamerici.com/"
+  },
+  {
+   "name": "Osteria dell'Ingegno",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "45 Piazza di Pietra, 00186, Roma",
+   "website": "https://www.osteriadellingegno.com/"
+  },
+  {
+   "name": "All'oro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "14 Via del Vantaggio, Roma",
+   "website": "https://www.ristorantealloro.it/"
+  },
+  {
+   "name": "Chinappi",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "19 Via Augusto Valenziani, Roma",
+   "website": "https://www.chinappi.it/"
+  },
+  {
+   "name": "Domenico dal 1968",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "23/25 Via Satrico, Roma",
+   "website": "https://www.domenicodal1968.it/"
+  },
+  {
+   "name": "Gaetano Costa",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "45 Via Sicilia, Roma",
+   "website": "https://www.gaetanocostarestaurant.com"
+  },
+  {
+   "name": "Trattoria da Cencia",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1 Piazza di Santa Rufina, Roma",
+   "website": "https://www.trattoriasoracencia.it/"
+  },
+  {
+   "name": "Il Vero Alfredo",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "30 Piazza Augusto Imperatore, Roma",
+   "website": "https://alfredo-roma.it"
+  },
+  {
+   "name": "Trattoria Pizzeria Porta Maggiore",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "14 Piazza di Porta Maggiore, 00185, Roma",
+   "website": "http://trattoriapizzeriaportamaggiore.com"
+  },
+  {
+   "name": "Checco er Carettiere",
+   "cuisines": [
+    "Italian",
+    "Fish"
+   ],
+   "address": "10 Via Benedetta, 00153, Roma",
+   "website": "https://checcoercarettiere.it/"
+  },
+  {
+   "name": "Porto Fluviale",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "22 Via del Porto Fluviale, 00154, Roma",
+   "website": "https://www.portofluviale.com/"
+  },
+  {
+   "name": "DEROMA",
+   "cuisines": [
+    "Italian",
+    "Salad",
+    "Pasta",
+    "Grill",
+    "Pizza"
+   ],
+   "address": "27 Via Poli, 00187, Roma",
+   "website": "https://www.deromamor.com/"
+  },
+  {
+   "name": "La Mela D'Oro",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "157 Via di Santa Maria Maggiore, 00184, Roma",
+   "website": "https://www.ristorantelameladoro.it/"
+  },
+  {
+   "name": "II Papalino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "172 Borgo Pio, 00193, Roma",
+   "website": "http://www.ilpapalino.com/"
+  },
+  {
+   "name": "MAF",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "33 Via di Santa Costanza, 00198",
+   "website": "http://www.mafbistrot.it"
+  },
+  {
+   "name": "A casa mia",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "5/7 Via Roma Libera, 00153, Roma",
+   "website": "http://www.acasamiaristoranteroma.com"
+  },
+  {
+   "name": "Trapizzino Ponte Milvio",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "13 Piazzale di Ponte Milvio, 00135, Roma",
+   "website": "https://www.trapizzino.it/trapizzino/trapizzino-roma-ponte-milvio/"
+  },
+  {
+   "name": "I Supplì",
+   "cuisines": [
+    "Italian",
+    "Romana"
+   ],
+   "address": "137 Via di San Francesco a Ripa, 00153, Roma",
+   "website": "https://www.suppliroma.it/"
+  },
+  {
+   "name": "Bentu & Soi",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "65 Via Casilina, 00182, Roma",
+   "website": "https://www.bentuesoi.com/"
+  },
+  {
+   "name": "Porto Corallo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "26a Via di Santa Croce in Gerusalemme, 00185, Roma",
+   "website": "https://www.portocoralloristorante.it/"
+  },
+  {
+   "name": "Sfizio Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "77 Via Giovanni Giolitti, 00185, Roma",
+   "website": "http://www.sfiziopizza.it/"
+  },
+  {
+   "name": "L'Arcangelo",
+   "cuisines": [
+    "Regional",
+    "Italian"
+   ],
+   "address": "59 Via Giuseppe Gioachino Belli, 00193",
+   "website": "https://www.larcangelo.com/"
+  },
+  {
+   "name": "La mensa di Bacco",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "75/b Via Principe Amedeo, 00185, Roma",
+   "website": "http://www.mensa-di-bacco.com/"
+  },
+  {
+   "name": "Ciacco & Bacco",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "11 Via dei Ramni, 00185, Roma",
+   "website": "http://facebook.com/ciaccobacco-86509673532076"
+  },
+  {
+   "name": "Romeo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "89 Via Galvani",
+   "website": "https://romeoristoranti.com/romeo-testaccio-roma/"
+  },
+  {
+   "name": "Piccolo Arancio",
+   "cuisines": [
+    "Italian",
+    "Local"
+   ],
+   "address": "112 Vicolo Scanderbeg, 00187",
+   "website": "https://www.piccoloarancio.it/"
+  },
+  {
+   "name": "Bistro by Linda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "15c Via Eleonora d'Arborea, Roma",
+   "website": "https://www.bistrobylinda.it/"
+  },
+  {
+   "name": "La Boccaccia",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2 Via di Santa Dorotea, 00153",
+   "website": "https://pizzerialaboccaccia.it/"
+  },
+  {
+   "name": "C'è Pasta... e Pasta!",
+   "cuisines": [
+    "Italian",
+    "Pasta"
+   ],
+   "address": "29/35 Via Ettore Rolli, 00153, Roma",
+   "website": "http://cepastaepasta.it/"
+  },
+  {
+   "name": "La Pratolina",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "248 Via degli Scipioni, 00192, Roma",
+   "website": "http://www.pizzerialapratolina.it/"
+  },
+  {
+   "name": "La Campana",
+   "cuisines": [
+    "Traditional"
+   ],
+   "address": "18/20 Vicolo della Campana",
+   "website": "https://www.ristorantelacampana.com/"
+  },
+  {
+   "name": "Nojo",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "35 Viale di Tor di Quinto",
+   "website": "https://nojo.it"
+  },
+  {
+   "name": "Tempio Di Bacco",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "36/38 Via Lombardia, 00187, Roma",
+   "website": "https://www.tempiodibaccoroma.com/"
+  },
+  {
+   "name": "Maharajah",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "124 Via dei Serpenti, Roma",
+   "website": "https://www.maharajah1.com/"
+  },
+  {
+   "name": "Shooters",
+   "cuisines": [
+    "Italian",
+    "Steak House"
+   ],
+   "address": "57 Via Faleria, 00183, Roma",
+   "website": "www.ristoranteshooters.com"
+  },
+  {
+   "name": "Sacco",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "Burger"
+   ],
+   "address": "77 Viale Amelia, Roma",
+   "website": "https://www.ristorantesacco.it/"
+  },
+  {
+   "name": "Daruma Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "51 a/e Via Pietro Cossa",
+   "website": "https://www.darumasushi.com/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Colosseum",
+   "kind": "attraction",
+   "address": "Piazza del Colosseo, 00184",
+   "website": "https://colosseo.it/",
+   "phone": "+39 06 3996 7700",
+   "latitude": 41.8902602,
+   "longitude": 12.4923737
+  },
+  {
+   "name": "Sistine Chapel",
+   "kind": "attraction",
+   "address": "00120",
+   "website": "https://m.museivaticani.va/content/museivaticani-mobile/it/collezioni/musei/cappella-sistina/storia-cappella-sistina.html",
+   "phone": "+39 06 6988 3145",
+   "latitude": 41.9029338,
+   "longitude": 12.4544042
+  },
+  {
+   "name": "Basilica of Saint Paul Outside the Walls",
+   "kind": "attraction",
+   "address": "1 Piazzale San Paolo, 00146, Roma",
+   "website": "https://www.basilicasanpaolo.org/",
+   "phone": "",
+   "latitude": 41.8586828,
+   "longitude": 12.4768291
+  },
+  {
+   "name": "Pyramid of Cestius",
+   "kind": "attraction",
+   "address": "Via Raffaele Persichetti, 00153",
+   "website": "https://www.coopculture.it/heritage.cfm?id=59#",
+   "phone": "",
+   "latitude": 41.8764486,
+   "longitude": 12.480854
+  },
+  {
+   "name": "National Etruscan Museum",
+   "kind": "museum",
+   "address": "9 Piazzale di Villa Giulia, 00196, Roma",
+   "website": "https://www.museoetru.it",
+   "phone": "+39 06 3226571",
+   "latitude": 41.9182343,
+   "longitude": 12.4780955
+  },
+  {
+   "name": "Quirinal Palace",
+   "kind": "attraction",
+   "address": "Piazza del Quirinale, 00187",
+   "website": "https://palazzo.quirinale.it",
+   "phone": "+39 06 4201 2191",
+   "latitude": 41.9006627,
+   "longitude": 12.4876143
+  },
+  {
+   "name": "Vatican Museums",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museivaticani.va/",
+   "phone": "",
+   "latitude": 41.9062675,
+   "longitude": 12.4527441
+  },
+  {
+   "name": "Centrale Montemartini",
+   "kind": "museum",
+   "address": "106 Via Ostiense, 00154, Roma",
+   "website": "https://www.centralemontemartini.org/",
+   "phone": "+39 06 0608",
+   "latitude": 41.8666219,
+   "longitude": 12.4780326
+  },
+  {
+   "name": "Baths of Caracalla",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.coopculture.it/heritage.cfm?id=6",
+   "phone": "",
+   "latitude": 41.878907,
+   "longitude": 12.4923938
+  },
+  {
+   "name": "The Church of Domine Quo Vadis",
+   "kind": "attraction",
+   "address": "51 Via Appia Antica, Roma",
+   "website": "https://www.vicariatusurbis.org/?page_id=188&ID=881",
+   "phone": "+39 06 5120441",
+   "latitude": 41.8664891,
+   "longitude": 12.503716
+  },
+  {
+   "name": "Galleria Borghese",
+   "kind": "museum",
+   "address": "5 Piazzale Scipione Borghese, 00197, Roma",
+   "website": "https://galleriaborghese.beniculturali.it/",
+   "phone": "+39 06 8555952",
+   "latitude": 41.9141133,
+   "longitude": 12.4921053
+  },
+  {
+   "name": "Stadium of Domitian",
+   "kind": "museum",
+   "address": "3 Via di Tor Sanguigna, 00186, Roma",
+   "website": "https://stadiodomiziano.com/",
+   "phone": "+39 06 6880 5311;+39 06 4568 6100",
+   "latitude": 41.9002046,
+   "longitude": 12.4725609
+  },
+  {
+   "name": "Catacombs of Saint Calixt",
+   "kind": "attraction",
+   "address": "110 Via Appia Antica, 00179, Roma",
+   "website": "https://www.catacombesancallisto.it/",
+   "phone": "+39 06 513 0151",
+   "latitude": 41.8589429,
+   "longitude": 12.5106568
+  },
+  {
+   "name": "Capitoline Museums",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museicapitolini.org/",
+   "phone": "+39 06 0608",
+   "latitude": 41.892888,
+   "longitude": 12.4827602
+  },
+  {
+   "name": "Vigamus - Museo del Videogioco",
+   "kind": "museum",
+   "address": "4 Via Sabotino, Roma",
+   "website": "https://vigamus.com/",
+   "phone": "+39 0645475940",
+   "latitude": 41.916725,
+   "longitude": 12.4597359
+  },
+  {
+   "name": "Boncompagni Ludovisi Decorative Art Museum",
+   "kind": "museum",
+   "address": "18 Via Boncompagni, 00187, Roma",
+   "website": "https://direzionemuseiroma.cultura.gov.it/museo-boncompagni-ludovisi/",
+   "phone": "+39 06 42824074",
+   "latitude": 41.9086748,
+   "longitude": 12.4951494
+  },
+  {
+   "name": "Basilica di Santa Maria in Trastevere",
+   "kind": "attraction",
+   "address": "Piazza di Santa Maria in Trastevere",
+   "website": "https://www.santamariaintrastevere.it/",
+   "phone": "",
+   "latitude": 41.8894264,
+   "longitude": 12.4694941
+  },
+  {
+   "name": "Forum of Trajan",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.mercatiditraiano.it/",
+   "phone": "",
+   "latitude": 41.8951582,
+   "longitude": 12.4851532
+  },
+  {
+   "name": "Museo di Roma",
+   "kind": "museum",
+   "address": "10 Piazza di San Pantaleo, 00186, Roma",
+   "website": "https://www.museodiroma.it/",
+   "phone": "+39 06 0608",
+   "latitude": 41.8972775,
+   "longitude": 12.4727772
+  },
+  {
+   "name": "Museo Nazionale Romano",
+   "kind": "museum",
+   "address": "46 Piazza di Sant'Apollinare, 00186, Roma",
+   "website": "https://www.museonazionaleromano.beniculturali.it",
+   "phone": "+39 06 39967700",
+   "latitude": 41.9011978,
+   "longitude": 12.4728382
+  },
+  {
+   "name": "National Gallery of Ancient Art",
+   "kind": "museum",
+   "address": "13 Via delle Quattro Fontane, 00184, Roma",
+   "website": "https://www.barberinicorsini.org",
+   "phone": "+39 06 4814591",
+   "latitude": 41.9033252,
+   "longitude": 12.4898746
+  },
+  {
+   "name": "Museo Nazionale del Palazzo di Venezia",
+   "kind": "museum",
+   "address": "1 Piazza Venezia, 00186, Roma",
+   "website": "https://vive.cultura.gov.it/it/palazzo-venezia",
+   "phone": "+39 06 6780131",
+   "latitude": 41.8963664,
+   "longitude": 12.4815341
+  },
+  {
+   "name": "Dome of Saint Peter",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.vatican.va/various/basiliche/san_pietro/it/cupola/orari.htm",
+   "phone": "",
+   "latitude": 41.9021657,
+   "longitude": 12.453456
+  },
+  {
+   "name": "Museo Gregoriano Egizio",
+   "kind": "museum",
+   "address": "00120",
+   "website": "https://m.museivaticani.va/content/museivaticani-mobile/it/collezioni/musei/museo-gregoriano-egizio/museo-gregoriano-egizio.html",
+   "phone": "+39 06 6988 3041",
+   "latitude": 41.9063024,
+   "longitude": 12.4545669
+  },
+  {
+   "name": "MACRO - Museo d'Arte Contemporanea di Roma",
+   "kind": "museum",
+   "address": "138 Via Nizza, 00198, Roma",
+   "website": "https://www.museomacro.it/",
+   "phone": "+39 06 696271",
+   "latitude": 41.9131392,
+   "longitude": 12.5029096
+  },
+  {
+   "name": "Abbazia delle Tre Fontane",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.abbaziatrefontane.it/",
+   "phone": "",
+   "latitude": 41.8348149,
+   "longitude": 12.4834428
+  },
+  {
+   "name": "National Gallery of Modern Art",
+   "kind": "museum",
+   "address": "131 Viale delle Belle Arti, 00197, Roma",
+   "website": "https://lagallerianazionale.com/",
+   "phone": "+39 06 32298221",
+   "latitude": 41.9172357,
+   "longitude": 12.4823242
+  },
+  {
+   "name": "MAXXI Museo nazionale delle arti del XXI secolo",
+   "kind": "museum",
+   "address": "4 A Via Guido Reni, 00196, Roma",
+   "website": "https://www.fondazionemaxxi.it",
+   "phone": "+39 06 3201954",
+   "latitude": 41.9288353,
+   "longitude": 12.4656869
+  },
+  {
+   "name": "Museo Hendrik Christian Andersen",
+   "kind": "museum",
+   "address": "20 Via Pasquale Stanislao Mancini, 00196, Roma",
+   "website": "https://www.direzionemuseistataliroma.beniculturali.it/istituti/museo-hendrik-christian-andersen-roma/",
+   "phone": "+39 06 3219089",
+   "latitude": 41.9141287,
+   "longitude": 12.4727214
+  },
+  {
+   "name": "Museo Erbario",
+   "kind": "museum",
+   "address": "25 Via Cesare De Lollis, 00185, Roma",
+   "website": "https://web.uniroma1.it/erbario/",
+   "phone": "+39 06 49912410",
+   "latitude": 41.9027658,
+   "longitude": 12.5169621
+  },
+  {
+   "name": "Museo della Forma Urbis",
+   "kind": "museum",
+   "address": "Viale del Parco del Celio, 00184, Roma",
+   "website": "https://www.turismoroma.it/it/luoghi/museo-della-forma-urbis",
+   "phone": "",
+   "latitude": 41.8866685,
+   "longitude": 12.4908611
+  },
+  {
+   "name": "LunEur Park",
+   "kind": "theme park",
+   "address": "100 Via delle Tre Fontane, 00144, Roma",
+   "website": "https://www.luneurpark.it/",
+   "phone": "",
+   "latitude": 41.8364774,
+   "longitude": 12.4761474
+  },
+  {
+   "name": "Polo museale ATAC Porta San Paolo",
+   "kind": "museum",
+   "address": "7 Via Bartolomeo Bossi, 00154, Roma",
+   "website": "www.astralspa.it",
+   "phone": "",
+   "latitude": 41.87504,
+   "longitude": 12.4811682
+  },
+  {
+   "name": "Galleria Spada",
+   "kind": "museum",
+   "address": "13 Piazza Capo di Ferro, 00186, Roma",
+   "website": "https://galleriaspada.beniculturali.it/index.php?it/1/home",
+   "phone": "+39 06 683 2409",
+   "latitude": 41.8938866,
+   "longitude": 12.4722011
+  },
+  {
+   "name": "Museo Nazionale degli Strumenti Musicali",
+   "kind": "museum",
+   "address": "9a Piazza S. Croce in Gerusalemme, 00185, Roma",
+   "website": "http://www.museostrumentimusicali.beniculturali.it",
+   "phone": "+39 06 7014796",
+   "latitude": 41.8883494,
+   "longitude": 12.5169785
+  },
+  {
+   "name": "Palazzo dei Conservatori",
+   "kind": "attraction",
+   "address": "",
+   "website": "http://en.museicapitolini.org/",
+   "phone": "",
+   "latitude": 41.8929561,
+   "longitude": 12.4826534
+  },
+  {
+   "name": "Museo dell'Ara Pacis",
+   "kind": "museum",
+   "address": "Lungotevere in Augusta, 00100, Roma",
+   "website": "https://www.arapacis.it/",
+   "phone": "+39 06 0608",
+   "latitude": 41.9061042,
+   "longitude": 12.475474
+  },
+  {
+   "name": "Museo Carlo Bilotti Aranciera di Villa Borghese",
+   "kind": "museum",
+   "address": "6 Viale Fiorello la Guardia, 00197, Roma",
+   "website": "https://www.museocarlobilotti.it/it/il_museo/editoriale",
+   "phone": "+39 06 0608",
+   "latitude": 41.9133768,
+   "longitude": 12.4833954
+  },
+  {
+   "name": "Museo Pietro Canonica",
+   "kind": "museum",
+   "address": "2 Viale Pietro Canonica, 00197, Roma",
+   "website": "https://www.museocanonica.it/",
+   "phone": "+39 06 0608",
+   "latitude": 41.9151245,
+   "longitude": 12.4862373
+  },
+  {
+   "name": "Museo napoleonico di Roma",
+   "kind": "museum",
+   "address": "1 Piazza di Ponte Umberto I, 00186, Roma",
+   "website": "https://www.museonapoleonico.it/",
+   "phone": "+39 06 6874240",
+   "latitude": 41.901781,
+   "longitude": 12.4720387
+  },
+  {
+   "name": "Museo di Storia della Medicina",
+   "kind": "museum",
+   "address": "34a Viale dell'Università, 00185, Roma",
+   "website": "https://web.uniroma1.it/museostoriamedicina/",
+   "phone": "+39 0649914766",
+   "latitude": 41.9048633,
+   "longitude": 12.5141157
+  },
+  {
+   "name": "Museo Nazionale di Castel Sant’Angelo",
+   "kind": "museum",
+   "address": "50 Lungotevere Castello, 00193, Roma",
+   "website": "https://direzionemuseiroma.cultura.gov.it/museo-nazionale-di-castel-santangelo/",
+   "phone": "+39 06 6819111",
+   "latitude": 41.90308,
+   "longitude": 12.4661811
+  },
+  {
+   "name": "Villa Farnesina",
+   "kind": "attraction",
+   "address": "230 Via della Lungara, 00165, Roma",
+   "website": "https://www.villafarnesina.it/",
+   "phone": "+39 06 68 02 72 68",
+   "latitude": 41.8936384,
+   "longitude": 12.4673276
+  },
+  {
+   "name": "Museo storico della fisica Enrico Fermi",
+   "kind": "museum",
+   "address": "89a Via Panisperna, 00184, Roma",
+   "website": "https://museum.cref.it/",
+   "phone": "+39 06 45502901",
+   "latitude": 41.8978883,
+   "longitude": 12.4938902
+  },
+  {
+   "name": "Temple of Portunus",
+   "kind": "attraction",
+   "address": "",
+   "website": "http://archeoroma.beniculturali.it/en/archaeological-site/temple-portunus-forum-boarium",
+   "phone": "",
+   "latitude": 41.8892481,
+   "longitude": 12.4809078
+  },
+  {
+   "name": "Cloisters of Bramante",
+   "kind": "museum",
+   "address": "5 Arco della Pace, 00186, Roma",
+   "website": "https://www.chiostrodelbramante.it/",
+   "phone": "+39 06 6880 9035",
+   "latitude": 41.9000215,
+   "longitude": 12.4715028
+  },
+  {
+   "name": "Museo Criminologico",
+   "kind": "museum",
+   "address": "29 Via del Gonfalone, 00186, Roma",
+   "website": "https://www.museocriminologico.it/",
+   "phone": "",
+   "latitude": 41.8976775,
+   "longitude": 12.4666323
+  },
+  {
+   "name": "Palazzo Cipolla",
+   "kind": "museum",
+   "address": "320 Via del Corso, 00186, Roma",
+   "website": "https://museodelcorso.com/",
+   "phone": "+39 06 22877077",
+   "latitude": 41.8995494,
+   "longitude": 12.4809031
+  },
+  {
+   "name": "Museo delle Civiltà",
+   "kind": "museum",
+   "address": "14 Piazza Guglielmo Marconi, 00144, Roma",
+   "website": "https://www.museodellecivilta.it/",
+   "phone": "",
+   "latitude": 41.8325467,
+   "longitude": 12.4718151
+  },
+  {
+   "name": "Museo Civico di Zoologia",
+   "kind": "museum",
+   "address": "18 Via Ulisse Aldrovandi, 00197, Roma",
+   "website": "https://www.museocivicodizoologia.it/it",
+   "phone": "+39 06 67109270",
+   "latitude": 41.9194205,
+   "longitude": 12.488288
+  },
+  {
+   "name": "Museo Nazionale Romano di Palazzo Massimo",
+   "kind": "museum",
+   "address": "",
+   "website": "https://museonazionaleromano.beniculturali.it/palazzo-massimo/",
+   "phone": "",
+   "latitude": 41.9014658,
+   "longitude": 12.4980991
+  },
+  {
+   "name": "Villa Medici",
+   "kind": "attraction",
+   "address": "1 Viale della Trinità dei Monti",
+   "website": "https://www.villamedici.it/",
+   "phone": "+39 06 6761 311",
+   "latitude": 41.9082741,
+   "longitude": 12.4826743
+  },
+  {
+   "name": "Palazzo delle Esposizioni",
+   "kind": "museum",
+   "address": "194 Via Nazionale, 00184, Roma",
+   "website": "https://www.palazzoesposizioni.it/",
+   "phone": "",
+   "latitude": 41.8995666,
+   "longitude": 12.4900931
+  },
+  {
+   "name": "Capo di Bove",
+   "kind": "attraction",
+   "address": "222 Via Appia Antica, Roma",
+   "website": "http://archeoroma.beniculturali.it/siti-archeologici/capo-bove",
+   "phone": "",
+   "latitude": 41.8481862,
+   "longitude": 12.5236007
+  },
+  {
+   "name": "Casino Nobile",
+   "kind": "museum",
+   "address": "70 Via Nomentana, 00161, Roma",
+   "website": "https://www.museivillatorlonia.it/it/casino_nobile/il_casino_nobile",
+   "phone": "+39 06 0608",
+   "latitude": 41.9147955,
+   "longitude": 12.5113213
+  },
+  {
+   "name": "Palazzo Doria Pamphilj",
+   "kind": "museum",
+   "address": "305 Via del Corso",
+   "website": "https://www.dopart.it/",
+   "phone": "+39 06 6797323",
+   "latitude": 41.8978235,
+   "longitude": 12.4815609
+  },
+  {
+   "name": "Museo della Repubblica Romana e della memoria garibaldina",
+   "kind": "museum",
+   "address": "Largo di Porta San Pancrazio, 00153, Roma",
+   "website": "https://www.museodellarepubblicaromana.it/it/il_museo/editoriale",
+   "phone": "+39 06 0608",
+   "latitude": 41.8883948,
+   "longitude": 12.4614944
+  },
+  {
+   "name": "Museo di scultura antica Giovanni Barracco",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museobarracco.it/",
+   "phone": "+39 06 0608",
+   "latitude": 41.8967967,
+   "longitude": 12.4725923
+  },
+  {
+   "name": "Museo delle Mura",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museodellemuraroma.it",
+   "phone": "",
+   "latitude": 41.8735333,
+   "longitude": 12.5016481
+  },
+  {
+   "name": "Museo di Casal de' Pazzi",
+   "kind": "museum",
+   "address": "6 Viale Egidio Galbani, 00156, Roma",
+   "website": "https://www.museocasaldepazzi.it/",
+   "phone": "+39 06 0608",
+   "latitude": 41.9283427,
+   "longitude": 12.5638204
+  },
+  {
+   "name": "Antiquarium Forense",
+   "kind": "museum",
+   "address": "",
+   "website": "https://colosseo.it/area/musei/nuovo-museo-foro-romano/",
+   "phone": "",
+   "latitude": 41.8910776,
+   "longitude": 12.4893205
+  },
+  {
+   "name": "Museo dei Fori Imperiali",
+   "kind": "museum",
+   "address": "94 Via Quattro Novembre, 00187, Roma",
+   "website": "https://www.mercatiditraiano.it/it/il_museo/editoriale",
+   "phone": "+39 06 0608",
+   "latitude": 41.8959566,
+   "longitude": 12.4860137
+  },
+  {
+   "name": "Scuderie del Quirinale",
+   "kind": "museum",
+   "address": "16 Via Ventiquattro Maggio, Roma",
+   "website": "https://www.scuderiequirinale.it/",
+   "phone": "",
+   "latitude": 41.8986323,
+   "longitude": 12.4859595
+  },
+  {
+   "name": "Catacomb of Priscilla",
+   "kind": "attraction",
+   "address": "430 Via Salaria",
+   "website": "https://www.catacombepriscilla.com/",
+   "phone": "",
+   "latitude": 41.9297262,
+   "longitude": 12.5087652
+  },
+  {
+   "name": "Galleria Colonna",
+   "kind": "gallery",
+   "address": "17 Via della Pilotta, Roma",
+   "website": "https://www.galleriacolonna.it/",
+   "phone": "",
+   "latitude": 41.8974483,
+   "longitude": 12.484845
+  },
+  {
+   "name": "Museo Storico della Liberazione",
+   "kind": "museum",
+   "address": "145 Via Tasso, 00185, Roma",
+   "website": "http://www.viatasso.eu/",
+   "phone": "",
+   "latitude": 41.8887174,
+   "longitude": 12.5063522
+  },
+  {
+   "name": "Galleria nazionale d'arte antica di palazzo Corsini",
+   "kind": "museum",
+   "address": "10 Via della Lungara",
+   "website": "https://www.barberinicorsini.org",
+   "phone": "",
+   "latitude": 41.8932889,
+   "longitude": 12.4666902
+  },
+  {
+   "name": "Museo di Fisica",
+   "kind": "museum",
+   "address": "Via Cesare De Lollis, 00185, Roma",
+   "website": "https://web.uniroma1.it/polomuseale/museo-fisica",
+   "phone": "+39 06 49914329",
+   "latitude": 41.901647,
+   "longitude": 12.5157519
+  },
+  {
+   "name": "Museo Chiaramonti",
+   "kind": "museum",
+   "address": "00120",
+   "website": "https://m.museivaticani.va/content/museivaticani-mobile/en/collezioni/musei/museo-chiaramonti/Museo-Chiaramonti.html",
+   "phone": "",
+   "latitude": 41.906044,
+   "longitude": 12.4550732
+  },
+  {
+   "name": "Basilica di Santa Cecilia in Trastevere",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.benedettinesantacecilia.it/",
+   "phone": "",
+   "latitude": 41.8875608,
+   "longitude": 12.4758567
+  },
+  {
+   "name": "Oratorio del Gonfalone",
+   "kind": "attraction",
+   "address": "32a Via del Gonfalone, 00186, Roma",
+   "website": "https://www.oratoriogonfalone.eu/",
+   "phone": "",
+   "latitude": 41.8973919,
+   "longitude": 12.4663403
+  },
+  {
+   "name": "Museo storico delle comunicazioni",
+   "kind": "museum",
+   "address": "Viale Europa, 00144, Roma",
+   "website": "https://portalecultura.mise.gov.it/museo-storico-della-comunicazione/",
+   "phone": "",
+   "latitude": 41.8307378,
+   "longitude": 12.4686342
+  },
+  {
+   "name": "Raphael Rooms",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museivaticani.va/content/museivaticani/es/collezioni/musei/stanze-di-raffaello.html",
+   "phone": "",
+   "latitude": 41.9033021,
+   "longitude": 12.4545356
+  },
+  {
+   "name": "Palazzo Farnese",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.farnese-rome.it/",
+   "phone": "",
+   "latitude": 41.8946528,
+   "longitude": 12.4706818
+  },
+  {
+   "name": "Parco regionale di Veio",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.parcodiveio.it/",
+   "phone": "",
+   "latitude": 42.0660956,
+   "longitude": 12.4304322
+  },
+  {
+   "name": "Museo della Via Ostiense",
+   "kind": "museum",
+   "address": "3 Via Raffaele Persichetti",
+   "website": "http://archeoroma.beniculturali.it/musei/museo-ostiense-porta-spaolo",
+   "phone": "",
+   "latitude": 41.8767081,
+   "longitude": 12.4814418
+  },
+  {
+   "name": "Istituto Svizzero",
+   "kind": "gallery",
+   "address": "48 Via Ludovisi",
+   "website": "https://www.istitutosvizzero.it/",
+   "phone": "+39 06 420421",
+   "latitude": 41.9063729,
+   "longitude": 12.4876342
+  },
+  {
+   "name": "Basilica parrocchiale dei Santi Pietro e Paolo",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.santipietroepaoloroma.it/",
+   "phone": "",
+   "latitude": 41.833704,
+   "longitude": 12.4593082
+  },
+  {
+   "name": "Museo astronomico e copernicano",
+   "kind": "museum",
+   "address": "84 Viale del Parco Mellini, 00136, Roma",
+   "website": "https://www.beniculturali.inaf.it/musei/roma",
+   "phone": "+39 06 3553 3411",
+   "latitude": 41.9238199,
+   "longitude": 12.4525936
+  },
+  {
+   "name": "Keats-Shelley Memorial House",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.keats-shelley-house.org",
+   "phone": "",
+   "latitude": 41.9057482,
+   "longitude": 12.482583
+  },
+  {
+   "name": "Museo Centrale del Risorgimento",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.risorgimento.it/php/page_gen.php?id_sezione=5",
+   "phone": "",
+   "latitude": 41.893976,
+   "longitude": 12.4836361
+  },
+  {
+   "name": "Casa Museo di Luigi Pirandello, archivio e biblioteca",
+   "kind": "museum",
+   "address": "15 Via Antonio Bosio",
+   "website": "https://www.studiodiluigipirandello.it/",
+   "phone": "+39 06 4429 1853",
+   "latitude": 41.9163001,
+   "longitude": 12.5143588
+  },
+  {
+   "name": "Museo Pio Clementino",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino.html",
+   "phone": "",
+   "latitude": 41.9065472,
+   "longitude": 12.4545808
+  },
+  {
+   "name": "Museo Internazionale del Presepio",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museopresepioroma.it",
+   "phone": "",
+   "latitude": 41.8937443,
+   "longitude": 12.4877673
+  },
+  {
+   "name": "La Casina delle Civette",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museivillatorlonia.it/casina_delle_civette",
+   "phone": "",
+   "latitude": 41.9143087,
+   "longitude": 12.5129651
+  },
+  {
+   "name": "Bioparco",
+   "kind": "zoo",
+   "address": "",
+   "website": "https://www.bioparco.it/",
+   "phone": "",
+   "latitude": 41.9176257,
+   "longitude": 12.487302
+  },
+  {
+   "name": "Museo della Scuola Romana",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museivillatorlonia.it/it/casino_nobile/museo_della_scuola_romana",
+   "phone": "",
+   "latitude": 41.9148361,
+   "longitude": 12.5112865
+  },
+  {
+   "name": "Explora",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.mdbr.it/",
+   "phone": "",
+   "latitude": 41.9150955,
+   "longitude": 12.4746661
+  },
+  {
+   "name": "Museo della Zecca di Roma",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museozecca.ipzs.it/",
+   "phone": "",
+   "latitude": 41.9432163,
+   "longitude": 12.5078474
+  },
+  {
+   "name": "Archivio museo storico di Fiume",
+   "kind": "museum",
+   "address": "10 Via Antonio Cippico",
+   "website": "https://www.fiume-rijeka.it/",
+   "phone": "",
+   "latitude": 41.8208889,
+   "longitude": 12.4816757
+  },
+  {
+   "name": "Museo Nazionale Romano - Terme di Diocleziano",
+   "kind": "museum",
+   "address": "",
+   "website": "https://museonazionaleromano.beniculturali.it/terme-di-diocleziano/",
+   "phone": "",
+   "latitude": 41.9036482,
+   "longitude": 12.4987226
+  },
+  {
+   "name": "Museo storico dei granatieri di Sardegna",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.esercito.difesa.it/Comunicazione/Musei/Granatieri/Pagine/default.aspx",
+   "phone": "",
+   "latitude": 41.8889289,
+   "longitude": 12.5157281
+  },
+  {
+   "name": "Saint Peter's Basilica",
+   "kind": "attraction",
+   "address": "Piazza San Pietro, 00120",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9021616,
+   "longitude": 12.4537132
+  },
+  {
+   "name": "Castle of the Holy Angel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9030762,
+   "longitude": 12.4663312
+  },
+  {
+   "name": "Saint Peter's Square",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9022286,
+   "longitude": 12.4573576
+  },
+  {
+   "name": "Basilica of Saint Mary Major",
+   "kind": "attraction",
+   "address": "Piazza di Santa Maria Maggiore, 00185, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8976084,
+   "longitude": 12.4984576
+  },
+  {
+   "name": "Apostolic Palace",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9032507,
+   "longitude": 12.4553095
+  },
+  {
+   "name": "Pantheon",
+   "kind": "attraction",
+   "address": "Piazza della Rotonda, 00186, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8986261,
+   "longitude": 12.4768335
+  },
+  {
+   "name": "Vatican Art Gallery",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9057562,
+   "longitude": 12.4527879
+  },
+  {
+   "name": "Basilica of Saint John Lateran",
+   "kind": "attraction",
+   "address": "Piazza di San Giovanni in Laterano, 00184, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8857617,
+   "longitude": 12.5055858
+  },
+  {
+   "name": "Basilica of Saint Lawrence outside the Walls",
+   "kind": "attraction",
+   "address": "3 Piazzale del Verano, 00185, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9025521,
+   "longitude": 12.5209716
+  },
+  {
+   "name": "Monument to Vittorio Emanuele II",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8947045,
+   "longitude": 12.4831835
+  },
+  {
+   "name": "Trevi Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9009648,
+   "longitude": 12.4832817
+  },
+  {
+   "name": "Arch of Titus",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8906722,
+   "longitude": 12.4885842
+  },
+  {
+   "name": "Saint Peter in Chains",
+   "kind": "attraction",
+   "address": "4/a Piazza di San Pietro in Vincoli, 00184, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8938552,
+   "longitude": 12.4931626
+  },
+  {
+   "name": "Roman Forum",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8916837,
+   "longitude": 12.4870791
+  },
+  {
+   "name": "Arch of Constantine",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8897623,
+   "longitude": 12.4906668
+  },
+  {
+   "name": "Palatine Hill",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8893064,
+   "longitude": 12.4871093
+  },
+  {
+   "name": "Basilica of St.Clement",
+   "kind": "attraction",
+   "address": "95 Via Labicana, 00184, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8893219,
+   "longitude": 12.4976195
+  },
+  {
+   "name": "Milvian Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9355042,
+   "longitude": 12.4669862
+  },
+  {
+   "name": "Maderno Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9027758,
+   "longitude": 12.4572379
+  },
+  {
+   "name": "Catacombe di San Sebastiano",
+   "kind": "attraction",
+   "address": "136 Via Appia Antica, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.85593,
+   "longitude": 12.5157968
+  },
+  {
+   "name": "Theatre of Marcellus",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8919515,
+   "longitude": 12.4796761
+  },
+  {
+   "name": "Ponte Sant'Angelo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9018932,
+   "longitude": 12.4664274
+  },
+  {
+   "name": "Spanish Steps",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9060652,
+   "longitude": 12.4828116
+  },
+  {
+   "name": "Scala Santa",
+   "kind": "attraction",
+   "address": "14 Piazza San Giovanni in Laterano",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8871739,
+   "longitude": 12.506877
+  },
+  {
+   "name": "San Carlo alle Quattro Fontane",
+   "kind": "attraction",
+   "address": "Via del Quirinale, Roma",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9017857,
+   "longitude": 12.4907733
+  },
+  {
+   "name": "Basilica di Santa Maria degli Angeli e dei Martiri",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9034429,
+   "longitude": 12.4973373
+  },
+  {
+   "name": "Spanish Square",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.9056657,
+   "longitude": 12.4822771
+  },
+  {
+   "name": "Jewish Museum of Rome",
+   "kind": "museum",
+   "address": "Largo Stefano Gaj Tachè",
+   "website": "",
+   "phone": "",
+   "latitude": 41.8919593,
+   "longitude": 12.4779863
+  }
+ ]
+}
