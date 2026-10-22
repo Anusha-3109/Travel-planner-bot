@@ -1,0 +1,1162 @@
+{
+ "routes": [
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 31687,
+       "staticDuration": "1920s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Roma Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.900503,
+            "longitude": 12.502027
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:10:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T14:38:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:10 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "4:38 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Roma Termini",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale Veloce",
+         "color": "#da1d2a",
+         "nameShort": "RV",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 1
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 173,
+       "staticDuration": "174s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 1323,
+       "staticDuration": "167s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Colosseo",
+          "location": {
+           "latLng": {
+            "latitude": 41.891289,
+            "longitude": 12.491474
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:22:14Z",
+         "departureStop": {
+          "name": "Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.901028,
+            "longitude": 12.500052
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:19:27Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:22 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:19 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Laurentina (Mb)",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "name": "Metro B",
+         "uri": "https://muoversiaroma.it/it/linea?numero=MEB",
+         "color": "#0071bb",
+         "nameShort": "B",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Subway"
+          },
+          "type": "SUBWAY",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-metro.png"
+         }
+        },
+        "stopCount": 2
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 11,
+       "staticDuration": "72s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 42,
+       "staticDuration": "38s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 84,
+       "staticDuration": "90s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 21,
+       "staticDuration": "19s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 88,
+       "staticDuration": "69s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 33429,
+   "duration": "2942s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "33.4 km"
+    },
+    "duration": {
+     "text": "49 mins"
+    },
+    "staticDuration": {
+     "text": "49 mins"
+    },
+    "transitFare": {}
+   }
+  },
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 31687,
+       "staticDuration": "1920s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Roma Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.900503,
+            "longitude": 12.502027
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:10:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T14:38:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:10 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "4:38 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Roma Termini",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale Veloce",
+         "color": "#da1d2a",
+         "nameShort": "RV",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 1
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 105,
+       "staticDuration": "105s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 6,
+       "staticDuration": "6s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 22,
+       "staticDuration": "18s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 43,
+       "staticDuration": "33s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 52,
+       "staticDuration": "44s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 6,
+       "staticDuration": "5s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 2152,
+       "staticDuration": "782s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "S. Gregorio",
+          "location": {
+           "latLng": {
+            "latitude": 41.888183999999995,
+            "longitude": 12.4900395
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:32:16Z",
+         "departureStop": {
+          "name": "Termini (Ma-Mb-Fs)",
+          "location": {
+           "latLng": {
+            "latitude": 41.901157,
+            "longitude": 12.500046999999999
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:19:14Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:32 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:19 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Poerio/Marino",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "uri": "https://muoversiaroma.it/it/linea?numero=75",
+         "color": "#336d4a",
+         "nameShort": "75",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Bus"
+          },
+          "type": "BUS",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+         }
+        },
+        "stopCount": 7
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 43,
+       "staticDuration": "34s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 34116,
+   "duration": "3291s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "34.1 km"
+    },
+    "duration": {
+     "text": "55 mins"
+    },
+    "staticDuration": {
+     "text": "55 mins"
+    },
+    "transitFare": {}
+   }
+  },
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 24658,
+       "staticDuration": "1860s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Ostiense",
+          "location": {
+           "latLng": {
+            "latitude": 41.87282,
+            "longitude": 12.48418
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:13:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T14:42:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:13 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "4:42 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Fara Sabina",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale",
+         "color": "#da1d2a",
+         "nameShort": "REG",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 8
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 33,
+       "staticDuration": "104s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 130,
+       "staticDuration": "104s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 202,
+       "staticDuration": "154s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 31,
+       "staticDuration": "100s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 2000,
+       "staticDuration": "256s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Colosseo",
+          "location": {
+           "latLng": {
+            "latitude": 41.89122,
+            "longitude": 12.491603999999999
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:31:45Z",
+         "departureStop": {
+          "name": "Piramide",
+          "location": {
+           "latLng": {
+            "latitude": 41.875713,
+            "longitude": 12.482177000000002
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:27:29Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:31 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:27 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Rebibbia (Mb)",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "name": "Metro B",
+         "uri": "https://muoversiaroma.it/it/linea?numero=MEB",
+         "color": "#0071bb",
+         "nameShort": "B",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Subway"
+          },
+          "type": "SUBWAY",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-metro.png"
+         }
+        },
+        "stopCount": 2
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 19,
+       "staticDuration": "88s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 42,
+       "staticDuration": "38s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 84,
+       "staticDuration": "90s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 21,
+       "staticDuration": "19s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 88,
+       "staticDuration": "69s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 27308,
+   "duration": "3289s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "27.3 km"
+    },
+    "duration": {
+     "text": "55 mins"
+    },
+    "staticDuration": {
+     "text": "55 mins"
+    },
+    "transitFare": {}
+   }
+  },
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 31687,
+       "staticDuration": "1920s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Roma Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.900503,
+            "longitude": 12.502027
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:25:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T14:53:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:25 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "4:53 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Roma Termini",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale Veloce",
+         "color": "#da1d2a",
+         "nameShort": "RV",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 1
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 173,
+       "staticDuration": "174s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 1323,
+       "staticDuration": "167s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Colosseo",
+          "location": {
+           "latLng": {
+            "latitude": 41.891289,
+            "longitude": 12.491474
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:40:14Z",
+         "departureStop": {
+          "name": "Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.901028,
+            "longitude": 12.500052
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:37:27Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:40 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:37 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Laurentina (Mb)",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "name": "Metro B",
+         "uri": "https://muoversiaroma.it/it/linea?numero=MEB",
+         "color": "#0071bb",
+         "nameShort": "B",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Subway"
+          },
+          "type": "SUBWAY",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-metro.png"
+         }
+        },
+        "stopCount": 2
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 11,
+       "staticDuration": "72s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 42,
+       "staticDuration": "38s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 84,
+       "staticDuration": "90s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 21,
+       "staticDuration": "19s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 88,
+       "staticDuration": "69s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 33429,
+   "duration": "3122s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "33.4 km"
+    },
+    "duration": {
+     "text": "52 mins"
+    },
+    "staticDuration": {
+     "text": "52 mins"
+    },
+    "transitFare": {}
+   }
+  },
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 23180,
+       "staticDuration": "1620s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Roma Trastevere",
+          "location": {
+           "latLng": {
+            "latitude": 41.872589999999995,
+            "longitude": 12.46609
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:09:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T14:42:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:09 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "4:42 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Fara Sabina",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale",
+         "color": "#da1d2a",
+         "nameShort": "REG",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 7
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 31,
+       "staticDuration": "100s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 57,
+       "staticDuration": "47s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 36,
+       "staticDuration": "28s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 4720,
+       "staticDuration": "1400s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Colosseo",
+          "location": {
+           "latLng": {
+            "latitude": 41.8898839,
+            "longitude": 12.4941629
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:45:20Z",
+         "departureStop": {
+          "name": "Staz.Ne Trastevere (Fs)",
+          "location": {
+           "latLng": {
+            "latitude": 41.873016,
+            "longitude": 12.466312
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:22:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:45 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:22 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "P.Za di Porta Maggiore",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "uri": "https://muoversiaroma.it/it/linea?numero=3L",
+         "color": "#4cb847",
+         "nameShort": "3L",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Tram"
+          },
+          "type": "TRAM",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/tram2.png"
+         }
+        },
+        "stopCount": 12
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 54,
+       "staticDuration": "49s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 13,
+       "staticDuration": "20s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 23,
+       "staticDuration": "28s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 6,
+       "staticDuration": "5s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 44,
+       "staticDuration": "34s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 20,
+       "staticDuration": "21s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 3,
+       "staticDuration": "2s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 28187,
+   "duration": "3961s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "28.2 km"
+    },
+    "duration": {
+     "text": "1 hour 6 mins"
+    },
+    "staticDuration": {
+     "text": "1 hour 6 mins"
+    },
+    "transitFare": {}
+   }
+  },
+  {
+   "legs": [
+    {
+     "steps": [
+      {
+       "distanceMeters": 31687,
+       "staticDuration": "1920s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Roma Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.900503,
+            "longitude": 12.502027
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:40:00Z",
+         "departureStop": {
+          "name": "Fiumicino Aeroporto",
+          "location": {
+           "latLng": {
+            "latitude": 41.793554,
+            "longitude": 12.2517122
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:08:00Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:40 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:08 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Roma Termini",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "Trenitalia",
+           "uri": "http://www.trenitalia.com/"
+          }
+         ],
+         "name": "Regionale Veloce",
+         "color": "#da1d2a",
+         "nameShort": "RV",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Train"
+          },
+          "type": "HEAVY_RAIL",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-trenitalia.png"
+         }
+        },
+        "stopCount": 1
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 173,
+       "staticDuration": "174s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 1323,
+       "staticDuration": "167s",
+       "transitDetails": {
+        "stopDetails": {
+         "arrivalStop": {
+          "name": "Colosseo",
+          "location": {
+           "latLng": {
+            "latitude": 41.891289,
+            "longitude": 12.491474
+           }
+          }
+         },
+         "arrivalTime": "2026-10-22T15:49:14Z",
+         "departureStop": {
+          "name": "Termini",
+          "location": {
+           "latLng": {
+            "latitude": 41.901028,
+            "longitude": 12.500052
+           }
+          }
+         },
+         "departureTime": "2026-10-22T15:46:27Z"
+        },
+        "localizedValues": {
+         "arrivalTime": {
+          "time": {
+           "text": "5:49 PM"
+          },
+          "timeZone": "Europe/Rome"
+         },
+         "departureTime": {
+          "time": {
+           "text": "5:46 PM"
+          },
+          "timeZone": "Europe/Rome"
+         }
+        },
+        "headsign": "Laurentina (Mb)",
+        "transitLine": {
+         "agencies": [
+          {
+           "name": "ATAC",
+           "phoneNumber": "+39 06 57003",
+           "uri": "https://romamobilita.it/it"
+          }
+         ],
+         "name": "Metro B",
+         "uri": "https://muoversiaroma.it/it/linea?numero=MEB",
+         "color": "#0071bb",
+         "nameShort": "B",
+         "textColor": "#ffffff",
+         "vehicle": {
+          "name": {
+           "text": "Subway"
+          },
+          "type": "SUBWAY",
+          "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+          "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/it-metro.png"
+         }
+        },
+        "stopCount": 2
+       },
+       "travelMode": "TRANSIT"
+      },
+      {
+       "distanceMeters": 11,
+       "staticDuration": "72s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 42,
+       "staticDuration": "38s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 84,
+       "staticDuration": "90s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 21,
+       "staticDuration": "19s",
+       "travelMode": "WALK"
+      },
+      {
+       "distanceMeters": 88,
+       "staticDuration": "69s",
+       "travelMode": "WALK"
+      }
+     ]
+    }
+   ],
+   "distanceMeters": 33429,
+   "duration": "2762s",
+   "travelAdvisory": {
+    "transitFare": {}
+   },
+   "localizedValues": {
+    "distance": {
+     "text": "33.4 km"
+    },
+    "duration": {
+     "text": "46 mins"
+    },
+    "staticDuration": {
+     "text": "46 mins"
+    },
+    "transitFare": {}
+   }
+  }
+ ]
+}
