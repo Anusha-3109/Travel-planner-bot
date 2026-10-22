@@ -1,0 +1,15 @@
+.venv/
+.env
+.chroma/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# TravelPlanner raw data (about 70 MB, re-downloadable)
+data/travelplanner/
+
+# Live API answers, re-fetched when expired
+.cache/
+
+# Local Claude Code launch settings
+.claude/
