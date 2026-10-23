@@ -329,13 +329,27 @@ class _Builder:
 
     # --- World cities ----------------------------------------------------------
 
-    def add_world_city(self, data: dict) -> None:
+    def _clear_places(self, key: str) -> None:
+        """Drop a city's older places so newer ones replace them (flights and ground routes stay)."""
+        for places in (self.attractions, self.restaurants, self.accommodations):
+            places.pop(key, None)
+        self._seen = {seen for seen in self._seen if seen[2] != key}
+
+    def add_world_city(self, data: dict, replace_places: bool = True) -> None:
         city = self._city(data["city"])
-        self.city_info[city.lower()] = CityInfo(
-            city, data["country"], data["region"], data["latitude"], data["longitude"],
-            f"{city}: places to stay from Inside Airbnb (scraped {data['airbnb_scrape_date']}; prices converted from "
-            f"{data['currency']} to USD at ECB rates of {data['rates_date']}); restaurants and attractions from "
-            f"OpenStreetMap ({data['fetched_at']}). Restaurant prices and flight prices are not available.")
+        if replace_places:
+            self._clear_places(city.lower())
+        stays = f"places to stay from Inside Airbnb (scraped {data['airbnb_scrape_date']}"
+        if data["currency"] != "USD":
+            stays += f"; prices converted from {data['currency']} to USD at ECB rates of {data['rates_date']}"
+        note = (f"{city}: {stays}); restaurants and attractions from OpenStreetMap ({data['fetched_at']}). "
+                "Restaurant prices are not available in this snapshot.")
+        if data["country"] == "United States":
+            note += " Snapshot flights and driving routes are from TravelPlanner (March 2022)."
+        else:
+            note += " Snapshot flight prices are not available."
+        self.city_info[city.lower()] = CityInfo(city, data["country"], data["region"], data["latitude"],
+                                                data["longitude"], note)
         for record in data.get("accommodations", []):
             if self._is_new("accommodation", record["name"], city):
                 self.accommodations[city.lower()].append(Accommodation(
@@ -372,7 +386,11 @@ class _Builder:
                              tuple(cuisines))
 
 
-def build_catalog(data_dir: Path = config.TRAVELPLANNER_DIR, world_dir: Path = config.WORLD_DIR) -> TravelCatalog:
+def build_catalog(data_dir: Path = config.TRAVELPLANNER_DIR, world_dir: Path | None = config.WORLD_DIR,
+                  prefer_current: bool = True) -> TravelCatalog:
+    """The merged catalog. With prefer_current, a city's 2026 places replace its 2022 TravelPlanner
+    places; without it (and with world_dir=None) the catalog is the original 2022 data, which the
+    TravelPlanner evaluation needs."""
     paths = [data_dir / f"{split}_ref_info.jsonl" for split in SPLITS]
     missing = [path.name for path in paths if not path.exists()]
     if missing:
@@ -384,9 +402,9 @@ def build_catalog(data_dir: Path = config.TRAVELPLANNER_DIR, world_dir: Path = c
             for line in file:
                 if line.strip():
                     builder.add_bundle(json.loads(line))
-    # World cities are optional: without them the catalog is US-only.
-    for path in sorted(world_dir.glob("*.json")) if world_dir.exists() else []:
-        builder.add_world_city(json.loads(path.read_text(encoding="utf-8")))
+    # World cities are optional: without them the catalog is the 2022 US data only.
+    for path in sorted(world_dir.glob("*.json")) if world_dir and world_dir.exists() else []:
+        builder.add_world_city(json.loads(path.read_text(encoding="utf-8")), replace_places=prefer_current)
     return builder.build()
 
 

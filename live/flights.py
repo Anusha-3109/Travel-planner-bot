@@ -8,7 +8,7 @@ which the result note mentions. Prices are per person in USD.
 from datetime import date
 
 import config
-from live import items
+from live import fx, items
 from live.airports import airports_for
 from live.serpapi_client import checked_at, search
 from security.validation import InputValidationError
@@ -35,17 +35,13 @@ def _clock(timestamp: str | None, day: str) -> str | None:
     return clock if extra == 0 else f"{clock} ({extra:+d} day{'s' if abs(extra) > 1 else ''})"
 
 
-def _money(amount: float) -> str:
-    return f"${amount:,.0f}" if float(amount).is_integer() else f"${amount:,.2f}"
-
-
 def _price_text(flight: dict) -> str:
     """'$35 per person' or, for a group, '$35 per person · $70 total for 2'."""
     if flight["price_per_person"] is None:
         return "Price not shown"
-    text = f"{_money(flight['price_per_person'])} per person"
+    text = f"{fx.money(flight['price_per_person'])} per person"
     if flight["passengers"] > 1 and flight.get("total_price") is not None:
-        text += f" · {_money(flight['total_price'])} total for {flight['passengers']}"
+        text += f" · {fx.money(flight['total_price'])} total for {flight['passengers']}"
     return text
 
 

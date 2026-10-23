@@ -46,6 +46,7 @@ def _price(place: dict, rates: fx.ExchangeRates | None) -> dict:
         except Exception:  # an unusual currency code: keep the local price only
             return result
         result["price_range_usd"] = f"${low:.0f}–{high:.0f}" if high is not None else f"${low:.0f}+"
+        result["_range_usd"] = (low, high)
         result["estimated_cost_per_person_usd"] = round((low + high) / 2 if high is not None else low, 2)
     return result
 
@@ -74,10 +75,15 @@ def _restaurant(place: dict, city: str, cuisine: str | None, rates: fx.ExchangeR
     }
     item["rating_text"] = _rating_text(item["rating"], item["reviews"])
     if item["price_range_local"]:
-        usd = f" (~{item['price_range_usd']})" if item["price_range_usd"] else ""
-        item["price_text"] = f"{item['price_range_local']}{usd}"
+        local_currency = item["price_range_local"].split(" ")[0]
+        shown = ""
+        if item["estimated_cost_per_person_usd"] is not None and fx.display_currency() != local_currency:
+            low, high = item["_range_usd"]
+            shown = f" (~{fx.money_range(low, high)})"
+        item["price_text"] = f"{item['price_range_local']}{shown}"
     else:
         item["price_text"] = "Price not listed"
+    item.pop("_range_usd", None)  # only needed to build price_text
     item["id"] = items.remember("restaurant", {k: v for k, v in item.items() if k != "opening_hours"})
     return item
 

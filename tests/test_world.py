@@ -101,3 +101,23 @@ def test_international_flight_is_estimated_and_unpriced():
     assert len(cost["unpriced_items"]) == 3 and not cost["budget_check_complete"]
     budget = next(c for c in check_plan(plan)["hard_constraints"] if c["check"] == "budget")
     assert "no price data" in budget["detail"]
+
+
+def test_2026_us_places_replace_2022_places_but_keep_flights(tmp_path):
+    """A US city with 2026 data shows its 2026 places; its 2022 flights stay. The 2022-only catalog,
+    needed for the TravelPlanner evaluation, is still available."""
+    rockford = {**SAMPLE_CITY, "city": "Rockford", "country": "United States", "region": "North America",
+                "latitude": 42.2711, "longitude": -89.0940, "currency": "USD",
+                "restaurants": [{"name": "New Diner 2026", "cuisines": ["American"]}]}
+    (tmp_path / "rockford.json").write_text(json.dumps(rockford), encoding="utf-8")
+
+    current = build_catalog(world_dir=tmp_path)
+    assert [r.name for r in current.restaurants["rockford"]] == ["New Diner 2026"]
+    assert current.flight_dates("St. Petersburg", "Rockford")  # 2022 flights are kept
+    assert "TravelPlanner (March 2022)" in current.data_note("Rockford")
+    assert "converted from" not in current.data_note("Rockford")  # USD prices need no conversion
+
+    original = build_catalog(world_dir=None)
+    assert "Coco Bambu" in [r.name for r in original.restaurants["rockford"]]
+    both = build_catalog(world_dir=tmp_path, prefer_current=False)
+    assert {"Coco Bambu", "New Diner 2026"} <= {r.name for r in both.restaurants["rockford"]}

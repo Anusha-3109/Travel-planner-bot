@@ -30,7 +30,7 @@ class FakeResponse:
 def test_world_cities_have_urls_and_slugs():
     assert TOKYO.slug == "tokyo" and TOKYO.scrape_date == "2026-09-25"
     assert TOKYO.listings_url.startswith("https://data.insideairbnb.com/japan/") and TOKYO.listings_url.endswith(".csv.gz")
-    assert len({c.slug for c in WORLD_CITIES}) == len(WORLD_CITIES) == 16
+    assert len({c.slug for c in WORLD_CITIES}) == len(WORLD_CITIES) == 50
 
 
 def test_usd_rates_from_the_ecb(monkeypatch):
@@ -120,3 +120,24 @@ def test_dataset_download_copies_every_file(monkeypatch, tmp_path):
     paths = download.download(target_dir=tmp_path / "travelplanner")
     assert asked == list(download.FILES)
     assert [p.name for p in paths] == list(download.FILES) and all(p.read_text() == "data" for p in paths)
+
+
+def test_wide_areas_keep_only_listings_near_the_city(monkeypatch):
+    honolulu = next(c for c in WORLD_CITIES if c.name == "Honolulu")
+    assert honolulu.max_km == 30 and honolulu.currency == "USD" and honolulu.region == "North America"
+    listings = pd.DataFrame([
+        {"name": "Waikiki studio", "listing_url": "u1", "room_type": "Entire home/apt", "accommodates": 2,
+         "price": "$180.00", "minimum_nights": 2, "number_of_reviews": 300, "review_scores_rating": 4.8,
+         "latitude": 21.28, "longitude": -157.83},
+        {"name": "Maui cottage", "listing_url": "u2", "room_type": "Entire home/apt", "accommodates": 2,
+         "price": "$220.00", "minimum_nights": 2, "number_of_reviews": 500, "review_scores_rating": 4.9,
+         "latitude": 20.80, "longitude": -156.33},
+    ])
+    monkeypatch.setattr(fetch_world.pd, "read_csv", lambda *a, **k: listings)
+    stays = fetch_world.fetch_stays(honolulu, usd_per_unit=1.0)
+    assert [s["name"] for s in stays] == ["Waikiki studio"] and stays[0]["price"] == 180.0
+
+
+def test_us_areas_are_listed():
+    us = [c for c in WORLD_CITIES if c.country == "United States"]
+    assert len(us) == 34 and all(c.listings_url.startswith("https://data.insideairbnb.com/united-states/") for c in us)

@@ -10,6 +10,8 @@ hours, so normally only one request a day is made.
 import logging
 import re
 import xml.etree.ElementTree as ET
+from contextlib import contextmanager
+from contextvars import ContextVar
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
@@ -85,6 +87,47 @@ def _ecb() -> ExchangeRates:
         raise LiveDataError("The ECB rates don't include USD.")
     per_usd = {code: rate / per_eur["USD"] for code, rate in per_eur.items()}
     return ExchangeRates(per_usd, cached.data["date"], ECB_SOURCE)
+
+
+_display_currency: ContextVar[str] = ContextVar("display_currency", default="USD")
+
+
+@contextmanager
+def use_display_currency(currency: str | None):
+    """Show listing prices in this currency while the agent answers (the app's currency picker)."""
+    token = _display_currency.set((currency or "USD").strip().upper())
+    try:
+        yield
+    finally:
+        _display_currency.reset(token)
+
+
+def display_currency() -> str:
+    return _display_currency.get()
+
+
+def money(amount_usd: float, approx: bool = False, whole: bool = False) -> str:
+    """A USD amount as text in the display currency: "$35", "EUR 31.16". Falls back to USD
+    when no exchange rate is available."""
+    code, prefix = display_currency(), "~" if approx else ""
+    if code != "USD":
+        try:
+            value = get_rates().convert(amount_usd, "USD", code)
+            return f"{prefix}{code} {value:,.0f}" if whole else f"{prefix}{code} {value:,.2f}"
+        except (LiveDataError, InputValidationError):
+            pass
+    if whole or float(amount_usd).is_integer():
+        return f"{prefix}${amount_usd:,.0f}"
+    return f"{prefix}${amount_usd:,.2f}"
+
+
+def money_range(low_usd: float, high_usd: float | None) -> str:
+    """A price range in the display currency: "$22–34", "EUR 20–30", "$50+"."""
+    low, high = money(low_usd, whole=True), money(high_usd, whole=True) if high_usd is not None else None
+    if high is None:
+        return f"{low}+"
+    unit = low.split(" ")[0] + " " if " " in low else low[0]
+    return f"{low}–{high.removeprefix(unit)}"
 
 
 def get_rates() -> ExchangeRates:

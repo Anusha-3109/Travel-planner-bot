@@ -1,0 +1,4680 @@
+{
+ "city": "San Jose",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.3382,
+ "longitude": -121.8863,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-22",
+ "airbnb_scrape_date": "2026-09-21",
+ "fetched_at": "2026-10-23",
+ "accommodations": [
+  {
+   "name": "Serene Casita in Backyard Garden",
+   "price": 247.95,
+   "price_local": 247.95,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 1103,
+   "url": "https://www.airbnb.com/rooms/19641513"
+  },
+  {
+   "name": "Private Guest-House in the Redwoods",
+   "price": 277.0,
+   "price_local": 277.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.99,
+   "reviews": 1064,
+   "url": "https://www.airbnb.com/rooms/15648669"
+  },
+  {
+   "name": "Cabana in Sierra Azul Open Space Preserve",
+   "price": 367.0,
+   "price_local": 367.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 1037,
+   "url": "https://www.airbnb.com/rooms/20270619"
+  },
+  {
+   "name": "Charming Hidden Cottage",
+   "price": 127.0,
+   "price_local": 127.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.9,
+   "reviews": 867,
+   "url": "https://www.airbnb.com/rooms/6074575"
+  },
+  {
+   "name": "Private Rm #3 in Renovated Silicon Valley Bungalow",
+   "price": 52.0,
+   "price_local": 52.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.82,
+   "reviews": 816,
+   "url": "https://www.airbnb.com/rooms/34428873"
+  },
+  {
+   "name": "Treehouse , San Jose",
+   "price": 419.0,
+   "price_local": 419.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 812,
+   "url": "https://www.airbnb.com/rooms/25671493"
+  },
+  {
+   "name": "Hillside Retreat Private 2-Room Guest Unit & Pool",
+   "price": 184.0,
+   "price_local": 184.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.85,
+   "reviews": 793,
+   "url": "https://www.airbnb.com/rooms/22882213"
+  },
+  {
+   "name": "Silicon Valley Studio Apartment",
+   "price": 114.0,
+   "price_local": 114.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.82,
+   "reviews": 787,
+   "url": "https://www.airbnb.com/rooms/19155141"
+  },
+  {
+   "name": "Quiet room priv bath near Netflix",
+   "price": 98.0,
+   "price_local": 98.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 742,
+   "url": "https://www.airbnb.com/rooms/7476637"
+  },
+  {
+   "name": "Rose Garden Cottage",
+   "price": 181.0,
+   "price_local": 181.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 710,
+   "url": "https://www.airbnb.com/rooms/14298138"
+  },
+  {
+   "name": "Quiet, Secluded Saratoga Retreat",
+   "price": 84.89,
+   "price_local": 84.89,
+   "room_type": "Private room",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 698,
+   "url": "https://www.airbnb.com/rooms/15429337"
+  },
+  {
+   "name": "SARATOGA EXECUTIVE COTTAGE",
+   "price": 201.0,
+   "price_local": 201.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 693,
+   "url": "https://www.airbnb.com/rooms/17994710"
+  },
+  {
+   "name": "Backyard Guesthouse.Private Entrance,2 BR,Kitchen.",
+   "price": 272.0,
+   "price_local": 272.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.71,
+   "reviews": 666,
+   "url": "https://www.airbnb.com/rooms/39732029"
+  },
+  {
+   "name": "Cabana with Warm Watsu Pool",
+   "price": 252.5,
+   "price_local": 252.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 651,
+   "url": "https://www.airbnb.com/rooms/13491122"
+  },
+  {
+   "name": "Private Cottage nearby Airport/SAP/SJ Downtown/SCU",
+   "price": 204.0,
+   "price_local": 204.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.98,
+   "reviews": 650,
+   "url": "https://www.airbnb.com/rooms/38761776"
+  },
+  {
+   "name": "Private Rm #2 In Renovated Silicon Valley Bungalow",
+   "price": 70.0,
+   "price_local": 70.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 644,
+   "url": "https://www.airbnb.com/rooms/10758500"
+  },
+  {
+   "name": "1 bedroom apt with twin beds in Downtown Victorian",
+   "price": 124.0,
+   "price_local": 124.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 642,
+   "url": "https://www.airbnb.com/rooms/9097082"
+  },
+  {
+   "name": "Charming Home nearby Airport/San Jose Downtown/SAP",
+   "price": 304.0,
+   "price_local": 304.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.97,
+   "reviews": 634,
+   "url": "https://www.airbnb.com/rooms/27433962"
+  },
+  {
+   "name": "Sanctuary in Sierra Azul Open Space Preserve",
+   "price": 367.5,
+   "price_local": 367.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.99,
+   "reviews": 623,
+   "url": "https://www.airbnb.com/rooms/43303234"
+  },
+  {
+   "name": "Silicon Valley / Mountain View, Deluxe King Room",
+   "price": 386.0,
+   "price_local": 386.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 619,
+   "url": "https://www.airbnb.com/rooms/35941390"
+  },
+  {
+   "name": "Private Rm #1 In Renovated Silicon Valley Bungalow",
+   "price": 59.0,
+   "price_local": 59.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 607,
+   "url": "https://www.airbnb.com/rooms/33437231"
+  },
+  {
+   "name": "Airy Modern 2BR/2BA - Parking + Laundry + Sleep 6",
+   "price": 196.0,
+   "price_local": 196.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.8,
+   "reviews": 605,
+   "url": "https://www.airbnb.com/rooms/51705212"
+  },
+  {
+   "name": "Rustic Cottage, Redwoods, Beaches.",
+   "price": 139.0,
+   "price_local": 139.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 601,
+   "url": "https://www.airbnb.com/rooms/14162584"
+  },
+  {
+   "name": "Stylish, Light-filled Cottage",
+   "price": 157.5,
+   "price_local": 157.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 590,
+   "url": "https://www.airbnb.com/rooms/22031845"
+  },
+  {
+   "name": "Cozy room with private bathroom and entrance.",
+   "price": 74.0,
+   "price_local": 74.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 583,
+   "url": "https://www.airbnb.com/rooms/35549189"
+  },
+  {
+   "name": "Beautiful private guest house in downtown San Jose",
+   "price": 139.0,
+   "price_local": 139.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.79,
+   "reviews": 580,
+   "url": "https://www.airbnb.com/rooms/24023778"
+  },
+  {
+   "name": "Spacious Mt View 1B/1B In-law Suite",
+   "price": 162.8,
+   "price_local": 162.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.74,
+   "reviews": 575,
+   "url": "https://www.airbnb.com/rooms/9925614"
+  },
+  {
+   "name": "Palo Alto Master Suite - Private Bath & Entrance",
+   "price": 180.0,
+   "price_local": 180.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 547,
+   "url": "https://www.airbnb.com/rooms/27853423"
+  },
+  {
+   "name": "Private Guest Suite + Full Kitchen, 3 BD, Near SJC",
+   "price": 109.0,
+   "price_local": 109.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.7,
+   "reviews": 538,
+   "url": "https://www.airbnb.com/rooms/37341544"
+  },
+  {
+   "name": "A Modern, Cozy & Private Suite in the Heart of SJ",
+   "price": 188.0,
+   "price_local": 188.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 531,
+   "url": "https://www.airbnb.com/rooms/29778946"
+  },
+  {
+   "name": "Cosy private place in midtown San Jose",
+   "price": 294.5,
+   "price_local": 294.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 530,
+   "url": "https://www.airbnb.com/rooms/30114168"
+  },
+  {
+   "name": "Santana Row Luxury Executive 2 Story Loft",
+   "price": 342.5,
+   "price_local": 342.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.94,
+   "reviews": 529,
+   "url": "https://www.airbnb.com/rooms/10656148"
+  },
+  {
+   "name": "New Spacious Master Suite King Bed (Near Downtown)",
+   "price": 143.0,
+   "price_local": 143.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 527,
+   "url": "https://www.airbnb.com/rooms/53030263"
+  },
+  {
+   "name": "The Coach House",
+   "price": 212.0,
+   "price_local": 212.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 523,
+   "url": "https://www.airbnb.com/rooms/14198266"
+  },
+  {
+   "name": "1Ladybug Studio in Mountain View",
+   "price": 165.5,
+   "price_local": 165.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 518,
+   "url": "https://www.airbnb.com/rooms/2672540"
+  },
+  {
+   "name": "#15 Tiny Balcony room in downtown San Jose",
+   "price": 107.0,
+   "price_local": 107.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.76,
+   "reviews": 518,
+   "url": "https://www.airbnb.com/rooms/7479617"
+  },
+  {
+   "name": "Serene 2BR Bungalow - Parking + Laundry + Sleep 6",
+   "price": 171.0,
+   "price_local": 171.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.74,
+   "reviews": 502,
+   "url": "https://www.airbnb.com/rooms/53346998"
+  },
+  {
+   "name": "Private cottage in a garden",
+   "price": 149.5,
+   "price_local": 149.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 478,
+   "url": "https://www.airbnb.com/rooms/8088629"
+  },
+  {
+   "name": "Modern Suite in Cupertino",
+   "price": 130.0,
+   "price_local": 130.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 478,
+   "url": "https://www.airbnb.com/rooms/18388593"
+  },
+  {
+   "name": "Cozy Studio with Private Entrance and Parking",
+   "price": 158.0,
+   "price_local": 158.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 472,
+   "url": "https://www.airbnb.com/rooms/40013869"
+  },
+  {
+   "name": "Caboose in the redwoods just outside of Cupertino",
+   "price": 227.5,
+   "price_local": 227.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 467,
+   "url": "https://www.airbnb.com/rooms/14886949"
+  },
+  {
+   "name": "Quiet Poolside Cottage for Solitude",
+   "price": 205.0,
+   "price_local": 205.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.98,
+   "reviews": 464,
+   "url": "https://www.airbnb.com/rooms/10813765"
+  },
+  {
+   "name": "Cozy 2br Bungalow in Downtown San Jose",
+   "price": 172.5,
+   "price_local": 172.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 461,
+   "url": "https://www.airbnb.com/rooms/28942608"
+  },
+  {
+   "name": "Cottage - bedroom, living, bath and small kitchen",
+   "price": 152.0,
+   "price_local": 152.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 461,
+   "url": "https://www.airbnb.com/rooms/17329381"
+  },
+  {
+   "name": "Comfortable Whole Home on two house lot",
+   "price": 205.0,
+   "price_local": 205.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.93,
+   "reviews": 459,
+   "url": "https://www.airbnb.com/rooms/10751333"
+  },
+  {
+   "name": "#01 small 1 bedroom apartment downtown San Jose",
+   "price": 158.0,
+   "price_local": 158.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.83,
+   "reviews": 456,
+   "url": "https://www.airbnb.com/rooms/7480207"
+  },
+  {
+   "name": "Luxury Silicon Valley Wellness and Work Oasis",
+   "price": 509.0,
+   "price_local": 509.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.94,
+   "reviews": 455,
+   "url": "https://www.airbnb.com/rooms/9864870"
+  },
+  {
+   "name": "Mid Century Modern Guesthouse",
+   "price": 220.5,
+   "price_local": 220.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 452,
+   "url": "https://www.airbnb.com/rooms/19104018"
+  },
+  {
+   "name": "Brand New Guest Suite + Luxurious Bath, Near SJC",
+   "price": 93.0,
+   "price_local": 93.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.74,
+   "reviews": 449,
+   "url": "https://www.airbnb.com/rooms/43369084"
+  },
+  {
+   "name": "The Lavender House",
+   "price": 323.0,
+   "price_local": 323.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.9,
+   "reviews": 447,
+   "url": "https://www.airbnb.com/rooms/1985054"
+  },
+  {
+   "name": "Kasa | 1BD, Near SCU & Rooftop Pool | Santa Clara",
+   "price": 229.0,
+   "price_local": 229.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.72,
+   "reviews": 443,
+   "url": "https://www.airbnb.com/rooms/53043028"
+  },
+  {
+   "name": "Private unit close to Santa Clara University",
+   "price": 202.0,
+   "price_local": 202.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 439,
+   "url": "https://www.airbnb.com/rooms/48273393"
+  },
+  {
+   "name": "Top-Rated Downtown MV Stay | Steps to Castro",
+   "price": 381.5,
+   "price_local": 381.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.97,
+   "reviews": 437,
+   "url": "https://www.airbnb.com/rooms/7603798"
+  },
+  {
+   "name": "Magical Tree House",
+   "price": 249.0,
+   "price_local": 249.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 436,
+   "url": "https://www.airbnb.com/rooms/33271915"
+  },
+  {
+   "name": "Los Gatos/Cambrian COTTAGE-HOTTUB/ pvt.parking",
+   "price": 192.0,
+   "price_local": 192.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 431,
+   "url": "https://www.airbnb.com/rooms/27520295"
+  },
+  {
+   "name": "Central San Jose, SJC Airport, Diridon",
+   "price": 378.8,
+   "price_local": 378.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 11,
+   "rating": 4.81,
+   "reviews": 429,
+   "url": "https://www.airbnb.com/rooms/26236286"
+  },
+  {
+   "name": "Savvy Studio ❤︎ Palo Alto ❤︎ of Silicon Valley",
+   "price": 219.45,
+   "price_local": 219.45,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.99,
+   "reviews": 418,
+   "url": "https://www.airbnb.com/rooms/45928784"
+  },
+  {
+   "name": "Beautiful private guesthouse upscale neighborhood",
+   "price": 134.5,
+   "price_local": 134.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 411,
+   "url": "https://www.airbnb.com/rooms/33616167"
+  },
+  {
+   "name": "Separate Guest Suite #1 Self Check",
+   "price": 139.0,
+   "price_local": 139.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 407,
+   "url": "https://www.airbnb.com/rooms/27584018"
+  },
+  {
+   "name": "WOW! Better Than A Hotel! 4BR/2BA San Jose",
+   "price": 494.0,
+   "price_local": 494.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 8,
+   "rating": 4.88,
+   "reviews": 407,
+   "url": "https://www.airbnb.com/rooms/31117759"
+  },
+  {
+   "name": "Serene Suite (self-checkin/private entry/parking)",
+   "price": 138.0,
+   "price_local": 138.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.77,
+   "reviews": 406,
+   "url": "https://www.airbnb.com/rooms/41137143"
+  },
+  {
+   "name": "391-2 Mini studio in the heart of Silicon Valle",
+   "price": 182.5,
+   "price_local": 182.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 403,
+   "url": "https://www.airbnb.com/rooms/14774243"
+  },
+  {
+   "name": "Silicon Valley San Jose Private studio",
+   "price": 178.0,
+   "price_local": 178.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 401,
+   "url": "https://www.airbnb.com/rooms/40041292"
+  },
+  {
+   "name": "3Br/2BaCentralDowntownSanJose-StunningCraftsmanSAP",
+   "price": 321.5,
+   "price_local": 321.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.84,
+   "reviews": 397,
+   "url": "https://www.airbnb.com/rooms/17533836"
+  },
+  {
+   "name": "Heating&A/CPrivateEntry&BathBedroomStudioVeryClean",
+   "price": 120.0,
+   "price_local": 120.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 394,
+   "url": "https://www.airbnb.com/rooms/821067985354380223"
+  },
+  {
+   "name": "Your San Jose Home",
+   "price": 168.5,
+   "price_local": 168.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.94,
+   "reviews": 394,
+   "url": "https://www.airbnb.com/rooms/25032562"
+  },
+  {
+   "name": "1Mariposa Studio in Mountain View",
+   "price": 97.41,
+   "price_local": 97.41,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 390,
+   "url": "https://www.airbnb.com/rooms/5512886"
+  },
+  {
+   "name": "Charming studio cottage in garden",
+   "price": 112.5,
+   "price_local": 112.5,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.97,
+   "reviews": 382,
+   "url": "https://www.airbnb.com/rooms/4076753"
+  },
+  {
+   "name": "Evergreen Valley Hillside retreat",
+   "price": 184.0,
+   "price_local": 184.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.92,
+   "reviews": 379,
+   "url": "https://www.airbnb.com/rooms/32615216"
+  },
+  {
+   "name": "NewSuite #2 Private Entry+Private Bath Self Check",
+   "price": 125.0,
+   "price_local": 125.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 371,
+   "url": "https://www.airbnb.com/rooms/27585175"
+  },
+  {
+   "name": "Modern Dream",
+   "price": 109.5,
+   "price_local": 109.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 368,
+   "url": "https://www.airbnb.com/rooms/35706785"
+  },
+  {
+   "name": "Bay Area getaway w/ Pool + Heated Spa + EV charger",
+   "price": 582.0,
+   "price_local": 582.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.8,
+   "reviews": 368,
+   "url": "https://www.airbnb.com/rooms/21540862"
+  },
+  {
+   "name": "Downtown Campbell Executive Cottage",
+   "price": 260.5,
+   "price_local": 260.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.99,
+   "reviews": 368,
+   "url": "https://www.airbnb.com/rooms/20676086"
+  },
+  {
+   "name": "Stock the Wine Fridge at a Chic Loft on Vibrant Santana Row",
+   "price": 280.0,
+   "price_local": 280.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 366,
+   "url": "https://www.airbnb.com/rooms/6172005"
+  },
+  {
+   "name": "Separate entry-private suite & full bath #1",
+   "price": 102.32,
+   "price_local": 102.32,
+   "room_type": "Private room",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 364,
+   "url": "https://www.airbnb.com/rooms/5121988"
+  },
+  {
+   "name": "Master Room: Calm, Quiet-Private Entry/Restroom",
+   "price": 117.26,
+   "price_local": 117.26,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.97,
+   "reviews": 362,
+   "url": "https://www.airbnb.com/rooms/939730486717500042"
+  },
+  {
+   "name": "Cozy/clean room in Bay area.",
+   "price": 66.23,
+   "price_local": 66.23,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 359,
+   "url": "https://www.airbnb.com/rooms/926956641567100238"
+  },
+  {
+   "name": "La Casa de Alpaca",
+   "price": 255.5,
+   "price_local": 255.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 357,
+   "url": "https://www.airbnb.com/rooms/17342128"
+  },
+  {
+   "name": "Apartment in downtown SJ",
+   "price": 222.0,
+   "price_local": 222.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.86,
+   "reviews": 353,
+   "url": "https://www.airbnb.com/rooms/725538"
+  },
+  {
+   "name": "Quiet room with AC and shared bathroom.",
+   "price": 98.0,
+   "price_local": 98.0,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 351,
+   "url": "https://www.airbnb.com/rooms/17815910"
+  },
+  {
+   "name": "Private 1-Bedroom with attached Bath and Parking",
+   "price": 101.6,
+   "price_local": 101.6,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 349,
+   "url": "https://www.airbnb.com/rooms/691436984317121688"
+  },
+  {
+   "name": "Charming Craftsman in Downtown SJ",
+   "price": 202.0,
+   "price_local": 202.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.81,
+   "reviews": 348,
+   "url": "https://www.airbnb.com/rooms/33294833"
+  },
+  {
+   "name": "Sunnyvale House With King Bed/AC/Fast Wi-Fi",
+   "price": 412.1,
+   "price_local": 412.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 11,
+   "rating": 4.92,
+   "reviews": 347,
+   "url": "https://www.airbnb.com/rooms/38300472"
+  },
+  {
+   "name": "Newly rebuilt ultra clean designer home",
+   "price": 318.64,
+   "price_local": 318.64,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 344,
+   "url": "https://www.airbnb.com/rooms/43317241"
+  },
+  {
+   "name": "4Br/3BaHeartDtownSJGemCraftsmanFireplaceSAPAriport",
+   "price": 372.5,
+   "price_local": 372.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 8,
+   "rating": 4.89,
+   "reviews": 344,
+   "url": "https://www.airbnb.com/rooms/18693365"
+  },
+  {
+   "name": "Two Bedroom One Bath Condo ~ \"Home Away From Home\"",
+   "price": 177.33,
+   "price_local": 177.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/13040785"
+  },
+  {
+   "name": "Naglee Park , Downtown San Jose, Blue room",
+   "price": 104.5,
+   "price_local": 104.5,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 1,
+   "rating": 4.99,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/20916434"
+  },
+  {
+   "name": "Cozy | Vegan Sculpture Garden of Silicon Valley",
+   "price": 184.0,
+   "price_local": 184.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/5761415"
+  },
+  {
+   "name": "Gated Community Guest Suite with Private Entrance",
+   "price": 150.0,
+   "price_local": 150.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 336,
+   "url": "https://www.airbnb.com/rooms/38188785"
+  },
+  {
+   "name": "1BR/1BA Duplex (C) near Castro/Caltrain Mtn View",
+   "price": 137.86,
+   "price_local": 137.86,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 14,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 336,
+   "url": "https://www.airbnb.com/rooms/7348804"
+  },
+  {
+   "name": "Trendy Hotel Stay at Aloft Cupertino",
+   "price": 291.0,
+   "price_local": 291.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.74,
+   "reviews": 334,
+   "url": "https://www.airbnb.com/rooms/1416058799806988335"
+  },
+  {
+   "name": "Private studio, walk to Willow Glen dining",
+   "price": 166.0,
+   "price_local": 166.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 333,
+   "url": "https://www.airbnb.com/rooms/1388553"
+  },
+  {
+   "name": "Relax in a Quaint Private and Cozy Guest House",
+   "price": 119.0,
+   "price_local": 119.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.82,
+   "reviews": 331,
+   "url": "https://www.airbnb.com/rooms/32012514"
+  },
+  {
+   "name": "Gorgeous & Serene 4 BR Home in San Jose, CA",
+   "price": 424.5,
+   "price_local": 424.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 8,
+   "rating": 4.91,
+   "reviews": 328,
+   "url": "https://www.airbnb.com/rooms/40562266"
+  },
+  {
+   "name": "Walk to shops, dining, Murphy Ave & CityLine",
+   "price": 298.0,
+   "price_local": 298.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.67,
+   "reviews": 327,
+   "url": "https://www.airbnb.com/rooms/1339178392668696639"
+  },
+  {
+   "name": "Private Guest Suite Near Airport & Downtown SJ",
+   "price": 140.0,
+   "price_local": 140.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 326,
+   "url": "https://www.airbnb.com/rooms/47225331"
+  },
+  {
+   "name": "Rustic Elegance Retreat!",
+   "price": 109.0,
+   "price_local": 109.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 325,
+   "url": "https://www.airbnb.com/rooms/3792482"
+  },
+  {
+   "name": "Private studio in downtown",
+   "price": 151.0,
+   "price_local": 151.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 321,
+   "url": "https://www.airbnb.com/rooms/3153857"
+  },
+  {
+   "name": "Spacious cozy private studio in Campbell",
+   "price": 126.5,
+   "price_local": 126.5,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 320,
+   "url": "https://www.airbnb.com/rooms/25814497"
+  },
+  {
+   "name": "2BR House + Patio + Office near Apple and Main St.",
+   "price": 196.33,
+   "price_local": 196.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.94,
+   "reviews": 319,
+   "url": "https://www.airbnb.com/rooms/10637376"
+  },
+  {
+   "name": "San Jose, Downtown, Cozy Craftsman Duplex",
+   "price": 220.0,
+   "price_local": 220.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 318,
+   "url": "https://www.airbnb.com/rooms/14501746"
+  },
+  {
+   "name": "Adventure Spa",
+   "price": 297.0,
+   "price_local": 297.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 317,
+   "url": "https://www.airbnb.com/rooms/6490623"
+  },
+  {
+   "name": "Luxury stay near Santana Row for vacation/business",
+   "price": 249.0,
+   "price_local": 249.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.75,
+   "reviews": 317,
+   "url": "https://www.airbnb.com/rooms/32049866"
+  },
+  {
+   "name": "Palo Alto new guest room, Private Bath & Entrance",
+   "price": 165.17,
+   "price_local": 165.17,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 311,
+   "url": "https://www.airbnb.com/rooms/46475530"
+  },
+  {
+   "name": "Downtown San Jose SOFA, Rm 3- private room w/ lock",
+   "price": 167.0,
+   "price_local": 167.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.76,
+   "reviews": 310,
+   "url": "https://www.airbnb.com/rooms/19123769"
+  },
+  {
+   "name": "Beautiful apartment in downtown SJ",
+   "price": 185.0,
+   "price_local": 185.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.68,
+   "reviews": 310,
+   "url": "https://www.airbnb.com/rooms/10107544"
+  },
+  {
+   "name": "Cute two bedroom home in fantastic location!",
+   "price": 250.67,
+   "price_local": 250.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 6,
+   "rating": 4.82,
+   "reviews": 306,
+   "url": "https://www.airbnb.com/rooms/18025024"
+  },
+  {
+   "name": "Beautiful private Guest Suite in downtown San Jose",
+   "price": 185.0,
+   "price_local": 185.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 306,
+   "url": "https://www.airbnb.com/rooms/24395704"
+  },
+  {
+   "name": "Apartment above Levi Stadium.",
+   "price": 251.0,
+   "price_local": 251.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.98,
+   "reviews": 305,
+   "url": "https://www.airbnb.com/rooms/32984252"
+  },
+  {
+   "name": "Getaway | Vegan Sculpture Garden of Silicon Valley",
+   "price": 134.0,
+   "price_local": 134.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 305,
+   "url": "https://www.airbnb.com/rooms/13641281"
+  },
+  {
+   "name": "Private Room, Bath & Entrance: Cozy Hideaway",
+   "price": 120.0,
+   "price_local": 120.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 304,
+   "url": "https://www.airbnb.com/rooms/42778791"
+  },
+  {
+   "name": "Luxurious Guest House in Los Altos Hills/Stanford",
+   "price": 389.0,
+   "price_local": 389.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.85,
+   "reviews": 303,
+   "url": "https://www.airbnb.com/rooms/27683676"
+  },
+  {
+   "name": "2-bedroom suite in peaceful neighborhood",
+   "price": 155.1,
+   "price_local": 155.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 5,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 303,
+   "url": "https://www.airbnb.com/rooms/15808286"
+  },
+  {
+   "name": "Contemporary open floor plan home near Santana Row",
+   "price": 445.0,
+   "price_local": 445.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.97,
+   "reviews": 301,
+   "url": "https://www.airbnb.com/rooms/52477792"
+  },
+  {
+   "name": "Private Studio Guesthouse with A/C in Willow Glen",
+   "price": 205.0,
+   "price_local": 205.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.94,
+   "reviews": 300,
+   "url": "https://www.airbnb.com/rooms/24453135"
+  },
+  {
+   "name": "Convenient 1BR Home Near SJ Airport & Santa Clara",
+   "price": 234.0,
+   "price_local": 234.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 299,
+   "url": "https://www.airbnb.com/rooms/48045106"
+  },
+  {
+   "name": "Near Levi’s Stadium + Free Breakfast. Pool. Bar.",
+   "price": 174.06,
+   "price_local": 174.06,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.78,
+   "reviews": 298,
+   "url": "https://www.airbnb.com/rooms/1405834421482418130"
+  },
+  {
+   "name": "Private nicely decorated studio",
+   "price": 160.5,
+   "price_local": 160.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.81,
+   "reviews": 297,
+   "url": "https://www.airbnb.com/rooms/6833523"
+  },
+  {
+   "name": "Peace, eat & sleep in your private cozy cottage",
+   "price": 273.5,
+   "price_local": 273.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.95,
+   "reviews": 296,
+   "url": "https://www.airbnb.com/rooms/43873729"
+  },
+  {
+   "name": "#1 -Master Suite+prvt bathroom near Levi'sStadium!",
+   "price": 76.12,
+   "price_local": 76.12,
+   "room_type": "Private room",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 295,
+   "url": "https://www.airbnb.com/rooms/17076076"
+  },
+  {
+   "name": "Cozy 2BR Bungalow with Hot Tub near Santana Row",
+   "price": 282.0,
+   "price_local": 282.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.8,
+   "reviews": 295,
+   "url": "https://www.airbnb.com/rooms/13370199"
+  },
+  {
+   "name": "Modern condo, Palo Alto, 1 Block to Stanford 2337",
+   "price": 602.5,
+   "price_local": 602.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 7,
+   "rating": 4.81,
+   "reviews": 295,
+   "url": "https://www.airbnb.com/rooms/22440310"
+  },
+  {
+   "name": "Immaculate, Private, and Peaceful",
+   "price": 165.0,
+   "price_local": 165.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 294,
+   "url": "https://www.airbnb.com/rooms/970716663639056196"
+  },
+  {
+   "name": "Luxury stay near Oakridge Mall for vacation/work",
+   "price": 258.0,
+   "price_local": 258.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.84,
+   "reviews": 293,
+   "url": "https://www.airbnb.com/rooms/40409473"
+  },
+  {
+   "name": "An oasis of tranquility!",
+   "price": 138.0,
+   "price_local": 138.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 290,
+   "url": "https://www.airbnb.com/rooms/32995242"
+  },
+  {
+   "name": "Porta Azul House Near Downtown Dining Destinations",
+   "price": 505.0,
+   "price_local": 505.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.98,
+   "reviews": 289,
+   "url": "https://www.airbnb.com/rooms/13130135"
+  },
+  {
+   "name": "Spacious Modern 4BR/9beds/2.5Bth-Near downtown Sj",
+   "price": 360.0,
+   "price_local": 360.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 12,
+   "rating": 4.86,
+   "reviews": 289,
+   "url": "https://www.airbnb.com/rooms/49325403"
+  },
+  {
+   "name": "Fully Equipped Guest Suite",
+   "price": 167.0,
+   "price_local": 167.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 286,
+   "url": "https://www.airbnb.com/rooms/27408207"
+  },
+  {
+   "name": "#14 Nice quiet room in downtown San Jose Victorian",
+   "price": 116.0,
+   "price_local": 116.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 286,
+   "url": "https://www.airbnb.com/rooms/7479487"
+  },
+  {
+   "name": "Victorian Paradise Downtown Campbell intelliBed",
+   "price": 293.0,
+   "price_local": 293.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.89,
+   "reviews": 285,
+   "url": "https://www.airbnb.com/rooms/9047841"
+  },
+  {
+   "name": "❤️ of SJ - Detached Guesthouse with Full Kitchen",
+   "price": 305.0,
+   "price_local": 305.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.91,
+   "reviews": 283,
+   "url": "https://www.airbnb.com/rooms/46092417"
+  },
+  {
+   "name": "Private Home with Free Parking & Large Garden",
+   "price": 187.5,
+   "price_local": 187.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.76,
+   "reviews": 283,
+   "url": "https://www.airbnb.com/rooms/19965858"
+  },
+  {
+   "name": "Comfy apartment downtown SJ",
+   "price": 148.5,
+   "price_local": 148.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.72,
+   "reviews": 280,
+   "url": "https://www.airbnb.com/rooms/16721619"
+  },
+  {
+   "name": "San Jose Rosegarden Cottage - Business Ready",
+   "price": 189.5,
+   "price_local": 189.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 279,
+   "url": "https://www.airbnb.com/rooms/13766116"
+  },
+  {
+   "name": "2B2B Top floor | Free Parking | Conv. Cent| 402 Ji",
+   "price": 245.82,
+   "price_local": 245.82,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 6,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 279,
+   "url": "https://www.airbnb.com/rooms/50195113"
+  },
+  {
+   "name": "New Construction Clean, Modern, Quiet Cottage",
+   "price": 144.71,
+   "price_local": 144.71,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 277,
+   "url": "https://www.airbnb.com/rooms/30254601"
+  },
+  {
+   "name": "Loft-Style Residence - Private and Updated",
+   "price": 260.0,
+   "price_local": 260.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.56,
+   "reviews": 275,
+   "url": "https://www.airbnb.com/rooms/49776632"
+  },
+  {
+   "name": "HUGE 7B/4b House+ Office/Baby Room",
+   "price": 1259.0,
+   "price_local": 1259.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 13,
+   "rating": 4.74,
+   "reviews": 275,
+   "url": "https://www.airbnb.com/rooms/4881147"
+  },
+  {
+   "name": "Private Entry Studio with parking",
+   "price": 126.5,
+   "price_local": 126.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 274,
+   "url": "https://www.airbnb.com/rooms/48138862"
+  },
+  {
+   "name": "Downtown San Jose Cozy Studio Free Parking",
+   "price": 192.0,
+   "price_local": 192.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.94,
+   "reviews": 273,
+   "url": "https://www.airbnb.com/rooms/25422571"
+  },
+  {
+   "name": "Mountain Gem - $1M VIEW",
+   "price": 239.0,
+   "price_local": 239.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 271,
+   "url": "https://www.airbnb.com/rooms/33809493"
+  },
+  {
+   "name": "Modern Studio - SAP SJC Airport Downtown San Jose",
+   "price": 178.5,
+   "price_local": 178.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.85,
+   "reviews": 271,
+   "url": "https://www.airbnb.com/rooms/53647600"
+  },
+  {
+   "name": "The Hensley House Green Victorian luxury",
+   "price": 142.4,
+   "price_local": 142.4,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.72,
+   "reviews": 270,
+   "url": "https://www.airbnb.com/rooms/48406945"
+  },
+  {
+   "name": "Spacious Winchester Orchard House",
+   "price": 488.0,
+   "price_local": 488.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.93,
+   "reviews": 270,
+   "url": "https://www.airbnb.com/rooms/29436960"
+  },
+  {
+   "name": "Modern luxury suite in Downtown San Jose",
+   "price": 227.0,
+   "price_local": 227.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.99,
+   "reviews": 268,
+   "url": "https://www.airbnb.com/rooms/44140376"
+  },
+  {
+   "name": "Cozy,Quiet”Home Away from Home”.attached cottage",
+   "price": 151.0,
+   "price_local": 151.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 5,
+   "rating": 4.89,
+   "reviews": 267,
+   "url": "https://www.airbnb.com/rooms/19701788"
+  },
+  {
+   "name": "Amazing apartment in the heart of San Jose!",
+   "price": 138.0,
+   "price_local": 138.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.87,
+   "reviews": 266,
+   "url": "https://www.airbnb.com/rooms/38907081"
+  },
+  {
+   "name": "Beautiful Private Room in the Heart of Palo Alto",
+   "price": 152.0,
+   "price_local": 152.0,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 265,
+   "url": "https://www.airbnb.com/rooms/17509000"
+  },
+  {
+   "name": "comfortable room of No 2",
+   "price": 67.0,
+   "price_local": 67.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.7,
+   "reviews": 264,
+   "url": "https://www.airbnb.com/rooms/23843702"
+  },
+  {
+   "name": "Sunnyvale Single Private Garden View— for Business",
+   "price": 164.25,
+   "price_local": 164.25,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.95,
+   "reviews": 261,
+   "url": "https://www.airbnb.com/rooms/14222013"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Adega",
+   "cuisines": [
+    "Portuguese"
+   ],
+   "address": "1614 Alum Rock Avenue, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "SJ Omogari Korean Restaurant",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "154 Jackson Street, 95112, San Jose",
+   "website": "https://omogarisj.com"
+  },
+  {
+   "name": "Jtown Pizza Company",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "625 North 6th Street, 95112, San Jose",
+   "website": "https://jtownpizza.com/"
+  },
+  {
+   "name": "The City Fish",
+   "cuisines": [
+    "Fish And Chips"
+   ],
+   "address": "30 East Santa Clara Street, 95113, San Jose",
+   "website": "https://www.thecityfish.online/"
+  },
+  {
+   "name": "Spread",
+   "cuisines": [
+    "Sandwich",
+    "Ice Cream"
+   ],
+   "address": "170 Jackson Street, 95112, San Jose",
+   "website": "https://spreaddeli.com"
+  },
+  {
+   "name": "Jackie's Place",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "840 North 1st Street, 95112, San Jose",
+   "website": "https://www.jackiesplacesj.com/"
+  },
+  {
+   "name": "Vegetarian House",
+   "cuisines": [
+    "International",
+    "Chinese",
+    "Vietnamese",
+    "Thai",
+    "Indian",
+    "Asian",
+    "American"
+   ],
+   "address": "520 East Santa Clara Street, 95112, San Jose",
+   "website": "https://vegetarianhouse.us/"
+  },
+  {
+   "name": "La Corona Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "601 North 4th Street, 95112, San Jose",
+   "website": "https://sites.google.com/site/taqueriacoronasanjose/"
+  },
+  {
+   "name": "Hobee's Restaurant",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "261 North 2nd Street, 95112, San Jose",
+   "website": "https://hobees.com/locations/hobees-restaurant-and-beer-garden-downtown-san-jose/"
+  },
+  {
+   "name": "Angkor Chef",
+   "cuisines": [
+    "Cambodian"
+   ],
+   "address": "86 South 1st Street, 95113-2406, San Jose",
+   "website": "https://angkorchef.square.site/"
+  },
+  {
+   "name": "Kaita",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "215 Jackson Street, 95112, San Jose",
+   "website": "https://kaitarestaurant.com"
+  },
+  {
+   "name": "Phở Bel-Air",
+   "cuisines": [
+    "Vietnamese",
+    "Soup"
+   ],
+   "address": "1751 North 1st Street, 95112, San Jose",
+   "website": "https://phobelair.business.site/"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "29 South 3rd Street, 95113, San Jose",
+   "website": "https://www.mountainmikespizza.com/locations/san-jose-29-s-3rd-st/"
+  },
+  {
+   "name": "Gombei",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "193 Jackson Street, 95112, San Jose",
+   "website": "http://gombei.com/"
+  },
+  {
+   "name": "SAJJ Mediterranean",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "579 Coleman Avenue, 95110, San Jose",
+   "website": "https://www.sajjstreeteats.com/location/san-jose-market-center/"
+  },
+  {
+   "name": "Hukilau San Jose",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "230 Jackson Street, 95112, San Jose",
+   "website": "https://www.dahukilau.com/sanjose"
+  },
+  {
+   "name": "AJI Bar & Robata",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "170 South Market Street, 95113, San Jose",
+   "website": "https://www.hilton.com/en/hotels/sjcsmhh-signia-san-jose/dining/aji-bar-and-robata/"
+  },
+  {
+   "name": "Costa Alegre",
+   "cuisines": [
+    "Mexican",
+    "Seafood"
+   ],
+   "address": "855 North 13th Street, 95112, San Jose",
+   "website": "https://mariscoscostaalegre.com/13th-street"
+  },
+  {
+   "name": "Okayama",
+   "cuisines": [
+    "Japanese",
+    "Okinawan"
+   ],
+   "address": "565 North 6th Street, 95112, San Jose",
+   "website": "https://okayamasushi.menu11.com/"
+  },
+  {
+   "name": "Spoonfish Poke",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "111 Paseo De San Antonio, 95112, San Jose",
+   "website": "https://direct.chownow.com/order/40331/locations/61237"
+  },
+  {
+   "name": "Giovanni’s Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "862 North 13th Street, 95112, San Jose",
+   "website": "https://www.giovannispizzasj.com/"
+  },
+  {
+   "name": "Küsan Uyghur Cuisine",
+   "cuisines": [
+    "Chinese",
+    "Mediterranean"
+   ],
+   "address": "1516 North 4th Street, 95112, San Jose",
+   "website": "https://www.kusancuisine.com"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "644 North 1st Street, 95112, San Jose",
+   "website": "http://restaurants.ihop.com/ca/san-jose/608/"
+  },
+  {
+   "name": "Sushi Maru",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "262 Jackson Street, 95112, San Jose",
+   "website": "https://sushimarusj.com"
+  },
+  {
+   "name": "Chikin Drip",
+   "cuisines": [
+    "Chicken",
+    "Fries"
+   ],
+   "address": "530 Newhall Drive, 95110, San Jose",
+   "website": "https://www.instagram.com/chikindrip"
+  },
+  {
+   "name": "Shabu Time",
+   "cuisines": [
+    "Japanese",
+    "Hotpot"
+   ],
+   "address": "171 Jackson Street, 95112, San Jose",
+   "website": "https://www.shabutime.com/"
+  },
+  {
+   "name": "Dakao",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "98 East San Salvador Street, 95112, San Jose",
+   "website": "http://dakaosj.wix.com/dakao"
+  },
+  {
+   "name": "Tee Nee Thai",
+   "cuisines": [
+    "Thai",
+    "Noodle",
+    "Ice Cream"
+   ],
+   "address": "1423 The Alameda, 95126, San Jose",
+   "website": "https://www.teeneethaisanjose.com/"
+  },
+  {
+   "name": "Eos & Nyx",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "201 South 2nd Street",
+   "website": "https://www.opentable.com/r/eos-and-nyx-san-jose"
+  },
+  {
+   "name": "Enjoy Seoul",
+   "cuisines": [
+    "Korean",
+    "Tofu"
+   ],
+   "address": "979 Story Road, 95122, San Jose",
+   "website": "http://www.enjoyseoulrestaurant.com/"
+  },
+  {
+   "name": "Strāta",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "181 East Santa Clara Street, 95113, San Jose",
+   "website": "https://www.stratasj.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2077 North 1st Street, 95131, San Jose",
+   "website": "https://locations.dennys.com/CA/SAN-JOSE/247442"
+  },
+  {
+   "name": "Peppertales",
+   "cuisines": [
+    "Pakistani",
+    "Indian"
+   ],
+   "address": "498 North 13th Street, 95112, San Jose",
+   "website": "https://peppertales.us/"
+  },
+  {
+   "name": "Élyse Restaurant",
+   "cuisines": [
+    "French",
+    "Vietnamese"
+   ],
+   "address": "96 South 1st Street, 95113, San Jose",
+   "website": "https://www.elyserestaurant.com/"
+  },
+  {
+   "name": "Falafel Drive In",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2301 Stevens Creek Boulevard, 95128, San Jose",
+   "website": "https://falafelsdrivein.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "51 Curtner Avenue, 95125, San Jose",
+   "website": "https://restaurants.applebees.com/en-us/ca/san-jose/51-curtner-ave-76030"
+  },
+  {
+   "name": "Taquería Lorena’s",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "854 North 13th Street, 95112, San Jose",
+   "website": "http://www.taquerialorenas.com/"
+  },
+  {
+   "name": "Jon Jon's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1305 Oakland Road, 95112, San Jose",
+   "website": "https://jonjonsbbq.us/"
+  },
+  {
+   "name": "LeYou Ethiopian",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1100 North 1st Street, 95110, San Jose",
+   "website": "https://leyou-sj.com/"
+  },
+  {
+   "name": "Sagar Sweets",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "146 George Street, 95110, San Jose",
+   "website": "https://www.sagarsweetsrestaurant.com/"
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "685 Coleman Avenue, 95110, San Jose",
+   "website": "https://www.blazepizza.com/locations/san-jose-coleman-ave/"
+  },
+  {
+   "name": "Bibo’s New York Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1431 Bird Avenue, 95125, San Jose",
+   "website": "https://www.bibosnypizza.com/"
+  },
+  {
+   "name": "Suni Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "119 Paseo De San Antonio",
+   "website": "https://pos.chowbus.com/online-ordering/store/sumi-sushi/21287"
+  },
+  {
+   "name": "The Table",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1110 Willow Street, 95125, San Jose",
+   "website": "https://www.thetablesj.com/"
+  },
+  {
+   "name": "Rookies Sports Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "99 South 1st Street, 95113, San Jose",
+   "website": "https://rookieslodge.com/downtown-san-jose/"
+  },
+  {
+   "name": "Dynasty Chinese Seafood Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Seafood"
+   ],
+   "address": "1001 Story Road, 95122, San Jose",
+   "website": "http://dynasty-restaurant.com"
+  },
+  {
+   "name": "Sushi Boat",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "San Jose",
+   "website": "https://www.flysanjose.com/eats/sushi-boat"
+  },
+  {
+   "name": "Paseo Fresh",
+   "cuisines": [
+    "American",
+    "Sandwich",
+    "Salad",
+    "Soup"
+   ],
+   "address": "211 South 9th Street, 95112, San Jose",
+   "website": "https://new.dineoncampus.com/sjsu/campus-map/paseo-fresh-deli-coffee"
+  },
+  {
+   "name": "The Breakfast Club at Midtown",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1432 West San Carlos Street, 95126, San Jose",
+   "website": "https://www.bcmidtown.com/"
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2351 McKee Road, 95116, San Jose",
+   "website": "https://ordering.roundtablepizza.com/site/rtp41"
+  },
+  {
+   "name": "Japanese Fusion",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "211 South 9th Street, 95112, San Jose",
+   "website": "https://new.dineoncampus.com/sjsu/campus-map/japanese-fusion"
+  },
+  {
+   "name": "Back A Yard",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "457 East San Carlos Street, 95112, San Jose",
+   "website": "https://backayard.net/"
+  },
+  {
+   "name": "Green Lotus",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2223 Business Circle",
+   "website": "https://www.greenlotusrestaurant.com"
+  },
+  {
+   "name": "BJ's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "511 Coleman Avenue, 95110, San Jose",
+   "website": "https://www.bjsrestaurants.com/locations/ca/san-jose-marketcenter"
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "51 North San Pedro Street, 95110, San Jose",
+   "website": "https://www.osf.com/"
+  },
+  {
+   "name": "Las Cazuelas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "55 Race Street, 95126, San Jose",
+   "website": "http://lascazuelastaqueria.com/"
+  },
+  {
+   "name": "Island Taste",
+   "cuisines": [
+    "Jamaican",
+    "Haitian",
+    "Caribbean"
+   ],
+   "address": "225 East Santa Clara Street, 95113, San Jose",
+   "website": "https://www.islandtastegrill.com/"
+  },
+  {
+   "name": "China Inn",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1401 The Alameda, 95126, San Jose",
+   "website": "https://www.chinainnsanjose.com/"
+  },
+  {
+   "name": "Uncle John's Pancake House",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1205 The Alameda, 95126, San Jose",
+   "website": "https://unclejohnspancakes.com/"
+  },
+  {
+   "name": "Angelou’s Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "78 South 1st Street, 95113, San Jose",
+   "website": "https://angelousmexicangrill.com/"
+  },
+  {
+   "name": "Fountain Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "170 South Market Street, 95113, San Jose",
+   "website": "https://www.hilton.com/en/hotels/sjcsmhh-signia-san-jose/dining/fountain-restaurant/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "226 West Alma Avenue, 95110, San Jose",
+   "website": "https://locations.pizzahut.com/ca/san-jose/226-west-alma-ave"
+  },
+  {
+   "name": "Habibiz",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "262 East Santa Clara Street, 95113, San Jose",
+   "website": "https://habibizfood.com/"
+  },
+  {
+   "name": "Copita Tequileria y Comida",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1098 Lincoln Avenue, 95125, San Jose",
+   "website": "https://www.copitarestaurant.com/willow-glen-home/"
+  },
+  {
+   "name": "Vung Tau",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "535 East Santa Clara Street, 95112, San Jose",
+   "website": "https://vungtaurestaurant.com/"
+  },
+  {
+   "name": "Taurinus",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "167 West San Fernando Street, 95113, San Jose",
+   "website": "https://www.taurinussteakhouse.com/"
+  },
+  {
+   "name": "Sushi Kan",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1305 North 1st Street, 95110, San Jose",
+   "website": "http://sushikansanjose.com/"
+  },
+  {
+   "name": "Must Be Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "18 North San Pedro Street, 95113, San Jose",
+   "website": "https://www.mustbethaiandbar.com/"
+  },
+  {
+   "name": "Original Joe’s",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "301 South 1st Street, 95113, San Jose",
+   "website": "https://originaljoes.com/"
+  },
+  {
+   "name": "Tofoo Cơm Chay",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "388 East Santa Clara Street, 95112, San Jose",
+   "website": "http://www.tofoo-com-chay.com/"
+  },
+  {
+   "name": "Il Fornaio San Jose",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "302 South Market Street, 95113, San Jose",
+   "website": "https://www.ilfornaio.com/?restaurant_id=3156"
+  },
+  {
+   "name": "Scott’s Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "200 South 1st Street, 95113, San Jose",
+   "website": "https://www.scottsseafoodsj.com/"
+  },
+  {
+   "name": "Phở Passion",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle",
+    "Tea"
+   ],
+   "address": "301 East Santa Clara Street, 95113, San Jose",
+   "website": "https://phopassion.com/"
+  },
+  {
+   "name": "Poorboy's Kitchen",
+   "cuisines": [
+    "Seafood",
+    "Sandwich"
+   ],
+   "address": "949 Ruff Drive, 95110, San Jose",
+   "website": "https://poorboys-kitchen.square.site/"
+  },
+  {
+   "name": "Gyu-Kaku",
+   "cuisines": [
+    "Japanese",
+    "Barbecue"
+   ],
+   "address": "28 North San Pedro Street, San Jose",
+   "website": "https://www.gyu-kaku.com/sanjose/"
+  },
+  {
+   "name": "Pizza My Heart",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1477 Berryessa Road, 95133, San Jose",
+   "website": "https://www.pizzamyheart.com/location/san-jose-berryessa/"
+  },
+  {
+   "name": "Araujo’s Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1501 Berryessa Road, 95133, San Jose",
+   "website": "https://araujosmexicangrill.com/locations/"
+  },
+  {
+   "name": "Ancora Vino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "320 West Saint John Street, 95110, San Jose",
+   "website": "https://san-jose.enotecalastoria.com/"
+  },
+  {
+   "name": "Kukar’s House of Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "527 Almaden Avenue, 95110, San Jose",
+   "website": "https://kukarshouseofpizza.com/"
+  },
+  {
+   "name": "Taiwan Restaurant",
+   "cuisines": [
+    "Taiwanese"
+   ],
+   "address": "1306 Lincoln Avenue, 95125, San Jose",
+   "website": "https://www.taiwanrestaurantsj.com/"
+  },
+  {
+   "name": "Luna Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1495 The Alameda, 95126, San Jose",
+   "website": "https://lunamexicankitchen.com/"
+  },
+  {
+   "name": "Cơm Gà Nam An",
+   "cuisines": [
+    "Chicken",
+    "Vietnamese",
+    "Chinese"
+   ],
+   "address": "348 East Santa Clara Street, 95112, San Jose",
+   "website": "https://comganaman.eat24hour.com/"
+  },
+  {
+   "name": "Zona Rosa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1411 The Alameda, 95126, San Jose",
+   "website": "http://zonarosasj.com/"
+  },
+  {
+   "name": "Día de Pesca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "55 North Bascom Avenue, 95128, San Jose",
+   "website": "http://pescasifood.com/"
+  },
+  {
+   "name": "Smoking Pig BBQ Company",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1144 North 4th Street, 95112, San Jose",
+   "website": "https://www.smokingpigbbq.net/"
+  },
+  {
+   "name": "Willow Street Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "American"
+   ],
+   "address": "1072 Willow Street, 95125, San Jose",
+   "website": "https://www.willowstreet.com/"
+  },
+  {
+   "name": "Fred's Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1759 Technology Drive, 95110, San Jose",
+   "website": "https://fredsburger.com/"
+  },
+  {
+   "name": "Binh Dan Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1130 Lucretia Avenue, 95122, San Jose",
+   "website": "http://binhdanquan.net/"
+  },
+  {
+   "name": "Crawdaddy",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "779 Story Road, 95122, San Jose",
+   "website": "http://www.crawdaddy.co/"
+  },
+  {
+   "name": "Mezcal",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "25 West San Fernando Street, 95113, San Jose",
+   "website": "https://mezcalrestaurantsj.com//"
+  },
+  {
+   "name": "Gojo",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1261 West San Carlos Street, 95126, San Jose",
+   "website": "http://gojoethiopianrestaurant.com/"
+  },
+  {
+   "name": "Angelou’s Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "21 North 2nd Street, 95113, San Jose",
+   "website": "https://angelousmexicangrill.com/"
+  },
+  {
+   "name": "Firehouse No. 1",
+   "cuisines": [
+    "Gastropub",
+    "Burger"
+   ],
+   "address": "69 North San Pedro Street, 95110, San Jose",
+   "website": "http://firehouse1.com/"
+  },
+  {
+   "name": "Smoking Pig BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "530 Newhall Drive, 95110, San Jose",
+   "website": "https://smokingpigbbq.net/"
+  },
+  {
+   "name": "Phở Liên Noodle House",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "1460 Oakland Road, 95112, San Jose",
+   "website": "https://pholiensj.com/"
+  },
+  {
+   "name": "Souvlaki Greek Skewers",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "577 West Alma Avenue, 95125, San Jose",
+   "website": "https://souvlakiskewers.com/"
+  },
+  {
+   "name": "Chef Ming's Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "61 Washington Street, 95050, Santa Clara",
+   "website": "https://www.chef-mings.com/"
+  },
+  {
+   "name": "Myth Taverna",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "152 Post Street, 95113, San Jose",
+   "website": "https://mythloungesj.com/"
+  },
+  {
+   "name": "Sammy G’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "330 South 10th Street, 95112, San Jose",
+   "website": "https://www.sammygspizza.com/"
+  },
+  {
+   "name": "Tacos al Pastor",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "400 South Bascom Avenue, 95128, San Jose",
+   "website": "https://www.tacosalpastorsj.com/"
+  },
+  {
+   "name": "Grande Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "150 East San Carlos Street, 95112, San Jose",
+   "website": "https://www.yelp.com/biz/grande-pizzeria-san-jose"
+  },
+  {
+   "name": "The Mini Gourmet",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "599 South Bascom Avenue, San Jose",
+   "website": "http://www.minigourmetrestaurant.com/"
+  },
+  {
+   "name": "John's of Willow Glen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1238 Lincoln Avenue, 95125, San Jose",
+   "website": "https://www.johnsofwg.com/"
+  },
+  {
+   "name": "Punjab Cafe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "322 East Santa Clara Street, 95112, San Jose",
+   "website": "https://www.punjabcafesanjose.com/"
+  },
+  {
+   "name": "Hunan Taste",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "998 North 4th Street, 95112, San Jose",
+   "website": "https://www.hunantaste.net/"
+  },
+  {
+   "name": "Little Lamb Hotpot & BBQ",
+   "cuisines": [
+    "Hotpot"
+   ],
+   "address": "979 Story Road, 95122, San Jose",
+   "website": "https://www.mylittlelambhotpot.com/"
+  },
+  {
+   "name": "Taqueria El Abuelo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1007 Lincoln Avenue, 95125, San Jose",
+   "website": "https://elabuelotaqueria.com/"
+  },
+  {
+   "name": "Tarah Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1163 Lincoln Avenue, 95125, San Jose",
+   "website": "https://tarahthai.com/"
+  },
+  {
+   "name": "Henry’s Hi-Life",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "301 West Saint John Street, 95110, San Jose",
+   "website": "https://henryshilife.com/"
+  },
+  {
+   "name": "Sushi Arashi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1181 Lincoln Avenue, 95125, San Jose",
+   "website": "https://www.sushiarashi.com/"
+  },
+  {
+   "name": "Locanda Ischia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1346 Lincoln Avenue, 95125, San Jose",
+   "website": "https://locandarestaurants.com/locanda-ischia---san-jose"
+  },
+  {
+   "name": "Burma Roots",
+   "cuisines": [
+    "Burmese"
+   ],
+   "address": "1100 Lincoln Avenue, 95125, San Jose",
+   "website": "https://burmarootssj.com/"
+  },
+  {
+   "name": "Maiwand Kabob House",
+   "cuisines": [
+    "Afghan"
+   ],
+   "address": "1202 East Santa Clara Street, 95116, San Jose",
+   "website": "http://maiwandkabob.net/"
+  },
+  {
+   "name": "Ignite",
+   "cuisines": [
+    "Grill",
+    "Burger",
+    "Wings"
+   ],
+   "address": "26 North San Pedro Street, 95113, San Jose",
+   "website": "https://www.eatatignite.com/"
+  },
+  {
+   "name": "Zeytoun Restaurant",
+   "cuisines": [
+    "International"
+   ],
+   "address": "191 Metro Drive, 95110, San Jose",
+   "website": "http://www.zeytoun.com/"
+  },
+  {
+   "name": "Bluefin",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "754 The Alameda, 95126, San Jose",
+   "website": "http://bluefinsanjose.com/"
+  },
+  {
+   "name": "Sizzle Spot",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "740 Story Road, 95122, San Jose",
+   "website": "http://sizzlespotworld.com/"
+  },
+  {
+   "name": "Ramen Taka",
+   "cuisines": [
+    "Noodle",
+    "Japanese"
+   ],
+   "address": "2219 The Alameda, 95050, Santa Clara",
+   "website": "http://ramentaka.org/"
+  },
+  {
+   "name": "Jade Cathay",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1339 North 1st Street, 95110, San Jose",
+   "website": "http://www.jadecathay.com/"
+  },
+  {
+   "name": "House of Genji",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1335 North 1st Street, 95110, San Jose",
+   "website": "http://www.houseofgenji.net/"
+  },
+  {
+   "name": "Hajis",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1185 Lincoln Avenue, 95125, San Jose",
+   "website": "https://hajisrestaurant.com"
+  },
+  {
+   "name": "Slice Poke Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1150 Murphy Avenue, 95131, San Jose",
+   "website": "http://www.slicepokebar.com/"
+  },
+  {
+   "name": "Carnitas El Rincón",
+   "cuisines": [
+    "Mexican",
+    "Carnitas"
+   ],
+   "address": "84 Keyes Street, 95112, San Jose",
+   "website": "https://carnitaselrincon.com/"
+  },
+  {
+   "name": "Neeya Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "273 East San Fernando Street, 95112, San Jose",
+   "website": "https://www.neeyathaikitchen.com/"
+  },
+  {
+   "name": "Littlest Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "320 West Saint John Street, 95110, San Jose",
+   "website": "https://littlestlittleitaly.com/"
+  },
+  {
+   "name": "Manakish Oven & Grill",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "670 Stockton Avenue, 95126, San Jose",
+   "website": "https://manakishoven.com"
+  },
+  {
+   "name": "Asadero",
+   "cuisines": [
+    "Mexican",
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://www.asaderobbq.com/"
+  },
+  {
+   "name": "On a Roll",
+   "cuisines": [
+    "Vietnamese",
+    "Spring Roll"
+   ],
+   "address": "87 North San Pedro Street, 95110, San Jose",
+   "website": "https://sanpedrosquaremarket.com/San-Pedro-Square-Market-Tenants/on-a-roll"
+  },
+  {
+   "name": "Thaibodia",
+   "cuisines": [
+    "Thai",
+    "Cambodian"
+   ],
+   "address": "1865 West San Carlos Street, 95128, San Jose",
+   "website": "https://www.thaibodia.com/"
+  },
+  {
+   "name": "San Jose Bar and Grill",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "85 South 2nd Street, 95113, San Jose",
+   "website": "https://www.sanjosebarandgrill.com/"
+  },
+  {
+   "name": "Bacalhau Grill",
+   "cuisines": [
+    "Portuguese"
+   ],
+   "address": "1555 Alum Rock Avenue, 95116, San Jose",
+   "website": "http://bacalhaugrill.com/"
+  },
+  {
+   "name": "Mosaic",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "http://www.mosaicdowntown.com/"
+  },
+  {
+   "name": "Mi Tierra",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.mitierrasanjose.com/"
+  },
+  {
+   "name": "SP2",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://sp2sanjose.com/"
+  },
+  {
+   "name": "Blue Monkey",
+   "cuisines": [
+    "Vietnamese",
+    "Hotpot"
+   ],
+   "address": "989 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Kali Noodles & Tea Bar",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "374 East Santa Clara Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "El Halal Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 Lincoln Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Tostadas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "304 East Santa Clara Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Anchors",
+   "cuisines": [
+    "Fish And Chips",
+    "Seafood"
+   ],
+   "address": "1111 Meridian Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Chef P's Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "22 North Jackson Avenue, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "El Grullo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "41 South Jackson Avenue, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Buôn Mê Café",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1111 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Home Eat",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "88 South 4th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "El Cabrón",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "155 West San Fernando Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "La Hacienda Lounge",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "95 South Market Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Cali-Spartan Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "515 South 10th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Pho Co II",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "979 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Phở Công Lý",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "460 East William Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Last Round",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "354 East Santa Clara Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Men-Bei Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "1349 Coleman Avenue, 95050, Santa Clara",
+   "website": ""
+  },
+  {
+   "name": "Chicken Meets Rice",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1331 Coleman Avenue, 95050, Santa Clara",
+   "website": ""
+  },
+  {
+   "name": "Dac Phuc",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "198 West Santa Clara Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "N&K Noodle",
+   "cuisines": [
+    "Cambodian"
+   ],
+   "address": "1111 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Kazoo",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "250 Jackson Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Taquería “El Caminito”",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "782 North 13th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Cha’s Kitchen",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "788 North King Road, 95133, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Ngọc Sương",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "960 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Mountain Mike’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1698 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "949 Ruff Drive, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Thai Spice",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1102 Bird Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Chalateco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2 North Jackson Avenue, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Hinodeya",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "9 North Market Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Mesquite & Oak",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "856 North 13th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Rong Biển",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1111 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Kumako Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "211 Jackson Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Mi Quang Co Thao Noodle House",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1560 North 4th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Restaurante El Conrro",
+   "cuisines": [
+    "Mexican",
+    "Seafood"
+   ],
+   "address": "301 East Santa Clara Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Phở Cường 2",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "1739 Berryessa Road, 95133, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Bà Na",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2268 Senter Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Amici",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "949 Ruff Drive, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "La Superior Panadería y Taquería",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1098 Leigh Avenue, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Pier 402",
+   "cuisines": [
+    "Seafood",
+    "Noodle",
+    "Coffee Shop",
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Minato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "617 North 6th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Phở 90°",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "999 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "An Khang Mì Gia",
+   "cuisines": [
+    "Noodle",
+    "Vietnamese"
+   ],
+   "address": "979 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Karimi Restaurant",
+   "cuisines": [
+    "Indian",
+    "Pakistani"
+   ],
+   "address": "1086 North 1st Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Las Islitas Restaurant",
+   "cuisines": [
+    "Mexican",
+    "Seafood"
+   ],
+   "address": "1460 Oakland Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "New Tung Kee Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1098 Oakland Road, 95131, San Jose",
+   "website": ""
+  },
+  {
+   "name": "TD’s Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1492 Almaden Expressway, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Bún Riêu Cua Tân Định",
+   "cuisines": [
+    "Noodle",
+    "Vietnamese"
+   ],
+   "address": "999 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Pho Nhy",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2367 McKee Road, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Bad Egg Breakfast Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1701 Airport Boulevard, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Menara Moroccan",
+   "cuisines": [
+    "Moroccan"
+   ],
+   "address": "43 East Gish Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "61 Curtner Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Reyhan Restaurant",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "1625 Almaden Road, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Sweet Mango",
+   "cuisines": [
+    "Chinese",
+    "Burmese"
+   ],
+   "address": "1040 Willow Street, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "La Victoria Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "291 North 4th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "México Lindo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "11 Race Street, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Botanero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "549 West Julian Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "El Jalapeño Rojo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "400 West San Carlos Street, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Mariscos San Juan #2",
+   "cuisines": [
+    "Mexican",
+    "Fish"
+   ],
+   "address": "1718 Senter Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Aqui",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1145 Lincoln Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Birriería El Patio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "693 North 13th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Mariscos San Juan #1",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "348 Willow Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Eden Gardens",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2 North 1st Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Saigon Kitchen",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1111 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Phở Hà Nội San Jose",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "969 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Obu",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "1098 Oakland Road, 95131, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Duyên Dáng Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2268 Senter Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Cơm Tấm Thiên Hương",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "909 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Poor House Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "317 West Saint John Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Grill 'Em Pizza & Sports Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "497 Reynolds Circle, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Lane 15 Spartan Snacks",
+   "cuisines": [
+    "Snackbar"
+   ],
+   "address": "211 South 9th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "543 Coleman Avenue, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Eduardo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "375 South Bascom Avenue, 95128, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1616 Almaden Road, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Orale Restaurant & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "792 East Julian Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Plaza Garibaldi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1170 East Santa Clara Street, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Yummy Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Vietnamese"
+   ],
+   "address": "1688 Alum Rock Avenue, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Hut",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3200 The Alameda, 95050, Santa Clara",
+   "website": ""
+  },
+  {
+   "name": "Lopez Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1460 Park Avenue, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Paesano Ristorante Italiano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "350 West Julian Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Metro Balderas Taquería",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "298 Willow Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Lò Bánh cuốn Thanh Trì",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1281 East Santa Clara Street, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Vito’s Trattoria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "90 Skyport Drive, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Cơm 90°",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "999 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Nam Thanh Bánh Canh 3 Miền",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "958 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Chez Sovan",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "923 Oakland Road, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Taco Mania",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2455 Stevens Creek Boulevard, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Đà-Lạt",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "408 East William Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Palermo Italian Restaurant",
+   "cuisines": [
+    "Italian",
+    "Sicilian",
+    "Pizza"
+   ],
+   "address": "791 Auzerais Avenue, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Ladda's Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "50 Skyport Drive, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "La K-baña del Tio Tavito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1632 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Great Wall",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1455 Bird Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Boiling Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "71 Curtner Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Phở Gà NHÀ",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "930 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Waffles",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1640 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Serious Dumpling",
+   "cuisines": [
+    "Dumpling"
+   ],
+   "address": "28 North San Pedro Street, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Lupita's Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1690 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Briyani & Beyond",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "17 South 4th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Ben Sandwiches",
+   "cuisines": [
+    "Vietnamese",
+    "Sandwich"
+   ],
+   "address": "221 East San Fernando Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Bibo’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "320 West Saint John Street, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Tulum Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "929 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Taquería Lorena's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "399 South 24th Street, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Linda’s",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1175 East Santa Clara Street, 95116, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Restaurante y Pupusería El Aguila",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "1536 West San Carlos Street, 95126, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Dosa & Curry Cafe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "345 South 4th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Tac-oh!",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1384 Lincoln Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Nick the Greek",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1399 Lincoln Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Checo’s",
+   "cuisines": [
+    "Mexican",
+    "Seafood"
+   ],
+   "address": "674 North 13th Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "iNhậu",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2108 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "New Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "895 Willow Street, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "San Carlos Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "484 East San Carlos Street, 95112, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Thanh Lan",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1130 Lucretia Avenue, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Yuki Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1140 Lincoln Avenue, 95125, San Jose",
+   "website": ""
+  },
+  {
+   "name": "The Pasta Market",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "579 Coleman Avenue, 95110, San Jose",
+   "website": ""
+  },
+  {
+   "name": "TK Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "975 McLaughlin Avenue, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Bún Bò Huế An Nam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "740 Story Road, 95122, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Fuji Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "56 West Santa Clara Street, 95113, San Jose",
+   "website": ""
+  },
+  {
+   "name": "Tay Do",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1663 West San Carlos Street, 95128, San Jose",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Japanese American Museum of San Jose",
+   "kind": "museum",
+   "address": "535 North 5th Street, 95112, San Jose",
+   "website": "https://www.jamsj.org/",
+   "phone": "+1 408-294-3138",
+   "latitude": 37.3475028,
+   "longitude": -121.8937113
+  },
+  {
+   "name": "Ainsley House",
+   "kind": "museum",
+   "address": "300 Grant Street, 95008, Campbell",
+   "website": "https://www.campbellmuseums.com/ainsley-house",
+   "phone": "",
+   "latitude": 37.2887469,
+   "longitude": -121.9436085
+  },
+  {
+   "name": "Winchester Mystery House",
+   "kind": "attraction",
+   "address": "525 South Winchester Boulevard, 95128, San Jose",
+   "website": "https://www.winchestermysteryhouse.com/",
+   "phone": "+1 408 247 2101",
+   "latitude": 37.3182947,
+   "longitude": -121.9512031
+  },
+  {
+   "name": "Movimiento de Arte y Cultura Latino Americana",
+   "kind": "gallery",
+   "address": "510 South 1st Street, 95113, San Jose",
+   "website": "https://maclaarte.org/",
+   "phone": "",
+   "latitude": 37.3285059,
+   "longitude": -121.8844281
+  },
+  {
+   "name": "Japanese Friendship Garden",
+   "kind": "attraction",
+   "address": "1300 Senter Road, 95112, San Jose",
+   "website": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2835/",
+   "phone": "+1-408-794-7275",
+   "latitude": 37.3219622,
+   "longitude": -121.8610082
+  },
+  {
+   "name": "Children’s Discovery Museum",
+   "kind": "museum",
+   "address": "180 Woz Way, 95110, San Jose",
+   "website": "https://www.cdm.org/",
+   "phone": "",
+   "latitude": 37.3267134,
+   "longitude": -121.8918327
+  },
+  {
+   "name": "Chinese American Historical Museum",
+   "kind": "museum",
+   "address": "635 Phelan Avenue, 95112, San Jose",
+   "website": "https://chcp.org/Museum",
+   "phone": "",
+   "latitude": 37.3197389,
+   "longitude": -121.858204
+  },
+  {
+   "name": "San Jose Museum of Quilts & Textiles",
+   "kind": "museum",
+   "address": "520 South 1st Street, 95113, San Jose",
+   "website": "https://sj-mqt.org/",
+   "phone": "",
+   "latitude": 37.3282419,
+   "longitude": -121.8842366
+  },
+  {
+   "name": "Institute of Contemporary Art San José",
+   "kind": "gallery",
+   "address": "560 South 1st Street, 95113, San Jose",
+   "website": "https://www.icasanjose.org/",
+   "phone": "",
+   "latitude": 37.3278449,
+   "longitude": -121.8839339
+  },
+  {
+   "name": "Rosicrucian Egyptian Museum",
+   "kind": "museum",
+   "address": "1660 Park Avenue, 95126, San Jose",
+   "website": "https://egyptianmuseum.org/",
+   "phone": "",
+   "latitude": 37.3334834,
+   "longitude": -121.922874
+  },
+  {
+   "name": "Santa Clara County Fairgrounds",
+   "kind": "attraction",
+   "address": "344 Tully Road, 95111, San Jose",
+   "website": "https://www.thefairgrounds.org/",
+   "phone": "",
+   "latitude": 37.300027,
+   "longitude": -121.851409
+  },
+  {
+   "name": "Triton Museum of Art",
+   "kind": "museum",
+   "address": "1505 Warburton Avenue, 95050, Santa Clara",
+   "website": "https://www.tritonmuseum.org/",
+   "phone": "",
+   "latitude": 37.3562235,
+   "longitude": -121.9550793
+  },
+  {
+   "name": "San José Museum of Art",
+   "kind": "gallery",
+   "address": "110 South Market Street, 95113, San Jose",
+   "website": "https://sjmusart.org/",
+   "phone": "+1-408-271-6840",
+   "latitude": 37.3336656,
+   "longitude": -121.8900248
+  },
+  {
+   "name": "The Tech Interactive",
+   "kind": "museum",
+   "address": "201 South Market Street, 95113, San Jose",
+   "website": "https://www.thetech.org/",
+   "phone": "",
+   "latitude": 37.331427,
+   "longitude": -121.8902071
+  },
+  {
+   "name": "History Park at Kelley Park",
+   "kind": "museum",
+   "address": "635 Phelan Avenue, 95112, San Jose",
+   "website": "https://historysanjose.org/wp/plan-your-visit/history-park/",
+   "phone": "",
+   "latitude": 37.3200436,
+   "longitude": -121.8581237
+  },
+  {
+   "name": "California's Great America",
+   "kind": "theme park",
+   "address": "4701 Great America Parkway, 95054, Santa Clara",
+   "website": "https://www.sixflags.com/cagreatamerica",
+   "phone": "",
+   "latitude": 37.3955906,
+   "longitude": -121.9720401
+  },
+  {
+   "name": "Viet Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://sites.google.com/view/viet-museum-sanjose/",
+   "phone": "",
+   "latitude": 37.3202928,
+   "longitude": -121.8599691
+  },
+  {
+   "name": "Roberto Adobe & Suñol House",
+   "kind": "museum",
+   "address": "770 Lincoln Avenue, 95126, San Jose",
+   "website": "https://californiapioneers.com/visit/roberto-adobe-sunol-house-museum/",
+   "phone": "",
+   "latitude": 37.3157927,
+   "longitude": -121.9062479
+  },
+  {
+   "name": "Municipal Rose Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.sanjoseca.gov/facilities/facility/details/municipalrosegarden-74",
+   "phone": "",
+   "latitude": 37.3317818,
+   "longitude": -121.9285993
+  },
+  {
+   "name": "South Bay Historical Railroad Society",
+   "kind": "museum",
+   "address": "1005 Railroad Avenue, 95050, Santa Clara",
+   "website": "https://sbhrs.org/",
+   "phone": "",
+   "latitude": 37.3530987,
+   "longitude": -121.9362357
+  },
+  {
+   "name": "Intel Museum",
+   "kind": "museum",
+   "address": "2200 Mission College Boulevard",
+   "website": "https://www.intel.com/content/www/us/en/company-overview/intel-museum.html",
+   "phone": "+1-408-765-5050",
+   "latitude": 37.387829,
+   "longitude": -121.9633667
+  },
+  {
+   "name": "Portuguese Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://portuguesemuseum.org/",
+   "phone": "",
+   "latitude": 37.3195363,
+   "longitude": -121.8582594
+  },
+  {
+   "name": "de Saisset Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.scu.edu/desaisset/",
+   "phone": "",
+   "latitude": 37.3499502,
+   "longitude": -121.9406238
+  },
+  {
+   "name": "Luis María Peralta Adobe",
+   "kind": "museum",
+   "address": "180 West Saint John Street, 95110, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3363844,
+   "longitude": -121.8947655
+  },
+  {
+   "name": "Works/San José",
+   "kind": "gallery",
+   "address": "38 South 2nd Street, 95113, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.33592,
+   "longitude": -121.8887557
+  },
+  {
+   "name": "Happy Hollow Park and Zoo",
+   "kind": "zoo",
+   "address": "1300 Senter Road, 95112, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3259023,
+   "longitude": -121.8630133
+  },
+  {
+   "name": "The Grizzly",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3929748,
+   "longitude": -121.9713562
+  },
+  {
+   "name": "Flight Deck",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3983339,
+   "longitude": -121.9718017
+  },
+  {
+   "name": "Demon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.394316,
+   "longitude": -121.9740915
+  },
+  {
+   "name": "RailBlazer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3949373,
+   "longitude": -121.9735412
+  },
+  {
+   "name": "Woodstock Express",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.394792,
+   "longitude": -121.9701707
+  },
+  {
+   "name": "Mook Art Gallery",
+   "kind": "gallery",
+   "address": "122 Great Mall Drive, 95035, Milpitas",
+   "website": "https://mookartgallery-milpitas.com",
+   "phone": "+1-408-262-4801",
+   "latitude": 37.4150339,
+   "longitude": -121.8962504
+  },
+  {
+   "name": "Campbell Historical Museum",
+   "kind": "museum",
+   "address": "51 North Central Avenue, 95008, Campbell",
+   "website": "https://www.campbellmuseums.com/campbell-historical-museum",
+   "phone": "",
+   "latitude": 37.2876916,
+   "longitude": -121.9439153
+  },
+  {
+   "name": "Jeff Garcia Hall of Champions",
+   "kind": "museum",
+   "address": "",
+   "website": "https://sjsuspartans.com/facilities/jeff-garcia-hall-of-champions/27",
+   "phone": "",
+   "latitude": 37.3209492,
+   "longitude": -121.8702094
+  },
+  {
+   "name": "Anno Domini Gallery",
+   "kind": "gallery",
+   "address": "366 South 1st Street, 95113, San Jose",
+   "website": "https://www.galleryad.com/",
+   "phone": "",
+   "latitude": 37.3306847,
+   "longitude": -121.8860919
+  },
+  {
+   "name": "The Alameda ArtWorks",
+   "kind": "gallery",
+   "address": "1064 The Alameda, 95126, San Jose",
+   "website": "https://www.thealamedaartworks.com/",
+   "phone": "",
+   "latitude": 37.3308996,
+   "longitude": -121.9109954
+  },
+  {
+   "name": "KALEID Gallery",
+   "kind": "gallery",
+   "address": "320 South 1st Street, 95113, San Jose",
+   "website": "https://www.kaleidgallery.com/",
+   "phone": "",
+   "latitude": 37.331306,
+   "longitude": -121.8867266
+  },
+  {
+   "name": "Rebel Yell Haunted House",
+   "kind": "attraction",
+   "address": "1577 Rebel Way, 95118, San Jose",
+   "website": "http://www.rebelyell.info/rebelyell.html",
+   "phone": "",
+   "latitude": 37.2502602,
+   "longitude": -121.900745
+  },
+  {
+   "name": "Object Art Gallery",
+   "kind": "gallery",
+   "address": "592 North 5th Street, 95112, San Jose",
+   "website": "https://www.artobjectgallery.com/",
+   "phone": "",
+   "latitude": 37.3487286,
+   "longitude": -121.8937655
+  },
+  {
+   "name": "Drop Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.cagreatamerica.com/rides-experiences/drop-tower",
+   "phone": "",
+   "latitude": 37.3935497,
+   "longitude": -121.9716798
+  },
+  {
+   "name": "Hellenic Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.nationalhellenicmuseum.org/",
+   "phone": "",
+   "latitude": 37.3194452,
+   "longitude": -121.857765
+  },
+  {
+   "name": "Empire Seven Studios",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://www.empiresevenstudios.com/",
+   "phone": "",
+   "latitude": 37.3481654,
+   "longitude": -121.8911715
+  },
+  {
+   "name": "Monopoly in the Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.sanjose.org/attraction/monopoly-park",
+   "phone": "",
+   "latitude": 37.328255,
+   "longitude": -121.8931995
+  },
+  {
+   "name": "Orbit",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.cagreatamerica.com/rides-experiences/orbit",
+   "phone": "",
+   "latitude": 37.39726,
+   "longitude": -121.9716517
+  },
+  {
+   "name": "Carmel and Thomas Fallon House",
+   "kind": "museum",
+   "address": "175 West Saint John Street, 95110, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3369144,
+   "longitude": -121.8948945
+  },
+  {
+   "name": "Little Italy Museum and Cultural Center",
+   "kind": "museum",
+   "address": "323 West Saint John Street, 95110, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3352611,
+   "longitude": -121.8984631
+  },
+  {
+   "name": "Hudson Gateway Place LLC",
+   "kind": "gallery",
+   "address": "2001;2033;2055,2077;2099 Gateway Place, 95110, San Jose",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3696173,
+   "longitude": -121.9234268
+  },
+  {
+   "name": "LEGOLAND Discovery Center",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4165397,
+   "longitude": -121.8967503
+  },
+  {
+   "name": "Crooked House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.326533,
+   "longitude": -121.8626676
+  },
+  {
+   "name": "Mini Putt-Putt",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3253114,
+   "longitude": -121.863879
+  },
+  {
+   "name": "Otter Trotter Splashpad",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3958058,
+   "longitude": -121.971769
+  },
+  {
+   "name": "Grand Staircase",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2825675,
+   "longitude": -121.8566157
+  },
+  {
+   "name": "Golfland USA",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2496525,
+   "longitude": -121.8675521
+  },
+  {
+   "name": "Animal Contact Area",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3252166,
+   "longitude": -121.8618741
+  },
+  {
+   "name": "Tiki Twirl",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.393132,
+   "longitude": -121.9709707
+  },
+  {
+   "name": "Barney Oldfield's Redwood Rally",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3938779,
+   "longitude": -121.9726065
+  },
+  {
+   "name": "Centrifuge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3941821,
+   "longitude": -121.9712012
+  },
+  {
+   "name": "Sally's Swing Set",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3947608,
+   "longitude": -121.9722647
+  },
+  {
+   "name": "Character Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3948524,
+   "longitude": -121.9719005
+  },
+  {
+   "name": "Flying Ace",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3947062,
+   "longitude": -121.9721111
+  },
+  {
+   "name": "Kite Eating Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3946231,
+   "longitude": -121.9722046
+  },
+  {
+   "name": "GR8 SK8",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3946665,
+   "longitude": -121.9724477
+  },
+  {
+   "name": "Snoopy's Space Buggies",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3945779,
+   "longitude": -121.9723085
+  },
+  {
+   "name": "Snoopy 500",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3952308,
+   "longitude": -121.9726432
+  },
+  {
+   "name": "Peanuts Pirates",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3945561,
+   "longitude": -121.9712119
+  },
+  {
+   "name": "Snoopy's Space Race",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3950867,
+   "longitude": -121.9724556
+  },
+  {
+   "name": "Joe Cool's Dodgem School",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3951184,
+   "longitude": -121.9723097
+  },
+  {
+   "name": "Delirium",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3960689,
+   "longitude": -121.9724668
+  },
+  {
+   "name": "Pumpkin Patch",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3948947,
+   "longitude": -121.9705103
+  },
+  {
+   "name": "Sally's Love Buggies",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.394941,
+   "longitude": -121.9702307
+  },
+  {
+   "name": "Lucy's Crabbie Cabbies",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3950896,
+   "longitude": -121.972076
+  },
+  {
+   "name": "Psycho Mouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3939704,
+   "longitude": -121.9704466
+  },
+  {
+   "name": "Barn",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3250278,
+   "longitude": -121.8616741
+  },
+  {
+   "name": "Doc's Critter Cave",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3250041,
+   "longitude": -121.8619509
+  },
+  {
+   "name": "Learning Lodge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3254235,
+   "longitude": -121.8622677
+  },
+  {
+   "name": "Ranch House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3251302,
+   "longitude": -121.8621759
+  },
+  {
+   "name": "Berserker",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3948036,
+   "longitude": -121.9741412
+  },
+  {
+   "name": "Downtown Campbell Water Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.285961,
+   "longitude": -121.9446655
+  },
+  {
+   "name": "Granny Bugs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3251575,
+   "longitude": -121.8639507
+  },
+  {
+   "name": "Team Kids",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3251482,
+   "longitude": -121.8636395
+  },
+  {
+   "name": "Danny the Dragon Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3252516,
+   "longitude": -121.8645626
+  },
+  {
+   "name": "Keep Around Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3256811,
+   "longitude": -121.8618395
+  },
+  {
+   "name": "Leaping Lemurs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3254712,
+   "longitude": -121.8617054
+  },
+  {
+   "name": "Miner's Maze",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3257428,
+   "longitude": -121.8634743
+  },
+  {
+   "name": "Pacific Fruit Express",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3259729,
+   "longitude": -121.8639822
+  },
+  {
+   "name": "Frog Hopper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3253718,
+   "longitude": -121.8635135
+  },
+  {
+   "name": "Kiddie Swings",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3252492,
+   "longitude": -121.8640781
+  },
+  {
+   "name": "Saucer Swing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3258477,
+   "longitude": -121.8621843
+  },
+  {
+   "name": "Dragon Flyers",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3256324,
+   "longitude": -121.8648023
+  },
+  {
+   "name": "Wildflower Meadow",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3356655,
+   "longitude": -121.8692895
+  },
+  {
+   "name": "White Lightning",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3356522,
+   "longitude": -121.81337
+  },
+  {
+   "name": "Blue Thunder",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3356295,
+   "longitude": -121.8133556
+  },
+  {
+   "name": "Serpentine Slides",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3355188,
+   "longitude": -121.8132597
+  },
+  {
+   "name": "Great White Shark",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3357938,
+   "longitude": -121.813172
+  },
+  {
+   "name": "Dragon's Den",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3370858,
+   "longitude": -121.8137675
+  },
+  {
+   "name": "Little Dipper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3352352,
+   "longitude": -121.812581
+  },
+  {
+   "name": "Shotgun Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3356185,
+   "longitude": -121.8129055
+  },
+  {
+   "name": "Slide Creek Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3352022,
+   "longitude": -121.813249
+  },
+  {
+   "name": "Bombs Away",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3366888,
+   "longitude": -121.8146033
+  },
+  {
+   "name": "Sidewinder",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3373956,
+   "longitude": -121.8133841
+  },
+  {
+   "name": "Barracuda Blaster",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3366185,
+   "longitude": -121.8145334
+  },
+  {
+   "name": "Wave Pool",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3361759,
+   "longitude": -121.813805
+  },
+  {
+   "name": "Lazy River",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3363052,
+   "longitude": -121.8126768
+  },
+  {
+   "name": "Pup's Pier",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3960903,
+   "longitude": -121.971512
+  },
+  {
+   "name": "Thunder Raceway",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3941107,
+   "longitude": -121.9704516
+  }
+ ]
+}

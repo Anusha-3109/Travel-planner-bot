@@ -20,6 +20,7 @@ shown in any currency at today's exchange rate.
 """
 
 import json
+import math
 from collections import Counter
 from dataclasses import dataclass
 from typing import Literal
@@ -30,7 +31,7 @@ from pydantic import BaseModel, Field
 from live import fx, items
 from live.http import LiveDataError
 from security.validation import InputValidationError, validate_budget, validate_people
-from travel_data.catalog import load_catalog
+from travel_data.catalog import SELF_DRIVING_SEATS, TAXI_SEATS, load_catalog
 
 HouseRule = Literal["smoking", "parties", "children under 10", "visitors", "pets"]
 RoomType = Literal["entire room", "private room", "shared room", "not shared room"]
@@ -78,6 +79,19 @@ class LiveTransit:
 
 
 @dataclass(frozen=True)
+class LiveDrive:
+    """A live driving route; its cost (per car, US only) is an IRS-rate estimate."""
+    mode: str  # "self-driving" or "taxi"
+    origin: str
+    destination: str
+    cost: float | None  # per car; None for taxis and outside the US
+    checked_at: str
+
+    def vehicles_needed(self, people: int) -> int:
+        return math.ceil(people / (SELF_DRIVING_SEATS if self.mode == "self-driving" else TAXI_SEATS))
+
+
+@dataclass(frozen=True)
 class LiveRestaurant:
     name: str
     city: str
@@ -116,7 +130,7 @@ class LiveStay:
         return 1  # one booking covers the searched guests
 
 
-LIVE_PREFIXES = ("flight-", "transit-", "stay-", "restaurant-")
+LIVE_PREFIXES = ("flight-", "transit-", "stay-", "restaurant-", "drive-")
 
 
 _SOURCE_PREFIXES = ("restaurant: ", "attraction: ", "accommodation: ")
@@ -146,7 +160,7 @@ def _live_by_name(name: str, kind: str):
     return None
 
 
-def _live_item(item_id: str, kind: str):
+def _live_item(item_id: str, kind: str, mode: str = "self-driving"):
     """A live item by id as one of the Live* objects, or None if it is unknown or expired."""
     if not str(item_id).strip().lower().startswith(f"{kind}-"):
         return None
@@ -157,6 +171,9 @@ def _live_item(item_id: str, kind: str):
     if kind == "flight":
         return LiveFlight(" ".join(data.get("flight_numbers") or []) or "flight", data.get("origin_city", ""),
                           data.get("destination_city", ""), data.get("price_per_person"), checked)
+    if kind == "drive":
+        cost = data.get("cost_per_car_usd") if mode == "self-driving" else None  # no taxi fare data
+        return LiveDrive(mode, data.get("origin", ""), data.get("destination", ""), cost, checked)
     if kind == "transit":
         return LiveTransit(data.get("summary", "public transport"), data.get("origin", ""),
                            data.get("destination", ""), data.get("fare_per_person_usd"), checked)
@@ -178,6 +195,10 @@ class DayPlan(BaseModel):
     attractions: list[str] = Field(default_factory=list)
     accommodation: str | None = Field(
         default=None, description="Name of the place to stay that night, or a live stay id ('stay-...')")
+    local_transport: list[Transport] = Field(
+        default_factory=list, description="Local trips that day besides the main transport, such as the airport "
+                                          "transfer: public transport by its 'transit-...' id, or a car or taxi by "
+                                          "its 'drive-...' id, both from get_local_transport.")
 
 
 class TripConstraints(BaseModel):
@@ -213,6 +234,36 @@ def _day_cities(day: DayPlan) -> list[str]:
     return list(dict.fromkeys(c for c in (catalog.city_name(n) for n in names if n) if c))
 
 
+def _resolve_transport(transport: Transport, day: int, catalog, unknown: list[str]):
+    """One transport leg as a catalog or live object, or None (and a note in unknown) if it can't be found."""
+    if transport.item_id:
+        kind = {"transit": "transit", "self-driving": "drive", "taxi": "drive"}.get(transport.mode, "flight")
+        found = _live_item(transport.item_id, kind, transport.mode)
+        if not found:
+            unknown.append(f"day {day}: {kind} id '{transport.item_id}' (unknown or expired; search again)")
+        return found
+    if transport.mode == "transit":
+        unknown.append(f"day {day}: public transport needs an id from get_local_transport")
+        return None
+    origin, destination = catalog.city_name(transport.origin or ""), catalog.city_name(transport.destination or "")
+    if transport.mode == "flight" and not transport.flight_number:
+        estimate = catalog.estimate_flight(origin, destination) if origin and destination else None
+        if not estimate:
+            unknown.append(f"day {day}: flight from '{transport.origin}' to '{transport.destination}'")
+            return None
+        return EstimatedFlight(origin, destination, estimate["distance_km"])
+    if transport.mode == "flight":
+        flight = (catalog.flights_by_number.get((transport.flight_number or "").upper())
+                  or _live_by_name(transport.flight_number or "", "flight"))
+        if not flight:
+            unknown.append(f"day {day}: flight '{transport.flight_number}'")
+        return flight
+    route = catalog.ground.get((transport.mode, (origin or "").lower(), (destination or "").lower()))
+    if not route:
+        unknown.append(f"day {day}: {transport.mode} from '{transport.origin}' to '{transport.destination}'")
+    return route
+
+
 def _resolve(plan: TripPlan) -> dict:
     """Look up every item in the plan. Returns the matched catalog objects per day
     and a list of items that couldn't be found."""
@@ -233,32 +284,10 @@ def _resolve(plan: TripPlan) -> dict:
         names = [day.breakfast, day.lunch, day.dinner, day.accommodation, *day.attractions]
         if not cities and any(n and not _is_live_id(n) for n in names):
             unknown.append(f"day {day.day}: city '{day.city}' (not in the snapshot data; use live ids)")
-        transport = day.transportation
-        if transport and transport.item_id:
-            kind = "transit" if transport.mode == "transit" else "flight"
-            resolved["transport"] = _live_item(transport.item_id, kind)
-            if not resolved["transport"]:
-                unknown.append(f"day {day.day}: {kind} id '{transport.item_id}' (unknown or expired; search again)")
-        elif transport and transport.mode == "transit":
-            unknown.append(f"day {day.day}: public transport needs an id from get_local_transport")
-        elif transport and transport.mode == "flight" and not transport.flight_number:
-            origin, destination = catalog.city_name(transport.origin or ""), catalog.city_name(transport.destination or "")
-            estimate = catalog.estimate_flight(origin, destination) if origin and destination else None
-            resolved["transport"] = EstimatedFlight(origin, destination, estimate["distance_km"]) if estimate else None
-            if not estimate:
-                unknown.append(f"day {day.day}: flight from '{transport.origin}' to '{transport.destination}'")
-        elif transport and transport.mode == "flight":
-            flight = (catalog.flights_by_number.get((transport.flight_number or "").upper())
-                      or _live_by_name(transport.flight_number or "", "flight"))
-            resolved["transport"] = flight
-            if not flight:
-                unknown.append(f"day {day.day}: flight '{transport.flight_number}'")
-        elif transport:
-            origin, destination = catalog.city_name(transport.origin or ""), catalog.city_name(transport.destination or "")
-            route = catalog.ground.get((transport.mode, (origin or "").lower(), (destination or "").lower()))
-            resolved["transport"] = route
-            if not route:
-                unknown.append(f"day {day.day}: {transport.mode} from '{transport.origin}' to '{transport.destination}'")
+        if day.transportation:
+            resolved["transport"] = _resolve_transport(day.transportation, day.day, catalog, unknown)
+        resolved["local"] = [found for leg in day.local_transport
+                             if (found := _resolve_transport(leg, day.day, catalog, unknown)) is not None]
         for meal in ("breakfast", "lunch", "dinner"):
             name = getattr(day, meal)
             if name:
@@ -297,7 +326,7 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
     totals_usd = {"transportation": 0.0, "accommodation": 0.0, "meals": 0.0, "attractions": 0.0}
 
     def add(day: int, group: str, description: str, unit_cost: float | None, quantity: int, source: str,
-            estimate: bool = False) -> None:
+            estimate: str | None = None) -> None:
         if unit_cost is None:
             unpriced.append(f"day {day}: {description}")
             return
@@ -305,7 +334,7 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
         line = {"day": day, "type": group, "item": description, "unit_cost_usd": unit_cost, "quantity": quantity,
                 "cost_usd": cost, "source": source}
         if estimate:
-            line["estimate"] = "middle of Google's price range per person"
+            line["estimate"] = estimate
         lines.append(line)
         totals_usd[group] += cost
 
@@ -313,8 +342,9 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
         checked = getattr(item, "checked_at", None)
         return f"live (checked {checked})" if checked is not None else "snapshot"
 
-    for day in resolved["days"]:
-        transport, n = day["transport"], day["day"]
+    def add_transport(n: int, transport) -> None:
+        if transport is None:
+            return
         if isinstance(transport, EstimatedFlight):
             add(n, "transportation",
                 f"Flight {transport.origin} → {transport.destination} (~{transport.distance_km:,} km, no price data)",
@@ -322,17 +352,27 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
         elif isinstance(transport, LiveTransit):
             add(n, "transportation", f"Public transport {transport.summary}, {transport.origin} → {transport.destination}"
                 + ("" if transport.fare is not None else " (fare not published)"), transport.fare, people, label(transport))
-        elif transport is not None and hasattr(transport, "number"):
+        elif hasattr(transport, "number"):
             add(n, "transportation", f"Flight {transport.number}, {transport.origin} → {transport.destination}",
                 transport.price, people, label(transport))
-        elif transport is not None:
-            add(n, "transportation", f"{transport.mode.title()}, {transport.origin} → {transport.destination}",
-                transport.cost, transport.vehicles_needed(people), label(transport))
+        else:
+            note = ""
+            if isinstance(transport, LiveDrive):
+                note = " (IRS-rate estimate)" if transport.cost is not None else " (no fare data)"
+            add(n, "transportation", f"{transport.mode.title()}, {transport.origin} → {transport.destination}{note}",
+                transport.cost, transport.vehicles_needed(people), label(transport),
+                estimate="IRS 2026 mileage rate, fuel and running costs" if note == " (IRS-rate estimate)" else None)
+
+    for day in resolved["days"]:
+        n = day["day"]
+        for transport in [day["transport"], *day["local"]]:
+            add_transport(n, transport)
         for meal, restaurant in day["meals"]:
             if restaurant:
                 add(n, "meals", f"{meal.title()}: {restaurant.name}, {restaurant.city}"
                     + ("" if restaurant.average_cost is not None else " (price not listed)"),
-                    restaurant.average_cost, people, label(restaurant), estimate=isinstance(restaurant, LiveRestaurant))
+                    restaurant.average_cost, people, label(restaurant),
+                    estimate="middle of Google's price range per person" if isinstance(restaurant, LiveRestaurant) else None)
         stay = day["accommodation"]
         if stay:
             add(n, "accommodation", f"{stay.name}, {stay.city} (1 night)", stay.price, stay.rooms_needed(people),

@@ -1,0 +1,4424 @@
+{
+ "city": "Honolulu",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 21.3069,
+ "longitude": -157.8583,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-22",
+ "airbnb_scrape_date": "2026-09-17",
+ "fetched_at": "2026-10-23",
+ "accommodations": [
+  {
+   "name": "#Private Studio - Waikiki Dream",
+   "price": 144.0,
+   "price_local": 144.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.69,
+   "reviews": 1241,
+   "url": "https://www.airbnb.com/rooms/4069429"
+  },
+  {
+   "name": "Cute Private Studio in Waikiki",
+   "price": 139.0,
+   "price_local": 139.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.8,
+   "reviews": 1122,
+   "url": "https://www.airbnb.com/rooms/21009843"
+  },
+  {
+   "name": "King Room at The Equus, Near Ala Moana!",
+   "price": 169.0,
+   "price_local": 169.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.6,
+   "reviews": 970,
+   "url": "https://www.airbnb.com/rooms/26063949"
+  },
+  {
+   "name": "8-Bed Co-Ed Dorm | Waikiki Beachside Hostel",
+   "price": 38.0,
+   "price_local": 38.0,
+   "room_type": "Shared room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 1,
+   "rating": 4.56,
+   "reviews": 856,
+   "url": "https://www.airbnb.com/rooms/789046966344911250"
+  },
+  {
+   "name": "The Standard",
+   "price": 124.0,
+   "price_local": 124.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.48,
+   "reviews": 754,
+   "url": "https://www.airbnb.com/rooms/36336266"
+  },
+  {
+   "name": "Wake up in the Sky -Private Studio in Waikiki",
+   "price": 167.0,
+   "price_local": 167.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.8,
+   "reviews": 746,
+   "url": "https://www.airbnb.com/rooms/21025928"
+  },
+  {
+   "name": "King Bed | Ocean View |Steps to Beach | FAST WiFi",
+   "price": 194.0,
+   "price_local": 194.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.7,
+   "reviews": 653,
+   "url": "https://www.airbnb.com/rooms/1893707"
+  },
+  {
+   "name": "❤️AWESOME STUDIOS❤️ 5min to 🏄‍♀️🏊‍♀️🏖🐠🐋🦈FREE 🚙🅿️ 250mbps+💻",
+   "price": 270.18,
+   "price_local": 270.18,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.68,
+   "reviews": 623,
+   "url": "https://www.airbnb.com/rooms/49255448"
+  },
+  {
+   "name": "King Bed | Ocean View | Steps to Waikiki Beach",
+   "price": 277.0,
+   "price_local": 277.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.77,
+   "reviews": 622,
+   "url": "https://www.airbnb.com/rooms/7026047"
+  },
+  {
+   "name": "1bed. Center of Waikiki WasherDryer Free parking",
+   "price": 229.0,
+   "price_local": 229.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 594,
+   "url": "https://www.airbnb.com/rooms/5686412"
+  },
+  {
+   "name": "Spacious & Stylish Retreat in Prime Location",
+   "price": 145.0,
+   "price_local": 145.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 570,
+   "url": "https://www.airbnb.com/rooms/15496192"
+  },
+  {
+   "name": "Renovated Cozy Studio with Great View",
+   "price": 180.0,
+   "price_local": 180.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 560,
+   "url": "https://www.airbnb.com/rooms/15439712"
+  },
+  {
+   "name": "Cozy Waikīkī Studio 1/2 Block from the Beach",
+   "price": 224.0,
+   "price_local": 224.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.94,
+   "reviews": 540,
+   "url": "https://www.airbnb.com/rooms/12809297"
+  },
+  {
+   "name": "Kailua Beach Park - 1 BR Cottage",
+   "price": 373.0,
+   "price_local": 373.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.87,
+   "reviews": 506,
+   "url": "https://www.airbnb.com/rooms/20528825"
+  },
+  {
+   "name": "Waikiki Marina Resort at the llikai Studio",
+   "price": 205.78,
+   "price_local": 205.78,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.67,
+   "reviews": 504,
+   "url": "https://www.airbnb.com/rooms/36566712"
+  },
+  {
+   "name": "Waikiki Beach Condo with Free Parking",
+   "price": 206.0,
+   "price_local": 206.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 493,
+   "url": "https://www.airbnb.com/rooms/8256435"
+  },
+  {
+   "name": "Private Room 2 Twins Near HNL Airport",
+   "price": 139.0,
+   "price_local": 139.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.1,
+   "reviews": 491,
+   "url": "https://www.airbnb.com/rooms/549405912552758739"
+  },
+  {
+   "name": "WAIKIKI OCEAN VIEW STUDIO ★FREE PARKING★ 日本語",
+   "price": 265.0,
+   "price_local": 265.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.84,
+   "reviews": 487,
+   "url": "https://www.airbnb.com/rooms/6887991"
+  },
+  {
+   "name": "Seashore Studio - Awesome Ocean View!",
+   "price": 215.0,
+   "price_local": 215.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.77,
+   "reviews": 469,
+   "url": "https://www.airbnb.com/rooms/11462967"
+  },
+  {
+   "name": "Kailua Palm Studio. Walk to Beach! PERMITTED",
+   "price": 362.5,
+   "price_local": 362.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 465,
+   "url": "https://www.airbnb.com/rooms/808786"
+  },
+  {
+   "name": "Six Thousand Waves",
+   "price": 295.67,
+   "price_local": 295.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 456,
+   "url": "https://www.airbnb.com/rooms/23079048"
+  },
+  {
+   "name": "Waikiki Renovated Modern Studio",
+   "price": 137.0,
+   "price_local": 137.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.77,
+   "reviews": 453,
+   "url": "https://www.airbnb.com/rooms/17000968"
+  },
+  {
+   "name": "Waikiki Ocean View Studio",
+   "price": 146.0,
+   "price_local": 146.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 451,
+   "url": "https://www.airbnb.com/rooms/8556229"
+  },
+  {
+   "name": "Boutique Style Studio Just Steps to Waikiki Beach",
+   "price": 235.0,
+   "price_local": 235.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.9,
+   "reviews": 450,
+   "url": "https://www.airbnb.com/rooms/12645713"
+  },
+  {
+   "name": "Stunning Ocean View · 21st Floor Ilikai Waikiki",
+   "price": 429.37,
+   "price_local": 429.37,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 447,
+   "url": "https://www.airbnb.com/rooms/38634"
+  },
+  {
+   "name": "Waikiki Studio - Just Steps to the Beach and Zoo!",
+   "price": 240.0,
+   "price_local": 240.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.83,
+   "reviews": 444,
+   "url": "https://www.airbnb.com/rooms/10248444"
+  },
+  {
+   "name": "Comfort Oasis: Deluxe Room at Wayfinder Waikiki",
+   "price": 267.0,
+   "price_local": 267.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.8,
+   "reviews": 436,
+   "url": "https://www.airbnb.com/rooms/933413161490616244"
+  },
+  {
+   "name": "Ocean View Condo | Free Parking & Walk to Beach",
+   "price": 263.1,
+   "price_local": 263.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 4,
+   "rating": 4.9,
+   "reviews": 428,
+   "url": "https://www.airbnb.com/rooms/8545163"
+  },
+  {
+   "name": "Waikiki Modern Studio Free Parking On Site 日本語",
+   "price": 256.0,
+   "price_local": 256.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.87,
+   "reviews": 424,
+   "url": "https://www.airbnb.com/rooms/3386000"
+  },
+  {
+   "name": "Contemporary Waikiki Studio - Steps to the Beach!",
+   "price": 237.0,
+   "price_local": 237.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.91,
+   "reviews": 422,
+   "url": "https://www.airbnb.com/rooms/17160141"
+  },
+  {
+   "name": "Ocean View Studio in Waikiki",
+   "price": 220.88,
+   "price_local": 220.88,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.87,
+   "reviews": 420,
+   "url": "https://www.airbnb.com/rooms/18350532"
+  },
+  {
+   "name": "Ocean View, Steps to Beach, Waikiki Penthouse-B",
+   "price": 299.5,
+   "price_local": 299.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.73,
+   "reviews": 419,
+   "url": "https://www.airbnb.com/rooms/16248443"
+  },
+  {
+   "name": "THE HAPPIEST SPACE - WAIKIKI SMILES",
+   "price": 164.0,
+   "price_local": 164.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 419,
+   "url": "https://www.airbnb.com/rooms/152046"
+  },
+  {
+   "name": "Another Stay In Paradise! Must See!",
+   "price": 121.5,
+   "price_local": 121.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.66,
+   "reviews": 416,
+   "url": "https://www.airbnb.com/rooms/5630368"
+  },
+  {
+   "name": "Convenient Waikiki Studio w/ Kitchen #A",
+   "price": 202.0,
+   "price_local": 202.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.67,
+   "reviews": 415,
+   "url": "https://www.airbnb.com/rooms/24396100"
+  },
+  {
+   "name": "Ocean View Deluxe Corner Unit",
+   "price": 160.3,
+   "price_local": 160.3,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.65,
+   "reviews": 413,
+   "url": "https://www.airbnb.com/rooms/7792803"
+  },
+  {
+   "name": "5-Star Upscale Studio - Heart of Waikiki w/Parking",
+   "price": 437.29,
+   "price_local": 437.29,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 410,
+   "url": "https://www.airbnb.com/rooms/13436885"
+  },
+  {
+   "name": "Oh-So-Close to Waikiki Beach Condo",
+   "price": 487.5,
+   "price_local": 487.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.86,
+   "reviews": 409,
+   "url": "https://www.airbnb.com/rooms/8190277"
+  },
+  {
+   "name": "Large Studio in Downtown Honolulu near Waikiki",
+   "price": 267.0,
+   "price_local": 267.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 407,
+   "url": "https://www.airbnb.com/rooms/5273656"
+  },
+  {
+   "name": "Ocean View, Steps to Beach, Waikiki Penthouse -A",
+   "price": 209.5,
+   "price_local": 209.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.61,
+   "reviews": 406,
+   "url": "https://www.airbnb.com/rooms/16248024"
+  },
+  {
+   "name": "Cozy Modern Studio Steps Away from Waikiki Beach!",
+   "price": 241.0,
+   "price_local": 241.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 403,
+   "url": "https://www.airbnb.com/rooms/17386058"
+  },
+  {
+   "name": "Modern Concept Shangri-La in the Heart of Waikiki",
+   "price": 234.0,
+   "price_local": 234.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 399,
+   "url": "https://www.airbnb.com/rooms/18378221"
+  },
+  {
+   "name": "Convenient Studio Condo in Waikiki #B",
+   "price": 204.0,
+   "price_local": 204.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.68,
+   "reviews": 398,
+   "url": "https://www.airbnb.com/rooms/24397028"
+  },
+  {
+   "name": "Stylish Waikiki Studio w/ Ocean View & Parking",
+   "price": 373.0,
+   "price_local": 373.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 396,
+   "url": "https://www.airbnb.com/rooms/11100384"
+  },
+  {
+   "name": "Kailua Pineapple Studio. Walk to Beach! PERMITTED",
+   "price": 462.5,
+   "price_local": 462.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 393,
+   "url": "https://www.airbnb.com/rooms/16231208"
+  },
+  {
+   "name": "2 Bedroom Condo With Parking",
+   "price": 311.5,
+   "price_local": 311.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.81,
+   "reviews": 391,
+   "url": "https://www.airbnb.com/rooms/18195039"
+  },
+  {
+   "name": "Waikiki Banyan 3(Q)beds w/Parking, Wi-Fi",
+   "price": 297.0,
+   "price_local": 297.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 8,
+   "rating": 4.87,
+   "reviews": 390,
+   "url": "https://www.airbnb.com/rooms/34370848"
+  },
+  {
+   "name": "Large Corner Unit at Bamboo with Full Kitchen",
+   "price": 304.0,
+   "price_local": 304.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.8,
+   "reviews": 389,
+   "url": "https://www.airbnb.com/rooms/20887309"
+  },
+  {
+   "name": "Spectacular Waikiki Condo w/free parking #2104",
+   "price": 255.0,
+   "price_local": 255.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.8,
+   "reviews": 388,
+   "url": "https://www.airbnb.com/rooms/5642075"
+  },
+  {
+   "name": "Jewel in Sky near Hilton Hawaiian Village",
+   "price": 210.5,
+   "price_local": 210.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 388,
+   "url": "https://www.airbnb.com/rooms/20631776"
+  },
+  {
+   "name": "Ilikai Ocean Front Condo w/ balcony & ocean view",
+   "price": 305.0,
+   "price_local": 305.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 3,
+   "rating": 4.77,
+   "reviews": 387,
+   "url": "https://www.airbnb.com/rooms/8906767"
+  },
+  {
+   "name": "Wailupe Stream Studio w/Private Access",
+   "price": 51.85,
+   "price_local": 51.85,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 386,
+   "url": "https://www.airbnb.com/rooms/6217125"
+  },
+  {
+   "name": "Private Seashore Studio Ocean View!",
+   "price": 196.1,
+   "price_local": 196.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 385,
+   "url": "https://www.airbnb.com/rooms/11464789"
+  },
+  {
+   "name": "Waikiki/Free parking/ワイキキバニアン",
+   "price": 294.0,
+   "price_local": 294.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.73,
+   "reviews": 385,
+   "url": "https://www.airbnb.com/rooms/24545525"
+  },
+  {
+   "name": "Ocean View Corner Unit Full Kitchen Seashore Condo",
+   "price": 215.2,
+   "price_local": 215.2,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 385,
+   "url": "https://www.airbnb.com/rooms/16338355"
+  },
+  {
+   "name": "RARE HAWAIIAN DIAMOND",
+   "price": 203.67,
+   "price_local": 203.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.82,
+   "reviews": 384,
+   "url": "https://www.airbnb.com/rooms/37099"
+  },
+  {
+   "name": "Wonderful Waikiki",
+   "price": 154.79,
+   "price_local": 154.79,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 382,
+   "url": "https://www.airbnb.com/rooms/21853907"
+  },
+  {
+   "name": "Renovated Cozy Home in Waikiki",
+   "price": 179.0,
+   "price_local": 179.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 381,
+   "url": "https://www.airbnb.com/rooms/39493900"
+  },
+  {
+   "name": "Center of Waikiki with 🚘Free Parking/Pool🏖/BBQ",
+   "price": 293.0,
+   "price_local": 293.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.98,
+   "reviews": 377,
+   "url": "https://www.airbnb.com/rooms/31933839"
+  },
+  {
+   "name": "Ocean ∘ City ∘ Mountain views in the ❤️ of Waikiki",
+   "price": 220.5,
+   "price_local": 220.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 377,
+   "url": "https://www.airbnb.com/rooms/22891785"
+  },
+  {
+   "name": "Modern Studio Across the Street from Waikiki Beach",
+   "price": 240.0,
+   "price_local": 240.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.89,
+   "reviews": 376,
+   "url": "https://www.airbnb.com/rooms/16348150"
+  },
+  {
+   "name": "Top Floor Corner Ocean/Beach View Condo",
+   "price": 202.0,
+   "price_local": 202.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 375,
+   "url": "https://www.airbnb.com/rooms/43046276"
+  },
+  {
+   "name": "Kailua Beach Park - 2 BR Cottage",
+   "price": 448.0,
+   "price_local": 448.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.9,
+   "reviews": 368,
+   "url": "https://www.airbnb.com/rooms/24736926"
+  },
+  {
+   "name": "Waikiki Banyan - Diamond Head View w/Free Parking",
+   "price": 258.22,
+   "price_local": 258.22,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.91,
+   "reviews": 365,
+   "url": "https://www.airbnb.com/rooms/15720834"
+  },
+  {
+   "name": "Amazing Ocean & Beach Views - Only Steps to Beach!",
+   "price": 309.8,
+   "price_local": 309.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.84,
+   "reviews": 365,
+   "url": "https://www.airbnb.com/rooms/18854943"
+  },
+  {
+   "name": "Steps From Waikiki Beach 906a Studio",
+   "price": 236.0,
+   "price_local": 236.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.61,
+   "reviews": 365,
+   "url": "https://www.airbnb.com/rooms/426613"
+  },
+  {
+   "name": "Waikiki Bungalow",
+   "price": 280.0,
+   "price_local": 280.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.9,
+   "reviews": 364,
+   "url": "https://www.airbnb.com/rooms/46840903"
+  },
+  {
+   "name": "THE GRAND EXPERIENCE",
+   "price": 235.33,
+   "price_local": 235.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 360,
+   "url": "https://www.airbnb.com/rooms/7073250"
+  },
+  {
+   "name": "Modern Clean Waikiki Studio Full Kitchen Free Park",
+   "price": 309.8,
+   "price_local": 309.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.91,
+   "reviews": 359,
+   "url": "https://www.airbnb.com/rooms/33658591"
+  },
+  {
+   "name": "Cute Studio at the Waikiki Grand",
+   "price": 278.0,
+   "price_local": 278.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.71,
+   "reviews": 358,
+   "url": "https://www.airbnb.com/rooms/9334038"
+  },
+  {
+   "name": "Royal Garden Waikiki - Boutique Studio with Lanai",
+   "price": 255.0,
+   "price_local": 255.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.86,
+   "reviews": 354,
+   "url": "https://www.airbnb.com/rooms/15237216"
+  },
+  {
+   "name": "Stylish Studio Across the Street from Waikiki Bch!",
+   "price": 228.4,
+   "price_local": 228.4,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 354,
+   "url": "https://www.airbnb.com/rooms/24120726"
+  },
+  {
+   "name": "New!Center of Waikiki w/ Free Parking🚘/BBQ/Pool🏖",
+   "price": 283.0,
+   "price_local": 283.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.96,
+   "reviews": 353,
+   "url": "https://www.airbnb.com/rooms/44324030"
+  },
+  {
+   "name": "Steps from Waikiki Beach | Pool. Hot Tub. Bar.",
+   "price": 151.43,
+   "price_local": 151.43,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.59,
+   "reviews": 352,
+   "url": "https://www.airbnb.com/rooms/972757215003806507"
+  },
+  {
+   "name": "1 Bedroom Suite in downtown near Waikiki",
+   "price": 261.0,
+   "price_local": 261.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.81,
+   "reviews": 350,
+   "url": "https://www.airbnb.com/rooms/9981962"
+  },
+  {
+   "name": "Amazing Views | Pool & Jacuzzi | Walkable To Beach",
+   "price": 185.47,
+   "price_local": 185.47,
+   "room_type": "Private room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 349,
+   "url": "https://www.airbnb.com/rooms/21373363"
+  },
+  {
+   "name": "Relaxing Studio at Waikiki Grand - Close to Beach!",
+   "price": 227.5,
+   "price_local": 227.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.91,
+   "reviews": 347,
+   "url": "https://www.airbnb.com/rooms/19696616"
+  },
+  {
+   "name": "Modern Clean Waikiki Studio Full Kitchen Free Park",
+   "price": 288.2,
+   "price_local": 288.2,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 346,
+   "url": "https://www.airbnb.com/rooms/32089149"
+  },
+  {
+   "name": "Spacious Hotel/Apartment in Downtown with Parking",
+   "price": 309.0,
+   "price_local": 309.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.81,
+   "reviews": 343,
+   "url": "https://www.airbnb.com/rooms/27108028"
+  },
+  {
+   "name": "Full Ocean View Unit Waikiki condo kitchenette",
+   "price": 140.8,
+   "price_local": 140.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.64,
+   "reviews": 340,
+   "url": "https://www.airbnb.com/rooms/7778340"
+  },
+  {
+   "name": "DIAMOND ON DIAMOND HEAD",
+   "price": 213.0,
+   "price_local": 213.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/16452342"
+  },
+  {
+   "name": "Spacious Waikiki Condo with free parking and pool",
+   "price": 245.0,
+   "price_local": 245.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.7,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/2315252"
+  },
+  {
+   "name": "Waikiki Studio in perfect location",
+   "price": 148.0,
+   "price_local": 148.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.8,
+   "reviews": 339,
+   "url": "https://www.airbnb.com/rooms/7069865"
+  },
+  {
+   "name": "View! Free Parking onsite-King Bed Studio-Waikiki",
+   "price": 265.0,
+   "price_local": 265.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 338,
+   "url": "https://www.airbnb.com/rooms/16518348"
+  },
+  {
+   "name": "Kuliouou Valley 30 Night min stay private entrance",
+   "price": 177.29,
+   "price_local": 177.29,
+   "room_type": "Private room",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.88,
+   "reviews": 336,
+   "url": "https://www.airbnb.com/rooms/1843839"
+  },
+  {
+   "name": "Near the Beach 2 Queen-Bed Free Parking/WiFi/POOL",
+   "price": 321.0,
+   "price_local": 321.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 5,
+   "rating": 4.82,
+   "reviews": 335,
+   "url": "https://www.airbnb.com/rooms/20437001"
+  },
+  {
+   "name": "500 feet to Waikiki beach/washer dryer/parking",
+   "price": 461.0,
+   "price_local": 461.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.93,
+   "reviews": 334,
+   "url": "https://www.airbnb.com/rooms/16571860"
+  },
+  {
+   "name": "Wonderful, Updated, Waikiki Condo at Aloha Surf!",
+   "price": 207.0,
+   "price_local": 207.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.81,
+   "reviews": 334,
+   "url": "https://www.airbnb.com/rooms/17219714"
+  },
+  {
+   "name": "Aloha Suite Near the Sea II, 3 Block Walk to Beach",
+   "price": 243.36,
+   "price_local": 243.36,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.9,
+   "reviews": 333,
+   "url": "https://www.airbnb.com/rooms/22362759"
+  },
+  {
+   "name": "Elegant, Spacious Downtown Hideaway w/Parking",
+   "price": 284.0,
+   "price_local": 284.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.88,
+   "reviews": 332,
+   "url": "https://www.airbnb.com/rooms/28233244"
+  },
+  {
+   "name": "Marina Oasis Full Kitchen/Laundry/Parking Options",
+   "price": 285.0,
+   "price_local": 285.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.59,
+   "reviews": 330,
+   "url": "https://www.airbnb.com/rooms/15677743"
+  },
+  {
+   "name": "Waikiki Ocean & Sunset View Condo-free parking",
+   "price": 320.5,
+   "price_local": 320.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 328,
+   "url": "https://www.airbnb.com/rooms/38031934"
+  },
+  {
+   "name": "Hale Koolau(30day)",
+   "price": 125.47,
+   "price_local": 125.47,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 30,
+   "maximum_occupancy": 6,
+   "rating": 4.85,
+   "reviews": 328,
+   "url": "https://www.airbnb.com/rooms/3727986"
+  },
+  {
+   "name": "Modern Clean Studio w/Free Parking | Walk to Beach",
+   "price": 165.0,
+   "price_local": 165.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.98,
+   "reviews": 327,
+   "url": "https://www.airbnb.com/rooms/33074207"
+  },
+  {
+   "name": "Hawaiian Happiness on a Budget!",
+   "price": 212.5,
+   "price_local": 212.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.78,
+   "reviews": 327,
+   "url": "https://www.airbnb.com/rooms/31498093"
+  },
+  {
+   "name": "Luxury Condo 3bd, free parking .",
+   "price": 344.0,
+   "price_local": 344.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.79,
+   "reviews": 325,
+   "url": "https://www.airbnb.com/rooms/27142524"
+  },
+  {
+   "name": "Bishop Suites @ Executive Centre - Mountain View",
+   "price": 144.0,
+   "price_local": 144.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.49,
+   "reviews": 325,
+   "url": "https://www.airbnb.com/rooms/1197368996417890253"
+  },
+  {
+   "name": "Modern Studio at Hawaiian Monarch Waikiki",
+   "price": 207.0,
+   "price_local": 207.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 324,
+   "url": "https://www.airbnb.com/rooms/31178856"
+  },
+  {
+   "name": "Sunshine Waikiki",
+   "price": 141.0,
+   "price_local": 141.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 324,
+   "url": "https://www.airbnb.com/rooms/22555026"
+  },
+  {
+   "name": "Hotel unit next to the largest mall in HI",
+   "price": 186.5,
+   "price_local": 186.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.77,
+   "reviews": 322,
+   "url": "https://www.airbnb.com/rooms/13414776"
+  },
+  {
+   "name": "Beachside Bliss: Steps to the Sand *legal rental*",
+   "price": 210.5,
+   "price_local": 210.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.85,
+   "reviews": 321,
+   "url": "https://www.airbnb.com/rooms/30793500"
+  },
+  {
+   "name": "Waikiki 2 Story Penthouse Amazing View Free Parkng",
+   "price": 546.5,
+   "price_local": 546.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 10,
+   "rating": 4.57,
+   "reviews": 319,
+   "url": "https://www.airbnb.com/rooms/15968929"
+  },
+  {
+   "name": "Ala Wai",
+   "price": 143.33,
+   "price_local": 143.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 319,
+   "url": "https://www.airbnb.com/rooms/35778216"
+  },
+  {
+   "name": "28F Panorama Ocean View Studio with Full Kitchen!",
+   "price": 295.0,
+   "price_local": 295.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.57,
+   "reviews": 319,
+   "url": "https://www.airbnb.com/rooms/22755502"
+  },
+  {
+   "name": "WAIKIKI OCEAN view w/ private Lanai",
+   "price": 163.75,
+   "price_local": 163.75,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 4,
+   "maximum_occupancy": 3,
+   "rating": 4.71,
+   "reviews": 317,
+   "url": "https://www.airbnb.com/rooms/12292810"
+  },
+  {
+   "name": "Family Vacation 1bd w/ Pool & Free Parking #1912",
+   "price": 350.03,
+   "price_local": 350.03,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.83,
+   "reviews": 316,
+   "url": "https://www.airbnb.com/rooms/16888250"
+  },
+  {
+   "name": "Lovely & Clean Unit | Minutes to Waikiki Beach",
+   "price": 142.5,
+   "price_local": 142.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.57,
+   "reviews": 316,
+   "url": "https://www.airbnb.com/rooms/19555071"
+  },
+  {
+   "name": "Hokusai Suite/Free Parking/WIFI/1 block to beach",
+   "price": 343.0,
+   "price_local": 343.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.96,
+   "reviews": 315,
+   "url": "https://www.airbnb.com/rooms/16157091"
+  },
+  {
+   "name": "Great Location🏖Free Parking 🚗Aqua palms hotel",
+   "price": 229.0,
+   "price_local": 229.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.95,
+   "reviews": 315,
+   "url": "https://www.airbnb.com/rooms/551279275838461355"
+  },
+  {
+   "name": "0.5 block to Waikiki beach/washer/dryer/parking",
+   "price": 477.1,
+   "price_local": 477.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.91,
+   "reviews": 309,
+   "url": "https://www.airbnb.com/rooms/26645893"
+  },
+  {
+   "name": "The Tidal Treasure - where to stay in Waikiki",
+   "price": 203.5,
+   "price_local": 203.5,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 308,
+   "url": "https://www.airbnb.com/rooms/21502740"
+  },
+  {
+   "name": "Penthouse Studio Sea'Escape w/FREE Rsvd Pkg",
+   "price": 315.33,
+   "price_local": 315.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.93,
+   "reviews": 307,
+   "url": "https://www.airbnb.com/rooms/23241097"
+  },
+  {
+   "name": "Luxury Ocean-View in Waikiki mins from the beach",
+   "price": 338.75,
+   "price_local": 338.75,
+   "room_type": "Hotel room",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.85,
+   "reviews": 305,
+   "url": "https://www.airbnb.com/rooms/23260491"
+  },
+  {
+   "name": "Waikiki Beachfront Home (Car & Parking Available)",
+   "price": 464.0,
+   "price_local": 464.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.95,
+   "reviews": 305,
+   "url": "https://www.airbnb.com/rooms/47144474"
+  },
+  {
+   "name": "Pillows in Paradise, \"Lanikai\" Private Studio",
+   "price": 238.4,
+   "price_local": 238.4,
+   "room_type": "Private room",
+   "minimum_nights": 3,
+   "maximum_occupancy": 5,
+   "rating": 4.91,
+   "reviews": 304,
+   "url": "https://www.airbnb.com/rooms/23507809"
+  },
+  {
+   "name": "Lovely condo, 2 block to Waikiki beach | KV-4F",
+   "price": 161.02,
+   "price_local": 161.02,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.65,
+   "reviews": 302,
+   "url": "https://www.airbnb.com/rooms/19369645"
+  },
+  {
+   "name": "Elegant Waikiki Condo w/ Beautiful View and Pool",
+   "price": 198.0,
+   "price_local": 198.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.84,
+   "reviews": 299,
+   "url": "https://www.airbnb.com/rooms/26014922"
+  },
+  {
+   "name": "High Floor Waikiki Condo for 2-Amazing Views",
+   "price": 200.0,
+   "price_local": 200.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.79,
+   "reviews": 297,
+   "url": "https://www.airbnb.com/rooms/25087047"
+  },
+  {
+   "name": "Waikiki Condo- 1 mins Walk to Beach on Main Strip!",
+   "price": 237.0,
+   "price_local": 237.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.69,
+   "reviews": 296,
+   "url": "https://www.airbnb.com/rooms/2695820"
+  },
+  {
+   "name": "Ocean View, Full Kitchen, Amazing Location!",
+   "price": 227.8,
+   "price_local": 227.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 296,
+   "url": "https://www.airbnb.com/rooms/28606642"
+  },
+  {
+   "name": "1095 Ilikai Marina | Modern Studio Near Beach",
+   "price": 290.0,
+   "price_local": 290.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.83,
+   "reviews": 295,
+   "url": "https://www.airbnb.com/rooms/10528384"
+  },
+  {
+   "name": "1/2 block to Beach OCEANVIEW in all rooms 1carport",
+   "price": 508.33,
+   "price_local": 508.33,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 6,
+   "rating": 4.74,
+   "reviews": 295,
+   "url": "https://www.airbnb.com/rooms/18551621"
+  },
+  {
+   "name": "Seaside Serenity: Partial Ocean View",
+   "price": 171.35,
+   "price_local": 171.35,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.61,
+   "reviews": 294,
+   "url": "https://www.airbnb.com/rooms/912924072878513811"
+  },
+  {
+   "name": "The Heart Studio of Waikiki",
+   "price": 232.0,
+   "price_local": 232.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.89,
+   "reviews": 294,
+   "url": "https://www.airbnb.com/rooms/4687356"
+  },
+  {
+   "name": "Bright & Breezy Condo at Beach w/ Free Parking!!",
+   "price": 706.4,
+   "price_local": 706.4,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.84,
+   "reviews": 293,
+   "url": "https://www.airbnb.com/rooms/19435538"
+  },
+  {
+   "name": "1 King Bed w/Waikiki View, Hotel Renew",
+   "price": 145.0,
+   "price_local": 145.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.6,
+   "reviews": 293,
+   "url": "https://www.airbnb.com/rooms/38086946"
+  },
+  {
+   "name": "Ocean View Newly Remodeled \"Ilikai\" w/Free Parking",
+   "price": 449.86,
+   "price_local": 449.86,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.72,
+   "reviews": 293,
+   "url": "https://www.airbnb.com/rooms/11967850"
+  },
+  {
+   "name": "Waikiki Ocean View w/FREE Parking/Kitchen/GYM/Pool",
+   "price": 294.0,
+   "price_local": 294.0,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.96,
+   "reviews": 292,
+   "url": "https://www.airbnb.com/rooms/51132547"
+  },
+  {
+   "name": "Updated Studio | Work-Play-Explore | Walk to Beach",
+   "price": 238.1,
+   "price_local": 238.1,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.76,
+   "reviews": 291,
+   "url": "https://www.airbnb.com/rooms/5387120"
+  },
+  {
+   "name": "The Aloha Suite",
+   "price": 237.0,
+   "price_local": 237.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.8,
+   "reviews": 291,
+   "url": "https://www.airbnb.com/rooms/29569199"
+  },
+  {
+   "name": "Kalani Waikiki",
+   "price": 143.67,
+   "price_local": 143.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 2,
+   "rating": 4.82,
+   "reviews": 291,
+   "url": "https://www.airbnb.com/rooms/35747335"
+  },
+  {
+   "name": "Gorgeous Waikiki Beach Ilikai",
+   "price": 354.0,
+   "price_local": 354.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 4,
+   "rating": 4.68,
+   "reviews": 291,
+   "url": "https://www.airbnb.com/rooms/1303637"
+  },
+  {
+   "name": "Steps to Waikiki Beach 2 view balconies!",
+   "price": 227.0,
+   "price_local": 227.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.61,
+   "reviews": 291,
+   "url": "https://www.airbnb.com/rooms/722158"
+  },
+  {
+   "name": "Panoramic Ocean View/ Full Kitchen/2603A",
+   "price": 159.0,
+   "price_local": 159.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.91,
+   "reviews": 290,
+   "url": "https://www.airbnb.com/rooms/52937780"
+  },
+  {
+   "name": "38F Studio A @ the Hawaiian Monarch",
+   "price": 308.0,
+   "price_local": 308.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.62,
+   "reviews": 289,
+   "url": "https://www.airbnb.com/rooms/10752406"
+  },
+  {
+   "name": "Cozy and Convenient!",
+   "price": 95.12,
+   "price_local": 95.12,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 30,
+   "maximum_occupancy": 2,
+   "rating": 4.96,
+   "reviews": 288,
+   "url": "https://www.airbnb.com/rooms/5228832"
+  },
+  {
+   "name": "Ocean View Condo: Pool, Hot Tub, Near Beach",
+   "price": 197.06,
+   "price_local": 197.06,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.64,
+   "reviews": 287,
+   "url": "https://www.airbnb.com/rooms/22693761"
+  },
+  {
+   "name": "Near Ala Moana Beach + Pool. Koi Pond. Restaurant.",
+   "price": 175.15,
+   "price_local": 175.15,
+   "room_type": "Private room",
+   "minimum_nights": 1,
+   "maximum_occupancy": 3,
+   "rating": 4.51,
+   "reviews": 287,
+   "url": "https://www.airbnb.com/rooms/1455821617917555299"
+  },
+  {
+   "name": "Aloha Room",
+   "price": 53.3,
+   "price_local": 53.3,
+   "room_type": "Private room",
+   "minimum_nights": 22,
+   "maximum_occupancy": 2,
+   "rating": 4.75,
+   "reviews": 287,
+   "url": "https://www.airbnb.com/rooms/940076"
+  },
+  {
+   "name": "Penthouse - Top Floor Panoramic Ocean View",
+   "price": 315.8,
+   "price_local": 315.8,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.93,
+   "reviews": 286,
+   "url": "https://www.airbnb.com/rooms/50244032"
+  },
+  {
+   "name": "Waikiki 2BR/2Bath Suite + Catamaran Adventure",
+   "price": 327.04,
+   "price_local": 327.04,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.74,
+   "reviews": 286,
+   "url": "https://www.airbnb.com/rooms/11340541"
+  },
+  {
+   "name": "Cozy Getaway - One Block from Waikiki Beach",
+   "price": 233.0,
+   "price_local": 233.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.86,
+   "reviews": 285,
+   "url": "https://www.airbnb.com/rooms/24522646"
+  },
+  {
+   "name": "Waikiki Studio with Lanai Ocean View",
+   "price": 233.0,
+   "price_local": 233.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.73,
+   "reviews": 284,
+   "url": "https://www.airbnb.com/rooms/24528072"
+  },
+  {
+   "name": "Waikiki Banyan Pineapple Suite",
+   "price": 328.35,
+   "price_local": 328.35,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 6,
+   "rating": 4.92,
+   "reviews": 284,
+   "url": "https://www.airbnb.com/rooms/47876106"
+  },
+  {
+   "name": "Ocean views near beach by Aloha-Waikiki 11",
+   "price": 218.0,
+   "price_local": 218.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 2,
+   "rating": 4.64,
+   "reviews": 284,
+   "url": "https://www.airbnb.com/rooms/2303459"
+  },
+  {
+   "name": "Modern 1 Bedroom Condo in Downtown Honolulu",
+   "price": 321.0,
+   "price_local": 321.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 4,
+   "rating": 4.98,
+   "reviews": 283,
+   "url": "https://www.airbnb.com/rooms/53672873"
+  },
+  {
+   "name": "Aloha Suite Near the Sea I, 3 Block Walk to Beach!",
+   "price": 219.0,
+   "price_local": 219.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 1,
+   "maximum_occupancy": 2,
+   "rating": 4.92,
+   "reviews": 283,
+   "url": "https://www.airbnb.com/rooms/20836784"
+  },
+  {
+   "name": "Mountain & River + City OV #1 ㅣ Free parking!",
+   "price": 627.0,
+   "price_local": 627.0,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 7,
+   "rating": 4.88,
+   "reviews": 282,
+   "url": "https://www.airbnb.com/rooms/39454410"
+  },
+  {
+   "name": "Beautiful Ocean and Lagoon Views. High Floor",
+   "price": 305.67,
+   "price_local": 305.67,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 3,
+   "maximum_occupancy": 4,
+   "rating": 4.9,
+   "reviews": 282,
+   "url": "https://www.airbnb.com/rooms/11327064"
+  },
+  {
+   "name": "<0.1 mile to Waikiki beach/washer dryer/parking",
+   "price": 476.37,
+   "price_local": 476.37,
+   "room_type": "Entire home/apt",
+   "minimum_nights": 2,
+   "maximum_occupancy": 6,
+   "rating": 4.96,
+   "reviews": 282,
+   "url": "https://www.airbnb.com/rooms/29865431"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Helena's Hawaiian Food",
+   "cuisines": [
+    "Local",
+    "Hawaiian",
+    "Pipikaula",
+    "Haupia",
+    "Squid Luau",
+    "Poke",
+    "Beef Stew",
+    "Kalua Pig",
+    "Lomi Salmon",
+    "Poi",
+    "Chicken Long Rice"
+   ],
+   "address": "1240 North School Street, 96817, Honolulu",
+   "website": "http://www.helenashawaiianfood.com"
+  },
+  {
+   "name": "Ginza Bairin",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "255 Beach Walk, 96815, Honolulu",
+   "website": "https://www.ginzabairinhawaii.com"
+  },
+  {
+   "name": "TsuruTonTan",
+   "cuisines": [
+    "Japanese",
+    "Noodle"
+   ],
+   "address": "2233 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://www.tsurutontan.com/hawaii"
+  },
+  {
+   "name": "Mimi's Peruvian Cuisine",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "661 Keeaumoku Street, 96814, Honolulu",
+   "website": "https://mimisperuviancuisine.com/"
+  },
+  {
+   "name": "Hard Rock Café",
+   "cuisines": [
+    "American"
+   ],
+   "address": "280 Beach Walk, 96815, Honolulu",
+   "website": "https://cafe.hardrock.com/honolulu/"
+  },
+  {
+   "name": "Hideout",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2299 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://www.hideoutwaikiki.com/"
+  },
+  {
+   "name": "YA!!SUSHI",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2045 Kalakaua Avenue, 96815, Honolulu",
+   "website": "https://www.atsushihonolulu.com/services-1"
+  },
+  {
+   "name": "Eggs n’ Things",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "451 Piikoi Street, 96814, Honolulu",
+   "website": "https://eggsnthings.com/locations/"
+  },
+  {
+   "name": "EbiNomi",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2310 Kūhiō Avenue, 96815, Honolulu",
+   "website": "https://ebinomi.com/"
+  },
+  {
+   "name": "O’Kims",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1028 Nuuanu Avenue, 96817, Honolulu",
+   "website": "https://www.okimshawaii.com/"
+  },
+  {
+   "name": "TR Fire Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2330 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://trfiregrill.com/"
+  },
+  {
+   "name": "Appetito Craft Pizza & Wine Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "150 Kaʻiulani Avenue, 96815, Honolulu",
+   "website": "https://appetitowaikiki.com/"
+  },
+  {
+   "name": "Tanaka Saimin",
+   "cuisines": [
+    "Hawaiian",
+    "Noodle"
+   ],
+   "address": "888 Nimitz Highway, 96817, Honolulu",
+   "website": "https://www.tanakasaimin.com"
+  },
+  {
+   "name": "Pizza Mamo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "16 North Hotel Street, 96817, Honolulu",
+   "website": "https://eatpizzamamo.com/"
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2201 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://locations.pfchangs.com/hi/honolulu/2201-kalakaua-ave.html"
+  },
+  {
+   "name": "MW Restaurant",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "888 Kapiolani Boulevard, 96813, Honolulu",
+   "website": "https://mwrestaurant.com/"
+  },
+  {
+   "name": "Búho Cocina y Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://buhocantina.com/"
+  },
+  {
+   "name": "Udon Yama",
+   "cuisines": [
+    "Japanese",
+    "Noodle"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://yumekubo.com/store/waikiki-2/"
+  },
+  {
+   "name": "Zippy's",
+   "cuisines": [
+    "Hawaiian",
+    "Japanese",
+    "Chinese",
+    "American"
+   ],
+   "address": "59 North Vineyard Boulevard, 96817, Honolulu",
+   "website": "https://www.zippys.com/locations/zippys-vineyard/"
+  },
+  {
+   "name": "The Cheesecake Factory",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2301 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://locations.thecheesecakefactory.com/hi/honolulu-68.html"
+  },
+  {
+   "name": "Middle Eats",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "1515 Liona Street, 96814-7080, Honolulu",
+   "website": "https://www.middleeats808.com"
+  },
+  {
+   "name": "Han no Daidokoro",
+   "cuisines": [
+    "Japanese",
+    "Barbecue"
+   ],
+   "address": "2380 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://hannodaidokoro.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "96815-2834",
+   "website": "https://restaurants.ihop.com/hi/honolulu/3133"
+  },
+  {
+   "name": "Wolfgang's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2301 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://www.wolfgangssteakhousehawaii.com/waikiki"
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3 Aloha Tower Drive, 96813, Honolulu",
+   "website": "https://www.osf.com/location/honolulu-hi/"
+  },
+  {
+   "name": "Bario Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://www.bario-hawaii.com/"
+  },
+  {
+   "name": "Maguro Spot",
+   "cuisines": [
+    "Seafood",
+    "Hawaiian",
+    "Poke"
+   ],
+   "address": "2441 Kūhiō Avenue, 96815, Honolulu",
+   "website": "https://magurospot.com/"
+  },
+  {
+   "name": "Rinka",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1001 Queen Street, 96814, Honolulu",
+   "website": "https://rinkahawaii.com/"
+  },
+  {
+   "name": "The Capital Grille",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2380 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://thecapitalgrillehawaii.com/"
+  },
+  {
+   "name": "Kamakura Surf + Dine",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2380 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://www.kamukura-waikiki.com/"
+  },
+  {
+   "name": "Baikohken",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://baikohken.com/"
+  },
+  {
+   "name": "Ramen Nakamura",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2141 Kalakaua Avenue, 96815, Honolulu",
+   "website": "https://ramen-nakamura.com"
+  },
+  {
+   "name": "Giovedi",
+   "cuisines": [
+    "Italian",
+    "Asian"
+   ],
+   "address": "10 North Hotel Street, 96817, Honolulu",
+   "website": "https://www.giovedihawaii.com/"
+  },
+  {
+   "name": "Noi Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2301 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://noithaiselect.com/"
+  },
+  {
+   "name": "Honolulu Noodle & Co",
+   "cuisines": [
+    "Noodle",
+    "Taiwanese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://honolulunoodle.com/"
+  },
+  {
+   "name": "bb.q Chicken",
+   "cuisines": [
+    "Korean",
+    "Chicken"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815-2542, Honolulu",
+   "website": "https://order.bbqchicken.com/store/bb-q-chicken-waikiki-hi-33962555"
+  },
+  {
+   "name": "Tanaka of Tokyo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://www.tanakaoftokyo.com/en/central"
+  },
+  {
+   "name": "Water Drop Vegetarian House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "801 Alakea Street, 96813, Honolulu",
+   "website": "https://foodeist.com/place/water-drop-vegetarian-house"
+  },
+  {
+   "name": "Aloha Table",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2238 Lauula Street",
+   "website": "http://waikiki.alohatable.com/"
+  },
+  {
+   "name": "Liliha Bakery",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": "https://www.lilihabakery.com/"
+  },
+  {
+   "name": "U-Choice In",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "801 Kaheka Street",
+   "website": "https://foodeist.com/place/u-choicein"
+  },
+  {
+   "name": "Obento Rinka",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1317 South Beretania Street, 96814, Honolulu",
+   "website": "https://rinka-obento.com/"
+  },
+  {
+   "name": "Pho 97",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1120 Maunakea Street, 96817, Honolulu",
+   "website": "https://www.pho97maunakea.com/"
+  },
+  {
+   "name": "Shingen",
+   "cuisines": [
+    "Noodle",
+    "Japanese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://hawaiishingen.com/"
+  },
+  {
+   "name": "Mikawon",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2310 Kūhiō Avenue, 96815, Honolulu",
+   "website": "http://www.mikawonkorean.com/"
+  },
+  {
+   "name": "Sugoi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1286 Kalani Street, 96817, Honolulu",
+   "website": "https://sugoihawaii.com/"
+  },
+  {
+   "name": "Legend Seafood Restaurant",
+   "cuisines": [
+    "Fish",
+    "Chinese",
+    "Seafood"
+   ],
+   "address": "100 North Beretania Street, 96817, Honolulu",
+   "website": "https://www.legendseafoodhonolulu.com/"
+  },
+  {
+   "name": "Fete",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 North Hotel Street, 96817, Honolulu",
+   "website": "https://www.fetehawaii.com/"
+  },
+  {
+   "name": "Gina's Bar-B-Q",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": "https://ginasbbq.com/"
+  },
+  {
+   "name": "Allegrini Italian Deli & Market",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://allegriniitaliandelimarkethi.com/"
+  },
+  {
+   "name": "'Olili",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2380 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://www.oliliwaikikihawaii.com/"
+  },
+  {
+   "name": "Sushi Matsuri",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://yumekubo.com/store/waikiki/"
+  },
+  {
+   "name": "Surf N Turf Tacos",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2310 Kūhiō Avenue, 96815, Honolulu",
+   "website": "https://www.surfnturftacowaikiki.com/"
+  },
+  {
+   "name": "Aroma Italia",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2752 Woodlawn Drive, 96822, Honolulu",
+   "website": "https://www.aromaitaliahawaii.com/"
+  },
+  {
+   "name": "Siam Square",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://m.facebook.com/SiamSquareWaikiki"
+  },
+  {
+   "name": "Hy's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2440 Kuhio Avenue, 96815, Honolulu",
+   "website": "https://hyswaikiki.com/"
+  },
+  {
+   "name": "Yee Hong Pavilion",
+   "cuisines": [
+    "Chinese",
+    "Cantonese",
+    "Dim Sum"
+   ],
+   "address": "100 North Beretania Street, 96817, Honolulu",
+   "website": "https://yee-hong-pavilion.poi.place/"
+  },
+  {
+   "name": "Won Kee Sea Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "100 North Beretania Street, 96817, Honolulu",
+   "website": "https://won-kee-sea-food.edan.io/"
+  },
+  {
+   "name": "Pho Vietnam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "52 North Hotel Street, 96817, Honolulu",
+   "website": "https://www.phovietnamhi.com"
+  },
+  {
+   "name": "Ginza Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1200 Ala Moana Boulevard",
+   "website": "https://ginzasushihawaii.com/"
+  },
+  {
+   "name": "Royal Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": "https://www.theroyallobster.com/"
+  },
+  {
+   "name": "Olay's Thai Lao Cuisine",
+   "cuisines": [
+    "Thai",
+    "Lao"
+   ],
+   "address": "66 North Hotel Street, 96817, Honolulu",
+   "website": "https://olaysthaihawaii.com"
+  },
+  {
+   "name": "Madame Saigon",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "900 Fort Street Mall, 96813, Honolulu",
+   "website": "https://www.madamesaigon.co/"
+  },
+  {
+   "name": "Mikiya Wagyu Shabu House",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1121 Kapiolani Boulevard, 96814, Honolulu",
+   "website": "https://mikiyashabu.com/project/honolulu-hi/"
+  },
+  {
+   "name": "Tai Sei Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "800 South Beretania Street, 96813, Honolulu",
+   "website": "https://foodeist.com/place/taiseiramen"
+  },
+  {
+   "name": "Blue Ocean Seafood & Steak",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2449 Kūhiō Avenue, 96815, Honolulu",
+   "website": "https://blueoceanwaikiki.com/"
+  },
+  {
+   "name": "8 Fat Fat 8 Bar and Grille",
+   "cuisines": [
+    "Barbecue",
+    "Chinese"
+   ],
+   "address": "1327 South Beretania Street, 96814, Honolulu",
+   "website": "https://www.8fatfat8hawaii.com/"
+  },
+  {
+   "name": "Sam's Kitchen",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2425 Kūhiō Avenue, 96815, Honolulu",
+   "website": "https://samskitchenhawaii.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1972 Kalakaua Avenue, 96815, Honolulu",
+   "website": "https://tonyromas.com/honolulu-waikiki"
+  },
+  {
+   "name": "monkeypod kitchen",
+   "cuisines": [
+    "International"
+   ],
+   "address": "96815",
+   "website": "https://www.monkeypodkitchen.com/dine_ka_waikiki"
+  },
+  {
+   "name": "Cheeseburger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.cheeseburgernation.com/"
+  },
+  {
+   "name": "Utage Restaurant & Lounge",
+   "cuisines": [
+    "Okinawan"
+   ],
+   "address": "1286 Kalani Street, 96817, Honolulu",
+   "website": "https://utagehawaii.com/"
+  },
+  {
+   "name": "Camado Ramen Tavern",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "320 Lewers Street, 96815, Honolulu",
+   "website": "https://www.camadoramentavern-waikiki.com"
+  },
+  {
+   "name": "Nori Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1000 Auahi Street, 96814, Honolulu",
+   "website": "https://noribarhawaii.com/"
+  },
+  {
+   "name": "Tonkatsu Kuro",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1000 Auahi Street, 96814, Honolulu",
+   "website": "https://tonkatsukuro.com/"
+  },
+  {
+   "name": "Thai Issan Cuisine II",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": "https://thaiissancuisine.com/"
+  },
+  {
+   "name": "Agu Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "925 Isenberg Street, 96826, Honolulu",
+   "website": "https://www.aguramen.com/"
+  },
+  {
+   "name": "Nico’s Pier 38",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1129 North Nimitz Highway, 96817, Honolulu",
+   "website": "https://nicospier38.com/"
+  },
+  {
+   "name": "Asahi Grill Ward",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "515 Ward Avenue, 96814, Honolulu",
+   "website": "https://www.asahigrillhawaii.com/"
+  },
+  {
+   "name": "Bernini",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1218 Waimanu Street, 96814, Honolulu",
+   "website": "https://berninihonolulu.com/"
+  },
+  {
+   "name": "Loving Hut",
+   "cuisines": [
+    "International"
+   ],
+   "address": "1614 South King Street, 96826",
+   "website": "https://lovinghut.us/honolulu/"
+  },
+  {
+   "name": "La Pizza Rina",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1425 South King Street, 96826, Honolulu",
+   "website": "https://la-pizza-rina.res-discover.com/"
+  },
+  {
+   "name": "Mitsu-Ken Okazu and Catering",
+   "cuisines": [
+    "Japanese",
+    "Regional"
+   ],
+   "address": "2300 North King Street, 96819, Honolulu",
+   "website": "https://foodeist.com/place/mitsu-ken"
+  },
+  {
+   "name": "Pho Viet",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2752 Woodlawn Drive, 96822, Honolulu",
+   "website": "https://phovietthienhong.wixsite.com/pho-viet-thien-hong"
+  },
+  {
+   "name": "Lady Elaine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2752 Woodlawn Drive, 96822, Honolulu",
+   "website": "https://resy.com/cities/honolulu-hi/venues/lady-elaine-hi"
+  },
+  {
+   "name": "Lobster King",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1380 South King Street, 96814, Honolulu",
+   "website": "https://thelobsterking.net/"
+  },
+  {
+   "name": "Gyotaku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1824 South King Street, 96826, Honolulu",
+   "website": "https://gyotakuhawaii.com/locations-south-king-street/"
+  },
+  {
+   "name": "The Dotted Line",
+   "cuisines": [
+    "Global"
+   ],
+   "address": "1111 Bishop Street, 96813, Honolulu",
+   "website": "https://www.dottedlinehawaii.com/"
+  },
+  {
+   "name": "Aloha Vietnamese Foots",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2320 South King Street, 96826, Honolulu",
+   "website": "https://menu.iwallet.com/files/AlohaVietnameseFoodsncuE_combined.pdf"
+  },
+  {
+   "name": "Kozo Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": "https://kozosushihawaii.com/"
+  },
+  {
+   "name": "Golden Eagle Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": "https://www.goldeneaglehonolulu.com/"
+  },
+  {
+   "name": "Tapas Restaurant & Lanai Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://tapaswaikiki.com/"
+  },
+  {
+   "name": "Da Spot",
+   "cuisines": [
+    "Mediterranean",
+    "North African"
+   ],
+   "address": "2469 South King Street, 96826, Honolulu",
+   "website": "https://www.daspot.net/"
+  },
+  {
+   "name": "Lucky Strike Lanes;Lucky Strike Social",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.luckystrikeent.com/locations/honolulu/"
+  },
+  {
+   "name": "SHOR",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2424 Kalakaua Avenue, 96815, Honolulu",
+   "website": "https://www.hyatt.com/hyatt-regency/en-US/hnlrw-hyatt-regency-waikiki-beach-resort-and-spa/dining"
+  },
+  {
+   "name": "Yaki Yaki Miwa",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1423 South King Street, 96826, Honolulu",
+   "website": "https://yakiyakimiwa.toast.site/"
+  },
+  {
+   "name": "Sasabune",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1417 South King Street, 96826, Honolulu",
+   "website": "https://sasabuneh.com/"
+  },
+  {
+   "name": "Kani Ka Pila Grille",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2169 Kalia Road, 96815, Honolulu",
+   "website": "https://www.outrigger.com/hawaii/oahu/outrigger-reef-waikiki-beach-resort/food-drinks/kani-ka-pila-grille"
+  },
+  {
+   "name": "Izakaya Harumi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "339 Royal Hawaiian Avenue, 96815, Honolulu",
+   "website": "https://thaiissanwaikiki.com"
+  },
+  {
+   "name": "Tori Ton",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": "https://www.toritonhawaii.com/"
+  },
+  {
+   "name": "Ba Le",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": "http://www.hawaii.edu/campuscenter/vendors/bale.html"
+  },
+  {
+   "name": "Nice Day Chinese Seafood Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1425 Liliha Street, 96817, Honolulu",
+   "website": "https://www.nicedaychinese.com"
+  },
+  {
+   "name": "Izakaya 855-ALOHA",
+   "cuisines": [
+    "Japanese",
+    "Hawaiian"
+   ],
+   "address": "411 Nahua Street, 96815, Honolulu",
+   "website": "https://www.izakaya855aloha.com/"
+  },
+  {
+   "name": "Hatsuhana",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2005 Kalia Road, 96815, Honolulu",
+   "website": "https://www.hatsuhanausa.com/"
+  },
+  {
+   "name": "Golden Duck",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1221 South King Street, 96814, Honolulu",
+   "website": "https://goldenduckhonolulu.com//"
+  },
+  {
+   "name": "Sakura Terrace",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1240 South King Street, 96814, Honolulu",
+   "website": "https://www.sakuraterrace.com/"
+  },
+  {
+   "name": "Duke's Waikiki",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "Kalakaua Avenue",
+   "website": "https://www.dukeswaikiki.com/"
+  },
+  {
+   "name": "Hula Grill Waikiki",
+   "cuisines": [
+    "Local",
+    "American",
+    "Breakfast"
+   ],
+   "address": "96815",
+   "website": "https://www.hulagrillwaikiki.com/"
+  },
+  {
+   "name": "Kickin Kajun",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "655 #101 Keeaumoku Street",
+   "website": "https://kickin-kajun.com/"
+  },
+  {
+   "name": "Chef’s Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/Chefs-Ramen-348534615583133/"
+  },
+  {
+   "name": "Kirin Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://kirinrestauranthawaii.com/"
+  },
+  {
+   "name": "JINROKU PACIFIC",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "96815",
+   "website": "http://www.jinrokupacific.com"
+  },
+  {
+   "name": "Tadka Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "96826",
+   "website": "https://tadka-indian-cuisine.res-menu.com/menu"
+  },
+  {
+   "name": "Yama's Fish Market",
+   "cuisines": [
+    "Hawaiian",
+    "Fish",
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://yamasfishmarket.com/"
+  },
+  {
+   "name": "Crackin' Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://crackinkitchen.com/"
+  },
+  {
+   "name": "SingSing Thai Street Food",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1030 Smith Street, 96817",
+   "website": "https://singsinghawaii.com/"
+  },
+  {
+   "name": "Sushi Sho",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "383 Kalaimoku Street, 96815",
+   "website": "https://www.ritzcarlton.com/en/hotels/hawaii/waikiki/dining/sushi-sho"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://locations.chuckecheese.com/us/hi/honolulu/1199-dillingham-blvd"
+  },
+  {
+   "name": "Pagoda Floating Restaurant",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://www.pagodahawaii.com/"
+  },
+  {
+   "name": "Kabuki Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "600 Kapiolani Boulevard, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Tim Ho Wan",
+   "cuisines": [
+    "Chinese",
+    "Dumplings"
+   ],
+   "address": "2201 Kalākaua Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "HK Cafe",
+   "cuisines": [
+    "Chinese",
+    "Cantonese"
+   ],
+   "address": "1113 Maunakea Street, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Joy Cup Noodles",
+   "cuisines": [
+    "Chinese",
+    "Noodle",
+    "Dan Dan Noodles",
+    "Sour Chicken Noodles",
+    "Cold Sesame Noodles",
+    "Beef Noodles",
+    "Seafood Noodles",
+    "Blanket Noodles",
+    "Pork Belly Noodles",
+    "Cucumber Salad",
+    "Asian",
+    "Soup",
+    "Broth"
+   ],
+   "address": "1608 Kalakaua Ave, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kahai Kitchen",
+   "cuisines": [
+    "Hawaiian",
+    "American"
+   ],
+   "address": "946 Coolidge Street, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Dave & Buster's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Mo-Mo Paradise",
+   "cuisines": [
+    "Japanese",
+    "Hotpot"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "CoCo Ichibanya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Duck Lee",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Tempura Kiki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Pho To-Chau",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1007 River Street, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Furusato Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2424 Kalakaua Ave, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Chill and Grill",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "401 Kamakee Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kyoto Katsuda",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Me's Bar-B-Que",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "151 Uluniu Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Komala Curry House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "700 Bishop Street, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Pho Nina",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2743 South King Street, 96826",
+   "website": ""
+  },
+  {
+   "name": "Sushi ii",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "655 Keeaumoku Street",
+   "website": ""
+  },
+  {
+   "name": "O-i-de Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "212 Merchant Street, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Ribs & Broth",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2250 Kalākaua Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "YYK Dim Sum",
+   "cuisines": [
+    "Chinese",
+    "Dim Sum"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kai Poke",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "333 Seaside Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Sumo Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1300 Pali Highway, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Mimi's Place",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "500 Ala Moana Boulevard, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Keeaumoku Seafood",
+   "cuisines": [
+    "Sushi",
+    "Seafood",
+    "Japanese"
+   ],
+   "address": "1223 Keeaumoku Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "O-Bok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2752 Woodlawn Drive, 96822, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Ala Hawaii Kitchen",
+   "cuisines": [
+    "Hawaiian",
+    "Regional"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Heavenly Island Lifestyle",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sato Seafood",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2310 Kūhiō Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Chun Wah Kam Noodle Factory",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "537 Pensacola Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Asian Mix",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1234 South Beretania Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Fun Station",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Genki Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "677 Ala Moana Boulevard, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Ahi & Vegetable",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Seoul Mix 2.0",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Musubi Cafe",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kikuya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1315 North King Street, 96817",
+   "website": ""
+  },
+  {
+   "name": "Fook Lam Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "100 North Beretania Street, 96817",
+   "website": ""
+  },
+  {
+   "name": "Little Plum",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2752 Woodlawn Drive, 96822, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Onigiri Onibe",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "921 Alakea Street, 96813, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Mama Kim's",
+   "cuisines": [
+    "Poke",
+    "Sushi",
+    "Kimchee"
+   ],
+   "address": "1481 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kyung's Seafood",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1269 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "349 Royal Hawaiian Avenue, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Fresh Bites Hawaii",
+   "cuisines": [
+    "Hawaiian",
+    "Regional"
+   ],
+   "address": "2334 South King Street, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Govinda’s Vegetarian Buffet",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "51 Coelho Way, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kamitoku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Waioli Kitchen & Bake Shop",
+   "cuisines": [
+    "Tea",
+    "Bakery",
+    "Hawaiian"
+   ],
+   "address": "2950 Manoa Road, 96822, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Taormina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "227 Lewers Street, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Pho Saigon",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Chaparros",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2140 South Beretania Street",
+   "website": ""
+  },
+  {
+   "name": "Yi Xin Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2005 Kalia Road, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Wagyukushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "801 Kaheka Street, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Thai Taste",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "801 Kaheka Street, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Poke & Box",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Da Best Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Gyu-Kaku",
+   "cuisines": [
+    "Japanese",
+    "Barbecue"
+   ],
+   "address": "1221 Kapiolani Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Bac Nam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1117 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Yamagen Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2210 South King Street, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "La Cucaracha Waikiki",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2446 Koa Avenue, 96815",
+   "website": ""
+  },
+  {
+   "name": "Sumo Ramen",
+   "cuisines": [
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "2919 Kapiolani Boulevard, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Cafe Maharani",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2509 South King Street, 96826, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Junpuu",
+   "cuisines": [
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "1010 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Sikdorak",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "655 Keeaumoku Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Bakery & Table",
+   "cuisines": [
+    "Contemporary"
+   ],
+   "address": "938 Piikoi Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Aloha Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1021 Pensacola Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Naty's Kitchen",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "1120 Maunakea Street, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Yohei Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1111 Dillingham Boulevard, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Honolulu Burger Company",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "California Pizza Kitchen",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tanaka Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1450 Ala Moana Boulevard, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Kim Chee 3",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waikiki Gangnam Style",
+   "cuisines": [
+    "Breakfast",
+    "Korean",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mei Sum Dim Sum",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1170 Nuuanu Ave, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Sorabol",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1525 Rycroft Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Morio's Sushi Bistro",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1160 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Pae Thai (Closed)",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1246 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Santouka Ramen",
+   "cuisines": [
+    "Japanese",
+    "Noodle"
+   ],
+   "address": "96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Sushiman",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1231 Wilder Avenue, 96822, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Peppa's Korean BBQ",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1249 Wilder Avenue, 96822, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Goma Tei Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1450 Ala Moana Center, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Golden Pork Tonkotsu Ramen",
+   "cuisines": [
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "1279 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Choi's Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1289 South King Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Itchy Butt",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1229 Keeaumoku Street, 96814, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Fort Street Cafe",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1152 fort Street mall",
+   "website": ""
+  },
+  {
+   "name": "Fresco Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2005 Kalia Road, 96815, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Leo’s Taverna Express",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "801 Kaheka Street",
+   "website": ""
+  },
+  {
+   "name": "Sushi Robot & Plate Lunch",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "801 Kaheka Street",
+   "website": ""
+  },
+  {
+   "name": "J. Dolan's Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1147 Bethel Street",
+   "website": ""
+  },
+  {
+   "name": "Patrick's Roadhouse Five O",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maria Bonita's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "15 North Hotel Street, 96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Izakaya Danji",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1091 South Beretania Street, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Paia Fish Market Waikiki",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eggs 'n Things",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The People's Cafe",
+   "cuisines": [
+    "Hawaiian",
+    "Filipino"
+   ],
+   "address": "96817, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yama’s Fish Market",
+   "cuisines": [
+    "Hawaiian",
+    "Fish",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Min-Min",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joe’s Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "580 Nimitz Highway, Honolulu",
+   "website": ""
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "munch’n brunch",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1944 Kalākaua Avenue, 96815",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thailand Cafe",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Charthouse",
+   "cuisines": [
+    "Fish",
+    "Steak House",
+    "Local",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Serge's Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maile's Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1200 Ala Moana Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Thai Village",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Izakaya Pau Hana Base",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "96815",
+   "website": ""
+  },
+  {
+   "name": "Romano's Macaroni Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waikiki Shokudo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "96815",
+   "website": ""
+  },
+  {
+   "name": "Namaste Indian & Nepalese Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kayak Cafe",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Goofy Cafe & Diner",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Island Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bangkok Chef",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Manoa Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Betty’s Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waipuna Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "280-1B East Manoa Road",
+   "website": ""
+  },
+  {
+   "name": "Red pepper",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1150 fort Street mall",
+   "website": ""
+  },
+  {
+   "name": "Pieology Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Takoyaki Yamachan",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Genius Lounge Japanese Sake Bar ＆ Dining",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "96815",
+   "website": ""
+  },
+  {
+   "name": "Kobe",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kamehameha Bowl",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harbour Pub",
+   "cuisines": [
+    "Burger",
+    "Breakfast",
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Anasia",
+   "cuisines": [
+    "Vietnamese",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Piggy Smalls",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mandoo House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yung Yee Kee Dim Sum",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iliili Cash & Carry",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Iolani Palace",
+   "kind": "museum",
+   "address": "364 South King Street, 96813, Honolulu",
+   "website": "https://www.iolanipalace.org/",
+   "phone": "+1 808-522-0822",
+   "latitude": 21.306815,
+   "longitude": -157.8587655
+  },
+  {
+   "name": "The Honolulu Museum of Art",
+   "kind": "museum",
+   "address": "900 South Beretania Street, 96814, Honolulu",
+   "website": "https://www.honolulumuseum.org/",
+   "phone": "+1-808-532-8700",
+   "latitude": 21.3041852,
+   "longitude": -157.8484887
+  },
+  {
+   "name": "Capitol Modern",
+   "kind": "museum",
+   "address": "250 South Hotel Street, 96813, Honolulu",
+   "website": "https://www.capitolmodern.org/",
+   "phone": "+1 808 586 0900",
+   "latitude": 21.3088572,
+   "longitude": -157.8582372
+  },
+  {
+   "name": "United States Army Museum of Hawaii",
+   "kind": "museum",
+   "address": "2131 Kalia Road, 96815, Honolulu",
+   "website": "https://home.army.mil/hawaii/index.php/army-museum#qt0:0",
+   "phone": "",
+   "latitude": 21.2790279,
+   "longitude": -157.8338345
+  },
+  {
+   "name": "Lili'uokalani Botanical Garden",
+   "kind": "attraction",
+   "address": "123 North Kuakini Street, 96817, Honolulu",
+   "website": "https://www.honolulu.gov/parks/hbg.html",
+   "phone": "",
+   "latitude": 21.3191708,
+   "longitude": -157.8559088
+  },
+  {
+   "name": "Hawaii Children's Discovery Center",
+   "kind": "museum",
+   "address": "111 Ohe Street, 96813, Honolulu",
+   "website": "https://discoverycenterhawaii.org/",
+   "phone": "+1 808 524 5437",
+   "latitude": 21.2936916,
+   "longitude": -157.8620735
+  },
+  {
+   "name": "Washington Place",
+   "kind": "museum",
+   "address": "320 Beretania Street, 96813, Honolulu",
+   "website": "https://washingtonplace.hawaii.gov/",
+   "phone": "",
+   "latitude": 21.308712,
+   "longitude": -157.8567226
+  },
+  {
+   "name": "Queen Emma Summer Palace",
+   "kind": "museum",
+   "address": "2913 Pali Highway, 96917, Honolulu",
+   "website": "https://daughtersofhawaii.org/queen-emma-summer-palace/",
+   "phone": "",
+   "latitude": 21.3358254,
+   "longitude": -157.8394682
+  },
+  {
+   "name": "Honolulu Zoo",
+   "kind": "zoo",
+   "address": "151 Kapahulu Avenue, 96815, Honolulu",
+   "website": "https://honoluluzoo.org/",
+   "phone": "+1 808-926-3191",
+   "latitude": 21.2711623,
+   "longitude": -157.8188258
+  },
+  {
+   "name": "Bernice Pauahi Bishop Museum",
+   "kind": "museum",
+   "address": "1525 Bernice Street, 96817, Honolulu",
+   "website": "https://www.bishopmuseum.org/",
+   "phone": "",
+   "latitude": 21.3330683,
+   "longitude": -157.8707527
+  },
+  {
+   "name": "John Young Museum of Art",
+   "kind": "museum",
+   "address": "2500 Dole Street, 96822, Honolulu",
+   "website": "https://www.hawaii.edu/johnyoung-museum/",
+   "phone": "+1 808 956 7198",
+   "latitude": 21.2977251,
+   "longitude": -157.8178404
+  },
+  {
+   "name": "Hawaii Mission Houses Museum",
+   "kind": "museum",
+   "address": "553 South King Street, 96813, Honolulu",
+   "website": "https://www.missionhouses.org/",
+   "phone": "+1 808 447 3910",
+   "latitude": 21.3037936,
+   "longitude": -157.8567885
+  },
+  {
+   "name": "Aloha Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3070596,
+   "longitude": -157.8660115
+  },
+  {
+   "name": "Waikīkī Aquarium",
+   "kind": "aquarium",
+   "address": "2777 Kalākaua Avenue, 96815, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2656668,
+   "longitude": -157.8217282
+  },
+  {
+   "name": "The Liljestrand House",
+   "kind": "museum",
+   "address": "3300 Tantalus Drive, 96822, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3241556,
+   "longitude": -157.8312058
+  },
+  {
+   "name": "Shangri La",
+   "kind": "museum",
+   "address": "4055 Papu Circle, 96816, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.256895,
+   "longitude": -157.7949585
+  },
+  {
+   "name": "Manoa Falls",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3422323,
+   "longitude": -157.7993432
+  },
+  {
+   "name": "Pacific Islands Ocean Exploration Center",
+   "kind": "museum",
+   "address": "1 Aloha Tower Drive, 96813, Honolulu",
+   "website": "https://sanctuaries.noaa.gov/about/pacific/visitor-center.html",
+   "phone": "+1 808-600-5552",
+   "latitude": 21.3067676,
+   "longitude": -157.8655191
+  },
+  {
+   "name": "Honolulu Police Department Museum",
+   "kind": "museum",
+   "address": "801 South Beretania Street, 96813, Honolulu",
+   "website": "http://www.honolulupd.org/community/index.php?page=museum",
+   "phone": "",
+   "latitude": 21.3040638,
+   "longitude": -157.851284
+  },
+  {
+   "name": "KCC Farmers' Market",
+   "kind": "attraction",
+   "address": "4303 Diamond Head Road, 96816, Honolulu",
+   "website": "https://hfbf.org/farmers-markets/kcc",
+   "phone": "",
+   "latitude": 21.2701631,
+   "longitude": -157.8025534
+  },
+  {
+   "name": "Dolphin Quest",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://dolphinquest.com/oahu-hawaii/",
+   "phone": "",
+   "latitude": 21.2720173,
+   "longitude": -157.7730613
+  },
+  {
+   "name": "King Kamehameha V Judiciary History Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.jhchawaii.net/",
+   "phone": "",
+   "latitude": 21.3053403,
+   "longitude": -157.859911
+  },
+  {
+   "name": "Island Splash Tours",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.islandsplashtours.com",
+   "phone": "+1 808-404-3545",
+   "latitude": 21.2825538,
+   "longitude": -157.840762
+  },
+  {
+   "name": "Paradise Pedals Hawaii",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://paradisepedals.com/",
+   "phone": "",
+   "latitude": 21.2938574,
+   "longitude": -157.858689
+  },
+  {
+   "name": "Damien and Marianne of Molokaʻi Education Center",
+   "kind": "museum",
+   "address": "2512 Kalākaua Avenue, 96815, Honolulu",
+   "website": "",
+   "phone": "+1-808-926-0803",
+   "latitude": 21.2736402,
+   "longitude": -157.8235346
+  },
+  {
+   "name": "Lucoral Museum",
+   "kind": "museum",
+   "address": "2414 Kūhiō Avenue, 96815, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2771822,
+   "longitude": -157.8237014
+  },
+  {
+   "name": "Hitachi Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3470825,
+   "longitude": -157.8933217
+  },
+  {
+   "name": "Aloha Sails Waikiki",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2870006,
+   "longitude": -157.8412119
+  },
+  {
+   "name": "Maunalani Community Park",
+   "kind": "viewpoint",
+   "address": "4625 Sierra Drive, 96816, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2958181,
+   "longitude": -157.790249
+  },
+  {
+   "name": "Galleria Provenza",
+   "kind": "gallery",
+   "address": "4741 Kahala Avenue, Honolulu",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2662307,
+   "longitude": -157.7807474
+  },
+  {
+   "name": "Duck",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.27099,
+   "longitude": -157.821253
+  },
+  {
+   "name": "Flamingo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2706696,
+   "longitude": -157.821296
+  },
+  {
+   "name": "The Stones Of Life",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.275795,
+   "longitude": -157.825717
+  },
+  {
+   "name": "Atlantis Submarine Pier",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2804097,
+   "longitude": -157.8382472
+  },
+  {
+   "name": "Pali Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3670087,
+   "longitude": -157.793017
+  },
+  {
+   "name": "Diamond Head Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2598056,
+   "longitude": -157.8117164
+  },
+  {
+   "name": "Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2712094,
+   "longitude": -157.8190429
+  },
+  {
+   "name": "Reptile House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2700302,
+   "longitude": -157.8189152
+  },
+  {
+   "name": "Komodo Dragon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2714394,
+   "longitude": -157.8195911
+  },
+  {
+   "name": "Orangutan",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2699102,
+   "longitude": -157.819505
+  },
+  {
+   "name": "Australian Birds",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2711895,
+   "longitude": -157.8206554
+  },
+  {
+   "name": "Monkey",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2702988,
+   "longitude": -157.8196647
+  },
+  {
+   "name": "Crocodile",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2699897,
+   "longitude": -157.8174647
+  },
+  {
+   "name": "Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2705701,
+   "longitude": -157.8166182
+  },
+  {
+   "name": "Hippo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2696297,
+   "longitude": -157.8175291
+  },
+  {
+   "name": "Hawaiian Nene",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2711195,
+   "longitude": -157.8200096
+  },
+  {
+   "name": "Aldabra Turtoise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2702271,
+   "longitude": -157.8193453
+  },
+  {
+   "name": "Zebra",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2702301,
+   "longitude": -157.8166182
+  },
+  {
+   "name": "Giraffe",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2709195,
+   "longitude": -157.8166289
+  },
+  {
+   "name": "Kudu",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2704191,
+   "longitude": -157.8169819
+  },
+  {
+   "name": "Cheetah",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.27075,
+   "longitude": -157.8171761
+  },
+  {
+   "name": "Elephant",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.270201,
+   "longitude": -157.8182768
+  },
+  {
+   "name": "Rock Cove Reptile",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2712694,
+   "longitude": -157.8169079
+  },
+  {
+   "name": "Lion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2710895,
+   "longitude": -157.8173907
+  },
+  {
+   "name": "Hornbill",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2715699,
+   "longitude": -157.8169186
+  },
+  {
+   "name": "Gharial",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2705596,
+   "longitude": -157.8187204
+  },
+  {
+   "name": "African Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2720593,
+   "longitude": -157.8172726
+  },
+  {
+   "name": "Galapagos Tortoise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2709395,
+   "longitude": -157.8190214
+  },
+  {
+   "name": "African Wild Dog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2713794,
+   "longitude": -157.8175087
+  },
+  {
+   "name": "Chimpanzee",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2719098,
+   "longitude": -157.8169186
+  },
+  {
+   "name": "Black Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2716194,
+   "longitude": -157.8174443
+  },
+  {
+   "name": "Hyena",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2712299,
+   "longitude": -157.8172083
+  },
+  {
+   "name": "Alligator",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2707195,
+   "longitude": -157.8192038
+  },
+  {
+   "name": "Domestic Animals",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2718698,
+   "longitude": -157.8186283
+  },
+  {
+   "name": "Moanalua Valley Trail Start (Kulana'ahane)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3741433,
+   "longitude": -157.8803929
+  },
+  {
+   "name": "Kahala Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2653534,
+   "longitude": -157.7998651
+  },
+  {
+   "name": "Tantalus Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3134237,
+   "longitude": -157.8228652
+  },
+  {
+   "name": "Judd Trail",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3460971,
+   "longitude": -157.8224877
+  },
+  {
+   "name": "Lik",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2796006,
+   "longitude": -157.8310289
+  },
+  {
+   "name": "Punch Bowl",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3108084,
+   "longitude": -157.8478751
+  },
+  {
+   "name": "Kapena Falls Trailhead",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3241217,
+   "longitude": -157.8468658
+  },
+  {
+   "name": "Waikiki Starlight Luau",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2828698,
+   "longitude": -157.8382954
+  },
+  {
+   "name": "Aha'aina Luau",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.2767788,
+   "longitude": -157.8289933
+  },
+  {
+   "name": "Hale Koa Luau",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.280686,
+   "longitude": -157.8348667
+  },
+  {
+   "name": "Inspiration Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 21.3344044,
+   "longitude": -157.804079
+  }
+ ]
+}

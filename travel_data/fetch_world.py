@@ -25,6 +25,7 @@ import pandas as pd
 import requests
 
 import config
+from travel_data.catalog import great_circle_km
 from travel_data.world_cities import WORLD_CITIES, WorldCity
 
 USER_AGENT = "travel-planner-bot/0.1 (student project; uses Overpass politely)"
@@ -38,7 +39,7 @@ ATTRACTION_RADIUS_M = 10000
 MIN_REVIEWS = 10
 ATTRACTION_KINDS = ("attraction", "museum", "gallery", "viewpoint", "zoo", "theme_park", "aquarium")
 LISTING_COLUMNS = ["name", "listing_url", "room_type", "accommodates", "price", "minimum_nights",
-                   "number_of_reviews", "review_scores_rating"]
+                   "number_of_reviews", "review_scores_rating", "latitude", "longitude"]
 
 
 def fetch_usd_rates() -> tuple[dict[str, float], str]:
@@ -67,6 +68,10 @@ def fetch_stays(city: WorldCity, usd_per_unit: float) -> list[dict]:
     listings = listings.dropna(subset=["price_local", "minimum_nights", "accommodates", "number_of_reviews"])
     listings = listings[(listings["price_local"] > 0) & (listings["number_of_reviews"] >= MIN_REVIEWS)
                         & listings["name"].notna() & (listings["accommodates"] > 0)]
+    if city.max_km:  # areas wider than the city (a county or a state): keep listings near the centre
+        distance = listings.apply(lambda row: great_circle_km(city.latitude, city.longitude, row["latitude"],
+                                                              row["longitude"]), axis=1)
+        listings = listings[distance <= city.max_km]
     listings = listings.sort_values("number_of_reviews", ascending=False).head(MAX_STAYS)
     return [
         {

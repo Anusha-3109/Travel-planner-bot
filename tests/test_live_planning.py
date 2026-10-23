@@ -113,3 +113,39 @@ def test_citation_prefixes_are_ignored(live_ids):
     plan = _plan(live_ids)
     plan["days"][0]["dinner"] = "restaurant: Cantina e Cucina, Rome"
     assert compute_cost(plan)["unknown_items"] == []
+
+
+def test_live_drive_is_costed_per_car(live_ids):
+    """A live US drive costs per car (5 seats); a taxi on the same route has no fare data."""
+    drive = items.remember("drive", {"type": "drive", "origin": "Washington", "destination": "Myrtle Beach",
+                                     "distance_km": 690.0, "cost_per_car_usd": 310.82, "checked_at": CHECKED})
+    plan = {"people": 6, "days": [{"day": 1, "city": "Myrtle Beach",
+                                   "transportation": {"mode": "self-driving", "item_id": drive}}]}
+    line = compute_cost(plan)["items"][0]
+    assert line["quantity"] == 2 and line["cost_usd"] == 621.64  # two cars for six people
+    assert "IRS" in line["estimate"] and line["source"] == f"live (checked {CHECKED})"
+
+    plan["days"][0]["transportation"]["mode"] = "taxi"
+    assert any("no fare data" in item for item in compute_cost(plan)["unpriced_items"])
+
+
+def test_airport_transfer_is_costed_next_to_the_flight(live_ids):
+    """Day 1 has a flight and an airport transfer; both count in the total."""
+    paid_train = items.remember("transit", {"type": "transit", "summary": "Bus A2 → Train S2", "origin": "BCN Airport",
+                                            "destination": "Stay", "fare_per_person_usd": 11.95, "checked_at": CHECKED})
+    taxi = items.remember("drive", {"type": "drive", "origin": "Stay", "destination": "BCN Airport",
+                                    "distance_km": 15.0, "cost_per_car_usd": 6.76, "checked_at": CHECKED})
+    plan = _plan(live_ids)
+    plan["days"][0]["local_transport"] = [{"mode": "transit", "item_id": paid_train}]
+    plan["days"][3]["local_transport"] = [{"mode": "taxi", "item_id": taxi}]
+    cost = compute_cost(plan)
+    transfer = next(line for line in cost["items"] if "Bus A2" in line["item"])
+    assert transfer["day"] == 1 and transfer["cost_usd"] == 23.9  # 2 people x $11.95
+    assert cost["totals"]["transportation"] == 190.0 + 23.9
+    assert any("Taxi, Stay → BCN Airport (no fare data)" in item for item in cost["unpriced_items"])
+
+
+def test_unknown_local_trip_is_reported(live_ids):
+    plan = _plan(live_ids)
+    plan["days"][0]["local_transport"] = [{"mode": "transit", "item_id": "transit-00000000"}]
+    assert any("transit id 'transit-00000000'" in item for item in compute_cost(plan)["unknown_items"])

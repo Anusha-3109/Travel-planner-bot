@@ -24,6 +24,9 @@ SESSION_LIMITS = {"serpapi": int(os.getenv("SESSION_SERPAPI_LIMIT", "20")),
                   "google": int(os.getenv("SESSION_GOOGLE_LIMIT", "60"))}
 # How long a live answer is reused before asking again. Cached answers are free.
 LIVE_DAYS_AHEAD = 330  # flights and stays can be searched about 11 months ahead
+# Driving costs in the US: the IRS 2026 standard mileage rate (fuel, wear and running costs), IR-2025-128.
+IRS_MILEAGE_RATE_USD = 0.725
+KM_PER_MILE = 1.609344
 CACHE_TTL_SECONDS = {"flights": 3600, "stays": 6 * 3600, "restaurants": 24 * 3600, "transport": 24 * 3600,
                      "exchange_rates": 12 * 3600}
 

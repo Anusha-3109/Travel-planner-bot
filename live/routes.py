@@ -4,8 +4,10 @@
   line (train, metro, bus, tram, ferry), where to get on and off, the number of
   stops, departure and arrival times, walking time, and the fare when Google
   publishes one (converted to USD at today's rate).
-- Driving: distance and time without traffic. Google gives no taxi prices, so
-  a taxi is described by driving time and distance only.
+- Driving: distance and time without traffic. In the US, an estimated cost at
+  the IRS 2026 standard mileage rate (fuel and running costs; no tolls or
+  parking). Google gives no taxi prices, so a taxi is described by driving
+  time and distance only.
 
 Times come from the current timetable; on another day, departure times shift
 but the lines and the trip length are a good guide.
@@ -18,6 +20,7 @@ import config
 from live import fx, items
 from live.google_client import ROUTES_URL, checked_at, post
 from live.http import LiveDataError
+from travel_data.catalog import load_catalog
 
 logger = logging.getLogger(__name__)
 
@@ -54,7 +57,8 @@ def _fare(route: dict, rates: fx.ExchangeRates | None) -> tuple[str | None, floa
             usd = rates.convert(amount, fare["currencyCode"], "USD")
         except Exception:  # an unusual currency code: keep the local fare only
             pass
-    text = f"{fare['currencyCode']} {amount:.2f}" + (f" (~${usd:.2f})" if usd is not None else "")
+    shown = f" ({fx.money(usd, approx=True)})" if usd is not None and fx.display_currency() != fare["currencyCode"] else ""
+    text = f"{fare['currencyCode']} {amount:.2f}{shown}"
     return text, usd
 
 
@@ -126,6 +130,38 @@ def _address(place: str, city: str | None) -> str:
     return f"{place}, {city}" if city and city.lower() not in place.lower() else place
 
 
+def _in_us(*places: str | None) -> bool:
+    """Whether the trip is in the US: the city, or one of the ends, is a known US city."""
+    catalog = load_catalog()
+    for place in places:
+        for part in (place or "").split(","):
+            info = catalog.city_info.get(" ".join(part.split()).lower())
+            if info:
+                return info.country == "United States"
+    return False
+
+
+def _driving(car: dict, origin: str, destination: str, us: bool, checked: str) -> dict:
+    distance_km = round((car.get("distanceMeters") or 0) / 1000, 1)
+    driving = {"duration": _minutes_text(_seconds(car.get("duration"))), "distance_km": distance_km,
+               "taxi_note": "Google gives no taxi fares. A taxi takes about this long; check local taxi rates."}
+    if us:
+        cost = round(distance_km / config.KM_PER_MILE * config.IRS_MILEAGE_RATE_USD, 2)
+        driving.update({
+            "estimated_cost_per_car_usd": cost,
+            "cost_text": f"{fx.money(cost, approx=True)} per car",
+            "cost_note": f"Estimate at the IRS 2026 standard mileage rate (${config.IRS_MILEAGE_RATE_USD}/mile), "
+                         "which covers fuel and running costs; tolls and parking are not included.",
+        })
+    else:
+        driving["cost_text"] = "No driving cost data outside the US"
+    driving["id"] = items.remember("drive", {"type": "drive", "origin": origin, "destination": destination,
+                                            "distance_km": distance_km,
+                                            "cost_per_car_usd": driving.get("estimated_cost_per_car_usd"),
+                                            "checked_at": checked})
+    return driving
+
+
 def search_local_transport(origin: str, destination: str, city: str | None = None) -> dict:
     """Public transport and driving between two places. Raises LiveDataError so
     callers can fall back to snapshot data."""
@@ -141,11 +177,7 @@ def search_local_transport(origin: str, destination: str, city: str | None = Non
         rates = None
     options = _transit_options(transit.data, origin, destination, rates, checked_at(transit))
     car = (drive.data.get("routes") or [None])[0]
-    driving = None
-    if car:
-        driving = {"duration": _minutes_text(_seconds(car.get("duration"))),
-                   "distance_km": round((car.get("distanceMeters") or 0) / 1000, 1),
-                   "taxi_note": "Google gives no taxi fares. A taxi takes about this long; check local taxi rates."}
+    driving = _driving(car, origin, destination, _in_us(city, origin, destination), checked_at(drive)) if car else None
     if not options and not driving:
         raise LiveDataError("Google Routes found no route between those places. Try fuller place names.")
     notes = ["Live from Google Maps. Public transport times are from the current timetable; on your travel day the "

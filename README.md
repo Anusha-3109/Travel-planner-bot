@@ -29,21 +29,21 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
   public transport       filters, rank fusion
         │                      │
         ▼                      ▼
-  SerpApi (Google Flights,     ~22,000 places: TravelPlanner (US, 2022),
-  Hotels, Airbnb), Google      Inside Airbnb + OpenStreetMap (16 European
-  Places and Routes            and Asian cities, 2026)
+  SerpApi (Google Flights,     ~35,500 places: Inside Airbnb + OpenStreetMap
+  Hotels, Airbnb), Google      (50 cities in the US, Europe and Asia, 2026),
+  Places and Routes            TravelPlanner (other US cities, 2022)
 ```
 
 1. The agent reads your question (with today's date and your currency) and calls tools.
 2. Live tools search current data; if a search fails, the date is in the past or a key is missing, the tool falls back to snapshot data and says so.
 3. Every live result gets an id. For a full plan the agent calls `calculate_trip_cost` and `check_constraints` with those ids, so totals use the prices the services returned, never numbers the model typed. If the model skips them, it is sent back once to use them.
-4. Tool results are screened for injected instructions before the model reads them, and the answer is shown as a list (or a table if you ask), with every price marked live, snapshot or estimate.
+4. Tool results are screened for injected instructions before the model reads them. The answer gives the best picks as a list (or full tables if you ask), and the app draws every result as a card from the tool's own data: flights by airline, stays and restaurants with ratings and links, transport options, and a cost card with the total against your budget.
 
 ## Course requirements
 
 | Requirement | How TripMate covers it |
 |---|---|
-| Knowledge base | ~22,000 places: the [TravelPlanner](https://huggingface.co/datasets/osunlp/TravelPlanner) reference data for 221 US cities (merged and de-duplicated in `travel_data/catalog.py`), plus Inside Airbnb stays and OpenStreetMap restaurants and attractions for 16 European and Asian cities |
+| Knowledge base | ~35,500 places: Inside Airbnb stays and OpenStreetMap restaurants and attractions from 2026 for 50 cities (34 US areas plus 16 in Europe and Asia), and the [TravelPlanner](https://huggingface.co/datasets/osunlp/TravelPlanner) reference data for the other US cities (merged and de-duplicated in `travel_data/catalog.py`) |
 | Embeddings and similarity search | Chroma vector store with local all-MiniLM-L6-v2 embeddings (cosine similarity); no API key needed |
 | Chunking | One chunk per attraction, restaurant or stay. Records are short, so each stays whole, with category, city, country, price and rating as metadata |
 | Query translation | The LLM rewrites each question into 2–3 focused search queries (multi-query) |
@@ -53,7 +53,7 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
 | Security | See [Security](#security) |
 | LangChain + OpenRouter | `ChatOpenAI` pointed at OpenRouter (`agent/llm.py`), LangChain tools and messages, a hand-written tool loop (`agent/agent.py`) |
 | Error handling and validation | Clear messages for missing or rejected keys, rate limits, timeouts and failing services; every tool input is validated |
-| User interface | Streamlit chat with a trip form, currency picker, progress messages, expandable tool calls and sources, token usage and live-data status |
+| User interface | Streamlit chat with a trip form, currency picker, progress messages, result cards (flights, stays, restaurants, transport, trip cost), expandable tool calls and sources, token usage and live-data status |
 
 **Optional tasks implemented**
 
@@ -67,9 +67,9 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
 | `search_flights` | `tools/transport.py` | Live Google Flights for a date, grouped by airline, cheapest first, with flight numbers, times, stops and price per person (and the group total). Falls back to TravelPlanner's 2022 US flights or an estimated flight time |
 | `search_accommodations` | `tools/places.py` | Live Airbnb (default) or Google Hotels stays for the dates and guests, with nightly and total prices, ratings, free cancellation and booking links. Falls back to the snapshot stays with exact filters (price, room type, house rules) |
 | `search_restaurants` | `tools/places.py` | Live Google Places restaurants by city and cuisine, with price range per person (local currency and USD), rating, opening hours and a Maps link |
-| `get_local_transport` | `tools/local_transport.py` | Live Google Routes public transport between two places (lines, stops, times, fares where published) and driving time for a car or taxi |
+| `get_local_transport` | `tools/local_transport.py` | Live Google Routes public transport between two places (lines, stops, times, fares where published) and driving time for a car or taxi, with an estimated cost per car in the US (IRS 2026 mileage rate) |
 | `search_destination_options` | `tools/destinations.py` | RAG search over the knowledge base for open questions such as "museums for kids in Chicago" |
-| `calculate_trip_cost` | `tools/planning.py` | Costs a day-by-day plan from live ids or snapshot names, in any currency, marking each line live, snapshot or estimate and listing unpriced items |
+| `calculate_trip_cost` | `tools/planning.py` | Costs a day-by-day plan from live ids or snapshot names, including airport transfers, in any currency, marking each line live, snapshot or estimate and listing unpriced items |
 | `check_constraints` | `tools/planning.py` | Checks a plan: budget, house rule, room type, cuisines, banned transport, items that exist, no repeated restaurants or attractions, minimum nights, a stay every night and stays that fit the group |
 
 ## Data sources
@@ -88,12 +88,13 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
 
 | Data | Source | Date | Licence |
 |---|---|---|---|
-| US flights, restaurants, stays, attractions and ground routes | [TravelPlanner](https://huggingface.co/datasets/osunlp/TravelPlanner) (Xie et al., 2024) | March 2022 | CC BY 4.0 |
-| Stays in 16 European and Asian cities | [Inside Airbnb](https://insideairbnb.com) | September 2026 | CC BY 4.0 |
+| Stays in 50 cities (34 US areas, 16 in Europe and Asia) | [Inside Airbnb](https://insideairbnb.com) | September 2026 | CC BY 4.0 |
 | Restaurants and attractions in those cities | [OpenStreetMap](https://www.openstreetmap.org/copyright) via the Overpass API | October 2026 | ODbL |
 | Airports (for flight searches) | [OurAirports](https://ourairports.com/data/) | October 2026 | Public domain |
+| US flights and ground routes, and places in the other US cities | [TravelPlanner](https://huggingface.co/datasets/osunlp/TravelPlanner) (Xie et al., 2024) | March 2022 | CC BY 4.0 |
+| US driving cost | [IRS standard mileage rate](https://www.irs.gov/tax-professionals/standard-mileage-rates) ($0.725 a mile) with Google Routes distances | 2026 | Public |
 
-The 16 cities are London, Paris, Rome, Barcelona, Madrid, Amsterdam, Berlin, Vienna, Prague, Lisbon, Athens, Istanbul, Tokyo, Bangkok, Singapore and Hong Kong. Refresh them with `python -m travel_data.fetch_world` (about 4 minutes per city).
+The European and Asian cities are London, Paris, Rome, Barcelona, Madrid, Amsterdam, Berlin, Vienna, Prague, Lisbon, Athens, Istanbul, Tokyo, Bangkok, Singapore and Hong Kong. The US areas are Albany, Asheville, Austin, Boston, Bozeman, Cambridge, Chicago, Columbus, Dallas, Denver, Fort Lauderdale, Fort Worth, Honolulu, Jersey City, Las Vegas, Los Angeles, Minneapolis, Nashville, New Orleans, New York, Newark, Oakland, Pacific Grove, Portland, Providence, Rochester, Salem, San Diego, San Francisco, San Jose, San Mateo, Santa Cruz, Seattle and Washington. For those cities the 2026 places replace TravelPlanner's 2022 places; the 2022 flights and ground routes stay, and the original 2022 catalog is still available for evaluation (`build_catalog(world_dir=None)`). Refresh the cities with `python -m travel_data.fetch_world` (about 4–8 minutes per city).
 
 ## Setup
 
@@ -148,12 +149,13 @@ Open <http://localhost:8501>. On the first start the app downloads a small embed
 python -m pytest -q
 ```
 
-172 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+196 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and result cards, and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
 ```
 app.py                  Streamlit UI
+ui_cards.py             Result cards drawn from tool results
 trip_form.py            Trip form question and example questions
 config.py               Settings: model, keys, paths, cache times, limits
 agent/llm.py            ChatOpenAI client pointed at OpenRouter
@@ -164,7 +166,7 @@ tools/                  The 7 tools the agent can call
 rag/                    Chroma store, indexing and retrieval
 travel_data/            TravelPlanner download and catalog, world-city fetch script
 security/               Validation, rate limiting, key redaction, tool output screening
-data/world/             16 European and Asian cities (committed)
+data/world/             50 cities from 2026, US, Europe and Asia (committed)
 data/ourairports/       Airport list (committed)
 data/travelplanner/     TravelPlanner files (downloaded, not committed)
 tests/                  pytest suite and recorded API answers in tests/fixtures/
@@ -173,15 +175,13 @@ legacy/tripmate/        The first version's tools, kept for reference
 
 ## Known limitations and ideas for improvement
 
-- **Prices that aren't available:** taxi fares, many public transport fares, attraction tickets and some restaurant prices are not published by the sources, so they are listed as unpriced and left out of totals.
-- **Transport in totals:** the airport transfer is shown in plans but not always included in the costed total.
-- **Hotel search** sorts by lowest price, which can surface hostels and places far from the centre; sorting by relevance with a minimum rating would give better picks.
-- **Currency:** trip totals use your chosen currency, but individual listing prices are shown in USD (restaurants also in local currency).
+- **Prices that aren't available:** taxi fares, many public transport fares, attraction tickets and some restaurant prices are not published by the sources, so they are listed as unpriced and left out of totals. US driving costs are an IRS-rate estimate without tolls or parking.
+- **Snapshot coverage:** smaller US cities still fall back to TravelPlanner's 2022 data when live search isn't available.
 - **Round trips** are searched as two one-way flights; real round-trip fares can be a little cheaper.
 - **Public transport times** come from the current timetable, not your travel day.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain, such as naming a train service. Tools supply all prices, ids and links to keep this to the text.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
-- **Next steps:** result cards drawn by the app, searching transit by departure time, hybrid search (BM25 plus vectors), a RAGAS evaluation of retrieval quality, scoring plans with the TravelPlanner evaluator, and serving the tools as an MCP server.
+- **Next steps:** searching transit by departure time, hybrid search (BM25 plus vectors), a RAGAS evaluation of retrieval quality, scoring plans with the TravelPlanner evaluator, and serving the tools as an MCP server.
 
 ## Attribution
 

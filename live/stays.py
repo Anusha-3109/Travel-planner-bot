@@ -8,12 +8,16 @@ filter, other house rules can't be filtered live.
 """
 
 import config
-from live import items
+from live import fx, items
 from live.serpapi_client import checked_at, search
 from security.validation import InputValidationError
 
 MAX_STAYS_SHOWN = 10
 MAX_AIRBNB_GUESTS = 16  # the most guests an Airbnb search accepts
+# Google Hotels rating filter codes. Hotels default to 3.5+, because the cheapest results
+# without it are mostly dorms and capsule hotels far from the centre.
+HOTEL_RATING_CODES = ((4.5, "9"), (4.0, "8"), (3.5, "7"))
+DEFAULT_HOTEL_RATING = 3.5
 AIRBNB_ROOM_TYPES = {"entire room": "entire_home", "private room": "private_room"}
 
 
@@ -57,8 +61,10 @@ def search_live_stays(city: str, check_in: str, check_out: str, nights: int, gue
     if stay_type != "hotel" and guests > MAX_AIRBNB_GUESTS:
         raise InputValidationError(f"Airbnb searches up to {MAX_AIRBNB_GUESTS} guests. Split the group or try hotels.")
     if stay_type == "hotel":
+        min_rating = max(min_rating or 0, DEFAULT_HOTEL_RATING)
         params = {"q": city, "check_in_date": check_in, "check_out_date": check_out, "adults": guests,
-                  "currency": "USD", "gl": "us", "hl": "en", "sort_by": "3"}  # 3 = lowest price
+                  "currency": "USD", "gl": "us", "hl": "en",  # Google's relevance order, not lowest price
+                  "rating": next(code for floor, code in HOTEL_RATING_CODES if min_rating >= floor)}
         if max_price_per_night:
             params["max_price"] = int(max_price_per_night)
         response = search("google_hotels", params, ttl_seconds=config.CACHE_TTL_SECONDS["stays"])
@@ -84,8 +90,10 @@ def search_live_stays(city: str, check_in: str, check_out: str, nights: int, gue
     for stay in stays:
         stay.update({"check_in": check_in, "check_out": check_out, "nights": nights, "guests": guests,
                      "checked_at": checked_at(response)})
-        stay["per_night_text"] = f"${stay['price_per_night']:,.2f}" if stay["price_per_night"] is not None else "n/a"
-        stay["total_text"] = f"${stay['total_price']:,.0f}" if stay["total_price"] is not None else "n/a"
+        nightly, total = stay["price_per_night"], stay["total_price"]
+        stay["per_night_text"] = "n/a" if nightly is None else (
+            f"${nightly:,.2f}" if fx.display_currency() == "USD" else fx.money(nightly))
+        stay["total_text"] = "n/a" if total is None else fx.money(total, whole=True)
         stay["cancellation_text"] = "Free cancellation" if stay.get("free_cancellation") else ""
         rating, reviews = stay.get("rating"), stay.get("reviews")
         stay["rating_text"] = ("No rating" if rating is None

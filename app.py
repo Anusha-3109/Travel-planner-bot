@@ -17,8 +17,9 @@ from rag.ingest import build_index, ensure_index
 from security.rate_limit import RateLimiter
 from security.redaction import protect_logs
 from security.validation import InputValidationError, validate_city
-from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES, load_catalog
+from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES
 from trip_form import CURRENCIES, example_questions, trip_question
+from ui_cards import render_result_cards
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
 protect_logs()
@@ -60,6 +61,7 @@ def _init_state() -> None:
 
 def _render_details(message: dict) -> None:
     tool_calls = message.get("tool_calls") or []
+    render_result_cards(tool_calls)
     sources = message.get("sources") or []
     queries = message.get("retrieval_queries") or []
     if tool_calls:
@@ -98,7 +100,7 @@ def _ask(question: str) -> None:
             try:
                 with use_budget(st.session_state.live_budget):
                     result = run_agent(question, history=history, on_step=lambda text: status.update(label=text),
-                                       currency=st.session_state.currency)
+                                       currency=st.session_state.currency, cards=True)
             except (InputValidationError, AgentError) as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
@@ -162,7 +164,7 @@ def _sidebar() -> str | None:
                                                                   "Spanish", "Thai"])
                 transportation = st.selectbox("Transportation", [None, *TRANSPORT_RULES],
                                               format_func=lambda v: v or "No preference")
-            submitted = st.form_submit_button("Plan my trip", type="primary", use_container_width=True)
+            submitted = st.form_submit_button("Plan my trip", type="primary", width="stretch")
         question = None
         if submitted:
             try:
@@ -182,10 +184,10 @@ def _sidebar() -> str | None:
 
         if st.session_state.messages:
             st.download_button("Export chat (Markdown)", _export_markdown(st.session_state.messages),
-                               file_name="tripmate_chat.md", use_container_width=True)
+                               file_name="tripmate_chat.md", width="stretch")
             st.download_button("Export chat (JSON)", json.dumps(st.session_state.messages, indent=2),
-                               file_name="tripmate_chat.json", use_container_width=True)
-            if st.button("Clear chat", use_container_width=True):
+                               file_name="tripmate_chat.json", width="stretch")
+            if st.button("Clear chat", width="stretch"):
                 st.session_state.messages = []
                 st.session_state.live_budget = SessionBudget()  # a new chat gets a fresh live search limit
                 st.rerun()
@@ -199,18 +201,19 @@ def _sidebar() -> str | None:
                 st.success(f"Indexed {count:,} places.")
 
         with st.expander("ℹ️ How to use"):
-            regions = load_catalog().cities_by_region()
-            snapshot_cities = ", ".join(regions.get("Europe", []) + regions.get("Asia", []))
+            current = len(list(config.WORLD_DIR.glob("*.json"))) if config.WORLD_DIR.exists() else 0
             st.markdown(
                 "- Fill in the trip form and press **Plan my trip**, or ask anything in the chat. Ask for "
                 "\"a table\" to get results as tables.\n"
                 "- **Live** (dates from today on, any city): flights from Google Flights, Airbnb and hotel stays, "
                 "restaurants with price ranges and ratings from Google Maps, and public transport and driving "
-                "routes. Live prices can change before booking.\n"
+                "routes. In the US, driving has an estimated cost at the IRS 2026 mileage rate. Live prices can "
+                "change before booking.\n"
                 "- **Not available live:** taxi fares, most public transport fares, attraction entry prices and "
                 "some restaurant prices. They're listed as unpriced and left out of totals.\n"
-                f"- **Snapshot** (fallback and past dates): US cities from the TravelPlanner dataset (March 2022), "
-                f"and Inside Airbnb stays from September 2026 for {snapshot_cities}.\n"
+                f"- **Snapshot** (fallback and past dates): Inside Airbnb stays (September 2026) and OpenStreetMap "
+                f"restaurants and attractions for {current} cities in the US, Europe and Asia, and the TravelPlanner "
+                "dataset (March 2022) for other US cities and for US flights and driving routes.\n"
                 "- Expand **Tool calls** under an answer to see what was searched, and **Sources** for places from "
                 "the knowledge base."
             )
@@ -245,7 +248,7 @@ def main() -> None:
         st.markdown("**Try one of these:**")
         columns = st.columns(2)
         for index, example in enumerate(example_questions()):
-            if columns[index % 2].button(example, key=f"example-{index}", use_container_width=True):
+            if columns[index % 2].button(example, key=f"example-{index}", width="stretch"):
                 example_question = example
 
     question = st.chat_input("Ask for a trip plan, flights, restaurants or places to stay...") or form_question or example_question

@@ -51,8 +51,18 @@ def test_public_transport_options_fastest_first_without_repeats(google):
 
 def test_driving_time_and_no_taxi_fare(google):
     driving = find_local_transport("Fiumicino Airport", "Colosseum", "Rome")["driving"]
-    assert driving == {"duration": "33 min", "distance_km": 29.9,
-                       "taxi_note": "Google gives no taxi fares. A taxi takes about this long; check local taxi rates."}
+    assert (driving["duration"], driving["distance_km"]) == ("33 min", 29.9)
+    assert driving["taxi_note"].startswith("Google gives no taxi fares")
+    assert driving["cost_text"] == "No driving cost data outside the US" and "estimated_cost_per_car_usd" not in driving
+    assert driving["id"].startswith("drive-")
+
+
+def test_us_driving_has_an_irs_rate_cost(google):
+    """29.9 km is 18.58 miles; at the IRS 2026 rate of $0.725 a mile that is $13.47 per car."""
+    driving = find_local_transport("Union Station", "Dulles Airport", "Washington")["driving"]
+    assert driving["estimated_cost_per_car_usd"] == 13.47 and driving["cost_text"] == "~$13.47 per car"
+    assert "IRS 2026" in driving["cost_note"] and "tolls" in driving["cost_note"]
+    assert items.lookup(driving["id"])["cost_per_car_usd"] == 13.47
 
 
 def test_city_is_added_to_place_names(google):

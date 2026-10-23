@@ -58,6 +58,14 @@ def test_live_hotels(serpapi):
     assert all(s["provider"] == "Google Hotels" for s in result["stays"])
 
 
+@pytest.mark.parametrize("asked, code", [(None, "7"), (3.0, "7"), (4.0, "8"), (4.6, "9")])
+def test_hotels_use_relevance_and_a_rating_floor(serpapi, asked, code):
+    """No lowest-price sort (it surfaced dorms and capsules), and at least 3.5 stars by default."""
+    result = find_accommodations("Rome", people=2, stay_type="hotel", min_rating=asked, **DATES)
+    assert "sort_by" not in serpapi[0] and serpapi[0]["rating"] == code
+    assert all((s["rating"] or 0) >= max(asked or 0, 3.5) for s in result["stays"])
+
+
 def test_live_filters_are_passed_on(serpapi):
     find_accommodations("Rome", people=2, room_type="private room", must_allow="pets", max_price_per_night=100, **DATES)
     params = serpapi[0]
