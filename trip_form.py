@@ -6,7 +6,6 @@ Kept apart from app.py so it can be tested without drawing the Streamlit page.
 from datetime import date, timedelta
 
 CURRENCIES = ["USD", "EUR", "GBP", "INR", "JPY", "AUD", "CAD", "CHF", "SGD", "AED", "THB"]
-LIVE_DAYS_AHEAD = 330  # Google Flights shows fares about 11 months ahead
 
 
 def example_questions(today: date | None = None) -> list[str]:

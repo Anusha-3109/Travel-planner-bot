@@ -15,7 +15,7 @@ import json
 from langchain_core.tools import tool
 
 import config
-from live.flights import is_live_date, search_live_flights
+from live.flights import is_live_date, search_live_flights, too_far_ahead
 from live.http import LiveDataError
 from security.validation import InputValidationError, validate_date, validate_people
 from travel_data.catalog import load_catalog
@@ -27,6 +27,9 @@ def _live_flights(origin_city: str, destination_city: str, day: str, passengers:
         return None, "Live flights are off (no SerpApi key), so snapshot data is shown."
     if not is_live_date(day):
         return None, "The date is in the past, so live flights aren't available and snapshot data is shown."
+    if too_far_ahead(day):
+        return None, ("The date is more than about 11 months ahead; airlines don't sell fares that far out yet, so "
+                      "snapshot data is shown.")
     try:
         return search_live_flights(origin_city, destination_city, day, passengers), ""
     except (LiveDataError, InputValidationError) as error:

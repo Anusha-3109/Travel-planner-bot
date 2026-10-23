@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 
 import config
 from live.http import LiveAuthError, LiveDataError, LiveResponse, fetch_json
+from security.redaction import redact
 
 SERPAPI_URL = "https://serpapi.com/search.json"
 PROVIDER = "SerpApi"
@@ -23,7 +24,7 @@ def search(engine: str, params: dict, ttl_seconds: int) -> LiveResponse:
                           secret_params={"api_key": config.SERPAPI_API_KEY}, label=PROVIDER)
     error = str(response.data.get("error") or "")
     if error and not any(phrase in error.lower() for phrase in NO_RESULTS_PHRASES):
-        raise LiveDataError(f"{PROVIDER}: {error[:200]}")
+        raise LiveDataError(f"{PROVIDER}: {redact(error)[:200]}")
     return response
 
 

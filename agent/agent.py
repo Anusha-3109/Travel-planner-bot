@@ -16,6 +16,8 @@ from pydantic import ValidationError
 
 import config
 from agent.llm import LLMConfigError, get_llm
+from security.redaction import protect_logs
+from security.tool_output import clean_text, clean_tool_output
 from security.validation import InputValidationError, validate_question
 from tools.destinations import search_destination_options, search_places
 from tools.local_transport import get_local_transport
@@ -25,6 +27,7 @@ from tools.transport import search_flights
 from rag.retriever import format_documents
 
 logger = logging.getLogger(__name__)
+protect_logs()  # API keys never appear in log lines or tracebacks
 
 TOOLS = [
     search_destination_options,
@@ -193,7 +196,7 @@ def _run_tool(name: str, args: dict, result: AgentResult, llm) -> str:
                 "source": document.metadata.get("source"),
                 "section": f"{document.metadata.get('category')} · {document.metadata.get('city')}",
                 "rrf_score": document.metadata.get("rrf_score"),
-                "content": document.page_content,
+                "content": clean_text(document.page_content),
             })
         return format_documents(retrieval.documents)
     return TOOLS_BY_NAME[name].invoke(args)
@@ -267,6 +270,7 @@ def run_agent(question: str, history: list[dict] | None = None,
                 except Exception:
                     logger.exception("Tool %s failed", name)
                     output = json.dumps({"error": f"The {name} tool failed unexpectedly."})
+            output = clean_tool_output(output)  # outside text is screened before the model reads it
             result.tool_calls.append(ToolCallRecord(name=name, args=args, output=output))
             messages.append(ToolMessage(content=output, tool_call_id=call["id"]))
 

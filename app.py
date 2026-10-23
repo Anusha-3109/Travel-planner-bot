@@ -15,11 +15,13 @@ from live.budget import SessionBudget, use_budget
 from live.status import ServiceStatus, live_status
 from rag.ingest import build_index, ensure_index
 from security.rate_limit import RateLimiter
+from security.redaction import protect_logs
 from security.validation import InputValidationError, validate_city
 from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES, load_catalog
-from trip_form import CURRENCIES, LIVE_DAYS_AHEAD, example_questions, trip_question
+from trip_form import CURRENCIES, example_questions, trip_question
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
+protect_logs()
 
 
 @st.cache_resource(show_spinner="Updating the knowledge base (the first run embeds every place and takes a while)...")
@@ -146,7 +148,7 @@ def _sidebar() -> str | None:
             origin = st.text_input("From", value="London")
             destination = st.text_input("To", value="Rome")
             start = st.date_input("Start date", value=today + timedelta(days=14), min_value=today,
-                                  max_value=today + timedelta(days=LIVE_DAYS_AHEAD))
+                                  max_value=today + timedelta(days=config.LIVE_DAYS_AHEAD))
             nights = st.number_input("Nights", min_value=1, max_value=14, value=4)
             people = st.number_input("Travellers", min_value=1, max_value=8, value=2)
             budget = st.number_input(f"Budget ({currency})", min_value=100.0, max_value=1_000_000.0, value=1500.0,

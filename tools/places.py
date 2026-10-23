@@ -13,7 +13,7 @@ from datetime import date
 from langchain_core.tools import tool
 
 import config
-from live.flights import is_live_date
+from live.flights import is_live_date, too_far_ahead
 from live.http import LiveDataError
 from live.restaurants import search_live_restaurants
 from live.stays import search_live_stays
@@ -177,11 +177,14 @@ def find_accommodations(city: str, max_price_per_night: float | None = None, roo
         reason = "Live stays are off (no SerpApi key), so snapshot data is shown."
     elif not is_live_date(check_in):
         reason = "The check-in date is in the past, so live stays aren't available and snapshot data is shown."
+    elif too_far_ahead(check_in):
+        reason = ("The check-in date is more than about 11 months ahead, too far for live prices, so snapshot data "
+                  "is shown.")
     else:
         try:
             live = search_live_stays(validate_city(city), check_in, check_out, nights, guests, stay_type, max_price,
                                      room_type, allow_pets=must_allow == "pets", min_rating=min_rating)
-        except LiveDataError as error:
+        except (LiveDataError, InputValidationError) as error:
             reason = f"Live stay search failed ({error}), so snapshot data is shown."
         else:
             note = live["note"]

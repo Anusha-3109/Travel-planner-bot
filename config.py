@@ -23,6 +23,7 @@ LIVE_RETRIES = 2  # extra attempts after a timeout, rate limit or server error
 SESSION_LIMITS = {"serpapi": int(os.getenv("SESSION_SERPAPI_LIMIT", "20")),
                   "google": int(os.getenv("SESSION_GOOGLE_LIMIT", "60"))}
 # How long a live answer is reused before asking again. Cached answers are free.
+LIVE_DAYS_AHEAD = 330  # flights and stays can be searched about 11 months ahead
 CACHE_TTL_SECONDS = {"flights": 3600, "stays": 6 * 3600, "restaurants": 24 * 3600, "transport": 24 * 3600,
                      "exchange_rates": 12 * 3600}
 

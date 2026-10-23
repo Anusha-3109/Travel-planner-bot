@@ -11,8 +11,10 @@ import config
 from live import items
 from live.airports import airports_for
 from live.serpapi_client import checked_at, search
+from security.validation import InputValidationError
 
 PROVIDER = "Google Flights via SerpApi"
+MAX_FLIGHT_PASSENGERS = 9  # the most Google Flights books in one search
 
 
 MAX_FLIGHTS_SHOWN = 15
@@ -102,6 +104,9 @@ def _flight(option: dict, origin: str, destination: str, day: str, passengers: i
 def search_live_flights(origin: str, destination: str, day: str, passengers: int = 1) -> dict:
     """Live flights for one date. Raises LiveDataError (or InputValidationError for
     unknown cities) so callers can fall back to snapshot data."""
+    if passengers > MAX_FLIGHT_PASSENGERS:
+        raise InputValidationError(f"Google Flights searches up to {MAX_FLIGHT_PASSENGERS} passengers at a time. "
+                                   "Split the group into two searches.")
     origins, destinations = airports_for(origin), airports_for(destination)
     response = search("google_flights", {
         "departure_id": ",".join(a.code for a in origins),
@@ -137,3 +142,8 @@ def search_live_flights(origin: str, destination: str, day: str, passengers: int
 def is_live_date(day: str) -> bool:
     """Live searches only make sense for today or later."""
     return date.fromisoformat(day) >= date.today()
+
+
+def too_far_ahead(day: str) -> bool:
+    """Airlines and hosts don't sell that far out yet, so a live search would find nothing."""
+    return (date.fromisoformat(day) - date.today()).days > config.LIVE_DAYS_AHEAD

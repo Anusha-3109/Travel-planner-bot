@@ -10,8 +10,10 @@ filter, other house rules can't be filtered live.
 import config
 from live import items
 from live.serpapi_client import checked_at, search
+from security.validation import InputValidationError
 
 MAX_STAYS_SHOWN = 10
+MAX_AIRBNB_GUESTS = 16  # the most guests an Airbnb search accepts
 AIRBNB_ROOM_TYPES = {"entire room": "entire_home", "private room": "private_room"}
 
 
@@ -50,7 +52,10 @@ def _hotel(prop: dict, city: str, nights: int) -> dict:
 def search_live_stays(city: str, check_in: str, check_out: str, nights: int, guests: int, stay_type: str = "airbnb",
                       max_price_per_night: float | None = None, room_type: str | None = None,
                       allow_pets: bool = False, min_rating: float | None = None) -> dict:
-    """Live stays for the dates. Raises LiveDataError so callers can fall back to snapshot data."""
+    """Live stays for the dates. Raises LiveDataError (or InputValidationError for groups too big
+    for one search) so callers can fall back to snapshot data."""
+    if stay_type != "hotel" and guests > MAX_AIRBNB_GUESTS:
+        raise InputValidationError(f"Airbnb searches up to {MAX_AIRBNB_GUESTS} guests. Split the group or try hotels.")
     if stay_type == "hotel":
         params = {"q": city, "check_in_date": check_in, "check_out_date": check_out, "adults": guests,
                   "currency": "USD", "gl": "us", "hl": "en", "sort_by": "3"}  # 3 = lowest price
