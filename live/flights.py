@@ -33,6 +33,20 @@ def _clock(timestamp: str | None, day: str) -> str | None:
     return clock if extra == 0 else f"{clock} ({extra:+d} day{'s' if abs(extra) > 1 else ''})"
 
 
+def _money(amount: float) -> str:
+    return f"${amount:,.0f}" if float(amount).is_integer() else f"${amount:,.2f}"
+
+
+def _price_text(flight: dict) -> str:
+    """'$35 per person' or, for a group, '$35 per person · $70 total for 2'."""
+    if flight["price_per_person"] is None:
+        return "Price not shown"
+    text = f"{_money(flight['price_per_person'])} per person"
+    if flight["passengers"] > 1 and flight.get("total_price") is not None:
+        text += f" · {_money(flight['total_price'])} total for {flight['passengers']}"
+    return text
+
+
 def _by_airline(flights: list[dict]) -> list[dict]:
     """Group flights under their airline (or airline combination for connections),
     cheapest airline first, so answers can show one table per airline."""
@@ -46,15 +60,16 @@ def _by_airline(flights: list[dict]) -> list[dict]:
             "airline": airline,
             "flight_count": len(options),
             "from_price_per_person": min(prices) if prices else None,
-            "flights": [{key: f[key] for key in ("id", "flight_numbers", "from_airport", "to_airport", "departs",
-                                                  "arrives", "duration", "stops", "layovers", "price_per_person")}
+            "flights": [{**{key: f[key] for key in ("id", "flight_numbers", "from_airport", "to_airport", "departs",
+                                                     "arrives", "duration", "stops", "layovers", "price_per_person")},
+                         "price_text": _price_text(f)}
                         for f in options],
         })
     summaries.sort(key=lambda g: (g["from_price_per_person"] is None, g["from_price_per_person"] or 0))
     return summaries
 
 
-def _flight(option: dict, origin: str, destination: str, day: str, passengers: int) -> dict:
+def _flight(option: dict, origin: str, destination: str, day: str, passengers: int, checked: str) -> dict:
     segments = option.get("flights") or []
     first, last = segments[0], segments[-1]
     item = {
@@ -73,9 +88,12 @@ def _flight(option: dict, origin: str, destination: str, day: str, passengers: i
         "duration": _duration(option.get("total_duration")),
         "stops": len(option.get("layovers") or []),
         "layovers": [stop.get("id") for stop in option.get("layovers") or [] if stop.get("id")],
-        "price_per_person": option.get("price"),  # None when Google shows no price
+        # Google Flights gives the fare for all passengers together; None when it shows no price.
+        "total_price": option.get("price"),
+        "price_per_person": round(option["price"] / passengers, 2) if option.get("price") is not None else None,
         "passengers": passengers,
         "currency": "USD",
+        "checked_at": checked,
     }
     item["id"] = items.remember("flight", item)
     return item
@@ -96,7 +114,8 @@ def search_live_flights(origin: str, destination: str, day: str, passengers: int
         "gl": "us",
     }, ttl_seconds=config.CACHE_TTL_SECONDS["flights"])
     options = (response.data.get("best_flights") or []) + (response.data.get("other_flights") or [])
-    flights = [_flight(o, origin, destination, day, passengers) for o in options if o.get("flights")]
+    checked = checked_at(response)
+    flights = [_flight(o, origin, destination, day, passengers, checked) for o in options if o.get("flights")]
     flights.sort(key=lambda f: (f["price_per_person"] is None, f["price_per_person"] or 0, f["departure"] or ""))
     insights = response.data.get("price_insights") or {}
     return {
@@ -109,7 +128,8 @@ def search_live_flights(origin: str, destination: str, day: str, passengers: int
         "airlines": _by_airline(flights[:MAX_FLIGHTS_SHOWN]),
         "price_insights": {key: insights[key] for key in ("lowest_price", "price_level", "typical_price_range")
                            if key in insights},
-        "note": "Live prices per person in USD for a one-way ticket; they can change before booking. "
+        "note": f"Live one-way prices in USD per person (total for {passengers} passenger(s) = price x {passengers}); "
+                "they can change before booking. "
                 "Use a flight's id in plans so its price is costed exactly.",
     }
 

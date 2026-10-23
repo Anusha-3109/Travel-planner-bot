@@ -52,9 +52,9 @@ def test_unknown_city_has_no_airport():
 
 def test_live_flights_are_parsed_sorted_and_remembered(serpapi):
     sent, _ = serpapi
-    result = search_live_flights("London", "Rome", FUTURE, passengers=2)
+    result = search_live_flights("London", "Rome", FUTURE, passengers=1)
     params = sent[0][2]
-    assert params["departure_id"].startswith("LHR") and "FCO" in params["arrival_id"] and params["adults"] == 2
+    assert params["departure_id"].startswith("LHR") and "FCO" in params["arrival_id"] and params["adults"] == 1
     groups = result["airlines"]
     lowest = [g["from_price_per_person"] for g in groups]
     assert lowest == sorted(lowest) and groups[0]["airline"] == "easyJet" and lowest[0] == 35
@@ -100,3 +100,19 @@ def test_live_only_city_works_without_snapshot_data(serpapi):
 def test_overnight_arrival_is_marked_next_day(serpapi):
     wizz = next(g for g in search_live_flights("London", "Rome", FUTURE)["airlines"] if g["airline"] == "Wizz Air")
     assert "01:20 (+1 day)" in [f["arrives"] for f in wizz["flights"]]
+
+
+def test_group_fares_are_split_per_person(serpapi):
+    """Google Flights prices cover all passengers; the tool reports per person and the total."""
+    sent, _ = serpapi
+    cheapest = search_live_flights("London", "Rome", FUTURE, passengers=2)["airlines"][0]["flights"][0]
+    assert sent[0][2]["adults"] == 2
+    assert cheapest["price_per_person"] == 17.5
+    assert items.lookup(cheapest["id"])["total_price"] == 35
+
+
+def test_price_text_for_one_and_for_groups(serpapi):
+    one = search_live_flights("London", "Rome", FUTURE, passengers=1)["airlines"][0]["flights"][0]
+    assert one["price_text"] == "$35 per person"
+    group = search_live_flights("London", "Rome", FUTURE, passengers=2)["airlines"][0]["flights"][0]
+    assert group["price_text"] == "$17.50 per person · $35 total for 2"

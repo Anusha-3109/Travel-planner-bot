@@ -93,7 +93,8 @@ def _steps(route: dict) -> list[dict]:
     return steps
 
 
-def _transit_options(data: dict, origin: str, destination: str, rates: fx.ExchangeRates | None) -> list[dict]:
+def _transit_options(data: dict, origin: str, destination: str, rates: fx.ExchangeRates | None,
+                     checked: str) -> list[dict]:
     options, seen = [], set()
     for route in sorted(data.get("routes") or [], key=lambda r: _seconds(r.get("duration"))):
         steps = _steps(route)
@@ -112,6 +113,7 @@ def _transit_options(data: dict, origin: str, destination: str, rates: fx.Exchan
             "fare_text": fare_text or "Fare not published by Google",
             "fare_per_person_usd": fare_usd,
             "steps": [s["text"] for s in steps],
+            "checked_at": checked,
         }
         option["id"] = items.remember("transit", option)
         options.append(option)
@@ -137,7 +139,7 @@ def search_local_transport(origin: str, destination: str, city: str | None = Non
         rates = fx.get_rates()
     except LiveDataError:
         rates = None
-    options = _transit_options(transit.data, origin, destination, rates)
+    options = _transit_options(transit.data, origin, destination, rates, checked_at(transit))
     car = (drive.data.get("routes") or [None])[0]
     driving = None
     if car:

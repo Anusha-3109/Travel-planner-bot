@@ -56,7 +56,7 @@ def _rating_text(rating: float | None, reviews: int | None) -> str:
     return f"{rating:g} ({reviews:,})" if reviews else f"{rating:g}"
 
 
-def _restaurant(place: dict, city: str, cuisine: str | None, rates: fx.ExchangeRates | None) -> dict:
+def _restaurant(place: dict, city: str, cuisine: str | None, rates: fx.ExchangeRates | None, checked: str) -> dict:
     item = {
         "type": "restaurant",
         "name": (place.get("displayName") or {}).get("text"),
@@ -70,6 +70,7 @@ def _restaurant(place: dict, city: str, cuisine: str | None, rates: fx.ExchangeR
         "opening_hours": (place.get("regularOpeningHours") or {}).get("weekdayDescriptions"),
         "maps_link": place.get("googleMapsUri"),
         "website": place.get("websiteUri"),
+        "checked_at": checked,
     }
     item["rating_text"] = _rating_text(item["rating"], item["reviews"])
     if item["price_range_local"]:
@@ -94,7 +95,7 @@ def search_live_restaurants(city: str, cuisine: str | None = None, max_cost_per_
     except LiveDataError:
         logger.warning("No exchange rates; restaurant prices stay in local currency")
         rates = None
-    restaurants = [_restaurant(p, city, cuisine, rates) for p in response.data.get("places") or []]
+    restaurants = [_restaurant(p, city, cuisine, rates, checked_at(response)) for p in response.data.get("places") or []]
     restaurants = [r for r in restaurants if r["name"]]
     if max_cost_per_person is not None:
         restaurants = [r for r in restaurants if r["estimated_cost_per_person_usd"] is not None

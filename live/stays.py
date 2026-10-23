@@ -77,7 +77,8 @@ def search_live_stays(city: str, check_in: str, check_out: str, nights: int, gue
              and (min_rating is None or (s["rating"] or 0) >= min_rating)]
     stays.sort(key=lambda s: (s["price_per_night"] is None, s["price_per_night"] or 0))
     for stay in stays:
-        stay.update({"check_in": check_in, "check_out": check_out, "nights": nights, "guests": guests})
+        stay.update({"check_in": check_in, "check_out": check_out, "nights": nights, "guests": guests,
+                     "checked_at": checked_at(response)})
         stay["per_night_text"] = f"${stay['price_per_night']:,.2f}" if stay["price_per_night"] is not None else "n/a"
         stay["total_text"] = f"${stay['total_price']:,.0f}" if stay["total_price"] is not None else "n/a"
         stay["cancellation_text"] = "Free cancellation" if stay.get("free_cancellation") else ""

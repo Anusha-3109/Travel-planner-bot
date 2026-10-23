@@ -36,6 +36,14 @@ TOOLS = [
 ]
 TOOLS_BY_NAME = {t.name: t for t in TOOLS}
 MAX_HISTORY_MESSAGES = 8
+# A plan that searched flights and stays must be costed with the tool before answering.
+PLAN_SEARCHES = {"search_flights", "search_accommodations"}
+PLAN_TOOLS = {"calculate_trip_cost", "check_constraints"}
+COST_REMINDER = ("Before you answer, call calculate_trip_cost and check_constraints with the full day-by-day plan "
+                 "(use the live results' ids or exact names, set stay to the place to stay, use search_restaurants "
+                 "results for meals, and set currency to the user's currency). Fix anything check_constraints "
+                 "reports. Then present the whole day-by-day plan followed by the cost summary copied from "
+                 "calculate_trip_cost; don't add up prices yourself.")
 
 SYSTEM_PROMPT = """You are TripMate, a travel itinerary planner. You build day-by-day trip plans: transport, three \
 meals a day, attractions and a place to stay each night, within the traveller's budget and rules.
@@ -55,9 +63,13 @@ places to stay with exact filters (price, room type, a house rule that must be a
 - Use search_destination_options for open questions about places, such as "museums" or "a quiet place to stay".
 - Use get_local_transport for getting around: airport to hotel, hotel to a sight, or between nearby places. It \
 gives public transport routes and driving time (taxis have no fare data).
-- For a full plan: find transport for each travel day, choose a stay that fits the group and its minimum nights, \
-pick a different restaurant for each meal and a few attractions per day, then call calculate_trip_cost and \
-check_constraints. If a check fails, fix the plan and check again before answering.
+- For a full plan: search flights for each travel day (with passengers set), search stays with the check-in and \
+check-out dates and the number of people, find restaurants with search_restaurants and attractions with \
+search_destination_options in each city. Use get_local_transport at most twice per plan (airport to the stay on \
+arrival, stay to the airport on departure) unless the user asks for more. Then call calculate_trip_cost and \
+check_constraints with the plan: flights and public transport by item_id, the chosen stay in the plan's stay \
+field, a different restaurant (id or exact name) for each meal, and currency set to the user's currency. If a \
+check fails, fix the plan and check again before answering.
 - If the origin, destination, dates, number of people or budget is missing for a full plan, ask for it.
 
 Rules:
@@ -65,8 +77,11 @@ Rules:
 flight numbers and prices. Never invent places or prices.
 - Cite places from search_destination_options with the exact source shown in the results, in square brackets, for \
 example [restaurant: Coco Bambu, Rockford]. Never use numbered citations like [1].
-- Present a plan day by day with costs, then the total against the budget, and mention any check that failed. If \
-calculate_trip_cost lists unpriced items, say the total covers only the priced items.
+- Present a plan day by day (transport, stay, meals, attractions), then a cost summary copied from \
+calculate_trip_cost: each line's cost_text, totals_text per type, total_text against budget_text, and \
+remaining_text. Never add up or convert prices yourself, and never write amounts in a different currency from the \
+tool's. Say which prices are live and which are snapshot or estimates, list unpriced items and say the real total \
+is higher by those, and mention any check that failed.
 - For places to stay with known dates, call search_accommodations with check_in_date and check_out_date so prices \
 are live.
 - Answer format for flights, stays and restaurants: use the LIST format below by default. Use the TABLE format \
@@ -76,10 +91,11 @@ others. In both formats: keep the tool's order (cheapest first), use the tool's 
 given, start with one short summary line, and end with one line saying whether the data is live (it can change \
 before booking) or a snapshot.
 - Flights, grouped by airline in the order given. Summary line: route, date, number of flights and the cheapest \
-fare. LIST: a bold line per airline, "**easyJet** (2 flights, from $35)", then one bullet per flight: "U2 8323 · \
-LGW 06:45 → FCO 10:20 · 2h 35m · Nonstop · **$35**". TABLE: a heading per airline, "#### easyJet · 2 flights · \
-from $35", then a table with the columns Flight, From, Departs, To, Arrives, Duration, Stops, Price. Write \
-"Nonstop" for 0 stops, otherwise the number and the layover airports.
+fare per person. LIST: a bold line per airline, "**easyJet** (2 flights, from $35 per person)", then one bullet \
+per flight: "U2 8323 · LGW 06:45 → FCO 10:20 · 2h 35m · Nonstop · **{price_text}**". TABLE: a heading per \
+airline, "#### easyJet · 2 flights · from $35 per person", then a table with the columns Flight, From, Departs, \
+To, Arrives, Duration, Stops, Price (the price_text). Copy price_text exactly; never multiply prices yourself. \
+Write "Nonstop" for 0 stops, otherwise the number and the layover airports.
 - Stays. Copy the tool's per_night_text, total_text, rating_text and cancellation_text exactly. LIST: a numbered \
 bold name with its type, then one line: "{per_night_text}/night · **{total_text} total** · ⭐ {rating_text} · \
 {cancellation_text} · [View on Airbnb](link)" (leave out the cancellation part when cancellation_text is empty; \
@@ -186,6 +202,7 @@ def run_agent(question: str, history: list[dict] | None = None,
     messages: list[BaseMessage] = [SystemMessage(SYSTEM_PROMPT), *_history_messages(history or []), HumanMessage(question)]
     result = AgentResult(answer="")
 
+    reminded = False
     for step in range(1, config.MAX_AGENT_STEPS + 1):
         notify("Thinking..." if step == 1 else f"Reviewing tool results (step {step})...")
         response = _call_llm(llm, messages)
@@ -193,6 +210,13 @@ def run_agent(question: str, history: list[dict] | None = None,
         messages.append(response)
 
         if not response.tool_calls:
+            called = {call.name for call in result.tool_calls}
+            if PLAN_SEARCHES <= called and not PLAN_TOOLS <= called and not reminded:
+                # A trip plan's totals must come from the cost tool, not the model's own arithmetic.
+                reminded = True
+                notify("Costing the plan...")
+                messages.append(HumanMessage(COST_REMINDER))
+                continue
             result.answer = response.content or "Sorry, I couldn't produce an answer. Please rephrase your question."
             return result
 
