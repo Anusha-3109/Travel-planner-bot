@@ -14,20 +14,12 @@ from agent.agent import AgentError, run_agent
 from live.budget import SessionBudget, use_budget
 from live.status import ServiceStatus, live_status
 from rag.ingest import build_index, ensure_index
-from rag.retriever import available_cities
 from security.rate_limit import RateLimiter
 from security.validation import InputValidationError, validate_city
 from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES, load_catalog
+from trip_form import CURRENCIES, LIVE_DAYS_AHEAD, example_questions, trip_question
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
-
-EXAMPLE_QUESTIONS = [
-    "Plan a 3-day trip from Washington to Myrtle Beach, March 13-15, 2022, for 1 person with a $1,400 budget.",
-    "Which flights go from St. Petersburg to Rockford on 2022-03-16?",
-    "Find Indian restaurants in Myrtle Beach under $50 per person.",
-    "Plan a 5-day trip from London to Rome for 2 people with a $2,500 budget, starting 2026-11-10.",
-    "Find a private room in Tokyo for 2 nights and some sushi restaurants nearby.",
-]
 
 
 @st.cache_resource(show_spinner="Updating the knowledge base (the first run embeds every place and takes a while)...")
@@ -60,6 +52,7 @@ def _init_state() -> None:
     st.session_state.setdefault("messages", [])
     st.session_state.setdefault("rate_limiter", RateLimiter())
     st.session_state.setdefault("live_budget", SessionBudget())
+    st.session_state.setdefault("currency", "USD")
     st.session_state.setdefault("token_totals", {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0})
 
 
@@ -102,7 +95,8 @@ def _ask(question: str) -> None:
         with st.status("Planning...", expanded=False) as status:
             try:
                 with use_budget(st.session_state.live_budget):
-                    result = run_agent(question, history=history, on_step=lambda text: status.update(label=text))
+                    result = run_agent(question, history=history, on_step=lambda text: status.update(label=text),
+                                       currency=st.session_state.currency)
             except (InputValidationError, AgentError) as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
@@ -130,26 +124,6 @@ def _ask(question: str) -> None:
     st.session_state.messages.append(message)
 
 
-def _trip_question(origin: str, destination: str, start: date, days: int, people: int, budget: float,
-                   house_rule: str | None, room_type: str | None, cuisines: list[str],
-                   transportation: str | None) -> str:
-    end = start + timedelta(days=days - 1)
-    question = (
-        f"Plan a {days}-day trip from {origin} to {destination}, {start:%Y-%m-%d} to {end:%Y-%m-%d}, "
-        f"for {people} {'person' if people == 1 else 'people'} with a budget of ${budget:,.0f}."
-    )
-    rules = []
-    if house_rule:
-        rules.append(f"the place to stay must allow {house_rule}")
-    if room_type:
-        rules.append(f"the room type must be {room_type}")
-    if cuisines:
-        rules.append(f"meals must include {', '.join(cuisines)} cuisine")
-    if transportation:
-        rules.append(f"transportation: {transportation}")
-    return question + (f" Constraints: {'; '.join(rules)}." if rules else "")
-
-
 def _export_markdown(messages: list[dict]) -> str:
     lines = [f"# TripMate conversation ({datetime.now():%Y-%m-%d %H:%M})", ""]
     for message in messages:
@@ -162,20 +136,22 @@ def _export_markdown(messages: list[dict]) -> str:
 def _sidebar() -> str | None:
     with st.sidebar:
         st.header("✈️ Trip planner")
-        regions = load_catalog().cities_by_region()
-        st.caption(
-            f"US: {len(regions.get('North America', []))} cities (TravelPlanner, March 2022, with flight and "
-            f"restaurant prices). Europe and Asia: {', '.join(regions.get('Europe', []) + regions.get('Asia', []))} "
-            "(Airbnb stays from September 2026; no restaurant or flight prices)."
-        )
+        st.session_state.currency = st.selectbox(
+            "Currency", CURRENCIES, index=CURRENCIES.index(st.session_state.currency),
+            help="Budgets and trip totals use this currency, at today's exchange rate.")
+        currency = st.session_state.currency
+        st.caption("Live flights, stays, restaurants and transport for any city worldwide, for dates from today.")
+        today = date.today()
         with st.form("trip"):
-            origin = st.text_input("From", value="Washington")
-            destination = st.text_input("To", value="Myrtle Beach")
-            start = st.date_input("Start date", value=date(2022, 3, 13),
-                                  min_value=date(2022, 1, 1), max_value=date(2027, 12, 31))
-            days = st.selectbox("Trip length (days)", [3, 5, 7])
-            people = st.number_input("Travellers", min_value=1, max_value=8, value=1)
-            budget = st.number_input("Budget (USD)", min_value=100.0, max_value=1_000_000.0, value=1400.0, step=100.0)
+            origin = st.text_input("From", value="London")
+            destination = st.text_input("To", value="Rome")
+            start = st.date_input("Start date", value=today + timedelta(days=14), min_value=today,
+                                  max_value=today + timedelta(days=LIVE_DAYS_AHEAD))
+            nights = st.number_input("Nights", min_value=1, max_value=14, value=4)
+            people = st.number_input("Travellers", min_value=1, max_value=8, value=2)
+            budget = st.number_input(f"Budget ({currency})", min_value=100.0, max_value=1_000_000.0, value=1500.0,
+                                     step=100.0)
+            stay_type = st.radio("Stay", ["Airbnb", "Hotel"], horizontal=True)
             with st.expander("Constraints (optional)"):
                 house_rule = st.selectbox("Stay must allow", [None, *HOUSE_RULES], format_func=lambda v: v or "No preference")
                 room_type = st.selectbox("Room type", [None, *ROOM_TYPES], format_func=lambda v: v or "No preference")
@@ -188,10 +164,9 @@ def _sidebar() -> str | None:
         question = None
         if submitted:
             try:
-                catalog = load_catalog()
-                question = _trip_question(
-                    catalog.require_city(validate_city(origin)), catalog.require_city(validate_city(destination)),
-                    start, int(days), int(people), budget, house_rule, room_type, cuisines, transportation)
+                question = trip_question(
+                    validate_city(origin), validate_city(destination), start, int(nights), int(people), budget,
+                    currency, stay_type, house_rule, room_type, cuisines, transportation)
             except InputValidationError as error:
                 st.error(str(error))
 
@@ -222,14 +197,20 @@ def _sidebar() -> str | None:
                 st.success(f"Indexed {count:,} places.")
 
         with st.expander("ℹ️ How to use"):
+            regions = load_catalog().cities_by_region()
+            snapshot_cities = ", ".join(regions.get("Europe", []) + regions.get("Asia", []))
             st.markdown(
-                "- Fill in the trip form and press **Plan my trip**, or ask anything in the chat.\n"
-                "- Expand **Tool calls** under an answer to see the flights, places, costs and checks it used.\n"
-                "- Expand **Sources** to see the places the knowledge base search returned.\n"
-                "- US data is a March 2022 snapshot, so prices and schedules are not live. US flights exist only "
-                "for March-April 2022 dates.\n"
-                "- European and Asian cities have current Airbnb prices, but restaurant and flight costs are missing "
-                "and left out of totals."
+                "- Fill in the trip form and press **Plan my trip**, or ask anything in the chat. Ask for "
+                "\"a table\" to get results as tables.\n"
+                "- **Live** (dates from today on, any city): flights from Google Flights, Airbnb and hotel stays, "
+                "restaurants with price ranges and ratings from Google Maps, and public transport and driving "
+                "routes. Live prices can change before booking.\n"
+                "- **Not available live:** taxi fares, most public transport fares, attraction entry prices and "
+                "some restaurant prices. They're listed as unpriced and left out of totals.\n"
+                f"- **Snapshot** (fallback and past dates): US cities from the TravelPlanner dataset (March 2022), "
+                f"and Inside Airbnb stays from September 2026 for {snapshot_cities}.\n"
+                "- Expand **Tool calls** under an answer to see what was searched, and **Sources** for places from "
+                "the knowledge base."
             )
     return question
 
@@ -237,7 +218,8 @@ def _sidebar() -> str | None:
 def main() -> None:
     _init_state()
     st.title("TripMate ✈️")
-    st.caption("Plan a day-by-day trip in the US, Europe or Asia: transport, meals, attractions and stays, within your budget.")
+    st.caption("Plan a day-by-day trip anywhere: live flights, stays, restaurants and public transport, "
+               "costed against your budget.")
 
     if not config.OPENROUTER_API_KEY:
         st.error("OPENROUTER_API_KEY is not set. Copy `.env.example` to `.env`, add your key, and restart the app.")
@@ -260,7 +242,7 @@ def main() -> None:
     if not st.session_state.messages:
         st.markdown("**Try one of these:**")
         columns = st.columns(2)
-        for index, example in enumerate(EXAMPLE_QUESTIONS):
+        for index, example in enumerate(example_questions()):
             if columns[index % 2].button(example, key=f"example-{index}", use_container_width=True):
                 example_question = example
 

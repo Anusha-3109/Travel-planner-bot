@@ -48,7 +48,7 @@ def test_agent_calls_tool_then_answers(monkeypatch):
     assert [c.name for c in result.tool_calls] == ["search_flights"]
     assert json.loads(result.tool_calls[0].output)["flight_count"] == 2
     assert result.token_usage["total_tokens"] == 15
-    assert any("search_flights" in s for s in steps)
+    assert "Searching live flights..." in steps
 
 
 def test_agent_collects_sources_from_place_search(monkeypatch, small_index):
@@ -128,7 +128,8 @@ def test_simple_questions_are_not_sent_back(monkeypatch):
 
 def test_prompt_includes_today_and_current_data_sources():
     prompt = agent_module.system_prompt(date(2026, 10, 23))
-    assert prompt.endswith("Today is Friday, 23 October 2026 (2026-10-23).")
+    assert "Today is Friday, 23 October 2026 (2026-10-23)." in prompt
+    assert "The user's currency is USD" in prompt
     assert "Live, for today or later dates" in prompt and "Your data has two parts" not in prompt
 
 
@@ -137,3 +138,10 @@ def test_agent_sends_todays_date(monkeypatch):
     monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
     run_agent("Hello")
     assert date.today().isoformat() in llm.calls[0][0].content
+
+
+def test_users_currency_is_passed_to_the_model(monkeypatch):
+    llm = ScriptedLLM([AIMessage(content="Hi.")])
+    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    run_agent("Hello", currency="EUR")
+    assert "The user's currency is EUR" in llm.calls[0][0].content
