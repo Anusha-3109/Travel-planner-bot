@@ -1,6 +1,7 @@
 """Agent loop tests with a scripted fake LLM, so no API key or network is needed."""
 
 import json
+from datetime import date
 
 import pytest
 from langchain_core.messages import AIMessage
@@ -123,3 +124,16 @@ def test_simple_questions_are_not_sent_back(monkeypatch):
     llm = ScriptedLLM([_call("search_accommodations", {"city": "Myrtle Beach"}, "c1"), AIMessage(content="Here.")])
     monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
     assert run_agent("Places to stay in Myrtle Beach?").answer == "Here."
+
+
+def test_prompt_includes_today_and_current_data_sources():
+    prompt = agent_module.system_prompt(date(2026, 10, 23))
+    assert prompt.endswith("Today is Friday, 23 October 2026 (2026-10-23).")
+    assert "Live, for today or later dates" in prompt and "Your data has two parts" not in prompt
+
+
+def test_agent_sends_todays_date(monkeypatch):
+    llm = ScriptedLLM([AIMessage(content="Hi.")])
+    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    run_agent("Hello")
+    assert date.today().isoformat() in llm.calls[0][0].content
