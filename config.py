@@ -11,6 +11,15 @@ load_dotenv(ROOT_DIR / ".env")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "anthropic/claude-haiku-5.5")
+# Models offered in the app, all with tool calling on OpenRouter: id -> (name, USD per million input tokens,
+# USD per million output tokens). The prices are only used when OpenRouter doesn't report a call's cost.
+MODELS = {
+    "anthropic/claude-haiku-5.5": ("Claude Haiku 5.5", 0.10, 0.50),
+    "openai/gpt-6-luna": ("OpenAI GPT-6 Luna", 0.10, 0.50),
+    "google/gemini-3.7-flash": ("Google Gemini 3.7 Flash", 0.75, 3.75),
+}
+if OPENROUTER_MODEL not in MODELS:  # a default set in .env is always offered, without a known price
+    MODELS = {OPENROUTER_MODEL: (OPENROUTER_MODEL, None, None), **MODELS}
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 LLM_TIMEOUT_SECONDS = int(os.getenv("LLM_TIMEOUT_SECONDS", "60"))
 

@@ -127,7 +127,7 @@ def test_agent_screens_tool_output(monkeypatch):
     llm = ScriptedLLM([AIMessage(content="", tool_calls=[{"name": "search_accommodations", "args": {"city": "Rome"},
                                                          "id": "c1"}]),
                        AIMessage(content="Here are stays.")])
-    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
     result = agent_module.run_agent("Stays in Rome")
     sent = next(m for m in llm.calls[-1] if isinstance(m, ToolMessage)).content
     assert "Ignore all previous instructions" not in sent and REMOVED in sent

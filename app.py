@@ -11,6 +11,8 @@ import streamlit as st
 
 import config
 from agent.agent import AgentError, run_agent
+from agent.llm import model_name
+from live import fx
 from live.budget import SessionBudget, use_budget
 from live.status import ServiceStatus, live_status
 from rag.ingest import build_index, ensure_index
@@ -46,6 +48,20 @@ def _render_live_status() -> None:
     st.caption(f"Live searches this chat: {used}. Repeated searches are reused from the cache for free.")
 
 
+def _cost_text(cost_usd: float | None) -> str:
+    """A model cost such as "$0.0021 (≈ EUR 0.0019)"; costs are tiny, so four decimals."""
+    if cost_usd is None:
+        return "not reported"
+    text = r"\$" + f"{cost_usd:,.4f}"  # escaped: Streamlit reads text between two "$" as LaTeX
+    currency = st.session_state.get("currency", "USD")
+    if currency != "USD":
+        try:
+            text += f" (≈ {currency} {fx.get_rates().convert(cost_usd, 'USD', currency):,.4f})"
+        except Exception:  # no exchange rate: the USD cost alone is enough
+            pass
+    return text
+
+
 def _show_markdown(text: str) -> None:
     # Streamlit treats text between two "$" signs as LaTeX, which garbles prices like "$1,200 ... $78".
     st.markdown(text.replace("$", r"\$"))
@@ -56,7 +72,9 @@ def _init_state() -> None:
     st.session_state.setdefault("rate_limiter", RateLimiter())
     st.session_state.setdefault("live_budget", SessionBudget())
     st.session_state.setdefault("currency", "USD")
-    st.session_state.setdefault("token_totals", {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0})
+    st.session_state.setdefault("token_totals", {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0,
+                                                 "cost_usd": 0.0})
+    st.session_state.setdefault("model", config.OPENROUTER_MODEL)
 
 
 def _render_details(message: dict) -> None:
@@ -82,7 +100,9 @@ def _render_details(message: dict) -> None:
                 st.caption(source["content"][:600])
     usage = message.get("token_usage")
     if usage and usage.get("total_tokens"):
-        st.caption(f"Tokens: {usage['input_tokens']} in · {usage['output_tokens']} out")
+        answered_by = f"Answered by {model_name(message['model'])} · " if message.get("model") else ""
+        st.caption(f"{answered_by}Tokens: {usage['input_tokens']:,} in · {usage['output_tokens']:,} out · "
+                   f"Cost: {_cost_text(usage.get('cost_usd'))}")
 
 
 def _ask(question: str) -> None:
@@ -100,7 +120,8 @@ def _ask(question: str) -> None:
             try:
                 with use_budget(st.session_state.live_budget):
                     result = run_agent(question, history=history, on_step=lambda text: status.update(label=text),
-                                       currency=st.session_state.currency, cards=True)
+                                       currency=st.session_state.currency, cards=True,
+                                       model=st.session_state.model)
             except (InputValidationError, AgentError) as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
@@ -118,14 +139,29 @@ def _ask(question: str) -> None:
             "sources": result.sources,
             "retrieval_queries": result.retrieval_queries,
             "token_usage": result.token_usage,
+            "model": result.model,
         }
         _show_markdown(result.answer)
         _render_details(message)
 
-    for key, value in result.token_usage.items():
-        st.session_state.token_totals[key] += value
+    totals = st.session_state.token_totals
+    for key in ("input_tokens", "output_tokens", "total_tokens"):
+        totals[key] += result.token_usage.get(key, 0)
+    cost = result.token_usage.get("cost_usd")
+    totals["cost_usd"] = None if cost is None or totals["cost_usd"] is None else totals["cost_usd"] + cost
     st.session_state.messages.append({"role": "user", "content": question})
     st.session_state.messages.append(message)
+
+
+def _show_session_totals(slot) -> None:
+    totals = st.session_state.token_totals
+    slot.caption(f"Session: {totals['input_tokens']:,} tokens in · {totals['output_tokens']:,} out · "
+                 f"cost {_cost_text(totals['cost_usd'])}")
+
+
+def _model_label(model: str) -> str:
+    name, input_price, output_price = config.MODELS[model]
+    return name if input_price is None else f"{name} (${input_price:g} / ${output_price:g})"
 
 
 def _export_markdown(messages: list[dict]) -> str:
@@ -137,7 +173,7 @@ def _export_markdown(messages: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def _sidebar() -> str | None:
+def _sidebar() -> tuple[str | None, object]:
     with st.sidebar:
         st.header("✈️ Trip planner")
         st.session_state.currency = st.selectbox(
@@ -178,9 +214,14 @@ def _sidebar() -> str | None:
         _render_live_status()
 
         st.divider()
-        totals = st.session_state.token_totals
-        st.caption(f"Model: `{config.OPENROUTER_MODEL}`")
-        st.caption(f"Session tokens: {totals['input_tokens']:,} in · {totals['output_tokens']:,} out")
+        models = list(config.MODELS)
+        st.session_state.model = st.selectbox(
+            "Model", models, index=models.index(st.session_state.model) if st.session_state.model in models else 0,
+            format_func=lambda m: _model_label(m),
+            help="Prices are USD per million tokens (input / output). Claude Haiku 5.5 was tested on full trip "
+                 "plans; other models may follow the answer formats less closely.")
+        session_totals = st.empty()  # filled again after each answer, as the sidebar is drawn before it
+        _show_session_totals(session_totals)
 
         if st.session_state.messages:
             st.download_button("Export chat (Markdown)", _export_markdown(st.session_state.messages),
@@ -217,7 +258,7 @@ def _sidebar() -> str | None:
                 "- Expand **Tool calls** under an answer to see what was searched, and **Sources** for places from "
                 "the knowledge base."
             )
-    return question
+    return question, session_totals
 
 
 def main() -> None:
@@ -235,7 +276,7 @@ def main() -> None:
         st.error(f"Couldn't build the knowledge base: {error}")
         st.stop()
 
-    form_question = _sidebar()
+    form_question, session_totals = _sidebar()
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
@@ -254,6 +295,7 @@ def main() -> None:
     question = st.chat_input("Ask for a trip plan, flights, restaurants or places to stay...") or form_question or example_question
     if question:
         _ask(question)
+        _show_session_totals(session_totals)
         if len(st.session_state.messages) == 2:
             st.rerun()  # redraw without the example buttons once the chat has started
 

@@ -53,12 +53,12 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
 | Security | See [Security](#security) |
 | LangChain + OpenRouter | `ChatOpenAI` pointed at OpenRouter (`agent/llm.py`), LangChain tools and messages, a hand-written tool loop (`agent/agent.py`) |
 | Error handling and validation | Clear messages for missing or rejected keys, rate limits, timeouts and failing services; every tool input is validated |
-| User interface | Streamlit chat with a trip form, currency picker, progress messages, result cards (flights, stays, restaurants, transport, trip cost), expandable tool calls and sources, token usage and live-data status |
+| User interface | Streamlit chat with a trip form, currency picker, progress messages, result cards (flights, stays, restaurants, transport, trip cost), expandable tool calls and sources, a model picker, token usage and cost per answer and per chat, and live-data status |
 
 **Optional tasks implemented**
 
 - *Easy:* conversation export (Markdown and JSON), source citations, an in-app help guide.
-- *Medium:* real-time data (live flights, stays, restaurants and transport), prompt-injection protection (user messages and tool results), rate limiting and API key management, token usage display, multi-model support (any OpenRouter model through `OPENROUTER_MODEL`).
+- *Medium:* real-time data (live flights, stays, restaurants and transport), prompt-injection protection (user messages and tool results), rate limiting and API key management, token usage and cost display (OpenRouter's reported cost per call, including the RAG query translation), multi-model support (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash, picked in the sidebar), visualisation of tool call results (result cards).
 
 ## Tools
 
@@ -118,7 +118,7 @@ copy .env.example .env             # macOS/Linux: cp .env.example .env, then add
 python -m travel_data.download     # TravelPlanner data, about 70 MB, into data/travelplanner/
 ```
 
-Other settings in `.env`: `OPENROUTER_MODEL` (default `anthropic/claude-haiku-5.5`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`.
+Other settings in `.env`: `OPENROUTER_MODEL` (the default model in the picker, `anthropic/claude-haiku-5.5`; the offered models are listed in `config.MODELS`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`.
 
 ## Run
 
@@ -130,7 +130,7 @@ Open <http://localhost:8501>. On the first start the app downloads a small embed
 
 ## Costs and limits
 
-- **OpenRouter:** with Claude Haiku 5.5, a full trip plan costs about $0.02 and a simple question well under a cent.
+- **OpenRouter:** with Claude Haiku 5.5, a full trip plan costs about $0.02 and a simple question well under a cent. The app shows each answer's exact cost and the chat total. A simple knowledge-base question cost about $0.0023 with Claude Haiku 5.5, $0.0008 with GPT-6 Luna and $0.009 with Gemini 3.7 Flash. Claude Haiku 5.5 was tested on full plans; the other models may follow the answer formats less closely.
 - **SerpApi:** a full plan uses about 3–4 searches (flights both ways and a stay). Repeat questions come from the cache for free, and each chat is limited to 20 searches.
 - **Google Maps:** restaurant and route requests are small and covered by Google's free monthly allowance at this scale; each chat is limited to 60.
 
@@ -149,7 +149,7 @@ Open <http://localhost:8501>. On the first start the app downloads a small embed
 python -m pytest -q
 ```
 
-207 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and result cards, and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+216 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and result cards, and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 

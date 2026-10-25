@@ -44,7 +44,7 @@ class FailingLLM(ScriptedLLM):
     (_status(openai.InternalServerError, 500), "returned an error (HTTP 500)"),
 ])
 def test_openrouter_errors_become_clear_messages(monkeypatch, error, shown):
-    monkeypatch.setattr(agent_module, "get_llm", lambda: FailingLLM(error))
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: FailingLLM(error))
     with pytest.raises(AgentError, match=re.escape(shown)):
         run_agent("Flights from London to Rome?")
 
@@ -63,7 +63,7 @@ def test_llm_uses_openrouter_and_the_chosen_model(monkeypatch):
 
 def test_follow_up_questions_get_the_recent_history(monkeypatch):
     llm = ScriptedLLM([AIMessage(content="Here is a cheaper one.")])
-    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
     history = [{"role": "user", "content": f"question {i}"} if i % 2 == 0 else
                {"role": "assistant", "content": f"answer {i}"} for i in range(12)]
     run_agent("Make it cheaper", history=history)
@@ -80,7 +80,7 @@ def test_a_crashing_tool_returns_a_safe_error(monkeypatch):
     monkeypatch.setattr(agent_module, "_run_tool", crash)
     llm = ScriptedLLM([AIMessage(content="", tool_calls=[{"name": "search_flights", "args": {}, "id": "c1"}]),
                        AIMessage(content="Sorry, flights are unavailable.")])
-    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
     result = run_agent("Flights?")
     assert json.loads(result.tool_calls[0].output) == {"error": "The search_flights tool failed unexpectedly."}
     assert result.answer == "Sorry, flights are unavailable."
@@ -91,7 +91,7 @@ def test_step_limit_forces_an_answer(monkeypatch):
     monkeypatch.setattr(agent_module, "_run_tool", lambda *a: json.dumps({"ok": True}))
     loop = AIMessage(content="", tool_calls=[{"name": "search_flights", "args": {}, "id": "c"}])
     llm = ScriptedLLM([loop, loop, AIMessage(content="Best answer with what I have.")])
-    monkeypatch.setattr(agent_module, "get_llm", lambda: llm)
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
     steps = []
     result = run_agent("Flights?", on_step=steps.append)
     assert result.answer == "Best answer with what I have." and "Writing the answer..." in steps

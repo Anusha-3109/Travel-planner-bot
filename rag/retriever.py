@@ -40,15 +40,17 @@ class RetrievalResult:
     documents: list[Document]
     queries: list[str]
     filters: dict = field(default_factory=dict)
+    llm_replies: list = field(default_factory=list)  # raw model replies, for token and cost totals
 
 
 def available_cities() -> list[str]:
     return load_catalog().place_cities()
 
 
-def plan_search(question: str, llm=None) -> SearchPlan:
+def plan_search(question: str, llm=None, replies: list | None = None) -> SearchPlan:
     """Translate a question into search queries and filters. Falls back to the
-    original question with no filters if no LLM is available or the call fails."""
+    original question with no filters if no LLM is available or the call fails.
+    The model's raw reply is added to replies, so its tokens and cost can be counted."""
     if llm is None:
         return SearchPlan(queries=[question])
     prompt = (
@@ -61,7 +63,12 @@ def plan_search(question: str, llm=None) -> SearchPlan:
         f"Question: {question}"
     )
     try:
-        plan = llm.with_structured_output(SearchPlan).invoke(prompt)
+        answer = llm.with_structured_output(SearchPlan, include_raw=True).invoke(prompt)
+        if replies is not None and answer.get("raw") is not None:
+            replies.append(answer["raw"])
+        plan = answer["parsed"]
+        if plan is None:
+            raise ValueError(answer.get("parsing_error") or "no search plan")
     except Exception:
         logger.warning("Query translation failed; using the original question", exc_info=True)
         return SearchPlan(queries=[question])
@@ -84,7 +91,8 @@ def _build_filter(category: str | None, city: str | None) -> dict | None:
 
 def retrieve(question: str, category: str | None = None, city: str | None = None, llm=None,
              k: int = config.RETRIEVAL_K) -> RetrievalResult:
-    plan = plan_search(question, llm)
+    replies: list = []
+    plan = plan_search(question, llm, replies)
     category = category or plan.category
     city = city or plan.city
     where = _build_filter(category, city)
@@ -107,6 +115,7 @@ def retrieve(question: str, category: str | None = None, city: str | None = None
         documents=[documents[key] for key in ranked],
         queries=plan.queries,
         filters=where or {},
+        llm_replies=replies,
     )
 
 

@@ -15,7 +15,7 @@ from openai import APIConnectionError, APIStatusError, APITimeoutError, Authenti
 from pydantic import ValidationError
 
 import config
-from agent.llm import LLMConfigError, get_llm
+from agent.llm import LLMConfigError, add_usage, get_llm, message_usage
 from live.fx import use_display_currency
 from security.redaction import protect_logs
 from security.tool_output import clean_text, clean_tool_output
@@ -187,7 +187,9 @@ class AgentResult:
     tool_calls: list[ToolCallRecord] = field(default_factory=list)
     sources: list[dict] = field(default_factory=list)
     retrieval_queries: list[str] = field(default_factory=list)
-    token_usage: dict = field(default_factory=lambda: {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0})
+    token_usage: dict = field(default_factory=lambda: {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0,
+                                                       "cost_usd": 0.0})
+    model: str = ""
 
 
 def _history_messages(history: list[dict]) -> list[BaseMessage]:
@@ -201,9 +203,7 @@ def _history_messages(history: list[dict]) -> list[BaseMessage]:
 
 
 def _add_usage(result: AgentResult, message: AIMessage) -> None:
-    usage = getattr(message, "usage_metadata", None) or {}
-    for key in result.token_usage:
-        result.token_usage[key] += usage.get(key, 0)
+    add_usage(result.token_usage, message_usage(result.model, message))
 
 
 def _run_tool(name: str, args: dict, result: AgentResult, llm) -> str:
@@ -211,6 +211,8 @@ def _run_tool(name: str, args: dict, result: AgentResult, llm) -> str:
         # Called directly so the retrieved documents can be shown as sources in the UI.
         retrieval = search_places(args.get("query", ""), args.get("city"), args.get("category"), llm=llm)
         result.retrieval_queries.extend(retrieval.queries)
+        for reply in retrieval.llm_replies:  # the query translation is a model call too
+            _add_usage(result, reply)
         for document in retrieval.documents:
             result.sources.append({
                 "source": document.metadata.get("source"),
@@ -222,7 +224,7 @@ def _run_tool(name: str, args: dict, result: AgentResult, llm) -> str:
     return TOOLS_BY_NAME[name].invoke(args)
 
 
-def _call_llm(llm, messages: list[BaseMessage]) -> AIMessage:
+def _call_llm(llm, messages: list[BaseMessage], model: str) -> AIMessage:
     try:
         return llm.invoke(messages)
     except AuthenticationError:
@@ -235,39 +237,40 @@ def _call_llm(llm, messages: list[BaseMessage]) -> AIMessage:
         logger.exception("OpenRouter API error")
         if error.status_code in (400, 404) and "model" in str(error).lower():
             raise AgentError(
-                f"The model '{config.OPENROUTER_MODEL}' isn't available on OpenRouter. Check OPENROUTER_MODEL in your .env file."
+                f"The model '{model}' isn't available on OpenRouter right now. Choose another model in the sidebar."
             ) from None
         raise AgentError(f"The model service returned an error (HTTP {error.status_code}). Please try again.") from None
 
 
 def run_agent(question: str, history: list[dict] | None = None,
               on_step: Callable[[str], None] | None = None, currency: str = "USD",
-              cards: bool = False) -> AgentResult:
+              cards: bool = False, model: str | None = None) -> AgentResult:
     """Answer a question, calling tools as needed. Raises InputValidationError for
     bad input and AgentError for problems the user should know about. Listing prices
     in tool results are shown in the chosen currency. cards=True when the app shows
-    the results as cards, so the written answer can be shorter."""
+    the results as cards, so the written answer can be shorter. model is an OpenRouter
+    model id from config.MODELS (default: OPENROUTER_MODEL)."""
     with use_display_currency(currency):
-        return _run_agent(question, history, on_step, currency, cards)
+        return _run_agent(question, history, on_step, currency, cards, model or config.OPENROUTER_MODEL)
 
 
 def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str], None] | None,
-               currency: str, cards: bool = False) -> AgentResult:
+               currency: str, cards: bool = False, model: str = config.OPENROUTER_MODEL) -> AgentResult:
     question = validate_question(question)
     notify = on_step or (lambda _: None)
     try:
-        base_llm = get_llm()
+        base_llm = get_llm(model)
     except LLMConfigError as error:
         raise AgentError(str(error)) from None
     llm = base_llm.bind_tools(TOOLS)
 
     messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards)), *_history_messages(history or []), HumanMessage(question)]
-    result = AgentResult(answer="")
+    result = AgentResult(answer="", model=model)
 
     reminded = False
     for step in range(1, config.MAX_AGENT_STEPS + 1):
         notify("Reading your request..." if step == 1 else f"Working on your answer (step {step})...")
-        response = _call_llm(llm, messages)
+        response = _call_llm(llm, messages, model)
         _add_usage(result, response)
         messages.append(response)
 
@@ -305,7 +308,7 @@ def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str
 
     notify("Writing the answer...")
     messages.append(HumanMessage("Tool budget reached. Answer now using only the information gathered so far."))
-    final = _call_llm(base_llm, messages)
+    final = _call_llm(base_llm, messages, model)
     _add_usage(result, final)
     result.answer = final.content
     return result
