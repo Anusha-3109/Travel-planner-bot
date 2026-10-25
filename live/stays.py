@@ -102,12 +102,16 @@ def search_live_stays(city: str, check_in: str, check_out: str, nights: int, gue
     notes = [f"Live prices in USD for {nights} night(s) and {guests} guest(s); they can change before booking."]
     if stay_type != "hotel":
         notes.append("Airbnb totals include Airbnb's fees; every listing fits the number of guests.")
+    shown = min(len(stays), MAX_STAYS_SHOWN)
+    if len(stays) > shown:
+        notes.append(f"Showing the {shown} cheapest of {len(stays)} stays found.")
     return {
         "source": "live",
         "provider": provider,
         "checked_at": checked_at(response),
         "from_cache": response.from_cache,
         "stay_count": len(stays),
+        "stays_shown": shown,
         "stays": stays[:MAX_STAYS_SHOWN],
         "note": " ".join(notes) + " Use a stay's id in plans so its price is costed exactly.",
     }

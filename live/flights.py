@@ -126,11 +126,14 @@ def search_live_flights(origin: str, destination: str, day: str, passengers: int
         "from_cache": response.from_cache,
         "airports_searched": {"from": [a.code for a in origins], "to": [a.code for a in destinations]},
         "flight_count": len(flights),
+        "flights_shown": min(len(flights), MAX_FLIGHTS_SHOWN),
         "airlines": _by_airline(flights[:MAX_FLIGHTS_SHOWN]),
         "price_insights": {key: insights[key] for key in ("lowest_price", "price_level", "typical_price_range")
                            if key in insights},
         "note": f"Live one-way prices in USD per person (total for {passengers} passenger(s) = price x {passengers}); "
                 "they can change before booking. "
+                + (f"Showing the {MAX_FLIGHTS_SHOWN} cheapest of {len(flights)} flights found. "
+                   if len(flights) > MAX_FLIGHTS_SHOWN else "") +
                 "Use a flight's id in plans so its price is costed exactly.",
     }
 

@@ -85,7 +85,8 @@ def find_transport(origin_city: str, destination_city: str, date: str, passenger
     result = {"route": snapshot["route"], "date": day, "passengers": passengers}
     if live:
         result.update({"flights_source": f"live ({live['provider']}, checked {live['checked_at']})",
-                       "flight_count": live["flight_count"], "airlines": live["airlines"],
+                       "flight_count": live["flight_count"], "flights_shown": live["flights_shown"],
+                       "airlines": live["airlines"],
                        "airports_searched": live["airports_searched"]})
         if live["price_insights"]:
             result["price_insights"] = live["price_insights"]

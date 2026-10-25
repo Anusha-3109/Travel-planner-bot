@@ -1,6 +1,8 @@
 """Local transport, using recorded Google Routes answers (Fiumicino Airport → Colosseum)."""
 
 import json
+from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import pytest
@@ -96,3 +98,43 @@ def test_no_key_and_no_snapshot_is_an_error():
 def test_bad_place_names_are_rejected(place):
     with pytest.raises(InputValidationError):
         find_local_transport(place, "Colosseum")
+
+
+def test_travel_day_searches_transit_at_that_local_time(google):
+    sent, _ = google
+    day = date.today() + timedelta(days=14)
+    result = find_local_transport("Fiumicino Airport", "Colosseum", "Rome", date=day.isoformat(), time="14:30")
+    expected = datetime.combine(day, datetime.min.time().replace(hour=14, minute=30), ZoneInfo("Europe/Rome"))
+    transit = [body for body in sent if body["travelMode"] == "TRANSIT"]
+    assert "departureTime" not in transit[0]  # the first search reads the route's time zone
+    assert transit[1]["departureTime"] == expected.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    assert result["departure_time"] == f"{day:%a %d %b %Y}, 14:30 local time"
+    assert result["timetable_note"] == f"Times are for {day:%a %d %b %Y}, leaving from 14:30."
+
+
+def test_date_only_uses_ten_in_the_morning(google):
+    sent, _ = google
+    day = date.today() + timedelta(days=3)
+    assert find_local_transport("Airport", "Centre", "Rome", date=day.isoformat())["departure_time"].endswith(
+        "10:00 local time")
+    assert len(sent) == 3
+
+
+def test_more_than_100_days_ahead_uses_the_current_timetable(google):
+    sent, _ = google
+    day = date.today() + timedelta(days=150)
+    result = find_local_transport("Airport", "Centre", "Rome", date=day.isoformat(), time="09:00")
+    assert result["departure_time"] is None and "100 days ahead" in result["timetable_note"]
+    assert all("departureTime" not in body for body in sent)
+
+
+def test_without_a_date_times_come_from_the_current_timetable(google):
+    result = find_local_transport("Airport", "Centre", "Rome")
+    assert result["departure_time"] is None and "current timetable" in result["timetable_note"]
+
+
+@pytest.mark.parametrize("day, clock", [("2026-13-01", None), ("2026-11-10", "25:00"), ("2026-11-10", "2pm"),
+                                        (None, "14:00")])
+def test_bad_travel_times_are_rejected(day, clock):
+    with pytest.raises(InputValidationError):
+        find_local_transport("Airport", "Centre", "Rome", date=day, time=clock)

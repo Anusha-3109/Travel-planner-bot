@@ -192,7 +192,8 @@ def find_accommodations(city: str, max_price_per_night: float | None = None, roo
                 note += f" Live listings can't be filtered by the '{must_allow}' house rule: check each listing."
             return {"city": city, "check_in": check_in, "check_out": check_out, "nights": nights, "guests": guests,
                     "stays_source": f"live ({live['provider']}, checked {live['checked_at']})",
-                    "stay_count": live["stay_count"], "stays": live["stays"], "note": note}
+                    "stay_count": live["stay_count"], "stays_shown": live["stays_shown"], "stays": live["stays"],
+                    "note": note}
 
     result = _snapshot_accommodations(city, max_price, room_type, must_allow, guests, nights)
     result["stays_source"] = "snapshot"

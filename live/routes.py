@@ -9,12 +9,17 @@
   parking). Google gives no taxi prices, so a taxi is described by driving
   time and distance only.
 
-Times come from the current timetable; on another day, departure times shift
-but the lines and the trip length are a good guide.
+With a travel date (and time), public transport is searched for that local
+time, up to 100 days ahead (Google's limit). The local time is turned into UTC
+with the time zone Google reports for the route. Without a date, or further
+ahead, times come from the current timetable; on another day departure times
+shift but the lines and the trip length are a good guide.
 """
 
 import logging
 import re
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import config
 from live import fx, items
@@ -25,6 +30,7 @@ from travel_data.catalog import load_catalog
 logger = logging.getLogger(__name__)
 
 MAX_TRANSIT_OPTIONS = 3
+MAX_TRANSIT_DAYS_AHEAD = 100  # Google Routes accepts transit departure times up to 100 days ahead
 TRANSIT_FIELDS = ",".join([
     "routes.duration", "routes.distanceMeters", "routes.travelAdvisory.transitFare",
     "routes.legs.steps.travelMode", "routes.legs.steps.staticDuration", "routes.legs.steps.transitDetails"])
@@ -126,6 +132,31 @@ def _transit_options(data: dict, origin: str, destination: str, rates: fx.Exchan
     return options
 
 
+def _time_zone(data: dict) -> ZoneInfo | None:
+    """The time zone Google reports for the first ride, e.g. Europe/Rome."""
+    for route in data.get("routes") or []:
+        for step in (route.get("legs") or [{}])[0].get("steps") or []:
+            times = (step.get("transitDetails") or {}).get("localizedValues") or {}
+            name = (times.get("departureTime") or {}).get("timeZone")
+            if name:
+                try:
+                    return ZoneInfo(name)
+                except ZoneInfoNotFoundError:
+                    return None
+    return None
+
+
+def _departure_utc(depart_at: datetime, zone: ZoneInfo, now: datetime) -> tuple[datetime | None, str]:
+    """The local departure time in UTC, or None and the reason it can't be searched."""
+    utc = depart_at.replace(tzinfo=zone).astimezone(timezone.utc)
+    if utc < now - timedelta(days=7):
+        return None, "The travel time is in the past, so the current timetable is shown."
+    if utc > now + timedelta(days=MAX_TRANSIT_DAYS_AHEAD):
+        return None, (f"Google has timetables up to {MAX_TRANSIT_DAYS_AHEAD} days ahead, so the current timetable "
+                      "is shown; on the travel day departure times will differ.")
+    return utc, ""
+
+
 def _address(place: str, city: str | None) -> str:
     return f"{place}, {city}" if city and city.lower() not in place.lower() else place
 
@@ -162,13 +193,29 @@ def _driving(car: dict, origin: str, destination: str, us: bool, checked: str) -
     return driving
 
 
-def search_local_transport(origin: str, destination: str, city: str | None = None) -> dict:
-    """Public transport and driving between two places. Raises LiveDataError so
-    callers can fall back to snapshot data."""
+def search_local_transport(origin: str, destination: str, city: str | None = None,
+                           depart_at: datetime | None = None) -> dict:
+    """Public transport and driving between two places. depart_at is a local
+    travel time (no time zone); public transport is then searched for that time.
+    Raises LiveDataError so callers can fall back to snapshot data."""
     ends = {"origin": {"address": _address(origin, city)}, "destination": {"address": _address(destination, city)}}
     ttl = config.CACHE_TTL_SECONDS["transport"]
-    transit = post(ROUTES_URL, {**ends, "travelMode": "TRANSIT", "computeAlternativeRoutes": True,
-                                "languageCode": "en", "units": "METRIC"}, TRANSIT_FIELDS, ttl, "Google Routes")
+    transit_body = {**ends, "travelMode": "TRANSIT", "computeAlternativeRoutes": True, "languageCode": "en",
+                    "units": "METRIC"}
+    transit = post(ROUTES_URL, transit_body, TRANSIT_FIELDS, ttl, "Google Routes")
+    timing = {"departure_time": None,
+              "timetable_note": "Departure times come from the current timetable and will differ on the travel day."}
+    if depart_at is not None:
+        zone = _time_zone(transit.data)
+        utc, reason = _departure_utc(depart_at, zone, datetime.now(timezone.utc)) if zone else (
+            None, "The route's time zone is unknown, so the current timetable is shown.")
+        if utc:
+            transit = post(ROUTES_URL, {**transit_body, "departureTime": utc.strftime("%Y-%m-%dT%H:%M:%SZ")},
+                           TRANSIT_FIELDS, ttl, "Google Routes")
+            timing = {"departure_time": f"{depart_at:%a %d %b %Y, %H:%M} local time",
+                      "timetable_note": f"Times are for {depart_at:%a %d %b %Y}, leaving from {depart_at:%H:%M}."}
+        else:
+            timing["timetable_note"] = reason
     drive = post(ROUTES_URL, {**ends, "travelMode": "DRIVE", "routingPreference": "TRAFFIC_UNAWARE",
                               "languageCode": "en", "units": "METRIC"}, DRIVE_FIELDS, ttl, "Google Routes")
     try:
@@ -180,8 +227,7 @@ def search_local_transport(origin: str, destination: str, city: str | None = Non
     driving = _driving(car, origin, destination, _in_us(city, origin, destination), checked_at(drive)) if car else None
     if not options and not driving:
         raise LiveDataError("Google Routes found no route between those places. Try fuller place names.")
-    notes = ["Live from Google Maps. Public transport times are from the current timetable; on your travel day the "
-             "departure times will differ, but the lines and trip length are a good guide."]
+    notes = ["Live from Google Maps.", timing["timetable_note"]]
     if rates and any(o["fare_per_person_usd"] is not None for o in options):
         notes.append(rates.note())
     return {
@@ -190,6 +236,7 @@ def search_local_transport(origin: str, destination: str, city: str | None = Non
         "checked_at": checked_at(transit),
         "from": ends["origin"]["address"],
         "to": ends["destination"]["address"],
+        **timing,
         "public_transport": options,
         "driving": driving,
         "note": " ".join(notes),

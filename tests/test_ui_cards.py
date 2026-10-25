@@ -142,3 +142,12 @@ def test_snapshot_results_get_cards_too():
 def test_cards_rule_is_only_in_the_app_prompt():
     assert agent_module.CARDS_RULE in agent_module.system_prompt(date(2026, 10, 23), cards=True)
     assert agent_module.CARDS_RULE not in agent_module.system_prompt(date(2026, 10, 23))
+
+
+def test_headings_show_found_and_shown_counts_and_the_travel_day():
+    stays = {**STAYS, "stay_count": 11, "stays_shown": 10}
+    transport = {**TRANSPORT, "departure_time": "Fri 06 Nov 2026, 14:30 local time",
+                 "timetable_note": "Times are for Fri 06 Nov 2026, leaving from 14:30."}
+    text = _text(_cards([_call("search_accommodations", stays), _call("get_local_transport", transport)]))
+    assert "· 10 of 11 shown" in text
+    assert "Fri 06 Nov 2026, 14:30 local time" in text and "leaving from 14:30" in text

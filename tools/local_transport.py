@@ -7,13 +7,15 @@ their March 2022 self-driving and taxi options.
 """
 
 import json
+import re
+import datetime as dt
 
 from langchain_core.tools import tool
 
 import config
 from live.http import LiveDataError
 from live.routes import search_local_transport
-from security.validation import InputValidationError, validate_city, validate_place
+from security.validation import InputValidationError, validate_city, validate_date, validate_place
 from travel_data.catalog import load_catalog
 
 
@@ -27,14 +29,34 @@ def _snapshot(origin: str, destination: str) -> list[dict]:
              "seats_per_vehicle": 5 if r.mode == "self-driving" else 4} for r in routes if r]
 
 
-def find_local_transport(origin: str, destination: str, city: str | None = None) -> dict:
+DEFAULT_TIME = dt.time(10, 0)  # when only a date is given
+
+
+def _travel_time(day: str | None, clock: str | None) -> dt.datetime | None:
+    """The local travel time from a YYYY-MM-DD date and an optional HH:MM time."""
+    if not day:
+        if clock:
+            raise InputValidationError("A travel time needs a travel date too (YYYY-MM-DD).")
+        return None
+    when = dt.date.fromisoformat(validate_date(day))
+    if not clock:
+        return dt.datetime.combine(when, DEFAULT_TIME)
+    match = re.match(r"^([01]?\d|2[0-3]):([0-5]\d)$", str(clock).strip())
+    if not match:
+        raise InputValidationError(f"'{clock}' isn't a valid time. Use the 24-hour HH:MM format, e.g. 14:30.")
+    return dt.datetime.combine(when, dt.time(int(match.group(1)), int(match.group(2))))
+
+
+def find_local_transport(origin: str, destination: str, city: str | None = None, date: str | None = None,
+                         time: str | None = None) -> dict:
     origin, destination = validate_place(origin, "Origin"), validate_place(destination, "Destination")
     city = validate_city(city) if city else None
+    depart_at = _travel_time(date, time)
     if not config.GOOGLE_MAPS_API_KEY:
         reason = "Live public transport is off (no Google Maps key)."
     else:
         try:
-            live = search_local_transport(origin, destination, city)
+            live = search_local_transport(origin, destination, city, depart_at)
         except LiveDataError as error:
             reason = f"Live route search failed ({error})."
         else:
@@ -49,14 +71,18 @@ def find_local_transport(origin: str, destination: str, city: str | None = None)
 
 
 @tool
-def get_local_transport(origin: str, destination: str, city: str | None = None) -> str:
+def get_local_transport(origin: str, destination: str, city: str | None = None, date: str | None = None,
+                        time: str | None = None) -> str:
     """How to get between two places, for example an airport and a hotel, or a
     hotel and a museum, in any city. Returns up to three public transport routes
     (fastest first) with step-by-step directions: lines, where to get on and
     off, stops, times, walking and the fare when published; plus driving time and
     distance for a taxi or car (no taxi fares). Give place names or addresses;
-    city helps when a place name is ambiguous. Each route has an id for plans."""
+    city helps when a place name is ambiguous. Each route has an id for plans.
+    date (YYYY-MM-DD) and time (24-hour HH:MM, local) search public transport for
+    the travel day, up to 100 days ahead; for an airport transfer use the flight's
+    arrival date and time. Without them, times come from today's timetable."""
     try:
-        return json.dumps(find_local_transport(origin, destination, city))
+        return json.dumps(find_local_transport(origin, destination, city, date, time))
     except InputValidationError as error:
         return json.dumps({"error": str(error)})

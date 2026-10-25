@@ -67,7 +67,7 @@ You ──► Streamlit app ──► Agent (Claude Haiku 5.5 via OpenRouter, to
 | `search_flights` | `tools/transport.py` | Live Google Flights for a date, grouped by airline, cheapest first, with flight numbers, times, stops and price per person (and the group total). Falls back to TravelPlanner's 2022 US flights or an estimated flight time |
 | `search_accommodations` | `tools/places.py` | Live Airbnb (default) or Google Hotels stays for the dates and guests, with nightly and total prices, ratings, free cancellation and booking links. Falls back to the snapshot stays with exact filters (price, room type, house rules) |
 | `search_restaurants` | `tools/places.py` | Live Google Places restaurants by city and cuisine, with price range per person (local currency and USD), rating, opening hours and a Maps link |
-| `get_local_transport` | `tools/local_transport.py` | Live Google Routes public transport between two places (lines, stops, times, fares where published) and driving time for a car or taxi, with an estimated cost per car in the US (IRS 2026 mileage rate) |
+| `get_local_transport` | `tools/local_transport.py` | Live Google Routes public transport between two places for the travel day and time (lines, stops, times, fares where published) and driving time for a car or taxi, with an estimated cost per car in the US (IRS 2026 mileage rate) |
 | `search_destination_options` | `tools/destinations.py` | RAG search over the knowledge base for open questions such as "museums for kids in Chicago" |
 | `calculate_trip_cost` | `tools/planning.py` | Costs a day-by-day plan from live ids or snapshot names, including airport transfers, in any currency, marking each line live, snapshot or estimate and listing unpriced items |
 | `check_constraints` | `tools/planning.py` | Checks a plan: budget, house rule, room type, cuisines, banned transport, items that exist, no repeated restaurants or attractions, minimum nights, a stay every night and stays that fit the group |
@@ -149,7 +149,7 @@ Open <http://localhost:8501>. On the first start the app downloads a small embed
 python -m pytest -q
 ```
 
-196 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and result cards, and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+207 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, the app screen and result cards, and the security checks. Test coverage is about 96%. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -178,10 +178,10 @@ legacy/tripmate/        The first version's tools, kept for reference
 - **Prices that aren't available:** taxi fares, many public transport fares, attraction tickets and some restaurant prices are not published by the sources, so they are listed as unpriced and left out of totals. US driving costs are an IRS-rate estimate without tolls or parking.
 - **Snapshot coverage:** smaller US cities still fall back to TravelPlanner's 2022 data when live search isn't available.
 - **Round trips** are searched as two one-way flights; real round-trip fares can be a little cheaper.
-- **Public transport times** come from the current timetable, not your travel day.
+- **Public transport times** are for your travel day up to 100 days ahead (Google's limit); further ahead they come from the current timetable.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain, such as naming a train service. Tools supply all prices, ids and links to keep this to the text.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
-- **Next steps:** searching transit by departure time, hybrid search (BM25 plus vectors), a RAGAS evaluation of retrieval quality, scoring plans with the TravelPlanner evaluator, and serving the tools as an MCP server.
+- **Next steps:** hybrid search (BM25 plus vectors), a RAGAS evaluation of retrieval quality, scoring plans with the TravelPlanner evaluator, and serving the tools as an MCP server.
 
 ## Attribution
 

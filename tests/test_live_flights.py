@@ -116,3 +116,10 @@ def test_price_text_for_one_and_for_groups(serpapi):
     assert one["price_text"] == "$35 per person"
     group = search_live_flights("London", "Rome", FUTURE, passengers=2)["airlines"][0]["flights"][0]
     assert group["price_text"] == "$17.50 per person · $35 total for 2"
+
+
+def test_found_and_shown_counts(serpapi, monkeypatch):
+    monkeypatch.setattr("live.flights.MAX_FLIGHTS_SHOWN", 3)
+    result = find_transport("London", "Rome", FUTURE)
+    assert result["flights_shown"] == sum(len(g["flights"]) for g in result["airlines"]) == 3
+    assert f"Showing the 3 cheapest of {result['flight_count']} flights found." in result["note"]

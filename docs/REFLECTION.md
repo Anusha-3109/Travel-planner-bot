@@ -8,7 +8,7 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 2. **Tools.** Six domain tools covered flights, restaurants, stays, semantic place search, trip costing and constraint checks. The costing and checking tools follow TravelPlanner's rules (meals and flights per person, cars per 5 travellers, rooms by occupancy).
 3. **Beyond the US and beyond 2022.** The dataset is US-only and four years old, so I added 16 European and Asian cities from Inside Airbnb (September 2026) and OpenStreetMap, then live data: Google Flights, Airbnb and Google Hotels through SerpApi, Google Places restaurants, Google Routes for public transport and driving, and daily exchange rates. Finally I added 2026 Inside Airbnb and OpenStreetMap data for 34 US areas, so the snapshot fallback is current for the main US cities.
 4. **Result cards.** The app draws flights, stays, restaurants, transport and the trip cost as cards from the tools' own results, so they look the same in every answer and the written answer can focus on the best picks.
-5. **Hardening.** A security review (key redaction in logs, screening of tool results for injected instructions), a test suite of 196 tests at 96% coverage, and a GitHub Actions workflow that runs them on every push.
+5. **Hardening.** A security review (key redaction in logs, screening of tool results for injected instructions), a test suite of 207 tests at 96% coverage, and a GitHub Actions workflow that runs them on every push.
 
 ## Key decisions
 
@@ -46,5 +46,4 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 
 1. **Evaluation:** run the agent on a sample of TravelPlanner's validation questions with the 2022 catalog and report how many plans are complete and pass the hard and commonsense constraints; compare with and without retrieval.
 2. **Hybrid search:** keyword plus vector search, which would fix weak semantic matches such as "seafood restaurant" on names-only records.
-3. **Transit by departure time**, so public transport times match the travel day.
-4. **An LLM-based injection classifier** alongside the patterns.
+3. **An LLM-based injection classifier** alongside the patterns.

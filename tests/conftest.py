@@ -17,6 +17,9 @@ def no_live_calls(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "SERPAPI_API_KEY", "")
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "")
     monkeypatch.setattr(config, "CACHE_DB", tmp_path / "live-cache.sqlite3")
+    # A fresh per-chat live search budget, so mocked searches in earlier tests don't use it up.
+    from live import budget
+    monkeypatch.setattr(budget, "_default", budget.SessionBudget())
 
 
 @pytest.fixture(scope="session")

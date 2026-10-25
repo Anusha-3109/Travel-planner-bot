@@ -106,3 +106,10 @@ def test_free_cancellation_text(serpapi):
     stays = find_accommodations("Rome", people=2, **DATES)["stays"]
     assert {s["cancellation_text"] for s in stays} <= {"Free cancellation", ""}
     assert all((s["cancellation_text"] == "Free cancellation") == s["free_cancellation"] for s in stays)
+
+
+def test_found_and_shown_counts(serpapi, monkeypatch):
+    monkeypatch.setattr("live.stays.MAX_STAYS_SHOWN", 2)
+    result = find_accommodations("Rome", people=2, **DATES)
+    assert result["stays_shown"] == len(result["stays"]) == 2 < result["stay_count"]
+    assert f"Showing the 2 cheapest of {result['stay_count']} stays found." in result["note"]

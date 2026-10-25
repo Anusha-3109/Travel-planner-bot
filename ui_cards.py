@@ -97,8 +97,15 @@ def _snapshot_flight_card(flight: dict) -> None:
     st.caption(" · ".join(p for p in (flight.get("duration"), f"{flight.get('distance_miles')} miles") if p))
 
 
+def _shown(data: dict, shown_key: str, found_key: str) -> str:
+    """The heading's "10 of 11 shown" part, when a tool shows fewer results than it found."""
+    shown, found = data.get(shown_key), data.get(found_key)
+    return f" · {shown} of {found} shown" if isinstance(shown, int) and isinstance(found, int) and shown < found else ""
+
+
 def flight_cards(data: dict) -> None:
-    st.markdown(f"##### :material/flight: Flights · {_md(data.get('route', ''))} · {data.get('date', '')}")
+    st.markdown(f"##### :material/flight: Flights · {_md(data.get('route', ''))} · {data.get('date', '')}"
+                + _shown(data, "flights_shown", "flight_count"))
     _source_badge(data.get("flights_source"))
     if data.get("airlines"):
         _grid(data["airlines"], _airline_card)
@@ -132,7 +139,8 @@ def _snapshot_stay_card(stay: dict) -> None:
 
 def stay_cards(data: dict) -> None:
     dates = f" · {data['check_in']} to {data['check_out']}" if data.get("check_in") else ""
-    st.markdown(f"##### :material/hotel: Stays · {_md(data.get('city', ''))}{dates}")
+    st.markdown(f"##### :material/hotel: Stays · {_md(data.get('city', ''))}{dates}"
+                + _shown(data, "stays_shown", "stay_count"))
     _source_badge(data.get("stays_source"))
     if data.get("stays"):
         _grid(data["stays"], _live_stay_card)
@@ -204,14 +212,16 @@ def _ground_card(option: dict) -> None:
 
 def transport_cards(data: dict) -> None:
     st.markdown(f"##### :material/directions_transit: Getting around · {_md(data.get('from', ''))} → "
-                f"{_md(data.get('to', ''))}")
+                f"{_md(data.get('to', ''))}"
+                + (f" · {_md(data['departure_time'])}" if data.get("departure_time") else ""))
     _source_badge(data.get("transport_source"))
     cards = [(_transit_card, o) for o in data.get("public_transport") or []]
     if data.get("driving"):
         cards.append((_drive_card, data["driving"]))
     cards += [(_ground_card, g) for g in data.get("ground_options") or []]
     _grid(cards, lambda card: card[0](card[1]))
-    st.caption("Departure times come from the current timetable and will differ on the travel day.")
+    st.caption(_md(data.get("timetable_note")
+                   or "Departure times come from the current timetable and will differ on the travel day."))
 
 
 # Trip cost and checks
