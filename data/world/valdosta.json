@@ -1,0 +1,952 @@
+{
+ "city": "Valdosta",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 30.8451,
+ "longitude": -83.2828,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Best Western Plus Valdosta Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4025 Northlake Drive, 31602-2386, Valdosta",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-valdosta/best-western-plus-valdosta-hotel-suites/propertyCode.11213.html"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1308 North Street Augustine Road, 31601, Valdosta",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-valdosta-ga"
+  },
+  {
+   "name": "Fairfield Inn & Suites Valdosta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2010 West Hill Avenue, 31601, Valdosta",
+   "url": "https://www.marriott.com/vldfv"
+  },
+  {
+   "name": "Courtyard Valdosta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1564 Baytree Road, 31602, Valdosta",
+   "url": "https://www.marriott.com/vldcy"
+  },
+  {
+   "name": "Baymont Valdosta at Valdosta Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1725 Gornto Road, 31601, Valdosta",
+   "url": "https://www.wyndhamhotels.com/baymont/valdosta-georgia/baymont-inn-and-suites-valdosta-at-valdosta-mall/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Valdosta/Conf Center Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1825 West Hill Avenue, 31601, Valdosta",
+   "url": "https://www.wyndhamhotels.com/super-8/valdosta-georgia/super-8-valdosta-conf-center-area/overview"
+  },
+  {
+   "name": "Holiday Inn Valdosta Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1805 West Hill Avenue, 31601, Valdosta",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/valdosta/vldsa/hoteldetail"
+  },
+  {
+   "name": "Days Inn Valdosta at Rainwater Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1827 West Hill Avenue, 31601, Valdosta",
+   "url": "https://www.wyndhamhotels.com/days-inn/valdosta-georgia/days-inn-valdosta-i-75/overview"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3022 James Road, 31601, Valdosta",
+   "url": "https://www.choicehotels.com/georgia/valdosta/quality-inn-hotels"
+  },
+  {
+   "name": "Relish",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "914 Baytree Road, 31602, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Club House Drive, 31601, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Valdosta, GA - University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2003 West Hill Avenue, 31601, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn At The Mall - Valdosta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1705 Gornto Road, 31601, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Briarwood Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1934 Briarwood Road, 31601, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Super Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1828 West Hill Avenue, 31601, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2811 North Ashley Street, 31602, Valdosta",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Garden Villas Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2529 North Ashley Street",
+   "url": ""
+  },
+  {
+   "name": "Jolly Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites Extended",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "John the Baptist Masonic Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Del-Mar Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ashley Oaks Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Big 7 Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "American Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Fairway Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3350 Country Club Road, 31602, Valdosta",
+   "website": "https://www.fairway-tavern.com"
+  },
+  {
+   "name": "Mello's Juicy Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2139 Bemiss Road, 31602, Valdosta",
+   "website": "https://mellowsjuicycrab.com"
+  },
+  {
+   "name": "Osaka Hibachi & Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "3310 Inner Perimeter Road, 31602, Valdosta",
+   "website": "https://www.osakavaldosta.com"
+  },
+  {
+   "name": "The Mill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1337 Baytree Road, 31601, Remerton",
+   "website": "https://www.themillpizzabuffet.com/home.html"
+  },
+  {
+   "name": "The Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "132 North Ashley Street, 31601, Valdosta",
+   "website": "https://www.bistrovaldosta.com/"
+  },
+  {
+   "name": "China Wok II",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2129 Bemiss Road, 31602, Valdosta",
+   "website": "https://chinawok2valdosta.com/"
+  },
+  {
+   "name": "Saigon Corner",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1707 Norman Drive, 31601, Valdosta",
+   "website": "https://saigoncornervaldosta.us/"
+  },
+  {
+   "name": "El Paso",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "110 North Ashley Street, 31601, Valdosta",
+   "website": "https://www.elpasovaldosta.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1823 West Hill Drive, 31601, Valdosta",
+   "website": "https://locations.pizzahut.com/ga/valdosta/1823-west-hill-dr"
+  },
+  {
+   "name": "Covington’s",
+   "cuisines": [
+    "American"
+   ],
+   "address": "310 North Patterson Street, 31601, Valdosta",
+   "website": "https://www.covingtonscatering.com"
+  },
+  {
+   "name": "Cicis",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "1717 Norman Drive, 31601, Valdosta",
+   "website": "https://www.cicis.com/locations/ga-valdosta-1717-norman-dr"
+  },
+  {
+   "name": "Pedro's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2905 North Ashley Street, 31602, Valdosta",
+   "website": "https://www.pedrosvaldosta.com"
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1195 Saint Augustine Road, 31601, Valdosta",
+   "website": "https://www.crackerbarrel.com/Locations/States/ga/valdosta/35/"
+  },
+  {
+   "name": "Empanadas & More",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "402 Northside Drive, 31602-1800, Valdosta",
+   "website": "https://www.empanadasandmorevaldosta.com"
+  },
+  {
+   "name": "Jessie's Restaurant & Catering",
+   "cuisines": [
+    "American"
+   ],
+   "address": "205-207 North Ashley Street, 31602, Valdosta",
+   "website": "https://www.jessiesvaldosta.com/"
+  },
+  {
+   "name": "Chow Town",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1550 Baytree Road, 31602, Valdosta",
+   "website": "http://chowtownga.com/"
+  },
+  {
+   "name": "Friends Grille and Bar",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "3338 Country Club Rd, 31605, Valdosta",
+   "website": "www.friendsgrilleandbar.com"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ga/valdosta/1301-st.-augustine-road-88067"
+  },
+  {
+   "name": "Zulu Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1430 East Park Avenue, 31602, Valdosta",
+   "website": "https://zulucrabshack-ga.com"
+  },
+  {
+   "name": "Sabor Mi Veracruz",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1650-F Baytree Road, 31602, Valdosta",
+   "website": "https://sabormiveracruzga.com/"
+  },
+  {
+   "name": "Chapinmix Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "419 Northside Drive",
+   "website": "https://www.facebook.com/p/Chapinmex-Taqueria-61560266540965/"
+  },
+  {
+   "name": "Fin & Feathers",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1700 Norman Drive, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Fat Tony's",
+   "cuisines": [
+    "Sub"
+   ],
+   "address": "414 Northside Drive, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Royal Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3268 Inner Perimeter Road, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1207 Baytree Road, 31602, Remerton",
+   "website": ""
+  },
+  {
+   "name": "Cajun Wild Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of the Island Grocery & Food",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "2029 North Ashley Street, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Passage 2 India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2910 North Ashley Street, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "3219 North Oak Street Extension, 31605, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Mo's Mediterranean Table",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "200 N Patterson St,, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "King of R&B",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3262 Inner Perimeter Road, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Thai Chang",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2910 North Ashley Street, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Omelette House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1337 Baytree Road, 31601, Remerton",
+   "website": ""
+  },
+  {
+   "name": "Masato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1337 Baytree Road, 31601, Remerton",
+   "website": ""
+  },
+  {
+   "name": "Persis Biryani Indian Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3008 James Circle, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Asahi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "Remerton",
+   "website": ""
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cheddar's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Whiskey River Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1703 Gornto Road, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Wharf Casual Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2953 North Ashley Street, 31602, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Lion of Judah Ethiopian American Cuisine",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "2525 North Ashley Street",
+   "website": ""
+  },
+  {
+   "name": "Wildflower Café",
+   "cuisines": [
+    "Soup",
+    "Sandwhich"
+   ],
+   "address": "401 Northside Drive",
+   "website": ""
+  },
+  {
+   "name": "Big Nicks",
+   "cuisines": [
+    "Barbecue",
+    "Soul",
+    "Cajun"
+   ],
+   "address": "1201 Baytree Road, 31602, Remerton",
+   "website": ""
+  },
+  {
+   "name": "El Sazon Mexicano Restaurant and Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "607 Baytree Road, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "306 North",
+   "cuisines": [
+    "American"
+   ],
+   "address": "306 North Patterson Street, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Downtown Social",
+   "cuisines": [
+    "American"
+   ],
+   "address": "206 North Patterson Street, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "El Toreo Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hibachi Express",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Jalisco Supermercado",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hip Hop Fish & Chicken",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sam's Carry Out BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peking",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Patrona",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ming's Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Cazador",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Brazas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bleu Pub",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Austin's Cattle Company",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Wall Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama June’s Country Buffet",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mori's",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bejing Cafe",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rodeo Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Southern Shores Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wooden Nickel Pub",
+   "cuisines": [],
+   "address": "3255 Inner Perimeter Road, 31602, Valdosta",
+   "website": "http://www.thewoodennickelpub.com"
+  },
+  {
+   "name": "Chipotle Mexican Grill",
+   "cuisines": [],
+   "address": "1108 Saint Augustine Road, 31601, Valdosta",
+   "website": "https://locations.chipotle.com/ga/valdosta/1108-n-saint-augustine-rd"
+  },
+  {
+   "name": "Hog-N-Bones",
+   "cuisines": [],
+   "address": "1001 Saint Augustine Road, 31601, Valdosta",
+   "website": "https://hognbones.com/"
+  },
+  {
+   "name": "Dairy Queen",
+   "cuisines": [],
+   "address": "1395 Saint Augustine Road, 31602, Valdosta",
+   "website": "https://www.dairyqueen.com/en-us/"
+  },
+  {
+   "name": "Shake it Up Milkshake Bar",
+   "cuisines": [],
+   "address": "121 North Patterson Street, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Mother's Soup Company",
+   "cuisines": [],
+   "address": "117 North Ashley Street, 31601, Valdosta",
+   "website": ""
+  },
+  {
+   "name": "Deli House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zacadoo's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ella's Top Corral",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ole Times Country Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Front Porch",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sazon Boricua",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bubba Jax Crab Shack",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Giulio's Greek",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stacy's Kountry Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Berta's Pizza Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Surcheros",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The Crescent",
+   "kind": "attraction",
+   "address": "904 North Patterson Street, 31604, Valdosta",
+   "website": "",
+   "phone": "",
+   "latitude": 30.8394737,
+   "longitude": -83.2840445
+  },
+  {
+   "name": "Lowndes County Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.830519,
+   "longitude": -83.2827564
+  }
+ ]
+}

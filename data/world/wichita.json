@@ -1,0 +1,1448 @@
+{
+ "city": "Wichita",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.6918,
+ "longitude": -97.3388,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Garden Inn Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2041 North Bradley Fair Parkway, 67206, Wichita",
+   "url": "https://www.hilton.com/en/hotels/ictwhgi-hilton-garden-inn-wichita/"
+  },
+  {
+   "name": "Courtyard by Marriott Wichita at Old Town",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 East 2nd Street North, 67202, Wichita",
+   "url": "https://www.marriott.com/hotels/travel/ictdt-courtyard-wichita-at-old-town/"
+  },
+  {
+   "name": "Hampton Inn Wichita-East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9449 East Corporate Hills Drive, 67207, Wichita",
+   "url": "https://www.hilton.com/en/hotels/icteahx-hampton-wichita-east/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6633 West Kellogg Drive, 67209, Wichita",
+   "url": "https://www.marriott.com/ictww"
+  },
+  {
+   "name": "Hampton Inn & Suites Wichita/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7230 West Harry Street, 67209, Wichita",
+   "url": "https://www.hilton.com/en/hotels/ictaphx-hampton-suites-wichita-airport/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 South Webb Road, 67207, Wichita",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-wichita-bec-ks"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3800 West Kellogg Drive, 67213, Wichita",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-wichita/best-western-plus-wichita-west-airport-inn/propertyCode.17141.html"
+  },
+  {
+   "name": "Comfort Suites Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7515 West Taft Street, 67209, Wichita",
+   "url": "https://www.choicehotels.com/kansas/wichita/country-inn-suites-hotels"
+  },
+  {
+   "name": "Super 8 Wichita East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8220 East Kellogg, 67207, Wichita",
+   "url": "https://www.wyndhamhotels.com/super-8/wichita-kansas/super-8-wichita-east/overview"
+  },
+  {
+   "name": "Days Inn & Suites Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4875 Laura Street, 67216, Wichita",
+   "url": "https://www.wyndhamhotels.com/days-inn/wichita-kansas/days-inn-and-suites-wichita/overview"
+  },
+  {
+   "name": "Super 8 Wichita Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6245 West Kellogg, 67209, Wichita",
+   "url": "https://www.wyndhamhotels.com/super-8/wichita-kansas/super-8-wichita-airport/overview"
+  },
+  {
+   "name": "AC Hotel Wichita Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "105 South Broadway Avenue, 67202, Wichita",
+   "url": "https://www.marriott.com/en-us/hotels/ictad-ac-hotel-wichita-downtown/overview/"
+  },
+  {
+   "name": "Super 8 by Wyndham Wichita South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4848 Laura Street, 67216, Wichita",
+   "url": "https://www.wyndhamhotels.com/super-8/wichita-kansas/super-8-wichita-south/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Wichita East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "417 South Webb Road, 67207, Wichita",
+   "url": "https://www.marriott.com/ictfe"
+  },
+  {
+   "name": "Eastgate Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8300 East Kellogg, 67207-1814, Wichita",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-wichita/best-western-plus-eastgate-inn-suites/propertyCode.17130.html"
+  },
+  {
+   "name": "Fairfield Inn & Suites Wichita Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 South Main Street, 67202, Wichita",
+   "url": "https://www.marriott.com/ictfd"
+  },
+  {
+   "name": "Comfort Inn East Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9525 East Corporate Hills Drive, 67207, Wichita",
+   "url": "https://www.choicehotels.com/kansas/wichita/country-inn-suites-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Wichita Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1236 South Dugan Road, 67202, Wichita",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wichita/ictus/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn Wichita Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 East Douglas Avenue, 67202, Wichita",
+   "url": "https://www.hilton.com/en/hotels/ictdtgi-hilton-garden-inn-wichita-downtown/"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4742 South Emporia, 67216-1771, Wichita",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-wichita/best-western-governors-inn-suites/propertyCode.17116.html"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4703 East 19th Street North, 67208, Wichita",
+   "url": "https://www.hyatt.com/en-us/hotel/kansas/hyatt-place-at-wichita-state-university/ictzw"
+  },
+  {
+   "name": "Hyatt Regency Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 West Waterman, 67202, Wichita",
+   "url": "https://www.hyatt.com/en-us/hotel/kansas/hyatt-regency-wichita/wicrw"
+  },
+  {
+   "name": "The VUE Luxury Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3110 North Ridge Road, 67205, Wichita",
+   "url": "https://thevue29.com/"
+  },
+  {
+   "name": "The Inn at Tallgrass",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2280 North Tara Circle, 67226, Wichita",
+   "url": "https://theinnattallgrass.com/"
+  },
+  {
+   "name": "Hilton Wichita Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2098 Airport Road, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6335 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Coratel Inn & Suites By Jasper Wesley Hospital",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3343 East Central Avenue, 67208, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Windham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5500 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6575 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Marriott Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9100 East Corporate Hills Drive",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5736 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5211 East Kellogg Drive, 67218, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Wichita East I-35",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "549 South Rock Road, 67207, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Nguyen Golden Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6815 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5505 West Kellogg Drive, 67209, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Wichita South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4860 Laura Street, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4849 Laura Street, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Wichita North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3401 North Great Plains Street, 67220, Wichita",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Springfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "607 East 47th Street South, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Value Place Wichita South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4665 South Broadway Avenue, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Heritage Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4539 South Broadway Avenue, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "El Rancho Motel - Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4510 South Broadway Avenue, 67216, Wichita",
+   "url": ""
+  },
+  {
+   "name": "Hawthorn Suites by Wyndham Wichita East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Drury Plaza Hotel Broadview Wichita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 West Douglas Avenue, Wichita",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Wichita Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Wichita - East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Wichita Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Wichita East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn & Suites Wichita East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn Wichita North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites - Wichita Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aloft",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "316 Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Auto Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Mark 8 Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Airport Lodge Wichita Kansas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Starlite Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ambassador Hotel Wichita, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Guild Plaza Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Kimlan Sandwiches",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1035 North Broadway, 67214, Wichita",
+   "website": "https://kimlansandwiches.com"
+  },
+  {
+   "name": "M & M Bierock",
+   "cuisines": [
+    "Corporate Catering"
+   ],
+   "address": "2065 East Central Avenue, 67214, Wichita",
+   "website": "https://mandmbierockks.com"
+  },
+  {
+   "name": "Doo-Dah Diner",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "206 E Kellog St, 67202, Wichita",
+   "website": "https://www.doodahdiner.com/"
+  },
+  {
+   "name": "Bella Vita Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "120 North West Street, Wichita",
+   "website": "https://www.bellavitabistroict.com/"
+  },
+  {
+   "name": "Old Chicago",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "300 North Mead Street, 67202, Wichita",
+   "website": "https://oldchicago.com/locations/wichita-old-town"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "410 North Hillside Street, 67208, Wichita",
+   "website": "https://locations.pizzahut.com/ks/wichita/410-n-hillside-st"
+  },
+  {
+   "name": "Georges French Bistro",
+   "cuisines": [
+    "French"
+   ],
+   "address": "4618 East Central Avenue, 67208, Wichita",
+   "website": "https://georgesfrenchbistro.com"
+  },
+  {
+   "name": "Dragon City Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3008 West Central Avenue, 67203",
+   "website": "http://dragoncitywichitaks.com"
+  },
+  {
+   "name": "Artichoke Sandwichbar",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "811 North Broadway Street, 67214, Wichita",
+   "website": "https://artichokesandwichbar.com"
+  },
+  {
+   "name": "Copper Oven Cafe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2409 West 13th Street North, 67203, Wichita",
+   "website": "https://copperovencafe.com"
+  },
+  {
+   "name": "Connie's Mexico Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2227 North Broadway Street, 67219, Wichita",
+   "website": "https://conniesmexicocafeict.com"
+  },
+  {
+   "name": "FioRito Ristorante",
+   "cuisines": [
+    "Regional",
+    "Italian"
+   ],
+   "address": "3134 East Douglas Avenue, 67214, Wichita",
+   "website": "https://www.fioritoristorante.com/"
+  },
+  {
+   "name": "Dempsey's Burger Pub",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "3700 East Douglas Avenue, Wichita",
+   "website": "https://dempseysburgerpub.com/wichita/"
+  },
+  {
+   "name": "Piatto Neapolitan Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1706 East Douglas Avenue, 67211, Wichita",
+   "website": "https://www.piattoict.com/restaurant"
+  },
+  {
+   "name": "Sabor Latin Bar & Grille",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "309 North Mead Street, 67202",
+   "website": "https://saborgrillwichita.com/"
+  },
+  {
+   "name": "Beacon Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "900 East Douglas Avenue, 67202, Wichita",
+   "website": "https://beaconrestaurant.restaurantwebexpert.com/"
+  },
+  {
+   "name": "HomeGrown",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "645 East Douglas Avenue, 67202, Wichita",
+   "website": "https://www.homegrownwichita.com/"
+  },
+  {
+   "name": "La Galette Cafe",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1017 West Douglas Avenue, 67213",
+   "website": "http://facebook.com/pages/La-Galette-French-Bakery/179827677750"
+  },
+  {
+   "name": "Great Wall Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "407 East Pawnee Street",
+   "website": "http://greatwallpawnee.com/"
+  },
+  {
+   "name": "Burger Central",
+   "cuisines": [
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "3302 West Central Avenue",
+   "website": "https://www.burgercentralwichita.com/"
+  },
+  {
+   "name": "Sushiya",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "325 North Mead Street, Wichita",
+   "website": "https://www.sushiyawichita.com/"
+  },
+  {
+   "name": "The Monarch",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://monarchwichita.com/"
+  },
+  {
+   "name": "Bite Me BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "123 North Saint Francis Street, 67202, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Mr Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "711 West 25th Street North, 67204, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Sara and Tedros Ethiopian Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "327 North Hillside Street, 67214, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "555 South West Street, 67213, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Gerardo's Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2801 West Central Avenue, 67203",
+   "website": ""
+  },
+  {
+   "name": "MilkFloat",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "535 West Douglas Avenue, 67213, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Wasabi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "914 East Douglas Avenue, 67202, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Larkspur",
+   "cuisines": [
+    "American"
+   ],
+   "address": "904 East Douglas Avenue, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Delano Barbeque Company",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "710 West Douglas Avenue, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Sakura",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "605 West Douglas Avenue",
+   "website": ""
+  },
+  {
+   "name": "Huddle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tanker BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Old Mill Tasty Shop",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "TJ's Burger House",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hog Wild",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saigon",
+   "cuisines": [
+    "Oriental"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Saigon",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Prost",
+   "cuisines": [
+    "German"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Wall",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yokohama Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Station 8",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harry's Uptown Bar & Grill",
+   "cuisines": [],
+   "address": "3023 East Douglas Avenue, 67214, Wichita",
+   "website": "https://www.facebook.com/people/Harrys-Uptown/100037636991748/"
+  },
+  {
+   "name": "The Belmont",
+   "cuisines": [],
+   "address": "3555 East Douglas Avenue, 67218, Wichita",
+   "website": "https://www.thebelmontks.com"
+  },
+  {
+   "name": "Larcher's Market",
+   "cuisines": [],
+   "address": "3555 East Douglas Avenue, 67218",
+   "website": "https://www.larchersmarket.com"
+  },
+  {
+   "name": "Tanya's Soup Kitchen",
+   "cuisines": [],
+   "address": "1725 East Douglas Avenue, 67211, Wichita",
+   "website": "https://www.tskwichita.com/"
+  },
+  {
+   "name": "Picasso's Pizzeria",
+   "cuisines": [],
+   "address": "621 West Douglas Avenue",
+   "website": "https://picassospizzerias.com/"
+  },
+  {
+   "name": "Eggcetera",
+   "cuisines": [],
+   "address": "242 North Mosley, 67211, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Ty's Diner",
+   "cuisines": [],
+   "address": "928 West 2nd Street",
+   "website": ""
+  },
+  {
+   "name": "B&C Creations",
+   "cuisines": [],
+   "address": "355 North Washington Avenue, 67202, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Big Biscuit",
+   "cuisines": [],
+   "address": "106 South Hydraulic Street, 67211, Wichita",
+   "website": ""
+  },
+  {
+   "name": "Spears Restaurant",
+   "cuisines": [],
+   "address": "4323 West Maple Street, 67209",
+   "website": ""
+  },
+  {
+   "name": "Doc Green's Gourmet Salad & Grill",
+   "cuisines": [],
+   "address": "410 North Hillside Street",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Authentica",
+   "cuisines": [],
+   "address": "South Seneca Street",
+   "website": ""
+  },
+  {
+   "name": "Gabby's Peruvian Restaurant",
+   "cuisines": [],
+   "address": "1002 South Seneca Street",
+   "website": ""
+  },
+  {
+   "name": "Hibachi Boy",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ziggy's Pizza",
+   "cuisines": [],
+   "address": "3700 East Douglas Ave",
+   "website": ""
+  },
+  {
+   "name": "Molino's",
+   "cuisines": [],
+   "address": "North Waco Street",
+   "website": ""
+  },
+  {
+   "name": "Playa Azul",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Capitan Seafood and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Meddys",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Depot Pizza & Taps",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "North Broadway Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Mexico Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Exploration Place - Science and Discovery Center",
+   "kind": "museum",
+   "address": "300 McLean Boulevard, 67203, Wichita",
+   "website": "https://exploration.org/",
+   "phone": "",
+   "latitude": 37.6893845,
+   "longitude": -97.3474044
+  },
+  {
+   "name": "Museum of World Treasures",
+   "kind": "museum",
+   "address": "835 East 1st Street North, Wichita",
+   "website": "https://www.worldtreasures.org/worldtreasures",
+   "phone": "",
+   "latitude": 37.687053,
+   "longitude": -97.327886
+  },
+  {
+   "name": "Old Cowtown Museum",
+   "kind": "museum",
+   "address": "1865 West Museum Boulevard, 67203, Wichita",
+   "website": "https://www.oldcowtown.org/Pages/default.aspx",
+   "phone": "",
+   "latitude": 37.693791,
+   "longitude": -97.362251
+  },
+  {
+   "name": "Kansas Aviation Museum",
+   "kind": "museum",
+   "address": "3350 South George Washington Boulevard, 67210, Wichita",
+   "website": "https://kansasaviationmuseum.org/",
+   "phone": "+1 316 683 9242",
+   "latitude": 37.6329253,
+   "longitude": -97.273647
+  },
+  {
+   "name": "Wichita - Sedgwick County Historical Museum",
+   "kind": "museum",
+   "address": "204 South Main Street, Wichita",
+   "website": "https://www.wichitahistory.org/",
+   "phone": "",
+   "latitude": 37.684725,
+   "longitude": -97.3378565
+  },
+  {
+   "name": "Kansas Firefighters Museum",
+   "kind": "museum",
+   "address": "1300 South Broadway Avenue, 67211, Wichita",
+   "website": "https://kansasfirefightersmuseum.com",
+   "phone": "",
+   "latitude": 37.6697,
+   "longitude": -97.335251
+  },
+  {
+   "name": "Great Plains Transportation Museum",
+   "kind": "museum",
+   "address": "700 East Douglas Avenue, 67202, Wichita",
+   "website": "https://www.gptm.us/",
+   "phone": "",
+   "latitude": 37.686327,
+   "longitude": -97.329563
+  },
+  {
+   "name": "Sedgwick County Zoo",
+   "kind": "zoo",
+   "address": "5555 West Zoo Boulevard, Wichita",
+   "website": "https://www.scz.org/",
+   "phone": "+1 316-660-9453",
+   "latitude": 37.7145851,
+   "longitude": -97.4113246
+  },
+  {
+   "name": "Kansas Sports Hall of Fame",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.kshof.org/",
+   "phone": "",
+   "latitude": 37.6807498,
+   "longitude": -97.3414334
+  },
+  {
+   "name": "The Wichita Botanica Gardens",
+   "kind": "attraction",
+   "address": "701 Amidon Street, 67203, Wichita",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6959614,
+   "longitude": -97.3646739
+  },
+  {
+   "name": "Kansas African American Museum",
+   "kind": "museum",
+   "address": "601 North Water Street, 67203, Wichita",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6949585,
+   "longitude": -97.3398212
+  },
+  {
+   "name": "Frank Lloyd Wright's Allen House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6897706,
+   "longitude": -97.2924463
+  },
+  {
+   "name": "Wichita Art Museum",
+   "kind": "museum",
+   "address": "1400 West Museum Boulevard, 67203-3200, Wichita",
+   "website": "https://wichitaartmuseum.org/",
+   "phone": "+1-316-268-4921",
+   "latitude": 37.69494,
+   "longitude": -97.356372
+  },
+  {
+   "name": "All Star Sports",
+   "kind": "theme park",
+   "address": "8333 West 21st Street North, 67205, Wichita",
+   "website": "https://sports.allstarwichita.com",
+   "phone": "+1 316-722-7529",
+   "latitude": 37.7209928,
+   "longitude": -97.4386893
+  },
+  {
+   "name": "CityArts",
+   "kind": "gallery",
+   "address": "334 North Mead Street, Wichita",
+   "website": "https://www.wichita.gov/cityarts",
+   "phone": "",
+   "latitude": 37.6907884,
+   "longitude": -97.3286885
+  },
+  {
+   "name": "Wichita State University - Lowell D Holmes Museum of Anthropology",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.wichita.edu/museums/holmes/index.php",
+   "phone": "",
+   "latitude": 37.7180109,
+   "longitude": -97.2928909
+  },
+  {
+   "name": "Wichita Toy Train Museum",
+   "kind": "museum",
+   "address": "130 Laura Street",
+   "website": "http://www.wichitatoytrainmuseum.org",
+   "phone": "",
+   "latitude": 37.6851662,
+   "longitude": -97.3234333
+  },
+  {
+   "name": "The Original Pizza Hut Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.wichita.edu/museums/pizzahutmuseum/index.php",
+   "phone": "",
+   "latitude": 37.7210321,
+   "longitude": -97.2865396
+  },
+  {
+   "name": "Indian Center Museum",
+   "kind": "museum",
+   "address": "650 North Seneca Street",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6921582,
+   "longitude": -97.3518042
+  },
+  {
+   "name": "B-29 Doc Hangar, Education and Visitors Center",
+   "kind": "museum",
+   "address": "1788 South Airport Road, 67209, Wichita",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6612901,
+   "longitude": -97.4229395
+  },
+  {
+   "name": "Boeing B-52D",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6314068,
+   "longitude": -97.2725909
+  },
+  {
+   "name": "Ulrich Museum of Art",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7170384,
+   "longitude": -97.2966096
+  },
+  {
+   "name": "Mopig's Collectibles and Custom Paint",
+   "kind": "gallery",
+   "address": "833 North West Street, Wichita, Kansas, 67203",
+   "website": "",
+   "phone": "+13163513559",
+   "latitude": 37.6992093,
+   "longitude": -97.3900711
+  },
+  {
+   "name": "The Downing Gorilla Forest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7134247,
+   "longitude": -97.4121854
+  },
+  {
+   "name": "Cessna Penguin Cove",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.71763,
+   "longitude": -97.4106358
+  },
+  {
+   "name": "Reed Family Elephants of the Zambezi River Valley",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7131766,
+   "longitude": -97.4092256
+  },
+  {
+   "name": "Reticulated Giraffe",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7162129,
+   "longitude": -97.410285
+  },
+  {
+   "name": "Rocks Gallery",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7176653,
+   "longitude": -97.2930958
+  },
+  {
+   "name": "Display Gallery",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7176333,
+   "longitude": -97.2932966
+  },
+  {
+   "name": "art gallery",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7176329,
+   "longitude": -97.2933627
+  },
+  {
+   "name": "Gallery",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7176328,
+   "longitude": -97.2935979
+  },
+  {
+   "name": "Slawson Family Asian Big Cat Trek",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.7141518,
+   "longitude": -97.4107397
+  }
+ ]
+}

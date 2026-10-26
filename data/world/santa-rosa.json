@@ -1,0 +1,1378 @@
+{
+ "city": "Santa Rosa",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.4511,
+ "longitude": -122.7214,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Flamingo Resort and Spa Santa Rosa Sonoma, Tapestry by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2777 4th Street, 95405, Santa Rosa",
+   "url": "https://www.hilton.com/en/hotels/stsunup-flamingo-resort-and-spa-santa-rosa-sonoma/"
+  },
+  {
+   "name": "Courtyard Santa Rosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "175 Railroad Street, 95401, Santa Rosa",
+   "url": "https://www.marriott.com/stscy"
+  },
+  {
+   "name": "The Sandman Santa Rosa Sonoma, an Ascend Collection Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3421 Cleveland Ave, 95403, Santa Rosa",
+   "url": "https://www.choicehotels.com/california/santa-rosa/ascend-hotels/cal57"
+  },
+  {
+   "name": "Hampton Inn & Suites Santa Rosa Sonoma Wine Country",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3815 Airway Drive, 95403, Santa Rosa",
+   "url": "https://www.hilton.com/en/hotels/stsbahx-hampton-suites-santa-rosa-sonoma-wine-country/"
+  },
+  {
+   "name": "Hilton Garden Inn Sonoma County Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "417 Aviation Boulevard, 95403, Santa Rosa",
+   "url": "https://www.hilton.com/en/hotels/stsapgi-hilton-garden-inn-sonoma-county-airport/"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Sonoma Wine Country",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Double Tree Drive, 94928, Rohnert Park",
+   "url": "https://www.hilton.com/en/hotels/rlsc-dt-doubletree-sonoma-wine-country/"
+  },
+  {
+   "name": "AC Hotel by Marriott Santa Rosa Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Davis Street, 95401, Santa Rosa",
+   "url": "https://www.marriott.com/en-us/hotels/stsaw-ac-hotel-santa-rosa-sonoma-wine-country/overview/"
+  },
+  {
+   "name": "Hyatt Regency Sonoma Wine Country",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "170 Railroad Street, 95401",
+   "url": "https://www.hyatt.com/hyatt-regency/en-US/sonom-hyatt-regency-sonoma-wine-country"
+  },
+  {
+   "name": "The Astro",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "323 Santa Rosa Avenue, 95401, Santa Rosa",
+   "url": "https://www.theastro.com/contact"
+  },
+  {
+   "name": "Krissie's B&B",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "538 A Street",
+   "url": "https://www.krissiesbnb.com"
+  },
+  {
+   "name": "Parc Station Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2055 Range Avenue, 95401",
+   "url": "http://parcstationapts.com"
+  },
+  {
+   "name": "Hotel La Rose",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://thehotellarose.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3000 Santa Rosa Avenue, 95407, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Santa Rosa - South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2600 Corby Avenue, 95407, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "North Bay Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1875 Mendocino Avenue",
+   "url": ""
+  },
+  {
+   "name": "Park Inn by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3145 Cleveland Avenue, 95403, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5040 Redwood Drive, 94928, Rohnert Park",
+   "url": ""
+  },
+  {
+   "name": "Best Western Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 Santa Rosa Avenue, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Hillside Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2901 4th Street, 95409, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Vintners Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4350 Barnes Road, 95403, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Country Inn Santa Rosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2363 Santa Rosa Avenue, 95407, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Redwood Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1760 Santa Rosa Avenue, Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "BEST WESTERN PLUS Wine Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn - Santa Rosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travelodge Santa Rosa Wine Country",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Santa Rosa - North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Santa Rosa North by IHG",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel E",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Golden Coin Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Palms Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Oxford Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Del Valle",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2000 Sebastopol Road, 95407, Santa Rosa",
+   "website": "https://www.delvallemex.com/"
+  },
+  {
+   "name": "BJ's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "334A;334 Guerneville Road;Coddingtown, 95401, Santa Rosa",
+   "website": "https://www.bjsrestaurants.com/locations/ca/santa-rosa"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2250 Santa Rosa Avenue, 95407, Santa Rosa",
+   "website": "https://restaurants.applebees.com/en-us/ca/santa-rosa/2250-santa-rosa-avenue-90092"
+  },
+  {
+   "name": "Zoftig Eatery, Catering, & Coffee",
+   "cuisines": [
+    "Burger",
+    "Coffee Shop",
+    "Local",
+    "Sandwich",
+    "Mediterranean"
+   ],
+   "address": "57 Montgomery Drive, 95404, Santa Rosa",
+   "website": "https://zoftigeatery.com/"
+  },
+  {
+   "name": "Mac's Deli & Cafe",
+   "cuisines": [
+    "American",
+    "Jewish"
+   ],
+   "address": "630 4th Street, Santa Rosa",
+   "website": "https://macsdeliandcafe.com/"
+  },
+  {
+   "name": "Canevari's Italian Deli",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "695 Lewis Road",
+   "website": "https://www.canevarisdeli.com/"
+  },
+  {
+   "name": "Toyo Japanese Bistro",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "3082 Marlow Road, 95403, Santa Rosa",
+   "website": "www.ToyoJapanese.com"
+  },
+  {
+   "name": "Lepe's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4323 Montgomery Drive, 95405, Santa Rosa",
+   "website": "https://lepestaqueria.com/"
+  },
+  {
+   "name": "East West Cafe Santa Rosa",
+   "cuisines": [
+    "Burger",
+    "Sandwich",
+    "Seafood"
+   ],
+   "address": "557 Summerfield Road, 95405",
+   "website": "https://eastwestcafesantarosa.com/"
+  },
+  {
+   "name": "Khoom Lanna Thai Food",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "107 4th Street, 95401, Santa Rosa",
+   "website": "https://www.khoomlannathaifood.com/"
+  },
+  {
+   "name": "Lococo's Cucina Rustica",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "117 4th Street, 95401, Santa Rosa",
+   "website": "https://lococos.net/"
+  },
+  {
+   "name": "Savor Vietnamese Cuisine",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "4275 Montgomery Drive, 95405, Santa Rosa",
+   "website": "https://savorvietnamesecuisine.com/"
+  },
+  {
+   "name": "Paradise Sushi & Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "119 4th Street, 95401, Santa Rosa",
+   "website": "https://paradisesushi.net/"
+  },
+  {
+   "name": "La Gare",
+   "cuisines": [
+    "French"
+   ],
+   "address": "208 Wilson Street, 95401",
+   "website": "https://lagarerestaurant.com/about-us/"
+  },
+  {
+   "name": "Bag O' Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1901 Mendocino Avenue, 95401, Santa Rosa",
+   "website": "https://www.bagocrabusa.com/"
+  },
+  {
+   "name": "Sazon Peruvian Cuisine & Deli",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "1129 Sebastopol Road, 95407, Santa Rosa",
+   "website": "https://sazonsr.com/"
+  },
+  {
+   "name": "Mary's Pizza Shack",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "535 Summerfield Road, 95405",
+   "website": "https://maryspizzashack.com/"
+  },
+  {
+   "name": "La Fondita Downtown",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.toasttab.com/la-fondita-630-3rd-street"
+  },
+  {
+   "name": "Kiraku Sushi & Ramen",
+   "cuisines": [
+    "Asian",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "1985 Mendocino Avenue",
+   "website": "https://www.kirakullc.com/"
+  },
+  {
+   "name": "Goji Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1965 Mendocino Avenue",
+   "website": "https://gojikitchen.com/"
+  },
+  {
+   "name": "Raku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://rakuramenandrolls.com/"
+  },
+  {
+   "name": "SEA Thai bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.seathaibistrobar.com/"
+  },
+  {
+   "name": "Cafe Mimosa",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "456 College Avenue",
+   "website": ""
+  },
+  {
+   "name": "The Naked Pig",
+   "cuisines": [
+    "American",
+    "French",
+    "Breakfast"
+   ],
+   "address": "544 Mendocino Avenue, 95401, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Pho Vienam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "711 Stony Point Road, 95407, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Ochoa's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3080 Marlow Road, 95403, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Abyssinia",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "913 4th Street, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Royal China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3080 Marlow Road, 95403, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "El Brinquito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "810 Piner Road, 95403, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Gaia's Garden",
+   "cuisines": [
+    "International"
+   ],
+   "address": "1899 Mendocino Avenue, 95401, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Ippinn Udon",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1880 Mendocino Avenue, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Golden Bun",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "490 Mendocino Avenue, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Pieology Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2280 B-3B Mendocino Avenue",
+   "website": ""
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "550 Montecito Boulevard",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amy's Place",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2550 Guerneville Road, 95403, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Kafal Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "535 Ross Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Silver Moon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1880 Mendocino Avenue, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "T4 and Poke",
+   "cuisines": [
+    "Bubble Tea",
+    "Poke"
+   ],
+   "address": "2280 B-3C Mendocino Avenue",
+   "website": ""
+  },
+  {
+   "name": "Vitality Bowl Superfood Cafe",
+   "cuisines": [
+    "International"
+   ],
+   "address": "1880 Mendocino Avenue, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Mombo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1880 Mendocino Avenue, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Miso Good",
+   "cuisines": [
+    "Noodle",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "507 4th Street",
+   "website": ""
+  },
+  {
+   "name": "La Vera Pizza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Fogan",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "623 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Chevys",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Coqui",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "400 Mendocino Avenue",
+   "website": ""
+  },
+  {
+   "name": "Aroma de Café",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "620 5th Street, 95404, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Carlos' Country Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "90 West College Avenue",
+   "website": ""
+  },
+  {
+   "name": "Best of Burma 2",
+   "cuisines": [
+    "Burmese"
+   ],
+   "address": "528 7th Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "La Palapa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "590 Lewis Road",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Santa Rosa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1950 Mendocino Avenue",
+   "website": ""
+  },
+  {
+   "name": "La Fondita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "816 Sebastopol Road",
+   "website": ""
+  },
+  {
+   "name": "Perch + Plow",
+   "cuisines": [
+    "American",
+    "International"
+   ],
+   "address": "90 Old Courthouse Square, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "JoJo Restaurant and Sushi Bar",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "645 4th Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Haku Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "518 7th Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Han Bul",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "522 7th Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Thai Time",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "402 Mendocino Avenue, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Boudin",
+   "cuisines": [
+    "Bakery"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Rosa",
+   "cuisines": [
+    "Japanese",
+    "American",
+    "Sushi"
+   ],
+   "address": "515 4th Street",
+   "website": ""
+  },
+  {
+   "name": "ALOH-O",
+   "cuisines": [
+    "Asian",
+    "Japanese"
+   ],
+   "address": "2032 Santa Rosa Avenue, 95407, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Simply Vietnam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "966 North Dutton Avenue",
+   "website": ""
+  },
+  {
+   "name": "Superburger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Darbar Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "615 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Augie's French",
+   "cuisines": [
+    "French"
+   ],
+   "address": "535 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Mi Pueblo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "703 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Lord Di Napoli",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "629 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Café des Croissants",
+   "cuisines": [
+    "Bakery"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falafel Hut Santa Rosa",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "701 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Mariscos El Patron",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "458 B Street",
+   "website": ""
+  },
+  {
+   "name": "SEA Noodle Bar",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "286 Guerneville Road",
+   "website": ""
+  },
+  {
+   "name": "Urban Pizza Co",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "500 B Mission Boulevard",
+   "website": ""
+  },
+  {
+   "name": "China Legend",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "500 E Mission Boulevard",
+   "website": ""
+  },
+  {
+   "name": "La Rosa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jhanthong Banbua",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yeti Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The New Sizzling Tandoor",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Juanita's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ting Hau",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Super Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Gourmet",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bagel and deli",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tomatina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Molcajetes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delicious Native Taco",
+   "cuisines": [
+    "Native American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joey's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Quick Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aji Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai House",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cascabel (closed)",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Max's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ca'Bianca Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Curry Naan",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Townes Restaurant & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": "https://meetattownes.com/"
+  },
+  {
+   "name": "19Ten Bar & Provisions",
+   "cuisines": [],
+   "address": "115 4th Street, 95401, Santa Rosa",
+   "website": "https://www.19ten.com/"
+  },
+  {
+   "name": "Omelette Express",
+   "cuisines": [],
+   "address": "112 4th Street, 95401, Santa Rosa",
+   "website": "https://omeletteexpress.com"
+  },
+  {
+   "name": "Spinster Sisters",
+   "cuisines": [],
+   "address": "401 South A Street",
+   "website": "https://thespinstersisters.com/"
+  },
+  {
+   "name": "Grossman's Noshery & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": "https://grossmanssr.com/"
+  },
+  {
+   "name": "Crepevine",
+   "cuisines": [],
+   "address": "740 Farmers Lane",
+   "website": ""
+  },
+  {
+   "name": "Cattlemen's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Page's Diner",
+   "cuisines": [],
+   "address": "1039 West College Avenue, 95401, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Monti's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flower + Bone",
+   "cuisines": [],
+   "address": "640 5th Street, Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "The Bird",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Betty's Fish & Chips",
+   "cuisines": [],
+   "address": "4046 Sonoma Highway",
+   "website": ""
+  },
+  {
+   "name": "Fogbelt Brewing Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stark's Steakhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chelino's Mexican Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dierk's Parkside Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dierk's Midtown Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jewelz' Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Charles M. Schulz Museum and Research Center",
+   "kind": "museum",
+   "address": "2301 Hardies Lane, 95403, Santa Rosa",
+   "website": "https://schulzmuseum.org/",
+   "phone": "+1-707-579-4452",
+   "latitude": 38.4603514,
+   "longitude": -122.7359639
+  },
+  {
+   "name": "Sonoma County Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://museumsc.org/",
+   "phone": "",
+   "latitude": 38.441866,
+   "longitude": -122.7184121
+  },
+  {
+   "name": "Pacific Coast Air Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://pacificcoastairmuseum.org/",
+   "phone": "",
+   "latitude": 38.5073417,
+   "longitude": -122.8013215
+  },
+  {
+   "name": "Children's Museum of Sonoma County",
+   "kind": "museum",
+   "address": "1835 West Steele Lane, 95403, Santa Rosa",
+   "website": "https://www.cmosc.org/",
+   "phone": "+1 707 546 4069",
+   "latitude": 38.4607276,
+   "longitude": -122.736918
+  },
+  {
+   "name": "J Gallery",
+   "kind": "gallery",
+   "address": "311 D Street, 95404, Santa Rosa",
+   "website": "https://www.jgalleryfineart.com",
+   "phone": "+1-707-521-9093",
+   "latitude": 38.4415699,
+   "longitude": -122.7128203
+  },
+  {
+   "name": "The Corner Store Collective",
+   "kind": "gallery",
+   "address": "575 Ross Street, Santa Rosa",
+   "website": "",
+   "phone": "+1-707-292-9580",
+   "latitude": 38.4419641,
+   "longitude": -122.7159632
+  },
+  {
+   "name": "Lori Austen Gallery",
+   "kind": "gallery",
+   "address": "725 Farmers Lane;Village Court, 95405, Santa Rosa",
+   "website": "",
+   "phone": "",
+   "latitude": 38.4438275,
+   "longitude": -122.6863575
+  },
+  {
+   "name": "Sonoma County Art Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.4421197,
+   "longitude": -122.7177521
+  },
+  {
+   "name": "Jesse Peter Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.4561803,
+   "longitude": -122.7209005
+  },
+  {
+   "name": "East Knoll",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.407464,
+   "longitude": -122.6729118
+  },
+  {
+   "name": "Calabi Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.443751,
+   "longitude": -122.7166773
+  },
+  {
+   "name": "view",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5237895,
+   "longitude": -122.7529998
+  },
+  {
+   "name": "Big K–Land Amusement Area",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.4514576,
+   "longitude": -122.6683152
+  }
+ ]
+}

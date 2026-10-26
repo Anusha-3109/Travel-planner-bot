@@ -1,0 +1,1796 @@
+{
+ "city": "State College",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.8024,
+ "longitude": -77.8645,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Graduate by Hilton State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 South Atherton Street, 16801, State College",
+   "url": "https://www.graduatehotels.com/state-college"
+  },
+  {
+   "name": "Hampton Inn State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 East College Avenue, 16801, State College",
+   "url": "https://www.hilton.com/en/hotels/sceclhx-hampton-state-college/"
+  },
+  {
+   "name": "Northland Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1521 Martin Street, 16803, State College",
+   "url": "http://www.northlandbowl.com/motel.html"
+  },
+  {
+   "name": "Scholar Hotel State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 East Beaver Avenue, 16801, State College",
+   "url": "https://scholarstatecollege.com"
+  },
+  {
+   "name": "Residence Inn by Marriott State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1555 University Drive, 16801, State College",
+   "url": "https://www.marriott.com/sceri"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1663 South Atherton Street, 16801, State College",
+   "url": "https://www.wyndhamhotels.com/super-8/state-college-pennsylvania/super-8-state-college/overview"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1935 Waddle Road, 16803, State College",
+   "url": "https://www.marriott.com/scesh"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1040 North Atherton Street, 16803, State College",
+   "url": "https://www.choicehotels.com/pennsylvania/state-college/rodeway-inn-hotels"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1357 East College Avenue, 16801, State College",
+   "url": "https://www.radissonhotelsamericas.com/en-us/hotels/country-inn-state-college-pa1"
+  },
+  {
+   "name": "Apple Pony Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 Buttermilk Drive, 16827, Boalsburg",
+   "url": "https://www.appleponyinn.com"
+  },
+  {
+   "name": "Courtyard by Marriott State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1730 University Drive, 16801, State College",
+   "url": "https://www.marriott.com/hotels/travel/scecy-courtyard-state-college/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1955 Waddle Road, 16803, State College",
+   "url": "https://www.hilton.com/en/hotels/scehshx-hampton-suites-state-college-at-williamsburg-square/"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2215 North Atherton Street, 16803, State College",
+   "url": "https://www.marriott.com/sceco"
+  },
+  {
+   "name": "Nittany Budget Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2070 Cato Avenue, 16801, State College",
+   "url": "https://www.lioncountrylodging.com/hotels/nittany-budget-motel/"
+  },
+  {
+   "name": "Ramada State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1450 South Atherton Street, 16801, State College",
+   "url": "https://www.ramadasc.com/"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1925 Waddle Road, 16803, State College",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/state-college/scewr/hoteldetail"
+  },
+  {
+   "name": "Days Inn by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1274 North Atherton Street, 16803, State College",
+   "url": "https://www.wyndhamhotels.com/days-inn/state-college-pennsylvania/day-inn-penn-state/overview"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 Village Drive, 16803, State College",
+   "url": "https://www.choicehotels.com/pennsylvania/state-college/rodeway-inn-hotels"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "132 Village Drive, 16803, State College",
+   "url": "https://www.choicehotels.com/pennsylvania/state-college/rodeway-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1221 East College Avenue, 16801, State College",
+   "url": "https://www.hilton.com/en/hotels/scestgi-hilton-garden-inn-state-college/"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "115 Premiere Drive, 16801, State College",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-state-college/best-western-plus-university-park-inn-suites/propertyCode.39123.html"
+  },
+  {
+   "name": "Hotel State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 West College Avenue, 16801-3838, State College",
+   "url": "https://www.hotelstatecollege.com/"
+  },
+  {
+   "name": "Hyatt Place State College",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "219 West Beaver Avenue, 16801, State College",
+   "url": "https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-state-college/scezs"
+  },
+  {
+   "name": "Toftrees Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Country Club Lane, 16803, State College",
+   "url": "https://www.toftrees.com"
+  },
+  {
+   "name": "The Penn Stater Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 Innovation Boulevard, 16803, University Park",
+   "url": "https://thepennstaterhotel.com/"
+  },
+  {
+   "name": "Wyndham Garden",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Elks Club Road, 16827, Boalsburg",
+   "url": "https://www.wyndhamhotels.com/wyndham-garden/boalsburg-pennsylvania/wy-garden-state-college/overview"
+  },
+  {
+   "name": "Carnegie Inn & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Cricklewood Drive, 16803, State College",
+   "url": "https://www.carnegieinnandspa.com/"
+  },
+  {
+   "name": "Limestone Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.limestoneinn.com/"
+  },
+  {
+   "name": "Inn Boalsburg",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "126 East Main Street, 16827, Boalsburg",
+   "url": ""
+  },
+  {
+   "name": "Stevens Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1275 North Atherton Street, 16803, State College",
+   "url": ""
+  },
+  {
+   "name": "Houseasaurus",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "527 West Beaver Avenue, 16801, State College",
+   "url": ""
+  },
+  {
+   "name": "Nittany Lion Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 West Park Avenue, 16803, State College",
+   "url": ""
+  },
+  {
+   "name": "Happy Valley Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1245 South Atherton Street, 16801, State College",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "HiWay Pizza Pub",
+   "cuisines": [
+    "Pizza",
+    "American"
+   ],
+   "address": "1301 West College Avenue, 16801, State College",
+   "website": "https://www.hiwaypizza.com/"
+  },
+  {
+   "name": "Champ's Sports Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1611 North Atherton Street, 16803, State College",
+   "website": "https://champssportsgrill.net/"
+  },
+  {
+   "name": "Indian Latin Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "404 East Calder Way, 16801, State College",
+   "website": "https://www.indianlatinkitchen.com/"
+  },
+  {
+   "name": "Gudong Hot Pot Delivery",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1212 North Atherton Street, 16803, State College",
+   "website": "https://order.online/store/789446"
+  },
+  {
+   "name": "Pita Cabana",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "334 East Calder Way, 16801, State College",
+   "website": "https://www.pitacabanapa.com/"
+  },
+  {
+   "name": "Lychee",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1341 South Atherton Street, 16801, State College",
+   "website": "https://www.lycheestatecollege.com/"
+  },
+  {
+   "name": "Faccia Luna",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1229 South Atherton Street, 16801, State College",
+   "website": "https://www.faccialuna.online/"
+  },
+  {
+   "name": "Big Bowl Noodle House",
+   "cuisines": [
+    "Asian",
+    "Bubble Tea",
+    "Noodles"
+   ],
+   "address": "418 East College Avenue, 16801, State College",
+   "website": "https://big-bowl-noodle-house.business.site"
+  },
+  {
+   "name": "Otto's Pub & Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2235 North Atherton Street, 16803, State College",
+   "website": "https://www.ottospubandbrewery.com"
+  },
+  {
+   "name": "The Cove New York Style Pizzeria",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "1320B East College Avenue, 16801, State College",
+   "website": "https://www.thecovenystylepizzeria.com"
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "401 East Beaver Avenue, 16801, State College",
+   "website": "https://www.dpdough.com/"
+  },
+  {
+   "name": "Olde New York",
+   "cuisines": [
+    "American",
+    "German"
+   ],
+   "address": "2298 East College Avenue, 16801, State College",
+   "website": "https://www.oldenewyork.net"
+  },
+  {
+   "name": "The Original Waffle Shop West",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Pancake"
+   ],
+   "address": "1610 West College Avenue, 16801, State College",
+   "website": "https://www.originalwaffleshop.net/"
+  },
+  {
+   "name": "Celebrities Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1450 South Atherton Street, 16801, State College",
+   "website": "https://www.celebritiesbarandgrill.com/"
+  },
+  {
+   "name": "Masala Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "120 East Beaver Avenue, 16801, State College",
+   "website": "https://masalapalacerestaurant.com/"
+  },
+  {
+   "name": "Giuseppe's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "204 East College Avenue, 16801, State College",
+   "website": "https://www.giuseppespizzeriapa.com/"
+  },
+  {
+   "name": "Little Szechuan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "228 West College Avenue, 16801, State College",
+   "website": "https://littleszechuanstatecollege.com"
+  },
+  {
+   "name": "Bistrozine",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "409 East Calder Way, 16801, State College",
+   "website": "https://www.bistrozine.com/"
+  },
+  {
+   "name": "The Koop",
+   "cuisines": [
+    "Korean",
+    "Chicken"
+   ],
+   "address": "129 Locust Lane, 16801, State College",
+   "website": "https://www.thekoopusa.com/"
+  },
+  {
+   "name": "Plaza Azteca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1550 South Atherton Street, 16801, State College",
+   "website": "https://plazaazteca.com/location-pennsylvania-plaza-azteca-state-college/"
+  },
+  {
+   "name": "Snap Custom Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "132 West College Avenue, 16801, State College",
+   "website": "https://www.snapcustompizza.com/"
+  },
+  {
+   "name": "College Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1631 North Atherton Street, 16803, State College",
+   "website": "https://collegebuffet.com/"
+  },
+  {
+   "name": "Yummy Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "320 East Calder Way, 16801, State College",
+   "website": "https://www.statecollegeyummycafe.com/"
+  },
+  {
+   "name": "Benny Leone’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "109 South Fraser Street, 16801, State College",
+   "website": "https://www.bennysva.com/locations/leones/"
+  },
+  {
+   "name": "Sakura Asian Restaurant",
+   "cuisines": [
+    "Sushi",
+    "Japanese",
+    "Asian"
+   ],
+   "address": "1525 South Atherton Street, 16801, State College",
+   "website": "https://www.sakurasushistatecollege.com/"
+  },
+  {
+   "name": "Happy Valley Live",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1031 East College Avenue, 16801, State College",
+   "website": "https://happyvalleylive.online/"
+  },
+  {
+   "name": "Fire & Fig Grill",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "1100 North Atherton Street, 16803, State College",
+   "website": "https://firenfig.com/"
+  },
+  {
+   "name": "Brothers Pizza",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "231 Northland Center, 16803, State College",
+   "website": "https://ogbrotherspizza.com/"
+  },
+  {
+   "name": "Allen Street Grill",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "100 West College Avenue, 16801-3838, State College",
+   "website": "https://www.allenstreetgrill.com/"
+  },
+  {
+   "name": "The Corner Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "100 West College Avenue, 16801, State College",
+   "website": "https://www.cornerroom.com/"
+  },
+  {
+   "name": "Kamrai Thai & Sushi",
+   "cuisines": [
+    "Sushi",
+    "Thai"
+   ],
+   "address": "901 Pike Street, 16851, Lemont",
+   "website": "https://www.kamraithairestaurant.com"
+  },
+  {
+   "name": "Pho 11",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "146 North Atherton Street, 16801, State College",
+   "website": "http://www.pho11.net/"
+  },
+  {
+   "name": "Fatoum Bistro",
+   "cuisines": [
+    "Indian",
+    "Middle Eastern"
+   ],
+   "address": "532 Westerly Parkway, 16801, State College",
+   "website": "https://fatoum-bistro.square.site/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1670 North Atherton Street, 16803, State College",
+   "website": "https://www.redlobster.com/seafood-restaurants/locations/pa/state-college/1670-n-atherton-street/"
+  },
+  {
+   "name": "The Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "220 East College Avenue, 16801-4713, State College",
+   "website": "https://www.thetavern.com/"
+  },
+  {
+   "name": "Cafe Alina",
+   "cuisines": [
+    "Pakistani"
+   ],
+   "address": "421 East Calder Way, 16801, State College",
+   "website": "https://orders.cake.net/11222700"
+  },
+  {
+   "name": "Hoss's Steak & Sea House",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "1450 North Atherton Street, 16803, State College",
+   "website": "https://hosss.com/"
+  },
+  {
+   "name": "Happy Valley Brewing Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "137 Elmwood Street, 16801, State College",
+   "website": "https://www.happyvalleybeer.com/"
+  },
+  {
+   "name": "The Greek",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "102 Clinton Avenue, 16803, State College",
+   "website": "https://www.thegreekrestaurant.net/"
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "215 Colonnade Boulevard, 16803, State College",
+   "website": "https://www.crackerbarrel.com/Locations/States/pa/state-college/681"
+  },
+  {
+   "name": "India Pavilion",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "222 East Calder Way, 16801, State College",
+   "website": "https://www.indiapavilion.net/"
+  },
+  {
+   "name": "Dagu Rice Noodle",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "134 East College Avenue, 16801, State College",
+   "website": "https://www.daguricenoodlepsu.com/"
+  },
+  {
+   "name": "The Field Burger & Tap",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Milkshake"
+   ],
+   "address": "1 Country Club Lane, 16803, State College",
+   "website": "https://www.thefieldburgerandtap.com/"
+  },
+  {
+   "name": "Maine Bay & Berry Co.",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "201 Elmwood Street, 16801, State College",
+   "website": "https://www.mainebayandberry.com/"
+  },
+  {
+   "name": "Tadashi Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "206 West College Avenue, 16801, State College",
+   "website": "http://tadashijapanese.com/"
+  },
+  {
+   "name": "Mezeh Mediterranean Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "348 East Calder Way, 16801, State College",
+   "website": "https://mezeh.com/"
+  },
+  {
+   "name": "Ramyun Studio",
+   "cuisines": [
+    "Korean",
+    "Ramen"
+   ],
+   "address": "208 East Calder Way, 16801, State College",
+   "website": "https://ramyunstudio.com/"
+  },
+  {
+   "name": "Pelicana Chicken",
+   "cuisines": [
+    "Korean",
+    "Chicken"
+   ],
+   "address": "1869 North Atherton Street, 16803, State College",
+   "website": "https://www.pelicanausa.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1945 Waddle Road, 16803, State College",
+   "website": "https://www.olivegarden.com/locations/pa/state-college/state-college/1552"
+  },
+  {
+   "name": "Mercato Mio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1221 East College Avenue, 16801, State College",
+   "website": "https://mercatomiodining.com/"
+  },
+  {
+   "name": "Manna Korean BBQ & Hot Pot",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "542 Westerly Parkway, 16801, State College",
+   "website": "https://mannabbqhotpot.com/"
+  },
+  {
+   "name": "Fiddlehead",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "134 West College Avenue, 16801, State College",
+   "website": "http://www.fiddleheadstatecollege.com/"
+  },
+  {
+   "name": "Brookln Bodega",
+   "cuisines": [
+    "Sandwich",
+    "Deli"
+   ],
+   "address": "340 East College Avenue, 16801, State College",
+   "website": "https://brooklynbodega.net/"
+  },
+  {
+   "name": "Sichuan House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "147 South Allen Street, 16801, State College",
+   "website": "https://www.sichuanhousepsu.com/"
+  },
+  {
+   "name": "Fava Kitchen",
+   "cuisines": [
+    "Falafel"
+   ],
+   "address": "334 East Calder Way, 16801, State College",
+   "website": "https://www.favakitchen.com/"
+  },
+  {
+   "name": "Baby's Diner",
+   "cuisines": [
+    "Mediterranean",
+    "Burger",
+    "Breakfast",
+    "Bagel",
+    "Pancake",
+    "Hot Dog",
+    "Fries",
+    "Pasta",
+    "Sandwich"
+   ],
+   "address": "131 South Garner Street, 16801, State College",
+   "website": "https://babysdiner.com/"
+  },
+  {
+   "name": "Tadashi Japanest Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "100 South Atherton Street, 16801, State College",
+   "website": "http://tadashijapanese.com/"
+  },
+  {
+   "name": "Crazy Boil",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1617 North Atherton Street, 16803, State College",
+   "website": "https://www.crazyboilstatecollege.com/"
+  },
+  {
+   "name": "Kondu",
+   "cuisines": [
+    "Sushi",
+    "Bubble Tea",
+    "Hibachi"
+   ],
+   "address": "132 South Allen Street, 16801, State College",
+   "website": "http://www.kondustatecollege.com/"
+  },
+  {
+   "name": "Cozy Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "232 South Allen Street, 16801, State College",
+   "website": "https://www.cozythaibistro.com/"
+  },
+  {
+   "name": "Uncle Chens",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "430 East Calder Way, 16801, State College",
+   "website": "https://unclechenstogo.com/"
+  },
+  {
+   "name": "Federal Taphouse",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "130 South Fraser Street, 16801, State College",
+   "website": "https://www.federaltaphouse.com/"
+  },
+  {
+   "name": "Gigi's Southern Table",
+   "cuisines": [
+    "Southern",
+    "American"
+   ],
+   "address": "2080 Cato Avenue, 16801, State College",
+   "website": "https://www.gigisdining.com/"
+  },
+  {
+   "name": "Sauly Boy's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "124 South Allen Street, 16801, State College",
+   "website": "http://www.saulyboys.com/"
+  },
+  {
+   "name": "Kitchen Garden",
+   "cuisines": [
+    "American",
+    "Lebanese",
+    "Mediterranean",
+    "Turkish"
+   ],
+   "address": "16801",
+   "website": "https://thekitchengarden.net/"
+  },
+  {
+   "name": "Honeygrow",
+   "cuisines": [
+    "Asian",
+    "Salad"
+   ],
+   "address": "160 East Beaver Avenue, 16801, State College",
+   "website": "https://www.honeygrow.com/location/state-college/"
+  },
+  {
+   "name": "Tokyo Sushi & Hibachi",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "428 East College Avenue, 16801, State College",
+   "website": "https://www.tokyosushihibachipa.com/"
+  },
+  {
+   "name": "Osaka",
+   "cuisines": [
+    "Sushi",
+    "Hibachi"
+   ],
+   "address": "450 East College Avenue, 16801, State College",
+   "website": "https://www.osakastatecollegepa.com/"
+  },
+  {
+   "name": "Beijing",
+   "cuisines": [
+    "Sushi",
+    "Hibachi"
+   ],
+   "address": "452 East College Avenue, 16801, State College",
+   "website": "https://www.beijingstatecollegepa.com/"
+  },
+  {
+   "name": "Original Waffle Shop",
+   "cuisines": [
+    "Pancake",
+    "Burger",
+    "Breakfast"
+   ],
+   "address": "1229 North Atherton Street, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Delhi Junction",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "128 Locust Lane, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Fuji Jade Garden & My Thai",
+   "cuisines": [
+    "Thai",
+    "Asian"
+   ],
+   "address": "287 Northland Center, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "12 Colonnade Way, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Marzoni’s Brick Oven & Brewing Co.",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1215 North Atherton Street, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Mosul Grill",
+   "cuisines": [
+    "Arab"
+   ],
+   "address": "434 East College Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Green Bowl",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "131 West Beaver Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Freshens Fresh Food Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2141 South Atherton Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "The Waffle Shop",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Pancake"
+   ],
+   "address": "364 East College Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "134 South Garner Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Margaritas",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "222 West Beaver Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Central Reservation",
+   "cuisines": [
+    "Fine Dining",
+    "Cocktails",
+    "Seafood"
+   ],
+   "address": "101 East Beaver Avenue, 16801-4922, State College",
+   "website": ""
+  },
+  {
+   "name": "Primanti Bros.",
+   "cuisines": [
+    "American"
+   ],
+   "address": "130 Hiester Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1885 Waddle Road, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Allen Street Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "128 South Allen Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Sher Hot Chicken",
+   "cuisines": [
+    "Chicken",
+    "Burger"
+   ],
+   "address": "145 South Allen Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Sip and Slurp",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "432 East College Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Yogürt Express",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "430 East College Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Hawaiian Poke Bowl & Pho Cafe",
+   "cuisines": [
+    "American",
+    "Vietnamese"
+   ],
+   "address": "320 West Beaver Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Underground Burgers and Crepes",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "218 East Calder Way, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Maxx Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "804 Pike Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "The Dining Room at the Nittany Lion Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 West Park Avenue, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Sora Teriyaki & Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "110 Hetzel Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Penang",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1221 North Atherton Street, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Fresh Bites Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "300c South Pugh Street, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "The Gardens",
+   "cuisines": [
+    "American"
+   ],
+   "address": "215 Innovation Boulevard, 16803, University Park",
+   "website": ""
+  },
+  {
+   "name": "Little Food Court",
+   "cuisines": [
+    "Asian-American"
+   ],
+   "address": "250 East Calder Way, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Sher Halal Gyro",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "137 East Beaver Avenue, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Uncle Chen's Primetime",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "426 East Calder Way, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "HIBACHI-SAN",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Antifragile Brewing Co",
+   "cuisines": [],
+   "address": "324 East Calder Way, 16801, State College",
+   "website": "https://www.antifragilebrew.com/"
+  },
+  {
+   "name": "The Arena Bar & Grill",
+   "cuisines": [],
+   "address": "1521 Martin Street, 16803, State College",
+   "website": "https://www.thearenabarandgrill.com/"
+  },
+  {
+   "name": "Sizzling Bites",
+   "cuisines": [],
+   "address": "129 South Pugh Street, 16801, State College",
+   "website": "https://sizzlingbites.com/"
+  },
+  {
+   "name": "Barrel 21 Distillery & Dining",
+   "cuisines": [],
+   "address": "2255 North Atherton Street, 16803, State College",
+   "website": "https://www.barrel21distillery.com/"
+  },
+  {
+   "name": "American Ale House",
+   "cuisines": [],
+   "address": "821 Cricklewood Drive, 16803, State College",
+   "website": "https://www.americanalehouse.net/"
+  },
+  {
+   "name": "Roots Natural Kitchen",
+   "cuisines": [],
+   "address": "270 East Beaver Avenue, 16801, State College",
+   "website": "https://www.rootsnaturalkitchen.com/"
+  },
+  {
+   "name": "Waring Square",
+   "cuisines": [],
+   "address": "",
+   "website": "https://liveon.psu.edu/university-park/dining/west-food-district"
+  },
+  {
+   "name": "Edge @ Pollock",
+   "cuisines": [],
+   "address": "",
+   "website": "https://liveon.psu.edu/university-park/dining/edge-pollock"
+  },
+  {
+   "name": "Fresco @ Pollock",
+   "cuisines": [],
+   "address": "",
+   "website": "https://liveon.psu.edu/university-park/dining"
+  },
+  {
+   "name": "Cafe Laura",
+   "cuisines": [],
+   "address": "",
+   "website": "https://cafelaura.psu.edu/"
+  },
+  {
+   "name": "Grace Restaurant at the Carnegie Inn",
+   "cuisines": [],
+   "address": "100 Cricklewood Drive, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "CC Peppers",
+   "cuisines": [],
+   "address": "1625 North Atherton Street, 16803, State College",
+   "website": ""
+  },
+  {
+   "name": "Dulce Luca Café",
+   "cuisines": [],
+   "address": "214 East Calder Way, 16801, State College",
+   "website": ""
+  },
+  {
+   "name": "Findlay Dining Commons",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Troy's Philadelphia Style Hoagies",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Boal Mansion Museum",
+   "kind": "museum",
+   "address": "163 Boal Estate Drive, 16827, Boalsburg",
+   "website": "https://www.boalmuseum.com/boal-mansion.html",
+   "phone": "+1-814-466-6210",
+   "latitude": 40.7790693,
+   "longitude": -77.7993246
+  },
+  {
+   "name": "Centre Furnace Mansion",
+   "kind": "museum",
+   "address": "1001 East College Avenue, 16801, State College",
+   "website": "https://centrehistory.org/visit-us/centre-furnace-mansion/",
+   "phone": "+1-814-234-4779",
+   "latitude": 40.8066707,
+   "longitude": -77.8421446
+  },
+  {
+   "name": "Pennsylvania Military Museum",
+   "kind": "museum",
+   "address": "602 Boalsburg Pike, 16827, Boalsburg",
+   "website": "https://www.pamilmuseum.org/",
+   "phone": "",
+   "latitude": 40.7818446,
+   "longitude": -77.7952807
+  },
+  {
+   "name": "The Frost Entomological Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://ento.psu.edu/facilities/frost",
+   "phone": "",
+   "latitude": 40.8029597,
+   "longitude": -77.8624051
+  },
+  {
+   "name": "Lion Shrine",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7968049,
+   "longitude": -77.8689362
+  },
+  {
+   "name": "Boalsburg Heritage Museum",
+   "kind": "museum",
+   "address": "304 East Main Street, 16827, Boalsburg",
+   "website": "https://boalsburgheritagemuseum.org/",
+   "phone": "+1-814-466-3035",
+   "latitude": 40.7759187,
+   "longitude": -77.7889865
+  },
+  {
+   "name": "Palmer Museum at the Arboretum",
+   "kind": "gallery",
+   "address": "650 Bigler Road, 16802, University Park",
+   "website": "https://palmermuseum.psu.edu/",
+   "phone": "",
+   "latitude": 40.8067176,
+   "longitude": -77.8680444
+  },
+  {
+   "name": "Columbus Chapel",
+   "kind": "attraction",
+   "address": "163 Boal Estate Drive, 16827, Boalsburg",
+   "website": "https://www.boalmuseum.com/columbus-chapel.html",
+   "phone": "",
+   "latitude": 40.7797455,
+   "longitude": -77.7999091
+  },
+  {
+   "name": "Douglas Albert Gallery",
+   "kind": "gallery",
+   "address": "107 McAllister Alley, 16801, State College",
+   "website": "https://douglasalbertgallery.com/",
+   "phone": "+1-814-234-9822",
+   "latitude": 40.7955988,
+   "longitude": -77.8594515
+  },
+  {
+   "name": "Rock Hill School at Linden Hall",
+   "kind": "museum",
+   "address": "",
+   "website": "https://rockhillschoolatlindenhall.blogspot.com/",
+   "phone": "",
+   "latitude": 40.7996741,
+   "longitude": -77.7621736
+  },
+  {
+   "name": "Matson Museum of Anthropology",
+   "kind": "museum",
+   "address": "",
+   "website": "https://matson.psu.edu/visit-us/",
+   "phone": "",
+   "latitude": 40.7990557,
+   "longitude": -77.8696861
+  },
+  {
+   "name": "BB-38 Guns",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.780601,
+   "longitude": -77.7967027
+  },
+  {
+   "name": "M59 APC",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.7810182,
+   "longitude": -77.7971005
+  },
+  {
+   "name": "M42A1 Duster",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.781338,
+   "longitude": -77.7968276
+  },
+  {
+   "name": "The Land-Grant Frescoes",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://www.psu.edu/ur/about/frescoes.html",
+   "phone": "",
+   "latitude": 40.7964571,
+   "longitude": -77.8628186
+  },
+  {
+   "name": "Robeson Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://studentaffairs.psu.edu/hub/artgalleries/robeson.shtml",
+   "phone": "",
+   "latitude": 40.7981166,
+   "longitude": -77.8613751
+  },
+  {
+   "name": "The HUB Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://studentaffairs.psu.edu/hub/artgalleries/hub.shtml",
+   "phone": "",
+   "latitude": 40.7981673,
+   "longitude": -77.8613322
+  },
+  {
+   "name": "Art Alley",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://studentaffairs.psu.edu/hub/artgalleries/artalley.shtml",
+   "phone": "",
+   "latitude": 40.7982079,
+   "longitude": -77.861292
+  },
+  {
+   "name": "M114A2 155mm Howitzer",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.7801239,
+   "longitude": -77.7967016
+  },
+  {
+   "name": "4.5\" Howitzer",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.7809064,
+   "longitude": -77.7964813
+  },
+  {
+   "name": "M4A1(76)W Sherman Tank",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.78032,
+   "longitude": -77.797151
+  },
+  {
+   "name": "M60A3 Tank",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pamilmuseum.org/exterior-displays/",
+   "phone": "",
+   "latitude": 40.7817378,
+   "longitude": -77.7955696
+  },
+  {
+   "name": "Penn State All-Sports Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://gopsusports.com/museum/",
+   "phone": "",
+   "latitude": 40.8110504,
+   "longitude": -77.8555002
+  },
+  {
+   "name": "Edwin W. Zoller Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://sova.psu.edu/facility/edwin-w-zoller-gallery",
+   "phone": "",
+   "latitude": 40.8009003,
+   "longitude": -77.8652643
+  },
+  {
+   "name": "Patterson Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://sova.psu.edu/about/facilities/patterson",
+   "phone": "",
+   "latitude": 40.8003643,
+   "longitude": -77.8649264
+  },
+  {
+   "name": "Air Quality Learning and Demonstration Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://arboretum.psu.edu/research/air.html",
+   "phone": "",
+   "latitude": 40.8110722,
+   "longitude": -77.8770833
+  },
+  {
+   "name": "EMS Museum and Art Gallery",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.ems.psu.edu/outreach/museum",
+   "phone": "",
+   "latitude": 40.794143,
+   "longitude": -77.8654471
+  },
+  {
+   "name": "Discovery Space",
+   "kind": "museum",
+   "address": "1224 North Atherton Street, 16803, State College",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8020181,
+   "longitude": -77.882318
+  },
+  {
+   "name": "3 Dots",
+   "kind": "gallery",
+   "address": "137 East Beaver Avenue, 16801, State College",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7942638,
+   "longitude": -77.8593843
+  },
+  {
+   "name": "Turfgrass Museum",
+   "kind": "museum",
+   "address": "31 University Drive, 16802, University Park",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8121451,
+   "longitude": -77.867259
+  },
+  {
+   "name": "Pilato Studios",
+   "kind": "gallery",
+   "address": "319 East Calder Way, 16801, State College",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7967423,
+   "longitude": -77.8577024
+  },
+  {
+   "name": "Millbrook Marsh Nature Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8132236,
+   "longitude": -77.8379622
+  },
+  {
+   "name": "Mike Lynch Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8082033,
+   "longitude": -77.8024129
+  },
+  {
+   "name": "Little Flat Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8077181,
+   "longitude": -77.7860496
+  },
+  {
+   "name": "Penns Valley Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8100771,
+   "longitude": -77.7803194
+  },
+  {
+   "name": "Northwest Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8124294,
+   "longitude": -77.7979845
+  },
+  {
+   "name": "Tom Smith Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8194423,
+   "longitude": -77.7855608
+  },
+  {
+   "name": "Armsby Respiration Calorimeter Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.800415,
+   "longitude": -77.8645563
+  },
+  {
+   "name": "Mascaro-Steiniger Equipment Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8236118,
+   "longitude": -77.85651
+  },
+  {
+   "name": "Boalsburg & Mt. Nittany Middle School Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8073307,
+   "longitude": -77.7965342
+  },
+  {
+   "name": "M114A2 Towed 155mm Howitzer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7811878,
+   "longitude": -77.7958228
+  },
+  {
+   "name": "Pennsylvania Agricultural College (PAC) Herbarium",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7989069,
+   "longitude": -77.8636704
+  },
+  {
+   "name": "David's Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7216928,
+   "longitude": -77.8817929
+  },
+  {
+   "name": "Roman Tower",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7460154,
+   "longitude": -77.8133213
+  },
+  {
+   "name": "Nittany Mall Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8180948,
+   "longitude": -77.7895907
+  },
+  {
+   "name": "Hubler Gap Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7366843,
+   "longitude": -77.8436158
+  },
+  {
+   "name": "Lion's Valley Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.741154,
+   "longitude": -77.8525477
+  },
+  {
+   "name": "Highline Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7472841,
+   "longitude": -77.8342876
+  },
+  {
+   "name": "Jo Hays Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7169261,
+   "longitude": -77.8940384
+  },
+  {
+   "name": "Deeded Square Inches",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8117628,
+   "longitude": -77.7911714
+  },
+  {
+   "name": "Little Shingletown Trail Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7466803,
+   "longitude": -77.7808885
+  },
+  {
+   "name": "Charcoal Hearth",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7515756,
+   "longitude": -77.8065005
+  },
+  {
+   "name": "Mill Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7931236,
+   "longitude": -77.8455591
+  }
+ ]
+}

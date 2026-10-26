@@ -1,0 +1,831 @@
+{
+ "city": "Wenatchee",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.4279,
+ "longitude": -120.3144,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "190 3rd Street Northeast, 98802, East Wenatchee",
+   "url": "https://www.marriott.com/eatfi"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1730 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": "https://www.marriott.com/eatwc"
+  },
+  {
+   "name": "SureStay Hotel by Best Western Wenatchee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "580 Valley Mall Parkway, 98802, East Wenatchee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-east-wenatchee/surestay-hotel-by-best-western-wenatchee/propertyCode.52005.html"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25 North Worthen Street, 98801, Wenatchee",
+   "url": "https://www.hilton.com/en/hotels/eatyogi-hilton-garden-inn-wenatchee/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1229 Walla Walla Avenue, 98801, Wenatchee",
+   "url": "https://www.marriott.com/eatri"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "195 East Penny Road, 98801, Wenatchee",
+   "url": "https://www.choicehotels.com/washington/wenatchee/comfort-suites-hotels"
+  },
+  {
+   "name": "Best Western Chieftain Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1017 North Wenatchee Avenue, 98801-1574, Wenatchee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-wenatchee/best-western-chieftain-inn/propertyCode.48153.html"
+  },
+  {
+   "name": "Travelodge Wenatchee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1004 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": "https://www.wyndhamhotels.com/travelodge/wenatchee-washington/travelodge-wenatchee/overview"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 East Penny Road, 98801, Wenatchee",
+   "url": "https://www.wyndhamhotels.com/laquinta/wenatchee-washington/la-quinta-inn-and-suites-wenatchee/overview"
+  },
+  {
+   "name": "My Place Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 Riverside Drive, 98801, Wenatchee",
+   "url": "https://www.myplacehotels.com/my-place-hotel-wenatchee-wa"
+  },
+  {
+   "name": "Clarion Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1905 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": "https://www.choicehotels.com/washington/wenatchee/choice-hotels/wa142"
+  },
+  {
+   "name": "Cedars Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "80 9th Street Northeast, 98802, East Wenatchee",
+   "url": "https://www.eastwenatcheecedarsinn.com/"
+  },
+  {
+   "name": "Avid Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1640 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": "https://www.ihg.com/avidhotels/hotels/us/en/wenatchee/eatav/hoteldetail"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1921 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Wenatchee/Leavenworth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1401 North Miller Street, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Wenatchee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "610 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn Downtown Wenatchee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "815 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Coast Wenatchee Center Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 North Wenatchee Avenue, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Moonlight Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2921 School Street, 98801, Wenatchee",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Hotel Wenatchee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunset Highway Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Avenue Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Archive Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 South Wenatchee Avenue, 98801, Wenatchee",
+   "website": "https://www.archivebistro.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1300 North Miller Street, 98801, Wenatchee",
+   "website": "https://restaurants.applebees.com/en-us/wa/wenatchee/1300a-n-miller-st-93029"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "106 Easy Way, 98801, Wenatchee",
+   "website": "https://www.mountainmikespizza.com/locations/wenatchee-easy-way/"
+  },
+  {
+   "name": "Abby's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "702 Grant Road, 98802, East Wenatchee",
+   "website": "https://www.abbys.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "927 North Chelan Avenue, 98801, Wenatchee",
+   "website": "https://locations.pizzahut.com/wa/wenatchee/927-n-chelan"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.redrobin.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "615 Valley Mall Parkway, 98802, East Wenatchee",
+   "website": "https://www.olivegarden.com/"
+  },
+  {
+   "name": "Inna's Cuisine",
+   "cuisines": [
+    "Greek",
+    "Italian",
+    "Russian",
+    "Ukrainian"
+   ],
+   "address": "26 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": "https://www.innas-cuisine.com/"
+  },
+  {
+   "name": "Mama Tina's Wood Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "759 Riverside Drive, 98801, Wenatchee",
+   "website": "https://mamatinaspizza.com/"
+  },
+  {
+   "name": "Kings Pizza",
+   "cuisines": [
+    "Pizza",
+    "Salad"
+   ],
+   "address": "30 S Wenatchee Ave, 98801, Wenatchee",
+   "website": "https://www.facebook.com/people/King-Pizza/61554352258295/"
+  },
+  {
+   "name": "Huckleberry North",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1427 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": "https://wildhuck.com/"
+  },
+  {
+   "name": "Taqueria El Tarasco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "522 S Wenatchee Ave, 98801, Wenatchee",
+   "website": "https://tacoseltarascowa.com/"
+  },
+  {
+   "name": "Leonardo's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1311 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": "http://www.leonardosrsvp.com/"
+  },
+  {
+   "name": "The Windmill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1501 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": "https://www.thewindmillrestaurant.com/"
+  },
+  {
+   "name": "Steam Panda",
+   "cuisines": [
+    "Chinese",
+    "Japanese"
+   ],
+   "address": "104 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": "https://steampandawenatchee.com/"
+  },
+  {
+   "name": "Railstation & Ale House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "29 North Columbia Street, 98801",
+   "website": "https://www.railstationwenatchee.com"
+  },
+  {
+   "name": "Abby's Legendary Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.abbys.com/"
+  },
+  {
+   "name": "Bob's Burgers and Brew",
+   "cuisines": [
+    "American"
+   ],
+   "address": "795 Grant Road, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Bomb Burritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "147 Easy Way, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Ay Caramba",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "501 Valley Mall Parkway, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1014 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1337 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Smitty's Restaurant",
+   "cuisines": [
+    "Pancake",
+    "Breakfast"
+   ],
+   "address": "1621 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Petey's Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1917 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Casa Herradura",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "601 South Mission Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Love Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1925 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "La Fuente",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "816 South Mission Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Peking Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "350 Simon Street, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "The Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1211 North Mission Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Viscotti's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1747 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Vn Pho",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1010 Springwater Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "The Orange House",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "802 South Mission Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Wok About Grill",
+   "cuisines": [
+    "Mongolian"
+   ],
+   "address": "110 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Iwa Sushi Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "8 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "La Tortuga Loca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "300 Stevens Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Salvadorean Pupusas",
+   "cuisines": [
+    "International"
+   ],
+   "address": "902 Valley Mall Parkway, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Spring Lotus",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1050 Springwater Avenue, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Blue Flame Asian Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wild Huckleberry",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqeria El Tapitio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taquieria Luna",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden East Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chateau Faire Le Pont Winery",
+   "cuisines": [
+    "Italian",
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spice Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Garlini's Napeletana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Loncheria y Jugueria la Vale",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "McGlinn's Public House",
+   "cuisines": [],
+   "address": "111 Orondo Avenue, 98801",
+   "website": "https://mcglinns.com"
+  },
+  {
+   "name": "Timberline Brewing",
+   "cuisines": [],
+   "address": "1 Orondo Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "El Fogon",
+   "cuisines": [],
+   "address": "730 Grant Road, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Buzz Inn Steakhouse & Casino",
+   "cuisines": [],
+   "address": "280 Grant Road, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "El Porton",
+   "cuisines": [],
+   "address": "340 Valley Mall Parkway, 98802, East Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Tiki Hawaiian Bar",
+   "cuisines": [],
+   "address": "1450 North Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Mission Burgers and Chicken",
+   "cuisines": [],
+   "address": "900 South Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Plaza Wenatchee",
+   "cuisines": [],
+   "address": "908 South Wenatchee Avenue, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Fruteria y gaspachos el boulevard",
+   "cuisines": [],
+   "address": "617 South Mission Street, 98801, Wenatchee",
+   "website": ""
+  },
+  {
+   "name": "Caribbean Fast Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carniceria Los 2 Compadres",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cottage Inn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Chiquito",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Country Inn Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Cihualteca",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wok 'n Roll",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Pupa Infante",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bob's Classic Restaurant & Distillary",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "San Fransisco Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Fiesta Restaurant and Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Wenatchee Valley Museum and Cultural Center",
+   "kind": "museum",
+   "address": "127 S. Mission St., 98801, Wenatchee",
+   "website": "https://www.wenatcheevalleymuseum.org/",
+   "phone": "",
+   "latitude": 47.4224799,
+   "longitude": -120.310936
+  },
+  {
+   "name": "Great Northern Steam Locomotive",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.410189,
+   "longitude": -120.3007704
+  },
+  {
+   "name": "Horse Lake Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.4636541,
+   "longitude": -120.3828836
+  },
+  {
+   "name": "Annie's Fun Farm",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.4051185,
+   "longitude": -120.2498399
+  },
+  {
+   "name": "Wenatchee Riverfront Railway",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.4276747,
+   "longitude": -120.3091338
+  }
+ ]
+}

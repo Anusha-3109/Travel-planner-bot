@@ -1,0 +1,1655 @@
+{
+ "city": "Syracuse",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.0472,
+ "longitude": -76.1564,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Marriott Syracuse Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 East Onondaga Street, 13202, Syracuse",
+   "url": "https://www.marriott.com/en-us/hotels/syrmc-marriott-syracuse-downtown/overview/"
+  },
+  {
+   "name": "Courtyard Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6415 Yorktown Circle, 13057, East Syracuse",
+   "url": "https://www.marriott.com/syrca"
+  },
+  {
+   "name": "Collegian Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1060 East Genesee Street, 13210, Syracuse",
+   "url": "https://www.wyndhamhotels.com/trademark/syracuse-new-york/collegian-hotel/overview"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "136 Transistor Parkway, 13088, Liverpool",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-liverpool/best-western-plus-liverpool-syracuse-inn-suites/propertyCode.33121.html"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "430 Electronics Parkway, 13088, Liverpool",
+   "url": "https://www.wyndhamhotels.com/days-inn/liverpool-new-york/days-inn-liverpool-syracuse/overview"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 West Fayette Street, 13202, Syracuse",
+   "url": "https://www.marriott.com/en-us/hotels/syrdt-courtyard-syracuse-downtown-at-armory-square/overview/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 West Fayette Street, 13202, Syracuse",
+   "url": "https://www.marriott.com/en-us/hotels/syrdr-residence-inn-syracuse-downtown-at-armory-square/overview/"
+  },
+  {
+   "name": "Embassy Suites Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6646 Old Collamer Road, 13057, East Syracuse",
+   "url": "https://embassysuites3.hilton.com/en/hotels/new-york/embassy-suites-syracuse-SYRDWES/index.html"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "421 7th North Street, 13088, Liverpool",
+   "url": "https://www.wyndhamhotels.com/super-8/liverpool-new-york/super-8-liverpool-syracuse-north-airport/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 7th North Street, 13088, Liverpool",
+   "url": "https://www.choicehotels.com/new-york/weedsport/rodeway-inn-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6609 Thompson Road, 13206, Syracuse",
+   "url": "https://www.wyndhamhotels.com/days-inn/syracuse-new-york/days-inn-syracuse/overview"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6491 Thompson Road, 13206, Syracuse",
+   "url": "https://www.choicehotels.com/new-york/weedsport/rodeway-inn-hotels"
+  },
+  {
+   "name": "Hampton Inn & Suites Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3017 Erie Boulevard East, 13224, Syracuse",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/new-york/hampton-inn-and-suites-syracuse-erie-blvd-i-690-SYRERHX/index.html"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6578 Thompson Road, 13206, Syracuse",
+   "url": "https://www.choicehotels.com/new-york/weedsport/rodeway-inn-hotels"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Hiawatha Boulevard West, 13204, Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrdees-embassy-suites-syracuse-destiny-usa/"
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5908 Widewaters Parkway, 13057, East Syracuse",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/east-syracuse/syrdw/hoteldetail"
+  },
+  {
+   "name": "Clarion Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "454 James Street, 13203, Syracuse",
+   "url": "https://www.choicehotels.com/new-york/syracuse/quality-inn-hotels/ny405"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6580 Weighlock Drive, 13057, East Syracuse",
+   "url": "https://www.marriott.com/en-us/hotels/syrsh-springhill-suites-syracuse-carrier-circle/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Syracuse/Carrier Circle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6377 Court Street Road, 13057, East Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrcrhx-hampton-suites-syracuse-carrier-circle"
+  },
+  {
+   "name": "Sleep Inn & Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6344 East Molloy Road, 13057, East Syracuse",
+   "url": "https://www.choicehotels.com/new-york/tully/quality-inn-hotels"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6301 NY 298, 13057, East Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrdtdt-doubletree-syracuse/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1305 Buckley Road, 13212, Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrnahx-hampton-suites-syracuse-north-airport-area/"
+  },
+  {
+   "name": "HomeTown Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6611 Old Collamer Road South, 13057, East Syracuse",
+   "url": "https://www.redroof.com/extendedstay/hometownestudios/property/ny/east-syracuse/HTS1260"
+  },
+  {
+   "name": "Econo Lodge Inn & Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5396 South Bay Road, 13212, North Syracuse",
+   "url": "https://www.choicehotels.com/new-york/weedsport/rodeway-inn-hotels"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "670 State Fair Boulevard, 13209, Syracuse",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-syracuse/best-western-the-inn-at-the-fairgrounds/propertyCode.33154.html"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3400 Erie Boulevard East, 13214, DeWitt",
+   "url": "http://www.econolodge.com/hotel-dewitt-new_york-NY053"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6593 Weighlock Drive, 13057, East Syracuse",
+   "url": "https://www.marriott.com/en-us/hotels/syrfe-fairfield-inn-and-suites-syracuse-carrier-circle/overview"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6004 Fair Lakes Road, 13057, East Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrshgi-hilton-garden-inn-syracuse"
+  },
+  {
+   "name": "ParkView Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "713 East Genesee Street, 13210, Syracuse",
+   "url": "https://www.theparkviewhotel.com/"
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6608 Old Collamer Road South, 13057, East Syracuse",
+   "url": "https://www.redlion.com/americas-best-value-inn/ny/east-syracuse/americas-best-value-inn-east-syracuse"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5418 South Bay Road, 13212, North Syracuse",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/north-syracuse/syrss/hoteldetail"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6006 Fair Lakes Road, 13057, East Syracuse",
+   "url": "https://www.hilton.com/en/hotels/syrflhw-homewood-suites-syracuse-carrier-circle"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6555 Old Collamer Road South, 13057, East Syracuse",
+   "url": "https://www.choicehotels.com/en-ca/new-york/east-syracuse/quality-inn-hotels/ny345"
+  },
+  {
+   "name": "Maplewood Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 7th North Street, 13088, Liverpool",
+   "url": "http://www.themaplewoodinn.com/"
+  },
+  {
+   "name": "Hostelling International Syracuse",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "535 Oak Street, 13203, Syracuse",
+   "url": "https://www.hiusa.org/new-york/syracuse/downing-international-hostel"
+  },
+  {
+   "name": "Cresthill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6410 New Venture Gear Drive, 13057, East Syracuse",
+   "url": "https://www.cresthillsuites.com"
+  },
+  {
+   "name": "LivAway Suites Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6595 Thompson Road, 13206",
+   "url": "https://www.livawaysuites.com/locations/ny/syracuse/syracuse"
+  },
+  {
+   "name": "Tru by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "417 7th North Street, 13088, Liverpool",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6630 Old Collamer Road, 13057, East Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6550 Baptist Way, 13057, East Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "441 Electronics Parkway, 13088, Liverpool",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "275 Elwood Davis Road, 13088, Liverpool",
+   "url": ""
+  },
+  {
+   "name": "Aloft Syracuse Inner Harbor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 West Kirkpatrick Street, 13204, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Syracuse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6577 Baptist Way, 13057, East Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Best Western Syracuse Downtown Hotel and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "416 South Clinton Street, 13202, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6614 Thompson Road, 13206, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "439 Electronics Parkway, 13088, Liverpool",
+   "url": ""
+  },
+  {
+   "name": "Red Carpet Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2914 Brewerton Road, 13212, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4406 South Salina Street, 13205, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Hotel Skyler",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 South Crouse Avenue, 13210, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5414 South Bay Road, 13212, North Syracuse",
+   "url": ""
+  },
+  {
+   "name": "State Fair Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "514 State Fair Boulevard, 13204, Syracuse",
+   "url": ""
+  },
+  {
+   "name": "Creek Commons",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sarah's Guest House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Alto Cinco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "526 Westcott Street, 13210, Syracuse",
+   "website": "https://www.altocinco.net/"
+  },
+  {
+   "name": "Eva's European Sweets",
+   "cuisines": [
+    "Polish",
+    "Sandwich"
+   ],
+   "address": "1305 Milton Avenue, 13204, Syracuse",
+   "website": "https://www.evaspolish.com/"
+  },
+  {
+   "name": "Varsity Pizza",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "American",
+    "Salad",
+    "Soup",
+    "Sandwich"
+   ],
+   "address": "802 South Crouse Avenue, 13210, Syracuse",
+   "website": "https://varsitypizzasyracuse.com"
+  },
+  {
+   "name": "Sakana-Ya Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "215 Walton Street, 13202, Syracuse",
+   "website": "https://syracusesushi.com/"
+  },
+  {
+   "name": "The Sweet Praxis",
+   "cuisines": [
+    "American"
+   ],
+   "address": "203 East Water Street, 13202, Syracuse",
+   "website": "https://www.thesweetpraxis.com/"
+  },
+  {
+   "name": "Las Delicias",
+   "cuisines": [
+    "Hispanic"
+   ],
+   "address": "552 Westcott Street, 13210, Syracuse",
+   "website": "http://las-delicias.com"
+  },
+  {
+   "name": "Rise N Shine Diner",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "500 Westcott Street, 13210, Syracuse",
+   "website": "https://risenshinediner.com/menu/"
+  },
+  {
+   "name": "Dinosaur BBQ",
+   "cuisines": [
+    "American"
+   ],
+   "address": "246 West Willow Street, 13202, Syracuse",
+   "website": "https://www.dinosaurbarbque.com/syracuse/"
+  },
+  {
+   "name": "Fusion Diner & Cakery",
+   "cuisines": [
+    "Coffee Shop",
+    "Diner",
+    "French",
+    "Spanish",
+    "International",
+    "Italian Pizza",
+    "Mexican",
+    "Regional",
+    "Crepe",
+    "Curry",
+    "Breakfast",
+    "Deli",
+    "Friture",
+    "Burger",
+    "Ice Cream",
+    "Pasta",
+    "Hot Dog",
+    "Pizza",
+    "Chicken",
+    "Sausage",
+    "Sandwich",
+    "Noodle",
+    "Cake",
+    "Pancake",
+    "Savory Pancakes",
+    "Tea",
+    "Tapas",
+    "Local",
+    "Bagel"
+   ],
+   "address": "3600 Court Street, 13206, Syracuse",
+   "website": "https://fusiondinerandcakery.wixsite.com/fusiondinercakery"
+  },
+  {
+   "name": "Asahi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "508 Westcott Street, 13210, Syracuse",
+   "website": "https://www.asahisyracuse.com/"
+  },
+  {
+   "name": "Ethioeritrea Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "505 North State Street, 13203, Syracuse",
+   "website": "https://ethioeritreacuse.wixsite.com/ethioeritreacuse"
+  },
+  {
+   "name": "Pita Dream",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "214 Walton Street, 13202, Syracuse",
+   "website": "https://www.pitadream.com/"
+  },
+  {
+   "name": "Margarita's Mexican Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "203 Walton Street, 13202, Syracuse",
+   "website": "https://margaritasmexicancantina.com/"
+  },
+  {
+   "name": "Yang Di Chun BBQ",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2042 Erie Boulevard East, 13224, Syracuse",
+   "website": "https://www.yangdichunbbq.com/"
+  },
+  {
+   "name": "The Mission",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "304 East Onondaga Street, 13202, Syracuse",
+   "website": "https://www.themissionrestaurant.com/"
+  },
+  {
+   "name": "Mona Lisa's Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "329 Fay Road, 13219, Syracuse",
+   "website": "https://www.monalisasristorantemenu.com/"
+  },
+  {
+   "name": "Syracuse Halal Gyro",
+   "cuisines": [
+    "Greek",
+    "Mediterranean"
+   ],
+   "address": "477 Westcott Street, 13210, Syracuse",
+   "website": "https://www.syracusehalalgyro.com/menu"
+  },
+  {
+   "name": "Secret Garden",
+   "cuisines": [
+    "Korean",
+    "Japanese"
+   ],
+   "address": "2731 Erie Boulevard East, 13224, Syracuse",
+   "website": "https://www.biwonsyracuse.com/secret-garden.html"
+  },
+  {
+   "name": "SuSu Dim Sum",
+   "cuisines": [
+    "Chinese",
+    "Noodle",
+    "Soup",
+    "Barbecue",
+    "Oriental"
+   ],
+   "address": "549 East Brighton Avenue, 13210, Syracuse",
+   "website": "http://susudimsumny.com"
+  },
+  {
+   "name": "JD at Danzer's",
+   "cuisines": [
+    "German",
+    "Pizza",
+    "Burger",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "153 Ainsley Drive, 13210, Syracuse",
+   "website": "https://www.jdatdanzers.com"
+  },
+  {
+   "name": "Pomegranate Grill & Deli",
+   "cuisines": [
+    "Breakfast",
+    "Sandwich",
+    "Middle Eastern",
+    "Mediterranean"
+   ],
+   "address": "2727 James Street, 13206, Syracuse",
+   "website": "https://pomegranategrilldeli.gotoeat.net/"
+  },
+  {
+   "name": "Eden",
+   "cuisines": [
+    "American"
+   ],
+   "address": "118 East Genesee Street, 13202, Syracuse",
+   "website": "https://www.edencny.com/"
+  },
+  {
+   "name": "China Pavilion",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2318 West Genesee Street, 13219, Syracuse",
+   "website": "https://chinapavilionnny.com"
+  },
+  {
+   "name": "Apizza Regionale",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "260 West Genesee Street, 13202, Syracuse",
+   "website": "https://www.apizzaregionale.com"
+  },
+  {
+   "name": "The Market Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "2100 Park Street",
+   "website": "https://themarketdiner.com/"
+  },
+  {
+   "name": "Dakshin Curry & Briyani",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "216 Walton Street, 13202, Syracuse",
+   "website": "https://www.dakshinny.com"
+  },
+  {
+   "name": "Crooked Cattle",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "290 West Jefferson Street, 13202, Syracuse",
+   "website": "https://crookedcattle.com/"
+  },
+  {
+   "name": "Maxwells",
+   "cuisines": [
+    "Pub"
+   ],
+   "address": "122 East Genesee Street, 13202, Syracuse",
+   "website": "https://www.maxwellssyracuse.com/"
+  },
+  {
+   "name": "Inka’s Peruvian Fusion Cuisine",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "201 South Salina Street",
+   "website": "https://inkassyracuse.com/"
+  },
+  {
+   "name": "China Cafe",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "227 West Fayette Street, 13202",
+   "website": "https://www.chinacafeny.com/"
+  },
+  {
+   "name": "New Century Vietnamese Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "518 Kirkpatrick Street",
+   "website": "https://www.newcenturyvietnamese.com/"
+  },
+  {
+   "name": "The Fish Friar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "225-231 East Washington Street",
+   "website": "https://www.thefishfriar.com"
+  },
+  {
+   "name": "Colucci",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "510 Westcott Street, 13210",
+   "website": "https://coluccisyr.com/"
+  },
+  {
+   "name": "XO Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.xotaco.com/"
+  },
+  {
+   "name": "Strada Mia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://stradamia313.com/"
+  },
+  {
+   "name": "Pastabilities",
+   "cuisines": [
+    "Pasta",
+    "Italian",
+    "Chicken",
+    "Cake",
+    "Fish",
+    "Seafood",
+    "Salad"
+   ],
+   "address": "311 South Franklin Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Gem Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "832 Spencer Street, 13204, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Erawan Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2724 Erie Boulevard East, 13224, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Red Chili Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2740 Erie Boulevard East, 13224, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Bistro Elephant",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "238 West Jefferson Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Mom's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "501 Westcott Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Modern Malt",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "325 South Clinton Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "JJ's Miss Syracuse Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "258 East Water Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Ichiban Japanese Steakhouse",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "302 Old Liverpool Road, 13088, Liverpool",
+   "website": ""
+  },
+  {
+   "name": "Otro Cinco",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "206 South Warren Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Tang Flavor Authentic Chinese Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "413 South Warren Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Oompa Loompyas",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "600 Burnet Avenue, 13203, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Ruby's Soul Food",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "4418 South Salina Street, 13205, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Dang's Cafe",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1828 Butternut Street, 13208, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Royal Indian Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "147 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Taste of Asia Thai & Vietnamese Cuisine",
+   "cuisines": [
+    "Asian",
+    "Thai",
+    "Vietnamese"
+   ],
+   "address": "143 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Bleu Monkey Cafe",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "163 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Dominick's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1370 Burnet Avenue, 13206, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Angottis Family Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "725 Burnet Avenue, 13203, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Prontofresh",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "133 East Water Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Nikos",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "135 East Water Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Panda West",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "135 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Moghual Indian Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "121 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Mediterranean Combo",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "149 Marshall Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Jesse's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "512 State Fair Boulevard, 13204, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "115 Simon Drive",
+   "website": ""
+  },
+  {
+   "name": "Teresa's Cocina Boricua",
+   "cuisines": [
+    "International"
+   ],
+   "address": "820 Wolf Street, 13208",
+   "website": ""
+  },
+  {
+   "name": "Ponchitos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dave & Buster's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pavone’s Pizza & Eatery",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "349 South Warren Street",
+   "website": ""
+  },
+  {
+   "name": "Johnny Rockets",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nick's Tomato Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luigi's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aloha Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koto Japanese Steakhouse",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Texas De Brazil",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ocean Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stella's Diner",
+   "cuisines": [],
+   "address": "110 Wolf Street, 13208, Syracuse",
+   "website": "http://www.stellasdinersyracuse.com/"
+  },
+  {
+   "name": "bc Restaurant",
+   "cuisines": [],
+   "address": "247 West Fayette Street, 13202, Syracuse",
+   "website": "http://www.bcrestaurant.com"
+  },
+  {
+   "name": "The Preserve At 405",
+   "cuisines": [],
+   "address": "405 Spencer Street, 13204, Syracuse",
+   "website": "https://thepreserveat405.com/"
+  },
+  {
+   "name": "The Wedge",
+   "cuisines": [],
+   "address": "2802 James Street, 13206, Syracuse",
+   "website": "https://www.thewedgesyr.com/"
+  },
+  {
+   "name": "Dolce Vita",
+   "cuisines": [],
+   "address": "907 East Genesee Street, 13210, Syracuse",
+   "website": "https://www.dvcuse.com/"
+  },
+  {
+   "name": "Hammi's BBQ",
+   "cuisines": [],
+   "address": "3712 New Court Avenue, 13206, Salina",
+   "website": "http://www.hammisbbq.com/"
+  },
+  {
+   "name": "Munjed's Middle-Eastern Cafe",
+   "cuisines": [],
+   "address": "505 Westcott Street, 13210, Syracuse",
+   "website": "https://www.munjeds.net/"
+  },
+  {
+   "name": "Limp Lizard",
+   "cuisines": [],
+   "address": "4628 Onondaga Boulevard, 13219, Syracuse",
+   "website": "https://www.cnysmartsites.com/limplizard/syracuse.html"
+  },
+  {
+   "name": "Phoebe's",
+   "cuisines": [],
+   "address": "900 East Genesee Street, 13210, Syracuse",
+   "website": "https://phoebessyracuse.com/"
+  },
+  {
+   "name": "Water Street Bagel",
+   "cuisines": [],
+   "address": "239 East Water Street, 13202, Syracuse",
+   "website": "https://www.waterstreetbagelco.com/"
+  },
+  {
+   "name": "Margaritaville",
+   "cuisines": [],
+   "address": "1 Destiny USA Drive, 13204, Syracuse",
+   "website": "https://www.margaritavillesyracuse.com"
+  },
+  {
+   "name": "The Hops Spot",
+   "cuisines": [],
+   "address": "116 Walton Street, 13202, Syracuse",
+   "website": "https://www.syracusehopsspot.com/"
+  },
+  {
+   "name": "Tully's",
+   "cuisines": [],
+   "address": "311 7th North Street, 13088, Liverpool",
+   "website": ""
+  },
+  {
+   "name": "The Spaghetti Warehouse",
+   "cuisines": [],
+   "address": "689 North Clinton Street, 13204, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Kelley's Restaurant",
+   "cuisines": [],
+   "address": "5076 Velasko Road, 13215, Onondaga",
+   "website": ""
+  },
+  {
+   "name": "Yeti Frozen Yogurt",
+   "cuisines": [],
+   "address": "558 Westcott Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Salt Restaurant & Bar",
+   "cuisines": [],
+   "address": "1060 East Genesee Street, 13210, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Twin Trees Too!",
+   "cuisines": [],
+   "address": "1029 Milton Avenue, 13204, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "Guadalajara Mexican Restaurant",
+   "cuisines": [],
+   "address": "102 North Franklin Street, 13202, Syracuse",
+   "website": ""
+  },
+  {
+   "name": "The Taste of Africa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gee Gee's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Funk 'n Waffles",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Being Chinese Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Olive",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "LeTeak's Soul Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chorung Korean Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Meier's Creek Brewing",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bongo's Jerkhut Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Museum of Science and Technology",
+   "kind": "museum",
+   "address": "500 South Franklin Street, 13152, Syracuse",
+   "website": "https://www.most.org/",
+   "phone": "+1-315-425-9068",
+   "latitude": 43.0470485,
+   "longitude": -76.1553622
+  },
+  {
+   "name": "Rosamond Gifford Zoo at Burnet Park",
+   "kind": "zoo",
+   "address": "1 Conservation Place, 13204, Syracuse",
+   "website": "https://www.rosamondgiffordzoo.org/",
+   "phone": "+1-315-435-8511",
+   "latitude": 43.0423907,
+   "longitude": -76.1808846
+  },
+  {
+   "name": "Erie Canal Museum",
+   "kind": "museum",
+   "address": "318 Erie Boulevard East, 13202, Syracuse",
+   "website": "https://eriecanalmuseum.org/",
+   "phone": "+1-315-471-0593",
+   "latitude": 43.0506512,
+   "longitude": -76.1487183
+  },
+  {
+   "name": "Everson Museum of Art",
+   "kind": "museum",
+   "address": "401 Harrison Street, 13202, Syracuse",
+   "website": "https://www.everson.org/",
+   "phone": "+1-315-474-6064",
+   "latitude": 43.0447215,
+   "longitude": -76.1467415
+  },
+  {
+   "name": "Great New York State Fair",
+   "kind": "attraction",
+   "address": "581 State Fair Boulevard, 13209, Syracuse",
+   "website": "",
+   "phone": "+1-315-487-7711",
+   "latitude": 43.0729555,
+   "longitude": -76.2141799
+  },
+  {
+   "name": "Onondaga Lake Parkway Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0905568,
+   "longitude": -76.193631
+  },
+  {
+   "name": "Salt Museum",
+   "kind": "museum",
+   "address": "106 Lake Drive, 13088, Liverpool",
+   "website": "https://www.onondagacountyparks.com/parks/onondaga-lake-park/salt-museum",
+   "phone": "+1-315-453-6715",
+   "latitude": 43.0997591,
+   "longitude": -76.2068423
+  },
+  {
+   "name": "Edgewood Gallery",
+   "kind": "gallery",
+   "address": "216 Tecumseh Road, 13224, DeWitt",
+   "website": "https://edgewoodartandframe.com/",
+   "phone": "+1-315-445-8111",
+   "latitude": 43.0270829,
+   "longitude": -76.1101245
+  },
+  {
+   "name": "Point of Contact Gallery",
+   "kind": "gallery",
+   "address": "914 East Genesee Street, 13210, Syracuse",
+   "website": "https://puntopoint.org/",
+   "phone": "+1-315-443-2169",
+   "latitude": 43.0467641,
+   "longitude": -76.1372068
+  },
+  {
+   "name": "Spark Contemporary Art Space",
+   "kind": "gallery",
+   "address": "1005 East Fayette Street, 13210, Syracuse",
+   "website": "http://www.sparkartspace.com",
+   "phone": "",
+   "latitude": 43.0486674,
+   "longitude": -76.136282
+  },
+  {
+   "name": "ArtRage Gallery",
+   "kind": "gallery",
+   "address": "505 Hawley Avenue, 13203, Syracuse",
+   "website": "https://artragegallery.org/",
+   "phone": "",
+   "latitude": 43.0534384,
+   "longitude": -76.135939
+  },
+  {
+   "name": "Community Folk Art Center",
+   "kind": "gallery",
+   "address": "805 East Genesee Street, 13210, Syracuse",
+   "website": "https://www.communityfolkartcenter.org/",
+   "phone": "+1-315-442-2230",
+   "latitude": 43.0474004,
+   "longitude": -76.1391801
+  },
+  {
+   "name": "The Warehouse Gallery",
+   "kind": "gallery",
+   "address": "350 West Fayette Street, 13202, Syracuse",
+   "website": "http://thewarehousegallery.syr.edu/",
+   "phone": "+1-315-443-6450",
+   "latitude": 43.0490551,
+   "longitude": -76.1579788
+  },
+  {
+   "name": "Jamesville Community Museum",
+   "kind": "museum",
+   "address": "6492 East Seneca Turnpike, 13078, Jamesville",
+   "website": "https://www.jamesvillecommunitymuseum.com/",
+   "phone": "+1-315-492-4890",
+   "latitude": 42.99148,
+   "longitude": -76.0718003
+  },
+  {
+   "name": "Onondaga Historical Association Museum & Research Center",
+   "kind": "museum",
+   "address": "321 Montgomery Street, 13202, Syracuse",
+   "website": "https://www.cnyhistory.org/",
+   "phone": "+1-315-428-1864",
+   "latitude": 43.0478818,
+   "longitude": -76.1491511
+  },
+  {
+   "name": "Westcott Community Art Gallery",
+   "kind": "gallery",
+   "address": "826 Euclid Avenue, 13210, Syracuse",
+   "website": "http://www.westcottartgallery.com/",
+   "phone": "+1-315-478-8634",
+   "latitude": 43.0364923,
+   "longitude": -76.119224
+  },
+  {
+   "name": "601 Tully",
+   "kind": "gallery",
+   "address": "601 Tully Street, 13204, Syracuse",
+   "website": "http://601tully.syr.edu/",
+   "phone": "+1-315-442-1297",
+   "latitude": 43.0440807,
+   "longitude": -76.1644865
+  },
+  {
+   "name": "New York State Fairgrounds",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://nysfairgrounds.ny.gov",
+   "phone": "",
+   "latitude": 43.0743931,
+   "longitude": -76.2225441
+  },
+  {
+   "name": "Nicholas J. Pirro Convention Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "http://www.oncenter.org/venue/nicholas-j-pirro-convention-center",
+   "phone": "",
+   "latitude": 43.0436063,
+   "longitude": -76.1482253
+  },
+  {
+   "name": "Friends of Clark Reservation State Park Nature Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://parks.ny.gov/environment/nature-centers/15/details.aspx",
+   "phone": "",
+   "latitude": 42.9946249,
+   "longitude": -76.0931835
+  },
+  {
+   "name": "Sainte Marie Mission Site Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.skanonhcenter.org/sainte-marie-mission-site",
+   "phone": "",
+   "latitude": 43.0930167,
+   "longitude": -76.1963169
+  },
+  {
+   "name": "Skä•noñh Center",
+   "kind": "museum",
+   "address": "6680 Onondaga Lake Parkway, 13088, Liverpool",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0935071,
+   "longitude": -76.1969645
+  },
+  {
+   "name": "Liverpool Village Museum",
+   "kind": "museum",
+   "address": "314 2nd Street, 13088, Liverpool",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1038355,
+   "longitude": -76.2090013
+  },
+  {
+   "name": "Wagoner Carriage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0740894,
+   "longitude": -76.2198868
+  },
+  {
+   "name": "Witter Agricultural Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0737836,
+   "longitude": -76.2192931
+  }
+ ]
+}

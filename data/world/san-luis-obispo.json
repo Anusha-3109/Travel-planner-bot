@@ -1,0 +1,1531 @@
+{
+ "city": "San Luis Obispo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.2796,
+ "longitude": -120.6648,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Madonna Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Madonna Road, 93405",
+   "url": "https://www.madonnainn.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1530 Calle Joaquin, 93405, San Luis Obispo",
+   "url": "https://www.hilton.com/en/hotels/sbplohx-hampton-suites-san-luis-obispo/"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1631 Monterey Street, 93401, San Luis Obispo",
+   "url": "https://www.choicehotels.com/california/san-luis-obispo/quality-inn-hotels/ca702"
+  },
+  {
+   "name": "Vagabond Inn San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 Madonna Road, 93405, San Luis Obispo",
+   "url": "https://www.vagabondinn.com/vagabond-inn-san-luis-obispo"
+  },
+  {
+   "name": "Heritage Inn Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "978 Olive St, 93405, San Luis Obispo",
+   "url": "http://heritageinnslo.com"
+  },
+  {
+   "name": "La Quinta Inn & Suites San Luis Obispo Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1845 Monterey Street, 93401, San Luis Obispo",
+   "url": "https://www.wyndhamhotels.com/laquinta/san-luis-obispo-california/la-quinta-inn-and-suites-san-luis-obispo-downtown/overview"
+  },
+  {
+   "name": "Residence Inn by Marriott San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 Froom Ranch Way, 93405, San Luis Obispo",
+   "url": "https://www.marriott.com/en-us/hotels/sbpor-residence-inn-san-luis-obispo"
+  },
+  {
+   "name": "Garden Street Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 Garden Street, 93401, San Luis Obispo",
+   "url": "https://www.gardenstreetinn.com/"
+  },
+  {
+   "name": "Hotel SLO",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "877 Palm Street, 93401, San Luis Obispo",
+   "url": "https://hotel-slo.com/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1301 Calle Joaquin, 93405, San Luis Obispo",
+   "url": "https://www.marriott.com/en-us/hotels/sbpts-towneplace-suites-san-luis-obispo/overview/"
+  },
+  {
+   "name": "Sands Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1930 Monterey Street, 93401, San Luis Obispo",
+   "url": "https://www.sandssuites.com"
+  },
+  {
+   "name": "Petit Soleil, Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1473 Monterey",
+   "url": "https://www.petitsoleilslo.com/"
+  },
+  {
+   "name": "The Wayfarer San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Monterey",
+   "url": "https://www.wayfarerslo.com/"
+  },
+  {
+   "name": "Courtyard San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1605 Calle Joaquin, 93405, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 San Luis Obispo North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1433 Calle Joaquin",
+   "url": ""
+  },
+  {
+   "name": "Embassy Suites by Hilton San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333;321 Madonna Road",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 San Luis Obispo South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 Calle Joaquin, 93405, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "BEST WESTERN PLUS Royal Oak Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Avenue Inn Downtown San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "345 Marsh",
+   "url": ""
+  },
+  {
+   "name": "Apple Farm Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2015 Monterey Street, 93401, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "Mellow Yellow Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "304 Foothill",
+   "url": ""
+  },
+  {
+   "name": "San Luis Creek Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1941 Monterey Street, 93401, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "Rose Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1585 Calle Joaquin, 93405, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "Super 8 San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1951 Monterey Street, San Luis Obispo",
+   "url": ""
+  },
+  {
+   "name": "San Luis Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "404 Santa Rosa",
+   "url": ""
+  },
+  {
+   "name": "Homestead Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "920 Olive",
+   "url": ""
+  },
+  {
+   "name": "Travelodge San Luis Obispo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1825 Monterey",
+   "url": ""
+  },
+  {
+   "name": "La Cuesta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2074 Monterey",
+   "url": ""
+  },
+  {
+   "name": "Peach Tree Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 Monterey",
+   "url": ""
+  },
+  {
+   "name": "Los Padres Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1575 Monterey",
+   "url": ""
+  },
+  {
+   "name": "Sunbeam Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1656 Monterey",
+   "url": ""
+  },
+  {
+   "name": "Lamplighter Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1616 Monterey",
+   "url": ""
+  },
+  {
+   "name": "Hotel Buena Vista",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2050 Garfield",
+   "url": ""
+  },
+  {
+   "name": "Hostel Obispo",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1617",
+   "url": ""
+  },
+  {
+   "name": "Villa Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1670 Monterey Street",
+   "url": ""
+  },
+  {
+   "name": "Granada Hotel and Bistro",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Olive Tree Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Petra Mediterranean Pizza & Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1210 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.eatpetra.com/"
+  },
+  {
+   "name": "Buona Tavola",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1037 Monterey Street, 93401, San Luis Obispo",
+   "website": "http://btslo.com/san-luis-obispo/"
+  },
+  {
+   "name": "Mama's Meatball",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "570 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.mamasmeatball.com/"
+  },
+  {
+   "name": "Nucci's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3165 Broad Street, 93401, San Luis Obispo",
+   "website": "https://nuccispizza.com/"
+  },
+  {
+   "name": "Cool Cat Cafe",
+   "cuisines": [
+    "Burger",
+    "Diner"
+   ],
+   "address": "3165 Broad Street, 93401, San Luis Obispo",
+   "website": "https://coolcatcafe.com/"
+  },
+  {
+   "name": "Quesadilla Gorilla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "570 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.quesadillagorilla.com/slo/"
+  },
+  {
+   "name": "Lure Fish House",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "1101 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://www.lurefishhouse.com/location/san-luis-obispo/"
+  },
+  {
+   "name": "Luna Red",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "1023 Chorro Street, 93401, San Luis Obispo",
+   "website": "https://www.lunaredslo.com/"
+  },
+  {
+   "name": "Gold Land BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "570 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.goldlandbbq.com/"
+  },
+  {
+   "name": "Mistura",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "570 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.misturarestaurants.com/"
+  },
+  {
+   "name": "Firestone Grill",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1001 Higuera Street",
+   "website": "https://www.firestonegrill.com/"
+  },
+  {
+   "name": "Wren Provisions",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1901 Broad Street, San Luis Obispo",
+   "website": "https://www.wrenprovisions.com/"
+  },
+  {
+   "name": "Shake Shake Fresh Noodle",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1049 Nipomo Street, 93401, San Luis Obispo",
+   "website": "https://www.ssfreshnoodle.com/"
+  },
+  {
+   "name": "HELLAHOT",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "570 Higuera Street, 93401, San Luis Obispo",
+   "website": "http://hellahot.io/"
+  },
+  {
+   "name": "Bravo Pizza Plus",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3971 South Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.bravopizzaplus.com/"
+  },
+  {
+   "name": "High St Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "350 High Street, San Luis Obispo",
+   "website": "https://www.highstdeli.com/"
+  },
+  {
+   "name": "Yanagi Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1203 Marsh Street, 93401, San Luis Obispo",
+   "website": "https://www.yanagisushigrill.com/"
+  },
+  {
+   "name": "My Friend Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2324 Broad Street, 93401, San Luis Obispo",
+   "website": "https://www.myfriendmikes.com/"
+  },
+  {
+   "name": "Honey Belly",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1127 Broad Street, 93401, San Luis Obispo",
+   "website": "https://honey-belly.com/"
+  },
+  {
+   "name": "Old San Luis BBQ Co",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3870 Broad Street",
+   "website": "https://oldsanluisbbq.com/"
+  },
+  {
+   "name": "Chilie Peppers",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2161 Broad Street, 93401, San Luis Obispo",
+   "website": "http://chiliepeppers.com/"
+  },
+  {
+   "name": "Golden Gong",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "290 Madonna Road, 93405, San Luis Obispo",
+   "website": "https://www.goldengongslo.com/"
+  },
+  {
+   "name": "Cafe Roma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1020 Railroad Avenue",
+   "website": "https://www.caferomaslo.com/"
+  },
+  {
+   "name": "Thai Delight",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1011 Higuera",
+   "website": "https://www.thaidelightslo.com/"
+  },
+  {
+   "name": "Kitchen & Vine",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "3897 South Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.kitchennvine.com/"
+  },
+  {
+   "name": "G Brothers Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "885 Foothill Boulevard, 93405, San Luis Obispo",
+   "website": "http://www.gbrothersinslo.com"
+  },
+  {
+   "name": "Finney's Crafthouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "857 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://www.finneyscrafthouse.com/san-luis-obispo/"
+  },
+  {
+   "name": "At Bites",
+   "cuisines": [
+    "Asian",
+    "Fusion",
+    "Vietnamese"
+   ],
+   "address": "195 Santa Rosa Street, 93405, San Luis Obispo",
+   "website": "https://atbites.com/"
+  },
+  {
+   "name": "Ebony",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "778 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://www.ebony-slo.com/"
+  },
+  {
+   "name": "Moe's Mediterranean",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1035 Chorro Street, 93401, San Luis Obispo",
+   "website": "https://www.moesmediterranean.com/"
+  },
+  {
+   "name": "Bon Temps Creole Cafe",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "1819 Osos Street, 93401, San Luis Obispo",
+   "website": "http://www.bontempscreolecafe.com/"
+  },
+  {
+   "name": "Pancho's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1231 Johnson Avenue, 93401, San Luis Obispo",
+   "website": "https://www.panchosdining.com/"
+  },
+  {
+   "name": "Le Ciel Crepe Cafe",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "3211 Broad Street, 93401, San Luis Obispo",
+   "website": "http://www.lecielcrepes.com/"
+  },
+  {
+   "name": "Taco Roco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3230 Broad Street, 93401, San Luis Obispo",
+   "website": "https://tacoroco.com/"
+  },
+  {
+   "name": "201 Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "857 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://201kitchenslo.com/"
+  },
+  {
+   "name": "Ox & Anchor",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "877 Palm Street, 93401, San Luis Obispo",
+   "website": "https://oxandanchor.com/"
+  },
+  {
+   "name": "Raku Ramen",
+   "cuisines": [
+    "Noodle",
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "799 Foothill Boulevard, 93405, San Luis Obispo",
+   "website": "http://places.singleplatform.com/raku-ramen/menu?ref=google"
+  },
+  {
+   "name": "Typhoon",
+   "cuisines": [
+    "Bubble Tea",
+    "Thai",
+    "Asian"
+   ],
+   "address": "858 Foothill Boulevard, 93405, San Luis Obispo",
+   "website": "https://typhoon.gotoeat.net/"
+  },
+  {
+   "name": "Snofari Frozen Yogurt",
+   "cuisines": [
+    "Frozen Yogurt"
+   ],
+   "address": "1352 Madonna Road, 93405, San Luis Obispo",
+   "website": "http://snofarifroyo.com/"
+  },
+  {
+   "name": "My Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1815 Osos Street, 93401, San Luis Obispo",
+   "website": "http://www.onlinemythai.com/"
+  },
+  {
+   "name": "Capriottti's Sandwich Shop",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "791 Foothill Boulevard, 93405, San Luis Obispo",
+   "website": "https://order.capriottis.com/"
+  },
+  {
+   "name": "Hoagies",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1234 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://hoagiesca.com/"
+  },
+  {
+   "name": "Coya Peruvian Food",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "851 Higuera Street, 93401, San Luis Obispo",
+   "website": "https://coyaperuvianfoodca.com/"
+  },
+  {
+   "name": "Poke Chef",
+   "cuisines": [
+    "Sushi",
+    "Poke"
+   ],
+   "address": "580 California Boulevard, 93405, San Luis Obispo",
+   "website": "http://www.thepokechef.com/"
+  },
+  {
+   "name": "Arigato Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "667 Marsh, 93401, San Luis Obispo",
+   "website": "https://www.arigatosushislo.com/"
+  },
+  {
+   "name": "Shalimar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3820 Broad",
+   "website": "https://shalimarslo.com/"
+  },
+  {
+   "name": "Thai Boat",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3212 Broad Street, 93401, San Luis Obispo",
+   "website": "https://thaiboatslo.com/"
+  },
+  {
+   "name": "Nomo Domo",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "848 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://www.nomodomo.com/"
+  },
+  {
+   "name": "Eureka! Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1141 Chorro Street, 93401, San Luis Obispo",
+   "website": "https://www.eurekarestaurantgroup.com/"
+  },
+  {
+   "name": "La Locanda",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1137 Garden",
+   "website": "http://www.lalocandaslo.com/"
+  },
+  {
+   "name": "Efren’s Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.efrensmexicanrestaurant.com/"
+  },
+  {
+   "name": "Aisuru Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1023 Monterey Street",
+   "website": "http://aisurusushibar.com/index.html"
+  },
+  {
+   "name": "Giuseppe's Cucina Rustica",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "849 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://www.giuseppesrestaurant.com/"
+  },
+  {
+   "name": "Ribline",
+   "cuisines": [
+    "American"
+   ],
+   "address": "12308 Los Osos Valley Road, 93405, San Luis Obispo",
+   "website": "https://www.ribline.com/"
+  },
+  {
+   "name": "La Esquina Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://laesquinaslo.com/"
+  },
+  {
+   "name": "Papa's Thai Café",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://papathaicafe.com/"
+  },
+  {
+   "name": "Novo Restaurant & Lounge",
+   "cuisines": [
+    "International"
+   ],
+   "address": "726 Higuera Street",
+   "website": "https://www.novorestaurant.com/"
+  },
+  {
+   "name": "Piadina",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://piadinaslo.com/"
+  },
+  {
+   "name": "Et Voilà",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": "https://www.etvoilarestaurant.com/"
+  },
+  {
+   "name": "La Esquina Distillery",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "http://www.laesquinadistillery.com/"
+  },
+  {
+   "name": "Taj Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "http://www.tajpalaceslo.net/"
+  },
+  {
+   "name": "Goshi Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "http://www.goshislo.com/"
+  },
+  {
+   "name": "Taqueria Santa Cruz Express 2",
+   "cuisines": [
+    "Mexican",
+    "Burrito"
+   ],
+   "address": "",
+   "website": "https://www.taqueriasantacruzexpress.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "208 Madonna Road",
+   "website": ""
+  },
+  {
+   "name": "Gus's Grocery",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1638 Osos Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Suite 110 Broad Street",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "11966 Los Osos Valley",
+   "website": ""
+  },
+  {
+   "name": "Tacos de Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "374 Santa Rosa street, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Taste",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2550 Broad",
+   "website": ""
+  },
+  {
+   "name": "Jewel of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2115 Broad Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Frank's Famous Hot Dogs",
+   "cuisines": [
+    "American",
+    "Hot Dog"
+   ],
+   "address": "950 California",
+   "website": ""
+  },
+  {
+   "name": "Coya Peruvian",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "1401 Osos Street",
+   "website": ""
+  },
+  {
+   "name": "Brooks Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "134 Tank Farm Road, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Flour House",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "690 Higuera Street",
+   "website": ""
+  },
+  {
+   "name": "Taqueria San Miguel",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "5 Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "309 Madonna Road",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "212 Madonna",
+   "website": ""
+  },
+  {
+   "name": "Apple Farm",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Copper Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deltina Coffee",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "1340 Taft Street, 93405, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Louisa's Place",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "964 Higuera Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "CJ’s BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1005 Monterey Street",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Santa Cruz Express",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1330 Monterey Street",
+   "website": ""
+  },
+  {
+   "name": "Cinco de Mayo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "281 Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Hanabi Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1065 Olive",
+   "website": ""
+  },
+  {
+   "name": "Chronic Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "892 Marsh Street",
+   "website": ""
+  },
+  {
+   "name": "Mee Heng Low Noodle House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "815 Palm Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Benjamin Franklin's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "313 Higuera Street",
+   "website": ""
+  },
+  {
+   "name": "Thai-rrific",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "208 Higuera Street",
+   "website": ""
+  },
+  {
+   "name": "Thai Palace",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1015 Court Street",
+   "website": ""
+  },
+  {
+   "name": "Burger Village",
+   "cuisines": [
+    "American"
+   ],
+   "address": "698 Higuera Street",
+   "website": ""
+  },
+  {
+   "name": "Alex Madonna Gold Rush Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Kokku",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mustang Station",
+   "cuisines": [
+    "Pizza",
+    "Wine",
+    "Beer"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kumi-Ko Japanese",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Laguna Bar and Grill",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos de Aculpuco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "PokiRito",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Republic",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lincoln Market & Deli",
+   "cuisines": [],
+   "address": "496 Broad Street, 93405, San Luis Obispo",
+   "website": "http://lincolnmarketanddeli.com/"
+  },
+  {
+   "name": "Nobu Hawaiian Barbeque",
+   "cuisines": [],
+   "address": "1308 Monterey Street, 93401, San Luis Obispo",
+   "website": "https://nobuhawaiianbbq.menu11.com/"
+  },
+  {
+   "name": "New Earth Superfoods",
+   "cuisines": [],
+   "address": "942 Chorro Street, 93401, San Luis Obispo",
+   "website": "https://newearthsuperfoods.com/"
+  },
+  {
+   "name": "Cowgirl Cafe",
+   "cuisines": [],
+   "address": "1055 Olive",
+   "website": "http://www.cowgirlcafe.net/"
+  },
+  {
+   "name": "Urbane Cafe",
+   "cuisines": [],
+   "address": "952 Higuera Street",
+   "website": "https://urbanecafe.com/"
+  },
+  {
+   "name": "Del Monte Cafe",
+   "cuisines": [],
+   "address": "1901 Santa Barbara",
+   "website": ""
+  },
+  {
+   "name": "The Breakfast Buzz",
+   "cuisines": [],
+   "address": "295 Santa Rosa",
+   "website": ""
+  },
+  {
+   "name": "Fatte's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tiki Hut",
+   "cuisines": [],
+   "address": "1340 Taft Street, 93405, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Granada Hotel & Bistro",
+   "cuisines": [],
+   "address": "1126 Morro Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Mongo Madness",
+   "cuisines": [],
+   "address": "746 Higuera",
+   "website": ""
+  },
+  {
+   "name": "Nucci's Pizza",
+   "cuisines": [],
+   "address": "785 Foothill Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Bowl'd",
+   "cuisines": [],
+   "address": "1028 Chorro Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "UBATUBA, Acai bowls",
+   "cuisines": [],
+   "address": "785 Marsh",
+   "website": ""
+  },
+  {
+   "name": "Budget Cafe",
+   "cuisines": [],
+   "address": "3121 South Higuera Street, 93401, San Luis Obispo",
+   "website": ""
+  },
+  {
+   "name": "Taco King",
+   "cuisines": [],
+   "address": "158 Higuera St",
+   "website": ""
+  },
+  {
+   "name": "SLO Provisions",
+   "cuisines": [],
+   "address": "1255 Monterey St",
+   "website": ""
+  },
+  {
+   "name": "Woodstock's Pizza",
+   "cuisines": [],
+   "address": "1000 Higuera Street",
+   "website": ""
+  },
+  {
+   "name": "Seeds",
+   "cuisines": [],
+   "address": "1133 Garden",
+   "website": ""
+  },
+  {
+   "name": "Charlie's Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pancho Villa's Mexican Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Radish",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tahoe Joe's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oki Momo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "San Luis Fish BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aloha Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Dallidet Adobe and Gardens",
+   "kind": "museum",
+   "address": "1185 Pacific Street, 93401, San Luis Obispo",
+   "website": "https://www.historycenterslo.org/dallidet-gardens.html",
+   "phone": "",
+   "latitude": 35.2809547,
+   "longitude": -120.6564987
+  },
+  {
+   "name": "San Luis Obispo Railroad Museum",
+   "kind": "museum",
+   "address": "1940 Santa Barbara Street, 93401, San Luis Obispo",
+   "website": "https://slorrm.com/",
+   "phone": "+1-805-548-1894",
+   "latitude": 35.2732042,
+   "longitude": -120.6556225
+  },
+  {
+   "name": "San Luis Obispo Museum of Art",
+   "kind": "museum",
+   "address": "1010 Broad Street, 93401, San Luis Obispo",
+   "website": "https://sloma.org/",
+   "phone": "+1 805 543-8562",
+   "latitude": 35.2795773,
+   "longitude": -120.664934
+  },
+  {
+   "name": "Central Coast Veterans Memorial",
+   "kind": "museum",
+   "address": "801 Grand Avenue, 93401, San Luis Obispo",
+   "website": "https://vetmuseum.org/",
+   "phone": "",
+   "latitude": 35.2888634,
+   "longitude": -120.6526709
+  },
+  {
+   "name": "San Luis Obispo Children’s Museum",
+   "kind": "museum",
+   "address": "1010 Nipomo Street, 93401, San Luis Obispo",
+   "website": "https://www.slocm.org/",
+   "phone": "+1-805-544-5437",
+   "latitude": 35.2789436,
+   "longitude": -120.6661009
+  },
+  {
+   "name": "History Center of San Luis Obispo County",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.historycenterslo.org/",
+   "phone": "",
+   "latitude": 35.2800834,
+   "longitude": -120.66497
+  },
+  {
+   "name": "Historic Jack House & Gardens",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.slocity.org/government/department-directory/parks-and-recreation/jack-house-and-gardens",
+   "phone": "+1-805-781-7305",
+   "latitude": 35.2770828,
+   "longitude": -120.6661194
+  },
+  {
+   "name": "Cal Poly Architecture Graveyard",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://polycanyon.calpoly.edu/",
+   "phone": "",
+   "latitude": 35.3153438,
+   "longitude": -120.6534275
+  },
+  {
+   "name": "Octagon Barn Center, Milking Parlor",
+   "kind": "museum",
+   "address": "4400 Octagon Way, 93401, San Luis Obispo",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2365816,
+   "longitude": -120.6797596
+  },
+  {
+   "name": "Bubblegum Alley",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2790511,
+   "longitude": -120.6637604
+  },
+  {
+   "name": "Serenity Swing / Tree of Life",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.323118,
+   "longitude": -120.6473933
+  },
+  {
+   "name": "Reservoir Creek Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2906746,
+   "longitude": -120.6283269
+  },
+  {
+   "name": "Cal Poly Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.3011161,
+   "longitude": -120.6630447
+  },
+  {
+   "name": "The P",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.3028033,
+   "longitude": -120.6516398
+  },
+  {
+   "name": "Robert Hoover Herbarium",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.3023882,
+   "longitude": -120.6594178
+  },
+  {
+   "name": "The Berg Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.3008315,
+   "longitude": -120.6646871
+  }
+ ]
+}

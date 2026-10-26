@@ -1,0 +1,1938 @@
+{
+ "city": "Spokane",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.6605,
+ "longitude": -117.4207,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "DoubleTree by Hilton Hotel Spokane City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "322 North Spokane Falls Court, 99201, Spokane",
+   "url": "https://doubletree3.hilton.com/en/hotels/washington/doubletree-by-hilton-hotel-spokane-city-center-SPCC-DT/index.html"
+  },
+  {
+   "name": "Montvale Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1001 West 1st Avenue, 99201, Spokane",
+   "url": "https://montvalespokane.com/"
+  },
+  {
+   "name": "The Historic Davenport, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 South Post Street, 99201, Spokane",
+   "url": ""
+  },
+  {
+   "name": "The Davenport Tower, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 South Post Street, 99201, Spokane",
+   "url": ""
+  },
+  {
+   "name": "The Davenport Grand, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 West Spokane Falls Boulevard, 99201, Spokane",
+   "url": ""
+  },
+  {
+   "name": "Otis Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Courtyard by Marriott Spokane Downtown at the Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 North Riverpoint Boulevard, 99202, Spokane",
+   "url": "https://www.marriott.com/en-us/hotels/gegch-courtyard-spokane-downtown-at-the-convention-center/overview/"
+  },
+  {
+   "name": "Hampton Inn Spokane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2010 South Assembly Road, 99224, Spokane",
+   "url": "https://www.hilton.com/en/hotels/skawahx-hampton-spokane/"
+  },
+  {
+   "name": "The Centennial",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 West North River Drive, 99201, Spokane",
+   "url": "https://www.davenporthotelcollection.com/the-centennial/"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "923 East 3rd Avenue, 99202-2215, Spokane",
+   "url": "https://www.wyndhamhotels.com/ramada/spokane-washington/ramada-downtown-spokane/overview"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "907 West 3rd Avenue, 99201-4507, Spokane",
+   "url": "https://www.wyndhamhotels.com/baymont/spokane-washington/baymont-inn-and-suites-spokane/overview"
+  },
+  {
+   "name": "Best Western Plus City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "33 West Spokane Falls Boulevard, 99201-0120, Spokane",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-spokane/best-western-plus-city-center/propertyCode.48179.html"
+  },
+  {
+   "name": "Ramada Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8909 West Airport Drive, 99224, Spokane",
+   "url": "https://www.wyndhamhotels.com/ramada/spokane-washington/ramada-spokane-airport-and-indoor-waterpark/overview"
+  },
+  {
+   "name": "Holiday Inn Express Spokane Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 North Division Street, 99202, Spokane",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/spokane/skaex/hoteldetail"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3033 North Division Street, 99207, Spokane",
+   "url": "https://www.wyndhamhotels.com/days-inn/spokane-washington/days-inn-and-suites-spokane/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Spokane Downtown-South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "675 South McClellan Street, 99204, Spokane",
+   "url": "https://www.hilton.com/en/hotels/gegdshx-hampton-suites-spokane-downtown-south/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Spokane Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 North Riverpoint Boulevard, 99202, Spokane",
+   "url": "https://www.marriott.com/gegfi"
+  },
+  {
+   "name": "Wingate by Wyndham Spokane Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2726 South Flint Road, 99224, Spokane",
+   "url": "https://www.spokanewingate.com/"
+  },
+  {
+   "name": "Hilton Garden Inn Spokane Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9015 West Highway 2, 99224-9413, Spokane",
+   "url": "https://www.hilton.com/en/hotels/gegspgi-hilton-garden-inn-spokane-airport/"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9601 North Newport Highway, 99218-1220, Spokane",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-spokane/best-western-plus-spokane-north/propertyCode.48192.html"
+  },
+  {
+   "name": "Ruby River Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 North Division Street, 99202, Spokane",
+   "url": "https://rubyriverhotelspokane.com/"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3809 South Geiger Boulevard, Spokane",
+   "url": "https://www.choicehotels.com/washington/spokane-valley/comfort-inn-hotels"
+  },
+  {
+   "name": "Rodeway Inn & Suites Spokane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6309 East Broadway, 99212, Spokane",
+   "url": "https://www.choicehotels.com/washington/spokane-valley/comfort-inn-hotels"
+  },
+  {
+   "name": "Riverfront Park Travel Apartments",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "218 North Bernard Street, 99201, Spokane",
+   "url": "https://www.stayriverfrontpark.com/"
+  },
+  {
+   "name": "The Louie, A Davenport Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "808 West Sprague Avenue, 99201, Spokane",
+   "url": "https://www.davenporthotelcollection.com/the-louie/"
+  },
+  {
+   "name": "Steam Plant Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "123 South Post Street, 99201, Spokane",
+   "url": "https://steamplanthotel.com/"
+  },
+  {
+   "name": "Boulevard Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2905 West Sunset Boulevard, 99224, Spokane",
+   "url": "http://motelspokane.com/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/spokane-washington/la-quinta-spokane-downtown/overview"
+  },
+  {
+   "name": "Hotel Ruby",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "901 West 1st Avenue, 99201, Spokane",
+   "url": "https://www.hotelrubyspokane.com/"
+  },
+  {
+   "name": "SpringHill Suites Spokane Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8967 West Airport Drive, 99224, Spokane",
+   "url": ""
+  },
+  {
+   "name": "Bel Air Seven Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "East Sprague Avenue, 99202, Spokane",
+   "url": ""
+  },
+  {
+   "name": "Apple Tree Inn Spokane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9508 North Division Street, Spokane",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Spokane Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1616 South Windsor Road, Spokane",
+   "url": ""
+  },
+  {
+   "name": "Oxford Suites Downtown Spokane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Oakwood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Tiki Lodge Spokane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "West Wynn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bell Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Spokane West - Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Marianna Stoltz House Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Downtowner",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Spokane North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Liberty Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cambria Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ruby Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Madison Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cedar Village Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Top Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Maple Tree Motel & RV Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Lane Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Gilded Unicorn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "110 South Monroe Street;North Monroe Street, 99201, Spokane",
+   "website": "https://gildedunicorn.com/"
+  },
+  {
+   "name": "Cochinito Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "10 North Post Street, 99201, Spokane",
+   "website": "http://www.cochinitotaqueria.com/"
+  },
+  {
+   "name": "Molé",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1335 West Summit Parkway, 99201, Spokane",
+   "website": "https://molespokane.com/"
+  },
+  {
+   "name": "Island Style Food & BBQ",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "2931 North Division Street, 99207-2014, Spokane",
+   "website": "https://islandstylefood.net/"
+  },
+  {
+   "name": "Burrito House",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3115 East Mission Avenue, 99202, Spokane",
+   "website": "https://burritohousespokanewa.com/"
+  },
+  {
+   "name": "Italia Trattoria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "144 South Cannon Street, 99201, Spokane",
+   "website": "https://www.italiatrattoriaspokane.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "207 West Spokane Falls Boulevard, 99201, Spokane",
+   "website": "https://www.chilis.com/"
+  },
+  {
+   "name": "The Flying Goat",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "3318 West Northwest Boulevard, 99205, Spokane",
+   "website": "https://www.theflyinggoat.com/"
+  },
+  {
+   "name": "Zona Blanca",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "157 South Howard Street, 99201, Spokane",
+   "website": "https://www.limefishsalt.com/"
+  },
+  {
+   "name": "Indicana",
+   "cuisines": [
+    "Indian",
+    "Mexican"
+   ],
+   "address": "1020 South Perry Street, 99202, Spokane",
+   "website": "https://www.indicanaeats.com"
+  },
+  {
+   "name": "Mustard Seed",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "4750 North Division Street, 99207, Spokane",
+   "website": "https://mustardseedweb.com"
+  },
+  {
+   "name": "Indigenous Eats",
+   "cuisines": [
+    "Native American"
+   ],
+   "address": "829 East Boone Avenue, 99202, Spokane",
+   "website": "https://www.iespokane.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3304 North Nevada, 99207, Spokane",
+   "website": "https://locations.pizzahut.com/wa/spokane/3304-n-nevada"
+  },
+  {
+   "name": "Republic Pi",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "611 East 30th Avenue, 99203, Spokane",
+   "website": "https://www.republicpi.com/"
+  },
+  {
+   "name": "Veraci Pizza - Spokane",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1333 West Summit Parkway, 99201, Spokane",
+   "website": "https://www.veracipizza.com/spokane"
+  },
+  {
+   "name": "Feteers",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1103 West Northwest Boulevard, 99205, Spokane",
+   "website": "https://feteers.com"
+  },
+  {
+   "name": "Zozo’s Sandwich House",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2501 North Monroe Street, Spokane",
+   "website": "https://zozossandwichhouse.com/"
+  },
+  {
+   "name": "Thai Bamboo",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2215 East 29th Avenue, 99203, Spokane",
+   "website": "https://thaibamboorestaurant.com/locations/thai-south-hill/"
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "707 West Main Avenue, 99201, Spokane",
+   "website": "https://www.meltingpot.com/spokane-wa/"
+  },
+  {
+   "name": "Rosie's Restaurant",
+   "cuisines": [
+    "Sandwich",
+    "Breakfast",
+    "Burger",
+    "American"
+   ],
+   "address": "909 West 1st Avenue, 99201, Spokane",
+   "website": "https://rosiesspokane.com/"
+  },
+  {
+   "name": "Gangnam Style",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "411 West 1st Avenue, Spokane",
+   "website": "https://gangnamspokane.com/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "4703 North Division Street, 99207, Spokane",
+   "website": "https://www.redlobster.com/seafood-restaurants/locations/wa/spokane/4703-n-division-street/"
+  },
+  {
+   "name": "Karma Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2606 East Boone Avenue, 99205, Spokane",
+   "website": "https://www.karmaindiancuisine.us/"
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "801 West Main Avenue, 99201",
+   "website": "https://www.pfchangs.com/"
+  },
+  {
+   "name": "Umi Kitchen and Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1309 West Summit Parkway, 99203, Spokane",
+   "website": "https://www.umispokane.com/"
+  },
+  {
+   "name": "Chicken-N-More",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "414 1/2 West Sprague Avenue, 99201, Spokane",
+   "website": "https://chicken-n-more.com/ChickenMo/"
+  },
+  {
+   "name": "Vieux Carré",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "1403 West Broadway Avenue, 99201, Spokane",
+   "website": "https://vieuxcarrespokane.com/"
+  },
+  {
+   "name": "Sorella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1122 West Summit Parkway, 99201, Spokane",
+   "website": "https://www.sorellaspokane.com/"
+  },
+  {
+   "name": "Barrelhouse Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "157 South Howard Street, Spokane",
+   "website": "https://barrelhousepizzeria.com/"
+  },
+  {
+   "name": "Yummy Crab Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1723 North Division Street, 99207, Spokane",
+   "website": "https://yummycrabspokane.com/"
+  },
+  {
+   "name": "Teriyaki Spice",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1412 West 2nd Avenue, 99201, Spokane",
+   "website": "https://www.teriyakispice.com"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3525 North Division Street, Spokane",
+   "website": "https://www.dennys.com/"
+  },
+  {
+   "name": "Anthony's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "510 North Lincoln Street, 99201, Spokane",
+   "website": "https://www.anthonys.com/restaurant/anthonys-at-spokane-falls/"
+  },
+  {
+   "name": "The Elk Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1931 West Pacific Avenue, 99201, Spokane",
+   "website": "https://wedonthaveone.com/the-elk/"
+  },
+  {
+   "name": "Churchill's Steakhouse",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "165 South Post Street, 99201, Spokane",
+   "website": "https://churchillssteakhouse.com/"
+  },
+  {
+   "name": "The Mango Tree",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "401 West Main Avenue, 99201, Spokane",
+   "website": "https://www.themangotreerestaurants.com/"
+  },
+  {
+   "name": "People's Waffle",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "15 South Howard Street, 99201, Spokane",
+   "website": "https://www.peopleswaffle.com/"
+  },
+  {
+   "name": "Supa! Authentic Japanese Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "117 North Howard Street, 99201, Spokane",
+   "website": "https://eatsupa.com"
+  },
+  {
+   "name": "Uno Más Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2020 North Monroe Street, 99205, Spokane",
+   "website": "https://www.unomastacoshop.com/"
+  },
+  {
+   "name": "Little Euro",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "South Grand Boulevard, 99202",
+   "website": "https://www.littleeurorestaurant.com/"
+  },
+  {
+   "name": "Texas True Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "122 South Monroe Street, 99201, Spokane",
+   "website": "https://texastruebbq.com/"
+  },
+  {
+   "name": "Sushi Blossom",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "South Grand Boulevard, 99202",
+   "website": "https://www.sushiblossomwa.com/"
+  },
+  {
+   "name": "Peace Pie Pizzeria",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "19 West Main Avenue, 99201",
+   "website": "https://peacepiepizzeria.com/"
+  },
+  {
+   "name": "Taco Vado",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1327 West Northwest Boulevard, 99205",
+   "website": "https://tacovado.com/"
+  },
+  {
+   "name": "Elliots an urban kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "North Monroe Street, 99205",
+   "website": "https://www.facebook.com/Elliotts-an-urban-kitchen-177958009611150/"
+  },
+  {
+   "name": "Outsider",
+   "cuisines": [
+    "American"
+   ],
+   "address": "908 North Howard Street",
+   "website": "https://www.facebook.com/outsiderpnw/"
+  },
+  {
+   "name": "Wisconsinburger",
+   "cuisines": [
+    "Burger",
+    "Sandwich",
+    "Ice Cream",
+    "American"
+   ],
+   "address": "916 South Hatch Street, 99202, Spokane",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "4209 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Boiada Brazilian Grill",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "245 West Spokane Falls Boulevard, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Bennidito's Pizza & Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1426 South Lincoln Street, 99203, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Casa de Oro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4111 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Our Thai House",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1415 North Hamilton Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "152 South Monroe Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Bangkok Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1325 South Grand Boulevard, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Queen of Sheba",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "621 West Mallon Avenue, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Peking North",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4120 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "The Yards",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1248 West Summit Parkway",
+   "website": ""
+  },
+  {
+   "name": "Chowderhead",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "825 North Monroe Street, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "The New 63 Social House & Eatery",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "520 West Main Avenue, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Sushi.com",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "430 West Main Avenue, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Seng's Asian Barbecue",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "801 North Monroe Street, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Cathay Inn",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3714 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Emran Restaurant & Market",
+   "cuisines": [
+    "Afghan"
+   ],
+   "address": "1817 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Ferraros Restaurant & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3022 North Division Street, 99207, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Red Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1406 West 3rd Avenue, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Dick's Hamburgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "10 East 3rd Avenue, 99202, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Mizuna",
+   "cuisines": [
+    "American"
+   ],
+   "address": "214 North Howard Street, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Neato Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "827 West 1st Avenue, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Taste of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3110 North Division Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Zeeks Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happiness",
+   "cuisines": [
+    "American",
+    "Chinese"
+   ],
+   "address": "3420 East Sprague Avenue, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Kabob House",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2118 North Ruby Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "The Wave Island Sports Grill & Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "525 West 1st Avenue, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Fratello's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1198 West Summit Parkway, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Van",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2909 North Division Street",
+   "website": ""
+  },
+  {
+   "name": "Chapala",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1801 North Hamilton Street",
+   "website": ""
+  },
+  {
+   "name": "Marrakesh",
+   "cuisines": [
+    "Moroccan"
+   ],
+   "address": "1233 North Division Street",
+   "website": ""
+  },
+  {
+   "name": "La Dona",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1227 Grand",
+   "website": ""
+  },
+  {
+   "name": "Market Street Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2721 North Market Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Bonefish Grill",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Skipper's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Star",
+   "cuisines": [
+    "American",
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aloha Island Grill",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "David's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Illinois Ave Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shiki Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rincon Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Midori Sushi and Teriyaki",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ming Wah",
+   "cuisines": [
+    "American",
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atilano's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gerardo's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yee's Inn",
+   "cuisines": [
+    "American",
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bruncheonette",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Knight's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Birrieria Tijuana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "9th Street Bistro",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Sakai",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gander & Ryegrass",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sirinya's Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pueblo Amigo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frank's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Twiggys Fish & Chips",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Que",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Chalet",
+   "cuisines": [
+    "Chicken",
+    "Seafood",
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Inland Pacific Kitchen",
+   "cuisines": [],
+   "address": "304 West Pacific Avenue, 99201, Spokane",
+   "website": "https://ipkspokane.com/"
+  },
+  {
+   "name": "Downriver Grill",
+   "cuisines": [],
+   "address": "3315 West Northwest Boulevard, 99205, Spokane",
+   "website": "https://www.downrivergrill.com/"
+  },
+  {
+   "name": "Rüt",
+   "cuisines": [],
+   "address": "901 West 14th Avenue, 99204, Spokane",
+   "website": "https://www.rutspokane.com/"
+  },
+  {
+   "name": "Wooden City",
+   "cuisines": [],
+   "address": "821 West Riverside Avenue, 99201, Spokane",
+   "website": "https://www.woodencityspokane.com/"
+  },
+  {
+   "name": "Wiley's",
+   "cuisines": [],
+   "address": "421 West Main Avenue, 99201, Spokane",
+   "website": "https://www.wileysbistro.com/"
+  },
+  {
+   "name": "Jewel of the North",
+   "cuisines": [],
+   "address": "1924 West Pacific Avenue, 99201, Spokane",
+   "website": "https://jotnspokane.com/"
+  },
+  {
+   "name": "Pure Northwest",
+   "cuisines": [],
+   "address": "126 North Division Street, Spokane",
+   "website": "https://purepacificnorthwest.com/"
+  },
+  {
+   "name": "Globe Bar & Kitchen",
+   "cuisines": [],
+   "address": "204 North Division Street, 99202, Spokane",
+   "website": "https://www.globespokane.com/"
+  },
+  {
+   "name": "Steelhead Bar & Grille",
+   "cuisines": [],
+   "address": "218 North Howard Street, 99201, Spokane",
+   "website": "https://steelheadbarandgrille.com/"
+  },
+  {
+   "name": "Soulful Soups",
+   "cuisines": [],
+   "address": "111 South Madison Street, Spokane",
+   "website": "https://www.soulful-soups.com/"
+  },
+  {
+   "name": "Steam Plant",
+   "cuisines": [],
+   "address": "159 South Lincoln Street",
+   "website": "https://steamplantspokane.com/"
+  },
+  {
+   "name": "Skewers Middle Eastern Street Food",
+   "cuisines": [],
+   "address": "1009 West First Avenue",
+   "website": "https://skewersspokane.com/"
+  },
+  {
+   "name": "Ruins",
+   "cuisines": [],
+   "address": "411 North Nettleton Street, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Molly's Family Restaurant",
+   "cuisines": [],
+   "address": "224 South Lincoln Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Mary Lou's Milk Bottle",
+   "cuisines": [],
+   "address": "802 West Garland Avenue, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Kalico Kitchen",
+   "cuisines": [],
+   "address": "1829 North Monroe Street, 99205-4529, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Bruchi's",
+   "cuisines": [],
+   "address": "1918 North Division Street, 99207, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Lucky You Lounge",
+   "cuisines": [],
+   "address": "1801 West Sunset Boulevard, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Feast World Kitchen",
+   "cuisines": [],
+   "address": "1321 West 3rd Avenue, 99201, Spokane",
+   "website": ""
+  },
+  {
+   "name": "REMEDY",
+   "cuisines": [],
+   "address": "South Grand Boulevard, 99203, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Kindred Public House",
+   "cuisines": [],
+   "address": "2901 North Monroe Street, Spokane",
+   "website": ""
+  },
+  {
+   "name": "Tacos El Sol",
+   "cuisines": [],
+   "address": "11004 East Fifteenth Avenue",
+   "website": ""
+  },
+  {
+   "name": "North Hill On Garland",
+   "cuisines": [],
+   "address": "706 West Garland Avenue",
+   "website": ""
+  },
+  {
+   "name": "Wall Street Diner",
+   "cuisines": [],
+   "address": "4428 North Wall Street",
+   "website": ""
+  },
+  {
+   "name": "The Little Nevada Restaurant & Lounge",
+   "cuisines": [],
+   "address": "4803 North Nevada Street",
+   "website": ""
+  },
+  {
+   "name": "Park Inn Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kabot's Kitchen",
+   "cuisines": [],
+   "address": "2931 North Division Street",
+   "website": ""
+  },
+  {
+   "name": "Table 13",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ferguson's Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waffles Plus",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Browne’s Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Onion Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Satellite Diner and Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clark's Fork",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tasty Bun",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frankie Doodle’s",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jackson Street Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tecate Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Manito Tap House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Uoni Bubble Tea & Coffee",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clinkerdagger's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Orlando's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Grand Restaurant & Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "24 Taps Burgers & Brews",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Northwest Museum of Arts and Culture",
+   "kind": "museum",
+   "address": "2316 West 1st Avenue, 99201, Spokane",
+   "website": "https://www.northwestmuseum.org/",
+   "phone": "+1-509-456-3931",
+   "latitude": 47.6570536,
+   "longitude": -117.4455438
+  },
+  {
+   "name": "One Spokane Stadium",
+   "kind": "attraction",
+   "address": "99201, Spokane",
+   "website": "https://onespokanestadium.com/",
+   "phone": "+1-509-279-7000",
+   "latitude": 47.6673866,
+   "longitude": -117.4192227
+  },
+  {
+   "name": "Looff Carrousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6606032,
+   "longitude": -117.4202311
+  },
+  {
+   "name": "Campbell House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6569018,
+   "longitude": -117.446934
+  },
+  {
+   "name": "Mobius Discovery Center",
+   "kind": "museum",
+   "address": "331 North Post Street, 99201, Spokane",
+   "website": "https://mobiusdiscoverycenter.org/",
+   "phone": "+1-509-321-7121",
+   "latitude": 47.661121,
+   "longitude": -117.423971
+  },
+  {
+   "name": "Finch Arboritum Visitors Center",
+   "kind": "museum",
+   "address": "3520 West Woodland Boulevard, 99224, Spokane",
+   "website": "https://my.spokanecity.org/urbanforestry/finch-arboretum/",
+   "phone": "",
+   "latitude": 47.6435419,
+   "longitude": -117.4626095
+  },
+  {
+   "name": "River City Modelers",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.rivercitymodelers.org/",
+   "phone": "",
+   "latitude": 47.6569977,
+   "longitude": -117.392904
+  },
+  {
+   "name": "Bing Crosby House Museum",
+   "kind": "museum",
+   "address": "508 East Sharp Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6692535,
+   "longitude": -117.4025576
+  },
+  {
+   "name": "Carr's One of a Kind in the World Museum",
+   "kind": "museum",
+   "address": "5225 North Freya Street, Spokane",
+   "website": "",
+   "phone": "",
+   "latitude": 47.7058195,
+   "longitude": -117.3577619
+  },
+  {
+   "name": "Spokane County Fair & Expo Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.661401,
+   "longitude": -117.3415445
+  },
+  {
+   "name": "Bowl and Pitcher",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6973898,
+   "longitude": -117.4974406
+  },
+  {
+   "name": "Edwidge Wilson Park Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6469009,
+   "longitude": -117.4177724
+  },
+  {
+   "name": "Jundt Art Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6663737,
+   "longitude": -117.4068175
+  },
+  {
+   "name": "Lower Falls",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6622337,
+   "longitude": -117.4254316
+  },
+  {
+   "name": "Blue Zoo",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.7031702,
+   "longitude": -117.4088225
+  },
+  {
+   "name": "Inspiration Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6639605,
+   "longitude": -117.4202412
+  },
+  {
+   "name": "Local Sculptures",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6483472,
+   "longitude": -117.4303659
+  },
+  {
+   "name": "Hillyard Rail Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.704465,
+   "longitude": -117.3642661
+  },
+  {
+   "name": "Nimbus Knob",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6480061,
+   "longitude": -117.2940892
+  },
+  {
+   "name": "Bowl and Pitcher viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6976852,
+   "longitude": -117.4968206
+  },
+  {
+   "name": "Bowl and Pitcher Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6979774,
+   "longitude": -117.5003027
+  },
+  {
+   "name": "Spokane Print & Publishing Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6754893,
+   "longitude": -117.4372679
+  },
+  {
+   "name": "Cliff Park Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6445495,
+   "longitude": -117.418867
+  },
+  {
+   "name": "Spokane Party Trolley",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.6564312,
+   "longitude": -117.3987691
+  }
+ ]
+}

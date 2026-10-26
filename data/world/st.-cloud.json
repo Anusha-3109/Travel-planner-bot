@@ -1,0 +1,656 @@
+{
+ "city": "St. Cloud",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 45.5513,
+ "longitude": -94.1626,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "404 West Saint Germain Street, 56301, St. Cloud",
+   "url": "https://www.marriott.com/stccy"
+  },
+  {
+   "name": "Country Inn & Suites, St. Cloud East, MN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Seventh Avenue Southeast, 56304, St. Cloud",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-st-cloud-stc-mn"
+  },
+  {
+   "name": "Country Inn & Suites, St. Cloud West, MN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 Park Avenue South, 56301, St. Cloud",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-st-cloud-mn"
+  },
+  {
+   "name": "Residence Inn St. Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "450 Division Street, 56387, Waite Park",
+   "url": "https://www.marriott.com/stcwp"
+  },
+  {
+   "name": "Days Inn by Wyndham St Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "70 37th Avenue South, 56301, St. Cloud",
+   "url": "https://www.wyndhamhotels.com/days-inn/saint-cloud-minnesota/days-inn-st-cloud/overview"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3820 Roosevelt Road, 56301, St. Cloud",
+   "url": "https://www.wyndhamhotels.com/travelodge/saint-cloud-minnesota/travelodge-motel-of-st-cloud/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites St. Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4120 2nd Street South, 56301, St. Cloud",
+   "url": "https://www.marriott.com/stcfi"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "550 Division Street, 56387, Waite Park",
+   "url": "https://www.hilton.com/en/hotels/stcougi-hilton-garden-inn-st-cloud/"
+  },
+  {
+   "name": "Holiday Inn Hotel & Suites St. Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75 37th Avenue South, 56301, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "AmericInn by Wyndham Sartell",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "119 Le Sauk Drive, 56377, Sartell",
+   "url": ""
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4385 Clearwater Road, 56301, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4322 Clearwater Road, 56301, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn & Suites St. Cloud, MN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "145 37th Avenue North, 56303, Saint Cloud",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton St Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "115 37th Avenue North, 56303, St Cloud",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4040 2nd Street South, 56301, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "GrandStay Residential Suites Hotel St Cloud",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "213 6th Avenue South, 56301, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "Thrifty Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 14th Avenue Northeast, 56304, St. Cloud",
+   "url": ""
+  },
+  {
+   "name": "Best Western Kelly Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americana Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Nights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Arroy",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "800 West Saint Germain Street, 56301, St. Cloud",
+   "website": "http://www.arroymn.com/"
+  },
+  {
+   "name": "Val's Rapid Service",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "826 East Saint Germain Street, 56304, St. Cloud",
+   "website": "https://valshamburgers.com/"
+  },
+  {
+   "name": "Dong Khanh",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "266 33rd Avenue South, 56301, St. Cloud",
+   "website": "http://dongkhanh.net"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "350 5th Avenue South, 56301, St. Cloud",
+   "website": "https://locations.pizzahut.com/mn/saint-cloud/305-5th-ave-south"
+  },
+  {
+   "name": "Mexican Village",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "509 West Saint Germain Street, 56301, St. Cloud",
+   "website": "https://www.mexicanvillagestcloud.com/"
+  },
+  {
+   "name": "Leeann Chin",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3959 2nd St S, 56301, St Cloud",
+   "website": "https://www.leeannchin.com/restaurant/st-cloud-mn/3959-2nd-street-south"
+  },
+  {
+   "name": "Kohinoor Bar & Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "17 7th Avenue South, 56301, Saint Cloud",
+   "website": "https://www.kohinoorbar.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/mn/saint-cloud/4190-west-division-street-82017"
+  },
+  {
+   "name": "Crooked Pint Ale House",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "58 Division Street, 56387, Waite Park",
+   "website": "https://www.crookedpint.com/locations/waite-park/"
+  },
+  {
+   "name": "Greek Cravings",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "26 5th Avenue South, 56301, St. Cloud",
+   "website": "https://greekcravingsstcloud.com/"
+  },
+  {
+   "name": "Hajime Asian Bistro",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "4170 West Division Street",
+   "website": "http://hajimestc.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.olivegarden.com/locations/mn/waite-park/waite-park/1543"
+  },
+  {
+   "name": "Grizzly's Grill Smoke & Fire",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://grizzlysgrill.com/waite-park-mn/"
+  },
+  {
+   "name": "Huhot Mongolian Grill",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "3701 Division Street, 56301, St Cloud",
+   "website": ""
+  },
+  {
+   "name": "Canaan Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "129 7th Avenue South, 56301, St. Cloud",
+   "website": ""
+  },
+  {
+   "name": "Green Mill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "100 4th Ave South, 56301, St. Cloud",
+   "website": ""
+  },
+  {
+   "name": "Cherry Berry",
+   "cuisines": [
+    "Frozen Yogurt"
+   ],
+   "address": "3701 Division Street, 56301, St Cloud",
+   "website": ""
+  },
+  {
+   "name": "Toppers",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3701 Division Street, 56301",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bravo Burritos Mexicatessen & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Viet-Tien",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Copper Lantern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Domino's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Star of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DiMaggio's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The White Horse Restaurant & Bar",
+   "cuisines": [],
+   "address": "809 West Saint Germain Street, St. Cloud",
+   "website": "https://www.whitehorsemn.com/"
+  },
+  {
+   "name": "Cinco De Mayo",
+   "cuisines": [],
+   "address": "4143 W Division St",
+   "website": "https://cincodemayomexicanrestaurantmn.com/"
+  },
+  {
+   "name": "Dolsie's Lunch Box Grille",
+   "cuisines": [],
+   "address": "",
+   "website": "http://dolsies.com/"
+  },
+  {
+   "name": "Crumbl Cookies",
+   "cuisines": [],
+   "address": "3959 2nd St S, 56301, St Cloud",
+   "website": ""
+  },
+  {
+   "name": "Somali Cafe and Restaurant",
+   "cuisines": [],
+   "address": "119 East Saint Germain Street, 56304, St Cloud",
+   "website": ""
+  },
+  {
+   "name": "Stage Right",
+   "cuisines": [],
+   "address": "18 5th Avenue South, 56301, St. Cloud",
+   "website": ""
+  },
+  {
+   "name": "The Bistro",
+   "cuisines": [],
+   "address": "404 West Saint Germain Street, 56301, St. Cloud",
+   "website": ""
+  },
+  {
+   "name": "Fuji Japanese Steakhouse",
+   "cuisines": [],
+   "address": "148 2nd Avenue South, 56387, Waite Park",
+   "website": ""
+  },
+  {
+   "name": "Duck's Sports Bar & Grill",
+   "cuisines": [],
+   "address": "3606 W Division Street, 56301, St Cloud",
+   "website": ""
+  },
+  {
+   "name": "Great Wok",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Teriyaki",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boil",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Old Capital Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Granite City Food & Brewery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ciatti's Ristorante",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Dragon Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shortstop",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Great Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "MR Potato",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Stearns History Museum",
+   "kind": "museum",
+   "address": "235 33rd Ave S, 56301, St Cloud",
+   "website": "https://www.stearnshistorymuseum.org/",
+   "phone": "",
+   "latitude": 45.5476246,
+   "longitude": -94.2027022
+  },
+  {
+   "name": "Minnesota Baseball Hall of Fame Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.mnamateurbaseballhof.com/index.asp",
+   "phone": "",
+   "latitude": 45.5616684,
+   "longitude": -94.1559738
+  },
+  {
+   "name": "Summerland",
+   "kind": "theme park",
+   "address": "1050 28th Avenue Northeast, Sauk Rapids",
+   "website": "https://www.summerlandfunpark.com/",
+   "phone": "+1-320-251-0940",
+   "latitude": 45.5823845,
+   "longitude": -94.1029706
+  },
+  {
+   "name": "Rail Legacy Museum",
+   "kind": "museum",
+   "address": "56387, Waite Park",
+   "website": "",
+   "phone": "",
+   "latitude": 45.5591643,
+   "longitude": -94.2193233
+  },
+  {
+   "name": "NASA Apolo Trainging Capsule",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.5707835,
+   "longitude": -94.2114393
+  }
+ ]
+}

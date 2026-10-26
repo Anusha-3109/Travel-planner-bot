@@ -1,0 +1,586 @@
+{
+ "city": "White Plains",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.0304,
+ "longitude": -73.7666,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Garden Inn Westchester Dobbs Ferry",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 Ogden Avenue, 10522, Dobbs Ferry",
+   "url": "https://www.hilton.com/en/hotels/hpnwdgi-hilton-garden-inn-westchester-dobbs-ferry"
+  },
+  {
+   "name": "Hampton Inn White Plains/Tarrytown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 West Main Street, 10523, Elmsford",
+   "url": "https://www.hilton.com/en/hotels/elmnyhx-hampton-white-plains-tarrytown/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "109 Marbledale Road, 10707, Tuckahoe",
+   "url": "https://www.marriott.com/lgash"
+  },
+  {
+   "name": "Tarrytown House Estate on The Hudson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "49 East Sunnyside Lane, 10591, Tarrytown",
+   "url": "https://www.tarrytownhouseestate.com/"
+  },
+  {
+   "name": "Westchester Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "670 White Plains Road, 10591, Tarrytown",
+   "url": "https://www.marriott.com/hotels/travel/nycwe-westchester-marriott/"
+  },
+  {
+   "name": "The Opus Westchester, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3 Renaissance Square, 10601, White Plains",
+   "url": "https://www.marriott.com/hotels/travel/nycap-the-opus-westchester/"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "540 Saw Mill River Road, 10523, Elmsford",
+   "url": "https://www.wyndhamhotels.com/baymont/elmsford-new-york/baymont-white-plains-elmsford/overview"
+  },
+  {
+   "name": "Sonesta White Plains Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "66 Hale Avenue, 10601, White Plains",
+   "url": "https://www.sonesta.com/sonesta-hotels-resorts/ny/white-plains/sonesta-white-plains-downtown"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "475 White Plains Road, 10591, Tarrytown",
+   "url": "https://www.marriott.com/hpngr"
+  },
+  {
+   "name": "Ardsley Acres Hotel Court",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "560 Saw Mill River Road, 10502, Ardsley",
+   "url": "http://www.ardaleymotel.com"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25 Valley Avenue, 10523, Elmsford",
+   "url": "https://www.wyndhamhotels.com/days-inn/elmsford-new-york/days-inn-elmsford/overview"
+  },
+  {
+   "name": "Hyatt House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Corporate Park Drive, 10604, White Plains",
+   "url": "https://www.hyatt.com/en-us/hotel/new-york/hyatt-house-white-plains/lgaxw"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Saw Mill River Road, 10532, Hawthorne",
+   "url": "https://www.choicehotels.com/new-york/white-plains/cambria-hotels"
+  },
+  {
+   "name": "Cambria Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 Main Street, 10601, White Plains",
+   "url": "www.cambriasuiteswhiteplains.com"
+  },
+  {
+   "name": "Marriott Renaissance",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "80 West Red Oak Lane, 10604, West Harrison",
+   "url": "https://www.marriott.com/hotels/travel/hpnsh-renaissance-westchester-hotel/"
+  },
+  {
+   "name": "Apple Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "775 Saw Mill River Road, 10502, Ardsley",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Tarrytown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Doral Arrowwood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Racanelli's Original Pizza & Brew",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "85 Knollwood Road, 10607, Greenburgh",
+   "website": "https://pizzaandbrew.com"
+  },
+  {
+   "name": "Royal Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "77 Knollwood Road, 10607, White Plains",
+   "website": "https://royalpalacecuisines.com"
+  },
+  {
+   "name": "Mario's Pizza & Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "118 Mamaroneck Avenue, 10601, White Plains",
+   "website": "https://www.mariospizzawp.com/"
+  },
+  {
+   "name": "The Cheesecake Factory",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1 Marple Avenue, 10601, White Plains",
+   "website": "https://www.thecheesecakefactory.com/"
+  },
+  {
+   "name": "I-Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2 Westchester Avenue, 10601, White Plains",
+   "website": "https://www.ithaiwhiteplains.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "28 South Central Avenue, 10530, Hartsdale",
+   "website": "https://restaurants.ihop.com/en-us/ny/hartsdale/breakfast-28-s.-central-ave-4625"
+  },
+  {
+   "name": "Redefine Meals",
+   "cuisines": [
+    "American",
+    "Asian",
+    "Italian",
+    "Mexican"
+   ],
+   "address": "417 North Central Avenue, 10530, Hartsdale",
+   "website": "https://redefinemeals.com/"
+  },
+  {
+   "name": "Fogo de Chão",
+   "cuisines": [
+    "Brazilian",
+    "Steak House"
+   ],
+   "address": "235 Main Street, 10601, White Plains",
+   "website": "https://fogodechao.com/location/white-plains/"
+  },
+  {
+   "name": "Valhalla Crossing",
+   "cuisines": [
+    "Burger",
+    "Wings"
+   ],
+   "address": "2 Cleveland Street, 10595, Valhalla",
+   "website": "http://www.valhallacrossing.com/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1",
+   "website": "https://www.buffalowildwings.com/"
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "5 Mamaroneck Avenue, 10601, White Plains",
+   "website": "https://www.mortons.com/"
+  },
+  {
+   "name": "Abatino's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "670 North Broadway, 10603, White Plains",
+   "website": "https://abatinos.com/"
+  },
+  {
+   "name": "Central Seafood",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "285 Central Park Avenue, 10530",
+   "website": "https://centralseafoodny.weebly.com/"
+  },
+  {
+   "name": "The Brazen Fox",
+   "cuisines": [
+    "American"
+   ],
+   "address": "175 Mamaroneck Avenue",
+   "website": "https://thebrazenfox.com/"
+  },
+  {
+   "name": "Hurricane Grill & Wings",
+   "cuisines": [
+    "American"
+   ],
+   "address": "149 South Central Avenue, 10530",
+   "website": "https://hurricanewings.com/hartsdale/"
+  },
+  {
+   "name": "Taqueria la Frontera",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.taquerialafrontera.com"
+  },
+  {
+   "name": "Pokémoto",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "240 Main Street, 10601, White Plains",
+   "website": ""
+  },
+  {
+   "name": "Fountain Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "31 South Central Avenue, 10530, Hartsdale",
+   "website": ""
+  },
+  {
+   "name": "J-Joe Kosher Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "55 Church Street, 10601, White Plains",
+   "website": ""
+  },
+  {
+   "name": "Toreore",
+   "cuisines": [
+    "Chicken",
+    "Hot Dog",
+    "Korean"
+   ],
+   "address": "371 Central Avenue, 10530",
+   "website": ""
+  },
+  {
+   "name": "Banzai",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mariachi Loco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Opus Lobby Lounge",
+   "cuisines": [],
+   "address": "3 Renaissance Square, 10601, White Plains",
+   "website": "https://www.theopuswestchester.com/dining/the-lounge"
+  },
+  {
+   "name": "Tsuru Sushi Asian Cuisine",
+   "cuisines": [],
+   "address": "#1803 259 N Central Ave, Hartsdale, NY 10530",
+   "website": "eattsuru.com"
+  },
+  {
+   "name": "Haiku Asian Bistro & Sushi Bar",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.haikubistro.com"
+  },
+  {
+   "name": "RaaSa",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.orderraasa.com"
+  },
+  {
+   "name": "Don Coqui",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.orderdoncoqui.com"
+  },
+  {
+   "name": "Fantasy Cuisine",
+   "cuisines": [],
+   "address": "20 North Central Avenue, 10530, Hartsdale",
+   "website": ""
+  },
+  {
+   "name": "Imperial Wok",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Townhouse Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gianfranco Pizzeria & Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gianfranco Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Bocca Ristorante",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Lyndhurst Mansion",
+   "kind": "museum",
+   "address": "635 South Broadway, 10591, Tarrytown",
+   "website": "https://lyndhurst.org/",
+   "phone": "+1 914 631 4481",
+   "latitude": 41.0539856,
+   "longitude": -73.8673681
+  },
+  {
+   "name": "Bush-Lyon Homestead",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0135062,
+   "longitude": -73.6671791
+  },
+  {
+   "name": "Neuberger Museum of Art",
+   "kind": "museum",
+   "address": "",
+   "website": "https://neuberger.org/",
+   "phone": "",
+   "latitude": 41.0478784,
+   "longitude": -73.7029822
+  },
+  {
+   "name": "House Of Sports",
+   "kind": "attraction",
+   "address": "1 Elm Street, 10502, Ardsley",
+   "website": "https://www.houseofsportsny.com/",
+   "phone": "",
+   "latitude": 41.0120128,
+   "longitude": -73.8498392
+  },
+  {
+   "name": "Neuberger Musuem of Art",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.neuberger.org/",
+   "phone": "",
+   "latitude": 41.0480606,
+   "longitude": -73.702946
+  },
+  {
+   "name": "Oppenheimer Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://greenwich.audubon.org/audubon-art-exhibition-oppenheimer-gallery",
+   "phone": "",
+   "latitude": 41.0968695,
+   "longitude": -73.6878513
+  },
+  {
+   "name": "War Memorial Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0055279,
+   "longitude": -73.674418
+  },
+  {
+   "name": "Spanish American War Memorial",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0032672,
+   "longitude": -73.6632958
+  },
+  {
+   "name": "Civil War Monument Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.9973838,
+   "longitude": -73.6682347
+  },
+  {
+   "name": "Tides of Tarrytown",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0709616,
+   "longitude": -73.8718541
+  },
+  {
+   "name": "MNH Outpost",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.005669,
+   "longitude": -73.6803784
+  },
+  {
+   "name": "RB Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0115011,
+   "longitude": -73.6944414
+  }
+ ]
+}

@@ -1,0 +1,2563 @@
+{
+ "city": "Tallahassee",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 30.4407,
+ "longitude": -84.2794,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Residence Inn Tallahassee Universities at the Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 West Gaines Street, 32304-4308, Tallahassee",
+   "url": "https://www.marriott.com/hotels/travel/tlhdt-residence-inn-tallahassee-universities-at-the-capitol/"
+  },
+  {
+   "name": "SpringHill Suites by Marriott Tallahassee North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1481 Timberlane Road, 32312, Tallahassee",
+   "url": "https://www.marriott.com/tlhst"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 South Adams Street, 32301-7774, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/thlapdt-doubletree-tallahassee/"
+  },
+  {
+   "name": "Fairfield by Marriott Inn & Suites Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2997 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.marriott.com/hotels/travel/tlhec-fairfield-inn-and-suites-tallahassee-central/"
+  },
+  {
+   "name": "Hilton Garden Inn Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1330 Blair Stone Road, 32301, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhehgi-hilton-garden-inn-tallahassee-central/"
+  },
+  {
+   "name": "Courtyard Tallahassee Capital",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1018 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.marriott.com/hotels/travel/tlhch-courtyard-tallahassee-downtown-capitol/"
+  },
+  {
+   "name": "Hampton Inn Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2979 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhhhhx-hampton-tallahassee-central/"
+  },
+  {
+   "name": "Aloft W Hotels Tallahassee Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 North Monroe Street, 32301, Tallahassee",
+   "url": "http://www.alofttallahassee.com/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "824 Railroad Avenue, 32310, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhtchx-hampton-suites-tallahassee-capitol-university/"
+  },
+  {
+   "name": "Hotel Duval, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "415 North Monroe Street, 32301, Tallahassee",
+   "url": "https://www.marriott.com/en-us/hotels/tlhak-hotel-duval-autograph-collection/overview/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Tallahassee State Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 South Magnolia Drive, 32301, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhhtht-home2-suites-tallahassee-state-capitol/"
+  },
+  {
+   "name": "Courtyard Tallahassee North/I-10 Capital Circle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1972 Raymond Diehl Road, 32308, Tallahassee",
+   "url": "https://www.marriott.com/tlhcy"
+  },
+  {
+   "name": "Four Points by Sheraton Tallahassee - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "316 West Tennessee Street, 32301, Tallahassee",
+   "url": "http://www.fourpointstallahasseedowntown.com/"
+  },
+  {
+   "name": "Tru by Hilton Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2814 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhcnru-tru-tallahassee-central/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2905 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.wyndhamhotels.com/laquinta/tallahassee-florida/la-quinta-inn-tallahassee-north/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Tallahassee I-10 / Thomasville Rd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3388 Lonnbladh Road, 32308, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhhshx-hampton-suites-tallahassee-i-10-thomasville-rd/"
+  },
+  {
+   "name": "Best Western Pride Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2016 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-tallahassee/best-western-tallahassee-downtown-inn-suites/propertyCode.10214.html"
+  },
+  {
+   "name": "Baymont Inn and Suites Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3210 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.wyndhamhotels.com/baymont/tallahassee-florida/baymont-inn-and-suites-tallahassee/overview"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Tallahassee Conference Center I-10",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2900 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.wyndhamhotels.com/days-inn/tallahassee-florida/days-inn-and-suites-tallahassee-conference-center-i-10/overview"
+  },
+  {
+   "name": "SpringHill Suites Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1300 Executive Center Drive, 32301, Tallahassee",
+   "url": "https://www.marriott.com/en-us/hotels/tlhse-springhill-suites-tallahassee-central/overview/"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1026 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.choicehotels.com/florida/tallahassee/comfort-suites-hotels/fl161"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2681 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.choicehotels.com/econo-lodge"
+  },
+  {
+   "name": "Best Western Plus Tallahassee North Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2727 Graves Road, 32303, Tallahassee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-tallahassee/best-western-plus-tallahassee-north-hotel/propertyCode.10399.html"
+  },
+  {
+   "name": "Days Inn by Wyndham Tallahassee University Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1350 West Tennessee Street, 32304, Tallahassee",
+   "url": "https://www.wyndhamhotels.com/days-inn/tallahassee-florida/days-inn-tallahassee-university-center/overview"
+  },
+  {
+   "name": "Fairfield Inn Tallahassee North/I-10",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3219 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.marriott.com/hotels/travel/tlhfi-fairfield-inn-tallahassee-north-i-10/"
+  },
+  {
+   "name": "Residence Inn Tallahassee North/I-10 Capital Circle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1880 Raymond Diehl Road, 32308, Tallahassee",
+   "url": "https://www.marriott.com/tlhri"
+  },
+  {
+   "name": "Econo Lodge Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "809 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.choicehotels.com/florida/tallahassee/rodeway-inn-hotels"
+  },
+  {
+   "name": "Wyndham Garden Tallahassee Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1355 Apalachee Parkway, 32301, Tallahassee",
+   "url": "http://www.holidayinn.com/"
+  },
+  {
+   "name": "Baymont Tallahassee Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2850 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.lq.com/"
+  },
+  {
+   "name": "Howard Johnson Express Inn - Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2726 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.wyndhamhotels.com/"
+  },
+  {
+   "name": "Holiday Inn Express Tallahassee - I-10 E",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1653 Raymond Diehl Road, 32308, Tallahassee",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tallahassee/tlhrd/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3333 Thomasville Road, 32308, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhtlgi-hilton-garden-inn-tallahassee/"
+  },
+  {
+   "name": "Sleep Inn & Suites Tallahassee-Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3216 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.choicehotels.com/florida/tallahassee/rodeway-inn-hotels"
+  },
+  {
+   "name": "Country Inn & Suites, Tallahassee Northwest I-10",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3096 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.choicehotels.com/florida/tallahassee/rodeway-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Tallahassee East Capitol - University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2003 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/tallahassee/tlhch/hoteldetail"
+  },
+  {
+   "name": "Hyatt House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Railroad Avenue, 32310, Tallahassee",
+   "url": "https://www.hyatt.com/en-US/hotel/florida/hyatt-house-tallahassee-capitol-university/tlhxt"
+  },
+  {
+   "name": "Homewood Suites by Hilton Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2987 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.hilton.com/en/hotels/tlhhwhw-homewood-suites-tallahassee/"
+  },
+  {
+   "name": "AC Hotel Tallahassee Universities at the Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 South Gadsden Street, 32301, Tallahassee",
+   "url": "https://ac-hotels.marriott.com/"
+  },
+  {
+   "name": "Motel 6 Tallahassee West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2738 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.motel6.com"
+  },
+  {
+   "name": "Candlewood Suites Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2815 West Lakeshore Drive, 32312, Tallahassee",
+   "url": "https://www.ihg.com/candlewood/hotels/us/en/tallahassee/tlhcd/hoteldetail"
+  },
+  {
+   "name": "WoodSpring Suites Tallahassee East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3530 Apalachee Parkway, 32311, Tallahassee",
+   "url": "http://www.valueplace.com"
+  },
+  {
+   "name": "The Governors Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "209 South Adams Street, 32301, Tallahassee",
+   "url": "https://thegovinn.org/"
+  },
+  {
+   "name": "Suburban Extended Stay Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "522 Silver Slipper Lane, 32303, Tallahassee",
+   "url": "http://www.suburbantallahasseefl.com/"
+  },
+  {
+   "name": "Red Roof Inn Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2930 Hospitality Street, 32303, Tallahassee",
+   "url": "https://www.redroof.com"
+  },
+  {
+   "name": "Drury Plaza Hotel Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1690 Raymond Diehl Road, 32308, Tallahassee",
+   "url": "https://www.druryhotels.com/locations/tallahassee-fl/drury-plaza-hotel-tallahassee"
+  },
+  {
+   "name": "Motel 6 Tallahassee Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1027 Apalachee Parkway, 32301, Tallahassee",
+   "url": "https://www.motel6.com/"
+  },
+  {
+   "name": "Extended Stay America - Tallahassee - Killearn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1950 Raymond Diehl Road, 32308, Tallahassee",
+   "url": "https://www.extendedstayamerica.com/"
+  },
+  {
+   "name": "La Casa Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2801 North Monroe Street, 32303, Tallahassee",
+   "url": "https://www.lacasainntallahassee.com/"
+  },
+  {
+   "name": "The Park Avenue Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "323 East Park Avenue, 32301, Tallahassee",
+   "url": "https://theparkavenueinnreservations.com/"
+  },
+  {
+   "name": "Redpoint West Tenn",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2195 West Tennessee Street, 32304",
+   "url": "https://redpoint-wtenn.com/"
+  },
+  {
+   "name": "Hotel Indigo Tallahassee - Collegetown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/tallahassee/tlhct/hoteldetail"
+  },
+  {
+   "name": "Holiday Inn Express Tallahassee-University Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tallahassee/tlhwb/hoteldetail"
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.budgetinn.com/"
+  },
+  {
+   "name": "Bob Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1695 Capital Circle Northwest, 32303-3113, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1876 Capital Circle Northeast, 32308, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites Tallahassee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Apalachee Parkway, 32301, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "TRYP",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1978 Village Green Way, 32308, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "Oyo Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "745 North Monroe Street, 32303, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "Glenview Inn, LLC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Glenview Drive, 32303, Tallahassee",
+   "url": ""
+  },
+  {
+   "name": "Courtyard Tallahassee Downtown/Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "4 Rivers Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1817 Thomasville Road, 32303, Tallahassee",
+   "website": "https://www.4rsmokehouse.com/locations/tallahassee/"
+  },
+  {
+   "name": "The Bark",
+   "cuisines": [
+    "Bar"
+   ],
+   "address": "507 All Saints Street, 32301, Tallahassee",
+   "website": "https://thebarktally.com/"
+  },
+  {
+   "name": "Maria Maria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1304 North Monroe Street, 32303, Tallahassee",
+   "website": "https://mariamaria.com/"
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1817 Thomasville Road, 32303, Tallahassee",
+   "website": "https://cava.com"
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2400 North Monroe Street, 32303, Tallahassee",
+   "website": "https://www.longhornsteakhouse.com/locations/fl/tallahassee/tallahassee/5029"
+  },
+  {
+   "name": "Dear Sunday Cafe",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "1123 Thomasville Road, 32303, Tallahassee",
+   "website": "https://dearsundaycafe.com/"
+  },
+  {
+   "name": "Earley's Kitchen",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "1458 South Monroe Street, 32301, Tallahassee",
+   "website": "https://earleyskitchen.com"
+  },
+  {
+   "name": "Pitaria",
+   "cuisines": [
+    "Greek",
+    "Mediterranean"
+   ],
+   "address": "1935 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.thepitaria.com/"
+  },
+  {
+   "name": "Siam Sushi",
+   "cuisines": [
+    "Thai",
+    "Sushi"
+   ],
+   "address": "1700 West Tharpe Street, 32303, Tallahassee",
+   "website": "https://www.siamsushimenu.com/"
+  },
+  {
+   "name": "The Getaway Grille and Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2386 Allen Road, 32312, Tallahassee",
+   "website": "https://www.getawaygrille.com/"
+  },
+  {
+   "name": "Bird's Aphrodisiac Oyster Shack",
+   "cuisines": [
+    "Burger",
+    "Seafood"
+   ],
+   "address": "325 North Bronough Street, 32301, Tallahassee",
+   "website": "https://www.birdsoystershack.com/"
+  },
+  {
+   "name": "Korean BBQ",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1490 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://mykbbq.com/"
+  },
+  {
+   "name": "Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "111 South Magnolia Drive, 32301, Tallahassee",
+   "website": "https://www.littleitalytlh.com/"
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "220 South Magnolia Drive, 32301, Tallahassee",
+   "website": "https://www.blazepizza.com/"
+  },
+  {
+   "name": "Nagoya Steakhouse and Sushi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1925 North Monroe Street, 32303, Tallahassee",
+   "website": "https://nagoyafl.com/"
+  },
+  {
+   "name": "LeRoc Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "415 North Monroe Street, 32301, Tallahassee",
+   "website": "https://www.hotelduval.com/restaurants-in-tallahassee"
+  },
+  {
+   "name": "Level 8 Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "415 North Monroe Street, 32301, Tallahassee",
+   "website": "https://www.hotelduval.com/restaurants-in-tallahassee"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "392 South Magnolia Drive, 32301, Tallahassee",
+   "website": "https://www.buffalowildwings.com/locations/us/fl/tallahassee/392-south-magnolia-drive/sports-bar-924/"
+  },
+  {
+   "name": "Fly By Philly's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2205 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://flybyphillys.com"
+  },
+  {
+   "name": "Pedro's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "750 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://pedroseastcoast.com"
+  },
+  {
+   "name": "Decent Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1026 North Monroe Street, 32303, Tallahassee",
+   "website": "http://www.decent-pizza.com/"
+  },
+  {
+   "name": "Mission BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "216 South Magnolia Drive, 32301, Tallahassee",
+   "website": "https://mission-bbq.com/locations-and-menu/tallahassee-fl/"
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2335 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.jasonsdeli.com/"
+  },
+  {
+   "name": "Burrito Boarder",
+   "cuisines": [
+    "Mexican",
+    "Tex-Mex",
+    "Bar"
+   ],
+   "address": "2065 West Pensacola Street, 32304-9998, Tallahassee",
+   "website": "https://burritoboarder.com/"
+  },
+  {
+   "name": "Midtown Noodle Bar",
+   "cuisines": [
+    "Asian",
+    "Noodle",
+    "Pho",
+    "Ramen"
+   ],
+   "address": "1660 North Monroe Street, 32303, Tallahassee",
+   "website": "https://www.midtownnoodles.com/"
+  },
+  {
+   "name": "Piesanos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "101 Blair Stone Road, 32301, Tallahassee",
+   "website": "https://www.piesanostogo.com/stores/tallahassee/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2820 Sharer Road, 32312, Tallahassee",
+   "website": "https://locations.chuckecheese.com/us/fl/tallahassee/2810-sharer-rd."
+  },
+  {
+   "name": "Empire",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1700 West Tharpe Street, 32303, Tallahassee",
+   "website": "http://www.empiretlh.com/"
+  },
+  {
+   "name": "Nelson's Burger Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "805 South Macomb Street, 32301, Tallahassee",
+   "website": "https://www.facebook.com/VoodooDogTally"
+  },
+  {
+   "name": "Aaru's Indian Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1108 South Magnolia Drive, 32301, Tallahassee",
+   "website": "https://aaruz.com/"
+  },
+  {
+   "name": "BJ's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1749 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.bjsrestaurants.com/locations/fl/tallahassee"
+  },
+  {
+   "name": "Au Peche Mignon French Pastry Shop",
+   "cuisines": [
+    "French"
+   ],
+   "address": "220 North Duval Street, 32301, Tallahassee",
+   "website": "https://www.frenchpastrytallahassee.com/"
+  },
+  {
+   "name": "Little Masa",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "619 West Madison Street, Tallahassee",
+   "website": "http://www.littlemasa.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1355 Apalachee parkway, 32301, Tallahassee",
+   "website": "https://www.applebees.com/"
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "1630 North Monroe Street, 32303, Tallahassee",
+   "website": "https://www.goldencorral.com/"
+  },
+  {
+   "name": "El Rincon Latino",
+   "cuisines": [
+    "Colombian"
+   ],
+   "address": "2010 West Tennessee Street, 32304, Tallahassee",
+   "website": "http://www.superperroscolombian.com/"
+  },
+  {
+   "name": "Nuberri",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "101 Blair Stone Road, 32301, Tallahassee",
+   "website": "https://www.nuberri.com/"
+  },
+  {
+   "name": "Gaines Street Pies",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "104 East 6th Avenue, 32303, Tallahassee",
+   "website": "https://www.gainesstreetpies.com"
+  },
+  {
+   "name": "Maple Street Biscuit Company",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1600 West Call Street, 32304, Tallahassee",
+   "website": "https://maplestreetbiscuits.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1103 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.olivegarden.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2840 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.ihop.com/"
+  },
+  {
+   "name": "Los Compadres",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2102 West Pensacola Street, 32304, Tallahassee",
+   "website": "https://loscompadrestally.com/"
+  },
+  {
+   "name": "Bella Bella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "123 East 5th Avenue, 32303, Tallahassee",
+   "website": "https://www.thebellabella.com"
+  },
+  {
+   "name": "La Tiendita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1842 North Monroe Street, 32303, Tallahassee",
+   "website": "https://latienditatally.com/"
+  },
+  {
+   "name": "Lucilla",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1241 East Lafayette Street, 32301, Tallahassee",
+   "website": "https://www.lucillatallahassee.com/"
+  },
+  {
+   "name": "Bamboo Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "101 Blair Stone Road, 32301, Tallahassee",
+   "website": "https://www.bamboowoktallahassee.com/"
+  },
+  {
+   "name": "Sahara",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1135 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://saharacafeone.com/"
+  },
+  {
+   "name": "Z∆∆N Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1019 North Monroe Street, 32303, Tallahassee",
+   "website": "https://tallahassee.thezaan.com/"
+  },
+  {
+   "name": "Ur Bowl",
+   "cuisines": [
+    "Ramen",
+    "Pho",
+    "Asian"
+   ],
+   "address": "1800 West Tennessee Street, 32304, Tallahassee",
+   "website": "https://www.urbowls.com"
+  },
+  {
+   "name": "Uncle Maddio's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1435 East Lafayette Street, 32301, Tallahassee",
+   "website": "https://www.unclemaddios.com/"
+  },
+  {
+   "name": "Pancho's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1525 West Tennessee Street, Tallahassee",
+   "website": "https://panchosmexicangrill.com/"
+  },
+  {
+   "name": "Royal Thai and Sushi",
+   "cuisines": [
+    "Thai",
+    "Sushi",
+    "Asian"
+   ],
+   "address": "1600 West Call Street, 32304, Tallahassee",
+   "website": "https://www.royalthaisushi.com/"
+  },
+  {
+   "name": "Hobbit American Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2020 West Pensacola Street, 32304-9998;32304, Tallahassee",
+   "website": "https://www.myhobbitonline.com/location/hobbit-american-grill-west/"
+  },
+  {
+   "name": "El Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "719 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.eljalisco.com/locations/apalachee-parkway/"
+  },
+  {
+   "name": "El Patron",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1170 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://grillandcantinaelpatron.com/"
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "2727 North Monroe Street, 32303, Tallahassee",
+   "website": "https://www.meltingpot.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1710 West Tennessee, 32304, Tallahassee",
+   "website": "https://locations.pizzahut.com/fl/tallahassee/1710-w-tennessee"
+  },
+  {
+   "name": "Chuck's Fish",
+   "cuisines": [
+    "Seafood",
+    "Fish"
+   ],
+   "address": "224 East College Avenue, 32301, Tallahassee",
+   "website": "https://www.chucksfish.com/"
+  },
+  {
+   "name": "Mayuri Indian Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1324 Simpson Avenue, 32301, Tallahassee",
+   "website": "https://mayuriindiantallahassee.com/"
+  },
+  {
+   "name": "Leola's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2110 South Adams Street, 32301, Tallahassee",
+   "website": "https://leolastallahassee.com"
+  },
+  {
+   "name": "Volcano Hot Pot",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1872 Thomasville Road, 32303, Tallahassee",
+   "website": "https://volcanohotpot.com/"
+  },
+  {
+   "name": "Cafe Molido",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "2475 Apalachee Parkway, 32301, Tallahassee",
+   "website": "http://keepitgrounded.com"
+  },
+  {
+   "name": "Vene Bites",
+   "cuisines": [
+    "Venezuelan"
+   ],
+   "address": "217 East 3rd Avenue, 32303, Tallahassee",
+   "website": "https://www.venebites.com/"
+  },
+  {
+   "name": "Blossom Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "625 West Tennessee Street, 32304, Tallahassee",
+   "website": "https://www.blossomkitchenfl.com/"
+  },
+  {
+   "name": "Halisi Africa",
+   "cuisines": [
+    "African"
+   ],
+   "address": "625 Commercial Street, 32310, Tallahassee",
+   "website": "https://www.halisiafrica.com/"
+  },
+  {
+   "name": "Essence of India",
+   "cuisines": [
+    "Curry"
+   ],
+   "address": "1105 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.essenceofindiafl.com/"
+  },
+  {
+   "name": "G & G Restaurant and Bakery",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "745 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://thewharfexpress.com/"
+  },
+  {
+   "name": "Crafty Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1241 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.craftycrabrestaurant.com/"
+  },
+  {
+   "name": "Casa Grande Margaritas and Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1800 Thomasville Road, 32303, Tallahassee",
+   "website": "https://casagrandemidtown.com/"
+  },
+  {
+   "name": "Metro Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "104 South Monroe Street, 32301, Tallahassee",
+   "website": "https://metrodelis.com/"
+  },
+  {
+   "name": "Miller's Ale House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "722 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://millersalehouse.com/"
+  },
+  {
+   "name": "Gordo's",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "",
+   "website": "https://gordoscubanfood.com/"
+  },
+  {
+   "name": "Goodies Eatery",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "116 East College Avenue, 32301, Tallahassee",
+   "website": "http://www.goodieseaterytallahassee.com"
+  },
+  {
+   "name": "Lindy's Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "2112 North Monroe Street, 32303, Tallahassee",
+   "website": "http://www.lindys-chicken.com"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/tallahassee-fl-1192/"
+  },
+  {
+   "name": "Real Sarap",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "435 West Tennessee Street, Tallahassee",
+   "website": "http://www.realsarap.com/"
+  },
+  {
+   "name": "Marie Livingston's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2705 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://marielivingstonsteakhouse.com/"
+  },
+  {
+   "name": "El Cocinero Tacos y Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "402 East Tennessee Street, 32301, Tallahassee",
+   "website": "http://www.upinsmokepitbbq.com/"
+  },
+  {
+   "name": "Momo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1416 West Tennessee Street, 32304, Tallahassee",
+   "website": "https://www.momospizza.com/"
+  },
+  {
+   "name": "Mister Roboto Tokyo Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1350 West Tennessee Street, 32304",
+   "website": "http://www.mrrobototokyogrill.com/"
+  },
+  {
+   "name": "Pei Wei",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://www.peiwei.com/locations/florida/530-governors-square-mall/"
+  },
+  {
+   "name": "Barb's Gourmet Brittles",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "1671 North Monroe Street, 32303, Tallahassee",
+   "website": "https://barbsbrittles.com/"
+  },
+  {
+   "name": "Riccardo's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://riccardostally.com/"
+  },
+  {
+   "name": "Southern Smoke",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://www.southernsmoketlh.com/"
+  },
+  {
+   "name": "China First",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.chinafirsttallahassee.com/"
+  },
+  {
+   "name": "Lindy's Fried Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": "http://www.lindys-chicken.com"
+  },
+  {
+   "name": "Moody's Pita and Hummus",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": "http://www.moodyspitas.com/"
+  },
+  {
+   "name": "Midtown Pies",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "http://www.midtownpies.com/"
+  },
+  {
+   "name": "Keke's Breakfast Cafe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1861 West Tennessee Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Reggae Rail",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "653 Industrial Drive, 32310, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Rock N Roll Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "222 South Magnolia Drive, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "San Miguel",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "200 West Tharpe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Boruboru",
+   "cuisines": [
+    "Asian",
+    "Ramen"
+   ],
+   "address": "1861 West Tennessee Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Island Wing Company",
+   "cuisines": [
+    "Korean",
+    "Mexican"
+   ],
+   "address": "218 South Magnolia Drive, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "The Iron Daisy",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "507 West Gaines Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Trap Boy Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "663 Industrial Drive, 32310, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Heluva Sub",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2475 Apalachee Parkway, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Sonny's Bar-B-Que",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chow Won",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1107 Apalachee Parkway, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Coach's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "City Dogs Cafe",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "903 Railroad Avenue, 32310, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1225 East Park Avenue, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Cafe Yerushalmi",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "910 North Lake Bradford Road, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "La Moreliana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2320 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Brick Haus Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "402 West College Avenue, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "IL Lusso",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "201 East Park Avenue, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Lemon Pepper",
+   "cuisines": [
+    "Chicken",
+    "Seafood"
+   ],
+   "address": "508 West Brevard Street, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Sado Mori",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "2810 Sharer Road, 32312, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Sprinkles",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "1373 Mahan Drive, 32308, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "One Fresh Stir Fry",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1820 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Vertigo Burgers and Fries",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1395 East Lafayette Street, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Relish Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Midtown Noodles Bar",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1660 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "China Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1717 Apalachee Parkway, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Surchero's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1817 Thomasville Road, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Sake House",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "800 Ocala Road, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "The Bada Bean",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "2500 Apalachee Parkway, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Bahn Thai",
+   "cuisines": [
+    "Thai",
+    "Asian"
+   ],
+   "address": "2531 Apalachee Parkway, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Orchid Thai & Sushi Bar",
+   "cuisines": [
+    "Thai",
+    "Sushi"
+   ],
+   "address": "2529 Apalachee Parkway, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Wild Cajun Crawfish and Oyster Bar",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "1225 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Florida Wing Factory",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "950 West Tharpe Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Natural Kitchen",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "1525 West Tennessee Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Long Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "800 Ocala Road, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "64 Tally",
+   "cuisines": [
+    "Greek",
+    "Mediterranean"
+   ],
+   "address": "2039 West Pensacola Street, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Nefetari's Fine Cuisine and Spirits",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "812 South Macomb Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Chi Chi's Cafe",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "460 West Tennessee Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Big D Bbq",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1215 South Adams Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Joe Mama's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1307 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "China Delight",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "220 West Tennessee Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Crispy Chicken and Seafood",
+   "cuisines": [
+    "Chicken",
+    "Seafood"
+   ],
+   "address": "1600 West Tharpe Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Little Athens",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "666 West Tennessee Street, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Bento Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "842 W Jefferson Street",
+   "website": ""
+  },
+  {
+   "name": "Jasmine Cafe",
+   "cuisines": [
+    "Asian",
+    "Ramen",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Isabella's Pizzeria Napoletana",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tally Mac Shack",
+   "cuisines": [
+    "Pasta",
+    "American"
+   ],
+   "address": "824 W Jefefrson Street",
+   "website": ""
+  },
+  {
+   "name": "Hip Hop Fish and Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sakura Japanese Sushi and Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mom and Pop's",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho 7",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kami Poke",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harry's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Halal Shack",
+   "cuisines": [
+    "Mediterranean",
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Super Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crystal River Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toni's Homestyle Cookin' and Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "CK Crab House",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Curbside",
+   "cuisines": [
+    "Barbecue",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Republik",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Masala Tandoor",
+   "cuisines": [
+    "Indonesian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dreamland Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crab and Claw",
+   "cuisines": [
+    "Seafood",
+    "Cajun"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "OG Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lemongrass",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iolo Pizza By the Slice",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lotsa Stone Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bento Box",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Munchie's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Paris Banh Mi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicago Chicken and Grill",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joe Mama's Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brooklyn Pizza",
+   "cuisines": [
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Den",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vatos Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Straw Hat Poke",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Uptown and Catering Cafe",
+   "cuisines": [],
+   "address": "1325 Miccosukee Road, 32308, Tallahassee",
+   "website": "https://www.uptowncafeandcatering.com/"
+  },
+  {
+   "name": "Link Sausages and Beer",
+   "cuisines": [],
+   "address": "1303 Thomasville Road, 32303, Tallahassee",
+   "website": "https://www.linksausages.com/"
+  },
+  {
+   "name": "Mi Jefa's",
+   "cuisines": [],
+   "address": "1710 West Tharpe Street, 32303, Tallahassee",
+   "website": "https://www.mijefas.com/"
+  },
+  {
+   "name": "Clean Eatz",
+   "cuisines": [],
+   "address": "1000 Railroad Avenue, 32310, Tallahassee",
+   "website": "https://locations.cleaneatz.com/fl/tallahassee/meal-prep-92.html"
+  },
+  {
+   "name": "The Lunchbox",
+   "cuisines": [],
+   "address": "295 North Magnolia Drive, 32301, Tallahassee",
+   "website": "https://www.lunchboxtally.com/"
+  },
+  {
+   "name": "Freshroots Kitchen",
+   "cuisines": [],
+   "address": "1605 East Plaza Drive, 32308, Tallahassee",
+   "website": "http://www.freshrootskitchen.com/"
+  },
+  {
+   "name": "Vale Food Co",
+   "cuisines": [],
+   "address": "1861 West Tennessee Street, Tallahassee",
+   "website": "https://www.valefoodco.com/"
+  },
+  {
+   "name": "Canopy Road Cafe",
+   "cuisines": [],
+   "address": "1779 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://www.canopyroadcafe.com/"
+  },
+  {
+   "name": "Black Radish",
+   "cuisines": [],
+   "address": "1304 North Monroe Street, 32303, Tallahassee",
+   "website": "https://www.blackradishtlh.com/"
+  },
+  {
+   "name": "Food Glorious Food",
+   "cuisines": [],
+   "address": "1950 Thomasville Road, 32308, Tallahassee",
+   "website": "https://food-glorious-food.squarespace.com/"
+  },
+  {
+   "name": "Cajun Cafe",
+   "cuisines": [],
+   "address": "1500 Apalachee Parkway, 32301, Tallahassee",
+   "website": "https://cajun-cafe-grill.edan.io/"
+  },
+  {
+   "name": "The Edison",
+   "cuisines": [],
+   "address": "470 Suwannee Street, 32301, Tallahassee",
+   "website": "https://www.edisontally.com/"
+  },
+  {
+   "name": "Kool Beanz Café",
+   "cuisines": [],
+   "address": "921 Thomasville Road, 32303, Tallahassee",
+   "website": "http://www.kool-beanz.com/"
+  },
+  {
+   "name": "Bare Naked Kitchen",
+   "cuisines": [],
+   "address": "609 West Tennessee Street, 32304, Tallahassee",
+   "website": "https://eatbarenaked.com/"
+  },
+  {
+   "name": "Max's",
+   "cuisines": [],
+   "address": "1600 West Call Street, 32304, Tallahassee",
+   "website": "https://maxssteaksshakesandfries.business.site/"
+  },
+  {
+   "name": "Avenue Eat and Drink",
+   "cuisines": [],
+   "address": "115 East Park Avenue, 32301, Tallahassee",
+   "website": "https://avenueeatanddrink.com/"
+  },
+  {
+   "name": "Table 23",
+   "cuisines": [],
+   "address": "1215 Thomasville Road, 32303, Tallahassee",
+   "website": "https://www.table23tally.com/"
+  },
+  {
+   "name": "Midtown Caboose",
+   "cuisines": [],
+   "address": "1406 Thomasville Road, 32303, Tallahassee",
+   "website": "https://midtowncaboose.com/"
+  },
+  {
+   "name": "Andrew's Capital Grill and Bar",
+   "cuisines": [],
+   "address": "228 South Adams Street, 32301, Tallahassee",
+   "website": "https://andrewsdowntown.com/grill.php"
+  },
+  {
+   "name": "World of Beer Tallahassee",
+   "cuisines": [],
+   "address": "830 East Lafayette Street, 32301, Tallahassee",
+   "website": "https://www.genghisgrill.com/"
+  },
+  {
+   "name": "Cypress Restaurant",
+   "cuisines": [],
+   "address": "320 East Tennessee Street, 32301, Tallahassee",
+   "website": "http://cypressrestaurant.com/"
+  },
+  {
+   "name": "Pineappétit",
+   "cuisines": [],
+   "address": "2037 West Pensacola Street, 32304, Tallahassee",
+   "website": "https://www.pineappetit.com/"
+  },
+  {
+   "name": "Big Easy Snowballs",
+   "cuisines": [],
+   "address": "1621 North Monroe Street, 32303, Tallahassee",
+   "website": "http://www.bigeasysnowballs.com/"
+  },
+  {
+   "name": "Rev Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.goodwoodmuseum.org/cafe.php"
+  },
+  {
+   "name": "A Town Wings",
+   "cuisines": [],
+   "address": "360 West Tharpe Street, 32303",
+   "website": "https://www.atownwingsfl.com/"
+  },
+  {
+   "name": "Crave",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.thepicklepad.com/tallahassee/#crave"
+  },
+  {
+   "name": "Tin Lizzy's Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.tinlizzyscantina.com/"
+  },
+  {
+   "name": "Luther's 78",
+   "cuisines": [],
+   "address": "114 All Saints Street, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Sunny Mornings Café",
+   "cuisines": [],
+   "address": "832 West Tharpe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Pineappetit",
+   "cuisines": [],
+   "address": "626 Mc Donnell Drive, 32310, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Juice Bar Miami",
+   "cuisines": [],
+   "address": "626 Mc Donnell Drive, 32310, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Masa",
+   "cuisines": [],
+   "address": "1650 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Hummingbird",
+   "cuisines": [],
+   "address": "1216 North Monroe Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Charley Cheesesteaks",
+   "cuisines": [],
+   "address": "2020 West Pensacola Street, 32304, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Tastee Turkey Leg",
+   "cuisines": [],
+   "address": "2810 Sharer Road, 32312, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Joy Luck Place",
+   "cuisines": [],
+   "address": "1002 North Monroe Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "4th Quarter Bar and Grille",
+   "cuisines": [],
+   "address": "2033 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Geo's",
+   "cuisines": [],
+   "address": "2717 Mahan Drive, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "South One Eatery",
+   "cuisines": [],
+   "address": "2525 South Monroe Street, 32301, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "The Wilbury",
+   "cuisines": [],
+   "address": "513 West Gaines Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Leon's",
+   "cuisines": [],
+   "address": "1611 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Kacey's Home Cooking",
+   "cuisines": [],
+   "address": "2545 North Monroe Street, 32303, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "MiMi's Table",
+   "cuisines": [],
+   "address": "1311 Miccosukee Road, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Liberty Bar and Restaurant",
+   "cuisines": [],
+   "address": "1307 North Monroe Street",
+   "website": ""
+  },
+  {
+   "name": "Jet Set Restaurant and Launge",
+   "cuisines": [],
+   "address": "501 North Macomb Street, Tallahassee",
+   "website": ""
+  },
+  {
+   "name": "Jo Elen's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Campus Cafe",
+   "cuisines": [],
+   "address": "Wahnish Way",
+   "website": ""
+  },
+  {
+   "name": "Newk's Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luna's Italian Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shula's 347 Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vale Food Co.",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Egg",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blue Collar Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Madison Social",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jacob's on the Plaza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Plates",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saigon Kafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "John G. Riley House",
+   "kind": "museum",
+   "address": "419 East Jefferson Street, 32301, Tallahassee",
+   "website": "https://www.rileymuseum.org/",
+   "phone": "",
+   "latitude": 30.4394725,
+   "longitude": -84.2773908
+  },
+  {
+   "name": "Tallahassee Museum",
+   "kind": "museum",
+   "address": "3945 Museum Road, 32310, Tallahassee",
+   "website": "https://tallahasseemuseum.org/",
+   "phone": "+1-850-575-8684",
+   "latitude": 30.4102768,
+   "longitude": -84.3449272
+  },
+  {
+   "name": "R.A. Gray Florida History Museum",
+   "kind": "museum",
+   "address": "500 South Bronough Street, 32399, Tallahassee",
+   "website": "https://www.museumoffloridahistory.com/",
+   "phone": "+1 850-245-6400",
+   "latitude": 30.438122,
+   "longitude": -84.2850303
+  },
+  {
+   "name": "The Grove Museum",
+   "kind": "museum",
+   "address": "902 North Monroe Street, 32303, Tallahassee",
+   "website": "https://thegrovemuseum.com/",
+   "phone": "",
+   "latitude": 30.4509139,
+   "longitude": -84.2820096
+  },
+  {
+   "name": "Goodwood Museum and Gardens",
+   "kind": "museum",
+   "address": "1600 Miccosukee Road, 32308, Tallahassee",
+   "website": "https://www.goodwoodmuseum.org/",
+   "phone": "+1-850-877-4202",
+   "latitude": 30.4581837,
+   "longitude": -84.257885
+  },
+  {
+   "name": "Florida Historic Capitol Museum",
+   "kind": "museum",
+   "address": "400 South Monroe Street, 32399, Tallahassee",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4381329,
+   "longitude": -84.2813501
+  },
+  {
+   "name": "San Luis Mission Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4486902,
+   "longitude": -84.3201986
+  },
+  {
+   "name": "The Union Bank",
+   "kind": "museum",
+   "address": "219 Apalachee Parkway, 32301, Tallahassee",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4378616,
+   "longitude": -84.2797727
+  },
+  {
+   "name": "The Artisan Exchange",
+   "kind": "gallery",
+   "address": "324 East Virginia Street, 32301, Tallahassee",
+   "website": "https://www.facebook.com/artisanexchangetally/",
+   "phone": "",
+   "latitude": 30.4456162,
+   "longitude": -84.2809541
+  },
+  {
+   "name": "Knott House Museum",
+   "kind": "museum",
+   "address": "301 East Park Avenue, 32301, Tallahassee",
+   "website": "https://www.museumoffloridahistory.com/about/sites/",
+   "phone": "",
+   "latitude": 30.4416209,
+   "longitude": -84.2793815
+  },
+  {
+   "name": "LeMoyne Arts",
+   "kind": "gallery",
+   "address": "125 North Gadsden Street, 32301, Tallahassee",
+   "website": "https://www.lemoyne.org/",
+   "phone": "",
+   "latitude": 30.4432062,
+   "longitude": -84.2780224
+  },
+  {
+   "name": "Mission San Luis",
+   "kind": "museum",
+   "address": "2100 West Tennessee Street, 32304, Tallahassee",
+   "website": "https://www.missionsanluis.org/",
+   "phone": "",
+   "latitude": 30.4486333,
+   "longitude": -84.3199165
+  },
+  {
+   "name": "Fun Station",
+   "kind": "theme park",
+   "address": "2821 Sharer Road, 32312, Tallahassee",
+   "website": "https://www.itsfunner.com/",
+   "phone": "",
+   "latitude": 30.4804823,
+   "longitude": -84.2947496
+  },
+  {
+   "name": "Nomad's Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4569523,
+   "longitude": -84.2811135
+  },
+  {
+   "name": "FSU Museum of Fine Arts",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4438188,
+   "longitude": -84.2898083
+  },
+  {
+   "name": "The French Studio",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4337475,
+   "longitude": -84.29344
+  },
+  {
+   "name": "Salvage Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4335209,
+   "longitude": -84.2934373
+  },
+  {
+   "name": "Calynne & Lou Hill Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4487582,
+   "longitude": -84.3202704
+  },
+  {
+   "name": "Able Gallery Artists",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.432509,
+   "longitude": -84.2923235
+  },
+  {
+   "name": "Future Buc-ee's",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4831727,
+   "longitude": -84.364056
+  }
+ ]
+}

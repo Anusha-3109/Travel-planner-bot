@@ -1,0 +1,514 @@
+{
+ "city": "Watertown",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.9743,
+ "longitude": -75.9109,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Watertown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "155 Commerce Park Drive, 13601, Watertown",
+   "url": "https://www.hilton.com/en/hotels/artnyhx-hampton-watertown/"
+  },
+  {
+   "name": "Days Inn Evans Mills",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25940 United States Route 11, 13637, Evans Mills",
+   "url": "https://www.wyndhamhotels.com/days-inn/evans-mills-new-york/days-inn-evans-mills-fort-drum/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites Watertown - 1000 Islands",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Commerce Park Drive, 13601, Watertown",
+   "url": "https://www.choicehotels.com/new-york/watertown/comfort-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1290 Arsenal Street, 13601, Watertown",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/watertown/artaa/hoteldetail"
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "26513 Herrick Drive, 13637, Evans Mills",
+   "url": "https://www.ihg.com/candlewood/hotels/us/en/evans-mills/atrcw/hoteldetail"
+  },
+  {
+   "name": "Ramada Watertown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "21000 State Route 3, 13601, Watertown",
+   "url": "https://www.wyndhamhotels.com/ramada/watertown-new-york/ramada-watertown/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 Commerce Park Drive, 13601, Watertown",
+   "url": "https://www.marriott.com/artfi"
+  },
+  {
+   "name": "Best Western Watertown Fort Drum",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Washington Street, 13601-3734, Watertown",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-watertown/best-western-watertown-fort-drum/propertyCode.33097.html"
+  },
+  {
+   "name": "Quality Inn & Suites Watertown Fort Drum",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "26479 State Route 342, 13616, Calcium",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1030 Arsenal Street, 13601, Watertown",
+   "url": ""
+  },
+  {
+   "name": "Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25791 State Route 37, 13601, Watertown",
+   "url": ""
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1290 Arsenal Street, 13601, Watertown",
+   "url": ""
+  },
+  {
+   "name": "Hotis Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23496 State Route 37, 13601, Watertown",
+   "url": ""
+  },
+  {
+   "name": "Watertown Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Inn at 81",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1290 Arsenal Street, 13601-2294, Watertown",
+   "website": "https://www.buffalowildwings.com/locations/us/ny/watertown/1290-arsenal-rd/sports-bar-139/"
+  },
+  {
+   "name": "Pete's Trattoria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "111 Breen Avenue",
+   "website": "https://www.petestrattoria.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "20800 State Route 3, 13601, Watertown",
+   "website": "https://locations.pizzahut.com/ny/watertown/20800-bys-rte-3"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1283 Arsenal Street, 13601, Watertown",
+   "website": "https://restaurants.applebees.com/en-us/ny/watertown/1283-arsenal-street-94012"
+  },
+  {
+   "name": "Jean's Beans",
+   "cuisines": [
+    "Fish And Chips",
+    "Donut",
+    "Fried Food"
+   ],
+   "address": "259 Eastern Boulevard, 13601, Watertown",
+   "website": "http://jeansbeanswtn.com"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1290 Arsenal Street, 13601, Watertown",
+   "website": "https://restaurants.ihop.com/en-us/ny/watertown/breakfast-1290-arsenal-st-3629"
+  },
+  {
+   "name": "Crystal Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "87 Public Square, 13601, Watertown",
+   "website": "https://thecrystalrestaurant.com/b"
+  },
+  {
+   "name": "Empire Square",
+   "cuisines": [
+    "American",
+    "Southern"
+   ],
+   "address": "65 Public Square, 13601, Watertown",
+   "website": "https://www.empiresquare65.com/"
+  },
+  {
+   "name": "Ichiban",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1196 Arsenal Street, 13601, Watertown",
+   "website": "http://ichibanwatertown.com"
+  },
+  {
+   "name": "1025 Ruyi Japanese Steak House Restaurant",
+   "cuisines": [
+    "Pan Asian"
+   ],
+   "address": "1025 Arsenal Street, 13601, Watertown",
+   "website": "https://1025ruyisteakhousenny.com/"
+  },
+  {
+   "name": "PieZano's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "Pasta"
+   ],
+   "address": "1322 Washington Street, 13601, Watertown",
+   "website": "https://piezanos.pizza/"
+  },
+  {
+   "name": "Shorty's Place",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1280 Coffeen Street, 13601-1822, Watertown",
+   "website": "https://shortysplacediner.com/"
+  },
+  {
+   "name": "Cam's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "25 Public Square, 13601-2684, Watertown",
+   "website": "https://camspizza.com/our-locations/watertown/"
+  },
+  {
+   "name": "Original Italian Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "222 North Massey Street, 13601, Watertown",
+   "website": "https://www.myoip.com/"
+  },
+  {
+   "name": "Art's Jug",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "820 Huntington Street, 13601-2822, Watertown",
+   "website": "https://www.artsjug.com/"
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://godfathers.com/store-details?id=GFP-33279"
+  },
+  {
+   "name": "United China Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "144 Eastern Boulevard, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "20988 Salmon Run Mall Loop West, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1142 Arsenal Street, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "20790 State Route 3, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "21220 Pioneer Plaza Drive, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Holy Smokes Bourbon and BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "32 Public Square, 13601-2623, Watertown",
+   "website": ""
+  },
+  {
+   "name": "2000 Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "22072 United States Route 11, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Spokes",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "81 Public Square, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Mo's Place",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "345 Factory Street, 13601-2786, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Crossroads Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "22474 United States Route 11, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "Lotus Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1283 Arsenal Street, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ben And Jilly's Cool Craze",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Super Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Authentic Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Daily Buffet",
+   "cuisines": [],
+   "address": "1283 Arsenal Street, 13601, Watertown",
+   "website": ""
+  },
+  {
+   "name": "CoreLife Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vito's Gourmet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Friede's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wish Thai Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Jefferson County Historical Society",
+   "kind": "museum",
+   "address": "228 Washington Street, 13601, Watertown",
+   "website": "https://www.jeffersoncountyhistory.org/",
+   "phone": "+1 315 782 3491",
+   "latitude": 43.9733333,
+   "longitude": -75.9113889
+  },
+  {
+   "name": "Adirondack River Outfitters",
+   "kind": "attraction",
+   "address": "140 Newell Street, 13601, Watertown",
+   "website": "",
+   "phone": "",
+   "latitude": 43.9763752,
+   "longitude": -75.9091817
+  },
+  {
+   "name": "Thompson Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.9616044,
+   "longitude": -75.8842943
+  }
+ ]
+}

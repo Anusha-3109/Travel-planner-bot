@@ -1,0 +1,957 @@
+{
+ "city": "Sioux City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.4951,
+ "longitude": -96.4055,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Warrior Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 6th Street, 51101, Sioux City",
+   "url": "https://thewarriorhotel.com/"
+  },
+  {
+   "name": "Days Inn Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3000 Singing Hills Boulevard, 51106, Sioux City",
+   "url": "https://www.wyndhamhotels.com/days-inn/sioux-city-iowa/days-inn-sioux-city/rooms-rates"
+  },
+  {
+   "name": "Super 8 by Wyndham Sioux City/Morningside Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4307 Stone Avenue, 51106, Sioux City",
+   "url": "https://www.wyndhamhotels.com/super-8/sioux-city-iowa/super-8-sioux-city-morningside-area/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 Tower Road, 57049, North Sioux City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-dakota-dunes-sd"
+  },
+  {
+   "name": "Hilton Garden Inn Sioux City Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1132 Larsen Park Road, 51103, Sioux City",
+   "url": "https://www.hilton.com/en/hotels/suxgigi-hilton-garden-inn-sioux-city-riverfront/"
+  },
+  {
+   "name": "Hampton Inn & Suites Sioux City South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5555 Sergeant Road, 51106, Sioux City",
+   "url": "https://www.hilton.com/en/hotels/suxsohx-hampton-suites-sioux-city-south/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4202 South Lakeport Street, 51106, Sioux City",
+   "url": "https://www.choicehotels.com/south-dakota/north-sioux-city/econo-lodge-hotels"
+  },
+  {
+   "name": "Courtyard By Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 4th Street, 51101, Sioux City",
+   "url": "https://www.marriott.com/suxcy"
+  },
+  {
+   "name": "Hampton Inn North Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 South Sodrac Drive, 57049, North Sioux City",
+   "url": "https://www.hilton.com/en/hotels/fsdnohx-hampton-north-sioux-city/"
+  },
+  {
+   "name": "Super 8 by Wyndham Sioux City South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2530 Singing Hills Boulevard, 51111, Sioux City",
+   "url": "https://www.wyndhamhotels.com/super-8/sioux-city-iowa/super-8-sioux-city-south/overview"
+  },
+  {
+   "name": "Super 8 North Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "108 Sodrac Drive, 57049, North Sioux City",
+   "url": "https://www.wyndhamhotels.com/super-8/north-sioux-city-south-dakota/super-8-north-sioux-city/overview"
+  },
+  {
+   "name": "Days Inn North Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1311 River Drive, 57049, North Sioux City",
+   "url": "https://www.wyndhamhotels.com/days-inn/north-sioux-city-south-dakota/days-inn-north-sioux-city/overview"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4230 South Lakeport Street, 51106, Sioux City",
+   "url": "https://www.choicehotels.com/iowa/sioux-city/quality-inn-hotels/ia404"
+  },
+  {
+   "name": "Bluebird Flats",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.bluebirdflats.com/"
+  },
+  {
+   "name": "Copper Flats",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.copper-flats.com/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4716 Southern Hills Drive, 51106, Sioux City",
+   "url": ""
+  },
+  {
+   "name": "Hard Rock Hotel Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 3rd Street, 51103, Sioux City",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4720 Southern Hills Drive, 51106, Sioux City",
+   "url": ""
+  },
+  {
+   "name": "Ramada Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 Nebraska Street",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 Gordon Drive",
+   "url": ""
+  },
+  {
+   "name": "Stoney Creek Hotel & Conference Center - Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 3rd Street",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Lodge & Suites Sioux City - Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sioux City Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "707 4th Street",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sioux City Southeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn & Suites South Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "New Victorian Inn & Suites Sioux City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "South Sioux City Marriott Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Town & Country Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Host Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cottonwood Inn and Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Palmer House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Elmdale",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "La Morena Family Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1215 Dakota Avenue, 68776, South Sioux City",
+   "website": "https://order.online/store/la-morena-family-restaurant-543426"
+  },
+  {
+   "name": "Pete’s Thai on 5th",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "507 5th Street, 51101, Sioux City",
+   "website": "https://downtownsiouxcity.com/business/petes-thai-on-5th/"
+  },
+  {
+   "name": "Jerry's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1417 Morningside Avenue, 51106, Sioux City",
+   "website": "https://www.jerryspizzasiouxcity.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3113 East Gordon Drive, 51105, Sioux City",
+   "website": "https://locations.pizzahut.com/ia/sioux-city/3113-e-gordon-drive"
+  },
+  {
+   "name": "La Juanita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1316 Pierce Street, 51105-1421, Sioux City",
+   "website": "https://la-juanita.menu-world.com/"
+  },
+  {
+   "name": "Koi Sushi & Steakhouse",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "1790 Hamilton Boulevard, 51103, Sioux City",
+   "website": "https://www.koisiouxcity.com/"
+  },
+  {
+   "name": "Jose's Family Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1401 Pierce Street, 51105-1245, Sioux City",
+   "website": "https://josesfamilyrestaurant.dinehere.us/"
+  },
+  {
+   "name": "Chinese Chef",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2800 Dakota Avenue, 68776, South Sioux City",
+   "website": "https://foodeist.com/place/chinese-chef-south-sioux-city-ne"
+  },
+  {
+   "name": "La Morena Good Morning",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1322 Jackson Street, 51105, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Big Red Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1301 Pierce Street, 51105-1422, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "One Eyed Jacks",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3091 Hamilton Boulevard, 51104, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Tacos El Gueros",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "501 Gordon Drive, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Sapporo",
+   "cuisines": [
+    "Sushi",
+    "Hibachi"
+   ],
+   "address": "910 Gordon Drive, 51101, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "110 Nebraska Street, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3116 Floyd Boulevard, 51108, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "El Gato Regro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "24 West 3rd Street, 51103, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Pho Dinh",
+   "cuisines": [
+    "Vietnamese",
+    "Chinese"
+   ],
+   "address": "401 West 7th Street, 51103, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "801 Gordon Drive, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "La Momia",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 Nebraska Street, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Koi Express",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "3065 Floyd Boulevard, 51108, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "El Tapitio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3400 Gordon Drive, 51106, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "79 Degrees",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "3087 Floyd Boulevard, 51108, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "La Fiesta Charra",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3077 Floyd Boulevard, 51108, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Nevarrete's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3124, 51105, Sioux City",
+   "website": ""
+  },
+  {
+   "name": "Elilly Restaurant and Coffee House",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1529 Pierce Street",
+   "website": ""
+  },
+  {
+   "name": "Opa Time",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2129 Hamilton Boulevard, 51104",
+   "website": ""
+  },
+  {
+   "name": "Jim's Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2500 Gordon Drive",
+   "website": ""
+  },
+  {
+   "name": "Milwaukee Wiener House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "309 Pearl Street",
+   "website": ""
+  },
+  {
+   "name": "Diamond Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "515 West 7th Street",
+   "website": ""
+  },
+  {
+   "name": "Luciano's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1019 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Kind Sea",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1902 Court Street",
+   "website": ""
+  },
+  {
+   "name": "Pancheros",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2400 Hamilton Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Hacienda Mexican Restaurant & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 Steuben Street",
+   "website": ""
+  },
+  {
+   "name": "Brightside Cafe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "528 Pierce Street",
+   "website": ""
+  },
+  {
+   "name": "Da Kao",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deanda's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Familia",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos La Juanita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Panda Palace",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Elie's South of the Border",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tony's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Ranchito Restaurant & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Minervas",
+   "cuisines": [],
+   "address": "2945 Hamilton Boulevard",
+   "website": "https://www.minervas.net/minervas-sioux-city/"
+  },
+  {
+   "name": "SoHo Kitchen & Bar",
+   "cuisines": [],
+   "address": "1024 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Siouxland Soup Kitchen",
+   "cuisines": [],
+   "address": "717 West 7th Street",
+   "website": ""
+  },
+  {
+   "name": "Trattoria Fresco",
+   "cuisines": [],
+   "address": "511 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Diving Elk",
+   "cuisines": [],
+   "address": "1101 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Rebos",
+   "cuisines": [],
+   "address": "1101 4th Street",
+   "website": ""
+  },
+  {
+   "name": "Horizons",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sneaky's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Townhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Sergent Floyd River Museum",
+   "kind": "museum",
+   "address": "1000 Chris Larsen Park",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4911791,
+   "longitude": -96.4185342
+  },
+  {
+   "name": "Jolly Time Koated Kernels",
+   "kind": "museum",
+   "address": "1717 Terminal Drive, 51105, Sioux City",
+   "website": "https://www.koatedkernels.com/",
+   "phone": "",
+   "latitude": 42.5077981,
+   "longitude": -96.3776308
+  },
+  {
+   "name": "The Railroad Museum",
+   "kind": "museum",
+   "address": "3400 Sioux River Road, 51102, Sioux City",
+   "website": "https://www.siouxcityrailroadmuseum.org/",
+   "phone": "",
+   "latitude": 42.5290327,
+   "longitude": -96.4767285
+  },
+  {
+   "name": "The Block",
+   "kind": "gallery",
+   "address": "1307 Pierce Street, 51105-1422, Sioux City",
+   "website": "https://www.theblocklive.com/",
+   "phone": "+17125741751",
+   "latitude": 42.5043441,
+   "longitude": -96.4052762
+  },
+  {
+   "name": "Sioux City Public Museum",
+   "kind": "museum",
+   "address": "607 4th Street",
+   "website": "https://www.siouxcitymuseum.org/sioux-city-museum-visitor-information",
+   "phone": "",
+   "latitude": 42.4946823,
+   "longitude": -96.4030821
+  },
+  {
+   "name": "Betty Strong Encounter Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://siouxcitylcic.com/",
+   "phone": "",
+   "latitude": 42.4899655,
+   "longitude": -96.415751
+  },
+  {
+   "name": "Lewis & Clark Interpretive Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.siouxcitylcic.com",
+   "phone": "",
+   "latitude": 42.4904168,
+   "longitude": -96.4155234
+  },
+  {
+   "name": "Sioux City Art Center",
+   "kind": "museum",
+   "address": "225 3rd Street, Sioux City",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4927498,
+   "longitude": -96.4039523
+  },
+  {
+   "name": "LaunchPAD Children's Museum",
+   "kind": "museum",
+   "address": "623 Pearl Street, 51101, Sioux City",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4971822,
+   "longitude": -96.4083749
+  },
+  {
+   "name": "Mount Lucia",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5406577,
+   "longitude": -96.4645646
+  },
+  {
+   "name": "Bobsled Run",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5442822,
+   "longitude": -96.472747
+  },
+  {
+   "name": "Kestrel Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.543114,
+   "longitude": -96.4697875
+  },
+  {
+   "name": "Mid America Air Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4138578,
+   "longitude": -96.3741866
+  },
+  {
+   "name": "Gobbler Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5406422,
+   "longitude": -96.4708969
+  },
+  {
+   "name": "Scenic Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5556201,
+   "longitude": -96.4754628
+  }
+ ]
+}

@@ -1,0 +1,2546 @@
+{
+ "city": "Tucson",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 32.2289,
+ "longitude": -110.9518,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Arizona Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 East Elm Street, 85719, Tucson",
+   "url": "https://www.arizonainn.com/"
+  },
+  {
+   "name": "The Historic Hotel Congress",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 East Congress Street, 85701, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Courtyard by Marriott Tucson Williams Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 South Williams Boulevard, 85711, Tucson",
+   "url": "https://www.marriott.com/en-us/hotels/tusce-courtyard-tucson-williams-centre/overview/"
+  },
+  {
+   "name": "SpringHill Suites by Marriott Tucson at The Bridges",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1705 East Tucson Marketplace Boulevard, 85713, Tucson",
+   "url": "https://marriott.com/en-us/hotels/tusse-springhill-suites-tucson-at-the-bridges/overview/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "705 North Freeway Road, 85745, Tucson",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-tucson-city-center-az"
+  },
+  {
+   "name": "Residence Inn by Marriott Tucson Williams Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5400 East Williams Circle, 85711, Tucson",
+   "url": "https://www.marriott.com/en-us/hotels/tusri-residence-inn-tucson-williams-centre/overview/"
+  },
+  {
+   "name": "Graduate by Hilton Tucson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "930 East 2nd Street, 85719, Tucson",
+   "url": "https://www.graduatehotels.com/tucson/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6604 East Broadway Boulevard, 85710, Tucson",
+   "url": "https://www.wyndhamhotels.com/laquinta/tucson-arizona/la-quinta-inn-tucson-east/overview"
+  },
+  {
+   "name": "DoubleTree by Hilton Tucson Downtown Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "280 South Church Avenue, 85701, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tusaudt-doubletree-tucson-downtown-at-the-convention-center/"
+  },
+  {
+   "name": "The Eddy Hotel Tucson, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4626 North Campbell Avenue, 85718, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tusedup-the-eddy-hotel-tucson/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "141 South Stone Avenue, 85701, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tuscbhx-hampton-tucson-downtown/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "384 South Williams Boulevard, 85711, Tucson",
+   "url": "https://www.marriott.com/tuswc"
+  },
+  {
+   "name": "El Presidio Bed & Breakfast Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "297 North Main Avenue, 85701, Tucson",
+   "url": "https://www.elpresidiobbinn.com"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "251 South Wilmot Road, 85710, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tuseahx-hampton-suites-tucson-east-williams-center/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1560 West Grant Road, 85745, Tucson",
+   "url": "https://www.choicehotels.com/arizona/tucson/quality-inn-hotels"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6555 East Speedway Boulevard, 85711, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tuseees-embassy-suites-tucson-east/"
+  },
+  {
+   "name": "TownePlace Suites Tucson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "405 West Rudasill Road, 85704, Tucson",
+   "url": "https://www.marriott.com/tustn"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "141 South Stone Avenue, 85701, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tuscaht-home2-suites-tucson-downtown/"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "445 South Alvernon Way, 85711-4198, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tusbtdt-doubletree-tucson-reid-park/"
+  },
+  {
+   "name": "Ramada Tucson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "777 West Cushing Street, 85745, Tucson",
+   "url": "https://theriverparkinn.com/"
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Tucson Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 East Wetmore Road, 85705, Tucson",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tucson/tusfa/hoteldetail"
+  },
+  {
+   "name": "Comfort Suites at Tucson Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "515 West Auto Mall Drive, 85705, Tucson",
+   "url": "https://www.choicehotels.com/arizona/tucson/comfort-suites-hotels/az127"
+  },
+  {
+   "name": "Super 8 Tucson/Grant Road Area AZ",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1550 West Grant Road, 85745, Tucson",
+   "url": "https://www.wyndhamhotels.com/super-8/tucson-arizona/super-8-tucson-grant-road-area-az/overview"
+  },
+  {
+   "name": "Best Western Royal Sun",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 North Stone Avenue, 85705, Tucson",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-tucson/best-western-royal-sun-inn-suites/propertyCode.03074.html"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "665 North Freeway, 85745, Tucson",
+   "url": "https://www.wyndhamhotels.com/days-inn/tucson-arizona/days-inn-tucson-city-center/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Tucson Downtown Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "715 West Starr Pass Boulevard, 85713, Tucson",
+   "url": "https://www.wyndhamhotels.com/super-8/tucson-arizona/super-8-tucson-downtown-convention-center/overview"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1136 North Stone Avenue, 85705, Tucson",
+   "url": "https://www.choicehotels.com/arizona/tucson/quality-inn-hotels"
+  },
+  {
+   "name": "DoubleTree Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5335 East Broadway, 85711, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tustwdt-doubletree-suites-tucson-williams-center/"
+  },
+  {
+   "name": "Tucson Marriott University Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "880 East 2nd Street, 85719, Tucson",
+   "url": "https://www.marriott.com/hotels/travel/tusmp-tucson-marriott-university-park/"
+  },
+  {
+   "name": "JW Marriott Starr Pass Resort & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3800 West Starr Pass Boulevard, 85745, Tucson",
+   "url": "http://www.jwmarriottstarrpass.com/"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4850 South Hotel Drive, 85714, Tucson",
+   "url": "https://www.choicehotels.com/arizona/tucson/quality-inn-hotels"
+  },
+  {
+   "name": "Hotel McCoy",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "720 West Silverlake Road, 85713, Tucson",
+   "url": "https://www.hotelmccoy.com/locations/tucson"
+  },
+  {
+   "name": "Hyatt Place Tucson-Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1375 West Grant Road, 85745, Tucson",
+   "url": "https://www.hyatt.com/en-us/hotel/arizona/hyatt-place-tucson-central/tuszt"
+  },
+  {
+   "name": "El Amador Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "211 South 4th Avenue, 85701, Tucson",
+   "url": "https://elamador.com/"
+  },
+  {
+   "name": "Spark by Hilton Tucson Reid Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 North Alvernon Way, 85711, Tucson",
+   "url": "https://www.hilton.com/en/hotels/tusrppe-spark-tucson-reid-park/"
+  },
+  {
+   "name": "voco The Tuxon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "960 South Freeway Road, 85745, Tucson",
+   "url": "https://www.ihg.com/voco/hotels/us/en/tucson/tusvo/hoteldetail"
+  },
+  {
+   "name": "Aloft Tucson University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1900 East Speedway Boulevard, Tucson",
+   "url": "https://www.marriott.com/en-us/hotels/tusal-aloft-tucson-university/"
+  },
+  {
+   "name": "The Alice Hotel & Swim Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1222 South Freeway Road, 85713, Tucson",
+   "url": "https://thealicehotel.com/"
+  },
+  {
+   "name": "Studio 6 Tucson, AZ - Irvington Road",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4950 South Outlet Center Drive, 85706, Tucson",
+   "url": "https://www.studio6.com/en/home/motels.az.tucson.5280.html"
+  },
+  {
+   "name": "Hacienda Del Sol Guest Ranch Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5501 North Hacienda del Sol Road, 85718, Tucson",
+   "url": "https://www.haciendadelsol.com/"
+  },
+  {
+   "name": "The Leo Kent Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 South Church Avenue, 85701, Tucson",
+   "url": "https://www.marriott.com/en-us/hotels/tustx-the-leo-kent-hotel-tucson-a-tribute-portfolio-hotel/overview/"
+  },
+  {
+   "name": "The District on 5th",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "North 5th Avenue, 85705",
+   "url": "https://www.districton5th.com/"
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1300 North Stone Avenue, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Oasis Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1701 North Oracle Road, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "La Posada Lodge & Casitas, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5900 North Oracle Road, 85704, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Travelodge Tucson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 South Freeway Road, 85745, Tucson",
+   "url": ""
+  },
+  {
+   "name": "AC Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 East Broadway Boulevard, 85701, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Sonesta ES Suites Tucson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6477 East Speedway Boulevard, 85711, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "550 East Grant Road, 85712, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1564 West Grant Road, 85745, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Stone Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1248 North Stone Avenue, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Highland Tower Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1919 North Oracle Road, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "The Big Blue House Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "144 East University Boulevard, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Hacienda Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1742 North Oracle Road, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Ghost Ranch Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 West Miracle Mile, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Riviera Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "515 West Miracle Mile, 85705, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Hotel Tucson City Center, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "475 North Granada Avenue, 85701, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Royal Elizabeth Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "206 South Scott Avenue, 85701, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Super 8 by Wyndham Tucson/East/D.M.A.F. Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1990 South Craycroft Road, 85711, Tucson",
+   "url": ""
+  },
+  {
+   "name": "Casa Club Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1810 East Blacklidge Drive, 85719, Tucson",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Bisbee Breakfast Club",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2936 East Broadway Boulevard, 85716, Tucson",
+   "website": "https://www.bisbeebreakfastclub.com/"
+  },
+  {
+   "name": "Caravan Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2825 North Country Club Road",
+   "website": "https://www.caravangrilltucson.com/order"
+  },
+  {
+   "name": "Lovin' Spoonfuls",
+   "cuisines": [
+    "Comfort"
+   ],
+   "address": "2990 North Campbell Avenue, 85719",
+   "website": "https://lovinspoonfuls.com/"
+  },
+  {
+   "name": "The Bashful Bandit Barbeque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3686 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://www.bashfulbanditbbq.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1380 West Grant Road, 85745, Tucson",
+   "website": "https://locations.wafflehouse.com/tucson-az-283"
+  },
+  {
+   "name": "Aspasia Middle Eastern Restaurant",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2310 North Country Club Road, 85716, Tucson",
+   "website": "https://aspasiarestaurant.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "4040 East 22nd Street, 85711, Tucson",
+   "website": "https://restaurants.ihop.com/en-us/az/tucson/breakfast-4040-e-22nd-street-3848"
+  },
+  {
+   "name": "Shake Smart",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "1051 East Mabel Street, 85719-4131, Tucson",
+   "website": "https://shakesmart.com/"
+  },
+  {
+   "name": "Wok Fire & Grill",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1135 North Park Avenue, 85719, Tucson",
+   "website": "https://wokfire.menufy.com"
+  },
+  {
+   "name": "Cafe Santa Rosa",
+   "cuisines": [
+    "Native American",
+    "Mexican"
+   ],
+   "address": "2615 South 6th Avenue, 85713, Tucson",
+   "website": "https://www.cafesantarosa.net/"
+  },
+  {
+   "name": "Anello",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "222 East 6th Street, 85705-8424, Tucson",
+   "website": "https://anello.space/"
+  },
+  {
+   "name": "Taco Plus",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4352 East Speedway Boulevard, 85712, Tucson",
+   "website": "https://www.tacoplustucsonaz.com/"
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "3460 South Kino Parkway, 85713, Tucson",
+   "website": "https://firstwatch.com"
+  },
+  {
+   "name": "Maru Plus Japanese Noodle, Onigiri & More",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "2741 North Campbell Avenue, 85719, Tucson",
+   "website": "https://www.maruplus.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1502 #110 West Saint Mary's Road, 85745, Tucson",
+   "website": "https://locations.pizzahut.com/az/tucson/1502-w-saint-marys"
+  },
+  {
+   "name": "Berry Greens Juice Bar",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "245 East Congress Street, Tucson",
+   "website": "https://www.berrygreens.com/"
+  },
+  {
+   "name": "Del Cielo Tamal",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3073 North Campbell Avenue",
+   "website": "https://www.delcielotamales.com/"
+  },
+  {
+   "name": "Mojo Cuban Kitchen",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1929 East Grant Road",
+   "website": "https://www.mojocuban.com/"
+  },
+  {
+   "name": "Noodleholics",
+   "cuisines": [
+    "Noodle",
+    "Asian"
+   ],
+   "address": "3502 East Grant Road, 85716, Tucson",
+   "website": "https://www.noodleholics.com/"
+  },
+  {
+   "name": "Caruso's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "434 North 4th Avenue, 85705",
+   "website": "https://carusositalian.com/"
+  },
+  {
+   "name": "Rocco's Little Chicago",
+   "cuisines": [
+    "Pasta",
+    "Pizza"
+   ],
+   "address": "2555 East Broadway Boulevard, 85716, Tucson",
+   "website": "https://roccoslittlechicago.com"
+  },
+  {
+   "name": "Tuk Tuk Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2990 North Campbell Avenue, 85719, Tucson",
+   "website": "https://tuktukthai2990.com/"
+  },
+  {
+   "name": "Kingfisher",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2564 East Grant Road, 85716, Tucson",
+   "website": "https://kingfishertucson.com/"
+  },
+  {
+   "name": "BK Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2680 North 1st Avenue, 85719, Tucson",
+   "website": "https://www.bktacos.com"
+  },
+  {
+   "name": "India Oven",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2727 North Campbell Avenue, 85719, Tucson",
+   "website": "https://tucsonindiaoven.com/"
+  },
+  {
+   "name": "Zyka Twist",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "621 N. 4th Ave, 85705, Tucson",
+   "website": "https://zykatwist.com/contact"
+  },
+  {
+   "name": "Cafe Desta",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "758 South Stone Avenue, 85701, Tucson",
+   "website": "http://cafedesta.com"
+  },
+  {
+   "name": "La Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "201 North Court Avenue, 85701, Tucson",
+   "website": "https://lacocinatucson.com/"
+  },
+  {
+   "name": "Falora Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "3000 East Broadway Boulevard, 85716, Tucson",
+   "website": "https://www.falora.com/"
+  },
+  {
+   "name": "Lindy's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "500 North 4th Avenue, 85705, Tucson",
+   "website": "https://www.lo4th.com/"
+  },
+  {
+   "name": "Med Cuisine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1763 East Prince Road, 85719, Tucson",
+   "website": "https://medcuisineusa.com/"
+  },
+  {
+   "name": "Korea House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "4030 East Speedway Boulevard, 85712, Tucson",
+   "website": "https://koreahouseaz.com"
+  },
+  {
+   "name": "Kazoku Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "4210 East Speedway Boulevard, 85712, Tucson",
+   "website": "https://www.kazokusushitucson.com/"
+  },
+  {
+   "name": "Street Taco and Beer Co",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "58 West Congress Street, 85701, Tucson",
+   "website": "https://street.restaurant"
+  },
+  {
+   "name": "Fired Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "350 East Congress Street, 85701, Tucson",
+   "website": "https://firedpie.com/"
+  },
+  {
+   "name": "Seis Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "100 South Avenida del Convento, 85745, Tucson",
+   "website": "https://www.mercadosanagustin.com/"
+  },
+  {
+   "name": "Perche' No Italian Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "46 West Congress Street, 85701, Tucson",
+   "website": "https://www.perchenobistro.com/book-a-table"
+  },
+  {
+   "name": "Govinda's Indian Eatery",
+   "cuisines": [
+    "Indian",
+    "Buffet"
+   ],
+   "address": "711 East Blacklidge Drive, Tucson",
+   "website": "https://www.iskcontucson.org/govindas"
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3007 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://www.famousdaves.com/Tucson"
+  },
+  {
+   "name": "Reilly Craft Pizza & Drink",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "101;101 E East Pennington Street;Pennington St., 85701, Tucson",
+   "website": "https://www.reillypizza.com/"
+  },
+  {
+   "name": "Istanbul Mediterranean Cuisine & Bar",
+   "cuisines": [
+    "Turkish"
+   ],
+   "address": "2945 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://istanbultucson.com"
+  },
+  {
+   "name": "Cal's Bakeshop",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "2707 East Broadway Boulevard, 85716, Tucson",
+   "website": "https://www.instagram.com/calsbakeshop/"
+  },
+  {
+   "name": "Upper Crust Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1909 East Grant Road, 85719",
+   "website": "https://uppercrustpizzatucson.com/"
+  },
+  {
+   "name": "China Pasta",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "430 North Park Avenue, 85719-5339, Tucson",
+   "website": "https://chinapastahouseaz.com/"
+  },
+  {
+   "name": "Opa's Grill",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "500 North 4th Avenue, 85705, Tucson",
+   "website": "https://opasgrill.com/"
+  },
+  {
+   "name": "JA Ramen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "54 West Congress Street, 85701, Tucson",
+   "website": "https://jaramen.us"
+  },
+  {
+   "name": "The National",
+   "cuisines": [
+    "Breakfast",
+    "Brunch",
+    "Pastry"
+   ],
+   "address": "98 East Congress Street, 85701, Tucson",
+   "website": "https://thenationaltucson.com/"
+  },
+  {
+   "name": "Choice Greens",
+   "cuisines": [
+    "Sandwich",
+    "Salad",
+    "Soup"
+   ],
+   "address": "2829 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://choicegreens.com"
+  },
+  {
+   "name": "Fresco",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3011 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://frescopizzeria.com"
+  },
+  {
+   "name": "Raijin Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2955 East Speedway Boulevard, 85716-3824, Tucson",
+   "website": "http://www.raijinramen.com/"
+  },
+  {
+   "name": "Frank's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3843 East Pima Street, Tucson",
+   "website": "https://www.franksrestaurant.com/"
+  },
+  {
+   "name": "Mandarin Grill",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "505 East Grant Road, 85705, Tucson",
+   "website": "https://www.mandaringrill.com/"
+  },
+  {
+   "name": "Sausage Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "754 East Grant Road, 85719, Tucson",
+   "website": "https://www.sausagedeli.com/"
+  },
+  {
+   "name": "Graze Premium Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2721 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://www.grazepremiumburgers.com"
+  },
+  {
+   "name": "Old Peking",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2522 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://www.oldpekingchinese.com/"
+  },
+  {
+   "name": "La Parilla Suiza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2720 North Oracle Road, 85705, Tucson",
+   "website": "http://www.laparillasuiza.com"
+  },
+  {
+   "name": "El Guero Canelo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2480 North Oracle Road, 85705, Tucson",
+   "website": "https://www.elguerocanelo.com/"
+  },
+  {
+   "name": "Tokyo Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3655 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://tucsontokyosushi.com"
+  },
+  {
+   "name": "The Egg Connection",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3114 East Fort Lowell Road, 85716-1669, Tucson",
+   "website": "http://www.theeggconnection.com/"
+  },
+  {
+   "name": "Mi Nidito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1813 South 4th Avenue, 85713",
+   "website": "http://minidito.net"
+  },
+  {
+   "name": "El Charro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "311 North Court Avenue, 85701, Tucson",
+   "website": "https://www.elcharrocafe.com/"
+  },
+  {
+   "name": "The Hub Restaurant and Ice Creamery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "266 East Congress Street, Tucson",
+   "website": "https://hubdowntown.com/"
+  },
+  {
+   "name": "Tanias 33",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "614 North Grande Avenue, 85745",
+   "website": "https://www.taniasongrande.com/"
+  },
+  {
+   "name": "Miramonte",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3352 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://miramontetucson.com"
+  },
+  {
+   "name": "Sisters Restaurant & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "800 North Country Club Road, 85716, Tucson",
+   "website": "https://www.sisterstucson.com"
+  },
+  {
+   "name": "Noy's Tuk Tuk Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2511 East Speedway Boulevard, 85716, Tucson",
+   "website": "https://tuktukthai2990.com"
+  },
+  {
+   "name": "Karuna",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1719 East Grant Road, 85719",
+   "website": "http://karunasthaiplate.com"
+  },
+  {
+   "name": "Trident Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2033 East Speedway Boulevard, Tucson",
+   "website": "https://tridentgrill.com/"
+  },
+  {
+   "name": "Sher-i Punjab",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "https://www.sherepunjabtucson.com/"
+  },
+  {
+   "name": "Radicchio",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": "https://union.arizona.edu/dining/sumc/pangea"
+  },
+  {
+   "name": "Empire Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.empire.pizza/"
+  },
+  {
+   "name": "The Little One",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "151 North Stone Avenue, 85701, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Benny's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2707 East Grant Road, 85716, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Illegal Pete's",
+   "cuisines": [
+    "Tacos",
+    "Mexican"
+   ],
+   "address": "876 East University Boulevard, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Bobo's Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2938 East Grant Road, 85716, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Beyond Bread",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "3026 North Campbell Avenue, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Martin's Comida Chingona",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "557 North 4th Avenue, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Maynard's Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "400 North Toole Avenue, 85701-1843, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Boca Tacos Y Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "533 North 4th Avenue, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Whole Slvce Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "160 South Avenida del Convento, 85745, Tucson",
+   "website": ""
+  },
+  {
+   "name": "La Yaquesita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "500 North 4th Avenue, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Brooklyn Pizza Company",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "534 North 4th Avenue, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Santorini Greek Cafe",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2545 East Speedway Boulevard, 85716, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Maicos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "835 East 22nd Street, 85713, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Charro Steak",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "182 East Broadway Boulevard, 85701, Tucson",
+   "website": ""
+  },
+  {
+   "name": "K Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2962 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Ghini's French Caffe",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1803 East Prince Road, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Girls Kitchen Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "119 East Speedway Boulevard, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "El Chinito Gordo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2920 North Oracle Road, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Welcome Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "902 East Broadway Boulevard, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Jun Dynasty",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2933 East Grant Road, 85716, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Chicken nuevo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1491 West Saint Mary's Road, 85745, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Pei Wei",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "¡Toma!",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "311 North Court Avenue, 85701, Tucson",
+   "website": ""
+  },
+  {
+   "name": "LA Chaiteria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tuk Tuk Express",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "994 East University Boulevard, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Jerry Bob's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3601 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Nur Market & Restaurant",
+   "cuisines": [
+    "African",
+    "Arab",
+    "Mediterranean"
+   ],
+   "address": "3565, Ste 171 East Speedway Boulevard, 85716",
+   "website": ""
+  },
+  {
+   "name": "Oh My Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "2745 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Kintoki Sushi House & Bar",
+   "cuisines": [
+    "Asian",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "2960 North 1st Avenue, 85719",
+   "website": ""
+  },
+  {
+   "name": "Fatman Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2610 North 1st Avenue",
+   "website": ""
+  },
+  {
+   "name": "Casa Molina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3001 North Campbell Avenue, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Snooze",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Azian",
+   "cuisines": [
+    "Korean",
+    "Sushi"
+   ],
+   "address": "15 East Broadway Boulevard, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Anita's Street Market",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "849 North Anita Avenue, Tucson",
+   "website": ""
+  },
+  {
+   "name": "China Szechwan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rosa's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cheddar's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Miss Saigon",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cup Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cork n' Craft",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maynard's Market",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cactus Grill",
+   "cuisines": [
+    "American",
+    "Pizza",
+    "Burger",
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eegee's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sinbad's",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chili Con Sol",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sultan Palace",
+   "cuisines": [
+    "Afghan"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kukai",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Torero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "East Coast Super Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Garden",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Guadalajara Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Greek House",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Tarachi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zemam's",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Karamelo King",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DJ's Island Grill",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sauce",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kung Fu Noodle",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yamato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Olivos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fuku Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saigon Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saffron Bites",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tumerico",
+   "cuisines": [],
+   "address": "2526 East 6th Street, 85716, Tucson",
+   "website": "https://www.tumerico.com/"
+  },
+  {
+   "name": "Tooley's Cafe",
+   "cuisines": [],
+   "address": "299 South Park Avenue, Tucson",
+   "website": "http://tooleyscafe.com"
+  },
+  {
+   "name": "Monterey Court",
+   "cuisines": [],
+   "address": "505 West Miracle Mile, 85705, Tucson",
+   "website": "https://www.montereycourtaz.com/"
+  },
+  {
+   "name": "Tito & Pep",
+   "cuisines": [],
+   "address": "4122 East Speedway Boulevard, 85712, Tucson",
+   "website": "https://www.titoandpep.com"
+  },
+  {
+   "name": "Flora's Market Run",
+   "cuisines": [],
+   "address": "2513 East 6th Street, 85716",
+   "website": "https://florasmarket.com/"
+  },
+  {
+   "name": "Pasco Kitchen and Lounge",
+   "cuisines": [],
+   "address": "820 East University Boulevard, Tucson",
+   "website": "http://pascokitchen.com/"
+  },
+  {
+   "name": "Corbette's",
+   "cuisines": [],
+   "address": "340 North 6th Avenue, 85705",
+   "website": "http://corbettestucson.com"
+  },
+  {
+   "name": "Yin Yang Express",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.yinyangexpressaz.com"
+  },
+  {
+   "name": "Elliott's",
+   "cuisines": [],
+   "address": "",
+   "website": "https://elliottsoncongress.com"
+  },
+  {
+   "name": "Chef Wang",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.chefwangtucson.com"
+  },
+  {
+   "name": "La Indita",
+   "cuisines": [],
+   "address": "722 North Stone Avenue, 85705, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Bumsted's",
+   "cuisines": [],
+   "address": "1003 North Stone Avenue, 85709, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Selena’s Salvadorian Restaurant",
+   "cuisines": [],
+   "address": "2513 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Agustin Kitchen",
+   "cuisines": [],
+   "address": "100 South Avenida del Convento, 85745, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Lin's Grand Buffet",
+   "cuisines": [],
+   "address": "1068 East Tucson Marketplace Boulevard, 85713, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Lemongrass",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Baja Grill",
+   "cuisines": [],
+   "address": "2970 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Prep & Pastry",
+   "cuisines": [],
+   "address": "2660 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Blue Willow",
+   "cuisines": [],
+   "address": "2616 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Goodness",
+   "cuisines": [],
+   "address": "2502 North Campbell Avenue, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Momo's Bebidas y Mas",
+   "cuisines": [],
+   "address": "1832 East 6th Street, 85719, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Kettle Restaurant",
+   "cuisines": [],
+   "address": "748 West Starr Pass Boulevard, 85613, Tucson",
+   "website": ""
+  },
+  {
+   "name": "Postino",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Agave House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Café Poca Cosa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kababeque",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Monica",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toss II Ramen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Highland Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Audubon Bar & Patio",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crispy's Fries And Chips",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Geronimo's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zoofari Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roberts restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pastiche Modern Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angry Crab & BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dolce Vita",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Main Dining Room",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ceres pasta+bread",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "eHotPot",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Momo's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "1702",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Tucson Museum of Art",
+   "kind": "museum",
+   "address": "140 North Main Avenue, 85701, Tucson",
+   "website": "https://www.tucsonmuseumofart.org/",
+   "phone": "+1 520 624 2333",
+   "latitude": 32.223431,
+   "longitude": -110.9749746
+  },
+  {
+   "name": "Arizona State Museum",
+   "kind": "museum",
+   "address": "1013, Tucson",
+   "website": "https://statemuseum.arizona.edu/",
+   "phone": "",
+   "latitude": 32.2325207,
+   "longitude": -110.9557594
+  },
+  {
+   "name": "Miracle Mile Historic District",
+   "kind": "attraction",
+   "address": "Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2442954,
+   "longitude": -110.9802768
+  },
+  {
+   "name": "Reid Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2086402,
+   "longitude": -110.9202126
+  },
+  {
+   "name": "Southern Arizona Transportation Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.223718,
+   "longitude": -110.9673459
+  },
+  {
+   "name": "The Tucson Fine Mineral Gallery",
+   "kind": "gallery",
+   "address": "465 West Saint Mary's Road, 85701, Tucson",
+   "website": "https://www.tucsonfineminerals.com/",
+   "phone": "+1 520-542-3130",
+   "latitude": 32.2274214,
+   "longitude": -110.9787111
+  },
+  {
+   "name": "Museum of Contemporary Art",
+   "kind": "gallery",
+   "address": "265 South Church Avenue, 85701, Tucson",
+   "website": "https://moca-tucson.org/",
+   "phone": "+1 520-624-5019",
+   "latitude": 32.2180275,
+   "longitude": -110.9718486
+  },
+  {
+   "name": "Cordova House",
+   "kind": "museum",
+   "address": "173 North Meyer Avenue, 85701, Tucson",
+   "website": "https://www.tucsonmuseumofart.org/la-casa-cordova/",
+   "phone": "",
+   "latitude": 32.2239066,
+   "longitude": -110.9747187
+  },
+  {
+   "name": "John P. Schaefer Center for Creative Photography",
+   "kind": "gallery",
+   "address": "1030 Olive Road, Tucson",
+   "website": "https://ccp.arizona.edu",
+   "phone": "",
+   "latitude": 32.235078,
+   "longitude": -110.9545902
+  },
+  {
+   "name": "Gadsden-Pacific Division Toy Train Operating Museum",
+   "kind": "museum",
+   "address": "3975 North Miller Avenue, 85705, Tucson",
+   "website": "https://gpdtrains.org/",
+   "phone": "+1-520-888-2222",
+   "latitude": 32.2797137,
+   "longitude": -111.0106557
+  },
+  {
+   "name": "Postal History Foundation",
+   "kind": "museum",
+   "address": "920 North 1st Avenue, Tucson",
+   "website": "https://postalhistoryfoundation.org/",
+   "phone": "",
+   "latitude": 32.2337172,
+   "longitude": -110.9606984
+  },
+  {
+   "name": "Arizona History Museum",
+   "kind": "museum",
+   "address": "949 East 2nd Street, 85719, Tucson",
+   "website": "https://arizonahistoricalsociety.org/museum/arizona-history-museum/",
+   "phone": "",
+   "latitude": 32.2333699,
+   "longitude": -110.9573917
+  },
+  {
+   "name": "Tucson Children's Museum",
+   "kind": "museum",
+   "address": "200 South 6th Avenue, 85701, Tucson",
+   "website": "https://childrensmuseumtucson.org/",
+   "phone": "",
+   "latitude": 32.219191,
+   "longitude": -110.9692376
+  },
+  {
+   "name": "Funtasticks",
+   "kind": "theme park",
+   "address": "221 Wetmore Road, 85705, Tucson",
+   "website": "https://www.funtasticks.com/",
+   "phone": "+1-520-888-4653",
+   "latitude": 32.2875053,
+   "longitude": -110.9683112
+  },
+  {
+   "name": "The Mini Time Machine Museum",
+   "kind": "museum",
+   "address": "4455 East Camp Lowell Drive",
+   "website": "https://www.theminitimemachine.org/",
+   "phone": "",
+   "latitude": 32.2657321,
+   "longitude": -110.8955336
+  },
+  {
+   "name": "Presidio San Agustin Del Tucson",
+   "kind": "museum",
+   "address": "196 North Court Avenue, 85701, Tucson",
+   "website": "https://tucsonpresidio.com",
+   "phone": "",
+   "latitude": 32.2242445,
+   "longitude": -110.9737999
+  },
+  {
+   "name": "J. Knox Corbett House",
+   "kind": "museum",
+   "address": "180 North Main Avenue, Tucson",
+   "website": "https://www.tucsonmuseumofart.org/j-knox-corbett-house/",
+   "phone": "",
+   "latitude": 32.2239239,
+   "longitude": -110.9754396
+  },
+  {
+   "name": "Museum of Art",
+   "kind": "museum",
+   "address": "1031 Olive Road, 85721, Tucson",
+   "website": "https://artmuseum.arizona.edu/",
+   "phone": "",
+   "latitude": 32.2355764,
+   "longitude": -110.955811
+  },
+  {
+   "name": "Rio Grande Steel Sided Caboose 01433",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://gpdtrains.org/exhibits/actual-size/",
+   "phone": "",
+   "latitude": 32.2792523,
+   "longitude": -111.0106113
+  },
+  {
+   "name": "Arizona Historical Society Downtown Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://arizonahistoricalsociety.org/museum/arizona-history-museum/",
+   "phone": "",
+   "latitude": 32.2237005,
+   "longitude": -110.971271
+  },
+  {
+   "name": "Tucson Art Studio",
+   "kind": "gallery",
+   "address": "772 North Country Club Road, 85716, Tucson",
+   "website": "",
+   "phone": "+1-520-834-5705",
+   "latitude": 32.2317262,
+   "longitude": -110.9263791
+  },
+  {
+   "name": "Mr. Heads Gallery",
+   "kind": "gallery",
+   "address": "513 North 4th Avenue, 85705, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2281572,
+   "longitude": -110.9658855
+  },
+  {
+   "name": "Ignite Sign Art Museum",
+   "kind": "museum",
+   "address": "331 South Olsen Avenue, 85719, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2181449,
+   "longitude": -110.9406543
+  },
+  {
+   "name": "Philibaum Glass Gallery",
+   "kind": "gallery",
+   "address": "711 South 6th Avenue, 85701, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2128059,
+   "longitude": -110.9682514
+  },
+  {
+   "name": "H. H. Franklin Auto Museum",
+   "kind": "museum",
+   "address": "1405 East Kleindale Road, 85719, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2694772,
+   "longitude": -110.9495415
+  },
+  {
+   "name": "Snob Hollow",
+   "kind": "attraction",
+   "address": "North Main Avenue, 85701, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2255757,
+   "longitude": -110.9762849
+  },
+  {
+   "name": "Solar Culture",
+   "kind": "gallery",
+   "address": "31 East Toole Avenue, Tucson",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2263856,
+   "longitude": -110.9710269
+  },
+  {
+   "name": "The Great Garden Express",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2484223,
+   "longitude": -110.9089613
+  },
+  {
+   "name": "Arizona State Museum South",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2312162,
+   "longitude": -110.956103
+  },
+  {
+   "name": "Barrio Historic District",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2160139,
+   "longitude": -110.972583
+  },
+  {
+   "name": "Tucson Presidio",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2243716,
+   "longitude": -110.9734972
+  },
+  {
+   "name": "A10 Thunderbolt",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1868159,
+   "longitude": -110.8745186
+  },
+  {
+   "name": "F4 Phantom",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1863923,
+   "longitude": -110.8744836
+  },
+  {
+   "name": "C 130",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1860274,
+   "longitude": -110.8721207
+  },
+  {
+   "name": "U2",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1853627,
+   "longitude": -110.8747944
+  },
+  {
+   "name": "O1 Bird Dog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1863203,
+   "longitude": -110.8718185
+  },
+  {
+   "name": "OV 10 Bronco",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1862292,
+   "longitude": -110.8716416
+  },
+  {
+   "name": "F86",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1761295,
+   "longitude": -110.8829404
+  },
+  {
+   "name": "Old Pueblo Trolley Barn",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2248991,
+   "longitude": -110.9661556
+  },
+  {
+   "name": "Oasis Raspados Mural",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.1742983,
+   "longitude": -110.9778357
+  },
+  {
+   "name": "Community Mural",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.216114,
+   "longitude": -110.9740562
+  },
+  {
+   "name": "Selena Mural",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2040575,
+   "longitude": -110.9652203
+  },
+  {
+   "name": "La Pilita Mural",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2159292,
+   "longitude": -110.9744817
+  },
+  {
+   "name": "Mural No tell Motel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2519139,
+   "longitude": -110.9783948
+  },
+  {
+   "name": "Butterfly Mural",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2252185,
+   "longitude": -110.9653008
+  },
+  {
+   "name": "Legacy Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2486468,
+   "longitude": -110.9086363
+  },
+  {
+   "name": "Water Harvesting Feature",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2481461,
+   "longitude": -110.9080915
+  },
+  {
+   "name": "Zen Garden Ramada",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2479913,
+   "longitude": -110.9085924
+  },
+  {
+   "name": "Wildlife/Woodlands Ramada",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2479697,
+   "longitude": -110.9085153
+  },
+  {
+   "name": "Floral Patio",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2479845,
+   "longitude": -110.90841
+  },
+  {
+   "name": "Kitchen Courtyard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2479709,
+   "longitude": -110.9083007
+  },
+  {
+   "name": "Cactus and Succulent Ramada",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.247976,
+   "longitude": -110.9081901
+  },
+  {
+   "name": "Chrysalis Exhibit",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2479987,
+   "longitude": -110.9089434
+  },
+  {
+   "name": "Cattletank History Wall",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.248008,
+   "longitude": -110.9093133
+  },
+  {
+   "name": "Sig Boysen Home Composting Site",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.248736,
+   "longitude": -110.9076771
+  },
+  {
+   "name": "Golf 'n Stuff",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2464962,
+   "longitude": -110.8547779
+  },
+  {
+   "name": "The big \"A\"",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.2106344,
+   "longitude": -110.991712
+  }
+ ]
+}

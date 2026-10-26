@@ -1,0 +1,614 @@
+{
+ "city": "Santa Maria",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 34.9466,
+ "longitude": -120.4355,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3455 Skyway Drive, 93455, Santa Maria",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-santa-maria"
+  },
+  {
+   "name": "Homewood Suites by Hilton Santa Maria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 North Broadway, 93454, Santa Maria",
+   "url": "https://www.hilton.com/en/hotels/smxthhw-homewood-suites-santa-maria/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Santa Maria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2061 Roemer Court, 93454, Santa Maria",
+   "url": "https://www.marriott.com/en-us/hotels/smxfi-fairfield-inn-and-suites-santa-maria/overview/"
+  },
+  {
+   "name": "Days Inn by Wyndham Santa Maria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "839 East Main Street, 93454, Santa Maria",
+   "url": "https://www.wyndhamhotels.com/days-inn/santa-maria-california/days-inn-santa-maria/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2190 Preisker Lane, 93458, Santa Maria",
+   "url": "https://www.hilton.com/en/hotels/smxsmhx-hampton-suites-santa-maria/"
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2079 Roemer Court, 93454, Santa Maria",
+   "url": "https://www.ihg.com/candlewood/hotels/us/en/santa-maria/smxnb/hoteldetail"
+  },
+  {
+   "name": "Best Western Plus Big America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1725 North Broadway, 93454, Santa Maria",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-santa-maria/best-western-plus-big-america/propertyCode.05453.html"
+  },
+  {
+   "name": "Santa Maria Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 S Broadway, 93454, Santa Maria",
+   "url": "https://www.santamariainn.com/"
+  },
+  {
+   "name": "Wine Stone Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 West Clark Avenue, 93455, Santa Maria",
+   "url": "https://www.winestoneinn.com/"
+  },
+  {
+   "name": "Solaire Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1995 S Broadway, 93454, Santa Maria",
+   "url": "https://www.solaireinnandsuites.com/"
+  },
+  {
+   "name": "Motel 6 Santa Maria South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1007 E Main St, 93454, Santa Maria",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1514 South Broadway, 93454, Santa Maria",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1019 East Main Street, 93454, Santa Maria",
+   "website": "https://locations.dennys.com/CA/SANTA-MARIA/248066"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2228 South Bradley Road, 93455, Santa Maria",
+   "website": "https://www.mountainmikespizza.com/locations/santa-maria-bradley/"
+  },
+  {
+   "name": "SizzlinGogi",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "1841 South Broadway, 93454, Santa Maria",
+   "website": "https://www.sizzlingogi.com/"
+  },
+  {
+   "name": "North China Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "113 North Broadway, 93454, Santa Maria",
+   "website": "https://www.ilovenorthchina.com/"
+  },
+  {
+   "name": "California Sushi and Teriyaki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "416 East Main Street, 93454, Santa Maria",
+   "website": "https://calsushiteriyaki.net/"
+  },
+  {
+   "name": "Efren's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "101 North Broadway, 93454, Santa Maria",
+   "website": "https://www.efrensmexicanrestaurant.com/"
+  },
+  {
+   "name": "Al Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1201 East Main Street, 93454, Santa Maria",
+   "website": "https://al-pho.cafes-city.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ca/santa-maria/1415-s.-bradley-84045"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": "https://www.buffalowildwings.com/"
+  },
+  {
+   "name": "Huckleberry's",
+   "cuisines": [
+    "Breakfast",
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://huckleberrys.com/locations/huckleberrys-santa-maria/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://locations.chuckecheese.com/us/ca/santamaria/2254-s.-bradley-rd."
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://www.redlobster.com/"
+  },
+  {
+   "name": "Cool Hand Luke's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://coolhandlukes.com/"
+  },
+  {
+   "name": "Magic Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "www.magicdragoncuisine.com"
+  },
+  {
+   "name": "Yanagi Sushi & Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://www.yanagisushigrill.com/"
+  },
+  {
+   "name": "Hamasato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://www.hamasato.com/"
+  },
+  {
+   "name": "Ming Dynasty",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "www.mingdynastysantamaria.com"
+  },
+  {
+   "name": "Sula Mediterranean Kitchen & Bar",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "",
+   "website": "www.facebook.com/SulaMedKitchen/"
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "715 East Betteravia Road, 93454, Santa Maria",
+   "website": ""
+  },
+  {
+   "name": "Crumbles Café & Bake Shop",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1635 South Broadway, 93454, Santa Maria",
+   "website": ""
+  },
+  {
+   "name": "Casa Manana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1640 South Broadway, 93454, Santa Maria",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Coqueta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Ranchero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Palenque Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shaw's Restaurant",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Pantry On Park",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Original Roadhouse Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pappy's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ichiban",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boba House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Swiss Restaurant and Bar",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boonie Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Boy's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mikado Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brick's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maya",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Comadres",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Gusto Es",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mariscos La Palapa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mariscos Ensenada",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lo Mejor De Jalisco",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Villa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Herradero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Pueblito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Ocean Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Carmelita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Vera Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Urbane Cafe",
+   "cuisines": [],
+   "address": "655 East Betteravia Road, 93454, Santa Maria",
+   "website": ""
+  },
+  {
+   "name": "Golden corral",
+   "cuisines": [],
+   "address": "South Bradley Road",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Dana Adobe",
+   "kind": "museum",
+   "address": "671 South Oakglen Avenue, 93444, Nipomo",
+   "website": "https://www.danaadobe.org/",
+   "phone": "+1 805-929-5679",
+   "latitude": 35.0278357,
+   "longitude": -120.469033
+  },
+  {
+   "name": "Santa Maria Valley Chamber of Commerce and Museum",
+   "kind": "museum",
+   "address": "616 South Broadway, 93454, Santa Maria",
+   "website": "https://santamariahistory.org/",
+   "phone": "+1-805-922-3130",
+   "latitude": 34.946641,
+   "longitude": -120.435481
+  },
+  {
+   "name": "Santa Maria Valley Discovery Museum",
+   "kind": "museum",
+   "address": "705 South McClelland Street, 93454, Santa Maria",
+   "website": "https://www.smvdiscoverymuseum.org/",
+   "phone": "+1-805-928-8414",
+   "latitude": 34.9454554,
+   "longitude": -120.4350417
+  },
+  {
+   "name": "Santa Maria Museum of Flight",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.smmuseumofflight.com/",
+   "phone": "+1-805-922-8758",
+   "latitude": 34.9046377,
+   "longitude": -120.4544083
+  },
+  {
+   "name": "Santa Maria Natural History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.naturalhistorysantamaria.com/",
+   "phone": "",
+   "latitude": 34.9489479,
+   "longitude": -120.4340504
+  }
+ ]
+}

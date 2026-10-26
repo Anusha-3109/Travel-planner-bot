@@ -1,0 +1,705 @@
+{
+ "city": "Staunton",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.1481,
+ "longitude": -79.0717,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hotel 24 South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "24 South Market Street, 24401, Staunton",
+   "url": "https://hotel24south.com/"
+  },
+  {
+   "name": "Inn at MeadowCroft",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "331 Glebe School Road, 24479, Swoope",
+   "url": "https://meadowcroftfarm.com/home/"
+  },
+  {
+   "name": "Tru by Hilton - Staunton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Crossing Way, 24401, Staunton",
+   "url": "https://www.hilton.com/en/hotels/shdstru-tru-staunton/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1302 Richmond Avenue, 24401, Staunton",
+   "url": "https://www.choicehotels.com/virginia/waynesboro/comfort-inn-hotels"
+  },
+  {
+   "name": "Hampton Inn Staunton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "40 Payne Lane, 24401, Staunton",
+   "url": "https://www.hilton.com/en/hotels/shdvahx-hampton-staunton/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Staunton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "114 Crossing Way, 24401, Staunton",
+   "url": "https://www.marriott.com/shdfs"
+  },
+  {
+   "name": "Blackburn Inn and Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "301 Greenville Avenue, 24401, Staunton",
+   "url": "https://blackburn-inn.com"
+  },
+  {
+   "name": "Gibson's Warehouse",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "19-21 Middlebrook Avenue, 24401, Staunton",
+   "url": "https://gibsonswarehouse.com/"
+  },
+  {
+   "name": "Days Inn by Wyndham Staunton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "372 White Hill Road, 24401, Staunton",
+   "url": "https://www.wyndhamhotels.com/days-inn/staunton-virginia/days-inn-staunton/overview"
+  },
+  {
+   "name": "Ubon Thai Victorian Inn Restaurant",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "515 West Frederick Street, 24401, Staunton",
+   "url": "https://www.ubonthaivictorian.com"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 Jefferson Highway, 24401, Staunton",
+   "url": "https://www.choicehotels.com/virginia/waynesboro/comfort-inn-hotels"
+  },
+  {
+   "name": "Howard Johnson Express Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "268 North Central Avenue, 24401, Staunton",
+   "url": "https://www.wyndhamhotels.com/en-ca/hojo/staunton-virginia/howard-johnson-express-inn-staunton/overview"
+  },
+  {
+   "name": "avid Hotel Staunton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "62 Sangers Lane, 24401, Staunton",
+   "url": "https://www.ihg.com/avidhotels/hotels/us/en/staunton/shdav/hoteldetail"
+  },
+  {
+   "name": "The Storefront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "14 South New Street, Staunton",
+   "url": "http://www.the-storefront-hotel.com/"
+  },
+  {
+   "name": "Staunton Stays",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "208 Kalorama Street, 24401, Staunton",
+   "url": "https://stauntonstays.com/"
+  },
+  {
+   "name": "Clarion Pointe Staunton East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Frontier Drive, 24401",
+   "url": "https://www.choicehotels.com/virginia/staunton/quality-inn-hotels/va698"
+  },
+  {
+   "name": "Batten Green Venue & Lodging",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.battengreen.com/"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "47 Rolling Thunder Lane, 24401, Staunton",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Staunton Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "152 Fairway Lane, 24401, Staunton",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "70 Lodge Lane, 24482, Verona",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "855 Bells Lane, Staunton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "96 Baker Lane, 24401, Staunton",
+   "url": ""
+  },
+  {
+   "name": "the apARTment on Church",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "211 Church Street",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Staunton Flying Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "2221 North Augusta Street, 24401, Staunton",
+   "website": "https://www.stauntonflyingpizza.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "103 Crossing Way, 24401, Staunton",
+   "website": "https://locations.wafflehouse.com/staunton-va-2438"
+  },
+  {
+   "name": "Chicano Boy",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "240 North Central Avenue, 24401, Staunton",
+   "website": "https://www.chicanoboytaco.com/"
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "152 Rowe Road, 24401, Staunton",
+   "website": "https://www.crackerbarrel.com/Locations/States/va/staunton/128/"
+  },
+  {
+   "name": "Thai Staunton",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1000 Greenville Avenue, 24401, Staunton",
+   "website": "http://thaistaunton.com"
+  },
+  {
+   "name": "Ubon Thai Victorian Inn Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "515 West Frederick Street, 24401, Staunton",
+   "website": "https://www.ubonthaivictorian.com"
+  },
+  {
+   "name": "Hot Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1015 Richmond Avenue, 24401, Staunton",
+   "website": "https://www.hot-wok.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "729 Richmond Avenue, 24401, Staunton",
+   "website": "https://locations.pizzahut.com/va/staunton/729c-richmond-ave"
+  },
+  {
+   "name": "Shenandoah Pizza & Tap House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "19 East Beverley Street, 24401, Staunton",
+   "website": "https://www.shenpizza.com"
+  },
+  {
+   "name": "Massaki Japanese Steakhouse",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1027 Richmond Avenue, 24401, Staunton",
+   "website": "https://massakisteakhouse.com"
+  },
+  {
+   "name": "Gloria's Pupuseria",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "331 North Central Avenue, 24401, Staunton",
+   "website": "https://gloriaspupuseria.com/"
+  },
+  {
+   "name": "Hometown Grill and Buffet",
+   "cuisines": [
+    "American"
+   ],
+   "address": "30 Sangers Lane, 24401, Staunton",
+   "website": "https://hometowngrillstaunton.com/"
+  },
+  {
+   "name": "The Shack",
+   "cuisines": [
+    "American"
+   ],
+   "address": "105 South Coalter Street, Staunton",
+   "website": "https://theshackva.com/"
+  },
+  {
+   "name": "Los Marquez",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1008 Churchville Avenue, 24401, Staunton",
+   "website": "https://stanton.losmarquezmexican.com/"
+  },
+  {
+   "name": "Zynodoa Restaurant",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "115 East Beverley Street, 24401, Staunton",
+   "website": "https://www.zynodoa.com/"
+  },
+  {
+   "name": "Chop House Tavern",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "29 North Augusta Street, 24401, Staunton",
+   "website": "https://www.choptavern.com/"
+  },
+  {
+   "name": "Kathy's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "705 Greenville Avenue",
+   "website": "https://kathys-restaurant.com/"
+  },
+  {
+   "name": "Kline's Dairy Bar",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "906 Greenville Avenue, 24401, Staunton",
+   "website": "https://www.klinesdairybar.com/locations/"
+  },
+  {
+   "name": "Great Wall Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "850 Statler Boulevard, 24401, Staunton",
+   "website": "https://www.greatwallstaunton.com/"
+  },
+  {
+   "name": "Byers Street Bistro",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "18 Byers Street, 24401, Staunton",
+   "website": "https://www.byersstreetbistro.com/"
+  },
+  {
+   "name": "El Jimador",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "850 Statler Boulevard, 24401, Staunton",
+   "website": "https://eljimador-mexican.com/"
+  },
+  {
+   "name": "Sama Sama",
+   "cuisines": [
+    "Continental",
+    "Mediterranean",
+    "Eclectic"
+   ],
+   "address": "101 West Beverley Street, 24401, Staunton",
+   "website": "https://www.samasamastaunton.com"
+  },
+  {
+   "name": "Stella Mia Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2040 West Beverley Street, 24401, Staunton",
+   "website": "https://stellamiapizzeria.com/"
+  },
+  {
+   "name": "Pizza Luca",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "213 North Lewis Street, 24401, Staunton",
+   "website": "https://www.pizza-luca.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/va/staunton/139-lee-jackson-highway-83006"
+  },
+  {
+   "name": "The Depot Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "42 Middlebrook Avenue, 24401, Staunton",
+   "website": "https://depotgrille.com/staunton/"
+  },
+  {
+   "name": "Queen City Bistro",
+   "cuisines": [
+    "Italian",
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.queencitybistro.com"
+  },
+  {
+   "name": "Baja Bean Co",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.bajabean.com/ST.html"
+  },
+  {
+   "name": "El Puerto Staunton",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.elpuertostaunton.com/"
+  },
+  {
+   "name": "Maria Pizza and Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.mariaspizza.net/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1025 Richmond Avenue, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Mrs. Rowe's Restaurant & Bakery",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "74 Rowe Road, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Mike and Mario's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1010 Churchville Avenue, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Valley Smokehouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2310 West Beverley Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Blu Point Seafood Co",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "123 West Beverley Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Taste of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "106 South New Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "The Frenchmen",
+   "cuisines": [
+    "Southern",
+    "Creole"
+   ],
+   "address": "36 Middlebrook Avenue, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Sweet Addie's",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "132 West Beverley Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bijou",
+   "cuisines": [],
+   "address": "614 West Beverley Street, 24401, Staunton",
+   "website": "https://www.bijoustaunton.com/"
+  },
+  {
+   "name": "Mill Street Grill",
+   "cuisines": [],
+   "address": "1 Mill Street, 24401, Staunton",
+   "website": "https://millstreetgrill.com/"
+  },
+  {
+   "name": "Seed To Tail",
+   "cuisines": [],
+   "address": "2303 North Augusta Street, Staunton",
+   "website": "https://www.seedtotail.com"
+  },
+  {
+   "name": "Charlotte's Kitchenette",
+   "cuisines": [],
+   "address": "101 State Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Bricks Restaurant & Pub",
+   "cuisines": [],
+   "address": "111 North Augusta Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "The Green Room",
+   "cuisines": [],
+   "address": "132 West Beverley Street, 24401, Staunton",
+   "website": ""
+  },
+  {
+   "name": "Ubon Thai",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "American Frontier Culture Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.frontiermuseum.org/",
+   "phone": "",
+   "latitude": 38.1273488,
+   "longitude": -79.0464197
+  },
+  {
+   "name": "Woodrow Wilson Presidential Library & Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.1506396,
+   "longitude": -79.0688243
+  },
+  {
+   "name": "CoArt Gallery",
+   "kind": "gallery",
+   "address": "22 West Beverley Street, 24401, Staunton",
+   "website": "https://coartgallery.com",
+   "phone": "+1-540-886-0737",
+   "latitude": 38.1493296,
+   "longitude": -79.0733711
+  },
+  {
+   "name": "Augusta County Historical Society",
+   "kind": "museum",
+   "address": "20 South New Street, 24401, Staunton",
+   "website": "https://www.augustacountyhs.org/",
+   "phone": "",
+   "latitude": 38.1490114,
+   "longitude": -79.0716445
+  },
+  {
+   "name": "Historic Staunton Foundation",
+   "kind": "museum",
+   "address": "20 South New Street, 24401, Staunton",
+   "website": "https://www.historicstaunton.org/",
+   "phone": "",
+   "latitude": 38.148958,
+   "longitude": -79.0716393
+  },
+  {
+   "name": "Jumbo Antique Fire Engine Museum",
+   "kind": "museum",
+   "address": "500 North Augusta Street, 24401, Staunton",
+   "website": "",
+   "phone": "+1-540-332-3886",
+   "latitude": 38.1543875,
+   "longitude": -79.0734451
+  },
+  {
+   "name": "Gypsy Hill Express Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.160181,
+   "longitude": -79.0804167
+  }
+ ]
+}

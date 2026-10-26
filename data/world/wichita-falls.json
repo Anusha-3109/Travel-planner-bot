@@ -1,0 +1,643 @@
+{
+ "city": "Wichita Falls",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.9071,
+ "longitude": -98.5028,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Best Western Plus University Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4540 Maplewood Avenue, 76308, Wichita Falls",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-wichita-falls/best-western-plus-university-inn-suites/propertyCode.44657.html"
+  },
+  {
+   "name": "Hampton Inn Wichita Falls Sikes Senter Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4217 Kemp Boulevard, 76308, Wichita Falls",
+   "url": "https://www.hilton.com/en/hotels/spssshx-hampton-wichita-falls-sikes-senter-mall/"
+  },
+  {
+   "name": "Courtyard Wichita Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3800 Tarry Street, 76308, Wichita Falls",
+   "url": "https://www.marriott.com/wctcy"
+  },
+  {
+   "name": "Baymont Wichita Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4510 Kell West Boulevard, 76309, Wichita Falls",
+   "url": "https://www.wyndhamhotels.com/baymont/wichita-falls-texas/baymont-inn-suites-wichita-falls/overview"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1128 Central Freeway, 76306, Wichita Falls",
+   "url": "https://www.wyndhamhotels.com/laquinta/wichita-falls-texas/la-quinta-inn-wichita-falls-event-center-north/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Wichita Falls - MSU Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2511 East Montgomery Place, 76308, Wichita Falls",
+   "url": "https://www.wyndhamhotels.com/laquinta/wichita-falls-texas/la-quinta-wichita-falls-msu-area/overview"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4233 Kell E Boulevard, 76308, Wichita Falls",
+   "url": "https://www.marriott.com/en-us/hotels/spsri-residence-inn-wichita-falls/overview/"
+  },
+  {
+   "name": "Hampton Inn by Hilton Wichita Falls North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2432 Sierra Drive, 76306, Wichita Falls",
+   "url": "https://www.hilton.com/en/hotels/spsfnhx-hampton-wichita-falls-north/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1317 Kenley Avenue, 76306, Wichita Falls",
+   "url": "https://www.choicehotels.com/texas/wichita-falls/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5300 Kell West Boulevard, 76310, Wichita Falls",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wichita-falls/spskb/hoteldetail"
+  },
+  {
+   "name": "Comfort Inn Wichita Falls Near University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4414 Westgate Street, 76308, Wichita Falls",
+   "url": "https://www.choicehotels.com/texas/wichita-falls/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1020 Central Freeway, 76306, Wichita Falls",
+   "url": "https://www.marriott.com/wctnw"
+  },
+  {
+   "name": "Rathgeber Hospitality House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1615 12th Street, 76301, Wichita Falls",
+   "url": "https://rathgeberhospitalityhouse.org/"
+  },
+  {
+   "name": "Sheppard Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Avenue J, 76311, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Delta Hotels by Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "306 Travis St,, 76301, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2681 Plaza Parkway, 76308, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Wichita Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2675 Plaza Parkway, 76308, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1320 Central Freeway, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 5th Street, 76301, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Days Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4500 Kell West Boulevard, 76309, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1211 Central Freeway, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "America's Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1812 Maurine Street, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3209 Northwest Freeway, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1740 Maurine Street, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1032 Central Freeway, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1307 Kenley Avenue, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Delux Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 Broad Street, 76301, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "OYO Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 Wolcott Lane, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Wayfarer Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "618 Central East Freeway, 76301, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Scotland Park Motel & Apartment",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "99 Central Freeway, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Regency Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1601 8th Street, 76301, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Executive In & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 Maurine Street, 76306, Wichita Falls",
+   "url": ""
+  },
+  {
+   "name": "Mainstay Suites of Wichita Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Wichita Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2911 Kemp Boulevard, 76308, Wichita Falls",
+   "website": "https://restaurants.applebees.com/en-us/tx/wichita-falls/2911-kemp-blvd-90087"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2501 Seymour Highway, 76301, Wichita Falls",
+   "website": "https://locations.pizzahut.com/tx/wichita-falls/2501-5th-st"
+  },
+  {
+   "name": "Don Jose",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2601 10th Street, Wichita Falls",
+   "website": "https://donjose1.com/"
+  },
+  {
+   "name": "El Norteño",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "http://places.singleplatform.com/el-norteno-20/menu"
+  },
+  {
+   "name": "\"Sevi's\" Severina Sanchez Burritos",
+   "cuisines": [
+    "Mexican",
+    "Burrito"
+   ],
+   "address": "1710 9th Street, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3111 Lawrence Road, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1206 Central Freeway, 76306, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1004 Broad Street, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3916 Kemp Boulevard, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2907 Garnett Avenue, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "El Chaton",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1702 9th Street, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Curry Garden",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1308 Holliday Street, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Cotton Patch Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3201 Lawrence Road, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Pioneer No. 3",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1100 Sheppard Access Road, 76306, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "McBride Land & Cattle Co.",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "501 Scott Avenue, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Branding Iron",
+   "cuisines": [
+    "American"
+   ],
+   "address": "104 East Scott Avenue, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1028 Central Freeway, 76306, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1024 Central Freeway, 76306, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Napoli's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3204 Kemp Boulevard, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Wangs & Thangs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jimmy's Egg",
+   "cuisines": [],
+   "address": "2801 Midwestern Parkway, 76308, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Prines Barbecue",
+   "cuisines": [],
+   "address": "1209 13th Street, 76301, Wichita Falls",
+   "website": ""
+  },
+  {
+   "name": "Wichita Falls Brewing Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "World's Littlest Skyscraper",
+   "kind": "attraction",
+   "address": "La Salle, 76301, Wichita Falls",
+   "website": "https://helloagainwf.com/worlds-littlest-skyscraper/",
+   "phone": "",
+   "latitude": 33.91438,
+   "longitude": -98.4897491
+  },
+  {
+   "name": "Kell House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://kellhouseheritagecenter.org/",
+   "phone": "",
+   "latitude": 33.9073782,
+   "longitude": -98.4970064
+  },
+  {
+   "name": "Museum of North Texas History",
+   "kind": "museum",
+   "address": "720 Indiana Avenue, 76301, Wichita Falls",
+   "website": "https://museumofnorthtexashistory.org/",
+   "phone": "+1-940-322-7628",
+   "latitude": 33.9128281,
+   "longitude": -98.4913829
+  },
+  {
+   "name": "Plex Entertainment",
+   "kind": "theme park",
+   "address": "4131 Southwest Parkway, 76308, Wichita Falls",
+   "website": "https://plexentertainment.net/",
+   "phone": "+1-940-696-1222",
+   "latitude": 33.8570227,
+   "longitude": -98.5513588
+  },
+  {
+   "name": "River Bend Nature Center",
+   "kind": "museum",
+   "address": "2200 3rd Street, 76301, Wichita Falls",
+   "website": "https://riverbendnaturecenter.org/",
+   "phone": "",
+   "latitude": 33.9120793,
+   "longitude": -98.5136032
+  },
+  {
+   "name": "Castaway Cove Waterpark",
+   "kind": "theme park",
+   "address": "1000 Central East Freeway, 76301, Wichita Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8878157,
+   "longitude": -98.4725672
+  },
+  {
+   "name": "Wichita Falls Museum and Art Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8689445,
+   "longitude": -98.5248944
+  },
+  {
+   "name": "Wichita Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.9132701,
+   "longitude": -98.5066534
+  }
+ ]
+}

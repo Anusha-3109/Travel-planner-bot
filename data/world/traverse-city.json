@@ -1,0 +1,1483 @@
+{
+ "city": "Traverse City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.7625,
+ "longitude": -85.6234,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Park Place Hotel & Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 East State Street, 49684, Traverse City",
+   "url": "https://www.park-place-hotel.com/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 US 31 North, 49686, Traverse City",
+   "url": "https://www.hilton.com/en/hotels/tvclmhx-hampton-traverse-city/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 Munson Avenue, 49686, Traverse City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-traverse-city-mi"
+  },
+  {
+   "name": "Sleep Inn & Suites Acme",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5520 US-31 North, 49690, Willisamsburg",
+   "url": "https://www.choicehotels.com/michigan/traverse-city/country-inn-suites-hotels"
+  },
+  {
+   "name": "Residence Inn by Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2146 US 31 North, 49686, Traverse City",
+   "url": "https://www.marriott.com/en-us/hotels/tvcri-residence-inn-traverse-city/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+  },
+  {
+   "name": "Hotel Indigo Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "263 West Grandview Parkway, 49684, Traverse City",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/traverse-city/tvcin/hoteldetail"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2326 N US-31 South, 49685, Traverse City",
+   "url": "https://www.wyndhamhotels.com/baymont/traverse-city-michigan/baymont-inn-and-suites-traverse-city/overview"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1870 US-31 North, 49686, Traverse City",
+   "url": "https://www.wyndhamhotels.com/days-inn/traverse-city-michigan/days-inn-and-suites-traverse-city-michigan/overview"
+  },
+  {
+   "name": "Delamar Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "615 East Front Street, 49686, Traverse City",
+   "url": "https://delamar.com/traverse-city/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "460 Munson Avenue US Highway 31, 49686, Traverse City",
+   "url": "https://www.choicehotels.com/michigan/traverse-city/country-inn-suites-hotels"
+  },
+  {
+   "name": "Travelodge Traverse City MI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "704 Munson Avenue, 49686, Traverse City",
+   "url": "https://www.wyndhamhotels.com/travelodge/traverse-city-michigan/traverse-city-mi-travelodge/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3654 North US 31 South, 49684, Traverse City",
+   "url": "https://www.marriott.com/en-us/hotels/tvcft-fairfield-inn-and-suites-traverse-city/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+  },
+  {
+   "name": "Visit Up North Vacation Rentals",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "548 East Front Street, 49686, Traverse City",
+   "url": "https://www.visitupnorth.com/"
+  },
+  {
+   "name": "Courtyard Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "49684, Traverse City",
+   "url": "https://www.marriott.com/tvccy"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2684 North US 31 South, 49684, Traverse City",
+   "url": "https://www.hilton.com/en/hotels/tvctcht-home2-suites-traverse-city/"
+  },
+  {
+   "name": "A Breath of Heaven Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6537 East Allgaier Road, 49684, Traverse City",
+   "url": "https://www.breathofheavenbnb.com/"
+  },
+  {
+   "name": "Spark by Hilton Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3701 North Country Drive, 49684, Traverse City",
+   "url": "https://www.hilton.com/en/hotels/tvcrepe-spark-traverse-city/"
+  },
+  {
+   "name": "Great Wolf Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3575 North US-31 South, 49684, Traverse City",
+   "url": "https://www.greatwolf.com/traverse-city/php"
+  },
+  {
+   "name": "Rest Wood Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1566 US-31 North, 49686, Traverse City",
+   "url": "http://www.restwoodmotel.com/"
+  },
+  {
+   "name": "Tamarack Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2035 US-31 North, 49686, Traverse City",
+   "url": "https://www.tamaracklodgetc.com/"
+  },
+  {
+   "name": "Alexandra Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2227 US-31 North, 49686, Traverse City",
+   "url": "https://www.thealexandrainn.com/"
+  },
+  {
+   "name": "Brio Beach Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1465 US-31 North, 49686, Traverse City",
+   "url": "https://briobeachinn.com/"
+  },
+  {
+   "name": "The Beach Haus Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1489 US-31 North, 49686, Traverse City",
+   "url": "https://www.thebeachhaus.com/"
+  },
+  {
+   "name": "Seasons Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1582 US-31 North, 49686, Traverse City",
+   "url": "https://www.seasonsinntc.com/"
+  },
+  {
+   "name": "Blossom Hotel + Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1614 US-31 North, 49686, Traverse City",
+   "url": "https://traverseblossom.com/"
+  },
+  {
+   "name": "Traverse Bay Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2300 US-31 North, 49686, Traverse City",
+   "url": "https://www.traversebayinn.com/index.htm"
+  },
+  {
+   "name": "Baywatch Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1529 US-31 North, 49686, Traverse City",
+   "url": "https://www.thebaywatchresort.com/"
+  },
+  {
+   "name": "Pointes North Beachfront Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2211 US-31 North, 49686, Traverse City",
+   "url": "https://www.pointesnorth.com/"
+  },
+  {
+   "name": "Cherry Tree Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2345 US-31 North, 49686, Traverse City",
+   "url": "https://www.cherrytreeinn.com/"
+  },
+  {
+   "name": "Oviatt House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "244 East Eighth Street, 49684, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson by Wyndham Traverse City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "417 Munson Avenue, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3572 North US-31 South, 49684, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3536 Mount Hope Road, 49690, Willisamsburg",
+   "url": ""
+  },
+  {
+   "name": "avid Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1942 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn by Choice Hotels",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1492 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "The Whiting",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "152 East Front Street, 49684, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Sierra Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "230 Munson Avenue, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Terrace Beach Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "841 East Front Street, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Wellington Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "230 Wellington Street, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Gold Coast Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4612 US 31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "The Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1995 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Lakeshore Resort TC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1897 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Grand Beach Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1683 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Sugar Beach Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1773 US-31 North, 49686, Traverse City",
+   "url": ""
+  },
+  {
+   "name": "Best Western Four Seasons",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Mitchell Creek Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bayshore Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cambria Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Grand Traverse Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Pinestead Reef",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Parkshore Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Trattoria Stella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "830 Cottageview Drive, 49684, Traverse City",
+   "website": "http://www.stellatc.com/"
+  },
+  {
+   "name": "Red Spire Brunch House",
+   "cuisines": [
+    "American",
+    "Coffee Shop",
+    "Regional",
+    "Sandwich",
+    "Breakfast"
+   ],
+   "address": "800 Cottageview Drive, 49684, Traverse City",
+   "website": "https://www.redspirebrunchhouse.com/"
+  },
+  {
+   "name": "J & S Hamburg South",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1083 West South Airport Road, 49686, Traverse City",
+   "website": "https://jshamburgsouth.com/"
+  },
+  {
+   "name": "Grand Traverse Pie Company",
+   "cuisines": [
+    "Pie",
+    "Sandwich",
+    "Soup",
+    "Breakfast"
+   ],
+   "address": "101 North Park Street, 49684, Traverse City",
+   "website": "https://gtpie.com/locations/traverse-city-downtown/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2384 North US 31 South, 49684, Traverse City",
+   "website": "https://restaurants.applebees.com/en-us/mi/traverse-city/2384-u.s.-31-south-91062"
+  },
+  {
+   "name": "Raduno",
+   "cuisines": [
+    "Deli",
+    "Italian",
+    "Sausage"
+   ],
+   "address": "545 East Eighth Street, 49686, Traverse City",
+   "website": "http://www.radunotc.com"
+  },
+  {
+   "name": "Habibi",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "720 Munson Avenue, 49686, Traverse City",
+   "website": "https://habibimideastconey.com/"
+  },
+  {
+   "name": "The Good Bowl",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "328 East Front Street, 49684, Traverse City",
+   "website": "https://www.goodbowleatery.com/"
+  },
+  {
+   "name": "Mode's Bum Steer",
+   "cuisines": [
+    "Steak"
+   ],
+   "address": "125 East State Street, 49684, Traverse City",
+   "website": "https://www.modesbumsteer.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2670 Crossing Circle, 49684, Traverse City",
+   "website": "https://www.chilis.com/EN/Pages/home.aspx"
+  },
+  {
+   "name": "Opa! Grill and Taproom",
+   "cuisines": [
+    "American",
+    "Greek"
+   ],
+   "address": "2658 Crossing Circle, 49684, Traverse City",
+   "website": "https://www.opagrill.com/"
+  },
+  {
+   "name": "Spanglish",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1333 Yellow Drive, 49684, Traverse City",
+   "website": "http://www.spanglishtc.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3050 31, 49684, Traverse City",
+   "website": "https://locations.pizzahut.com/mi/traverse-city/3050-us-31"
+  },
+  {
+   "name": "The Dandy",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "115 East Front Street, 49684, Traverse City",
+   "website": "https://www.dandytc.com/"
+  },
+  {
+   "name": "Oakwood Proper Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1108 East Eighth Street, 49686, Traverse City",
+   "website": "https://m.facebook.com/@oakwoodproperburgers/"
+  },
+  {
+   "name": "Barrio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "305 West Front Street, 49684, Traverse City",
+   "website": "https://barrio-tacos.com/location/traverse-city"
+  },
+  {
+   "name": "Pangea's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "135 East Front Street, 49684, Traverse City",
+   "website": "https://pangeaspizza.com/"
+  },
+  {
+   "name": "Charles and Reid Detroit Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "113 East State Street, 49684, Traverse City",
+   "website": "https://www.charlesandreid.com/"
+  },
+  {
+   "name": "Modern Bird",
+   "cuisines": [
+    "American"
+   ],
+   "address": "541 West Front Street, 49684, Traverse City",
+   "website": "https://modernbirdtc.com/"
+  },
+  {
+   "name": "The Kitchen",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1249 Woodmere Avenue, 49686, Traverse City",
+   "website": "https://thekitchentc.com/"
+  },
+  {
+   "name": "The Cottage",
+   "cuisines": [
+    "American"
+   ],
+   "address": "472 Munson Avenue, 49686",
+   "website": "http://cottagecafetc.com"
+  },
+  {
+   "name": "The Omelette Shoppe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "124 South Cass Street, 49684, Traverse City",
+   "website": "https://omeletteshoppe.com/"
+  },
+  {
+   "name": "The Towne Plaza",
+   "cuisines": [
+    "American"
+   ],
+   "address": "203 South Cass Street, 49684, Traverse City",
+   "website": "http://www.thetowneplaza.com/"
+  },
+  {
+   "name": "Identity Brewing Co.",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "108 South Union Street, 49684, Traverse City",
+   "website": "https://identitybrewing.com/"
+  },
+  {
+   "name": "Minerva's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "300 East State Street, 49684, Traverse City",
+   "website": "https://minervasrestaurants.com/location/minervas-traverse-city-mi/"
+  },
+  {
+   "name": "Flying Noodle",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "136 East Front Street, 49684, Traverse City",
+   "website": "https://flyingnoodletc.com/"
+  },
+  {
+   "name": "Cellar & Flame Steakhouse",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "155 Garland Street, 49684, Traverse City",
+   "website": "https://cellarandflame.com/"
+  },
+  {
+   "name": "Nittolo's Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "155 Garland Street, 49684, Traverse City",
+   "website": "https://www.nittolostc.com/"
+  },
+  {
+   "name": "PepeNero",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "700 Cottageview Drive, 49684, Traverse City",
+   "website": "https://pepenerotc.com/"
+  },
+  {
+   "name": "Bubba's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "428 East Front Street, 49686, Traverse City",
+   "website": "https://tcbubbas.com/"
+  },
+  {
+   "name": "Sleder's Family Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "717 Randolph Street, 49684, Traverse City",
+   "website": "https://sleders.com/"
+  },
+  {
+   "name": "Frenchie's Famous",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "619 Randolph Street, 49684, Traverse City",
+   "website": "https://frenchiesfamous.weebly.com/"
+  },
+  {
+   "name": "Slabtown Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "826 West Front Street, 49684, Traverse City",
+   "website": "https://www.slabtownburgers.com/"
+  },
+  {
+   "name": "Sisters",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "542 West Front Street, 49684, Traverse City",
+   "website": "https://www.sisterstvc.com/"
+  },
+  {
+   "name": "That'sa Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3860 North Long Lake Road, 49684, Traverse City",
+   "website": "https://www.thatsapizzami.com/"
+  },
+  {
+   "name": "Mama Lu's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "149 East Front Street, 49684, Traverse City",
+   "website": "https://mamalustc.com/"
+  },
+  {
+   "name": "Thai Café",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1219 East Front Street, 49686, Traverse City",
+   "website": "https://www.tcthaicafe.com/"
+  },
+  {
+   "name": "Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1133 West South Airport Road, 49686, Traverse City",
+   "website": "https://www.thaikitchentc.com/"
+  },
+  {
+   "name": "Sugar 2 Salt",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "1371 Gray Drive, 49684, Traverse City",
+   "website": "https://www.sugar2salt.com/"
+  },
+  {
+   "name": "Cousin Jenny's",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "222 East State Street, 49684, Traverse City",
+   "website": "https://cousinjennyspasties.com/"
+  },
+  {
+   "name": "China Fair Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1357 West South Airport Road, 49686, Traverse City",
+   "website": "https://www.tcchinafair.com/"
+  },
+  {
+   "name": "Hunan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1425 West South Airport Road, 49686, Traverse City",
+   "website": "https://tchunan.com/"
+  },
+  {
+   "name": "Fu Hua",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "742 Munson Avenue, 49686, Traverse City",
+   "website": "https://www.tcfuhua.com/"
+  },
+  {
+   "name": "Detroit Wing Company",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1201 East Front Street, 49686, Traverse City",
+   "website": "https://detroitwingco.com/"
+  },
+  {
+   "name": "India Garden",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "303 East State Street, 49684, Traverse City",
+   "website": "https://indiagrdn.com/"
+  },
+  {
+   "name": "Firebird Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "831 South Garfield Avenue, 49686, Traverse City",
+   "website": "https://firebirdfast.com/"
+  },
+  {
+   "name": "The Potato Gallery",
+   "cuisines": [
+    "Pasta",
+    "Potato"
+   ],
+   "address": "700 Boon Street, 49686, Traverse City",
+   "website": "https://potatogallery.com/"
+  },
+  {
+   "name": "Mancino's Pizza & Grinders",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "13164 South West Bay Shore Drive, 49684, Traverse City",
+   "website": "https://www.tcmancinos.com/"
+  },
+  {
+   "name": "The Chef's In",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "519 West Front Street, 49684, Traverse City",
+   "website": "http://www.chefsintc.com/"
+  },
+  {
+   "name": "Amical",
+   "cuisines": [
+    "French"
+   ],
+   "address": "229 East Front Street, 49684, Traverse City",
+   "website": "https://www.amical.com/"
+  },
+  {
+   "name": "Thirsty Fish Sports Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "221 East State Street, 49684, Traverse City",
+   "website": "https://thirstyfishsportsgrille.com"
+  },
+  {
+   "name": "Sparks BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "201 East Front Street, 49684, Traverse City",
+   "website": "https://www.eatsparksbbq.com"
+  },
+  {
+   "name": "Sparky's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1462 South Airport Road West, Traverse City",
+   "website": "https://sparkysdinertc.com/"
+  },
+  {
+   "name": "Sorellina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "250 East Front Street, 49684, Traverse City",
+   "website": "http://www.sorellinatc.com/"
+  },
+  {
+   "name": "Acorn Kitchen",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "3344 Cass Road, Traverse City",
+   "website": "https://acornkitchen.net/"
+  },
+  {
+   "name": "Paesano's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "447 East Front Street, 49686, Traverse City",
+   "website": "https://paesanospizza.com/"
+  },
+  {
+   "name": "Midland Burger Company",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.midlandburgercompany.com/downtown-traverse-city/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "3480 West South Airport Road, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "B.C. Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3186 LaFranier Road, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Willie's Rear",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1315 West South Airport Road, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Round's Restaurant",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1033 East Eighth Street, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "TC Vietnamese",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "718 Munson Avenue, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Kayak Kafe",
+   "cuisines": [
+    "Ice Cream",
+    "American"
+   ],
+   "address": "191 East Grandview Parkway, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Umai Eats",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1338 West South Airport Road, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Pita Way",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1682 South Garfield Avenue, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Margarita's Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1796 South Garfield Avenue, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Cottage Inn Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "828 East Front Street, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "La Señorita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2455 North US 31 South, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Dino's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "539 East Eighth Street, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "white on rice",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "510 West Fourteenth Street, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Ming’s Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "531 West Fourteenth Street, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Slate",
+   "cuisines": [
+    "Steak"
+   ],
+   "address": "250 East Front Street, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Crepes & Co",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "329 East State Street, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Fuji Sushi Steak House",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2576 Crossing Circle, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Two Sons Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "346 East Front Street, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Asian Buffet",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1146 West South Airport Road, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Crocodile Palace",
+   "cuisines": [
+    "Sichuan"
+   ],
+   "address": "124 Cochlin Street, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Big Boy",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flap Jack Shack",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crusted Creations",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frida's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chubby Unicorn",
+   "cuisines": [],
+   "address": "439 East Front Street, 49686, Traverse City",
+   "website": "https://chubbyunicorntc.com/"
+  },
+  {
+   "name": "Mackinaw Brewing Company",
+   "cuisines": [],
+   "address": "161 East Front Street, 49684, Traverse City",
+   "website": "https://www.mackinawbrewing.com/"
+  },
+  {
+   "name": "Red Ginger",
+   "cuisines": [],
+   "address": "237 East Front Street, 49684, Traverse City",
+   "website": "https://eatatginger.com/"
+  },
+  {
+   "name": "The Cook's House",
+   "cuisines": [],
+   "address": "115 Wellington Street, 49684, Traverse City",
+   "website": "https://www.cookshousetc.com/"
+  },
+  {
+   "name": "Archie's Social House",
+   "cuisines": [],
+   "address": "237 Lake Avenue, 49684, Traverse City",
+   "website": "https://archiesfresh.com/"
+  },
+  {
+   "name": "Centre Street Café",
+   "cuisines": [],
+   "address": "1125 Centre Street, 49686, Traverse City",
+   "website": "https://www.centrestreetcafe.com/"
+  },
+  {
+   "name": "Frank's 231",
+   "cuisines": [],
+   "address": "1779 South Garfield Avenue, 49686, Traverse City",
+   "website": "https://www.franks231.com/"
+  },
+  {
+   "name": "Randy's Diner",
+   "cuisines": [],
+   "address": "1120 Carver Street, 49686, Traverse City",
+   "website": "https://randysdiner.com/"
+  },
+  {
+   "name": "Lil Bo Bar and Restaurant",
+   "cuisines": [],
+   "address": "540 West Front Street, 49684, Traverse City",
+   "website": "https://www.lilbotc.com/"
+  },
+  {
+   "name": "North Peak Brewing Company",
+   "cuisines": [],
+   "address": "400 West Front Street, 49684, Traverse City",
+   "website": "http://www.northpeak.net/np.html"
+  },
+  {
+   "name": "The Pub",
+   "cuisines": [],
+   "address": "160 East Front Street, 49684, Traverse City",
+   "website": "https://thepubtc.com"
+  },
+  {
+   "name": "U & I Lounge",
+   "cuisines": [],
+   "address": "214 East Front Street, 49684, Traverse City",
+   "website": "https://www.uandilounge.com/"
+  },
+  {
+   "name": "West End Tavern",
+   "cuisines": [],
+   "address": "12719 South West Bay Shore Drive, 49684, Traverse City",
+   "website": "https://www.westendtaverntc.com/"
+  },
+  {
+   "name": "Apache Trout Grill",
+   "cuisines": [],
+   "address": "13671 South West Bay Shore Drive, 49684, Traverse City",
+   "website": "https://www.apachetroutgrill.com/index"
+  },
+  {
+   "name": "Poppycocks",
+   "cuisines": [],
+   "address": "128 East Front Street, 49684, Traverse City",
+   "website": "https://www.poppycockstc.com/"
+  },
+  {
+   "name": "Harrington's By The Bay",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.harringtonsbythebay.com"
+  },
+  {
+   "name": "Lobdell's: A Teaching Restaurant",
+   "cuisines": [],
+   "address": "715 East Front Street, 49686, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Camp Critter Bar & Grill",
+   "cuisines": [],
+   "address": "3575 North US-31 South, 49684, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "FireFly",
+   "cuisines": [],
+   "address": "310 South Cass Street, Traverse City",
+   "website": ""
+  },
+  {
+   "name": "Artisan Waterfront Restaurant & Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hawk Owl Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Dennos Museum Center",
+   "kind": "museum",
+   "address": "1701 East Front Street, 49686, Traverse City",
+   "website": "https://www.dennosmuseum.org/",
+   "phone": "+1-231-995-1055",
+   "latitude": 44.7646973,
+   "longitude": -85.5876919
+  },
+  {
+   "name": "Rainbow Valley Family Farms",
+   "kind": "zoo",
+   "address": "6040 Culver Road, 49685, Traverse City",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6952493,
+   "longitude": -85.697759
+  },
+  {
+   "name": "Laughing Fish Gallery and Art Café",
+   "kind": "gallery",
+   "address": "1200 West Eleventh Street, 49684, Traverse City",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7563681,
+   "longitude": -85.6434988
+  },
+  {
+   "name": "Cherry Lane Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7458103,
+   "longitude": -85.6608561
+  },
+  {
+   "name": "World's Largest Cherry Pie - Pan",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7362544,
+   "longitude": -85.6251623
+  },
+  {
+   "name": "The Cistern",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7545697,
+   "longitude": -85.647475
+  },
+  {
+   "name": "Rope Swing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6803239,
+   "longitude": -85.6299055
+  },
+  {
+   "name": "Suspendend Overlook",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7059916,
+   "longitude": -85.6224888
+  }
+ ]
+}

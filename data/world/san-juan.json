@@ -1,0 +1,3149 @@
+{
+ "city": "San Juan",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 18.4661,
+ "longitude": -66.1165,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Caribe Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Calle San Gerónimo, 00901, San Juan",
+   "url": "https://caribehilton.com/"
+  },
+  {
+   "name": "The Condado Plaza Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "999 Avenida Ashford, 00907, San Juan",
+   "url": "https://www.condadoplaza.com/"
+  },
+  {
+   "name": "San Juan Marriott Resort & Stellaris Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Avenida Ashford, 00907, San Juan",
+   "url": "https://www.marriott.com/hotels/travel/sjupr-san-juan-marriott-resort-and-stellaris-casino/"
+  },
+  {
+   "name": "Hotel San Jorge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 Avenida Juan Ponce de León, 00909, San Juan",
+   "url": "https://www.hotelsanjorgepr.com/"
+  },
+  {
+   "name": "Mango Mansion",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "159 Calle Primavera, 00907, San Juan",
+   "url": "https://mangomansion.com/"
+  },
+  {
+   "name": "Nomada Urban Beach Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2062 Calle Loíza, 00911, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Conturce Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1507 Calle Loíza, 00911, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Fortaleza Guest House",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Rumbao, A Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Brumbaugh Street, 00901, San Juan",
+   "url": "https://www.marriott.com/en-us/hotels/sjutx-hotel-rumbao-a-tribute-portfolio-hotel/overview/"
+  },
+  {
+   "name": "Hyatt Place San Juan",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "580 Avenida Fernandez Juncos, 00907, San Juan",
+   "url": "https://www.hyatt.com/en-US/hotel/puerto-rico/hyatt-place-san-juan/sjuzs"
+  },
+  {
+   "name": "Courtyard San Juan Miramar",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 Avenida Juan Ponce de León (PR-25), 00907, San Juan",
+   "url": "https://www.marriott.com/en-us/hotels/sjumr-courtyard-san-juan-miramar/overview/"
+  },
+  {
+   "name": "Hyatt House San Juan",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "615 Ave Fernandez Juncos Distrito de Convenciones, 00907, San Juan",
+   "url": "https://www.hyatt.com/en-US/hotel/puerto-rico/hyatt-house-san-juan/sjuxs"
+  },
+  {
+   "name": "The Looking Glass Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1661 Avenida Juan Ponce de León, 00909, San Juan",
+   "url": "https://lookingglasshotel.com/"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Calle Mariano Ramírez Bages, 00907, San Juan",
+   "url": "https://www.hiexpress.com/sanjuanpr"
+  },
+  {
+   "name": "Dreamcatcher Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2009 Calle España, 00911, San Juan",
+   "url": "www.dreamcatcherpr.com"
+  },
+  {
+   "name": "Hotel Miramar",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "606 Avenida Juan Ponce de León (PR-25), 00907, San Juan",
+   "url": "https://hotelmiramarpr.com/"
+  },
+  {
+   "name": "Tropica",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1853 Avenida McLeary, 00911, San Juan",
+   "url": "https://tropicapr.com/"
+  },
+  {
+   "name": "The Wave Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "76 Calle Condado, 00907, San Juan",
+   "url": "https://www.thewavehotel.com/"
+  },
+  {
+   "name": "Dream Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2009 Avenida McLeary, 00911, San Juan",
+   "url": "https://www.dreaminnpr.com/"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel San Juan",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "105 Avenida José de Diego (PR-37), 00914, San Juan",
+   "url": "https://www.sanjuandoubletree.com/photo-en.html"
+  },
+  {
+   "name": "La Concha Renaissance San Juan Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1077 Ashford Ave, 00907, San Juan",
+   "url": "http://laconcharesort.com"
+  },
+  {
+   "name": "Numero Uno",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Calle Santa Ana, 00911, San Juan",
+   "url": "http://www.numero1guesthouse.com"
+  },
+  {
+   "name": "Casa Santurce",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1050 Calle Mariana, 00907, San Juan",
+   "url": "https://www.facebook.com/casasanturce1/"
+  },
+  {
+   "name": "El Canario by the Lagoon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4 Calle Clemenceau, 00907, San Juan",
+   "url": "https://www.canariolagoonhotel.com/"
+  },
+  {
+   "name": "The Tryst",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Calle Vendig, 00907, San Juan",
+   "url": "https://hoteltryst.com/"
+  },
+  {
+   "name": "Best Western Plus Condado Palm",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 Avenida Condado, 00907, San Juan",
+   "url": "condadopalm.com"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1829 Avenida del Valle, 00949, Levittown",
+   "url": "https://www.choicehotels.com/puerto-rico/levittown/comfort-inn-hotels"
+  },
+  {
+   "name": "La Concha Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1077 Avenida Ashford, 00907, San Juan",
+   "url": "https://www.laconcharesort.com/"
+  },
+  {
+   "name": "Condado Ocean Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1045 Avenida Dr. Ashford, 00907, San Juan",
+   "url": "https://www.condadooceanclub.com/"
+  },
+  {
+   "name": "Nomada Beach Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1265 Marginal Villamar, 00979",
+   "url": "https://nomadahostels.com/"
+  },
+  {
+   "name": "At Wind Chimes Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 Calle McLeary, 00911, San Juan",
+   "url": "https://www.atwindchimesboutiquehotel.com/"
+  },
+  {
+   "name": "Coral Princess Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1157 Avenida Magdalena, 00907, San Juan",
+   "url": "https://www.coralpr.com/"
+  },
+  {
+   "name": "Olive Boutique Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 Calle Aguadilla, 00907, San Juan",
+   "url": "https://oliveboutiquehotel.com/"
+  },
+  {
+   "name": "Olá Boutique Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1475 Avenida Wilson, 00907, San Juan",
+   "url": "https://www.theolahotel.com/"
+  },
+  {
+   "name": "Ciqala Luxury Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "752 Avenida Fernández Juncos, 00907, San Juan",
+   "url": "https://ciqalasuites.com/"
+  },
+  {
+   "name": "HiBird",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1149 Avenida Magdalena, 00907, San Juan",
+   "url": "https://www.stayhibird.com/"
+  },
+  {
+   "name": "Casa del Caribe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "57 Calle Caribe, 00907, San Juan",
+   "url": "https://casadelcaribeinn.com/"
+  },
+  {
+   "name": "Avila Guest House",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1408 Calle Aldea, 00907, San Juan",
+   "url": "http://www.avilaguesthouse.com"
+  },
+  {
+   "name": "Villa Herencia Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23 Calle de Las Monjas",
+   "url": "https://villaherencia.com/"
+  },
+  {
+   "name": "Hosteria Del Mar",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Calle Tapia, 00911, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Olimpo Court Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "603 Calle Miramar, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6 Calle Clemenceau, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Navona Studios",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "258 Calle San Francisco, 00901, San Juan",
+   "url": ""
+  },
+  {
+   "name": "The Palace Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "666 Calle Suau, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Monte Caribe Guest House",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "56 Calle Ismael Rivera, 00911, San Juan",
+   "url": ""
+  },
+  {
+   "name": "AC Hotel by Marriott San Juan Condado",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Avenida Ashford, 00911, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Hotel Bolívar",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "609 Calle Bolívar, 00909, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Hyatt Place Bayamón",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Av. Ramón Luis Rivera (Av. Comerío), 00961, Bayamón",
+   "url": ""
+  },
+  {
+   "name": "Ficus Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Avenida Américo Miranda, 00921, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Sandy Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Avenida Condado, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Condado Palm",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 Avenida Condado, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Aloft San Juan",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Paseo del Parque, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Condado Vanderbuilt",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1055 Avenida Ashford, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Hotel Iberia",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Calle Julian Blanco, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Casa Condado Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "60 Avenida Condado, 00907, San Juan",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Puerto Rico Hotel & Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Dreams Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cond México D9",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Calle México, 00917, San Juan",
+   "url": ""
+  },
+  {
+   "name": "River Park Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 Calle Santa Cruz, 00961",
+   "url": ""
+  },
+  {
+   "name": "Nomada Hostels",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1265 Marginal Villamar, 00979",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "LaBombonera",
+   "cuisines": [
+    "Sandwich",
+    "Breakfast"
+   ],
+   "address": "00901",
+   "website": ""
+  },
+  {
+   "name": "Di Jazz Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "1024 Avenida Dr. Ashford, 00908, San Juan",
+   "website": "https://www.facebook.com/dijazzpizzeria"
+  },
+  {
+   "name": "El Patio de Solé",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "718 Calle Cerra, 00907, San Juan",
+   "website": "http://www.elpatiodesole.com/"
+  },
+  {
+   "name": "La Isla",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "909 Avenida Fernández Juncos, 00907, San Juan",
+   "website": "https://www.wearelaisla.com/"
+  },
+  {
+   "name": "125 Rare Neighborhood Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "109 Calle Madrid",
+   "website": "https://www.rare125pr.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "204 Avenida Roberto H. Todd, 00907, San Juan",
+   "website": "https://www.ihop.com/"
+  },
+  {
+   "name": "Melanzana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "650 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": "https://melanzanabistro.com/"
+  },
+  {
+   "name": "Herencias Kitchen Expresso Bar",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "606 Calle Axtmeyer, 00907, San Juan",
+   "website": "https://www.hotelmiramarpr.com/restaurant.php"
+  },
+  {
+   "name": "Aqua Bar & Grill",
+   "cuisines": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Coffee"
+   ],
+   "address": "999 Avenida Ashford, 00907, San Juan",
+   "website": "http://www.aquabarandgrill.com/"
+  },
+  {
+   "name": "El Pika Pollo Sport Bar",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "152 Calle El Tren, 00962, Cataño",
+   "website": "https://elpikapollosportbar.negocio.site"
+  },
+  {
+   "name": "Soda Estudio de Cocina",
+   "cuisines": [
+    "International"
+   ],
+   "address": "562 Calle Cuevillas, San Juan",
+   "website": "https://www.facebook.com/SodaEstudioDeCocina/"
+  },
+  {
+   "name": "Cafe Melanzana",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "601 Avenida José Ferrer, 00907, San Juan",
+   "website": "https://melanzanabistro.com/"
+  },
+  {
+   "name": "Levi's El Rey del Churrasco",
+   "cuisines": [
+    "Regional",
+    "Caribbean",
+    "Latin"
+   ],
+   "address": "1101 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": "https://leviselreydelchurrasco.com/"
+  },
+  {
+   "name": "Cocina al Fondo",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "658 Calle San Juan, 00907, San Juan",
+   "website": "https://cocinaalfondo.com"
+  },
+  {
+   "name": "El Camarón Restaurante & Café",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1111 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": "https://www.aiyellow.com/elcamaron"
+  },
+  {
+   "name": "Serafina Italian Restaurant",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "1055 Avenida Ashford, 00907, San Juan",
+   "website": "https://serafinarestaurant.com/"
+  },
+  {
+   "name": "Delicias Restaurant",
+   "cuisines": [
+    "Puertorrican",
+    "Regional"
+   ],
+   "address": "1077 Avenida Ashford, 00907, San Juan",
+   "website": "http://www.sal.pr/place/delicias/"
+  },
+  {
+   "name": "Barrachina",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "104 Calle de la Fortaleza, 00901",
+   "website": "https://barrachina.com/"
+  },
+  {
+   "name": "Restaurante El Jibarito",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "280 Calle del Sol, 00901, Viejo San Juan",
+   "website": "https://eljibarito.go.studio/"
+  },
+  {
+   "name": "Havana Bar & Grill",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1025 Avenida Dr. Ashford, 00907, San Juan",
+   "website": "https://www.havanabarandgrill.com/"
+  },
+  {
+   "name": "Solera",
+   "cuisines": [
+    "International"
+   ],
+   "address": "1077 Avenida Ashford, 00907, San Juan",
+   "website": "http://www.sal.pr/place/solera/"
+  },
+  {
+   "name": "Texas de Brazil",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "200 Paseo Isla Grande, 00907, San Juan",
+   "website": "https://www.texasdebrazil.com/"
+  },
+  {
+   "name": "Metropol Restaurant",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "200 Paseo de las Fuentes, 00907, San Juan",
+   "website": "https://metropolrestaurant.com/"
+  },
+  {
+   "name": "La Cucina di Ivo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "202 Calle del Cristo, 00901, San Juan",
+   "website": "https://lacucinadiivo.com/"
+  },
+  {
+   "name": "Ali Baba",
+   "cuisines": [
+    "Turkish"
+   ],
+   "address": "Avenida Ashford, 00907, San Juan",
+   "website": "alibabarestaurantpr.com"
+  },
+  {
+   "name": "Komakai Sushi Bar",
+   "cuisines": [
+    "Sushi",
+    "Japanese",
+    "Asian"
+   ],
+   "address": "1077 Avenida Ashford, 00907, San Juan",
+   "website": "https://www.laconcharesort.com/restaurants/#komakai-sushi-bar"
+  },
+  {
+   "name": "Pirilo Pizza Rústica",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "207 Calle de la Tanca, 00901, San Juan",
+   "website": "https://www.pirilopizza.com"
+  },
+  {
+   "name": "Mercado La Carreta",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "279 Calle de la Luna",
+   "website": "http://mercadolacarreta.com/"
+  },
+  {
+   "name": "Bardot by Chef Chaymol",
+   "cuisines": [
+    "French"
+   ],
+   "address": "55 Calle Aguadilla, 00907, San Juan",
+   "website": "https://lamaisonbardot.com/"
+  },
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://sizzler.com/locations/sizzler-san-juan/"
+  },
+  {
+   "name": "Deaverdura",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "200 Calle del Sol, 00901, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Pizza e Birra",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "651;653 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Freshii",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "670 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Café 18",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1201 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Casa Cataño Food & Rum Therapy",
+   "cuisines": [
+    "Puertorrican"
+   ],
+   "address": "65 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Osaka",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "760 Avenida Juan Ponce de León, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Los Pinos Cafe 1",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "655 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Perla Restaurant",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1077 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Tropical Coffee",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "51 Calle San Gerónimo, 00901, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Pizzería Los Amigos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "167 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Pikayo",
+   "cuisines": [
+    "European",
+    "Oriental European",
+    "African",
+    "Puertorrican"
+   ],
+   "address": "999 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Rest. The Boutique Cafe & Lounge",
+   "cuisines": [
+    "Breakfast",
+    "Coffee",
+    "Lunch",
+    "Drinks"
+   ],
+   "address": "57 Calle Delcasse, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Incendium Tapas Et Vino",
+   "cuisines": [
+    "Caribbean",
+    "Spanish",
+    "Latin"
+   ],
+   "address": "1000 Avenida Fernández Juncos, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Eight Noodle Bar",
+   "cuisines": [
+    "Chinese",
+    "Japanese",
+    "Asian",
+    "Noodles",
+    "Sushi"
+   ],
+   "address": "999 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "SOS Burger",
+   "cuisines": [
+    "Jamaican",
+    "Burger"
+   ],
+   "address": "36 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Di Parma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1049 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Casita Miramar",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "605 Avenida José Ferrer, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Café Caribe",
+   "cuisines": [
+    "Coffee"
+   ],
+   "address": "999 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Cafe Del Angel",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1116 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "La Pradera",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "Avenida Juan Ponce de León (PR-25), 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "La Jaquita Baya",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "801 Avenida Fernández Juncos, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Greengos Caribbean Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "310 Calle Fortaleza, 00901, Viejo San Juan",
+   "website": ""
+  },
+  {
+   "name": "Chicky's Restaurant",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "182 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Cafe Berlin",
+   "cuisines": [
+    "International"
+   ],
+   "address": "407 Calle San Francisco, 00901, Viejo San Juan",
+   "website": ""
+  },
+  {
+   "name": "Orale Guey Mexican Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1106 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Buns",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "Calle Caribe, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Di Zucchero",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Scharneco Pollo BBQ",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1050 Calle Monserrate, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Choices",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 Paseo Isla Grande, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "Boulevard Román Baldorioty de Castro, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Boulevard Román Baldorioty de Castro, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Punto Sabroso",
+   "cuisines": [
+    "Fritter"
+   ],
+   "address": "104 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Pizzería Los Muchos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "6 Calle Santa Rosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Henry's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "26 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Pizza Brava",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "81 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "La Guachupita de Awilda",
+   "cuisines": [
+    "Friture",
+    "Puertorrican"
+   ],
+   "address": "39 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Miramar Pizza Conceptual",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "701 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Cafetería La Española",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "701 Avenida Fernández Juncos",
+   "website": ""
+  },
+  {
+   "name": "Miramar Food Truck Park",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "Calle Ernesto Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Tavola Trattoria Local",
+   "cuisines": [
+    "Italian",
+    "Criollo"
+   ],
+   "address": "1131 Avenida Ashford, 00901, San Juan",
+   "website": ""
+  },
+  {
+   "name": "China Sun",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yummy Dumplings",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "La Chilanguita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "Avenida Juan Ponce de León, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Cool Hope Artisan Ice Cream",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "Calle Ernesto Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "La Garita",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Manolín",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "251 Calle San Justo",
+   "website": ""
+  },
+  {
+   "name": "Pizzería Puttanesca",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "913 Sports Bar",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Patrona",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "658 Calle San Juan",
+   "website": ""
+  },
+  {
+   "name": "Atabey",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1020 Dr. Ashford Avenue",
+   "website": ""
+  },
+  {
+   "name": "El Hamburger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Danza",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rustica Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peru Rico",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buns Burger Shop",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Burguett",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waffle-era Tea Room",
+   "cuisines": [
+    "Waffle"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ombra Italian Eatery",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sin Tacos No Hay Paraíso",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1105 Avenida Juan Ponce de León",
+   "website": ""
+  },
+  {
+   "name": "Zhencha",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "960 Avenida Juan Ponce de León",
+   "website": ""
+  },
+  {
+   "name": "Boccado's Divino",
+   "cuisines": [
+    "International"
+   ],
+   "address": "808 Avenida Juan Ponce de León",
+   "website": ""
+  },
+  {
+   "name": "Cayo Blanco",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1050 Dr. Ashford Avenue",
+   "website": ""
+  },
+  {
+   "name": "Munchie Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1102 Avenida Magdalena",
+   "website": ""
+  },
+  {
+   "name": "El Champi",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "00901, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Carpaccio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Calle Magdalena",
+   "website": ""
+  },
+  {
+   "name": "El Vagón",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Parnaso",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Istanbul Restaurant",
+   "cuisines": [
+    "Turkish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Puebla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sogo Asian Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pan Pan",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toyama",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Pícara",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Xolo Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Vergüenza",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "Avenida Magdalena",
+   "website": ""
+  },
+  {
+   "name": "Antojitos Boricuas",
+   "cuisines": [
+    "Friture"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Encuentro",
+   "cuisines": [
+    "Dominican",
+    "Breakfast",
+    "Lunch",
+    "Puertorrican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Han Cream",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Picoteo",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Caldero",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Good Four Seasons",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Qué Pezca'o",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Viva San Juan",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Meatball Co.",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sanse",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fogo de Chao",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Charro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sanjuanero",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizzelecalzon",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Lobo",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Güerita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cocina Abierta",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Picadera",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Revolución",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tradición Quetzal",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Piola",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ceviche Market",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Callejeros",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pudge's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denkō Asian Eatery",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Burguesía",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lupe Reyes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Santurcina",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peko Peko",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Me Vale Madre",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kosan",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Consentida",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Siete Santos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cruda",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Condal",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rincón De Paco",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Verguenza",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Restaurante Casa Luna",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jamón Jamón",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Casita de Rones",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ropa Vieja",
+   "cuisines": [],
+   "address": "1307 Avenida Ashford, 00907, San Juan",
+   "website": "https://www.ropaviejagrill.com/"
+  },
+  {
+   "name": "Princesa Gastrobar",
+   "cuisines": [],
+   "address": "2 Paseo de La Princesa, Old San Juan",
+   "website": "https://www.princesapr.com"
+  },
+  {
+   "name": "Tostado*",
+   "cuisines": [],
+   "address": "200 Avenida de la Constitución, 00901, San Juan",
+   "website": "https://www.tostadopr.com"
+  },
+  {
+   "name": "La Picadera Bar & Restaurant",
+   "cuisines": [],
+   "address": "307 Calle del Recinto Sur, 00901, Viejo San Juan",
+   "website": "https://lapicaderavsj.com"
+  },
+  {
+   "name": "1208 Ashford International Cuisine & Steakhouse",
+   "cuisines": [],
+   "address": "1208 Avenida Dr. Ashford, 00907, San Juan",
+   "website": "https://www.ashford1208.com/"
+  },
+  {
+   "name": "Azahar Modern Tasca",
+   "cuisines": [],
+   "address": "886 Avenida Dr. Ashford, 00907, San Juan",
+   "website": "https://azaharcondado.com/"
+  },
+  {
+   "name": "St. Germain Bistro and Cafe",
+   "cuisines": [],
+   "address": "156 Calle del Sol, 00901, Viejo San Juan",
+   "website": "https://www.stgermainpr.com/"
+  },
+  {
+   "name": "Cannon Club",
+   "cuisines": [],
+   "address": "215 Calle de San Sebastián",
+   "website": "https://thecannonclub.com/"
+  },
+  {
+   "name": "Tijuana's Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.tijuanaspr.com/"
+  },
+  {
+   "name": "Café at ALMA",
+   "cuisines": [],
+   "address": "00901",
+   "website": "http://almasanjuan.com"
+  },
+  {
+   "name": "La Ó",
+   "cuisines": [],
+   "address": "00901",
+   "website": "http://fabula-corp.com"
+  },
+  {
+   "name": "Carli's",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.carlisworld.com/"
+  },
+  {
+   "name": "MĀRO",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.marosanturce.com/"
+  },
+  {
+   "name": "Pure & Natural",
+   "cuisines": [],
+   "address": "954 Avenida Juan Ponce de León, 00908, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Tostado",
+   "cuisines": [],
+   "address": "610 Calle Condado, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Below zero",
+   "cuisines": [],
+   "address": "1116 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Oceano",
+   "cuisines": [],
+   "address": "2 Calle Vendig, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Juliu's Restaurant & Grill",
+   "cuisines": [],
+   "address": "1128 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Beer Garden & Pizza Rústica",
+   "cuisines": [],
+   "address": "100 Boulevard Centro de Convenciones, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Restaurante Casa Rijos",
+   "cuisines": [],
+   "address": "1058 Calle La Nueva Palma, Santurce",
+   "website": ""
+  },
+  {
+   "name": "Orozco's Restaurant",
+   "cuisines": [],
+   "address": "1126 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Waffler Avenue",
+   "cuisines": [],
+   "address": "1054 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Pannes",
+   "cuisines": [],
+   "address": "1129 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Nuevo Ambiente Bar",
+   "cuisines": [],
+   "address": "608 Calle Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Punk Burger",
+   "cuisines": [],
+   "address": "1129 Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Céntrico Santurce",
+   "cuisines": [],
+   "address": "Calle Las Palmas, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Aqui CBB",
+   "cuisines": [],
+   "address": "2 Calle Isidra Rodríguez, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Sofia's",
+   "cuisines": [],
+   "address": "364 Calle de la Fortaleza, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Pinky's",
+   "cuisines": [],
+   "address": "1104 Avenida Ashford, 00911",
+   "website": ""
+  },
+  {
+   "name": "Nagoya Sushi Bar",
+   "cuisines": [],
+   "address": "Avenida Ashford, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Piu Bello",
+   "cuisines": [],
+   "address": "1302 Avenida Condado, 00911, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Tayzar",
+   "cuisines": [],
+   "address": "Calle Earle, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Valentina Café & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ohrno Barbacoa Moderna",
+   "cuisines": [],
+   "address": "886 Avenida Dr. Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "La Dulce Vida Bar & Grill",
+   "cuisines": [],
+   "address": "Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Pinchos",
+   "cuisines": [],
+   "address": "18 Avenida Las Nereidas Interior, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "El Bembé",
+   "cuisines": [],
+   "address": "45 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Kiki's Restaurant & Beer Garden",
+   "cuisines": [],
+   "address": "41 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "La Fiebre Bar & Grill",
+   "cuisines": [],
+   "address": "62 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "La Yol@",
+   "cuisines": [],
+   "address": "2 Avenida Las Nereidas Interior, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "El Sazón del Gallo",
+   "cuisines": [],
+   "address": "2 Calle San Antonio, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Don Tello",
+   "cuisines": [],
+   "address": "36 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Casilda Cocina Creativa",
+   "cuisines": [],
+   "address": "76 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Cafetería La Taína",
+   "cuisines": [],
+   "address": "66 Avenida Las Nereidas, 00962, Cataño",
+   "website": ""
+  },
+  {
+   "name": "Cafe Mallorca",
+   "cuisines": [],
+   "address": "300 Calle San Francisco",
+   "website": ""
+  },
+  {
+   "name": "The Oyster Shack",
+   "cuisines": [],
+   "address": "1104 Avenida Magdalena, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Vespa Vintage PR",
+   "cuisines": [],
+   "address": "67 Calle Santiago Iglesias Pantín, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Graziani",
+   "cuisines": [],
+   "address": "811 Calle Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Mexitaly",
+   "cuisines": [],
+   "address": "63 Calle Luisa, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "New Taste",
+   "cuisines": [],
+   "address": "1501 Avenida Ashford, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Axolote",
+   "cuisines": [],
+   "address": "616 Calle Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Rakuten",
+   "cuisines": [],
+   "address": "56 Avenida Magdalena, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Verde Mesa",
+   "cuisines": [],
+   "address": "107 Calle Tetuan",
+   "website": ""
+  },
+  {
+   "name": "Tacos El Asadero",
+   "cuisines": [],
+   "address": "1025 Ashford Ave, 00909, San Juan",
+   "website": ""
+  },
+  {
+   "name": "Friquitin Mi Rincon",
+   "cuisines": [],
+   "address": "950 Calle San Juan, Santurce",
+   "website": ""
+  },
+  {
+   "name": "Puerto Rico Bagel Co.",
+   "cuisines": [],
+   "address": "Calle Ernesto Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Nuevo Quenepo",
+   "cuisines": [],
+   "address": "Calle Cerra, 00907, San Juan",
+   "website": ""
+  },
+  {
+   "name": "El Punto Vegano",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marmalade Restaurant",
+   "cuisines": [],
+   "address": "317 Calle de Fortaleza",
+   "website": ""
+  },
+  {
+   "name": "Better Foods",
+   "cuisines": [],
+   "address": "151 Calle Labra",
+   "website": ""
+  },
+  {
+   "name": "Kisoro Chinese Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafetería Reinoso",
+   "cuisines": [],
+   "address": "Calle San Juan",
+   "website": ""
+  },
+  {
+   "name": "Gspot",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Punto de Vista",
+   "cuisines": [],
+   "address": "307 Calle de la Fortaleza",
+   "website": ""
+  },
+  {
+   "name": "To Share",
+   "cuisines": [],
+   "address": "76 Calle Condado",
+   "website": ""
+  },
+  {
+   "name": "Chloé",
+   "cuisines": [],
+   "address": "1056 Dr. Ashford Avenue",
+   "website": ""
+  },
+  {
+   "name": "Kāne",
+   "cuisines": [],
+   "address": "1060 Dr. Ashford Avenue",
+   "website": ""
+  },
+  {
+   "name": "Cocina Cero Siete Doce",
+   "cuisines": [],
+   "address": "256 Constitucion Avenue",
+   "website": ""
+  },
+  {
+   "name": "Carthage Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Trois Cent Onze",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Caficultura",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Moreno's Stop Bar Rest.",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Asador",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vaca Brava",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cayo Caribe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mojitos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Raíces",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aureola",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Patio de Sam",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Tortuga",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Borinquen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Georgina's Cocina Local",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Omaira",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rincón Ibérico",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Comedor",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ostra Cosa @Tótem",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ajo del Pais",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "MRKT Kosher Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cave",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Areyto",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "100% HP",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atlantico Pool Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Puerto Rico",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "hecho en casa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Roca",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tío Danny",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blessed",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Madre",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The House of Mofongo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Balcon del Moreno's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ceviche",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toro Salao",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "José Miguel Agrelot Coliseum",
+   "kind": "attraction",
+   "address": "500 Avenida Arterial B, 00918, San Juan",
+   "website": "https://www.coliseodepuertorico.com/",
+   "phone": "+1 787-777-0800",
+   "latitude": 18.4277971,
+   "longitude": -66.0613361
+  },
+  {
+   "name": "Museo de Arte de Puerto Rico",
+   "kind": "museum",
+   "address": "299 Avenida de Diego, 00909, San Juan",
+   "website": "http://www.mapr.org/",
+   "phone": "+1-787-977-6277",
+   "latitude": 18.448441,
+   "longitude": -66.0661819
+  },
+  {
+   "name": "Museo de Arte Contemporáneo de Puerto Rico",
+   "kind": "museum",
+   "address": "",
+   "website": "http://mac-pr.org",
+   "phone": "",
+   "latitude": 18.4500519,
+   "longitude": -66.0743916
+  },
+  {
+   "name": "Museo de las Américas",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museolasamericas.org/",
+   "phone": "",
+   "latitude": 18.4677678,
+   "longitude": -66.1200757
+  },
+  {
+   "name": "Museo de Arte de Bayamón",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museodeartedebayamon.com/",
+   "phone": "",
+   "latitude": 18.410977,
+   "longitude": -66.1611313
+  },
+  {
+   "name": "La Casa del Libro",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.lacasadellibro.org/",
+   "phone": "",
+   "latitude": 18.4641478,
+   "longitude": -66.1176817
+  },
+  {
+   "name": "Casa Aboy",
+   "kind": "attraction",
+   "address": "900 Avenida Juan Ponce de León, 00908, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4544006,
+   "longitude": -66.080687
+  },
+  {
+   "name": "Caparra Ruins",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.405187,
+   "longitude": -66.1136498
+  },
+  {
+   "name": "Castillo San Felipe del Morro",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4708386,
+   "longitude": -66.1240617
+  },
+  {
+   "name": "José Celso Barbosa Museum",
+   "kind": "museum",
+   "address": "Calle José Celso Barbosa, 00956, Bayamón",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3990206,
+   "longitude": -66.1544603
+  },
+  {
+   "name": "Ballajá Barracks",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4678018,
+   "longitude": -66.1197743
+  },
+  {
+   "name": "Castillo San Cristóbal",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4673516,
+   "longitude": -66.1107281
+  },
+  {
+   "name": "Galería Nacional",
+   "kind": "museum",
+   "address": "98 Calle Norzagaray",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4678732,
+   "longitude": -66.1184328
+  },
+  {
+   "name": "Puerto Rico Capitol",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4667784,
+   "longitude": -66.1059358
+  },
+  {
+   "name": "La Garita del Diablo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4684023,
+   "longitude": -66.1104343
+  },
+  {
+   "name": "Museo de San Juan",
+   "kind": "museum",
+   "address": "Calle Norzagaray",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4679993,
+   "longitude": -66.1174324
+  },
+  {
+   "name": "Museo del Mar",
+   "kind": "museum",
+   "address": "360 Calle San Francisco, 00901, Viejo San Juan",
+   "website": "http://www.elmuseodelmar.com/",
+   "phone": "",
+   "latitude": 18.4662972,
+   "longitude": -66.1128652
+  },
+  {
+   "name": "Espacio Minerva",
+   "kind": "gallery",
+   "address": "1057 Avenida Juan Ponce de León, 00907, San Juan",
+   "website": "http://www.espacio-minerva.com",
+   "phone": "+1-939-633-6211",
+   "latitude": 18.4529229,
+   "longitude": -66.0776771
+  },
+  {
+   "name": "Museo de Arte y Diseño de Miramar MADMi",
+   "kind": "museum",
+   "address": "607 Calle Cuevillas, 00907, San Juan",
+   "website": "http://madmi.org/#top",
+   "phone": "",
+   "latitude": 18.4547977,
+   "longitude": -66.0830634
+  },
+  {
+   "name": "Instituto de Subcultura",
+   "kind": "gallery",
+   "address": "734 Calle Cerra, 00907, San Juan",
+   "website": "https://institutodesubcultura.com",
+   "phone": "",
+   "latitude": 18.4492414,
+   "longitude": -66.081024
+  },
+  {
+   "name": "Galeria Recinto Cerra",
+   "kind": "gallery",
+   "address": "619.5 Calle Cerra, 00907, San Juan",
+   "website": "https://es-la.facebook.com/Recinto-Cerra-Santurce-1414465012103657/",
+   "phone": "+1-787-239-3040",
+   "latitude": 18.4517739,
+   "longitude": -66.0797157
+  },
+  {
+   "name": "MUSAN",
+   "kind": "museum",
+   "address": "1673 Avenida Juan Ponce de León",
+   "website": "https://musan.org/",
+   "phone": "+1-787-455-4217",
+   "latitude": 18.4430808,
+   "longitude": -66.0642009
+  },
+  {
+   "name": "EcoExploratorio",
+   "kind": "museum",
+   "address": "",
+   "website": "https://ecoexploratorio.org/",
+   "phone": "",
+   "latitude": 18.4237661,
+   "longitude": -66.0749242
+  },
+  {
+   "name": "Omart Gallery",
+   "kind": "gallery",
+   "address": "408 Calle José Fidalgo Díaz, 00909, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4438365,
+   "longitude": -66.0641129
+  },
+  {
+   "name": "Galería Petrus",
+   "kind": "gallery",
+   "address": "726 Calle Hoare, 00907, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.449725,
+   "longitude": -66.0820107
+  },
+  {
+   "name": "ArtLab",
+   "kind": "attraction",
+   "address": "306 Calle Condado",
+   "website": "",
+   "phone": "+1 787-385-3588",
+   "latitude": 18.4517787,
+   "longitude": -66.0748249
+  },
+  {
+   "name": "Caparra Ruins Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4053971,
+   "longitude": -66.1139139
+  },
+  {
+   "name": "Museo de Historia del Arte",
+   "kind": "museum",
+   "address": "116 Avenida José Celso Barbosa, 00962, Cataño",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4420054,
+   "longitude": -66.1168828
+  },
+  {
+   "name": "Galería Agustina Ferreyra",
+   "kind": "gallery",
+   "address": "750 Avenida Fernández Juncos, 00907, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.452533,
+   "longitude": -66.0843752
+  },
+  {
+   "name": "Casa Museo Felisa Rincón de Gautier",
+   "kind": "museum",
+   "address": "51 Caleta de San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4653982,
+   "longitude": -66.1191797
+  },
+  {
+   "name": "Casa de los Contrafuertes",
+   "kind": "museum",
+   "address": "101 Calle San Sebastian",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4673398,
+   "longitude": -66.1180017
+  },
+  {
+   "name": "Museo de la Memoria",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4478753,
+   "longitude": -66.0809493
+  },
+  {
+   "name": "Museo de Historia, Antropología y Arte de la UPR",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4043566,
+   "longitude": -66.0512643
+  },
+  {
+   "name": "Casa Taller",
+   "kind": "attraction",
+   "address": "Calle Rosario, 00911, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4501784,
+   "longitude": -66.0640607
+  },
+  {
+   "name": "Esquina de la Resistencia",
+   "kind": "attraction",
+   "address": "Calle del Cristo, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4645193,
+   "longitude": -66.1178086
+  },
+  {
+   "name": "Paseo de la Fama de Puerto Rico",
+   "kind": "attraction",
+   "address": "Avenida Dr. Ashford, 00907, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4577843,
+   "longitude": -66.075169
+  },
+  {
+   "name": "Museo de Arquelogía Indígena",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.410042,
+   "longitude": -66.1601609
+  },
+  {
+   "name": "Sede Central del Sitio Histórico Nacional de San Juan",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4670727,
+   "longitude": -66.1102275
+  },
+  {
+   "name": "Museo de Reproducciones Artísticas",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4097286,
+   "longitude": -66.1604138
+  },
+  {
+   "name": "Francisco Oller Art and History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3983559,
+   "longitude": -66.1555762
+  },
+  {
+   "name": "Museo de Ciencias Naturales",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4096381,
+   "longitude": -66.1603426
+  },
+  {
+   "name": "Museo de Ciencias Físicas",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4097813,
+   "longitude": -66.1602604
+  },
+  {
+   "name": "Museo de Geología",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4099634,
+   "longitude": -66.1602123
+  },
+  {
+   "name": "Museo Casa Blanca",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "+1 787-725-1454",
+   "latitude": 18.4661986,
+   "longitude": -66.1199507
+  },
+  {
+   "name": "Esquina Luisito Cruz Marzán",
+   "kind": "attraction",
+   "address": "Calle Ernesto Cerra, San Juan",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4493743,
+   "longitude": -66.0802292
+  },
+  {
+   "name": "Marginal sur .A",
+   "kind": "aquarium",
+   "address": "TT-33 Calle Marginal Sur, 00959",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3950348,
+   "longitude": -66.1336819
+  },
+  {
+   "name": "Space Rocket Plaza",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4106928,
+   "longitude": -66.160121
+  },
+  {
+   "name": "Galería W. Labiosa",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4642236,
+   "longitude": -66.1158056
+  },
+  {
+   "name": "Museo Militar",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4662489,
+   "longitude": -66.1016598
+  },
+  {
+   "name": "Galeria Botello",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.464691,
+   "longitude": -66.1179461
+  },
+  {
+   "name": "Natural Home",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4645868,
+   "longitude": -66.1177659
+  },
+  {
+   "name": "Mirador del Parque Nacional Julio Enrique Monagas",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4058387,
+   "longitude": -66.1435658
+  },
+  {
+   "name": "Pabellón Aeroespacial",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.410612,
+   "longitude": -66.1609939
+  },
+  {
+   "name": "Bandera en puerta de garaje",
+   "kind": "attraction",
+   "address": "Calle Virtud",
+   "website": "",
+   "phone": "",
+   "latitude": 18.467732,
+   "longitude": -66.1170879
+  },
+  {
+   "name": "Ron del Barrilito Visitor Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4133861,
+   "longitude": -66.148459
+  },
+  {
+   "name": "Royal Caribbean SJ Cruise Port",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4619736,
+   "longitude": -66.1115724
+  },
+  {
+   "name": "Siena Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4658954,
+   "longitude": -66.1150084
+  },
+  {
+   "name": "BRA Galería Alegría",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.464006,
+   "longitude": -66.1157997
+  },
+  {
+   "name": "Museo Archivo De Bayamón",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.398145,
+   "longitude": -66.1555654
+  },
+  {
+   "name": "Arqueología Indígena",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4106222,
+   "longitude": -66.1621982
+  },
+  {
+   "name": "Pabellón de las Telecomunicaciones y Océano",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4096055,
+   "longitude": -66.162516
+  },
+  {
+   "name": "De Aventura con Ventura Barnés",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.409433,
+   "longitude": -66.1626736
+  },
+  {
+   "name": "Pabellón de la Transportación",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4098918,
+   "longitude": -66.1626072
+  },
+  {
+   "name": "Mini Zoológico",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4090481,
+   "longitude": -66.1626718
+  },
+  {
+   "name": "Terrarios del Parque",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4094654,
+   "longitude": -66.1622225
+  },
+  {
+   "name": "Roberto Paradise",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4473474,
+   "longitude": -66.0767749
+  },
+  {
+   "name": "Toro Verde Urban Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4558084,
+   "longitude": -66.0913497
+  },
+  {
+   "name": "Survey 19",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4161745,
+   "longitude": -66.051038
+  },
+  {
+   "name": "Survey 20",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4164505,
+   "longitude": -66.0510513
+  },
+  {
+   "name": "View of San Juan Gate",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4655495,
+   "longitude": -66.1196993
+  },
+  {
+   "name": "Mirador Junto al Mar",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4589056,
+   "longitude": -66.0750026
+  },
+  {
+   "name": "Brincos",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.4086397,
+   "longitude": -66.1053371
+  }
+ ]
+}

@@ -1,0 +1,747 @@
+{
+ "city": "Stockton",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.9565,
+ "longitude": -121.2964,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3651 Arch Road, 95215, Stockton",
+   "url": "https://www.hilton.com/en/hotels/sckmehx-hampton-stockton/"
+  },
+  {
+   "name": "Residence Inn Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3240 West March Lane, 95219, Stockton",
+   "url": "https://www.marriott.com/sckri"
+  },
+  {
+   "name": "Courtyard Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3252 West March Lane, 95219, Stockton",
+   "url": "https://www.marriott.com/sckst"
+  },
+  {
+   "name": "Holiday Inn Express Stockton Southeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5045 South State Route 99 Fr E Road, 95215, Stockton",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/stockton/sckrm/hoteldetail"
+  },
+  {
+   "name": "Best Western Plus Heritage Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "113 East March Lane, 95207-5854, Stockton",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-stockton/best-western-plus-heritage-inn/propertyCode.05695.html"
+  },
+  {
+   "name": "Rodeway Inn Stockton Highway 99",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8009 North Highway 99, 95212, Stockton",
+   "url": "https://www.choicehotels.com/california/tracy/econo-lodge-hotels"
+  },
+  {
+   "name": "Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2323 Grand Canal Boulevard, Stockton",
+   "url": "https://www3.hilton.com/en/hotels/california/hilton-stockton-SCKSTHF/index.html"
+  },
+  {
+   "name": "La Quinta Inn Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/stockton-california/la-quinta-inn-stockton/overview"
+  },
+  {
+   "name": "Red Roof Inn Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1707 West Fremont Street, 95203, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2654 West March Lane, 95207, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "33 North Center Street, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Stockton East Highway 99",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3951 East Budweiser Court, 95215, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Stockton, CA - North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6717 Plymouth Road, 95207, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Stevens Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8722 N Highway 99, 95212, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Stockton East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2533 North Piccoli Road, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Stockton - March Lane",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2844 West March Lane, Stockton",
+   "url": ""
+  },
+  {
+   "name": "California Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4100 East State Route 88, 95215, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn & Suite",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4219 East State Route 88, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Econostudios",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4540 North El Dorado Street, 95207, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Stockton - Charter Way West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817 Navy Drive, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Alhambra Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1565 South El Dorado Street, 95206, Stockton",
+   "url": ""
+  },
+  {
+   "name": "I-5 Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2210 Manthey Road, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Brevia Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 French Camp Turnpike, 95206, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Town & Country Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5864 CA-99, 95212, Stockton",
+   "url": ""
+  },
+  {
+   "name": "El Rancho Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5936 CA-99, 95212, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Executive Lodge Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "339 South Wilson Way, 95205, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3473 W Hammer Ln, 95219, Stockton",
+   "url": ""
+  },
+  {
+   "name": "University Plaza Waterfront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 West Fremont Street, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Stockton Travellers Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "631 North Center Street, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Crest Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "639 North Wilson Way, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Knotty Pine Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2160 North Wilson Way, Stockton",
+   "url": ""
+  },
+  {
+   "name": "Days Inn Stockton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Pacific Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Frontier Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knotty Pine Motel 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Stockton Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knotty Pine Motel 3",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Stockton City Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valli Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cancun",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "135 East Miner Avenue, 95202, Stockton",
+   "website": "https://www.cancunrestaurantstockton.com/"
+  },
+  {
+   "name": "Seoul Soon Dubu",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2041 North Pacific Avenue, 95204, Stockton",
+   "website": "https://seoulsoontobu.com"
+  },
+  {
+   "name": "Tequileros Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4343 Pacific Avenue, 95207, Stockton",
+   "website": "https://www.tequilerostaqueria.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4729 North Pershing Avenue, 95207, Stockton",
+   "website": "https://locations.pizzahut.com/ca/stockton/4729-n-pershing-ave"
+  },
+  {
+   "name": "GK Mongolian BBQ",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "2233 Grand Canal Boulevard, 95207, Stockton",
+   "website": "https://www.gkmongolianbbq.com/"
+  },
+  {
+   "name": "Restaurante Los Latinos",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "650 North Grant Street, 95202, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Sun Wong Kee",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "333 South Hunter Street, 95203, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "642 West Dr Martin Luther King Jr Boulevard, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Swagat Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2233 Grand Canal Boulevard, 95207, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Bayon Restaurant",
+   "cuisines": [
+    "Asian",
+    "Cambodian"
+   ],
+   "address": "2233 Grand Canal Boulevard, 95207, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rancho Inn",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1457 Mariposa Road, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Angelina's Spaghetti House",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1563 East Fremont Street, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Ono Hawaiian BBQ",
+   "cuisines": [
+    "Barbecue",
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Forrestero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cocoro Bistro Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tepa Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taquiera Carolina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Salad",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eric's New York Style Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Guys",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fuego Taqueria",
+   "cuisines": [],
+   "address": "2029 Cherokee Road, 95205, Stockton",
+   "website": "https://fuego-taqueria.com/"
+  },
+  {
+   "name": "La Boulangerie",
+   "cuisines": [],
+   "address": "2324 Grand Canal Boulevard, 95207, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Fat's Grill",
+   "cuisines": [],
+   "address": "1409 Rosemarie Lane, Stockton",
+   "website": ""
+  },
+  {
+   "name": "FAT CITY Brew & BBQ",
+   "cuisines": [],
+   "address": "1732 Pacific Avenue, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Midtown Creperie & Cafe",
+   "cuisines": [],
+   "address": "2317 Pacific Avenue, Stockton",
+   "website": ""
+  },
+  {
+   "name": "The Black Rabbit",
+   "cuisines": [],
+   "address": "2353 Pacific Avenue, Stockton",
+   "website": ""
+  },
+  {
+   "name": "The Kitchen @ Stonebrier",
+   "cuisines": [],
+   "address": "4780 West Lane, Stockton",
+   "website": ""
+  },
+  {
+   "name": "Mile Wine Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Da Vinci's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Grullense",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eddie's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sombrero Taqueria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Le's Dynasty",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mimosas Corner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Haggin Museum",
+   "kind": "museum",
+   "address": "1201 North Pershing Avenue, Stockton",
+   "website": "https://hagginmuseum.org/",
+   "phone": "",
+   "latitude": 37.9606503,
+   "longitude": -121.3139182
+  },
+  {
+   "name": "USS Lucid",
+   "kind": "museum",
+   "address": "3100 Monte Diablo Avenue, 95203, Stockton",
+   "website": "https://stocktonhistoricalmaritimemuseum.org/",
+   "phone": "",
+   "latitude": 37.9538114,
+   "longitude": -121.3426736
+  },
+  {
+   "name": "Children's Museum of Stockton",
+   "kind": "museum",
+   "address": "402 West Weber Avenue, Stockton",
+   "website": "https://www.childrensmuseumstockton.org/",
+   "phone": "",
+   "latitude": 37.9518669,
+   "longitude": -121.2967839
+  },
+  {
+   "name": "LH Horton Jr. Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9961842,
+   "longitude": -121.318391
+  },
+  {
+   "name": "Stockton",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9537053,
+   "longitude": -121.2914352
+  }
+ ]
+}

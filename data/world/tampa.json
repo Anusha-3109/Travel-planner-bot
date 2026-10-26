@@ -1,0 +1,2277 @@
+{
+ "city": "Tampa",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 27.9879,
+ "longitude": -82.4473,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Aloft Tampa Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 West Kennedy Boulevard, 33602, Tampa",
+   "url": ""
+  },
+  {
+   "name": "Seminole Hard Rock Hotel Tampa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aloft Tampa Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3650 Midtown Drive, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpaal-aloft-tampa-midtown/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn Tampa Ybor Historic District",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 East 9th Avenue, 33605, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpaycgi-hilton-garden-inn-tampa-ybor-historic-district/"
+  },
+  {
+   "name": "Element by Marriott Tampa Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3650 Midtown Drive, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpael-element-tampa-midtown/overview/"
+  },
+  {
+   "name": "Embassy Suites by Hilton Tampa Downtown Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "513 South Florida Avenue, 33602, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpaeses-embassy-suites-tampa-downtown-convention-center/"
+  },
+  {
+   "name": "Holiday Inn Tampa Westshore - Airport Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 North West Shore Boulevard, 33609, Tampa",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/tampa/tpacp/hoteldetail"
+  },
+  {
+   "name": "Residence Inn Tampa Westshore/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4312 West Boy Scout Boulevard, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpaws-residence-inn-tampa-westshore-airport/overview/"
+  },
+  {
+   "name": "Hotel Flor Tampa Downtown, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "905 North Florida Avenue, 33602, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpamtup-hotel-flor-tampa-downtown/"
+  },
+  {
+   "name": "Hotel Alba Tampa, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5303 West Kennedy Boulevard, 33609, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpawtup-hotel-alba-tampa/"
+  },
+  {
+   "name": "Four Points by Sheraton Suites Tampa Airport Westshore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4400 West Cypress Street, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpafp-four-points-by-sheraton-suites-tampa-airport-westshore/"
+  },
+  {
+   "name": "Hotel Tampa Riverwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 North Ashley Drive, 33602, Tampa",
+   "url": "https://www.hoteltampariverwalk.com/"
+  },
+  {
+   "name": "Best Western Tampa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "734 Dale Mabry Highway, 33609, Tampa",
+   "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.10306.html"
+  },
+  {
+   "name": "Hyatt Place Tampa Airport/Westshore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4811 West Main Street, 33607, Tampa",
+   "url": "https://www.hyatt.com/en-us/hotel/florida/hyatt-place-tampa-airport-westshore/tpazw"
+  },
+  {
+   "name": "Residence Inn Tampa Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 East Tyler Street, 33602, Tampa",
+   "url": "https://www.marriott.com/hotels/travel/tpatd-residence-inn-tampa-downtown/"
+  },
+  {
+   "name": "Embassy Suites by Hilton Tampa USF Near Busch Gardens",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3705 Spectrum Boulevard, 33612, Tampa",
+   "url": "https://embassysuites3.hilton.com/en/hotels/florida/embassy-suites-tampa-usf-near-busch-gardens-TPAFRES/index.html"
+  },
+  {
+   "name": "Fairfield Inn & Suites Tampa Westshore/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2215 North Lois Avenue, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpawa-fairfield-inn-and-suites-tampa-westshore-airport/overview/"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "325 North Florida Avenue, 33602, Tampa",
+   "url": "hyatt.com"
+  },
+  {
+   "name": "Le Méridien Tampa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 North Florida Avenue, 33602, Tampa",
+   "url": "http://www.lemeridientampa.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites Tampa/Ybor City/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1301 East 7th Avenue, 33605, Tampa",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/florida/hampton-inn-and-suites-tampa-ybor-city-downtown-TPAYBHX/index.html"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Tampa / Raymond James Stadium",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5405 North Church Avenue, 33614, Tampa",
+   "url": "https://www.wyndhamhotels.com/days-inn/tampa-florida/days-inn-tampa-raymond-james-stadium/overview"
+  },
+  {
+   "name": "Hampton Inn Tampa-Veterans Expwy (Airport North)",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5628 West Waters Avenue, 33634, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpavehx-hampton-tampa-veterans-expwy-airport-north/"
+  },
+  {
+   "name": "Epicurean Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1207 South Howard Avenue, 33606, Tampa",
+   "url": "https://www.epicureanhotel.com/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Tampa - Stadium Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2005 North Dale Mabry Highway, 33607, Tampa",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tampa/tpada/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn Tampa Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4817 West Laurel Street, 33607, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpaathx-hampton-tampa-international-airport-westshore/"
+  },
+  {
+   "name": "Red Roof PLUS+ & Suites Tampa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11310 North 30th Street, 33612, Tampa",
+   "url": "https://www.redroof.com/property/fl/tampa/RRI1261"
+  },
+  {
+   "name": "La Quinta Inn & Suites USF (Near Busch Gardens)",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "East Fowler Avenue, 33612, Tampa",
+   "url": "https://www.wyndhamhotels.com/laquinta/tampa-florida/la-quinta-usf-near-busch-gardens/overview"
+  },
+  {
+   "name": "Ronald McDonald House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "35 Columbia Drive, 33606, Tampa",
+   "url": "https://rmhctampabay.org/"
+  },
+  {
+   "name": "Country Inn & Suites, Tampa RJ Stadium",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4750 North Dale Mabry Highway, 33614, Tampa",
+   "url": "https://www.radissonhotelsamericas.com/en-us/hotels/country-inn-tampa-stadium"
+  },
+  {
+   "name": "La Quinta Inn & Suites Tampa Fairgrounds - Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4811 US-301, 33610, Tampa",
+   "url": "https://www.wyndhamhotels.com/laquinta/tampa-florida/la-quinta-tampa-fairgrounds-casino/overview"
+  },
+  {
+   "name": "Days Inn & Suites Tampa Near Ybor City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2905 North 50th Street, 33619-2317, Tampa",
+   "url": "https://www.wyndhamhotels.com/days-inn/tampa-florida/days-inn-suites-tampa-near-ybor-city-fl-state-fair-grounds/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Tampa Airport Avion Park Westshore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5329 Avion Park Drive, 33607, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpaashx-hampton-suites-tampa-airport-avion-park-westshore/"
+  },
+  {
+   "name": "Quality Inn Airport - Cruise Port",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1020 South Dale Mabry, 33629, Tampa",
+   "url": "https://www.choicehotels.com/florida/tampa/quality-inn-hotels/fl452"
+  },
+  {
+   "name": "Courtyard Tampa Westshore/Airport Building 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3805 West Cypress Street, 33607, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpawt-courtyard-tampa-westshore-airport/overview/"
+  },
+  {
+   "name": "Embassy Suites Hotel-Tampa Airport/Westshore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 North West Shore Boulevard, 33609, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpafles-embassy-suites-tampa-airport-westshore/"
+  },
+  {
+   "name": "Hilton Tampa Airport Westshore Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2225 North Lois Avenue, 33607, Tampa",
+   "url": "https://www3.hilton.com/en/hotels/florida/hilton-tampa-airport-westshore-TPAAHHF/index.html"
+  },
+  {
+   "name": "SpringHill Suites Tampa Westshore Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4835 West Cypress Street, 33607, Tampa",
+   "url": "https://www.marriott.com/tpash"
+  },
+  {
+   "name": "TownePlace Suites Tampa Westshore/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5302 Avion Park Drive, 33607, Tampa",
+   "url": "https://www.marriott.com/tpatw"
+  },
+  {
+   "name": "The Barrymore Hotel Tampa Riverwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 West Fortune Street, 33602, Tampa",
+   "url": "https://barrymorehotel.com"
+  },
+  {
+   "name": "Rodeway Inn Near Ybor City - Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2904 Melbourne Boulevard, 33605, Tampa",
+   "url": "https://www.choicehotels.com/florida/wesley-chapel/sleep-inn-hotels"
+  },
+  {
+   "name": "The Westshore Grand, A Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4860 West Kennedy Boulevard, 33609, Tampa",
+   "url": "https://www.marriott.com/en-us/hotels/tpagr-the-westshore-grand-a-tribute-portfolio-hotel-tampa/overview/"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6510 US-301, 33610, Tampa",
+   "url": "https://www.choicehotels.com/florida/wesley-chapel/sleep-inn-hotels"
+  },
+  {
+   "name": "Comfort Suites Tampa Airport North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5421 West Waters Avenue, 33634, Tampa",
+   "url": "https://www.choicehotels.com/florida/wesley-chapel/sleep-inn-hotels"
+  },
+  {
+   "name": "Extended Stay America - Tampa - Airport - Memorial Highway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4811 Memorial Highway, 33634, Tampa",
+   "url": "https://www.extendedstayamerica.com/hotels/fl/tampa/airport-memorial-hwy"
+  },
+  {
+   "name": "Hilton Garden Inn Tampa Airport Westshore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5312 Avion Park Drive, 33607, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpawsgi-hilton-garden-inn-tampa-airport-westshore/"
+  },
+  {
+   "name": "Comfort Suites at Fairgrounds - Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4506 Oak Fair Boulevard, 33610, Tampa",
+   "url": "https://www.choicehotels.com/florida/wesley-chapel/sleep-inn-hotels"
+  },
+  {
+   "name": "La Quinta Inn & Suites Tampa Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3826 West Waters Avenue, Tampa",
+   "url": "https://www.wyndhamhotels.com/laquinta/tampa-florida/la-quinta-tampa-central/overview"
+  },
+  {
+   "name": "Hampton Inn Tampa Downtown Channel District",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1155 East Kennedy Boulevard, 33602, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpatbhx-hampton-tampa-downtown-channel-district/"
+  },
+  {
+   "name": "Hampton Inn & Suites by Hilton Tampa Busch Gardens",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3333 East Busch Boulevard, 33612, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpanbhx-hampton-suites-tampa-busch-gardens-area/"
+  },
+  {
+   "name": "Courtyard Tampa Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 East Cass Street, 33602, Tampa",
+   "url": "https://www.marriott.com/tpadt"
+  },
+  {
+   "name": "TownePlace Suites Tampa East/I-4",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6202 East Drive Martin Luther King Jr Boulevard, 33619, Tampa",
+   "url": "https://www.marriott.com/tpaif"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11606 McKinley Drive, 33612, Tampa",
+   "url": "https://www.hilton.com/en/hotels/tpasfht-home2-suites-tampa-usf-near-busch-gardens/"
+  },
+  {
+   "name": "Ramada Westshore Tampa Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 North West Shore Boulevard, 33607, Tampa",
+   "url": "https://www.wyndhamhotels.com/ramada/tampa-florida/ramada-tampa-westshore/overview"
+  },
+  {
+   "name": "The Tampa EDITION",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Channelside Drive, 33602, Tampa",
+   "url": "https://www.editionhotels.com/tampa/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1105 North Tampa Street, 33602, Tampa",
+   "url": "https://www.marriott.com/tpads"
+  },
+  {
+   "name": "Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "211 North Tampa Street, 33602, Tampa",
+   "url": "https://hilton.com/en/hotels/tpanthf-hilton-tampa-downtown/"
+  },
+  {
+   "name": "Tampa Airport Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4200 George J. Bean Parkway, 33634, Tampa",
+   "url": "https://www.marriott.com/hotels/travel/tpaap-tampa-airport-marriott/"
+  },
+  {
+   "name": "Hyatt Place Tampa/Busch Gardens",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11408 North 30th Street, 33612, Tampa",
+   "url": "https://www.hyatt.com/en-us/hotel/florida/hyatt-place-tampa-busch-gardens/tpazb"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Tampa-Fairgrounds-Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8610 Elm Fair Boulevard, 33610, Tampa",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tampa/tpafl/hoteldetail"
+  },
+  {
+   "name": "Econo Lodge Airport @ RJ Stadium",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4732 North Dale Mabry Highway, 33614, Tampa",
+   "url": "https://www.choicehotels.com/florida/wesley-chapel/sleep-inn-hotels"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Columbia Restaurant",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "2117 East 7th Avenue, 33602, Tampa",
+   "website": "https://www.columbiarestaurant.com/"
+  },
+  {
+   "name": "Lilac",
+   "cuisines": [
+    "Mediterranean",
+    "Fine Dining"
+   ],
+   "address": "500 Channelside Drive, 33602, Tampa",
+   "website": "https://www.lilacrestauranttampa.com/"
+  },
+  {
+   "name": "Mango's Southern Kitchen + Bar",
+   "cuisines": [
+    "Caribbean",
+    "Southern"
+   ],
+   "address": "5137 North Florida Avenue, 33603, Tampa",
+   "website": "https://www.mangoscafetampa.com/"
+  },
+  {
+   "name": "Hattrick's Sports Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "107 South Franklin Street, 33602, Tampa",
+   "website": "https://hattrickstavern.com/"
+  },
+  {
+   "name": "River's Edge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 North Ashley Drive, 33602, Tampa",
+   "website": "https://www.hoteltampariverwalk.com/best-restaurant-in-tampa/rivers-edge"
+  },
+  {
+   "name": "New York New York",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1512 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.nynypizzeria.com/Ybor_City.html"
+  },
+  {
+   "name": "Tampa Pizza Delivery",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5214 North Nebraska Avenue, 33603-2343, Tampa",
+   "website": "https://tampapizzadelivery-order.com/"
+  },
+  {
+   "name": "Ūlëlē",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1810 North Highland Avenue, 33602, Tampa",
+   "website": "https://ulele.com/"
+  },
+  {
+   "name": "Shrimp & Co.",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2202 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.shrimpandco.com/"
+  },
+  {
+   "name": "Chez Faby",
+   "cuisines": [
+    "French",
+    "Crepe",
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "500 North Tampa Street, 33602-4806, Tampa",
+   "website": "https://chez-faby.menu-world.com"
+  },
+  {
+   "name": "Due Amici",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1724 East 7th Avenue, 33605, Tampa",
+   "website": "https://dueamiciybor.com/"
+  },
+  {
+   "name": "wagamama",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1050 Water Street, 33602, Tampa",
+   "website": "https://www.wagamama.us/restaurants/tampa/tampa"
+  },
+  {
+   "name": "Bernini",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1702 East 7th Avenue, 33605, Tampa",
+   "website": "https://berniniofybor.com/"
+  },
+  {
+   "name": "Acropolis",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1831 East 7th Avenue, 33605, Tampa",
+   "website": "https://acropolistaverna.com/ybor-city/"
+  },
+  {
+   "name": "Noble Rice",
+   "cuisines": [
+    "Noodle",
+    "Sushi"
+   ],
+   "address": "615 Channelside Drive, 33602, Tampa",
+   "website": "https://www.noblericeco.com/"
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1001 Water Street, 33602, Tampa",
+   "website": "https://cava.com/locations/water-street-fl"
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "450 Channelside Drive, 33602, Tampa",
+   "website": "https://www.yardhouse.com/locations/fl/tampa/tampa-water-street/8394"
+  },
+  {
+   "name": "Jimmy's Tacos",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1604 North 17th Street, 33605, Tampa",
+   "website": "https://jimmystacosfl.com/"
+  },
+  {
+   "name": "El Puerto Argentinean Grill",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "1623 East 5th Avenue, 33605, Tampa",
+   "website": "https://www.elpuertoybor.com/"
+  },
+  {
+   "name": "Boulon Brasserie",
+   "cuisines": [
+    "French",
+    "Seafood",
+    "Steak House"
+   ],
+   "address": "1001 Water Street, 33602, Tampa",
+   "website": "https://www.boulontampa.com/"
+  },
+  {
+   "name": "Casa Santo Stefano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1607 North 22nd Street, 33605, Tampa",
+   "website": "https://casasantostefano.com"
+  },
+  {
+   "name": "Ella's Americana Folk Art Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5119 Nebraska Avenue, 33603, Tampa",
+   "website": "https://www.ellasfolkartcafe.com/"
+  },
+  {
+   "name": "Rasoi",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1701 East 8th Avenue, 33605, Tampa",
+   "website": "https://www.rasoitampa.com/"
+  },
+  {
+   "name": "First Watch Downtown Tampa",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "400 North Tampa Street, 33602, Tampa",
+   "website": "https://firstwatch.com/locations/dt-tampa/"
+  },
+  {
+   "name": "Bamboozle Channelside",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "109 North 12th Street, 33602, Tampa",
+   "website": "https://eatbamboozle.com/locations/#channelside"
+  },
+  {
+   "name": "L.P.C.X. Cafe",
+   "cuisines": [
+    "Colombian"
+   ],
+   "address": "6204 North Armenia Avenue, 33604, Tampa",
+   "website": "https://www.lpcxcafe.com/"
+  },
+  {
+   "name": "The Bricks Ybor",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1327 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.thebricksybor.com/"
+  },
+  {
+   "name": "Carmine's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1802 East 7th Avenue, 33605, Tampa",
+   "website": "https://carminesybor.com/"
+  },
+  {
+   "name": "Ocean Ink: Raw Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1632 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.oceaninkraw.com/"
+  },
+  {
+   "name": "Ash",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "420 South Nebraska Avenue, 33602, Tampa",
+   "website": "https://www.ashtampa.com/"
+  },
+  {
+   "name": "Jotoro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "615 Channelside Drive, 33602, Tampa",
+   "website": "https://www.jotoro.com/"
+  },
+  {
+   "name": "Monster Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1616 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.monsterpizzainc.com/"
+  },
+  {
+   "name": "Kpop Food",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1531 East 7th Avenue, 33605, Tampa",
+   "website": "https://yborkpopfood.peblla.com/"
+  },
+  {
+   "name": "Bamboozle Heights",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "7107 North Florida Avenue, 33604, Tampa",
+   "website": "https://eatbamboozle.com/"
+  },
+  {
+   "name": "Sal Rosa",
+   "cuisines": [
+    "Latin American",
+    "Spanish"
+   ],
+   "address": "601 North Florida Avenue, 33602, Tampa",
+   "website": "https://www.salrosatampa.com/"
+  },
+  {
+   "name": "SuperNatural Food & Wine",
+   "cuisines": [
+    "Breakfast",
+    "Sandwich",
+    "Brunch",
+    "Donut",
+    "Coffee Shop",
+    "Salad",
+    "Soup"
+   ],
+   "address": "305 East Polk Street, 33602, Tampa",
+   "website": "https://www.supernaturaltpa.com/"
+  },
+  {
+   "name": "Mema’s Alaskan Tacos",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "1903 North 19th Street, 33605, Tampa",
+   "website": "https://memasalaskantacos.com/"
+  },
+  {
+   "name": "Ichiban Sushi & Ramen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "5127 North Florida Avenue, 33603, Tampa",
+   "website": "https://tampaichibansushi.com/"
+  },
+  {
+   "name": "Barrio Tacos",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "1822 East 7th Avenue, 33605, Tampa",
+   "website": "https://barrio-tacos.com/locations/yborcity/"
+  },
+  {
+   "name": "Eddie & Sam's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "203 East Twiggs Street, 33602, Tampa",
+   "website": "https://www.eddieandsamspizza.com/"
+  },
+  {
+   "name": "Samurai Blue",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1600 East 8th Avenue, 33605, Tampa",
+   "website": "https://samuraiblue.com/"
+  },
+  {
+   "name": "The Pearl",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "823 Water Street, 33602, Tampa",
+   "website": "https://thepearlrestaurant.com/locations-menus/tampa/"
+  },
+  {
+   "name": "Market at EDITION",
+   "cuisines": [
+    "Italian",
+    "Coffee Shop",
+    "Pizza",
+    "Pasta",
+    "Pastry",
+    "Mediterranean"
+   ],
+   "address": "1000 Water Street, 33602, Tampa",
+   "website": "https://www.editionhotels.com/tampa/restaurants-and-bars/market-at-edition/"
+  },
+  {
+   "name": "Predalina",
+   "cuisines": [
+    "Portuguese",
+    "Mediterranean",
+    "Seafood"
+   ],
+   "address": "1001 East Cumberland Avenue, 33602, Tampa",
+   "website": "https://predalina.com/"
+  },
+  {
+   "name": "Ming Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2601 North Tampa Street, 33602, Tampa",
+   "website": "https://www.minggardentampa.com"
+  },
+  {
+   "name": "Pepper’s Island Restaurant",
+   "cuisines": [
+    "Trinidadian",
+    "Caribbean"
+   ],
+   "address": "1701 East 4th Avenue, 33605, Tampa",
+   "website": "https://peppersislandrestaurant.com/"
+  },
+  {
+   "name": "Urban Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "200 East Madison Street, 33602, Tampa",
+   "website": "https://www.urbancantina.com/"
+  },
+  {
+   "name": "Moxie's Cafe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "302 East Kennedy Blvd., 33602, Tampa",
+   "website": "https://www.moxiesdowntown.com"
+  },
+  {
+   "name": "Sweet Krunch",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1520 East 7th Avenue, 33605, Tampa",
+   "website": "https://sweetkrunchybor.com/"
+  },
+  {
+   "name": "Front Porch Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5924 North Florida Avenue, 33604, Tampa",
+   "website": "https://frontporchgrill.com/"
+  },
+  {
+   "name": "Asiatic",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1600 East 8th Avenue, 33605, Tampa",
+   "website": "https://asiaticstreetfood-noodle.com/"
+  },
+  {
+   "name": "Flor Fina",
+   "cuisines": [
+    "Latin"
+   ],
+   "address": "1412 East 7th Avenue, 33605, Tampa",
+   "website": "https://hotelhaya.com/"
+  },
+  {
+   "name": "Skins Par & Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "1600 East 7th Avenue, 33605, Tampa",
+   "website": "https://skinsparandgrill.com/"
+  },
+  {
+   "name": "La Central",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4410 North Florida Avenue, 33603, Tampa",
+   "website": "https://www.lacentraltacos.com/"
+  },
+  {
+   "name": "J's Asian Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "5229 North Florida Avenue, 33603, Tampa",
+   "website": "https://www.jsasiankitchen.info/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/tampa-fl-2216/"
+  },
+  {
+   "name": "The Flan Factory",
+   "cuisines": [
+    "Spanish",
+    "Cuban"
+   ],
+   "address": "1718 North Nebraska Avenue, 33602, Tampa",
+   "website": "https://www.flanfactory.com/"
+  },
+  {
+   "name": "Chanko",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "4603 N Florida Avenue, 33603, Tampa",
+   "website": "https://www.chanko-ichiban.com/"
+  },
+  {
+   "name": "Yeoman's Cask & Lion",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "202 North Morgan Street, 33602, Tampa",
+   "website": "https://www.yeomanscaskandlion.com/"
+  },
+  {
+   "name": "Three Coins Diner",
+   "cuisines": [
+    "American",
+    "Greek"
+   ],
+   "address": "7410 Nebraska Avenue, 33604",
+   "website": "https://3coinsdiner.wixsite.com/3coinsdiner"
+  },
+  {
+   "name": "Osteria Bar and Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "903 North Franklin Street, 33602, Tampa",
+   "website": "https://osteriatampa.com/"
+  },
+  {
+   "name": "Ebbe",
+   "cuisines": [
+    "Swedish"
+   ],
+   "address": "1202 North Franklin Street, 33602, Tampa",
+   "website": "https://www.chefebbe.com/"
+  },
+  {
+   "name": "Ebisu Sushi Shack",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "5116 North Nebraska Avenue",
+   "website": "https://ebisusushishack.com/"
+  },
+  {
+   "name": "Rosenheim Restaurant",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2001 North 22nd Street, 33605, Tampa",
+   "website": "https://rosenheimrestaurant.com/"
+  },
+  {
+   "name": "Mise En Place",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1229 East 8th Avenue, 30605, Tampa",
+   "website": "https://www.miseonline.com/"
+  },
+  {
+   "name": "Tampa Pizza Company",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "N Ashley Dr, 33602, Tampa",
+   "website": "https://tampapizzacompany.com/location/downtown-tampa/"
+  },
+  {
+   "name": "City Dog Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://checkle.menu/citydogcantina_tampa"
+  },
+  {
+   "name": "Falafel Inn",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": "https://www.falafelinngrill.com/"
+  },
+  {
+   "name": "Sunset Lotus",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.sunsetlotusfl.com/"
+  },
+  {
+   "name": "Gaudin",
+   "cuisines": [
+    "European"
+   ],
+   "address": "Tampa",
+   "website": "https://gaudintampa.com/"
+  },
+  {
+   "name": "Steelbach",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.steelbach.com/"
+  },
+  {
+   "name": "Butcher N' Barbeque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://butcherandbbq.com/"
+  },
+  {
+   "name": "Cafe Habana",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1901 North Howard Avenue, 33607, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Rick's on the River",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2305 North Willow Avenue, 33607, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Si-am",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "713 North Franklin Street, 33602, TampaUS",
+   "website": ""
+  },
+  {
+   "name": "Ho Ho To Go",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2502 West Columbus Drive, 33607, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Holy Hog",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Bus",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of Italy",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1811 North 15th Street, 33605, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Bavaro's Pizza Napoletana & Pastaria",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "514 North Franklin Street, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Samaria Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "502 North Tampa Street, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Tampa Burgers and Pirates",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "777 North Ashley Drive, Tampa",
+   "website": ""
+  },
+  {
+   "name": "The Hungry Greek",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "808 North Franklin Street, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Thee Burger Spot",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3917 North Tampa Street",
+   "website": ""
+  },
+  {
+   "name": "Happy Fish",
+   "cuisines": [
+    "Peruvian",
+    "Pizza"
+   ],
+   "address": "4046 Fiesta Plaza, 33607, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Borincuba Restaurant",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "2348 West Columbus Drive, 33607, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Just In Thyme Cafe",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "2140 Dr MLK Jr Blvd W, 33604",
+   "website": ""
+  },
+  {
+   "name": "Nick's Gyros & Subs",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Arco Iris",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh Fish Market",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Daddy's Soul Food",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "On-a-Roll Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Press Express Sandwiches",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Heights Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Terrazza Restaurant",
+   "cuisines": [],
+   "address": "1727 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.laterrazzayborcity.com/"
+  },
+  {
+   "name": "Dio Modern Mediterranean",
+   "cuisines": [],
+   "address": "519 North Franklin Street, 33602, Tampa",
+   "website": "https://diotampa.com/"
+  },
+  {
+   "name": "Small Giant Bar & Restaurant",
+   "cuisines": [],
+   "address": "1051 Water Street, 33602, Tampa",
+   "website": "https://www.smallgiantbar.com/"
+  },
+  {
+   "name": "Naked Farmer",
+   "cuisines": [],
+   "address": "1001 Water Street, 33602, Tampa",
+   "website": "https://www.eatnakedfarmer.com/tampa-water-street"
+  },
+  {
+   "name": "Lara",
+   "cuisines": [],
+   "address": "1919 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.tampalara.com"
+  },
+  {
+   "name": "Taqueria Gonzalez",
+   "cuisines": [],
+   "address": "1912 North Howard Avenue, 33607, Tampa",
+   "website": "https://www.taqueriagonzalez.getsauce.com/"
+  },
+  {
+   "name": "Top Shelf Sports Lounge",
+   "cuisines": [],
+   "address": "401 East Jackson Street, 33602, Tampa",
+   "website": "https://topshelfsportslounge.com/"
+  },
+  {
+   "name": "Rooster & the Till",
+   "cuisines": [],
+   "address": "6500 North Florida Avenue, 33604, Tampa",
+   "website": "http://www.roosterandthetill.com"
+  },
+  {
+   "name": "Cappy's Pizza",
+   "cuisines": [],
+   "address": "4910 North Florida Avenue, 33603, Tampa",
+   "website": "http://cappyspizzaonline.com/"
+  },
+  {
+   "name": "SoFresh",
+   "cuisines": [],
+   "address": "512 North Franklin Street, 33602, Tampa",
+   "website": "https://www.lovesofresh.com/"
+  },
+  {
+   "name": "Vale Food Co",
+   "cuisines": [],
+   "address": "501 North Franklin Street, 33602, Tampa",
+   "website": "https://www.valefoodco.com/"
+  },
+  {
+   "name": "Harvest Bowl Eatery And Market",
+   "cuisines": [],
+   "address": "6109 North Florida Avenue",
+   "website": "https://theharvestbowl.com/"
+  },
+  {
+   "name": "Aquanuve H2O",
+   "cuisines": [],
+   "address": "8850 North Florida Avenue",
+   "website": "https://www.aquanuve.com"
+  },
+  {
+   "name": "Bamboozle Tea Lounge",
+   "cuisines": [],
+   "address": "109 North 12th Street",
+   "website": "http://bamboozletealounge.menufy.com/"
+  },
+  {
+   "name": "Piccola Italia Bistro",
+   "cuisines": [],
+   "address": "2140 W Dr. Martin Luther King Jr. Blvd",
+   "website": "https://www.piccolaitaliabistro.com/"
+  },
+  {
+   "name": "ABC Pizza",
+   "cuisines": [],
+   "address": "1242 W Hillsborough Ave",
+   "website": "https://slicelife.com/restaurants/fl/tampa/33603/abc-pizza-house-1242-w-hillsborough-ave-tampa/menu"
+  },
+  {
+   "name": "Stone's Throw",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.stonesthrowtampa.com/"
+  },
+  {
+   "name": "Spain Restaurant & Toma Bar",
+   "cuisines": [],
+   "address": "513 North Tampa Street, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "The Grove",
+   "cuisines": [],
+   "address": "1930 East 7th Avenue, 33605, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Centro Lounge and Kitchen",
+   "cuisines": [],
+   "address": "1600 East 8th Avenue, 33605, Tampa",
+   "website": ""
+  },
+  {
+   "name": "The Hall on Franklin",
+   "cuisines": [],
+   "address": "1701 North Franklin Street, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Crepe Away",
+   "cuisines": [],
+   "address": "1600 East 8th Avenue, 33605, Tampa",
+   "website": ""
+  },
+  {
+   "name": "The Grass Root",
+   "cuisines": [],
+   "address": "N Florida Ave, 33602, Tampa",
+   "website": ""
+  },
+  {
+   "name": "Maestro's Restaurant",
+   "cuisines": [],
+   "address": "1010 N MacInnes Place, 33602",
+   "website": ""
+  },
+  {
+   "name": "La Di Da Gastro Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fusion Bowl",
+   "cuisines": [],
+   "address": "508 East Kennedy Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Fabrica Woodfired Pizza",
+   "cuisines": [],
+   "address": "142 South Meridian Avenue",
+   "website": ""
+  },
+  {
+   "name": "Wicked Oak BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "200 Copas",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Antojitos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Salem's Fresh Eats",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roast",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Morgan's Cove",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Garden Grille",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grub and Grog",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Paraiso Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicken House Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Reilly's Reserve",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Safara Lodge Food Court",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Graze",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zukku Sushi",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nori Nori Handrolls",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mekenita Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "SS American Victory;American Victory Museum",
+   "kind": "museum",
+   "address": "705 Channelside Drive, 33602, Tampa",
+   "website": "https://catalog.archives.gov/id/77842670",
+   "phone": "+1-813-228-8766",
+   "latitude": 27.9436838,
+   "longitude": -82.4441252
+  },
+  {
+   "name": "Henry B. Plant Museum",
+   "kind": "museum",
+   "address": "401 West Kennedy Boulevard, 33606, Tampa",
+   "website": "https://www.plantmuseum.com/",
+   "phone": "",
+   "latitude": 27.9462133,
+   "longitude": -82.4641818
+  },
+  {
+   "name": "Tampa Bay History Center",
+   "kind": "museum",
+   "address": "801 Water Street, 33602, Tampa",
+   "website": "https://tampabayhistorycenter.org/",
+   "phone": "+1-813 228 0097",
+   "latitude": 27.9422446,
+   "longitude": -82.4499013
+  },
+  {
+   "name": "Florida Museum of Photographic Arts",
+   "kind": "museum",
+   "address": "1630 East 7th Avenue, 33605, Tampa",
+   "website": "https://www.fmopa.org/",
+   "phone": "+1-813-221-2222",
+   "latitude": 27.9604911,
+   "longitude": -82.4406997
+  },
+  {
+   "name": "Tampa Museum of Art",
+   "kind": "museum",
+   "address": "120 West Gasparilla Plaza, 33602, Tampa",
+   "website": "https://tampamuseum.org/",
+   "phone": "",
+   "latitude": 27.94947,
+   "longitude": -82.4626004
+  },
+  {
+   "name": "Busch Gardens Tampa",
+   "kind": "theme park",
+   "address": "North McKinley Drive, 33612, Tampa",
+   "website": "https://buschgardens.com/tampa/",
+   "phone": "+1-813-884-4386",
+   "latitude": 28.0381069,
+   "longitude": -82.4212596
+  },
+  {
+   "name": "Adventure Island",
+   "kind": "theme park",
+   "address": "10001 North McKinley Drive, 33612, Tampa",
+   "website": "https://adventureisland.com/",
+   "phone": "+1-888-800-5447",
+   "latitude": 28.041912,
+   "longitude": -82.4131039
+  },
+  {
+   "name": "Florida Aquarium",
+   "kind": "aquarium",
+   "address": "701 Channelside Drive, 33602, Tampa",
+   "website": "https://www.flaquarium.org/",
+   "phone": "+1-813-273-4000",
+   "latitude": 27.9440393,
+   "longitude": -82.444863
+  },
+  {
+   "name": "Glazer Children's Museum",
+   "kind": "museum",
+   "address": "110 West Gasparilla Plaza, 33602, Tampa",
+   "website": "https://glazermuseum.org/",
+   "phone": "",
+   "latitude": 27.9495806,
+   "longitude": -82.4615063
+  },
+  {
+   "name": "Museum of Science & Industry",
+   "kind": "museum",
+   "address": "4801 East Fowler Avenue, 33617, Tampa",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0536228,
+   "longitude": -82.4043114
+  },
+  {
+   "name": "Cobra's Curse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0347653,
+   "longitude": -82.4185157
+  },
+  {
+   "name": "Ybor City Museum",
+   "kind": "museum",
+   "address": "1818 East 9th Avenue, 33605, Tampa",
+   "website": "https://www.yborcitymuseum.com/",
+   "phone": "+1-813-808-0941",
+   "latitude": 27.9619192,
+   "longitude": -82.4383459
+  },
+  {
+   "name": "R. K. Bailey Art Studios",
+   "kind": "gallery",
+   "address": "310 North Boulevard, 33606, Tampa",
+   "website": "https://www.ut.edu/art/baileyartstudios/",
+   "phone": "",
+   "latitude": 27.9467362,
+   "longitude": -82.4689319
+  },
+  {
+   "name": "Dean Street Fine Art Gallery",
+   "kind": "gallery",
+   "address": "403 West Grand Central Avenue, 33606, Tampa",
+   "website": "https://deanstreetgallery.com/",
+   "phone": "+1-813-696-1066",
+   "latitude": 27.9447129,
+   "longitude": -82.4643197
+  },
+  {
+   "name": "The Gallery at 1920",
+   "kind": "gallery",
+   "address": "1920 East 7th Avenue, 33605, Tampa",
+   "website": "https://1920yborcity.com/art/",
+   "phone": "",
+   "latitude": 27.9605359,
+   "longitude": -82.4374306
+  },
+  {
+   "name": "Tampa Fire Fighters Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://tampafirefightersmuseum.org/",
+   "phone": "",
+   "latitude": 27.9514908,
+   "longitude": -82.4550605
+  },
+  {
+   "name": "Iron Gwazi",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://buschgardens.com/tampa/roller-coasters/iron-gwazi/",
+   "phone": "",
+   "latitude": 28.0339842,
+   "longitude": -82.4230853
+  },
+  {
+   "name": "Cracker Country",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.crackercountry.org/",
+   "phone": "+1-813-621-7821",
+   "latitude": 27.9883477,
+   "longitude": -82.3618495
+  },
+  {
+   "name": "Science Discovery Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://zootampa.org",
+   "phone": "",
+   "latitude": 28.012569,
+   "longitude": -82.471464
+  },
+  {
+   "name": "University Of South Florida Contemporary Art Museum;Contemporary Art Museum",
+   "kind": "museum",
+   "address": "3821 USF Holly Drive, 33620, Tampa",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0634958,
+   "longitude": -82.4155503
+  },
+  {
+   "name": "Scarfone/Hartley Gallery",
+   "kind": "gallery",
+   "address": "310 North Boulevard, 33606, Tampa",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9467233,
+   "longitude": -82.4686919
+  },
+  {
+   "name": "ZooTampa at Lowry Park",
+   "kind": "zoo",
+   "address": "1101 West Sligh Avenue, 33767, Tampa",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0139772,
+   "longitude": -82.469928
+  },
+  {
+   "name": "Florida State Fairgrounds",
+   "kind": "attraction",
+   "address": "4800 us Highway 301, 33610",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9672515,
+   "longitude": -82.3898268
+  },
+  {
+   "name": "Columbia Centennial Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.960054,
+   "longitude": -82.4357007
+  },
+  {
+   "name": "Tampa's Lowry Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0142673,
+   "longitude": -82.4700304
+  },
+  {
+   "name": "Busch Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0359218,
+   "longitude": -82.4250362
+  },
+  {
+   "name": "Royal Caribbean cruise port",
+   "kind": "attraction",
+   "address": "651 Channelside Drive",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9431258,
+   "longitude": -82.4458949
+  },
+  {
+   "name": "Carnival cruise port",
+   "kind": "attraction",
+   "address": "815 Channelside Drive",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9457063,
+   "longitude": -82.444141
+  },
+  {
+   "name": "Kumba",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.039555,
+   "longitude": -82.4227388
+  },
+  {
+   "name": "Pirate Ship",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9768172,
+   "longitude": -82.5031638
+  },
+  {
+   "name": "Congo River Rapids",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0400646,
+   "longitude": -82.4239304
+  },
+  {
+   "name": "Cheetah Hunt",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0359229,
+   "longitude": -82.4204487
+  },
+  {
+   "name": "Ubanga-Banga Bumper Cars",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0389891,
+   "longitude": -82.4234953
+  },
+  {
+   "name": "Tampa Baseball Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9619946,
+   "longitude": -82.4377933
+  },
+  {
+   "name": "Air Grover",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0346066,
+   "longitude": -82.4253128
+  },
+  {
+   "name": "Stanleyville Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0379233,
+   "longitude": -82.4240679
+  },
+  {
+   "name": "401 Gardened Gazebo",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.062615,
+   "longitude": -82.4153902
+  },
+  {
+   "name": "402 Gardened Gazebo",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0626643,
+   "longitude": -82.4144381
+  },
+  {
+   "name": "Renaissance Fairground",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0517584,
+   "longitude": -82.4085009
+  },
+  {
+   "name": "Montu",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0343606,
+   "longitude": -82.4175724
+  },
+  {
+   "name": "Sheikra",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.036581,
+   "longitude": -82.4247082
+  },
+  {
+   "name": "Jungle Carousel",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0143959,
+   "longitude": -82.4704575
+  },
+  {
+   "name": "Tiger coaster",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.014847,
+   "longitude": -82.470141
+  },
+  {
+   "name": "Petting zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.014712,
+   "longitude": -82.469867
+  },
+  {
+   "name": "Bumper boats and flyin bananas",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.014361,
+   "longitude": -82.469427
+  },
+  {
+   "name": "Pony ride",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.014885,
+   "longitude": -82.469486
+  },
+  {
+   "name": "Train",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.014482,
+   "longitude": -82.469677
+  },
+  {
+   "name": "Giraffe Feeding & Viewing",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.016054,
+   "longitude": -82.470473
+  },
+  {
+   "name": "Shooters World",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0697388,
+   "longitude": -82.4625419
+  },
+  {
+   "name": "Treehouse trek",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0351963,
+   "longitude": -82.4256908
+  },
+  {
+   "name": "Margaritsville at Sea Port",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.9500216,
+   "longitude": -82.4438277
+  },
+  {
+   "name": "Stingray Bay",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0128165,
+   "longitude": -82.4710712
+  },
+  {
+   "name": "Asian Gardens",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0131181,
+   "longitude": -82.47044
+  },
+  {
+   "name": "Primate World",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.013805,
+   "longitude": -82.4706617
+  },
+  {
+   "name": "Free-Flight Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0139014,
+   "longitude": -82.47003
+  },
+  {
+   "name": "Wallaroo Station Children's Zoo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0145966,
+   "longitude": -82.4697352
+  },
+  {
+   "name": "Safari Africa",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0158965,
+   "longitude": -82.4700276
+  },
+  {
+   "name": "Manatee & Aquatic Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.012948,
+   "longitude": -82.471241
+  },
+  {
+   "name": "Manatee Hospital",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.012953,
+   "longitude": -82.4717304
+  },
+  {
+   "name": "Florida Boardwalk & Wildlife Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0140325,
+   "longitude": -82.4711861
+  },
+  {
+   "name": "Kangaroo Petting zoo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0329907,
+   "longitude": -82.4257582
+  },
+  {
+   "name": "Hippopotamus",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 28.0352156,
+   "longitude": -82.4203471
+  }
+ ]
+}

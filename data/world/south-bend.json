@@ -1,0 +1,1455 @@
+{
+ "city": "South Bend",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.6761,
+ "longitude": -86.25,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn & Suites South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52709 Indiana State Route 933, 46637, South Bend",
+   "url": "https://www.hilton.com/en/hotels/sbnhshx-hampton-suites-south-bend/"
+  },
+  {
+   "name": "Fairfield by Marriott Inn & Suites South Bend at Notre Dame",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1220 East Angela Boulevard, 46617, South Bend",
+   "url": "https://www.marriott.com/sbnnd"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "60971 Old US 31 South, 46614, South Bend",
+   "url": "https://www.choicehotels.com/michigan/niles/quality-inn-hotels"
+  },
+  {
+   "name": "Residence Inn by Marriott South Bend Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "231 Park Place, 46545, Mishawaka",
+   "url": "https://www.marriott.com/en-us/hotels/sbnmr-residence-inn-south-bend-mishawaka/overview/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 West University Drive, 46545, Mishawaka",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-mishawaka-in"
+  },
+  {
+   "name": "DoubleTree by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "123 North Saint Joseph Street, 46601, South Bend",
+   "url": "https://www.hilton.com/en/hotels/sbnsbdt-doubletree-south-bend/"
+  },
+  {
+   "name": "The Inn at Saint Mary's",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "53993 Indiana State Route 933, 46637, South Bend",
+   "url": "https://www.innatsaintmarys.com/"
+  },
+  {
+   "name": "La Quinta Inn & Suites South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23040 Lincolnway West, 46628, South Bend",
+   "url": "https://www.wyndhamhotels.com/laquinta/south-bend-indiana/la-quinta-south-bend/overview"
+  },
+  {
+   "name": "Best Western Plus Mishawaka Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "445 West University Drive, 46545, Mishawaka",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-mishawaka/best-western-plus-mishawaka-inn/propertyCode.15107.html"
+  },
+  {
+   "name": "Hampton Inn & Suites Mishawaka / South Bend at Heritage Square",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7347 Heritage Square Drive, 46530, Granger",
+   "url": "https://www.hilton.com/en/hotels/sbnsqhx-hampton-suites-mishawaka-south-bend-at-heritage-square/"
+  },
+  {
+   "name": "Courtyard South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "121 South Dr. Martin Luther King Jr. Boulevard, 46601, South Bend",
+   "url": "https://www.marriott.com/sbncd"
+  },
+  {
+   "name": "Home2 Suites by Hilton Mishawaka South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "211 East Day Road, 46545, Mishawaka",
+   "url": "https://www.hilton.com/en/hotels/sbnhtht-home2-suites-mishawaka-south-bend/?SEO_id=GMB-AMER-HT-SBNHTHT"
+  },
+  {
+   "name": "SpringHill Suites South Bend Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5225 Edison Lakes Parkway, 46545, Mishawaka",
+   "url": "https://www.marriott.com/sbnms"
+  },
+  {
+   "name": "Courtyard South Bend Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4825 North Main Street, 46545, Mishawaka",
+   "url": "https://www.marriott.com/sbncy"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 South Dixie Way, 46637, South Bend",
+   "url": "https://www.wyndhamhotels.com/baymont/south-bend-indiana/baymont-south-bend/overview"
+  },
+  {
+   "name": "Comfort Suites University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52939 Indiana 933, 46637, South Bend",
+   "url": "https://www.choicehotels.com/michigan/niles/quality-inn-hotels"
+  },
+  {
+   "name": "SpringHill Suites South Bend Notre Dame Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52721 SR 933, 46637, South Bend",
+   "url": "https://www.marriott.com/SBNSN"
+  },
+  {
+   "name": "Sleep Inn South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4134 Lincolnway West, 46628, South Bend",
+   "url": "https://www.choicehotels.com/michigan/new-buffalo/comfort-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites South Bend Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "425 West University Drive, 46545, Mishawaka",
+   "url": "https://www.marriott.com/sbnfi"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5640 North Main Street, 46545, Mishawaka",
+   "url": "https://www.choicehotels.com/michigan/niles/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "224 Florence Avenue, 46530, Granger",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/granger/ekigr/hoteldetail"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 Callander Street, 46614, South Bend",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/south-bend/sbnes/hoteldetail"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Indiana 933, 46637, South Bend",
+   "url": "https://www.wyndhamhotels.com/laquinta/south-bend-indiana/la-quinta-inn-and-suites-south-bend-near-notre-dame/overview"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "53995 Indiana State Route 933, 46637, South Bend",
+   "url": "https://www.hilton.com/en/hotels/sbningi-hilton-garden-inn-south-bend/"
+  },
+  {
+   "name": "Embassy Suites by Hilton South Bend at Notre Dame",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1140 East Angela Boulevard, 46617, South Bend",
+   "url": "https://www.hilton.com/en/hotels/sbneses-embassy-suites-south-bend-at-notre-dame/"
+  },
+  {
+   "name": "Hyatt Place South Bend/Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 West Day Road, 46545, Mishawaka",
+   "url": "https://southbend.place.hyatt.com/en/hotel/home.html"
+  },
+  {
+   "name": "Ivy Court Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1404 Ivy Court, 46637, South Bend",
+   "url": "https://www.ivycourt.com"
+  },
+  {
+   "name": "Aloft South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 North Main Street, 46601, South Bend",
+   "url": "https://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=4317&language=en_US&localeCode=en_US"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52860 Indiana 933, 46637, South Bend",
+   "url": ""
+  },
+  {
+   "name": "Super 8 by Wyndham South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4124 Ameritech Drive, 46628, South Bend",
+   "url": ""
+  },
+  {
+   "name": "Suburban Extended Stay Hotel South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52825 Indiana 933, 46637, South Bend",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites South Bend",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4124 Lincolnway West, 46628, South Bend",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5305 North Main Street, 46545, Mishawaka",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Mishawaka - Notre Dame",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1325 East University Drive, 46530, Granger",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "425 North Dixie Way, 46637, Roseland",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1208 East Douglas Road, 46545, Mishawaka",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1220 East Douglas Road, 46545, Mishawaka",
+   "url": ""
+  },
+  {
+   "name": "Beiger Mansion",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "317 Lincoln Way East, 46544, Mishawaka",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham South Bend/At Notre Dame",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites By Carlson, Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Super 8 Mishawaka",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Suburban Studios",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Oliver Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Clover Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Morris Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Shirley Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Varsity Clubs of America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cushing Manor Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Kayla apple",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clover Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Chimichurri",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "601 East Jefferson Boulevard, 46617, South Bend",
+   "website": "https://chimichurriargentineanfoodin.com/"
+  },
+  {
+   "name": "Hagerty",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "Duncan Student Center, 46556, Notre Dame",
+   "website": "https://dining.nd.edu/locations-menus/hagerty-family-cafe/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2017 South Bend Avenue, 46637, South Bend",
+   "website": "https://locations.pizzahut.com/in/south-bend/2017-south-bend-ave"
+  },
+  {
+   "name": "Cambodian Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "235 South Michigan Street, 46601, South Bend",
+   "website": "http://cambodianthai.com/"
+  },
+  {
+   "name": "Garbanzo Mediterranean Fresh",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "100 Hesburgh Center, 46556, Notre Dame",
+   "website": "https://dining.nd.edu/locations-menus/garbanzo/"
+  },
+  {
+   "name": "Cinco 5 International",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "112 West Colfax Avenue, 46601-1602, South Bend",
+   "website": "http://www.cinco5sb.com/"
+  },
+  {
+   "name": "Whole Hogz BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "209 South Michigan Street, 46601, South Bend",
+   "website": "https://wholehogz.com/"
+  },
+  {
+   "name": "Barnaby's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "713 East Jefferson Boulevard, 46617, South Bend",
+   "website": "https://barnabys-pizza.com/"
+  },
+  {
+   "name": "The Early Bird Eatery",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "117 East Wayne Street, 46601, South Bend",
+   "website": "https://www.theearlybirdeatery.com/"
+  },
+  {
+   "name": "T. Allen's King Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "North Dixie Way",
+   "website": "https://tallenskinggyros.com/"
+  },
+  {
+   "name": "Street Fare",
+   "cuisines": [
+    "Burger",
+    "Tex-Mex"
+   ],
+   "address": "LaFortune Student Center, 46556, Notre Dame",
+   "website": "https://experience.nd.edu/dine/dining-locations/street-fare/"
+  },
+  {
+   "name": "Hall's Kitchen Pizza & Subs",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "902",
+   "website": "https://hallskitchen.com"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://locations.chuckecheese.com/us/in/mishawaka/822-w.-mckinley-ave"
+  },
+  {
+   "name": "Crooked Ewe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1047 Lincoln Way West",
+   "website": "https://crookedewe.com"
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "423 Dixie Way, 46637, Roseland",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1130 East Angela Boulevard, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1234 North Eddy Street, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Tossed ToGo",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "2022 South Bend Avenue, 46637, South Bend",
+   "website": ""
+  },
+  {
+   "name": "The Original Pancake House",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1430 North Ironwood Drive",
+   "website": ""
+  },
+  {
+   "name": "El Tecate",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "450 South Carlisle Street, 46619, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Franky's tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2720 East Mishawaka Avenue, 46615, South Bend",
+   "website": ""
+  },
+  {
+   "name": "BRU Burger Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1234 North Eddy Street, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Elia's Mediterranean Cusine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2128 South Bend Avenue, 46637, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Mummy Lue African Food",
+   "cuisines": [
+    "African"
+   ],
+   "address": "701 North Niles Avenue, 46617-1923, South Bend",
+   "website": ""
+  },
+  {
+   "name": "El Sinaloense",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2224 West Western Avenue, 46619, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Los Tres Mangos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2518 West Western Avenue, 46619, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Dixie Way",
+   "website": ""
+  },
+  {
+   "name": "La Esperanza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1636 North Ironwood Drive",
+   "website": ""
+  },
+  {
+   "name": "Rohr's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1399 North Notre Dame Avenue, 46556",
+   "website": ""
+  },
+  {
+   "name": "The Skillet",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "2212 McKinley Avenue, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Taquerias Manjeres",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1724 North Ironwood Drive, 46635",
+   "website": ""
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "J.W. Chen's",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luigi's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bruno's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pinellia",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dew Drop Inn Restaurant",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rocco's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ichiban",
+   "cuisines": [
+    "Japanese",
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seoul Garden",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ho Ping House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fat Cap Smoked Meats",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Weiss' Gasthaus",
+   "cuisines": [
+    "German"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Manjares de Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Volcano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Tarascas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K & K Smoke House",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Chicago",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mariscos Playa Azul",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don Juan Cantina & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saylor's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "East Bank Emporium",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Polito's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lights of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noodle Alley",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cosimo & Susie's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mishawaka Grill",
+   "cuisines": [
+    "Mexican",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Guadalupe's Mexican Grill",
+   "cuisines": [],
+   "address": "2031 South Bend Avenue, 46637-5686, South Bend",
+   "website": "https://www.guadalupes.com"
+  },
+  {
+   "name": "Noble Romans Pizza",
+   "cuisines": [],
+   "address": "1022 W Jefferson Blvd, 46545, Mishawaka",
+   "website": "https://nobleromanspizzas.com"
+  },
+  {
+   "name": "Ironhand Wine Bar",
+   "cuisines": [],
+   "address": "1025 Northside Boulevard, 46615, South Bend",
+   "website": "https://ironhandvineyard.com"
+  },
+  {
+   "name": "Roselily",
+   "cuisines": [],
+   "address": "701 South Main Street, 46601, South Bend",
+   "website": "https://www.roselilysouthbend.com/"
+  },
+  {
+   "name": "Thyme of Grace",
+   "cuisines": [],
+   "address": "2714 E Mishawaka Avenue, 46615, South Bend",
+   "website": "thymeofgrace.com"
+  },
+  {
+   "name": "The Cellar Wine Bar & Kitchen",
+   "cuisines": [],
+   "address": "702 East Jefferson Boulevard, 46617, South Bend",
+   "website": "https://sbcellarwine.com/"
+  },
+  {
+   "name": "Nick's Patio",
+   "cuisines": [],
+   "address": "1710 North Ironwood Drive",
+   "website": "https://nickspatio.com"
+  },
+  {
+   "name": "The Lauber",
+   "cuisines": [],
+   "address": "504 East LaSalle Avenue, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Murphy’s Ice Cream Shoppe",
+   "cuisines": [],
+   "address": "1044 East Angela Boulevard, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "No. 6 Scratch Kitchen",
+   "cuisines": [],
+   "address": "701 Portage Avenue, 46616, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Traditions",
+   "cuisines": [],
+   "address": "1140 East Angela Boulevard, 46617, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Gio's Pancake House",
+   "cuisines": [],
+   "address": "2524 Lincolnway West",
+   "website": ""
+  },
+  {
+   "name": "Boo's Backyard BBQ",
+   "cuisines": [],
+   "address": "1526 Mishawaka Avenue, South Bend",
+   "website": ""
+  },
+  {
+   "name": "Mitchs' Corner Sports Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bonnie Doon Drive-In",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peggs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hi Ho Chop Suey",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Legends of Notre Dame",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mandarin House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Bucket",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Allie's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bill's Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frankie's BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bendix Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tony's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lonnie's Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Lodge Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tradewinds",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Madison Oyster Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Linden Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ben's Soft Pretzels",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Aces Mexican Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Puerto Vallarta Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cre-Asian Vietnamese Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "iFuse Sports Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Snite Museum",
+   "kind": "museum",
+   "address": "100 Moose Krause Circle, 46556, Notre Dame",
+   "website": "https://sniteartmuseum.nd.edu/",
+   "phone": "+1-574-631-5466",
+   "latitude": 41.6996321,
+   "longitude": -86.2357152
+  },
+  {
+   "name": "Potawatomi Zoo",
+   "kind": "zoo",
+   "address": "500 South Greenlawn Avenue, 46615, South Bend",
+   "website": "https://www.potawatomizoo.org",
+   "phone": "",
+   "latitude": 41.6702348,
+   "longitude": -86.2183553
+  },
+  {
+   "name": "South Bend Museum of Art",
+   "kind": "museum",
+   "address": "120 South Dr. Martin Luther King Jr. Boulevard, 46601, South Bend",
+   "website": "https://southbendart.org/",
+   "phone": "",
+   "latitude": 41.676114,
+   "longitude": -86.2482922
+  },
+  {
+   "name": "Civil Rights Heritage Center",
+   "kind": "museum",
+   "address": "1040 West Washington Street, 46601, South Bend",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6759799,
+   "longitude": -86.2658679
+  },
+  {
+   "name": "The Oliver Mansion",
+   "kind": "museum",
+   "address": "808 West Washington Street, South Bend",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6758311,
+   "longitude": -86.2620905
+  },
+  {
+   "name": "The Studebaker National Museum",
+   "kind": "museum",
+   "address": "201 Chapin Street, South Bend",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6747053,
+   "longitude": -86.2619298
+  },
+  {
+   "name": "Children's Museum of South Bend",
+   "kind": "museum",
+   "address": "2632 South Michigan Street, 46614, South Bend",
+   "website": "https://childrensmuseumofsouthbend.org/",
+   "phone": "",
+   "latitude": 41.646794,
+   "longitude": -86.2492744
+  },
+  {
+   "name": "Indiana Dinosaur Museum",
+   "kind": "museum",
+   "address": "7102 Lincolnway West, 46628",
+   "website": "https://www.indianadinosaurmuseum.org/",
+   "phone": "",
+   "latitude": 41.7076837,
+   "longitude": -86.3465879
+  },
+  {
+   "name": "Raclin Murphy Museum of Art",
+   "kind": "museum",
+   "address": "St André Way, 46556, Notre Dame",
+   "website": "",
+   "phone": "+1-574-631-5466",
+   "latitude": 41.693823,
+   "longitude": -86.2350846
+  },
+  {
+   "name": "The History Museum",
+   "kind": "museum",
+   "address": "808 West Washington Street, South Bend",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6749985,
+   "longitude": -86.2625872
+  },
+  {
+   "name": "St. Joseph County Fairgrounds",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.620195,
+   "longitude": -86.2203396
+  },
+  {
+   "name": "Art + Elements",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6563029,
+   "longitude": -86.185546
+  },
+  {
+   "name": "HealthWorks! Kids' Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6751787,
+   "longitude": -86.2517286
+  },
+  {
+   "name": "Mishawaka Sports Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.66097,
+   "longitude": -86.1800875
+  },
+  {
+   "name": "Birthday Chair",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6867263,
+   "longitude": -86.2611659
+  }
+ ]
+}
