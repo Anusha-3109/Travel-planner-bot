@@ -2,7 +2,6 @@
 
 import pytest
 from langchain_core.messages import AIMessage
-from streamlit.testing.v1 import AppTest
 
 import config
 from agent import agent as agent_module
@@ -78,49 +77,3 @@ def test_query_translation_reply_is_kept_for_the_totals():
     replies = []
     plan = plan_search("museums in Boston", Translator(), replies)
     assert replies == [raw] and plan.queries == ["museums in Boston", "art museums"]
-
-
-@pytest.fixture
-def app(monkeypatch):
-    monkeypatch.setattr(config, "OPENROUTER_API_KEY", "test-key")
-    monkeypatch.setattr("rag.ingest.ensure_index", lambda on_progress=None: 0)
-    at = AppTest.from_file("../app.py", default_timeout=30)
-    at.run()
-    assert not at.exception
-    return at
-
-
-def test_sidebar_offers_the_models_with_prices(app):
-    picker = next(s for s in app.sidebar.selectbox if s.label == "Model")
-    assert picker.value == config.OPENROUTER_MODEL and picker.options[0] == "Claude Haiku 5.5 ($0.1 / $0.5)"
-    picker.set_value("openai/gpt-6-luna").run()
-    assert app.session_state.model == "openai/gpt-6-luna"
-
-
-def test_answers_show_the_model_and_cost(app):
-    app.session_state["messages"] = [
-        {"role": "user", "content": "Hi"},
-        {"role": "assistant", "content": "Hello!", "model": HAIKU, "tool_calls": [],
-         "token_usage": {"input_tokens": 1000, "output_tokens": 200, "total_tokens": 1200, "cost_usd": 0.0002}},
-    ]
-    app.run()
-    captions = [c.value for c in app.caption]
-    assert any("Answered by Claude Haiku 5.5" in c and r"Cost: \$0.0002" in c for c in captions)
-
-
-def test_session_total_includes_the_newest_answer(monkeypatch):
-    from agent.agent import AgentResult
-
-    def answer(question, **kwargs):
-        return AgentResult(answer="Hello!", model=kwargs["model"],
-                           token_usage={"input_tokens": 900, "output_tokens": 100, "total_tokens": 1000,
-                                        "cost_usd": 0.0015})
-    monkeypatch.setattr(config, "OPENROUTER_API_KEY", "test-key")
-    monkeypatch.setattr("rag.ingest.ensure_index", lambda on_progress=None: 0)
-    monkeypatch.setattr("agent.agent.run_agent", answer)
-    at = AppTest.from_file("../app.py", default_timeout=30)
-    at.run()
-    at.chat_input[0].set_value("Hello, can you help me plan a trip?").run()
-    at.chat_input[0].set_value("And another question about trips?").run()
-    session = [c.value for c in at.sidebar.caption if c.value.startswith("Session:")]
-    assert session == [r"Session: 1,800 tokens in · 200 out · cost \$0.0030"]

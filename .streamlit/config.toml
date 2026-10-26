@@ -1,0 +1,14 @@
+# Dark theme, close to the reference screenshots.
+[theme]
+base = "dark"
+primaryColor = "#3b82f6"
+backgroundColor = "#141518"
+secondaryBackgroundColor = "#1d1f24"
+textColor = "#e6e7ea"
+borderColor = "#2c2f36"
+showWidgetBorder = true
+baseRadius = "medium"
+font = "sans-serif"
+
+[theme.sidebar]
+backgroundColor = "#101114"

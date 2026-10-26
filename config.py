@@ -44,6 +44,7 @@ TRAVELPLANNER_DIR = DATA_DIR / "travelplanner"
 WORLD_DIR = DATA_DIR / "world"
 CHROMA_DIR = ROOT_DIR / ".chroma"
 CACHE_DB = ROOT_DIR / ".cache" / "live.sqlite3"
+HISTORY_DB = ROOT_DIR / ".history" / "chats.sqlite3"  # saved chats and the request log (git-ignored)
 COLLECTION_NAME = "travelplanner_places"
 
 INDEX_BATCH_SIZE = 500

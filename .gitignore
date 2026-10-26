@@ -11,6 +11,7 @@ data/travelplanner/
 
 # Live API answers, re-fetched when expired
 .cache/
+.history/
 
 # Local Claude Code launch settings
 .claude/
