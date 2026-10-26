@@ -1,0 +1,215 @@
+{
+ "city": "International Falls",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 48.594,
+ "longitude": -93.2857,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2331 Highway 53, 56649, International Falls",
+   "url": "https://www.wyndhamhotels.com/days-inn/international-falls-minnesota/days-inn-international-falls/overview"
+  },
+  {
+   "name": "Cantilever Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2078 Spruce Street, 56668, Ranier",
+   "url": "https://cantileverdistillery.com"
+  },
+  {
+   "name": "Americas Best Value Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2326 Highway 53, 56649, International Falls",
+   "url": ""
+  },
+  {
+   "name": "The Nomad Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 Riverview Boulevard, 56649, International Falls",
+   "url": ""
+  },
+  {
+   "name": "Northern Lights Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1602 2nd Avenue, 56649, International Falls",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotels",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Sleepy Owl",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hilltop Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Rambler",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bayview Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "La Place Rendez-Vous Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Copper River Inn & Conference Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Falls Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Lake House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Almost Lindys Swill & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Fort Frances Museum and Cultural Centre",
+   "kind": "museum",
+   "address": "",
+   "website": "https://fortfrances.ca/experience/activities-amenities/museum",
+   "phone": "",
+   "latitude": 48.6097137,
+   "longitude": -93.3968615
+  },
+  {
+   "name": "Bronko Nagurski Monument;Koochiching County Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.6034488,
+   "longitude": -93.4086587
+  },
+  {
+   "name": "Little American Island Dock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.6029128,
+   "longitude": -93.1687005
+  },
+  {
+   "name": "Minnesota Welcomes You Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.6018933,
+   "longitude": -93.4019413
+  }
+ ]
+}

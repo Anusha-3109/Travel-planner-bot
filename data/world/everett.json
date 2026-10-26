@@ -1,0 +1,1039 @@
+{
+ "city": "Everett",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.9679,
+ "longitude": -122.217,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "131 128th Street Southwest, 98204, Everett",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/everett/paeve/hoteldetail"
+  },
+  {
+   "name": "Courtyard by Marriott Seattle Everett Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3003 Colby Avenue, 98201, Everett",
+   "url": "https://www.marriott.com/hotels/travel/seaev-courtyard-seattle-everett-downtown/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2931 West Marine View Drive, 98201, Everett",
+   "url": "https://www.hilton.com/en/hotels/seaedhx-hampton-seattle-everett/"
+  },
+  {
+   "name": "Hampton Inn Seattle/Everett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2931 West Marine View Drive, 98201, Everett",
+   "url": "https://www.hilton.com/en/hotels/seaedhx-hampton-seattle-everett/"
+  },
+  {
+   "name": "TownePlace Suites Seattle Everett/Mukilteo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8521 Mukilteo Speedway, 98275, Mukilteo",
+   "url": "https://www.marriott.com/seats"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8401 Paine Field Boulevard, 98275, Mukilteo",
+   "url": "https://www.hilton.com/en/hotels/paewagi-hilton-garden-inn-seattle-north-everett/"
+  },
+  {
+   "name": "Travelodge Everett City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3030 Broadway, 98201, Everett",
+   "url": "https://www.wyndhamhotels.com/travelodge/everett-washington/travelodge-everett-city-center/overview"
+  },
+  {
+   "name": "Silver Cloud Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "718 Front Street, 98275, Mukilteo",
+   "url": "https://www.silvercloud.com/mukilteo/"
+  },
+  {
+   "name": "Delta Hotels Seattle Everett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3105 Pine Street, 98201, Everett",
+   "url": "https://www.marriott.com/en-us/hotels/seavt-delta-hotels-seattle-everett/overview/"
+  },
+  {
+   "name": "Best Western Cascadia Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2800 Pacific Avenue, 98201-4528, Everett",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-everett/best-western-cascadia-inn/propertyCode.48122.html"
+  },
+  {
+   "name": "La Quinta Inn Everett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/everett-washington/la-quinta-inn-everett/overview"
+  },
+  {
+   "name": "Village Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 Beach Avenue, 98270, Marysville",
+   "url": "https://villageinnsuite.com/"
+  },
+  {
+   "name": "Hotel Indigo Seattle Everett Waterfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1028 13th Street, Everett",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/everett/paeer/hoteldetail"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.qualityinn.com/hotel-everett-washington-WA146"
+  },
+  {
+   "name": "Motel 6 Everett South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.motel6.com/reservations/motel_detail.aspx?num=1331"
+  },
+  {
+   "name": "Executive Residency by Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10210 Evergreen Way, 98204, Everett",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8410 Broadway Avenue, 98208, Everett",
+   "url": ""
+  },
+  {
+   "name": "Inn at Port Gardner-Everett Waterfront, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 West Marine View Drive, 98207, Everett",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn Seattle Everett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn - Marysville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Seattle - Everett - Silverlake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Seattle North-Everett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Koz on Broadway",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Welcome Everett Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunrise Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Farwest Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "STRGZR Coffee & Kitchen",
+   "cuisines": [
+    "Brunch",
+    "Coffee Shop",
+    "Burger",
+    "Sandwich",
+    "Breakfast",
+    "Tea",
+    "Pancake",
+    "Fries"
+   ],
+   "address": "1422 Hewitt Avenue, Everett",
+   "website": "https://strgzrkitchen.com/"
+  },
+  {
+   "name": "Wasabi Factory",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "7415 Hardeson Road, 98203, Everett",
+   "website": "https://www.wasabi-factory.com/"
+  },
+  {
+   "name": "The New Mexicans",
+   "cuisines": [
+    "Mexican",
+    "Breakfast"
+   ],
+   "address": "1416 Hewitt Avenue, 98201, Everett",
+   "website": "https://www.thenewmexicanseverett.com/"
+  },
+  {
+   "name": "Flying Pig",
+   "cuisines": [
+    "Burger",
+    "Bar And Grill"
+   ],
+   "address": "1414 Hewitt Avenue, 98201, Everett",
+   "website": "https://flyingpigeverett.com/"
+  },
+  {
+   "name": "The Net Shed Fish Market & Kitchen",
+   "cuisines": [
+    "Fish And Chips",
+    "Fish"
+   ],
+   "address": "1500 Seiner Drive, 98201, Everett",
+   "website": "https://www.thenetshed.com/"
+  },
+  {
+   "name": "Marina Azul Cocina & Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1500 Seiner Drive, 98201, Everett",
+   "website": "https://marinaazul.net/"
+  },
+  {
+   "name": "J & L BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2915 Colby Avenue",
+   "website": "https://jandlbbqeverett.com/"
+  },
+  {
+   "name": "Botan Ramen n' Teriyaki",
+   "cuisines": [
+    "Asian",
+    "Japanese",
+    "Noodle",
+    "Ramen"
+   ],
+   "address": "902, 98201",
+   "website": "https://www.botanramen.com/"
+  },
+  {
+   "name": "Thai Gusto",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2011 Hewitt Avenue, 98201, Everett",
+   "website": "https://thaigusto.com/"
+  },
+  {
+   "name": "Jade Garden Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3133 Broadway, 98203",
+   "website": "https://www.jadegardenwa.com/"
+  },
+  {
+   "name": "Fisherman Jack's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1410 Seiner Drive, 98201, Everett",
+   "website": "https://www.fishermanjacks.com/"
+  },
+  {
+   "name": "Memos Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "6919 Evergreen Way, 98203, Everett",
+   "website": "https://memosmexicanfood.com/"
+  },
+  {
+   "name": "Totem Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "440 Rucker Avenue",
+   "website": "https://www.totemdiner.com/"
+  },
+  {
+   "name": "Umami",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Bubble Tea"
+   ],
+   "address": "902 North Broadway, 98201, Everett",
+   "website": "http://umamieverett.com"
+  },
+  {
+   "name": "Mikie's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4532 Evergreen Way, 98203, Everett",
+   "website": "https://mikieseverett.com/"
+  },
+  {
+   "name": "Anthony's HomePort Everett",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://www.anthonys.com/restaurants/detail/anthonys-homeport-everett/"
+  },
+  {
+   "name": "Café uu",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2925 Wetmore Avenue, Everett",
+   "website": "https://cafeuu.com"
+  },
+  {
+   "name": "El Paraiso Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2801 Colby Avenue",
+   "website": "https://elparaisomexicangrill.com/"
+  },
+  {
+   "name": "Sabaijai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1707 Hewitt Avenue",
+   "website": "https://www.sabaijaithai.com/"
+  },
+  {
+   "name": "Giannis Restaurant and Pizzeria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5030, 98203",
+   "website": "https://giannisitaliano.com/"
+  },
+  {
+   "name": "Washington Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5028, 98203",
+   "website": "https://casatequilawa.com/"
+  },
+  {
+   "name": "Nick's Jr Burgers and Gyros",
+   "cuisines": [
+    "Greek",
+    "Burger"
+   ],
+   "address": "",
+   "website": "http://www.nicksjrburgers.com/"
+  },
+  {
+   "name": "Ivar's Seafood Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://www.ivars.com/locations/seafood-bars"
+  },
+  {
+   "name": "Anthony's Woodfire Grill",
+   "cuisines": [
+    "Burger",
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://www.anthonys.com/restaurants/detail/anthonys-woodfire-grill/"
+  },
+  {
+   "name": "J Ramen & Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1011 Hewitt Avenue",
+   "website": "https://www.jramensushi.com"
+  },
+  {
+   "name": "Pho on Broadway",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": "https://foodeist.com/place/phoonbroadway"
+  },
+  {
+   "name": "Kate's American & Greek Deli",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2512 Colby Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Kai Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2811-A Colby Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Yummy Bánh Mì",
+   "cuisines": [
+    "Bubble Tea",
+    "Vietnamese"
+   ],
+   "address": "1606 Hewitt Avenue",
+   "website": ""
+  },
+  {
+   "name": "Rum Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2725 Colby Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Dona Mari Taco Truck",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "710 North Broadway Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Oishi Teriyaki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2030 Broadway, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "El Sabor de Chihuahua",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "7405 Hardeson Road, 98203, Everett",
+   "website": ""
+  },
+  {
+   "name": "Romio’s Pizza & Pasta",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2714 Colby Avenue, Everett",
+   "website": ""
+  },
+  {
+   "name": "Sol De Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2019 Hewitt Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Botan Ramen n'Bar",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2803 Colby Avenue",
+   "website": ""
+  },
+  {
+   "name": "Colby Diner",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2720 Colby Avenue",
+   "website": ""
+  },
+  {
+   "name": "Amante Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1409 Hewitt Avenue",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Teriyaki",
+   "cuisines": [
+    "Teriyaki"
+   ],
+   "address": "2804 Colby Avenue",
+   "website": ""
+  },
+  {
+   "name": "Janbo Cafe",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Town Story",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ichiban Teriyaki",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ruen Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lanna Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alfy's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King Noodle",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "A Pizza House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ubuntu Bar & Grill",
+   "cuisines": [],
+   "address": "7425 Hardeson Road, 98203, Everett",
+   "website": "https://ubuntubarandgrill.com"
+  },
+  {
+   "name": "Rustic Cork at The Port",
+   "cuisines": [],
+   "address": "1420 Seiner Drive, 98201, Everett",
+   "website": "https://rusticcorkwinebar.com"
+  },
+  {
+   "name": "Thaï Valley",
+   "cuisines": [],
+   "address": "7405 Hardeson Road, 98203, Everett",
+   "website": "https://www.thaivalley-restaurant.com/"
+  },
+  {
+   "name": "Tapped at The Port",
+   "cuisines": [],
+   "address": "1420 Seiner Drive, 98201, Everett",
+   "website": "https://www.tappedpublichouse.com/at-the-port"
+  },
+  {
+   "name": "Lombardi's in Everett",
+   "cuisines": [],
+   "address": "1620 West Marine View Drive, 98201, Everett",
+   "website": "https://www.lombardisitalian.com/everett-location"
+  },
+  {
+   "name": "The Muse",
+   "cuisines": [],
+   "address": "615 Millwright Loop, 98206, Everett",
+   "website": "https://www.thewhiskeymuse.com/"
+  },
+  {
+   "name": "The Sisters Restaurant",
+   "cuisines": [],
+   "address": "2804 Grand Avenue, 98201",
+   "website": "https://thesistersrestaurant.godaddysites.com/"
+  },
+  {
+   "name": "Senor California Mexican Grill",
+   "cuisines": [],
+   "address": "4305 Rucker Avenue",
+   "website": "https://www.senorcalifornia.com/"
+  },
+  {
+   "name": "Katana Sushi",
+   "cuisines": [],
+   "address": "2818 Hewitt Avenue",
+   "website": "https://www.katanasushieverett.com/"
+  },
+  {
+   "name": "Major League Pizza",
+   "cuisines": [],
+   "address": "2811-C",
+   "website": "https://www.majorleaguepizza.com/"
+  },
+  {
+   "name": "Tacos and Beer",
+   "cuisines": [],
+   "address": "1405 Hewitt Ave, Everett, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Vintage Cafe",
+   "cuisines": [],
+   "address": "1510 Hewitt Avenue, Everett",
+   "website": ""
+  },
+  {
+   "name": "That Chicken Place",
+   "cuisines": [],
+   "address": "1907 Hewitt Avenue, 98201, Everett",
+   "website": ""
+  },
+  {
+   "name": "Strawberry Patch Cafe",
+   "cuisines": [],
+   "address": "2718 Colby Avenue",
+   "website": ""
+  },
+  {
+   "name": "Eight Ball Cafe",
+   "cuisines": [],
+   "address": "2727 Colby Avenue",
+   "website": ""
+  },
+  {
+   "name": "Noble Palace",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Plaza Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Curries Indian Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Sisters",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Domino's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "White Buffalo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Memos Mexican Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seafood Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clubhouse Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brooklyn Bros Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Loma Bonita",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Flying Heritage & Combat Armor Museum",
+   "kind": "museum",
+   "address": "3407 109th Street Southwest, 98204, Everett",
+   "website": "http://www.flyingheritage.com",
+   "phone": "+1-877-342-3404",
+   "latitude": 47.900179,
+   "longitude": -122.2805814
+  },
+  {
+   "name": "Boeing Future of Flight",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.9213204,
+   "longitude": -122.2901388
+  },
+  {
+   "name": "Hibulb Cultural Center",
+   "kind": "museum",
+   "address": "6410 23rd Avenue Northeast, 98271, Tulalip",
+   "website": "",
+   "phone": "",
+   "latitude": 48.0537349,
+   "longitude": -122.2012888
+  },
+  {
+   "name": "Imagine Children's Museum",
+   "kind": "museum",
+   "address": "1502 Wall Street, 98201, Everett",
+   "website": "https://www.imaginecm.org/",
+   "phone": "+1-425-258-1006",
+   "latitude": 47.9774283,
+   "longitude": -122.2095978
+  },
+  {
+   "name": "Schack Art Center",
+   "kind": "gallery",
+   "address": "2921 Hoyt Avenue, 98201",
+   "website": "https://www.schack.org/",
+   "phone": "+1-425-309-7723",
+   "latitude": 47.9786093,
+   "longitude": -122.209672
+  },
+  {
+   "name": "Flying Squirrel Trampoline Park",
+   "kind": "attraction",
+   "address": "1325 Southeast Everett Mall Way, 98208",
+   "website": "https://flyingsquirrelsports.us/everett-washington/",
+   "phone": "",
+   "latitude": 47.9142119,
+   "longitude": -122.2157717
+  },
+  {
+   "name": "The Washington State Corn Maze",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.swanstrailfarms.com/events.aspx?id=422542",
+   "phone": "",
+   "latitude": 47.9308331,
+   "longitude": -122.1652257
+  },
+  {
+   "name": "Lake Stevens Monster",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.997782,
+   "longitude": -122.1161467
+  },
+  {
+   "name": "Abby Lola Bertain Memorial Wishing Well",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.0089434,
+   "longitude": -122.1157481
+  },
+  {
+   "name": "View of Cascades",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.007321,
+   "longitude": -122.1885763
+  },
+  {
+   "name": "Oyster Point Beach",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.9709054,
+   "longitude": -122.2303062
+  },
+  {
+   "name": "Port Gardner Bay South View Area",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.0069849,
+   "longitude": -122.2144484
+  },
+  {
+   "name": "Port Gardner Bay North View Area",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 48.0103436,
+   "longitude": -122.2131632
+  }
+ ]
+}

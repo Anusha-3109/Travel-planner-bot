@@ -1,0 +1,558 @@
+{
+ "city": "Muskegon",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.2327,
+ "longitude": -86.2587,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Muskegon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1401 East Ellis Road, 49444, Muskegon",
+   "url": "https://www.hilton.com/en/hotels/mkgmihx-hampton-muskegon/"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4677 South Harvey Street, 49444, Muskegon",
+   "url": "https://www.wyndhamhotels.com/baymont/muskegon-michigan/baymont-inn-and-suites-muskegon/overview"
+  },
+  {
+   "name": "Travelodge Muskegon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3380 Hoyt Street, 49444, Muskegon",
+   "url": "https://www.wyndhamhotels.com/travelodge/muskegon-michigan/travelodge-muskegon/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4620 Airline Road, 49444, Muskegon",
+   "url": "https://www.choicehotels.com/michigan/whitehall/comfort-inn-hotels"
+  },
+  {
+   "name": "Delta Hotels Muskegon Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "939 3rd Street, 49440, Muskegon",
+   "url": ""
+  },
+  {
+   "name": "Shoreline Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "750 Terrace Point Drive, 49440, Muskegon",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Victory Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Seaway Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1480 East Apple Avenue, 49442, Muskegon",
+   "website": "https://locations.pizzahut.com/mi/muskegon/1480-e-apple-ave"
+  },
+  {
+   "name": "Slappy’s Slaw Dog and Sandwich",
+   "cuisines": [
+    "Hot Dog",
+    "Coney Island"
+   ],
+   "address": "1845 Lakeshore Drive, 49441, Muskegon",
+   "website": "https://hungry4slappys.com/"
+  },
+  {
+   "name": "Lakeside Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1384 West Laketon Avenue",
+   "website": "https://www.lakesidetogo.com/"
+  },
+  {
+   "name": "Bear Lake Tavern",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich",
+    "Seafood"
+   ],
+   "address": "360 Ruddiman Drive, 49445, North Muskegon",
+   "website": "https://bearlaketavern.com/"
+  },
+  {
+   "name": "Legends Bar & Grille",
+   "cuisines": [
+    "American",
+    "Sandwich",
+    "Burger"
+   ],
+   "address": "446 West Western Avenue, 49440, Muskegon",
+   "website": "https://www.toasttab.com/legends-bar-and-grille"
+  },
+  {
+   "name": "El Cabos Mexican Grill and Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1811 West Sherman Boulevard, 49441, Muskegon",
+   "website": "https://elcabosmexicangrillandbarmi.com/"
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1620 East Apple Avenue, 49442",
+   "website": "https://www.bobevans.com/"
+  },
+  {
+   "name": "Toast 'N Jams",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Diner"
+   ],
+   "address": "211 Seminole Road, 49444",
+   "website": "https://www.toastnjams.com/"
+  },
+  {
+   "name": "Capone's Speakeasy and Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://muskegonpizzeria.com"
+  },
+  {
+   "name": "Muskegon Athelic Club",
+   "cuisines": [
+    "American"
+   ],
+   "address": "333 West Western Avenue, 49440, Muskegon",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "3583 Henry Street, 49441, Norton Shores",
+   "website": ""
+  },
+  {
+   "name": "Russ' Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3225 Henry Street, 49441, Roosevelt Park",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mr. Scrib's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "J Burger N Wings",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fricano's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nipote's Italian Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Station",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bernie O's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Family Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "House of China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Asian Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yum Yum Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Curry Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Naan Pizza",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Muskegon Brewing Company",
+   "cuisines": [],
+   "address": "500 Adelaide Cir, 49441, Muskegon",
+   "website": "https://muskegonbrewery.com/"
+  },
+  {
+   "name": "Pints & Quarts",
+   "cuisines": [],
+   "address": "950 West Norton Avenue, 49441, Roosevelt Park",
+   "website": ""
+  },
+  {
+   "name": "The Glenside Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cherokee",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Lake House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carmen's Mercantile",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "US 31 Barbque",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boars Belly Rest",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lombardos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fraternal Order of the Eagles 3306",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lott on the Lakeshore",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Northtown 794",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "USS Silversides",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museumships.us/subs/silversides",
+   "phone": "",
+   "latitude": 43.2300302,
+   "longitude": -86.3326959
+  },
+  {
+   "name": "Silversides Museum",
+   "kind": "museum",
+   "address": "1346 Lake Ave Bluff, 49441, Muskegon",
+   "website": "https://silversidesmuseum.org/",
+   "phone": "+1-231-755-1230",
+   "latitude": 43.2297743,
+   "longitude": -86.332205
+  },
+  {
+   "name": "Muskegon Art Museum",
+   "kind": "museum",
+   "address": "296 West Webster Avenue, 49440, Muskegon",
+   "website": "https://muskegonartmuseum.org/",
+   "phone": "+1 231 720 2570",
+   "latitude": 43.2345456,
+   "longitude": -86.2509771
+  },
+  {
+   "name": "United States Coast Guard Cutter McLane",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museumships.us/coast-guard/mclane",
+   "phone": "",
+   "latitude": 43.2304514,
+   "longitude": -86.3319941
+  },
+  {
+   "name": "USS LST-393",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.lst393.org/",
+   "phone": "",
+   "latitude": 43.2346504,
+   "longitude": -86.2589866
+  },
+  {
+   "name": "SS Milwaukee Clipper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2218012,
+   "longitude": -86.2956931
+  },
+  {
+   "name": "USS LST 393 Veterans Museum",
+   "kind": "museum",
+   "address": "560 Mart Street, Muskegon",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2347336,
+   "longitude": -86.2587863
+  },
+  {
+   "name": "USS Drum",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.229531,
+   "longitude": -86.3323728
+  },
+  {
+   "name": "Fire Barn Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2326364,
+   "longitude": -86.2560142
+  },
+  {
+   "name": "Muskegon Railroad Historical Society",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2448527,
+   "longitude": -86.1847212
+  },
+  {
+   "name": "James Jackson Museum of African American History",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2017437,
+   "longitude": -86.2442198
+  },
+  {
+   "name": "Old Bay Mills Village Site",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2422027,
+   "longitude": -86.3306806
+  },
+  {
+   "name": "Contact Station",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2420299,
+   "longitude": -86.346065
+  },
+  {
+   "name": "Trail access",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2306937,
+   "longitude": -86.3350947
+  },
+  {
+   "name": "Lost Lake Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2543664,
+   "longitude": -86.3424005
+  },
+  {
+   "name": "Sugar Bowl Dunes",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.2430834,
+   "longitude": -86.3420651
+  }
+ ]
+}

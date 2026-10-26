@@ -1,0 +1,442 @@
+{
+ "city": "Vernal",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.456,
+ "longitude": -109.5257,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "SpringHill Suites Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1205 West Highway 40, 84078, Vernal",
+   "url": "https://www.marriott.com/velsh"
+  },
+  {
+   "name": "TownePlace Suites Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1219 West Highway 40, 84078, Vernal",
+   "url": "https://www.marriott.com/velts"
+  },
+  {
+   "name": "Dinosaur Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "251 East Main Street, 84078, Vernal",
+   "url": "https://www.dinoinn.com/"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2396 West HIghway 40, 84078, Vernal",
+   "url": "https://www.choicehotels.com/utah/vernal/quality-inn-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1092 West Highway 40, 84078, Vernal",
+   "url": "https://www.wyndhamhotels.com/days-inn/vernal-utah/days-inn-vernal-ut/overview"
+  },
+  {
+   "name": "Microtel by Wyndham Vernal / Naples",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1041 South 1500 East, 84078, Naples",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1684 West Highway 40, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 West US Highway 40, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "423 West Main Street, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Landmark Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "301 East 100 South, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Ledgestone Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "679 West Main Street, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Split Mountain Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 East Highway 40, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Sage Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "54 West Main Street, 84078, Vernal",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Super 8 Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Studio 6 Vernal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lamplighter Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lazy K Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Dino Brew Haus",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "550 East Main Street, 84078, Vernal",
+   "website": "https://www.facebook.com/dinosaurbrewhaus/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1819 West Highway 40, 84078, Vernal",
+   "website": "https://locations.pizzahut.com/ut/vernal/1819-w-hwy-40"
+  },
+  {
+   "name": "Jade Lion",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "25 West Main Street, 84078, Vernal",
+   "website": "https://www.jadelionut.com/"
+  },
+  {
+   "name": "The Quarry Steakhouse & Brew Pub",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "29 South Vernal Avenue, 84078, Vernal",
+   "website": "https://www.facebook.com/The-Quarry-Steakhouse-Brew-Pub-274033835940726/"
+  },
+  {
+   "name": "Glazed & Grilled",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "1096 West Highway 40, 84078, Vernal",
+   "website": "https://glazedandgrilled.com/"
+  },
+  {
+   "name": "Country Grub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2419 S 1500 E, 84078, Naples",
+   "website": ""
+  },
+  {
+   "name": "La Cabaña",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "120 East Main Street, 84078, Vernal",
+   "website": ""
+  },
+  {
+   "name": "Beto's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "84078, Vernal",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Rio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Betty's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "JB's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wingers Grill & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Canton City",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Backdoor Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Cabana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Plaza Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "7-11 Ranch Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sombrero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Antica Forma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vernal Brewing Company",
+   "cuisines": [],
+   "address": "55 S 500 E South 500 East, 84078, Vernal",
+   "website": ""
+  },
+  {
+   "name": "Naples Country Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos El Guero",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dinaland Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Utah Field House of Natural History State Park Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://stateparks.utah.gov/park/utah-field-house-of-natural-history-state-park-museum",
+   "phone": "",
+   "latitude": 40.4553453,
+   "longitude": -109.5198609
+  },
+  {
+   "name": "Daughters of Utah Pioneers Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.453055,
+   "longitude": -109.5383734
+  }
+ ]
+}

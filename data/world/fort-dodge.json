@@ -1,0 +1,207 @@
+{
+ "city": "Fort Dodge",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.5051,
+ "longitude": -94.1855,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 United States Highway 169, 50501, Fort Dodge",
+   "url": "https://www.choicehotels.com/iowa/fort-dodge/quality-inn-hotels/ia119"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3259 5th Avenue South, 50501, Ft Dodge",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-fort-dodge-ia"
+  },
+  {
+   "name": "Baymont Fort Dodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2938 5th Avenue South, 50501, Fort Dodge",
+   "url": "https://www.wyndhamhotels.com/baymont/fort-dodge-iowa/baymont-inn-and-suites-fort-dodge/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Fort Dodge IA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3755 5th Avenue South, 50501, Fort Dodge",
+   "url": "https://www.wyndhamhotels.com/super-8/fort-dodge-iowa/super-8-fort-dodge-ia/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham Fort Dodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3040 5th Avenue South, 50501, Fort Dodge",
+   "url": "https://www.wyndhamhotels.com/days-inn/fort-dodge-iowa/days-inn-fort-dodge/overview"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 South 31st Street, 50501, Fort Dodge",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-dodge/fodee/hoteldetail"
+  },
+  {
+   "name": "AmericInn by Wyndham Fort Dodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Kenyon Road W, 50501, Fort Dodge",
+   "url": ""
+  },
+  {
+   "name": "Brookstone Inn & Suites Fort Dodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5 South 32nd Street, 50501, Fort Dodge",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2810 5th Avenue South, 50501, Fort Dodge",
+   "website": "https://restaurants.applebees.com/en-us/ia/fort-dodge/2810-5th-avenue-south-92044"
+  },
+  {
+   "name": "GAGA & HOO Korean Restaurant & Cafe",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "368 Country Club Drive, 50501, Fort Dodge",
+   "website": "https://www.gaga-hoo.com/home"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "2909 5th Avenue South, 50501, Fort Dodge",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch Fort Dodge",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3311-1 5th Avenue South, 50501, Fort Dodge",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Willow Ridge",
+   "cuisines": [],
+   "address": "1788 Madison Avenue, 50501, Fort Dodge",
+   "website": "http://www.willowridgegolf.com/?page_id=1625"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Blanden Memorial Art Museum",
+   "kind": "museum",
+   "address": "920 3rd Avenue South, 50501, Fort Dodge",
+   "website": "https://www.blanden.org/",
+   "phone": "+1-515-573-2316",
+   "latitude": 42.5027367,
+   "longitude": -94.1846047
+  },
+  {
+   "name": "Webster County Museum",
+   "kind": "museum",
+   "address": "515 School Street, 50569, Otho",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4253025,
+   "longitude": -94.1461784
+  },
+  {
+   "name": "Curious Kids' Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.504136,
+   "longitude": -94.1607932
+  },
+  {
+   "name": "Webster County Fairgrounds",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4605285,
+   "longitude": -94.1958666
+  },
+  {
+   "name": "Olsen Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4899338,
+   "longitude": -94.1727063
+  },
+  {
+   "name": "The Fort Museum and Frontier Village",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4882341,
+   "longitude": -94.1991347
+  }
+ ]
+}

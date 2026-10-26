@@ -43,21 +43,19 @@ Chats are saved on your computer (`.history/`), so a refresh or restart keeps th
 
 ### The big picture
 
-```
- Browser ──► frontend/  (Streamlit pages, components, HTML and CSS parts)
-                 │  asks a question, shows cards, saves chats and trips
-                 ▼
-             backend/agent  (LangChain tool loop, OpenRouter model)
-                 │  picks tools, then writes the answer
-     ┌───────────┼─────────────────────────┬──────────────────────┐
-     ▼           ▼                         ▼                      ▼
- backend/tools  backend/rag              backend/security       backend/storage
- 7 tools        Chroma knowledge base,   input guard, tool      saved chats, request
-     │          query translation,       output screening,      log and trips (SQLite)
-     │          filters, rank fusion     key redaction
-     ▼
- backend/live (SerpApi: Google Flights, Airbnb, Google Hotels · Google Places and Routes ·
-               exchange rates)   ──falls back to──►   backend/travel_data (2026 city files)
+```mermaid
+flowchart TD
+    U([Browser]) --> F["<b>frontend/</b><br/>Streamlit pages, components,<br/>HTML and CSS parts"]
+    F -->|"your question"| SEC["<b>backend/security</b><br/>input guard, tool output<br/>screening, key redaction"]
+    SEC -->|"checked question"| A["<b>backend/agent</b><br/>LangChain tool loop,<br/>OpenRouter model"]
+    A -->|"answer and result cards"| F
+    F -->|"saves chats, log and trips"| S[("<b>backend/storage</b><br/>chats, request log, trips<br/>SQLite")]
+    A -->|"picks tools"| T["<b>backend/tools</b><br/>7 tools"]
+    T --> R["<b>backend/rag</b><br/>Chroma knowledge base,<br/>query translation, filters,<br/>rank fusion"]
+    T --> L["<b>backend/live</b><br/>SerpApi: Google Flights, Airbnb,<br/>Google Hotels · Google Places<br/>and Routes · exchange rates"]
+    L -.->|"falls back to"| D[("<b>backend/travel_data</b><br/>2026 city files")]
+    R --> D
+    T -->|"results, screened"| A
 ```
 
 The **frontend** only draws the pages and passes your input on; the **backend** holds all the logic and has no Streamlit code, so it can be tested and evaluated on its own.

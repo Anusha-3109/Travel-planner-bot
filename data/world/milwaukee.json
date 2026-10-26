@@ -1,0 +1,3505 @@
+{
+ "city": "Milwaukee",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.0397,
+ "longitude": -87.9013,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "The Knickerbocker on the Lake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1028 East Juneau Avenue, 53202, Milwaukee",
+   "url": "https://www.knickerbockeronthelake.com/"
+  },
+  {
+   "name": "Manderley Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3026 West Wells Street, 53208, Milwaukee",
+   "url": "https://www.bedandbreakfastmilwaukee.com/"
+  },
+  {
+   "name": "The Iron Horse Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 West Florida Street, 53204, Milwaukee",
+   "url": "https://theironhorsehotel.com/"
+  },
+  {
+   "name": "Hilton Milwaukee City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "509 West Wisconsin Avenue, 53203, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Astor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "924 East Juneau Avenue, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Kimpton Journeyman Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 East Chicago Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Pfister Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "424 East Wisconsin Avenue, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Westin Milwaukee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "550 North Van Buren Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Ambassador Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2308 West Wisconsin Avenue, 53233-1826, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "611 North Broadway, 53202, Milwaukee",
+   "url": "https://hiltongardeninn3.hilton.com/en/hotels/wisconsin/hilton-garden-inn-milwaukee-downtown-MKEMDGI/index.html"
+  },
+  {
+   "name": "Dubbel Dutch",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817,819 North Marshall Street, 53202, Milwaukee",
+   "url": "https://www.thedubbeldutch.com/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Milwaukee Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "710 North Old World 3rd Street, 53203, Milwaukee",
+   "url": "https://www.marriott.com/en-us/hotels/mkefd-fairfield-inn-and-suites-milwaukee-downtown/overview/"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Milwaukee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1840 North 6th Street, 53212, Milwaukee",
+   "url": "https://www.wyndhamhotels.com/days-inn/milwaukee-wisconsin/days-inn-and-suites-milwaukee/overview"
+  },
+  {
+   "name": "Double Tree by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "611 West Wisconsin Avenue, 53203, Milwaukee",
+   "url": "https://www.hilton.com/en/hotels/mkeccdt-doubletree-milwaukee-downtown/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "174; 176; 178; 180; 182; 184 West Wisconsin Avenue, 53203, Milwaukee",
+   "url": "https://www.hilton.com/en/hotels/mkedwhx-hampton-suites-milwaukee-downtown/"
+  },
+  {
+   "name": "Courtyard Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 West Michigan Street, 53203, Milwaukee",
+   "url": "https://www.marriott.com/mkedt"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "648 North Plankinton Avenue, 53203, Milwaukee",
+   "url": "https://www.marriott.com/mkeri"
+  },
+  {
+   "name": "Home2 Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "515 North Jefferson Street, 53202, Milwaukee",
+   "url": "https://www.hilton.com/en/hotels/mkesoru-tru-milwaukee-downtown/"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 West Juneau Avenue, 53233, Milwaukee",
+   "url": "https://milwaukeedowntown.place.hyatt.com/en/hotel/home.html"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "744 North Vel R. Phillips Avenue, 53203, Milwaukee",
+   "url": "https://www.marriott.com/mkesh"
+  },
+  {
+   "name": "La Quinta Inn & Suites Milwaukee Bayshore Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5423 North Port Washington Road, 53217, Glendale",
+   "url": "https://www.wyndhamhotels.com/laquinta/glendale-wisconsin/la-quinta-milwaukee-bayshore-area/overview"
+  },
+  {
+   "name": "Sleep Inn & Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4600 South 6th Street, 53221, Milwaukee",
+   "url": "https://www.choicehotels.com/wisconsin/milwaukee/sleep-inn-hotels/wi186"
+  },
+  {
+   "name": "Best Western Plus Milwaukee Airport Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5105 South Howell Avenue, 53207, Milwaukee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-milwaukee/best-western-plus-milwaukee-airport-hotel-conference-center/propertyCode.50056.html"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4620 South 5th Street, 53207, Milwaukee",
+   "url": "https://www.marriott.com/mkecy"
+  },
+  {
+   "name": "Hampton Inn & Suites Milwaukee West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8201 West Greenfield Avenue, 53214, West Allis",
+   "url": "https://www.hilton.com/en/hotels/mkewahx-hampton-suites-milwaukee-west/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4229 West National Avenue, 53214, West Milwaukee",
+   "url": "https://www.marriott.com/mkefw"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 South 70th Street, 53214, West Allis",
+   "url": "https://www.hilton.com/en/hotels/mkemwht-home2-suites-milwaukee-west/"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1716 West Layton Avenue, 53221-2824, Milwaukee",
+   "url": "https://www.wyndhamhotels.com/travelodge/milwaukee-wisconsin/travelodge-milwaukee/overview"
+  },
+  {
+   "name": "The Trade, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 West Juneau Avenue, 53203, Milwaukee",
+   "url": "https://www.marriott.com/en-us/hotels/mkedd-the-trade-autograph-collection/overview/"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4400 South 27th Street, 53221, Milwaukee",
+   "url": "https://www.choicehotels.com/wisconsin/waukesha/quality-inn-hotels"
+  },
+  {
+   "name": "Best Western Plus Milwaukee West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5501 West National Avenue, 53214, West Milwaukee",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-milwaukee/best-western-plus-milwaukee-west/propertyCode.50023.html"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 North Water Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Kinn MKE Guesthouse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600;602;604;606 North Broadway, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Drury Plaza Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 North Water Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 North Jefferson Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Hotel Metro",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "411 East Mason Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Hyatt Regency Milwaukee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 West Kilbourn Avenue, 53203, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Cambria Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "503 North Plankinton Avenue, 53203, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Brewhouse Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201; 1203; 1205; 1207; 1209; 1211; 1213; 1215 North 10th Street, 53205",
+   "url": ""
+  },
+  {
+   "name": "Saint Kate",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "139 East Kilbourn Avenue, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "County Clare Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1234 North Astor Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Plaza Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1007 North Cass Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Tru by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "515 North Jefferson Street, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Milwaukee Marriott Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "323 East Wisconsin Avenue, 53202, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Potawatomi Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1611 West Canal Street, 53233, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "The Carriage House in Sanger House Gardens",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1823 North Palmer Street, 53212, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Aloft Milwaukee Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1230 North Doctor Martin Luther King Junior Drive, 53212, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Milwaukee Riverfront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4700 North Port Washington Road, 53212, Glendale",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5110 North Port Washington Road, 53217, Glendale",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5485 North Port Washington Road, 53217, Glendale",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "545 West Layton Avenue, 53207, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4488 South 27th Street, 53221, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Clarion Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5037 South Howell Avenue, 53207, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Diamond Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6222 West Fond du Lac Avenue, 53218, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Tommy G. Thompson Youth Center",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "626 South 84th Street, 53214, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Suburban Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4600 South 27th Street, 53221, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "American Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6798 West Appleton Avenue, 53216, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Biller Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "725 North 22nd Street, 53233-1914, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Ambassador Inn at Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2301,2305 West Wisconsin Avenue, 53233, Milwaukee",
+   "url": ""
+  },
+  {
+   "name": "Village Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3001 West Wisconsin Avenue, 53208, Milwaukee",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "SafeHouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "779 North Front Street, 53202, Milwaukee",
+   "website": "https://www.safe-house.com/"
+  },
+  {
+   "name": "Cafe Corazon",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3129 North Bremen Street, 53212, Milwaukee",
+   "website": "https://corazonmilwaukee.com/"
+  },
+  {
+   "name": "Water Street Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1101 North Water Street, 53202, Milwaukee",
+   "website": "https://www.waterstreetbrewery.com/"
+  },
+  {
+   "name": "FiL FiL Mediterranean Grill",
+   "cuisines": [
+    "Mediterranean Restaurant"
+   ],
+   "address": "700 W Wisconsin Ave, 53233, Milwaukee",
+   "website": "https://www.filfilmke.com/"
+  },
+  {
+   "name": "Oggie's",
+   "cuisines": [
+    "Modern European"
+   ],
+   "address": "411 East Mason Street, 53202, Milwaukee",
+   "website": "https://www.oggiesmke.com/"
+  },
+  {
+   "name": "Elsa's On the Park",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "833 North Jefferson Street, 53202, Milwaukee",
+   "website": "https://www.elsas.com/"
+  },
+  {
+   "name": "Twisted Plants",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "1233 East Brady Street, 53202, Milwaukee",
+   "website": "https://www.twistedplants.com/"
+  },
+  {
+   "name": "Purslane",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1751 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://www.purslane.kitchen/"
+  },
+  {
+   "name": "State Street Pizza Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "322 West State Street, 53203, Milwaukee",
+   "website": "https://www.statestreetpizzapub.com"
+  },
+  {
+   "name": "The Yard",
+   "cuisines": [
+    "American"
+   ],
+   "address": "500 West Florida Street, 53204, Milwaukee",
+   "website": "https://www.theironhorsehotel.com/milwaukee-restaurants-at-the-iron-horse-hotel/"
+  },
+  {
+   "name": "Seven Swans Creperie MKE",
+   "cuisines": [
+    "Crepe",
+    "Breakfast",
+    "Coffee",
+    "Cafe"
+   ],
+   "address": "808 East Chambers Street, 53212, Milwaukee",
+   "website": "https://www.sevenswanscreperie.com"
+  },
+  {
+   "name": "BelAir Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1935 North Water Street, 53202, Milwaukee",
+   "website": "https://belaircantina.com/"
+  },
+  {
+   "name": "Riley’s Social House",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "411 East Menomonee Street, 53202, Milwaukee",
+   "website": "https://www.rileysandwich.com/"
+  },
+  {
+   "name": "Vanguard",
+   "cuisines": [
+    "Sausage"
+   ],
+   "address": "2659 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.vanguardbar.com/"
+  },
+  {
+   "name": "Crafty Cow",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2671 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.craftycowwi.com/"
+  },
+  {
+   "name": "Mason Street Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "425 East Mason Street, 53202, Milwaukee",
+   "website": "https://www.masonstreetgrill.com/"
+  },
+  {
+   "name": "EE-Sane Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1806 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://www.eesanemke.com/"
+  },
+  {
+   "name": "No. 1 Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2678 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.no1chinesemilwaukee.com/"
+  },
+  {
+   "name": "Smokin' Jack's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2311 North Murray Avenue, 53211, Milwaukee",
+   "website": "https://smokinjackbbq.com/"
+  },
+  {
+   "name": "Chettinadu House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2258 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.chettinaduhousewi.com"
+  },
+  {
+   "name": "Raul's Taco Shop",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "1000 East Locust Street, 53212, Milwaukee",
+   "website": "https://raulstacoshopmke.com/"
+  },
+  {
+   "name": "Judy's Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2124 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://www.judyscantina.com/"
+  },
+  {
+   "name": "Sinabro",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "316 North Milwaukee Street, 53202, Milwaukee",
+   "website": "https://www.sinabromke.com/"
+  },
+  {
+   "name": "Hue Asian Kitchen",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2699 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://huebayview.com"
+  },
+  {
+   "name": "Belli's Bistro & Spirits",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "2643 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.bellismke.com/"
+  },
+  {
+   "name": "Gordo's Bubble Waffles",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "2301 South Howell Avenue, 53207, Milwaukee",
+   "website": "https://gordosbubblewaffles.com/"
+  },
+  {
+   "name": "Allende Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "160 South 1st Street, 53204, Milwaukee",
+   "website": "https://allendemke.com/"
+  },
+  {
+   "name": "Sorella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2535 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.sorellamke.com/"
+  },
+  {
+   "name": "Café Lulu",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2261 South Howell Avenue, 53207, Milwaukee",
+   "website": "https://www.lulubayview.com/"
+  },
+  {
+   "name": "Outlaw Oyster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2675 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://outlawoysterwi.com/"
+  },
+  {
+   "name": "Cafe Corazon - Bay View",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2394 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.corazonmilwaukee.com/"
+  },
+  {
+   "name": "Honeypie",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "2569 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.honeypiecafe.com/"
+  },
+  {
+   "name": "Odd Duck",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "939 South 2nd Street, 53204, Milwaukee",
+   "website": "https://www.oddduckrestaurant.com/"
+  },
+  {
+   "name": "El Tlaxcalteca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1300 West Burnham Street, 53204, Milwaukee",
+   "website": "https://el-tlaxcalteca-restaurant.negocio.site/"
+  },
+  {
+   "name": "Patty Shack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2121 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://order.toasttab.com/online/pattyshackwi"
+  },
+  {
+   "name": "Room Service",
+   "cuisines": [
+    "Japanese",
+    "Thai"
+   ],
+   "address": "2159 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.roomservicebayview.com/"
+  },
+  {
+   "name": "Camino",
+   "cuisines": [
+    "American"
+   ],
+   "address": "434 South 2nd Street, 53204, Milwaukee",
+   "website": "https://mke.caminomke.com/"
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1857 East Kenilworth Place, 53202, Milwaukee",
+   "website": "https://www.jetspizza.com/stores/wisconsin/milwaukee/1857-e-kenilworth-pl/"
+  },
+  {
+   "name": "Old Town",
+   "cuisines": [
+    "Serbian"
+   ],
+   "address": "522 West Lincoln Avenue, 53207, Milwaukee",
+   "website": "https://oldtownserbian.com/"
+  },
+  {
+   "name": "Morel",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "430 South 2nd Street, 53204, Milwaukee",
+   "website": "https://morelmke.com/"
+  },
+  {
+   "name": "Goodkind",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2457 South Wentworth Avenue, 53207, Milwaukee",
+   "website": "https://goodkindbayview.com/"
+  },
+  {
+   "name": "Botanas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "820 South 5th Street, 53204-0000, Milwaukee",
+   "website": "https://www.botanasoriginal.com/"
+  },
+  {
+   "name": "Hungry Sumo",
+   "cuisines": [
+    "Japanese",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "2663 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.hungrysumosushibar.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1840 South 15th Street, 53204, Milwaukee",
+   "website": "https://locations.pizzahut.com/wi/milwaukee/1840-s-15th-st"
+  },
+  {
+   "name": "Don's Grocery & Liquor",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1100 South 1st Street, 53204, Milwaukee",
+   "website": "https://www.donsmke.com/"
+  },
+  {
+   "name": "La Chinampa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "405 South 2nd Street, 53204, Milwaukee",
+   "website": "https://www.lachinampatogo.com/"
+  },
+  {
+   "name": "Cielito Lindo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "733 South 2nd Street, 53204, Milwaukee",
+   "website": "https://cielitolindomilwaukee.com/"
+  },
+  {
+   "name": "Paloma Taco & Tequila",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "2156 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://palomatacoandtequila.com/"
+  },
+  {
+   "name": "Anmol Restaurant",
+   "cuisines": [
+    "Indian",
+    "Pakistani"
+   ],
+   "address": "711 West Historic Mitchell Street, 53204, Milwaukee",
+   "website": "https://eatanmol.com/"
+  },
+  {
+   "name": "Super Taqueria Don Pancho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1336 South 7th Street, 53204, Milwaukee",
+   "website": "https://supertaqueriadonpanchowi.com/"
+  },
+  {
+   "name": "Momo Mee Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "110 East Greenfield Avenue, 53204, Milwaukee",
+   "website": "https://momomeerestaurant.com/"
+  },
+  {
+   "name": "Sooshibay",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1154 North Water Street, 53202, Milwaukee",
+   "website": "https://www.sooshibaymke.com/"
+  },
+  {
+   "name": "Dinersland Chinese Cuisine",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1355 North 35th Street, 53208, Milwaukee",
+   "website": "http://www.dinersland.net/"
+  },
+  {
+   "name": "Happy Dough Lucky",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "2691 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://www.happydoughlucky.com/"
+  },
+  {
+   "name": "Toast Milwaukee",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "231 South 2nd Street, 53204, Milwaukee",
+   "website": "https://www.toastmilwaukee.com/"
+  },
+  {
+   "name": "Guanajuato Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2317 South Howell Avenue, 53207, Milwaukee",
+   "website": "https://guanajuatorestaurant.com/"
+  },
+  {
+   "name": "Santino's Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "352 East Stewart Street, 53207, Milwaukee",
+   "website": "https://santinoslittleitaly.com/"
+  },
+  {
+   "name": "The Soup Market",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "2211 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://thesoupmarket.com/"
+  },
+  {
+   "name": "Fixture Pizza Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "623 South 2nd Street, 53204, Milwaukee",
+   "website": "https://fixturepizza.com/"
+  },
+  {
+   "name": "Beto's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1234 South Cesar E Chavez Drive, 53204, Milwaukee",
+   "website": "https://www.betospizzamenu.com/"
+  },
+  {
+   "name": "The Bridgewater Modern Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2011 South 1st Street, 53207, Milwaukee",
+   "website": "https://bridgewatermke.com/"
+  },
+  {
+   "name": "Cafe India Bay View",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2201 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://cafeindiamke.us/"
+  },
+  {
+   "name": "El Jalapeño",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2106 West National Avenue, 53204, Milwaukee",
+   "website": "https://eljalapenowi.com/"
+  },
+  {
+   "name": "D'sign Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2138 West National Avenue, 53204, Milwaukee",
+   "website": "https://www.dsignpizzawi.com/"
+  },
+  {
+   "name": "Vientiane Noodle Shop",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "3422 West National Avenue, 53215, Milwaukee",
+   "website": "https://www.vientianenoodleshop.com/"
+  },
+  {
+   "name": "Transfer Pizzeria Café",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "101 West Mitchell Street, 53204, Milwaukee",
+   "website": "https://transfermke.com"
+  },
+  {
+   "name": "Margarita’s Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "604 West Historic Mitchell Street, 53204, Milwaukee",
+   "website": "https://www.margaritaspizzamenu.com/"
+  },
+  {
+   "name": "Allie Boy’s Bagelry and Luncheonette",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "2100 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://allieboysmke.com/"
+  },
+  {
+   "name": "Kawa Ramen & Sushi",
+   "cuisines": [
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "275 West Wisconsin Avenue, 53203, Milwaukee",
+   "website": "https://kawaramensushi.com/"
+  },
+  {
+   "name": "Cassis",
+   "cuisines": [
+    "French"
+   ],
+   "address": "333 North Water Street, 53202, Milwaukee",
+   "website": "https://www.cassismke.com/"
+  },
+  {
+   "name": "Don Lucho's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "565 West Lincoln Avenue, 53207, Milwaukee",
+   "website": "https://order.donluchomke.com/"
+  },
+  {
+   "name": "Fiesta Garibaldi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "821 West Lincoln Avenue, 53215, Milwaukee",
+   "website": "inquiries@fiesta-garibaldi.com"
+  },
+  {
+   "name": "Ruta's Fresh Indian Fare",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "207 West Freshwater Way, 53204, Milwaukee",
+   "website": "https://rutasfreshindian.square.site/"
+  },
+  {
+   "name": "Saigon Baguette",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2338 North Farwell Avenue, 53211, Milwaukee",
+   "website": "https://www.saigonbaguettemilwaukee.com/"
+  },
+  {
+   "name": "La Merenda",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "125 East National Avenue, 53204, Milwaukee",
+   "website": "https://www.lamerenda125.com/"
+  },
+  {
+   "name": "Barnacle Bud's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1955 South Hilbert Street, 53207, Milwaukee",
+   "website": "https://www.barnaclebuds.com/"
+  },
+  {
+   "name": "La Dama Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "839 South 2nd Street, 53204, Milwaukee",
+   "website": "https://ladamamke.com/"
+  },
+  {
+   "name": "Modiva at Hotel Madrid",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "600 South 6th Street, 53204-1524, Milwaukee",
+   "website": "https://www.hotelmadridmke.com/"
+  },
+  {
+   "name": "1700 Pullup",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "1848 West Fond du Lac Avenue, 53205, Milwaukee",
+   "website": "https://1700pullup.com/"
+  },
+  {
+   "name": "Speed Queen BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1130 West Walnut Street, 53205, Milwaukee",
+   "website": "https://speedqueenbbq.com/"
+  },
+  {
+   "name": "ASH Hearth & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "500 West Florida Street, 53204, Milwaukee",
+   "website": "https://www.theironhorsehotel.com/milwaukee-restaurants-at-the-iron-horse-hotel/"
+  },
+  {
+   "name": "Screaming Tuna Milwaukee",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "53204",
+   "website": "https://screamingtuna.com/"
+  },
+  {
+   "name": "Chicken Palace Fiesta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1937 West Forest Home Ave, 53204",
+   "website": "https://chickenpalacewi.com/"
+  },
+  {
+   "name": "Thai A Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://thaiakitchen.wordpress.com/"
+  },
+  {
+   "name": "Jalisco's Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "53207",
+   "website": "https://jaliscoscantina.com/"
+  },
+  {
+   "name": "Café Benelux",
+   "cuisines": [
+    "Belgian",
+    "American"
+   ],
+   "address": "340-346 North Broadway, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Hooligan's Super Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2017 East North Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Harbor House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "550 North Harbor Drive, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "On The Bayou",
+   "cuisines": [
+    "New Orleans"
+   ],
+   "address": "2053 North Doctor Martin Luther King Junior Drive, 53212, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "DORSIA",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1301; 1303; 1305; 1307 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Tre Rivali",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "200 North Broadway, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Benihana",
+   "cuisines": [
+    "Japanese",
+    "Teppanyaki",
+    "Steak"
+   ],
+   "address": "850 North Plankinton Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Milwaukee Brat House",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1013 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Maharaja",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1550 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The King Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1330 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Casablanca",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "728 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "1515 East North Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "New York Pizza Delivery",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "231 East North Avenue, 53212, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Char’d",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "222 East Erie Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Emperor of China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1010 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Xankia",
+   "cuisines": [
+    "Sandwich",
+    "Thai"
+   ],
+   "address": "222 West Wells Street, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Onesto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "221 North Broadway, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Fusion Poke",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "1813 East Kenilworth Place, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Flannery's Bar & Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "425 East Wells Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The Diplomat",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "815 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Rice 'n' Roll Bistro",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Thai"
+   ],
+   "address": "1952 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Amilinda",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "315 East Wisconsin Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "MooSa's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2272 North Lincoln Memorial Drive, 53211, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Pizza Shuttle",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1827 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Zayna's Pizza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "714 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Sanford",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "1547 North Jackson Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Lucky Liu's",
+   "cuisines": [
+    "Chinese",
+    "Japanese"
+   ],
+   "address": "1664 North Van Buren Street, 53202-2018, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "La Masa Empanada Bar",
+   "cuisines": [
+    "Empanada"
+   ],
+   "address": "1300 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Seoul Restaurant",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2178 North Prospect Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Ma Fischer's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2214 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Coast",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "931 East Wisconsin Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Swingin' Door Exchange",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "219 East Michigan Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The King and I",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "830 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "St. Paul Fish Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "400 North Water Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Uncle Wolfie's Breakfast Tavern",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buckley's Restaurant & Bar",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "801 North Cass Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Bartolotta's Lake Park Bistro",
+   "cuisines": [
+    "French"
+   ],
+   "address": "3133 East Newberry Boulevard, 53211-3473, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "San Giorgio Pizzeria Napoletana",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "836; 838 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Brunch",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cubanitas",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "728 North Milwaukee Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Old German Beer Hall",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1009 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Blue Bat Kitchen & Tequilaria",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "249 North Water Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Birch",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "459 East Pleasant Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1123 North Water Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Kanpai Izakaya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "408 East Chicago Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Twisted Fisherman Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1200 West Canal Street, 53233, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Stone Bowl Grill",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1958 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Third Coast Provisions",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "724 North Milwaukee Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Curry Hut",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1888 North Humboldt Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Avlí",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1818 North Hubbard Street, 53212, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Zaffiro's Pizza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1724 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Vagabond",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1122 North Edison Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Asian Fusion",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pitch's Lounge & Restaurant",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1801 North Humboldt Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bacchus",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Calderon Club",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "842 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The Pasta Tree Restaurant & Wine Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1503 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Arlanderz Chicken & Fish",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "1814 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Chopstix",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1820 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Cavas",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "401 East Erie Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Mader's Restaurant",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1041 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Smoke Shack",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "332 North Milwaukee Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Rodizio Grill",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "777 North Water Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Toppers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1903 East Kenilworth Place, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Aperitivo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "311 North Plankinton Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "China Gourmet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "117 East Wells Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Pier 106 Seafood Tavern",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "106 West Wells Street, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Sweet Diner",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "239 East Chicago Street",
+   "website": ""
+  },
+  {
+   "name": "Wings Over Milwaukee",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1434 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Lazo's Taco Shack",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "641 North James Lovell Street, 53233, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Vegabond",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1122 North Edison Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Mo's, A Place For Steaks",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "720 North Plankinton Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The Brown Bottle",
+   "cuisines": [
+    "American"
+   ],
+   "address": "221 West Galena Street, 53212, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Buck Bradley's Saloon & Eatery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1019 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "East Town Kitchen & Bar",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "323 East Wisconsin Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Easy Tyger",
+   "cuisines": [
+    "World"
+   ],
+   "address": "1230 East Brady Street",
+   "website": ""
+  },
+  {
+   "name": "Tess",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "2499 North Bartlett Avenue, 53211, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Lucky Ginger",
+   "cuisines": [
+    "Asian",
+    "Fusion"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Judy’s on North",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2207 East North Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Back Street BBQ & Hotpot",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "2116 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Milwaukee Sail Loft",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "649 East Erie Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The Knick",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "1030 East Juneau Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Merriment Social",
+   "cuisines": [
+    "New American"
+   ],
+   "address": "240 East Pittsburgh Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Bollywood Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1038 North Jackson Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Third Coast Gourmet",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "309 North Water Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Kompali Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1205 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "DOC’S Commerce Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "754 North Vel R. Phillips Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Stella Van Buren",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alem Ethiopian Village",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "307 East Wisconsin Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "DanDan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "360 East Erie Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Ethiopian Cottage Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1824 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Zarletti",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blue Star Cafe",
+   "cuisines": [
+    "Somali"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "1033 Omakase",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1033 South 1st Street, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Carson's Prime Steaks & Famous Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "301 West Juneau Avenue, 53203",
+   "website": ""
+  },
+  {
+   "name": "Motor Bar & Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "George Webb Restaurant",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "812 North Doctor Martin Luther King Junior Drive, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "BB's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Café Calatrava",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "700 North Art Museum Drive, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Electric Lime Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "811 North Jefferson Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Rare Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Man",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2597 North Downer Avenue, 53211, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Maru Korean Bistro",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2150 North Prospect Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Villa’s Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2522 West Greenfield Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "La Carreta Vieja",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1339 West Greenfield Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1035 South Cesar E Chavez Drive, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Milwaukee ChopHouse",
+   "cuisines": [
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe La Scala",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lemongrass by EE-Sane",
+   "cuisines": [
+    "Thai",
+    "Lao"
+   ],
+   "address": "1505 North Farwell Avenue, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Crab It Your Way",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Casa De Alberto",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "624 West National Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Bamboo",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3427 West National Avenue, 53215, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "La Fondita Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2523 West Greenfield Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Las Gardenias",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "305 North Plankinton Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Brady St Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1415 East Brady Street, 53202, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Taquería El Cabrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 South 11th Street, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Jing's",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beeny's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "West Lincoln Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Cute Robot Japanese Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "702 South 2nd Street, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Pho Spot MKE",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "275 West Wisconsin Avenue, 53203, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Taqueria la Guelaguetza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1039 West National Avenue, 53204-1347, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Taqueria El Toro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2531 West National Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "El Salvador Restaurant",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "2318 South 6th Street, 53215-3204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "La Casa De Chivolin",
+   "cuisines": [
+    "Mexican",
+    "Seafood"
+   ],
+   "address": "2423 South 6th Street, 53215, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Himalayan Yak",
+   "cuisines": [
+    "Nepalese",
+    "Indian"
+   ],
+   "address": "2321 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Cajun Soul MKE",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "508 West Center Street, 53212, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "The Avenue Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diverse Dining Market",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Bar-B-Que",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3417 West National Avenue, 53215, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "RollUp",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2144 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Ni Burmese",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2140 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Miss Katie's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1900,1914 West Clybourn Street, 53233, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Oakland Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Capital Grille",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Riverwest Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "932 East Wright Street",
+   "website": ""
+  },
+  {
+   "name": "Bistro 333",
+   "cuisines": [
+    "New American",
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phan's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1923 West National Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Los Tres Amigos Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1401 West Washington Street, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Los Comales",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1306 South Cesar E Chavez Drive, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Beijing Express",
+   "cuisines": [
+    "Chinese",
+    "Mongolian Grill"
+   ],
+   "address": "1418 South Muskego Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Restaurant y Taqueria La Esperanza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Khan Aseya",
+   "cuisines": [
+    "Malaysian"
+   ],
+   "address": "1201 West Lincoln Avenue, 53215, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Sundeck Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Union Sports Annex",
+   "cuisines": [
+    "American"
+   ],
+   "address": "West Wells Street, 53233",
+   "website": ""
+  },
+  {
+   "name": "Los Tres Hermanos",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "West Lincoln Avenue, 53204, Milwaukee",
+   "website": ""
+  },
+  {
+   "name": "Los Gemelos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sal's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Hollander",
+   "cuisines": [
+    "Dutch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lunda Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "William Ho's",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "City Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pacific Wraps",
+   "cuisines": [
+    "Wrap"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Presto",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stir Fry",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Gasthaus",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Five O'Clock Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Temple Goddess Cafe",
+   "cuisines": [],
+   "address": "1978 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://templegoddesscafe.com/"
+  },
+  {
+   "name": "Uncle Wolfie's Dinner Diner",
+   "cuisines": [],
+   "address": "600 North Broadway, 53202, Milwaukee",
+   "website": "https://www.unclewolfiesdinnerdiner.com/"
+  },
+  {
+   "name": "Tauro Cocina",
+   "cuisines": [],
+   "address": "1758 North Water Street, 53202, Milwaukee",
+   "website": "https://taurococina.com/"
+  },
+  {
+   "name": "Frankies Restaurant and Catering",
+   "cuisines": [],
+   "address": "1815 East Kenilworth Place, 53202, Milwaukee",
+   "website": "https://frankiesfrankies.com/"
+  },
+  {
+   "name": "Dom & Phil DeMarinis",
+   "cuisines": [],
+   "address": "1211 East Conway Street, 53207, Milwaukee",
+   "website": "https://www.domandphildemarinis.com/"
+  },
+  {
+   "name": "EsterEv",
+   "cuisines": [],
+   "address": "2165 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "https://esterev.com/"
+  },
+  {
+   "name": "Egg & Flour Pasta Bar - Bay View",
+   "cuisines": [],
+   "address": "2273 South Howell Avenue, 53207, Milwaukee",
+   "website": "https://www.greateffingpasta.com/"
+  },
+  {
+   "name": "Three Brothers",
+   "cuisines": [],
+   "address": "2414 South Saint Clair Street, 53207, Milwaukee",
+   "website": "https://www.threebrothersmke.com/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Milwaukee County Historical Center",
+   "kind": "museum",
+   "address": "910 North Doctor Martin Luther King Junior Drive, 53203-1591, Milwaukee",
+   "website": "https://milwaukeehistory.net",
+   "phone": "+1 414 273 8288",
+   "latitude": 43.0418788,
+   "longitude": -87.9141354
+  },
+  {
+   "name": "Oriental Theatre",
+   "kind": "attraction",
+   "address": "2230 North Farwell Avenue, 53202, Milwaukee",
+   "website": "https://mkefilm.org/oriental-theatre",
+   "phone": "+1 414 276 5140",
+   "latitude": 43.059458,
+   "longitude": -87.8854861
+  },
+  {
+   "name": "Captain Frederick Pabst Mansion",
+   "kind": "museum",
+   "address": "2000 West Wisconsin Avenue, 53233, Milwaukee",
+   "website": "https://www.pabstmansion.com/",
+   "phone": "",
+   "latitude": 43.0392576,
+   "longitude": -87.9379295
+  },
+  {
+   "name": "Betty Brinn Children's Museum",
+   "kind": "museum",
+   "address": "929 East Wisconsin Avenue, 53202-5406, Milwaukee",
+   "website": "https://www.bbcmkids.org/",
+   "phone": "",
+   "latitude": 43.0386397,
+   "longitude": -87.8997134
+  },
+  {
+   "name": "Thomas A. Greene Geological Museum",
+   "kind": "museum",
+   "address": "3209 North Maryland Avenue, 53211, Milwaukee",
+   "website": "https://uwm.edu/geosciences/greene-museum/",
+   "phone": "",
+   "latitude": 43.0762684,
+   "longitude": -87.8835488
+  },
+  {
+   "name": "Henry Maier Festival Park",
+   "kind": "theme park",
+   "address": "200 North Harbor Drive, 53202, Milwaukee",
+   "website": "https://www.milwaukeeworldfestival.com/",
+   "phone": "",
+   "latitude": 43.0308416,
+   "longitude": -87.8985101
+  },
+  {
+   "name": "America’s Black Holocaust Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.abhmuseum.org/",
+   "phone": "",
+   "latitude": 43.0601514,
+   "longitude": -87.9158059
+  },
+  {
+   "name": "Charles Allis Art Museum",
+   "kind": "gallery",
+   "address": "1801 North Prospect Avenue, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0538264,
+   "longitude": -87.8904216
+  },
+  {
+   "name": "North Point Lighthouse",
+   "kind": "museum",
+   "address": "2650 North Wahl Avenue, 53211, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0656774,
+   "longitude": -87.8714176
+  },
+  {
+   "name": "Grohmann Museum",
+   "kind": "gallery",
+   "address": "1000 North Broadway, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0438178,
+   "longitude": -87.9079553
+  },
+  {
+   "name": "Milwaukee Public Museum",
+   "kind": "museum",
+   "address": "800 West Wells Street, 53233, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0407226,
+   "longitude": -87.9213387
+  },
+  {
+   "name": "Discovery World Science + Technology Center",
+   "kind": "museum",
+   "address": "500 North Harbor Drive, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0369091,
+   "longitude": -87.8957396
+  },
+  {
+   "name": "Mitchell Park Horticultural Conservatory",
+   "kind": "attraction",
+   "address": "524 South Layton Boulevard, 53215, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0264178,
+   "longitude": -87.9456323
+  },
+  {
+   "name": "Lowell Damon House Museum",
+   "kind": "museum",
+   "address": "2107 North Wauwatosa Avenue, 53213, Wauwatosa",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0574244,
+   "longitude": -88.0076995
+  },
+  {
+   "name": "Harley-Davidson Museum",
+   "kind": "museum",
+   "address": "400 West Canal Street, 53203, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0312922,
+   "longitude": -87.9175075
+  },
+  {
+   "name": "Villa Terrace Decorative Arts Museum",
+   "kind": "gallery",
+   "address": "2220 North Terrace Avenue, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.057101,
+   "longitude": -87.8800124
+  },
+  {
+   "name": "The Green Gallery East",
+   "kind": "gallery",
+   "address": "1500 North Farwell Avenue, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0497724,
+   "longitude": -87.8950243
+  },
+  {
+   "name": "Milwaukee Art Museum",
+   "kind": "gallery",
+   "address": "700 North Art Museum Drive, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0398325,
+   "longitude": -87.896879
+  },
+  {
+   "name": "Haggerty Museum of Art",
+   "kind": "gallery",
+   "address": "1234 West Tory Hill Street, 53233, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0370038,
+   "longitude": -87.9278003
+  },
+  {
+   "name": "Sprecher Brewery",
+   "kind": "attraction",
+   "address": "701 West Glendale Avenue, 53209, Glendale",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0995275,
+   "longitude": -87.9194933
+  },
+  {
+   "name": "Jewish Museum Milwaukee",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0480211,
+   "longitude": -87.8948706
+  },
+  {
+   "name": "German Fest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0331574,
+   "longitude": -87.8991184
+  },
+  {
+   "name": "American System Built Homes-Burnham Street District",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0106387,
+   "longitude": -87.9486207
+  },
+  {
+   "name": "Allen-Bradley Clock Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0185903,
+   "longitude": -87.9129351
+  },
+  {
+   "name": "PrideFest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0328279,
+   "longitude": -87.8992765
+  },
+  {
+   "name": "Polish Fest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0328729,
+   "longitude": -87.8992228
+  },
+  {
+   "name": "Summerfest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0331263,
+   "longitude": -87.8995192
+  },
+  {
+   "name": "Milwaukee Irish Fest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0329729,
+   "longitude": -87.8991538
+  },
+  {
+   "name": "Festa Italiana",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0332611,
+   "longitude": -87.8991457
+  },
+  {
+   "name": "Wisconsin Athletic Walk of Fame",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0423128,
+   "longitude": -87.9163038
+  },
+  {
+   "name": "Walk of Fame",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0288613,
+   "longitude": -87.9723594
+  },
+  {
+   "name": "National Bobblehead Hall of Fame and Museum",
+   "kind": "museum",
+   "address": "170 South 1st Street, 53204, Milwaukee",
+   "website": "https://www.bobbleheadhall.com/",
+   "phone": "+1-800-414-1482",
+   "latitude": 43.0297218,
+   "longitude": -87.9105555
+  },
+  {
+   "name": "Kim Storage Gallery",
+   "kind": "gallery",
+   "address": "207 East Buffalo Street, 53202, Milwaukee",
+   "website": "https://kimstoragegallery.com/",
+   "phone": "+1-414-231-9304",
+   "latitude": 43.0336453,
+   "longitude": -87.9088902
+  },
+  {
+   "name": "Jazz Gallery Center for the Arts",
+   "kind": "gallery",
+   "address": "926 East Center Street, 53212, Milwaukee",
+   "website": "https://jazzgallerycenterforarts.org/",
+   "phone": "+1-414-374-4722",
+   "latitude": 43.0675837,
+   "longitude": -87.8994415
+  },
+  {
+   "name": "Miller Brewery Tour",
+   "kind": "attraction",
+   "address": "4251 West State Street, 53208, Milwaukee",
+   "website": "https://millerbrewerytour.com/",
+   "phone": "+14149312337",
+   "latitude": 43.0421003,
+   "longitude": -87.967965
+  },
+  {
+   "name": "Real Tinsel",
+   "kind": "gallery",
+   "address": "1013 West Historic Mitchell Street, 53204, Milwaukee",
+   "website": "https://www.realtinsel.com/",
+   "phone": "+1 347-683-0197",
+   "latitude": 43.0121861,
+   "longitude": -87.9246285
+  },
+  {
+   "name": "Little Red Store",
+   "kind": "museum",
+   "address": "7720 Harwood Avenue, 53213, Wauwatosa",
+   "website": "https://www.wauwatosahistoricalsociety.org/little-red-store",
+   "phone": "",
+   "latitude": 43.0492893,
+   "longitude": -88.0091477
+  },
+  {
+   "name": "The Suburban",
+   "kind": "gallery",
+   "address": "723 South 5th Street, 53204, Milwaukee",
+   "website": "http://thesuburban.org/",
+   "phone": "",
+   "latitude": 43.0237088,
+   "longitude": -87.9170478
+  },
+  {
+   "name": "The Alice Wilds",
+   "kind": "gallery",
+   "address": "900 South 5th Street, 53204, Milwaukee",
+   "website": "https://www.thealicewilds.com/",
+   "phone": "",
+   "latitude": 43.0220574,
+   "longitude": -87.9164722
+  },
+  {
+   "name": "Mitchell Street Arts",
+   "kind": "gallery",
+   "address": "710 West Historic Mitchell Street, 53204, Milwaukee",
+   "website": "https://www.mitchellstreet.org/",
+   "phone": "",
+   "latitude": 43.0124611,
+   "longitude": -87.9203431
+  },
+  {
+   "name": "Gallery 507",
+   "kind": "gallery",
+   "address": "507 West North Avenue, 53212, Milwaukee",
+   "website": "https://bcamke.org/exhibitions-at-gallery-507/",
+   "phone": "",
+   "latitude": 43.0601678,
+   "longitude": -87.9174605
+  },
+  {
+   "name": "Grove Gallery",
+   "kind": "gallery",
+   "address": "832 South 5th Street, 53204, Milwaukee",
+   "website": "https://www.gallerygrove.com/",
+   "phone": "",
+   "latitude": 43.0224658,
+   "longitude": -87.9166751
+  },
+  {
+   "name": "Walker's Point Center for the Arts",
+   "kind": "gallery",
+   "address": "839 South 5th Street, 53204, Milwaukee",
+   "website": "https://wpca-milwaukee.org/",
+   "phone": "",
+   "latitude": 43.0223102,
+   "longitude": -87.9170453
+  },
+  {
+   "name": "The Stone Creek Coffee Factory",
+   "kind": "attraction",
+   "address": "422 North 5th Street, 53203, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0352729,
+   "longitude": -87.9171422
+  },
+  {
+   "name": "Bresler Eitel Art & Framing Gallery",
+   "kind": "gallery",
+   "address": "525 West Walnut Street, 53212, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0520707,
+   "longitude": -87.9180654
+  },
+  {
+   "name": "Wisconsin Black Historical Society",
+   "kind": "museum",
+   "address": "2620 West Center Street, 53210, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0682855,
+   "longitude": -87.9470243
+  },
+  {
+   "name": "Kenilworth Square East Gallery",
+   "kind": "gallery",
+   "address": "2155 North Prospect Avenue, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0583362,
+   "longitude": -87.8857447
+  },
+  {
+   "name": "Genesis",
+   "kind": "gallery",
+   "address": "720 North Milwaukee Street, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.039281,
+   "longitude": -87.9063018
+  },
+  {
+   "name": "The Warehouse",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0345722,
+   "longitude": -87.9339575
+  },
+  {
+   "name": "Tory Folliard Gallery",
+   "kind": "gallery",
+   "address": "233 North Milwaukee Street, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.033536,
+   "longitude": -87.9060862
+  },
+  {
+   "name": "Museum of Wisconsin Art On The Lake",
+   "kind": "gallery",
+   "address": "1800 North Prospect Avenue, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0532162,
+   "longitude": -87.8896264
+  },
+  {
+   "name": "Lakefront Festival of Art",
+   "kind": "attraction",
+   "address": "700 North Art Museum Drive, 53202, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0379134,
+   "longitude": -87.8981989
+  },
+  {
+   "name": "Arts Center Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0759556,
+   "longitude": -87.8798229
+  },
+  {
+   "name": "Black Cat Mural Alley",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0593828,
+   "longitude": -87.8852626
+  },
+  {
+   "name": "Mexican Fiesta",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0330322,
+   "longitude": -87.899131
+  },
+  {
+   "name": "Big Gig BBQ",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0333711,
+   "longitude": -87.8992008
+  },
+  {
+   "name": "Juneteenth Day",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0712675,
+   "longitude": -87.9141359
+  },
+  {
+   "name": "Brooks Stevens Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0311128,
+   "longitude": -87.908581
+  },
+  {
+   "name": "The Little Nature Museum",
+   "kind": "museum",
+   "address": "1130 North 60th Street, 53208, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0458403,
+   "longitude": -87.9862983
+  },
+  {
+   "name": "Milwaukee County Airport Observation Area",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9586893,
+   "longitude": -87.8948807
+  },
+  {
+   "name": "Cudahy Historical Museum",
+   "kind": "museum",
+   "address": "4647 South Kinnickinnic Avenue, 53110, Cudahy",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9600614,
+   "longitude": -87.8647275
+  },
+  {
+   "name": "Milwaukee Fire Education Center and Museum",
+   "kind": "museum",
+   "address": "1615 West Oklahoma Avenue, 53215, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9880453,
+   "longitude": -87.9344695
+  },
+  {
+   "name": "Frederick Layton Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0306697,
+   "longitude": -87.9073311
+  },
+  {
+   "name": "Laborfest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.033106,
+   "longitude": -87.899121
+  },
+  {
+   "name": "Fromm Petfest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0332133,
+   "longitude": -87.8991288
+  },
+  {
+   "name": "Frank Juarez Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.033418,
+   "longitude": -87.9083852
+  },
+  {
+   "name": "Var Gallery",
+   "kind": "gallery",
+   "address": "643 South 2nd Street, 53204, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0243063,
+   "longitude": -87.9129549
+  },
+  {
+   "name": "Miller Visitor Center",
+   "kind": "attraction",
+   "address": "4251 West State Street, 53208, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0420812,
+   "longitude": -87.9680703
+  },
+  {
+   "name": "Bastille Days",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0422709,
+   "longitude": -87.9050369
+  },
+  {
+   "name": "Black Arts Fest MKE",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0333112,
+   "longitude": -87.8991678
+  },
+  {
+   "name": "Reiman Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0367533,
+   "longitude": -87.8954677
+  },
+  {
+   "name": "Water's Edge",
+   "kind": "gallery",
+   "address": "2320 South Kinnickinnic Avenue, 53207, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0025776,
+   "longitude": -87.9037535
+  },
+  {
+   "name": "R & Z Urban Art Gallery",
+   "kind": "gallery",
+   "address": "823 West National Avenue, 53204, Milwaukee",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0231059,
+   "longitude": -87.9218537
+  },
+  {
+   "name": "Jazz in the Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0415262,
+   "longitude": -87.9049581
+  },
+  {
+   "name": "Milwaukee Taco Fest",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0329185,
+   "longitude": -87.8991927
+  },
+  {
+   "name": "Summer Soulstice Music Festival",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0601931,
+   "longitude": -87.885492
+  },
+  {
+   "name": "Taste of Italy",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0327715,
+   "longitude": -87.902298
+  },
+  {
+   "name": "Skyline Music",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0576871,
+   "longitude": -87.9025327
+  },
+  {
+   "name": "River Rhythms",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.042309,
+   "longitude": -87.9135136
+  },
+  {
+   "name": "MOWA | DTN",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0417033,
+   "longitude": -87.9106135
+  },
+  {
+   "name": "Kneeland-Walker House & Preservation Center",
+   "kind": "museum",
+   "address": "7406 Hillcrest Drive",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0557738,
+   "longitude": -88.0053444
+  },
+  {
+   "name": "Tom Queoff Sculpture Studio",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0335562,
+   "longitude": -87.9080198
+  },
+  {
+   "name": "Hispanic Heritage Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0204726,
+   "longitude": -87.922295
+  },
+  {
+   "name": "Live at Peck",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0422796,
+   "longitude": -87.9121182
+  },
+  {
+   "name": "Daniel W. Hoan Memorial Bridge Overview",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0253123,
+   "longitude": -87.9038748
+  },
+  {
+   "name": "AJ Bombers Chairs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0468903,
+   "longitude": -87.9113664
+  },
+  {
+   "name": "Spin City",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0257081,
+   "longitude": -88.0129707
+  },
+  {
+   "name": "Living The Legend Rivet Walls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0302545,
+   "longitude": -87.9171745
+  },
+  {
+   "name": "Timo Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0335599,
+   "longitude": -87.9087999
+  },
+  {
+   "name": "Aquae Nguvu",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0335233,
+   "longitude": -87.9086613
+  },
+  {
+   "name": "OIL, a city gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0335735,
+   "longitude": -87.908706
+  }
+ ]
+}

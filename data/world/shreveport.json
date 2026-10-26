@@ -1,0 +1,1270 @@
+{
+ "city": "Shreveport",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 32.5101,
+ "longitude": -93.75,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Shreveport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "104 Market Street, 71101, Shreveport",
+   "url": "https://www.hilton.com/en/hotels/shvsphf-hilton-shreveport/?SEO_id=GMB-AMER-HH-SHVSPHF"
+  },
+  {
+   "name": "Homewood Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2015 Old Minden Road, 71111, Bossier City",
+   "url": "https://www.hilton.com/en/hotels/shvmrhw-homewood-suites-shreveport-bossier-city-la/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5226 Monkhouse Drive, 71109, Shreveport",
+   "url": "https://www.hilton.com/en/hotels/shvlahx-hampton-shreveport-airport/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5020 Hollywood Avenue, 71109, Shreveport",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-shreveport-airport-la"
+  },
+  {
+   "name": "Hampton Inn Shreveport/Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1005 Gould Drive, 71111, Bossier City",
+   "url": "https://www.hilton.com/en/hotels/shvbchx-hampton-shreveport-bossier-city/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2691 Viking Drive, 71111, Bossier City",
+   "url": "https://www.hilton.com/en/hotels/shvbshx-hampton-suites-shreveport-bossier-city-at-airline-drive/"
+  },
+  {
+   "name": "Courtyard Shreveport-Bossier City/Louisiana Boardwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Boardwalk Boulevard, 71111, Bossier City",
+   "url": "https://www.marriott.com/shvsb"
+  },
+  {
+   "name": "Sleep Inn & Suites Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3215 Samford Avenue, 71103, Shreveport",
+   "url": "https://www.choicehotels.com/louisiana/shreveport/sleep-inn-hotels"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4911 Monkhouse Drive, 71109, Shreveport",
+   "url": "https://www.wyndhamhotels.com/super-8/shreveport-louisiana/super-8-shreveport-la/overview"
+  },
+  {
+   "name": "Residence Inn Shreveport-Bossier City/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Traffic Street, 71111, Bossier City",
+   "url": "https://www.marriott.com/shvrb"
+  },
+  {
+   "name": "La Quinta Inn Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "309 Preston Boulevard, 71111, Bossier City",
+   "url": "https://www.wyndhamhotels.com/laquinta/bossier-city-louisiana/la-quinta-inn-bossier-city/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Shreveport-South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8340 Millicent Way, 71115, Shreveport",
+   "url": "https://www.hilton.com/en/hotels/shvsohx-hampton-suites-shreveport-south/"
+  },
+  {
+   "name": "Residence Inn Shreveport Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4910 West Monkhouse Drive, 71109, Shreveport",
+   "url": "https://www.marriott.com/shvri"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Shreveport - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 Lake Street, 71101, Shreveport",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/shreveport/shvlk/hoteldetail"
+  },
+  {
+   "name": "Super 8 Bossier City/Shreveport Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 Hilton Drive, 71111, Bossier City",
+   "url": "https://www.wyndhamhotels.com/super-8/bossier-city-louisiana/super-8-bossier-city-shreveport-area/overview"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8751 Park Plaza dr, 71105, Shreveport",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/shreveport/shvbp/hoteldetail"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Shreveport - West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5420 Interstate Drive, 71109, Shreveport",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/shreveport/shvla/hoteldetail"
+  },
+  {
+   "name": "Best Western Plus Airport Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4927 Monkhouse Drive, 71109, Shreveport",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-shreveport/best-western-plus-airport-inn-suites/propertyCode.19117.html"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2134 Greenwood Road, 71103, Shreveport",
+   "url": "https://www.wyndhamhotels.com/travelodge/shreveport-louisiana/travelodge-shreveport-la/overview?CID=LC:fkqqcjhla7b6gbb:12134"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1984 Airline Drive, 71112-2447, Bossier City",
+   "url": "https://www.motel6.com/en/home/motels.la.bossier-city.9292.html"
+  },
+  {
+   "name": "LeBossier Hotel & Event Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4000 Industrial Drive, 71112, Bossier City",
+   "url": "https://lebossier.com/"
+  },
+  {
+   "name": "Horseshoe Bossier City Hotel & Casino - A Caesars Rewards Destination",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "711 Horseshoe Boulevard, 71111, Bossier City",
+   "url": "https://www.caesars.com/horseshoe-bossier-city"
+  },
+  {
+   "name": "Siegel Select - Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3070 East Texas Street, 71111, Bossier City",
+   "url": "https://www.extendedstayamerica.com/"
+  },
+  {
+   "name": "Red River Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 East Texas Street, 71111, Bossier City",
+   "url": "https://red-river-inn-bossier-city.poi.place/extra"
+  },
+  {
+   "name": "Barksdale Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 Davis Avenue West, 71110",
+   "url": "https://af.dodlodging.net/propertys/Barksdale-Inn"
+  },
+  {
+   "name": "Clarion Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5204 Monkhouse Drive, 71109, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1906 North Market Street, 71107, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1121 Barksdale Boulevard, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2713 Village Lane, 71112, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Bally's Shreveport Casino & Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "451 Clyde Fant Pkwy, 71101, Eldorado",
+   "url": ""
+  },
+  {
+   "name": "TownePlace Suites Shreveport-Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1009 Gould Drive, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Arlington Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Cotton Street, 71101, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Session's Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Pete Harris Drive, 71101, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5402 Interstate Drive, 71109, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Hotel Bossier City LA - Red RiverTravelodge Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "740 Diamond Jacks Boulevard, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Near Casinos And Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Delhi Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2717 Village Lane, 71112, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Shreveport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1419 East 70th Street, 71105, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1836 Old Minden Road, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2675 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Town & Country Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4115 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Cajun Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2610 Claiborne Avenue, 71103, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Crown Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1968 Airline Drive, 71112-2408, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Super 7 Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 John Wesley Boulevard, 71112, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "David Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2045 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Airview Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5607 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Bossier Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "750 Diamond Jacks Boulevard, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Budgetel Shreveport/Bossier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4300 Industrial Drive, 71112, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Shreveport Bossier City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2275 Old Minden Road, 71112, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Sam's Town Hotel and Casino Shreveport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "315 Clyde Fant Memorial Parkway, 71101, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Beacon Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2210 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Siesta Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2585 East Texas Street, 71111, Bossier City",
+   "url": ""
+  },
+  {
+   "name": "Evangeline",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3875 Line Avenue, 71106, Shreveport",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Manor Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Remington Suite Hotel & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budgetel Shreveport/Bossier 1",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budgetel Shreveport/Bossier 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Dough Boys Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1133 st vincent ave, 71104, Shreveport",
+   "website": "https://www.pizzadoughboys.com/"
+  },
+  {
+   "name": "Totally Taters",
+   "cuisines": [
+    "Potato"
+   ],
+   "address": "1133 Saint Vincent Ave, 71104, Shreveport",
+   "website": "https://www.totallytaterssbc.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2123 Old Minden Road, 71112, Bossier City",
+   "website": "https://locations.wafflehouse.com/bossiercity-la-1258/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "670 Boardwalk Boulevard, 71111, Bossier City",
+   "website": "https://restaurants.ihop.com/en-us/la/bossier-city/breakfast-670-boardwalk-blvd.-3106"
+  },
+  {
+   "name": "Cheng's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3304 Youree Drive, 71105, Shreveport",
+   "website": "https://chengsgardenshreveportla.kwickmenu.com/"
+  },
+  {
+   "name": "India's Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3030 Youree Drive, 71104, Shreveport",
+   "website": "http://frissonart.com/indias/"
+  },
+  {
+   "name": "Deli-Casino Sandwich Shoppe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "637 East Kings Highway, 71105, Shreveport",
+   "website": "https://www.bayoudelicasserole.com/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2968 East Texas Street, 71111, Bossier City",
+   "website": "https://www.redlobster.com/seafood-restaurants/locations/la/bossier-city/2968-e-texas-st"
+  },
+  {
+   "name": "Johnny's Pizza House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "114 Benton Spur, 71111, Bossier City",
+   "website": "https://johnnysph.com/"
+  },
+  {
+   "name": "Papa & Company",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "545 East Washington Street, 71104, Shreveport",
+   "website": "https://www.papaandcompany.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2949 East Texas Street, 71111, Bossier City",
+   "website": "https://locations.pizzahut.com/la/bossier-city/2949-e-texas-st"
+  },
+  {
+   "name": "Kobe Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "535 Benton Road, 71111, Bossier City",
+   "website": "https://kobejp.top/"
+  },
+  {
+   "name": "Captain La Fish & Chicken",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1770 East Texas Street, 71111, Bossier City",
+   "website": "https://www.restaurantportals.com/CaptainLaFishandChicken/"
+  },
+  {
+   "name": "Notini's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2013 Airline Drive, 71111-3203, Bossier City",
+   "website": "https://notinisitalianrestaurant.com/"
+  },
+  {
+   "name": "Taqueria Aguirre",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2106 Airline Drive, 71111-3106, Bossier City",
+   "website": "https://taqueriaaguirrela.com/"
+  },
+  {
+   "name": "KaBuki Sushi & Roll",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2119 Airline Drive, 71111-3686, Bossier City",
+   "website": "https://kabukisushi.menu11.com/"
+  },
+  {
+   "name": "China Flag Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2121 Airline Drive, 71111-3428, Bossier City",
+   "website": "https://www.chinaflagbuffet.com/"
+  },
+  {
+   "name": "Monjunis",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2151 Airline Drive, 71111-3294, Bossier City",
+   "website": "https://monjunisbossier.com/"
+  },
+  {
+   "name": "China Town",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "901 Benton Road, 71111, Bossier City",
+   "website": "https://chinatownla.kwickmenu.com/index.php"
+  },
+  {
+   "name": "The III Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "375 boardwalk blvd, 71111, Bossier City",
+   "website": "https://iiiamigoslaboardwalk.com/"
+  },
+  {
+   "name": "Podnuh's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "108 Benton Spur, 71111, Bossier City",
+   "website": "https://www.podnuhs.com/"
+  },
+  {
+   "name": "Danh's Garden",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "3312 Youree Drive, 71105, Shreveport",
+   "website": "https://danhsgardenla.com/"
+  },
+  {
+   "name": "Doc's Wings & Things",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3719 Lakeshore Drive, 71109, Shreveport",
+   "website": "https://docswingsandthings.com"
+  },
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "635 Boardwalk Boulevard, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Los Gallos Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "639 East Kings Highway, 71105, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Kim's Seafood & Po-Boy",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "901 Benton Road, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Mike's Breakfast Lunch & Dinner",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2307 East Texas Street, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Okidoki Hibachi Express",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1727 North Market Street, 71107, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1832 Old Minden Road, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "2715 Village Lane, 71112, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1005 Gould Drive, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Ming Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1250 Shreveport Barksdale Highway, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong City",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "750 Shreveport Barksdale Highway, 71105, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Oogie's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "114 Benton Spur, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "John's Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1603 North Market Street, 71107, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Sushiko",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "650 Boardwalk Boulevard, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Posados Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1703 Old Minden Road, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "David Beards",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2712 Village Lane, 71112, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Chimy V's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2050 Old Minden Road, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Monjunis Italian Cafe & Grocery",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cotton Boll Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cub Lounge & Kitchen",
+   "cuisines": [],
+   "address": "3002 Girard Street, 71104, Shreveport",
+   "website": "http://places.singleplatform.com/cub-restaurant/menu?ref=google"
+  },
+  {
+   "name": "Podnuh's Bar-B-Q",
+   "cuisines": [],
+   "address": "1915 North Market Street, 71107, Shreveport",
+   "website": "https://www.podnuhs.com/"
+  },
+  {
+   "name": "The Blind Tiger",
+   "cuisines": [],
+   "address": "120 Texas Street, 71101, Shreveport",
+   "website": "https://www.facebook.com/Blind-Tiger-Shreveport-187450951267567"
+  },
+  {
+   "name": "2Johns Steak and Seafood",
+   "cuisines": [],
+   "address": "2151 Airline Drive, 71111-3467, Bossier City",
+   "website": "https://www.2johnsrestaurant.com/"
+  },
+  {
+   "name": "Dillas Quesadillas",
+   "cuisines": [],
+   "address": "2035 Airline Drive, 71111-3203, Bossier City",
+   "website": "https://dillas.com/"
+  },
+  {
+   "name": "Gina's Waffles & Dogs",
+   "cuisines": [],
+   "address": "2307 East Texas Street, 71111, Bossier City",
+   "website": "https://ginas-waffles-dogs.wheree.com/"
+  },
+  {
+   "name": "Piccadilly",
+   "cuisines": [],
+   "address": "789 Shreveport Barksdale Highway, 71105, Shreveport",
+   "website": "https://www.piccadilly.com/"
+  },
+  {
+   "name": "Crazy Lemonade",
+   "cuisines": [],
+   "address": "2950 East Texas Street, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Fertitta's Delicatessen",
+   "cuisines": [],
+   "address": "1124 Fairfield Avenue, 71101, Shreveport",
+   "website": ""
+  },
+  {
+   "name": "Dona Rosa Antojitos",
+   "cuisines": [],
+   "address": "2307 East Texas Street, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Bonanza",
+   "cuisines": [],
+   "address": "2307 East Texas Street, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Daq's Wings & Grill",
+   "cuisines": [],
+   "address": "1705 Old Minden Road, 71111, Bossier City",
+   "website": ""
+  },
+  {
+   "name": "Fat Calf Brasserie",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Well+Fed Louisiana",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mabry House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marilynn's Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Herby K's",
+   "cuisines": [],
+   "address": "1833 Pierre Avenue",
+   "website": ""
+  },
+  {
+   "name": "UP FOR BRUNCH CAFE",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "R.W. Norton Art Gallery",
+   "kind": "museum",
+   "address": "4747 Creswell Avenue, 71106, Shreveport",
+   "website": "https://rwnaf.org/",
+   "phone": "+1 318 865 4201",
+   "latitude": 32.4587738,
+   "longitude": -93.7410325
+  },
+  {
+   "name": "Louisiana State Exhibit Museum",
+   "kind": "museum",
+   "address": "3015 Greenwood Road, 71109, Shreveport",
+   "website": "https://www.sos.la.gov/HistoricalResources/VisitMuseums/LouisianaStateExhibitMuseum/",
+   "phone": "+1 318-632-2020",
+   "latitude": 32.4801321,
+   "longitude": -93.7851072
+  },
+  {
+   "name": "Spring Street Historical Museum",
+   "kind": "museum",
+   "address": "525 Spring Street, 71101, Shreveport",
+   "website": "https://springstreetmuseum.org/",
+   "phone": "",
+   "latitude": 32.5146009,
+   "longitude": -93.7460276
+  },
+  {
+   "name": "Shreveport Railroad Museum",
+   "kind": "museum",
+   "address": "124 North Common Street, 71101, Shreveport",
+   "website": "https://shreveportwaterworks.org/railroad-museum/",
+   "phone": "",
+   "latitude": 32.5173925,
+   "longitude": -93.75752
+  },
+  {
+   "name": "Meadows Museum of Art",
+   "kind": "museum",
+   "address": "2911 Centenary Boulevard, 71104, Shreveport",
+   "website": "https://www.themeadowsmuseum.com/",
+   "phone": "+1-318-869-5169",
+   "latitude": 32.4834194,
+   "longitude": -93.7335384
+  },
+  {
+   "name": "Shreveport Water Works Museum",
+   "kind": "museum",
+   "address": "124 North Common Street, 71101, Shreveport",
+   "website": "https://shreveportwaterworks.org",
+   "phone": "",
+   "latitude": 32.5174033,
+   "longitude": -93.7572156
+  },
+  {
+   "name": "Barksdale Global Power Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.8afmuseum.com/",
+   "phone": "",
+   "latitude": 32.5134421,
+   "longitude": -93.6831574
+  },
+  {
+   "name": "Sci-Port: Louisiana's Science Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://sci-port.org/",
+   "phone": "",
+   "latitude": 32.5134321,
+   "longitude": -93.7420652
+  },
+  {
+   "name": "Marlene Yu Museum",
+   "kind": "museum",
+   "address": "710 Travis Street, 71101, Shreveport",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5123551,
+   "longitude": -93.7529859
+  },
+  {
+   "name": "Stephens African American Museum",
+   "kind": "museum",
+   "address": "2810 Lindholm Street, 71108, Shreveport",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4668975,
+   "longitude": -93.783142
+  },
+  {
+   "name": "Mardi Gras Museum",
+   "kind": "museum",
+   "address": "2101 East Texas Street, 71111, Bossier City",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5284689,
+   "longitude": -93.7208636
+  },
+  {
+   "name": "Derelict Tram",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.519954,
+   "longitude": -93.7422012
+  },
+  {
+   "name": "Old Railroad Equitment",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5087201,
+   "longitude": -93.7449152
+  },
+  {
+   "name": "McNeill Pumping Station",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5177571,
+   "longitude": -93.7570698
+  },
+  {
+   "name": "Shreveport Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5159996,
+   "longitude": -93.7433649
+  },
+  {
+   "name": "SUSLA Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5437676,
+   "longitude": -93.8359981
+  },
+  {
+   "name": "Track Speeder",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.5173503,
+   "longitude": -93.7576236
+  }
+ ]
+}

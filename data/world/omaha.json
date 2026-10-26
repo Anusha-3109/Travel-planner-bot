@@ -1,0 +1,2373 @@
+{
+ "city": "Omaha",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.2574,
+ "longitude": -95.9334,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Residence Inn Omaha Downtown/Old Market Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "106 South 15th Street, 68102, Omaha",
+   "url": "https://www.marriott.com/omart"
+  },
+  {
+   "name": "Element Omaha Midtown Crossing",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3253 Dodge Street, 68131, Omaha",
+   "url": "https://www.midtowncrossing.com/retail/hotel/element-hotel/"
+  },
+  {
+   "name": "Magnolia Hotel Omaha",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1615 Howard Street, 68102, Omaha",
+   "url": "https://magnoliahotels.com/omaha/"
+  },
+  {
+   "name": "Hotel Deco XV",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Farnam, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1299 Farnam Street, 68102, Omaha",
+   "url": "https://www.marriott.com/hotels/travel/omaak-the-farnam-autograph-collection/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Omaha Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1501 Nicholas Street, 68102, Omaha",
+   "url": "https://www.marriott.com/omafd"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4440 Douglas Street, 68131, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omamcht-home2-suites-omaha-un-medical-ctr-area/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2204 River Road, 51501, Council Bluffs",
+   "url": "https://www.hilton.com/en/hotels/omacbhx-hampton-council-bluffs/"
+  },
+  {
+   "name": "Embassy Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 South 10th Street, 68102, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omadtes-embassy-suites-omaha-downtown-old-market/"
+  },
+  {
+   "name": "Super 8 Omaha NE",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7111 Spring Street, 68106, Omaha",
+   "url": "https://www.wyndhamhotels.com/super-8/omaha-nebraska/super-8-omaha-ne/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites Omaha Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7007 Grover Street, 68106, Omaha",
+   "url": "https://www.choicehotels.com/nebraska/omaha/comfort-suites-hotels"
+  },
+  {
+   "name": "Kimpton Cottonwood Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "302 South 36th Street, 68131, Omaha",
+   "url": "https://www.thecottonwoodhotel.com/"
+  },
+  {
+   "name": "Courtyard Omaha Downtown/Old Market Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "68102, Omaha",
+   "url": "https://www.marriott.com/en-us/hotels/omacy-courtyard-omaha-downtown-old-market-area/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn Omaha Aksarben Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6737 Frances Street, 68106, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omaavgi-hilton-garden-inn-omaha-aksarben-village/"
+  },
+  {
+   "name": "SpringHill Suites Omaha East/Council Bluffs, IA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3216 Plaza View Drive, 51501, Council Bluffs",
+   "url": "https://www.marriott.com/omash"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "17 Arena Way, 51501, Council Bluffs",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-council-bluffs-ia"
+  },
+  {
+   "name": "EVEN Hotels Omaha Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2220 Farnam Street, 68102, Omaha",
+   "url": "https://www.ihg.com/evenhotels/hotels/us/en/omaha/omadt/hoteldetail/hotel-room-rates"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "540 South 12th Street, 68102, Omaha",
+   "url": "https://www.hyatt.com/en-us/hotel/nebraska/hyatt-place-omaha-downtown-old-market/omazo"
+  },
+  {
+   "name": "Hampton Inn & Suites Omaha-Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 Cuming Street, 68102, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omadnhx-hampton-suites-omaha-downtown/"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2431 Farnam Street, 68131, Omaha",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/omaha/omaom/hoteldetail"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Omaha Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1616 Dodge Street, 68102, Omaha",
+   "url": "https://doubletree3.hilton.com/en/hotels/nebraska/doubletree-by-hilton-hotel-omaha-downtown-OMAH-DT/index.html"
+  },
+  {
+   "name": "Sleep Inn & Suites Omaha Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2525 Abbott Drive, 68110, Omaha",
+   "url": "https://www.choicehotels.com/nebraska/omaha/sleep-inn-hotels/ne019"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2211 South 32nd Street, 51501, Council Bluffs",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/council-bluffs/cbfaa/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Council Bluffs IA Omaha NE Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2712 South 24th Street, 51501, Council Bluffs",
+   "url": "https://www.wyndhamhotels.com/super-8/council-bluffs-iowa/super-8-council-bluffs-ia-omaha-ne-area/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Omaha East/Council Bluffs, IA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "520 30th Avenue, 51501, Council Bluffs",
+   "url": "https://www.marriott.com/omacb"
+  },
+  {
+   "name": "Courtyard Omaha Aksarben Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 South 67th Street, 68106, Omaha",
+   "url": "https://www.marriott.com/omawt"
+  },
+  {
+   "name": "Holiday Inn Southwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3650 South 72nd Street, 68124, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omastdt-doubletree-omaha-southwest/"
+  },
+  {
+   "name": "Courtyard Omaha East/Council Bluffs, IA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2501 Bass Pro Drive, 51501, Council Bluffs",
+   "url": "https://www.marriott.com/omauf"
+  },
+  {
+   "name": "La Quinta Inn & Suites Omaha Airport Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201 Avenue H, 51510, Carter Lake",
+   "url": "https://www.wyndhamhotels.com/laquinta/carter-lake-iowa/la-quinta-omaha-airport-downtown/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7002 Grover Street, 68124, Omaha",
+   "url": "https://www.marriott.com/omasw"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7011 Hascall Street, 68124, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omassru-tru-omaha-i-80-at-72nd-street/"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1801 South 35th Street, 51501, Council Bluffs",
+   "url": "https://www.choicehotels.com/nebraska/omaha/comfort-suites-hotels"
+  },
+  {
+   "name": "Best Western Crossroads of the Bluffs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2216 27th Avenue, 51501, Council Bluffs",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-council-bluffs/best-western-crossroads-of-the-bluffs/propertyCode.16066.html"
+  },
+  {
+   "name": "Hilton Garden Inn Omaha Downtown / Old Market Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1005 Dodge Street, 68102, Omaha",
+   "url": "https://www.hilton.com/en/hotels/omadmgi-hilton-garden-inn-omaha-downtown-old-market-area/"
+  },
+  {
+   "name": "Marriott Hotel Downtown Omaha at The Capitol District",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 North 10th Street, 68102, Omaha",
+   "url": "https://www.marriott.com/hotels/travel/omadm-omaha-marriott-downtown-at-the-capitol-district/"
+  },
+  {
+   "name": "Cambria Hotel Omaha Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "740 North 14th Street, Omaha",
+   "url": "https://www.choicehotels.com/nebraska/omaha/cambria-hotels/ne176"
+  },
+  {
+   "name": "Aloft Omaha Aksarben Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6201 Center Street, 68106, Omaha",
+   "url": "https://www.marriott.com/en-us/hotels/omaai-aloft-omaha-aksarben-village/overview/"
+  },
+  {
+   "name": "Super 8 Omaha Eppley Airport/Carter Lake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3000 Airport Drive, 51510, Carter Lake",
+   "url": "https://www.wyndhamhotels.com/super-8/carter-lake-iowa/super-8-omaha-eppley-airport-carter-lake/overview"
+  },
+  {
+   "name": "Residence Inn Omaha Aksarben Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "68106, Omaha",
+   "url": "https://www.marriott.com/omakv"
+  },
+  {
+   "name": "BEST WESTERN PLUS Omaha Airport Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2510 Abbott Plaza, 51510-1579, Carter Lake",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-carter-lake/best-western-plus-omaha-airport-inn/propertyCode.16107.html"
+  },
+  {
+   "name": "Harrah's Council Bluffs Hotel & Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Harrah's Blvd, 51501, Council Bluffs",
+   "url": "https://www.caesars.com/harrahs-council-bluffs"
+  },
+  {
+   "name": "Magnolia",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1615 Howard Street, 68102, Omaha",
+   "url": "https://www.magnoliahotels.com/omaha/"
+  },
+  {
+   "name": "Ontario Place",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7325 Ontario Street, 68124, Omaha",
+   "url": "https://ontarioplaceomaha.com"
+  },
+  {
+   "name": "the red lion hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7101 Grover Street, 68106, Omaha",
+   "url": "https://redlion.com/"
+  },
+  {
+   "name": "Lakeside Mobile Homes",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "North 9th Street, 51510",
+   "url": "http://inspirecom.com/lakeside-mhc/community-overview.php"
+  },
+  {
+   "name": "Barney Court",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://rho-oma.com"
+  },
+  {
+   "name": "The Peregrine Omaha Downtown Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "South 18th Street",
+   "url": "https://www.hilton.com/en/hotels/omaneqq-the-peregrine-omaha-downtown/"
+  },
+  {
+   "name": "Suburban Extended Stay Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7010 Hascall Street, 68106, Omaha",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2141 South 35th Street, 51501",
+   "url": ""
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3619 9th Avenue, 51501",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 30th Avenue, 51501, Council Bluffs",
+   "url": ""
+  },
+  {
+   "name": "Aloft",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6201 Center Street, 68106, Omaha",
+   "url": ""
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2702 Mid-America Drive, 51501",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites Council Bluffs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3537 West Broadway, 51501",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Woodbury Avenue, 51503",
+   "url": ""
+  },
+  {
+   "name": "Hilton Omaha",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "68102, Omaha",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Council Bluffs, IA - Omaha East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3032 South Expressway, 51501, Council Bluffs",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Omaha",
+   "url": ""
+  },
+  {
+   "name": "Camelot Court",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2542 South 60th Street, 68106, Omaha",
+   "url": ""
+  },
+  {
+   "name": "Tudor Arms Condos",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "131 South 39th Street, 68131, Omaha",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Avoli Osteria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5013 Underwood Avenue, 68132, Omaha",
+   "website": "https://www.avoliosteria.com/"
+  },
+  {
+   "name": "The Brunch Box",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "225 North 12th Street, 68102, Omaha",
+   "website": "https://www.brunchboxomaha.com/"
+  },
+  {
+   "name": "Gorat's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "4917 Center Street, 68106, Omaha",
+   "website": "https://goratsomaha.com/"
+  },
+  {
+   "name": "Sips on 10th",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1022 South 10th St, 68108, Omaha",
+   "website": "https://www.sipson10th.com/"
+  },
+  {
+   "name": "Fizzy's Fountain & Liquors",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Ice Cream"
+   ],
+   "address": "1408 South 13th Street, 68108, Omaha",
+   "website": "https://www.fizzysomaha.com/"
+  },
+  {
+   "name": "Ahmad's",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "1006 Howard Street, 68102, Omaha",
+   "website": "http://www.ahmadspersiancuisine.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5024 Underwood Avenue, 68132, Omaha",
+   "website": "https://locations.pizzahut.com/ne/omaha/5024-underwood-ave"
+  },
+  {
+   "name": "Mula",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3932 Farnam Street, 68131, Omaha",
+   "website": "https://www.mulaomaha.com/"
+  },
+  {
+   "name": "Noli's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4001 Farnam Street, 68131, Omaha",
+   "website": "https://nolispizzeria.com"
+  },
+  {
+   "name": "Block 16",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1611 Farnam Street, 68106, Omaha",
+   "website": "https://block16omaha.com/"
+  },
+  {
+   "name": "Dough Boyz",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "501 South 21st Street, 51501, Council Bluffs",
+   "website": "http://doughboyzpizzasandphillys.com/"
+  },
+  {
+   "name": "Dirty Birds",
+   "cuisines": [
+    "American",
+    "Fried Chicken"
+   ],
+   "address": "1722 Saint Marys Avenue, 68102, Omaha",
+   "website": "https://dirtybirds69.com/"
+  },
+  {
+   "name": "La Casa Pizzaria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4432 Leavenworth Street, 68105, Omaha",
+   "website": "https://lacasapizzaria.net/"
+  },
+  {
+   "name": "Pitch Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "5021 Underwood Avenue, 68132, Omaha",
+   "website": "https://pitchpizzeria.com/"
+  },
+  {
+   "name": "Epoca Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1101 Davenport Street, 68102, Omaha",
+   "website": "https://epocacantina.com/index.html"
+  },
+  {
+   "name": "J. Gilberts",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1010 Capitol Avenue, 68102, Omaha",
+   "website": "https://www.jgilberts.com/omaha"
+  },
+  {
+   "name": "Omaha Prime",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "415 South 11th Street, 68102, Omaha",
+   "website": "https://www.omaha-prime.com/"
+  },
+  {
+   "name": "V. Mertz",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1022 Howard Street, 68102, Omaha",
+   "website": "https://www.vmertz.com/"
+  },
+  {
+   "name": "Zio's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1109 Howard Street, 68102, Omaha",
+   "website": "https://ziospizzeria.com/locations/old-market/"
+  },
+  {
+   "name": "Picklemans",
+   "cuisines": [
+    "American",
+    "Pizza"
+   ],
+   "address": "3201 Farnam Street, 68131, Omaha",
+   "website": "https://www.picklemans.com/locations/midtown-crossing-omaha.php"
+  },
+  {
+   "name": "DJ's Dugout",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1003 Capitol Avenue, 68102, Omaha",
+   "website": "https://www.djsdugout.com/"
+  },
+  {
+   "name": "Society 1854",
+   "cuisines": [
+    "American"
+   ],
+   "address": "222 North 10th Street, 68102, Omaha",
+   "website": "https://www.marriott.com/hotels/hotel-information/restaurant/omadm-omaha-marriott-downtown-at-the-capitol-district/"
+  },
+  {
+   "name": "Aroi Asian Cuisine",
+   "cuisines": [
+    "Thai",
+    "Vietnamese"
+   ],
+   "address": "2701 23rd Avenue, 51501, Council Bluffs",
+   "website": "https://www.caesars.com/horseshoe-council-bluffs/restaurants/aroi-asian-cuisine/"
+  },
+  {
+   "name": "CRAVE",
+   "cuisines": [
+    "International"
+   ],
+   "address": "200 South 31st Avcenue, 68131, Omaha",
+   "website": "https://www.midtowncrossing.com/restaurants/crave/"
+  },
+  {
+   "name": "Rocco's Pizza & Cantina",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1302 Mike Fahey Street, 68102, Omaha",
+   "website": "https://www.stadiumtuckersleftys.com/roccorsquos-pizza--cantina.html"
+  },
+  {
+   "name": "Hook and Lime",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "735 North 14th Street, 68102, Omaha",
+   "website": "https://www.hookandlime.com/"
+  },
+  {
+   "name": "Bob's Grill & Cafe",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "317 South 17th Street, 68102, Omaha",
+   "website": "https://www.bobsgrillandcafe.com/"
+  },
+  {
+   "name": "Sullivan's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "222 South 15th Street, 68102, Omaha",
+   "website": "https://www.sullivanssteakhouse.com/omaha/"
+  },
+  {
+   "name": "Mama's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "715 North Saddle Creek Road, 68132",
+   "website": "https://www.mamaspizzaomaha.com/"
+  },
+  {
+   "name": "Jonesy's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2752 West Broadway, 51501, Council Bluffs",
+   "website": "https://www.facebook.com/Jonesys-Corner-1115809951786319/"
+  },
+  {
+   "name": "Voodoo Taco",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1102 Harney Street, 68102, Omaha",
+   "website": "https://www.voodootaco.com/"
+  },
+  {
+   "name": "Big Kel's Pizza and Wings",
+   "cuisines": [
+    "Pizza",
+    "Chicken"
+   ],
+   "address": "40 Arena Way, 51501",
+   "website": "https://places.singleplatform.com/big-kels-pizza-wings/menu?ref=google"
+  },
+  {
+   "name": "Kathmandu Momo Station Blackstone",
+   "cuisines": [
+    "Nepalese"
+   ],
+   "address": "3924 1/2 Farnam Street, 68131, Omaha",
+   "website": "https://www.ktmmomostation.com/"
+  },
+  {
+   "name": "Cibo Vino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1101 Jackson Street, 68102, Omaha",
+   "website": "https://www.cibovinoomaha.com/"
+  },
+  {
+   "name": "Anthem",
+   "cuisines": [
+    "Asian",
+    "Tex-Mex"
+   ],
+   "address": "1205 Howard Street, 68102, Omaha",
+   "website": "https://www.eatdrinkanthem.com/omaha-location"
+  },
+  {
+   "name": "Akarui",
+   "cuisines": [
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "1190, suite 120 Capitol Avenue, 68102",
+   "website": "https://akaruiomaha.com/"
+  },
+  {
+   "name": "El Churro Spot",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1319 South 50th Street, 68106, Omaha",
+   "website": "https://thechurrospot.com/"
+  },
+  {
+   "name": "Nicola's Italian Wine & Fare",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "521 South 13th Street, 68102, Omaha",
+   "website": "https://www.nicolasomaha.com/"
+  },
+  {
+   "name": "Tish's Restaurant & Wine Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1207 South 35th Street, 51501",
+   "website": "https://www.tishs.com/"
+  },
+  {
+   "name": "Rathskeller Bier Haus",
+   "cuisines": [
+    "German"
+   ],
+   "address": "4524 Farnam Street",
+   "website": "https://www.rathskellerbierhaus.com/"
+  },
+  {
+   "name": "Uncle Buck's Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2901 Bass Pro Drive, 51501",
+   "website": "http://www.basspro.com"
+  },
+  {
+   "name": "Jack Binion's Steak House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2701 23rd Avenue, 51501",
+   "website": "http://www.horseshoecouncilbluffs.com/casinos/horseshoe-council-bluffs/restaurants-dining/jack-binions-steakhouse-detail.html"
+  },
+  {
+   "name": "Village Square Buffet",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2701 23rd Avenue, 51501",
+   "website": "http://www.horseshoecouncilbluffs.com/casinos/horseshoe-council-bluffs/restaurants-dining/village-square-buffet-detail-detail.html"
+  },
+  {
+   "name": "Great American Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2702 Mid-America Drive, 51501",
+   "website": "http://www.horseshoecouncilbluffs.com/casinos/horseshoe-council-bluffs/casino-misc/hotel-overview.html"
+  },
+  {
+   "name": "O Dining & Lounge",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1015 Farnam Street",
+   "website": "http://odiningandlounge.com/"
+  },
+  {
+   "name": "Blue Sushi Sake Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://www.bluesushisakegrill.com/"
+  },
+  {
+   "name": "Smokin' Oak Wood-Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://smokinoakpizza.com/location/omaha-ne/"
+  },
+  {
+   "name": "Chick Bo- Bao",
+   "cuisines": [
+    "Chinese",
+    "Korean"
+   ],
+   "address": "",
+   "website": "https://www.chickbobaoomaha.com/"
+  },
+  {
+   "name": "The Committee Chophouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://www.thecommitteechophouse.com/"
+  },
+  {
+   "name": "Valentino's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Leavenworth Street, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Spaghetti Works",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1105 Howard Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Cascio's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1620 South 10th Street, 68108, Omaha",
+   "website": ""
+  },
+  {
+   "name": "La Sierra",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1702 South 10th Street, 68108, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Domino's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2728 Saint Mary's Avenue, 68105, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Upstream Brewing Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "514 South 11th Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Three Happiness Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "5107 Leavenworth Street, 68106, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Mexitli Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1620 Harney Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Rice Bowl",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "505 North Saddle Creek Road, 68132, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Juventino's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2722 West Broadway, 51501, Council Bluffs",
+   "website": ""
+  },
+  {
+   "name": "California Taco",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "3235 California Street, 68131, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Trini's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1020 Howard Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Yummy 365",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3201 Farnam Street, 68131, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Ruby Tuesday",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3150 24th Avenue, 51501",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2910 24th Avenue, 51501",
+   "website": ""
+  },
+  {
+   "name": "Quaker Steak & Lube",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "3320 Mid-America Drive, 51501",
+   "website": ""
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2935 West Broadway, 51501",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3020 West Broadway, 51501",
+   "website": ""
+  },
+  {
+   "name": "Maria Sangria",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "302 South 11th Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2545 Abbott Plaza",
+   "website": ""
+  },
+  {
+   "name": "The Food Court",
+   "cuisines": [
+    "Chinese",
+    "Greek"
+   ],
+   "address": "3428 South 42nd Street, 68105, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Memoir",
+   "cuisines": [
+    "American"
+   ],
+   "address": "930 Harney Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Dolomiti Pizzeria and Enoteca",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1105 North 13th Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Los Portales",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2613 South 13th Street, 68108, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Twisted Fork",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1014 Howard Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Sushi",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "1215 Howard Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Himalayas",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "Howard Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "LOCAL Beer Patio & Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "Dodge Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Salmex",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "709 South 24th Street, Omaha",
+   "website": ""
+  },
+  {
+   "name": "La Pasadita Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "840",
+   "website": ""
+  },
+  {
+   "name": "Oso Mix Grill and Chill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2229 Leavenworth Street",
+   "website": ""
+  },
+  {
+   "name": "Feta's",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "eCreamery",
+   "cuisines": [
+    "Ice Cream",
+    "Gelato"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Via Farina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Omaha Steaks Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Durham Tree Tops Restaurant",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich",
+    "Beer"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oasis Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bourbon's BBQ & Steaks",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Heritage Buffet",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh Market Square",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "360 Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aces Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stir Cove Backstage Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Buvette",
+   "cuisines": [
+    "French",
+    "Cafe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hiro 88",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bouillon Restaurant",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1017",
+   "website": ""
+  },
+  {
+   "name": "Salween Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ika San",
+   "cuisines": [
+    "Japanese",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "HomeGrown",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don & Millie's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King Kong",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amsterdam Falafel & Kabob",
+   "cuisines": [
+    "Falafel",
+    "Kebab"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Taste",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burger Theory",
+   "cuisines": [
+    "Burger",
+    "Beer",
+    "Salad",
+    "Pizza",
+    "Flatbread"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweet Shop",
+   "cuisines": [
+    "Cake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Glacier Bay Landing",
+   "cuisines": [
+    "Burger",
+    "Chicken",
+    "Pasta",
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Greek Islands",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Laos Thai",
+   "cuisines": [
+    "Asian",
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flavor's Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bangkok Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ethiopian Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Smoking Jay's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dundee Dell",
+   "cuisines": [],
+   "address": "",
+   "website": "https://dundeedell.com/"
+  },
+  {
+   "name": "Black Oak Grill",
+   "cuisines": [],
+   "address": "220 South 31st Avenue, 68131, Omaha",
+   "website": "https://www.blackoakgrill.com/omaha-ne/"
+  },
+  {
+   "name": "Early Bird Brunch",
+   "cuisines": [],
+   "address": "3824 Farnam Street, 68131, Omaha",
+   "website": "https://www.earlybirdbrunch.com/"
+  },
+  {
+   "name": "Pickleman's Cafe",
+   "cuisines": [],
+   "address": "1503 Farnam Street, 68105, Omaha",
+   "website": "https://www.picklemans.com/locations/omaha.php"
+  },
+  {
+   "name": "Nosh",
+   "cuisines": [],
+   "address": "1006 Dodge Street, 68102, Omaha",
+   "website": "https://noshwine.com/"
+  },
+  {
+   "name": "Masa Luna",
+   "cuisines": [],
+   "address": "1258 South 13th Street, 68108, Omaha",
+   "website": "https://masaluna.com/"
+  },
+  {
+   "name": "The Buffalo Company",
+   "cuisines": [],
+   "address": "417 North Saddle Creek Road, 68131, Omaha",
+   "website": "https://thebuffco.com/"
+  },
+  {
+   "name": "Clio",
+   "cuisines": [],
+   "address": "1202 Howard Street",
+   "website": "https://www.xoxoclio.com/"
+  },
+  {
+   "name": "Lalibela Ethiopian Restaurant",
+   "cuisines": [],
+   "address": "4422 Cass Street, 68132, Omaha",
+   "website": ""
+  },
+  {
+   "name": "Mouth of the South",
+   "cuisines": [],
+   "address": "1111 Harney Street, 68102, Omaha",
+   "website": ""
+  },
+  {
+   "name": "International Cafe House of Gyros",
+   "cuisines": [],
+   "address": "2416 Farnam Street",
+   "website": ""
+  },
+  {
+   "name": "Jams",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "M's Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Adventure Snacks",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yeti Camp Snacks",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pepperjax Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tusker Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mark's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Durham Museum",
+   "kind": "museum",
+   "address": "801 South 10th Street, 68108, Omaha",
+   "website": "https://durhammuseum.org/",
+   "phone": "+1-402-444-5071",
+   "latitude": 41.2514214,
+   "longitude": -95.9281467
+  },
+  {
+   "name": "Joslyn Art Museum",
+   "kind": "museum",
+   "address": "2200 Dodge Street, 68102-1292, Omaha",
+   "website": "https://www.joslyn.org/",
+   "phone": "+1-402-342-3300",
+   "latitude": 41.2604599,
+   "longitude": -95.9457345
+  },
+  {
+   "name": "Joslyn Castle",
+   "kind": "attraction",
+   "address": "3902 Davenport Street, 68131, Omaha",
+   "website": "https://joslyncastle.com/",
+   "phone": "",
+   "latitude": 41.2617409,
+   "longitude": -95.9719189
+  },
+  {
+   "name": "Great Plains Black History Museum",
+   "kind": "museum",
+   "address": "2221 North 24th Street, 68110, Omaha",
+   "website": "https://gpblackhistorymuseum.org/",
+   "phone": "+1 402 932 7077",
+   "latitude": 41.2796346,
+   "longitude": -95.9468993
+  },
+  {
+   "name": "Lauritzen Gardens",
+   "kind": "attraction",
+   "address": "100 Bancroft Street, 68108, Omaha",
+   "website": "https://www.lauritzengardens.org/",
+   "phone": "+1 402-346-4002",
+   "latitude": 41.2362058,
+   "longitude": -95.9191459
+  },
+  {
+   "name": "Henry Doorly Zoo and Aquarium",
+   "kind": "zoo",
+   "address": "3701 South 10th Street, Omaha",
+   "website": "https://www.omahazoo.com/",
+   "phone": "",
+   "latitude": 41.225425,
+   "longitude": -95.9265171
+  },
+  {
+   "name": "El Museo Latino",
+   "kind": "museum",
+   "address": "",
+   "website": "http://elmuseolatino.org/",
+   "phone": "",
+   "latitude": 41.2119153,
+   "longitude": -95.9481391
+  },
+  {
+   "name": "Omaha Childrens Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://ocm.org/",
+   "phone": "",
+   "latitude": 41.2549986,
+   "longitude": -95.94307
+  },
+  {
+   "name": "Fun-Plex",
+   "kind": "theme park",
+   "address": "7003 Q Street, 68117",
+   "website": "https://www.fun-plex.com/",
+   "phone": "",
+   "latitude": 41.2038891,
+   "longitude": -96.0208756
+  },
+  {
+   "name": "USS Hazard",
+   "kind": "museum",
+   "address": "2497 Freedom Park Road, 68110, Omaha",
+   "website": "",
+   "phone": "+1-402-444-5955",
+   "latitude": 41.2768353,
+   "longitude": -95.90171
+  },
+  {
+   "name": "USS Marlin",
+   "kind": "attraction",
+   "address": "2497 Freedom Park Road, 68110, Omaha",
+   "website": "",
+   "phone": "+1-402-444-5900",
+   "latitude": 41.2762574,
+   "longitude": -95.9011243
+  },
+  {
+   "name": "The Offut Manor",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2610124,
+   "longitude": -95.9722249
+  },
+  {
+   "name": "Old Market Artists Gallery",
+   "kind": "gallery",
+   "address": "1034 Howard Street, 68102, Omaha",
+   "website": "http://www.oldmarketartists.com/",
+   "phone": "+1 402-346-6569",
+   "latitude": 41.2556527,
+   "longitude": -95.9302268
+  },
+  {
+   "name": "Bemis Center for Contemporary Arts",
+   "kind": "gallery",
+   "address": "724 South 12th Street, 68102, Omaha",
+   "website": "https://www.bemiscenter.org/",
+   "phone": "",
+   "latitude": 41.2526064,
+   "longitude": -95.932357
+  },
+  {
+   "name": "Kiewit Luminarium",
+   "kind": "museum",
+   "address": "345 Riverfront Drive, 68102, Omaha",
+   "website": "https://kiewitluminarium.org/",
+   "phone": "",
+   "latitude": 41.2620041,
+   "longitude": -95.9242306
+  },
+  {
+   "name": "Landlock Gallery",
+   "kind": "gallery",
+   "address": "4011 Farnam Street, 68131-3015, Omaha",
+   "website": "http://www.landlock.gallery/",
+   "phone": "+14026581332",
+   "latitude": 41.2576945,
+   "longitude": -95.9738704
+  },
+  {
+   "name": "General Crook House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://douglascohistory.org/crook-house-museum/",
+   "phone": "",
+   "latitude": 41.3102521,
+   "longitude": -95.9604792
+  },
+  {
+   "name": "Historic Florence Bank Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.visitomaha.com/listings/historic-florence-bank-and-depot-museums/56959/",
+   "phone": "",
+   "latitude": 41.3372926,
+   "longitude": -95.960945
+  },
+  {
+   "name": "RailsWest Railroad Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.thehistoricalsociety.org/museums/railswest.html",
+   "phone": "",
+   "latitude": 41.247232,
+   "longitude": -95.8522476
+  },
+  {
+   "name": "Florence Mill Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://theflorencemill.com/",
+   "phone": "",
+   "latitude": 41.3434702,
+   "longitude": -95.9626633
+  },
+  {
+   "name": "Mandan Park Nature Center",
+   "kind": "attraction",
+   "address": "6851 Gifford Drive, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1913797,
+   "longitude": -95.9300961
+  },
+  {
+   "name": "Historic Florence Depot Museum",
+   "kind": "museum",
+   "address": "9000 North 30th Street, 68112, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.3420696,
+   "longitude": -95.9609595
+  },
+  {
+   "name": "Warren Buffett's Home",
+   "kind": "attraction",
+   "address": "5505 Farnam Street, 68132, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2575311,
+   "longitude": -95.9984246
+  },
+  {
+   "name": "Artists' Cooperative Gallery",
+   "kind": "gallery",
+   "address": "405 South 11th Street, 68102, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2561411,
+   "longitude": -95.9298479
+  },
+  {
+   "name": "KANEKO",
+   "kind": "gallery",
+   "address": "1111 Jones Street, 68102, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2530667,
+   "longitude": -95.9312704
+  },
+  {
+   "name": "Malcolm X Memorial Foundation",
+   "kind": "museum",
+   "address": "3448 Evans Street, 68111, Omaha",
+   "website": "",
+   "phone": "",
+   "latitude": 41.291137,
+   "longitude": -95.9643619
+  },
+  {
+   "name": "Okapi",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2240849,
+   "longitude": -95.9275505
+  },
+  {
+   "name": "Sable Antelope",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2262963,
+   "longitude": -95.9223302
+  },
+  {
+   "name": "Omaha Home for the Boys Visitors Center and History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.3141643,
+   "longitude": -95.9925149
+  },
+  {
+   "name": "Sokol South Omaha Czechoslovak Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2013877,
+   "longitude": -95.9408471
+  },
+  {
+   "name": "Historic Squirrel Cage Jail",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2577912,
+   "longitude": -95.8519283
+  },
+  {
+   "name": "Sloth Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.22799,
+   "longitude": -95.9244319
+  },
+  {
+   "name": "Snow Leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2286614,
+   "longitude": -95.9251517
+  },
+  {
+   "name": "Ling-Temco-Vought A-7 Corsair II",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2769429,
+   "longitude": -95.9007862
+  },
+  {
+   "name": "HH-52A Seaguard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2768925,
+   "longitude": -95.9009409
+  },
+  {
+   "name": "Nebraska Constitution Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1822336,
+   "longitude": -95.9138536
+  },
+  {
+   "name": "A-4 Skyhawk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2767339,
+   "longitude": -95.8999869
+  },
+  {
+   "name": "Scott Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2249205,
+   "longitude": -95.9265841
+  },
+  {
+   "name": "Mormon Trail Center at Winter Quarters",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.3350475,
+   "longitude": -95.9650164
+  },
+  {
+   "name": "Garden of the Senses",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2250138,
+   "longitude": -95.9246178
+  },
+  {
+   "name": "Hawk's Foundation Lion's Pride & Habitat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2254498,
+   "longitude": -95.9221228
+  },
+  {
+   "name": "Tortoise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2261712,
+   "longitude": -95.9228917
+  },
+  {
+   "name": "Bongo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2256563,
+   "longitude": -95.9229284
+  },
+  {
+   "name": "Cheetah",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2249645,
+   "longitude": -95.922725
+  },
+  {
+   "name": "Grewcock Elephant Habitat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.222282,
+   "longitude": -95.9263193
+  },
+  {
+   "name": "Prairie Dogs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2271289,
+   "longitude": -95.9282201
+  },
+  {
+   "name": "Red Panda",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2272629,
+   "longitude": -95.9247472
+  },
+  {
+   "name": "Crane",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2274974,
+   "longitude": -95.9250122
+  },
+  {
+   "name": "Raptor Recovery",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1793754,
+   "longitude": -95.9178967
+  },
+  {
+   "name": "Kiewit Corporation Giraffe, White Rhino, Ostrich, & Impala Habitat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.223702,
+   "longitude": -95.9262115
+  },
+  {
+   "name": "Lemur Islands",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2265913,
+   "longitude": -95.9248758
+  },
+  {
+   "name": "Pink Backed Pelicans",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2245631,
+   "longitude": -95.9231966
+  },
+  {
+   "name": "Monkeys",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2253452,
+   "longitude": -95.9239044
+  },
+  {
+   "name": "River Viewing",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1825175,
+   "longitude": -95.9132013
+  },
+  {
+   "name": "Lewis and Clark Monument Park",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.3034475,
+   "longitude": -95.8584808
+  },
+  {
+   "name": "Union Pacific Railroad Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2582294,
+   "longitude": -95.8516778
+  },
+  {
+   "name": "Lion Training",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2256924,
+   "longitude": -95.9217239
+  },
+  {
+   "name": "Grewcock Elephant, Zebra, & Impala Habitat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2242206,
+   "longitude": -95.9245472
+  },
+  {
+   "name": "Pygmy Goat Kraal",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2244861,
+   "longitude": -95.9253035
+  },
+  {
+   "name": "Meerkats",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2237654,
+   "longitude": -95.9268378
+  },
+  {
+   "name": "Kopje Outcropping",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2236255,
+   "longitude": -95.9269111
+  },
+  {
+   "name": "Indian Rhino & Père David's Deer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2279128,
+   "longitude": -95.9254583
+  },
+  {
+   "name": "Tufted Deer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2276533,
+   "longitude": -95.924815
+  },
+  {
+   "name": "Takin & Goral",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2285592,
+   "longitude": -95.925693
+  },
+  {
+   "name": "Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2287889,
+   "longitude": -95.9242911
+  },
+  {
+   "name": "Ship Guns",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2764903,
+   "longitude": -95.9010643
+  },
+  {
+   "name": "Simmons Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2274533,
+   "longitude": -95.9259557
+  },
+  {
+   "name": "Cali Commons",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2646447,
+   "longitude": -95.9732094
+  },
+  {
+   "name": "Model Railroad",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2388362,
+   "longitude": -95.9181434
+  },
+  {
+   "name": "Gifford Drive",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1936517,
+   "longitude": -95.9291617
+  },
+  {
+   "name": "Tom's Treehouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1806528,
+   "longitude": -95.9165704
+  },
+  {
+   "name": "Missles",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2767508,
+   "longitude": -95.9011385
+  },
+  {
+   "name": "Old Plane",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2766631,
+   "longitude": -95.9011327
+  },
+  {
+   "name": "Ship Propellers",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2768212,
+   "longitude": -95.9005159
+  }
+ ]
+}

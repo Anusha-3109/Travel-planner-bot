@@ -1,0 +1,160 @@
+{
+ "city": "Gustavus",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 58.4131,
+ "longitude": -135.739,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Glacier Bay Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "199 Bartlett Cove Drive, 99826, Gustavus",
+   "url": "https://www.visitglacierbay.com/"
+  },
+  {
+   "name": "Glacier Bay Country Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "35 Tong Road, 99826, Gustavus",
+   "url": "https://glacierbayalaska.com/"
+  },
+  {
+   "name": "Cottonwood Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2101 Gustavus Road, 99826, Gustavus",
+   "url": "https://cottonwoodlodge.net"
+  },
+  {
+   "name": "Cottonwood Lodge and Cabin Rental",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2101 Gustavus Road, 99826, Gustavus",
+   "url": "https://cottonwoodlodge.net"
+  },
+  {
+   "name": "Bear Track Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.beartrackinn.com/"
+  },
+  {
+   "name": "Annie Mae Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.anniemae.com/"
+  },
+  {
+   "name": "Gustavus Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://gustavusinn.com/inn.html"
+  },
+  {
+   "name": "Aimee's Guest House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.glacierbayalaska.net/index.html"
+  },
+  {
+   "name": "Blue Heron Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Red Rooster",
+   "cuisines": [
+    "Sandwich",
+    "Hot Dog"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama Bear's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Strawberry Point Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 58.4128197,
+   "longitude": -135.7437403
+  },
+  {
+   "name": "Xunaa Shuka Hit",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 58.4554835,
+   "longitude": -135.8801329
+  },
+  {
+   "name": "Humpback Whale Exhibit",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 58.454701,
+   "longitude": -135.8839795
+  }
+ ]
+}

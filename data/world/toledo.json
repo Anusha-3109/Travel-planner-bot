@@ -1,0 +1,923 @@
+{
+ "city": "Toledo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.6546,
+ "longitude": -83.5348,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3434 Secor road, 43606, Toledo",
+   "url": "https://www.hilton.com/en/hotels/tolwghx-hampton-suites-toledo-westgate/"
+  },
+  {
+   "name": "Hampton Inn Toledo/Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2931 Navarre Avenue, 43616, Oregon",
+   "url": "https://www.hilton.com/en/hotels/toltohx-hampton-toledo-oregon/"
+  },
+  {
+   "name": "Courtyard Toledo West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3536 Secor Road, 43606, Toledo",
+   "url": "https://www.marriott.com/tolcw"
+  },
+  {
+   "name": "TownePlace Suites Toledo Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2851 Navarre Avenue, 43616, Oregon",
+   "url": "https://www.marriott.com/tolto"
+  },
+  {
+   "name": "Courtyard Toledo North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5875 Hagman Road, 43612, Toledo",
+   "url": "https://www.marriott.com/tolno"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 North Summit Street, 43604, Toledo",
+   "url": "https://www.hilton.com/en/hotels/toldegi-hilton-garden-inn-toledo-downtown/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3554 Secor Road, 43606, Toledo",
+   "url": "https://www.marriott.com/tolrw"
+  },
+  {
+   "name": "Comfort Inn East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2930 Navarre Avenue, 43616, Oregon",
+   "url": "https://www.choicehotels.com/ohio/toledo/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Toledo North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5685 Benore Road, 43612, Toledo",
+   "url": "https://www.marriott.com/tolfn"
+  },
+  {
+   "name": "Radisson Hotel at The University of Toledo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3100 Glendale Avenue, 43614, Toledo",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-toledo-university"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1761 Meijer Circle, Oregon",
+   "url": "https://www.choicehotels.com/ohio/toledo/quality-inn-hotels"
+  },
+  {
+   "name": "The Lofts at Gateway",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1450 Secor Road, 43607",
+   "url": "https://loftsatgateway.com/"
+  },
+  {
+   "name": "Renaissance Toledo Downtown Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "444 North Summit, 43604, Toledo",
+   "url": ""
+  },
+  {
+   "name": "The Hamlin Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "North Erie Street, Toledo",
+   "url": ""
+  },
+  {
+   "name": "Sunset Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5452 Telegraph Road, 43612, Toledo",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5600 Telegraph Road, 43612, Toledo",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Toledo - University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Northwood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Toledo-Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn Toledo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Deluxe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Toledo North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn and Suites Toledo-North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Inn Toledo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "American Inn Rossford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "BridgePointe Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Rossford Toledo South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Express Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Tony Packo's Cafe",
+   "cuisines": [
+    "Hot Dog",
+    "Hungarian"
+   ],
+   "address": "1902 Front Street, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Spaghetti Warehouse",
+   "cuisines": [
+    "Italian",
+    "Sandwich",
+    "Salad",
+    "Dessert"
+   ],
+   "address": "42 South Superior Street, 43602, Toledo",
+   "website": "https://www.meatballs.com/"
+  },
+  {
+   "name": "Home Slice Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "28 South Saint Clair Street, 43604, Toledo",
+   "website": "https://homeslice419.com/"
+  },
+  {
+   "name": "El Tipico Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1444 South Avenue, 43609, Toledo",
+   "website": "https://eltipicotoledo.com/"
+  },
+  {
+   "name": "The Heights",
+   "cuisines": [
+    "Pizza",
+    "Salad",
+    "Burger",
+    "American"
+   ],
+   "address": "444 North Summit",
+   "website": "https://www.theheightstoledo.com/"
+  },
+  {
+   "name": "Kengo Sushi & Yakitori",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "38 South Saint Clair Street, 43604",
+   "website": "http://www.kengotoledo.com/"
+  },
+  {
+   "name": "City Egg",
+   "cuisines": [
+    "Breakfast",
+    "Salad",
+    "Juice"
+   ],
+   "address": "202 North Summit Street, Toledo",
+   "website": ""
+  },
+  {
+   "name": "M'Osteria & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "611 Monroe Street, 43604, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Roman's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "526 Jackson Street, 43604, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Balance Pan-Asian Grille",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "215 North Summit Street, 43604, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Lowrider Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "316 North Michigan Street, 43604, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Los Amigos Family Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3236 Stickney Avenue, 43608, Toledo",
+   "website": ""
+  },
+  {
+   "name": "King Garden Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2839 Monroe Street, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Marco's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "149 Main Street, 43605",
+   "website": ""
+  },
+  {
+   "name": "Real Seafood Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "22 Main Street, 43605",
+   "website": ""
+  },
+  {
+   "name": "Admiral's American Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "26 Main Street, 43605",
+   "website": ""
+  },
+  {
+   "name": "Summit Diner",
+   "cuisines": [
+    "American",
+    "Mediterranean"
+   ],
+   "address": "1039 N Summit Street, 43604-1813",
+   "website": ""
+  },
+  {
+   "name": "Tango's Mexican Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "30 Main Street, 43605",
+   "website": ""
+  },
+  {
+   "name": "Zia's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "20 Main Street, 43605",
+   "website": ""
+  },
+  {
+   "name": "Cousino's Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lazeez Mediterranean Cusine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Smokey's BBQ Roadhouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Souk Mediterranean Kitchen & Bar",
+   "cuisines": [
+    "Mediterranean",
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mancy's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Barry Bagels",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Chop House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papa Papalis Pizza Taverna",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poco Piatti",
+   "cuisines": [
+    "Small Plates",
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Summit",
+   "cuisines": [
+    "Banquet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Woodville Diner",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Packo's at the Park",
+   "cuisines": [
+    "Hungarian",
+    "Hot Dog"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Old Bag of Nails Pub - Toledo",
+   "cuisines": [],
+   "address": "615 Riverside Drive, 43605, Toledo",
+   "website": "https://www.oldbagofnails.com"
+  },
+  {
+   "name": "Toledo Club",
+   "cuisines": [],
+   "address": "235 14th Street, 43604, Toledo",
+   "website": "https://www.toledoclub.org/dining"
+  },
+  {
+   "name": "Hannon's Block Restaurant",
+   "cuisines": [],
+   "address": "619 Monroe Street, 43604",
+   "website": "https://www.hannonsblockrestaurant.com/"
+  },
+  {
+   "name": "The Olive",
+   "cuisines": [],
+   "address": "2487 Collingwood Boulevard, 43620, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Toledo Pickle",
+   "cuisines": [],
+   "address": "1030 Water Street, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Registry Bistro",
+   "cuisines": [],
+   "address": "425, Toledo",
+   "website": ""
+  },
+  {
+   "name": "Michael's Bar & Grill",
+   "cuisines": [],
+   "address": "Toledo",
+   "website": ""
+  },
+  {
+   "name": "Oliver House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Table Forty 4",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Original Sub Shop & Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Green Lantern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Inky's Italian Foods",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jomaa Brothers Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Georgio's Cafe International",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Coney Island Hot Dog",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jed's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Clubhouse Lounge and Grille",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rockwell's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grumpy's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vito's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toledo's Main Street Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Central Hot Dog",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Josephine's Soul Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Walnut Carry Out",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jefferson Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Manos Greek Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carlos Poco Loco",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ye Olde Durty Bird",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fricker's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ye Olde Cock n Bull",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Focaccia's Delicatessen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Toledo Museum of Art",
+   "kind": "museum",
+   "address": "2445 Monroe Street, 43620, Toledo",
+   "website": "https://www.toledomuseum.org/",
+   "phone": "+1-419-255-8000",
+   "latitude": 41.6584351,
+   "longitude": -83.5592759
+  },
+  {
+   "name": "Imagination Station",
+   "kind": "museum",
+   "address": "1 Discovery Way, Toledo",
+   "website": "https://www.imaginationstationtoledo.org/",
+   "phone": "",
+   "latitude": 41.6519517,
+   "longitude": -83.5315629
+  },
+  {
+   "name": "National Museum of the Great Lakes",
+   "kind": "museum",
+   "address": "1701 Front Street, Toledo",
+   "website": "https://inlandseas.org/",
+   "phone": "",
+   "latitude": 41.6566074,
+   "longitude": -83.5150426
+  },
+  {
+   "name": "Toledo Zoo",
+   "kind": "zoo",
+   "address": "Toledo",
+   "website": "https://www.toledozoo.org/",
+   "phone": "+1-419-385-5721",
+   "latitude": 41.6227169,
+   "longitude": -83.5772794
+  },
+  {
+   "name": "Toledo Museum of Art Glass Pavillon",
+   "kind": "museum",
+   "address": "2444 Monroe Street, 43620, Toledo",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6596582,
+   "longitude": -83.55807
+  },
+  {
+   "name": "The Col. James M. Schoonmaker",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6565473,
+   "longitude": -83.5163943
+  },
+  {
+   "name": "Hollywood Casino Toledo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6206035,
+   "longitude": -83.5450467
+  },
+  {
+   "name": "Toledo Police Museum",
+   "kind": "museum",
+   "address": "2201 North Cove Boulevard, 43606, Toledo",
+   "website": "https://www.toledopolicemuseum.com",
+   "phone": "",
+   "latitude": 41.6695423,
+   "longitude": -83.5959884
+  },
+  {
+   "name": "Toledo Firefighters Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.toledofirefightersmuseum.org/",
+   "phone": "",
+   "latitude": 41.6929078,
+   "longitude": -83.5641366
+  },
+  {
+   "name": "The Promedica Museum of Natural History",
+   "kind": "museum",
+   "address": "Toledo",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6191161,
+   "longitude": -83.5796477
+  },
+  {
+   "name": "Toledo Zoo Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6179477,
+   "longitude": -83.5803083
+  },
+  {
+   "name": "Tugboat Ohio",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6570066,
+   "longitude": -83.515346
+  },
+  {
+   "name": "Western-most point on Lake Erie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.7014817,
+   "longitude": -83.4786752
+  }
+ ]
+}

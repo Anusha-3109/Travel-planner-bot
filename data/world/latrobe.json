@@ -1,0 +1,169 @@
+{
+ "city": "Latrobe",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.3151,
+ "longitude": -79.3852,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-26",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "115 Arnold Palmer Drive, 15650, Latrobe",
+   "url": "https://www.marriott.com/pitlt"
+  },
+  {
+   "name": "Wingate",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Inn At Mountain View",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Eat'n Park",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1026 Mountain Laurel Plaza, 15650, Latrobe",
+   "website": "https://locations.eatnpark.com/pa/latrobe/restaurants-57.html"
+  },
+  {
+   "name": "Touchdown Club",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3850 Route 30, 15650, Latrobe",
+   "website": "http://www.touchdownclub2.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3870 Route 30, 15650, Latrobe",
+   "website": ""
+  },
+  {
+   "name": "Dino's Sports Bar",
+   "cuisines": [
+    "American",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marco's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Pond",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Scotty G's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don Patron's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dino's Sport Lounge",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jioio's Latrobe",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Pier",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sharky's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Di Salvo's Station",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "KLBE Air Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2800635,
+   "longitude": -79.3957738
+  }
+ ]
+}
