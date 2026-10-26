@@ -89,7 +89,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 
 ### The knowledge base (RAG)
 
-- **Documents:** over 50,000 places in 245 cities, one document per attraction, restaurant or stay (records are short, so each stays whole), with category, city, country, price and rating as metadata (`backend/rag/ingest.py`).
+- **Documents:** 54,309 places in 245 cities (29,118 restaurants, 15,080 stays, 10,111 attractions), one document per attraction, restaurant or stay (records are short, so each stays whole), with category, city, country, price and rating as metadata (`backend/rag/ingest.py`).
 - **Embeddings:** local all-MiniLM-L6-v2 in Chroma, cosine similarity, no API key (`backend/rag/vectorstore.py`). The app adds new places by itself at startup.
 - **Retrieval** (`backend/rag/retriever.py`): the model rewrites the question into 2–3 focused searches (query translation), extracts `category` and `city` filters (structured retrieval), and the results are merged with reciprocal rank fusion. The places are shown under **Sources** in the answer.
 
@@ -101,7 +101,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 
 | Requirement | How TripMate covers it |
 |---|---|
-| Knowledge base | Over 50,000 places, all from 2026, for 245 cities: OpenStreetMap restaurants and attractions everywhere, Inside Airbnb stays with prices for 50 cities and OpenStreetMap hotels without prices for the other 195 US cities (`backend/travel_data/catalog.py`) |
+| Knowledge base | 54,309 places, all from 2026, for 245 cities: OpenStreetMap restaurants and attractions everywhere, Inside Airbnb stays with prices for 50 cities and OpenStreetMap hotels without prices for the other 195 US cities (`backend/travel_data/catalog.py`) |
 | Embeddings and similarity search | Chroma with local all-MiniLM-L6-v2 embeddings (cosine similarity) |
 | Chunking | One chunk per place, with metadata for filtering |
 | Query translation | The model rewrites each question into 2–3 focused searches (multi-query) |
@@ -209,38 +209,68 @@ python -m pytest -q
 ## Project structure
 
 ```
-app.py                      Entry point (streamlit run app.py): puts the pages together
-.streamlit/config.toml      The dark theme
-
-frontend/                   Everything you see in the browser
-  pages/                    chat, trips (My trips and the trip page), dashboard, benchmarks,
-                            how_it_answers, settings (the pop-up)
-  components/               sidebar, cards (result cards), trip_form (the form pop-up and examples),
-                            common (session state, the open chat, money and model labels)
-  html/                     The parts written in HTML and CSS: hero.html, timeline.html, theme.css,
-                            and render.py, which fills them in
-  assets/logo.svg
-
-backend/                    The logic, no Streamlit code
-  config.py                 Keys, models, limits, cache times, paths
-  agent/                    Tool loop, system prompt, OpenRouter client, trip request text
-  tools/                    The 7 tools
-  live/                     SerpApi and Google clients, flights, stays, restaurants, routes,
-                            exchange rates, airports, cache, limits, item ids
-  rag/                      Chroma store, indexing and retrieval
-  security/                 Validation, rate limiting, key redaction, tool output screening
-  travel_data/              Catalog of the 2026 city files, city fetch script, TravelPlanner download
-  storage/                  Saved chats, request log and trips (history.py), trip builder (trips.py)
-
-evaluation/                 Retrieval, RAGAS and trip-plan evaluation; results/ for the Benchmarks page
-data/world/                 245 cities from 2026 (committed)
-data/us_cities.json         Centres of the 195 smaller US cities
-data/ourairports/           Airport list (committed)
-data/travelplanner/         TravelPlanner questions for the evaluation (downloaded, not committed)
-tests/                      pytest suite and recorded API answers in tests/fixtures/
-docs/                       Reflection and notes
-legacy/tripmate/            The first version's tools, kept for reference
+travel-planner-bot/
+├── app.py              entry point: streamlit run app.py
+├── frontend/           what you see in the browser
+│   ├── pages/
+│   ├── components/
+│   ├── html/
+│   └── assets/
+├── backend/            the logic, no Streamlit code
+│   ├── agent/
+│   ├── tools/
+│   ├── live/
+│   ├── rag/
+│   ├── security/
+│   ├── travel_data/
+│   ├── storage/
+│   └── config.py
+├── evaluation/         retrieval, RAGAS and trip-plan tests
+│   └── results/
+├── data/               2026 city files and airports
+│   ├── world/
+│   ├── ourairports/
+│   └── travelplanner/
+├── tests/              pytest suite
+├── docs/               reflection and notes
+└── legacy/tripmate/
 ```
+
+### Frontend (what you see)
+
+| Folder | What's in it |
+|---|---|
+| [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
+| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, shared session state and labels |
+| [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, `theme.css`) and `render.py`, which fills them in |
+| [`frontend/assets/`](frontend/assets) | The logo |
+| [`.streamlit/config.toml`](.streamlit/config.toml) | The dark theme |
+
+### Backend (the logic)
+
+| Folder | What's in it |
+|---|---|
+| [`backend/agent/`](backend/agent) | Tool loop, system prompt, OpenRouter client, trip request text |
+| [`backend/tools/`](backend/tools) | The 7 tools |
+| [`backend/live/`](backend/live) | SerpApi and Google clients: flights, stays, restaurants, routes, exchange rates, cache and limits |
+| [`backend/rag/`](backend/rag) | Chroma store, indexing and retrieval |
+| [`backend/security/`](backend/security) | Input checks, rate limits, key redaction, tool output screening |
+| [`backend/travel_data/`](backend/travel_data) | Catalog of the 2026 city files, city download script, TravelPlanner download |
+| [`backend/storage/`](backend/storage) | Saved chats, request log and trips |
+| [`backend/config.py`](backend/config.py) | Keys, models, limits, cache times, paths |
+
+### Data, evaluation and tests
+
+| Folder | What's in it | In git? |
+|---|---|---|
+| [`data/world/`](data/world) | 245 city files from 2026 | Yes |
+| [`data/us_cities.json`](data/us_cities.json) | Centres of the 195 smaller US cities | Yes |
+| [`data/ourairports/`](data/ourairports) | Airport list | Yes |
+| `data/travelplanner/` | TravelPlanner questions for the evaluation | No, downloaded |
+| [`evaluation/`](evaluation) | The three evaluation scripts; `results/` feeds the Benchmarks page | Yes |
+| [`tests/`](tests) | pytest suite, recorded API answers in `tests/fixtures/` | Yes |
+| [`docs/`](docs) | Reflection and notes | Yes |
+| [`legacy/tripmate/`](legacy/tripmate) | The first version's tools, kept for reference | Yes |
 
 ## Known limitations and ideas for improvement
 
