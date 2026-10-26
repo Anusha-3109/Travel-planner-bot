@@ -1,9 +1,14 @@
-"""The chat page: the conversation, result cards, the trip form and the example questions."""
+"""The chat page: the conversation, result cards, the trip form and the example questions.
+
+An empty chat shows the hero (logo and tagline) and the Plan / Explore box; after the first
+message the page shows the conversation with the usual chat box at the bottom.
+"""
 
 import json
 import time
 from dataclasses import asdict
 from datetime import date, timedelta
+from pathlib import Path
 
 import streamlit as st
 
@@ -15,10 +20,23 @@ from live.budget import use_budget
 from security.rate_limit import RateLimiter
 from security.validation import InputValidationError, validate_city
 from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES
-from trip_form import example_questions, trip_question
-from ui.common import cost_text, show_markdown
+from trip_form import PLACEHOLDERS, example_questions, trip_question
+from ui.common import cost_text, mode_key, show_markdown
 from ui_cards import render_result_cards
 
+LOGO = Path(__file__).resolve().parents[1] / "assets" / "logo.svg"
+TAGLINE = "Your travel planner with live prices, costed against your budget"
+MODE_LABELS = {"plan": ":material/auto_awesome: Plan", "explore": ":material/explore: Explore"}
+MODE_HELP = {"plan": "A full trip: flights, a stay, restaurants, transport, the cost against your budget and the "
+                     "checks.",
+             "explore": "Ideas and places: sights, restaurants and getting around. No flight or stay searches, so "
+                        "it's quicker and uses no live search quota."}
+# The Plan / Explore box: a rounded card with pill-shaped mode buttons (Streamlit has no setting for this).
+COMPOSER_CSS = """<style>
+.st-key-composer { border: 1px solid #2c2f36; border-radius: 18px; padding: 0.75rem; background-color: #1d1f24; }
+.st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
+.st-key-composer textarea { font-size: 1rem; }
+</style>"""
 CUISINES = ["American", "Chinese", "French", "Indian", "Italian", "Japanese", "Mediterranean", "Mexican", "Spanish",
             "Thai"]
 
@@ -65,18 +83,18 @@ def _render_details(message: dict) -> None:
 
 def _save(question: str, message: dict) -> None:
     """Adds the exchange to the session and the saved chat (a new chat starts with its first question)."""
-    st.session_state.messages += [{"role": "user", "content": question}, message]
+    st.session_state.messages += [{"role": "user", "content": question, "mode": st.session_state.mode}, message]
     if st.session_state.chat_id is None:
-        st.session_state.chat_id = history.create_chat(question)
+        st.session_state.chat_id = history.create_chat(question, st.session_state.mode)
         st.query_params["chat"] = st.session_state.chat_id
     history.save_messages(st.session_state.chat_id, st.session_state.messages)
 
 
 def ask(question: str) -> None:
-    model = st.session_state.model
+    model, mode = st.session_state.model, st.session_state.mode
     limiter: RateLimiter = st.session_state.rate_limiter
     if not limiter.try_acquire():
-        history.log_request(st.session_state.chat_id, model, "limit", "sending too quickly")
+        history.log_request(st.session_state.chat_id, model, "limit", "sending too quickly", mode=mode)
         st.warning(f"You're sending messages too quickly. Try again in {limiter.seconds_until_available()} seconds.")
         return
 
@@ -92,24 +110,24 @@ def ask(question: str) -> None:
             try:
                 with use_budget(budget):
                     result = run_agent(question, history=conversation, on_step=lambda text: status.update(label=text),
-                                       currency=st.session_state.currency, cards=True, model=model)
+                                       currency=st.session_state.currency, cards=True, model=model, mode=mode)
             except InputValidationError as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "refused", refusal_reason(error),
-                                    time.monotonic() - started)
+                                    time.monotonic() - started, mode=mode)
                 return
             except AgentError as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "error", str(error)[:200],
-                                    time.monotonic() - started)
+                                    time.monotonic() - started, mode=mode)
                 return
             except Exception:
                 status.update(label="Something went wrong", state="error")
                 st.error("Something unexpected went wrong. Please try again.")
                 history.log_request(st.session_state.chat_id, model, "error", "unexpected error",
-                                    time.monotonic() - started)
+                                    time.monotonic() - started, mode=mode)
                 return
             status.update(label=f"Done · {len(result.tool_calls)} tool call(s)", state="complete")
 
@@ -128,7 +146,8 @@ def ask(question: str) -> None:
     _save(question, message)
     searches = {name: budget.used.get(name, 0) - searches_before.get(name, 0) for name in budget.used}
     history.log_request(st.session_state.chat_id, model, "answered", seconds=time.monotonic() - started,
-                        usage=result.token_usage, tools=[c.name for c in result.tool_calls], searches=searches)
+                        usage=result.token_usage, tools=[c.name for c in result.tool_calls], searches=searches,
+                        mode=mode)
 
 
 @st.dialog("Plan a trip", width="medium")
@@ -163,33 +182,72 @@ def trip_dialog() -> None:
         st.rerun()  # closes the dialog; the chat page asks the question
 
 
-def render() -> None:
-    header, button = st.columns([3, 1], vertical_alignment="bottom")
-    with header:
-        st.title("TripMate ✈️")
-        st.caption("Plan a day-by-day trip anywhere: live flights, stays, restaurants and public transport, "
-                   "costed against your budget.")
-    if button.button("Plan a trip", icon=":material/flight_takeoff:", type="primary"):
+def _mode_picker() -> None:
+    """Plan or Explore. A new chat (or another chat) starts from the chat's own mode."""
+    choice = st.segmented_control("Mode", list(MODE_LABELS), format_func=MODE_LABELS.get,
+                                  default=st.session_state.mode, label_visibility="collapsed",
+                                  key=mode_key(st.session_state.chat_id))
+    if choice and choice != st.session_state.mode:
+        st.session_state.mode = choice
+        if st.session_state.chat_id:
+            history.set_chat_mode(st.session_state.chat_id, choice)
+
+
+def _hero() -> None:
+    st.space("medium")
+    with st.container(horizontal_alignment="center"):
+        st.image(str(LOGO), width=260)  # st.html would strip an inline SVG, st.image draws the file
+    st.html(f'<p style="text-align:center;font-size:1.15rem;margin:0.25rem 0 1.25rem;">{TAGLINE}</p>')
+
+
+def _composer() -> str | None:
+    """The Plan / Explore box on an empty chat. Returns a question when one is sent."""
+    with st.container(key="composer"):
+        _mode_picker()
+        with st.form("composer-form", border=False, clear_on_submit=True):
+            text = st.text_area("Your trip", placeholder=PLACEHOLDERS[st.session_state.mode], height=110,
+                                label_visibility="collapsed")
+            with st.container(horizontal=True, horizontal_alignment="right", vertical_alignment="center"):
+                st.caption(MODE_HELP[st.session_state.mode])
+                sent = st.form_submit_button("Send", icon=":material/arrow_upward:", type="primary")
+    if st.button("Fill in the trip form instead", icon=":material/edit_note:", type="tertiary"):
         trip_dialog()
+    return text.strip() if sent and text.strip() else None
+
+
+def _examples() -> str | None:
+    st.markdown("**Try one of these**")
+    columns = st.columns(2)
+    for index, example in enumerate(example_questions(mode=st.session_state.mode)):
+        if columns[index % 2].button(example, key=f"example-{st.session_state.mode}-{index}", width="stretch"):
+            return example
+    return None
+
+
+def render() -> None:
+    st.html(COMPOSER_CSS)
     if st.session_state.chat_id:
         st.query_params["chat"] = st.session_state.chat_id  # keeps the chat open after a refresh
 
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            show_markdown(message["content"])
-            if message["role"] == "assistant":
-                _render_details(message)
-
-    example_question = None
     if not st.session_state.messages:
-        st.markdown("**Try one of these:**")
-        columns = st.columns(2)
-        for index, example in enumerate(example_questions()):
-            if columns[index % 2].button(example, key=f"example-{index}", width="stretch"):
-                example_question = example
+        _hero()
+        question = _composer() or _examples() or st.session_state.pop("pending_question", None)
+    else:
+        title, mode, button = st.columns([3, 2, 1], vertical_alignment="center")
+        title.markdown("### TripMate")
+        with mode:
+            _mode_picker()
+        if button.button("Plan a trip", icon=":material/flight_takeoff:", width="stretch"):
+            trip_dialog()
+        for message in st.session_state.messages:
+            with st.chat_message(message["role"]):
+                show_markdown(message["content"])
+                if message["role"] == "assistant":
+                    _render_details(message)
+        placeholder = ("Ask for a trip plan, flights, restaurants or places to stay..."
+                       if st.session_state.mode == "plan" else "Ask about places, food or getting around...")
+        question = st.chat_input(placeholder) or st.session_state.pop("pending_question", None)
 
-    question = (st.chat_input("Ask for a trip plan, flights, restaurants or places to stay...")
-                or st.session_state.pop("pending_question", None) or example_question)
     if question:
         before = len(st.session_state.messages)
         ask(question)

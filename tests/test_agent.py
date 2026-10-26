@@ -146,3 +146,28 @@ def test_users_currency_is_passed_to_the_model(monkeypatch):
     monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
     run_agent("Hello", currency="EUR")
     assert "The user's currency is EUR" in llm.calls[0][0].content
+
+
+def test_explore_mode_offers_only_place_tools(monkeypatch):
+    bound = []
+
+    class Explorer(ScriptedLLM):
+        def bind_tools(self, tools):
+            bound.append([t.name for t in tools])
+            return self
+
+    llm = Explorer([
+        AIMessage(content="", tool_calls=[{"name": "search_flights", "id": "call_1", "args": {
+            "origin_city": "Washington", "destination_city": "Boston", "date": "2026-11-13"}}]),
+        AIMessage(content="I can't search flights in Explore mode."),
+    ])
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
+    result = run_agent("Flights from Washington to Boston?", mode="explore")
+    assert sorted(bound[0]) == sorted(agent_module.EXPLORE_TOOLS) and result.mode == "explore"
+    assert "Unknown tool" in result.tool_calls[0].output  # flights aren't allowed, even if asked for
+    assert agent_module.EXPLORE_RULE in llm.calls[0][0].content
+
+
+def test_unknown_mode_is_an_error():
+    with pytest.raises(AgentError, match="Unknown mode"):
+        run_agent("Hello there, help me plan", mode="relax")

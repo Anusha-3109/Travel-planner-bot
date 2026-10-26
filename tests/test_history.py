@@ -18,7 +18,7 @@ def test_chats_are_saved_loaded_renamed_bookmarked_and_deleted():
     history.rename_chat(chat_id, "Rome trip")
     history.set_bookmark(chat_id, True)
     assert history.list_chats()[0] | {"created_at": 0, "updated_at": 0} == {
-        "id": chat_id, "title": "Rome trip", "bookmarked": True, "created_at": 0, "updated_at": 0}
+        "id": chat_id, "title": "Rome trip", "bookmarked": True, "created_at": 0, "updated_at": 0, "mode": "plan"}
     history.delete_chat(chat_id)
     assert history.load_chat(chat_id) is None and history.list_chats() == []
 

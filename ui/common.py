@@ -31,12 +31,25 @@ def init_state() -> None:
     st.session_state.setdefault("live_budget", SessionBudget())
     st.session_state.setdefault("currency", "USD")
     st.session_state.setdefault("model", config.OPENROUTER_MODEL)
+    st.session_state.setdefault("mode", "plan")
+
+
+def mode_key(chat_id: str | None) -> str:
+    """The Plan / Explore switch's widget key for a chat (one per chat, so each starts from its own mode)."""
+    return f"mode-{chat_id or 'new'}"
+
+
+def set_mode(mode: str) -> None:
+    """Sets the mode and the switch showing it, so the switch doesn't reset it on the next run."""
+    st.session_state.mode = mode
+    st.session_state[mode_key(st.session_state.get("chat_id"))] = mode
 
 
 def start_new_chat() -> None:
     st.session_state.messages = []
     st.session_state.chat_id = None
     st.session_state.live_budget = SessionBudget()  # a new chat gets a fresh live search limit
+    set_mode("plan")
     st.query_params.clear()
 
 
@@ -47,6 +60,7 @@ def open_chat(chat_id: str) -> bool:
         return False
     st.session_state.messages = chat["messages"]
     st.session_state.chat_id = chat_id
+    st.session_state.mode = chat.get("mode") or "plan"
     st.session_state.live_budget = SessionBudget()
     return True
 

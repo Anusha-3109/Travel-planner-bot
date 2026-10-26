@@ -40,6 +40,9 @@ TOOLS = [
     check_constraints,
 ]
 TOOLS_BY_NAME = {t.name: t for t in TOOLS}
+MODES = ("plan", "explore")
+# Explore mode is for ideas and places: no flight or stay searches (no SerpApi quota) and no plan costing.
+EXPLORE_TOOLS = {"search_destination_options", "search_restaurants", "get_local_transport"}
 MAX_HISTORY_MESSAGES = 8
 # A plan that searched flights and stays must be costed with the tool before answering.
 PLAN_SEARCHES = {"search_flights", "search_accommodations"}
@@ -149,11 +152,21 @@ plan and give the cost as total_text against budget_text and remaining_text, plu
 In TABLE format, when the user asks for it, still write the full tables."""
 
 
-def system_prompt(today: date | None = None, currency: str = "USD", cards: bool = False) -> str:
+# Added in Explore mode, where the agent only has EXPLORE_TOOLS.
+EXPLORE_RULE = """Explore mode: the user is looking for ideas, places to see, restaurants and how to get around, \
+not a costed trip plan. Use search_destination_options, search_restaurants and get_local_transport. You can't \
+search flights or places to stay or cost a plan in this mode; if the user asks for those, answer what you can and \
+say they can switch to Plan mode for a full, costed trip."""
+
+
+def system_prompt(today: date | None = None, currency: str = "USD", cards: bool = False, mode: str = "plan") -> str:
     """The system prompt with today's date, so the model can turn "next Friday" into a real date,
-    the currency the user picked in the app and, when the app shows result cards, the shorter answer rule."""
+    the currency the user picked in the app, the shorter answer rule when the app shows result cards,
+    and the Explore rule in Explore mode."""
     today = today or date.today()
     prompt = f"{SYSTEM_PROMPT}\n\n{CARDS_RULE}" if cards else SYSTEM_PROMPT
+    if mode == "explore":
+        prompt += f"\n\n{EXPLORE_RULE}"
     return (f"{prompt}\n\nToday is {today:%A, %d %B %Y} ({today.isoformat()}). The user's currency is "
             f"{currency}: treat budgets without a currency as {currency} and set calculate_trip_cost's currency to "
             f"{currency}, unless the user names another one.")
@@ -191,6 +204,7 @@ class AgentResult:
     token_usage: dict = field(default_factory=lambda: {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0,
                                                        "cost_usd": 0.0})
     model: str = ""
+    mode: str = "plan"
 
 
 def _history_messages(history: list[dict]) -> list[BaseMessage]:
@@ -245,29 +259,35 @@ def _call_llm(llm, messages: list[BaseMessage], model: str) -> AIMessage:
 
 def run_agent(question: str, history: list[dict] | None = None,
               on_step: Callable[[str], None] | None = None, currency: str = "USD",
-              cards: bool = False, model: str | None = None) -> AgentResult:
+              cards: bool = False, model: str | None = None, mode: str = "plan") -> AgentResult:
     """Answer a question, calling tools as needed. Raises InputValidationError for
     bad input and AgentError for problems the user should know about. Listing prices
     in tool results are shown in the chosen currency. cards=True when the app shows
     the results as cards, so the written answer can be shorter. model is an OpenRouter
-    model id from config.MODELS (default: OPENROUTER_MODEL)."""
+    model id from config.MODELS (default: OPENROUTER_MODEL). mode is "plan" (all tools) or
+    "explore" (places, restaurants and transport only)."""
+    if mode not in MODES:
+        raise AgentError(f"Unknown mode '{mode}'. Use one of: {', '.join(MODES)}.")
     with use_display_currency(currency):
-        return _run_agent(question, history, on_step, currency, cards, model or config.OPENROUTER_MODEL)
+        return _run_agent(question, history, on_step, currency, cards, model or config.OPENROUTER_MODEL, mode)
 
 
 def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str], None] | None,
-               currency: str, cards: bool = False, model: str = config.OPENROUTER_MODEL) -> AgentResult:
+               currency: str, cards: bool = False, model: str = config.OPENROUTER_MODEL,
+               mode: str = "plan") -> AgentResult:
     question = validate_question(question)
     notify = on_step or (lambda _: None)
     try:
         base_llm = get_llm(model)
     except LLMConfigError as error:
         raise AgentError(str(error)) from None
-    llm = base_llm.bind_tools(TOOLS)
+    tools = TOOLS if mode == "plan" else [t for t in TOOLS if t.name in EXPLORE_TOOLS]
+    allowed = {t.name for t in tools}
+    llm = base_llm.bind_tools(tools)
 
-    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards)),
+    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards, mode=mode)),
                                    *_history_messages(history or []), HumanMessage(question)]
-    result = AgentResult(answer="", model=model)
+    result = AgentResult(answer="", model=model, mode=mode)
 
     reminded = False
     for step in range(1, config.MAX_AGENT_STEPS + 1):
@@ -290,7 +310,7 @@ def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str
         for call in response.tool_calls:
             name, args = call["name"], call.get("args") or {}
             notify(TOOL_PROGRESS.get(name, f"Using {name}..."))
-            if name not in TOOLS_BY_NAME:
+            if name not in allowed:
                 output = json.dumps({"error": f"Unknown tool: {name}"})
             else:
                 try:

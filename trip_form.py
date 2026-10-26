@@ -8,8 +8,23 @@ from datetime import date, timedelta
 CURRENCIES = ["USD", "EUR", "GBP", "INR", "JPY", "AUD", "CAD", "CHF", "SGD", "AED", "THB"]
 
 
-def example_questions(today: date | None = None) -> list[str]:
-    """Examples with dates worked out from today, so the live examples always work."""
+EXPLORE_EXAMPLES = [
+    "Museums for kids in Chicago.",
+    "Sushi restaurants in Tokyo rated 4.5 or more.",
+    "Which areas of Lisbon are nice to stay in, and what is there to see?",
+    "How do I get from Fiumicino Airport to the Colosseum?",
+]
+PLACEHOLDERS = {
+    "plan": "Romantic weekend in Paris, mid-November, 2 people, around EUR 1,200...",
+    "explore": "Museums, food or neighbourhoods anywhere, e.g. street food in Bangkok...",
+}
+
+
+def example_questions(today: date | None = None, mode: str = "plan") -> list[str]:
+    """Examples with dates worked out from today, so the live examples always work. Explore mode
+    has its own examples, which need no flights or stays."""
+    if mode == "explore":
+        return list(EXPLORE_EXAMPLES)
     today = today or date.today()
     soon, later = today + timedelta(days=14), today + timedelta(days=30)
     return [

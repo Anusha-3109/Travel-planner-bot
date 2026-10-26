@@ -29,6 +29,8 @@ CREATE TABLE IF NOT EXISTS requests (
     cost_usd REAL, tools TEXT NOT NULL DEFAULT '[]', serpapi INTEGER DEFAULT 0, google INTEGER DEFAULT 0);
 CREATE INDEX IF NOT EXISTS requests_by_time ON requests (asked_at);
 """
+# Columns added after the first version; existing files get them on the next start.
+ADDED_COLUMNS = {"chats": {"mode": "TEXT NOT NULL DEFAULT 'plan'"}, "requests": {"mode": "TEXT"}}
 STATUSES = ("answered", "refused", "limit", "error")
 
 
@@ -37,6 +39,11 @@ def _connect() -> sqlite3.Connection:
     connection = sqlite3.connect(config.HISTORY_DB)
     connection.row_factory = sqlite3.Row
     connection.executescript(SCHEMA)
+    for table, columns in ADDED_COLUMNS.items():
+        present = {row["name"] for row in connection.execute(f"PRAGMA table_info({table})")}
+        for name, definition in columns.items():
+            if name not in present:
+                connection.execute(f"ALTER TABLE {table} ADD COLUMN {name} {definition}")
     return connection
 
 
@@ -47,12 +54,17 @@ def title_for(question: str) -> str:
 
 # --- Chats --------------------------------------------------------------------
 
-def create_chat(first_question: str) -> str:
+def create_chat(first_question: str, mode: str = "plan") -> str:
     chat_id, now = uuid.uuid4().hex[:12], time.time()
     with closing(_connect()) as db, db:
-        db.execute("INSERT INTO chats (id, title, created_at, updated_at) VALUES (?, ?, ?, ?)",
-                   (chat_id, title_for(first_question), now, now))
+        db.execute("INSERT INTO chats (id, title, created_at, updated_at, mode) VALUES (?, ?, ?, ?, ?)",
+                   (chat_id, title_for(first_question), now, now, mode))
     return chat_id
+
+
+def set_chat_mode(chat_id: str, mode: str) -> None:
+    with closing(_connect()) as db, db:
+        db.execute("UPDATE chats SET mode = ? WHERE id = ?", (mode, chat_id))
 
 
 def save_messages(chat_id: str, messages: list[dict]) -> None:
@@ -71,7 +83,7 @@ def load_chat(chat_id: str) -> dict | None:
 def list_chats() -> list[dict]:
     """Every chat without its messages, most recently used first."""
     with closing(_connect()) as db:
-        rows = db.execute("SELECT id, title, created_at, updated_at, bookmarked FROM chats "
+        rows = db.execute("SELECT id, title, created_at, updated_at, bookmarked, mode FROM chats "
                           "ORDER BY updated_at DESC").fetchall()
     return [{**dict(row), "bookmarked": bool(row["bookmarked"])} for row in rows]
 
@@ -125,17 +137,17 @@ def group_chats(chats: list[dict], today: date | None = None) -> dict[str, list[
 
 def log_request(chat_id: str | None, model: str, status: str, reason: str | None = None,
                 seconds: float | None = None, usage: dict | None = None, tools: list[str] | None = None,
-                searches: dict | None = None) -> None:
+                searches: dict | None = None, mode: str | None = None) -> None:
     if status not in STATUSES:
         raise ValueError(f"Unknown request status: {status}")
     usage, searches = usage or {}, searches or {}
     with closing(_connect()) as db, db:
         db.execute(
             "INSERT INTO requests (chat_id, asked_at, model, status, reason, seconds, input_tokens, output_tokens, "
-            "cost_usd, tools, serpapi, google) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "cost_usd, tools, serpapi, google, mode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (chat_id, time.time(), model, status, reason, seconds, usage.get("input_tokens", 0),
              usage.get("output_tokens", 0), usage.get("cost_usd"), json.dumps(tools or []),
-             searches.get("serpapi", 0), searches.get("google", 0)))
+             searches.get("serpapi", 0), searches.get("google", 0), mode))
 
 
 def requests_since(days: int) -> list[dict]:
