@@ -2,10 +2,10 @@
 
 import pytest
 
-import config
-from live import fx, http
-from live.budget import SessionBudget, use_budget
-from security.validation import InputValidationError
+from backend import config
+from backend.live import fx, http
+from backend.live.budget import SessionBudget, use_budget
+from backend.security.validation import InputValidationError
 
 PRIMARY_ANSWER = {"result": "success", "base_code": "USD", "time_last_update_unix": 1792627351,
                   "rates": {"USD": 1, "EUR": 0.9, "INR": 84.0, "JPY": 150.0}}
@@ -29,7 +29,7 @@ class FakeResponse:
 
 @pytest.fixture(autouse=True)
 def isolated(tmp_path, monkeypatch):
-    monkeypatch.setattr(config, "CACHE_DB", tmp_path / "live.sqlite3")
+    monkeypatch.setattr(config, "CACHE_DB", tmp_path / "backend.live.sqlite3")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
 
 

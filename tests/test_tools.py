@@ -3,11 +3,11 @@ import json
 import pytest
 from pydantic import ValidationError
 
-import config
-from security.validation import InputValidationError
-from tools.places import find_accommodations, find_restaurants, search_restaurants
-from tools.planning import check_plan, check_constraints, compute_cost
-from tools.transport import find_transport, search_flights
+from backend import config
+from backend.security.validation import InputValidationError
+from backend.tools.places import find_accommodations, find_restaurants, search_restaurants
+from backend.tools.planning import check_constraints, check_plan, compute_cost
+from backend.tools.transport import find_transport, search_flights
 
 # A snapshot plan in Boston (2026 data): Inside Airbnb stays have prices, OpenStreetMap
 # restaurants don't, and the flights are estimates without a price.
@@ -40,7 +40,7 @@ def test_without_live_data_flights_are_estimates_and_drives_are_estimated():
 
 def test_live_drive_between_cities_has_an_id(monkeypatch):
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "test-key")
-    monkeypatch.setattr("tools.transport.search_live_drive", lambda origin, destination: {
+    monkeypatch.setattr("backend.tools.transport.search_live_drive", lambda origin, destination: {
         "id": "drive-1234abcd", "duration": "8h 10m", "distance_km": 760.2, "estimated_cost_per_car_usd": 342.45,
         "cost_text": "~$342.45 per car", "checked_at": "2026-10-26 09:00 UTC"})
     car, taxi = find_transport("Washington", "Myrtle Beach", "2026-11-20")["ground_options"]

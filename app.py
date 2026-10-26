@@ -10,10 +10,13 @@ refresh reopens it.
 
 import streamlit as st
 
-import config
-from security.redaction import protect_logs
-from ui import benchmarks, chat, dashboard, how_it_answers, sidebar, trips_pages
-from ui.common import PAGES, init_state, prepare_index, sync_chat_with_url
+from backend import config
+from backend.security.redaction import protect_logs
+from frontend.components import sidebar
+from frontend.components.common import PAGES, init_state, prepare_index, sync_chat_with_url
+from frontend.html import render
+from frontend.pages import benchmarks, chat, dashboard, how_it_answers
+from frontend.pages import trips as trips_pages
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
 protect_logs()
@@ -44,6 +47,7 @@ def main() -> None:
     page = st.navigation(list(pages.values()), position="hidden")
     if page.url_path in ("", "chat"):
         sync_chat_with_url()
+    render.theme()  # frontend/html/theme.css
     sidebar.render(pages)
     sidebar.open_settings_if_asked()
     page.run()

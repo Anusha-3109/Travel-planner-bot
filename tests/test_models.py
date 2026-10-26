@@ -3,11 +3,11 @@
 import pytest
 from langchain_core.messages import AIMessage
 
-import config
-from agent import agent as agent_module
-from agent.llm import LLMConfigError, add_usage, call_cost, get_llm, message_usage
-from agent.agent import run_agent
-from rag.retriever import SearchPlan, plan_search
+from backend import config
+from backend.agent import agent as agent_module
+from backend.agent.agent import run_agent
+from backend.agent.llm import LLMConfigError, add_usage, call_cost, get_llm, message_usage
+from backend.rag.retriever import SearchPlan, plan_search
 
 HAIKU = "anthropic/claude-haiku-5.5"
 

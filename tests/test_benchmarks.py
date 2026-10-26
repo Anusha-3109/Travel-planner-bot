@@ -6,7 +6,7 @@ import pytest
 from streamlit.testing.v1 import AppTest
 
 import evaluation
-from ui import benchmarks
+from frontend.pages import benchmarks
 
 HAIKU = "anthropic/claude-haiku-5.5"
 
@@ -60,7 +60,7 @@ def test_tables_are_built_from_the_result_files(results):
 
 
 def _page():
-    from ui import benchmarks
+    from frontend.pages import benchmarks
     benchmarks.render()
 
 

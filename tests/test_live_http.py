@@ -3,9 +3,9 @@
 import pytest
 import requests
 
-import config
-from live import cache, http
-from live.budget import LiveLimitError, SessionBudget, use_budget
+from backend import config
+from backend.live import cache, http
+from backend.live.budget import LiveLimitError, SessionBudget, use_budget
 
 
 class FakeResponse:
@@ -22,7 +22,7 @@ class FakeResponse:
 @pytest.fixture(autouse=True)
 def isolated(tmp_path, monkeypatch):
     """A private cache file, no retry delays, and a record of every network call."""
-    monkeypatch.setattr(config, "CACHE_DB", tmp_path / "live.sqlite3")
+    monkeypatch.setattr(config, "CACHE_DB", tmp_path / "backend.live.sqlite3")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
     calls = []
     monkeypatch.setattr(http, "_send", lambda *args: calls.append(args) or responses.pop(0))

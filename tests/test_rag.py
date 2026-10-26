@@ -3,10 +3,10 @@
 import pytest
 from langchain_core.documents import Document
 
-import config
-from rag import ingest, vectorstore
-from rag.ingest import place_documents
-from rag.retriever import _build_filter, plan_search, retrieve
+from backend import config
+from backend.rag import ingest, vectorstore
+from backend.rag.ingest import place_documents
+from backend.rag.retriever import _build_filter, plan_search, retrieve
 
 
 def test_one_document_per_place_with_metadata():

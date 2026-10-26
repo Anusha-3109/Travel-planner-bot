@@ -5,7 +5,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-import config  # noqa: E402
+from backend import config  # noqa: E402
 
 TEST_CITIES = ["Myrtle Beach", "Asheville"]
 
@@ -19,15 +19,15 @@ def no_live_calls(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "CACHE_DB", tmp_path / "live-cache.sqlite3")
     monkeypatch.setattr(config, "HISTORY_DB", tmp_path / "chats.sqlite3")
     # A fresh per-chat live search budget, so mocked searches in earlier tests don't use it up.
-    from live import budget
+    from backend.live import budget
     monkeypatch.setattr(budget, "_default", budget.SessionBudget())
 
 
 @pytest.fixture(scope="session")
 def small_index(tmp_path_factory):
     """A throwaway Chroma index with two cities, so tests don't need the full index."""
-    from rag import vectorstore
-    from rag.ingest import build_index
+    from backend.rag import vectorstore
+    from backend.rag.ingest import build_index
 
     with pytest.MonkeyPatch.context() as patch:
         patch.setattr(config, "CHROMA_DIR", tmp_path_factory.mktemp("chroma"))

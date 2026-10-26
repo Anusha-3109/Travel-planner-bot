@@ -1,7 +1,7 @@
 import pytest
 
-from security.rate_limit import RateLimiter
-from security.validation import (
+from backend.security.rate_limit import RateLimiter
+from backend.security.validation import (
     InputValidationError,
     validate_budget,
     validate_category,

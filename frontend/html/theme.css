@@ -1,0 +1,40 @@
+/* TripMate's own styles on top of the Streamlit dark theme (.streamlit/config.toml).
+   Loaded once per page by frontend/html/render.py. Streamlit gives a container with the key
+   "composer" the class "st-key-composer", which is how these rules find them.
+   Keep angle brackets out of this file: Streamlit's HTML cleaner drops a style block containing them. */
+
+/* The Plan / Explore box on an empty chat: a rounded card with pill-shaped mode buttons. */
+.st-key-composer { border: 1px solid #2c2f36; border-radius: 18px; padding: 0.75rem; background-color: #1d1f24; }
+.st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
+.st-key-composer textarea { font-size: 1rem; }
+
+/* The orange note under the model list in Settings. */
+.st-key-model-note { border-left: 3px solid #f97316; padding-left: 0.75rem; }
+
+/* Sidebar: the content is a full-height column and the footer (Saved on this computer, Settings)
+   sits at its end; with a long chat list it sticks to the bottom of the window. */
+[data-testid="stSidebarUserContent"] { min-height: calc(100vh - 4.75rem); box-sizing: border-box;
+                                       padding-bottom: 0.25rem; display: flex; flex-direction: column; }
+[data-testid="stSidebarUserContent"] > div { flex: 1; display: flex; flex-direction: column; }
+[data-testid="stSidebarUserContent"] > div > [data-testid="stVerticalBlock"] { flex: 1; }
+[data-testid="stLayoutWrapper"]:has(> .st-key-sidebar-footer) { margin-top: auto; position: sticky; bottom: 0;
+                                                                 z-index: 1; background-color: #101114; }
+.st-key-sidebar-footer { padding-bottom: 0.5rem; }
+
+/* The hero on an empty chat. */
+.tm-hero { text-align: center; margin: 1.5rem 0 1.25rem; }
+.tm-hero img { width: 260px; max-width: 70%; }
+.tm-hero p { font-size: 1.15rem; margin: 0.4rem 0 0; }
+
+/* A day on the trip page. */
+.tm-day { border: 1px solid #2c2f36; border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
+.tm-day h4 { margin: 0 0 0.6rem; font-size: 1rem; font-weight: 600; }
+.tm-day h4 span { color: #9aa0aa; font-weight: 400; }
+.tm-items { border-left: 2px solid #3b82f6; padding-left: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.tm-item .tm-title { font-weight: 500; }
+.tm-item .tm-price { font-weight: 600; }
+.tm-item .tm-detail { color: #9aa0aa; font-size: 0.85rem; }
+.tm-item a { color: #60a5fa; }
+.tm-item details { font-size: 0.85rem; color: #c3c7cf; }
+.tm-item details ol { margin: 0.25rem 0 0; padding-left: 1.2rem; }
+.tm-unpriced { color: #9aa0aa; font-size: 0.8rem; margin-top: 0.5rem; }

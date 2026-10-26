@@ -2,8 +2,8 @@
 
 import pytest
 
-from live import fx, items
-from tools.planning import check_plan, compute_cost
+from backend.live import fx, items
+from backend.tools.planning import check_plan, compute_cost
 
 RATES = fx.ExchangeRates({"USD": 1.0, "EUR": 0.9}, "2026-10-22", "test rates")
 CHECKED = "2026-10-22 14:00 UTC"
@@ -12,7 +12,7 @@ CHECKED = "2026-10-22 14:00 UTC"
 @pytest.fixture
 def live_ids(monkeypatch):
     """A London → Rome trip for 2 people: two flights, a 3-night stay, two meals and a transit route."""
-    monkeypatch.setattr("tools.planning.fx.get_rates", lambda: RATES)
+    monkeypatch.setattr("backend.tools.planning.fx.get_rates", lambda: RATES)
     out = items.remember("flight", {"type": "flight", "origin_city": "London", "destination_city": "Rome",
                                     "flight_numbers": ["U2 8323"], "price_per_person": 35, "checked_at": CHECKED})
     back = items.remember("flight", {"type": "flight", "origin_city": "Rome", "destination_city": "London",

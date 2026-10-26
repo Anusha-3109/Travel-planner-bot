@@ -9,13 +9,13 @@ from pathlib import Path
 
 import pytest
 
-import config
-from live import http
-from live.flights import search_live_flights, too_far_ahead
-from security.redaction import REPLACEMENT, protect_logs, redact
-from security.tool_output import REMOVED, SCREENING_NOTE, clean_text, clean_tool_output
-from security.validation import InputValidationError
-from tools.places import find_accommodations
+from backend import config
+from backend.live import http
+from backend.live.flights import search_live_flights, too_far_ahead
+from backend.security.redaction import REPLACEMENT, protect_logs, redact
+from backend.security.tool_output import REMOVED, SCREENING_NOTE, clean_text, clean_tool_output
+from backend.security.validation import InputValidationError
+from backend.tools.places import find_accommodations
 
 ROOT = Path(__file__).resolve().parents[1]
 KEY_PATTERNS = {
@@ -75,7 +75,7 @@ def test_serpapi_error_text_is_redacted(fake_keys, monkeypatch):
         def json(self):
             return {"error": "Invalid api_key serp-secret-0123456789"}
     monkeypatch.setattr(http, "_send", lambda *a: Answer())
-    monkeypatch.setattr("live.flights.airports_for", lambda city: [type("A", (), {"code": "LHR"})()])
+    monkeypatch.setattr("backend.live.flights.airports_for", lambda city: [type("A", (), {"code": "LHR"})()])
     with pytest.raises(http.LiveDataError) as raised:
         search_live_flights("London", "Rome", (date.today() + timedelta(days=10)).isoformat())
     assert "serp-secret" not in str(raised.value) and REPLACEMENT in str(raised.value)
@@ -120,7 +120,8 @@ def test_plain_text_results_are_screened_line_by_line():
 def test_agent_screens_tool_output(monkeypatch):
     """A tool result with injected text reaches the model already cleaned."""
     from langchain_core.messages import AIMessage, ToolMessage
-    import agent.agent as agent_module
+
+    import backend.agent.agent as agent_module
     from tests.test_agent import ScriptedLLM
 
     monkeypatch.setattr(agent_module, "_run_tool", lambda *a: json.dumps(INJECTED_LISTING))

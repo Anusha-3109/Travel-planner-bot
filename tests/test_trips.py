@@ -4,8 +4,7 @@ import json
 
 from streamlit.testing.v1 import AppTest
 
-import history
-import trips
+from backend.storage import history, trips
 
 
 def _call(name, output, args=None):
@@ -95,7 +94,7 @@ def test_trips_are_saved_listed_and_deleted():
 
 
 def _page(name):
-    from ui import trips_pages
+    from frontend.pages import trips as trips_pages
     getattr(trips_pages, name)()
 
 
@@ -120,8 +119,9 @@ def test_trip_page_shows_the_plan_stays_and_discover(monkeypatch):
     assert not at.exception and [t.label for t in at.tabs] == ["Plan", "Route", "Stays", "Discover"]
     metrics = {m.label: m.value for m in at.metric}
     assert metrics["Total"] == "USD 336.40" and metrics["Left"] == "USD 563.60"
-    text = " ".join(m.value for m in at.markdown)
-    assert "JetBlue B6 1234" in text and "Shelly's Swan Room" in text
+    days = " ".join(h.proto.body for h in at.get("html"))  # the days come from frontend/html/timeline.html
+    assert "JetBlue B6 1234" in days and "<summary>Steps</summary>" in days
+    assert "Shelly's Swan Room" in " ".join(m.value for m in at.markdown)  # the Stays tab
     assert "minimum nights: Needs 3 nights." in at.warning[0].value
 
 
@@ -130,3 +130,30 @@ def test_unknown_trip_says_so():
     at.query_params["trip"] = "missing"
     at.run()
     assert at.title[0].value == "Trip not found"
+
+
+def test_a_day_is_html_with_escaped_values():
+    from frontend.html import render
+    day = {"day": 2, "date": "2026-11-17", "city": "Boston", "unpriced": ["Lunch: <b>Picco</b>"], "items": [
+        {"kind": "meal", "title": "Dinner: Tom & Jerry's <script>", "price": "$20–30", "detail": "1 Main St",
+         "link": "javascript:alert(1)"},
+        {"kind": "transit", "title": "Bus SL1", "price": None, "detail": "", "steps": ["Walk 5 min"],
+         "link": "https://mbta.com"}]}
+    html = render.day_html(day)
+    assert "Day 2 · Tue 17 Nov" in html and "· Boston" in html
+    assert "Tom &amp; Jerry&#x27;s &lt;script&gt;" in html and "<script>" not in html
+    assert "$20–30" in html  # a "$" in a value isn't read as a placeholder
+    assert "javascript:" not in html and 'href="https://mbta.com"' in html  # only http(s) links
+    assert "<li>Walk 5 min</li>" in html and "No price: Lunch: &lt;b&gt;Picco&lt;/b&gt;" in html
+
+
+def test_hero_and_theme_load_from_the_html_folder():
+    from frontend.html import render
+    assert render._logo_data_uri().startswith("data:image/svg+xml;base64,")
+    assert ".st-key-composer" in render._read("theme.css") and "$tagline" in render._read("hero.html")
+
+
+def test_theme_has_nothing_that_looks_like_a_tag():
+    """Streamlit's HTML cleaner drops a whole style block containing something that looks like a tag."""
+    from frontend.html import render
+    assert "<" not in render._read("theme.css")

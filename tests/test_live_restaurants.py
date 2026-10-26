@@ -5,10 +5,10 @@ from pathlib import Path
 
 import pytest
 
-import config
-from live import fx, http, items
-from security.validation import InputValidationError
-from tools.places import find_restaurants
+from backend import config
+from backend.live import fx, http, items
+from backend.security.validation import InputValidationError
+from backend.tools.places import find_restaurants
 
 PLACES = json.loads((Path(__file__).parent / "fixtures" / "google_places_rome_italian.json").read_text(encoding="utf-8"))
 RATES = fx.ExchangeRates({"USD": 1.0, "EUR": 0.9}, "2026-10-22", "test rates")
@@ -26,7 +26,7 @@ class FakeResponse:
 def google(monkeypatch):
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "test-key")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
-    monkeypatch.setattr("live.restaurants.fx.get_rates", lambda: RATES)
+    monkeypatch.setattr("backend.live.restaurants.fx.get_rates", lambda: RATES)
     sent = []
     answer = {"response": FakeResponse(200, PLACES)}
 

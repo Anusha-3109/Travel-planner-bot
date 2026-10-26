@@ -30,12 +30,12 @@ from ragas.embeddings.base import BaseRagasEmbedding
 from ragas.llms import llm_factory
 from ragas.metrics.collections import AnswerRelevancy, ContextPrecisionWithoutReference, Faithfulness
 
-import config
-from agent import agent as agent_module
+from backend import config
+from backend.agent import agent as agent_module
+from backend.rag.vectorstore import _embeddings
+from backend.travel_data.catalog import load_catalog
 from evaluation import ragas_results_path
 from evaluation.retrieval import SEED, build_questions
-from rag.vectorstore import _embeddings
-from travel_data.catalog import load_catalog
 
 PER_KIND = 5
 KINDS = {"museums": "What museums can I visit in {city}?",

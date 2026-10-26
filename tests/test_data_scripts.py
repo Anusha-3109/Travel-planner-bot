@@ -5,9 +5,9 @@ import json
 import pandas as pd
 import pytest
 
-import config
-from travel_data import download, fetch_world
-from travel_data.world_cities import WORLD_CITIES
+from backend import config
+from backend.travel_data import download, fetch_world
+from backend.travel_data.world_cities import WORLD_CITIES
 
 ECB_XML = b"""<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01"
  xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref"><Cube><Cube time="2026-10-21">
@@ -147,7 +147,7 @@ def test_us_areas_are_listed():
 
 
 def test_smaller_city_uses_one_combined_request(monkeypatch):
-    from travel_data.world_cities import SMALLER_US_CITIES
+    from backend.travel_data.world_cities import SMALLER_US_CITIES
     queries = []
     elements = [
         {"tags": {"amenity": "restaurant", "name": "Waffle House", "cuisine": "american"}},

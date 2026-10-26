@@ -1,0 +1,15 @@
+<!-- One day of a saved trip. render.timeline_day() fills in the day and repeats the item
+     block (between the ITEM markers) for every flight, transfer, meal, sight and stay. -->
+<div class="tm-day">
+  <h4>Day $day$date <span>· $city</span></h4>
+  <div class="tm-items">
+    <!-- ITEM -->
+    <div class="tm-item">
+      <div>$icon <span class="tm-title">$title</span>$price$link</div>
+      $detail
+      $steps
+    </div>
+    <!-- /ITEM -->
+  </div>
+  $unpriced
+</div>

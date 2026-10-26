@@ -1,7 +1,7 @@
 """European and Asian city data.
 
 Catalog tests use a small made-up city file, so they don't depend on a fetch.
-Tool tests use the real Tokyo file from `python -m travel_data.fetch_world`
+Tool tests use the real Tokyo file from `python -m backend.travel_data.fetch_world`
 and are skipped when it hasn't been fetched.
 """
 
@@ -9,12 +9,12 @@ import json
 
 import pytest
 
-import config
-from rag.ingest import place_documents
-from tools.places import find_accommodations, find_restaurants
-from tools.planning import check_plan, compute_cost
-from tools.transport import find_transport
-from travel_data.catalog import build_catalog
+from backend import config
+from backend.rag.ingest import place_documents
+from backend.tools.places import find_accommodations, find_restaurants
+from backend.tools.planning import check_plan, compute_cost
+from backend.tools.transport import find_transport
+from backend.travel_data.catalog import build_catalog
 
 SAMPLE_CITY = {
     "city": "Kyoto", "country": "Japan", "region": "Asia", "latitude": 35.0116, "longitude": 135.7681,

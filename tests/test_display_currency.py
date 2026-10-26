@@ -5,10 +5,10 @@ from pathlib import Path
 
 import pytest
 
-import config
-from live import fx, http
-from live.fx import money, money_range, use_display_currency
-from tools.places import find_restaurants
+from backend import config
+from backend.live import fx, http
+from backend.live.fx import money, money_range, use_display_currency
+from backend.tools.places import find_restaurants
 
 RATES = fx.ExchangeRates({"USD": 1.0, "EUR": 0.9, "GBP": 0.8, "JPY": 150.0}, "2026-10-23", "test rates")
 PLACES = json.loads((Path(__file__).parent / "fixtures" / "google_places_rome_italian.json").read_text(encoding="utf-8"))
@@ -54,7 +54,7 @@ def test_restaurant_prices_show_local_and_chosen_currency(monkeypatch):
 
 
 def test_agent_sets_the_currency_while_it_answers(monkeypatch):
-    import agent.agent as agent_module
+    import backend.agent.agent as agent_module
     seen = []
     monkeypatch.setattr(agent_module, "_run_agent", lambda *a: seen.append(fx.display_currency()))
     agent_module.run_agent("Hello", currency="JPY")

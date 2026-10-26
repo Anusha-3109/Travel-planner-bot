@@ -4,10 +4,10 @@ from types import SimpleNamespace
 
 import pytest
 
+from backend.rag.retriever import SearchPlan
+from backend.travel_data.catalog import load_catalog
 from evaluation import plans
 from evaluation.retrieval import Question, build_questions, score, strategy_plans, summarise
-from rag.retriever import SearchPlan
-from travel_data.catalog import load_catalog
 
 QUESTION = Question("museums", "museums in Boston", "Boston",
                     frozenset({"attraction: Museum of Science, Boston", "attraction: Isabella Stewart Gardner Museum, Boston"}))
@@ -114,7 +114,7 @@ def test_rates_follow_travelplanner_metrics():
 
 
 def test_without_rag_removes_only_the_search_tool():
-    from agent import agent as agent_module
+    from backend.agent import agent as agent_module
     before = [t.name for t in agent_module.TOOLS]
     with plans.without_rag():
         assert "search_destination_options" not in agent_module.TOOLS_BY_NAME

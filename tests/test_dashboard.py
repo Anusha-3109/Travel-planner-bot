@@ -4,8 +4,8 @@ from datetime import date, datetime
 
 from streamlit.testing.v1 import AppTest
 
-import history
-from ui import dashboard
+from backend.storage import history
+from frontend.pages import dashboard
 
 TODAY = date(2026, 10, 26)
 
@@ -59,7 +59,7 @@ def test_page_draws_the_numbers_from_the_log(monkeypatch):
     monkeypatch.setattr(dashboard, "cached_live_status", lambda: [])
 
     def page():
-        from ui import dashboard
+        from frontend.pages import dashboard
         dashboard.render()
 
     at = AppTest.from_function(page, default_timeout=30)
@@ -77,7 +77,7 @@ def test_page_without_requests_says_so(monkeypatch):
         "cities": 1, "attractions": 0, "restaurants": 0, "stays": 0, "priced_stays": 0, "indexed": None})
 
     def page():
-        from ui import dashboard
+        from frontend.pages import dashboard
         dashboard.render()
 
     at = AppTest.from_function(page, default_timeout=30)

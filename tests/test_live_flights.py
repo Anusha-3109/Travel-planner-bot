@@ -5,12 +5,12 @@ from pathlib import Path
 
 import pytest
 
-import config
-from live import http, items
-from live.airports import airports_for
-from live.flights import search_live_flights
-from security.validation import InputValidationError
-from tools.transport import find_transport
+from backend import config
+from backend.live import http, items
+from backend.live.airports import airports_for
+from backend.live.flights import search_live_flights
+from backend.security.validation import InputValidationError
+from backend.tools.transport import find_transport
 
 FIXTURE = json.loads((Path(__file__).parent / "fixtures" / "serpapi_google_flights_lon_rom.json").read_text(encoding="utf-8"))
 FUTURE = "2026-11-10"
@@ -29,8 +29,8 @@ def serpapi(monkeypatch):
     """A fake key and a fake SerpApi that records what it was asked."""
     monkeypatch.setattr(config, "SERPAPI_API_KEY", "test-key")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
-    monkeypatch.setattr("live.flights.is_live_date", lambda day: True)
-    monkeypatch.setattr("tools.transport.is_live_date", lambda day: True)
+    monkeypatch.setattr("backend.live.flights.is_live_date", lambda day: True)
+    monkeypatch.setattr("backend.tools.transport.is_live_date", lambda day: True)
     sent = []
     answer = {"response": FakeResponse(200, FIXTURE)}
     monkeypatch.setattr(http, "_send", lambda *args: sent.append(args) or answer["response"])
@@ -83,7 +83,7 @@ def test_falls_back_when_live_search_fails(serpapi):
 
 def test_past_dates_and_missing_key_give_an_estimate(serpapi, monkeypatch):
     sent, _ = serpapi
-    monkeypatch.setattr("tools.transport.is_live_date", lambda day: False)
+    monkeypatch.setattr("backend.tools.transport.is_live_date", lambda day: False)
     result = find_transport("Washington", "Myrtle Beach", "2026-03-13")
     assert result["flights_source"] == "estimate" and "in the past" in result["note"]
     assert result["estimated_flight"]["price"] is None
@@ -120,7 +120,7 @@ def test_price_text_for_one_and_for_groups(serpapi):
 
 
 def test_found_and_shown_counts(serpapi, monkeypatch):
-    monkeypatch.setattr("live.flights.MAX_FLIGHTS_SHOWN", 3)
+    monkeypatch.setattr("backend.live.flights.MAX_FLIGHTS_SHOWN", 3)
     result = find_transport("London", "Rome", FUTURE)
     assert result["flights_shown"] == sum(len(g["flights"]) for g in result["airlines"]) == 3
     assert f"Showing the 3 cheapest of {result['flight_count']} flights found." in result["note"]

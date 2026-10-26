@@ -5,7 +5,7 @@ from datetime import date, datetime
 
 import pytest
 
-import history
+from backend.storage import history
 
 
 def test_chats_are_saved_loaded_renamed_bookmarked_and_deleted():

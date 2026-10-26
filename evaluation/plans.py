@@ -31,12 +31,12 @@ from pathlib import Path
 
 import pandas as pd
 
-import config
-from agent import agent as agent_module
+from backend import config
+from backend.agent import agent as agent_module
+from backend.agent.trip_request import trip_question
+from backend.live.budget import SessionBudget, use_budget
+from backend.tools.planning import check_plan
 from evaluation import RESULTS_DIR
-from live.budget import SessionBudget, use_budget
-from tools.planning import check_plan
-from trip_form import trip_question
 
 QUESTIONS_FILE = config.TRAVELPLANNER_DIR / "validation.csv"
 PER_LEVEL = 6
@@ -50,7 +50,7 @@ EVAL_LIMITS = {"serpapi": 200, "google": 400}  # the whole evaluation, not one c
 def select_questions(path: Path = QUESTIONS_FILE, per_level: int = PER_LEVEL, seed: int = SEED) -> list[dict]:
     """per_level 3-day questions of each level, the same ones on every run."""
     if not path.exists():
-        raise FileNotFoundError(f"{path} not found. Run: python -m travel_data.download")
+        raise FileNotFoundError(f"{path} not found. Run: python -m backend.travel_data.download")
     data = pd.read_csv(path)
     rows = []
     for level in ("easy", "medium", "hard"):

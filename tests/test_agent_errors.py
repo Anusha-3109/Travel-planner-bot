@@ -9,15 +9,15 @@ import openai
 import pytest
 from langchain_core.messages import AIMessage, HumanMessage
 
-import agent.agent as agent_module
-import config
-from agent.agent import AgentError, run_agent
-from agent.llm import LLMConfigError, get_llm
-from live import http
-from security.validation import InputValidationError
+import backend.agent.agent as agent_module
+from backend import config
+from backend.agent.agent import AgentError, run_agent
+from backend.agent.llm import LLMConfigError, get_llm
+from backend.live import http
+from backend.security.validation import InputValidationError
+from backend.tools.destinations import search_destination_options
+from backend.tools.local_transport import find_local_transport, get_local_transport
 from tests.test_agent import ScriptedLLM
-from tools.destinations import search_destination_options
-from tools.local_transport import find_local_transport, get_local_transport
 
 REQUEST = httpx.Request("POST", "https://openrouter.ai/api/v1/chat/completions")
 
@@ -106,7 +106,7 @@ def test_place_search_reports_bad_input_as_text():
 
 def test_failing_google_routes_falls_back_to_an_estimate(monkeypatch):
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "test-key")
-    monkeypatch.setattr("tools.local_transport.search_local_transport",
+    monkeypatch.setattr("backend.tools.local_transport.search_local_transport",
                         lambda *a: (_ for _ in ()).throw(http.LiveDataError("Google Routes is down")))
     result = find_local_transport("Washington", "Myrtle Beach")
     assert result["transport_source"] == "estimate" and "Google Routes is down" in result["note"]

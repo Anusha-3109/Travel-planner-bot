@@ -2,15 +2,15 @@
 
 import json
 from datetime import date, datetime, timedelta, timezone
-from zoneinfo import ZoneInfo
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pytest
 
-import config
-from live import fx, http, items
-from security.validation import InputValidationError
-from tools.local_transport import find_local_transport
+from backend import config
+from backend.live import fx, http, items
+from backend.security.validation import InputValidationError
+from backend.tools.local_transport import find_local_transport
 
 FIXTURES = Path(__file__).parent / "fixtures"
 TRANSIT = json.loads((FIXTURES / "google_routes_transit_fco_colosseum.json").read_text(encoding="utf-8"))
@@ -29,7 +29,7 @@ class FakeResponse:
 def google(monkeypatch):
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "test-key")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
-    monkeypatch.setattr("live.routes.fx.get_rates", lambda: fx.ExchangeRates({"USD": 1.0, "EUR": 0.9}, "2026-10-22", "t"))
+    monkeypatch.setattr("backend.live.routes.fx.get_rates", lambda: fx.ExchangeRates({"USD": 1.0, "EUR": 0.9}, "2026-10-22", "t"))
     sent, answers = [], {"transit": FakeResponse(200, TRANSIT), "drive": FakeResponse(200, DRIVE)}
 
     def send(method, url, params, headers, body):

@@ -5,12 +5,12 @@ from datetime import date
 
 from streamlit.testing.v1 import AppTest
 
-from agent import agent as agent_module
+from backend.agent import agent as agent_module
 
 
 def _cards(tool_calls: list[dict]):
     def script(calls):
-        from ui_cards import render_result_cards
+        from frontend.components.cards import render_result_cards
         render_result_cards(calls)
 
     at = AppTest.from_function(script, args=(tool_calls,), default_timeout=30)

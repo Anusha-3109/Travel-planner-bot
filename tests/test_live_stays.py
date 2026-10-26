@@ -5,10 +5,10 @@ from pathlib import Path
 
 import pytest
 
-import config
-from live import http, items
-from security.validation import InputValidationError
-from tools.places import find_accommodations
+from backend import config
+from backend.live import http, items
+from backend.security.validation import InputValidationError
+from backend.tools.places import find_accommodations
 
 FIXTURES = Path(__file__).parent / "fixtures"
 AIRBNB = json.loads((FIXTURES / "serpapi_airbnb_rome.json").read_text(encoding="utf-8"))
@@ -28,7 +28,7 @@ class FakeResponse:
 def serpapi(monkeypatch):
     monkeypatch.setattr(config, "SERPAPI_API_KEY", "test-key")
     monkeypatch.setattr(http.time, "sleep", lambda _: None)
-    monkeypatch.setattr("tools.places.is_live_date", lambda day: True)
+    monkeypatch.setattr("backend.tools.places.is_live_date", lambda day: True)
     sent = []
 
     def send(method, url, params, headers, body):
@@ -77,14 +77,14 @@ def test_house_rules_other_than_pets_are_flagged(serpapi):
 
 
 def test_falls_back_to_snapshot_when_live_fails(serpapi, monkeypatch):
-    monkeypatch.setattr("live.stays.search", lambda *a, **k: (_ for _ in ()).throw(http.LiveDataError("down")))
+    monkeypatch.setattr("backend.live.stays.search", lambda *a, **k: (_ for _ in ()).throw(http.LiveDataError("down")))
     result = find_accommodations("Rome", people=2, **DATES)
     assert result["stays_source"] == "snapshot" and "Live stay search failed" in result["note"]
     assert result["accommodations"]  # Inside Airbnb snapshot for Rome
 
 
 def test_past_dates_use_snapshot(serpapi, monkeypatch):
-    monkeypatch.setattr("tools.places.is_live_date", lambda day: False)
+    monkeypatch.setattr("backend.tools.places.is_live_date", lambda day: False)
     result = find_accommodations("Myrtle Beach", people=1, check_in_date="2022-03-13", check_out_date="2022-03-15")
     assert result["stays_source"] == "snapshot" and "in the past" in result["note"] and serpapi == []
 
@@ -109,7 +109,7 @@ def test_free_cancellation_text(serpapi):
 
 
 def test_found_and_shown_counts(serpapi, monkeypatch):
-    monkeypatch.setattr("live.stays.MAX_STAYS_SHOWN", 2)
+    monkeypatch.setattr("backend.live.stays.MAX_STAYS_SHOWN", 2)
     result = find_accommodations("Rome", people=2, **DATES)
     assert result["stays_shown"] == len(result["stays"]) == 2 < result["stay_count"]
     assert f"Showing the 2 cheapest of {result['stay_count']} stays found." in result["note"]

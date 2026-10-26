@@ -4,10 +4,10 @@ from collections import Counter
 
 import pytest
 
-import config
-from security.validation import InputValidationError
-from tools.planning import HouseRule, RoomType, TransportRule
-from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES, build_catalog, load_catalog
+from backend import config
+from backend.security.validation import InputValidationError
+from backend.tools.planning import HouseRule, RoomType, TransportRule
+from backend.travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES, build_catalog, load_catalog
 
 
 @pytest.fixture(scope="module")

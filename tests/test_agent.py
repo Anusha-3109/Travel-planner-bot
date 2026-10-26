@@ -6,10 +6,10 @@ from datetime import date
 import pytest
 from langchain_core.messages import AIMessage
 
-import agent.agent as agent_module
-from agent.agent import AgentError, run_agent
-from agent.llm import LLMConfigError
-from security.validation import InputValidationError
+import backend.agent.agent as agent_module
+from backend.agent.agent import AgentError, run_agent
+from backend.agent.llm import LLMConfigError
+from backend.security.validation import InputValidationError
 
 
 class ScriptedLLM:

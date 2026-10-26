@@ -26,12 +26,12 @@ import random
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
-import config
-from agent.llm import add_usage, get_llm, message_usage
+from backend import config
+from backend.agent.llm import add_usage, get_llm, message_usage
+from backend.rag.ingest import _source
+from backend.rag.retriever import SearchPlan, plan_search, retrieve
+from backend.travel_data.catalog import TravelCatalog, load_catalog
 from evaluation import RESULTS_DIR
-from rag.ingest import _source
-from rag.retriever import SearchPlan, plan_search, retrieve
-from travel_data.catalog import TravelCatalog, load_catalog
 
 QUESTIONS_PER_KIND = 15
 SEED = 2026

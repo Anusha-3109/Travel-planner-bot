@@ -2,8 +2,8 @@
 
 import requests
 
-import config
-from live import status
+from backend import config
+from backend.live import status
 
 
 class FakeResponse:
