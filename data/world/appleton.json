@@ -1,0 +1,1467 @@
+{
+ "city": "Appleton",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.265,
+ "longitude": -88.4039,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Fox River Drive, 54913, Appleton",
+   "url": "https://www.hilton.com/en/hotels/aplhhhx-hampton-appleton-fox-river-mall-area/"
+  },
+  {
+   "name": "DoubleTree by Hilton Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 Nicolet Road, 54914, Appleton",
+   "url": "https://www.hilton.com/en/hotels/grbapdt-doubletree-appleton/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "355 Fox River Drive, 54913, Appleton",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-appleton-wi"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3624 West College Avenue, 54914-3914, Appleton",
+   "url": "https://www.wyndhamhotels.com/super-8/appleton-wisconsin/super-8-appleton/overview"
+  },
+  {
+   "name": "Baymont Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3924 West College Avenue, 54914, Appleton",
+   "url": "https://www.wyndhamhotels.com/baymont/appleton-wisconsin/baymont-appleton/overview"
+  },
+  {
+   "name": "Courtyard Appleton Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 South Riverheath Way, 54915, Appleton",
+   "url": "https://www.marriott.com/atwcy"
+  },
+  {
+   "name": "Hilton Appleton Paper Valley",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 West College Avenue, 54911, Appleton",
+   "url": "https://www.hilton.com/en/hotels/atwpvhh-hilton-appleton-paper-valley/"
+  },
+  {
+   "name": "Comfort Suites Appleton Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3809 West Wisconsin Avenue, 54914, Appleton",
+   "url": "https://www.choicehotels.com/wisconsin/oshkosh/comfort-suites-hotels"
+  },
+  {
+   "name": "Doubletree Hotel by Hilton Neenah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "123 East Wisconsin Avenue, 54956, Neenah",
+   "url": "https://www.hilton.com/en/hotels/oshnedt-doubletree-neenah/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "720 Eisenhower Drive, 54136, Kimberly",
+   "url": "https://www.hilton.com/en/hotels/atwakgi-hilton-garden-inn-appleton-kimberly/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 South Nicolet Road, 54914, Appleton",
+   "url": "https://www.marriott.com/atwfa"
+  },
+  {
+   "name": "Wyndham Garden Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1565 North Federated Drive, 54913-8504, Appleton",
+   "url": "https://www.wyndhamhotels.com/wyndham-garden/appleton-wisconsin/wyndham-garden-appleton/overview"
+  },
+  {
+   "name": "Four Points by Sheraton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4525 West College Avenue, 54914, Appleton",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Metro Drive, 54913, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson by Wyndham Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 North Perkins Street, 54914, Appleton",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Lodge & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3900 North Gateway Drive, 54913, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn of Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1032 South Westland Drive, 54914, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "761 Truman Street, Kimberly",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotel - Appleton Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1465 Bryce Drive, 54956, Neenah",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Appleton West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Roost Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1900 South Lee Street, 54915, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Franklin Street Inn Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "318 East Franklin Street, 54911, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Snug Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3437 North Richmond Street, Appleton",
+   "url": ""
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn Appleton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Copper Leaf",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cambria Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Appleton/Fox Cities",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Recovery Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Northern Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Campus Guest House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Richmond Street Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sangria's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "215 South Memorial Drive, 54911, Appleton",
+   "website": "https://www.sangriasmexicangrill.com/index.php"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3470 West College Avenue, 54914, Appleton",
+   "website": "https://locations.dennys.com/WI/APPLETON/248757"
+  },
+  {
+   "name": "HuHot",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "",
+   "website": "https://www.huhot.com/location/appleton-wi/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1924 South Oneida Street, 54915, Appleton",
+   "website": "https://locations.pizzahut.com/wi/appleton/1924-s-oneida-st"
+  },
+  {
+   "name": "Bowl Ninety-One",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "100 East College Avenue, 54911, Appleton",
+   "website": "https://www.bowl91.com/"
+  },
+  {
+   "name": "Urban Modern Kitchen",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "800 East Wisconsin Avenue, 54911, Appleton",
+   "website": "https://urbanmodernkitchen.com/"
+  },
+  {
+   "name": "Molo Asian BBQ",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "1170 North Westhill Boulevard, 54914, Appleton",
+   "website": "https://moloasianbbq.com/"
+  },
+  {
+   "name": "Stuc's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "110 North Douglas Street, 54914, Appleton",
+   "website": "http://stucs.net"
+  },
+  {
+   "name": "GingeRootz",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2920 North Ballard Road, 54911, Appleton",
+   "website": "https://www.gingerootz.com/"
+  },
+  {
+   "name": "Tomaso's Appleton",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "115 East Washington Street, 54911, Appleton",
+   "website": "https://tomasosza.com/"
+  },
+  {
+   "name": "Niko's Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1027 South Outagamie Street, 54914, Appleton",
+   "website": "https://nikosgyros.com/"
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1770 Appleton Road, 54952, Menasha",
+   "website": "http://menashachinastar.com/"
+  },
+  {
+   "name": "Akame Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://akamesushi888.com/"
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "1169 North Westhill Boulevard, 54914, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "W3254 Van Roy Road, 54915",
+   "website": ""
+  },
+  {
+   "name": "Stone Arch Brew Pub",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Sandwich",
+    "Pub"
+   ],
+   "address": "1004 South Olde Oneida Street, 54915, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "3719 East Calumet Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "3201 East Calumet Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Antojitos Mexicanos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "204 East College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Garden View",
+   "cuisines": [
+    "American"
+   ],
+   "address": "215 East College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Toppers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "109 East College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sal's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "411 West College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Hunan 1",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "220 East College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "MACS (Macaroni and Cheese Shop)",
+   "cuisines": [
+    "Fast Casual",
+    "Pasta"
+   ],
+   "address": "W3192 East Calumet Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Big Pot & Grill",
+   "cuisines": [
+    "Vietnamese",
+    "Cajun",
+    "Fusion"
+   ],
+   "address": "W3192 East Calumet Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Thai Ginger Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1619 West College Avenue, 54914, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Apollon",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "207 North Appleton Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Parker John's BBQ & Pizza",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phonsavan",
+   "cuisines": [
+    "Lao"
+   ],
+   "address": "N192 Stoney Brook Road, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Victoria's Italian Cuisine",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "503 West College Avenue, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Revv Nutrition",
+   "cuisines": [
+    "Health Food"
+   ],
+   "address": "West Ridgeview Drive, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "The Cozzy Corner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "111 North Walnut Street",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rocky Rococo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Home Run Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1216 W Wisconsin Ave",
+   "website": ""
+  },
+  {
+   "name": "Black Bear Family Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Area509",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vince Lombardi's Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mai's Deli",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Glass Nickel Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Far East Korean & Japanese Cuisine",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fast Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Red Ox Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Emperor's Buffet",
+   "cuisines": [
+    "Asian",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Mad Apple Burger & Billiard Co.",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bamboo",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dong Po",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "My Lee's Egg Roll House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Basil Café",
+   "cuisines": [
+    "Thai",
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Azteca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Lover",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Min Du Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Katsu-Ya of Japan",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Home Burger Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jexi’s Restaurant",
+   "cuisines": [
+    "Mexican",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lindo Michoacan",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Azteca Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sai Ram",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tipsy Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "India Darbar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bowlicious Eats",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "ellinor",
+   "cuisines": [],
+   "address": "1016 East Pacific Street, Appleton",
+   "website": "https://www.ellinor-appleton.com/"
+  },
+  {
+   "name": "Mark's East Side",
+   "cuisines": [],
+   "address": "1405 East Wisconsin Avenue, 54911, Appleton",
+   "website": "https://www.markseastside.com/"
+  },
+  {
+   "name": "The Northland Neighborhood Sports Pub",
+   "cuisines": [],
+   "address": "340 West Northland Avenue, 54911, Appleton",
+   "website": "https://www.thenorthlandpub.com/"
+  },
+  {
+   "name": "Wooden Nickel Sports Bar & Grill",
+   "cuisines": [],
+   "address": "217 East College Avenue, 54911, Appleton",
+   "website": "https://woodennickelsportsbar.com/"
+  },
+  {
+   "name": "Dick and joan's Supper Club",
+   "cuisines": [],
+   "address": "220 North Lynndale Drive, 54914, Appleton",
+   "website": "https://georgessteakhouseappleton.com/"
+  },
+  {
+   "name": "Josef's Gyros Kabob",
+   "cuisines": [],
+   "address": "118 Soldiers Square, 54911, Appleton",
+   "website": "https://www.gyros-kabob.com/"
+  },
+  {
+   "name": "Rye",
+   "cuisines": [],
+   "address": "",
+   "website": "https://ryedining.com/"
+  },
+  {
+   "name": "Fratellos Waterfront Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": "https://fratelloswaterfront.com/"
+  },
+  {
+   "name": "Good Company",
+   "cuisines": [],
+   "address": "110 North Richmond Street, 54911, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Cinder's Charcoal Grill",
+   "cuisines": [],
+   "address": "221 Kensington Drive, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Broken Tree Taproom & Pizza of Appleton",
+   "cuisines": [],
+   "address": "201 Riverheath Way, 54915, Appleton",
+   "website": ""
+  },
+  {
+   "name": "George's Steak House",
+   "cuisines": [],
+   "address": "2208 South Memorial Drive, 54915, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Angel's",
+   "cuisines": [],
+   "address": "1401 East John Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Maple Tree Restaurant and Pancake House",
+   "cuisines": [],
+   "address": "2106 South Oneida Street, Appleton",
+   "website": ""
+  },
+  {
+   "name": "Jones Dairy Farm Culinary Theatre",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Appleton Beer Factory",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pullmans at Trolley Square",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hop Yard Ale Works",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rico's Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cinder's Charcoal Grill West",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Concession and Rest Rooms",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Author's Kitchen and Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Riverside Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Schreiner's Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Diner Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Galvan's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mary's Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Latinos Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Meade Street Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Emmett's Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Camelot Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Holidays Pub & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cinder’s Charcoal Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The History Museum at the Castle",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.myhistorymuseum.org/",
+   "phone": "",
+   "latitude": 44.2621633,
+   "longitude": -88.4014081
+  },
+  {
+   "name": "Hearthstone Historic House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.hearthstonemuseum.org/home",
+   "phone": "",
+   "latitude": 44.2543225,
+   "longitude": -88.414996
+  },
+  {
+   "name": "M4A3 Sherman Tank",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2622473,
+   "longitude": -88.454961
+  },
+  {
+   "name": "M60A3 Patton Tank",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2622573,
+   "longitude": -88.454492
+  },
+  {
+   "name": "Atlas Science Center",
+   "kind": "museum",
+   "address": "425 West Water Street, 54911, Appleton",
+   "website": "https://www.atlassciencecenter.org/",
+   "phone": "+1 920 380 7491",
+   "latitude": 44.2549786,
+   "longitude": -88.4112984
+  },
+  {
+   "name": "Bergstrom-Mahler Museum of Glass",
+   "kind": "museum",
+   "address": "",
+   "website": "https://bmmglass.com/",
+   "phone": "",
+   "latitude": 44.1819457,
+   "longitude": -88.4455515
+  },
+  {
+   "name": "Building for Kids",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://buildingforkids.org/",
+   "phone": "",
+   "latitude": 44.2619896,
+   "longitude": -88.4070944
+  },
+  {
+   "name": "Urban Air",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2601691,
+   "longitude": -88.4782527
+  },
+  {
+   "name": "The Hang Up Gallery of Fine Art",
+   "kind": "gallery",
+   "address": "204 West Wisconsin Avenue, 54956, Neenah",
+   "website": "",
+   "phone": "+1-920-722-0481",
+   "latitude": 44.1872799,
+   "longitude": -88.4637085
+  },
+  {
+   "name": "Appleton History Museum & Research Center",
+   "kind": "museum",
+   "address": "128 North Durkee Street, Appleton",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2628073,
+   "longitude": -88.4024952
+  },
+  {
+   "name": "Burial Chamber Haunted House",
+   "kind": "attraction",
+   "address": "311 North Lake Street, Neenah",
+   "website": "",
+   "phone": "",
+   "latitude": 44.1985211,
+   "longitude": -88.4776789
+  },
+  {
+   "name": "F-86 Sabre",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2622876,
+   "longitude": -88.4547841
+  },
+  {
+   "name": "Doty Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.1875317,
+   "longitude": -88.4482489
+  },
+  {
+   "name": "Wisconsin Central Caboose 41",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.1969476,
+   "longitude": -88.4400457
+  },
+  {
+   "name": "Number 736",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2624682,
+   "longitude": -88.3792488
+  },
+  {
+   "name": "Plamann Park Children's Farm",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.3237961,
+   "longitude": -88.3902523
+  },
+  {
+   "name": "CN Appleton Swing Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2554377,
+   "longitude": -88.3938498
+  },
+  {
+   "name": "Harry Houdini Childhood Home",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2613153,
+   "longitude": -88.4071116
+  },
+  {
+   "name": "Little Chute Windmill",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2802343,
+   "longitude": -88.3167198
+  },
+  {
+   "name": "Trout Museum of Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2615888,
+   "longitude": -88.4013074
+  },
+  {
+   "name": "Aylward Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2311695,
+   "longitude": -88.4165474
+  },
+  {
+   "name": "Rock Island 17177 Caboose",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2576534,
+   "longitude": -88.4360791
+  },
+  {
+   "name": "Capital Credit Union Slide",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2841419,
+   "longitude": -88.4690874
+  },
+  {
+   "name": "Appleton History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2638108,
+   "longitude": -88.4084833
+  },
+  {
+   "name": "Bridge Tower Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.1985066,
+   "longitude": -88.4530586
+  },
+  {
+   "name": "Old Style Trees",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.3148517,
+   "longitude": -88.4836612
+  },
+  {
+   "name": "Kimberly Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.1857532,
+   "longitude": -88.4419502
+  },
+  {
+   "name": "Giant Chairs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2830028,
+   "longitude": -88.4678711
+  },
+  {
+   "name": "Lawrence University Arch",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.2615817,
+   "longitude": -88.4006904
+  }
+ ]
+}

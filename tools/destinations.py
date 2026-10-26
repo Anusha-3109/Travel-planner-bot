@@ -1,4 +1,4 @@
-"""Semantic place search over the TravelPlanner data (the RAG entry point for the agent)."""
+"""Semantic place search over the snapshot places (the RAG entry point for the agent)."""
 
 from langchain_core.tools import tool
 

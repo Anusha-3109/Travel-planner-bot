@@ -1,0 +1,105 @@
+{
+ "city": "Devils Lake",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 48.1163,
+ "longitude": -98.8589,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "875 Highway 2 East, 58301, Devils Lake",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/devils-lake/dvlnd/hoteldetail"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1001 Highway 2 East, 58301-4029, Devils Lake",
+   "url": "https://www.wyndhamhotels.com/super-8/devils-lake-north-dakota/super-8-devils-lake/overview"
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1413 Highway 2, Devil's Lake",
+   "url": "https://www.choicehotels.com/north-dakota/devils-lake/sleep-inn-hotels"
+  },
+  {
+   "name": "Cobblestone Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "624 College Drive South, 58301, Devils Lake",
+   "website": "https://www.pizzaranch.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/nd/devils-lake/509-hwy-2-east-77046"
+  },
+  {
+   "name": "Buffet House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "320 4th Street Northeast, 58301",
+   "website": "https://buffethouse2003.com/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Sheriff's House Museum",
+   "kind": "museum",
+   "address": "416 6th Street Northeast, 58301, Devils Lake",
+   "website": "",
+   "phone": "",
+   "latitude": 48.1135646,
+   "longitude": -98.859433
+  },
+  {
+   "name": "Lake Region Heritage Center",
+   "kind": "museum",
+   "address": "502 4th Street Northeast, 58301, Devils Lake",
+   "website": "",
+   "phone": "",
+   "latitude": 48.1115098,
+   "longitude": -98.8585525
+  }
+ ]
+}

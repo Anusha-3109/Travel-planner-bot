@@ -18,8 +18,8 @@ def example_questions(today: date | None = None) -> list[str]:
         f"Find an Airbnb in Paris from {soon:%d %B} to {soon + timedelta(days=3):%d %B %Y} for 2 people.",
         "Sushi restaurants in Tokyo rated 4.5 or more.",
         "How do I get from Fiumicino Airport to the Colosseum?",
-        "Plan a 3-day trip from Washington to Myrtle Beach, 13-15 March 2022, for 1 person with a $1,400 budget "
-        "(snapshot data).",
+        f"Plan a 3-day trip from Washington to Myrtle Beach starting {later:%d %B %Y} for 1 person with a $1,400 "
+        "budget.",
     ]
 
 
@@ -31,7 +31,8 @@ def trip_question(origin: str, destination: str, start: date, nights: int, peopl
     question = (
         f"Plan a {nights}-night trip from {origin} to {destination}, {start:%Y-%m-%d} to {end:%Y-%m-%d}, "
         f"for {people} {'person' if people == 1 else 'people'} with a budget of {currency} {budget:,.0f}. "
-        f"Include flights both ways, {'an Airbnb' if stay_type == 'Airbnb' else 'a hotel'}, restaurants for each "
+        f"Include {'transport other than flights' if transportation == 'no flight' else 'flights'} both ways, "
+        f"{'an Airbnb' if stay_type == 'Airbnb' else 'a hotel'}, restaurants for each "
         f"day and how to get from the airport to the stay."
     )
     rules = []

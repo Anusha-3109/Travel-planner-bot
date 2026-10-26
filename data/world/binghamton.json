@@ -1,0 +1,796 @@
+{
+ "city": "Binghamton",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.0997,
+ "longitude": -75.9079,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 Water Street, 13901, Binghamton",
+   "url": "https://www.hilton.com/en/hotels/bgmwsdt-doubletree-binghamton/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4610 Vestal Parkway East, 13850, Vestal",
+   "url": "https://www.marriott.com/bgmny"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "690 Old Front Street, 13905, Binghamton",
+   "url": "https://www.choicehotels.com/new-york/vestal/comfort-suites-hotels"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "581 Harry L Drive, 13790, Johnson City",
+   "url": "https://www.wyndhamhotels.com/laquinta/johnson-city-new-york/la-quinta-inn-binghamton-johnson-city/overview"
+  },
+  {
+   "name": "Hampton Inn Binghamton/Johnson City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "630 Field Street, 13790, Johnson City",
+   "url": "https://www.hilton.com/en/hotels/bgmnyhx-hampton-binghamton-johnson-city/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Upper Front Street, 13905, Binghamton",
+   "url": "https://www.choicehotels.com/new-york/vestal/comfort-suites-hotels"
+  },
+  {
+   "name": "Hampton Inn & Suites Binghamton/Vestal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3708 Vestal Parkway East, 13850, Vestal",
+   "url": "https://www.hilton.com/en/hotels/bgmhshx-hampton-suites-binghamton-vestal/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3801 Vestal Parkway East, 13850, Vestal",
+   "url": "https://www.marriott.com/bgmvs"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "569 Harry L Drive, 13790, Johnson City",
+   "url": "https://www.choicehotels.com/new-york/vestal/comfort-suites-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3615 Vestal Parkway East, 13850, Vestal",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/vestal/bgmny/hoteldetail"
+  },
+  {
+   "name": "Fairfield Inn Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "864 Upper Front Street, 13905, Binghamton",
+   "url": "https://www.marriott.com/bgmfi"
+  },
+  {
+   "name": "Tru by Hilton Vestal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3512 Vestal Parkway East, 13850, Vestal",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Binghamton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Prospect Street, 13905, Binghamton",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3603 Vestal Parkway East, 13850, Vestal",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Binghamton Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 Hawley Street, 13901, Binghamton",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "590 Fairview Street, 13790, Johnson City",
+   "url": ""
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3401 Vestal Parkway East, 13850, Vestal",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3605 Vestal Parkway East, 13850, Vestal",
+   "url": ""
+  },
+  {
+   "name": "Endwell Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3207 East Main Street, 13760, Endicott",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Binghamton North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 Old Front Street, 13905, Binghamton",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1012 Upper Front Street",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Traditions Hotel & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Del Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Grand Royale Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "842 Upper Front Street, 13905, Binghamton",
+   "website": "https://restaurants.applebees.com/en-us/ny/binghamton/842-upper-front-street-99009"
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "81 State Street, 13901, Binghamton",
+   "website": "https://www.dpdough.com/"
+  },
+  {
+   "name": "Manni's Donuts And Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1185 Vestal Avenue, 13903, Binghamton",
+   "website": "http://mannisdonutsanddiner.com"
+  },
+  {
+   "name": "Tully's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4700 Vestal Parkway East, 13850, Vestal",
+   "website": "https://www.tullysgoodtimes.com/"
+  },
+  {
+   "name": "The Upper Crust",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "15 Hawley Street, 13901, Binghamton",
+   "website": "https://www.theuppercrustbing.com/"
+  },
+  {
+   "name": "Turkish Grill Doner Kebap House",
+   "cuisines": [
+    "Kebab",
+    "Turkish"
+   ],
+   "address": "187 Main Street, 13905, Binghamton",
+   "website": "https://turkishgrillbing.com/"
+  },
+  {
+   "name": "Park Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "119 Conklin Avenue, 13903, Binghamton",
+   "website": "http://www.theparkdinerandrestaurant.com/home.php"
+  },
+  {
+   "name": "Moghul",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "4700 Vestal Parkway East, 13850, Vestal",
+   "website": "moghulfineindian.com"
+  },
+  {
+   "name": "CopperTop",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4700 Vestal Parkway East, 13850, Vestal",
+   "website": "https://www.coppertoptavern.com/"
+  },
+  {
+   "name": "BIG ZUES Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "213 Chenango Street, 13901, Binghamton",
+   "website": "https://bigzuesbarbecue.com/"
+  },
+  {
+   "name": "Michelangelo's Pizzeria & Ristorante",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "465 Court Street, 13904, Binghamton",
+   "website": "https://michelangelosristorante.com/"
+  },
+  {
+   "name": "New York Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Pasta"
+   ],
+   "address": "71 Robinson Street, 13901, Binghamton",
+   "website": "https://www.binghamtonpizzeria.com/"
+  },
+  {
+   "name": "Pudgie's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Subs",
+    "Calzone",
+    "Stromboli"
+   ],
+   "address": "224 Robinson Street, 13904, Binghamton",
+   "website": "https://order.pudgiespizza.com/#/locations"
+  },
+  {
+   "name": "New Panda",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "199 Robinson Street, 13904, Binghamton",
+   "website": "https://www.newpandachineserestaurant.com/menu/4944961"
+  },
+  {
+   "name": "Rossi's Pizza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "143 Harry L Drive, 13790, Johnson City",
+   "website": "https://rossispizza607.com/"
+  },
+  {
+   "name": "Long Feng",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "10 Glenwood Avenue, 13905, Binghamton",
+   "website": "http://www.longfeng607.com/index.php/LongFeng/Menu"
+  },
+  {
+   "name": "Courtside Bar and Grill",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "56 Court Street, 13901, Binghamton",
+   "website": "https://www.courtsidebing.com/"
+  },
+  {
+   "name": "Dragon Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "160 Robinson Street, 13904, Binghamton",
+   "website": "https://www.bringmethat.com/t/ny/binghamton/13904/china-wok?logo=http%3A%2F%2Fassets.singleapi.com%2Fpub394.png&ref=sp-d81fa86454564fe25e5ef60b2ad47054&refurl=http%3A%2F%2Fplaces.singleplatform.com%2F"
+  },
+  {
+   "name": "Iron Agave",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "60 Court Street, 13901, Binghamton",
+   "website": "https://iron-agave.com/"
+  },
+  {
+   "name": "Red Chili",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.redchilibinghamton.com/"
+  },
+  {
+   "name": "Number 5",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "33 South Washington Street, 13903, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "Chris' Dinet",
+   "cuisines": [
+    "American",
+    "Greek",
+    "Brunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phuong Nam Vietnamese Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "29 Willow Street, 13790, Johnson City",
+   "website": ""
+  },
+  {
+   "name": "Piccolo's Cafe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "161 Main Street, 13905, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "Craft Bar + Kitchen",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "135 Washington Street, 13901, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "The Village Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "255 Floral Avenue, 13790, Johnson City",
+   "website": ""
+  },
+  {
+   "name": "Currys of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "45 Court Street, 13901, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "Downtown by Chef Jay Pisculli",
+   "cuisines": [
+    "American"
+   ],
+   "address": "20 Hawley Street, 13901",
+   "website": ""
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amici",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "Henry St., 13901",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Venice Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Beef",
+   "cuisines": [
+    "Beef"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Century",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Foliage",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "CoreLife Eatery",
+   "cuisines": [],
+   "address": "4700 Vestal Parkway East, 13850, Vestal",
+   "website": "https://www.corelifeeatery.com/"
+  },
+  {
+   "name": "Binghamton Hots",
+   "cuisines": [],
+   "address": "128 Washington Street, 13901, Binghamton",
+   "website": "https://binghamtonhots.com/"
+  },
+  {
+   "name": "Old Union Hotel",
+   "cuisines": [],
+   "address": "246 Clinton Street, 13905, Binghamton",
+   "website": "https://oldunionhotel.com/"
+  },
+  {
+   "name": "Nirchi's Pizza",
+   "cuisines": [],
+   "address": "166 Water Street, 13901, Binghamton",
+   "website": "https://www.nirchis.com/binghamton-water-street.html"
+  },
+  {
+   "name": "Paul & Sons Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": "https://paulandsonspizza.com"
+  },
+  {
+   "name": "Dillinger's Celtic Pub & Eatery",
+   "cuisines": [],
+   "address": "77 W State Street, 13901, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "My Thai Restaurant",
+   "cuisines": [],
+   "address": "207 Grand Avenue, 13790, Johnson City",
+   "website": ""
+  },
+  {
+   "name": "Jc Bar and Grill",
+   "cuisines": [],
+   "address": "320 Grand Avenue, 13790, Johnson City",
+   "website": ""
+  },
+  {
+   "name": "Adriano's Pizza",
+   "cuisines": [],
+   "address": "263 Floral Avenue, 13790, Johnson City",
+   "website": ""
+  },
+  {
+   "name": "Whole in the Wall",
+   "cuisines": [],
+   "address": "43 South Washington Street, 13903, Binghamton",
+   "website": ""
+  },
+  {
+   "name": "Burger Mondays",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "River Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Common Soil Juicery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lost Dog Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Citrea",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Remlik's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tranquil Bar & Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chris' Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kababish Halal Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Phelps Mansion",
+   "kind": "museum",
+   "address": "191 Court Street, 13901, Binghamton",
+   "website": "https://phelpsmansion.org/",
+   "phone": "",
+   "latitude": 42.100727,
+   "longitude": -75.905613
+  },
+  {
+   "name": "The Bundy Museum of History and Art",
+   "kind": "museum",
+   "address": "127-129 Main Street, Binghamton",
+   "website": "https://www.bundymuseum.org/",
+   "phone": "+1 607 772-9179",
+   "latitude": 42.1016775,
+   "longitude": -75.9278829
+  },
+  {
+   "name": "Roberson Museum & Science Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://roberson.org/",
+   "phone": "",
+   "latitude": 42.0937371,
+   "longitude": -75.9186519
+  },
+  {
+   "name": "Ross Park Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0754781,
+   "longitude": -75.9078566
+  },
+  {
+   "name": "C. Fred Johnson Park Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1175097,
+   "longitude": -75.9500521
+  },
+  {
+   "name": "Recreation Park Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0992759,
+   "longitude": -75.9337108
+  },
+  {
+   "name": "Ross Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0749274,
+   "longitude": -75.9075413
+  },
+  {
+   "name": "Dragon Master Games",
+   "kind": "attraction",
+   "address": "1235 Upper Front Street, 13905",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1551136,
+   "longitude": -75.89736
+  },
+  {
+   "name": "Cutler Botanic Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1281776,
+   "longitude": -75.9056678
+  },
+  {
+   "name": "The Top",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0258648,
+   "longitude": -75.9369655
+  },
+  {
+   "name": "\"Home of the Square Deal\" Arch",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1113741,
+   "longitude": -75.9454366
+  }
+ ]
+}

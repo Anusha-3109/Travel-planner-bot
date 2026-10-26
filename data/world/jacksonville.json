@@ -1,0 +1,1274 @@
+{
+ "city": "Jacksonville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 30.3291,
+ "longitude": -81.5851,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hyatt Place Jacksonville / Saint Johns Town Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4742 Town Center Parkway, 32246, Jacksonville",
+   "url": "https://www.hyatt.com/en-US/hotel/florida/hyatt-place-jacksonville-st-johns-town-center/jaxzs?src=vanity_hyattplacejacksonvillestjohnstowncenter.com"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Jacksonville Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201 Riverplace Boulevard, 32207, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxjrdt-doubletree-jacksonville-riverfront/"
+  },
+  {
+   "name": "Tru By Hilton Jacksonville Saint Johns Town Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4640 Tropea Way, 32246, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxsjru-tru-jacksonville-st-johns-town-center/"
+  },
+  {
+   "name": "Delta Hotels by Marriott Jacksonville Deerwood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4700 Salisbury Road, 32256, Jacksonville",
+   "url": "https://www.marriott.com/en-us/hotels/jaxde-delta-hotels-jacksonville-deerwood"
+  },
+  {
+   "name": "Hampton Inn Jacksonville South/I-95 at JTB",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4681 South Lenoir Avenue, 32216, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxjshx-hampton-jacksonville-south-i-95-at-jtb/"
+  },
+  {
+   "name": "Hampton Inn Jacksonville Downtown I-95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1331 Prudential Drive, 32207, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxdthx-hampton-jacksonville-downtown-i-95/"
+  },
+  {
+   "name": "Hampton Inn & Suites Jacksonville Deerwood Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4415 Southside Boulevard, 32216, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxdwhx-hampton-suites-jacksonville-deerwood-park/"
+  },
+  {
+   "name": "Hampton Inn Jacksonville East Regency Square",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1021 Hospitality Lane, 32225, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxrshx-hampton-jacksonville-east-regency-square/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Jacksonville Butler Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4686 South Lenoir Avenue, 32216, Jacksonville",
+   "url": "https://www.wyndhamhotels.com/laquinta/jacksonville-florida/la-quinta-jacksonville-butler-blvd/overview"
+  },
+  {
+   "name": "TownePlace Suites Jacksonville Butler Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4801 Lenoir Avenue East, 32216, Jacksonville",
+   "url": "https://www.marriott.com/jaxts"
+  },
+  {
+   "name": "Marriott Jacksonville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "245 Water Street, 32202, Jacksonville",
+   "url": "https://www.marriott.com/hotels/travel/jaxmd-marriott-jacksonville-downtown/"
+  },
+  {
+   "name": "SpringHill Suites Jacksonville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4385 Southside Boulevard, 32216, Jacksonville",
+   "url": "https://www.marriott.com/hotels/travel/jaxsh-springhill-suites-jacksonville/"
+  },
+  {
+   "name": "Courtyard Jacksonville I-295/East Beltway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9815 Lantern Street, 32225, Jacksonville",
+   "url": "https://www.marriott.com/jaxne"
+  },
+  {
+   "name": "Baymont Jacksonville/Butler Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7030 Bonneval Road, 32216, Jacksonville",
+   "url": "https://www.wyndhamhotels.com/baymont/jacksonville-florida/baymont-inn-jacksonville-butler-blvd/overview"
+  },
+  {
+   "name": "Hilton Garden Inn Jacksonville JTB / Deerwood Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9745 Gate Parkway North, 32246, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxdpgi-hilton-garden-inn-jacksonville-jtb-deerwood-park/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Jacksonville Butler Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4888 Lenoir Avenue East, 32216, Jacksonville",
+   "url": "https://www.marriott.com/jaxbb"
+  },
+  {
+   "name": "Courtyard Jacksonville Butler Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4670 South Lenoir Avenue, 32216, Jacksonville",
+   "url": "https://www.marriott.com/jaxch"
+  },
+  {
+   "name": "Residence Inn Jacksonville Butler Boulevard 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10551 Deerwood Park Boulevard, 32256, Jacksonville",
+   "url": "https://www.marriott.com/jaxri"
+  },
+  {
+   "name": "Residence Inn Jacksonville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "357 Oak Street, 32204, Jacksonville",
+   "url": "https://www.marriott.com/jaxrd"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5624 Cagle Road, 32216, Jacksonville",
+   "url": "https://www.choicehotels.com/florida/jacksonville/sleep-inn-hotels"
+  },
+  {
+   "name": "Hyatt Regency Jacksonville Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 East Coastline Drive, 32202, Jacksonville",
+   "url": "https://www.hyatt.com/hyatt-regency/en-us/jaxrj-hyatt-regency-jacksonville-riverfront"
+  },
+  {
+   "name": "Hilton Garden Inn Jacksonville Downtown Southbank",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201 Kings Avenue, 32207, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxsbgi-hilton-garden-inn-jacksonville-downtown-southbank/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Jacksonville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 Park Street, 32204, Jacksonville",
+   "url": "https://www.hilton.com/en/hotels/jaxdfht-home2-suites-jacksonville-downtown/"
+  },
+  {
+   "name": "Riverdale Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1521 Riverside Avenue, 32204",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5018 University Boulevard West, 32216-5938, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Jacksonville - Lenoir Avenue East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6961 Lenoir Avenue East, 32216, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Jacksonville - Deerwood Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8801 Perimeter Park Boulevard, 32216, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Chelsea-Riverside Condo",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2064 Herschel Street, 32204, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "The Dickert House Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1724 Copeland Street, 32204, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Red Roof PLUS+ Jacksonville - Southpoint",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6969 Lenoir Avenue East, 32216, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3150 Philips Highway, 32207, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Aloft Jacksonville Tapestry Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4812 West Deer Lake Drive, 32246, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Jacksonville Deerwood Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Midtown Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4141 Philips Highway, 32207, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Emerson Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3558 Philips Highway, 32207, Jacksonville",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites, Jacksonville I-95 South, FL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Marriott Jacksonville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Jacksonville South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Jacksonville - Southside - Saint Johns Towne Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Jacksonville Butler Boulevard 1",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Jacksonville Butler Boulevard 3",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Jacksonville - Riverwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Jacksonville East Merril Road",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Jacksonville Beach Blvd.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Indigo Jacksonville Deerwood Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Jacksonville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Jacksonville I-295 East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites, Jacksonville Town Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Jacksonville - Blount Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Jacksonville - Salisbury Rd. - Southpoint",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Jacksonville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Lane Condo",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites Jacksonville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Tricove Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homewood Sweets by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Southbank Hotel Jacksonville Riverwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites Extended Stay Jacksonville FL - Saint Johns",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Marble Waters Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites Jacksonville Atlantic",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Palms View Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Max's Restaurant Jacksonville",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "907 University Boulevard North",
+   "website": "http://www.maxsrestaurantNA.com/jacksonville"
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "438 Commerce Center Drive, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "9010 Atlantic Boulevard, 32211, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Piccadilly Cafeteria",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3216 University Boulevard South, 32216, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Grand Asian",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "6061 Merrill Road, 32277, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sandwich House",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gangnam Korean",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi & Sub",
+   "cuisines": [
+    "Sushi",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hunan Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Sakura",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hot Plates Express",
+   "cuisines": [],
+   "address": "5601 Beach Boulevard, 32207-5170, Jacksonville",
+   "website": "https://www.hotplatesexpress.com/"
+  },
+  {
+   "name": "University Diner",
+   "cuisines": [],
+   "address": "5959 Merrill Road, 32277, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Tailgate Bar & Grill",
+   "cuisines": [],
+   "address": "441 Haines Street, 32202, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Lousiana Fish & Chicken",
+   "cuisines": [],
+   "address": "6145 Merrill Road, 32277, Jacksonville",
+   "website": ""
+  },
+  {
+   "name": "Beach Road Fish House & Chicken Dinners",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bono's Pit BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Jacksonville Zoo and Gardens",
+   "kind": "zoo",
+   "address": "370 Zoo Parkway, 32218, Jacksonville",
+   "website": "https://www.jacksonvillezoo.org/",
+   "phone": "",
+   "latitude": 30.4023953,
+   "longitude": -81.6432415
+  },
+  {
+   "name": "Museum of Contemporary Art Jacksonville",
+   "kind": "museum",
+   "address": "333 Laura Street North, 32202, Jacksonville",
+   "website": "https://mocajacksonville.unf.edu/",
+   "phone": "+1-904-366-6911",
+   "latitude": 30.3292797,
+   "longitude": -81.6583909
+  },
+  {
+   "name": "Karpeles Manuscript Library",
+   "kind": "museum",
+   "address": "West 1st Street, 32206, Jacksonville",
+   "website": "https://karpeles.com/museums/jax.php",
+   "phone": "",
+   "latitude": 30.3370464,
+   "longitude": -81.6568069
+  },
+  {
+   "name": "Museum of Science & History",
+   "kind": "museum",
+   "address": "",
+   "website": "https://themosh.org/",
+   "phone": "",
+   "latitude": 30.318884,
+   "longitude": -81.6598078
+  },
+  {
+   "name": "Cummer Museum of Art",
+   "kind": "museum",
+   "address": "829 Riverside Avenue, 32204, Jacksoville",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3151139,
+   "longitude": -81.6766318
+  },
+  {
+   "name": "Ritz Theatre and Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3349409,
+   "longitude": -81.6668918
+  },
+  {
+   "name": "Old Saint Andrew's Church",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3257278,
+   "longitude": -81.6433844
+  },
+  {
+   "name": "Hands on Childrens Museum",
+   "kind": "museum",
+   "address": "8580 Beach Boulevard, 32216, Jacksonville",
+   "website": "https://handsonchildrensmuseum.org/index.html",
+   "phone": "",
+   "latitude": 30.2868386,
+   "longitude": -81.5679641
+  },
+  {
+   "name": "Brown Museum of Art",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3464247,
+   "longitude": -81.6595276
+  },
+  {
+   "name": "Great Apes",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4020424,
+   "longitude": -81.6440176
+  },
+  {
+   "name": "Tuxedo Coast Penguin Exhibit",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4010226,
+   "longitude": -81.6437745
+  },
+  {
+   "name": "Lorikeet Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4003411,
+   "longitude": -81.6454789
+  },
+  {
+   "name": "Save the Frogs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.400023,
+   "longitude": -81.6452181
+  },
+  {
+   "name": "Hornbill Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3993567,
+   "longitude": -81.6428035
+  },
+  {
+   "name": "Asian Small Clawed Otter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.399647,
+   "longitude": -81.6427628
+  },
+  {
+   "name": "Bonobo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4018373,
+   "longitude": -81.6444018
+  },
+  {
+   "name": "Sulawesi Babirusa",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3996358,
+   "longitude": -81.6428503
+  },
+  {
+   "name": "Emu",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4002802,
+   "longitude": -81.6457386
+  },
+  {
+   "name": "Caribbean Flamingo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4008965,
+   "longitude": -81.6448144
+  },
+  {
+   "name": "Bald Eagle",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4027725,
+   "longitude": -81.6444535
+  },
+  {
+   "name": "Florida Box Turtle",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4029051,
+   "longitude": -81.6442779
+  },
+  {
+   "name": "American Black Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4025381,
+   "longitude": -81.6441156
+  },
+  {
+   "name": "Goat Petting Zoo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4007366,
+   "longitude": -81.643788
+  },
+  {
+   "name": "Western Lowland Gorilla",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4014627,
+   "longitude": -81.6439278
+  },
+  {
+   "name": "Jaguar",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4014351,
+   "longitude": -81.6454543
+  },
+  {
+   "name": "USS Orleck",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3229265,
+   "longitude": -81.6506646
+  },
+  {
+   "name": "Riverview Gardens",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3991645,
+   "longitude": -81.6437878
+  },
+  {
+   "name": "Komodo Dragons",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3996014,
+   "longitude": -81.6431184
+  },
+  {
+   "name": "Visayan Warty Hog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3995084,
+   "longitude": -81.6425073
+  },
+  {
+   "name": "Colobus Monkey",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4020133,
+   "longitude": -81.6443697
+  },
+  {
+   "name": "Lemur",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4022805,
+   "longitude": -81.6443986
+  },
+  {
+   "name": "Wildlife Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4008595,
+   "longitude": -81.6445197
+  },
+  {
+   "name": "Emerald Forest Aviary",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4010017,
+   "longitude": -81.6453031
+  },
+  {
+   "name": "Land of the Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4000014,
+   "longitude": -81.6426565
+  },
+  {
+   "name": "Reptile and Amphibians of Florida",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4028925,
+   "longitude": -81.6443587
+  },
+  {
+   "name": "Sloths",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4011721,
+   "longitude": -81.6445213
+  },
+  {
+   "name": "The Corner Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3273753,
+   "longitude": -81.6565369
+  },
+  {
+   "name": "Giant River Otters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4008814,
+   "longitude": -81.645432
+  },
+  {
+   "name": "Capybara",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4011736,
+   "longitude": -81.645858
+  },
+  {
+   "name": "Giant Anteater",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4012732,
+   "longitude": -81.645872
+  },
+  {
+   "name": "Black Howler Monkey",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4012928,
+   "longitude": -81.6458675
+  },
+  {
+   "name": "Daryl J Bunn Studios",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.320892,
+   "longitude": -81.6755266
+  },
+  {
+   "name": "Range of the Jaguar",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.401317,
+   "longitude": -81.6454973
+  },
+  {
+   "name": "Jacksonville Fire Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.324267,
+   "longitude": -81.6503473
+  },
+  {
+   "name": "Wild Florida",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4029619,
+   "longitude": -81.6440128
+  },
+  {
+   "name": "Giraffe Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4025698,
+   "longitude": -81.64518
+  },
+  {
+   "name": "Discovery Building",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4005199,
+   "longitude": -81.6438457
+  },
+  {
+   "name": "Cascade Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3436711,
+   "longitude": -81.5386081
+  },
+  {
+   "name": "Creek Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3464214,
+   "longitude": -81.5368496
+  },
+  {
+   "name": "Lake Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.346722,
+   "longitude": -81.5375729
+  },
+  {
+   "name": "Southlight Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.3269095,
+   "longitude": -81.66002
+  },
+  {
+   "name": "Flamingo Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4010698,
+   "longitude": -81.6447217
+  }
+ ]
+}

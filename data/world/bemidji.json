@@ -1,0 +1,378 @@
+{
+ "city": "Bemidji",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.472,
+ "longitude": -94.8789,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "927 Lake Shore Drive Northeast, 56601, Bemidji",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-bemidji-mn"
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "url": "https://www.wyndhamhotels.com/americinn/bemidji-minnesota/americinn-lodge-and-suites-bemidji/overview"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "115 Lakeshore Drive, 56601, Bemidji",
+   "url": "https://www.hilton.com/en/hotels/bjilsdt-doubletree-bemidji/"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2420 Paul Bunyan Drive Northwest, 56601-8790, Bemidji",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-bemidji/best-western-bemidji/propertyCode.24115.html"
+  },
+  {
+   "name": "SouthShore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1019 Paul Bunyan Drive South, 56601, Bemidji",
+   "url": "https://southshore-hotel.com"
+  },
+  {
+   "name": "The Hotel Bemidji",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2422 Ridgeway Avenue Northwest, 56601, Bemidji",
+   "url": "https://www.hotelbemidji.com/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1815 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 Paul Bunyan Drive Southeast, 56601, Bemidji",
+   "url": ""
+  },
+  {
+   "name": "Lake Bemidji Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "915 Lake Boulevard Northeast, 56601, Bemidji",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1909 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "website": "https://restaurants.applebees.com/en-us/mn/bemidji/1909-paul-bunyan-dr-nw-80093"
+  },
+  {
+   "name": "Tutto Bene",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "300 Beltrami Avenue Northwest, 56601, Bemidji",
+   "website": "https:///tuttobene.us"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "509 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "website": "https://locations.pizzahut.com/mn/bemidji/509-paul-bunyan-dr-nw"
+  },
+  {
+   "name": "Country Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "728 Paul Bunyan Dr NW, 56601, Bemidji",
+   "website": "https://www.countrykitchenrestaurant.net/"
+  },
+  {
+   "name": "Dave's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "422 15th St NW, 56601, Bemidji",
+   "website": "https://www.davespizza.biz/"
+  },
+  {
+   "name": "Sparkling Waters",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "824 Paul Bunyan Drive South, 56601, Bemidji",
+   "website": "https://sparklingwatersbemidji.com/"
+  },
+  {
+   "name": "Tara of Bemidji",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "401 Beltrami Avenue Northwest, 56601, Bemidji",
+   "website": "https://www.tarabemidji.com/"
+  },
+  {
+   "name": "Mi Rancho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "677 Anne Street Northwest, 56601, Bemidji",
+   "website": "https://miranchobemidji.co"
+  },
+  {
+   "name": "Wasabi",
+   "cuisines": [
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "419 Beltrami Avenue Northwest, 56601, Bemidji",
+   "website": "https://www.wasabiofbemidji.com/"
+  },
+  {
+   "name": "Minnesota Nice Cafe",
+   "cuisines": [
+    "Pancake",
+    "Breakfast",
+    "Lunch",
+    "Bakery"
+   ],
+   "address": "315 Irvine Avenue Northwest, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1120 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "225 State Highway 197, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Kin Poke",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "1426 Bemidji Avenue North, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Blue Oyster",
+   "cuisines": [
+    "Thai",
+    "American"
+   ],
+   "address": "116 4th Street Northwest, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Keith's Pizza North",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1425 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Giovanni's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "104 1st Street West, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "Super Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2450 Paul Bunyan Drive Northwest, 56601, Bemidji",
+   "website": ""
+  },
+  {
+   "name": "The Tavern on South Shore",
+   "cuisines": [
+    "Burger",
+    "Pizza",
+    "Sandwich",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Keith's Pizza South",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fozzie's Smokin Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "114",
+   "website": ""
+  },
+  {
+   "name": "Green Mill",
+   "cuisines": [
+    "Pizza",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Stu Breakfast Bar",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Lodge Pub & Eatery",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Bemidji",
+   "cuisines": [
+    "Asian",
+    "Vietnamese",
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Slim's Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Garden Grill & Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Headwaters Science Center",
+   "kind": "museum",
+   "address": "413 Beltrami Avenue Northwest, 56601, Bemidji",
+   "website": "https://www.hscbemidji.org/",
+   "phone": "",
+   "latitude": 47.4722055,
+   "longitude": -94.8814809
+  },
+  {
+   "name": "Watermark Art Center",
+   "kind": "gallery",
+   "address": "505 Bemidji Avenue North, 56601, Bemidji",
+   "website": "https://watermarkartcenter.org",
+   "phone": "",
+   "latitude": 47.4730548,
+   "longitude": -94.8801294
+  }
+ ]
+}

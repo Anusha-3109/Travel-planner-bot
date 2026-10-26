@@ -1,0 +1,582 @@
+{
+ "city": "Grand Island",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.9137,
+ "longitude": -98.3572,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Days Inn by Wyndham Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2620 North Diers Avenue, 68803, Grand Island",
+   "url": "https://www.wyndhamhotels.com/days-inn/grand-island-nebraska/days-inn-grand-island/overview"
+  },
+  {
+   "name": "Hampton Inn Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "504 Diers Avenue, 68803, Grand Island",
+   "url": "https://www.hilton.com/en/hotels/grinehx-hampton-grand-island/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3535 West State Street, 68803, Grand Island",
+   "url": "https://www.choicehotels.com/nebraska/hastings/comfort-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "805 Allen Drive, 68803, Grand Island",
+   "url": "https://www.marriott.com/grigi"
+  },
+  {
+   "name": "Hampton Inn by Hilton Grand Island Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3441 Innate Lane, 68803, Grand Island",
+   "url": "https://www.hilton.com/en/hotels/grimchx-hampton-grand-island/"
+  },
+  {
+   "name": "Ramada Midtown Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2503 South Locust Street, 68801, Grand Island",
+   "url": "https://www.wyndhamhotels.com/ramada/grand-island-nebraska/ramada-midtown-grand-island/overview"
+  },
+  {
+   "name": "Best Western Plus Grand Island Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2707 South Locust Street, 68801, Grand Island",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-grand-island/best-western-plus-grand-island-inn-suites/propertyCode.28071.html"
+  },
+  {
+   "name": "Grand Island Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1311 South Locust, 68801, Grand Island",
+   "url": "https://www.wyndhamhotels.com/travelodge/grand-island-nebraska/grand-island-travelodge/overview"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1716 North Diers, Grand Island",
+   "url": "https://www.choicehotels.com/nebraska/hastings/comfort-inn-hotels"
+  },
+  {
+   "name": "Rodeway Inn Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3205 South Locust Street, 68801, Grand Island",
+   "url": "https://www.choicehotels.com/nebraska/grand-island/rodeway-inn-hotels/ne025?mc=llgoxxpx"
+  },
+  {
+   "name": "Boarders Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3333 Ramada Road, 68803, Grand Island",
+   "url": "https://www.staycobblestone.com/ne/grand-island/"
+  },
+  {
+   "name": "The Grand Island Extended Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3021 South Locust Street, 68801, Grand Island",
+   "url": "https://www.thegrandislandextendedstay.com/"
+  },
+  {
+   "name": "Mainstay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3051 South Locust Street, 68801, Grand Island",
+   "url": "https://www.choicehotels.com/nebraska/grand-island/mainstay-hotels/ne131?mc=llgoxxpx"
+  },
+  {
+   "name": "Super 8 Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2603 South Locust Street, 68801, Grand Island",
+   "url": ""
+  },
+  {
+   "name": "4 Plex Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1808 West 2nd Street, 68803, Grand Island",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3404 West Faidley Avenue, 68803, Grand Island",
+   "url": ""
+  },
+  {
+   "name": "Conoco Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2107 West 2nd Street, 68803, Grand Island",
+   "url": ""
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Inn by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Grand Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Resident Suites Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Island Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sticky Rice",
+   "cuisines": [
+    "Thai",
+    "Chinese",
+    "Lao"
+   ],
+   "address": "305 West Koenig Street, 68801-6036, Grand Island",
+   "website": "https://stickyricetlc.square.site"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "707 Diers Avenue, 68803, Grand Island",
+   "website": "https://locations.pizzahut.com/ne/grand-island/707-n-diers-ave"
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1016 Diers Avenue, 68803, Grand Island",
+   "website": "https://pizzaranch.com/locations/ne/grand-island/1016-n-diers-ave"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ne/grand-island/721-diers-ave.-94085"
+  },
+  {
+   "name": "Golden Gate Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2302 North Webb Road, 68803, Grand Island",
+   "website": "https://goldengategi.com"
+  },
+  {
+   "name": "Balz Sports Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://balzsportsbar.com/"
+  },
+  {
+   "name": "Finish Line",
+   "cuisines": [
+    "American"
+   ],
+   "address": "700 East Stolley Park, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "El Tucanazo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "410 4th Street East, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "El Tazumal",
+   "cuisines": [
+    "Salvadoran",
+    "Mexican"
+   ],
+   "address": "424 West 4th Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Bamboo Kitchen",
+   "cuisines": [
+    "Mexican",
+    "Chinese"
+   ],
+   "address": "523 West 4th Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Fiesta Latina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2815 South Locust Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2610 South Locust Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Resident Suites Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2114 West 2nd Street, 68803, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mongolian Grill",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amigos/King's Classic",
+   "cuisines": [
+    "American",
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Dos Hermanos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chuckwagon",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Toro Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicken Coop",
+   "cuisines": [
+    "American",
+    "Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Chocolate Bar",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wasabi",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos Las Palmas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lee's Family Restaurant",
+   "cuisines": [],
+   "address": "2920 Old Fair Road, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Mariscos Villarreal",
+   "cuisines": [],
+   "address": "811 West 2nd Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Fuji",
+   "cuisines": [],
+   "address": "1004 Diers Avenue, 68803",
+   "website": ""
+  },
+  {
+   "name": "La Gran Via",
+   "cuisines": [],
+   "address": "613 4th Street East, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "El Alfarero Restaurant",
+   "cuisines": [],
+   "address": "209 West 4th Street, 68801, Grand Island",
+   "website": ""
+  },
+  {
+   "name": "Double V Sports Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sin City",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Coney Island",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Faucet Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Valentino's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wave Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oriental Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Stuhr Museum of the Prairie Pioneer",
+   "kind": "museum",
+   "address": "3133 US-34, 68801, Grand Island",
+   "website": "https://stuhrmuseum.org/",
+   "phone": "+1 308-385-5316",
+   "latitude": 40.8816438,
+   "longitude": -98.373259
+  },
+  {
+   "name": "Studio 10",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.9258426,
+   "longitude": -98.3406882
+  }
+ ]
+}

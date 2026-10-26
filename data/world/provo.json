@@ -1,0 +1,1687 @@
+{
+ "city": "Provo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.2521,
+ "longitude": -111.6566,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express Springville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1502 North 1750 West, 84663, Springville",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/springville/slcri/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1511 South 40 East, 84606, Provo",
+   "url": "https://www.hilton.com/en/hotels/pvuhhhx-hampton-provo/"
+  },
+  {
+   "name": "Residence Inn Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "252 West 2230 North, 84604, Provo",
+   "url": "https://www.marriott.com/slcpo"
+  },
+  {
+   "name": "Best Western Plus Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 North Freedom Boulevard, 84604-2517, Provo",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-provo/best-western-plus-provo-university-inn/propertyCode.45098.html"
+  },
+  {
+   "name": "Hampton Inn and Suites Orem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "851 West 1250 South, 84058, Orem",
+   "url": "https://www.hilton.com/en/hotels/pvuorhx-hampton-suites-orem/"
+  },
+  {
+   "name": "Residence Inn Provo South University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1290 South University Avenue, 84601, Provo",
+   "url": "https://www.marriott.com/slcrp"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "750 East Park Avenue, 84097, Orem",
+   "url": "https://www.marriott.com/en-us/hotels/slcop-courtyard-orem-university-place/overview/"
+  },
+  {
+   "name": "Sleep Inn Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1505 South 40 East, Provo",
+   "url": "https://www.choicehotels.com/utah/provo/sleep-inn-hotels"
+  },
+  {
+   "name": "Ramada Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1460 South University Avenue, 84601-5916, Provo",
+   "url": "https://www.wyndhamhotels.com/ramada/provo-utah/ramada-provo/overview"
+  },
+  {
+   "name": "La Quinta Inn Orem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 W 780 North, 84057, Orem",
+   "url": "https://www.wyndhamhotels.com/laquinta/orem-utah/la-quinta-north-orem/overview"
+  },
+  {
+   "name": "SpringHill Suites Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1580 Freedom Boulevard, 84604, Provo",
+   "url": "https://www.marriott.com/slcps"
+  },
+  {
+   "name": "Days Inn - Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1675 North Freedom Boulevard, 84604, Provo",
+   "url": "https://www.wyndhamhotels.com/days-inn/provo-utah/days-inn-provo/overview"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1290 West University Parkway, 84058, Orem",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/orem/pvuor/hoteldetail"
+  },
+  {
+   "name": "Best Western Mountain View Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1455 North 1750 West, 84663, Springville",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-springville/best-western-mountain-view-inn/propertyCode.45075.html"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "427 West University Parkway, 84058, Orem",
+   "url": "https://www.choicehotels.com/utah/sandy/econo-lodge-hotels"
+  },
+  {
+   "name": "Baymont Provo River",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2230 North University Parkway, 84604, Provo",
+   "url": "https://www.wyndhamhotels.com/baymont/provo-utah/baymont-inn-and-suites-provo-river/overview"
+  },
+  {
+   "name": "Hyatt Place Provo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "180 West 100 North, 84602, Provo",
+   "url": "https://www.hyatt.com/en-us/hotel/utah/hyatt-place-provo/pvuzp"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "84057, Orem",
+   "url": "https://www.marriott.com/slcto"
+  },
+  {
+   "name": "Fairfield Inn & Suites Provo Orem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "84057, Orem",
+   "url": "https://www.marriott.com/slcyo"
+  },
+  {
+   "name": "Provo Marriott Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.marriott.com/hotels/maps/travel/slcvo-provo-marriott-hotel-and-conference-center/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/orem-utah/la-quinta-orem-university-parkway-provo/overview"
+  },
+  {
+   "name": "The Crestwood",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 North State Street, 84604",
+   "url": "https://crestwoodapts.com/"
+  },
+  {
+   "name": "Executive Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 South University Avenue, 84601, Provo",
+   "url": ""
+  },
+  {
+   "name": "Garner by IHG",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 South University Avenue, 84601, Provo",
+   "url": ""
+  },
+  {
+   "name": "Little Suites Provo Extended Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1380 South University Avenue, 84601, Provo",
+   "url": ""
+  },
+  {
+   "name": "Provo Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 West 300 South, 84601, Provo",
+   "url": ""
+  },
+  {
+   "name": "Provo Travelers Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "70 East 300 South, 84606, Provo",
+   "url": ""
+  },
+  {
+   "name": "Amenity Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "2235 North University Parkway, 84604, Provo",
+   "website": "https://firstwatch.com"
+  },
+  {
+   "name": "Via 313",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "212 East University Parkway, 84508, Orem",
+   "website": "https://locations.via313.com/locations/212-east-university-pkwy/"
+  },
+  {
+   "name": "MidiCi - Wood Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "541 East University Parkway, 84097, Orem",
+   "website": "https://mymidici.com/stores/utah/orem/orem/"
+  },
+  {
+   "name": "Motel West",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1128 S State Street, 84097-7101, Orem",
+   "website": "https://www.motelwestutah.com"
+  },
+  {
+   "name": "Cafe Rio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1122 South University Avenue, 84601, Provo",
+   "website": "https://www.caferio.com/locations/south-provo"
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "372 East University Parkway, 84058, Orem",
+   "website": "https://locations.outback.com/utah/orem/372-east-university-parkway"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "386 West University Parkway, 84058, Orem",
+   "website": "https://locations.pizzahut.com/ut/orem/386-w-university-pkwy"
+  },
+  {
+   "name": "J. Dawgs",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "858 N 700 E, 84606, Provo",
+   "website": "https://www.jdawgs.com/"
+  },
+  {
+   "name": "K's Japanese Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "322 West Center Street, 84601, Provo",
+   "website": "https://ksjapanesekitchen.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1680 Freedom Boulevard 200 W, 84601-1598, Provo",
+   "website": "https://locations.dennys.com/UT/PROVO/247482"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1265 South State Street, 84097, Orem",
+   "website": "https://www.texasroadhouse.com/locations/284-oremut"
+  },
+  {
+   "name": "Golden Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1069 South 750 East, 84097, Orem",
+   "website": "https://thegoldenthaicuisine.com/"
+  },
+  {
+   "name": "Fat Daddy's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "223 West Center Street, 84601, Provo",
+   "website": "https://fatdaddyspizzeria.com"
+  },
+  {
+   "name": "The Cheesecake Factory",
+   "cuisines": [
+    "American"
+   ],
+   "address": "575 University Parkway, 84097, Orem",
+   "website": "https://locations.thecheesecakefactory.com/ut/orem-227.html"
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1350 South State Street, 84097, Orem",
+   "website": "https://locations.blazepizza.com/us/ut/orem/blazepizza-1279"
+  },
+  {
+   "name": "Sushi Ya",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1545 South State Street, 84097, Orem",
+   "website": "https://oremsushiya.com/"
+  },
+  {
+   "name": "Waffle Love",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Waffle"
+   ],
+   "address": "1831 North State Street, 84604, Provo",
+   "website": "https://wafflelove.com/waffle-love-utah-restaurants/breakfast-in-provo"
+  },
+  {
+   "name": "Pier 8 Cajun Seafood & Bar",
+   "cuisines": [
+    "Seafood",
+    "Cajun"
+   ],
+   "address": "1240 South State Street, 84058, Orem",
+   "website": "https://pier8.com/"
+  },
+  {
+   "name": "Mo' Bettahs Hawaiian Style Food",
+   "cuisines": [
+    "Hawaiian Bbq"
+   ],
+   "address": "1385 South State Street, 84097, Orem",
+   "website": "https://locations.mobettahs.com/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Chicken",
+    "Diner"
+   ],
+   "address": "84058",
+   "website": "https://www.buffalowildwings.com/locations/us/ut/orem/575-e-university-parkway,-suite-b28/sports-bar-1722/"
+  },
+  {
+   "name": "Chubby's Cafe",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1087 South 750 East, 84097, Orem",
+   "website": "https://chubbyscafe.com/"
+  },
+  {
+   "name": "Villa del Sol",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "370 East 800 South, 84058, Orem",
+   "website": "https://villadelsolut.com/"
+  },
+  {
+   "name": "Bonchon Chicken",
+   "cuisines": [
+    "Chicken",
+    "Korean",
+    "Sushi"
+   ],
+   "address": "541 University Parkway, 84097, Orem",
+   "website": "https://www.bonchon.com/locations/ll/us/ut/orem/541-east-university-parkway"
+  },
+  {
+   "name": "Jurassic Tacos",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "242 East University Parkway, 84058, Orem",
+   "website": "https://jurassictacos.com"
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "933 South University Avenue, 84601, Provo",
+   "website": "https://www.villageinn.com/"
+  },
+  {
+   "name": "Leatherby's Family Creamery",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "304 E University Parkway",
+   "website": "https://leatherbys.com/"
+  },
+  {
+   "name": "Five Sushi Brothers",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "445 Freedom Boulevard, 84601, Provo",
+   "website": "https://fivesushibrothers.com/"
+  },
+  {
+   "name": "Asa Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1120 South State Street, 84097, Orem",
+   "website": "https://www.facebook.com/Asa-Ramen-Orem-Utah-615522491921790/"
+  },
+  {
+   "name": "Arempas",
+   "cuisines": [
+    "Venezuelan"
+   ],
+   "address": "575 University Parkway, 84097, Orem",
+   "website": "https://www.arempas.com/"
+  },
+  {
+   "name": "Tamashi Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "206 East University Parkway, 84058, Orem",
+   "website": "https://www.tamashiramen.com"
+  },
+  {
+   "name": "Zao Asian Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1352 South State Street, 84097, Orem",
+   "website": "https://www.zaoasiancafe.com/location/orem/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ut/orem/290-west-1300-south-91077"
+  },
+  {
+   "name": "Yamato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1074 South State Street, 84097, Orem",
+   "website": "http://goyamato.com/"
+  },
+  {
+   "name": "Pitalda Brazil",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "334 East 800 South, Orem",
+   "website": "https://pitadabrazil.com"
+  },
+  {
+   "name": "Lovely Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2306 North University Parkway, 84604, Provo",
+   "website": "https://lovelypho.com"
+  },
+  {
+   "name": "Mr. Shabu",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "35 W University Parkway, 84058, Orem",
+   "website": "https://mrshabu.com/"
+  },
+  {
+   "name": "Tandoor Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1600 Freedom Boulevard, 84604, Provo",
+   "website": "https://tandoorindiancuisineprovo.com/"
+  },
+  {
+   "name": "Nico's Pizzas (Nicolita's)",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "255 west West Cougar Boulevard, 84604",
+   "website": "https://nicolitalia.com"
+  },
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://sizzler.com/locations/sizzler-provo/"
+  },
+  {
+   "name": "Quench It!",
+   "cuisines": [
+    "Soda"
+   ],
+   "address": "",
+   "website": "https://quenchitsoda.com/"
+  },
+  {
+   "name": "Shoga Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://shogautah.com/"
+  },
+  {
+   "name": "Quiero Màs",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.quieromasgrub.com/"
+  },
+  {
+   "name": "Bumble Bees",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://bumblebeeskbbq.com/"
+  },
+  {
+   "name": "Brick Oven",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "111 East 800 North, 84606, Provo",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "505 West 2230 North, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "Vegan Sun",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "225 West Center Street, Provo",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "62 West Bulldog Blvd, 84604",
+   "website": ""
+  },
+  {
+   "name": "Blue Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "84602, Provo",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "122 East University Parkway, Orem",
+   "website": ""
+  },
+  {
+   "name": "JJ Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "40 North 400 West, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "Tommy's Burger",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "401 West 100 North, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "La Cocina Peruana",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "971 South State Street, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Don Chuy’s Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "520 North 900 East, 84606, Provo",
+   "website": ""
+  },
+  {
+   "name": "MOZZ",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "145 North University Avenue, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "China Town",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "330 South State Street, 84606, Provo",
+   "website": ""
+  },
+  {
+   "name": "Joe's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1126 South State Street, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Casa Victoria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2128 West Center Street, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "The Roll Up Crepe",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "538 East University Parkway, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Demae",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "82 West Center Street, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "Pho Plus",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "908 South State Street, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "The Great Steak Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1650 West Center Street, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "JCW's - The Burger Boys",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "396 West 2230 North, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "Hot Potato",
+   "cuisines": [
+    "Fries"
+   ],
+   "address": "602 E East 600 North",
+   "website": ""
+  },
+  {
+   "name": "The Italian Place Cheesesteaks",
+   "cuisines": [
+    "Sandwich",
+    "Italian"
+   ],
+   "address": "1086 South State Street, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Di Napoli's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "29 West University Parkway, 84058, Orem",
+   "website": ""
+  },
+  {
+   "name": "La Dolce Vita",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "61 North 100 East, Provo",
+   "website": ""
+  },
+  {
+   "name": "Thai Hut",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "410 University Avenue, 84601",
+   "website": ""
+  },
+  {
+   "name": "India Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "98 West Center Street, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "ONOs",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3225 North Canyon Road, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "Crumbl Cookies",
+   "cuisines": [
+    "Cookie",
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "BACKDOOR BRGR",
+   "cuisines": [
+    "American"
+   ],
+   "address": "261 University Avenue, 84601",
+   "website": ""
+  },
+  {
+   "name": "The Continental",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "63 E Center Street, Provo",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carrabba's Italian Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blue Line Deli & Markey",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tucanos Brazilian Grill",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Black Bear Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kickin Cajun Seafood",
+   "cuisines": [
+    "Cajun",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Ranchito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Itto Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "CHOM",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flaming Wok",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pepe's Grill",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wing Nutz",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Terra Mia Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roxbury",
+   "cuisines": [
+    "Smoothie"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spicy Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pier 49",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Magleby's Fresh",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bombay House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hungry Hawaiian",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Envios De Dinero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Mexal",
+   "cuisines": [
+    "Mexican",
+    "Salvadoran"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tepanyaki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Villa Italian Ktchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Osaka",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noodle N Roll",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rimmel's",
+   "cuisines": [
+    "German"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweeto Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jurassic Street Tacos",
+   "cuisines": [
+    "Mexican",
+    "Tacos",
+    "Burrito"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dirty Bird Chxx",
+   "cuisines": [
+    "Chicken",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Summit Pizza Co.",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seven Brothers Burgers",
+   "cuisines": [
+    "Burger",
+    "Fries",
+    "Milkshake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Honest Eatery",
+   "cuisines": [
+    "Brunch",
+    "Açaí"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Catrina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tommy Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Evergreen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Se Llama Peru",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Salvador Restaurant",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Silver Dish Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Bee's Caribbean Cuisine",
+   "cuisines": [
+    "Haitian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joe Vera's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Station 22",
+   "cuisines": [],
+   "address": "22 West Center Street, 84601, Provo",
+   "website": "https://station22cafe.com/"
+  },
+  {
+   "name": "The Brunch House",
+   "cuisines": [],
+   "address": "1145 North 500 West, 84604, Provo",
+   "website": "https://thebrunchhouseutah.com/"
+  },
+  {
+   "name": "Black Sheep Cafe",
+   "cuisines": [],
+   "address": "19 North University Avenue, 84606, Provo",
+   "website": "http://www.urbanspoon.com/r/54/1657582/restaurant/Salt-Lake-City/Black-Sheep-Cafe-Provo"
+  },
+  {
+   "name": "Wild Ginger",
+   "cuisines": [],
+   "address": "366 North University Avenue, 84601, Provo",
+   "website": "http://WildGingerprovo.com"
+  },
+  {
+   "name": "Edna's Market & Grille",
+   "cuisines": [],
+   "address": "250 Center Street, Provo",
+   "website": "https://ednasgrill.com"
+  },
+  {
+   "name": "Cubby's",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.cubbys.co/menu/"
+  },
+  {
+   "name": "Brasas Mex Grill",
+   "cuisines": [],
+   "address": "238 West 100 South, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "Little Saigon #3",
+   "cuisines": [],
+   "address": "1032 South State Street, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Thai Neighbor Cuisine 1",
+   "cuisines": [],
+   "address": "170 West 300 South, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "West Coast Sourdough",
+   "cuisines": [],
+   "address": "1073 South 750 East, 84097, Orem",
+   "website": ""
+  },
+  {
+   "name": "Two Jack's Pizza",
+   "cuisines": [],
+   "address": "80 West Center Street, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "La Carreta Peruvian Restaurant",
+   "cuisines": [],
+   "address": "340 East 1200 South, 84058, Orem",
+   "website": ""
+  },
+  {
+   "name": "Bam Bams BBQ",
+   "cuisines": [],
+   "address": "1708 South State Street, 84058, Orem",
+   "website": ""
+  },
+  {
+   "name": "Guru's",
+   "cuisines": [],
+   "address": "45 East Center Street, 84606, Provo",
+   "website": ""
+  },
+  {
+   "name": "Beto's Mexican Food",
+   "cuisines": [],
+   "address": "1314 North State Street, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "Sweet's Island Place",
+   "cuisines": [],
+   "address": "711 Columbia Lane, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "The Wash",
+   "cuisines": [],
+   "address": "1195 North Canyon Road, 84604, Provo",
+   "website": ""
+  },
+  {
+   "name": "Chuck-A-Rama Buffet",
+   "cuisines": [],
+   "address": "South University Avenue, 84601, Provo",
+   "website": ""
+  },
+  {
+   "name": "Skyroom Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Communal",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rancherito's Mexican Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bahama Bucks",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harvey's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saida",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chat Chat Boba",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King Kebab",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Corn Dog Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Critical Hit Soda",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eastern Tastes Teriyaki",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shirley's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wingers",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Hermanos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rumbi Island Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Winger's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oh Mai",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Locals",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bistro Providence",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wariqe Peruvian Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicken in the Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yummy's Korean BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kiwi Tu Meke Bites - NZ Meat Pies",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Monte L. Bean Life Science Museum",
+   "kind": "museum",
+   "address": "645 East 1430 North, 84602, Provo",
+   "website": "https://mlbean.byu.edu/",
+   "phone": "",
+   "latitude": 40.2534258,
+   "longitude": -111.6473256
+  },
+  {
+   "name": "BYU Museum of Art",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2507956,
+   "longitude": -111.647997
+  },
+  {
+   "name": "Fat Cats",
+   "kind": "attraction",
+   "address": "1200 North University Avenue, 84604, Provo",
+   "website": "https://www.fatcatsfun.com/locations/provo/center-info/",
+   "phone": "+1 801-373-1863",
+   "latitude": 40.2500202,
+   "longitude": -111.6578089
+  },
+  {
+   "name": "BYU Museum of Paleontology",
+   "kind": "museum",
+   "address": "1683 North Canyon Road, 84602, Provo",
+   "website": "https://geology.byu.edu/museum/",
+   "phone": "",
+   "latitude": 40.2565151,
+   "longitude": -111.6569959
+  },
+  {
+   "name": "BYU Museum of Peoples and Cultures",
+   "kind": "museum",
+   "address": "2201 North Canyon Road, 84602, Provo",
+   "website": "https://mpc.byu.edu/",
+   "phone": "",
+   "latitude": 40.2629943,
+   "longitude": -111.6578206
+  },
+  {
+   "name": "Classic Fun Center",
+   "kind": "attraction",
+   "address": "250 South State Street, 84058, Orem",
+   "website": "https://www.classicfuncenterorem.com/",
+   "phone": "+1 801-224-5016",
+   "latitude": 40.2932822,
+   "longitude": -111.6950967
+  },
+  {
+   "name": "Alma",
+   "kind": "gallery",
+   "address": "274 W Center Street, 84601, Provo",
+   "website": "https://www.almaprovo.com/",
+   "phone": "",
+   "latitude": 40.2339565,
+   "longitude": -111.6634976
+  },
+  {
+   "name": "UVU Museum of Art",
+   "kind": "gallery",
+   "address": "260 West 1800 South, 84058, Orem",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2649822,
+   "longitude": -111.7006321
+  },
+  {
+   "name": "Olmstead Power Plant;Olmsted Power Plant Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.3158802,
+   "longitude": -111.6546808
+  },
+  {
+   "name": "The \"Y\"",
+   "kind": "attraction",
+   "address": "700 Hike the Y, 84604, Provo",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2483383,
+   "longitude": -111.6207088
+  },
+  {
+   "name": "Museum of Mormon Mexican History",
+   "kind": "museum",
+   "address": "1501 North Canyon Road, 84604, Provo",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2538325,
+   "longitude": -111.656401
+  },
+  {
+   "name": "Daughters of the Utah Pioneers Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2414442,
+   "longitude": -111.6668269
+  },
+  {
+   "name": "Rock Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2951748,
+   "longitude": -111.6297522
+  },
+  {
+   "name": "Splash Summit Water Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2364376,
+   "longitude": -111.6369379
+  },
+  {
+   "name": "Orem Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2832056,
+   "longitude": -111.6882935
+  },
+  {
+   "name": "Spanish Fork Canyon Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2115756,
+   "longitude": -111.5779009
+  },
+  {
+   "name": "KhPeak Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.3012687,
+   "longitude": -111.6256639
+  },
+  {
+   "name": "Rock Canyon Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2689546,
+   "longitude": -111.5921452
+  },
+  {
+   "name": "The Compass Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.2339682,
+   "longitude": -111.6631781
+  }
+ ]
+}

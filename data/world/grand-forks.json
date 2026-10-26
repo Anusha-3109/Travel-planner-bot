@@ -1,0 +1,652 @@
+{
+ "city": "Grand Forks",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.9115,
+ "longitude": -97.0469,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Baymont Grand Forks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "951 South 42nd Street, 58201, Grand Forks",
+   "url": "https://www.wyndhamhotels.com/baymont/grand-forks-north-dakota/baymont-inn-and-suites-grand-forks/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 South 42nd Street, 58201, Grand Forks",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-grand-forks-nd"
+  },
+  {
+   "name": "SpringHill Suites Grand Forks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2837 South 42nd Street, 58201, Grand Forks",
+   "url": "https://www.marriott.com/gfksh"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2985 South 42nd Street, 58201, Grand Forks",
+   "url": "https://www.hilton.com/en/hotels/gfkhxhx-hampton-suites-grand-forks/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4301 James Ray Drive, 58203, Grand Forks",
+   "url": "https://www.hilton.com/en/hotels/gfkghgi-hilton-garden-inn-grand-forks-und/"
+  },
+  {
+   "name": "Ramada Grand Forks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1205 North 43rd Street, 58203, Grand Forks",
+   "url": "https://www.wyndhamhotels.com/ramada/grand-forks-north-dakota/ramada-grand-forks/overview"
+  },
+  {
+   "name": "Days Inn Columbia Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 South 34th Street, 58201, Grand Forks",
+   "url": "https://www.wyndhamhotels.com/days-inn/grand-forks-north-dakota/days-inn-grand-forks-columbia-mall/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3300` 30th Avenue South, 58201, Grand Forks",
+   "url": "https://www.choicehotels.com/north-dakota/grand-forks/sleep-inn-hotels"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 North 43rd Street, 58203, Grand Forks",
+   "url": "https://www.choicehotels.com/north-dakota/grand-forks/sleep-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4051 32nd Avenue South, Grand Forks",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/grand-forks/gfkso/hoteldetail"
+  },
+  {
+   "name": "Sleep Inn & Suites Grand Forks Alerus Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1350 South 42nd Street, Grand Forks",
+   "url": "https://www.choicehotels.com/north-dakota/grand-forks/sleep-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites East Grand Forks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "514 Gateway Drive Northeast, 56721, East Grand Forks",
+   "url": "https://www.marriott.com/gfkeg"
+  },
+  {
+   "name": "AmeriVu Inn and Suites - Grand Forks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3051 South 34th Street, 58201, Grand Forks",
+   "url": "https://www.amerivuinn.com/grandforks/"
+  },
+  {
+   "name": "Campus Place V",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "411 N 42nd St",
+   "url": "https://www.dakotacommercial.com/apts/building/5"
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1211 North 47th Street, 58203, Grand Forks",
+   "url": "https://www.redlion.com/knights-inn/nd/grand-forks/knights-inn-grand-forks"
+  },
+  {
+   "name": "Budget Inn Express of Grand Forks North Dakota",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3400 Gateway Drive, 58203, Grand Forks",
+   "url": "http://www.budgetinngrandforksnd.com"
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1820 South Columbia Road, 58201, Grand Forks",
+   "url": ""
+  },
+  {
+   "name": "Harvest Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3350 32nd Avenue South, 58201, Grand Forks",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Columbia Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3251 30th Avenue South, 58201, Grand Forks",
+   "url": ""
+  },
+  {
+   "name": "Plaza Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "309 DeMers Avenue, 56721, East Grand Forks",
+   "url": ""
+  },
+  {
+   "name": "East Grand Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "606 Gateway Drive Northeast, 56721, East Grand Forks",
+   "url": ""
+  },
+  {
+   "name": "My Place Hotel-Grand Forks, ND",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1315 South 42nd Street, 58201, City Limits",
+   "url": ""
+  },
+  {
+   "name": "America's Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "C'mon Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "CanadInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Rhombus Guys",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Pasta",
+    "Salad"
+   ],
+   "address": "213 Kittson Avenue, 58201, Grand Forks",
+   "website": "https://rhombusguyspizza.com/"
+  },
+  {
+   "name": "Red Pepper",
+   "cuisines": [
+    "Regional",
+    "Mexican",
+    "Sandwich"
+   ],
+   "address": "1011 University Avenue, 58203, Grand Forks",
+   "website": "https://www.redpepper.com/"
+  },
+  {
+   "name": "JL Beers",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "2531 South Columbia Road, 58201",
+   "website": "http://jlbeers.com/grandforks/"
+  },
+  {
+   "name": "Up North Pizza Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "314 4th Street Northwest, 56721, East Grand Forks",
+   "website": "https://www.upnorthpizzapub.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1418 South Washington Street, 58201, Grand Forks",
+   "website": "https://locations.pizzahut.com/nd/grand-forks/1418-s-washington-st"
+  },
+  {
+   "name": "Paradiso Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "905 South Washington Street, 58201, Grand Forks",
+   "website": "https://www.paradiso.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "3951 32nd Avenue South, Grand Forks",
+   "website": "https://restaurants.ihop.com/en-us/nd/grand-forks/breakfast-3951-32nd-ave-south-3322"
+  },
+  {
+   "name": "Charras and Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3915 32nd Avenue South, 58201, Grand Forks",
+   "website": "https://www.charrasandtequila.com/grand-forks"
+  },
+  {
+   "name": "Speedway 805 Grill & Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "805 North 42nd Street, 58203, Grand Forks",
+   "website": "http://speedwaygrillandbar.com"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/nd/grand-forks/2851-s.-columbia-road-88032"
+  },
+  {
+   "name": "Fuji Japanese Steakhouse",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "715 South Washington Street, 58201, Grand Forks",
+   "website": "https://www.fujigrandforks.com/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3200 32nd Avenue South, 58201, Grand Forks",
+   "website": ""
+  },
+  {
+   "name": "The Toasted Frog",
+   "cuisines": [
+    "Pizza",
+    "Burger"
+   ],
+   "address": "123 North 3rd Street, 58203, Grand Forks",
+   "website": ""
+  },
+  {
+   "name": "Blue Moose Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "507 2nd Street Northwest, 56721",
+   "website": ""
+  },
+  {
+   "name": "Chicago Burritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3221 32nd Avenue South, 58201, Grand Forks",
+   "website": ""
+  },
+  {
+   "name": "Sakura Japanese Steakhouse",
+   "cuisines": [
+    "Asian",
+    "Steak House"
+   ],
+   "address": "3250 32nd Avenue South, 58201, Grand Forks",
+   "website": ""
+  },
+  {
+   "name": "King Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1206 South Washington Street, Grand Forks",
+   "website": ""
+  },
+  {
+   "name": "Bernie's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "121 DeMers Avenue, 56721",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Giuseppe's Italian Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wild Hog",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Mexico Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Bangkok",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luigi's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Pepper East",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Hub Pub",
+   "cuisines": [],
+   "address": "205 North 3rd Street, 58201",
+   "website": "http://hubpubgfnd.com"
+  },
+  {
+   "name": "Roadhouse cafe",
+   "cuisines": [],
+   "address": "4720 Gateway Drive, 58203",
+   "website": ""
+  },
+  {
+   "name": "Green Mill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gramma Butterwick's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ground Round",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Joe's Pizza & Ice Cream",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Parrots Cay Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "ND Art Museum",
+   "kind": "museum",
+   "address": "261 Centennial Drive, 58202, Grand Forks",
+   "website": "",
+   "phone": "",
+   "latitude": 47.9190495,
+   "longitude": -97.073792
+  },
+  {
+   "name": "Heritage Village",
+   "kind": "museum",
+   "address": "219 20th Street Northeast, 56721, East Grand Forks",
+   "website": "http://egfheritage.com",
+   "phone": "",
+   "latitude": 47.9451313,
+   "longitude": -97.017351
+  },
+  {
+   "name": "Northern Lights Railroad Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://exploreminnesota.com/profile/northern-lights-railroad-museum/3314",
+   "phone": "",
+   "latitude": 47.945147,
+   "longitude": -97.0150573
+  },
+  {
+   "name": "Grand Forks County Historical Society",
+   "kind": "museum",
+   "address": "2405 Belmont Road, 58201, Grand Forks",
+   "website": "",
+   "phone": "",
+   "latitude": 47.8965209,
+   "longitude": -97.027637
+  },
+  {
+   "name": "Leonard Hall Geology Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 47.9198037,
+   "longitude": -97.0684891
+  }
+ ]
+}

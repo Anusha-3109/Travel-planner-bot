@@ -1,0 +1,871 @@
+{
+ "city": "Greer",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 34.931,
+ "longitude": -82.2274,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Greer Greenville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "112 North Main Street, 29650, Greer",
+   "url": "https://www.hilton.com/en/hotels/gspgghx-hampton-greer-greenville/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "128 The Parkway, 29615, Greenville",
+   "url": "https://www.hilton.com/en/hotels/gspaphx-hampton-suites-greenville-airport/"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Beacon Drive, 29615, Greenville",
+   "url": "https://www.hilton.com/en/hotels/gspprht-home2-suites-greenville-airport/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "115 The Parkway, 29615, Greenville",
+   "url": "https://www.marriott.com/gspph"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1315 West Wade Hampton Boulevard, 29650, Greer",
+   "url": "https://www.choicehotels.com/south-carolina/greer/comfort-inn-hotels/sc610"
+  },
+  {
+   "name": "Residence Inn Greenville-Spartanburg Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Milestone Way, 29615, Greenville",
+   "url": "https://www.marriott.com/gspri"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Interstate Court, 29615, Greenville",
+   "url": "https://www.choicehotels.com/south-carolina/spartanburg/rodeway-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "48 Fisherman Lane, 29615, Greenville",
+   "url": "https://www.marriott.com/gsppr"
+  },
+  {
+   "name": "Wingate by Wyndham Greenville Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "33 Beacon Drive, 29615, Greenville",
+   "url": "https://www.wyndhamhotels.com/wingate/greenville-south-carolina/wingate-by-wyndham-greenville-airport/overview"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 Highway 101, 29651, Greer",
+   "url": "https://www.wyndhamhotels.com/super-8/greer-south-carolina/super-8-greer-spartanburg-area/overview"
+  },
+  {
+   "name": "Comfort Suites Greenville Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1371 Garlington Road, 29615, Greenville",
+   "url": "https://www.choicehotels.com/south-carolina/greenville/comfort-suites-hotels/sc555"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 The Parkway, 29615, Greenville",
+   "url": "https://www.hilton.com/en/hotels/gspgrdt-doubletree-greenville-airport/"
+  },
+  {
+   "name": "stayAPT Suites Greenville-Greer-GSP",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1455 Hwy 101 South, 29651, Greer",
+   "url": "https://www.stayapt.com/hotels/stayapt-suites-greenville-greer-bmw/"
+  },
+  {
+   "name": "Quality Inn Greer, SC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "611 West Wade Hampton Boulevard, 29650, Greer",
+   "url": "https://www.qualityinngreersc.com/"
+  },
+  {
+   "name": "Clarion",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5009 Pelham Road, 29615, Greenville",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites Greenville Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2671 Dry Pocket Road, 29650, Greer",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 Entertainment Boulevard, 29615, Greenville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3715 Pelham Road",
+   "url": ""
+  },
+  {
+   "name": "Candleberry Inn Events and long term boarding",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "105 Marshland Lane, 29650, Greer",
+   "url": ""
+  },
+  {
+   "name": "Painter House",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1494 West Wade Hampton Boulevard, 29650, Greer",
+   "website": "https://restaurants.ihop.com/en-us/sc/greer/breakfast-1494-west-wade-hampton-blvd-3452"
+  },
+  {
+   "name": "Thai Vegan Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "107 Middleton Way, 29651, Greer",
+   "website": "https://thaivegansc.com/"
+  },
+  {
+   "name": "Wild Ace Pizza & Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "103 Depot Street, 29651, Greer",
+   "website": "https://www.thewildace.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "704 West Wade Hampton Boulevard, 29651, Greer",
+   "website": "https://restaurants.applebees.com/en-us/sc/greer/704-w-wade-hampton-blvd.-87008"
+  },
+  {
+   "name": "A&P",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1526 Highway 14 South, 29651, Greer",
+   "website": "https://www.aandprestaurant.com/"
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "5318 Wade Hampton Boulevard, 29687, Taylors",
+   "website": "https://locations.mcalistersdeli.com/sc/taylors/5318-wade-hampton-blvd"
+  },
+  {
+   "name": "Guacamole Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "103 East Wade Hampton Boulevard, 29651, Greer",
+   "website": "https://www.guacamolemxgrill.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "306 West Wade Hampton Boulevard, 29650, Greer",
+   "website": "https://locations.pizzahut.com/sc/greer/306-w-wade-hampton-blvd"
+  },
+  {
+   "name": "Voila French Cafe",
+   "cuisines": [
+    "French"
+   ],
+   "address": "755 Hammett Bridge Road, 29650, Greer",
+   "website": "https://voilafrenchcafe.com/"
+  },
+  {
+   "name": "Blue Ridge Brewing Company",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "308 Trade Street, 29650, Greer",
+   "website": "https://www.blueridgebrewing.com/"
+  },
+  {
+   "name": "Hwy 29 Pita Plus",
+   "cuisines": [
+    "Arab",
+    "Mediterranean",
+    "Pizza",
+    "Turkish"
+   ],
+   "address": "14166 East Wade Hampton Boulevard, 29651, Greer",
+   "website": "https://hwy29pitaplus.com/"
+  },
+  {
+   "name": "Anthony's NY Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1300 South Highway 14, 29650, Greer",
+   "website": "https://www.anthonysnypizzeria.com/"
+  },
+  {
+   "name": "Romeo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1291 South Suber Road, 29650, Greer",
+   "website": "https://locations.romeospizza.com/romeos-pizza-e4cbdb60db93"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/greer-sc-1065/"
+  },
+  {
+   "name": "Mutt's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "101 West Road, 29650, Greer",
+   "website": "http://www.muttsbbqgreer.com/"
+  },
+  {
+   "name": "Laurenda's Family Restaurant & Catering",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "300 South Line Street, 29651, Greer",
+   "website": "https://laurendascatering.com/"
+  },
+  {
+   "name": "Joy of Tokyo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1407 West Wade Hampton Boulevard, 29650, Greer",
+   "website": "http://joyoftokyo.tv/"
+  },
+  {
+   "name": "Crate Restaurant & Wine Bar",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "213 Trade Street, 29651, Greer",
+   "website": "https://wineanddinecrate.com/"
+  },
+  {
+   "name": "Southern Palate Cuisine",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1209 West Poinsett Street, 29650, Greer",
+   "website": "https://www.southernpalatecatering.com/"
+  },
+  {
+   "name": "The Slice",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "107 South Main Street, 29650, Greer",
+   "website": "https://www.theslicepizzasc.com/"
+  },
+  {
+   "name": "Great Bay Oyster House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://www.thegreatbayoysterhouse.com/"
+  },
+  {
+   "name": "Andino",
+   "cuisines": [
+    "Andean"
+   ],
+   "address": "101 Brookwood Drive, 29651, Greer",
+   "website": "http://www.andinoonline.com/"
+  },
+  {
+   "name": "The Mason Jar",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "http://www.masonjargreersc.com/"
+  },
+  {
+   "name": "Sushi Mizu",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://www.thegreatbayoysterhouse.com/Sushi_Mizu.html"
+  },
+  {
+   "name": "L’ Incanto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.lincantosc.com/"
+  },
+  {
+   "name": "Della Venturas",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "http://www.dellaventuras.com/"
+  },
+  {
+   "name": "Rick Erwin's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.rickerwins.com/greer/"
+  },
+  {
+   "name": "DC-3",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "",
+   "website": "https://www.eatdc3.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1312 West Wade Hampton Boulevard, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Harvest Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "112 Cannon Street, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Nixtamal Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "755 Hammett Bridge Road, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Tadpole Fish Camp",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "13445 East Wade Hampton Boulevard, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "The Bleu Porch Kitchen & Market",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "302 North Main Street, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Big Boy's Country Cooking of Greer",
+   "cuisines": [
+    "American"
+   ],
+   "address": "305 South Buncombe Road, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Crazy Quesadilla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "217 West Wade Hampton Boulevard, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "La Reata",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5322 Wade Hampton Boulevard, 29687, Taylors",
+   "website": ""
+  },
+  {
+   "name": "Copper River Grill",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "14440 East Wade Hampton Boulevard, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Clock Express",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1328 West Wade Hampton Boulevard, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Santa Fe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "903 West Wade Hampton Boulevard, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Speed Bowl",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1300 South Highway 14, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Lin's Asian Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "850 East Suber Road, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Mythos",
+   "cuisines": [
+    "Greek",
+    "Italian"
+   ],
+   "address": "6140 Wade Hampton Boulevard, 29687, Taylors",
+   "website": ""
+  },
+  {
+   "name": "Hibachi Cafe",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1301 West Wade Hampton Boulevard, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Tipsy Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "14182 East Wade Hampton Boulevard, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Monterrey",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "6130 Wade Hampton Boulevard, 29687, Taylors",
+   "website": ""
+  },
+  {
+   "name": "Grand China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "14156 East Wade Hampton Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Los Portales",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clock Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Mazzitelli",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Panaderia La Estrella",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tom's Dogz & Deli",
+   "cuisines": [
+    "Hot Dog",
+    "Deli"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "South House Restaurant",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dos Hermanos Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Merrell's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Osaka Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ollie's Tavern",
+   "cuisines": [],
+   "address": "304 Trade Street, 29650, Greer",
+   "website": "https://olliestavern.com/"
+  },
+  {
+   "name": "Trade Street Social",
+   "cuisines": [],
+   "address": "315 Trade Street, 29651, Greer",
+   "website": "https://tradestreetsocial.com/"
+  },
+  {
+   "name": "Select Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.dineatselect.com/"
+  },
+  {
+   "name": "Cannon's Restaurant",
+   "cuisines": [],
+   "address": "409 Trade Street, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Tropical Chicken Grill",
+   "cuisines": [],
+   "address": "14520 East Wade Hampton Boulevard, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Greer Food Truck Village",
+   "cuisines": [],
+   "address": "101 Pennsylvania Avenue, 29650, Greer",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Grill Express",
+   "cuisines": [],
+   "address": "14021 East Wade Hampton Boulevard, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "La Joya Bar & Grill",
+   "cuisines": [],
+   "address": "219 Trade Street, 29651, Greer",
+   "website": ""
+  },
+  {
+   "name": "Flatwood Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Kitchen By Wolfgang Puck",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pete's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eggs Up Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taquero Mucho",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Greer Heritage Museum",
+   "kind": "museum",
+   "address": "106 South Main Street, Greer",
+   "website": "https://www.greerheritage.com/",
+   "phone": "+1-864-877-3377",
+   "latitude": 34.9382128,
+   "longitude": -82.2281237
+  },
+  {
+   "name": "AH-1",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.9317668,
+   "longitude": -82.2222465
+  },
+  {
+   "name": "M106A1",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.931485,
+   "longitude": -82.2220006
+  },
+  {
+   "name": "The Ultimate Driving Museum",
+   "kind": "museum",
+   "address": "190 Manatee Court, 29651, Greer",
+   "website": "https://theultimatedrivingmuseum.org/",
+   "phone": "",
+   "latitude": 34.9043688,
+   "longitude": -82.173552
+  },
+  {
+   "name": "Model Trains Station",
+   "kind": "museum",
+   "address": "250 Mill Street, 29687, Taylors",
+   "website": "https://www.modeltrainsstation.com/",
+   "phone": "",
+   "latitude": 34.9194403,
+   "longitude": -82.2859721
+  },
+  {
+   "name": "BMW Performance Center",
+   "kind": "attraction",
+   "address": "1155 Highway 101 South, 29651, Greer",
+   "website": "",
+   "phone": "",
+   "latitude": 34.904944,
+   "longitude": -82.1791351
+  },
+  {
+   "name": "BMW Zentrum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "+1 888 868 7269",
+   "latitude": 34.8897665,
+   "longitude": -82.1767533
+  },
+  {
+   "name": "Suber's Corn Mill",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.9319475,
+   "longitude": -82.264614
+  },
+  {
+   "name": "Barnett Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.9395941,
+   "longitude": -82.2279708
+  }
+ ]
+}

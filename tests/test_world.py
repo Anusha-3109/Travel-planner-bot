@@ -34,6 +34,9 @@ needs_tokyo = pytest.mark.skipif(not (config.WORLD_DIR / "tokyo.json").exists(),
 def sample_catalog(tmp_path_factory):
     world_dir = tmp_path_factory.mktemp("world")
     (world_dir / "kyoto.json").write_text(json.dumps(SAMPLE_CITY), encoding="utf-8")
+    new_york = {**SAMPLE_CITY, "city": "New York", "country": "United States", "region": "North America",
+                "latitude": 40.7128, "longitude": -74.0060, "currency": "USD", "usd_per_unit": 1.0}
+    (world_dir / "new-york.json").write_text(json.dumps(new_york), encoding="utf-8")
     return build_catalog(world_dir=world_dir)
 
 
@@ -103,21 +106,15 @@ def test_international_flight_is_estimated_and_unpriced():
     assert "no price data" in budget["detail"]
 
 
-def test_2026_us_places_replace_2022_places_but_keep_flights(tmp_path):
-    """A US city with 2026 data shows its 2026 places; its 2022 flights stay. The 2022-only catalog,
-    needed for the TravelPlanner evaluation, is still available."""
+def test_smaller_us_city_has_openstreetmap_stays_without_prices(tmp_path):
+    """Cities without Inside Airbnb data get OpenStreetMap hotels: no price, no guest limit."""
     rockford = {**SAMPLE_CITY, "city": "Rockford", "country": "United States", "region": "North America",
-                "latitude": 42.2711, "longitude": -89.0940, "currency": "USD",
-                "restaurants": [{"name": "New Diner 2026", "cuisines": ["American"]}]}
+                "latitude": 42.2711, "longitude": -89.0940, "currency": "USD", "usd_per_unit": 1.0,
+                "airbnb_scrape_date": None, "stays_source": "OpenStreetMap",
+                "accommodations": [{"name": "Riverside Motel", "price": None, "room_type": "Hotel room",
+                                    "kind": "motel", "minimum_nights": 1, "maximum_occupancy": None, "rating": None,
+                                    "address": "", "url": ""}]}
     (tmp_path / "rockford.json").write_text(json.dumps(rockford), encoding="utf-8")
-
-    current = build_catalog(world_dir=tmp_path)
-    assert [r.name for r in current.restaurants["rockford"]] == ["New Diner 2026"]
-    assert current.flight_dates("St. Petersburg", "Rockford")  # 2022 flights are kept
-    assert "TravelPlanner (March 2022)" in current.data_note("Rockford")
-    assert "converted from" not in current.data_note("Rockford")  # USD prices need no conversion
-
-    original = build_catalog(world_dir=None)
-    assert "Coco Bambu" in [r.name for r in original.restaurants["rockford"]]
-    both = build_catalog(world_dir=tmp_path, prefer_current=False)
-    assert {"Coco Bambu", "New Diner 2026"} <= {r.name for r in both.restaurants["rockford"]}
+    stay = build_catalog(world_dir=tmp_path).accommodations["rockford"][0]
+    assert (stay.price, stay.maximum_occupancy, stay.room_type) == (None, None, "Private room")
+    assert "OpenStreetMap (no prices" in build_catalog(world_dir=tmp_path).data_note("Rockford")

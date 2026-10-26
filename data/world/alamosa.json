@@ -1,0 +1,390 @@
+{
+ "city": "Alamosa",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.4711,
+ "longitude": -105.8639,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Alamosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "710 Mariposa Street, 81101, Alamosa",
+   "url": "https://www.hilton.com/en/hotels/alscohx-hampton-alamosa-co/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Alamosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "721 Mariposa Street, 81101, Alamosa",
+   "url": "https://www.marriott.com/alsfi"
+  },
+  {
+   "name": "Days Inn by Wyndham Alamosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "223 Santa Fe Avenue, 81101, Alamosa",
+   "url": "https://www.wyndhamhotels.com/days-inn/alamosa-colorado/days-inn-alamosa/overview"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2005 Main Street, 81101-2322, Alamosa",
+   "url": "https://www.bestwestern.com/content/best-western/en_US/booking-path/hotel-details.06001.html"
+  },
+  {
+   "name": "Super 8 Alamosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2505 Main Street, 81101-2239, Alamosa",
+   "url": "https://www.wyndhamhotels.com/super-8/alamosa-colorado/super-8-alamosa/overview"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6301 US 160, 81101, Alamosa",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3418 Mariposa Street, 81101, Alamosa",
+   "url": ""
+  },
+  {
+   "name": "Residence del Squirlly",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6130 South County Road 105, 81101, Anamosa",
+   "url": ""
+  },
+  {
+   "name": "Dunes Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "425 Main Street, 81101, Alamosa",
+   "url": ""
+  },
+  {
+   "name": "Riverside Inn of Alamosa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valley Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Sunset Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "40 Winks Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "814 Main Street, 81101, Alamosa",
+   "website": "https://locations.pizzahut.com/co/alamosa/814-main-st"
+  },
+  {
+   "name": "Hunan Chinese Restaruant and Sushi Bar",
+   "cuisines": [
+    "Chinese",
+    "Sushi"
+   ],
+   "address": "419 Main Street, 81101, Alamosa",
+   "website": "https://www.ehunans.com"
+  },
+  {
+   "name": "Antojitos Mexicanos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1433 Main Street, 81101, Alamosa",
+   "website": "https://facebook.com/people/Antojitos-Mexicanos/100044452465544"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "3231 Main Street, 81101, Alamosa",
+   "website": ""
+  },
+  {
+   "name": "My Brother's Place Restaurant & Deli",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "613 Main Street, 81101, Alamosa",
+   "website": ""
+  },
+  {
+   "name": "Emma's Authentic Southwest Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "924 Main Street, Alamosa",
+   "website": ""
+  },
+  {
+   "name": "Woody's Q Shack",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "81101",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Country Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Juanito's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Purple Pig Pizzaria Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nino's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Taquito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai House",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Siam Cuisine",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lucky Bamboo",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Hut",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Friar's Fork",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oscar's Mexican Restaurant",
+   "cuisines": [],
+   "address": "520 Main Street, 81101, Alamosa",
+   "website": "https://oscarsslv.com"
+  },
+  {
+   "name": "Colorado Grill Alamosa",
+   "cuisines": [],
+   "address": "719 Main Street, 81101, Alamosa",
+   "website": ""
+  },
+  {
+   "name": "Calvillo's Mexican Restaurant",
+   "cuisines": [],
+   "address": "400 Main Street, Alamosa",
+   "website": ""
+  },
+  {
+   "name": "Ef's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crazy Corner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Campus Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rubi Slipper",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Domino's pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Calvillos Mexican restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Denver and Rio Grande Western Number 169",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4697498,
+   "longitude": -105.8620686
+  },
+  {
+   "name": "San Luis Valley Museum",
+   "kind": "museum",
+   "address": "401 Hunt Avenue, 81101, Alamosa",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4690748,
+   "longitude": -105.8640889
+  },
+  {
+   "name": "Firedworks",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4678731,
+   "longitude": -105.8658808
+  }
+ ]
+}

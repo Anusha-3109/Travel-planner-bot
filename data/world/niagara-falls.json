@@ -1,0 +1,2859 @@
+{
+ "city": "Niagara Falls",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.0889,
+ "longitude": -79.0732,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6361 Fallsview Boulevard, L2G 3V9, Niagara Falls",
+   "url": "https://niagarafallshilton.com/"
+  },
+  {
+   "name": "Hyatt Place Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Rainbow Boulevard South, 14303, Niagara Falls",
+   "url": "https://www.hyatt.com/en-us/hotel/new-york/hyatt-place-niagara-falls/iagzn"
+  },
+  {
+   "name": "The Giacomo, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 1st Street, 14303, Niagara Falls",
+   "url": "https://thegiacomo.com/"
+  },
+  {
+   "name": "Marriott on the Falls Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6755 Fallsview Boulevard, L2G 3W7, Niagara Falls",
+   "url": "https://www.marriottonthefalls.com/"
+  },
+  {
+   "name": "Courtyard by Marriott Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5950 Victoria Avenue, L2G 3W4, Niagara Falls",
+   "url": "https://www.nfcourtyard.com/"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Niagara Falls New York",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 Buffalo Avenue, 14303, Niagara Falls",
+   "url": "https://www.hilton.com/en/hotels/iagbadt-doubletree-niagara-falls-new-york/"
+  },
+  {
+   "name": "Marriott Niagara Falls Fallsview Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6740 Fallsview Boulevard, L2G 3W6, Niagara Falls",
+   "url": "https://www.niagarafallsmarriott.com/"
+  },
+  {
+   "name": "Comfort Inn the Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Prospect Pointe, 14303, Niagara Falls",
+   "url": "https://www.choicehotels.com/ontario/st-catharines/comfort-inn-hotels"
+  },
+  {
+   "name": "Country Inn & Suites by Radisson, Niagara Falls, ON",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5525 Victoria Avenue, L2G3L3, Niagara Falls",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-niagara-falls-on"
+  },
+  {
+   "name": "Rodeway Inn Fallsview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6663 Stanley Avenue, L2G 3Y9, Niagara Falls",
+   "url": "https://www.choicehotels.com/ontario/st-catharines/comfort-inn-hotels"
+  },
+  {
+   "name": "Niagara Crossing Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Center Street, 14092, Lewiston",
+   "url": "https://www.niagaracrossinghotelandspa.com/"
+  },
+  {
+   "name": "Quality Hotel Fallsview Cascade",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5305 Murray Street, L2G 2J3, Niagara Falls",
+   "url": "https://www.qualityhotelfallsview.com/"
+  },
+  {
+   "name": "Clifton Victoria Inn at the Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5591 Victoria Avenue, L2E 3L4, Niagara Falls",
+   "url": "https://cliftonvictoriainnatthefalls.com/"
+  },
+  {
+   "name": "Blue Moon Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8445 Lundys Lane, Niagara Falls",
+   "url": "https://www.bluemoonniagara.com/"
+  },
+  {
+   "name": "Gorge View",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "723 3rd Street, 14301, Niagara Falls",
+   "url": ""
+  },
+  {
+   "name": "Sheraton At The Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 3rd Street, 14303, Niagara Falls",
+   "url": ""
+  },
+  {
+   "name": "Villager Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8054 Lundys Lane, Niagara Falls",
+   "url": ""
+  },
+  {
+   "name": "The Diplomat Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Place Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4851 River Road",
+   "url": ""
+  },
+  {
+   "name": "A Night to Remember B & B",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6161 Main Street, L2G 6A3",
+   "url": ""
+  },
+  {
+   "name": "Falls Manor Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Vittoria Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Coach Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6225 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.wyndhamhotels.com/laquinta/niagara-falls-new-york/la-quinta-niagara-falls/overview"
+  },
+  {
+   "name": "The Brock Niagara Falls-Fallsview, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5685 Falls Avenue, L2E 6W7, Niagara Falls",
+   "url": "https://thebrockhotelniagarafalls.com/"
+  },
+  {
+   "name": "Wyndham Garden",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6170 Stanley Avenue, L2G 3Y4, Niagara Falls",
+   "url": "https://niagarafallswyndham.com/"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6045 Stanley Avenue, L2G 3Y3, Niagara Falls",
+   "url": "https://www.wyndhamhotels.com/ramada/niagara-falls-ontario/ramada-niagara-falls/overview?CID=LC:RA::GGL:RIO:National:22183&iata=00065402"
+  },
+  {
+   "name": "Howard Johnson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5905 Victoria Avenue, L2G 3L8, Niagara Falls",
+   "url": "https://www.hojobythefalls.com/"
+  },
+  {
+   "name": "Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6455 Fallsview Boulevard, L2G 3V9, Niagara Falls",
+   "url": "https://www.wyndhamfallsviewhotel.com/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7680 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.wyndhamhotels.com/super-8/niagara-falls-new-york/super-8-by-wyndham-niagara-falls-ny/overview"
+  },
+  {
+   "name": "DoubleTree Fallsview by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6039 Fallsview Boulevard, L2G 3V6, Niagara Falls",
+   "url": "https://doubletree3.hilton.com/en/hotels/ontario/doubletree-fallsview-resort-and-spa-by-hilton-niagara-falls-IAGDTDT/index.html"
+  },
+  {
+   "name": "Fairfield Niagara Falls, Canada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5257 Ferry Street, L2G 1R6, Niagara Falls",
+   "url": "https://www.marriott.com/iagif"
+  },
+  {
+   "name": "Best Western Summit Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9500 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-niagara-falls/best-western-summit-inn/propertyCode.33088.html"
+  },
+  {
+   "name": "Courtyard Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 Buffalo Avenue, 14303, Niagara Falls",
+   "url": "https://www.marriott.com/iagny"
+  },
+  {
+   "name": "Hampton Inn Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Rainbow Boulevard, 14303, Niagara Falls",
+   "url": "https://www.hilton.com/en/hotels/iagnyhx-hampton-niagara-falls/"
+  },
+  {
+   "name": "Ramada Niagara Falls Near the Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5706 Ferry Street, L2G 1S7, Niagara Falls",
+   "url": "https://ramadaniagarafalls.com/"
+  },
+  {
+   "name": "Hampton Inn Niagara Falls/Blvd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6501 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.hilton.com/en/hotels/iagaphx-hampton-niagara-falls-blvd/"
+  },
+  {
+   "name": "Sheraton Fallsview Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5875 Falls Avenue, L2G 3K7, Niagara Falls",
+   "url": "https://www.marriott.com/en-us/hotels/iagsi-sheraton-fallsview-hotel/overview/"
+  },
+  {
+   "name": "Travelodge at the Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4943 Clifton Hill, L2G 3N5, Niagara Falls",
+   "url": "https://www.travelodgeniagarafalls.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5919 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.choicehotels.com/ontario/st-catharines/comfort-inn-hotels"
+  },
+  {
+   "name": "Glengate Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5534 Stanley Avenue, L2G 3X2, Niagara Falls",
+   "url": "https://glengatehotel.com/"
+  },
+  {
+   "name": "Radisson Hotel & Suites Fallsview, ON",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6733 Fallsview Boulevard, L2G3W7, Niagara Falls",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-niagara-falls"
+  },
+  {
+   "name": "Comfort Inn & Suites Niagara Falls Boulevard USA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6115 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.choicehotels.com/ontario/st-catharines/comfort-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2761 Long Road, 14072, Grand Island",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/grand-island/iaggl/hoteldetail"
+  },
+  {
+   "name": "voco Niagara Falls - The Cadence",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Rainbow Boulevard, 14303, Niagara Falls",
+   "url": "https://www.ihg.com/voco/hotels/us/en/niagara-falls/iagrb/hoteldetail"
+  },
+  {
+   "name": "Embassy Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6700 Fallsview Boulevard, L2G 3W6, Niagara Falls",
+   "url": "https://embassysuitesniagara.com/"
+  },
+  {
+   "name": "Kings Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5525 Ferry Street, Niagara Falls",
+   "url": "http://www.kingsinnfalls.com/"
+  },
+  {
+   "name": "Travelodge Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9401 Niagara Falls Boulevard, 14304, Niagara Falls",
+   "url": "https://www.wyndhamhotels.com/travelodge/niagara-falls-new-york/travelodge-niagara-falls/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "643 Rainbow Boulevard, 14303, Niagara Falls",
+   "url": "https://www.marriott.com/iagfi"
+  },
+  {
+   "name": "Wanderfalls Guesthouse & HSTL",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Spruce Avenue, 14301, Niagara Falls",
+   "url": "http://www.wanderfallshostel.com/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7514 Lundys Lane, Niagara Falls",
+   "url": "http://www.comfortinnlundyslane.com/"
+  },
+  {
+   "name": "The Peninsula Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7373 Niagara Square Drive, L2E 6S5, Niagara Falls",
+   "url": "http://www.peninsulainn.com/"
+  },
+  {
+   "name": "HI Niagara Falls",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4549 Cataract Avenue, L2E 3M2, Niagara Falls",
+   "url": "https://hihostels.ca/niagarafalls"
+  },
+  {
+   "name": "Victorian Charm Bed and Breakfas",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6028 Culp Street, L2G 2B7, Niagara Falls",
+   "url": "http://www.victoriancharmbb.com/"
+  },
+  {
+   "name": "Oakes Hotel Overlooking Niagara Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6546 Fallsview Boulevard",
+   "url": "https://www.oakeshotel.com/"
+  },
+  {
+   "name": "Cadilac Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5342 Ferry Street, Niagara Falls",
+   "url": "https://www.cadillacmotelniagara.com/"
+  },
+  {
+   "name": "Old Stone Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5425 Robinson Street, L2G 7L6, Niagara Falls",
+   "url": "http://www.oldstoneinn.on.ca"
+  },
+  {
+   "name": "Americana Resort and Conference Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 444 Lundy's Lane, L2H 1H4, Niagara Falls",
+   "url": "https://www.americananiagara.com/"
+  },
+  {
+   "name": "Great Wolf Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3950 Victoria Ave, L2E 7M8, Niagara Falls",
+   "url": "https://www.greatwolf.com/niagara"
+  },
+  {
+   "name": "Cannery Lofts Niagara",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5686 Lewis Avenue, L2G 3S1",
+   "url": "https://www.canneryloftsniagara.com/"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Flying Saucer Restaurant",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "6768 Lundys Lane, L2G 1V5, Niagara Falls",
+   "website": "https://flyingsaucerrestaurant.com"
+  },
+  {
+   "name": "The Works",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "5717 Victoria Avenue, L2G 3L6, Niagara Falls",
+   "website": "https://worksburger.com/"
+  },
+  {
+   "name": "La Hacienda Ristorante and Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "3019 Pine Avenue, 14301, Niagara Falls",
+   "website": "https://la-hacienda-ristorante-and-pizzeria.business.site/"
+  },
+  {
+   "name": "Royal Dosa Hut",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5991 Lundys Lane, L2G 1T2, Niagara Falls",
+   "website": "https://royaldosahut.com/"
+  },
+  {
+   "name": "The Guru Fine Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5705 Victoria Avenue, L2G 3L5, Niagara Falls",
+   "website": "https://www.welcometoguru.com/"
+  },
+  {
+   "name": "The Mami House",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "250 Rainbow Boulevard, 14303, Niagara Falls",
+   "website": "https://www.themamihouse.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "7514 Lundy's Lane, L2H 1G8, Niagara Falls",
+   "website": "https://restaurants.ihop.com/en-ca/on/niagara-falls/breakfast-7514-lundys-lane-4000"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4955 Clifton Hill, L2G 3N5, Niagara Falls",
+   "website": "https://applebeescanada.com/location/applebees-clifton-hill/"
+  },
+  {
+   "name": "Boston Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4950 Clifton Hill, L2G 3N4",
+   "website": "https://www.cliftonhill.com/restaurants/boston-pizza"
+  },
+  {
+   "name": "AlMac's Buffet",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "5435 Ferry Street, L2G 1S2, Niagara Falls",
+   "website": "https://almacsbuffet.com/"
+  },
+  {
+   "name": "Benihana",
+   "cuisines": [
+    "Japanese",
+    "Teppanyaki",
+    "Steak"
+   ],
+   "address": "4955 Clifton Hill, L2G 3N5, Niagara Falls",
+   "website": "https://benihananiagara.com/"
+  },
+  {
+   "name": "The Why Coffee Shop",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1319 Main Street, 14301, Niagara Falls",
+   "website": "https://www.facebook.com/p/The-Why-Coffee-Shop-100063725012481/"
+  },
+  {
+   "name": "Chuck's Roadhouse",
+   "cuisines": [
+    "Burger",
+    "Steak House"
+   ],
+   "address": "5317 Ferry Street, L2G 1R8, Niagara Falls",
+   "website": "https://www.chucksroadhouse.com/"
+  },
+  {
+   "name": "Skylon Tower Revolving Dining Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5200 Robinson Street, L2G 2A3, Niagara Falls",
+   "website": "https://www.skylon.com/niagara-falls-dining/revolving-dining-room/"
+  },
+  {
+   "name": "The Como Restaurant And Lounge",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2220 Pine Avenue, 14301, Niagara Falls",
+   "website": "https://www.comorestaurant.com/"
+  },
+  {
+   "name": "Zaika Indian Cuisine Niagara falls NY",
+   "cuisines": [
+    "Indian",
+    "Buffet"
+   ],
+   "address": "421 3rd Street, 14301, Niagara Falls",
+   "website": "https://anindianzaika.com/"
+  },
+  {
+   "name": "Moksha Indian Bistro",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5993 Stanley Avenue, Niagara Falls",
+   "website": "https://www.mokshaindianbistro.com/"
+  },
+  {
+   "name": "Paris Crêpes Café",
+   "cuisines": [
+    "French"
+   ],
+   "address": "4613 Queen Street, L2E 2L7, Niagara Falls",
+   "website": "https://www.pariscrepescafe.com/"
+  },
+  {
+   "name": "Palms Shawarma and Mediterranean Cafe",
+   "cuisines": [
+    "Mediterranean",
+    "Shawarma"
+   ],
+   "address": "6734 Lundys Lane, L2G 1V5, Niagara Falls",
+   "website": "http://palmsshawarma.com"
+  },
+  {
+   "name": "Antica Pizzeria & Ristorante",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "5785 Victoria Avenue, L2G 3L6, Niagara Falls",
+   "website": "http://www.anticapizzeria.ca"
+  },
+  {
+   "name": "The Keg",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://thekeg.com/en/locations/niagara-falls-courtyard-marriott"
+  },
+  {
+   "name": "The Fry (Korean Fried Chicken)",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "6530 Lundys Lane, L2G1T6",
+   "website": "https://thefry.ca/"
+  },
+  {
+   "name": "Stacked Pancake & Breakfast House",
+   "cuisines": [
+    "Pancake",
+    "Breakfast"
+   ],
+   "address": "6840 McLeod Road, L2G 3G6, Niagara Falls",
+   "website": "https://www.stackedpancakehouse.ca/restaurant/niagara-falls-mcleod-rd/"
+  },
+  {
+   "name": "La Ramona Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5993 Stanley Avenue, L2G 3Y2",
+   "website": "https://www.laramonacantina.com/"
+  },
+  {
+   "name": "Pho Xylo",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "6175 Dunn Street, L2G 2P4, Niagara Falls",
+   "website": "https://www.phoxyclo.ca/"
+  },
+  {
+   "name": "STK Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "6700 Fallsview Blvd, L2G 3W6, Niagara Falls",
+   "website": "https://stksteakhouse.com/en-us/location/fallsview/"
+  },
+  {
+   "name": "Anchor Bar",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "114 Buffalo Avenue, 14303, Niagara Falls",
+   "website": "https://anchorbar.com"
+  },
+  {
+   "name": "New York Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "5027 Centre Street, Niagara Falls",
+   "website": "https://newyorkrestauranttogo.com/"
+  },
+  {
+   "name": "Grand Central Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4573 Queen Street, L2E2L7",
+   "website": "https://www.grandcentralbarandgrill.ca/"
+  },
+  {
+   "name": "RG. Kitchen",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "5054 Victoria Avenue, L2E 4E1",
+   "website": "https://www.skipthedishes.com/rg-kitchen"
+  },
+  {
+   "name": "La Revolución Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3747 Portage Road, L2J 2L1, Niagara Falls",
+   "website": "https://www.larevolucion.ca/"
+  },
+  {
+   "name": "Passage to India Buffet",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5546 Robinson Street, Niagara Falls",
+   "website": "https://passage2india.ca/"
+  },
+  {
+   "name": "Koutouki",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "5745 Ferry Street",
+   "website": "https://koutoukiniagara.com"
+  },
+  {
+   "name": "Shoeless Joe's",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "",
+   "website": "https://www.shoelessjoes.com/"
+  },
+  {
+   "name": "Napoli Ristorante & Pizza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5485 Stanley Avenue, Niagara Falls",
+   "website": "https://www.napoliristorante.ca/"
+  },
+  {
+   "name": "Brasa",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://www.brasaniagara.com/"
+  },
+  {
+   "name": "Magnolia",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.magnoliachinesecuisine.com/"
+  },
+  {
+   "name": "Micah",
+   "cuisines": [
+    "Thai",
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://micahbistro.com/"
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "333 Prospect Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "6220 Lundys Lane, L2G 1T6, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Hyderabad Biryani House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "26 Niagara Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Rainforest Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "300 3rd Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5905 Victoria Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Indian Kitchen King",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "610 Main Street, 14301, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Korean Restaurant",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "420 Niagara Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Virsa Fine Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5677 Victoria Avenue, L2G 3L5, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Mandarin",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "7555 Montrose Road, L2H 2E9, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "5936 Victoria Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Swiss Chalet",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "6666 Lundys Lane, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Kelsey's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Cucina Di Mamma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "795 Rainbow Boulevard, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Halibut House Fish & Chips",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "7555 Montrose Road, L2H 2E9, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Falls Deli",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "6380 Fallsview Boulevard, L2G 7X5, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maharaja",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "128 3rd Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "5234 Victoria Avenue",
+   "website": ""
+  },
+  {
+   "name": "Dosa Boyz",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5717 Lewis Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Mama Mia's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5719 Victoria Avenue, L2G 3L5, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Shelby's Legendary Shwarma",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Royal Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "310 Rainbow Boulevard, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Hi-Lite Restaurant",
+   "cuisines": [
+    "Diner",
+    "American"
+   ],
+   "address": "4524 Queen Street, L2E 2L5, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Chill 443",
+   "cuisines": [
+    "American"
+   ],
+   "address": "443 Main Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Punjabi Chaap Corner",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "6715 Dunn Street, L2G 2P4",
+   "website": ""
+  },
+  {
+   "name": "Niagara Tandoori Hut",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "399 Rainbow Boulevard, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "My Cousin Vinny's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "6541 Main Street, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Bombay Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "24 1st Street, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Punjab Indian Food Corner",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1 Prospect Pointe, 14303, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Inchins Indian Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5928 Clark Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "bravo! grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5438 Ferry Street, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Pho Golden",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "3004 Pine Avenue",
+   "website": ""
+  },
+  {
+   "name": "Freshii",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Comparu",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5983 Clark Avenue",
+   "website": ""
+  },
+  {
+   "name": "All U Can Eat Breakfast Buffet",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "TGI Fridays",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tony Roma's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "East Side Mario's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sunset Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fork You",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shiv Kirti Chef of India Authentic Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5060 Magdalen Street",
+   "website": ""
+  },
+  {
+   "name": "Charm's Jerk Hut",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "Lundys Lane, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Japanese Restaurant Yukiguni",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "5980 Fallsview Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Young Garden Authentic Korean Cuisine",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Mia Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3518 Portage Road",
+   "website": ""
+  },
+  {
+   "name": "Score Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Niku Japanese BBQ",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eighty Eight",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Corso",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brasa Brazilian Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vittorio’s Italian Eatery",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cheetal Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delhi Junction",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taku Sushi and Ramen",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Copacabana Brazilian Steak House",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "wind Japanese Thai",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Johnny Rocco's Italian Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "VIP Korean Restaurant",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of Bombay",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sandstone Grillhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mojito House",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho My Tan Ky",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Far East Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Michinoku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lucky Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pasta Fresca",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Strada West",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Prime Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Dhaba on the Falls Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Korean Garden",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spicy Olive Bar + Grille",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Hacienda",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Michael's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delhi Chaat Corner",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Lukla Himalyan & South Indian Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Murugan Cafe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Skylon Tower",
+   "cuisines": [],
+   "address": "5200 Robinson Street, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Table Rock House Restaurant",
+   "cuisines": [],
+   "address": "6650 Niagara Parkway, L2E 6T2, Niagara Falls",
+   "website": "https://www.niagarafallstourism.com/eat/fallsview-dining/table-rock-house-restaurant/"
+  },
+  {
+   "name": "Queen Victoria Place Restaurant",
+   "cuisines": [],
+   "address": "6345 Niagara Parkway, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/culinary/queen-victoria-place-restaurant/"
+  },
+  {
+   "name": "Frontier BQQ & Smokehouse",
+   "cuisines": [],
+   "address": "6519 Stanley Avenue, L2G 7L2",
+   "website": "https://frontierniagara.com/"
+  },
+  {
+   "name": "Betty’s Restaurant",
+   "cuisines": [],
+   "address": "8921 Sodom Road, L2G0T4, Niagara Falls",
+   "website": "https://www.bettysrestaurant.com/"
+  },
+  {
+   "name": "Weinkeller",
+   "cuisines": [],
+   "address": "5633 Victoria Avenue, L2G 3L5, Niagara Falls",
+   "website": "https://www.weinkeller.ca/"
+  },
+  {
+   "name": "Zappi's Pizza & Pasta",
+   "cuisines": [],
+   "address": "6663 Stanley Avenue, L2G 3Y9, Niagara Falls",
+   "website": "https://www.zappispizza.com/"
+  },
+  {
+   "name": "Margaritaville",
+   "cuisines": [],
+   "address": "6300 Fallsview Boulevard, Niagara Falls",
+   "website": "https://www.margaritavilleniagara.ca"
+  },
+  {
+   "name": "Whirlpool Restaurant",
+   "cuisines": [],
+   "address": "Niagara Pkwy, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/culinary/whirlpool-restaurant/"
+  },
+  {
+   "name": "Family Restaurant",
+   "cuisines": [],
+   "address": "4945 Clifton Hill",
+   "website": ""
+  },
+  {
+   "name": "Basell's Restaurant and Tavern",
+   "cuisines": [],
+   "address": "4880 Victoria Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Italian ice cream",
+   "cuisines": [],
+   "address": "5458 Victoria Avenue, L2G 3L2",
+   "website": ""
+  },
+  {
+   "name": "Potato Jackets",
+   "cuisines": [],
+   "address": "5444 Stanley Avenue, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Sammy's Pizzeria",
+   "cuisines": [],
+   "address": "1400 Hyde Park Boulevard, NY 14305",
+   "website": ""
+  },
+  {
+   "name": "The Regal Diner",
+   "cuisines": [],
+   "address": "5924 Main Street, Niagara Falls",
+   "website": ""
+  },
+  {
+   "name": "Joe&Laurie's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taki japanese restaurant",
+   "cuisines": [],
+   "address": "5500 Victoria Avenue",
+   "website": ""
+  },
+  {
+   "name": "Shooks A Taste of Jamaica",
+   "cuisines": [],
+   "address": "5983 Clark Avenue",
+   "website": ""
+  },
+  {
+   "name": "Taps on Queen",
+   "cuisines": [],
+   "address": "4680 Queen Street",
+   "website": ""
+  },
+  {
+   "name": "The Blind Pig Niagara",
+   "cuisines": [],
+   "address": "6689 Lundys Lane",
+   "website": ""
+  },
+  {
+   "name": "Noodle Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Royal Paan",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Boathouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Four Brothers Cucina Truly Authentic Italian",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Prospect Point",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cocos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chu's Dining Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Remingtons of Niagara",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grand Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Flour Mill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Falls Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Desi Road - Niagara Falls",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gabriele's Hungarian Style Cabbage Rolls & More",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rajdhani Sweets and Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Secret Garden Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "D Spot Dessert Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casablanca Shisha",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Paramount",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Backyard BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Original Clancy’s Sports Bar & Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lutong Pinoy",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cat's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "John's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sky Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dueger's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koban's Food & Drink",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diner on the Lane",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Syndicate Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mick & Angelo's eatery & bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eastern Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blue Falls Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "B-jays Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Riverside Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "AG Inspired Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Reds Kitchen and Wine Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mister M's Pizza and Wings",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hyde Park Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chubbies Jamaican Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kothu Labs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Niagara Parks Power Station",
+   "kind": "museum",
+   "address": "7005 Niagara Parkway, L2E 6T2, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/attractions/niagara-parks-power-station",
+   "phone": "+1 877 642 7275",
+   "latitude": 43.0745103,
+   "longitude": -79.0788203
+  },
+  {
+   "name": "Bird Kingdom",
+   "kind": "attraction",
+   "address": "5651 River Road, L2E 7M7, Niagara Falls",
+   "website": "https://www.birdkingdom.ca/",
+   "phone": "+1-905-356-8888",
+   "latitude": 43.092644,
+   "longitude": -79.0687493
+  },
+  {
+   "name": "The Niagara SkyWheel",
+   "kind": "attraction",
+   "address": "4950 Clifton Hill, L2G 3N4, Niagara Falls",
+   "website": "https://www.cliftonhill.com/attractions/niagara-skywheel",
+   "phone": "+1-905-358-4793",
+   "latitude": 43.0907856,
+   "longitude": -79.0755179
+  },
+  {
+   "name": "Whirlpool Aero Car",
+   "kind": "attraction",
+   "address": "3850 Niagara Parkway, Niagara Falls",
+   "website": "http://www.niagaraparks.com/niagara-falls-attractions/whirlpool-aero-car.html",
+   "phone": "+1 877-642-7275",
+   "latitude": 43.1180207,
+   "longitude": -79.0688194
+  },
+  {
+   "name": "Aquarium of Niagara",
+   "kind": "aquarium",
+   "address": "701 Whirlpool Street, 14301, Niagara Falls",
+   "website": "https://aquariumofniagara.org",
+   "phone": "",
+   "latitude": 43.0943275,
+   "longitude": -79.0601487
+  },
+  {
+   "name": "Niagara Falls History Museum",
+   "kind": "museum",
+   "address": "5810 Ferry Street, L2G 1S9, Niagara Falls",
+   "website": "https://niagarafallsmuseums.ca/",
+   "phone": "+1-905-358-5082",
+   "latitude": 43.0893437,
+   "longitude": -79.0913631
+  },
+  {
+   "name": "Incline Railway",
+   "kind": "viewpoint",
+   "address": "Portage Road, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/attractions/falls-incline-railway/",
+   "phone": "",
+   "latitude": 43.079518,
+   "longitude": -79.0807913
+  },
+  {
+   "name": "Maid of the Mist",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.maidofthemist.com",
+   "phone": "",
+   "latitude": 43.0875055,
+   "longitude": -79.0690298
+  },
+  {
+   "name": "Movieland Wax Museum of Stars",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cliftonhill.com/attractions/movieland-wax-museum-stars",
+   "phone": "",
+   "latitude": 43.0909474,
+   "longitude": -79.07398
+  },
+  {
+   "name": "Great Lakes 360",
+   "kind": "aquarium",
+   "address": "",
+   "website": "https://aquariumofniagara.org/greatlakes360/",
+   "phone": "",
+   "latitude": 43.0934981,
+   "longitude": -79.0621901
+  },
+  {
+   "name": "Skylon Tower",
+   "kind": "viewpoint",
+   "address": "5200 Robinson Street, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0851379,
+   "longitude": -79.0796926
+  },
+  {
+   "name": "Horseshoe Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0783958,
+   "longitude": -79.0757835
+  },
+  {
+   "name": "Former Native American Center for the Living Arts",
+   "kind": "attraction",
+   "address": "25 Rainbow Boulevard, 14303, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0848888,
+   "longitude": -79.0628848
+  },
+  {
+   "name": "American Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0848389,
+   "longitude": -79.0700339
+  },
+  {
+   "name": "Prospect Point Observation Tower",
+   "kind": "attraction",
+   "address": "Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0869371,
+   "longitude": -79.0688057
+  },
+  {
+   "name": "Bridal Veil Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0835806,
+   "longitude": -79.0708357
+  },
+  {
+   "name": "Whirlpool Rapids",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1207823,
+   "longitude": -79.0703945
+  },
+  {
+   "name": "Niagara Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0813893,
+   "longitude": -79.0736276
+  },
+  {
+   "name": "Dragon Mountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0614521,
+   "longitude": -79.0787129
+  },
+  {
+   "name": "Clifton Hill",
+   "kind": "attraction",
+   "address": "Clifton Hill, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0914486,
+   "longitude": -79.0748968
+  },
+  {
+   "name": "Terrapin Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0800772,
+   "longitude": -79.074433
+  },
+  {
+   "name": "Niagara Falls Underground Railroad Heritage Center",
+   "kind": "museum",
+   "address": "2245 Whirlpool Street, 14305, Niagara Falls",
+   "website": "https://www.niagarafallsundergroundrailroad.org/",
+   "phone": "",
+   "latitude": 43.109771,
+   "longitude": -79.0555849
+  },
+  {
+   "name": "Castellani Art Museum",
+   "kind": "museum",
+   "address": "7 Varsity Drive, 14109, Niagara University",
+   "website": "https://castellaniartmuseum.org/",
+   "phone": "",
+   "latitude": 43.137264,
+   "longitude": -79.0366405
+  },
+  {
+   "name": "Niagara City Cruises",
+   "kind": "attraction",
+   "address": "5920 Niagara Parkway, Niagara Falls",
+   "website": "https://www.cityexperiences.com/niagara-ca/city-cruises/niagara/",
+   "phone": "+1-855-264-2427",
+   "latitude": 43.0874868,
+   "longitude": -79.072122
+  },
+  {
+   "name": "Mackenzie Printery & Newspaper Museum",
+   "kind": "museum",
+   "address": "1 Queenston Street, L0S 1L0, Queenston",
+   "website": "https://www.niagaraparks.com/visit/heritage/mackenzie-printery/",
+   "phone": "+1-905-262-5676",
+   "latitude": 43.1622239,
+   "longitude": -79.0537159
+  },
+  {
+   "name": "Butterfly Conservatory",
+   "kind": "attraction",
+   "address": "2565 Niagara Parkway, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/attractions/butterfly-conservatory/",
+   "phone": "+1-905-358-0025",
+   "latitude": 43.1371056,
+   "longitude": -79.0555436
+  },
+  {
+   "name": "White Water Walk",
+   "kind": "attraction",
+   "address": "4430 River Road, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/attractions/white-water-walk/",
+   "phone": "+1-905-374-1221",
+   "latitude": 43.1110199,
+   "longitude": -79.0604469
+  },
+  {
+   "name": "Angelo Rossi Galleria and Studio",
+   "kind": "gallery",
+   "address": "5200 Robinson St, L2G 2A3, Niagara Falls",
+   "website": "https://www.angelorossi.ca/",
+   "phone": "+1-905-354-1200",
+   "latitude": 43.0848904,
+   "longitude": -79.0797525
+  },
+  {
+   "name": "International Boundary Line",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.internationalboundarycommission.org/",
+   "phone": "",
+   "latitude": 43.0901061,
+   "longitude": -79.0677809
+  },
+  {
+   "name": "Floral Clock",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.niagaraparks.com/visit/nature-garden/floral-clock/",
+   "phone": "",
+   "latitude": 43.1494451,
+   "longitude": -79.0472889
+  },
+  {
+   "name": "Artpark Gallery",
+   "kind": "gallery",
+   "address": "450 South 4th Street, 14092, Lewiston",
+   "website": "https://www.artpark.net/content/pages/art-gallery",
+   "phone": "",
+   "latitude": 43.1656452,
+   "longitude": -79.0459546
+  },
+  {
+   "name": "Whirlpool Jetboat Tours",
+   "kind": "attraction",
+   "address": "115 South Water Street, 14092, Lewiston",
+   "website": "https://whirlpooljet.com/",
+   "phone": "",
+   "latitude": 43.1726809,
+   "longitude": -79.0490805
+  },
+  {
+   "name": "The Butterfly Gallery",
+   "kind": "gallery",
+   "address": "4438 Queen Street, L2E 2L3, Niagara Falls",
+   "website": "http://www.butterflygallery.ca/",
+   "phone": "+1-905-354-3204",
+   "latitude": 43.1065093,
+   "longitude": -79.0663558
+  },
+  {
+   "name": "Riverbrink Art Museum",
+   "kind": "gallery",
+   "address": "116 Queenston Street, L0S 1L0, Queenston",
+   "website": "http://riverbrink.org/",
+   "phone": "+1-905-262-4510",
+   "latitude": 43.1617263,
+   "longitude": -79.0556002
+  },
+  {
+   "name": "Great Wolf Lodge",
+   "kind": "theme park",
+   "address": "3950 Victoria Avenue, L2E 7M8, Niagara Falls",
+   "website": "https://www.greatwolf.com/niagara",
+   "phone": "+1-905-354-4888",
+   "latitude": 43.1164289,
+   "longitude": -79.0705991
+  },
+  {
+   "name": "Floral Clock and Lilac Grove",
+   "kind": "attraction",
+   "address": "14004 Niagara Pkwy, L0S 1L0, Queenston",
+   "website": "https://www.niagaraparks.com/visit/nature-garden/floral-clock/",
+   "phone": "+1-905-357-2411",
+   "latitude": 43.1495089,
+   "longitude": -79.0472271
+  },
+  {
+   "name": "Niagara Parks Botanical Gardens",
+   "kind": "attraction",
+   "address": "2565 Niagara Parkway, L2E 2S7, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/nature-garden/botanical-gardens-2/",
+   "phone": "+1-905-356-8119",
+   "latitude": 43.1363495,
+   "longitude": -79.0548954
+  },
+  {
+   "name": "Oakes Garden Theatre",
+   "kind": "attraction",
+   "address": "5825 River Road, L2G 3K9, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/nature-garden/oakes-garden-theatre/",
+   "phone": "+1-877-642-7275",
+   "latitude": 43.0904069,
+   "longitude": -79.0721049
+  },
+  {
+   "name": "Battle Ground Hotel Museum",
+   "kind": "museum",
+   "address": "6151 Lundys Lane",
+   "website": "https://nfexchange.ca/museum/visit-the-niagara-falls-museums/battle-ground-hotel-museum",
+   "phone": "",
+   "latitude": 43.0897536,
+   "longitude": -79.0966174
+  },
+  {
+   "name": "Niagara’s Fury",
+   "kind": "attraction",
+   "address": "6650 Niagara Parkway, Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/attractions/niagaras-fury/",
+   "phone": "+1-905-358-3268",
+   "latitude": 43.0793363,
+   "longitude": -79.0791993
+  },
+  {
+   "name": "Floral Showhouse",
+   "kind": "attraction",
+   "address": "Niagara Falls",
+   "website": "https://www.niagaraparks.com/visit/nature-garden/floral-showhouse/",
+   "phone": "+1-905-354-1721",
+   "latitude": 43.0724852,
+   "longitude": -79.0768387
+  },
+  {
+   "name": "Gizmos Wax Hands",
+   "kind": "attraction",
+   "address": "4950 Clifton Hill, Niagara Falls",
+   "website": "https://cliftonhill.com/shopping/wax-hands",
+   "phone": "",
+   "latitude": 43.0912681,
+   "longitude": -79.0753606
+  },
+  {
+   "name": "Niagara Speedway",
+   "kind": "attraction",
+   "address": "4960 Clifton Hill, L2G 3N4, Niagara Falls",
+   "website": "https://www.cliftonhill.com/attractions/niagara-speedway",
+   "phone": "",
+   "latitude": 43.090907,
+   "longitude": -79.0767665
+  },
+  {
+   "name": "Adventure City",
+   "kind": "attraction",
+   "address": "5685 Falls Avenue, L2G 7T5, Niagara Falls,",
+   "website": "https://fallsavenueresort.com/attractions/adventure-city/",
+   "phone": "+1-905-374-4446x4958",
+   "latitude": 43.0922688,
+   "longitude": -79.0715749
+  },
+  {
+   "name": "Carnival Chaos Hyper Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.cliftonhill.com/attractions/carnival-chaos",
+   "phone": "",
+   "latitude": 43.0910032,
+   "longitude": -79.0763848
+  },
+  {
+   "name": "Louis Tussaud's Waxworks",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.ripleys.com/niagarafalls/louis-tussauds-waxworks/",
+   "phone": "",
+   "latitude": 43.0924064,
+   "longitude": -79.0758087
+  },
+  {
+   "name": "Charlotte Johnson Dett",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://ncwhs.org/votes-for-women-trail/",
+   "phone": "",
+   "latitude": 43.0861897,
+   "longitude": -79.060357
+  },
+  {
+   "name": "Votes for Women",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://ncwhs.org/votes-for-women-trail/",
+   "phone": "",
+   "latitude": 43.0825395,
+   "longitude": -79.0574544
+  },
+  {
+   "name": "Ripley's Odditorium",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.ripleys.com/niagarafalls/ripleys-believe-it-or-not/",
+   "phone": "+1-905-356-2238",
+   "latitude": 43.0916072,
+   "longitude": -79.0757436
+  },
+  {
+   "name": "Niagara Military Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://nmm.life",
+   "phone": "",
+   "latitude": 43.1011364,
+   "longitude": -79.0737514
+  },
+  {
+   "name": "Wizard's Indoor Golf",
+   "kind": "attraction",
+   "address": "4960 Clifton Hill",
+   "website": "https://www.cliftonhill.com/attractions/wizards-golf-glow-dark-mini-putt",
+   "phone": "",
+   "latitude": 43.0914675,
+   "longitude": -79.0754915
+  },
+  {
+   "name": "Frank'N Coaster",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.houseoffrankenstein.ca/",
+   "phone": "",
+   "latitude": 43.0919196,
+   "longitude": -79.0755437
+  },
+  {
+   "name": "House of Frankenstein",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.houseoffrankenstein.ca/",
+   "phone": "",
+   "latitude": 43.0918628,
+   "longitude": -79.0755987
+  },
+  {
+   "name": "Lewiston History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://historiclewiston.org/",
+   "phone": "",
+   "latitude": 43.1718163,
+   "longitude": -79.0423851
+  },
+  {
+   "name": "The Tunnel at Niagara Parks Power Station",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.niagaraparks.com/visit/attractions/niagara-parks-power-station/the-tunnel-niagara-falls",
+   "phone": "",
+   "latitude": 43.0751394,
+   "longitude": -79.0793364
+  },
+  {
+   "name": "Hornblower Niagara Cruises",
+   "kind": "attraction",
+   "address": "5920 Niagara Parkway, L2G 3K9, Niagara Falls",
+   "website": "",
+   "phone": "+1-855-264-2427;+1-905-394-3030",
+   "latitude": 43.0878703,
+   "longitude": -79.0729674
+  },
+  {
+   "name": "Dexter Jerauld House",
+   "kind": "attraction",
+   "address": "1st Street, 14303, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0841719,
+   "longitude": -79.0623164
+  },
+  {
+   "name": "Old Falls Street Piano",
+   "kind": "attraction",
+   "address": "Old Falls Street, 14303, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0859929,
+   "longitude": -79.0627322
+  },
+  {
+   "name": "Journey Behind the Falls",
+   "kind": "attraction",
+   "address": "6650 Niagara Parkway, Niagara Falls",
+   "website": "",
+   "phone": "+1-905-354-1551",
+   "latitude": 43.079516,
+   "longitude": -79.0790822
+  },
+  {
+   "name": "The Evel Knievel Daredevil Museum",
+   "kind": "museum",
+   "address": "4602 Victoria Avenue, L2E 4B7, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1074612,
+   "longitude": -79.0729838
+  },
+  {
+   "name": "Prospect Point Park Observation Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0868272,
+   "longitude": -79.0685932
+  },
+  {
+   "name": "Thompson Point",
+   "kind": "attraction",
+   "address": "3500 Niagara Parkway, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1240761,
+   "longitude": -79.0685208
+  },
+  {
+   "name": "Schoellkopf Power Plant Ruins",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.092804,
+   "longitude": -79.0628314
+  },
+  {
+   "name": "Rock Legends Wax Museum",
+   "kind": "museum",
+   "address": "5020 Centre Street",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0921539,
+   "longitude": -79.0767055
+  },
+  {
+   "name": "Maid of the Mist (American side)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0874914,
+   "longitude": -79.069
+  },
+  {
+   "name": "Sir Isaac Brock monument",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1601369,
+   "longitude": -79.0530437
+  },
+  {
+   "name": "Table Rock Welcome Centre",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0789631,
+   "longitude": -79.0781612
+  },
+  {
+   "name": "Niagara Falls Jade Museum",
+   "kind": "museum",
+   "address": "4694 Morrison Street, Niagara Falls",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1043991,
+   "longitude": -79.071174
+  },
+  {
+   "name": "Sir Adam Beck Power Stations",
+   "kind": "museum",
+   "address": "14000 Niagara Parkway",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1473536,
+   "longitude": -79.0455302
+  },
+  {
+   "name": "Niagara Power Vista",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1403006,
+   "longitude": -79.0397451
+  },
+  {
+   "name": "Upside Down House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0922874,
+   "longitude": -79.0748379
+  },
+  {
+   "name": "Whirlpool Adventure Course",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1236124,
+   "longitude": -79.0683725
+  },
+  {
+   "name": "lookout of falls",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0776263,
+   "longitude": -79.0819716
+  },
+  {
+   "name": "Zipline To The Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0887933,
+   "longitude": -79.0735463
+  },
+  {
+   "name": "Skywheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0907977,
+   "longitude": -79.0755419
+  },
+  {
+   "name": "Duck blind",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0578966,
+   "longitude": -78.9858637
+  },
+  {
+   "name": "Niagara's 200 FT Drop",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0911679,
+   "longitude": -79.073576
+  },
+  {
+   "name": "Niagara Wax Museum of History",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0863441,
+   "longitude": -79.0642558
+  },
+  {
+   "name": "Geologic Past overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0976103,
+   "longitude": -79.0608051
+  },
+  {
+   "name": "Industrial Heritage overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0959368,
+   "longitude": -79.0611524
+  },
+  {
+   "name": "Cave of the Winds",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0836513,
+   "longitude": -79.0712798
+  },
+  {
+   "name": "East Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0579388,
+   "longitude": -78.9861355
+  },
+  {
+   "name": "Eagle Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0529734,
+   "longitude": -78.9976914
+  },
+  {
+   "name": "Nightmares",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0933544,
+   "longitude": -79.0742599
+  },
+  {
+   "name": "Haunted House of Wax",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0858398,
+   "longitude": -79.0632781
+  },
+  {
+   "name": "Thunder Theater",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0867421,
+   "longitude": -79.0639471
+  },
+  {
+   "name": "One Niagara Welcome Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0874461,
+   "longitude": -79.0641361
+  },
+  {
+   "name": "Prospect Point",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0861437,
+   "longitude": -79.0696978
+  },
+  {
+   "name": "Mystery Maze",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0919263,
+   "longitude": -79.0749099
+  },
+  {
+   "name": "The Crystal Cave",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0918858,
+   "longitude": -79.0754677
+  },
+  {
+   "name": "Sydney's Dock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0556649,
+   "longitude": -79.1362286
+  },
+  {
+   "name": "Turtle Pond",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0549575,
+   "longitude": -79.1342816
+  },
+  {
+   "name": "The Haunted House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0912464,
+   "longitude": -79.0742039
+  },
+  {
+   "name": "The V Boulder",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1281757,
+   "longitude": -79.0590915
+  },
+  {
+   "name": "Balancing Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1277307,
+   "longitude": -79.0575809
+  },
+  {
+   "name": "Immaculate Boulder",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1279496,
+   "longitude": -79.058469
+  },
+  {
+   "name": "Locomotive Boulders",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1278294,
+   "longitude": -79.0578608
+  },
+  {
+   "name": "Knee Bar Boulder",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.127429,
+   "longitude": -79.0583978
+  },
+  {
+   "name": "Super Flywall",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1285012,
+   "longitude": -79.0578045
+  },
+  {
+   "name": "Birthday Boulders",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1283436,
+   "longitude": -79.0570618
+  }
+ ]
+}

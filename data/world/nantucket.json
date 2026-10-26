@@ -1,0 +1,272 @@
+{
+ "city": "Nantucket",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.2846,
+ "longitude": -70.0918,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Periwinkle Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9 North Water Street, Nantucket",
+   "url": "https://periwinklenantucket.com"
+  },
+  {
+   "name": "Brass Lantern Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11 North Water Street, Nantucket",
+   "url": "https://brasslanternnantucket.com"
+  },
+  {
+   "name": "Hawthorn House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sandbar",
+   "cuisines": [
+    "Burger",
+    "Chicken",
+    "Sandwich",
+    "American"
+   ],
+   "address": "4 Bathing Beach Road, Nantucket",
+   "website": "https://jettiessandbar.com/"
+  },
+  {
+   "name": "Easy Street Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2 Broad Street, 02554, Nantucket",
+   "website": ""
+  },
+  {
+   "name": "Cisco Brewers",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.ciscobrewers.com/"
+  },
+  {
+   "name": "Straight Wharf",
+   "cuisines": [],
+   "address": "",
+   "website": "http://straightwharfrestaurant.com"
+  },
+  {
+   "name": "B-ACK Yard BBQ",
+   "cuisines": [],
+   "address": "20 Straight Wharf, 02554, Nantucket",
+   "website": ""
+  },
+  {
+   "name": "Brotherhood of Thieves",
+   "cuisines": [],
+   "address": "23 Broad Street, 02554, Nantucket",
+   "website": ""
+  },
+  {
+   "name": "The Tavern",
+   "cuisines": [],
+   "address": "4 Harbor Square, 02554",
+   "website": ""
+  },
+  {
+   "name": "The Club Car",
+   "cuisines": [],
+   "address": "1 Main Street, 02554, Nantucket",
+   "website": ""
+  },
+  {
+   "name": "Provisions",
+   "cuisines": [],
+   "address": "3 Harbor Square",
+   "website": ""
+  },
+  {
+   "name": "Oath Craft Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cru",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Black Eyed Susan's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Island Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Oldest House",
+   "kind": "museum",
+   "address": "16 Sunset Hill Lane, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/oldest-house/",
+   "phone": "",
+   "latitude": 41.2879698,
+   "longitude": -70.1064451
+  },
+  {
+   "name": "Nantucket Shipwreck & Lifesaving Museum",
+   "kind": "museum",
+   "address": "158 Polpis Road, Nantucket",
+   "website": "https://eganmaritime.org/shipwreck-lifesaving-museum",
+   "phone": "",
+   "latitude": 41.2911694,
+   "longitude": -70.0448043
+  },
+  {
+   "name": "Maria Mitchell Aquarium",
+   "kind": "aquarium",
+   "address": "28 Washington Street, Nantucket",
+   "website": "https://www.mariamitchell.org/aquarium",
+   "phone": "",
+   "latitude": 41.2818779,
+   "longitude": -70.0958712
+  },
+  {
+   "name": "Old Gaol",
+   "kind": "museum",
+   "address": "15R Vestal Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/old-gaol/",
+   "phone": "",
+   "latitude": 41.280992,
+   "longitude": -70.106286
+  },
+  {
+   "name": "Nantucket Whaling Museum",
+   "kind": "museum",
+   "address": "15 Broad Street, Nantucket",
+   "website": "",
+   "phone": "",
+   "latitude": 41.285531,
+   "longitude": -70.0989084
+  },
+  {
+   "name": "Fire Hose Cart House",
+   "kind": "museum",
+   "address": "8 Gardner Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/fire-hose-cart-house/",
+   "phone": "",
+   "latitude": 41.2818142,
+   "longitude": -70.103583
+  },
+  {
+   "name": "Greater Light",
+   "kind": "museum",
+   "address": "8 Howard Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/greater-light/",
+   "phone": "",
+   "latitude": 41.282003,
+   "longitude": -70.1040926
+  },
+  {
+   "name": "Maria Mitchell Natural Science Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.mariamitchell.org/natural-science-museum",
+   "phone": "",
+   "latitude": 41.2802908,
+   "longitude": -70.1039375
+  },
+  {
+   "name": "Quaker Meeting House",
+   "kind": "museum",
+   "address": "7 Fair Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/quaker-meeting-house/",
+   "phone": "",
+   "latitude": 41.2821656,
+   "longitude": -70.099936
+  },
+  {
+   "name": "Hadwen House",
+   "kind": "museum",
+   "address": "96 Main Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/hadwen-house/",
+   "phone": "",
+   "latitude": 41.2814315,
+   "longitude": -70.1022667
+  },
+  {
+   "name": "Thomas Macy House",
+   "kind": "museum",
+   "address": "99 Main Street, Nantucket",
+   "website": "https://nha.org/visit/historic-sites/thomas-macy-house/",
+   "phone": "",
+   "latitude": 41.2815144,
+   "longitude": -70.1028882
+  },
+  {
+   "name": "Historic Mitchell House",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.mariamitchell.org/historic-mitchell-house",
+   "phone": "",
+   "latitude": 41.2805516,
+   "longitude": -70.1042406
+  },
+  {
+   "name": "Museum of African American History",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.maah.org/",
+   "phone": "",
+   "latitude": 41.277471,
+   "longitude": -70.0983057
+  },
+  {
+   "name": "Peter Foulger Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2856785,
+   "longitude": -70.0997383
+  },
+  {
+   "name": "First Congregational Church Bell Tower Climb",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.2860412,
+   "longitude": -70.1018052
+  }
+ ]
+}

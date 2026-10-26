@@ -1,0 +1,932 @@
+{
+ "city": "Fort Myers",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 26.6372,
+ "longitude": -81.8698,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "La Quinta Inn Fort Myers Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4850 Cleveland Avenue, 33907, Fort Myers",
+   "url": "https://www.wyndhamhotels.com/laquinta/fort-myers-florida/la-quinta-inn-fort-myers-central/overview"
+  },
+  {
+   "name": "Hyatt Place Fort Myers/At The Forum",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2600 Champion Ring Road, 33905, Fort Myers",
+   "url": "https://www.hyatt.com/en-us/hotel/florida/hyatt-place-fort-myers-at-the-forum/rswzf"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Fort Myers- The Forum",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3427 Forum Boulevard, 33905, Fort Myers",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-myers/fmycb/hoteldetail"
+  },
+  {
+   "name": "Super 8 Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2717 Colonial Boulevard, 33907, Fort Myers",
+   "url": "https://www.wyndhamhotels.com/super-8/fort-myers-florida/super-8-fort-myers/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Fort Myers - Colonial Blvd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4350 Executive Circle, 33916, Fort Myers",
+   "url": "https://www.hilton.com/en/hotels/fmyclhx-hampton-suites-fort-myers-colonial-blvd/"
+  },
+  {
+   "name": "Fairfield by Marriott Inn & Suites Cape Coral/North Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1701 Old Pondella Road, 33909, Cape Coral",
+   "url": "https://www.marriott.com/rswfm"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4760 South Cleveland Avenue, 33907, Fort Myers",
+   "url": "https://www.choicehotels.com/florida/fort-myers/suburban-hotels"
+  },
+  {
+   "name": "Residence Inn Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2960 Colonial Boulevard, 33966, Fort Myers",
+   "url": "https://www.marriott.com/rswri"
+  },
+  {
+   "name": "Courtyard by Marriott Fort Myers Cape Coral",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4455 Metro Parkway, 33916, Fort Myers",
+   "url": "https://www.marriott.com/rswch"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4333 Ford Street, 33916, Fort Myers",
+   "url": "https://www.hilton.com/en/hotels/rswftht-home2-suites-fort-myers-colonial-blvd/"
+  },
+  {
+   "name": "Best Western Fort Myers Waterfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "13021 North Cleveland Avenue, 33903, Fort Myers",
+   "url": "https://www.bestwestern.com/en_US/book/fort-myers/hotel-rooms/best-western-fort-myers-waterfront/propertyCode.10277.html"
+  },
+  {
+   "name": "Econo Lodge North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "13301 North Cleveland Avenue, 33903, North Fort Myers",
+   "url": "https://www.choicehotels.com/florida/port-charlotte/sleep-inn-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11435 South Cleveland Avenue, 33907, Fort Myers",
+   "url": "https://www.wyndhamhotels.com/days-inn/fort-myers-florida/days-inn-fort-myers-south-airport/overview"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12600 University Drive, 33907, Fort Myers",
+   "url": "https://www.hilton.com/en/hotels/tpafmgi-hilton-garden-inn-fort-myers/"
+  },
+  {
+   "name": "Comfort Inn Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4171 Boatways Road, 33905, Fort Myers",
+   "url": "https://www.choicehotels.com/florida/fort-myers/suburban-hotels"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2151 Johnson Street, 33901, Fort Myers",
+   "url": "https://www.hilton.com/en/hotels/rswfrhx-hampton-inn-fort-myers-downtown/"
+  },
+  {
+   "name": "Best Western Fort Myers Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4400 Ford Street Extension, 33916-9420, Fort Myers",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-fort-myers/best-western-fort-myers-inn-suites/propertyCode.10355.html"
+  },
+  {
+   "name": "Hotel Indigo Ft Myers Dtwn River District",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1520 Broadway, 33901, Fort Myers",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/fort-myers/fmymb/hoteldetail"
+  },
+  {
+   "name": "Comfort Suites Fort Myers East I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9455 Old Luckett Drive, 33905, Fort Myers",
+   "url": "https://www.choicehotels.com/florida/fort-myers/comfort-suites-hotels/flg72?"
+  },
+  {
+   "name": "MainStay Suites Fort Myers East I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9455 Old Luckett Drive, 33905, Fort Myers",
+   "url": "https://www.choicehotels.com/florida/fort-myers/mainstay-hotels/flg73?"
+  },
+  {
+   "name": "The Lakes at College Pointe",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9000 Colby Drive, 33919, Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Ft Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "13000 North Cleveland Avenue, 33903, North Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Fort Myers, FL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3350 Marinatown Lane, 33903, North Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Highlander Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3893 Palm Beach Boulevard, 33916, Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "El Rancho Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1441 North Tamiami Trail, 33903, North Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Luminary Hotel & Co., Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 Edwards Drive, 33901, Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Tropical Palm Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1499 North Tamiami Trail, 33903, North Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Tice Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4560 Palm Beach Boulevard, 33905, Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Villa Bonaire",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Ft Myers I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3626 Colonial Court",
+   "url": ""
+  },
+  {
+   "name": "Travellodge Fort Myers North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "13353 North Cleveland Avenue, 33903, North Fort Myers",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson Inn Fort Myers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Villa Early Sunset, Vacation, Boatrental CapeCoral Florida",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Legacy Harbour Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Suburban Extended Stay Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Fort Myers - Downtown Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Crowne Plaza Fort Myers at Bell Tower Shops",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sabal Park Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1652 North Tamiami Trail",
+   "url": ""
+  },
+  {
+   "name": "Sunny Court Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1596 North Tamiami Trail",
+   "url": ""
+  },
+  {
+   "name": "Villa Cape Florida",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Villa Summer Dream",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Golf View Motel Building 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Golf View Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sea Chest Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Palm City Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Place Ft. Myers, Florida (East)",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lakes at college pointe",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2024 West First Street, 33901, Fort Myers",
+   "website": "https://www.joescrabshack.com/"
+  },
+  {
+   "name": "Tortilleria Y Taqueria La Bamba",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1232 North Tamiami Trail, 33903, North Fort Myers",
+   "website": "https://restaurantlabamba.com"
+  },
+  {
+   "name": "Ford's Garage",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2207 First Street, 33901, Fort Myers",
+   "website": "https://fordsgarageusa.com/"
+  },
+  {
+   "name": "Rib City",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "13181 North Cleveland Avenue, 33903, North Fort Myers",
+   "website": "https://ribcity.com/"
+  },
+  {
+   "name": "India's Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "4724 South Cleveland Avenue, 33907, Fort Myers",
+   "website": "https://indiasgrills.com/"
+  },
+  {
+   "name": "10 Twenty Five",
+   "cuisines": [
+    "Burger",
+    "Sandwich",
+    "Mexican",
+    "American",
+    "Chicken",
+    "Fish And Chips",
+    "Cocktails",
+    "Craft Beer",
+    "Wine",
+    "Wings",
+    "Pasta",
+    "Dessert",
+    "Brunch"
+   ],
+   "address": "33 Patio De Leon, 33901, Fort Myers",
+   "website": "https://www.10twentyfive.net/"
+  },
+  {
+   "name": "Bruno's of Brooklyn",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2112 Second Street, 33901, Fort Myers",
+   "website": "https://www.brunosofbrooklyn.com/"
+  },
+  {
+   "name": "The Veranda",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "2122 Second Street, 33901, Fort Myers",
+   "website": "https://www.verandarestaurant.com"
+  },
+  {
+   "name": "Blu Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2262 First Street, 33901, Fort Myers",
+   "website": "https://blusushi.com/"
+  },
+  {
+   "name": "Capone's Coal Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2225 First Street, 33901, Fort Myers",
+   "website": "https://www.caponescoalfiredpizza.com/"
+  },
+  {
+   "name": "Downtown Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1520 Hendry Street, 33901, Fort Myers",
+   "website": "https://downtownhouseofpizza.com/"
+  },
+  {
+   "name": "Three Fishermen",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "13021 North Cleveland Avenue, 33903, North Fort Myers",
+   "website": "https://www.threefishermenseafood.com/"
+  },
+  {
+   "name": "Firehouse Sports Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "13121 North Cleveland Avenue, 33903, North Fort Myers",
+   "website": "https://www.firehousesportsgrill.com/"
+  },
+  {
+   "name": "Bennett's Fresh Roast",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "2011 Bayside Parkway, 33901, Fort Myers",
+   "website": "https://www.bennettsfreshroast.com/"
+  },
+  {
+   "name": "Pinchers",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2360 West First Street, 33901, Fort Myers",
+   "website": "https://www.pinchersusa.com/"
+  },
+  {
+   "name": "Siam Thai & Sushi",
+   "cuisines": [
+    "Lao",
+    "Sushi",
+    "Thai"
+   ],
+   "address": "13161 North Cleveland Avenue, 33903",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3801 Cleveland Avenue, 33901, Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "13061 North Cleveland Avenue, 33903, North Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "Twisted Vine Bistro",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "2214 Bay Street, 33901, Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "United Café Bar & Bistro",
+   "cuisines": [
+    "British"
+   ],
+   "address": "2226 First Street, Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "Steve's B",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Begonia's Restaurant",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "2215 Winkler Avenue",
+   "website": ""
+  },
+  {
+   "name": "Oxbow",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.oxbowfortmyers.com"
+  },
+  {
+   "name": "Tropical 41",
+   "cuisines": [],
+   "address": "13101 North Cleveland Avenue, 33903, North Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "The 86 Room",
+   "cuisines": [],
+   "address": "22 Patio De Leon, 33901, Fort Myers",
+   "website": ""
+  },
+  {
+   "name": "Prime De Leon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iguana Mia",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "City of Fort Myers Southwest Florida Museum of History",
+   "kind": "museum",
+   "address": "2031 Jackson Street, 33901, Fort Myers",
+   "website": "https://swflmuseumofhistory.com/",
+   "phone": "+1-239-321-7430",
+   "latitude": 26.6399971,
+   "longitude": -81.8660677
+  },
+  {
+   "name": "Edison and Ford Winter Estates",
+   "kind": "museum",
+   "address": "2350 McGregor Boulevard, 33901",
+   "website": "https://www.edisonfordwinterestates.org/",
+   "phone": "",
+   "latitude": 26.6341993,
+   "longitude": -81.8797231
+  },
+  {
+   "name": "Imaginarium Science Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://theimag.org/",
+   "phone": "",
+   "latitude": 26.6401898,
+   "longitude": -81.8588577
+  },
+  {
+   "name": "Cape Coral Historical Society Museum",
+   "kind": "museum",
+   "address": "544 Cultural Park Boulevard, 33990, Cape Coral",
+   "website": "https://capecoralmuseum.org/",
+   "phone": "",
+   "latitude": 26.6406379,
+   "longitude": -81.9592429
+  },
+  {
+   "name": "The Florida Native Butterfly Society",
+   "kind": "attraction",
+   "address": "1815-4 Fowler Street, 33901, Fort Myers",
+   "website": "https://www.thebutterflyestates.com/",
+   "phone": "+1-239-690-2359",
+   "latitude": 26.642532,
+   "longitude": -81.8628668
+  },
+  {
+   "name": "Williams Academy Black History Museum",
+   "kind": "museum",
+   "address": "1936 Henderson Avenue, 33916, Fort Myers",
+   "website": "https://leecountyblackhistorysociety.org/website/",
+   "phone": "",
+   "latitude": 26.6421834,
+   "longitude": -81.8472417
+  },
+  {
+   "name": "IMAG History & Science Center",
+   "kind": "museum",
+   "address": "2000 Cranford ave, 33916, Fort Myers",
+   "website": "https://www.theimag.org/",
+   "phone": "",
+   "latitude": 26.6404396,
+   "longitude": -81.8593708
+  },
+  {
+   "name": "Shell Factory Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.shellfactory.com/",
+   "phone": "",
+   "latitude": 26.705798,
+   "longitude": -81.897226
+  },
+  {
+   "name": "The Butterfly Estates",
+   "kind": "attraction",
+   "address": "1815 Fowler Street, 33901",
+   "website": "",
+   "phone": "",
+   "latitude": 26.6427496,
+   "longitude": -81.862995
+  },
+  {
+   "name": "Sydney Berne Davis Art Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.6447438,
+   "longitude": -81.8718367
+  },
+  {
+   "name": "Six Mile Cypress Slough",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.5706802,
+   "longitude": -81.8265356
+  },
+  {
+   "name": "Nature Walk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.6015565,
+   "longitude": -81.7816378
+  },
+  {
+   "name": "Nature walk entrence",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.5996366,
+   "longitude": -81.7825369
+  },
+  {
+   "name": "Lake Ariza",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.6728743,
+   "longitude": -81.7983287
+  }
+ ]
+}

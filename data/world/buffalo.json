@@ -1,0 +1,2297 @@
+{
+ "city": "Buffalo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.8867,
+ "longitude": -78.8723,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 Ridge Road, 14224, West Seneca",
+   "url": "https://www.hilton.com/en/hotels/bufwshx-hampton-buffalo-south-i-90/"
+  },
+  {
+   "name": "Country Inn & Suites, Buffalo South I-90",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "164 Slade Avenue, 14224, West Seneca",
+   "url": "https://www.radissonhotelsamericas.com/en-us/hotels/country-inn-buffalo-ny"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "510 Delaware Avenue, 14202, Buffalo",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-buffalo/best-western-on-the-avenue/propertyCode.33035.html"
+  },
+  {
+   "name": "University Manor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3612 Main Street, 14226, Buffalo",
+   "url": "https://universitymanorinn.com/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Lackawanna",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2500 Hamburg Turnpike, 14218, Lackawanna",
+   "url": "https://www.wyndhamhotels.com/laquinta/lackawanna-new-york/la-quinta-inn-and-suites-buffalo-outer-harbor/overview"
+  },
+  {
+   "name": "Hostel Buffalo Niagara",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "667 Main Street, 14203, Buffalo",
+   "url": "https://www.hostelbuffalo.com/"
+  },
+  {
+   "name": "Hampton Inn Buffalo-Airport/Galleria Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1745 Walden Avenue, 14225, Buffalo",
+   "url": "https://www.hilton.com/en/hotels/bufarhx-hampton-buffalo-airport-galleria-mall/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 Delaware Avenue, 14202, Buffalo",
+   "url": "https://www.marriott.com/bufrd"
+  },
+  {
+   "name": "Home2 Suites by Hilton Buffalo Airport/Galleria Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1999 Walden Avenue, 14225, Buffalo",
+   "url": "https://www.hilton.com/en/hotels/bufgmht-home2-suites-buffalo-airport-galleria-mall/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Delaware Avenue, 14202, Buffalo",
+   "url": "https://www.hilton.com/en/hotels/bufeses-embassy-suites-buffalo/"
+  },
+  {
+   "name": "Best Western Plus Galleria Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Dingens Street, 14206, Buffalo",
+   "url": "https://www.bestwestern.com/content/best-western/en_US/hotels/discover-best-western/brands/best-western-plus.html"
+  },
+  {
+   "name": "The Mansion on Delaware Avenue",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "414 Delaware Avenue, 14202, Buffalo",
+   "url": "https://mansionondelaware.com/"
+  },
+  {
+   "name": "Residence Inn Buffalo Galleria Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "107 Anderson Road, 14225, Buffalo",
+   "url": "https://www.marriott.com/bufri"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Main Street, 14203, Buffalo",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/buffalo/bufms/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 Lafayette Square, 14203, Buffalo",
+   "url": "https://www.hilton.com/en/hotels/bufmsgi-hilton-garden-inn-buffalo-downtown/"
+  },
+  {
+   "name": "Courtyard by Marriott Buffalo Downtown/Canalside",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 Main Street, 14203, Buffalo",
+   "url": "https://www.marriott.com/bufdt"
+  },
+  {
+   "name": "Holiday Inn Express Cheektowaga North East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "83 Anderson Road, 14225, Buffalo",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cheektowaga/bufgm/hoteldetail"
+  },
+  {
+   "name": "Hyatt Regency Buffalo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Fountain Plaza, 14202, Buffalo",
+   "url": "https://www.hyatt.com/en-us/hotel/new-york/hyatt-regency-buffalo-hotel-and-conference-center/buffa"
+  },
+  {
+   "name": "Elmwood Village Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "893 Elmwood Avenue, 14222, Buffalo",
+   "url": "http://www.elmwoodvillageinn.com/"
+  },
+  {
+   "name": "Clarion Hotel and Conference Centre Fort Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1485 Garrison Road, L2A 1P8, Fort Erie",
+   "url": "https://www.choicehotels.com"
+  },
+  {
+   "name": "The Richardson Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://therichardsonhotelbuffalo.com/"
+  },
+  {
+   "name": "Curtiss Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://curtisshotel.com/"
+  },
+  {
+   "name": "Foundry Suites Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://classiceventsbuffalo.com/foundry/"
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "164 Slade Avenue, 14224, West Seneca",
+   "url": ""
+  },
+  {
+   "name": "The Lofts on Pearl",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "92 Pearl Street, 14202, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Buffalo Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 High Street, 14203, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Buffalo Marriott at LECOM Harborcenter",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "95 Main Street, 14203, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Hotel at the Lafayette, Trademark Collection by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "391 Washington Street, 14203, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Near Walden Galleria Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "475 Dingens Street, 14206, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Buffalo Grand Hotel & Event Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Church Street, 14202, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Clarion Hotel & Conference Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1485 Garrison Road, L2A 1P8, Fort Erie",
+   "url": ""
+  },
+  {
+   "name": "M Hotel Buffalo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2040 Walden Avenue, 14225, Buffalo",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aloft Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Westin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lenox Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Trans Canada Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Haven Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cluck Cluck Moo Moo",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "484 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://cluckcluckmoomoobuffalo.com/"
+  },
+  {
+   "name": "Osteria 166",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "166 Franklin Street, 14202, Buffalo",
+   "website": "https://osteriabuffalo.com/"
+  },
+  {
+   "name": "Alibaba Kebab",
+   "cuisines": [
+    "Indian",
+    "Kebab",
+    "Chicken"
+   ],
+   "address": "900 William Street, 14206, Buffalo",
+   "website": "https://alibaba-kebab.com/"
+  },
+  {
+   "name": "Wasabi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "752 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.wasabi-buffalo.com/"
+  },
+  {
+   "name": "Bad Neighboors",
+   "cuisines": [
+    "Burger",
+    "Wings",
+    "Regional",
+    "Oyster"
+   ],
+   "address": "537 Main Street, 14203, Buffalo",
+   "website": "https://badneighborsbflo.com/"
+  },
+  {
+   "name": "Pizza Plant Italian Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "125 Main Street, 14203, Buffalo",
+   "website": "https://www.pizzaplant.com/"
+  },
+  {
+   "name": "Ballyhoo",
+   "cuisines": [
+    "Sausage"
+   ],
+   "address": "211 South Park Avenue, 14204, Buffalo",
+   "website": "https://www.buffaloballyhoo.com/"
+  },
+  {
+   "name": "Cafe 59",
+   "cuisines": [
+    "American"
+   ],
+   "address": "62 Allen Street, 14202, Buffalo",
+   "website": "https://www.cafe59.com/"
+  },
+  {
+   "name": "India Gate",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1116 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.indiagatebuffalony.com/"
+  },
+  {
+   "name": "Breezy Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1000 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://breezyburritobar.com/"
+  },
+  {
+   "name": "Sato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "739 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.satorestaurantgroup.com/"
+  },
+  {
+   "name": "Left Bank",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "511 Rhode Island Street, 14213, Buffalo",
+   "website": "https://www.leftbankrestaurant.com/"
+  },
+  {
+   "name": "Phở Dollar",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "322 West Ferry Street, 14213, Buffalo",
+   "website": "https://www.phodollarvietnamese.com/"
+  },
+  {
+   "name": "Casa Azul",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "191 Allen Street, 14201, Buffalo",
+   "website": "https://www.casaazulbuffalo.com/"
+  },
+  {
+   "name": "Kitchen Little",
+   "cuisines": [
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "875 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.kitchenlittlebuffalo.com/"
+  },
+  {
+   "name": "DiTondo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "370 Seneca Street, 14204, Buffalo",
+   "website": "https://www.ditondo1904.com/"
+  },
+  {
+   "name": "Coco Bar & Bistro",
+   "cuisines": [
+    "French"
+   ],
+   "address": "888 Main Street, 14202, Buffalo",
+   "website": "https://cocobuffalo.com/"
+  },
+  {
+   "name": "Gino's NY Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1009 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.ginosnypizzaelmwood.com/"
+  },
+  {
+   "name": "Vasili's Express",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1066 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://order.online/store/vasilis-express-buffalo-1638055/?hideModal=true&pickup=true"
+  },
+  {
+   "name": "Mister Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1065 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.misterpizzaelmwoodmenu.com/"
+  },
+  {
+   "name": "Bratts Hill",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "719 Seneca Street, 14210, Buffalo",
+   "website": "https://www.brattshill.com/"
+  },
+  {
+   "name": "Chef Bigwayne Jamaican Cuisine",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "242 Allen Street, 14201, Buffalo",
+   "website": "https://chefbigwayne.com/"
+  },
+  {
+   "name": "Trattoria Aroma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "307 Bryant Street, 14222, Buffalo",
+   "website": "https://www.aromabuffalo.com/"
+  },
+  {
+   "name": "Wakiki Poke and Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "914 Elmwood Avenue, 14222, Buffalo",
+   "website": "+17168824520"
+  },
+  {
+   "name": "JT’s Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "905 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.jtsbuffalo.com/"
+  },
+  {
+   "name": "Mythos",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "510 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.mythosbuffalo.com/"
+  },
+  {
+   "name": "Bella Ciao",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "200 Delaware Avenue, 14202, Buffalo",
+   "website": "https://www.bellaciaobuffalo.com/"
+  },
+  {
+   "name": "Deep South Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "14203",
+   "website": "https://deepsouthtaco.com/"
+  },
+  {
+   "name": "Happy! Tacos",
+   "cuisines": [
+    "Mexican",
+    "American"
+   ],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": "https://happyandthefoods.com/"
+  },
+  {
+   "name": "The Flaming Fish",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "535 Main Street, 14203, Buffalo",
+   "website": "https://www.theflamingfish.com/"
+  },
+  {
+   "name": "Prova",
+   "cuisines": [
+    "Breakfast",
+    "Coffee Shop"
+   ],
+   "address": "40 Fountain Plaza, 14202, Buffalo",
+   "website": "https://www.eatprova.com/"
+  },
+  {
+   "name": "Old City Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "76 Pearl Street, 14202, Buffalo",
+   "website": "https://pearlstreetgrill.com/old-city-pizza/"
+  },
+  {
+   "name": "Hong Kong Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1120 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://hongkongkitchenny.com/"
+  },
+  {
+   "name": "Inizio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "536 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.inizio716.com/"
+  },
+  {
+   "name": "Street Asian Food",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "516 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.streetasianfood.com/"
+  },
+  {
+   "name": "Teton Kitchen Elmwood",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "153 Elmwood Avenue, 14201, Buffalo",
+   "website": "https://tetonkitchen.com/"
+  },
+  {
+   "name": "Chef's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "291 Seneca Street, 14204",
+   "website": "https://ilovechefs.com/"
+  },
+  {
+   "name": "Extra Extra",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "549 West Utica Street, 14213, Buffalo",
+   "website": "https://www.extraextrapizza.com/"
+  },
+  {
+   "name": "Kuni's",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "226 Lexington Avenue, 14222, Buffalo",
+   "website": "https://kunisbuffalo.com/"
+  },
+  {
+   "name": "Vault@237",
+   "cuisines": [
+    "American"
+   ],
+   "address": "237 Main Street, 14203, Buffalo",
+   "website": "https://vault237buffalo.com/"
+  },
+  {
+   "name": "Genessee Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 Fountain Plaza, 14202, Buffalo",
+   "website": "https://www.hyatt.com/hyatt-regency/en-US/buffa-hyatt-regency-buffalo-hotel-and-conference-center/dining"
+  },
+  {
+   "name": "Bflo Pizza Bistro",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "388 Porter Avenue, 14201, Buffalo",
+   "website": "https://bflopizzabistro.square.site/"
+  },
+  {
+   "name": "Hydraulic Hearth",
+   "cuisines": [
+    "Pizza",
+    "Bar And Grill"
+   ],
+   "address": "716 Swan Street, 14210, Buffalo",
+   "website": "https://hydraulichearth.com/"
+  },
+  {
+   "name": "The Place",
+   "cuisines": [
+    "Irish"
+   ],
+   "address": "229 Lexington Avenue, 14222",
+   "website": "https://theplacebuffalo.com/"
+  },
+  {
+   "name": "Quenelle",
+   "cuisines": [
+    "French"
+   ],
+   "address": "341 Franklin Street, 14203, Buffalo",
+   "website": "https://www.quenellebuffalo.com/"
+  },
+  {
+   "name": "The Salty Chefs",
+   "cuisines": [
+    "American"
+   ],
+   "address": "111 Genesee Street, 14203, Buffalo",
+   "website": "https://thesaltychefs.com/"
+  },
+  {
+   "name": "Bada Bing",
+   "cuisines": [
+    "Burger",
+    "Grill"
+   ],
+   "address": "42 West Chippewa Street, 14202, Buffalo",
+   "website": "https://www.badabingbuffalo.com/"
+  },
+  {
+   "name": "Frankie Primo's +39",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "51 West Chippewa Street, 14202, Buffalo",
+   "website": "https://www.frankieprimos39.com/"
+  },
+  {
+   "name": "Saffron Kitchen",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "1786 Main Street, 14209, Buffalo",
+   "website": "https://saffron-kitchen716.com/"
+  },
+  {
+   "name": "Augie’s",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "346 Connecticut Street, 14213",
+   "website": "https://www.getaugies.com/"
+  },
+  {
+   "name": "Reserve Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://reservesteak.com/"
+  },
+  {
+   "name": "Angeline",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "",
+   "website": "https://angelinebuffalo.com/"
+  },
+  {
+   "name": "Taqueria Ranchos Dos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://taqueriaranchosdowntown.com/"
+  },
+  {
+   "name": "Cucina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://cucinabuffalo.com/"
+  },
+  {
+   "name": "Beulah's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1239 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Ming Teh",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "126 Niagara Boulevard, Fort Erie",
+   "website": ""
+  },
+  {
+   "name": "Bamboo Ridge",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "244 Allen Street, 14201, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Giacobbi's Cucina Citta",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "59 Allen Street",
+   "website": ""
+  },
+  {
+   "name": "La Fiesta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "73 Allen Street",
+   "website": ""
+  },
+  {
+   "name": "Aguacates Mexican Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "765 Elmwood Avenue, 14222, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "La Nova",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "357 West Ferry Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Ranchos La Delicias",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1516 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Parivaar Pub",
+   "cuisines": [
+    "Indian",
+    "Pizza"
+   ],
+   "address": "708 Elmwood Avenue, 14222, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Saigon Cafe",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "520 Elmwood Avenue, 14222, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Chinese Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "224 Elmwood Avenue, 14222, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Eggsperience Vasilis Main St",
+   "cuisines": [
+    "Greek",
+    "Breakfast"
+   ],
+   "address": "1526 Main Street, 14209, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Nai Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "302 Main Street, 14202, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Malkia & Co Congolese Crusine",
+   "cuisines": [
+    "African"
+   ],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "The Sicilian Chef",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "68 Goderich Street, Fort Erie",
+   "website": ""
+  },
+  {
+   "name": "Fat Bob's Smoke House",
+   "cuisines": [
+    "Meat",
+    "Bistro",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Liberty Hound",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "JJ's Casa-Di-Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "11 East Mohawk Street, 14203, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Vasilis Original Restaurant",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "18 Cathedral Place, 14202, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "The Zam Zam Indian Crusine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "601 Main Street, 14203, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "William's Kitchen",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "F.A.T.",
+   "cuisines": [
+    "American"
+   ],
+   "address": "253 Allen Street, 14201, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Vaticano Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "90 Niagara Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Santasiero's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1329 Niagara Street",
+   "website": ""
+  },
+  {
+   "name": "Spot Coffee",
+   "cuisines": [
+    "Sandwich",
+    "Coffee"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Jack's",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "98 Niagara Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Anchor Bar",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chuck's Roadhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K:Dara Noodle Bar",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "110 Pearl Street",
+   "website": ""
+  },
+  {
+   "name": "PAL’s Breakwall Café",
+   "cuisines": [
+    "Snack"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Daniela",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Tikka House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tappo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Barrel",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "House of China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gino & Joe's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vasilis Express",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Ditch Brewing Company",
+   "cuisines": [],
+   "address": "55 East Huron Street, 14203, Buffalo",
+   "website": "https://www.bigditchbrewing.com/"
+  },
+  {
+   "name": "Templeton Landing",
+   "cuisines": [],
+   "address": "2 Templeton Terrace, 14202, Buffalo",
+   "website": "https://www.templetonlanding.com/"
+  },
+  {
+   "name": "Sunshine Vegan Eats",
+   "cuisines": [],
+   "address": "893 Jefferson Avenue, 14204, Buffalo",
+   "website": "https://www.sunshineveganeats.com/"
+  },
+  {
+   "name": "Abyssinia Ethiopian Cuisine",
+   "cuisines": [],
+   "address": "617 Main Street, 14203, Buffalo",
+   "website": "https://internationalhousebuffalo.com/abyssinia-ethiopian/"
+  },
+  {
+   "name": "Pinoy Boi",
+   "cuisines": [],
+   "address": "617 Main Street, 14203, Buffalo",
+   "website": "https://internationalhousebuffalo.com/pinoy-boi/"
+  },
+  {
+   "name": "Strong Hearts",
+   "cuisines": [],
+   "address": "295 Niagara Street, 14201, Buffalo",
+   "website": "https://www.stronghearts716.com/"
+  },
+  {
+   "name": "Streetlight Brassserie",
+   "cuisines": [],
+   "address": "5 East Huron Street, 14203, Buffalo",
+   "website": "https://www.streetlightbrasserie.com/"
+  },
+  {
+   "name": "Panorama On Seven",
+   "cuisines": [],
+   "address": "95 Main Street, 14203, Buffalo",
+   "website": "https://www.panoramaonseven.com/"
+  },
+  {
+   "name": "Louie's Texas Red Hots",
+   "cuisines": [],
+   "address": "1096 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://louiestexasredhots.com/"
+  },
+  {
+   "name": "Jack Rabbit",
+   "cuisines": [],
+   "address": "1010 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://jackrabbitbuffalo.com/"
+  },
+  {
+   "name": "Pattaya Street Food",
+   "cuisines": [],
+   "address": "617 Main Street, 14203, Buffalo",
+   "website": "https://internationalhousebuffalo.com/pattaya/"
+  },
+  {
+   "name": "Pete's Place Food Shop",
+   "cuisines": [],
+   "address": "290 Main Street, 14202, Buffalo",
+   "website": "https://petesplacebuffalo.com/"
+  },
+  {
+   "name": "The Hatch",
+   "cuisines": [],
+   "address": "1 Harbor Line, 14202, Buffalo",
+   "website": "http://www.eriebasinmarina.org/"
+  },
+  {
+   "name": "Soiree Lounge and Grille",
+   "cuisines": [],
+   "address": "391 Washington Street, 14203, Buffalo",
+   "website": "https://soireeloungeandgrille.com/"
+  },
+  {
+   "name": "Essex St Pub",
+   "cuisines": [],
+   "address": "530 Rhode Island Street, 14213, Buffalo",
+   "website": "http://www.mackysessexstreetpub.com/"
+  },
+  {
+   "name": "Southern Junction",
+   "cuisines": [],
+   "address": "365 Connecticut Street, 14213, Buffalo",
+   "website": "https://southernjunction716.com/"
+  },
+  {
+   "name": "Konbini Buffalo",
+   "cuisines": [],
+   "address": "523 Main Street, 14203, Buffalo",
+   "website": "https://www.vintagecoffeeramen.com/konbini"
+  },
+  {
+   "name": "Elmwood Tacos and Subs",
+   "cuisines": [],
+   "address": "937 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.theets.com/"
+  },
+  {
+   "name": "Charlie's Boat Yard",
+   "cuisines": [],
+   "address": "1111 Fuhrmann Boulevard, 14203, Buffalo",
+   "website": "www.charliesboatyard.com"
+  },
+  {
+   "name": "Jim’s Steakout",
+   "cuisines": [],
+   "address": "938 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.jimssteakout.com/"
+  },
+  {
+   "name": "Iron Tail Tavern",
+   "cuisines": [],
+   "address": "802 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://irontailtavern.com/"
+  },
+  {
+   "name": "Newbury Salad & Juice Bar",
+   "cuisines": [],
+   "address": "708 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://thespace708.com/newbury/"
+  },
+  {
+   "name": "Forty Thieves",
+   "cuisines": [],
+   "address": "727 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://40thievesbuffalo.com/"
+  },
+  {
+   "name": "The Shack",
+   "cuisines": [],
+   "address": "125 Elmwood Avenue, 14201, Buffalo",
+   "website": "http://www.griddleandgreens.com/"
+  },
+  {
+   "name": "The Oakk Room",
+   "cuisines": [],
+   "address": "1435 Main Street, 14209, Buffalo",
+   "website": "https://www.theoakkroom.com/"
+  },
+  {
+   "name": "Marble + Rye",
+   "cuisines": [],
+   "address": "112 Genesee Street, 14203, Buffalo",
+   "website": "https://www.marbleandrye.net/"
+  },
+  {
+   "name": "Roseland's Atlas",
+   "cuisines": [],
+   "address": "492 Rhode Island Street, 14213, Buffalo",
+   "website": "https://roselandsatlas.com/"
+  },
+  {
+   "name": "Eddie Brady's",
+   "cuisines": [],
+   "address": "97 Genesee Street, 14203, Buffalo",
+   "website": "https://eddiebradys.com/"
+  },
+  {
+   "name": "Las Puertas",
+   "cuisines": [],
+   "address": "385 Rhode Island Street, 14213, Buffalo",
+   "website": "https://laspuertasbuffalo.com/"
+  },
+  {
+   "name": "ThaBodiCorp",
+   "cuisines": [],
+   "address": "487 Main Street, 14203, Buffalo",
+   "website": "https://www.thabodicorp.com/"
+  },
+  {
+   "name": "Evelina's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.evelinaskitchen.net/"
+  },
+  {
+   "name": "Tewksbury Lodge",
+   "cuisines": [],
+   "address": "",
+   "website": "https://buffaloriverfestpark.com/buffalo-buffalo-river-fest-park-llc-tewksbury-lodge"
+  },
+  {
+   "name": "Allen Street Hardware",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.allenstreethardware.com/"
+  },
+  {
+   "name": "Papi Grande's Waterfront and Beach Bar",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.whosyourpapi.com/waterfront"
+  },
+  {
+   "name": "Chez Ami",
+   "cuisines": [],
+   "address": "",
+   "website": "https://curtisshotel.com/chez-ami/"
+  },
+  {
+   "name": "Mira",
+   "cuisines": [],
+   "address": "1081 Elmwood Avenue, 14222, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Gabriel's Gate",
+   "cuisines": [],
+   "address": "145 Allen Street",
+   "website": ""
+  },
+  {
+   "name": "Soe's Kitchen",
+   "cuisines": [],
+   "address": "617 Main Street, 14203, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Soul Boxx",
+   "cuisines": [],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Egyptian Bites",
+   "cuisines": [],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Falafel House",
+   "cuisines": [],
+   "address": "58 Niagara Street, 14202, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Ferra's Lunch Hour",
+   "cuisines": [],
+   "address": "93 Pearl Street, 14202, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "The Rose Bar & Grill",
+   "cuisines": [],
+   "address": "199 Scott Street, 14204, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Mahoba's Kitchen",
+   "cuisines": [],
+   "address": "1432 Niagara Street, 14213, Buffalo",
+   "website": ""
+  },
+  {
+   "name": "Hombre y Lobo",
+   "cuisines": [],
+   "address": "149 Swan Street, 14203",
+   "website": ""
+  },
+  {
+   "name": "Perro & Poni",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oceans 12",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Betty's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mother's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vice Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Artemis",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Swan Street Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falley Allen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wine Thief",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Five Points Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roost",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh Catch",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Patina 250",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Ward",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo's Best Cucina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "manna Northland",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Buffalo AKG Art Museum",
+   "kind": "gallery",
+   "address": "1285 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.albrightknox.org/",
+   "phone": "+1-716-882-8700",
+   "latitude": 42.9322953,
+   "longitude": -78.8754839
+  },
+  {
+   "name": "Old Fort Erie",
+   "kind": "attraction",
+   "address": "350 Lakeshore Road, L2A 1B2, Erie",
+   "website": "https://www.niagaraparks.com/visit/heritage/old-fort-erie/",
+   "phone": "+1-905-871-0540",
+   "latitude": 42.8933212,
+   "longitude": -78.9239798
+  },
+  {
+   "name": "Buffalo Fire Museum",
+   "kind": "museum",
+   "address": "1850 William Street, 14206, Buffalo",
+   "website": "https://bfhsmuseum.com/",
+   "phone": "",
+   "latitude": 42.8850032,
+   "longitude": -78.8022663
+  },
+  {
+   "name": "Darwin D. Martin House",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.darwinmartinhouse.org/",
+   "phone": "",
+   "latitude": 42.936123,
+   "longitude": -78.8480595
+  },
+  {
+   "name": "Burchfield Penney Art Center",
+   "kind": "gallery",
+   "address": "1300 Elmwood Avenue, 14222, Buffalo",
+   "website": "https://www.burchfieldpenney.org/",
+   "phone": "+1-716-878-6011",
+   "latitude": 42.9314107,
+   "longitude": -78.8779648
+  },
+  {
+   "name": "Theodore Roosevelt Inaugural National Historic Site",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.nps.gov/thri/index.htm",
+   "phone": "",
+   "latitude": 42.9015679,
+   "longitude": -78.8726259
+  },
+  {
+   "name": "USS Croaker",
+   "kind": "attraction",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8781486,
+   "longitude": -78.88158
+  },
+  {
+   "name": "USS The Sullivans",
+   "kind": "attraction",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8776027,
+   "longitude": -78.8804816
+  },
+  {
+   "name": "USS Little Rock",
+   "kind": "attraction",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8776298,
+   "longitude": -78.8809471
+  },
+  {
+   "name": "Buffalo Museum of Science",
+   "kind": "museum",
+   "address": "1 Martin Luther King Jr Parkway, 14211, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.906207,
+   "longitude": -78.8433984
+  },
+  {
+   "name": "disAbility museum",
+   "kind": "museum",
+   "address": "3826 Main Street, 14226, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9621541,
+   "longitude": -78.8079697
+  },
+  {
+   "name": "Explore & More Children's Museum",
+   "kind": "museum",
+   "address": "130 Main Street, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8778796,
+   "longitude": -78.8781258
+  },
+  {
+   "name": "USS Grenadier (SS210)",
+   "kind": "attraction",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.878138,
+   "longitude": -78.8812288
+  },
+  {
+   "name": "Buffalo and Erie County Historical Society",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9353985,
+   "longitude": -78.8762781
+  },
+  {
+   "name": "Kleinhans Music Hall",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9017424,
+   "longitude": -78.8833996
+  },
+  {
+   "name": "Buffalo Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9386914,
+   "longitude": -78.8532783
+  },
+  {
+   "name": "Buffalo and Erie County Naval & Military Park Museum",
+   "kind": "museum",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "https://buffalonavalpark.org/",
+   "phone": "",
+   "latitude": 42.8773963,
+   "longitude": -78.8796658
+  },
+  {
+   "name": "Buffalo and Erie County Botanical Gardens",
+   "kind": "attraction",
+   "address": "2655 South Park Avenue, 14218, Buffalo",
+   "website": "https://www.buffalogardens.com",
+   "phone": "+1-716-827-1584",
+   "latitude": 42.828116,
+   "longitude": -78.8258685
+  },
+  {
+   "name": "Buffalo Transportation Pierce Arrow Museum",
+   "kind": "museum",
+   "address": "263 Michigan Avenue, 14203, Buffalo",
+   "website": "https://www.pierce-arrow.com/",
+   "phone": "",
+   "latitude": 42.8790314,
+   "longitude": -78.8688459
+  },
+  {
+   "name": "Albright-Knox Northland",
+   "kind": "gallery",
+   "address": "612 Norhtland Avenue, 14211, Buffalo",
+   "website": "https://www.albrightknox.org/community/northland",
+   "phone": "+1-716-882-8700",
+   "latitude": 42.91946,
+   "longitude": -78.8372287
+  },
+  {
+   "name": "Atrium 124 Art Gallery",
+   "kind": "gallery",
+   "address": "124 Elmwood Avenue, 14201, Buffalo",
+   "website": "https://atrium124artgallery.org/",
+   "phone": "+1-716-631-5777 x306",
+   "latitude": 42.900382,
+   "longitude": -78.8774839
+  },
+  {
+   "name": "North Hall - The Karpeles Manuscript Library Museum",
+   "kind": "museum",
+   "address": "220 North Street, 14201, Buffalo",
+   "website": "https://www.karpeles.com/visit/buffalo-new-york/",
+   "phone": "+1-716-885-1986",
+   "latitude": 42.9019016,
+   "longitude": -78.8774669
+  },
+  {
+   "name": "Buffalo Harbor Museum",
+   "kind": "museum",
+   "address": "66 Erie Street, 14202, Buffalo",
+   "website": "https://www.llmhs.org/",
+   "phone": "",
+   "latitude": 42.8818249,
+   "longitude": -78.8776628
+  },
+  {
+   "name": "International Boundary Line",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.internationalboundarycommission.org/",
+   "phone": "",
+   "latitude": 42.9069052,
+   "longitude": -78.9059897
+  },
+  {
+   "name": "UB Anderson Art Gallery",
+   "kind": "gallery",
+   "address": "1 Martha Jackson Place, 14214, Buffalo",
+   "website": "https://www.buffalo.edu/art-galleries/visit.html#anderson-gallery",
+   "phone": "+1-716-829-3754",
+   "latitude": 42.9570324,
+   "longitude": -78.8296103
+  },
+  {
+   "name": "Fort Erie Railroad Museum",
+   "kind": "museum",
+   "address": "400 Central Ave, L2A 3T6, Fort Erie",
+   "website": "https://www.forterie.ca/WebSite/webTOFE.nsf/contentPage.xsp?documentId=E9AC25FFB0CFB3D4852574A2005B7638&action=openDocument",
+   "phone": "+1-905-894-5322",
+   "latitude": 42.9231486,
+   "longitude": -78.9176426
+  },
+  {
+   "name": "Revolution Gallery",
+   "kind": "gallery",
+   "address": "1419 Hertel Avenue, 14216, Buffalo",
+   "website": "https://revolutionartgallery.com/",
+   "phone": "+1-716-322-7656",
+   "latitude": 42.9475635,
+   "longitude": -78.8554857
+  },
+  {
+   "name": "Parables Gallery & Gifts",
+   "kind": "gallery",
+   "address": "1027 Elmwood Avenue, 14222, Buffalo",
+   "website": "http://www.parablesgalleryandgifts.com/",
+   "phone": "+17168809769",
+   "latitude": 42.9251721,
+   "longitude": -78.8767832
+  },
+  {
+   "name": "Buffalo Canvas",
+   "kind": "gallery",
+   "address": "1882 Hertel Avenue, 14216, Buffalo",
+   "website": "https://store.buffalocanvas.com/",
+   "phone": "+1-716-898-8907",
+   "latitude": 42.9476709,
+   "longitude": -78.8383966
+  },
+  {
+   "name": "Buen Vivir Gallery for Contemporary Art",
+   "kind": "gallery",
+   "address": "148 Elmwood Avenue, 14201, Buffalo",
+   "website": "http://www.buenvivirgallery.org/",
+   "phone": "+17169315833",
+   "latitude": 42.9010411,
+   "longitude": -78.8773182
+  },
+  {
+   "name": "Heritage DiscoveRy Center",
+   "kind": "museum",
+   "address": "100 Lee Street",
+   "website": "http://www.trainweb.org/wnyrhs",
+   "phone": "",
+   "latitude": 42.8645915,
+   "longitude": -78.8437771
+  },
+  {
+   "name": "Steel Plant Museum of Western New York",
+   "kind": "museum",
+   "address": "100 Lee Street",
+   "website": "https://www.steelplantmuseumwny.org/",
+   "phone": "",
+   "latitude": 42.8649033,
+   "longitude": -78.843442
+  },
+  {
+   "name": "Cone Five Gallery",
+   "kind": "gallery",
+   "address": "1508 Hertel Avenue, 14216, Buffalo",
+   "website": "http://www.conefivepottery.com/",
+   "phone": "+17163320486",
+   "latitude": 42.9478303,
+   "longitude": -78.8523416
+  },
+  {
+   "name": "Princessa's Studio & Art Gallery",
+   "kind": "gallery",
+   "address": "1271 Hertel Avenue, 14216, Buffalo",
+   "website": "https://princessasartgallery.com/",
+   "phone": "",
+   "latitude": 42.9476107,
+   "longitude": -78.8610952
+  },
+  {
+   "name": "Niagara Railway Museum",
+   "kind": "museum",
+   "address": "21 Warren Street, Fort Erie",
+   "website": "https://www.nfrm.ca/",
+   "phone": "",
+   "latitude": 42.9266783,
+   "longitude": -78.9238586
+  },
+  {
+   "name": "Delaware Park Rose Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.bfloparks.org/?bopcwaypoint=rose-garden",
+   "phone": "",
+   "latitude": 42.931652,
+   "longitude": -78.8731054
+  },
+  {
+   "name": "Iron Island Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.ironislandmuseum.com/",
+   "phone": "",
+   "latitude": 42.88992,
+   "longitude": -78.8114186
+  },
+  {
+   "name": "Charles & Marie Fontana Boathouse Tour",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://franklloydwrightboathouse.com/",
+   "phone": "",
+   "latitude": 42.9004612,
+   "longitude": -78.9018723
+  },
+  {
+   "name": "AAAH!",
+   "kind": "gallery",
+   "address": "78 Allen Street, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8993195,
+   "longitude": -78.8729449
+  },
+  {
+   "name": "PTF-17",
+   "kind": "attraction",
+   "address": "1 Naval Park Cove, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8775538,
+   "longitude": -78.8800231
+  },
+  {
+   "name": "Nash House Museum",
+   "kind": "museum",
+   "address": "36 Nash Street, 14204, Buffalo",
+   "website": "",
+   "phone": "+1-716-322-1002",
+   "latitude": 42.8858616,
+   "longitude": -78.8666235
+  },
+  {
+   "name": "The Buffalo Religious Arts Center",
+   "kind": "gallery",
+   "address": "157 East Street, 14207, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9360704,
+   "longitude": -78.9004926
+  },
+  {
+   "name": "K Art Gallery",
+   "kind": "gallery",
+   "address": "808 Main Street, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8959592,
+   "longitude": -78.8714039
+  },
+  {
+   "name": "CAE Gallery",
+   "kind": "gallery",
+   "address": "1555 Hertel Avenue, 14216, Buffalo",
+   "website": "",
+   "phone": "+1-716-336-4606",
+   "latitude": 42.9475223,
+   "longitude": -78.8504589
+  },
+  {
+   "name": "Buffalo History Museum - Resource Center",
+   "kind": "museum",
+   "address": "459 Forest Avenue, 14213, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9273181,
+   "longitude": -78.8819374
+  },
+  {
+   "name": "Erie Canal Packet Boat Exhibit",
+   "kind": "museum",
+   "address": "14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8769515,
+   "longitude": -78.8794506
+  },
+  {
+   "name": "Allen Street Art",
+   "kind": "gallery",
+   "address": "78 Allen Street",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8992564,
+   "longitude": -78.8730027
+  },
+  {
+   "name": "Spirit of Buffalo",
+   "kind": "attraction",
+   "address": "Lloyd Street, 14202, Buffalo",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8770033,
+   "longitude": -78.8797712
+  },
+  {
+   "name": "Edward M. Cotter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8721898,
+   "longitude": -78.8728201
+  },
+  {
+   "name": "Bighorn Sheep",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9384211,
+   "longitude": -78.8527944
+  },
+  {
+   "name": "Polar Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9382547,
+   "longitude": -78.8517155
+  },
+  {
+   "name": "Giraffes",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9399551,
+   "longitude": -78.8513028
+  },
+  {
+   "name": "Delaware Park Japanese Gardens",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9352103,
+   "longitude": -78.8751269
+  },
+  {
+   "name": "Buffal \"O\"",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8693858,
+   "longitude": -78.8715154
+  },
+  {
+   "name": "Carousel (seasonal)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9384764,
+   "longitude": -78.8531609
+  },
+  {
+   "name": "Bridge overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9055564,
+   "longitude": -78.9016046
+  },
+  {
+   "name": "Top of Mound",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8347544,
+   "longitude": -78.8490128
+  },
+  {
+   "name": "M&T Bank Rainforest Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9390255,
+   "longitude": -78.8524632
+  },
+  {
+   "name": "PAUSA art house",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.900101,
+   "longitude": -78.8798949
+  },
+  {
+   "name": "Caboose",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9230399,
+   "longitude": -78.9173726
+  },
+  {
+   "name": "Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9228772,
+   "longitude": -78.9172679
+  },
+  {
+   "name": "Jefferson Street Heritage Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8915002,
+   "longitude": -78.8536944
+  },
+  {
+   "name": "Starlight Studio and Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8936169,
+   "longitude": -78.8761717
+  },
+  {
+   "name": "South Viewing Blind",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8449941,
+   "longitude": -78.8508609
+  },
+  {
+   "name": "North Viewing Blind",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8517379,
+   "longitude": -78.8553678
+  },
+  {
+   "name": "Duck Blind",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8721964,
+   "longitude": -78.8837475
+  },
+  {
+   "name": "Shakespeare Hill",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9316927,
+   "longitude": -78.8720537
+  },
+  {
+   "name": "Lucy Smith & Colesville",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8491678,
+   "longitude": -78.8632388
+  },
+  {
+   "name": "Amphibian and Reptile House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9397168,
+   "longitude": -78.8538756
+  },
+  {
+   "name": "Gorilla",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9389628,
+   "longitude": -78.854449
+  },
+  {
+   "name": "Bison",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.939078,
+   "longitude": -78.8552376
+  },
+  {
+   "name": "Gemsbok",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9400934,
+   "longitude": -78.8546852
+  },
+  {
+   "name": "Zebra",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9400562,
+   "longitude": -78.8538993
+  },
+  {
+   "name": "Roan Antelope",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9399263,
+   "longitude": -78.8531175
+  },
+  {
+   "name": "Addax",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.939883,
+   "longitude": -78.8528175
+  },
+  {
+   "name": "Vanishing Animals South",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9392304,
+   "longitude": -78.8550174
+  },
+  {
+   "name": "Vanishing Animals North",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.939913,
+   "longitude": -78.8544234
+  },
+  {
+   "name": "Buffalo City Hall Observation Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8866181,
+   "longitude": -78.8793113
+  },
+  {
+   "name": "Observation Mound",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.844506,
+   "longitude": -78.8484904
+  },
+  {
+   "name": "The Bone Zone",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9390937,
+   "longitude": -78.8535387
+  },
+  {
+   "name": "Sea Lion Cove",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9376184,
+   "longitude": -78.8520201
+  },
+  {
+   "name": "Niagara River Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9558151,
+   "longitude": -78.9112881
+  }
+ ]
+}

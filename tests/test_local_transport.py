@@ -83,10 +83,11 @@ def test_published_fare_is_converted(google):
     assert option["fare_text"] == "EUR 14.00 (~$15.56)" and option["fare_per_person_usd"] == 15.56
 
 
-def test_snapshot_fallback_between_us_cities(monkeypatch):
+def test_estimate_between_known_cities_without_live_data():
     result = find_local_transport("Washington", "Myrtle Beach")
-    assert result["transport_source"].startswith("snapshot")
-    assert {r["mode"] for r in result["ground_options"]} == {"self-driving", "taxi"}
+    assert result["transport_source"] == "estimate" and "estimated from the distance" in result["note"]
+    car, taxi = result["ground_options"]
+    assert (car["mode"], taxi["mode"]) == ("self-driving", "taxi") and car["cost_per_vehicle"] > 0
 
 
 def test_no_key_and_no_snapshot_is_an_error():

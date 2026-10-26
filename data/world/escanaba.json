@@ -1,0 +1,351 @@
+{
+ "city": "Escanaba",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 45.7459,
+ "longitude": -87.0688,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3600 Ludington Street, 49829, Escanaba",
+   "url": "http://www.comfortsuites.com/hotel-escanaba-michigan-MI266"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2415 North Lincoln Road, 49829",
+   "url": "http://www.super8.com/hotels/michigan/escanaba/super-8-escanaba/hotel-overview"
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2301 North Lincoln Road, 49829",
+   "url": "https://www.americasbestvalueinn.com/bestv.cfm?idp=1637"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2603 North Lincoln Road, 49829",
+   "url": "http://www.qualityinn.com/hotel-escanaba-michigan-MI259"
+  },
+  {
+   "name": "Magnuson Grand Pioneer Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2635 Ludington Street, 49829, Escanaba",
+   "url": "http://www.magnusongrandpioneerinnandsuites.com/"
+  },
+  {
+   "name": "Sunset Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6386 North 11th Street, 49849, Wells",
+   "url": "https://www.sunsetlodgeescanaba.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "921 North Lincoln Road, 49829",
+   "url": "http://www.econolodge.com/hotel-escanaba-michigan-MI160"
+  },
+  {
+   "name": "Lincoln Host Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 North Lincoln Road, 49829",
+   "url": "https://www.lincolnhost.com/"
+  },
+  {
+   "name": "Terrace Bay Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7146 P Road, 49837",
+   "url": "https://terracebayhotel.com/"
+  },
+  {
+   "name": "Haiwatha Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2400 Ludington Street, 49829, Escanaba",
+   "url": ""
+  },
+  {
+   "name": "Delta Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2414 Ludington Street, 49829",
+   "url": ""
+  },
+  {
+   "name": "Brotherton Motel and Cottages",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "415 North Lincoln Road, 49829, Escanaba",
+   "website": "https://locations.pizzahut.com/mi/escanaba/415-n-lincoln-rd"
+  },
+  {
+   "name": "Mo's Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2116 Ludington Street, 49829, Escanaba",
+   "website": "https://mospub.net/"
+  },
+  {
+   "name": "Oven King Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "306 Stephenson Avenue, 49829",
+   "website": "https://ovenkingpizza.com/"
+  },
+  {
+   "name": "Pacinos Food & Spirits",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2635 Ludington Street, 49829, Escanaba",
+   "website": "https://pacinosfoodandspirits.com/"
+  },
+  {
+   "name": "Dobber's Pasties",
+   "cuisines": [
+    "Pasty"
+   ],
+   "address": "827 North Lincoln Road, 49829",
+   "website": "https://dobberspasties.com/contact-us/"
+  },
+  {
+   "name": "Hudsons Classic Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "201 North Lincoln Road, 49829",
+   "website": "http://www.hudsonsgrill.com/"
+  },
+  {
+   "name": "The Stonehouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2223 Ludington Street, 49829",
+   "website": "http://www.stonehouseescanaba.com/"
+  },
+  {
+   "name": "Swedish Pantry",
+   "cuisines": [
+    "Swedish"
+   ],
+   "address": "819 Ludington Street, 49829",
+   "website": "https://swedishpantry.com/"
+  },
+  {
+   "name": "Crispigna's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1213 Ludington Street, 49829",
+   "website": "https://crispignas.com/"
+  },
+  {
+   "name": "El Patron Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1636 Ludington Street, 49829",
+   "website": ""
+  },
+  {
+   "name": "Thai'd Up",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "49829",
+   "website": ""
+  },
+  {
+   "name": "Rosy's Diner",
+   "cuisines": [
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "1313 Ludington Street, 49829, Escanaba",
+   "website": ""
+  },
+  {
+   "name": "The Buck Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "6696 North 3rd Street, 49894, Wells",
+   "website": ""
+  },
+  {
+   "name": "Hong King Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2100 Ludington Street, 49829, Escanaba",
+   "website": ""
+  },
+  {
+   "name": "Gram's Pasties",
+   "cuisines": [
+    "Pasty"
+   ],
+   "address": "2418 Ludington Street, 49829",
+   "website": ""
+  },
+  {
+   "name": "Ferdinand's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1318 Ludington Street, 49829",
+   "website": ""
+  },
+  {
+   "name": "Mueller's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1517 Ludington Street, 49829",
+   "website": ""
+  },
+  {
+   "name": "Family Inn Restaurant",
+   "cuisines": [],
+   "address": "6380 North 11th Street, 49849, Wells",
+   "website": "http://www.thefamilyinn.com/"
+  },
+  {
+   "name": "Ludington Grill",
+   "cuisines": [],
+   "address": "1110 Ludington Street, 49829",
+   "website": "https://www.ludingtongrill.com/"
+  },
+  {
+   "name": "Hereford & Hops",
+   "cuisines": [],
+   "address": "",
+   "website": "https://herefordandhops.com/"
+  },
+  {
+   "name": "Drifters",
+   "cuisines": [],
+   "address": "701 North Lincoln Road, 49829",
+   "website": ""
+  },
+  {
+   "name": "Downtowner Restaurant",
+   "cuisines": [],
+   "address": "916 Ludington Street, 49829",
+   "website": ""
+  },
+  {
+   "name": "Bobaloon's Cafe",
+   "cuisines": [],
+   "address": "1700 Ludington Street, 49829",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Delta County Historical Society",
+   "kind": "museum",
+   "address": "16 Water Plant Road, 49829",
+   "website": "http://deltahistorical.org/",
+   "phone": "",
+   "latitude": 45.7446615,
+   "longitude": -87.0433841
+  },
+  {
+   "name": "U.P. Steam and Gas Engine Association Agricultural Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.7574068,
+   "longitude": -87.0783418
+  },
+  {
+   "name": "U P Steam & Gas Engine Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.758097,
+   "longitude": -87.0788888
+  }
+ ]
+}

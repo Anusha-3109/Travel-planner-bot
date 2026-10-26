@@ -1,0 +1,3757 @@
+{
+ "city": "Cincinnati",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 39.1147,
+ "longitude": -84.5072,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Cincinnatian Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Vine Street, 45202, Cincinnati",
+   "url": "http://www.cincinnatianhotel.com/"
+  },
+  {
+   "name": "Renaissance Cincinnati Downtown Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "36 East 4th Street, Cincinnati",
+   "url": ""
+  },
+  {
+   "name": "Graduate by Hilton Cincinnati",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 Goodman Drive, 45219, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvggcgu-graduate-cincinnati/"
+  },
+  {
+   "name": "The Lytle Park Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Pike Street, 45202, Cincinnati",
+   "url": "https://www.marriott.com/hotels/travel/cvgak-the-lytle-park-hotel-autograph-collection/"
+  },
+  {
+   "name": "Residence Inn by Marriott Cincinnati Downtown/The Phelps",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "506 East 4th Street, 45202, Cincinnati",
+   "url": "https://www.marriott.com/cvgcd"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "275 Columbia Street, 41071, Newport",
+   "url": "https://www.hilton.com/en/hotels/cvgpohx-hampton-suites-newport-cincinnati/"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2347 Reading Road, 45202, Cincinnati",
+   "url": "https://www.choicehotels.com/ohio/sharonville/rodeway-inn-hotels"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "617 Vine Street, 45202, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvgvihx-hampton-suites-cincinnati-downtown/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Cincinnati Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Crescent Avenue, 41011, Covington",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/covington/cvgke/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn & Suites Cincinnati - Uptown-University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3024 Short Vine Street, 45219, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvguphx-hampton-suites-cincinnati-uptown-university-area/"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4605 Factory Colony Lane, 45209, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvgmthw-homewood-suites-cincinnati-midtown/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "610 Eden Park Drive, 45202, Cincinnati",
+   "url": "https://www.marriott.com/cvgdt"
+  },
+  {
+   "name": "Embassy Suites by Hilton Cincinnati RiverCenter",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 East RiverCenter Boulevard, 41011, Covington",
+   "url": "https://www.hilton.com/en/hotels/cvgcves-embassy-suites-cincinnati-rivercenter/"
+  },
+  {
+   "name": "Fuel Lounge OTR",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1424 Main Street, 45202, Cincinnati",
+   "url": "https://www.fuelloungeotr.com/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2500 South Market Street, 45219, Cincinnati",
+   "url": "https://www.marriott.com/cvgmt"
+  },
+  {
+   "name": "AC Hotel by Marriott Cincinnati at The Banks",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "135 Joe Nuxhall Way, 45202, Cincinnati",
+   "url": "https://www.marriott.com/hotels/travel/cvgbc-ac-hotel-cincinnati-at-the-banks/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3813 Edwards Road, 45209, Norwood",
+   "url": "https://www.marriott.com/hotels/travel/cvgnw-courtyard-cincinnati-midtown-rookwood/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3815 Edwards Road, 45209, Norwood",
+   "url": "https://www.marriott.com/cvges"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 Riverboat Row, 41071, Newport",
+   "url": "https://www.marriott.com/cvgnp"
+  },
+  {
+   "name": "Hyatt Regency Cincinnati",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 West 5th Street, 45202, Cincinnati",
+   "url": "https://cincinnati.regency.hyatt.com/en/hotel/home.html"
+  },
+  {
+   "name": "Courtyard Cincinnati Covington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 West 3rd Street, 41011, Covington",
+   "url": "https://www.marriott.com/cvgcy"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2654 Madison Road, 45208, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvgnchx-hampton-suites-cincinnati-midtown-rookwood/"
+  },
+  {
+   "name": "Fidelity Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "602 Main Street, 45202, Cincinnati",
+   "url": "https://fidelityhotelcin.com/"
+  },
+  {
+   "name": "Kinley Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "636 Race Street, 45202, Cincinnati",
+   "url": "https://www.marriott.com/en-us/hotels/cvgtx-kinley-cincinnati-downtown-a-tribute-portfolio-hotel/overview/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5300 Kennedy Avenue, 45213, Cincinnati",
+   "url": "https://www.wyndhamhotels.com/days-inn/cincinnati-ohio/days-inn-cincinnati-i-71/overview"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2350 Royal Drive, 41017, Fort Mitchell",
+   "url": "https://www.wyndhamhotels.com/super-8/fort-mitchell-kentucky/super-8-fort-mitchell-cinci-oh-downtown/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham Fort Wright Cincinnati Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1937 Dixie Highway, 41011, Fort Wright",
+   "url": "https://www.wyndhamhotels.com/days-inn/fort-wright-kentucky/days-inn-fort-wright-cincinnati-area/overview"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Landmark Drive, 41073, Bellevue",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bellevue/cvgbv/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2145 Dana Avenue, 45207, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvgmdgi-hilton-garden-inn-cincinnati-midtown/"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2910 Disney Street, 45209, Cincinnati",
+   "url": "https://www.hilton.com/en/hotels/cvgoaht-home2-suites-cincinnati-midtown-oakley/"
+  },
+  {
+   "name": "Radisson Hotel Cincinnati Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "668 West 5th Street, 41011, Covington",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-covington"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "45202, Cincinnati",
+   "url": "https://www.marriott.com/cvgtw"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 West Mitchell Avenue, 45217, Cincinnati",
+   "url": "https://www.choicehotels.com/ohio/sharonville/rodeway-inn-hotels"
+  },
+  {
+   "name": "Gaslight Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3652 Middleton Avenue, 45220, Cincinnati",
+   "url": "https://www.gaslightbb.com/"
+  },
+  {
+   "name": "Hotel Celare",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Straight Street, Cincinnati",
+   "url": "https://www.marriott.com/en-us/hotels/cvgmb-hotel-celare-cincinnati-midtown-a-tribute-portfolio-hotel/overview/"
+  },
+  {
+   "name": "Cincinnati Marriott at RiverCenter",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 West River Center Boulevard, 41011, Covington",
+   "url": "https://www.marriott.com/hotels/travel/cvgdr-cincinnati-marriott-at-rivercenter/"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 West 8th Street, 45203, Cincinnati",
+   "url": "https://www.choicehotels.com/ohio/cincinnati/quality-inn-hotels/oh375"
+  },
+  {
+   "name": "Holiday Inn Cincinnati Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 West 3rd Street, 41011, Covington",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/covington/cvgrf/hoteldetail"
+  },
+  {
+   "name": "Extended Stay America Cincinnati Covington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 West 3rd Street, 41011, Covington",
+   "url": "https://www.extendedstayamerica.com/hotels/oh/cincinnati/covington"
+  },
+  {
+   "name": "Clifton House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Terrace Avenue, 45220, Cincinnati",
+   "url": "https://www.thecliftonhouse.com/"
+  },
+  {
+   "name": "North by Hotel Covington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "614 Madison Avenue, 41011, Covington",
+   "url": "https://hotelcovington.com/hotel-north/accommodations/"
+  },
+  {
+   "name": "Aloft Newport on the Levee",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 East 3rd Street, 41071, Newport",
+   "url": "http://www.aloftnewportlevee.com/"
+  },
+  {
+   "name": "Fairfield by Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4609 Factory Colony Lane, 45209, Cincinnati",
+   "url": "https://www.marriott.com/en-us/hotels/cvgfn-fairfield-inn-and-suites-cincinnati-oakley/overview/"
+  },
+  {
+   "name": "Hotel Covington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "638 Madison Avenue, 41011, Covington",
+   "url": "https://hotelcovington.com/"
+  },
+  {
+   "name": "The Guild Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "630 Vine Street, 45202, Cincinnati",
+   "url": "https://theguild.co/thebanks"
+  },
+  {
+   "name": "The Westin Cincinnati",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.starwoodhotels.com/westin/property/overview/index.html?propertyID=1044"
+  },
+  {
+   "name": "Hilton Cincinnati Netherland Plaza",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "35 West 5th Street, 45202, Cincinnati",
+   "url": ""
+  },
+  {
+   "name": "Hannaford Suites - Newport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "803 East 6th Street, Newport",
+   "url": ""
+  },
+  {
+   "name": "Gateway Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "326 East 6th Street, 41071, Newport",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "North Vista Manor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "21c Museum Hotel Cincinnati",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rest Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Parkway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Gateway Lodge Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Host Town Center Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lookout Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Mecklenburg Gardens",
+   "cuisines": [
+    "German"
+   ],
+   "address": "302 East University Avenue, 45219, Cincinnati",
+   "website": "https://www.mecklenburgs.com/"
+  },
+  {
+   "name": "Ludlow Garage",
+   "cuisines": [
+    "American"
+   ],
+   "address": "342 Ludlow Avenue, 45220, Cincinnati",
+   "website": "https://www.ludlowgaragecincinnati.com/"
+  },
+  {
+   "name": "Hofbrau Haus",
+   "cuisines": [
+    "German"
+   ],
+   "address": "200 East 3rd Street, 41071, Newport",
+   "website": "https://www.hofbrauhausnewport.com/"
+  },
+  {
+   "name": "Camp Washington Chili",
+   "cuisines": [
+    "Chili"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Onolicious Hawaii",
+   "cuisines": [
+    "Hawaiian",
+    "Poke",
+    "Barbecue",
+    "Bar And Grill"
+   ],
+   "address": "1005 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.onoliciousgrinds.com"
+  },
+  {
+   "name": "Brew House",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "1047 East McMillan Street, 45206, Cincinnati",
+   "website": "https://brewhouse.com/"
+  },
+  {
+   "name": "1883 Café & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "100 East Court Street, 45202, Cincinnati",
+   "website": "https://www.ontherhineeatery.com/vendors/1883-cafe-and-bar"
+  },
+  {
+   "name": "Boca",
+   "cuisines": [
+    "French"
+   ],
+   "address": "114 East 6th Street, 45202, Cincinnati",
+   "website": "https://www.bocacincinnati.com/"
+  },
+  {
+   "name": "Gomez Salsa",
+   "cuisines": [
+    "Tacos",
+    "Mexican"
+   ],
+   "address": "107 East 12th Street, 45202, Cincinnati",
+   "website": "https://www.gomezsalsa.com/"
+  },
+  {
+   "name": "Dōpe!",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "100 East Court Street",
+   "website": "https://thisstuffisdope.com"
+  },
+  {
+   "name": "Madres Modern Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "801 Madison Avenue, 41011, Covington",
+   "website": "https://madresmodernmexicanky.com/"
+  },
+  {
+   "name": "Galactic Fried Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "624 6th Avenue, 41074, Dayton",
+   "website": "https://www.galacticfriedchicken.com"
+  },
+  {
+   "name": "Adriatico's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "113 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://adriaticosuc.com/"
+  },
+  {
+   "name": "Bellevue Bistro",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "313 Fairfield Avenue, 41073, Bellevue",
+   "website": "https://bellevuebistro.com"
+  },
+  {
+   "name": "Nada",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "600 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.eatdrinknada.com/"
+  },
+  {
+   "name": "Fessler's Legendary Pizza and Hoagies",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "Hoagies"
+   ],
+   "address": "343 Fairfield Avenue, 41073, Bellevue",
+   "website": "https://fesslerspizza.com/"
+  },
+  {
+   "name": "Ike's Vegan BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3200 Woodburn Avenue, 45207, Cincinnati",
+   "website": "https://www.ikesveganbarbeque.com/"
+  },
+  {
+   "name": "Lucy Blue Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1301 Vine Street, 45202, Cincinnati",
+   "website": "https://www.lucybluecincy.com/"
+  },
+  {
+   "name": "LaRosa's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1250 West 8th Street, 45203, Cincinnati",
+   "website": "https://www.larosas.com/"
+  },
+  {
+   "name": "Ladder 19",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2701 Short Vine Street, 45219, Cincinnati",
+   "website": "http://www.ladder19.com/"
+  },
+  {
+   "name": "Sotto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "118 East 6th Street, 45202, Cincinnati",
+   "website": "https://www.sottocincinnati.com/"
+  },
+  {
+   "name": "Bridges Nepali Cuisine",
+   "cuisines": [
+    "Nepalese"
+   ],
+   "address": "11 West 7th Street, 41011, Covington",
+   "website": "https://www.bridgesnepalicuisine.com/"
+  },
+  {
+   "name": "Milkman",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1106 Race Street, 45202, Cincinnati",
+   "website": "https://milkmanbar.com/"
+  },
+  {
+   "name": "Rosie's Italian",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "300 East 7th Street, 45202, Cincinnati",
+   "website": "https://rosiesitaliankitchen.com/"
+  },
+  {
+   "name": "Allez Cafe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1201 Main Street, 45202, Cincinnati",
+   "website": "https://allezbakery.com/cafe/"
+  },
+  {
+   "name": "Pata Roja Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "52 East Court Street, 45202, Cincinnati",
+   "website": "https://www.patarojatacos.com/"
+  },
+  {
+   "name": "Baru",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "595 Race Street, 45202, Cincinnati",
+   "website": "https://barusushi.com/"
+  },
+  {
+   "name": "Your Mom's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1045 Saint Gregory Street, 45202, Cincinnati",
+   "website": "https://yourmomspizzeria.com/"
+  },
+  {
+   "name": "Wildweed",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "1301 Walnut Street, 45202, Cincinnati",
+   "website": "https://wildweed-restaurant.com/"
+  },
+  {
+   "name": "Bourbon House Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "100 Aqua Way, 41071, Newport",
+   "website": "https://www.bourbonhousepizza.com/"
+  },
+  {
+   "name": "Skyline Chili",
+   "cuisines": [
+    "Chili"
+   ],
+   "address": "1001 Vine Street, 45202, Cincinnati",
+   "website": "https://www.skylinechili.com/"
+  },
+  {
+   "name": "Teak",
+   "cuisines": [
+    "Thai",
+    "Asian",
+    "Sushi"
+   ],
+   "address": "1200 Race Street, 45202, Cincinnati",
+   "website": "https://www.teakotr.com/"
+  },
+  {
+   "name": "Eli’s BBQ",
+   "cuisines": [
+    "Barbecue",
+    "American"
+   ],
+   "address": "133 West Elder Street, 45202, Cincinnati",
+   "website": "https://www.elisbarbeque.com/"
+  },
+  {
+   "name": "Pho Lang Thang",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "1828 Race Street, 45202, Cincinnati",
+   "website": "https://www.pholangthang.com/"
+  },
+  {
+   "name": "Frankie's Sips & Savories",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "14 Garfield Place, 45202, Cincinnati",
+   "website": "https://frankiessips.com/"
+  },
+  {
+   "name": "Nicholson's Tavern & Pub",
+   "cuisines": [
+    "Pub"
+   ],
+   "address": "625 Walnut Street, 45202, Cincinnati",
+   "website": "https://nicholsonspub.com/"
+  },
+  {
+   "name": "Pieology Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "128 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://www.pieology.com/"
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "441 Vine Street, 45202, Cincinnati",
+   "website": "https://www.mortons.com/"
+  },
+  {
+   "name": "Zundo Ramen & Donburi",
+   "cuisines": [
+    "Asian",
+    "Noodle"
+   ],
+   "address": "220 West 12th Street, 45202, Cincinnati",
+   "website": "http://zundootr.com"
+  },
+  {
+   "name": "MRBL",
+   "cuisines": [
+    "Steak House",
+    "Sushi"
+   ],
+   "address": "119 Fairfield Avenue, 41073, Bellevue",
+   "website": "https://www.mrblsteak.com/"
+  },
+  {
+   "name": "Brio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1 Levee Way, 41071, Newport",
+   "website": "https://www.brioitalian.com/newport_on_the_levee.html"
+  },
+  {
+   "name": "Primavista",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "810 Matson Place, 45204, Cincinnati",
+   "website": "https://pvista.com/"
+  },
+  {
+   "name": "Andy's Mediterranean Grille",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "906 Nassau Street, 45206, Cincinnati",
+   "website": "https://www.andyskabob.com"
+  },
+  {
+   "name": "Gaslight Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "351 Ludlow Avenue, 45220, Cincinnati",
+   "website": "https://gaslightbarandgrillclifton.com/"
+  },
+  {
+   "name": "Ambar India Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "350 Ludlow Avenue, 45220, Cincinnati",
+   "website": "http://www.ambarindia.com/"
+  },
+  {
+   "name": "Corner Bistro",
+   "cuisines": [
+    "Chinese",
+    "Sushi",
+    "Buffet"
+   ],
+   "address": "307 Sycamore Street, 45202, Cincinnati",
+   "website": "http://www.cornerbistrocincy.com/"
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "95 East Freedom Way, 45202, Cincinnati",
+   "website": "https://www.yardhouse.com/locations/oh/cincinnati/cincinnati-the-banks/8344"
+  },
+  {
+   "name": "Goodfellas Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1211 Main Street, 45202, Cincinnati",
+   "website": "https://www.goodfellaspizzeria.com/"
+  },
+  {
+   "name": "Bee's Barbecue",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "1403 Vine Street, 45202, Cincinnati",
+   "website": "https://www.beesbarbecue.com/otr"
+  },
+  {
+   "name": "Abigail Street",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1214 Vine Street, 45202, Cincinnati",
+   "website": "https://abigailstreet.com/"
+  },
+  {
+   "name": "Mita’s",
+   "cuisines": [
+    "Spanish",
+    "Tapas",
+    "Latin American"
+   ],
+   "address": "501 Race Street, 45202, Cincinnati",
+   "website": "https://www.mitas.co/"
+  },
+  {
+   "name": "The Bagelry",
+   "cuisines": [
+    "Bagel",
+    "Breakfast"
+   ],
+   "address": "1401 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.otrbagelry.com"
+  },
+  {
+   "name": "Soul Secrets",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1434 Vine Street, 45202, Cincinnati",
+   "website": "https://www.soulsecretscincy.com/"
+  },
+  {
+   "name": "Louvino",
+   "cuisines": [
+    "Small Plates",
+    "Southern",
+    "American"
+   ],
+   "address": "1142 Main Street, 45202, Cincinnati",
+   "website": "https://louvino.com/otr/"
+  },
+  {
+   "name": "Donatos Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2914 Short Vine Street, 45219, Cincinnati",
+   "website": "https://www.donatos.com/location/clifton"
+  },
+  {
+   "name": "Martino's On Vine",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2618 Short Vine Street, 45219, Cincinnati",
+   "website": "https://www.martinosonvine.com/"
+  },
+  {
+   "name": "Hang Over Easy",
+   "cuisines": [
+    "Breakfast",
+    "Lunch",
+    "Diner"
+   ],
+   "address": "13 West Charlton Street, 45219, Cincinnati",
+   "website": "https://www.hangovereasycincinnati.com/"
+  },
+  {
+   "name": "O’Bryon’s Bar & Grill",
+   "cuisines": [
+    "American",
+    "Pub"
+   ],
+   "address": "1998 Madison Road, 45208, Cincinnati",
+   "website": "https://www.obryonsbarandgrill.com/"
+  },
+  {
+   "name": "Cheapside",
+   "cuisines": [
+    "American",
+    "Coffee Shop",
+    "Coffee",
+    "Breakfast"
+   ],
+   "address": "326 East 8th Street, 45202, Cincinnati",
+   "website": "https://cheapsidecafe.com/"
+  },
+  {
+   "name": "Scotti's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "919 Vine Street, 45202, Cincinnati",
+   "website": "http://scottiscincinnati.com/"
+  },
+  {
+   "name": "Mio's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2634 Vine Street, 45219, Cincinnati",
+   "website": "https://www.miospizza.com/"
+  },
+  {
+   "name": "Alabama Que",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2733 Short Vine Street, 45219, Cincinnati",
+   "website": "https://www.alabama-q.com/"
+  },
+  {
+   "name": "Taste of Belgium",
+   "cuisines": [
+    "Belgian",
+    "Breakfast",
+    "Lunch",
+    "Brunch"
+   ],
+   "address": "1801 Race Street, 45202, Cincinnati",
+   "website": "https://authenticwaffle.com"
+  },
+  {
+   "name": "Montgomery Inn Boathouse",
+   "cuisines": [
+    "Ribs"
+   ],
+   "address": "925 Riverside Drive, 45202, Cincinnati",
+   "website": "https://www.montgomeryinn.com/restaurants/the-boathouse/"
+  },
+  {
+   "name": "Gomez Salsa - Walnut Hills",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2437 Gilbert Avenue, 45206, Cincinnati",
+   "website": "https://www.gomezsalsa.com/"
+  },
+  {
+   "name": "McCormick & Schmick's",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "21 East 5th Street, 45202, Cincinnati",
+   "website": "https://www.mccormickandschmicks.com/"
+  },
+  {
+   "name": "Los Potrillos Mexican Restaurant Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "316 Ludlow Avenue, 45220, Cincinnati",
+   "website": "http://los-potrillos.wixsite.com/"
+  },
+  {
+   "name": "Red Roost Tavern",
+   "cuisines": [
+    "Organic",
+    "American"
+   ],
+   "address": "151 West 5th Street, 45202, Cincinnati",
+   "website": "https://www.cincinnati.hyatt.com/en/hotel/dining/RedRoostTavern.html"
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "100 East Freedom Way, 45202, Cincinnati",
+   "website": "https://www.ruthschris.com/"
+  },
+  {
+   "name": "Wodka Bar Pierogies Window",
+   "cuisines": [
+    "European",
+    "Polish"
+   ],
+   "address": "1200 Main Street, 45202, Cincinnati",
+   "website": "https://www.wodkabarotr.com/"
+  },
+  {
+   "name": "Insomnia Cookies",
+   "cuisines": [
+    "Ice Cream",
+    "Cookie"
+   ],
+   "address": "216 Calhoun Street, 45219, Cincinnati",
+   "website": "https://insomniacookies.com/locations/store/1098"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "200 Calhoun Street, 45219, Cincinnati",
+   "website": "https://www.buffalowildwings.com/en/locations/detail/162/"
+  },
+  {
+   "name": "Crown Republic Gastropub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "720 Sycamore Street, 45202",
+   "website": "https://crownrepublicgastropub.com/"
+  },
+  {
+   "name": "Fillo",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1505 Race Street, 45202, Cincinnati",
+   "website": "https://www.fillogreekbakeshop.com/"
+  },
+  {
+   "name": "Salazar Restaurant & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "101 West 5th Street, 45202, Cincinnati",
+   "website": "https://www.salazarcincinnati.com/"
+  },
+  {
+   "name": "Lucius Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1131 Broadway Street, 45202, Cincinnati",
+   "website": "https://luciusq.com/"
+  },
+  {
+   "name": "Mt. Adams Bar & Grill",
+   "cuisines": [
+    "American",
+    "Pub"
+   ],
+   "address": "938 Hatch Street, 45202, Cincinnati",
+   "website": "https://mtadamsbarandgrill.com/"
+  },
+  {
+   "name": "Via Vite",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "520 Vine Street, 45202, Cincinnati",
+   "website": "https://viaviterestaurant.com/"
+  },
+  {
+   "name": "Smoke Justis",
+   "cuisines": [
+    "American",
+    "Barbecue",
+    "Wings"
+   ],
+   "address": "302 Court Street, 41011, Covington",
+   "website": "https://www.smokejustis.com/"
+  },
+  {
+   "name": "Governors House Wine Bar & Italian Kitchen",
+   "cuisines": [
+    "Italian",
+    "Wine"
+   ],
+   "address": "314 Greenup Street, 41011, Covington",
+   "website": "https://governorshouse.wine"
+  },
+  {
+   "name": "Wunderbar",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1132 Lee Street, 41011, Covington",
+   "website": "https://www.facebook.com/wunderbar.covington.3/"
+  },
+  {
+   "name": "Richie’s",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "110 Woolper Avenue, 45220, Cincinnati",
+   "website": "https://www.richieschicken.com/"
+  },
+  {
+   "name": "6 'N The Mornin'",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1535 Madison Road, 45206, Cincinnati",
+   "website": "https://6nthemornin.com/"
+  },
+  {
+   "name": "Incline Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2601 West 8th Street, 45204, Cincinnati",
+   "website": "https://www.inclinepublichouse.com/"
+  },
+  {
+   "name": "El Taco Veloz",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "7 East Martin Luther King Junior Drive, 45219, Cincinnati",
+   "website": "https://www.eltacovelozuc.com/"
+  },
+  {
+   "name": "El Barril",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "940 Pavilion Street, 45202, Cincinnati",
+   "website": "https://www.elbarrilcincinnati.com/"
+  },
+  {
+   "name": "Biagio’s Bistro",
+   "cuisines": [
+    "Italian",
+    "Wine"
+   ],
+   "address": "308 Ludlow Avenue, 45220, Cincinnati",
+   "website": "http://www.biagiosbistro.net/"
+  },
+  {
+   "name": "Bakersfield",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "1213 Vine Street, 45202, Cincinnati",
+   "website": "https://www.bakersfieldtacos.com/"
+  },
+  {
+   "name": "The Eagle",
+   "cuisines": [
+    "Fried Chicken",
+    "American"
+   ],
+   "address": "1342 Vine Street, 45202, Cincinnati",
+   "website": "https://www.theeagleotr.com/"
+  },
+  {
+   "name": "Colette",
+   "cuisines": [
+    "American",
+    "French"
+   ],
+   "address": "1400 Race Street, 45202, Cincinnati",
+   "website": "https://zulabistro.com/"
+  },
+  {
+   "name": "Quan Hapa",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1331 Vine Street, 45202, Cincinnati",
+   "website": "https://www.quanhapa.com/"
+  },
+  {
+   "name": "J. Gumbo’s Clifton",
+   "cuisines": [
+    "American"
+   ],
+   "address": "286 Ludlow Avenue, 45220, Cincinnati",
+   "website": "https://www.jgumbos.com/"
+  },
+  {
+   "name": "Nolia",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "1405 Clay Street, 45202, Cincinnati",
+   "website": "https://noliakitchen.com/"
+  },
+  {
+   "name": "Lucky Dog OTR",
+   "cuisines": [
+    "Chili"
+   ],
+   "address": "1210 Main Street, 45202, Cincinnati",
+   "website": "https://www.luckydogotr.com/"
+  },
+  {
+   "name": "The Arepa Place",
+   "cuisines": [
+    "Latin American",
+    "Colombian"
+   ],
+   "address": "131 West Elder Street, 45202, Cincinnati",
+   "website": "https://arepaplace.com"
+  },
+  {
+   "name": "Street City Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "580 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.streetcity.pub/"
+  },
+  {
+   "name": "Lalo",
+   "cuisines": [
+    "Asian",
+    "Mexican"
+   ],
+   "address": "26 West Court Street, 45202, Cincinnati",
+   "website": "https://lalocincinnati.com/"
+  },
+  {
+   "name": "Ché",
+   "cuisines": [
+    "Empanada",
+    "Argentinian"
+   ],
+   "address": "1342 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.checincinnati.com/"
+  },
+  {
+   "name": "Biscuit Love Cincinnati",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1602 Pleasant Street, 45202",
+   "website": "https://www.biscuitlove.com/"
+  },
+  {
+   "name": "Mad Anthony's at Covington Yard",
+   "cuisines": [
+    "Pizza",
+    "Breadsticks",
+    "Mini Cannolis",
+    "Ranch",
+    "Garlic Herb",
+    "Marinara"
+   ],
+   "address": "401 Greenup Street, 41011, Covington",
+   "website": "https://madanthonyspizza.com"
+  },
+  {
+   "name": "Al Lupo Risorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1077 Celestial Street, 45202, Cincinnati",
+   "website": "https://www.lupocincy.com/"
+  },
+  {
+   "name": "Kantine Biergarten Eatery",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1220 Harrison Avenue, 45214, Cincinnati",
+   "website": "https://www.facebook.com/kantineonwheels/"
+  },
+  {
+   "name": "Fireside Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "773 East McMillan Street, 45206, Cincinnati",
+   "website": "https://www.firesidepizzawalnuthills.com/"
+  },
+  {
+   "name": "Rusk Kitchen + Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2724 Woodburn Avenue, 45206",
+   "website": "https://ruskcincy.com/"
+  },
+  {
+   "name": "Dewey's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Regional"
+   ],
+   "address": "265 Hosea Avenue, 45220, Cincinnati",
+   "website": "https://deweyspizza.com/"
+  },
+  {
+   "name": "By Golly's",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "313 Greenup Street, 41011, Covington",
+   "website": "https://bygollys.com"
+  },
+  {
+   "name": "Otto's",
+   "cuisines": [
+    "American",
+    "Bistro"
+   ],
+   "address": "521 Main Street, 41011, Covington",
+   "website": "https://ottosonmain.com/"
+  },
+  {
+   "name": "The Lübecker",
+   "cuisines": [
+    "German"
+   ],
+   "address": "222 West 12th Street, 45202, Cincinnati",
+   "website": "https://www.thelubecker.com/"
+  },
+  {
+   "name": "The View",
+   "cuisines": [
+    "Steak House",
+    "Steak",
+    "American",
+    "Seafood"
+   ],
+   "address": "1071 Celestial Street, 45202, Cincinnati",
+   "website": "https://theviewmtadams.com/"
+  },
+  {
+   "name": "Kiki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "358 Ludlow Avenue, 45220, Cincinnati",
+   "website": "https://kikicincinnati.com/"
+  },
+  {
+   "name": "Nicola’s",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1420 Sycamore Street, 45202, Cincinnati",
+   "website": "https://nicolasotr.com/"
+  },
+  {
+   "name": "Alabama Fishbar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1601 Race Street, 45202, Cincinnati",
+   "website": "https://alabamafishbar.com/"
+  },
+  {
+   "name": "Atwood Oyster House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1220 Vine Street, 45202, Cincinnati",
+   "website": "https://www.atwoodoysterhouse.com/"
+  },
+  {
+   "name": "Taste of Belgium at the Banks",
+   "cuisines": [
+    "Belgian",
+    "Breakfast",
+    "Brunch",
+    "Lunch"
+   ],
+   "address": "16 West Freedom Way, 45202, Cincinnati",
+   "website": "https://authenticwaffle.com/"
+  },
+  {
+   "name": "Bobby’s Burger Palace",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "1000 Broadway Street, 45202, Cincinnati",
+   "website": "http://bobbysburgerpalace.com/"
+  },
+  {
+   "name": "Bru Burger Bar",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "41 East 6th Street, 45202, Cincinnati",
+   "website": "https://www.bruburgerbar.com/cincinnati/"
+  },
+  {
+   "name": "Butcher and Barrel",
+   "cuisines": [
+    "Argentinian",
+    "Steak House",
+    "Steak",
+    "Bar"
+   ],
+   "address": "700 Race Street, 45202, Cincinnati",
+   "website": "https://thebutcherbarrel.com/"
+  },
+  {
+   "name": "Prime Cincinnati",
+   "cuisines": [
+    "Steak House",
+    "Steak",
+    "Seafood",
+    "American"
+   ],
+   "address": "580 Walnut Street, 45202, Cincinnati",
+   "website": "http://www.primecincinnati.com/"
+  },
+  {
+   "name": "Lalo Restaurant",
+   "cuisines": [
+    "Fusion",
+    "Asian",
+    "Mexican"
+   ],
+   "address": "709 Main Street, 45202, Cincinnati",
+   "website": "https://www.lalocincinnati.com/"
+  },
+  {
+   "name": "Taqueria Mercado",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "100 East 8th Street, 45202, Cincinnati",
+   "website": "https://www.taqueriamercado.com/"
+  },
+  {
+   "name": "Sartre OTR",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1910 Elm Street, 45202, Cincinnati",
+   "website": "https://sartreotr.com/"
+  },
+  {
+   "name": "Dunlap Cafe",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "1926 Dunlap Street, 45202, Cincinnati",
+   "website": "https://www.dunlapcafe.com/"
+  },
+  {
+   "name": "Orchid’s at Palm Court",
+   "cuisines": [
+    "American",
+    "Fine Dining",
+    "Seafood",
+    "Steak"
+   ],
+   "address": "35 West 5th Street, 45202, Cincinnati",
+   "website": "http://www.orchidsatpalmcourt.com/"
+  },
+  {
+   "name": "The Grille at Palm Court",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "35 West 5th Street, 45202, Cincinnati",
+   "website": "http://www.orchidsatpalmcourt.com/restaurants.aspx"
+  },
+  {
+   "name": "Jefferson Social",
+   "cuisines": [
+    "American",
+    "Tacos",
+    "Pub"
+   ],
+   "address": "101 East Freedom Way, 45202, Cincinnati",
+   "website": "https://www.jeffersonsocial.com/"
+  },
+  {
+   "name": "Blind Pig",
+   "cuisines": [
+    "American",
+    "Pub"
+   ],
+   "address": "24 West 3rd Street, 45202, Cincinnati",
+   "website": "https://www.blindpigcincy.com/"
+  },
+  {
+   "name": "Maplewood Kitchen and Bar",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "525 Race Street, 45202, Cincinnati",
+   "website": "https://www.maplewoodkitchenandbar.com/"
+  },
+  {
+   "name": "Metropole",
+   "cuisines": [
+    "American"
+   ],
+   "address": "609 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.metropoleonwalnut.com/"
+  },
+  {
+   "name": "Spoon & Cellar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "701 Broadway Street, 45202, Cincinnati",
+   "website": "https://www.spoonandcellar.com/"
+  },
+  {
+   "name": "The Presidents Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "812 Race Street, 45202, Cincinnati",
+   "website": "https://www.thepresidentsrm.com/"
+  },
+  {
+   "name": "Aladdin’s Eatery + Lounge",
+   "cuisines": [
+    "Lebanese",
+    "Middle Eastern"
+   ],
+   "address": "1203 Main Street, 45202, Cincinnati",
+   "website": "https://aladdins.com"
+  },
+  {
+   "name": "Mikey's Late Night Slice",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2014 Elm Street, 45202, Cincinnati",
+   "website": "https://www.latenightslice.com"
+  },
+  {
+   "name": "Fusabowl",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "165 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://www.fusabowl.us"
+  },
+  {
+   "name": "Good Plates",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "235 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://goodplateseatery.com/"
+  },
+  {
+   "name": "The Chili Hut",
+   "cuisines": [
+    "Chili"
+   ],
+   "address": "127 Calhoun Street, 45219, Cincinnati",
+   "website": "https://www.thechilihut.com/"
+  },
+  {
+   "name": "Hawkers Alley",
+   "cuisines": [
+    "Burger",
+    "Tacos",
+    "Sandwich",
+    "Kebab",
+    "Asian"
+   ],
+   "address": "28 West Court Street, 45202, Cincinnati",
+   "website": "https://www.hawkersalley.com/"
+  },
+  {
+   "name": "Court Street Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "7 East Court Street, 45202, Cincinnati",
+   "website": "https://courtstreetkitchen.com/"
+  },
+  {
+   "name": "Marigold",
+   "cuisines": [
+    "British"
+   ],
+   "address": "60 West 5th Street, 45202, Cincinnati",
+   "website": "https://marigoldcincy.com/"
+  },
+  {
+   "name": "Clifton Indian Restaurant and Bar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3215 Jefferson Avenue, 45220, Cincinnati",
+   "website": "https://www.cliftonindianrestaurantandbar.com/"
+  },
+  {
+   "name": "Sake Bomb Sushi",
+   "cuisines": [
+    "Sushi",
+    "Korean"
+   ],
+   "address": "500 Monmouth Street, 41071, Newport",
+   "website": "https://sakebombnky.com/"
+  },
+  {
+   "name": "Around the Table Cincy",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3101 Price Avenue, 45205, Cincinnati",
+   "website": "https://www.aroundthetablecincy.com/"
+  },
+  {
+   "name": "Blinkers Tavern",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "318 Greenup Street, 41011, Covington",
+   "website": "https://blinkerstavern.com/"
+  },
+  {
+   "name": "Chicago Gyros and Dogs",
+   "cuisines": [
+    "Greek",
+    "Hot Dog"
+   ],
+   "address": "201 West McMillan Avenue, 45219, Cincinnati",
+   "website": "http://chicagogyrosanddogs.com"
+  },
+  {
+   "name": "OTR Bagel Bar",
+   "cuisines": [
+    "Bagel",
+    "Breakfast"
+   ],
+   "address": "107 West Elder Street, 45202, Cincinnati",
+   "website": "https://www.facebook.com/otrbagelbar"
+  },
+  {
+   "name": "Currito",
+   "cuisines": [
+    "Mexican",
+    "Health Food"
+   ],
+   "address": "222 Calhoun Street, 45219, Cincinnati",
+   "website": "https://currito.com/"
+  },
+  {
+   "name": "Fortune Noodle House",
+   "cuisines": [
+    "Noodle",
+    "Asian",
+    "Chinese"
+   ],
+   "address": "349 Calhoun Street, 45219, Cincinnati",
+   "website": "https://www.fortunenoodleuc.com/rs/index_home.action"
+  },
+  {
+   "name": "Elephant Walk",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "170 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://www.elephantwalkcincy.com/"
+  },
+  {
+   "name": "Izen's Drunken Bento",
+   "cuisines": [
+    "Korean",
+    "Sushi"
+   ],
+   "address": "212 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://drunkenbento.com"
+  },
+  {
+   "name": "BIBIBOP",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://bibibop.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/covington-ky-502/"
+  },
+  {
+   "name": "Cafe Mochiko",
+   "cuisines": [
+    "Noodle",
+    "Pastry"
+   ],
+   "address": "1524 Madison Road, 45206, Cincinnati",
+   "website": "https://www.cafemochiko.com/"
+  },
+  {
+   "name": "Kabobske",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2904 Short Vine Street, 45219, Cincinnati",
+   "website": "https://kabobske.com/"
+  },
+  {
+   "name": "Namaste",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2910 Short Vine Street, 45219, Cincinnati",
+   "website": "https://www.namasteindiarestaurantoh.com/"
+  },
+  {
+   "name": "Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1200 Broadway Street, 45202",
+   "website": "https://crowncantina.com/"
+  },
+  {
+   "name": "Hook Fish & Chicken",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1920 Linn Street, 45214, Cincinnati",
+   "website": "https://www.hookchickenfish.com/location/hook-fish-chicken-downtown/"
+  },
+  {
+   "name": "Taco Lab",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "165 West McMillan Avenue, 45219, Cincinnati",
+   "website": "https://www.tacolabcincy.com/"
+  },
+  {
+   "name": "Kanji OTR",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1739 Elm Street, 45202, Cincinnati",
+   "website": "https://www.kanjiotr.com/"
+  },
+  {
+   "name": "Mama's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "621 Main Street, Covington",
+   "website": "https://www.mamasonmain.com/"
+  },
+  {
+   "name": "Findlay Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1719 Elm Street, 45202, Cincinnati",
+   "website": "https://www.findlaykitchen.org/"
+  },
+  {
+   "name": "Veracruz Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3108 Price Avenue",
+   "website": "https://veracruzmexicangrill.com/"
+  },
+  {
+   "name": "Losanti",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://losantiotr.com/"
+  },
+  {
+   "name": "The Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.findlaymarket.org/merchant/thegrill"
+  },
+  {
+   "name": "LaRosa's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.larosas.com/"
+  },
+  {
+   "name": "Jot India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "https://www.jotindia.com"
+  },
+  {
+   "name": "Ollie's Trolley",
+   "cuisines": [
+    "Burger",
+    "Chicken"
+   ],
+   "address": "1607 Central Avenue, 45214, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Steak and Lemonade",
+   "cuisines": [
+    "Sandwich",
+    "American",
+    "Steak"
+   ],
+   "address": "2607 Short Vine Street, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Just Q'in Barbecue Restaurant",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "975 East McMillan Street, 45206, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "City View Tavern",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "403 Oregon Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Nasu Japanese Steakhouse",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "165 Pavillion Parkway, 41071, Newport",
+   "website": ""
+  },
+  {
+   "name": "Condado Tacos",
+   "cuisines": [
+    "Tacos",
+    "Mexican"
+   ],
+   "address": "195 East Freedom Way, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Shanghai on Elm",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "700 Elm Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Tuba Baking Co.",
+   "cuisines": [
+    "German"
+   ],
+   "address": "517 6th Avenue, 41074, Dayton",
+   "website": ""
+  },
+  {
+   "name": "Halal Food",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "121 East Court Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Mr. Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "580 Walnut Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Pei Wei",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2600 Clifton Avenue, 45221, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Red Fox Grill",
+   "cuisines": [
+    "Burger",
+    "Diner"
+   ],
+   "address": "232 East 6th Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Krishna Indian Restaurant and Carry Out",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "313 Calhoun Street, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Auntie Apple's Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "321 Ludlow Avenue, 45220, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Adeep India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "211 West McMillan Avenue, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Proud Rooster",
+   "cuisines": [
+    "Diner",
+    "American"
+   ],
+   "address": "345 Ludlow Avenue, 45220, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Toppers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "345 Calhoun Street, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Aji Ichiban",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1000 Elm Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Zaha Mediterranean Kitchen",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "133 E Court Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Sacred Beast",
+   "cuisines": [
+    "American",
+    "Diner",
+    "Breakfast"
+   ],
+   "address": "1437 Vine Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Pepp & Dolores",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1501 Vine Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Piada Italian Street Food",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "291 East Martin Luther King Junior Drive, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Monkey King Asian Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2504 Calhoun Street, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "The Park",
+   "cuisines": [
+    "American"
+   ],
+   "address": "161 East Freedom Way, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Crzy Monk",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "627 Main Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Le Bar A Boeuf",
+   "cuisines": [
+    "French"
+   ],
+   "address": "2200 Victory Parkway, 45206, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Wayfarer Tavern",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "635 6th Avenue, 41074",
+   "website": ""
+  },
+  {
+   "name": "Sunshine Fine Foods",
+   "cuisines": [
+    "Korean",
+    "Sandwich"
+   ],
+   "address": "720 Elm Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Drunken Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "200 West McMillan Avenue, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Tweedles Daylight Donuts",
+   "cuisines": [
+    "Breakfast",
+    "American",
+    "Coffee Shop",
+    "Coffee"
+   ],
+   "address": "202 West McMillan Avenue, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Ole Republic Leader",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1400 Republic Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Krueger's Tavern",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "1313 Vine Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Maki Express",
+   "cuisines": [
+    "Sushi",
+    "Noodle",
+    "Asian"
+   ],
+   "address": "209 West McMillan Avenue, 45219, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Kitty's Sports Bar Grill",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nasu Japanese Restaurant",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "165 Pavillion Parkway, 41071",
+   "website": ""
+  },
+  {
+   "name": "Webb's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "115 East 9th Street, 41071, Newport",
+   "website": ""
+  },
+  {
+   "name": "Cancun",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "401 Riverboat Row, 41071, Newport",
+   "website": ""
+  },
+  {
+   "name": "Zola Pub and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "626 Main Street, 41011, Covington",
+   "website": ""
+  },
+  {
+   "name": "Strong’s Brick Oven Pizzeria Newport",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "336 Monmouth Street, Newport",
+   "website": ""
+  },
+  {
+   "name": "Brothers",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1 Levee Way, Newport",
+   "website": ""
+  },
+  {
+   "name": "Madonna’s Bar & Grill",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "11 East 7th Street, 45202, Cincinnati",
+   "website": ""
+  },
+  {
+   "name": "Frisch’s Big Boy",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frisch's Big Boy",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sugar n' Spice Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rio Grande Mexican Resturant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "34 Carothers Road",
+   "website": ""
+  },
+  {
+   "name": "Causal Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "88 Carothers Road",
+   "website": ""
+  },
+  {
+   "name": "Cork N Crust",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DiBella’s Subs",
+   "cuisines": [
+    "American",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ninja Grill",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Halal Shack",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maverick's Restobar & Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Charthouse",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tea' N' Bowl",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wild Eggs",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K & J Seafood",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Fontana",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Camp Washington Steak and Lemonade",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Anchor Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nagomi Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Newberry Cafe",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jack Binion’s Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Martin’s Home Cooking",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "U.S. Chili",
+   "cuisines": [
+    "Chili"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Insanity Nutrition",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Y'all Cafe",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ravis Hyderbad House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sleepy Bee on The Fly",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sleepy Bee Cafe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jeff Ruby’s Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flavors n Spices",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Cozumel",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Baladi Restaurant & Bakery",
+   "cuisines": [
+    "Syrian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carmelo's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amol India Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King Wok",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Senor Pig",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Habibi Grill Food Truck “Cincinnati”",
+   "cuisines": [],
+   "address": "2536 Kemper Lane, 45206, Cincinnati",
+   "website": "https://www.thehabibigrill.com/"
+  },
+  {
+   "name": "Shiners On The Levee",
+   "cuisines": [],
+   "address": "1 Levee Way, 41071, Newport",
+   "website": "https://shinersonthelevee.com/"
+  },
+  {
+   "name": "Alcove",
+   "cuisines": [],
+   "address": "1410 Vine Street, 45202, Cincinnati",
+   "website": "https://madtree.com/locations/alcove-bar-restaurant/"
+  },
+  {
+   "name": "The Whole Bowl Cincinnati",
+   "cuisines": [],
+   "address": "364 Ludlow Avenue, 45220, Cincinnati",
+   "website": "https://thewholebowl.com/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Cincinnati Art Museum",
+   "kind": "museum",
+   "address": "953 Eden Park Drive, 45202, Cincinnati",
+   "website": "https://www.cincinnatiartmuseum.org/",
+   "phone": "",
+   "latitude": 39.1139865,
+   "longitude": -84.4971189
+  },
+  {
+   "name": "Aronoff Center for the Arts",
+   "kind": "attraction",
+   "address": "650 Walnut Street, 45202, Cincinnati",
+   "website": "https://www.cincinnatiarts.org/aronoff-center",
+   "phone": "",
+   "latitude": 39.1035785,
+   "longitude": -84.5111941
+  },
+  {
+   "name": "Wilson-Gibson House",
+   "kind": "attraction",
+   "address": "425 Oak Street, 45219, Cincinnati",
+   "website": "https://premierparkevents.com/venues/the-gibson-house/",
+   "phone": "+1-513-221-2610",
+   "latitude": 39.1301826,
+   "longitude": -84.500409
+  },
+  {
+   "name": "Mt. Lookout Observatory",
+   "kind": "museum",
+   "address": "3489 Observatory Place, 45208, Cincinnati",
+   "website": "https://www.cincinnatiobservatory.org/",
+   "phone": "+1-513-321-5186",
+   "latitude": 39.1390749,
+   "longitude": -84.4229395
+  },
+  {
+   "name": "National Underground Railroad Freedom Center",
+   "kind": "museum",
+   "address": "50 East Freedom Way, 45202, Cincinnati",
+   "website": "https://www.freedomcenter.org/",
+   "phone": "",
+   "latitude": 39.0976306,
+   "longitude": -84.5112452
+  },
+  {
+   "name": "Taft Museum of Art",
+   "kind": "museum",
+   "address": "316 Pike Street, 45202, Cincinnati",
+   "website": "https://www.taftmuseum.org/",
+   "phone": "+1-513-241-0343",
+   "latitude": 39.102261,
+   "longitude": -84.5025296
+  },
+  {
+   "name": "Harriet Beecher Stowe House",
+   "kind": "museum",
+   "address": "2950 Gilbert Avenue, 45206, Cincinnati",
+   "website": "https://www.stowehousecincy.org/",
+   "phone": "",
+   "latitude": 39.1331442,
+   "longitude": -84.4873321
+  },
+  {
+   "name": "Hard Rock Casino Cincinnati",
+   "kind": "attraction",
+   "address": "1000 Broadway Street, 45202, Cincinnati",
+   "website": "https://www.hardrockcasinocincinnati.com/",
+   "phone": "",
+   "latitude": 39.1081596,
+   "longitude": -84.5066049
+  },
+  {
+   "name": "Lloyd Library and Museum",
+   "kind": "museum",
+   "address": "917 Plum Street, 45202, Cincinnati",
+   "website": "https://www.lloydlibrary.org/",
+   "phone": "+1 513-721-3707",
+   "latitude": 39.1052737,
+   "longitude": -84.5192569
+  },
+  {
+   "name": "Newport Aquarium",
+   "kind": "aquarium",
+   "address": "1 Aquarium Way, 41071, Newport",
+   "website": "https://www.newportaquarium.com/",
+   "phone": "+1 800 4063474",
+   "latitude": 39.0943678,
+   "longitude": -84.4978177
+  },
+  {
+   "name": "Contemporary Arts Center",
+   "kind": "gallery",
+   "address": "44 East 6th Street, 45202, Cincinnati",
+   "website": "https://www.contemporaryartscenter.org/",
+   "phone": "+1-513-345-8400",
+   "latitude": 39.1028292,
+   "longitude": -84.5121375
+  },
+  {
+   "name": "Cincinnati Fire Museum",
+   "kind": "museum",
+   "address": "315 West Court Street, 45202, Cincinnati",
+   "website": "https://www.cincyfiremuseum.com/",
+   "phone": "+1 513-621-5553",
+   "latitude": 39.1052284,
+   "longitude": -84.5195798
+  },
+  {
+   "name": "Railway Museum of Greater Cincinnati",
+   "kind": "museum",
+   "address": "315 West Southern Avenue, 41015, Covington",
+   "website": "http://cincirailmuseum.org/",
+   "phone": "",
+   "latitude": 39.0476486,
+   "longitude": -84.5073141
+  },
+  {
+   "name": "Cincinnati History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cincymuseum.org/historymuseum/",
+   "phone": "",
+   "latitude": 39.1094037,
+   "longitude": -84.5372344
+  },
+  {
+   "name": "The Betts House",
+   "kind": "museum",
+   "address": "416 Clark Street, 45203, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1077657,
+   "longitude": -84.5221508
+  },
+  {
+   "name": "Cincinnati Reds Hall of Fame and Museum",
+   "kind": "museum",
+   "address": "100 Joe Nuxhall Way, 45202, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0973805,
+   "longitude": -84.5084197
+  },
+  {
+   "name": "Cincinnati Zoo and Botanical Garden",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1444311,
+   "longitude": -84.5086784
+  },
+  {
+   "name": "Elsinore Arch",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1130484,
+   "longitude": -84.4996573
+  },
+  {
+   "name": "Tyler Davidson Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.101622,
+   "longitude": -84.5124622
+  },
+  {
+   "name": "Newport on the Levee",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0949383,
+   "longitude": -84.4966123
+  },
+  {
+   "name": "Duke Energy Children’s Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1099387,
+   "longitude": -84.5372455
+  },
+  {
+   "name": "Behringer-Crawford Museum at Devou",
+   "kind": "museum",
+   "address": "1600 Montague Road, 41011, Covington",
+   "website": "https://www.bcmuseum.org/",
+   "phone": "",
+   "latitude": 39.0811994,
+   "longitude": -84.5386903
+  },
+  {
+   "name": "Krohn Conservatory",
+   "kind": "museum",
+   "address": "1501 Eden Park Drive, 45202, Cincinnati",
+   "website": "https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/krohn-conservatory/",
+   "phone": "",
+   "latitude": 39.1152203,
+   "longitude": -84.490116
+  },
+  {
+   "name": "Art Beyond Boundaries",
+   "kind": "gallery",
+   "address": "1410 Main Street, 45202, Cincinnati",
+   "website": "https://www.artbeyondboundaries.com/",
+   "phone": "+1-513-421-8726",
+   "latitude": 39.1115202,
+   "longitude": -84.5120896
+  },
+  {
+   "name": "Gallery at Gumbo",
+   "kind": "gallery",
+   "address": "1300 Main Street, 45202, Cincinnati",
+   "website": "https://linktr.ee/GalleryatGumbo",
+   "phone": "",
+   "latitude": 39.1099213,
+   "longitude": -84.5116711
+  },
+  {
+   "name": "Greater Cincinnati Police Museum",
+   "kind": "museum",
+   "address": "308 Reading Road, 45202, Cincinnati",
+   "website": "https://police-museum.org/",
+   "phone": "+1-513-300-3664",
+   "latitude": 39.1086738,
+   "longitude": -84.5093174
+  },
+  {
+   "name": "Vent Haven Museum",
+   "kind": "museum",
+   "address": "33 West Maple Avenue, 41011, Fort Mitchell",
+   "website": "https://www.venthaven.org",
+   "phone": "+1-859-341-0461",
+   "latitude": 39.0529822,
+   "longitude": -84.5519745
+  },
+  {
+   "name": "Purple Paisley, Local Artisan Shop",
+   "kind": "gallery",
+   "address": "715 Scott Street, 41011, Covington",
+   "website": "https://purplepaisleyartisanshop.com/",
+   "phone": "+1-513-232-5574",
+   "latitude": 39.0831452,
+   "longitude": -84.5086349
+  },
+  {
+   "name": "American Legacy Tours",
+   "kind": "attraction",
+   "address": "1332 Vine Street, 45202, Cincinnati",
+   "website": "https://www.americanlegacytours.com/",
+   "phone": "+1-513-951-8560",
+   "latitude": 39.1106267,
+   "longitude": -84.5152317
+  },
+  {
+   "name": "StudioKroner",
+   "kind": "gallery",
+   "address": "130 West Court Street, 45202, Cincinnati",
+   "website": "https://www.studiokroner.com/",
+   "phone": "+1-513-428-9830",
+   "latitude": 39.1059958,
+   "longitude": -84.5169378
+  },
+  {
+   "name": "Solway Gallery",
+   "kind": "gallery",
+   "address": "424 Findlay Street, 45214, Cincinnati",
+   "website": "https://solwaygallery.com/",
+   "phone": "+1-513-621-0069",
+   "latitude": 39.1162778,
+   "longitude": -84.5243981
+  },
+  {
+   "name": "American Sign Museum",
+   "kind": "museum",
+   "address": "1330 Monmouth Street, 45225, Cincinnati",
+   "website": "https://www.americansignmuseum.org/",
+   "phone": "",
+   "latitude": 39.143539,
+   "longitude": -84.539855
+  },
+  {
+   "name": "Cincinnati Union Terminal",
+   "kind": "attraction",
+   "address": "1301 Western Avenue, 45203, Cincinnati",
+   "website": "https://www.cincymuseum.org/",
+   "phone": "",
+   "latitude": 39.109923,
+   "longitude": -84.5376169
+  },
+  {
+   "name": "Mean Street Gallery",
+   "kind": "gallery",
+   "address": "1411 Main Street, 45202, Cincinnati",
+   "website": "https://www.meanstreetgallery.com/",
+   "phone": "+1-513-818-3131",
+   "latitude": 39.1116963,
+   "longitude": -84.5124221
+  },
+  {
+   "name": "Elephant Reserve",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://cincinnatizoo.org/animals/habitat/schott-unnewehr-elephant-reserve/",
+   "phone": "",
+   "latitude": 39.1434794,
+   "longitude": -84.5076345
+  },
+  {
+   "name": "Mary Ran Gallery",
+   "kind": "gallery",
+   "address": "3668 Erie Avenue, 45208, Cincinnati",
+   "website": "https://maryrangallery.com/",
+   "phone": "",
+   "latitude": 39.1427029,
+   "longitude": -84.4150672
+  },
+  {
+   "name": "Cincinnati Type & Print Museum",
+   "kind": "museum",
+   "address": "2307 West 8th Street, 45204, Cincinnati",
+   "website": "https://www.cincinnatitypeprintmuseum.org/",
+   "phone": "+1-513-914-5722",
+   "latitude": 39.1051938,
+   "longitude": -84.5536134
+  },
+  {
+   "name": "Miller Gallery",
+   "kind": "gallery",
+   "address": "2715 Erie Avenue, 45208, Cincinnati",
+   "website": "https://www.millergallery.com/",
+   "phone": "",
+   "latitude": 39.1393682,
+   "longitude": -84.4427004
+  },
+  {
+   "name": "The Pines",
+   "kind": "gallery",
+   "address": "3645 Linwood Avenue, 45226, Cincinnati",
+   "website": "https://thepinescincy.com/",
+   "phone": "",
+   "latitude": 39.1216338,
+   "longitude": -84.4167176
+  },
+  {
+   "name": "The Carnegie",
+   "kind": "gallery",
+   "address": "1028 Scott Boulevard, 41011, Covington",
+   "website": "https://www.thecarnegie.com/",
+   "phone": "",
+   "latitude": 39.080098,
+   "longitude": -84.5069501
+  },
+  {
+   "name": "Tharp Dayton Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "www.TharpDaytonHeritageMuseum.com",
+   "phone": "",
+   "latitude": 39.1136499,
+   "longitude": -84.4706138
+  },
+  {
+   "name": "Wash Park Art",
+   "kind": "gallery",
+   "address": "1215 Elm Street, 45202, Cincinnati",
+   "website": "https://www.washparkart.com/",
+   "phone": "",
+   "latitude": 39.1083015,
+   "longitude": -84.5182885
+  },
+  {
+   "name": "Irish Heritage Center of Cincinnati",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cincyirish.org",
+   "phone": "",
+   "latitude": 39.1099016,
+   "longitude": -84.4339806
+  },
+  {
+   "name": "Fort Thomas Military Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://ftthomas.org/renaissance/military-museum/",
+   "phone": "",
+   "latitude": 39.0668556,
+   "longitude": -84.4441927
+  },
+  {
+   "name": "Cincinnati Museum Center at Union Terminal",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cincymuseum.org/",
+   "phone": "",
+   "latitude": 39.1099604,
+   "longitude": -84.537681
+  },
+  {
+   "name": "Cincinnati Aviation Heritage Society Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.cahslunken.org/",
+   "phone": "",
+   "latitude": 39.1036147,
+   "longitude": -84.4294435
+  },
+  {
+   "name": "Devou Memorial Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.covingtonky.gov/visitors/parks/shelters/overlook",
+   "phone": "",
+   "latitude": 39.0825839,
+   "longitude": -84.5264875
+  },
+  {
+   "name": "Carew Tower",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1007985,
+   "longitude": -84.5132618
+  },
+  {
+   "name": "Weston Art Gallery",
+   "kind": "gallery",
+   "address": "650 Walnut Street, 45202, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1038374,
+   "longitude": -84.5116431
+  },
+  {
+   "name": "Cincinnati Black Music Walk of Fame",
+   "kind": "museum",
+   "address": "190 W Mehring Wy, 45202, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0948166,
+   "longitude": -84.5135754
+  },
+  {
+   "name": "Ludlow Heritage Museum",
+   "kind": "museum",
+   "address": "49 Elm Street, 41016, Ludlow",
+   "website": "",
+   "phone": "",
+   "latitude": 39.094051,
+   "longitude": -84.5443152
+  },
+  {
+   "name": "Newport History Museum",
+   "kind": "museum",
+   "address": "215 East Southgate Street, 41071, Newport",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0947683,
+   "longitude": -84.4936163
+  },
+  {
+   "name": "Price Hill Historical Society",
+   "kind": "museum",
+   "address": "3640 Warsaw Avenue, 45205, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1108231,
+   "longitude": -84.5720963
+  },
+  {
+   "name": "Off Ludlow Art Gallery",
+   "kind": "gallery",
+   "address": "3408 Ormond Avenue, 45220, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1434712,
+   "longitude": -84.5213454
+  },
+  {
+   "name": "Delhi Historical Society",
+   "kind": "museum",
+   "address": "468 Anderson Ferry Road, 45238, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0974277,
+   "longitude": -84.6172952
+  },
+  {
+   "name": "Overlook Pergola",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1112415,
+   "longitude": -84.4302807
+  },
+  {
+   "name": "BB Riverboats",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.093524,
+   "longitude": -84.501898
+  },
+  {
+   "name": "Trailside Nature Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1397134,
+   "longitude": -84.5154897
+  },
+  {
+   "name": "Area History",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1069582,
+   "longitude": -84.4337247
+  },
+  {
+   "name": "Labyrinth",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0956627,
+   "longitude": -84.5093769
+  },
+  {
+   "name": "Heekin Overlook Pergola",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1313626,
+   "longitude": -84.4097883
+  },
+  {
+   "name": "Penguins",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1454136,
+   "longitude": -84.5072868
+  },
+  {
+   "name": "Southern Caboose",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0946342,
+   "longitude": -84.5437826
+  },
+  {
+   "name": "Taft House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.119477,
+   "longitude": -84.5082365
+  },
+  {
+   "name": "Temple of Love",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1553015,
+   "longitude": -84.5310353
+  },
+  {
+   "name": "Leapin Lizard Gallery",
+   "kind": "gallery",
+   "address": "Main Street, Covington",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0818582,
+   "longitude": -84.5172526
+  },
+  {
+   "name": "Rain Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0962915,
+   "longitude": -84.5103574
+  },
+  {
+   "name": "Over-the-Rhine Museum",
+   "kind": "museum",
+   "address": "West McMicken Avenue, Cincinnati",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1169279,
+   "longitude": -84.5174763
+  },
+  {
+   "name": "Lemur Lookout",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1459462,
+   "longitude": -84.5100039
+  },
+  {
+   "name": "American football ball",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0592198,
+   "longitude": -84.5041288
+  },
+  {
+   "name": "Indian Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.146034,
+   "longitude": -84.5088012
+  },
+  {
+   "name": "Mirror Lake",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1132046,
+   "longitude": -84.4942219
+  },
+  {
+   "name": "Main Street Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0957064,
+   "longitude": -84.5082804
+  },
+  {
+   "name": "Carol Ann’s Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.0960813,
+   "longitude": -84.5114498
+  },
+  {
+   "name": "Gibbon Island",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1444173,
+   "longitude": -84.5079013
+  },
+  {
+   "name": "Black Bears",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1455919,
+   "longitude": -84.5069637
+  },
+  {
+   "name": "Red Panda",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1448367,
+   "longitude": -84.5083879
+  },
+  {
+   "name": "River Otters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1457267,
+   "longitude": -84.5077871
+  },
+  {
+   "name": "Spectacled Bears",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1457147,
+   "longitude": -84.5071377
+  },
+  {
+   "name": "Wolf Woods",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1453864,
+   "longitude": -84.5078324
+  },
+  {
+   "name": "Bonobos",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1460932,
+   "longitude": -84.5070154
+  },
+  {
+   "name": "Orangutans",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1458131,
+   "longitude": -84.5061809
+  },
+  {
+   "name": "Black Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1460502,
+   "longitude": -84.5083609
+  },
+  {
+   "name": "Bongo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1454462,
+   "longitude": -84.5086151
+  },
+  {
+   "name": "Cheetah Encounter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1438203,
+   "longitude": -84.5059039
+  },
+  {
+   "name": "Cheetah",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.144178,
+   "longitude": -84.5070891
+  },
+  {
+   "name": "Cougar",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1452241,
+   "longitude": -84.5095291
+  },
+  {
+   "name": "Flamingos",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1452685,
+   "longitude": -84.5083873
+  },
+  {
+   "name": "Giraffe Ridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.143342,
+   "longitude": -84.5066601
+  },
+  {
+   "name": "Lorikeet Landing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.144951,
+   "longitude": -84.5068759
+  },
+  {
+   "name": "Malayan Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1454022,
+   "longitude": -84.5091829
+  },
+  {
+   "name": "Night Hunters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1451576,
+   "longitude": -84.5097909
+  },
+  {
+   "name": "Polar Bears",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1458705,
+   "longitude": -84.5074721
+  },
+  {
+   "name": "Siegfried and Roy's White Lions",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.146494,
+   "longitude": -84.5086328
+  },
+  {
+   "name": "Snow Leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1449372,
+   "longitude": -84.5091831
+  },
+  {
+   "name": "Treetops",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1438961,
+   "longitude": -84.5068351
+  },
+  {
+   "name": "White Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1452035,
+   "longitude": -84.5091793
+  },
+  {
+   "name": "Zebras",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1454533,
+   "longitude": -84.5082953
+  },
+  {
+   "name": "Eagle Eyrie",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1439693,
+   "longitude": -84.5094591
+  },
+  {
+   "name": "Meerkats",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1449876,
+   "longitude": -84.5062994
+  },
+  {
+   "name": "African Lion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1439876,
+   "longitude": -84.5063942
+  },
+  {
+   "name": "Africa",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1444691,
+   "longitude": -84.5064401
+  },
+  {
+   "name": "African Painted Dog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1449259,
+   "longitude": -84.5060955
+  },
+  {
+   "name": "Hippo Cove",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1453506,
+   "longitude": -84.5060031
+  },
+  {
+   "name": "Museum of Natural History and Science",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1104797,
+   "longitude": -84.5371593
+  },
+  {
+   "name": "Philip Meyers Jr. Memorial Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1324199,
+   "longitude": -84.5160864
+  },
+  {
+   "name": "Elephant Trek",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1474119,
+   "longitude": -84.5096159
+  },
+  {
+   "name": "Ransohoff Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1215625,
+   "longitude": -84.5193616
+  },
+  {
+   "name": "Spencer Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1165053,
+   "longitude": -84.4881342
+  },
+  {
+   "name": "Lunken Airport Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.1102348,
+   "longitude": -84.428867
+  },
+  {
+   "name": "Dorothy and Lawson Reed Jr. Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.134338,
+   "longitude": -84.5185499
+  }
+ ]
+}

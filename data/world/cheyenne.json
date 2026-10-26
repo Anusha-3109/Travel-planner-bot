@@ -1,0 +1,971 @@
+{
+ "city": "Cheyenne",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.1391,
+ "longitude": -104.8178,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1415 Stillwater Avenue, 82009, Cheyenne",
+   "url": "https://www.marriott.com/hotels/hotel-rooms/cysfi-fairfield-inn-cheyenne/"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 West Fox Farm Road, 82007, Cheyenne",
+   "url": "http://www.comfortinn.com/hotel-cheyenne-wyoming-WY097"
+  },
+  {
+   "name": "Surestay Plus Hotel by Best Western Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1781 Fleischili Parkway, 82007, Cheyenne",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-cheyenne/surestay-plus-hotel-by-best-western-cheyenne/propertyCode.51074.html"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2410 West Lincolnway, 82001, Cheyenne",
+   "url": "https://www.wyndhamhotels.com/laquinta/cheyenne-wyoming/la-quinta-inn-cheyenne/overview"
+  },
+  {
+   "name": "Best Western Plus Frontier Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8101 Hutchins Drive, 82007, Cheyenne",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-cheyenne/best-western-plus-frontier-inn/propertyCode.51072.html"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2245 Etchepare Drive, 82007, Cheyenne",
+   "url": "http://www.qualityinn.com/hotel-cheyenne-wyoming-WY020/Hotel-Photos"
+  },
+  {
+   "name": "SpringHill Suites Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "416 Fox Farm Road, 82007, Cheyenne",
+   "url": "https://www.marriott.com/cyssh"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1710 West Lincolnway, 82001, Cheyenne",
+   "url": "https://www.marriott.com/cysts"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "429 West Fox Farm Road, 82007, Cheyenne",
+   "url": "https://www.hilton.com/en/hotels/cysenht-home2-suites-cheyenne/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2360 West Lincolnway, 82001, Cheyenne",
+   "url": "https://www.wyndhamhotels.com/days-inn/cheyenne-wyoming/days-inn-cheyenne/overview"
+  },
+  {
+   "name": "My Place Hotel - Cheyenne, WY",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1920 West Lincolnway, 82001, Cheyenne",
+   "url": "https://www.myplacehotels.com/"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1820 West Lincolnway, 82001, Cheyenne",
+   "url": "https://www.marriott.com/cyssw"
+  },
+  {
+   "name": "The Historic Plains Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 Capitol Avenue, 82001, Cheyenne",
+   "url": "http://www.plainshotel.com"
+  },
+  {
+   "name": "Oak Tree Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 Stillwater Avenue, 82009, Cheyenne",
+   "url": "http://www.oaktreeinn.com"
+  },
+  {
+   "name": "Comea Shelter for Homeless",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1504 Stinson Avenue, 82001, Cheyenne",
+   "url": "https://comeashelter.org/"
+  },
+  {
+   "name": "The Downtowner Studios",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1719 Central Avenue, 82001-4533, Cheyenne",
+   "url": "https://www.thedowntowner.com/about"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5401 Walker Road, 82009, Cheyenne",
+   "url": "https://www.choicehotels.com/wyoming/cheyenne/quality-inn-hotels"
+  },
+  {
+   "name": "Stage Coach Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 West Lincolnway, 82001, Cheyenne",
+   "url": "https://local.yahoo.com/info-19758283-stage-coach-motel-cheyenne?tab=reviews"
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1941 Fleischili Parkway, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2335 Tura Parkway, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1900 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Tru by Hilton Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "423 West Fox Farm Road, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Crow Creek Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7103 Randall Avenue, 82005, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Park Inn by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1735 Westland Road, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1400 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Cheyenne Guest Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2512 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Cheyenne Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1601 East Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Firebird Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1905 East Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5109 Frontier Mall Drive, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Luxury Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1805 Westland Road, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3839 East Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Hotel & Conference Center Cheyenne",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "204 West Fox Farm Road, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Rodeo Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3839 East Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Ranger Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "909 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Guest Ranch Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Wyoming Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1401 West Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Pioneer Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "209 West 17th Street, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Fleetwood Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3800 East Lincolnway, 82001, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Round-Up Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "403 South Greeley Highway, 82007, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Sands Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1022 West Lincolnway, Cheyenne",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Little America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Crow Creek Inn Sign",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Everhome Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Paul Paul's Asian, Cajun & Soul",
+   "cuisines": [
+    "Southern",
+    "Asian Flavor",
+    "Cajun Soul",
+    "Home Style"
+   ],
+   "address": "1400 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.frontiermall.com/store/paul_pauls_asian_cajun_and_soul?location=u089"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1401 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://restaurants.applebees.com/en-us/wy/cheyenne/1401-dell-range-blvd.-87012"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1320 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.chilis.com/locations/us/wyoming/cheyenne"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1536 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.olivegarden.com/locations/wy/cheyenne/cheyenne-frontier-mall/1716"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1931 Blue Grass Circle, 82009, Cheyenne",
+   "website": "https://www.texasroadhouse.com/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1923 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.redlobster.com/"
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1730 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.perkinsrestaurants.com/locations/us/wy/cheyenne/1730-dell-range-blvd/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5320 Yellowstone Road, 82009, Cheyenne",
+   "website": "https://locations.pizzahut.com/wy/cheyenne/5320-yellowstone-rd"
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1400 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.dickeys.com/locations/wyoming/cheyenne/cheyenne"
+  },
+  {
+   "name": "The Albany Restaurant, Bar and Liquor Mart",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1506 Capitol Avenue, 82001-4524, Cheyenne",
+   "website": "https://www.albanycheyenne.com/"
+  },
+  {
+   "name": "Jacksons All American Sports Grill",
+   "cuisines": [
+    "Regional",
+    "Burger"
+   ],
+   "address": "1121 Old Town Lane, 82009, Cheyenne",
+   "website": "https://www.jacksonsallamerican.com/"
+  },
+  {
+   "name": "Destination Taiwan",
+   "cuisines": [
+    "Chinese",
+    "Taiwanese"
+   ],
+   "address": "2634 Dell Range Boulevard, 82009, Cheyenne",
+   "website": "https://www.shiuanskitchen.com/"
+  },
+  {
+   "name": "Bejo Sushi/Asian",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "112 West 17th Street, 82001, Cheyenne",
+   "website": "https://bejosushi.com"
+  },
+  {
+   "name": "Owen's Hot Chicken",
+   "cuisines": [
+    "Chicken",
+    "Wings",
+    "Sandwich",
+    "Tea"
+   ],
+   "address": "2815 Ridge Road, 82001, Cheyenne",
+   "website": "https://www.owenshotchicken.com/"
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "1626 Fleischili Parkway, 82001, Cheyenne",
+   "website": "https://locations.outback.com/wyoming/cheyenne/1626-fleischli-business-parkway"
+  },
+  {
+   "name": "Epic Egg",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2300 Carey Avenue, 82001, Cheyenne",
+   "website": "https://epiceggrestaurants.com/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1740 Prairie Avenue, 82009, Cheyenne",
+   "website": "https://www.buffalowildwings.com/"
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "411 East Lincolnway, 82001, Cheyenne",
+   "website": "https://www.villageinn.com/locations/cheyenne-wy-downtown/"
+  },
+  {
+   "name": "Bella Fuoco Wood-Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2115 Warren Avenue, 82001-3739, Cheyenne",
+   "website": "https://bellafuocopizza.com/"
+  },
+  {
+   "name": "Accomplice Beer Company",
+   "cuisines": [
+    "Pizza",
+    "American"
+   ],
+   "address": "115 West 15th Street, Cheyenne",
+   "website": "https://accomplicebeer.com"
+  },
+  {
+   "name": "Durbar Nepalese and Indian Restaraunt",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3515 East Lincolnway, 82001, Cheyenne",
+   "website": "https://durbarbistro.com/cheyenne/"
+  },
+  {
+   "name": "Tres Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2414 West Lincolnway, 82001, Cheyenne",
+   "website": "https://www.tresamigosmexican.com/"
+  },
+  {
+   "name": "The Metropolitan Downtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1701 Carey Avenue, 82001, Cheyenne",
+   "website": "https://themetdowntown.com"
+  },
+  {
+   "name": "Espi's Restaurant",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "904 West Pershing Boulevard, 82001, Cheyenne",
+   "website": "https://espisrestaurant.com"
+  },
+  {
+   "name": "Sanford's Grub & Pub",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "115 East 17th Street, 82001, Cheyenne",
+   "website": "https://www.thegrubandpub.com/"
+  },
+  {
+   "name": "Down Home Diner",
+   "cuisines": [
+    "Diner",
+    "American",
+    "Burger",
+    "Breakfast"
+   ],
+   "address": "2310 West Lincolnway, 82001, Cheyenne",
+   "website": "https://www.facebook.com/DownHomeDinercheyennewy"
+  },
+  {
+   "name": "Two Doors Down",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "118 East 17th Street, 82001, Cheyenne",
+   "website": "https://2doorsdown.net"
+  },
+  {
+   "name": "Paris West",
+   "cuisines": [
+    "Western",
+    "French",
+    "American"
+   ],
+   "address": "1719 Central Avenue, 82001, Cheyenne",
+   "website": "https://parisinthewest.com"
+  },
+  {
+   "name": "Hokkaido Ramen",
+   "cuisines": [
+    "Ramen",
+    "Noodle",
+    "Sushi",
+    "Asian"
+   ],
+   "address": "1720 Capitol Avenue, 82001, Cheyenne",
+   "website": "https://www.cheyennehokkaidoramen.com"
+  },
+  {
+   "name": "The Office Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1600 East Pershing Boulevard, 82001, Cheyenne",
+   "website": "https://www.theofficewy.com/menu"
+  },
+  {
+   "name": "Wasabi's",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "4620 Grandview Avenue, Cheyenne",
+   "website": "http://wasabigrillandbar.com/"
+  },
+  {
+   "name": "Penny's Diner",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1625 Stillwater Avenue, 82009, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Mongolian Grill",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "1637 Stillwater Avenue, 82009, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Korean House Restaraunt",
+   "cuisines": [
+    "Asian",
+    "Korean"
+   ],
+   "address": "3219 Snyder Avenue, 82001, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Tacqueria Mexicana Mi Tierra",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "314 Dell Range Boulevard, 82009, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1958 Dell Range Boulevard, 82009, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Guadalajara",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "317 East Lincolnway, 82001, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Nathaly’s Tacos y Papusas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4014 Central Avenue, 82001, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Guadalajara",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rolando's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "L'Osteria Mondello's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hi Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delectable Donuts",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tres Amigos (Dell Range)",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rubyjuice Fruit & Smoothies",
+   "cuisines": [],
+   "address": "113 East 17th Street, 82001, Cheyenne",
+   "website": ""
+  },
+  {
+   "name": "Cheba Hut",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Cheyenne Depot Museum",
+   "kind": "museum",
+   "address": "121 West 15th Street, 82001, Cheyenne",
+   "website": "https://www.cheyennedepotmuseum.org/",
+   "phone": "+1 307 632 3905",
+   "latitude": 41.1317835,
+   "longitude": -104.8144061
+  },
+  {
+   "name": "Wyoming State Museum",
+   "kind": "museum",
+   "address": "2301 Central Avenue, 82002, Cheyenne",
+   "website": "https://wyomuseum.wyo.gov/index.php/visit/plan-your-visit",
+   "phone": "+1 307 777-7826",
+   "latitude": 41.1395677,
+   "longitude": -104.8176857
+  },
+  {
+   "name": "Cheyenne Frontier Days - Old West Museum",
+   "kind": "museum",
+   "address": "4610 Carey Avenue, 82001, Cheyenne",
+   "website": "https://www.oldwestmuseum.org/",
+   "phone": "+1 307 778 7290",
+   "latitude": 41.1579134,
+   "longitude": -104.8339954
+  },
+  {
+   "name": "Wyoming National Guard Museum",
+   "kind": "museum",
+   "address": "624 East Pershing Boulevard, 82001, Cheyenne",
+   "website": "https://sites.google.com/a/wyo.gov/wyomingmilitarydepartment/",
+   "phone": "+1 307 432 0057",
+   "latitude": 41.1464634,
+   "longitude": -104.8147797
+  },
+  {
+   "name": "Nelson Museum of the West",
+   "kind": "museum",
+   "address": "1714 Carey Avenue, 82001, Cheyenne",
+   "website": "https://www.nelsonmuseum.org",
+   "phone": "",
+   "latitude": 41.1336223,
+   "longitude": -104.8177132
+  },
+  {
+   "name": "Cowgirls of the West Museum",
+   "kind": "museum",
+   "address": "203,205 West 17th Street, 82001, Cheyenne",
+   "website": "https://www.cowgirlsofthewestmuseum.com/",
+   "phone": "",
+   "latitude": 41.1334089,
+   "longitude": -104.816101
+  },
+  {
+   "name": "Big Boy Steam Engine 4004",
+   "kind": "attraction",
+   "address": "1705 Morrie Ave, 82001, Cheyenne",
+   "website": "https://www.cheyenne.org/listing/big-boy-steam-engine/116/",
+   "phone": "",
+   "latitude": 41.1367563,
+   "longitude": -104.7998715
+  },
+  {
+   "name": "Cheyenne Children's Museum",
+   "kind": "museum",
+   "address": "1618 O Neil Avenue, 82001, Cheyenne",
+   "website": "https://www.cheyennechildrensmuseum.org/",
+   "phone": "",
+   "latitude": 41.1314838,
+   "longitude": -104.8207364
+  },
+  {
+   "name": "Derby Lanes",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.146891,
+   "longitude": -104.8032877
+  }
+ ]
+}

@@ -1,0 +1,758 @@
+{
+ "city": "Evansville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.9705,
+ "longitude": -87.5727,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fairfield Inn Evansville West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5400 Weston Road, 47712, Evansville",
+   "url": "https://www.marriott.com/en-us/hotels/evvfw-fairfield-inn-evansville-west/overview/"
+  },
+  {
+   "name": "Hampton Inn Evansville/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5701 Highway 41 North, 47711, Evansville",
+   "url": "https://www.hilton.com/en/hotels/evvaphx-hampton-evansville-airport/"
+  },
+  {
+   "name": "Doubletree by Hilton Evansville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Walnut Street, 47708, Evansville",
+   "url": "https://www.hilton.com/en/hotels/evveddt-doubletree-evansville/"
+  },
+  {
+   "name": "Super 8 by Wyndham Evansville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4600 East Morgan Avenue, 47715, Evansville",
+   "url": "https://www.wyndhamhotels.com/super-8/evansville-indiana/super-8-evansville-east/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites Evansville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3901 Highway 41 North, 47111, Evansville",
+   "url": "https://www.choicehotels.com/kentucky/henderson/sleep-inn-hotels"
+  },
+  {
+   "name": "Econo Lodge Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1930 Cross Pointe Boulevard, 47715, Evansville",
+   "url": "https://www.choicehotels.com/kentucky/owensboro/sleep-inn-hotels"
+  },
+  {
+   "name": "Hyatt Place Evansville / Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "202 Southeast 2nd Street, 47713, Evansville",
+   "url": "https://www.hyatt.com/en-us/hotel/indiana/hyatt-place-evansville-downtown/sdfzv"
+  },
+  {
+   "name": "Drury Inn & Suites Evansville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Cross Pointe Boulevard, 47715, Evansville",
+   "url": "https://www.druryhotels.com/"
+  },
+  {
+   "name": "Casa Finale",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 Southeast Riverside Drive, 47713, Evansville",
+   "url": "http://casafinale.com"
+  },
+  {
+   "name": "Le Merigot at Tropicana",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "615 Northwest Riverside Drive, 47708, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5006 East Morgan Avenue, 47715, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Bally's Evansville Casino & Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "421 Northwest Riverside Drive, 47708, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson by Wyndham Evansville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 North Green River Road, 47715, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Evansville Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "703 North 1st Avenue, 47710, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Evansville - West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5737 Pearl Drive, 47712, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Evansville, IN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4321 Highway 41 North, 47711, Evansville",
+   "url": ""
+  },
+  {
+   "name": "300 Riverside",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Southeast Riverside Drive, 47713, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5538 East Indiana Street, 47715, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Evansville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4819 Tecumseh Lane, 47715, Evansville",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Evansville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge Evansville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Arrowhead Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Coolbreeze Estate B & B",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Deluxe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Esquire Inn-Evansville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunset Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homelife Studio & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "2nd Language",
+   "cuisines": [
+    "Asian",
+    "American",
+    "Filipino",
+    "Thai",
+    "Japanese"
+   ],
+   "address": "401 Northwest 2nd Street, 47708, Evansville",
+   "website": "https://tastepangea.com/2nd-language"
+  },
+  {
+   "name": "Pangea Pizzaria Downtown",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "401 Northwest 2nd Street, 47708, Evansville",
+   "website": "https://tastepangea.com/pizzeria-downtown"
+  },
+  {
+   "name": "Major Munch",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "101 Northwest 1st Street, 47708, Evansville",
+   "website": "https://majormunch.com/"
+  },
+  {
+   "name": "Bru Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "222 Sycamore Street, 47708, Evansville",
+   "website": "https://www.bruburgerbar.com/location/bru-burger-bar-evansville-in/"
+  },
+  {
+   "name": "Deerhead Sidewalk Cafe",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "222 East Columbia Street, 47711, Evansville",
+   "website": "http://deerheadpizza.net/"
+  },
+  {
+   "name": "Cavanaugh's on the River",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "421 Northwest Riverside Drive, 47708, Evansville",
+   "website": "https://casinos.ballys.com/evansville/cavanaughs-on-the-river.htm"
+  },
+  {
+   "name": "The Deli",
+   "cuisines": [
+    "Dessert",
+    "Sandwich"
+   ],
+   "address": "421 Northwest Riverside Drive, 47708, Evansville",
+   "website": "https://casinos.ballys.com/evansville/the-deli.htm"
+  },
+  {
+   "name": "China King",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "590 East Diamond Avenue, 47711",
+   "website": "http://chinakingin.com"
+  },
+  {
+   "name": "Wings Etc",
+   "cuisines": [
+    "American",
+    "Chicken"
+   ],
+   "address": "628 East Diamond Avenue, 47711",
+   "website": "https://wingsetc.com/"
+  },
+  {
+   "name": "Wayback Burgers",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "624 East Diamond Avenue, 47711",
+   "website": "https://waybackburgers.com/"
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "401 North St Joseph Avenue, 47712, Evansville",
+   "website": ""
+  },
+  {
+   "name": "COMFORT",
+   "cuisines": [
+    "American"
+   ],
+   "address": "230 Main Street, 47708, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Franklin St. Pizza Factory and \"The Sterling Room \"",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2033 West Franklin Street, 47712, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Cross-Eyed Cricket Family Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2101 West Lloyd Expressway, 47712, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Lin's Asian Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "520 North 1st Avenue, 47747, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Los Bravos Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3534 North 1st Avenue, 47710, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Lyle's Sportsbar Pizza & Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1404 East Morgan Avenue, 47711, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Turoni's Pizzaria & Brewpub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gerst Haus",
+   "cuisines": [
+    "Bavarian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hacienda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Turoni's For-Get-Me-Not-Inn",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kipplee's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "House of Como",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Milanos Italian Cuisine",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gangnam Korean Cuisine",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jaya's Authentic Foods",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DiMaggio's Italian Pizza",
+   "cuisines": [],
+   "address": "3848 N First Ave, 47710, Evansville",
+   "website": "https://orderdimaggios.com/"
+  },
+  {
+   "name": "DiLegge's Italian Cuisine",
+   "cuisines": [],
+   "address": "607 North Main Street, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Smitty's Italian Steakhouse",
+   "cuisines": [],
+   "address": "2109 West Franklin Street, 47712, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Hickory Pit Stop BBQ",
+   "cuisines": [],
+   "address": "1521 North Main Street, 47711, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Hilltop Inn",
+   "cuisines": [],
+   "address": "1100 Harmony Way, 47720, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Main Street Food and Beverage",
+   "cuisines": [],
+   "address": "900 Main Street, 47708, Evansville",
+   "website": ""
+  },
+  {
+   "name": "Merry-Go-Round",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Sportsden",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rainforest Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amy's on Franklin",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Madeleine's Fusion Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sauced",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Schymik's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zesto",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Samuel's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "USS LST-325",
+   "kind": "attraction",
+   "address": "610 Northwest Riverside Drive, 47708, Evansville",
+   "website": "https://www.lstmemorial.org/",
+   "phone": "+1-812-435-8678",
+   "latitude": 37.9727586,
+   "longitude": -87.5802609
+  },
+  {
+   "name": "Evansville African American Museum",
+   "kind": "museum",
+   "address": "579 South Garvin Street, 47713, Evansville",
+   "website": "https://evansvilleaamuseum.wordpress.com/",
+   "phone": "",
+   "latitude": 37.9705478,
+   "longitude": -87.5567856
+  },
+  {
+   "name": "Evansville Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://emuseum.org/",
+   "phone": "",
+   "latitude": 37.9652637,
+   "longitude": -87.5731626
+  },
+  {
+   "name": "Ellis Park Race Course",
+   "kind": "attraction",
+   "address": "3300 US 41 North, 42420, Henderson",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9169733,
+   "longitude": -87.5430766
+  },
+  {
+   "name": "Kenneth P. McCutchan Art Center/Palmina F. and Stephen S. Pace Galleries",
+   "kind": "gallery",
+   "address": "8600 University Boulevard, 47712, Evansville",
+   "website": "https://www.usi.edu/liberal-arts/art-center-galleries",
+   "phone": "+1 812-228-5006",
+   "latitude": 37.9621117,
+   "longitude": -87.678707
+  },
+  {
+   "name": "Mesker Park Zoo & Botanical Garden",
+   "kind": "zoo",
+   "address": "1545 Mesker Park Drive, 47720, Evansville",
+   "website": "https://meskerparkzoo.com/",
+   "phone": "",
+   "latitude": 37.9977444,
+   "longitude": -87.6034853
+  },
+  {
+   "name": "Evansville Wartime Museum",
+   "kind": "museum",
+   "address": "7503 Petersburg Road, 47725, Evansville",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0415909,
+   "longitude": -87.5372683
+  },
+  {
+   "name": "Reitz Home Museum",
+   "kind": "museum",
+   "address": "112 Chestnut Street, 47713, Evansville",
+   "website": "",
+   "phone": "",
+   "latitude": 37.967815,
+   "longitude": -87.5720342
+  },
+  {
+   "name": "Evansville Museum Transportation Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9642016,
+   "longitude": -87.5728357
+  },
+  {
+   "name": "Children's Museum of Evansville",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9716442,
+   "longitude": -87.5692349
+  },
+  {
+   "name": "Merchand Bridge Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.976119,
+   "longitude": -87.5876467
+  },
+  {
+   "name": "Four Freedom's Monument",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9670573,
+   "longitude": -87.57419
+  },
+  {
+   "name": "Gilmore Haynie's Monkey Ship",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.996459,
+   "longitude": -87.6011228
+  }
+ ]
+}

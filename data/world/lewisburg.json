@@ -1,0 +1,238 @@
+{
+ "city": "Lewisburg",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.9635,
+ "longitude": -76.8881,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "134 Walter Drive, 17837, Lewisburg",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-lewisburg-pa"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 International Drive, 17837, Lewisburg",
+   "url": "https://www.hilton.com/en/hotels/lwgpahx-hampton-lewisburg/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "70 Hardwood Drive, 17837, Lewisburg",
+   "url": "https://www.marriott.com/iptfl"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7701 Westbranch Highway, 17837, Lewisburg",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-lewisburg/best-western-plus-country-cupboard-inn/propertyCode.39063.html"
+  },
+  {
+   "name": "Days Inn Lewsiburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "313 North Derr Drive, 17837, Lewisburg",
+   "url": ""
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "610 North Derr Drive, 17837, Lewisburg",
+   "website": "https://locations.pizzahut.com/pa/lewisburg/610-n-derr-dr"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/pa/lewisburg/300-international-dr.-99001"
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peking Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Prima Vera",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China King Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Fence",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brasserie Louis",
+   "cuisines": [],
+   "address": "101 Market Street, 17837, Lewisburg",
+   "website": "https://www.brasserie-louis.com/"
+  },
+  {
+   "name": "Matty Sporthouse Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "https://mattyssporthouse.com/"
+  },
+  {
+   "name": "Good Wil's",
+   "cuisines": [],
+   "address": "24 Weaver Lane",
+   "website": ""
+  },
+  {
+   "name": "Country Cupboard Inn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Venari's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Reba & Panchos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Victoria House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "KFC/Taco Bell",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "May's Drive-In",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "PrimoHoagies",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sublicious",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Lewisburg Children's Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.960082,
+   "longitude": -76.8911084
+  }
+ ]
+}

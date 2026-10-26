@@ -1,0 +1,984 @@
+{
+ "city": "Corpus Christi",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 27.7967,
+ "longitude": -97.3898,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "522 South Padre Island Drive, 78405, Corpus Christi",
+   "url": "https://www.marriott.com/hotels/travel/crpfw-fairfield-inn-and-suites-corpus-christi-central/"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3202 East Surfside Boulevard, 78402, Corpus Christi",
+   "url": "https://www.choicehotels.com/texas/corpus-christi/quality-inn-hotels/tx734"
+  },
+  {
+   "name": "DoubleTree by Hilton Corpus Christi Beachfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3200 E. Surfside Boulevard, 78402, Corpus Christi",
+   "url": "https://www.hilton.com/en/hotels/crpbfdt-doubletree-corpus-christi-beachfront/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4302 Surfside Boulevard, 78402, Corpus Christi",
+   "url": "https://www.wyndhamhotels.com/days-inn/corpus-christi-texas/days-inn-corpus-christi-beach/overview?CID=LC:DI:20160927:RIO:Local:SM-diwsct&iata=00093796"
+  },
+  {
+   "name": "Hawthorn Extended Stay by Wyndham Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1442 South Padre Island Drive, 78416, Corpus Christi",
+   "url": "https://www.wyndhamhotels.com/hawthorn-extended-stay/corpus-christi-texas/hawthorn-suites-by-wyndham-corpus-christi/overview"
+  },
+  {
+   "name": "Emerald Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1102 South Shoreline Boulevard, 78401, Corpus Christi",
+   "url": "https://www.hotelemeraldbeach.com/"
+  },
+  {
+   "name": "Best Western Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 North Shoreline Boulevard, 78401-2565, Corpus Christi",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-corpus-christi/best-western-corpus-christi/propertyCode.44500.html"
+  },
+  {
+   "name": "La Quinta Inn & Suites Corpus Christi Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "546 South Padre Island Drive, 78405, Corpus Christi",
+   "url": "https://www.wyndhamhotels.com/laquinta/corpus-christi-texas/la-quinta-corpus-christi-airport/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "538 South Padre Island Drive, 78405, Corpus Christi",
+   "url": "https://www.choicehotels.com/texas/corpus-christi/comfort-suites-hotels/tx842"
+  },
+  {
+   "name": "WoodSpring Suites Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1026 South Padre Island Drive, 78416, Corpus Christi",
+   "url": "https://www.woodspring.com/extended-stay-hotels/locations/texas/corpus-christi/hotels"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5209 Blanche Moore Drive, 78411, Corpus Christi",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-corpus-christi-tx"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5229 Blanche Moore Drive, 78411, Corpus Christi",
+   "url": "https://www.marriott.com/crpri"
+  },
+  {
+   "name": "Courtyard Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5133 Flynn Parkway, 78411, Corpus Christi",
+   "url": "https://www.marriott.com/crpcy"
+  },
+  {
+   "name": "SpringHill Suites Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4331 South Padre Island Drive, 78411, Corpus Christi",
+   "url": "https://www.marriott.com/crpsh"
+  },
+  {
+   "name": "Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 Surfside Boulevard, 78402, Corpus Christi",
+   "url": "http://regencyinncorpuschristi.com/"
+  },
+  {
+   "name": "Sea Shell Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "202 Kleberg Place, 78402, Corpus Christi",
+   "url": "https://seashellinnmotel.com/"
+  },
+  {
+   "name": "Hotel De Ville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3500 Surfside Boulevard, 78402, Corpus Christi",
+   "url": "https://www.hoteldevillecc.com/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5155 I-37, 78408, Corpus Christi",
+   "url": "https://www.wyndhamhotels.com/laquinta/corpus-christi-texas/la-quinta-inn-corpus-christi-north/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5217 Blanche Moore Drive, 78411, Corpus Christi",
+   "url": "https://www.marriott.com/crpfi"
+  },
+  {
+   "name": "Embassy Suites by Hilton Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4337 South Padre Island Drive, 78411, Corpus Christi",
+   "url": "https://www.hilton.com/en/hotels/crpspes-embassy-suites-corpus-christi/"
+  },
+  {
+   "name": "Omni Corpus Christi Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 North Shoreline Boulevard, 78401, Corpus Christi",
+   "url": "https://www.omnihotels.com/hotels/corpus-christi"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "902 North Navigation Boulevard, 78408, Corpus Christi",
+   "url": "https://www.wyndhamhotels.com/super-8/corpus-christi-texas/super-8-corpus-christi/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "917 North Navigation Boulevard, 78408, Corpus Christi",
+   "url": "https://www.hilton.com/en/hotels/crpnbhx-hampton-suites-corpus-christi-i-37-navigation-blvd/"
+  },
+  {
+   "name": "Residence Inn Corpus Christi Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "309 South Shoreline Boulevard, 78401, Corpus Christi",
+   "url": "https://www.marriott.com/crpdr"
+  },
+  {
+   "name": "Home2 Suites by Hilton Corpus Christi Southeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5274 South Padre Island Drive, 78411, Corpus Christi",
+   "url": "https://www.hilton.com/en/hotels/crpeaht-home2-suites-corpus-christi-southeast/"
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "231 Stewart Place, 78402, Corpus Christi",
+   "url": "https://budgetinncorpuschristi.com/"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5224 Navigation Boulevard, 78407, Corpus Christi",
+   "url": "https://www.choicehotels.com/texas/corpus-christi/rodeway-inn-hotels/tx764"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "929 North Navigation Boulevard, 78408, Corpus Christi",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/corpus-christi/crpnv/hoteldetail"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "722 North Port Avenue, 78408, Corpus Christi",
+   "url": "https://www.choicehotels.com/texas/corpus-christi/econo-lodge-hotels/tx816"
+  },
+  {
+   "name": "V Boutique Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 North Water Street, 78401, Corpus Christi",
+   "url": "https://www.airbnb.com/users/240642865/listings"
+  },
+  {
+   "name": "Capri Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2902 North Shoreline Boulevard, 78402, Corpus Christi",
+   "url": "https://www.capribeachhotel.com/"
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3615 Timon Boulevard, 78402, Corpus Christi",
+   "url": "https://www.redlion.com/knights-inn/tx/corpus-christi/knights-inn-corpus-christi-north-beach"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "133 US 181, 78374, Portland",
+   "url": "https://www.motel6.com/content/g6/en/home/motels.tx.portland.8977.html"
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4414 Surfside Boulevard, 78402, Corpus Christi",
+   "url": "https://travel-inn-corpus-christi.edan.io/"
+  },
+  {
+   "name": "Homewood Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5201 Crosstown Expressway, 78417, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Aloft Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5117 Embassy Drive, 78411, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Corpus Christi, TX - Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "845 Lantana Street, 78408, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5014 Crosstown Expressway, 78415, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4210 Surfside Boulevard, 78402, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Harbor Inn Bayfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "411 North Shoreline Boulevard, 78401, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5142 Oakhurst Drive, 78411, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Windwater Hotel Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1901 North Padre Island Drive, 78408, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Plaza Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2021 North Padre Island Drive, 78408, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Airport Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "849 Lantana Street, 78408, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Bob's Beach Rentals",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 Surfside Boulevard, 78402, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Bay Shore Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4349 Ocean Drive, 78412, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6033 Leopard Street, 78409, Corpus Christi",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 South Shoreline Boulevard",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Corpus Christi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Corpus Christi Airport & Conv Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Corpus Christi Bayfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Corpus Christi Downtown Marina",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Omni Bayfront Tower",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Railroad Seafood Station & Brewing Co.",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1214 North Chaparral Street, 78401, Corpus Christi",
+   "website": "https://www.railroadseafoodstation.com/"
+  },
+  {
+   "name": "Landry's Seafood House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "600 North Shoreline Boulevard, 78401, Corpus Christi",
+   "website": "https://www.landrysseafood.com/location/landrys-seafood-corpus-christi/"
+  },
+  {
+   "name": "Blackbeard's On the Beach",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3117 Surfside Boulevard, 78402, Corpus Christi",
+   "website": "http://www.blackbeards.restaurant/"
+  },
+  {
+   "name": "Marty McPies",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "300 North Shoreline Boulevard, 78401, Corpus Christi",
+   "website": "https://www.martymcpies.com"
+  },
+  {
+   "name": "Pier 99",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2822 North Shoreline Boulevard, 78402, Corpus Christi",
+   "website": "https://pier99restaurant.com/"
+  },
+  {
+   "name": "Vietnam Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "701 North Water Street, 78401, Corpus Christi",
+   "website": "https://www.vietnam-restaurant.com/contact.php"
+  },
+  {
+   "name": "Fajitaville",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "221 South Hotel Place, 78402, Corpus Christi",
+   "website": "https://www.fajitaville.com/"
+  },
+  {
+   "name": "Mesquite Street Pizza and Pasta Co.",
+   "cuisines": [
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "617 North Mesquite Street, 78401, Corpus Christi",
+   "website": "https://www.eatpizzadowntown.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3657 East Leopard Street, 78408, Corpus Christi",
+   "website": "https://locations.pizzahut.com/tx/corpus-christi/3657-e-leopard-st"
+  },
+  {
+   "name": "El Gavilan Pollero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2815 Ruth Street, 78405, Corpus Christi",
+   "website": "http://places.singleplatform.com/el-gavilan-pollero/menu"
+  },
+  {
+   "name": "U&I Steak and Seafood",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "309 South Water Street, 78401, Corpus Christi",
+   "website": "https://www.uandisteakseafood.com/"
+  },
+  {
+   "name": "Mesquite House BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3401 Morgan Avenue, 78405, Corpus Christi",
+   "website": "https://www.mesquitehousebbq.com/"
+  },
+  {
+   "name": "Howard's BBQ & Catering",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1002 Antelope Street, 78401, Corpus Christi",
+   "website": "https://howards-bbq.com/"
+  },
+  {
+   "name": "Marco & Co. Catering",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "525 South Staples Street, 78401, Corpus Christi",
+   "website": "https://marcocaters.com/"
+  },
+  {
+   "name": "Water Street Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "309 North Water Street, 78401, Corpus Christi",
+   "website": "http://www.waterstmarketcc.com/oyster-bar-cc"
+  },
+  {
+   "name": "Luciano's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1821 South Alameda Street, 78404, Corpus Christi",
+   "website": "https://lucianositalian.com/"
+  },
+  {
+   "name": "Harrison's Landing",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "108 Peoples Street, 78401, Corpus Christi",
+   "website": "https://harrisonslanding.net/"
+  },
+  {
+   "name": "Thai Spice",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "523 North Water Street, 78401, Corpus Christi",
+   "website": ""
+  },
+  {
+   "name": "Tropical Ocean Cafe",
+   "cuisines": [
+    "Seafood",
+    "Mexican",
+    "Steak"
+   ],
+   "address": "3014 Surfside Boulevard, 78402, Corpus Christi",
+   "website": ""
+  },
+  {
+   "name": "Water Street Sushi Room",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "309 North Water Street, 78401, Corpus Christi",
+   "website": ""
+  },
+  {
+   "name": "Boat 'N Net Drive Inns",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "3022 Leopard Street, 78408, Corpus Christi",
+   "website": ""
+  },
+  {
+   "name": "Hua T'ai Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Price's Chef",
+   "cuisines": [],
+   "address": "1800 South Alameda Street, 78404, Corpus Christi",
+   "website": "https://www.priceschefcc.com/"
+  },
+  {
+   "name": "House of Rock",
+   "cuisines": [],
+   "address": "511 Starr Street, 78401, Corpus Christi",
+   "website": "https://texashouseofrock.com/"
+  },
+  {
+   "name": "Yo Philly Cheese Steaks & Subs",
+   "cuisines": [],
+   "address": "3314 Surfside Boulevard, 78402, Corpus Christi",
+   "website": "http://places.singleplatform.com/yo-philly-cheese-steaks--subs/menu"
+  },
+  {
+   "name": "Gallery 41",
+   "cuisines": [],
+   "address": "100 North Shoreline Boulevard, 78401, Corpus Christi",
+   "website": "https://www.gallery41cc.com/"
+  },
+  {
+   "name": "Bien Mérité",
+   "cuisines": [],
+   "address": "1336 South Staples Street",
+   "website": "https://www.bienmerite.com/"
+  },
+  {
+   "name": "Citrus Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.citrusbaybistro.com/"
+  },
+  {
+   "name": "Eighteen18 Bar & Restaurant",
+   "cuisines": [],
+   "address": "3200 E. Surfside Boulevard, 78402, Corpus Christi",
+   "website": ""
+  },
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "USS Lexington Museum on the Bay",
+   "kind": "museum",
+   "address": "2914 North Shoreline Boulevard, 78402, Corpus Christi",
+   "website": "https://www.usslexington.com/",
+   "phone": "+1 361-888-4873",
+   "latitude": 27.8148955,
+   "longitude": -97.3887845
+  },
+  {
+   "name": "Hilliard Center",
+   "kind": "attraction",
+   "address": "1901 North Shoreline Boulevard, 78401, Corpus Christi",
+   "website": "https://www.hilliardcenter.com",
+   "phone": "+1 361 826 4700",
+   "latitude": 27.807283,
+   "longitude": -97.3934934
+  },
+  {
+   "name": "Corpus Christi Museum of Science and History",
+   "kind": "museum",
+   "address": "1900 North Chaparral Street, 78401, Corpus Christi",
+   "website": "https://ccmuseum.com/",
+   "phone": "+1 361-826-4667",
+   "latitude": 27.8103026,
+   "longitude": -97.3951716
+  },
+  {
+   "name": "Texas State Aquarium",
+   "kind": "aquarium",
+   "address": "2710 North Shoreline Boulevard, 78402, Corpus Christi",
+   "website": "https://www.texasstateaquarium.org/",
+   "phone": "+1-361-881-1200",
+   "latitude": 27.8138785,
+   "longitude": -97.3925768
+  },
+  {
+   "name": "Art Museum of South Texas",
+   "kind": "museum",
+   "address": "1902 North Shoreline Boulevard, 78401, Corpus Christi",
+   "website": "https://www.artmuseumofsouthtexas.org/",
+   "phone": "+1 361 825 3500",
+   "latitude": 27.810386,
+   "longitude": -97.3931513
+  },
+  {
+   "name": "Texas Surf Museum",
+   "kind": "museum",
+   "address": "309A North Water Street, 78401, Corpus Christi",
+   "website": "https://www.texassurfmuseum.org/",
+   "phone": "+1 361 882 2364",
+   "latitude": 27.7944982,
+   "longitude": -97.3941179
+  },
+  {
+   "name": "K Space Contemporary",
+   "kind": "gallery",
+   "address": "415 Starr Street, 78401, Corpus Christi",
+   "website": "https://kspacecontemporary.org/",
+   "phone": "+1-361-887-6834",
+   "latitude": 27.797706,
+   "longitude": -97.3939834
+  },
+  {
+   "name": "Tejano Civil Rights Museum",
+   "kind": "museum",
+   "address": "1517 North Chaparral Street, 78401, Corpus Christi",
+   "website": "https://www.tejanomuseum.org/",
+   "phone": "+1-361-452-3650",
+   "latitude": 27.806076,
+   "longitude": -97.3957725
+  },
+  {
+   "name": "Hurricane Alley",
+   "kind": "theme park",
+   "address": "702 East Port Avenue, 78401, Corpus Christi",
+   "website": "http://hurricanealleycc.com",
+   "phone": "+1 361 883 9283",
+   "latitude": 27.8095485,
+   "longitude": -97.3977363
+  },
+  {
+   "name": "Museum Of Hispanic Culture",
+   "kind": "museum",
+   "address": "1617 North Chaparral Street, 78401, Corpus Christi",
+   "website": "https://ichtx.org/",
+   "phone": "",
+   "latitude": 27.8070843,
+   "longitude": -97.3956277
+  },
+  {
+   "name": "Voyage Through the Planets",
+   "kind": "attraction",
+   "address": "",
+   "website": "http://www.visitcorpuschristitx.org/trip-ideas/must-see/voyage-through-the-planets/",
+   "phone": "",
+   "latitude": 27.7996538,
+   "longitude": -97.3912236
+  },
+  {
+   "name": "Selena Museum",
+   "kind": "museum",
+   "address": "5410 Leopard Street, 78408, Corpus Christi",
+   "website": "",
+   "phone": "",
+   "latitude": 27.7980775,
+   "longitude": -97.461214
+  },
+  {
+   "name": "Texas State Museum of Asian Cultures",
+   "kind": "museum",
+   "address": "1809 N. Chaparral Street, 78401, Corpus Christi",
+   "website": "",
+   "phone": "",
+   "latitude": 27.8088986,
+   "longitude": -97.3964998
+  },
+  {
+   "name": "World War Memorial",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.7941497,
+   "longitude": -97.3960567
+  },
+  {
+   "name": "Robert E. Salle Observation Pavilion",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.8132362,
+   "longitude": -97.3947201
+  },
+  {
+   "name": "Fan Pavillion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.815957,
+   "longitude": -97.3915768
+  }
+ ]
+}

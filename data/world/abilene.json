@@ -1,0 +1,840 @@
+{
+ "city": "Abilene",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 32.4498,
+ "longitude": -99.7338,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "DoubleTree by Hilton Abilene Downtown Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Cypress Street, 79601, Abilene",
+   "url": "https://www.hilton.com/en/hotels/abidtdt-doubletree-abilene-downtown-convention-center/"
+  },
+  {
+   "name": "Hilton Garden Inn Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4449 Ridgemont Drive, 79606, Abilene",
+   "url": "https://www.hilton.com/en/hotels/abiabgi-hilton-garden-inn-abilene/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3225 South Danville Drive, 79605, Abilene",
+   "url": "https://www.choicehotels.com/texas/abilene/comfort-inn-hotels"
+  },
+  {
+   "name": "Days Inn Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3950 Ridgemont Drive, 79606, Abilene",
+   "url": "https://www.wyndhamhotels.com/days-inn/abilene-texas/days-inn-abilene-tx/overview"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3917 Ridgemont Drive, 79606, Abilene",
+   "url": "https://www.hilton.com/en/hotels/abitxhx-hampton-abilene/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3526 West Lake Road, 79601, Abilene",
+   "url": "https://www.hilton.com/en/hotels/abihshx-hampton-suites-abilene-i-20/"
+  },
+  {
+   "name": "Courtyard Abilene Southwest/Abilene Mall South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4350 Ridgemont Drive, 79606, Abilene",
+   "url": "https://www.marriott.com/abicy"
+  },
+  {
+   "name": "Courtyard Abilene Northeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2141 Scottish Road, 79601, Abilene",
+   "url": "https://www.marriott.com/abine"
+  },
+  {
+   "name": "TownePlace Suites Abilene Northeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2141 Scottish Road, 79601, Abilene",
+   "url": "https://www.marriott.com/abits"
+  },
+  {
+   "name": "Residence Inn Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1641 Musgrave Boulevard, 79601, Abilene",
+   "url": "https://www.marriott.com/abiri"
+  },
+  {
+   "name": "Home2 Suites by Hilton Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2109 Scottish Road, 79601, Abilene",
+   "url": "https://www.hilton.com/en/hotels/abilnht-home2-suites-abilene/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3902 Turner Plaza Drive, 79606, Abilene",
+   "url": "https://www.marriott.com/abifi"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1902 East Overland Trail, 79601, Abilene",
+   "url": "https://www.choicehotels.com/texas/abilene/comfort-inn-hotels"
+  },
+  {
+   "name": "Comfort Inn & Suites Regional Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6350 Directors Parkway, 79606, Abilene",
+   "url": "https://www.choicehotels.com/texas/abilene/comfort-inn-hotels"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 West Overland Trail, 79601, Abilene",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-abilene/best-western-abilene-inn-suites/propertyCode.44497.html"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 Killough Cove, 79601, Abilene",
+   "url": "https://www.choicehotels.com/texas/abilene/comfort-inn-hotels"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1525 East Stamford Street, 79601, Abilene",
+   "url": "https://www.wyndhamhotels.com/super-8/abilene-texas/super-8-abilene-north/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Abilene South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4397 Sayles Boulevard, 79605, Abilene",
+   "url": "https://www.wyndhamhotels.com/super-8/abilene-texas/super-8-abilene-south/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Abilene Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/abilene-texas/la-quinta-abilene-mall/overview"
+  },
+  {
+   "name": "La Quinta Inn Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3501 West Lake Road, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites Abilene Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3165 South Danville Drive, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1702 East Overland Trail, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1758 East Overland Trail, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1802 East Overland Trail, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3525 West Lake Road, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4951 West Stamford Street, 79603, Abilene",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4266 Oil Belt Lane, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Abilene Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "774 East Highway 80, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "The Inn and Suites at 34 Fifty",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3450 South Clack Street, 79606, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Emerald Inn Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "840 East Highway 80, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1650 East Overland Trail, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Whitten Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 Highway 351, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Antilley Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6550 South Clack Street, 79602, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Frontier Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3210 Pine Street, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "American Star Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1633 West Stamford Street, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2202 West Overland Trail, 79603, Abilene",
+   "url": ""
+  },
+  {
+   "name": "New Tower Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3417 South 1st Street, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Western Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3201 South 1st Street, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Kiva Hotel Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5203 South 1st Street, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Best Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3153 South 1st Street, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "University Hill Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1402 Westheimer Road, 79601, Abiliene",
+   "url": ""
+  },
+  {
+   "name": "Royal Inn of Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5695 South 1st Street, 79605, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Abilene Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 East Highway 80, 79601, Abilene",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Abilene Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "MCM Elegante Suites-Abilene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "The Local",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "250 Cypress Street, Abilene",
+   "website": "https://www.thelocalabi.com/"
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1602 Highway 351, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Greek Cafe",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2234 North Treadaway Boulevard, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1702 Highway 351, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2042 East Overland Trail, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1010 East Overland Trail, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1772 Highway 351, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Galveston Seafood Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "818 East Highway 80, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "849 North Judge Ely Boulevard, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "120 East Overland Trail, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Oscar's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1665 Highway 351, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Vagabond",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1056 North 2nd Street, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Spicy India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "243 West Stamford Street, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Monterry Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3310 North 10th Street, 79603, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Mexico Viejo Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2002 East Overland Trail, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Rojas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3413 Ambler Avenue, 79603, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Hickory Street Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Mill",
+   "cuisines": [],
+   "address": "239 Locust Street, 79602, Abilene",
+   "website": "https://themillwinery.com/"
+  },
+  {
+   "name": "Beehive Restaurant",
+   "cuisines": [],
+   "address": "442 Cedar Street",
+   "website": "https://www.beehivesaloon.com/"
+  },
+  {
+   "name": "Mr. Gatti's",
+   "cuisines": [],
+   "address": "2665 Buffalo Gap Road, 79605, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Blu Barrel Bar & Grill",
+   "cuisines": [],
+   "address": "2534 South Treadaway Boulevard, 79602, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Rosa's Cafe",
+   "cuisines": [],
+   "address": "1026 North Judge Ely Boulevard, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Larry's Better Burger",
+   "cuisines": [],
+   "address": "1233 North Treadaway Boulevard, 79601, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Belle's Chicken Dinner House",
+   "cuisines": [],
+   "address": "2002 North Clack Street, 79603, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Los Arcos Restaurant",
+   "cuisines": [],
+   "address": "1902 Ambler Avenue, 79603, Abilene",
+   "website": ""
+  },
+  {
+   "name": "Stonewalls Pizza Wings & Things",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Szechuan",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cypress Street Station",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alfredo's Mexican Food",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Skeet's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harvest Moon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lytle Land & Cattle Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Krua Thai",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Frontier Texas!",
+   "kind": "museum",
+   "address": "625 North 1st Street, 79601, Abilene",
+   "website": "https://www.frontiertexas.com/",
+   "phone": "+1 325 437 2800",
+   "latitude": 32.4494112,
+   "longitude": -99.7281917
+  },
+  {
+   "name": "Grace Cultural Center and Museum",
+   "kind": "museum",
+   "address": "102 Cypress Street, 79601, Abilene",
+   "website": "https://thegracemuseum.org/",
+   "phone": "+1 325 673 4587",
+   "latitude": 32.4498269,
+   "longitude": -99.7346012
+  },
+  {
+   "name": "Discovery Center",
+   "kind": "museum",
+   "address": "810 Butternut Street, 79602, Abilene",
+   "website": "https://www.evidences.org/",
+   "phone": "+1-325-673-5050",
+   "latitude": 32.4406433,
+   "longitude": -99.7385764
+  },
+  {
+   "name": "Big Country Squadron Commemorative Air Force",
+   "kind": "museum",
+   "address": "4886 Newman Road, 79601, Abilene",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4468147,
+   "longitude": -99.6476624
+  },
+  {
+   "name": "Women for Abilene Christian University Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4659582,
+   "longitude": -99.7117546
+  },
+  {
+   "name": "Dyess Memorial Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4424231,
+   "longitude": -99.8097902
+  },
+  {
+   "name": "Petrified Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4772577,
+   "longitude": -99.7351953
+  },
+  {
+   "name": "The Abilene Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4402077,
+   "longitude": -99.6916126
+  }
+ ]
+}

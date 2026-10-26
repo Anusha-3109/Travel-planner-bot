@@ -1,0 +1,2574 @@
+{
+ "city": "Eugene",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.0557,
+ "longitude": -123.0837,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "La Quinta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3480 Hutton Street, 97477, Springfield",
+   "url": "https://www.wyndhamhotels.com/laquinta/springfield-oregon/la-quinta-inn-and-suites-springfield/overview"
+  },
+  {
+   "name": "Courtyard Eugene Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3443 Hutton Street, 97477, Springfield",
+   "url": "https://www.marriott.com/en-us/hotels/eugcy-courtyard-eugene-springfield/overview/"
+  },
+  {
+   "name": "Best Western Grand Manor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "971 Kruse Way, 97477, Springfield",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-springfield/best-western-grand-manor-inn/propertyCode.38119.html"
+  },
+  {
+   "name": "Graduate by Hilton Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "66 East 6th Avenue, 97401, Eugene",
+   "url": "https://www.hilton.com/en/hotels/euggegu-graduate-eugene/"
+  },
+  {
+   "name": "Holiday Inn Express Eugene - Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "919 Kruse Way, 97477, Springfield",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/springfield/sfihs/hoteldetail"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "969 Kruse Way, 97477, Springfield",
+   "url": "https://www.choicehotels.com/oregon/springfield/quality-inn-hotels"
+  },
+  {
+   "name": "Comfort Suites Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3060 East 25th Avenue, 97403, Eugene",
+   "url": "https://www.choicehotels.com/oregon/eugene/comfort-suites-hotels/or163"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3003 Franklin Boulevard, 97403, Eugene",
+   "url": "https://www.marriott.com/en-us/hotels/eugfi-fairfield-inn-and-suites-eugene-east-springfield/overview/"
+  },
+  {
+   "name": "Inn at the 5th",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 East 6th Avenue, 97401, Eugene",
+   "url": "https://www.innat5th.com"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2117 Franklin Boulevard, 97403, Eugene",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/eugene/eugor/hoteldetail"
+  },
+  {
+   "name": "Signature Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1055 West 6th Avenue, 97402, Eugene",
+   "url": "https://www.redlion.com/signature-inn/or/eugene/signature-inn-eugene"
+  },
+  {
+   "name": "Residence Inn Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25 Club Road, 97401, Eugene",
+   "url": "https://www.marriott.com/eugri"
+  },
+  {
+   "name": "Express Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "990 West 6th Avenue, 97402, Eugene",
+   "url": "https://www.expressinneugene.com/"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "155 Day Island Road, 97401, Eugene",
+   "url": "https://www.wyndhamhotels.com/laquinta/eugene-oregon/la-quinta-eugene/overview"
+  },
+  {
+   "name": "Motel 6 Eugene South - Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3690 Glenwood Drive, 97403, Eugene",
+   "url": "https://www.motel6.com/en/home/motels.or.eugene.9322.html"
+  },
+  {
+   "name": "Hyatt Place Eugene/Oakway Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 Oakway Road, 97401, Eugene",
+   "url": "https://www.hyatt.com/en-US/hotel/oregon/hyatt-place-eugene-oakway-center/eugzo"
+  },
+  {
+   "name": "Hampton Inn Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3780 West 11th Avenue, 97402, Eugene",
+   "url": "https://www.hilton.com/en/hotels/eughhhx-hampton-eugene/"
+  },
+  {
+   "name": "Best Western New Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1655 Franklin Boulevard, 97403, Eugene",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-eugene/best-western-new-oregon/propertyCode.38013.html"
+  },
+  {
+   "name": "EVEN Hotels Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2133 Centennial Plaza, 97401, Eugene",
+   "url": "https://www.ihg.com/evenhotels/hotels/us/en/eugene/eugev/hoteldetail"
+  },
+  {
+   "name": "Maverick Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1859 Franklin Boulevard, 97403, Eugene",
+   "url": "https://www.themaverickeugene.com/"
+  },
+  {
+   "name": "Nite Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1522 West 6th Avenue, 97402, Eugene",
+   "url": "https://niteinn.hotels-oregon.com/en/"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3111 Franklin Boulevard, 97403, Eugene",
+   "url": "https://www.hilton.com/en/hotels/eugenru-tru-eugene/"
+  },
+  {
+   "name": "Valley River Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Valley River Way, 97401, Eugene",
+   "url": "https://www.valleyriverinn.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1920 Main Street, 97477, Springfield",
+   "url": "https://www.choicehotels.com/oregon/springfield/quality-inn-hotels"
+  },
+  {
+   "name": "The Gordon Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 Oak Street, 97401, Eugene",
+   "url": "https://thegordonhotel.com"
+  },
+  {
+   "name": "Downtown Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "361 West 7th Avenue, 97401, Eugene",
+   "url": "http://downtowninn.com"
+  },
+  {
+   "name": "Executive Motel Eugene Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1040 West 6th Avenue, 97402, Eugene",
+   "url": "https://www.executivemoteleugene.com/"
+  },
+  {
+   "name": "Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1740 Highway 99 North, 97402, Eugene",
+   "url": "https://royalinn.hotels-oregon.com/en/"
+  },
+  {
+   "name": "America's Best Value Inn Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1140 West 6th Avenue, 97402, Eugene",
+   "url": "https://www.bestvalueinneugene.com/"
+  },
+  {
+   "name": "Hilton Garden Inn Eugene / Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3528 Gateway Street, 97477, Springfield",
+   "url": "http://eugenespringfield.hgi.com"
+  },
+  {
+   "name": "The Campbell House Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "252 Pearl Street, 97401, Eugene",
+   "url": "https://campbellhouse.com/"
+  },
+  {
+   "name": "Campus Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "390 East Broadway, 97401, Eugene",
+   "url": "https://www.campus-inn.com"
+  },
+  {
+   "name": "Timbers Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 Pearl Street, 97401",
+   "url": "https://www.timbersmotel.net/"
+  },
+  {
+   "name": "Jade West Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.jadewestcrmg.com/"
+  },
+  {
+   "name": "Spark by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3315 Gateway Street, 97477, Springfield",
+   "url": ""
+  },
+  {
+   "name": "HomeTowne Studios",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "520 Harlow Road, 97477, Springfield",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Eugene North - Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3752 International Court, 97477, Springfield",
+   "url": ""
+  },
+  {
+   "name": "Travelers Inn Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "540 East Broadway, 97401, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3550 Gateway Street, 97477, Springfield",
+   "url": ""
+  },
+  {
+   "name": "Parkway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "568 West 7th Avenue, 97401, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1152 Main Street, 97477, Springfield",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Eugene Springfield",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3005 Franklin Boulevard, 97403, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Riverpath Inn",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 North Adams Street, 97402, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Best Western Hayward Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1759 Franklin Boulevard, 97403, Eugene",
+   "url": ""
+  },
+  {
+   "name": "University Inn & Suites Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1857 Franklin Boulevard, 97403, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Budget Lodge Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1291 Highway 99 North, 97402, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Autzen Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1410 West 6th Avenue, 97402, Eugene",
+   "url": ""
+  },
+  {
+   "name": "Courtesy Inn Eugene",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "599 East Broadway",
+   "url": ""
+  },
+  {
+   "name": "Best Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel on Franklin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "3427 Gateway Street, 97477, Springfield",
+   "website": "https://restaurants.ihop.com/en-us/or/springfield/breakfast-3427-gateway-st-670"
+  },
+  {
+   "name": "Bellizzi’s Pizza Joint",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1600 Coburg Road, 97401, Eugene",
+   "website": "https://bellizzipizza.com/"
+  },
+  {
+   "name": "Chicken Bonz",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1815 Pioneer Parkway East, 97477, Springfield",
+   "website": "https://chickenbonz.com/"
+  },
+  {
+   "name": "Lok Yaun",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3000 West 11th Avenue, 97402, Eugene",
+   "website": "https://www.lokyaunrestaurantor.com"
+  },
+  {
+   "name": "Lee's Mongolian Grill",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "215 Main Street, 97477, Springfield",
+   "website": "https://orderleesmongoliangrill.com/"
+  },
+  {
+   "name": "China Sun",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3260 Gateway Street, 97477, Springfield",
+   "website": "https://www.chinasunbuffetor.com/"
+  },
+  {
+   "name": "Cajun Claws Seafood Boil House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1807 Pioneer Parkway East, 97477, Springfield",
+   "website": "https://cajunclaws.ai/springfield"
+  },
+  {
+   "name": "Gateway Taphouse & Grill",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Pasta",
+    "Dessert"
+   ],
+   "address": "3198 Gateway Street, 97477, Springfield",
+   "website": "https://gatewaygrill.com/"
+  },
+  {
+   "name": "Le Marche",
+   "cuisines": [
+    "French"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": "https://marcherestaurant.com"
+  },
+  {
+   "name": "Slice Pizzeria and Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "325 Blair Boulevard, 97402, Eugene",
+   "website": "https://slice-pizzeria-and-bar.square.site"
+  },
+  {
+   "name": "Lovely",
+   "cuisines": [
+    "American"
+   ],
+   "address": "111 Main Street, 97477, Springfield",
+   "website": "https://lovelyspringfield.com"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1221 Executive Parkway, 97401, Eugene",
+   "website": "http://redrobin.com"
+  },
+  {
+   "name": "BJ's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1080 Valley River Way, 97401, Eugene",
+   "website": "https://www.bjsrestaurants.com/locations/or/valley-river"
+  },
+  {
+   "name": "Ta Ra Rin Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1520 Coburg Road, 97401, Eugene",
+   "website": "https://tararinthai.com/"
+  },
+  {
+   "name": "Hawaiian Time",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "333 Coburg Road, 97401, Eugene",
+   "website": "https://www.hawaiiantime.com/"
+  },
+  {
+   "name": "Ambrosia Restaurant & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "174 East Broadway, 97401, Eugene",
+   "website": "https://www.ambrosiarestaurant.com/"
+  },
+  {
+   "name": "Oishii Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "1817 Pioneer Parkway East, 97477, Springfield",
+   "website": "http://oishiisushispringfield.com/"
+  },
+  {
+   "name": "Bo & Vine Burger Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "941 Pearl Street, 97401, Eugene",
+   "website": "https://boandvine.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3577 West 11th Avenue, 97402, Eugene",
+   "website": "https://locations.pizzahut.com/or/eugene/3577-w-11th-ave"
+  },
+  {
+   "name": "Far Man",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3111 Gateway Street, 97477, Springfield",
+   "website": "https://www.farmanrestaurant.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1077 Valley River Drive, 97401, Eugene",
+   "website": "https://www.olivegarden.com/locations/or/eugene/eugene-valley-river-center-mall/1528"
+  },
+  {
+   "name": "Chapala Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "68 West 29th Avenue, 97405, Eugene",
+   "website": "https://chapalamex.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3026 Gateway Street, 97477, Springfield",
+   "website": "https://restaurants.applebees.com/en-us/or/springfield/3026-gateway-street-84098"
+  },
+  {
+   "name": "Thind Pakora House & Restaurant",
+   "cuisines": [
+    "Indian",
+    "Punjabi"
+   ],
+   "address": "450 Coburg Road, 97401, Eugene",
+   "website": "https://thindpakora.com"
+  },
+  {
+   "name": "Pho King",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": "https://phokingeugene.com/"
+  },
+  {
+   "name": "Bill & Tim's Barbecue & Tap House",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "201 East 13th Avenue, 97401, Eugene",
+   "website": "https://www.billandtims.com/"
+  },
+  {
+   "name": "Studio One Cafe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1473 East 19th Avenue, 97403, Eugene",
+   "website": "https://studio-one-cafe.com/"
+  },
+  {
+   "name": "Hey, Neighbor! Pizza House",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "605 West 19th Avenue, 97402, Eugene",
+   "website": "https://h-n-p-h.com/"
+  },
+  {
+   "name": "Newman's Grotto",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "485 Coburg Road, 97401, Eugene",
+   "website": "https://eugene.newmansfish.com/grotto"
+  },
+  {
+   "name": "Papa’s Pizza Parlor",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1700 West 11th Avenue, 97402, Eugene",
+   "website": "https://www.papaspizza.net/locations-west-11th-eugene/"
+  },
+  {
+   "name": "Coburg Mongolian Grill",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "1540 Coburg Road, 97401, Eugene",
+   "website": "https://ordercoburgmongoliangrill.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3652 Glenwood Drive, 97403, Eugene",
+   "website": "https://www.dennys.com/"
+  },
+  {
+   "name": "Hey Neighbor Pizza House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1621 East 19th Avenue, 97403, Eugene",
+   "website": "https://h-n-p-h.com"
+  },
+  {
+   "name": "El Charro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "495 Harlow Road, 97477, Springfield",
+   "website": "http://elcharromexicanfood.com/"
+  },
+  {
+   "name": "Ron's Island Grill",
+   "cuisines": [
+    "Hawaiian",
+    "Polynesian"
+   ],
+   "address": "55 West 29th Avenue, 97405, Eugene",
+   "website": "https://www.ronsislandgrill.com/"
+  },
+  {
+   "name": "Izakaya Meiji Company",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "345 Van Buren Street, 97402, Eugene",
+   "website": "https://www.izakayameiji.com/"
+  },
+  {
+   "name": "Lotus Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "810 Charnelton Street, 97401, Eugene",
+   "website": "https://lotusgardenveg.com/"
+  },
+  {
+   "name": "Govinda's Vegetarian Buffet",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "1030 River Road, Eugene",
+   "website": "https://www.govindasbuffet.com/"
+  },
+  {
+   "name": "Wheat Bay Uniquely Chengdu",
+   "cuisines": [
+    "Chinese",
+    "Sichuan",
+    "Asian"
+   ],
+   "address": "830 East 13th Avenue, 97401, Eugene",
+   "website": "http://wheatbay.com/"
+  },
+  {
+   "name": "Killer Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "298 Coburg Road, 97401, Eugene",
+   "website": "https://killerburger.com/locations/oakway-eugene/"
+  },
+  {
+   "name": "El Buen Sabor",
+   "cuisines": [
+    "Mexican",
+    "Oaxacan"
+   ],
+   "address": "725 Olive Street, 97401, Eugene",
+   "website": "https://www.elbuensaboreugene.com/"
+  },
+  {
+   "name": "Mr. Dumpling",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "485 Alexander Loop, 97401",
+   "website": "https://www.mrdumplingor.com/"
+  },
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1010 Postal Way, 97477, Springfield",
+   "website": "https://sizzler.com/locations/sizzler-springfield/"
+  },
+  {
+   "name": "Elmer's",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "1036 Valley River Way, 97401, Eugene",
+   "website": "https://eatatelmers.com/"
+  },
+  {
+   "name": "Track Town Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1809 Franklin Boulevard, 97403, Eugene",
+   "website": "tracktownoncampus.com"
+  },
+  {
+   "name": "Roaring Rapids Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4006 Franklin Boulevard, 97403, Eugene",
+   "website": "https://roaringrapidspizza.com/"
+  },
+  {
+   "name": "Subo Gourmet Sushi Burrito",
+   "cuisines": [
+    "Sushi",
+    "Burrito"
+   ],
+   "address": "2568 Willamette Street, 97405, Eugene",
+   "website": "https://eatsubo.com/"
+  },
+  {
+   "name": "Mezcaluna Mexican Restaurant & Lounge",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1400 Valley River Drive, 97401, Eugene",
+   "website": "https://mezcaluna.com/"
+  },
+  {
+   "name": "Souper Bowls",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "Valley River Drive, 97401, Eugene",
+   "website": "https://souperbowlseugene.com"
+  },
+  {
+   "name": "Happy Cow Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2435 Hilyard Street, Eugene",
+   "website": "https://happycowburger.com"
+  },
+  {
+   "name": "Pho The Good Times Asian Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2729 Shadow View Drive, 97408, Eugene",
+   "website": "http://www.photgt.com/"
+  },
+  {
+   "name": "Makoto Japanese Restaurant",
+   "cuisines": [
+    "Japanese",
+    "Korean"
+   ],
+   "address": "1167 Willamette Street, 97401, Eugene",
+   "website": "https://makotoeugene.square.site"
+  },
+  {
+   "name": "Bon Mi",
+   "cuisines": [
+    "French",
+    "Vietnamese"
+   ],
+   "address": "153 East Broadway, 97401",
+   "website": "https://www.bonmieugene.com/"
+  },
+  {
+   "name": "Whirled Pies",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "199 West 8th Avenue, 97401, Eugene",
+   "website": "https://whirledpies.com/"
+  },
+  {
+   "name": "El Tio Pepe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1041 River Road, 97404, Eugene",
+   "website": "https://tiopepemexicanrestaurant.mx"
+  },
+  {
+   "name": "Wonder Wok Restaurant and Bar",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1099 Chambers Street, 97402, Eugene",
+   "website": "https://www.wonderwokeug.com/"
+  },
+  {
+   "name": "Cornucopia",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "207 East 5th Avenue, 97401, Eugene",
+   "website": "https://www.cornucopiaeugene.com/location/the-corn-on-5th/"
+  },
+  {
+   "name": "The Sandwich League",
+   "cuisines": [
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "1239 Alder Street, 97401, Eugene",
+   "website": "https://thesandwichleague.com"
+  },
+  {
+   "name": "Zagwe's",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "298 Blair Boulevard, 97402, Eugene",
+   "website": "https://zagwes-restaurant-llc.square.site"
+  },
+  {
+   "name": "Poppi's Anatolia",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "97401",
+   "website": "https://www.poppisanatolia.com/"
+  },
+  {
+   "name": "Placido's Pasta Shop",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "120 Shelton McMurphey Boulevard, 97401, Eugene",
+   "website": "http://placidos.com/"
+  },
+  {
+   "name": "Toshi's Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1520 Pearl Street, 97401, Eugene",
+   "website": "https://toshisramen.com/"
+  },
+  {
+   "name": "Bar Purlieu",
+   "cuisines": [
+    "French",
+    "Cocktails"
+   ],
+   "address": "1530 Willamette Street, 97401, Eugene",
+   "website": "https://www.barpurlieu.com/"
+  },
+  {
+   "name": "Suriyothai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2435 Hilyard Street, Eugene",
+   "website": "https://suriyothaius.com/"
+  },
+  {
+   "name": "Izumi Sushi and Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2773 Shadow View Drive, 97408, Eugene",
+   "website": "https://izumisushieugene.com/"
+  },
+  {
+   "name": "Sling-in Weiner",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "East 13th Avenue",
+   "website": "https://slinginwiener.com"
+  },
+  {
+   "name": "Spice N' Steam",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "97401",
+   "website": "https://www.spicensteam.com/"
+  },
+  {
+   "name": "El Kora",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.elkoraeugene.com"
+  },
+  {
+   "name": "Fisherman's Market",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "830 West 7th Avenue, 97402",
+   "website": "https://eugenefishmarket.com/"
+  },
+  {
+   "name": "Twin Dragon Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "919 River Road, 97404, Eugene",
+   "website": "https://twin-dragon-restaurant.com"
+  },
+  {
+   "name": "Burrito Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://burritoamigos.com/locations/1600-coburg-rd/"
+  },
+  {
+   "name": "Bao Bao House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "868 West Park Street, 97401, Eugene",
+   "website": "https://www.baobaohouseor.com/"
+  },
+  {
+   "name": "The Sushi Spot",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1044 Willamette Street, 97401",
+   "website": "https://www.thesushispoteugene.com/"
+  },
+  {
+   "name": "Manola's Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "652 East Broadway",
+   "website": "https://www.manolasthai.com"
+  },
+  {
+   "name": "Fat Shack",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1301 Patterson Street, 97401",
+   "website": "https://www.fatshack.com/news/eugene-or-now-open"
+  },
+  {
+   "name": "Krob Krua Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.krobkrua.com/"
+  },
+  {
+   "name": "Taco Mogo",
+   "cuisines": [
+    "Korean",
+    "Mexican"
+   ],
+   "address": "860 Pearl Street, 97401",
+   "website": "https://www.tacomogo.com/"
+  },
+  {
+   "name": "Mali Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://mali-thai-cuisine.square.site/"
+  },
+  {
+   "name": "Ojisan's Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": "https://www.ojisanramen.com/"
+  },
+  {
+   "name": "Crepes!",
+   "cuisines": [
+    "Cake"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/profile.php?id=100063565722746"
+  },
+  {
+   "name": "El Taco Express",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://foodeist.com/place/eltacoexpress"
+  },
+  {
+   "name": "Cashew Gai Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/thaifoodgia/"
+  },
+  {
+   "name": "The Burger House",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Coffee Shop"
+   ],
+   "address": "1025 Green Acres Road, 97408, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Bangers and Brews",
+   "cuisines": [
+    "Hot Dog",
+    "Sausage"
+   ],
+   "address": "2506 Willakenzie Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "2770 Gateway Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Nelson's in the Whit",
+   "cuisines": [
+    "American",
+    "Mexican"
+   ],
+   "address": "400 Blair Boulevard, Eugene",
+   "website": ""
+  },
+  {
+   "name": "OG Poke",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2162 West 6th Avenue, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Addi's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "207 South A Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Tequila Burrito Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1861 Franklin Boulevard, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Snack Shack",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "4690 Franklin Boulevard, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Buddy's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1725 Coburg Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "16 Tons Café",
+   "cuisines": [
+    "Coffee Shop",
+    "Brewery"
+   ],
+   "address": "2864 Willamette Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Sushi Station",
+   "cuisines": [
+    "Sushi",
+    "Japanese",
+    "Asian"
+   ],
+   "address": "199 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Granary Pizza Co.",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "259 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Ocean Garden Ramen & Pho",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1835 Pioneer Parkway East, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Korea House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1306 Hilyard Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Kun Fusion",
+   "cuisines": [
+    "Mexican",
+    "Asian"
+   ],
+   "address": "1239 Alder Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Fuji Japanese Steak House",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "Valley River Drive, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Hop Valley Brewing Company",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "980 Kruse Way, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "The Original Pancake House",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "782 East Broadway, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Original Roadhouse Grill",
+   "cuisines": [
+    "Steak House",
+    "Barbecue"
+   ],
+   "address": "3018 Gateway Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "124 Coburg Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Izakaya Jinsei",
+   "cuisines": [
+    "Asian",
+    "Japanese",
+    "Noodle",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "1249 Alder Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Thai Spice",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Bag O' Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1600 Coburg Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Piro - Latin Scratch Kitchen",
+   "cuisines": [
+    "Latin"
+   ],
+   "address": "111 Main Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1085 Valley River Way, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1799 Willamette Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Angkor Cambodian Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1810 Chambers Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Evergreen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "906 West 7th Avenue, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Pegasus Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2864 West 29th Avenue, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Jade Dumpling And Noodle House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Cafe Seoul",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1930 Franklin Boulevard, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Kai's Asian Street Food",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "267 Van Buren Street, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "GSH Deli",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "1710 East 15th Avenue, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Cafe Glendi",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Burrito Boy",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1071 Valley River Drive, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "3463 Hutton Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Szechuan Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2674 Roosevelt Boulevard, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1060 Valley River Way, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Amigo Mio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3344 Gateway Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Kennedy's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "199 East 5th Avenue, Eugene",
+   "website": ""
+  },
+  {
+   "name": "The Taste of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1365 Villard Street, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "All Thai'd Up",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Sweet Basil",
+   "cuisines": [
+    "Thai",
+    "Asian"
+   ],
+   "address": "1219 Alder Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "West 11th Avenue, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Jade Dumpling & Noodle House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2560 Willamette Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "Valley River Way, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "High On The Hog",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "One Bad Dawg",
+   "cuisines": [
+    "Hot Dog",
+    "Cotton Candy"
+   ],
+   "address": "296 East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Stretched",
+   "cuisines": [
+    "Chinese",
+    "Noodle"
+   ],
+   "address": "543 Blair Boulevard, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Empire Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1933 Franklin Boulevard, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Tasty Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "80 East 29th Avenue, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Chula's Restaurant & Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "610 East Broadway, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Albee's NY Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "391 West 11th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Tasty Thai Campus",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1308 Hilyard Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Hot Mama's Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "420 West 13th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "541 Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "898 Pearl Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Tacovore",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "530 Blair Boulevard, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Pastini",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "325 Oakway Road, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Slice Downtown",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "910 Willamette Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "The Jail",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "490 East Broadway, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Maple Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1275 Alder Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Sweet Basil Express",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1219 Alder Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Chao Pra Ya Resturant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "580 Adams Street, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Papa's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2706 Willakenzie Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Sy's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1211 Alder Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Off the Waffle",
+   "cuisines": [
+    "International"
+   ],
+   "address": "840 Willamette Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Noodle Head",
+   "cuisines": [
+    "Asian",
+    "Thai"
+   ],
+   "address": "880 East 13th Avenue, 97401",
+   "website": ""
+  },
+  {
+   "name": "Webfoot Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "839 East 13th Avenue, 97401",
+   "website": ""
+  },
+  {
+   "name": "Subo Sushi Burritos",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "541 Blair Boulevard, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Pieology Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ta Ra Rhin",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "Oak Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Master Donut & Thai food",
+   "cuisines": [
+    "Donut",
+    "Thai"
+   ],
+   "address": "Gateway Street, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Tiger Mama",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2776 Shadow View Drive, 97408, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Beppe & Gianni's Trattoria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1646 East 19th Avenue, 97403",
+   "website": ""
+  },
+  {
+   "name": "Uncle Sun",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "525 High Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Humble Bagel/ Humble Beagle",
+   "cuisines": [
+    "Bagel",
+    "Coffee Shop"
+   ],
+   "address": "2435 East 24th Avenue, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Spring House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1225 Alder Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Tasty Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "East 29th Avenue, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Duck Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "750 East 13th Avenue, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Brail's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Agora",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ubon Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Mucho Gusto",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brail's on 5th",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dos Banderas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vietnam Restaurant",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "97402",
+   "website": ""
+  },
+  {
+   "name": "Wild Duck Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Dough Co.",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ume Grill Onigiri House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Potrillo Mexican Restaurant & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Akira",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Benedetti's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Szechuan Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Party Downtown",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "4 Plus 3 Korean Barbaque",
+   "cuisines": [
+    "Barbecue",
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Island",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hole-in-the-wall Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chula's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lonches To Go",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "901",
+   "website": ""
+  },
+  {
+   "name": "Los Dos Amigos Hacienda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Time Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Teng Hua Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Night and Day boba",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Ya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Wagon Creamery",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mazzi's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falling Sky Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Patrillos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chopstix",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [],
+   "address": "East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Abilities Diner and Bakery",
+   "cuisines": [],
+   "address": "790 Blair Boulevard, 97402, Eugene",
+   "website": "https://abilitiesdinerandbakery.com"
+  },
+  {
+   "name": "Scribles Bistro & Deli",
+   "cuisines": [],
+   "address": "1123 Monroe Street, 97402, Eugene",
+   "website": "http://scriblesbistroanddeli.com/"
+  },
+  {
+   "name": "Agate Alley Bistro",
+   "cuisines": [],
+   "address": "1461 East 19th Avenue, 97403, Eugene",
+   "website": "https://www.agatealley.com/"
+  },
+  {
+   "name": "Morning Glory Cafe",
+   "cuisines": [],
+   "address": "450 Willamette Street, 97401, Eugene",
+   "website": "https://morninggloryeugene.squarespace.com/breakfast"
+  },
+  {
+   "name": "Pandita",
+   "cuisines": [],
+   "address": "398 East 11th Avenue, 97401, Eugene",
+   "website": "https://panditarestaurant.com/"
+  },
+  {
+   "name": "Yardy Rum Bar",
+   "cuisines": [],
+   "address": "837 Lincoln Street, 97401, Eugene",
+   "website": "https://www.yardyrumbar.com/"
+  },
+  {
+   "name": "Carlita's",
+   "cuisines": [],
+   "address": "555 Oak Street, 97401, Eugene",
+   "website": "https://carlitasttw.com/"
+  },
+  {
+   "name": "Osteria DOP",
+   "cuisines": [],
+   "address": "1122 Oak Street",
+   "website": "https://www.toasttab.com/local/order/osteriadop/r-c3add34d-95d8-4cde-8d6f-915243de60af"
+  },
+  {
+   "name": "ChuanDe",
+   "cuisines": [],
+   "address": "760 Chambers St",
+   "website": "https://chuandelicious.square.site/"
+  },
+  {
+   "name": "The Wheel Apizza Pub",
+   "cuisines": [],
+   "address": "390 Lincoln Street, 97401",
+   "website": "https://www.thewheelapizzapub.com/"
+  },
+  {
+   "name": "Jazzies Bar & Grill",
+   "cuisines": [],
+   "address": "1869 Pioneer Parkway East, 97477, Springfield",
+   "website": ""
+  },
+  {
+   "name": "Mandy's Family Restaurant",
+   "cuisines": [],
+   "address": "1491 Willamette Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "The Glenwood Restaurant",
+   "cuisines": [],
+   "address": "2588 Willamette Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Royal India",
+   "cuisines": [],
+   "address": "Valley River Way, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "El Super Burrito",
+   "cuisines": [],
+   "address": "2566 Willamette Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Black Wolf Supper Club",
+   "cuisines": [],
+   "address": "454 Willamette Street, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Philyaw's Cookout & Catering",
+   "cuisines": [],
+   "address": "1050 Bethel Drive, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "VitalityBowls",
+   "cuisines": [],
+   "address": "440 Coburg Road, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Viva! Vegetarian Grill",
+   "cuisines": [],
+   "address": "1171 Willamette Street, 97401",
+   "website": ""
+  },
+  {
+   "name": "Zest Kitchen and Bar",
+   "cuisines": [],
+   "address": "999 Willamette Street, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Chambers Grill and Taphouse",
+   "cuisines": [],
+   "address": "1601 Chambers Street, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "New Day Bakery",
+   "cuisines": [],
+   "address": "449 Blair Boulevard, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Ashley's Deli",
+   "cuisines": [],
+   "address": "2578 Willamette Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "1960 Cocina",
+   "cuisines": [],
+   "address": "1810 Willamette Street, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Ye Olde Pancake House",
+   "cuisines": [],
+   "address": "2421 West 11th Avenue, 97402, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Sundance Kitchen",
+   "cuisines": [],
+   "address": "2470 Alder Street, 97405, Eugene",
+   "website": ""
+  },
+  {
+   "name": "The Pub",
+   "cuisines": [],
+   "address": "2700 Columbia Street, 97403, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Sushi PURE",
+   "cuisines": [],
+   "address": "East 5th Avenue, 97401, Eugene",
+   "website": ""
+  },
+  {
+   "name": "Carlito's Pupusaria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Café Yumm!",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sabai Cafe & Bar",
+   "cuisines": [],
+   "address": "27 Oakway Road, 97401",
+   "website": ""
+  },
+  {
+   "name": "Bagel Sphere",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweetwaters on the River",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Yumm!",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eirann's Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Park Street Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ume Grill Skewer House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rye",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh Marketcafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Domo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los 2 Paquitos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peaceful Palate",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama Mayra's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Springfield History Museum",
+   "kind": "museum",
+   "address": "590 Main Street, 97477, Springfield",
+   "website": "https://wheremindsgrow.org/history_museum",
+   "phone": "+1-541-726-2300",
+   "latitude": 44.046294,
+   "longitude": -123.018484
+  },
+  {
+   "name": "Eugene Science Center",
+   "kind": "museum",
+   "address": "2300 Leo Harris Parkway, 97401, Eugene",
+   "website": "https://eugenesciencecenter.org",
+   "phone": "+1-541-682-7888",
+   "latitude": 44.0564329,
+   "longitude": -123.072771
+  },
+  {
+   "name": "Lane County Historical Museum",
+   "kind": "museum",
+   "address": "740 West 13th Avenue, 97402, Eugene",
+   "website": "https://www.lchm.org/",
+   "phone": "",
+   "latitude": 44.0450972,
+   "longitude": -123.1037471
+  },
+  {
+   "name": "Jordan Schnitzer Museum of Art",
+   "kind": "museum",
+   "address": "1430 Johnson Lane, 97403, Eugene",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0442714,
+   "longitude": -123.0770074
+  },
+  {
+   "name": "Museum of Natural and Cultural History",
+   "kind": "museum",
+   "address": "1680 East 15th Avenue, 97403, Eugene",
+   "website": "",
+   "phone": "+1-541-686-3166",
+   "latitude": 44.042989,
+   "longitude": -123.0680621
+  },
+  {
+   "name": "Art with Alejandro",
+   "kind": "gallery",
+   "address": "590 Pearl Street, 97401, Eugene",
+   "website": "https://artwithalejandro.com",
+   "phone": "+1 541 554 4414",
+   "latitude": 44.0534532,
+   "longitude": -123.0901536
+  },
+  {
+   "name": "The New Zone Gallery",
+   "kind": "gallery",
+   "address": "110 East 11th Avenue, 97401, Eugene",
+   "website": "https://www.newzonegallery.org/",
+   "phone": "+1 541 683 0759",
+   "latitude": 44.0475911,
+   "longitude": -123.0910309
+  },
+  {
+   "name": "White Lotus Gallery",
+   "kind": "gallery",
+   "address": "767 Willamette Street, 97401, Eugene",
+   "website": "https://www.wlotus.com",
+   "phone": "+1 5413453276",
+   "latitude": 44.0515254,
+   "longitude": -123.092609
+  },
+  {
+   "name": "The Hybrid",
+   "kind": "gallery",
+   "address": "941 West 3rd Avenue, 97402",
+   "website": "https://www.thehybrideugene.com/",
+   "phone": "",
+   "latitude": 44.0566583,
+   "longitude": -123.1072406
+  },
+  {
+   "name": "Cascades Raptor Center",
+   "kind": "museum",
+   "address": "",
+   "website": "http://eraptors.org/",
+   "phone": "",
+   "latitude": 43.9866015,
+   "longitude": -123.0792401
+  },
+  {
+   "name": "Mim's House",
+   "kind": "attraction",
+   "address": "336 High Street, Eugene",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0560787,
+   "longitude": -123.0883952
+  },
+  {
+   "name": "Masterson Pioneer Cabin",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0330965,
+   "longitude": -123.0178722
+  },
+  {
+   "name": "Lillis Balcony",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0462588,
+   "longitude": -123.0776176
+  },
+  {
+   "name": "Riverwood Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0646414,
+   "longitude": -123.1062879
+  },
+  {
+   "name": "Living History Village",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0328929,
+   "longitude": -123.0175042
+  },
+  {
+   "name": "Hazel King Collections",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0452334,
+   "longitude": -122.9714785
+  },
+  {
+   "name": "Nicolas Cage balcony",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.0284922,
+   "longitude": -123.0909049
+  }
+ ]
+}

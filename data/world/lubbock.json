@@ -1,0 +1,1549 @@
+{
+ "city": "Lubbock",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.5784,
+ "longitude": -101.8531,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express Lubbock West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6023 45th Street, 79407, Lubbock",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lubbock/lbbms/hoteldetail"
+  },
+  {
+   "name": "Holiday Inn Express Lubbock South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6506 I-27 South, 79412, Lubbock",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lubbock/lbbes/hoteldetail"
+  },
+  {
+   "name": "DoubleTree by Hilton Lubbock University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "505 Avenue Q, 79401, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbuadt-doubletree-lubbock-university-area/"
+  },
+  {
+   "name": "Holiday Inn Express Lubbock Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2115 Marsha Sharp Freeway, 79415, Lubbock",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lubbock/lbbum/hoteldetail"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4003 South Loop 289, 79423, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbtxhx-hampton-lubbock/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5806 Interstate 27, 79404, Lubbock",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-lubbock-tx"
+  },
+  {
+   "name": "Best Western Plus Tech Medical Center Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4703 North Loop 289, 79416, Lubbock",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-lubbock/best-western-plus-tech-medical-center-inn/propertyCode.44725.html"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5215 South Loop 289, 79424, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbeses-embassy-suites-lubbock/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4011 South Loop 289, 79423, Lubbock",
+   "url": "https://www.marriott.com/lbbcy"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4007 South Loop 289, 79423, Lubbock",
+   "url": "https://www.marriott.com/lbbfi"
+  },
+  {
+   "name": "Courtyard Lubbock Downtown/University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "308 Avenue V, 79415, Lubbock",
+   "url": "https://www.marriott.com/lbbdt"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5310 West Loop 289, 79424, Lubbock",
+   "url": "https://www.marriott.com/lbbts"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4115 Marsha Sharp Freeway, 79407, Lubbock",
+   "url": "https://www.wyndhamhotels.com/laquinta/lubbock-texas/la-quinta-lubbock-west-medical-center/overview"
+  },
+  {
+   "name": "SureStay Plus Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3901 19th Street, 79410, Lubbock",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-lubbock/surestay-plus-hotel-by-best-western-lubbock-medical-center/propertyCode.54089.html"
+  },
+  {
+   "name": "La Quinta Inn & Suites Lubbock North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5006 Auburn Street, 79416, Lubbock",
+   "url": "https://www.wyndhamhotels.com/laquinta/lubbock-texas/la-quinta-lubbock-north/overview"
+  },
+  {
+   "name": "Days Inn Lubbock South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6025 Avenue A, 79404, Lubbock",
+   "url": "https://www.wyndhamhotels.com/days-inn/lubbock-texas/days-inn-lubbock-south/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Lubbock South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6504 Interstate 27, 79412, Lubbock",
+   "url": "https://www.wyndhamhotels.com/laquinta/lubbock-texas/la-quinta-lubbock-south/overview"
+  },
+  {
+   "name": "Home2 Suites by Hilton Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6004 Marsha Sharp Freeway, 79407, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbmsht-home2-suites-lubbock/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2415 3rd Street, 79415, Lubbock",
+   "url": "https://www.marriott.com/lbbrn"
+  },
+  {
+   "name": "Hampton Inn & Suites Lubbock University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2828 4th Street, 79415, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbluhx-hampton-suites-lubbock-university/"
+  },
+  {
+   "name": "Super 8 Lubbock Civic Center North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Avenue Q, 79401, Lubbock",
+   "url": "https://www.wyndhamhotels.com/super-8/lubbock-texas/super-8-lubbock-civic-center-north/overview"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Lubbock Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4923 Marsha Sharp Freeway, 79407, Lubbock",
+   "url": "https://www.wyndhamhotels.com/days-inn/lubbock-texas/days-inn-and-suites-lubbock-medical-center/overview"
+  },
+  {
+   "name": "Comfort Suites University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4927 Marsha Sharp Freeway, 79407, Lubbock",
+   "url": "https://www.choicehotels.com/texas/lubbock/sleep-inn-hotels"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5410 Interstate 27, 79404, Lubbock",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-lubbock/best-western-plus-lubbock-windsor-inn/propertyCode.44499.html"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5706 I-27, 79404, Lubbock",
+   "url": "https://www.choicehotels.com/texas/lubbock/sleep-inn-hotels"
+  },
+  {
+   "name": "Hyatt Place Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2309 Mac Davis Lane, 79401, Lubbock",
+   "url": "https://www.hyatt.com/en-us/hotel/texas/hyatt-place-lubbock/lbbzl"
+  },
+  {
+   "name": "Sleep Inn and Suites Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5816 34th Street, 79407, Lubbock",
+   "url": "https://www.choicehotels.com/texas/lubbock/sleep-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6027 45th Street, 79407, Lubbock",
+   "url": "https://www.hilton.com/en/hotels/lbbltgi-hilton-garden-inn-lubbock/"
+  },
+  {
+   "name": "La Quinta Inn Lubbock - Downtown Civic Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Avenue Q, 79401, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Super 8 by Wyndham Lubbock West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6015 45th Street, 79407, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Hawthorn Suites by Wyndham Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4435 Marsha Sharp Freeway, 79407, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5320 West Loop 289, 79424, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Lubbock near Texas Tech Univ. Medical Ctr",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5214 2nd Drive, 79416, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson by Wyndham Lubbock TX",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5108 Interstate 27, 79404, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4620 Interstate 27, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5113 South Loop 289, 79424, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Lubbock Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "909 66th Street, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 Slaton Road, 79404, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Medical Center Lubbock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4105 19th Street, 79410, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Studio 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2551 South Loop 289, 79423, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3430 West Loop 289, 79407, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4802 South Loop 289, 79414, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Lubbock West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2311 West Loop 289, 79407, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Lubbock South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1410 South Loop 289, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Super 8 by Wyndham Lubbock TX",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6510 Interstate 27, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4801 Avenue Q, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6624 Interstate 27, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2515 19th Street, 79410, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Aloft",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2909 Iola Avenue, 79407, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Cramblitt Home (Twin's House)",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4643 Harvard Street, 79416, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Ashmore Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4019 South Loop 289, 79423, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Budget Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "805 34th Street, 79404, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4401 Avenue Q, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Woodrow House Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2629 19th Street, 79410, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Overton Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2322 Mac Davis Lane, 79401, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "MCM Elegante Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 Avenue Q, 79401, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Arbor Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5310 Englewood Avenue, 79424, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Koko Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5201 Avenue Q South Drive, 79412, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Satellite Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2921 Clovis Road, 79415, Lubbock",
+   "url": ""
+  },
+  {
+   "name": "Tech Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3107 Clovis Road, 79415, Lubbock",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Triple J Chophouse and Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1807 Buddy Holly Avenue, 79401, Lubbock",
+   "website": "https://triplejchophouseandbrewco.com"
+  },
+  {
+   "name": "Burrito King",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1620 Avenue Q, 79401, Lubbock",
+   "website": "https://burritokinglbk.com"
+  },
+  {
+   "name": "Vizo's African Bar & Restaurant",
+   "cuisines": [
+    "African"
+   ],
+   "address": "3131 34th Street, Lubbock",
+   "website": "https://www.vizoslubbock.com/"
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2415 19th Street, 79401, Lubbock",
+   "website": "https://www.mcalistersdeli.com/locations/tx/lubbock"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1910 Quaker Avenue, 79407, Lubbock",
+   "website": "https://locations.pizzahut.com/tx/lubbock/1910-quaker-ave"
+  },
+  {
+   "name": "Cheveland",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "411 University Avenue, 79401, Lubbock",
+   "website": "https://chevelandlubbock.com/"
+  },
+  {
+   "name": "Robles Taquería",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1602 Main Street, 79401, Lubbock",
+   "website": "https://www.roblestaqueria.com/"
+  },
+  {
+   "name": "Arandas Taquiera",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4001 34th Street, 79410",
+   "website": "https://arandas-taquiera-lbk.business.site/"
+  },
+  {
+   "name": "Torchy's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2407 9th Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "607 University Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1627 University Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "607 Avenue Q, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "One Guy",
+   "cuisines": [
+    "Pizza",
+    "Calzone"
+   ],
+   "address": "1101 University Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "India Palace Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3021 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Caprock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3405 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Cha Cha's",
+   "cuisines": [
+    "American",
+    "Mexican"
+   ],
+   "address": "1823 Buddy Holly Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Raider Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2102 19th Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "City Donuts",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "2245 19th Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Taqueria y Panaderia Guadalajara",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1925 19th Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Uncle Chien's Chinese and Thai Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3004 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Italian Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1215 Avenue J, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Pho District",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1910 Quaker Avenue, 79407, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Cafe J",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2605 19th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "River Smith's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "406 Avenue Q, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "J & M Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3605 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Bigham's Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "4302 19th Street, 79407, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Estrella's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1905 50th Street, 79412, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1919 50th Street, 79412, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Bryan Steaks",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1212 50th Street, 79412, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "El Charro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5011 Interstate 27, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Miss Ann's Classic Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "3218 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Burrito Tower",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3001 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Montelongo's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3021 Clovis Road, 79415, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Pollo Rico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1912 Clovis Road, 79415, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Los Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3501 Avenue A, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Simple Simon's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3410 Interstate 27, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Hayashi MidTown",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3701 19th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Polly's Place",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1815 Avenue B, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Capital Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2705 26th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "The West Table",
+   "cuisines": [
+    "American",
+    "Brunch",
+    "Dessert"
+   ],
+   "address": "1204 Broadway Street, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Giorgio's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1018 Broadway Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "The Ranch House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1502 Buddy Holly Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Fuzzy's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2102 Broadway, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "BierHaus Lubbock",
+   "cuisines": [
+    "Burger",
+    "Breakfast"
+   ],
+   "address": "2009 Broadway Street",
+   "website": ""
+  },
+  {
+   "name": "Taquería Autlán",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2722 50th Street, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "la cubana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "East 50th Street, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Cicis",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joel's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hub City Wings",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Orlando's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Catalina's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wild Burger Grille",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bejing House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China One Express Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tom & Bingo BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cheezies' Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nora's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Paisano",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Panda",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Abuelo's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Claraboya Scratch Kitchen Bar",
+   "cuisines": [],
+   "address": "505 Avenue Q, 79401, Lubbock",
+   "website": "https://www.hilton.com/en/hotels/lbbuadt-doubletree-lubbock-university-area/dining/"
+  },
+  {
+   "name": "Snooze",
+   "cuisines": [],
+   "address": "413 University Ave",
+   "website": "https://www.snoozeeatery.com/restaurant/texas/lubbock"
+  },
+  {
+   "name": "Pancake House",
+   "cuisines": [],
+   "address": "510 Avenue Q, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Chicken Run",
+   "cuisines": [],
+   "address": "1910 19th Street, 79407, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Thai Kitchen",
+   "cuisines": [],
+   "address": "2302 Texas Avenue, 79411, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "The Brand On 34th",
+   "cuisines": [],
+   "address": "2859 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Dreamer's Bistro",
+   "cuisines": [],
+   "address": "1003 University Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Spanky's",
+   "cuisines": [],
+   "address": "811 University Avenue, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Chimy's",
+   "cuisines": [],
+   "address": "2417 Broadway, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Panhandle Deli Provisions",
+   "cuisines": [],
+   "address": "3802 Avenue A, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Donut Depot",
+   "cuisines": [],
+   "address": "3612 34th Street, 79410, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Copper Caboose",
+   "cuisines": [],
+   "address": "5609 Villa Drive, 79412, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Big Ben's BBQ",
+   "cuisines": [],
+   "address": "1801 East 50th Street, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Lakeside Lounge Cafe",
+   "cuisines": [],
+   "address": "2510 Martin Luther King Jr. Boulevard, 79404, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Smileys Fish Chicken and More",
+   "cuisines": [],
+   "address": "1702 East Broadway, 79403, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Taco Villa",
+   "cuisines": [],
+   "address": "19th Street, 79401, Lubbock",
+   "website": ""
+  },
+  {
+   "name": "Rise & Shine Donuts",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dirk’s",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cast Iron Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Q Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Botas el Caporal",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Donuts",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "August Pleis",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olivas Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "BackDoor Dinner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jimenez Restaurant & Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gonzalez Snowcone",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pete's Drive In #3",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "National Ranching Heritage Center",
+   "kind": "museum",
+   "address": "3121 4th Street, 79409, Lubbock",
+   "website": "https://ranchingheritage.org/",
+   "phone": "",
+   "latitude": 33.5907595,
+   "longitude": -101.8840964
+  },
+  {
+   "name": "Silent Wings Museum",
+   "kind": "museum",
+   "address": "6202 North Cedar Avenue, 79403, Lubbock",
+   "website": "https://silentwingsmuseum.com/",
+   "phone": "+1-806-775-3049",
+   "latitude": 33.6576245,
+   "longitude": -101.8317323
+  },
+  {
+   "name": "Science Spectrum & OMNI Theater",
+   "kind": "museum",
+   "address": "2579 South Loop 289, 79423, Lubbock",
+   "website": "https://www.sciencespectrum.org/",
+   "phone": "",
+   "latitude": 33.5283119,
+   "longitude": -101.8765715
+  },
+  {
+   "name": "Joyland Amusement Park",
+   "kind": "theme park",
+   "address": "500 Cesar E. Chavez Drive, 79401, Lubbock",
+   "website": "https://www.joylandpark.com/",
+   "phone": "",
+   "latitude": 33.5916123,
+   "longitude": -101.8319115
+  },
+  {
+   "name": "American Wind Power Center",
+   "kind": "theme park",
+   "address": "1701 Canyon Lake Drive, 79403, Lubbock",
+   "website": "https://windmill.com/",
+   "phone": "",
+   "latitude": 33.5815997,
+   "longitude": -101.8236907
+  },
+  {
+   "name": "West Texas Walk of Fame",
+   "kind": "attraction",
+   "address": "1824 Crickets Avenue, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.578197,
+   "longitude": -101.8435674
+  },
+  {
+   "name": "Museum of Texas Tech University",
+   "kind": "museum",
+   "address": "3301 4th Street, 79409, Lubbock",
+   "website": "https://www.depts.ttu.edu/museumttu/",
+   "phone": "",
+   "latitude": 33.5904285,
+   "longitude": -101.8858103
+  },
+  {
+   "name": "Buddy Holly Center",
+   "kind": "museum",
+   "address": "1801 Crickets Avenue, 79401, Lubbock",
+   "website": "https://www.mylubbock.us/departmental-websites/departments/buddy-holly-center/home",
+   "phone": "",
+   "latitude": 33.5784589,
+   "longitude": -101.8425974
+  },
+  {
+   "name": "Bayer Museum of Agriculture",
+   "kind": "museum",
+   "address": "1121 Canyon Lake Drive, 79403, Lubbock",
+   "website": "https://allaboutag.org/",
+   "phone": "+1-806-744-3786",
+   "latitude": 33.5865081,
+   "longitude": -101.8235516
+  },
+  {
+   "name": "Adventure Park",
+   "kind": "theme park",
+   "address": "5110 29th Drive, 79407, Lubbock",
+   "website": "https://adventureparkfun.com/",
+   "phone": "",
+   "latitude": 33.5678578,
+   "longitude": -101.9188286
+  },
+  {
+   "name": "The Buddy Holly Center",
+   "kind": "museum",
+   "address": "1801 Crickets Avenue, Lubbock",
+   "website": "https://ci.lubbock.tx.us/departments/buddy-holly-center",
+   "phone": "",
+   "latitude": 33.578618,
+   "longitude": -101.84259
+  },
+  {
+   "name": "Lubbock Lake Landmark Visitors Center",
+   "kind": "museum",
+   "address": "2401 Landmark Drive, 79415, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6220555,
+   "longitude": -101.8896781
+  },
+  {
+   "name": "South Plains Fairgrounds",
+   "kind": "attraction",
+   "address": "1012 Avenue A, 79403, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5881483,
+   "longitude": -101.8333037
+  },
+  {
+   "name": "Grey Edges Studio & Art Gallery",
+   "kind": "gallery",
+   "address": "1614 Mac Davis Lane, 79401, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5904598,
+   "longitude": -101.8534466
+  },
+  {
+   "name": "Caviel Museum of African American History",
+   "kind": "museum",
+   "address": "1719 Avenue A, 79403, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5790828,
+   "longitude": -101.836127
+  },
+  {
+   "name": "Santa Land",
+   "kind": "attraction",
+   "address": "600 Cesar E. Chavez Drive, 79401, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5870143,
+   "longitude": -101.8295411
+  },
+  {
+   "name": "Tornado Gallery",
+   "kind": "gallery",
+   "address": "1822 Buddy Holly Avenue, Lubbock",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5782005,
+   "longitude": -101.8446536
+  },
+  {
+   "name": "Douglas C-47 Skytrain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6576793,
+   "longitude": -101.8335601
+  },
+  {
+   "name": "Prairie Dog Town",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5989935,
+   "longitude": -101.8333111
+  },
+  {
+   "name": "Arts District",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5906866,
+   "longitude": -101.847057
+  },
+  {
+   "name": "The Spiral by Dr. Alon Kvashny",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6072989,
+   "longitude": -101.9055888
+  },
+  {
+   "name": "Sundial",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5898974,
+   "longitude": -101.8756068
+  },
+  {
+   "name": "Blarney Stone",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.5866787,
+   "longitude": -101.8757241
+  }
+ ]
+}

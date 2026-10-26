@@ -1,0 +1,385 @@
+{
+ "city": "Del Rio",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 29.3649,
+ "longitude": -100.8991,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "La Quinta Inn Del Rio",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2005 Veterans Boulevard, 78840, Del Rio",
+   "url": "https://www.wyndhamhotels.com/hawthorn-extended-stay/del-rio-texas/hawthorn-suites-del-rio/overview"
+  },
+  {
+   "name": "Ramada Del Rio",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2101 Veterans Boulevard, 78840, Del Rio",
+   "url": "https://www.wyndhamhotels.com/ramada/del-rio-texas/ramada-del-rio/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2219 Bedell Avenue, 78840, Del Rio",
+   "url": "https://www.hilton.com/en/hotels/drttxhx-hampton-suites-del-rio/"
+  },
+  {
+   "name": "Hotel La Finca Acuña",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.lafincaacuna.com.mx/"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2115 Veterans Boulevard, 78840, Del Rio",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3616 Veterans Boulevard, 78840, Del Rio",
+   "url": ""
+  },
+  {
+   "name": "Emmaus.",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "47 Calle Doctor Coss, 26200, Ciudad Acuña",
+   "url": ""
+  },
+  {
+   "name": "Studio 6 Del Rio",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3808 Veterans Boulevard, 78840, Del Rio",
+   "url": ""
+  },
+  {
+   "name": "Del Rio Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3811 Veterans Boulevard, 78840, Del Rio",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel San Jorge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Miguel Hidalgo",
+   "url": ""
+  },
+  {
+   "name": "Palms Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel del Prado",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel Las Vegas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel White River",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Valle Hermoso",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel Alaska",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Oriental Cuisine",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "110 Miers Street, 78840, Del Rio",
+   "website": "https://oriental-cuisine-restaurant.business.site"
+  },
+  {
+   "name": "Fragola's Catering & the Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "105 East 4th Street, 78840",
+   "website": "https://www.facebook.com/FragolasCatering/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2415 Veterans Boulevard, 78840, Del Rio",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "Veterans Boulevard, 78840, Del Rio",
+   "website": ""
+  },
+  {
+   "name": "Gatti's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Salas Better Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peter Piper Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Skillet's",
+   "cuisines": [
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poncho's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don Marcelino's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chinto's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rudy's Country Store & Bar-B-Q",
+   "cuisines": [],
+   "address": "330 Braddie Drive, 78840, Del Rio",
+   "website": ""
+  },
+  {
+   "name": "Sirloin Stockade",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Val Verde Rural Health Clinic",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "San Felipe Exes Student Memorial Center",
+   "kind": "museum",
+   "address": "504 West Garza Street, 78840, Del Rio",
+   "website": "https://texastimetravel.com/directory/san-felipe-exes-memorial-center/",
+   "phone": "",
+   "latitude": 29.354609,
+   "longitude": -100.890592
+  },
+  {
+   "name": "Whitehead Memorial Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://whiteheadmuseum.org/index.html",
+   "phone": "",
+   "latitude": 29.3521743,
+   "longitude": -100.898149
+  },
+  {
+   "name": "San Felipe EXES Memorial Center",
+   "kind": "museum",
+   "address": "504 West Garza Street, 78840, Del Rio",
+   "website": "",
+   "phone": "",
+   "latitude": 29.3548053,
+   "longitude": -100.8906384
+  },
+  {
+   "name": "Museo del Agua",
+   "kind": "museum",
+   "address": "Calle Mariano Matamoros, Ciudad Acuña",
+   "website": "",
+   "phone": "",
+   "latitude": 29.3281922,
+   "longitude": -100.9317896
+  },
+  {
+   "name": "Abbey Road Cafe and Beatles Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "+52 877 772 8658",
+   "latitude": 29.3257748,
+   "longitude": -100.9300822
+  }
+ ]
+}

@@ -1,0 +1,3067 @@
+{
+ "city": "Sacramento",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.5766,
+ "longitude": -121.5024,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Delta King",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn by Marriott Sacramento Downtown at Capitol Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1121 15th Street, 95814, Sacramento",
+   "url": "https://www.marriott.com/en-us/hotels/sacdt-residence-inn-sacramento-downtown-at-capitol-park/overview/"
+  },
+  {
+   "name": "Sheraton Grand Sacramento Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1230 J Street, 95814, Sacramento",
+   "url": "https://www.marriott.com/en-us/hotels/sacsi-sheraton-grand-sacramento-hotel/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn Sacramento/South Natomas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2540 Venture Oaks Way, 95833-3200, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/smfsngi-hilton-garden-inn-sacramento-south-natomas/"
+  },
+  {
+   "name": "The Citizen Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "926 J Street, 95814, Sacramento",
+   "url": "https://www.thecitizenhotel.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 Stillwater Road, 95605, West Sacramento",
+   "url": "https://www.hilton.com/en/hotels/smfwehx-hampton-suites-west-sacramento/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3021 Advantage Way, 95834, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/sacnnhx-hampton-suites-sacramento-airport-natomas/"
+  },
+  {
+   "name": "Residence Inn Sacramento Cal Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "550 Leisure Lane, 95815, Sacramento",
+   "url": "https://www.marriott.com/smfce"
+  },
+  {
+   "name": "Rodeway Inn Sacramento-University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "25 Howe Avenue, 95826, Sacramento",
+   "url": "https://www.choicehotels.com/united-states/test-hotels/suburban-hotels"
+  },
+  {
+   "name": "TownePlace Suites Sacramento Airport Natomas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4090 East Commerce Way, 95834, Sacramento",
+   "url": "https://www.marriott.com/sacta"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2730 El Centro Road, 95833, Sacramento",
+   "url": "https://www.marriott.com/hotels/travel/sacwn-fairfield-inn-and-suites-sacramento-airport-natomas/"
+  },
+  {
+   "name": "DoubleTree by Hilton Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 Point West Way, 95815, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/rlsa-dt-doubletree-sacramento/"
+  },
+  {
+   "name": "Holiday Inn Express - West Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2761 Evergreen Avenue, 95691, West Sacramento",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/west-sacramento/sacwe/hoteldetail"
+  },
+  {
+   "name": "Embassy Suites by Hilton Sacramento - Riverfront Promenade",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Capitol Mall, 95814, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/saceses-embassy-suites-sacramento-riverfront-promenade/"
+  },
+  {
+   "name": "SpringHill Suites Sacramento Airport Natomas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2555 Venture Oaks Way, 95833, Sacramento",
+   "url": "https://www.marriott.com/sacsh"
+  },
+  {
+   "name": "Courtyard Sacramento Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4422 Y Street, 95817, Sacramento",
+   "url": "https://www.marriott.com/saccy"
+  },
+  {
+   "name": "The Westin Sacramento Riverfront Hotel & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4800 Riverside Boulevard, 95822, Sacramento",
+   "url": "https://www.marriott.com/en-us/hotels/sacws-the-westin-sacramento/overview/"
+  },
+  {
+   "name": "SpringHill Suites West Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3455 Reed Avenue, 95605, West Sacramento",
+   "url": "https://www.marriott.com/sacsw"
+  },
+  {
+   "name": "Courtyard by Sacramento Airport Natomas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2101 River Plaza Drive, 95833, Sacramento",
+   "url": "https://www.marriott.com/sacch"
+  },
+  {
+   "name": "TownePlace Suites Sacramento Cal Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1784 Tribute Road, 95815, Sacramento",
+   "url": "https://www.marriott.com/saccx"
+  },
+  {
+   "name": "Hampton Inn & Suites Sacramento-Cal Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2230 Auburn Boulevard, 95821, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/sacabhx-hampton-suites-sacramento-cal-expo/"
+  },
+  {
+   "name": "Hampton Inn & Suites Sacramento at CSUS",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1875 65th Street, 95819, Sacremento",
+   "url": "https://www.hilton.com/en/hotels/sacsuhx-hampton-suites-sacramento-at-csus/"
+  },
+  {
+   "name": "The Greens on Del Paso Blvd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 Del Paso Boulevard, 95815, Sacramento",
+   "url": "https://www.thegreensdelpaso.com/"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1020 West Capitol Avenue, 95691, West Sacramento",
+   "url": "https://www.hilton.com/en/hotels/sacusht-home2-suites-sacramento-west/"
+  },
+  {
+   "name": "Hyatt Regency Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1209 L Street, 95814, Sacramento",
+   "url": "https://www.hyatt.com/hyatt-regency/en-us/sacra-hyatt-regency-sacramento"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2981 Advantage Way, 95834, Sacramento",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/sacramento/sacdp/hoteldetail"
+  },
+  {
+   "name": "Vagabond Inn Executive Old Town",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "909 3rd Street, 95814, Sacramento",
+   "url": "https://www.vagabondinn.com/"
+  },
+  {
+   "name": "Comfort Suites - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "226 Jibboom Street, 95814, Sacramento",
+   "url": "https://www.choicehotels.com/united-states/test-hotels/suburban-hotels"
+  },
+  {
+   "name": "BEST WESTERN Sandman Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "236 Jibboom Street, 95811-0108, Sacramento",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-sacramento/best-western-sandman-hotel/propertyCode.05240.html"
+  },
+  {
+   "name": "Hyatt House Sacramento / Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2719 K Street, 95816, Sacramento",
+   "url": "https://www.hyatt.com/en-US/hotel/california/hyatt-house-sacramento-midtown/sacxs"
+  },
+  {
+   "name": "SureStay Plus by Best Western Sacramento North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Bercut Drive, 95811-0102, Sacramento",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-sacramento/surestay-plus-hotel-by-best-western-sacramento-north/propertyCode.52004.html"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Advantage Court, 95834, Sacramento",
+   "url": "https://www.hilton.com/en/hotels/sacangi-hilton-garden-inn-sacramento-airport-natomas/"
+  },
+  {
+   "name": "Econo Lodge Sacramento Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "711 16th Street, 95814, Sacramento",
+   "url": "https://www.choicehotels.com/united-states/test-hotels/suburban-hotels"
+  },
+  {
+   "name": "Comfort Inn & Suites Sacramento - University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "21 Howe Avenue, 95826, Sacramento",
+   "url": "https://www.choicehotels.com/united-states/test-hotels/suburban-hotels"
+  },
+  {
+   "name": "Inn & Spa at Parkside",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2116 6th Street, 95818, Sacramento",
+   "url": "https://www.innatparkside.com/"
+  },
+  {
+   "name": "Super 8 by Wyndham Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2654 El Centro Road, 95833, Sacramento",
+   "url": "http://www.super8.com/Super8/control/Booking/property_info?propertyId=14994"
+  },
+  {
+   "name": "Hilton Sacramento Arden West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 Harvard Street, 95815, Sacramento",
+   "url": "http://www.hiltonsacramentoardenwest.com/"
+  },
+  {
+   "name": "Fairfield Inn Sacramento Cal Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1780 Tribute Road, 95815, Sacramento",
+   "url": "https://www.marriott.com/sacxp"
+  },
+  {
+   "name": "AC Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "905 I Street, 95814, Sacramento",
+   "url": "https://www.marriott.com/en-us/hotels/smfac-ac-hotel-sacramento/overview/"
+  },
+  {
+   "name": "Element Sacramento Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3681 North Freeway Boulevard, 95834, Sacramento",
+   "url": "https://www.marriott.com/hotels/travel/sacel-element-sacramento-airport/"
+  },
+  {
+   "name": "Hyatt Centric Downtown Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1122 7th Street, 95814, Sacramento",
+   "url": "https://www.hyatt.com/en-US/hotel/california/hyatt-centric-downtown-sacramento/smfct"
+  },
+  {
+   "name": "Home2 Suites by Hilton Sacramento at CSUS",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1865 65th Street, 95819",
+   "url": "http://hilton.com"
+  },
+  {
+   "name": "Four Points by Sheraton Sacramento International Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4900 Duckhorn Drive, 95834, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "228 Jibboom Street, 95811, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Sacramento West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1254 Halyard Drive, 95691, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn Capitol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817 West Capitol Avenue, 95691, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Ramada West Sacramento Hotel and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1250 Halyard Drive, 95691, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Sacramento-West Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "795 Stillwater Road, 95605, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Sacramento-Capitol Plaza",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 J Street, 95814, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Kimpton Sawyer Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 J Street, 95814, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Sacramento NE Cal Expo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2224 Auburn Boulevard, 95821, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "The Fort Sutter Hotel Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1308 28th Street, 95816, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Sacramento Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1415 30th Street, 95816, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Plaza Motel & Apartments",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2701 West Capitol Avenue, 95691, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Granada Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4751 West Capitol Avenue, 95691, West Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Hotel Med Park, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2356 Stockton Boulevard, 95817, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Inn & Suites Sacramento",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1319 30th Street, 95816, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Inn Off Capitol Park, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1530 N Street, 95814, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Sacramento Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "818 15th Street, 95814, Sacramento",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6610 Stockton Boulevard, 95823, Sacramento",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Tbar and Fusion Cafe",
+   "cuisines": [
+    "Tea",
+    "International"
+   ],
+   "address": "2700 Capitol Avenue, 95816",
+   "website": "https://ilovetbar.com"
+  },
+  {
+   "name": "Veg Kitchen & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2431 J Street, 95816, Sacramento",
+   "website": "https://www.vegsacramento.com/"
+  },
+  {
+   "name": "Buddha Bowls + Rolls",
+   "cuisines": [
+    "Asian",
+    "Sandwich"
+   ],
+   "address": "801 14th Street",
+   "website": "https://www.buddhabowlsandrolls.com"
+  },
+  {
+   "name": "Station 16",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1118 16th Street, 95814, Sacramento",
+   "website": "https://www.station16restaurant.com/locations/sacramento"
+  },
+  {
+   "name": "Cluckin' Good",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1829 22nd Street, 95816-7106, Sacramento",
+   "website": "https://cluckingoodus.com"
+  },
+  {
+   "name": "New Kathmandu Kitchen",
+   "cuisines": [
+    "Nepalese",
+    "Indian",
+    "Himalayan"
+   ],
+   "address": "3672 J Street, 95816, Sacramento",
+   "website": "https://newkathmandukitchen.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "779 Ikea Court, 95605, West Sacramento",
+   "website": "https://restaurants.ihop.com/en-us/ca/west-sacramento/breakfast-779-ikea-court-3311"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4720 Freeport Boulevard, 95822",
+   "website": "http://mountainmikespizza.com"
+  },
+  {
+   "name": "Thai Basil",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2431 J Street, 95816, Sacramento",
+   "website": "https://www.thaibasilrestaurant.com/"
+  },
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1210 Front Street, 95814, Sacramento",
+   "website": "https://www.joescrabshack.com/locations/10731/"
+  },
+  {
+   "name": "Fuji Sacramento",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1235 Broadway, 95818, Sacramento",
+   "website": "https://www.fuji-sacramento.com/"
+  },
+  {
+   "name": "Pushkin's Bakery",
+   "cuisines": [
+    "Sandwich",
+    "Bakery"
+   ],
+   "address": "1820 29th Street, 95816, Sacramento",
+   "website": "https://pushkinsbakery.com/"
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "405 K Street, 95814",
+   "website": "https://www.yardhouse.com/locations/ca/sacramento/sacramento-downtown-commons/8379"
+  },
+  {
+   "name": "Hidden Dumpling House",
+   "cuisines": [
+    "Chinese",
+    "Bubble Tea"
+   ],
+   "address": "2801 P Street, 95816, Sacramento",
+   "website": "https://www.hiddendumplinghousemidtown.com"
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1910 K Street, Sacramento",
+   "website": "https://www.osf.com/"
+  },
+  {
+   "name": "Los Jarritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2509 Broadway, 95818, Sacramento",
+   "website": "https://los-jarritos.menu-buzz.com/"
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3005 Freeport Boulevard, 95818",
+   "website": "http://ordering.roundtablepizza.com"
+  },
+  {
+   "name": "Pieology Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1020 16th Street, 95814, Sacramento",
+   "website": "https://pieology.com/pizza-near-me/?rest_id=8023"
+  },
+  {
+   "name": "Juju",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "1501 L Street, 95814, Sacramento",
+   "website": "https://www.jujukitchenandcocktails.com/"
+  },
+  {
+   "name": "Buckhorn Grill",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "801 14th Street",
+   "website": "https://buckhorngrill.com/"
+  },
+  {
+   "name": "Oishii Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1000 K Street, 95814, Sacramento",
+   "website": "https://oishiisushica.com"
+  },
+  {
+   "name": "Honey and the Trapcat",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "1023A Front Street, 95814, Sacramento",
+   "website": "https://www.honeyandthetrapcat.com/"
+  },
+  {
+   "name": "Octopus Peru",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "980 9th Street, 95814, Sacramento",
+   "website": "https://octopusperu.com/"
+  },
+  {
+   "name": "Lowbrau",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1050 20th Street, 95811, Sacramento",
+   "website": "https://www.lowbrausacramento.com/"
+  },
+  {
+   "name": "Stepdad's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2968 Freeport Boulevard, 95818, Sacramento",
+   "website": "http://stepdads916.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "604 West El Camino Avenue, 95833, Sacramento",
+   "website": "https://locations.pizzahut.com/ca/sacramento/604-w-el-camino-ave"
+  },
+  {
+   "name": "Taqueria Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "330 16th Street, 95814",
+   "website": "https://www.taqueriajalisco916.com/"
+  },
+  {
+   "name": "Federalist Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2009 Matsui Alley, 95811, Sacramento",
+   "website": "https://federalistpizza.com/"
+  },
+  {
+   "name": "Public House Downtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1132 16th Street, 95814, Sacramento",
+   "website": "https://www.phdowntown.com/"
+  },
+  {
+   "name": "Famous Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2998 Freeport Boulevard, 95818",
+   "website": "http://slicelife.com"
+  },
+  {
+   "name": "Burger Town",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1930 K Street, 95811, Sacramento",
+   "website": "http://www.burgertown-sac.com/"
+  },
+  {
+   "name": "El Rincon Méxican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3030 T Street, 95816, Sacramento",
+   "website": "http://elrinconmexfood.com/"
+  },
+  {
+   "name": "Selland's Market Café Broadway Sacramento",
+   "cuisines": [
+    "American"
+   ],
+   "address": "915 Broadway, 95818, Sacramento",
+   "website": "https://www.sellands.com/"
+  },
+  {
+   "name": "Thai Farm House BBQ and Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1049 Broadway, 95818, Sacramento",
+   "website": "https://thaifarmhouse.com/"
+  },
+  {
+   "name": "Los Immortales Taqueria - Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "501 Broadway, 95818",
+   "website": "https://losinmortalestaqueriaca.com"
+  },
+  {
+   "name": "Pizzasaurus Rex",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2322 K Street",
+   "website": "https://www.eatpizzasaurusrex.com"
+  },
+  {
+   "name": "Vegan Deadly Sins",
+   "cuisines": [
+    "Bubble Tea",
+    "Chinese"
+   ],
+   "address": "900 15th Street, 95814",
+   "website": "https://www.vegandeadlysins.net"
+  },
+  {
+   "name": "Tai Pan Dim Sum & Bakery",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4400 Freeport Boulevard, 95822",
+   "website": "https://taipanusa.com/"
+  },
+  {
+   "name": "Camp Cove",
+   "cuisines": [
+    "Australian"
+   ],
+   "address": "1401 O Street, 95814, Sacramento",
+   "website": "https://www.eatcampcove.com"
+  },
+  {
+   "name": "The Boiling Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1000 K Street, 95814, Sacramento",
+   "website": "https://theboilingcrab.com/"
+  },
+  {
+   "name": "Dumpling & Tea House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3000 #4 Freeport Boulevard, 95818",
+   "website": "http://dumplingteahouse.com"
+  },
+  {
+   "name": "Oak Park Brewing Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3514 Broadway, Sacramento",
+   "website": "https://opbrewco.com/"
+  },
+  {
+   "name": "Ernesto's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1901 16th Street, 95811, Sacramento",
+   "website": "https://www.ernestosmexicanfood.com/"
+  },
+  {
+   "name": "Hook and Ladder",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1630 S Street, 95811, Sacramento",
+   "website": "https://hookandladder916.com"
+  },
+  {
+   "name": "Queen Sheba",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1704 Broadway, 95818, Sacramento",
+   "website": "https://www.queenshebas.com/"
+  },
+  {
+   "name": "Drunken Noodle",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2502 J Street, 96816, Sacramento",
+   "website": "https://www.thecoconuttogo.com/"
+  },
+  {
+   "name": "Biba",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2801 Capitol Avenue, 95816, Sacramento",
+   "website": "https://www.biba-restaurant.com/"
+  },
+  {
+   "name": "Azul Mexican Food & Tequila Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1050 20th Street, Sacramento",
+   "website": "http://azuldowntown.com/#/HOME/"
+  },
+  {
+   "name": "Jensai Sushi",
+   "cuisines": [
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "2210 16th Street, 95818, Sacramento",
+   "website": "https://www.jensaisushisac.com/"
+  },
+  {
+   "name": "Tasty Hawaiian BBQ",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2309 Northgate Boulevard, 95833, Sacramento",
+   "website": "https://www.tastyhawaiianbbqca.com/"
+  },
+  {
+   "name": "Tropics Ale House Midtown",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "2001 J Street, 95811, Sacramento",
+   "website": "https://www.tropicsalehousemidtown.com/"
+  },
+  {
+   "name": "Ju Hachi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1730 S Street, 95811, Sacramento",
+   "website": "https://juhachisacramento.com"
+  },
+  {
+   "name": "Bangkok@12 Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "900 12th Street, 95814, Sacramento",
+   "website": "https://www.bangkok12restaurant.com/"
+  },
+  {
+   "name": "The Great Greek Mediterranean Grill",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "3700 Crocker Drive",
+   "website": "https://www.thegreatgreekgrill.com/sacramento-ca"
+  },
+  {
+   "name": "Halal Food and Ice Cream",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "1233 J Street, 95814, Sacramento",
+   "website": "https://halalfoodandicecream.eatspots.us/"
+  },
+  {
+   "name": "Everest Curry",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1728 Broadway",
+   "website": "https://everestcurrysac.com/"
+  },
+  {
+   "name": "Sushi Cafe Bar and Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "Freeport Boulevard",
+   "website": "http://mysuahicafe.com"
+  },
+  {
+   "name": "Railroad Fish & Chips",
+   "cuisines": [
+    "Fish And Chips"
+   ],
+   "address": "1100 Front Street, 95814",
+   "website": "https://railroadfishchips.com/"
+  },
+  {
+   "name": "The Coconut",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1110 T Street, 95811",
+   "website": "https://coconutont.com/"
+  },
+  {
+   "name": "Mas Taco Bar",
+   "cuisines": [
+    "Mexican",
+    "Asian",
+    "Fusion"
+   ],
+   "address": "1800 15th Street",
+   "website": "https://www.mastacobar.com"
+  },
+  {
+   "name": "Thai Canteen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.thaicanteensac.com/"
+  },
+  {
+   "name": "The Porch Restaurant and Bar",
+   "cuisines": [
+    "Regional",
+    "American"
+   ],
+   "address": "",
+   "website": "http://www.theporchsacramento.com/"
+  },
+  {
+   "name": "Pocha House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1910 Q Street, 95811",
+   "website": "https://www.pochahouse.com/"
+  },
+  {
+   "name": "Journey to the Dumpling",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1700 21st Street",
+   "website": "https://journeytothedumpling.com/"
+  },
+  {
+   "name": "Jayna Gyro",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "3101 Folsom Boulevard, 95816",
+   "website": "https://jaynagyro.com"
+  },
+  {
+   "name": "Hot off the griddle",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1583 West El Camino Avenue, 95833-1992",
+   "website": "https://hotg.net/"
+  },
+  {
+   "name": "Riverside Clubhouse",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "2633 Riverside Boulevard",
+   "website": "https://riversideclubhouse.com"
+  },
+  {
+   "name": "Ryujun Ramen House",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1831 S street, 95811",
+   "website": "https://ryujinramen.com/"
+  },
+  {
+   "name": "Sawasdee Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/SawasdeeSac"
+  },
+  {
+   "name": "Orchard Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.orchidthai916.com/"
+  },
+  {
+   "name": "Masullo",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "2711 Riverside Boulevard",
+   "website": "https://www.masullopizza.com"
+  },
+  {
+   "name": "Kodaiko",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "718 K Street, 95814",
+   "website": "https://kodaikoramen.com/"
+  },
+  {
+   "name": "Fanny Ann's Saloon",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.fannyannsaloon.com/"
+  },
+  {
+   "name": "La Terraza Old Sacramento",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.laterrazaoldsac.com/"
+  },
+  {
+   "name": "Slice of Old Sacramento Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "http://sliceofoldsac.com/"
+  },
+  {
+   "name": "Zoe Coffee and Tacos",
+   "cuisines": [
+    "Peruvian",
+    "American",
+    "Coffee Shop"
+   ],
+   "address": "",
+   "website": "https://zoecoffeeandtacos.com/coffee-shop"
+  },
+  {
+   "name": "Mayahuel",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1200 K Street",
+   "website": "https://experiencemayahuel.com/"
+  },
+  {
+   "name": "Lola's Lounge",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "",
+   "website": "https://lolaslounge.co/"
+  },
+  {
+   "name": "Steve's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://esacramento.stevespizzaca.com"
+  },
+  {
+   "name": "Burger Lounge",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.burgerlounge.com/"
+  },
+  {
+   "name": "La Trattoria Bohemia",
+   "cuisines": [
+    "Czech",
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://latrattoriabohemia.com/"
+  },
+  {
+   "name": "Rick's Dessert Diner",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "",
+   "website": "https://www.ricksdessertdiner.com/"
+  },
+  {
+   "name": "Mezcal Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1620 West El Camino Avenue, 95833, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Fixins Soul Kitchen",
+   "cuisines": [
+    "African",
+    "American",
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burgers and Brew",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1409 R Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Sampino's Towne Foods",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1607 F Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Ming Dynasty",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1211 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Jimboy's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "750 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Beach Hut Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2406 J Street, 96816, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Bawk! By Urban Roots",
+   "cuisines": [
+    "Fried Chicken"
+   ],
+   "address": "1409 R Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "La Cosecha",
+   "cuisines": [
+    "Mexican",
+    "Bar"
+   ],
+   "address": "917 9th Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Manchurian Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "767 Ikea Court, 95605, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Panda House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2022 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "La Garnacha",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2101 16th Street, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Miyako Teriyaki Bowl",
+   "cuisines": [
+    "Japanese",
+    "Teriyaki"
+   ],
+   "address": "4585 Freeport Boulevard, 95822",
+   "website": ""
+  },
+  {
+   "name": "Tres Hermanas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2416 K Street, 95816, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Tandoori Fire",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1009 9th Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Star KTV Lounge",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4543 Freeport Boulevard, 95822",
+   "website": ""
+  },
+  {
+   "name": "Chando's Tacos",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "2530 Boatman Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Chicago Fire",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2416 J Street, 96816, sacramento",
+   "website": ""
+  },
+  {
+   "name": "Orphan Breakfast House",
+   "cuisines": [
+    "International"
+   ],
+   "address": "3440 C Street, 95816, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1235 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "The Rind",
+   "cuisines": [
+    "Cheese"
+   ],
+   "address": "1801 L Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Creole Soul",
+   "cuisines": [
+    "Creole"
+   ],
+   "address": "2026 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Lotus Fusion",
+   "cuisines": [
+    "Chinese",
+    "Sushi"
+   ],
+   "address": "1620 West El Camino Avenue, 95833, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "New Blue Sky",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1500 West El Camino Avenue, 95815, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Beast + Bounty",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1701 R Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Frends Brewhouse",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "828 J Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "New Canton Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2523 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Lucca Restaurant & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1615 J Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Hings Chinese Cuisine",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2933 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Taste of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3025 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Pizza Guys",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "800 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Paesanos",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1806 Capitol Avenue, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Califorina Burritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2910 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Petra",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1122 16th Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Saigon Alley",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1801 L Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Bento Box",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1101 K Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Giant Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2625 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Thai Spice",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2721 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Golden Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2800 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1402 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Bangkok City Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1620 West El Camino Avenue, 95833, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Vince's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "840 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Hao Bao Dumplings",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1021 K Street",
+   "website": ""
+  },
+  {
+   "name": "Paesanos Portofino Room",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1806 Capitol Avenue, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Cafe Dantorelles",
+   "cuisines": [
+    "American",
+    "Coffee Shop"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Green Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2615 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Tower Cafe",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1518 Broadway",
+   "website": ""
+  },
+  {
+   "name": "New Station",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1800 Broadway",
+   "website": ""
+  },
+  {
+   "name": "Casa Ortuño",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2248 West Capitol Avenue",
+   "website": ""
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chevys",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Capitol Garage",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicha",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "1501 16th Street",
+   "website": ""
+  },
+  {
+   "name": "JJ's Hawaiian BBQ + Ramen",
+   "cuisines": [
+    "Barbecue",
+    "Ramen",
+    "Hawaiian"
+   ],
+   "address": "2300 West Capitol Avenue",
+   "website": ""
+  },
+  {
+   "name": "Café Connection",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1007 L Street",
+   "website": ""
+  },
+  {
+   "name": "The Philly",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "915 K Street",
+   "website": ""
+  },
+  {
+   "name": "Sushi Cafe",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1221 Alhambra Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Capitol Gyros",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1640 West Capitol Avenue",
+   "website": ""
+  },
+  {
+   "name": "Club Pheasant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dantorelle's",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ramen 101",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kyoto",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1724 Broadway",
+   "website": ""
+  },
+  {
+   "name": "Miso Japanese",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1517 Broadway",
+   "website": ""
+  },
+  {
+   "name": "Taste of Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1628 Broadway",
+   "website": ""
+  },
+  {
+   "name": "Chada Thai Cusine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1624 Broadway",
+   "website": ""
+  },
+  {
+   "name": "Yummy!",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3057 Freeport Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Thai Lotus",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ono Hawaiian BBQ",
+   "cuisines": [
+    "Barbecue",
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Polanco Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tasty Dumpling",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pampas",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dumpling House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2330 J Street",
+   "website": ""
+  },
+  {
+   "name": "Iron Horse Tavern",
+   "cuisines": [
+    "Asian",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jim Denny's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Upper Crust Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zocalo's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Crest Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "5 Tacos & Beers",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taylor's Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rushi",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fish Face Poke Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brasserie Du Monde",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafeteria 15L",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Il Fornaio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Fiesta Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mikuni",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crepeville",
+   "cuisines": [
+    "French",
+    "Crepe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aioli Bodega Espanola",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Good Friends",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pancake Circus",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ten 22",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Azurkar Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Athony's Italian Cuisine",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dali's Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Flor De Michoacan",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hawaiian Poke",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Emma's Tamales",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Panda Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "India Gate Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jack's Urban Eats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "East Sac/Midtown Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falafel Corner",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marina's Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kru",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "OBO",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Magpie",
+   "cuisines": [],
+   "address": "1601 16th Street, Sacramento",
+   "website": "https://www.magpiecafe.com/"
+  },
+  {
+   "name": "Prelude Kitchen & Bar",
+   "cuisines": [],
+   "address": "1117 11th Street, 95814, Sacramento",
+   "website": "https://preluderestaurant.com/"
+  },
+  {
+   "name": "Canon",
+   "cuisines": [],
+   "address": "1717 34th Street, 95816, Sacramento",
+   "website": "https://canoneastsac.com/"
+  },
+  {
+   "name": "Localis",
+   "cuisines": [],
+   "address": "2031 S Street, Sacramento",
+   "website": "https://localissacramento.com/"
+  },
+  {
+   "name": "Ella Dining Room and Bar",
+   "cuisines": [],
+   "address": "1131 K Street, 95814, Sacramento",
+   "website": "https://elladiningroomandbar.com"
+  },
+  {
+   "name": "Serrano's Cafe",
+   "cuisines": [],
+   "address": "3021 West Capitol Avenue, 95691, West Sacramento",
+   "website": "https://foodeist.com/place/serranoscafe"
+  },
+  {
+   "name": "Birdies Social Club",
+   "cuisines": [],
+   "address": "805 Riverfront Street, 95691",
+   "website": "https://birdieswestsac.com/"
+  },
+  {
+   "name": "Vallejo's Mexican Restaurant",
+   "cuisines": [],
+   "address": "1900 4th Street",
+   "website": "https://www.vallejosrestaurant.com/"
+  },
+  {
+   "name": "Maydoon Persian Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": "https://maydoonrestaurant.com/"
+  },
+  {
+   "name": "Tiger Bar + Restaurant",
+   "cuisines": [],
+   "address": "722;724 K Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Carol's",
+   "cuisines": [],
+   "address": "1201 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Frank Fat's",
+   "cuisines": [],
+   "address": "806 L Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Firehouse",
+   "cuisines": [],
+   "address": "1112 2nd Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "H Salt Fish & Chips",
+   "cuisines": [],
+   "address": "514 16th Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Twisted Track Station",
+   "cuisines": [],
+   "address": "1201 R Street, 95816, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Fit Eats",
+   "cuisines": [],
+   "address": "1420 16th Street, 95814, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Tomato Alley Free House",
+   "cuisines": [],
+   "address": "2020 16th Street, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "The Mercantile Saloon",
+   "cuisines": [],
+   "address": "1215 19th Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Vibe Health Bar",
+   "cuisines": [],
+   "address": "3515 Broadway, 95817, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Kick'n Mule Restaurant and Sports Bar",
+   "cuisines": [],
+   "address": "2903 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "La Favorita Taqueria",
+   "cuisines": [],
+   "address": "3023 West Capitol Avenue, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Raku Sushi",
+   "cuisines": [],
+   "address": "805 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "I Love Teriyaki",
+   "cuisines": [],
+   "address": "830 Harbor Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "The Eatery",
+   "cuisines": [],
+   "address": "2155, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Dim Sum House",
+   "cuisines": [],
+   "address": "2631 Broadway, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Arthur Henry's",
+   "cuisines": [],
+   "address": "3406 Broadway, 95817, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Meet & Eat",
+   "cuisines": [],
+   "address": "3445 Freeport Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Harry's Cafe",
+   "cuisines": [],
+   "address": "2026 16th Street, 95818, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Whitey's Jolly Kone",
+   "cuisines": [],
+   "address": "1300 Jefferson Boulevard, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Sunny Side Breakfast",
+   "cuisines": [],
+   "address": "1221 19th Street, 95811",
+   "website": ""
+  },
+  {
+   "name": "River City Grill",
+   "cuisines": [],
+   "address": "Del Monte Street, 95691, West Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Pazza Notte",
+   "cuisines": [],
+   "address": "1801 L Street, 95811, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Cafe Bernardo",
+   "cuisines": [],
+   "address": "2730 Capitol Avenue",
+   "website": ""
+  },
+  {
+   "name": "Chów at SacYard",
+   "cuisines": [],
+   "address": "1725 33rd Street, 95816, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "Ricos Pizza",
+   "cuisines": [],
+   "address": "2650 Northgate Boulevard, 95833",
+   "website": ""
+  },
+  {
+   "name": "Shoki Ramen House",
+   "cuisines": [],
+   "address": "2530 21st Street, Sacramento",
+   "website": ""
+  },
+  {
+   "name": "ROC&SOL dinner",
+   "cuisines": [],
+   "address": "1825 10th Street, 95811",
+   "website": ""
+  },
+  {
+   "name": "Mulligan's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Paradise",
+   "cuisines": [],
+   "address": "1200 K Street",
+   "website": ""
+  },
+  {
+   "name": "The Dish and Spoon Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "House Kitchen & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pilot House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chefmak Noodle House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luis Jr's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "V's Paradise Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kampala Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Viet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mother",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Altos Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saigon Corner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Adamo's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "California Street Tacos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Merchant 25",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "California State Railroad Museum",
+   "kind": "museum",
+   "address": "125 I Street, 95814, Sacramento",
+   "website": "https://www.californiarailroad.museum",
+   "phone": "+1 916-323-9280",
+   "latitude": 38.5849731,
+   "longitude": -121.5043615
+  },
+  {
+   "name": "Crocker Art Museum",
+   "kind": "museum",
+   "address": "216 O Street, 95814, sacramento",
+   "website": "http://www.crockerartmuseum.org",
+   "phone": "+1-916-808-7000",
+   "latitude": 38.5771169,
+   "longitude": -121.5061707
+  },
+  {
+   "name": "The California Museum",
+   "kind": "museum",
+   "address": "1020 O Street, 95814, Sacramento",
+   "website": "https://www.californiamuseum.org/",
+   "phone": "+1-916-653-7524",
+   "latitude": 38.5743238,
+   "longitude": -121.4956483
+  },
+  {
+   "name": "California Automobile Museum",
+   "kind": "museum",
+   "address": "2200 Front Street, 95818, Sacramento",
+   "website": "https://www.calautomuseum.org/",
+   "phone": "",
+   "latitude": 38.5703206,
+   "longitude": -121.5117675
+  },
+  {
+   "name": "The California State Military Museum",
+   "kind": "museum",
+   "address": "1119 2nd Street, Sacramento",
+   "website": "https://www.militarymuseum.org/",
+   "phone": "",
+   "latitude": 38.5813991,
+   "longitude": -121.5046498
+  },
+  {
+   "name": "Sacramento Zoo",
+   "kind": "zoo",
+   "address": "3930 West Land Park Drive, 95822, Sacramento",
+   "website": "https://www.saczoo.org/",
+   "phone": "",
+   "latitude": 38.539211,
+   "longitude": -121.5043388
+  },
+  {
+   "name": "Leland Stanford Mansion",
+   "kind": "museum",
+   "address": "",
+   "website": "http://www.parks.ca.gov/?page_id=489",
+   "phone": "",
+   "latitude": 38.5762942,
+   "longitude": -121.4977331
+  },
+  {
+   "name": "Raging Waters Sacramento",
+   "kind": "theme park",
+   "address": "",
+   "website": "https://www.rwsac.com/",
+   "phone": "",
+   "latitude": 38.5910163,
+   "longitude": -121.4352315
+  },
+  {
+   "name": "California State Capitol Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://capitolmuseum.ca.gov/",
+   "phone": "",
+   "latitude": 38.5763316,
+   "longitude": -121.49386
+  },
+  {
+   "name": "Sutter Health Park",
+   "kind": "attraction",
+   "address": "400 Ballpark Drive, 95691, West Sacramento",
+   "website": "",
+   "phone": "",
+   "latitude": 38.580483,
+   "longitude": -121.513516
+  },
+  {
+   "name": "Cal Expo",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.591462,
+   "longitude": -121.4322554
+  },
+  {
+   "name": "State Indian Museum (SHP)",
+   "kind": "museum",
+   "address": "2618 K Street, 95816, Sacramento",
+   "website": "https://www.parks.ca.gov/?page_id=486",
+   "phone": "+1 916-324-0971",
+   "latitude": 38.5730354,
+   "longitude": -121.471727
+  },
+  {
+   "name": "Sacramento History Museum",
+   "kind": "museum",
+   "address": "101 I Street, 95814, Sacramento",
+   "website": "http://www.sachistorymuseum.org/",
+   "phone": "+1-916-8087059",
+   "latitude": 38.5848335,
+   "longitude": -121.5049744
+  },
+  {
+   "name": "Fairytale Town",
+   "kind": "theme park",
+   "address": "3901 Land Park Drive, 95822, Sacramento",
+   "website": "https://www.fairytaletown.org/",
+   "phone": "+1-916-808-5233",
+   "latitude": 38.5396989,
+   "longitude": -121.5010545
+  },
+  {
+   "name": "Old Sacramento Schoolhouse Museum",
+   "kind": "museum",
+   "address": "1200 Front Street, Sacramento",
+   "website": "https://www.scoe.net/oldsacschoolhouse/",
+   "phone": "",
+   "latitude": 38.5811151,
+   "longitude": -121.5066528
+  },
+  {
+   "name": "Medical History Museum",
+   "kind": "museum",
+   "address": "5380 Elvas Avenue, 95819, Sacramento",
+   "website": "https://museumofmedicalhistory.org",
+   "phone": "",
+   "latitude": 38.5741489,
+   "longitude": -121.4345469
+  },
+  {
+   "name": "Sacramento Archives and Museum Collection Center Library",
+   "kind": "museum",
+   "address": "551 Sequoia Pacific Boulevard, 95811, Sacramento",
+   "website": "http://www.centerforsacramentohistory.org/",
+   "phone": "",
+   "latitude": 38.5990726,
+   "longitude": -121.496038
+  },
+  {
+   "name": "SMUD Museum of Science and Curiosity",
+   "kind": "museum",
+   "address": "400 Jibboom Street, 95811, Sacramento",
+   "website": "https://visitmosac.org",
+   "phone": "",
+   "latitude": 38.5931885,
+   "longitude": -121.5054188
+  },
+  {
+   "name": "Funderland",
+   "kind": "theme park",
+   "address": "1350 17th Avenue, 95822",
+   "website": "https://funderlandpark.com/",
+   "phone": "+1-916-456-0131",
+   "latitude": 38.5372433,
+   "longitude": -121.5017582
+  },
+  {
+   "name": "Sacramento Adventure Playground",
+   "kind": "attraction",
+   "address": "3301 37th Avenue, 95824, Sacramento",
+   "website": "https://sacadventureplay.wordpress.com",
+   "phone": "",
+   "latitude": 38.5195786,
+   "longitude": -121.472598
+  },
+  {
+   "name": "Sojourner Truth African Heritage Museum",
+   "kind": "museum",
+   "address": "2251 Florin Road, 95822",
+   "website": "https://www.sojoartsmuseum.org/",
+   "phone": "",
+   "latitude": 38.4970548,
+   "longitude": -121.4844188
+  },
+  {
+   "name": "B Sakata Garo",
+   "kind": "gallery",
+   "address": "923 20th Street, 95811, Sacramento",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5769769,
+   "longitude": -121.4795233
+  },
+  {
+   "name": "Elliott Fouts Gallery",
+   "kind": "gallery",
+   "address": "1831 P Street, 95811, Sacramento",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5707132,
+   "longitude": -121.484284
+  },
+  {
+   "name": "Viewpoint | Photographic Art Center",
+   "kind": "gallery",
+   "address": "2015 J Street, 95811, Sacramento",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5766036,
+   "longitude": -121.4790023
+  },
+  {
+   "name": "Park Fine Art",
+   "kind": "gallery",
+   "address": "2673 21st Street",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5563609,
+   "longitude": -121.4868973
+  },
+  {
+   "name": "Little Saigon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5105013,
+   "longitude": -121.4356028
+  },
+  {
+   "name": "Humpty Dumpty's Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5393831,
+   "longitude": -121.5017292
+  },
+  {
+   "name": "King Aurthur's Castle",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5395457,
+   "longitude": -121.501493
+  },
+  {
+   "name": "Fairytale Town Box Office",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5392128,
+   "longitude": -121.5017074
+  },
+  {
+   "name": "Mary's Little Lambs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5393392,
+   "longitude": -121.5014022
+  },
+  {
+   "name": "Old Woman in the Shoe Slide",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.539205,
+   "longitude": -121.5014667
+  },
+  {
+   "name": "Wishing Well",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5394834,
+   "longitude": -121.5016729
+  },
+  {
+   "name": "Pirate Ship",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5397675,
+   "longitude": -121.5017261
+  },
+  {
+   "name": "The Tipi",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5393637,
+   "longitude": -121.5010154
+  },
+  {
+   "name": "The Crooked Mile",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5395969,
+   "longitude": -121.5009361
+  },
+  {
+   "name": "Red Tractor",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.539575,
+   "longitude": -121.5006357
+  },
+  {
+   "name": "Farmer Brown's Barn",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5397637,
+   "longitude": -121.5005595
+  },
+  {
+   "name": "Owl's Tree House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.539774,
+   "longitude": -121.5007947
+  },
+  {
+   "name": "Mother Goose Stage",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5399931,
+   "longitude": -121.500645
+  },
+  {
+   "name": "The Tortoise and The Hare",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5402173,
+   "longitude": -121.5014429
+  },
+  {
+   "name": "The Alphabet Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5398436,
+   "longitude": -121.5017466
+  },
+  {
+   "name": "McGreggor's Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5400231,
+   "longitude": -121.5015461
+  },
+  {
+   "name": "The Children's Theatre",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5402304,
+   "longitude": -121.5012112
+  },
+  {
+   "name": "Cinderella's Coach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.540276,
+   "longitude": -121.5008189
+  },
+  {
+   "name": "Jack and the Beanstalk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5402776,
+   "longitude": -121.5009349
+  },
+  {
+   "name": "Urashima Taro (Japanese Garden)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5399073,
+   "longitude": -121.5014982
+  },
+  {
+   "name": "The Little Engine That Could",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5403908,
+   "longitude": -121.5010978
+  },
+  {
+   "name": "Peter Rabbit and his Sisters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5403442,
+   "longitude": -121.5013386
+  },
+  {
+   "name": "The Three Billy Goats Gruff",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.540172,
+   "longitude": -121.500586
+  },
+  {
+   "name": "Three Little Pigs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5401507,
+   "longitude": -121.5005089
+  },
+  {
+   "name": "The Cheese Stands Alone",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5401359,
+   "longitude": -121.5007973
+  },
+  {
+   "name": "Jack and Jill Hill",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.540074,
+   "longitude": -121.5009891
+  },
+  {
+   "name": "Mother Goose",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5399943,
+   "longitude": -121.5010025
+  },
+  {
+   "name": "Rabbit Hole Slide",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5400792,
+   "longitude": -121.5011473
+  },
+  {
+   "name": "Giraffe Viewing Deck",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5385333,
+   "longitude": -121.5045839
+  },
+  {
+   "name": "Conservation Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5389826,
+   "longitude": -121.5028658
+  },
+  {
+   "name": "Sacramento Zoo Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5392452,
+   "longitude": -121.5028589
+  },
+  {
+   "name": "Kilimanjaro Climb",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5399156,
+   "longitude": -121.5031779
+  },
+  {
+   "name": "Exotic Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5059124,
+   "longitude": -121.4638743
+  }
+ ]
+}

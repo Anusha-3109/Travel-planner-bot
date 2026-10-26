@@ -1,0 +1,1507 @@
+{
+ "city": "Flagstaff",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.21,
+ "longitude": -111.6532,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Weatherford Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23 North Leroux Street, 86001, Flagstaff",
+   "url": "https://www.weatherfordhotel.com/"
+  },
+  {
+   "name": "Hotel Monte Vista",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 North San Francisco Street, Flagstaff",
+   "url": "https://hotelmontevista.com/"
+  },
+  {
+   "name": "Drury Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Super 8 by Wyndham Conference Center NAU/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "602 West Historic Route 66, 86001, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/super-8/flagstaff-arizona/super-8-conference-center-nau-downtown/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2400 South Beulah Boulevard, 86001, Flagstaff",
+   "url": "https://www.hilton.com/en/hotels/flgwehx-hampton-suites-flagstaff/"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2015 South Beulah Boulevard, 86001, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/laquinta/flagstaff-arizona/la-quinta-flagstaff/overview"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2765 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "url": "https://www.choicehotels.com/arizona/flagstaff/sleep-inn-hotels/az822"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1175 West Historic Route 66, 86001, Flagstaff",
+   "url": "https://www.hilton.com/en/hotels/flgssdt-doubletree-flagstaff/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2650 South Beulah Boulevard, 86001, Flagstaff",
+   "url": "https://www.marriott.com/en-us/hotels/flgcy-courtyard-flagstaff/overview/"
+  },
+  {
+   "name": "voco Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2735 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "url": "https://www.ihg.com/voco/hotels/us/en/flagstaff/flgwv/hoteldetail"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2455 South Beulah Boulevard, 86001, Flagstaff",
+   "url": "https://www.marriott.com/hotels/travel/flgsh-springhill-suites-flagstaff/"
+  },
+  {
+   "name": "Hilton Garden Inn Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 West Forest Meadows Street, 86001, Flagstaff",
+   "url": "https://www.hilton.com/en/hotels/flgfhgi-hilton-garden-inn-flagstaff/"
+  },
+  {
+   "name": "Baymont Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2005 South Milton Road, 86001, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/baymont/flagstaff-arizona/baymont-flagstaff/overview"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2355 South Beulah Boulevard, 86001, Flagstaff",
+   "url": "https://www.choicehotels.com/arizona/sedona/ascend-hotels"
+  },
+  {
+   "name": "GreenTree Inn Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2755 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "url": "https://www.greentreeinn.com/hotels/az/flagstaff"
+  },
+  {
+   "name": "Residence Inn Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 North Humphreys Street, 86001, Flagstaff",
+   "url": "https://www.marriott.com/en-us/hotels/flgrf-residence-inn-flagstaff/overview/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3725 Kaspar Drive, 86004, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/super-8/flagstaff-arizona/super-8-flagstaff/overview"
+  },
+  {
+   "name": "Travelodge by Wyndham Flagstaff Near I-40",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2918 East Route 66, 86004, Flagstaff",
+   "url": "https://dev65.wyndhamhotels.com/en-uk/travelodge/flagstaff-arizona/travelodge-flagstaff-near-i-40/overview"
+  },
+  {
+   "name": "High Country Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 West Historic Route 66, 86001, Flagstaff",
+   "url": "https://highcountrymotorlodge.com/"
+  },
+  {
+   "name": "Best Western Pony Soldier Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3030 East Historic Route 66, 86004-3936, Flagstaff",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-flagstaff/best-western-pony-soldier-inn-suites/propertyCode.03002.html"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2320 Lucky Lane, 86004, Flagstaff",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/flagstaff/flgll/hoteldetail"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3501 East Lockett Road, 86004, Flagstaff",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-flagstaff-az"
+  },
+  {
+   "name": "Rodeway Inn Flagstaff-Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "122 West Route 66, 86001, Flagstaff",
+   "url": "https://www.choicehotels.com/en-xl/arizona/flagstaff/rodeway-inn-hotels/az279"
+  },
+  {
+   "name": "Embassy Suites Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "706 South Milton Road, 86001, Flagstaff",
+   "url": "https://embassysuites3.hilton.com/en/hotels/arizona/embassy-suites-flagstaff-FLGESES/index.html"
+  },
+  {
+   "name": "Bespoke Inn Flagstaff",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "410 North Leroux Street, 86001, Flagstaff",
+   "url": "https://bespokeinnflagstaff.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites Flagstaff East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "990 North Country Club Drive, 86004, Flagstaff",
+   "url": "https://www.hilton.com/en/hotels/gcnfehx-hampton-suites-flagstaff-east/"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2010 East Butler Avenue, 86004, Flagstaff",
+   "url": "https://www.motel6.com/en/home/motels.az.flagstaff.9287.html"
+  },
+  {
+   "name": "America's Best Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1990 East Route 66, 86004-5126, Flagstaff",
+   "url": "https://www.sonesta.com/americas-best-value-inn/az/flagstaff/americas-best-value-inn-suites-flagstaff"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2350 Lucky Lane, 86004, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/ramada/flagstaff-arizona/ramada-flagstaff-east/overview"
+  },
+  {
+   "name": "Days Inn & Suites East Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3601 East Lockett Road, 86004, Flagstaff",
+   "url": "https://www.wyndhamhotels.com/days-inn/flagstaff-arizona/days-inn-and-suites-flagstaff-east/overview"
+  },
+  {
+   "name": "Hotel Elev8 Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2285 East Butler Avenue, 86004, Flagstaff",
+   "url": "https://www.hotelelev8flagstaff.com/"
+  },
+  {
+   "name": "Motel DuBeau",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "19 West Phoenix Avenue, 86001, Flagstaff",
+   "url": "https://www.modubeau.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2500 Lucky Lane, 86004, Flagstaff",
+   "url": "https://www.choicehotels.com/arizona/flagstaff/quality-inn-hotels/az222"
+  },
+  {
+   "name": "Little America Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2515 East Butler Avenue, 86004, Flagstaff",
+   "url": "https://flagstaff.littleamerica.com"
+  },
+  {
+   "name": "Fairfield Inn & Suites Flagstaff East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 North Country Club Drive, 86004, Flagstaff",
+   "url": "https://www.marriott.com/flgff"
+  },
+  {
+   "name": "Howard Johnson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2520 Lucky Lane, 86004, Flagstaff",
+   "url": "http://www.hojo.com/hotels/arizona/flagstaff/howard-johnson-flagstaff-i-40-exit-198-e-lucky-lane"
+  },
+  {
+   "name": "Americana Motor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2650 East Route 66, 86004, Flagstaff",
+   "url": "https://www.americanamotorhotel.com/"
+  },
+  {
+   "name": "Super 8 Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2540 Lucky Lane, 86004, Flagstaff",
+   "url": "http://www.super8.com/hotels/arizona/flagstaff/super-8-flagstaff-i-40-ex-198-lucky-lane"
+  },
+  {
+   "name": "Hotel Aspen Inn Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1008 East Route 66, Flagstaff",
+   "url": "http://www.hotelaspenflagstaffaz.com/"
+  },
+  {
+   "name": "Grand Canyon International Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.grandcanyonhostel.com/GCindex.htm"
+  },
+  {
+   "name": "Club Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://clubwyndham.wyndhamdestinations.com/us/en/resorts/wyndham-hotels-resorts/united-states-of-america/arizona/flagstaff/club-wyndham-flagstaff"
+  },
+  {
+   "name": "Ski Lift Lodge & Cabins",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "www.arizonasnowbowl.com/lodging/"
+  },
+  {
+   "name": "Motel 6 Flagstaff, AZ - West - Woodland Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2745 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Budget Host Inn NAU / Downtown Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 West Historic Route 66, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson by Wyndham Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 West Historic Route 66, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Highland Country Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "223 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1313 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "913 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Canyon Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "The L Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "121 South Milton Road, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Western Hills Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1562 East Route 66, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Whispering Winds",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "922 East Historic Route 66, 86001-3100, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2000 South Milton Road, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 East Route 66, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Red Rose Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1526 East Route 66, 86001, Flagstaff",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson Inn - Flagstaff",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Luke Air Force Base Recretion Area Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Best Western - Kings House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sonesta ES Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Conifer House Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2105 South Milton Road, 86001, Flagstaff",
+   "website": "https://sizzler.com/locations/sizzler-flagstaff/"
+  },
+  {
+   "name": "Beaver Street Brewery",
+   "cuisines": [
+    "International"
+   ],
+   "address": "11 South Beaver Street, 86001, Flagstaff",
+   "website": "http://beaverstreetbrewery.com"
+  },
+  {
+   "name": "Biff's Bagels",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "1 South Beaver Street, 86001, Flagstaff",
+   "website": "https://www.biffsbagels.com/"
+  },
+  {
+   "name": "Satchmo's",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "2320 North Fourth Street, 86004, Flagstaff",
+   "website": "https://www.satchmosaz.com/"
+  },
+  {
+   "name": "Brown Bag Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "824 West Route 66, 86001, Flagstaff",
+   "website": "https://brownbagburger.com/flagstaff-location/"
+  },
+  {
+   "name": "Alpine Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2 West Historic Route 66, 86001, Flagstaff",
+   "website": "https://www.alpinepizzaflg.com/"
+  },
+  {
+   "name": "Urban Pine Eatery",
+   "cuisines": [
+    "American",
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "23 East Aspen Avenue, Flagstaff",
+   "website": "https://urbanpineeatery.com/"
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "2600 Lucky Lane, 86004, Flagstaff",
+   "website": "https://www.outback.com/"
+  },
+  {
+   "name": "China Star Super Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1802 East Route 66, 86004, Flagstaff",
+   "website": "https://www.chinastarflagstaff.com/"
+  },
+  {
+   "name": "Altitudes Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 South Beaver Street, 86001, Flagstaff",
+   "website": "https://www.altitudesbarandgrill.com/"
+  },
+  {
+   "name": "El Tapatio Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2004 W Historic Rte 66, 86004, Flagstaff",
+   "website": "https://www.eltapatiofamilyrestaurants.com/"
+  },
+  {
+   "name": "Route 66 Dog Haus",
+   "cuisines": [
+    "Hot Dog",
+    "Burger",
+    "Fries",
+    "Sandwich"
+   ],
+   "address": "1302 East Route 66, 86001, Flagstaff",
+   "website": "https://route66doghaus.com/"
+  },
+  {
+   "name": "La Casita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1541 South Milton Road, 86001, Flagstaff",
+   "website": "https://www.facebook.com/lacasitamexicanaflag"
+  },
+  {
+   "name": "By The Bucket",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "319 South Regent Street, 86001, Flagstaff",
+   "website": "https://www.bythebucket.com/location/by-the-bucket-flagstaff/"
+  },
+  {
+   "name": "Karma Sushi Bar Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "6 East Historic Route 66, 86001, Flagstaff",
+   "website": "https://karmaflagstaff.com"
+  },
+  {
+   "name": "Red Curry Vegan Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "8 North San Francisco Street",
+   "website": "http://www.redcurryflagstaff.com/"
+  },
+  {
+   "name": "Black Bart's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2760 East Butler Avenue, 86004, Flagstaff",
+   "website": "https://blackbartssteakhouse.com/"
+  },
+  {
+   "name": "Fratelli’s Pizza Downtown",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "119 West Phoenix Avenue, 86001",
+   "website": "https://fratellipizza.net/"
+  },
+  {
+   "name": "Fat Bagels",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "2300 East Route 66, 86004",
+   "website": "http://fatbagelsflagstaff.com"
+  },
+  {
+   "name": "Oregano's Pizza Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "605 Riordan Road, 86001",
+   "website": "http://www.oreganos.com"
+  },
+  {
+   "name": "Asia Station",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "121 S San Francisco St",
+   "website": "https://www.asiafoodstation.com/"
+  },
+  {
+   "name": "Agave Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1580 Route 66 Trail, 86001",
+   "website": "https://www.agaveflagstaff.com/"
+  },
+  {
+   "name": "Proper meats + provisions",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "110 East Route 66, 86001",
+   "website": "https://www.propermeats.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2550 South Beulah Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2500 South Beulah Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Taverna",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2420 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Coco's Bakery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "360 West Forest Meadows Street, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Himalayan Grill",
+   "cuisines": [
+    "Indian",
+    "Nepalese",
+    "Tibetan"
+   ],
+   "address": "801 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "2750 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Galaxy Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "931 West Route 66, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Sakura",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1175 West Historic Route 66, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "China Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1301 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Hiro's Sushi Bar",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1312 South Plaza Way, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Teppan Fuji",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2500 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Hot Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1451 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2122 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Hickory's Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1435 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Pho Vietnamese",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2750 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Delhi Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2500 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Little Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1051 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Mike & Ronda's The Place",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "21 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Salsa Brava",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2220 East Route 66, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Fat Olives",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2308 East Route 66, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Your Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2619 South Woodlands Village Boulevard, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Bun Huggers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "901 South Milton Road, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "La Fonda Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1900 North Second Street, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2201 East Route 66, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Swaddee Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "115 East Aspen Avenue, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Chopstix",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "601 East Piccadilly Drive, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2560 East Lucky Lane",
+   "website": ""
+  },
+  {
+   "name": "The Usual",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1050 South Knoles Drive, 86011, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Pato Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "20 East Historic Route 66, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Lumberjack Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "104 East Route 66, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Dara Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "14 South San Francisco Street, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Flagstaff Coffee Company",
+   "cuisines": [
+    "American",
+    "Sandwich"
+   ],
+   "address": "East Historic Route 66, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Mountain Jacks Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1050 South Knoles Drive, 86011, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "NiMarco’s Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizzicletta",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pita Jungle",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "NiMarco's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wild Blue Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Charro Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Bellavia",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cobrizo Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lemon Grass",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shift Kitchen & Bar",
+   "cuisines": [],
+   "address": "107 North San Francisco Street, 86001, Flagstaff",
+   "website": "https://shiftflg.com/"
+  },
+  {
+   "name": "Collins Irish Pub And Grill",
+   "cuisines": [],
+   "address": "2 North Leroux Street, 86001, Flagstaff",
+   "website": "https://www.collinsirishpub.com/"
+  },
+  {
+   "name": "Cornish Pasty Co.",
+   "cuisines": [],
+   "address": "26 South San Francisco Street, 86001, Flagstaff",
+   "website": "https://www.cornishpastyco.com/"
+  },
+  {
+   "name": "Tiki Grill",
+   "cuisines": [],
+   "address": "1509 South Milton Road, 86001, Flagstaff",
+   "website": "https://tikigrill.live/"
+  },
+  {
+   "name": "Fratelli’s Pizza",
+   "cuisines": [],
+   "address": "2120 North 4th Street, Flagstaff",
+   "website": "https://fratellipizza.net/"
+  },
+  {
+   "name": "1899 Bar & Grill",
+   "cuisines": [],
+   "address": "307 West Dupont Avenue, 86011, Flagstaff",
+   "website": "https://www.1899barandgrill.com/1899DinnerMenu.html"
+  },
+  {
+   "name": "Lumberyard Brewing Co.",
+   "cuisines": [],
+   "address": "86001, Flagstaff",
+   "website": "https://lumberyardbrewingcompany.com/"
+  },
+  {
+   "name": "Little America Grill and Deli",
+   "cuisines": [],
+   "address": "",
+   "website": "https://flagstaff.littleamerica.com/"
+  },
+  {
+   "name": "Hunan West",
+   "cuisines": [],
+   "address": "1302 South Plaza Way, 86001, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Eat n' Run",
+   "cuisines": [],
+   "address": "2400 East Route 66, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Diablo Burger",
+   "cuisines": [],
+   "address": "120 North Leroux Street, 86001",
+   "website": ""
+  },
+  {
+   "name": "Criollo Latin Kitchen",
+   "cuisines": [],
+   "address": "16 North San Francisco Street",
+   "website": ""
+  },
+  {
+   "name": "The Silver Pine",
+   "cuisines": [],
+   "address": "2515 East Butler Avenue, 86004, Flagstaff",
+   "website": ""
+  },
+  {
+   "name": "Northern Pines",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grand Canyon Brewery + Distillery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mason Jar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "MartAnne's Breakfast Palace",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hot Spot at the Union",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "India Palace",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bigfoot BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Matadors Coffee and Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Bowl Noodle",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kachina Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Lowell Observatory",
+   "kind": "attraction",
+   "address": "1400 West Mars Hill Road, 86001, Flagstaff",
+   "website": "https://lowell.edu/",
+   "phone": "",
+   "latitude": 35.202119,
+   "longitude": -111.6652313
+  },
+  {
+   "name": "Museum of Northern Arizona",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2345009,
+   "longitude": -111.6656043
+  },
+  {
+   "name": "Astronomy Discovery Center",
+   "kind": "museum",
+   "address": "1400 West Mars Hill Road, 86001, Flagstaff",
+   "website": "https://lowell.edu/visit/astronomy-discovery-center/",
+   "phone": "",
+   "latitude": 35.2025982,
+   "longitude": -111.66662
+  },
+  {
+   "name": "Slipher Rotunda Museum",
+   "kind": "museum",
+   "address": "1400 West Mars Hill Road, 86001, Flagstaff",
+   "website": "https://lowell.edu/discover/telescopes-exhibits/rotunda-museum/",
+   "phone": "",
+   "latitude": 35.2029575,
+   "longitude": -111.664656
+  },
+  {
+   "name": "North Pole Experience",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://northpoleexperience.com",
+   "phone": "",
+   "latitude": 35.1907839,
+   "longitude": -111.619947
+  },
+  {
+   "name": "7 Wonders Gallery",
+   "kind": "gallery",
+   "address": "801 South Milton Road, 86001, Flagstaff",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1924761,
+   "longitude": -111.6594366
+  },
+  {
+   "name": "Levitate Adventure Park",
+   "kind": "attraction",
+   "address": "4601 East Marketplace Drive, 86004",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2248194,
+   "longitude": -111.578891
+  },
+  {
+   "name": "Fisher Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1517661,
+   "longitude": -111.595666
+  },
+  {
+   "name": "Petroglyph Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2315952,
+   "longitude": -111.552216
+  },
+  {
+   "name": "Riordan Mansion",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1873434,
+   "longitude": -111.6596156
+  },
+  {
+   "name": "Model Railroad Building",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1416411,
+   "longitude": -111.6931885
+  },
+  {
+   "name": "Gems & Minerals Building",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1408298,
+   "longitude": -111.694305
+  },
+  {
+   "name": "Mess Hall",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1403097,
+   "longitude": -111.6932482
+  },
+  {
+   "name": "Military Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1416068,
+   "longitude": -111.6929568
+  },
+  {
+   "name": "City Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1992303,
+   "longitude": -111.6621747
+  },
+  {
+   "name": "Museum of Northern Arizona Research Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2353011,
+   "longitude": -111.6621598
+  },
+  {
+   "name": "Museum of Northern Arizona research facility",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2344101,
+   "longitude": -111.6619979
+  }
+ ]
+}

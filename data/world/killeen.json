@@ -1,0 +1,680 @@
+{
+ "city": "Killeen",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 31.1081,
+ "longitude": -97.7226,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "126 East Central Texas Expressway, 76548, Harker Heights",
+   "url": "https://www.hilton.com/en/hotels/ilehxhx-hampton-harker-heights/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.marriott.com/ileri"
+  },
+  {
+   "name": "La Quinta Inn Killeen - Fort Hood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1112 South Fort Hood Street, 76541, Killeen",
+   "url": "https://www.wyndhamhotels.com/laquinta/killeen-texas/la-quinta-inn-killeen-fort-hood/overview"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "511 Pan American Drive, 76548, Harker Heights",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-harker-heights/best-western-harker-heights/propertyCode.44726.html"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1721 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.marriott.com/ilecy"
+  },
+  {
+   "name": "TownePlace Suites Killeen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2401 Florence Road, 76542, Killeen",
+   "url": "https://www.marriott.com/hotels/travel/ilets-towneplace-suites-killeen/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "540 East Central Texas Expressway, 76548, Harker Heights",
+   "url": "https://www.wyndhamhotels.com/super-8/harker-heights-texas/super-8-harker-heights-killeen-fort-hood/overview"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.marriott.com/ilefi"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1602 East Centex Expressway, 76541, Killeen",
+   "url": "https://www.wyndhamhotels.com/days-inn/killeen-texas/days-inn-killeen-fort-hood-tx/overview"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "810 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.wyndhamhotels.com/travelodge/killeen-texas/travelodge-killeen-fort-hood/overview"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2603 Gateway Boulevard, 76542, Killeen",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/killeen/kilhh/hoteldetail"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2709 Cunningham Road, 76542, Killeen",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-killeen/best-western-plus-killeen-fort-hood-hotel-suites/propertyCode.44751.html"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.motel6.com/en/home/motels.tx.killeen.4061.html"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "610 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.choicehotels.com/texas/killeen/quality-inn-hotels/txh15"
+  },
+  {
+   "name": "Spark by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 East Central Texas Expressway, 76541, Killeen",
+   "url": "https://www.hilton.com/en/hotels/ileknpe-spark-killeen/"
+  },
+  {
+   "name": "Scottish Inns",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2600 Gateway Boulevard, 76542, Killeen",
+   "url": "https://www.stayhihotels.com/property/scottish-inns-killeen-tx-2/"
+  },
+  {
+   "name": "OYO Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "511 East Veterans Memorial Boulevard, 76541, Killeen",
+   "url": ""
+  },
+  {
+   "name": "Studio 7 Harker Heights",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "480 East Veterans Memorial Boulevard, 76548, Harker Heights",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2300 Florence Road, 76542, Killeen",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 East Central Texas Expressway, 76541, Killeen",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Killeen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 East Central Texas Expressway, 76541, Killeen",
+   "url": ""
+  },
+  {
+   "name": "Palace Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Terrace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "High Fye Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Heights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fort Hood Army Fisher House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "KPOT Korean BBQ & Hot Pot",
+   "cuisines": [
+    "Asian",
+    "Korean",
+    "Noodle"
+   ],
+   "address": "1501 E Central Texas Expy, 76541, Killeen",
+   "website": "https://thekpot.com/"
+  },
+  {
+   "name": "Hook & Reel Cajun Seafood & Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1701 East Central Texas Expressway, 76541, Killeen",
+   "website": "https://hookreel.com/"
+  },
+  {
+   "name": "Jimmy's Egg",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Burger",
+    "Chicken",
+    "Coffee Shop",
+    "Juice",
+    "Pancake",
+    "Salad",
+    "Sandwich",
+    "Sausage"
+   ],
+   "address": "1103 West Stan Schlueter Loop, 76549, Killeen",
+   "website": "https://jimmysegg.com"
+  },
+  {
+   "name": "Brick & Forge Tap Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2901 East Central Texas Expressway, 76543, Killeen",
+   "website": "https://www.brickandforgetaproom.com/"
+  },
+  {
+   "name": "Los Cabos Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1215 South Fort Hood Street, 76542",
+   "website": "https://loscabostexas.com/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2303 East Central Texas Expressway, 76543, Killeen",
+   "website": "https://locations.chuckecheese.com/us/tx/killeen/2303-e.-central-texas-expressway"
+  },
+  {
+   "name": "Choice Barbecue Restaurant",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2606 East Veterans Memorial Boulevard, 76543-4329, Killeen",
+   "website": "https://dineoption.com/ChoiceBarbecueRestaurant"
+  },
+  {
+   "name": "Galaxy Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "104 West Veterans Memorial Boulevard, 76541",
+   "website": "https://galaxyburgerkilleentx.com/"
+  },
+  {
+   "name": "Hu-Nan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "913 South Fort Hood Street, Killeen",
+   "website": "https://hunanrestaurantkilleen.com/"
+  },
+  {
+   "name": "Bubba's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3701 East Central Texas Expressway, 76543",
+   "website": "https://www.bubbas33.com/locations/texas/killeen"
+  },
+  {
+   "name": "Tank & Tony's Crab House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1501 East Rancier Avenue, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "GSpot Grill",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "10008 South Fort Hood Street, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Cici's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "832 South Fort Hood Street, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1108 South Fort Hood Street, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2601 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1908 East Central Texas Expressway, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Yank Sing",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1705 E Central Texas Expy, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2811 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "2401 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "2701 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "TGI Friday's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2801 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3709 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1001 East Central Texas Expressway, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "700 West Central Texas Expressway, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1915 East Veterans Memorial Boulevard, 76541-7336, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Halys Latin Food",
+   "cuisines": [
+    "Venezuelan"
+   ],
+   "address": "3302 Turner Avenue, 76543-4666, Killeen",
+   "website": ""
+  },
+  {
+   "name": "MasFajitas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1908 East Central Texas Expressway, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "King Noodle and Bar",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "910 East Central Texas Expressway, 76541, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Wok On Fire Chinese",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tham Rab Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "G&B Pool Hall",
+   "cuisines": [],
+   "address": "10008 South Fort Hood Street, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Rudy's Country Store and Bar-B-Q",
+   "cuisines": [],
+   "address": "5621 East Central Texas Expressway, 76543, Killeen",
+   "website": ""
+  },
+  {
+   "name": "Patriot DFAC",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Theodore Roosevelt DFAC",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DFAC",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "7 Gold Teeth Grillists",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Urban Air Trampoline and Adventure Park",
+   "kind": "theme park",
+   "address": "2102 Jennifer Drive, 76542, Killeen",
+   "website": "https://www.urbanairtrampolinepark.com/locations/texas/killeen",
+   "phone": "+1-254-334-1435",
+   "latitude": 31.1041594,
+   "longitude": -97.7463302
+  },
+  {
+   "name": "National Mounted Warrior Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.124861,
+   "longitude": -97.7677094
+  },
+  {
+   "name": "First Calvary Division Museum (Closed)",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.1395855,
+   "longitude": -97.7724011
+  },
+  {
+   "name": "Showcase Room",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.1244404,
+   "longitude": -97.7649436
+  },
+  {
+   "name": "3rd Calvary Museum (Closed)",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.1373086,
+   "longitude": -97.7496563
+  },
+  {
+   "name": "Apache Arts and Crafts Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.1402558,
+   "longitude": -97.7771836
+  },
+  {
+   "name": "1st cav War on Terror",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 31.1399235,
+   "longitude": -97.7724185
+  }
+ ]
+}

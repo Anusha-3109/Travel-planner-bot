@@ -82,7 +82,7 @@ def validate_date(value: object) -> str:
     try:
         return date.fromisoformat(str(value).strip()).isoformat()
     except ValueError:
-        raise InputValidationError(f"'{value}' isn't a valid date. Use the YYYY-MM-DD format, e.g. 2022-03-13.") from None
+        raise InputValidationError(f"'{value}' isn't a valid date. Use the YYYY-MM-DD format, e.g. 2026-11-10.") from None
 
 
 def _number(value: object, label: str) -> float:

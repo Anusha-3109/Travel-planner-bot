@@ -1,0 +1,113 @@
+{
+ "city": "Hibbing",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 47.4248,
+ "longitude": -92.9367,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Hibbing",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4225 9th Avenue West, 55746, Hibbing",
+   "url": "https://www.hilton.com/en/hotels/hibhxhx-hampton-hibbing/"
+  },
+  {
+   "name": "Hibbing Park Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55746, Hibbing",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sportsmans Cafe",
+   "cuisines": [
+    "Burger",
+    "Coffee Shop",
+    "Breakfast"
+   ],
+   "address": "509 East Howard Street, 55746, Hibbing",
+   "website": ""
+  },
+  {
+   "name": "BoomTown Brewery and Woodfire Grill",
+   "cuisines": [
+    "Burger",
+    "Beer"
+   ],
+   "address": "531 East Howard Street, 55746, Hibbing",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "55746, Hibbing",
+   "website": ""
+  },
+  {
+   "name": "Country Kitchen",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "55746, Hibbing",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Greyhound Bus Museum",
+   "kind": "museum",
+   "address": "1201 Greyhound Boulevard, 55746",
+   "website": "https://www.greyhoundbusmuseum.org/",
+   "phone": "",
+   "latitude": 47.4383984,
+   "longitude": -92.9395933
+  },
+  {
+   "name": "Minnesota Museum of Mining",
+   "kind": "museum",
+   "address": "701 West Lake Street, 55719, Chisholm",
+   "website": "https://www.mnmuseumofmining.org/",
+   "phone": "",
+   "latitude": 47.4883312,
+   "longitude": -92.8919375
+  },
+  {
+   "name": "Hibbing Mine View",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://hibbingmineview.org/hull-rust-mine-view/",
+   "phone": "",
+   "latitude": 47.4438132,
+   "longitude": -92.9252307
+  },
+  {
+   "name": "Hibbing Historical Society and Museum",
+   "kind": "museum",
+   "address": "400 East 23rd Street, 55746, Hibbing",
+   "website": "",
+   "phone": "+1 218-263-8522",
+   "latitude": 47.4266667,
+   "longitude": -92.9363889
+  }
+ ]
+}

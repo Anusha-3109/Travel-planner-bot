@@ -126,17 +126,25 @@ def test_errors_bad_output_and_repeats_are_skipped():
     assert "Flights" not in _text(at)
 
 
-def test_snapshot_results_get_cards_too():
+def test_snapshot_stays_and_estimates_get_cards_too():
     snapshot_stays = {"city": "Myrtle Beach", "stays_source": "snapshot", "accommodations": [
         {"name": "Beach house", "room_type": "Entire home/apt", "price_per_night": 150, "maximum_occupancy": 4,
-         "minimum_nights": 1, "rating": 4.5, "total_cost": 300}]}
-    snapshot_flights = {"route": "Washington → Myrtle Beach", "date": "2022-03-13",
-                        "flights_source": "snapshot (TravelPlanner, March 2022)",
-                        "flights": [{"flight_number": "F3927581", "price_per_person": 89, "departure": "11:03",
-                                     "arrival": "13:31", "duration": "2 hours 28 minutes", "distance_miles": 458}]}
-    text = _text(_cards([_call("search_accommodations", snapshot_stays), _call("search_flights", snapshot_flights)]))
+         "minimum_nights": 1, "rating": 4.5, "total_cost": 300},
+        {"name": "Waikiki Village", "room_type": "Private room",
+         "price_per_night": "not in the snapshot (search live)", "maximum_occupancy": "not published",
+         "minimum_nights": 1, "rating": "not available"}]}
+    estimated = {"route": "Washington → Myrtle Beach", "date": "2026-11-13", "flights_source": "estimate",
+                 "flight_count": 0,
+                 "estimated_flight": {"distance_km": 602, "estimated_nonstop_duration": "1h 25m", "price": None},
+                 "ground_options": [{"mode": "self-driving", "duration": "9h 25m", "distance_km": 751.9,
+                                     "cost_per_vehicle": 338.73, "source": "estimate"},
+                                    {"mode": "taxi", "duration": "9h 25m", "distance_km": 751.9,
+                                     "cost_per_vehicle": None, "source": "estimate"}]}
+    text = _text(_cards([_call("search_accommodations", snapshot_stays), _call("search_flights", estimated)]))
     assert "**Beach house**" in text and r"**\$300 total**" in text
-    assert "**Flight F3927581**" in text and r"\$89 per person" in text
+    assert "No price in the snapshot" in text and "up to 4 guests" in text
+    assert "**Estimated nonstop flight**" in text and "About 1h 25m" in text and "Estimate" in text
+    assert r"\$338.73 per vehicle" in text and "No fare data" in text
 
 
 def test_cards_rule_is_only_in_the_app_prompt():

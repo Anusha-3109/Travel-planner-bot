@@ -1,0 +1,1248 @@
+{
+ "city": "Hyannis",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.6506,
+ "longitude": -70.2796,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "259 Main Street, 02601, Hyannis",
+   "url": "https://www.choicehotels.com/en-uk/massachusetts/hyannis/comfort-inn-hotels/ma217"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "69 Route 28, 02673-8105, West Yarmouth",
+   "url": "https://www.wyndhamhotels.com/days-inn/west-yarmouth-massachusetts/days-inn-west-yarmouth-hyannis-cape-cod-area/overview"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Cape Cod - Hyannis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "287 Iyannough Road, 02601, Hyannis",
+   "url": "https://www.hilton.com/en/hotels/hyaccdt-doubletree-cape-cod-hyannis"
+  },
+  {
+   "name": "Courtyard Cape Cod Hyannis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "707 Iyannough Road, 02601, Hyannis",
+   "url": "https://www.marriott.com/hyacy"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "99 Main Street, 02670, West Dennis",
+   "url": "https://www.wyndhamhotels.com/travelodge/west-dennis-massachusetts/travelodge-cape-cod-area/overview"
+  },
+  {
+   "name": "The Cove at Yarmouth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "183 Main Street, 02763, West Yarmouth",
+   "url": "https://www.westgateresorts.com/hotels/massachusetts/cape-cod/the-cove-at-yarmouth/"
+  },
+  {
+   "name": "Hampton Inn and Suites Cape Cod - West Yarmouth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "99 Route 28, 02673, West Yarmouth",
+   "url": "https://www.hilton.com/en/hotels/hyncchx-hampton-suites-cape-cod-west-yarmouth/"
+  },
+  {
+   "name": "Hyannis Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "18 North Street, 02601, Hyannis",
+   "url": "https://www.hyannistravelinn.com/"
+  },
+  {
+   "name": "Super 8 W Yarmouth Hyannis/Cape Cod",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "41 Route 28, 02673, West Yarmouth",
+   "url": "https://www.wyndhamhotels.com/super-8/west-yarmouth-massachusetts/super-8-w-yarmouth-hyannis-cape-cod/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "867 Iyannough Road, 02601, Hyannis",
+   "url": "https://www.marriott.com/hyafi"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "59 Route 28, 02673, West Yarmouth",
+   "url": "https://www.choicehotels.com/massachusetts/west-yarmouth/econo-lodge-hotels"
+  },
+  {
+   "name": "Blue Water Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "291 South Shore Drive, 02664, South Yarmouth",
+   "url": "https://www.redjacketresorts.com/"
+  },
+  {
+   "name": "Cape Sands Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "149 Main Street, 02763, West Yarmouth",
+   "url": "https://www.capesandsinn.com"
+  },
+  {
+   "name": "Holiday Vacation Condominium Time Share",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "488 Route 28, 02673, West Yarmouth",
+   "url": "https://www.holidayvac.com/"
+  },
+  {
+   "name": "Village Green Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "37 Sea Side Village Road, 02664, South Yarmouth",
+   "url": "https://villagegreencapecod.com/"
+  },
+  {
+   "name": "The Yachtsman Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Ocean Street, 02601, Hyannis",
+   "url": "http://www.yachtsmancondo.com"
+  },
+  {
+   "name": "Seaside Cottages",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "135 South Shore Drive, 02664, South Yarmouth",
+   "url": "https://www.seasidecapecod.com"
+  },
+  {
+   "name": "Cape Point Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "476 Main Street, West Yarmouth",
+   "url": "http://www.capepointhotel.com"
+  },
+  {
+   "name": "Hyannis Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "473 Main Street",
+   "url": "https://www.hyannisinn.com/"
+  },
+  {
+   "name": "The Blushing Oyster B & B",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.theblushingoyster.com/"
+  },
+  {
+   "name": "HI-Hyannis",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 Ocean Street, 02601, Hyannis",
+   "url": ""
+  },
+  {
+   "name": "Cape Cod Harbor House Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "119 Ocean Street, 02601, Hyannis",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "614 Iyannough Road, 02601, hyannis",
+   "url": ""
+  },
+  {
+   "name": "Parkers River Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "759 Main Street, 02664, South Yarmouth",
+   "url": ""
+  },
+  {
+   "name": "Hyannis Harbor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "213 Ocean Street, 02601, Hyannis",
+   "url": ""
+  },
+  {
+   "name": "Ocean View Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "966 Craigville Beach Road, 02632, Barnstable",
+   "url": ""
+  },
+  {
+   "name": "GuestLodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "221 Main Street, 02670, West Dennis",
+   "url": ""
+  },
+  {
+   "name": "Red Jacket Beach Resort & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "16 South Shore Drive, 02664, South Yarmouth",
+   "url": ""
+  },
+  {
+   "name": "Freebird Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "553 Main Street, 02673, West Yarmouth",
+   "url": ""
+  },
+  {
+   "name": "Craigville Beach Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1338 Craigville Beach Road, 02632, Barnstable",
+   "url": ""
+  },
+  {
+   "name": "Captain David Kelly House Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "536 Main Street Centerville, 02632, Barnstable",
+   "url": ""
+  },
+  {
+   "name": "Ocean Street Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "131 Ocean Street, 02601, Hyannis",
+   "url": ""
+  },
+  {
+   "name": "Cape Cod Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "447 Main Street, 02601, Hyannis",
+   "url": ""
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1470 Iyannough Road",
+   "url": ""
+  },
+  {
+   "name": "Travelodge West Yarmouth Cape Cod",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "216 Route 28",
+   "url": ""
+  },
+  {
+   "name": "Bayside Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 Route 28, 02673, West Yarmouth",
+   "url": ""
+  },
+  {
+   "name": "Tidewater Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "182 Baxter Avenue, 02763, West Yarmouth",
+   "url": ""
+  },
+  {
+   "name": "The Holly Tree Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "412 Main Street, 02673",
+   "url": ""
+  },
+  {
+   "name": "Ashley Manor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3660 Main Street",
+   "url": ""
+  },
+  {
+   "name": "Dunes Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "170 Seaview Avenue",
+   "url": ""
+  },
+  {
+   "name": "Lamb and Lion Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2504 Main Street",
+   "url": ""
+  },
+  {
+   "name": "Town 'n Country Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "452 Route 28",
+   "url": ""
+  },
+  {
+   "name": "Anchor In Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 South Street",
+   "url": ""
+  },
+  {
+   "name": "Captain Farris House Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "SeaCoast Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "33 Ocean Street",
+   "url": ""
+  },
+  {
+   "name": "Beechwood Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2839 Main Street",
+   "url": ""
+  },
+  {
+   "name": "Longdell Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "91 Park Avenue",
+   "url": ""
+  },
+  {
+   "name": "All Seasons Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1199 Route 28",
+   "url": ""
+  },
+  {
+   "name": "Mariner Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "573 Main Street",
+   "url": ""
+  },
+  {
+   "name": "Cape Cod Family Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "512 Main Street",
+   "url": ""
+  },
+  {
+   "name": "The Inn At Cape Cod",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4 Summer Street",
+   "url": ""
+  },
+  {
+   "name": "Crook Jaw Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "186 Route 6a",
+   "url": ""
+  },
+  {
+   "name": "Yarmouth Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "343 Route 28",
+   "url": ""
+  },
+  {
+   "name": "Castle Dawn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "226 Route 28",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites / Hyannis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Windrift Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Village Garden Apartments for Rent",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Surfcomber",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "107",
+   "url": ""
+  },
+  {
+   "name": "Craigville Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Anejo Mexican Bistro",
+   "cuisines": [
+    "Mexican",
+    "Latin American"
+   ],
+   "address": "599 Main Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Tap City Grille",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "586 Main Street, 02601, Hyannis",
+   "website": "https://www.tapcitygrille.com/food-menu"
+  },
+  {
+   "name": "Spanky's Clam Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "138 Ocean Street, 02601, Hyannis",
+   "website": "https://www.spankysclamshack.com/menu/"
+  },
+  {
+   "name": "Trader Ed's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "21 Arlington Street, 02673, West Yarmouth",
+   "website": "https://traderedsrestaurant.com"
+  },
+  {
+   "name": "Ninety Nine Restaurant & Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "14 Berry Avenue, 02673, West Yarmouth",
+   "website": "https://www.99restaurants.com/locations/west%20yarmouth/ma/109"
+  },
+  {
+   "name": "Craigville Pizza and Mexican",
+   "cuisines": [
+    "Pizza",
+    "Mexican"
+   ],
+   "address": "618 Craigville Beach Road, 02632, Centerville",
+   "website": "https://www.craigvillepizza.com/"
+  },
+  {
+   "name": "Misaki Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "379 West Main Street, 02601, Hyannis",
+   "website": "https://www.misakisushi.com/"
+  },
+  {
+   "name": "El Mariachi Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "416 Main Street, 02673, West Yarmouth",
+   "website": "https://m.facebook.com/El-Mariachi-Mexican-Restaurant-West-Yarmouth-418823561826109"
+  },
+  {
+   "name": "Sam Diego's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "950 Iyannough Road, 02601, Hyannis",
+   "website": "https://hyannis.samdiegos.com/"
+  },
+  {
+   "name": "Skippy's Pier 1",
+   "cuisines": [
+    "American"
+   ],
+   "address": "17 Neptune Lane, 02664, South Yarmouth",
+   "website": "https://www.skippyspier1.com"
+  },
+  {
+   "name": "The One Roast Beef & Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "459 Main Street, 02673, West Yarmouth",
+   "website": "https://theoneroastbeefyarmouth.com"
+  },
+  {
+   "name": "KKatie's Burger Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "334 Main Street",
+   "website": "https://www.kkaties.com/kkaties-burger-bar-hyannis"
+  },
+  {
+   "name": "Ann & Fran's Kitchen",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "471 Main Street, 02673, West Yarmouth",
+   "website": "http://www.annandfrans.com"
+  },
+  {
+   "name": "Keltic Kitchen",
+   "cuisines": [
+    "Breakfast",
+    "Irish"
+   ],
+   "address": "415 MA 28",
+   "website": "https://keltickitchen.com/"
+  },
+  {
+   "name": "Alberto’s Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "360 Main Street, 02601",
+   "website": "https://www.albertos.net/"
+  },
+  {
+   "name": "Wimpy's Roadhouse",
+   "cuisines": [
+    "American",
+    "Seafood"
+   ],
+   "address": "488 South Street",
+   "website": "https://roadhousehyannis.com/"
+  },
+  {
+   "name": "Fresh Ketch",
+   "cuisines": [
+    "American",
+    "Seafood"
+   ],
+   "address": "462 Main Street",
+   "website": "https://www.freshketch.com/"
+  },
+  {
+   "name": "Torino Restaurant and Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "http://www.torinocapecod.com"
+  },
+  {
+   "name": "The Original Gourmet Brunch",
+   "cuisines": [
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "",
+   "website": "https://www.gourmetbrunch.com/"
+  },
+  {
+   "name": "Mi Pueblo Magico Patzcuaro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://m.facebook.com/mipueblomagicopatzcuaro"
+  },
+  {
+   "name": "The Black Cat Tavern",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "165 Ocean Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Ocean Street Cafe and Bakery",
+   "cuisines": [
+    "Regional",
+    "Lebanese"
+   ],
+   "address": "10 Ocean Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Kian & Rylee's",
+   "cuisines": [
+    "Comfort Food"
+   ],
+   "address": "561 Main Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Tumi Ceviche Bar & Ristorante",
+   "cuisines": [
+    "Peruvian",
+    "Italian"
+   ],
+   "address": "592 Main Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "DJ's Wings",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Wings"
+   ],
+   "address": "165 Yarmouth Road, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Black Cat Harbor Shack",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "159 Ocean Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Daily Paper",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "644 West Main Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Bamboo",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "574 Iyannough Road, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "New England Pizza Haus",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "187 West Main Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1095 Iyannough Road",
+   "website": ""
+  },
+  {
+   "name": "Lobster Boat",
+   "cuisines": [
+    "American"
+   ],
+   "address": "681 Main Street, 02664, South Yarmouth",
+   "website": ""
+  },
+  {
+   "name": "Heavenly Seafood",
+   "cuisines": [
+    "American"
+   ],
+   "address": "194 Main Street, 02763, west Yarmouth",
+   "website": ""
+  },
+  {
+   "name": "DiParma Italian Table",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "175 Main Street, 02763, West Yarmouth",
+   "website": ""
+  },
+  {
+   "name": "Mom & Pops Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "195 Main Street, 02763",
+   "website": ""
+  },
+  {
+   "name": "B2 Burrito Bistro",
+   "cuisines": [
+    "Burrito"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Egg & I",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Basil",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saga Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Barbone",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Giardino's Family Restaurant",
+   "cuisines": [],
+   "address": "242 Main Street, 02673, West Yarmouth",
+   "website": "https://giardinosfamilyrestaurant.com/"
+  },
+  {
+   "name": "Baxter's Boathouse",
+   "cuisines": [],
+   "address": "177 Pleasant Street",
+   "website": "http://www.baxterscapecod.com/"
+  },
+  {
+   "name": "Ryan's Ten Pin Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": "https://ryanfamily.com/locations/ten-pin-eatery/"
+  },
+  {
+   "name": "Duck Inn Pub",
+   "cuisines": [],
+   "address": "",
+   "website": "https://m.facebook.com/DuckInnPub"
+  },
+  {
+   "name": "Bluewater Grille",
+   "cuisines": [],
+   "address": "213 Ocean Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Ocean 235 Restaurant",
+   "cuisines": [],
+   "address": "235 Ocean Street, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "the knack",
+   "cuisines": [],
+   "address": "1120 Iyannough Road, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "The West End",
+   "cuisines": [],
+   "address": "20 Scudder Avenue, 02601, Hyannis",
+   "website": ""
+  },
+  {
+   "name": "Portside Tavern",
+   "cuisines": [],
+   "address": "72 North Street",
+   "website": ""
+  },
+  {
+   "name": "Tugboats",
+   "cuisines": [],
+   "address": "11 Arlington Street",
+   "website": ""
+  },
+  {
+   "name": "Not Your Average Joes",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "US Coast Guard Heritage Museum",
+   "kind": "museum",
+   "address": "3353 Main Street, 02630, Barnstable",
+   "website": "https://coastguardheritagemuseum.org/",
+   "phone": "",
+   "latitude": 41.700253,
+   "longitude": -70.298881
+  },
+  {
+   "name": "Edward Gorey House",
+   "kind": "museum",
+   "address": "8 Strawberry Lane, 02675, Yarmouth Port",
+   "website": "https://www.edwardgoreyhouse.org/",
+   "phone": "+1 508 362 3909",
+   "latitude": 41.7054031,
+   "longitude": -70.2425181
+  },
+  {
+   "name": "Captain Bangs Hallet House",
+   "kind": "museum",
+   "address": "11 Strawberry Lane",
+   "website": "https://www.hsoy.org/captain-bangs-hallet-house-museum",
+   "phone": "",
+   "latitude": 41.704865,
+   "longitude": -70.2432196
+  },
+  {
+   "name": "Guyer Barn",
+   "kind": "museum",
+   "address": "250 South Street, 02601, Hyannis",
+   "website": "https://www.hyartsdistrict.com/visual-arts/hhac-at-guyer-barn",
+   "phone": "",
+   "latitude": 41.6512147,
+   "longitude": -70.2840119
+  },
+  {
+   "name": "Zion Union Heritage Museum",
+   "kind": "museum",
+   "address": "276 North Street, 02601, Hyannis",
+   "website": "http://www.zionunionheritagemuseum.org/",
+   "phone": "+1-508-790-9466",
+   "latitude": 41.6511364,
+   "longitude": -70.2928069
+  },
+  {
+   "name": "John F. Kennedy Hyannis Museum",
+   "kind": "museum",
+   "address": "397 Main Street",
+   "website": "https://jfkhyannismuseum.org/",
+   "phone": "",
+   "latitude": 41.6522973,
+   "longitude": -70.2841466
+  },
+  {
+   "name": "Pirates Cove",
+   "kind": "attraction",
+   "address": "728 Main Street, 02664, South Yarmouth",
+   "website": "https://www.piratescove.net/south-yarmouth",
+   "phone": "",
+   "latitude": 41.6503923,
+   "longitude": -70.2208096
+  },
+  {
+   "name": "Cape Cod Maritime Museum",
+   "kind": "museum",
+   "address": "135 South Street",
+   "website": "https://capecodmaritimemuseum.org/",
+   "phone": "",
+   "latitude": 41.6515512,
+   "longitude": -70.2794957
+  },
+  {
+   "name": "Whydah Pirate Museum",
+   "kind": "museum",
+   "address": "674 Main Street, West Yarmouth",
+   "website": "https://www.discoverpirates.com",
+   "phone": "",
+   "latitude": 41.6501144,
+   "longitude": -70.2249614
+  },
+  {
+   "name": "Skull Island",
+   "kind": "theme park",
+   "address": "934 Main Street, 02664, South Yarmouth",
+   "website": "http://www.skullislandcapecod.com",
+   "phone": "",
+   "latitude": 41.6561667,
+   "longitude": -70.2101018
+  },
+  {
+   "name": "Centerville Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.facebook.com/CentervilleHistoricalMuseum/",
+   "phone": "",
+   "latitude": 41.647145,
+   "longitude": -70.34626
+  },
+  {
+   "name": "HyArts Artist Shanties: Bismore Park",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://artsbarnstable.com/hyarts-shanties/",
+   "phone": "",
+   "latitude": 41.6491815,
+   "longitude": -70.2797523
+  },
+  {
+   "name": "HyArts Artist Shanties: Harbor Overlook",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://artsbarnstable.com/hyarts-shanties/",
+   "phone": "",
+   "latitude": 41.651703,
+   "longitude": -70.2816236
+  },
+  {
+   "name": "Jump On Us!",
+   "kind": "attraction",
+   "address": "260 Main Street, West Yarmouth",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6543641,
+   "longitude": -70.2534534
+  },
+  {
+   "name": "Wackenhammer's Clockwork Arcade and Carousel",
+   "kind": "attraction",
+   "address": "541 Main Street, Hyannis",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6501693,
+   "longitude": -70.2885716
+  },
+  {
+   "name": "Barnstable Historical Soceity - Phinney Jones House",
+   "kind": "museum",
+   "address": "3087 Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.7029265,
+   "longitude": -70.3077922
+  },
+  {
+   "name": "Harden Studios",
+   "kind": "gallery",
+   "address": "3252 Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.7011765,
+   "longitude": -70.302335
+  },
+  {
+   "name": "Tao Water Art Gallery",
+   "kind": "gallery",
+   "address": "1989 Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6965528,
+   "longitude": -70.3421026
+  },
+  {
+   "name": "Winslow Crocker House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.7053384,
+   "longitude": -70.2445005
+  },
+  {
+   "name": "Putter's Paradise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.6570912,
+   "longitude": -70.2626085
+  }
+ ]
+}

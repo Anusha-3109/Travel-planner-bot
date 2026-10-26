@@ -1,0 +1,689 @@
+{
+ "city": "Ponce",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 18.0121,
+ "longitude": -66.6139,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Meliá Century Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://meliacenturyhotel.com/"
+  },
+  {
+   "name": "Ponce Plaza Hotel & Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.ponceplazahotelandcasino.com/"
+  },
+  {
+   "name": "Holiday Inn Ponce and El Tropical Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3315 Camino al Hotel Holiday Inn, 00728, Ponce",
+   "url": ""
+  },
+  {
+   "name": "Hilton Ponce Golf & Casino Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Boulevard Ponce Hilton, 00716, Ponce",
+   "url": ""
+  },
+  {
+   "name": "Hotel Bélgica",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "122 Calle Villa",
+   "url": ""
+  },
+  {
+   "name": "Hotel Nuevo México",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "PR-501, 00728, Ponce",
+   "url": ""
+  },
+  {
+   "name": "Aloft Ponce",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cuerdas Taberna & Tapas",
+   "cuisines": [
+    "Spanish",
+    "Caribbean"
+   ],
+   "address": "54-62 Calle Mayor Cantera, 00930",
+   "website": "http://facebook.com/cuerdasponce"
+  },
+  {
+   "name": "La Parrilla Argentina",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "Avenida Rafael Cordero Santiago, 00734, Ponce",
+   "website": "www.laparrillaargentina.com"
+  },
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://sizzler.com/locations/sizzler-ponce/"
+  },
+  {
+   "name": "Café Café",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "http://www.cafecafeponce.com/"
+  },
+  {
+   "name": "El Ancla",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "http://www.restauranteelancla.com/"
+  },
+  {
+   "name": "Romano's Macaroni Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Avenida Rafael Cordero Santiago, 00734, Ponce",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gyro Express",
+   "cuisines": [
+    "Gyro",
+    "Pizza",
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Okui Sushi Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Palacio Imperial",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Puebla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Izumi Sushi",
+   "cuisines": [],
+   "address": "Ponce Bypass, 00716, Ponce",
+   "website": ""
+  },
+  {
+   "name": "El Barril de la Mulata",
+   "cuisines": [],
+   "address": "151 Calle Villa",
+   "website": ""
+  },
+  {
+   "name": "De Jesus",
+   "cuisines": [],
+   "address": "219 Avenida Eugenio María de Hostos",
+   "website": ""
+  },
+  {
+   "name": "Ponderosa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New York Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Bohio",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rancho Playero",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chef’s Creations",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Campioni Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Paraíso Criollo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carotenos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Museo de Arte de Ponce",
+   "kind": "museum",
+   "address": "",
+   "website": "https://museoarteponce.org/",
+   "phone": "",
+   "latitude": 18.0039949,
+   "longitude": -66.6169509
+  },
+  {
+   "name": "Cardona's Island Lighthouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9567991,
+   "longitude": -66.6350893
+  },
+  {
+   "name": "Parque de Bombas",
+   "kind": "museum",
+   "address": "Calle Dr. José Celso Barbosa (Calle Marina), 00730, Ponce",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0119083,
+   "longitude": -66.613742
+  },
+  {
+   "name": "Acueducto Alfonso XII",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0213834,
+   "longitude": -66.6140968
+  },
+  {
+   "name": "Museo de la Historia de Ponce",
+   "kind": "museum",
+   "address": "Calle Isabel",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0125528,
+   "longitude": -66.6117064
+  },
+  {
+   "name": "Museo Francisco Pancho Coimbre",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0155209,
+   "longitude": -66.6087839
+  },
+  {
+   "name": "Centro Ceremonial Indígena de Tibes",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0416891,
+   "longitude": -66.6218961
+  },
+  {
+   "name": "Museo de la masacre de Ponce",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0092994,
+   "longitude": -66.6135534
+  },
+  {
+   "name": "Cruceta El Vigía",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0190205,
+   "longitude": -66.6202581
+  },
+  {
+   "name": "Letras de Ponce",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0252918,
+   "longitude": -66.5704344
+  },
+  {
+   "name": "Kidz City",
+   "kind": "theme park",
+   "address": "PR-511, 00780, Ponce",
+   "website": "https://www.kidzcitypr.com/",
+   "phone": "+1 787-651-7668",
+   "latitude": 18.0631206,
+   "longitude": -66.5568429
+  },
+  {
+   "name": "Antiguo Puente Juan Ponce de León (Nº 24)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9993041,
+   "longitude": -66.5302722
+  },
+  {
+   "name": "Casa de la Masacre de Ponce",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0093027,
+   "longitude": -66.6135337
+  },
+  {
+   "name": "Esquina Tommy Muñiz",
+   "kind": "attraction",
+   "address": "Calle Capitán Correa, 00717, Ponce",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0100942,
+   "longitude": -66.6191677
+  },
+  {
+   "name": "Guancha",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9635281,
+   "longitude": -66.6181995
+  },
+  {
+   "name": "Museo de Tibes",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0413078,
+   "longitude": -66.6207249
+  },
+  {
+   "name": "Port Gate",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9680276,
+   "longitude": -66.6174038
+  },
+  {
+   "name": "Ponce Yatch & Fishing Club",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9639451,
+   "longitude": -66.6176843
+  },
+  {
+   "name": "PYFC",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9638291,
+   "longitude": -66.6180211
+  },
+  {
+   "name": "suevey2",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9863806,
+   "longitude": -66.6205551
+  },
+  {
+   "name": "Survey 3",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9864876,
+   "longitude": -66.6208006
+  },
+  {
+   "name": "Survey 4",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9863485,
+   "longitude": -66.6211734
+  },
+  {
+   "name": "Survey 5",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9865207,
+   "longitude": -66.6211981
+  },
+  {
+   "name": "Survey 6",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9863497,
+   "longitude": -66.6212444
+  },
+  {
+   "name": "Survey 8",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0026985,
+   "longitude": -66.6457164
+  },
+  {
+   "name": "Survey 10",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0000469,
+   "longitude": -66.651268
+  },
+  {
+   "name": "Survey 14",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9876233,
+   "longitude": -66.6576249
+  },
+  {
+   "name": "Survey 15",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 17.9939189,
+   "longitude": -66.668975
+  },
+  {
+   "name": "Survey 2",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0079483,
+   "longitude": -66.5849919
+  },
+  {
+   "name": "survey 7",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0184445,
+   "longitude": -66.5937664
+  },
+  {
+   "name": "Survey 9",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0065845,
+   "longitude": -66.6030782
+  },
+  {
+   "name": "Survey 13",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0117302,
+   "longitude": -66.6080438
+  },
+  {
+   "name": "Survey 17",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0169021,
+   "longitude": -66.6095226
+  },
+  {
+   "name": "Survey 18",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0181594,
+   "longitude": -66.6081882
+  },
+  {
+   "name": "Survey 19",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0196922,
+   "longitude": -66.6099746
+  },
+  {
+   "name": "Survey 20",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0193983,
+   "longitude": -66.6104821
+  },
+  {
+   "name": "Survey 22",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0197601,
+   "longitude": -66.6125071
+  },
+  {
+   "name": "Survey 24",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0195271,
+   "longitude": -66.6129003
+  },
+  {
+   "name": "Survey 25",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0196672,
+   "longitude": -66.6129201
+  },
+  {
+   "name": "Survey 27",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0166083,
+   "longitude": -66.6166143
+  },
+  {
+   "name": "Survey 32",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0176002,
+   "longitude": -66.6283739
+  },
+  {
+   "name": "Survey 33",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0176835,
+   "longitude": -66.6283885
+  },
+  {
+   "name": "Esquina del Propagandista Medico",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.0085444,
+   "longitude": -66.6143526
+  }
+ ]
+}

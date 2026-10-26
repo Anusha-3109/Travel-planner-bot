@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import config  # noqa: E402
 
-TEST_CITIES = ["Myrtle Beach", "Rockford"]
+TEST_CITIES = ["Myrtle Beach", "Asheville"]
 
 
 @pytest.fixture(autouse=True)
@@ -24,7 +24,7 @@ def no_live_calls(tmp_path, monkeypatch):
 
 @pytest.fixture(scope="session")
 def small_index(tmp_path_factory):
-    """A throwaway Chroma index with two cities, so tests don't need the full ~13,700-place index."""
+    """A throwaway Chroma index with two cities, so tests don't need the full index."""
     from rag import vectorstore
     from rag.ingest import build_index
 

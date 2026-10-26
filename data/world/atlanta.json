@@ -1,0 +1,3438 @@
+{
+ "city": "Atlanta",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.763,
+ "longitude": -84.3859,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hyatt Regency Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "265 Peachtree Street Northeast, 30303, Atlanta",
+   "url": "https://atlanta.regency.hyatt.com/"
+  },
+  {
+   "name": "Atlanta Marriott Marquis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "265 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlmq-atlanta-marriott-marquis/overview/"
+  },
+  {
+   "name": "The Westin Peachtree Plaza, Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://westin.marriott.com/hotel-locations/"
+  },
+  {
+   "name": "Residence Inn Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "134 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/atldt"
+  },
+  {
+   "name": "Home2 Suites by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "975 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlhoht-home2-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Stonehurst Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "923 Piedmont Avenue Northeast, 30309, Atlanta",
+   "url": "https://www.stonehurstplace.com/"
+  },
+  {
+   "name": "AC Hotel by Marriott Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "53 14th Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlcn-ac-hotel-atlanta-midtown/overview/"
+  },
+  {
+   "name": "Courtyard Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640-1 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.marriott.com/atlyc"
+  },
+  {
+   "name": "Courtyard Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "133 Carnegie Way Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/"
+  },
+  {
+   "name": "Loews Atlanta Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1065 Peachtree Street Northeast, 30309, Atlanta",
+   "url": "https://www.loewshotels.com/atlanta-hotel"
+  },
+  {
+   "name": "Canopy by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1414 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmwpy-canopy-atlanta-midtown/"
+  },
+  {
+   "name": "Aloft Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Ted Turner Drive Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atldn-aloft-atlanta-downtown/overview/"
+  },
+  {
+   "name": "Element Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640-2 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlle-element-atlanta-midtown/overview/"
+  },
+  {
+   "name": "Hilton Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlahhh-hilton-atlanta/"
+  },
+  {
+   "name": "Residence Inn Atlanta Midtown/Georgia Tech",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1041 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.marriott.com/atlmt"
+  },
+  {
+   "name": "Four Seasons Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75 14th Street Northeast, 30309, Atlanta",
+   "url": "https://www.fourseasons.com/atlanta/"
+  },
+  {
+   "name": "Twelve Downtown, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlpk-twelve-downtown-autograph-collection/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "97 10th Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlamgi-hilton-garden-inn-atlanta-midtown/"
+  },
+  {
+   "name": "Hotel Indigo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "683 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlfx/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn & Suites Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1231 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmnhx-hampton-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Homewood Suites by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "97 10th Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmihw-homewood-suites-atlanta-midtown-ga/"
+  },
+  {
+   "name": "Moxy Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "48 13th Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/hotels/hotel-rooms/atlox-moxy-atlanta-midtown/"
+  },
+  {
+   "name": "The Starling Atlanta Midtown, Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "188 14th Street Northeast, 30361, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atltwqq-the-starling-atlanta-midtown/"
+  },
+  {
+   "name": "Courtyard Atlanta Decatur Downtown/Emory",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 Clairemont Avenue, 30030, Decatur",
+   "url": "https://www.marriott.com/atldc"
+  },
+  {
+   "name": "Hotel Granada, a Member of Design Hotels",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1302 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://granadaatlanta.com/"
+  },
+  {
+   "name": "Staybridge Suites Atlanta - Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23 Linden Avenue Northwest, 30308, Atlanta",
+   "url": "https://www.ihg.com/staybridge/hotels/us/en/atlanta/atlpe/hoteldetail"
+  },
+  {
+   "name": "The American Hotel Atlanta Downtown, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "160 Ted Turner Drive Northwest, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlupup-the-american-hotel-atlanta-downtown/"
+  },
+  {
+   "name": "Hyatt Centric Midtown Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 10th Street Northeast, 30309, Atlanta",
+   "url": "https://www.hyatt.com/hyatt-centric/atlhm-hyatt-centric-midtown-atlanta"
+  },
+  {
+   "name": "Twelve Midtown, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "361 17th Street Northwest, 30363, Atlanta",
+   "url": "https://twelvehotels.com/hotels/midtown"
+  },
+  {
+   "name": "Residence Inn Atlanta Midtown/Peachtree at 17th",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1365 Peachtree Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/atlri"
+  },
+  {
+   "name": "Hyatt Place Atlanta/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-downtown/"
+  },
+  {
+   "name": "Embassy Suites Midtown Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "290 17th Street Northwest, 30363, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlldes-embassy-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3332 Peachtree Road Northeast, 30326, Atlanta",
+   "url": "https://www.marriott.com/atlcb"
+  },
+  {
+   "name": "Inn At The Peachtrees, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.choicehotels.com/georgia/atlanta/ascend-hotels/ga045"
+  },
+  {
+   "name": "Crowne Plaza Atlanta - Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "590 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.ihg.com/crowneplaza/hotels/us/en/atlanta/atlpw/hoteldetail"
+  },
+  {
+   "name": "The Candler Hotel Atlanta, Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "127 Peachtree Street, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlcdqq-the-candler-hotel-atlanta/"
+  },
+  {
+   "name": "Courtland Grand Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "165 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://courtlandgrandhotel.com/"
+  },
+  {
+   "name": "Embassy Suites by Hilton Atlanta Buckhead",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3285 Peachtree Road Northeast, 30305, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atllxes-embassy-suites-atlanta-buckhead/"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://www.motel6.com/en/home/motels.ga.atlanta.4496.html"
+  },
+  {
+   "name": "The Ritz-Carlton, Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "181 Peachtree Street Northeast, 30303, Atlanta",
+   "url": "http://www.ritzcarlton.com/en/hotels/georgia/atlanta"
+  },
+  {
+   "name": "Hampton Inn Atlanta-Georgia Tech Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "264 North Avenue Northwest, 30313, Atlanta",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/georgia/hampton-inn-atlanta-georgia-tech-downtown-ATLGTHX/"
+  },
+  {
+   "name": "Ellis Hotel, Atlanta, a Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "176 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://www.ellishotel.com/"
+  },
+  {
+   "name": "Sonesta Select Atlanta Midtown Georgia Tech",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1132 Techwood Drive, 30318, Atlanta",
+   "url": "https://www.sonesta.com/us/georgia/atlanta/sonesta-select-atlanta-midtown-georgia-tech"
+  },
+  {
+   "name": "Renaissance Atlanta Midtown Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "866 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlbd-renaissance-atlanta-midtown-hotel/overview/"
+  },
+  {
+   "name": "The Burgess Hotel, Atlanta, A Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3600 Piedmont Road Northeast, 30305, Atlanta",
+   "url": "https://www.marriott.com/hotels/travel/atlnt-the-burgess-hotel-atlanta-a-tribute-portfolio-hotel/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 Sidney Marcus Boulevard Northeast, 30324, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlbu-towneplace-suites-atlanta-buckhead/overview/"
+  },
+  {
+   "name": "JW Marriott Atlanta Buckhead",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3300 Lenox Road NE, 30326, Atlanta",
+   "url": "https://www.marriott.com/hotels/travel/atljw-jw-marriott-atlanta-buckhead"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "87 Cone Street Northwest, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atldwht-home2-suites-atlanta-downtown/"
+  },
+  {
+   "name": "Glenn Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Marietta Street Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlak-glenn-hotel-autograph-collection/overview/"
+  },
+  {
+   "name": "Biltmore Innovation Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://biltmoreinnovationcenter.com/"
+  },
+  {
+   "name": "Hotel Indigo Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "230 Peachtree Street Northeast",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlid/hoteldetail"
+  },
+  {
+   "name": "JW Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "45 Ivan Allen Junior Boulevard, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/"
+  },
+  {
+   "name": "Signia by Hilton Atlanta Georgia World Congress Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "159 Northside Dr NW, 30313, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlwcsa-signia-atlanta-georgia-world-congress-center/"
+  },
+  {
+   "name": "Grand Hyatt",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3300 Peachtree Road Northeast, 30305, Atlanta",
+   "url": "https://www.hyatt.com/en-US/hotel/georgia/grand-hyatt-atlanta-in-buckhead"
+  },
+  {
+   "name": "Courtyard Atlanta Executive Park/Emory",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1236 Executive Park Drive, 30329, Atlanta",
+   "url": "https://www.marriott.com/atlep"
+  },
+  {
+   "name": "Kimpton Shane Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1340 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.shanehotelatlanta.com/"
+  },
+  {
+   "name": "Otto's Apartment Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "644 North Highland Avenue Northeast, 30306, Atlanta",
+   "url": "https://www.ottosatl.com/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "267 Marietta Street, 30313, Atlanta",
+   "url": "http://embassysuites1.hilton.com/en_US/es/hotel/ATLESES-Embassy-Suites-Atlanta-at-Centennial-Olympic-Park-Georgia/index.do"
+  },
+  {
+   "name": "House of Kube Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "275 Baker Street Northwest, 30313, Atlanta",
+   "url": "https://hiltongardeninn.hilton.com/en/gi/hotels/index.jhtml?ctyhocn=ATLDOGI"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3398 Piedmont Road Northeast, 30305, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlbuhx-hampton-atlanta-buckhead/"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "The Vortex Bar & Grill",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "878 Peachtree Street Northeast",
+   "website": "https://www.thevortexbar.com/midtown"
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza",
+    "American"
+   ],
+   "address": "400 West Peachtree Street Northwest",
+   "website": "https://www.mellowmushroom.com/locations/ga/atlanta/400-west-peachtree-st/"
+  },
+  {
+   "name": "¡La Bodega!",
+   "cuisines": [
+    "Coffee Shop",
+    "Sandwich",
+    "Salvadorian",
+    "Honduran",
+    "Pupusa"
+   ],
+   "address": "680 Murphy Avenue Southwest, 30310, Atlanta",
+   "website": "https://www.labodegaatl.com/"
+  },
+  {
+   "name": "The Consulate",
+   "cuisines": [
+    "International"
+   ],
+   "address": "10 10th Street Northeast, 30309, Atlanta",
+   "website": "https://www.theconsulateatlanta.com/"
+  },
+  {
+   "name": "Eight Sushi Lounge",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "930 Howell Mill Road Northwest, 30318, Atlanta",
+   "website": "https://eightsushiatl.com/"
+  },
+  {
+   "name": "Cooks & Soldiers",
+   "cuisines": [
+    "Spanish",
+    "French",
+    "Tapas",
+    "Basque"
+   ],
+   "address": "691 14th Street Northwest, 30318, Atlanta",
+   "website": "https://www.cooksandsoldiers.com"
+  },
+  {
+   "name": "Spoon EastSide",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "749 Moreland Avenue Southeast, 30316, Atlanta",
+   "website": "https://www.spooneastside.com/"
+  },
+  {
+   "name": "Pink Lotus Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "976 Brady Avenue Northwest",
+   "website": "https://www.pinklotusthai.com/"
+  },
+  {
+   "name": "OK YAKI",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "714 Moreland Avenue Southeast",
+   "website": "https://okyakiatl.com/"
+  },
+  {
+   "name": "Park Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "500 10th Street Northeast",
+   "website": "https://www.parktavern.com/"
+  },
+  {
+   "name": "Botánico Cocina & Social Club",
+   "cuisines": [
+    "Latin"
+   ],
+   "address": "1106 Crescent Avenue Northeast, 30309, Atlanta",
+   "website": "https://www.botanicoatlanta.com/"
+  },
+  {
+   "name": "Reverence Cuisine & Cocktails",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1117 West Peachtree Street Northwest",
+   "website": "https://reverenceatlanta.com/"
+  },
+  {
+   "name": "Gigi's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1660 McLendon Avenue, 30307, Atlanta",
+   "website": "https://gigisitaliankitchenatl.com"
+  },
+  {
+   "name": "The Sun Dial Restaurant & View",
+   "cuisines": [
+    "American"
+   ],
+   "address": "210 Peachtree Street Northwest",
+   "website": "https://www.sundialrestaurant.com/"
+  },
+  {
+   "name": "Trader Vic's Atlanta",
+   "cuisines": [
+    "Polynesian",
+    "Asian"
+   ],
+   "address": "255 Courtland Street Northeast, 30303, Atlanta",
+   "website": "https://tradervicsatl.com/"
+  },
+  {
+   "name": "Marcel",
+   "cuisines": [
+    "French",
+    "Steak House"
+   ],
+   "address": "1170 Howell Mill Road Northwest, 30318, Atlanta",
+   "website": "https://marcelatl.com"
+  },
+  {
+   "name": "Slutty Vegan",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "476 Edgewood Avenue Northeast, 30312",
+   "website": "https://sluttyveganatl.com/edgewood/"
+  },
+  {
+   "name": "Bachi Box",
+   "cuisines": [
+    "Asian",
+    "Wings"
+   ],
+   "address": "860 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://bachibox.fronteats.com/"
+  },
+  {
+   "name": "Original Soul Vegan",
+   "cuisines": [
+    "Soul",
+    "Regional",
+    "American"
+   ],
+   "address": "652 North Highland Avenue Northeast, 30306, Atlanta",
+   "website": "https://originalsoulvegan.com"
+  },
+  {
+   "name": "BoccaLupa",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "753 Edgewood Avenue Northeast, 30307, Atlanta",
+   "website": "http://www.boccalupoatl.com/"
+  },
+  {
+   "name": "Delbar Middle Eastern",
+   "cuisines": [
+    "Mediterranean",
+    "Persian",
+    "Iranian"
+   ],
+   "address": "870 Inman Village Parkway Northeast, 30307, Atlanta",
+   "website": "https://www.delbaratl.com/location-inman-park"
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "300 Peachtree Center Avenue Northeast",
+   "website": "https://www.mortons.com/location/mortons-the-steakhouse-atlanta-ga/"
+  },
+  {
+   "name": "Forza Storico",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1198 Howell Mill Road Northwest, 30318",
+   "website": "https://forzastorico.com"
+  },
+  {
+   "name": "Pasta Da Pulcinella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1100 West Peachtree Street Northwest, 30309, Atlanta",
+   "website": "https://pastadapulcinella.com/"
+  },
+  {
+   "name": "Establishment Atlanta",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1197 Peachtree Street Northeast",
+   "website": "https://establishmentatlanta.com/"
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "855 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://cava.com/locations/Midtown-Central-GA"
+  },
+  {
+   "name": "Fresh To Order",
+   "cuisines": [
+    "American"
+   ],
+   "address": "867 Peachtree Street Northeast",
+   "website": "https://www.freshtoorder.com/"
+  },
+  {
+   "name": "Gibney's Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "231 Peachtree Center Avenue Northeast",
+   "website": "https://gibneyspub.com/"
+  },
+  {
+   "name": "Upbeet",
+   "cuisines": [
+    "American",
+    "Salad",
+    "Bowl"
+   ],
+   "address": "1071 Howell Mill Road Northwest",
+   "website": "https://www.upbeet.com"
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "261 19th Street Northwest",
+   "website": "https://www.yardhouse.com/locations/ga/atlanta/atlanta-atlantic-station/8337"
+  },
+  {
+   "name": "Flower Child",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "1170 Howell Mill Road Northwest",
+   "website": "https://www.iamaflowerchild.com/locations/atlanta-westside-provisions/"
+  },
+  {
+   "name": "El Tesoro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "171 Mitchell Street Southwest, 30303, Atlanta",
+   "website": "https://southdowntown.eltesoroatl.com/"
+  },
+  {
+   "name": "Ted's Montana Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "133 Luckie Street Northwest",
+   "website": "https://www.tedsmontanagrill.com/downtownatlanta.html"
+  },
+  {
+   "name": "Varuni Napoli Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1540 Monroe Drive Northeast",
+   "website": "https://varuni.us/midtown/"
+  },
+  {
+   "name": "Metro Diner & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "229 Peachtree Street Northeast, 30303, Atlanta",
+   "website": "https://metrodineratl.com/"
+  },
+  {
+   "name": "Rreal Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "100 6th Street Northeast",
+   "website": "https://rrealtacos.com"
+  },
+  {
+   "name": "The Ponce Room Bar & Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "640 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://www.theponceroom.com/"
+  },
+  {
+   "name": "Nikolai's Roof",
+   "cuisines": [
+    "European"
+   ],
+   "address": "255 Courtland Street Northeast, 30303, Atlanta",
+   "website": "https://www.nikolaisroofatl.com/"
+  },
+  {
+   "name": "Divan Restaurant & Bar",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "87 15th Street Northeast",
+   "website": "https://divanatlanta.com"
+  },
+  {
+   "name": "Alta Toro Modern Latin",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "33 Peachtree Place Northeast",
+   "website": "https://altatoro.com/"
+  },
+  {
+   "name": "Lucky Star",
+   "cuisines": [
+    "Taiwanese",
+    "Bistro"
+   ],
+   "address": "1055 Howell Mill Road Northwest, 30318, Atlanta",
+   "website": "http://luckystaratl.com"
+  },
+  {
+   "name": "Wood’s Chapel BBQ",
+   "cuisines": [
+    "Barbecue",
+    "Tex-Mex"
+   ],
+   "address": "85 Georgia Avenue, 30315, Atlanta",
+   "website": "https://www.woodschapelbbq.com/"
+  },
+  {
+   "name": "Nan Thai Fine Dining",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1350 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://www.nanfinedining.com/"
+  },
+  {
+   "name": "Rush Bowls",
+   "cuisines": [
+    "Yogurt",
+    "Fruit",
+    "Smoothie"
+   ],
+   "address": "855 Peachtree Street Northeast, 30308",
+   "website": "https://rushbowls.com/atlanta"
+  },
+  {
+   "name": "Cypress Street Pint and Plate",
+   "cuisines": [
+    "American"
+   ],
+   "address": "817 West Peachtree Street Northwest, 30318, Atlanta",
+   "website": "https://cypressatl.com/"
+  },
+  {
+   "name": "La Semilla",
+   "cuisines": [
+    "Cuban",
+    "Caribbean"
+   ],
+   "address": "780 Memorial Drive Southeast, 30316, Atlanta",
+   "website": "https://www.lasemilla.kitchen/"
+  },
+  {
+   "name": "Mujō",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Omakase"
+   ],
+   "address": "691 14th Street Northwest",
+   "website": "https://www.mujoatl.com"
+  },
+  {
+   "name": "Bottle Rocket",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "180 Walker Street Southwest",
+   "website": "https://www.bottlerocketatl.com/"
+  },
+  {
+   "name": "Capolinea",
+   "cuisines": [
+    "American",
+    "Italian"
+   ],
+   "address": "159 Northside Dr. NW, 30313, Atlanta",
+   "website": "https://capolineaatlanta.com/"
+  },
+  {
+   "name": "Polaris",
+   "cuisines": [
+    "American"
+   ],
+   "address": "265 Peachtree Street Northeast",
+   "website": "https://www.polarisatlanta.com/"
+  },
+  {
+   "name": "Ikara",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "361 17th Street Northwest, 30363, Atlanta",
+   "website": "https://www.ikararestaurant.com/"
+  },
+  {
+   "name": "California Pizza Kitchen",
+   "cuisines": [
+    "Pizza",
+    "American"
+   ],
+   "address": "264 19th Street Northwest",
+   "website": "https://www.cpk.com/locations/california-pizza-kitchen-atlantic-station"
+  },
+  {
+   "name": "Station Eleven",
+   "cuisines": [
+    "Caribbean",
+    "Coffee Shop",
+    "Breakfast"
+   ],
+   "address": "30 North Avenue Northeast, 30308, Atlanta",
+   "website": "https://station11atl.com/"
+  },
+  {
+   "name": "Max Lager's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "320 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://www.maxlagers.com/"
+  },
+  {
+   "name": "Sweet Auburn BBQ",
+   "cuisines": [
+    "Barbecue",
+    "Asian"
+   ],
+   "address": "656 North Highland Avenue Northeast, 30306, Atlanta",
+   "website": "https://www.sweetauburnbbq.com/"
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "215 Peachtree Street Northeast, 30303, Atlanta",
+   "website": "https://cafe.hardrock.com/atlanta/"
+  },
+  {
+   "name": "5Church Atlanta",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1197 Peachtree Street Northeast, 30361, Atlanta",
+   "website": "https://midtown.5church-atlanta.com/"
+  },
+  {
+   "name": "Two Urban Licks",
+   "cuisines": [
+    "American"
+   ],
+   "address": "820 Ralph McGill Boulevard Northeast",
+   "website": "https://www.twourbanlicks.com/"
+  },
+  {
+   "name": "Steak Market 44 ATL",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "793 Juniper Street Northeast, 30308, Atlanta",
+   "website": "https://www.sm44atl.com/"
+  },
+  {
+   "name": "Talat Market",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "112 Ormond Street Southeast, 30315, Atlanta",
+   "website": "https://www.talatmarketatl.com/"
+  },
+  {
+   "name": "Livingston Restaurant & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "659 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://www.livingstonatl.com/"
+  },
+  {
+   "name": "El Valle Kitchen And Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "800 Peachtree Street Northeast",
+   "website": "https://www.valleatl.com/"
+  },
+  {
+   "name": "Grits & Eggs Breakfast Kitchen",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "699 Spring Street Northwest, 30308, Atlanta",
+   "website": "https://www.gritsandeggsbreakfastkitchen.com"
+  },
+  {
+   "name": "Sweet Georgia's Juke Joint",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 Peachtree Street Northeast",
+   "website": "https://www.sweetgeorgiasjukejoint.com/atlanta-downtown/home/index.html"
+  },
+  {
+   "name": "LowCountry Steak",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1010 West Peachtree Street Northwest, 30309, Atlanta",
+   "website": "https://www.lowcountry-restaurants.com/midtown-atlanta"
+  },
+  {
+   "name": "Nagomiya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1010 West Peachtree Street Northwest, 30309, Atlanta",
+   "website": "https://www.nagomiyaatlanta.com/"
+  },
+  {
+   "name": "The Food Shoppe",
+   "cuisines": [
+    "Creole"
+   ],
+   "address": "123 Luckie Street Northwest, 30303, Atlanta",
+   "website": "https://www.thefoodshoppeatl.com/"
+  },
+  {
+   "name": "Muchacho",
+   "cuisines": [
+    "Mexican",
+    "Coffee Shop"
+   ],
+   "address": "904 Memorial Drive Southeast, 30316, Atlanta",
+   "website": "https://muchacho.com/"
+  },
+  {
+   "name": "Elise",
+   "cuisines": [
+    "Italian",
+    "French",
+    "Seafood"
+   ],
+   "address": "1280 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://elise-atl.com/"
+  },
+  {
+   "name": "Big Boss Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "100 10th Street NW, 30309",
+   "website": "https://www.bigbosschinese.com/"
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "230 10th Street Northeast, 30309, Atlanta",
+   "website": "https://www.jasonsdeli.com/locations/ga/atlanta/230-10th-st-ne/"
+  },
+  {
+   "name": "White Oak",
+   "cuisines": [
+    "American"
+   ],
+   "address": "270 Peachtree Street Northeast, 30303, Atlanta",
+   "website": "https://www.whiteoakkitchen.com/"
+  },
+  {
+   "name": "Kale Me Crazy",
+   "cuisines": [
+    "Sandwich",
+    "Salad"
+   ],
+   "address": "100 6th Street Northeast, 30308, Atlanta",
+   "website": "https://kalemecrazy.net/midtown-atlanta/"
+  },
+  {
+   "name": "Pho King Midtown",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "950 West Peachtree Street Northwest, 30309, Atlanta",
+   "website": "https://www.phokingmidtown.com/"
+  },
+  {
+   "name": "Blue India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "933 Peachtree Street Northeast",
+   "website": "https://www.blueindiaatlanta.com/"
+  },
+  {
+   "name": "Wylie & Rum Island Grill",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "45 Moreland Avenue Southeast, 30316, Atlanta",
+   "website": "https://wylieandrum.com/"
+  },
+  {
+   "name": "Lantana",
+   "cuisines": [
+    "American"
+   ],
+   "address": "188 14th Street Northeast, 30361, Atlanta",
+   "website": "https://www.thestarling.com/lantana"
+  },
+  {
+   "name": "Holeman And Finch Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1201 Peachtree Street Northeast, Atlanta",
+   "website": "https://www.holeman-finch.com/"
+  },
+  {
+   "name": "Serena Pastifico",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1197 Peachtree Street Northeast, 30361, Atlanta",
+   "website": "https://www.serena-pastificio.com/locations/atlanta-ga"
+  },
+  {
+   "name": "Rumi's Kitchen",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "1175 Peachtree Street Northeast, Atlanta",
+   "website": "https://www.rumiskitchen.com/colony-square-home"
+  },
+  {
+   "name": "McCray's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1163 West Peachtree Street Northwest",
+   "website": "https://www.mccraystavern.com/midtown"
+  },
+  {
+   "name": "Tabla Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "77 12th Street Northeast",
+   "website": "https://tablaatlanta.com/"
+  },
+  {
+   "name": "Tuza Taco",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "1523 Howell Mill Road Northwest, 30318, Atlanta",
+   "website": "https://www.tuzataco.com/"
+  },
+  {
+   "name": "Brewhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "91 Broad Street Southwest",
+   "website": "https://brewhousecafe.com"
+  },
+  {
+   "name": "Northern China Eatery",
+   "cuisines": [
+    "Chinese",
+    "Regional"
+   ],
+   "address": "665 Auburn Avenue Northeast",
+   "website": "https://northernchinaeatery.com/"
+  },
+  {
+   "name": "Edgewood Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "478 Edgewood Avenue Northeast, 30312, Atlanta",
+   "website": "https://edgewoodpizzeria.com/"
+  },
+  {
+   "name": "The Nook",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1144 Piedmont Avenue Northeast, 30309, Atlanta",
+   "website": "https://www.thenookatlanta.com/"
+  },
+  {
+   "name": "Toast on Lenox",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "349 14th Street Northwest, 30318, Atlanta",
+   "website": "https://www.toastonlenoxatl.com/midtown-menu"
+  },
+  {
+   "name": "Prime On Peachtree",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "1029 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.primeonpeachtree.com/"
+  },
+  {
+   "name": "Campagnolo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "980 Piedmont Avenue Northeast, 30309, Atlanta",
+   "website": "https://campagnoloatl.com/"
+  },
+  {
+   "name": "New Realm Brewing",
+   "cuisines": [
+    "American"
+   ],
+   "address": "550 Somerset Terrace Northeast, 30306, Atlanta",
+   "website": "https://newrealmbrewing.com/atlanta/"
+  },
+  {
+   "name": "Wagaya",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "339 14th Street Northwest, 30318, Atlanta",
+   "website": "https://www.wagayaatlanta.com/"
+  },
+  {
+   "name": "Chirori Omakase and Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Omakase"
+   ],
+   "address": "349 14th Street Northwest, 30318, Atlanta",
+   "website": "https://chiroriatl.com/"
+  },
+  {
+   "name": "El Ponce",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "939 Ponce de Leon Avenue Northeast",
+   "website": "https://www.elponce.com/"
+  },
+  {
+   "name": "La Fonda Latina",
+   "cuisines": [
+    "Mexican",
+    "Spanish",
+    "Cuban"
+   ],
+   "address": "1639 McLendon Avenue Northeast, 30307, Atlanta",
+   "website": "https://lafondaatlanta.com/candler-park"
+  },
+  {
+   "name": "Mediterranean Grill",
+   "cuisines": [
+    "Kebab",
+    "Mediterranean",
+    "Greek"
+   ],
+   "address": "981 Monroe Drive Northeast",
+   "website": "https://mediterraneangrill.com/"
+  },
+  {
+   "name": "Thrive Restaurant & Bar",
+   "cuisines": [
+    "American",
+    "Sushi",
+    "Fusion"
+   ],
+   "address": "101 Marietta Street, 30303, Atlanta",
+   "website": "https://thriveatl.com/"
+  },
+  {
+   "name": "Porfirio's Mexican Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "11 Baker Street Northwest",
+   "website": "https://www.porfiriosatl.com/"
+  },
+  {
+   "name": "Ecco Midtown",
+   "cuisines": [
+    "European"
+   ],
+   "address": "40 7th Street Northeast, 30308, Atlanta",
+   "website": "https://www.ecco-atlanta.com/location/midtown"
+  },
+  {
+   "name": "Taqueria Tsunami",
+   "cuisines": [
+    "Asian",
+    "Mexican"
+   ],
+   "address": "915 Memorial Drive Southeast, 30316, Atlanta",
+   "website": "https://taqueriatsunami.com/"
+  },
+  {
+   "name": "Purely Plant",
+   "cuisines": [
+    "Taco",
+    "Latin",
+    "Caribbean"
+   ],
+   "address": "1 Moreland Avenue Southeast, 30316, Atlanta",
+   "website": "https://www.eatpurelyplant.com/"
+  },
+  {
+   "name": "Esco Restaurant and Tapas",
+   "cuisines": [
+    "American",
+    "Tapas"
+   ],
+   "address": "327 Peters Street Southwest",
+   "website": "https://escorestaurant.com/atlanta/"
+  },
+  {
+   "name": "Tyde Tate Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "229 Mitchell Street Southwest, 30303, Atlanta",
+   "website": "https://www.tydetatekitchen.com/"
+  },
+  {
+   "name": "Atalian Kitchen & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "60 Andrew Young International Boulevard Northeast, 30303, Atlanta",
+   "website": "https://www.atalian-atl.com/"
+  },
+  {
+   "name": "Osha Thai Sushi Galleria",
+   "cuisines": [
+    "Asian",
+    "Sushi",
+    "Thai"
+   ],
+   "address": "1820 Peachtree Road Northeast, 30309, Atlanta",
+   "website": "https://www.oshathaiatl.com"
+  },
+  {
+   "name": "Lyla Lila",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "693 Peachtree Street Northeast",
+   "website": "https://www.lylalilaatl.com/"
+  },
+  {
+   "name": "Fandangles",
+   "cuisines": [
+    "American"
+   ],
+   "address": "165 Courtland Street Northeast, 30303, Atlanta",
+   "website": "https://courtlandgrandhotel.com/dine/fandangles/"
+  },
+  {
+   "name": "Collage",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "165 Courtland Street Northeast, 30303, Atlanta",
+   "website": "https://courtlandgrandhotel.com/dine/collage/"
+  },
+  {
+   "name": "Brasserie Margot",
+   "cuisines": [
+    "French"
+   ],
+   "address": "75 14th Street Northeast",
+   "website": "https://www.fourseasons.com/atlanta/dining/restaurants/brasserie-margot/"
+  },
+  {
+   "name": "Pataaka Indian Restaurant",
+   "cuisines": [
+    "Indian",
+    "Tapas"
+   ],
+   "address": "1020 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://pataakaatl.com/"
+  },
+  {
+   "name": "The Sparrow",
+   "cuisines": [
+    "Chinese",
+    "Asian"
+   ],
+   "address": "950 West Peachtree Street Northwest",
+   "website": "https://thesparrowatl.com/"
+  },
+  {
+   "name": "Lazy Betty",
+   "cuisines": [
+    "American"
+   ],
+   "address": "999 Peachtree Street Northeast",
+   "website": "https://www.lazybettyatl.com/"
+  },
+  {
+   "name": "Taffer's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1382 Peachtree Street Northeast",
+   "website": "https://tafferstavern.com/locations/midtownatlanta/"
+  },
+  {
+   "name": "Chiringa",
+   "cuisines": [
+    "American"
+   ],
+   "address": "678 Edgewood Avenue Northeast, 30307",
+   "website": "https://chiringa.com/old-fourth-ward"
+  },
+  {
+   "name": "Velvet Taco",
+   "cuisines": [
+    "Taco",
+    "Tex-Mex"
+   ],
+   "address": "1115 Howell Mill Road Northwest",
+   "website": "https://www.velvettaco.com/location/atlanta-interlock/"
+  },
+  {
+   "name": "Fellini's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1634 McLendon Avenue Northeast, 30307, Atlanta",
+   "website": "https://fellinisatlanta.com/candler"
+  },
+  {
+   "name": "The Juicy Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1715 Howell Mill Road Northwest, 30318",
+   "website": "https://www.thejuicycrab.com/restaurant/howell-mill-atlanta-ga"
+  },
+  {
+   "name": "Azotea Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "245 18th Street Northwest",
+   "website": "https://azoteacantina.com/locations/#atlantic"
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1299 Northside Drive Northwest, 30318, Atlanta",
+   "website": "https://locations.mcalistersdeli.com/ga/atlanta/1299-northside-drive"
+  },
+  {
+   "name": "Botica",
+   "cuisines": [
+    "Mexican",
+    "Spanish",
+    "Mediterranean"
+   ],
+   "address": "1820 Peachtree Road Northeast, 30309, Atlanta",
+   "website": "https://www.eatbotica.com/"
+  },
+  {
+   "name": "Little Azio Pizza & Pasta",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "749 Moreland Avenue, 30316",
+   "website": "https://www.littleazio.com/"
+  },
+  {
+   "name": "Shake Shack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1168 Howell Mill Road Northwest",
+   "website": "https://shakeshack.com/location/west-midtown-ga"
+  },
+  {
+   "name": "Anh’s Kitchen",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "855 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://anhkitchenatl.com/"
+  },
+  {
+   "name": "Brasserie Lundi",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1375 Peachtree Street Northeast",
+   "website": "https://brasserielundi.com/"
+  },
+  {
+   "name": "Urban HAI Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "77 12th Street Northeast, 30309, Atlanta",
+   "website": "https://urbanhai.com/"
+  },
+  {
+   "name": "Amalfi Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "17 Andrew Young International Boulevard, Atlanta",
+   "website": "https://www.amalfiatl.com/"
+  },
+  {
+   "name": "Six Feet Under Pub & Fish House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "437 Memorial Drive Southeast, 30312",
+   "website": "https://www.sixfeetunder.net/"
+  },
+  {
+   "name": "Vinny's N.Y. Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "860 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://www.vinnysatlanta.com/piedmont-midtown-menu"
+  },
+  {
+   "name": "Adios Cafe",
+   "cuisines": [
+    "Breakfast",
+    "Mexican",
+    "Coffee Shop"
+   ],
+   "address": "180 Walker Street Southwest",
+   "website": "https://adioscafe.com/"
+  },
+  {
+   "name": "HandleBar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "476 Edgewood Avenue Northeast, 30312",
+   "website": "https://handlebar-atl.com/#"
+  },
+  {
+   "name": "Bell Street Burritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1816 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.bellstreetburritos.com/"
+  },
+  {
+   "name": "Sufi's Kitchen",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1814 Peachtree Road Northeast, 30309, Atlanta",
+   "website": "https://www.sufisatlanta.com/"
+  },
+  {
+   "name": "Glide Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "191 Mitchell Street Southwest, 30303, Atlanta",
+   "website": "https://www.glidepizza.com/locations/south-downtown"
+  },
+  {
+   "name": "Tin Lizzy's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "26 Andrew Young International Boulevard, 30303, Atlanta",
+   "website": "https://tinlizzyscantina.com/locations/downtown-atl/"
+  },
+  {
+   "name": "Terrace Bistro & Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "176 Peachtree Street Northwest",
+   "website": "https://www.ellishotel.com/dining/terrace-bistro-lounge"
+  },
+  {
+   "name": "Hsu's Gourmet Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "192 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "https://www.hsus.com/"
+  },
+  {
+   "name": "The Crazy Cities!",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Wings"
+   ],
+   "address": "182 Courtland Street Northeast, 30303, Atlanta",
+   "website": "https://www.thecrazycities.com/atlanta"
+  },
+  {
+   "name": "Pom Court",
+   "cuisines": [
+    "Spanish",
+    "Regional"
+   ],
+   "address": "1302 West Peachtree Street Northwest",
+   "website": "https://granadaatlanta.com/dine/pom-court/"
+  },
+  {
+   "name": "Habaneros",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1000 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://www.habanerosrestaurants.co/atlanta"
+  },
+  {
+   "name": "Agora Mediterranean Cuisine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "92 Peachtree Place Northeast",
+   "website": "https://www.agoracuisine.com/"
+  },
+  {
+   "name": "T's Brunch Bar",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "921 Peachtree Street",
+   "website": "https://www.tsbrunchbaratl.com/"
+  },
+  {
+   "name": "Bar Of Thailand",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1020 Piedmont Avenue Northeast",
+   "website": "https://barofthailand.com/"
+  },
+  {
+   "name": "Desi Spice Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "931 Monroe Circle Northeast",
+   "website": "https://desispiceindianatlanta.com"
+  },
+  {
+   "name": "Broad Street BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "96 Broad Street Southwest, 30303, Atlanta",
+   "website": "https://broadstreetbbqatl.com"
+  },
+  {
+   "name": "Buena Vida Tapas Bar",
+   "cuisines": [
+    "Spanish",
+    "Tapas"
+   ],
+   "address": "385 North Angier Avenue Northeast",
+   "website": "https://www.buenavidatapas.com"
+  },
+  {
+   "name": "Atlantic Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "264 19th Street Northwest",
+   "website": "https://atlantic-grill.com/"
+  },
+  {
+   "name": "Sargent",
+   "cuisines": [
+    "American"
+   ],
+   "address": "405 North Angier Avenue Northeast",
+   "website": "https://www.sargent-atlanta.com/"
+  },
+  {
+   "name": "Omakase Table",
+   "cuisines": [
+    "Japanese",
+    "Omakase"
+   ],
+   "address": "788 West Marietta Street Northwest",
+   "website": "https://www.omakasetableatl.com/copy-of-home-2"
+  },
+  {
+   "name": "Heritage Supper Club",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "63 Georgia Avenue",
+   "website": "https://www.heritagesupperclub.com/"
+  },
+  {
+   "name": "El Azteca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1784 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.elaztecaatlanta.com/"
+  },
+  {
+   "name": "South City Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1144 Crescent Avenue Northeast, 30309, Atlanta",
+   "website": "https://www.southcitykitchen.com/midtown-menus"
+  },
+  {
+   "name": "Steamhouse Lounge",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1051 West Peachtree Street Northwest",
+   "website": "http://www.steamhouselounge.com"
+  },
+  {
+   "name": "Venkman's",
+   "cuisines": [
+    "American",
+    "Bar"
+   ],
+   "address": "740 Ralph McGill Boulevard",
+   "website": "https://venkmans.com/"
+  },
+  {
+   "name": "Zocalo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "187 10th Street Northeast, 30309, Atlanta",
+   "website": "https://www.eatzocalo.com/"
+  },
+  {
+   "name": "Fox Bros. Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1238 Dekalb Avenue Northeast",
+   "website": "https://www.foxbrosbbq.com/dekalb-ave/contact/index.html"
+  },
+  {
+   "name": "No Mas Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "180 Walker Street Southwest",
+   "website": "https://www.nomascantina.com/"
+  },
+  {
+   "name": "J.R. Cricket's",
+   "cuisines": [
+    "American",
+    "Wings"
+   ],
+   "address": "129 North Avenue Northeast, 30308, Atlanta",
+   "website": "https://jrcrickets.com"
+  },
+  {
+   "name": "Pacific Rim Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "303 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "https://pacificrimbistro.com/"
+  },
+  {
+   "name": "Rising Roll Gourmet Cafe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "113 Peachtree Street, 30303, Atlanta",
+   "website": "https://www.risingroll.com/menu-downtown-candler-building"
+  },
+  {
+   "name": "Fadó Irish Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "933 Peachtree Street Northeast",
+   "website": "https://www.fadoirishpub.com/atlanta-midtown"
+  },
+  {
+   "name": "Curry Up Now",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "915 Memorial Drive Southeast, 30316, Atlanta",
+   "website": "https://www.curryupnow.com/"
+  },
+  {
+   "name": "Snooze - An A M. Eatery",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "931 Monroe Drive Northeast",
+   "website": "https://www.snoozeeatery.com/restaurant/georgia/piedmont-park/"
+  },
+  {
+   "name": "Hayakawa",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Omakase"
+   ],
+   "address": "1055 Howell Mill Road Northwest",
+   "website": "https://www.hayakawaatl.com"
+  },
+  {
+   "name": "Match Bar & Oven",
+   "cuisines": [
+    "American"
+   ],
+   "address": "199 Walker Street Southwest",
+   "website": "https://www.matchloungeatl.com/"
+  },
+  {
+   "name": "The Hive Buckhead",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1845 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://hivebuckhead.com/"
+  },
+  {
+   "name": "Pielands Sub & Slice",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "1021 Virginia Avenue Northeast",
+   "website": "https://www.pielands.com/"
+  },
+  {
+   "name": "Cafe Sunflower Chinese Cuisine & Sushi",
+   "cuisines": [
+    "Chinese",
+    "Sushi"
+   ],
+   "address": "565 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://cafesunflower30308.kwickmenu.com/"
+  },
+  {
+   "name": "Flavor Rich Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "549 Peachtree Street Northeast, 30308, Atlanta",
+   "website": "https://www.flavorrichrestaurant.com/"
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "754 Peachtree Street Northeast",
+   "website": "https://www.meltingpot.com/midtown-atlanta-ga/"
+  },
+  {
+   "name": "Bar Vegan",
+   "cuisines": [
+    "American"
+   ],
+   "address": "675 Ponce de Leon Avenue Northeast",
+   "website": "https://barveganatl.com/"
+  },
+  {
+   "name": "Lloyds Pizza Parlor",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "900 Dekalb Avenue Northeast",
+   "website": "https://www.lloydsatl.com/"
+  },
+  {
+   "name": "Sway Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "265 Peachtree Street Northeast",
+   "website": "https://www.hyatt.com/hyatt-regency/en-US/atlra-hyatt-regency-atlanta/dining"
+  },
+  {
+   "name": "E Ramen +",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "1110 West Peachtree Street Northwest",
+   "website": "https://eramenatl.com/"
+  },
+  {
+   "name": "La Santa Tacos & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "905 Juniper Street Northeast",
+   "website": "https://lasantaatl.com/"
+  },
+  {
+   "name": "Dumpling Master",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1020 Piedmont Avenue Northeast",
+   "website": "http://dumplingmaster.us"
+  },
+  {
+   "name": "Wadada Healthy Market & Juice Bar",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "878 Ralph David Abernathy Boulevard",
+   "website": "https://www.wadadaatl.com/"
+  },
+  {
+   "name": "Gyu-Kaku Japanese BBQ",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "265 18th Street Northwest",
+   "website": "https://www.gyu-kaku.com/atlanta/"
+  },
+  {
+   "name": "SriThai Thai Kitchen & Sushi Bar",
+   "cuisines": [
+    "Thai",
+    "Sushi"
+   ],
+   "address": "1380 Atlantic Drive Northwest",
+   "website": "https://srithaikitchen.com/"
+  },
+  {
+   "name": "17th And State Restaurant And Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "290 17th Street Northwest",
+   "website": "https://www.17thandstate.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "135 Andrew Young International Boulevard, 30303, Atlanta",
+   "website": "https://locations.wafflehouse.com/atlanta-ga-1996/"
+  },
+  {
+   "name": "Casa Almenara",
+   "cuisines": [
+    "Tulum",
+    "Mexican"
+   ],
+   "address": "991 Piedmont Avenue Northeast",
+   "website": "https://casa-almenara.com/"
+  },
+  {
+   "name": "Octopus Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1551 Piedmont Avenue Northeast, 30324, Atlanta",
+   "website": "https://www.octopuskitchenatl.com/"
+  },
+  {
+   "name": "The Daiquiri Factory",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "1587 Howell Mill Road, 30318, Atlanta",
+   "website": "https://thedaiquirifactory.com/"
+  },
+  {
+   "name": "Spice House Midtown",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "375 14th Street Northwest",
+   "website": "https://www.spicehouseatl.com/midtown"
+  },
+  {
+   "name": "Argosy",
+   "cuisines": [
+    "American"
+   ],
+   "address": "470 Flat Shoals Avenue Southeast, 30316, Atlanta",
+   "website": "http://www.argosy-east.com/"
+  },
+  {
+   "name": "Bartaco",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "299 North Highland Avenue Northeast, 30307, Atlanta",
+   "website": "https://bartaco.com/location/atlanta-inman/"
+  },
+  {
+   "name": "Nellie B's",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "990 Piedmont Avenue Northeast",
+   "website": "https://nellieschicken.com/"
+  },
+  {
+   "name": "The Drafting Table Cocktails and Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "230 Peachtree Street Northeast",
+   "website": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlid/hoteldetail/dining"
+  },
+  {
+   "name": "Apres Diem",
+   "cuisines": [
+    "European"
+   ],
+   "address": "931 Monroe Circle Northeast",
+   "website": "https://apresdiem.com"
+  },
+  {
+   "name": "Umma Kitchen",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "931 Monroe Drive Northeast",
+   "website": "https://www.ummakitchen.us/"
+  },
+  {
+   "name": "Flying Biscuit",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1001 Piedmont Avenue Northeast",
+   "website": "https://www.flyingbiscuit.com/locations-2/midtown/"
+  },
+  {
+   "name": "Angry Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1380 Atlantic Drive Northwest",
+   "website": "https://www.angrycrabshack.com/atlantic-drive-georgia/"
+  },
+  {
+   "name": "Metro Fresh",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "931 Monroe Drive Northeast",
+   "website": "https://metrofreshatl.com/"
+  },
+  {
+   "name": "Cuts Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "60 Andrew Young International Boulevard Northeast, 30303",
+   "website": "https://www.cutsatlanta.com/"
+  },
+  {
+   "name": "Sugar Factory",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1080 Peachtree Street Northeast",
+   "website": "https://sf3.sugarfactory.com/atlanta-ga"
+  },
+  {
+   "name": "Masti Fun Indian Street Eats",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "860 Peachtree Street Northeast",
+   "website": "https://www.mastiatlanta.com/"
+  },
+  {
+   "name": "Homespun",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "159 Northside Drive NW, 30313, Atlanta",
+   "website": "https://signiabyhiltonatlanta.com/culinary/"
+  },
+  {
+   "name": "Saints + Council",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1221 Peachtree Street Northeast",
+   "website": "https://saintsandcouncil.com/"
+  },
+  {
+   "name": "Fin & Feathers Midtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1136 Crescent Avenue Northeast",
+   "website": "https://finandfeathersrestaurants.com/midtown-atlanta/"
+  },
+  {
+   "name": "Emilio's Tacos & Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1105 West Peachtree Street Northwest",
+   "website": "https://www.emiliostacosandtequila.com/"
+  },
+  {
+   "name": "Tin Lizzy's Taco Americana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "77 12th Street Northeast",
+   "website": "https://tinlizzyscantina.com/locations/midtown/"
+  },
+  {
+   "name": "Crescent City Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1080 Peachtree Street Northeast",
+   "website": "https://www.crescentcityga.com/"
+  },
+  {
+   "name": "Dua Vietnamese",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle",
+    "Pho",
+    "Poke"
+   ],
+   "address": "77 12th Street Northeast",
+   "website": "https://duafishbowlmidtownatl.square.site/"
+  },
+  {
+   "name": "J Christopher's",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "950 West Peachtree Street Northwest",
+   "website": "https://jchristophers.com/locations/midtown/"
+  },
+  {
+   "name": "Hudson Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "942 Peachtree Street Northeast",
+   "website": "https://hudsongrille.com/atlanta-hudson-grille-midtown-locations"
+  },
+  {
+   "name": "Tiki Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1715 Howell Mill Road",
+   "website": "https://tikithaiatlanta.com/"
+  },
+  {
+   "name": "Discourse Eatery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1371 Peachtree Street Northeast",
+   "website": "https://discourseeatery.com/"
+  },
+  {
+   "name": "Ninja Way Express",
+   "cuisines": [
+    "Sushi",
+    "Hibachi",
+    "Poké"
+   ],
+   "address": "1371 Peachtree Street Northeast",
+   "website": "https://www.ninjawayexpress.com/"
+  },
+  {
+   "name": "Cuevacia",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1201 Peachtree Street Northeast",
+   "website": "https://cuevacia.com/"
+  },
+  {
+   "name": "Perfect Seasoning",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1161 Ridge Avenue Southwest",
+   "website": "http://www.perfectseasoningllc.com/"
+  },
+  {
+   "name": "Afro District Bar & Soulfood",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "132 10th Street Northeast",
+   "website": "https://afrodistrictatlanta.com/"
+  },
+  {
+   "name": "Pho 24",
+   "cuisines": [
+    "Vietnamese",
+    "Noodle"
+   ],
+   "address": "264 19th Street Northwest",
+   "website": "https://pho24atlanta.com/"
+  },
+  {
+   "name": "So. Fox",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1017 Virginia Avenue Northeast",
+   "website": "https://www.sofoxatl.com/"
+  },
+  {
+   "name": "Daddy D'z",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "264 Memorial Drive Southeast, 30312, Atlanta",
+   "website": "https://www.daddydz.com/"
+  },
+  {
+   "name": "Woody's Famous Philadelphia Cheesesteaks",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "981 Monroe Drive Northeast",
+   "website": "https://www.woodyscheesesteaks.com/"
+  },
+  {
+   "name": "Sear",
+   "cuisines": [
+    "American"
+   ],
+   "address": "265 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "https://www.marriott.com/en-us/hotels/atlmq-atlanta-marriott-marquis/dining/marquis-dining/sear/"
+  },
+  {
+   "name": "Big Kahuna Grill",
+   "cuisines": [
+    "Mexican",
+    "American"
+   ],
+   "address": "303 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "https://bigkahunaatl.com/"
+  },
+  {
+   "name": "Gus's Fried Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "231 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "http://gusfriedchicken.com/atlanta-georgia-location/"
+  },
+  {
+   "name": "Alma Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "191 Peachtree Street Northeast",
+   "website": "https://www.alma-atlanta.com/"
+  },
+  {
+   "name": "El Viñedo Local",
+   "cuisines": [
+    "South American"
+   ],
+   "address": "730 Peachtree Street Northeast",
+   "website": "https://elvinedolocal.com/"
+  },
+  {
+   "name": "Atwoods",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "817 West Peachtree Street Northwest",
+   "website": "https://atwoodspizzacafe.com/"
+  },
+  {
+   "name": "High Velocity",
+   "cuisines": [
+    "American"
+   ],
+   "address": "265 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "website": "https://www.marriott.com/en-us/hotels/atlmq-atlanta-marriott-marquis/dining/marquis-dining/high-velocity/"
+  },
+  {
+   "name": "Egg Harbor Cafe",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1820 Peachtree Road Northeast, 30309, Atlanta",
+   "website": "https://eggharborcafe.com/buckhead"
+  },
+  {
+   "name": "683 Midtown Bar and Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "683 Peachtree Street Northeast",
+   "website": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlfx/hoteldetail/dining"
+  },
+  {
+   "name": "Bangkok Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1492 Piedmont Avenue Northeast",
+   "website": "https://bangkokthaiatl.com/"
+  },
+  {
+   "name": "Boqueria",
+   "cuisines": [
+    "Spanish",
+    "Tapas"
+   ],
+   "address": "1221 Peachtree Street Northeast",
+   "website": "https://boqueriarestaurant.com/location/atl-colony-square/"
+  },
+  {
+   "name": "Xi'an Gourmet House",
+   "cuisines": [
+    "Noodle",
+    "Chinese"
+   ],
+   "address": "955 Spring Street Northwest",
+   "website": "https://xiangourmethouse.kwickmenu.com/"
+  },
+  {
+   "name": "Carolyn's Gourmet Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1201 West Peachtree Street Northwest",
+   "website": "https://www.carolynsgourmetcafe.com/"
+  },
+  {
+   "name": "Dos Caminos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 Peachtree Street Northeast",
+   "website": "https://www.doscaminos.com/location/atlanta/"
+  },
+  {
+   "name": "Ashland",
+   "cuisines": [
+    "Japanese",
+    "Steak House",
+    "Sushi"
+   ],
+   "address": "1065 Peachtree Street Northeast",
+   "website": "https://www.ashlandatlanta.com/"
+  },
+  {
+   "name": "Bao Bun Hibachi",
+   "cuisines": [
+    "Taiwanese"
+   ],
+   "address": "1715 Howell Mill Road Northwest",
+   "website": "https://www.baobunhibachi.com/home"
+  },
+  {
+   "name": "Cafe At Pharr",
+   "cuisines": [
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "1180 Peachtree Street Northeast",
+   "website": "https://cafeatpharr.com"
+  },
+  {
+   "name": "Marcus Bar & Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "525 Edgewood Avenue Northeast",
+   "website": "https://www.marcusbarandgrille.com/"
+  },
+  {
+   "name": "Oishokudo",
+   "cuisines": [
+    "Sushi",
+    "Asian"
+   ],
+   "address": "955 Spring Street Northwest",
+   "website": "https://www.oishokudo.com/"
+  },
+  {
+   "name": "Terminal 26",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "675 Ponce de Leon Avenue Northeast",
+   "website": "https://www.terminal26.com/"
+  },
+  {
+   "name": "Mezcalito's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "304 Oakland Avenue Southeast, 30312, Atlanta",
+   "website": "https://mezcalitoscocina.com/"
+  },
+  {
+   "name": "Willy's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1071 Piedmont Avenue Northeast",
+   "website": "https://willys.com/"
+  },
+  {
+   "name": "Folk Art",
+   "cuisines": [
+    "American"
+   ],
+   "address": "465 North Highland Avenue Northeast",
+   "website": "https://folkartrestaurant.com"
+  },
+  {
+   "name": "Food Terminal",
+   "cuisines": [
+    "Asian",
+    "Chinese",
+    "Japanese",
+    "Malaysian"
+   ],
+   "address": "1000 Marietta Street, 30318, Atlanta",
+   "website": "https://www.foodterminal.com/"
+  },
+  {
+   "name": "Tin Lizzy's Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "415 Memorial Drive Southeast, 30312, Atlanta",
+   "website": "https://tinlizzyscantina.com/"
+  },
+  {
+   "name": "TUK TUK Thai Food Loft",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1745 25th Street Northwest, 30309, Atlanta",
+   "website": "https://www.tuktukatl.com/"
+  },
+  {
+   "name": "v12 Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "610 Spring Street Northwest",
+   "website": "https://www.v12restaurant.com/"
+  },
+  {
+   "name": "Silverlake Ramen",
+   "cuisines": [
+    "Ramen",
+    "American",
+    "Oriental"
+   ],
+   "address": "1080 Peachtree Street Northeast",
+   "website": "https://silverlakeramen.com"
+  },
+  {
+   "name": "Cafe Momentum",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 Peachtree Street Northeast",
+   "website": "https://cafemomentum.org/restaurant/atlanta/"
+  },
+  {
+   "name": "Hartley Kitchen & Cocktails",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1340 West Peachtree Street Northwest",
+   "website": "https://www.hartleykitchenatl.com/"
+  },
+  {
+   "name": "STK Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1075 Peachtree Street Northeast",
+   "website": "https://stksteakhouse.com/venues/atlanta/"
+  },
+  {
+   "name": "Marlow's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "950 West Peachtree Street Northwest",
+   "website": "https://www.marlowstavern.com/georgia/midtown"
+  },
+  {
+   "name": "Bona Fide Deluxe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1454 La France Street Northeast, 30307, Atlanta",
+   "website": "https://www.bonafide-atl.com"
+  },
+  {
+   "name": "Ray's in the City",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "240 Peachtree Street Northeast",
+   "website": "https://raysrestaurants.com/"
+  },
+  {
+   "name": "Sankranti Indian Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "85 5th Street, 30308, Atlanta",
+   "website": "https://sankranti.com/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Georgia Aquarium",
+   "kind": "aquarium",
+   "address": "225 Baker Street Northwest, 30313, Atlanta",
+   "website": "https://www.georgiaaquarium.org/",
+   "phone": "+1 404 581 4000",
+   "latitude": 33.7633392,
+   "longitude": -84.3950088
+  },
+  {
+   "name": "Rhodes Hall",
+   "kind": "museum",
+   "address": "1516 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://rhodeshall.org",
+   "phone": "+1-404-885-7800",
+   "latitude": 33.7959433,
+   "longitude": -84.3883429
+  },
+  {
+   "name": "Margaret Mitchell House",
+   "kind": "museum",
+   "address": "979 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.atlantahistorycenter.com/buildings-and-grounds/atlanta-history-center-midtown/",
+   "phone": "+1-404-249-7015",
+   "latitude": 33.7813882,
+   "longitude": -84.3845922
+  },
+  {
+   "name": "National Center for Civil and Human Rights",
+   "kind": "museum",
+   "address": "100 Ivan Allen Junior Boulevard, 30313, Atlanta",
+   "website": "https://www.civilandhumanrights.org/",
+   "phone": "+1 678 999 8990",
+   "latitude": 33.7640448,
+   "longitude": -84.3930476
+  },
+  {
+   "name": "Carter Presidential Library",
+   "kind": "museum",
+   "address": "441 John Lewis Freedom Parkway Northeast, 30307-1498, Atlanta",
+   "website": "https://www.jimmycarterlibrary.gov/",
+   "phone": "+1 404-865-7100",
+   "latitude": 33.7668813,
+   "longitude": -84.3570552
+  },
+  {
+   "name": "The Breman Museum",
+   "kind": "museum",
+   "address": "1440 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://www.thebreman.org/",
+   "phone": "+1-678-222-3700",
+   "latitude": 33.7941259,
+   "longitude": -84.3899401
+  },
+  {
+   "name": "Woodruff Arts Center",
+   "kind": "museum",
+   "address": "1280 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://woodruffcenter.org/",
+   "phone": "+1 404-733-4200",
+   "latitude": 33.7891683,
+   "longitude": -84.3852094
+  },
+  {
+   "name": "World of Coca-Cola",
+   "kind": "museum",
+   "address": "121 Baker Street Northwest, 30313, Atlanta",
+   "website": "https://www.worldofcoca-cola.com/",
+   "phone": "+1 404 676-5151",
+   "latitude": 33.7628965,
+   "longitude": -84.3927578
+  },
+  {
+   "name": "Atlanta History Center",
+   "kind": "museum",
+   "address": "130 West Paces Ferry Road Northwest, 30305, Atlanta",
+   "website": "http://www.atlantahistorycenter.com/",
+   "phone": "+1-404-814-4000",
+   "latitude": 33.841785,
+   "longitude": -84.3860722
+  },
+  {
+   "name": "Children's Museum of Atlanta",
+   "kind": "museum",
+   "address": "275 Centennial Olympic Park Drive, 30313, Atlanta",
+   "website": "https://childrensmuseumatlanta.org/",
+   "phone": "+1 404-659-5437",
+   "latitude": 33.762471,
+   "longitude": -84.3917414
+  },
+  {
+   "name": "High Museum of Art",
+   "kind": "museum",
+   "address": "1280 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.high.org/",
+   "phone": "+1-404-733-4400",
+   "latitude": 33.78955,
+   "longitude": -84.3858471
+  },
+  {
+   "name": "Michael C. Carlos Museum",
+   "kind": "museum",
+   "address": "571 South Kilgo Circle NE, 30322, Atlanta",
+   "website": "https://carlos.emory.edu/",
+   "phone": "+1-404-727-4282",
+   "latitude": 33.7904724,
+   "longitude": -84.3241919
+  },
+  {
+   "name": "The Wren's Nest",
+   "kind": "attraction",
+   "address": "1050 Ralph David Abernathy Boulevard, 30310, Atlanta",
+   "website": "https://wrensnest.org/",
+   "phone": "+1-404-753-7735",
+   "latitude": 33.7376926,
+   "longitude": -84.4221687
+  },
+  {
+   "name": "Museum of Design Atlanta (MODA)",
+   "kind": "museum",
+   "address": "1315 Peachtree Street Northeast",
+   "website": "https://www.museumofdesign.org/",
+   "phone": "+1-404-979-6455",
+   "latitude": 33.7907228,
+   "longitude": -84.3845665
+  },
+  {
+   "name": "Besharat Gallery & Museum - Atlanta",
+   "kind": "museum",
+   "address": "175 Peters Street Southwest",
+   "website": "https://www.besharatgallery.com/",
+   "phone": "+1-404-524-4781",
+   "latitude": 33.7498851,
+   "longitude": -84.3994369
+  },
+  {
+   "name": "Spelman College Museum of Fine Art",
+   "kind": "museum",
+   "address": "350 Spelman Lane, 30314, Atlanta",
+   "website": "https://museum.spelman.edu/",
+   "phone": "+1-404-270-5607",
+   "latitude": 33.7462667,
+   "longitude": -84.4124134
+  },
+  {
+   "name": "Atlanta Contemporary Art Center",
+   "kind": "museum",
+   "address": "535 Means Street Northwest, 30318, Atlanta",
+   "website": "https://atlantacontemporary.org/",
+   "phone": "+1-404-688-1970",
+   "latitude": 33.7730049,
+   "longitude": -84.4051807
+  },
+  {
+   "name": "Atlanta Botanical Garden",
+   "kind": "attraction",
+   "address": "1345 Piedmont Avenue Northeast, 30309",
+   "website": "https://atlantabg.org/",
+   "phone": "+1-404-876-5859",
+   "latitude": 33.7906044,
+   "longitude": -84.3738282
+  },
+  {
+   "name": "Herndon Home Museum",
+   "kind": "museum",
+   "address": "587 University Place Northwest, 30314, Atlanta",
+   "website": "https://www.theherndonfoundation.org/",
+   "phone": "+1-404-581-9813",
+   "latitude": 33.7558062,
+   "longitude": -84.4067828
+  },
+  {
+   "name": "Apex Museum",
+   "kind": "museum",
+   "address": "135 Auburn Avenue Northeast, 30303, Atlanta",
+   "website": "https://www.apexmuseum.org/",
+   "phone": "",
+   "latitude": 33.7554342,
+   "longitude": -84.383103
+  },
+  {
+   "name": "College Football Hall of Fame",
+   "kind": "museum",
+   "address": "250 Marietta Street Northwest, 30313, Atlanta",
+   "website": "https://www.cfbhall.com/",
+   "phone": "+1-404-880-4800",
+   "latitude": 33.7599349,
+   "longitude": -84.3953271
+  },
+  {
+   "name": "Museum of Contemporary Art of Georgia",
+   "kind": "museum",
+   "address": "75 Bennett Street Northwest, 30309, Atlanta",
+   "website": "https://mocaga.org/",
+   "phone": "+1-404-367-8700",
+   "latitude": 33.8121819,
+   "longitude": -84.3951907
+  },
+  {
+   "name": "Hammonds House Museum",
+   "kind": "museum",
+   "address": "503 Peeples Street Southwest, 30310, Atlanta",
+   "website": "https://www.hammondshouse.org/",
+   "phone": "",
+   "latitude": 33.7412213,
+   "longitude": -84.4209252
+  },
+  {
+   "name": "Martin Luther King Jr. National Historic Site",
+   "kind": "museum",
+   "address": "450 Auburn Avenue Northeast, 30312, Atlanta",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7563627,
+   "longitude": -84.3734667
+  },
+  {
+   "name": "Governor's Mansion",
+   "kind": "attraction",
+   "address": "391 West Paces Ferry Road Northwest, 30305, Atlanta",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8463798,
+   "longitude": -84.3991515
+  },
+  {
+   "name": "Historic Fire Station Number 6",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7553377,
+   "longitude": -84.3719034
+  },
+  {
+   "name": "Science and Technology Museum of Atlanta",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7663241,
+   "longitude": -84.3809841
+  },
+  {
+   "name": "Zoo Atlanta",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7326372,
+   "longitude": -84.3711454
+  },
+  {
+   "name": "Museum of Illusions Atlanta",
+   "kind": "museum",
+   "address": "264 19th Street Northwest, 30363, Atlanta",
+   "website": "https://moiatlanta.com/",
+   "phone": "+1-404-458-4717",
+   "latitude": 33.7931094,
+   "longitude": -84.3973121
+  },
+  {
+   "name": "The Millennium Gate Museum",
+   "kind": "museum",
+   "address": "395 17th Street Northwest, 30318, Atlanta",
+   "website": "https://www.thegatemuseum.org/",
+   "phone": "+1-404-881-0900",
+   "latitude": 33.7911271,
+   "longitude": -84.3997253
+  },
+  {
+   "name": "Center for Puppetry Arts",
+   "kind": "museum",
+   "address": "1404 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://puppet.org/",
+   "phone": "+1 404 873 3391",
+   "latitude": 33.7927615,
+   "longitude": -84.3898162
+  },
+  {
+   "name": "The Moog Gallery & Custom Framing",
+   "kind": "gallery",
+   "address": "1653B McLendon Avenue Northeast",
+   "website": "https://mooggallery.com/",
+   "phone": "+1-404-668-9678",
+   "latitude": 33.7647485,
+   "longitude": -84.3333194
+  },
+  {
+   "name": "Gallery Chimera",
+   "kind": "gallery",
+   "address": "624 North Highland Avenue Northeast, 30306, Atlanta",
+   "website": "https://gallerychimera.com/",
+   "phone": "",
+   "latitude": 33.7715133,
+   "longitude": -84.3527245
+  },
+  {
+   "name": "Gallery Anderson Smith",
+   "kind": "gallery",
+   "address": "1401 Peachtree Street Northeast, 30309",
+   "website": "https://www.galleryandersonsmith.com/",
+   "phone": "+1-404-907-4183",
+   "latitude": 33.7930317,
+   "longitude": -84.3863186
+  },
+  {
+   "name": "Trap Music Museum",
+   "kind": "museum",
+   "address": "630 Travis Street Northwest, 30318, Atlanta",
+   "website": "https://trapmusicmuseum.com/",
+   "phone": "",
+   "latitude": 33.7718044,
+   "longitude": -84.40873
+  },
+  {
+   "name": "Siempre Avanti Gallery",
+   "kind": "gallery",
+   "address": "711 Trabert Avenue Northwest",
+   "website": "https://www.siempreavanti.com/",
+   "phone": "+1-770-685-5409",
+   "latitude": 33.7954852,
+   "longitude": -84.411255
+  },
+  {
+   "name": "Atlanta Monetary Museum",
+   "kind": "museum",
+   "address": "1000 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.atlantafed.org/education/visit/atlanta",
+   "phone": "+1-404-498-8777",
+   "latitude": 33.7820606,
+   "longitude": -84.3846623
+  },
+  {
+   "name": "Gregg Irby Gallery",
+   "kind": "gallery",
+   "address": "2345 Peachtree Street Northeast, 30305, Atlanta",
+   "website": "https://www.greggirbygallery.com",
+   "phone": "+1 404 549 8303",
+   "latitude": 33.8193199,
+   "longitude": -84.386715
+  },
+  {
+   "name": "Fernbank Museum of Natural History",
+   "kind": "museum",
+   "address": "767 Clifton Road Northeast, 30307, Atlanta",
+   "website": "https://www.fernbankmuseum.org/",
+   "phone": "",
+   "latitude": 33.7739337,
+   "longitude": -84.3277486
+  },
+  {
+   "name": "Art-Haus",
+   "kind": "gallery",
+   "address": "332 Ormond Street Southeast, 30315, Atlanta",
+   "website": "https://www.myart-haus.com/",
+   "phone": "+1-404-771-5540",
+   "latitude": 33.7315759,
+   "longitude": -84.3767386
+  },
+  {
+   "name": "Madame C.J. Walker’s Beauty Shoppe and WERDStudio Museum",
+   "kind": "museum",
+   "address": "54 Hilliard Street Northeast, 30312, Atlanta",
+   "website": "https://www.madamecjwalkermuseum.com/",
+   "phone": "+1 404 518 2887",
+   "latitude": 33.7557767,
+   "longitude": -84.3767249
+  },
+  {
+   "name": "David J. Sencer CDC Museum",
+   "kind": "museum",
+   "address": "1600 Clifton Road Northeast, 30329, Atlanta",
+   "website": "https://www.cdc.gov/museum/",
+   "phone": "+1-404-639-0830",
+   "latitude": 33.7991894,
+   "longitude": -84.3296646
+  },
+  {
+   "name": "pb&j gallery",
+   "kind": "gallery",
+   "address": "35 Howard Street Southeast, 30317, Atlanta",
+   "website": "https://www.pbjart.com/",
+   "phone": "+1 404-606-1856",
+   "latitude": 33.7511765,
+   "longitude": -84.3231946
+  },
+  {
+   "name": "DeKalb History Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://dekalbhistory.org/",
+   "phone": "",
+   "latitude": 33.7751244,
+   "longitude": -84.2965182
+  },
+  {
+   "name": "African American Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.apexmuseum.org/",
+   "phone": "",
+   "latitude": 33.7553355,
+   "longitude": -84.3831172
+  },
+  {
+   "name": "The Sun ATL",
+   "kind": "gallery",
+   "address": "399 Edgewood Avenue Northeast, 30312",
+   "website": "http://Vinsonart.com",
+   "phone": "",
+   "latitude": 33.754244,
+   "longitude": -84.3756857
+  },
+  {
+   "name": "Decatur History Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://dekalbhistory.org/",
+   "phone": "",
+   "latitude": 33.7751221,
+   "longitude": -84.2965137
+  },
+  {
+   "name": "Seen Gallery",
+   "kind": "gallery",
+   "address": "411",
+   "website": "theseengallery.com",
+   "phone": "",
+   "latitude": 33.7748343,
+   "longitude": -84.2947371
+  },
+  {
+   "name": "Delafield Planetarium",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.agnesscott.edu/bradleyobservatory/",
+   "phone": "",
+   "latitude": 33.7655166,
+   "longitude": -84.2939106
+  },
+  {
+   "name": "Robert C. Williams Paper Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://paper.gatech.edu/",
+   "phone": "",
+   "latitude": 33.781162,
+   "longitude": -84.4042479
+  },
+  {
+   "name": "SCAD FASH Museum of Fashion And Film",
+   "kind": "museum",
+   "address": "1600 Peachtree Street Northeast, Atlanta",
+   "website": "",
+   "phone": "+1 404-253-3132",
+   "latitude": 33.7965525,
+   "longitude": -84.391291
+  },
+  {
+   "name": "Scott Park",
+   "kind": "attraction",
+   "address": "231 Sycamore Street, 30030",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7732243,
+   "longitude": -84.2935543
+  },
+  {
+   "name": "King Birth Home",
+   "kind": "museum",
+   "address": "501 Auburne Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7552228,
+   "longitude": -84.3711635
+  },
+  {
+   "name": "Sycamore Place Gallery",
+   "kind": "gallery",
+   "address": "120 Sycamore Place, 30030, Decatur",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7730675,
+   "longitude": -84.2896238
+  },
+  {
+   "name": "Fountain of Rings",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.759496,
+   "longitude": -84.3928868
+  },
+  {
+   "name": "Ebenezer Baptist Church, Heritage Sanctuary",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7552179,
+   "longitude": -84.3741225
+  },
+  {
+   "name": "The Walking Dead - Terminus filming location",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7320658,
+   "longitude": -84.3985278
+  },
+  {
+   "name": "The Walking Dead - Kingdom filming location",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7114249,
+   "longitude": -84.432064
+  },
+  {
+   "name": "Freedom Hall",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7550042,
+   "longitude": -84.3724169
+  },
+  {
+   "name": "Jackson Street Bridge Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7603359,
+   "longitude": -84.3743008
+  },
+  {
+   "name": "Alan Avery Art Company",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8289474,
+   "longitude": -84.3656697
+  },
+  {
+   "name": "WWI Cannon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7753724,
+   "longitude": -84.2964207
+  },
+  {
+   "name": "ABV Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7419059,
+   "longitude": -84.3481672
+  },
+  {
+   "name": "Decatur Fine Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.773214,
+   "longitude": -84.2856626
+  },
+  {
+   "name": "Trail Sign - Great Blue Heron",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8224138,
+   "longitude": -84.3558714
+  },
+  {
+   "name": "Trail Sign - Pillbug",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8219947,
+   "longitude": -84.3570622
+  },
+  {
+   "name": "Trail Sign - Lizard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8213797,
+   "longitude": -84.3581434
+  },
+  {
+   "name": "Trail Sign - Peachtree Creek Wildlife Olympics Trail",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8209455,
+   "longitude": -84.3587525
+  },
+  {
+   "name": "Trail Sign - Grasshopper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8224116,
+   "longitude": -84.3562898
+  },
+  {
+   "name": "Trail Sign - Monarch Butterfly",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8223379,
+   "longitude": -84.3565664
+  },
+  {
+   "name": "Trail Sign - White-tailed Deer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8211207,
+   "longitude": -84.3586204
+  },
+  {
+   "name": "Olympic Rings",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7597322,
+   "longitude": -84.3922616
+  },
+  {
+   "name": "Hop e Hill Beloved Community Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7542183,
+   "longitude": -84.3731442
+  }
+ ]
+}

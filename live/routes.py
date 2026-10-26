@@ -193,6 +193,20 @@ def _driving(car: dict, origin: str, destination: str, us: bool, checked: str) -
     return driving
 
 
+def search_live_drive(origin: str, destination: str) -> dict:
+    """Driving between two cities (no public transport), with an IRS-rate cost per car in
+    the US. Raises LiveDataError so callers can fall back to an estimate."""
+    response = post(ROUTES_URL, {"origin": {"address": origin}, "destination": {"address": destination},
+                                 "travelMode": "DRIVE", "routingPreference": "TRAFFIC_UNAWARE", "languageCode": "en",
+                                 "units": "METRIC"}, DRIVE_FIELDS, config.CACHE_TTL_SECONDS["transport"],
+                    "Google Routes")
+    car = (response.data.get("routes") or [None])[0]
+    if not car:
+        raise LiveDataError("Google Routes found no driving route between those places.")
+    return {**_driving(car, origin, destination, _in_us(origin, destination), checked_at(response)),
+            "checked_at": checked_at(response)}
+
+
 def search_local_transport(origin: str, destination: str, city: str | None = None,
                            depart_at: datetime | None = None) -> dict:
     """Public transport and driving between two places. depart_at is a local

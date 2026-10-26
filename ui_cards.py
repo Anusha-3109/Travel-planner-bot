@@ -39,6 +39,8 @@ def _source_badge(source: str | None) -> None:
     source = source or ""
     if source.startswith("live"):
         st.badge("Live", icon=":material/bolt:", color="green")
+    elif source.startswith("estimate"):
+        st.badge("Estimate", icon=":material/straighten:", color="orange")
     elif source:
         st.badge("Snapshot", icon=":material/history:", color="gray")
 
@@ -90,11 +92,10 @@ def _flight_line(flight: dict) -> None:
                                       flight.get("duration"), _stops(flight)) if p))
 
 
-def _snapshot_flight_card(flight: dict) -> None:
-    st.markdown(f"**Flight {_md(flight.get('flight_number'))}**")
-    st.markdown(f"{flight.get('departure')} → {flight.get('arrival')}  \n**{_md(_usd(flight.get('price_per_person')))} "
-                "per person**")
-    st.caption(" · ".join(p for p in (flight.get("duration"), f"{flight.get('distance_miles')} miles") if p))
+def _estimated_flight_card(estimate: dict) -> None:
+    st.markdown("**Estimated nonstop flight**")
+    st.markdown(f"About {estimate.get('estimated_nonstop_duration')}  \n**No price data**")
+    st.caption(f"{estimate.get('distance_km'):,} km between the city centres; search live for real flights")
 
 
 def _shown(data: dict, shown_key: str, found_key: str) -> str:
@@ -109,10 +110,13 @@ def flight_cards(data: dict) -> None:
     _source_badge(data.get("flights_source"))
     if data.get("airlines"):
         _grid(data["airlines"], _airline_card)
-    elif data.get("flights"):
-        _grid(data["flights"], _snapshot_flight_card)
+    elif isinstance(data.get("estimated_flight"), dict):
+        _grid([data["estimated_flight"]], _estimated_flight_card)
     else:
         st.caption("No flights found for this date.")
+    if data.get("ground_options"):
+        st.caption("By road")
+        _grid(data["ground_options"], _ground_card)
 
 
 # Stays
@@ -131,10 +135,17 @@ def _live_stay_card(stay: dict) -> None:
 def _snapshot_stay_card(stay: dict) -> None:
     st.markdown(f"**{_md(stay.get('name'))}**")
     st.caption(_md(stay.get("room_type") or ""))
-    total = f"  \n**{_md(_usd(stay['total_cost']))} total**" if "total_cost" in stay else ""
-    st.markdown(f"{_md(_usd(stay.get('price_per_night')))} / night{total}")
-    st.caption(f"⭐ {stay.get('rating')} · up to {stay.get('maximum_occupancy')} guests · "
-               f"min {stay.get('minimum_nights')} night(s)")
+    nightly = stay.get("price_per_night")
+    if isinstance(nightly, (int, float)):
+        total = f"  \n**{_md(_usd(stay['total_cost']))} total**" if "total_cost" in stay else ""
+        st.markdown(f"{_md(_usd(nightly))} / night{total}")
+    else:
+        st.markdown("No price in the snapshot  \nSearch with dates for live prices")
+    guests = stay.get("maximum_occupancy")
+    details = [f"⭐ {stay.get('rating')}" if isinstance(stay.get("rating"), (int, float)) else "",
+               f"up to {guests} guests" if isinstance(guests, int) else "",
+               f"min {stay.get('minimum_nights')} night(s)"]
+    st.caption(" · ".join(d for d in details if d))
 
 
 def stay_cards(data: dict) -> None:
@@ -207,7 +218,8 @@ def _drive_card(driving: dict) -> None:
 def _ground_card(option: dict) -> None:
     st.markdown(f"**{_md(str(option.get('mode', '')).title())}**")
     st.caption(f"{option.get('duration')} · {option.get('distance_km')} km")
-    st.markdown(f"{_md(_usd(option.get('cost_per_vehicle')))} per vehicle")
+    cost = option.get("cost_per_vehicle")
+    st.markdown(_md(option.get("cost_text") or (f"{_usd(cost)} per vehicle" if cost is not None else "No fare data")))
 
 
 def transport_cards(data: dict) -> None:

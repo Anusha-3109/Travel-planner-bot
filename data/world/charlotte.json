@@ -1,0 +1,2980 @@
+{
+ "city": "Charlotte",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.2244,
+ "longitude": -80.8422,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "The Westin Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 South College Street, 28202, Charlotte",
+   "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/"
+  },
+  {
+   "name": "Hilton Charlotte Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 East 3rd Street, 28202, Charlotte",
+   "url": "https://charlotteuptown.hilton.com"
+  },
+  {
+   "name": "Canopy by Hilton Charlotte Southpark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4905 Barclay Downs Drive, 28210, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltpypy-canopy-charlotte-southpark/"
+  },
+  {
+   "name": "Sheraton Charlotte Airport Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3315 Scott Futrell Drive, 28208, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "The Ritz-Carlton, Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 East Trade Street, 28202, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Renaissance Charlotte SouthPark Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5501 Carnegie Boulevard, 28209, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Kimpton Tryon Park Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 South Church Street, 28202, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "The VanLandingham Estate",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2010 The Plaza, 28205, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "The Duke Mansion",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Hermitage Road, 28207, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "The Ivey's Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "127 North Tryon Street, 28202, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Charlotte Marriott SouthPark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 Rexford Road, 28211, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Charlotte Marriott City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 West Trade Street, 28202, Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Center City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Charlotte Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 South McDowell Street, 28204, Charlotte",
+   "url": "https://www.marriott.com/hotels/travel/cltws-sheraton-charlotte-hotel/"
+  },
+  {
+   "name": "Le Méridien Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 South McDowell Street, 28204, Charlotte",
+   "url": "https://www.marriott.com/hotels/travel/cltmd-le-meridien-charlotte/"
+  },
+  {
+   "name": "Sonesta Charlotte Executive Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5700 Westpark Drive, 28217, Charlotte",
+   "url": "https://www.sonesta.com/sonesta-hotels-resorts/nc/charlotte/sonesta-charlotte-executive-park/"
+  },
+  {
+   "name": "SpringHill Suites Charlotte Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 East 5th Street, 28202, Charlotte",
+   "url": "https://www.marriott.com/cltsd"
+  },
+  {
+   "name": "La Quinta Inn & Suites Charlotte Airport South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4900 South Tryon Street, 28217, Charlotte",
+   "url": "https://www.wyndhamhotels.com/laquinta/charlotte-north-carolina/la-quinta-charlotte-airport-south/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham Charlotte Airport North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2625 Little Rock Road, 28214, Charlotte",
+   "url": "https://www.wyndhamhotels.com/days-inn/charlotte-north-carolina/days-inn-charlotte-airport-north/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Charlotte/South Park at Phillips Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6700 Phillips Place Court, 28210, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltsphx-hampton-suites-charlotte-south-park-at-phillips-place/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "404 South Mint Street, 28202, Charlotte",
+   "url": "https://www.marriott.com/cltru"
+  },
+  {
+   "name": "Hampton Inn Charlotte-Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "530 East Martin Luther King Jr Boulevard, 28202, Charlotte",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/north-carolina/hampton-inn-charlotte-uptown-CLTUTHX/"
+  },
+  {
+   "name": "Four Points by Sheraton Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 Scott Futrell Drive, 28208, Charlotte",
+   "url": "https://www.marriott.com/en-us/hotels/cltpa-four-points-charlotte-airport/overview/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "108 Airport Commons Drive, 28208, Charlotte",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/charlotte/cltqu/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn Charlotte Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "508 East Martin Luther King Jr Boulevard, 28202, Charlotte",
+   "url": "https://hiltongardeninn3.hilton.com/en/hotels/north-carolina/hilton-garden-inn-charlotte-uptown-CLTUPGI/"
+  },
+  {
+   "name": "Days Inn Woodlawn Road Near Carowinds",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "118 East Woodlawn Road, 28217, Charlotte",
+   "url": "https://www.wyndhamhotels.com/days-inn/charlotte-north-carolina/days-inn-charlotte-woodlawn-near-carowinds/overview"
+  },
+  {
+   "name": "Embassy Suites by Hilton Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4800 South Tryon Street, 28217, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/clttyes-embassy-suites-charlotte/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6023 Park South Drive, 28210, Charlotte",
+   "url": "https://www.marriott.com/cltex"
+  },
+  {
+   "name": "Wyndham Garden Charlotte Executive Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "440 Griffith Road, 28217, Charlotte",
+   "url": "https://www.wyndhamhotels.com/wyndham-garden/charlotte-north-carolina/wyndham-garden-charlotte-airport-southeast/overview"
+  },
+  {
+   "name": "Embassy Suites by Hilton Charlotte Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 East Martin Luther King Jr Boulevard, 28202, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltmles-embassy-suites-charlotte-uptown/"
+  },
+  {
+   "name": "Hyatt House Charlotte/Center City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "435 East Trade Street, 28202, Charlotte",
+   "url": "https://www.hyatt.com/hyatt-house/en-us/cltxd-hyatt-house-charlotte-center-city"
+  },
+  {
+   "name": "Country Inn & Suites, Charlotte I-85 Airport, NC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2541 Little Rock Road, 28214, Charlotte",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-charlotte-airport-nc"
+  },
+  {
+   "name": "DoubleTree by Hilton South Charlotte Tyvola",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5624 Westpark Drive, 28217, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltcedt-doubletree-south-charlotte-tyvola/"
+  },
+  {
+   "name": "SpringHill Suites Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3055 Scott Futrell Drive, 28208, Charlotte",
+   "url": "https://www.marriott.com/cltsa"
+  },
+  {
+   "name": "Sleep Inn North Lake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6300 Banner Elk Drive, 28216, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/fort-mill/comfort-inn-hotels"
+  },
+  {
+   "name": "Courtyard Charlotte City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "237 South Tryon Street, 28202, Charlotte",
+   "url": "https://www.marriott.com/cltup"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2600 Yorkmont Road, 28208, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltapdt-doubletree-charlotte-airport/"
+  },
+  {
+   "name": "Hyatt Place Charlotte Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 South Caldwell Street, 28202, Charlotte",
+   "url": "https://www.hyatt.com/en-us/hotel/north-carolina/hyatt-place-charlotte-downtown/cltzu"
+  },
+  {
+   "name": "Courtyard Charlotte Airport North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 North Josh Birmingham Parkway, 28214, Charlotte",
+   "url": "https://www.marriott.com/cltca"
+  },
+  {
+   "name": "Hampton Inn and Suites Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1550 North Josh Birmingham Parkway, 28214, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltathx-hampton-suites-charlotte-airport/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Charlotte Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 South McDowell Street, 28204, Charlotte",
+   "url": "https://www.marriott.com/cltut"
+  },
+  {
+   "name": "Courtyard Charlotte Airport/Billy Graham Parkway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "321 West Woodlawn Road, 28217, Charlotte",
+   "url": "https://www.marriott.com/cltsw"
+  },
+  {
+   "name": "Radisson Hotel Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "212 West Woodlawn Road, 28217, Charlotte",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-charlotte-airport"
+  },
+  {
+   "name": "La Quinta Inn & Suites Charlotte Airport North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3127 Sloan Drive, 28208, Charlotte",
+   "url": "https://www.wyndhamhotels.com/laquinta/charlotte-north-carolina/la-quinta-charlotte-airport-north/overview"
+  },
+  {
+   "name": "Home2 Suites by Hilton Charlotte Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4240 Scott Futrell Drive, 28214, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltaiht-home2-suites-charlotte-airport/"
+  },
+  {
+   "name": "Super 8 Charlotte University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5100 Equipment Drive, 28269, Charlotte",
+   "url": "https://www.wyndhamhotels.com/super-8/charlotte-north-carolina/super-8-charlotte-university/overview"
+  },
+  {
+   "name": "Rodeway Inn University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1416 West Sugar Creek Road, 28262, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/fort-mill/comfort-inn-hotels"
+  },
+  {
+   "name": "Home2 Suites by Hilton Charlotte I-77 South, NC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6025 Tyvola Glen Circle, 28217, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/clttght-home2-suites-charlotte-i-77-south-nc/"
+  },
+  {
+   "name": "Comfort Inn Charlotte Airport Uptown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5822 Westpark Drive, 28217, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/rock-hill/quality-inn-hotels"
+  },
+  {
+   "name": "Sleep Inn Billy Graham Parkway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 Yorkmont Road, 28217, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/rock-hill/quality-inn-hotels"
+  },
+  {
+   "name": "Comfort Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3425 Mulberry Church Road, 28208, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/rock-hill/quality-inn-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Charlotte Northlake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4924 Sunset Road, 28269, Charlotte",
+   "url": "https://www.wyndhamhotels.com/days-inn/charlotte-north-carolina/days-inn-charlotte-northlake/overview"
+  },
+  {
+   "name": "Residence Inn Charlotte SouthPark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6030 Piedmont Row Drive South, 28210, Charlotte",
+   "url": "https://www.marriott.com/cltsp"
+  },
+  {
+   "name": "Hampton Inn & Suites Charlotte Airport Lake Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2227 Cascade Pointe Boulevard, 28208, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltlphx-hampton-suites-charlotte-airport-lake-pointe/"
+  },
+  {
+   "name": "Studio 6 Charlotte NC - Airport South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4825 Wallingford Street, 28217, Charlotte",
+   "url": "https://www.choicehotels.com/north-carolina/charlotte/quality-inn-hotels/nc780"
+  },
+  {
+   "name": "Econo Lodge Charlotte Airport Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4115 Glenwood Drive, 28208, Charlotte",
+   "url": "https://www.choicehotels.com/south-carolina/rock-hill/quality-inn-hotels"
+  },
+  {
+   "name": "Omni Charlotte Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "132 East Trade Street, 28202, Charlotte",
+   "url": "https://www.omnihotels.com/hotels/charlotte"
+  },
+  {
+   "name": "Best Western Sterling Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "242 East Woodlawn Road, 28217, Charlotte",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-charlotte/best-western-sterling-hotel-suites/propertyCode.34147.html"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2400 Cascade Pointe Boulevard, 28208, Charlotte",
+   "url": "https://www.hilton.com/en/hotels/cltrtgi-hilton-garden-inn-charlotte-airport/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2220 West Tyvola Road, 28217, Charlotte",
+   "url": "https://www.marriott.com/cltfs"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Moo & Brew",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1300 Central Avenue, 28204, Charlotte",
+   "website": "https://www.mooandbrew.com"
+  },
+  {
+   "name": "Midnight Diner",
+   "cuisines": [
+    "Diner",
+    "American"
+   ],
+   "address": "420 East Trade Street, 28202, Charlotte",
+   "website": "https://midnightdinercharlotte.com/"
+  },
+  {
+   "name": "Pizza Baby East",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1601 Elizabeth Avenue, 28204, Charlotte",
+   "website": "https://eatpizzababy.com"
+  },
+  {
+   "name": "Zamindar's Clubhouse",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "155 New Bern Street, 28203, Charlotte",
+   "website": "https://www.zamindarsclubhouse.com"
+  },
+  {
+   "name": "Open Kitchen",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "American"
+   ],
+   "address": "1318 West Morehead Street, 28208, Charlotte",
+   "website": "https://www.worldfamousopenkitchen.com/"
+  },
+  {
+   "name": "Heist Brewery",
+   "cuisines": [
+    "Beer",
+    "Burger",
+    "Sandwich",
+    "Pizza",
+    "Tex-Mex"
+   ],
+   "address": "2909 North Davidson Street, 28205, Charlotte",
+   "website": "https://www.heistbrewery.com/"
+  },
+  {
+   "name": "Crisp Kitchen & Cocktails",
+   "cuisines": [
+    "Salad",
+    "American",
+    "Barbecue"
+   ],
+   "address": "132 Brevard Court, 28202, Charlotte",
+   "website": "https://crispclt.com"
+  },
+  {
+   "name": "Pinky's Westside Grill",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1600 West Morehead Street, 28208, Charlotte",
+   "website": "https://eatatpinkys.com/"
+  },
+  {
+   "name": "Sonrisa",
+   "cuisines": [
+    "Latin American",
+    "Mexican",
+    "Colombian",
+    "Peruvian"
+   ],
+   "address": "137 Brevard Court, 28202, Charlotte",
+   "website": "https://www.sonrisaclt.com/"
+  },
+  {
+   "name": "Neo Sushi Express",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1523 Elizabeth Avenue, 28204, Charlotte",
+   "website": "https://www.neosushicharlotte.com"
+  },
+  {
+   "name": "Snooze",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2041 South Boulevard, 28203, Charlotte",
+   "website": "https://www.snoozeeatery.com"
+  },
+  {
+   "name": "Carrabba's Italian Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1520 South Boulevard, 28203, Charlotte",
+   "website": "https://www.carrabbas.com/restaurant/locations/nc/charlotte/charlotte-south-end/index.aspx"
+  },
+  {
+   "name": "Surefire Market",
+   "cuisines": [
+    "Burger",
+    "Chicken"
+   ],
+   "address": "301 Camp Road, 28206, Charlotte",
+   "website": "https://www.surefiremarketco.com/"
+  },
+  {
+   "name": "Blasian Asian Way",
+   "cuisines": [
+    "Korean",
+    "Noodle",
+    "Dumplings"
+   ],
+   "address": "1801 North Graham Street, 28206, Charlotte",
+   "website": "https://blasianasianway.net/"
+  },
+  {
+   "name": "Sabor Latin Street Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3205 North Davidson Street, 28205, Charlotte",
+   "website": "https://www.saborlatingrill.com/locations/"
+  },
+  {
+   "name": "Maple Street Biscuit Company",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2725 South Boulevard, 28209, Charlotte",
+   "website": "https://www.maplestreetbiscuits.com"
+  },
+  {
+   "name": "flora",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2120 South Boulevard, 28203, Charlotte",
+   "website": "https://eatdrinkloveflora.com/charlotte-nc/"
+  },
+  {
+   "name": "La Vecina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1306 Central Avenue, 28205, Charlotte",
+   "website": "https://www.lavecinaclt.com"
+  },
+  {
+   "name": "Billy Jack's Shack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3220 North Davidson Street, 28205, Charlotte",
+   "website": "https://www.jackbrownsjoint.com/locations/charlotte-nc"
+  },
+  {
+   "name": "The Original Pancake House",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "915 Charlottetowne Avenue, 28204, Charlotte",
+   "website": "https://ophcarolina.com"
+  },
+  {
+   "name": "The Waterman",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2729 South Boulevard, 28209, Charlotte",
+   "website": "https://www.watermanclt.com"
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1800 Rozzelles Ferry Road, 28208, Charlotte",
+   "website": "https://ordering.jetspizza.com/?uniqueStoreIdentifier=NC014#/"
+  },
+  {
+   "name": "Crave Dessert Bar",
+   "cuisines": [
+    "Cake",
+    "Coffee Shop",
+    "Crepe",
+    "Ice Cream",
+    "Sandwich"
+   ],
+   "address": "500 West 5th Street, 28202",
+   "website": "https://www.cravedessertbar.com/"
+  },
+  {
+   "name": "Primo Tuscan Grille",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "116 Middleton Drive, 28207, Charlotte",
+   "website": "https://primoprimecharlotte.com/"
+  },
+  {
+   "name": "Trolley Barn Fermentory & Food Hall",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Asian",
+    "Kebab",
+    "Mexican"
+   ],
+   "address": "2104 South Boulevard, 28203, Charlotte",
+   "website": "https://www.trolleybarnclt.com"
+  },
+  {
+   "name": "Viva Chicken",
+   "cuisines": [
+    "International",
+    "Peruvian"
+   ],
+   "address": "1617 Elizabeth Avenue, 28204, Charlotte",
+   "website": "https://www.vivachicken.com/"
+  },
+  {
+   "name": "Superica",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "101 West Worthington Avenue, 28203, Charlotte",
+   "website": "http://www.superica.com/charlotte/"
+  },
+  {
+   "name": "Mama Ricotta's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "601 South Kings Drive, 28204, Charlotte",
+   "website": "https://www.mamaricottas.com/"
+  },
+  {
+   "name": "1900 Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1523 Elizabeth Avenue, 28204, Charlotte",
+   "website": "https://1900mexicangrill.com/"
+  },
+  {
+   "name": "Pizzeria Omaggio",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1055 Metropolitan Avenue, 28204, Charlotte",
+   "website": "https://www.pizzeriaomaggio.com/"
+  },
+  {
+   "name": "STIR",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1422 South Tryon Street, 28203, Charlotte",
+   "website": "https://stircharlotte.com/"
+  },
+  {
+   "name": "Hawthorne's NY Pizza & Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1515 South Tryon Street, 28203, Charlotte",
+   "website": "https://pizzacharlottenc.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3909 South Boulevard, 28209, Charlotte",
+   "website": "https://locations.pizzahut.com/nc/charlotte/3909-south-blvd"
+  },
+  {
+   "name": "Pizzeria Sapienza Dilworth",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.sapienzadilworth.com"
+  },
+  {
+   "name": "PIE.ZAA",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1440 South Tryon Street, 28203, Charlotte",
+   "website": "https://www.piezaapizza.com/"
+  },
+  {
+   "name": "Taco Boy",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3700 South Boulevard, 28217, Charlotte",
+   "website": "https://www.tacoboy.net"
+  },
+  {
+   "name": "Phở @ NoDa",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2100 North Davidson Street, 28205, Charlotte",
+   "website": "https://www.phoatnoda.com/"
+  },
+  {
+   "name": "ACE No. 3 Belmont Village",
+   "cuisines": [
+    "Burger",
+    "Hot Dog"
+   ],
+   "address": "1001 Belmont Avenue, 28205, Charlotte",
+   "website": "https://www.aceno3.com/belmontvillage"
+  },
+  {
+   "name": "Curry Gate",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "630 West 24th Street, 28206",
+   "website": "https://currygates.com"
+  },
+  {
+   "name": "Brixx Wood Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1801 Scott Avenue, 28203, Charlotte",
+   "website": "https://brixxpizza.com/locations/charlotte-dilworth/"
+  },
+  {
+   "name": "Calle Sol Latin Café & Cevicheria",
+   "cuisines": [
+    "South American"
+   ],
+   "address": "1205 Thomas Avenue, 28205, Charlotte",
+   "website": "https://callesolcafe.com"
+  },
+  {
+   "name": "Sushi Taku",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1300 South Boulevard, 28203, Charlotte",
+   "website": "https://www.sushitaku.com"
+  },
+  {
+   "name": "Bang Bang Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "235 West Tremont Avenue, 28203, Charlotte",
+   "website": "https://bangbangburgersclt.com"
+  },
+  {
+   "name": "Providence Road Sundries",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "1522 Providence Road, 28207, Charlotte",
+   "website": "https://providenceroadsundries.com"
+  },
+  {
+   "name": "Red Ginger",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "401 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.redgingercharlotte.com"
+  },
+  {
+   "name": "Novant Health Cafeteria",
+   "cuisines": [
+    "Pizza",
+    "Coffee Shop",
+    "Regional",
+    "Burger",
+    "Italian",
+    "Chinese",
+    "Sandwich",
+    "Chicken",
+    "Mexican",
+    "Indian",
+    "American",
+    "Sushi",
+    "Ice Cream",
+    "Juice",
+    "Hot Dog",
+    "Pasta",
+    "Salad",
+    "Dessert",
+    "Donut"
+   ],
+   "address": "200 Hawthorne Lane, 28204, Charlotte",
+   "website": "https://morrisoncafes.compass-usa.com/novant/Pages/Menu.aspx?lid=g7"
+  },
+  {
+   "name": "Catalú",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "135 New Bern Street, 28209, Charlotte",
+   "website": "https://www.eatcatalu.com"
+  },
+  {
+   "name": "Silverlake Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2041 South Boulevard, 28203, Charlotte",
+   "website": "https://silverlakeramen.com"
+  },
+  {
+   "name": "Catch 21",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1520 West Boulevard, 28208, Charlotte",
+   "website": "https://catch21em.square.site/"
+  },
+  {
+   "name": "Fire Wok Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1535 Redmond Road, 28208, Charlotte",
+   "website": "https://www.firewokexpress.com/"
+  },
+  {
+   "name": "Tajhouse Uptown",
+   "cuisines": [
+    "Chinese",
+    "Indonesian"
+   ],
+   "address": "1535 Elizabeth Avenue, 28204",
+   "website": "http://tajhouseuptown.com"
+  },
+  {
+   "name": "YAMA",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3535 Dewitt Lane, 28217, Charlotte",
+   "website": "https://www.yamaloso.com/"
+  },
+  {
+   "name": "Grey's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3100 The Plaza, 28205, Charlotte",
+   "website": "https://www.greysdinerclt.com"
+  },
+  {
+   "name": "Showmars",
+   "cuisines": [
+    "Greek",
+    "American"
+   ],
+   "address": "2004 East 7th Street, 28204, Charlotte",
+   "website": "https://showmars.com"
+  },
+  {
+   "name": "Deluxe Fun Dining",
+   "cuisines": [
+    "American"
+   ],
+   "address": "305 West 4th Street, 28202, Charlotte",
+   "website": "https://www.deluxefundining.com"
+  },
+  {
+   "name": "Dilworth Neighborhood Grille",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "911 East Morehead Street, 28210, Charlotte",
+   "website": "https://www.dilworthgrille.com/"
+  },
+  {
+   "name": "Konnichiwa",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1315 East Boulevard, 28203, Charlotte",
+   "website": "https://konnichiwacharlotte.com/"
+  },
+  {
+   "name": "North Italia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1414 South Tryon Street",
+   "website": "https://www.northitalia.com/locations/charlotte-nc/"
+  },
+  {
+   "name": "Jasmine Grill and Kabab",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2920 Central Avenue, 28205, Charlotte",
+   "website": "https://www.jasminegrillkabab.com"
+  },
+  {
+   "name": "Mimosa Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "327 South Tryon Street, 28203",
+   "website": "https://mimosagrill.com/"
+  },
+  {
+   "name": "Mix Grill & Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1540 West Boulevard, 28208, Charlotte",
+   "website": "https://mixgrillandwings.com/"
+  },
+  {
+   "name": "The Improper Pig",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1600 Central Avenue, 28205, Charlotte",
+   "website": "https://theimproperpigreafarms.com"
+  },
+  {
+   "name": "Pure Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2838 The Plaza, 28205, Charlotte",
+   "website": "https://www.pureontheplaza.com"
+  },
+  {
+   "name": "Painted Rooster",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1601 Central Avenue, 28205, Charlotte",
+   "website": "https://bigpaintedrooster.com"
+  },
+  {
+   "name": "Ace No. 3",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "829 Providence Road, 28207, Charlotte",
+   "website": "https://www.aceno3.com/"
+  },
+  {
+   "name": "The Penguin",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1531 East Boulevard, 28203, Charlotte",
+   "website": "https://thepenguindrivein.com/"
+  },
+  {
+   "name": "Uchi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1720 Commonwealth Avenue, 28205, Charlotte",
+   "website": "https://uchi.uchirestaurants.com/location/sushi-charlotte"
+  },
+  {
+   "name": "Bird Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "510 East 15th Street, 28206, Charlotte",
+   "website": "https://birdpizzeria.com"
+  },
+  {
+   "name": "Coquette",
+   "cuisines": [
+    "French"
+   ],
+   "address": "400 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.coquetteclt.com"
+  },
+  {
+   "name": "Wheelz Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "901 South Kings Drive, 28204, Charlotte",
+   "website": "https://wheelzpizza.com/"
+  },
+  {
+   "name": "Menya Noodle Counter",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1941 East 7th Street, 28204, Charlotte",
+   "website": "https://www.menyanoodles.com"
+  },
+  {
+   "name": "Ilios Crafted Greek",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1514 South Church Street, 28203, Charlotte",
+   "website": "https://ilioscraftedgreek.com"
+  },
+  {
+   "name": "PARA",
+   "cuisines": [
+    "Tapas",
+    "Brunch"
+   ],
+   "address": "",
+   "website": "https://www.paraclt.com/"
+  },
+  {
+   "name": "Que Onda - Plaza Midwood",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1516 Central Avenue, 28205",
+   "website": "https://www.queondatacos.com"
+  },
+  {
+   "name": "Barcelona Wine Bar",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "",
+   "website": "https://barcelonawinebar.com/location/charlotte/"
+  },
+  {
+   "name": "Hasaki Grill & Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://www.hasakigrill.com/"
+  },
+  {
+   "name": "Aria Tuscan Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.ariacharlotte.com/"
+  },
+  {
+   "name": "RuRu's Tacos & Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.rurustacosandtequila.com/"
+  },
+  {
+   "name": "Pizzeria Sapienza CLT",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://sapienzaclt.com"
+  },
+  {
+   "name": "Maharani Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "https://maharanicharlotte.com/"
+  },
+  {
+   "name": "Sushi Hana",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://sushihanaclt.com="
+  },
+  {
+   "name": "Seoul Poke Bowl",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": "https://seoulpokebowl.com"
+  },
+  {
+   "name": "Fiamma Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.fiammacharlottenc.com"
+  },
+  {
+   "name": "Ru San's",
+   "cuisines": [
+    "Sushi",
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://rusans.com"
+  },
+  {
+   "name": "Inizio Pizza Napoletana",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.iniziopizza.com"
+  },
+  {
+   "name": "Emmy Squared Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.emmysquaredpizza.com"
+  },
+  {
+   "name": "Puerta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://puertaclt.com"
+  },
+  {
+   "name": "Open Rice",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://www.openriceclt.com"
+  },
+  {
+   "name": "SouthBound",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://eatsouthbound.com"
+  },
+  {
+   "name": "Marina's Tapas",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "",
+   "website": "https://marinastapas.com"
+  },
+  {
+   "name": "La Lima Sangucheria",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": "https://www.lalimasangucheria.com"
+  },
+  {
+   "name": "Mi Cariño",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1440 South Tryon Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Fuel Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1501 Central Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Fleming's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "210 East Trade Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1055 Metropolitan Avenue, 28204, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Seoul Food Meat Co.",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "1400 South Church Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "222 South Tryon Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Community Matters Cafe",
+   "cuisines": [
+    "Coffee Shop",
+    "Breakfast",
+    "Sandwich",
+    "Salad",
+    "Tea"
+   ],
+   "address": "821 West 1st Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Mac's Speed Shop",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2511 South Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Bar-B-Q King",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2900 Wilkinson Boulevard, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Basil Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "210 North Church Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Aroma",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "401 North Tryon Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Pisces Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1100 Metropolitan Avenue, 28204, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Figo36",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "416 East 36th Street, 28206, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Milkbread",
+   "cuisines": [
+    "Ice Cream",
+    "Burger"
+   ],
+   "address": "1431 Central Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Orient Express Chinese Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3200 North Graham Street, 28206, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "YAFO Kitchen",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1337 Central Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Abugida",
+   "cuisines": [
+    "African"
+   ],
+   "address": "3007 Central Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Bad Daddy's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1626 East Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Kid Cashew",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1608 East Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Nefelie's",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "145 Brevard Court, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Yume Ramen Sushi & Bar",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "1508 South Mint Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Caffe Siena",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "230 North College Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Yamazaru Sushi & Sake",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2173 Hawkins Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Salud Cervezeria",
+   "cuisines": [
+    "Latin Food"
+   ],
+   "address": "3306 North Davidson Street, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Pizza Baby West",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2135 Thrift Road, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Sun's Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2200 Thrift Road, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Sweet Lew's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "923 Belmont Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Hillside Caribbean Cuisine",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1113 Pegram Street, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Mama Gee's",
+   "cuisines": [
+    "Ghanaian",
+    "Caribbean"
+   ],
+   "address": "509 Beatties Ford Road, 28216, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Taipei Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "731 Providence Road, 28207, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Noble Smoke",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2216 Freedom Drive, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "JJ's Red Hots",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "1514 East Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Sullivan's Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1928 South Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Kickstand Burger Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1101 Central Avenue, 28204, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Mert's Heart And Soul",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "214 North College Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Rooster's Wood-fired Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "150 North College Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Uncle Maddio's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "345 South Kings Drive, 28204, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "STK Charlotte",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "201 South College Street, 28202, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Top's China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2127 Beatties Ford Road, 28216, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Capishe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "500 East Morehead Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Chicken Box",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1603 West Boulevard, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Benny Pennello’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mezeh Mediterranean Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zukku Sushi",
+   "cuisines": [
+    "Sushi",
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pisco",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "116 West 5th Street, 28202",
+   "website": ""
+  },
+  {
+   "name": "Gyu-Kaku",
+   "cuisines": [
+    "Japanese",
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "JINYA Ramen Bar",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "McCormick & Schmick's",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "UDON",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Condado Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zämbies Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3204 North Davidson Street",
+   "website": ""
+  },
+  {
+   "name": "Halal Food Cart",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ginbu 401",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lupies Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wafflery",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "O-Ku",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Botiwalla",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papi Queso",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ava Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fortune Cookie",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Krazy Curry Express",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Just Fresh",
+   "cuisines": [
+    "Juice",
+    "Salad",
+    "Soup",
+    "Sandwich",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fenwick's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Velvet Taco",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "American Roadside Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Capital MX",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chinese Fast Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bisonte Pizza Company",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sithara Cafe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bytes Cafe",
+   "cuisines": [
+    "Cafeteria"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pasta & Provisions",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chicken King",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bakersfield",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The King’s Kitchen",
+   "cuisines": [
+    "Southern",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cicchetti",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Exotica",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Que Onda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hawkers",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fuji Hibachi & Teriyaki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Bella Ciao",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deejai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "88 China Bistro",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ho Ho Cherry House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Midtown Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fat Cat Burgers1",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Mama",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Famous Toastery",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peru Asian",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papi Ricko",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Autentica",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boxcar Bettys",
+   "cuisines": [
+    "Chicken",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Thrifty",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Malo Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cilantro Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angeline's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dos Caminos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Caroline's Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dean's Italian Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yassou Greek",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tora Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thanh Huong",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thien Phu",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mouthwaterin Jamaican Grill",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Que Fresca Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maíz Agua Sal",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dank Bowls",
+   "cuisines": [],
+   "address": "320 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.dankbowlsclt.com/"
+  },
+  {
+   "name": "Soul Miner's Garden",
+   "cuisines": [],
+   "address": "1801 North Graham Street, 20206, Charlotte",
+   "website": "https://www.soulminersgarden.com/"
+  },
+  {
+   "name": "Alexander Michael's",
+   "cuisines": [],
+   "address": "401 West 9th Street, 28202, Charlotte",
+   "website": "https://almikestavern.com/"
+  },
+  {
+   "name": "Eggroll Company",
+   "cuisines": [],
+   "address": "301 Camp Road, 28206, Charlotte",
+   "website": "https://eggrollcompany.com/"
+  },
+  {
+   "name": "La Caseta",
+   "cuisines": [],
+   "address": "1801 North Graham Street, 28206, Charlotte",
+   "website": "https://www.lacasetaclt.com/"
+  },
+  {
+   "name": "Dandelion Market",
+   "cuisines": [],
+   "address": "118 West 5th Street, 28202, Charlotte",
+   "website": "https://www.dandelionmarketcharlotte.com/"
+  },
+  {
+   "name": "Sage & Citrus",
+   "cuisines": [],
+   "address": "1801 North Graham Street, 28206, Charlotte",
+   "website": "https://www.sagecitrus.com/"
+  },
+  {
+   "name": "QC Pour House",
+   "cuisines": [],
+   "address": "200 West Tremont Avenue, 28203, Charlotte",
+   "website": "https://www.qcpourhouse.com/"
+  },
+  {
+   "name": "Tavern On The Tracks",
+   "cuisines": [],
+   "address": "1411 South Tryon Street, 28203, Charlotte",
+   "website": "https://tavernonthetracks.com/"
+  },
+  {
+   "name": "Vitality Bowls",
+   "cuisines": [],
+   "address": "1414 South Tryon Street, 28203, Charlotte",
+   "website": "https://vitalitybowls.com/locations/charlotte-acai-bowls"
+  },
+  {
+   "name": "Sun's Kitchen 老孫家",
+   "cuisines": [],
+   "address": "3216 South Boulevard",
+   "website": "https://www.suns.kitchen/"
+  },
+  {
+   "name": "Oh My Soul On The Moo've",
+   "cuisines": [],
+   "address": "601 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.ohmysoulusa.com"
+  },
+  {
+   "name": "Market on Morehead",
+   "cuisines": [],
+   "address": "1001 Morehead Square Drive, 28203, Charlotte",
+   "website": "https://www.marketonmorehead.com/"
+  },
+  {
+   "name": "300 East",
+   "cuisines": [],
+   "address": "300 East Boulevard, 28203, Charlotte",
+   "website": "https://300east.net"
+  },
+  {
+   "name": "Caswell Station",
+   "cuisines": [],
+   "address": "366 North Caswell Road, 28204, Charlotte",
+   "website": "https://www.caswellstation.com"
+  },
+  {
+   "name": "Supperclub",
+   "cuisines": [],
+   "address": "3521 Dewitt Lane, 28217, Charlotte",
+   "website": "https://gotosupperclub.com/"
+  },
+  {
+   "name": "Akhana Asian Bistro",
+   "cuisines": [],
+   "address": "1308 The Plaza, 28205, Charlotte",
+   "website": "http://charlotte.akahanaasianbistro.com/"
+  },
+  {
+   "name": "Dressler's",
+   "cuisines": [],
+   "address": "1100 Metropolitan Avenue, 28204, Charlotte",
+   "website": "https://www.dresslersrestaurant.com/"
+  },
+  {
+   "name": "Muraya",
+   "cuisines": [],
+   "address": "200 East Bland Street, 28203, Charlotte",
+   "website": "https://murayarestaurant.com"
+  },
+  {
+   "name": "Bulldog Taproom/Social",
+   "cuisines": [],
+   "address": "3228 North Davidson Street, 28205, Charlotte",
+   "website": "https://www.bulldogclt.com/noda"
+  },
+  {
+   "name": "Mezzo Market",
+   "cuisines": [],
+   "address": "2212 The Plaza, 28205, Charlotte",
+   "website": "https://mezzomarketclt.com"
+  },
+  {
+   "name": "The Fig Tree Restaurant",
+   "cuisines": [],
+   "address": "1601 East 7th Street, 28204, Charlotte",
+   "website": "https://charlottefigtree.com"
+  },
+  {
+   "name": "Salted Melon",
+   "cuisines": [],
+   "address": "815 Providence Road, 28207, Charlotte",
+   "website": "https://www.saltedmelon.com"
+  },
+  {
+   "name": "Counter-",
+   "cuisines": [],
+   "address": "2001 West Morehead Street, 28208, Charlotte",
+   "website": "https://www.counterclt.com/"
+  },
+  {
+   "name": "Room Service",
+   "cuisines": [],
+   "address": "701 Razades Way, 28206, Charlotte",
+   "website": "https://www.instagram.com/roomserviceclt/"
+  },
+  {
+   "name": "Grinning Mule",
+   "cuisines": [],
+   "address": "1109 Morningside Drive, 28205, Charlotte",
+   "website": "https://grinningmule.org"
+  },
+  {
+   "name": "Copperhead Social Club",
+   "cuisines": [],
+   "address": "2810 North Davidson Street, 28205, Charlotte",
+   "website": "https://copperheadsocial.com"
+  },
+  {
+   "name": "Boudreaux’s Louisiana Kitchen",
+   "cuisines": [],
+   "address": "501 East 36th Street",
+   "website": "https://boudreauxsnoda.com"
+  },
+  {
+   "name": "Red@28th",
+   "cuisines": [],
+   "address": "1315 East Boulevard, 28203, Charlotte",
+   "website": "https://redat28th.com/"
+  },
+  {
+   "name": "Greenway Restaurant",
+   "cuisines": [],
+   "address": "425 North Kings Drive, 28204, Charlotte",
+   "website": "https://www.cpcc.edu/student-experience/dining-and-vending/greenway-restaurant"
+  },
+  {
+   "name": "Taste of Soul",
+   "cuisines": [],
+   "address": "2200 Thrift Road, Charlotte",
+   "website": "https://order.toasttab.com/online/tasteofsoulpbv"
+  },
+  {
+   "name": "Rhino Market & Deli NoDa",
+   "cuisines": [],
+   "address": "2320 N Davidson St",
+   "website": "rhinomarket.com"
+  },
+  {
+   "name": "State of Confusion",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.confusionloso.com"
+  },
+  {
+   "name": "Cajun Queen",
+   "cuisines": [],
+   "address": "",
+   "website": "https://cajunqueen.com"
+  },
+  {
+   "name": "Catalina Kitchen + Bar",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.catalinakb.com"
+  },
+  {
+   "name": "Rosemont",
+   "cuisines": [],
+   "address": "",
+   "website": "https://rosemontclt.com"
+  },
+  {
+   "name": "Arbol Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": "https://arboleatery.com/"
+  },
+  {
+   "name": "The Artisan's Palate",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.theartisanpalate.com"
+  },
+  {
+   "name": "Seoul Food Meat Co. - Mill District",
+   "cuisines": [],
+   "address": "421 East 26th Street, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Cabo Fish Taco",
+   "cuisines": [],
+   "address": "3201 North Davidson Street, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Oh My Soul",
+   "cuisines": [],
+   "address": "3046 North Davidson Street, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Yunta",
+   "cuisines": [],
+   "address": "2201 South Boulevard, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "El Sazón Latino",
+   "cuisines": [],
+   "address": "1501 West Boulevard, 28208, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Lincoln Street Kitchen & Cocktails",
+   "cuisines": [],
+   "address": "309 Lincoln Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Supperland",
+   "cuisines": [],
+   "address": "1212 The Plaza, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Diamond Restaurant",
+   "cuisines": [],
+   "address": "1901 Commonwealth Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Workman's Friend",
+   "cuisines": [],
+   "address": "1531 Central Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Dish",
+   "cuisines": [],
+   "address": "1220 Thomas Avenue, 28205, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Let's Meat KBBQ",
+   "cuisines": [],
+   "address": "1400 South Church Street, 28203, Charlotte",
+   "website": ""
+  },
+  {
+   "name": "Napa on Providence",
+   "cuisines": [],
+   "address": "110 Perrin Place, 28207, Charlotte",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Mint Museum Uptown",
+   "kind": "museum",
+   "address": "500 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.mintmuseum.org/",
+   "phone": "+1 704 337 2000",
+   "latitude": 35.2245205,
+   "longitude": -80.8483605
+  },
+  {
+   "name": "Discovery Place Science",
+   "kind": "museum",
+   "address": "301 North Tryon Street, 28202, Charlotte",
+   "website": "https://discoveryplace.org/",
+   "phone": "+1-704-372-6261",
+   "latitude": 35.2296144,
+   "longitude": -80.8409227
+  },
+  {
+   "name": "NASCAR Hall of Fame",
+   "kind": "museum",
+   "address": "400 East Martin Luther King Jr Boulevard, 28202, Charlotte",
+   "website": "https://www.nascarhall.com/",
+   "phone": "",
+   "latitude": 35.2211234,
+   "longitude": -80.8441204
+  },
+  {
+   "name": "Harvey B. Gantt Center for African American Arts & Culture",
+   "kind": "museum",
+   "address": "551 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.ganttcenter.org/",
+   "phone": "+1 704 547 3700",
+   "latitude": 35.2231064,
+   "longitude": -80.8479206
+  },
+  {
+   "name": "Levine Museum of the New South",
+   "kind": "museum",
+   "address": "200 East 7th Street, 28202, Charlotte",
+   "website": "https://www.museumofthenewsouth.org/",
+   "phone": "",
+   "latitude": 35.2281955,
+   "longitude": -80.8387317
+  },
+  {
+   "name": "Bechtler Museum Of Modern Art",
+   "kind": "museum",
+   "address": "420 South Tryon Street, 28202, Charlotte",
+   "website": "https://www.bechtler.org/",
+   "phone": "+1-704-353-9200",
+   "latitude": 35.2245865,
+   "longitude": -80.8474035
+  },
+  {
+   "name": "Sullenberger Aviation Museum",
+   "kind": "museum",
+   "address": "4108 Minuteman Way, 28208, Charlotte",
+   "website": "https://www.sullenbergeraviation.org",
+   "phone": "+1-704-997-3770",
+   "latitude": 35.2248389,
+   "longitude": -80.9331256
+  },
+  {
+   "name": "Mint Museum Randolph",
+   "kind": "museum",
+   "address": "2730 Randolph Road, 28207, Charlotte",
+   "website": "https://mintmuseum.org/",
+   "phone": "+1-704-337-2000",
+   "latitude": 35.1973497,
+   "longitude": -80.8146672
+  },
+  {
+   "name": "Sloomoo Institute",
+   "kind": "attraction",
+   "address": "1100 Metropolitan Avenue, 28204, Charlotte",
+   "website": "https://sloomoo.com",
+   "phone": "",
+   "latitude": 35.2134956,
+   "longitude": -80.8355906
+  },
+  {
+   "name": "Charlotte Museum of History",
+   "kind": "museum",
+   "address": "3500 Shamrock Drive, 28205, Charlotte",
+   "website": "https://charlottemuseum.org",
+   "phone": "",
+   "latitude": 35.2335385,
+   "longitude": -80.7665488
+  },
+  {
+   "name": "The James C. Dowd House",
+   "kind": "museum",
+   "address": "2216 Monument Street, 28208, Charlotte",
+   "website": "https://www.cmstory.org/exhibits/doughboys-camp-greene-mecklenburg-county-nc-1917-1918-dowd-house/dowd-house",
+   "phone": "",
+   "latitude": 35.2252863,
+   "longitude": -80.8823006
+  },
+  {
+   "name": "Charlotte Museum of Nature",
+   "kind": "museum",
+   "address": "1658 Sterling Road, 28209, Charlotte",
+   "website": "https://dpn1.wpenginepowered.com/the-new-museum/",
+   "phone": "+1-704-286-8302",
+   "latitude": 35.1881157,
+   "longitude": -80.8436933
+  },
+  {
+   "name": "District 57",
+   "kind": "theme park",
+   "address": "1526 Alleghany Street, 28208",
+   "website": "https://district57.com/",
+   "phone": "+1 980-207-4400",
+   "latitude": 35.2401737,
+   "longitude": -80.8957935
+  },
+  {
+   "name": "Windy O'Connor",
+   "kind": "gallery",
+   "address": "1824 Statesville Avenue, 28206, Charlotte",
+   "website": "https://windyoconnor.com",
+   "phone": "",
+   "latitude": 35.2476314,
+   "longitude": -80.8326021
+  },
+  {
+   "name": "Charlotte Art League",
+   "kind": "gallery",
+   "address": "4237 Raleigh Street, 28213, Charlotte",
+   "website": "https://charlotteartleague.org/",
+   "phone": "+1-704-376-2787",
+   "latitude": 35.2539373,
+   "longitude": -80.7898144
+  },
+  {
+   "name": "Museum of Illusions",
+   "kind": "museum",
+   "address": "28202",
+   "website": "https://moicharlotte.com",
+   "phone": "+1 980-356-4505",
+   "latitude": 35.2223345,
+   "longitude": -80.8491318
+  },
+  {
+   "name": "Activation Studios",
+   "kind": "gallery",
+   "address": "2304 The Plaza, 28205",
+   "website": "https://activationstudios.org",
+   "phone": "",
+   "latitude": 35.2330486,
+   "longitude": -80.8070691
+  },
+  {
+   "name": "The Light Factory",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://lightfactory.org/",
+   "phone": "",
+   "latitude": 35.2317433,
+   "longitude": -80.8355776
+  },
+  {
+   "name": "Elder Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://eldergalleryclt.com",
+   "phone": "",
+   "latitude": 35.2162523,
+   "longitude": -80.8571624
+  },
+  {
+   "name": "UMAR Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://umarnc.org",
+   "phone": "",
+   "latitude": 35.2298681,
+   "longitude": -80.8279105
+  },
+  {
+   "name": "Black Market",
+   "kind": "gallery",
+   "address": "1824 Statesville Avenue, 28206, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2474382,
+   "longitude": -80.8330678
+  },
+  {
+   "name": "Hart Witzen Gallery",
+   "kind": "gallery",
+   "address": "2422 North Tryon Street, 28206, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.246821,
+   "longitude": -80.817818
+  },
+  {
+   "name": "Rosedale House",
+   "kind": "museum",
+   "address": "3427 North Tryon Street, 28206, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2547941,
+   "longitude": -80.8057166
+  },
+  {
+   "name": "Dupp & Swat",
+   "kind": "gallery",
+   "address": "1824 Statesville Avenue, 28206, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2476572,
+   "longitude": -80.8328623
+  },
+  {
+   "name": "Dilworth Artisan Station",
+   "kind": "gallery",
+   "address": "118 East Kingston Avenue, 28203, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2129374,
+   "longitude": -80.8577677
+  },
+  {
+   "name": "Goodyear Arts",
+   "kind": "gallery",
+   "address": "301 Camp Road, 28206, Charlotte",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2455128,
+   "longitude": -80.8340083
+  },
+  {
+   "name": "Graffiti Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2413985,
+   "longitude": -80.8166541
+  },
+  {
+   "name": "Bank of America Heritage Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2268915,
+   "longitude": -80.8420148
+  },
+  {
+   "name": "Gainseville Midland",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1925923,
+   "longitude": -80.8431885
+  },
+  {
+   "name": "Picture House Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2133424,
+   "longitude": -80.8285852
+  },
+  {
+   "name": "Historic Rosedale",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2549964,
+   "longitude": -80.8053984
+  },
+  {
+   "name": "Abandoned Charlotte Delivery Service Truck and Car",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.15539,
+   "longitude": -80.8539307
+  },
+  {
+   "name": "Coal car",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2298521,
+   "longitude": -80.8273981
+  },
+  {
+   "name": "Shain Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1742207,
+   "longitude": -80.8395501
+  },
+  {
+   "name": "Studio 117 Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1979482,
+   "longitude": -80.8255709
+  },
+  {
+   "name": "Loyd Studios",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.2451798,
+   "longitude": -80.8338938
+  },
+  {
+   "name": "Anne Neilson Fine Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1566118,
+   "longitude": -80.8249709
+  }
+ ]
+}

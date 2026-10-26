@@ -1,0 +1,517 @@
+{
+ "city": "Plattsburgh",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.6977,
+ "longitude": -73.4481,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 Everleth Drive, 12901, Plattsburgh",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/plattsburgh/pbged/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7129 Route 9, 12901, Plattsburgh",
+   "url": "https://www.wyndhamhotels.com/super-8/plattsburgh-new-york/super-8-plattsburgh/overview"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "406 Route 3, 12901, Plattsburgh",
+   "url": "https://www.wyndhamhotels.com/en-ca/days-inn/plattsburgh-new-york/days-inn-plattsburgh"
+  },
+  {
+   "name": "La Quinta Inn & Suites by Wyndham Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "16 Plaza Boulevard, 12901, Plattsburgh",
+   "url": "https://www.wyndhamhotels.com/en-ca/laquinta/plattsburgh-new-york/la-quinta-plattsburgh/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "586 Route 3, 12901, Plattsburgh",
+   "url": "https://www.hilton.com/en/hotels/plbnyhx-hampton-suites-plattsburgh/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "411 Route 3, 12901-6520, Plattsburgh",
+   "url": "https://www.choicehotels.com/vermont/south-burlington/comfort-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "579 State Route 3, 12901, Plattsburgh",
+   "url": "https://www.marriott.com/pbgfi"
+  },
+  {
+   "name": "Americas Best Value Inn Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "19 Booth Drive, 12901, Plattsburgh",
+   "url": "https://www.redlion.com/americas-best-value-inn/ny/plattsburgh/americas-best-value-inn-plattsburgh"
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "554 Route 3, 12901, Plattsburgh",
+   "url": ""
+  },
+  {
+   "name": "Rip Van Winkle Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15 Commodore Thomas Macdonough Highway, 12901, Plattsburgh",
+   "url": ""
+  },
+  {
+   "name": "Best Western Plus Plattsburgh",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Golden Gate Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Irises Cafe & Wine Bar",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Noodle",
+    "Mediterranean",
+    "Brunch"
+   ],
+   "address": "20-22 City Hall Place, 12901, Plattsburgh",
+   "website": "https://irisescafe.com/"
+  },
+  {
+   "name": "Sip",
+   "cuisines": [
+    "Noodle",
+    "Sandwich",
+    "American",
+    "Regional",
+    "Fries",
+    "Brunch"
+   ],
+   "address": "14 Margaret Street, 12901, Plattsburgh",
+   "website": "https://www.sipplattsburgh.com/"
+  },
+  {
+   "name": "Yama Sushi",
+   "cuisines": [
+    "Sushi",
+    "Asian",
+    "Japanese",
+    "Seafood",
+    "Noodle",
+    "Fish",
+    "Udon",
+    "Soba"
+   ],
+   "address": "62 Margaret Street, 12901, Plattsburgh",
+   "website": "https://www.yamasushiny.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "80 Centre Drive, 12901, Plattsburgh",
+   "website": "https://restaurants.applebees.com/en-us/ny/plattsburgh/80-centre-drive-83069"
+  },
+  {
+   "name": "The Pepper",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "13 City Hall Place, 12901, Plattsburgh",
+   "website": "https://www.thepepper.biz/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "370 State Route 3, 12901, Plattsburgh",
+   "website": "https://locations.pizzahut.com/ny/plattsburgh/370-state-route-3"
+  },
+  {
+   "name": "Aleka's",
+   "cuisines": [
+    "Greek",
+    "Italian"
+   ],
+   "address": "103 Margaret Street, 12901, Plattsburgh",
+   "website": "https://www.alekasrestaurant.com/"
+  },
+  {
+   "name": "No. 1 Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "334 Cornelia Street, 12901, Plattsburgh",
+   "website": "https://www.no1chinesefoodny.com/"
+  },
+  {
+   "name": "McSweeney's Red Hots",
+   "cuisines": [
+    "Burger",
+    "Hot Dog"
+   ],
+   "address": "7067 Route 9, 12901, Plattsburgh",
+   "website": "http://www.mcsweeneysredhots.com/"
+  },
+  {
+   "name": "Michigans Plus",
+   "cuisines": [
+    "American"
+   ],
+   "address": "313 Cornelia Street, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "356 Cornelia Street, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "1UP Arcade & Pub",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Fries"
+   ],
+   "address": "22 Brinkerhoff Street, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "Hungry Bear",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 Big Hank Plaza Road, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "Anthony's Restaurant & Bistro",
+   "cuisines": [
+    "French"
+   ],
+   "address": "538 Route 3, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "Busters Sports Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5453 Peru Street, 12901, Plattsburgh",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Bono",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Jade Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koto Japanese Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sawadtee Restaurant",
+   "cuisines": [
+    "Asian",
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Dorado",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Diablos Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nonnalisas",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Indian Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sol",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Butcher block",
+   "cuisines": [],
+   "address": "15 Booth Drive, 12901",
+   "website": ""
+  },
+  {
+   "name": "The 99",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Ground Round",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Naked Turtle",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gus' Famous Red Hots",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Twisted Carrot",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Kent-Delord House Museum",
+   "kind": "museum",
+   "address": "17 Cumberland Avenue, 12901, Plattsburgh",
+   "website": "https://www.kentdelordhouse.org/",
+   "phone": "",
+   "latitude": 44.700509,
+   "longitude": -73.4480609
+  },
+  {
+   "name": "Rockwell Kent Collection",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.plattsburgh.edu/plattslife/arts/art-museum/rockwell-kent-collection.html",
+   "phone": "",
+   "latitude": 44.6939383,
+   "longitude": -73.4676531
+  },
+  {
+   "name": "Clinton County Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.clintoncountyhistorical.org/",
+   "phone": "",
+   "latitude": 44.6829528,
+   "longitude": -73.4457706
+  },
+  {
+   "name": "Nina Winkel Sculpture Gallery",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.plattsburgh.edu/plattslife/arts/art-museum/winkel-sculpture-courtyard.html",
+   "phone": "",
+   "latitude": 44.6933396,
+   "longitude": -73.4655288
+  },
+  {
+   "name": "Champlain Valley Transportation Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://cvtmuseum.wixsite.com/cvtm",
+   "phone": "",
+   "latitude": 44.6831791,
+   "longitude": -73.445042
+  },
+  {
+   "name": "Plattsburgh State Art Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.plattsburgh.edu/plattslife/arts/art-museum/index.html",
+   "phone": "",
+   "latitude": 44.6937601,
+   "longitude": -73.4660496
+  },
+  {
+   "name": "Plattsburgh Air Force Base Museum",
+   "kind": "museum",
+   "address": "6 Washington Way, 12901, Plattsburgh",
+   "website": "",
+   "phone": "",
+   "latitude": 44.682213,
+   "longitude": -73.446576
+  },
+  {
+   "name": "War of 1812 Museum",
+   "kind": "museum",
+   "address": "11 Washington Way, 12903, Plattsburgh",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6819884,
+   "longitude": -73.4457225
+  },
+  {
+   "name": "Kids' Station Children's Museum",
+   "kind": "museum",
+   "address": "16 Museum Way, 12903, Plattsburgh",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6835238,
+   "longitude": -73.4454128
+  },
+  {
+   "name": "Airplane",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6814372,
+   "longitude": -73.4469544
+  }
+ ]
+}

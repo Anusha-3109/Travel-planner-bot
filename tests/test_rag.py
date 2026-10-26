@@ -15,7 +15,9 @@ def test_one_document_per_place_with_metadata():
     assert all(d.metadata["city"] == "Myrtle Beach" for d in documents)
     assert len({d.metadata["source"] for d in documents}) == len(documents)
     restaurant = next(d for d in documents if d.metadata["category"] == "restaurant")
-    assert "average_cost" in restaurant.metadata and "Cuisines:" in restaurant.page_content
+    assert "cuisines" in restaurant.metadata and "Price not available" in restaurant.page_content
+    stay = next(d for d in documents if d.metadata["category"] == "accommodation")
+    assert "No price listed (search live)" in stay.page_content and "price" not in stay.metadata
 
 
 def test_filter_building():
@@ -31,14 +33,14 @@ def test_plan_search_without_llm_uses_question():
 
 
 def test_retrieves_with_category_and_city_filter(small_index):
-    result = retrieve("Indian food", category="restaurant", city="Rockford")
+    result = retrieve("Indian food", category="restaurant", city="Asheville")
     assert result.documents
-    assert all(d.metadata["category"] == "restaurant" and d.metadata["city"] == "Rockford" for d in result.documents)
+    assert all(d.metadata["category"] == "restaurant" and d.metadata["city"] == "Asheville" for d in result.documents)
 
 
 def test_retrieves_named_attraction(small_index):
-    result = retrieve("SkyWheel ferris wheel", city="Myrtle Beach")
-    assert "attraction: SkyWheel Myrtle Beach, Myrtle Beach" in [d.metadata["source"] for d in result.documents]
+    result = retrieve("Family Kingdom amusement park", city="Myrtle Beach")
+    assert "attraction: Family Kingdom Amusement Park, Myrtle Beach" in [d.metadata["source"] for d in result.documents]
 
 
 def test_index_update_adds_new_places_and_removes_old_ones(tmp_path, monkeypatch):

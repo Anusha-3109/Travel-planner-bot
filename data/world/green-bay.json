@@ -1,0 +1,1498 @@
+{
+ "city": "Green Bay",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.5181,
+ "longitude": -88.0172,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hotel Northland",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "304 North Adams Street, 54301, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2785 Ramada Way, 54304, Green Bay",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/green-bay/grbhw/hoteldetail"
+  },
+  {
+   "name": "Legacy Hotel, Trademark Collection by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1004 Brett Favre Pass, 54304, Green Bay",
+   "url": "https://www.wyndhamhotels.com/trademark/green-bay-wisconsin/legacy-hotel-trademark-collection/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "850 Kepler Drive, 54311, Green Bay",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-green-bay-bellevue-wi"
+  },
+  {
+   "name": "Hampton Inn Green Bay Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 Main Street, 54301, Green Bay",
+   "url": "https://www.hilton.com/en/hotels/grbhxhx-hampton-green-bay-downtown/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1663 Hoffman Road, 54311, Green Bay",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/green-bay/grbhr/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Green Bay Near Stadium",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2868 South Oneida Street, 54304, Green Bay",
+   "url": "https://www.wyndhamhotels.com/super-8/green-bay-wisconsin/super-8-green-bay-airport-stadium/overview"
+  },
+  {
+   "name": "Hampton Inn Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2840 Ramada Way, 54304, Green Bay",
+   "url": "https://www.hilton.com/en/hotels/grbwihx-hampton-green-bay/"
+  },
+  {
+   "name": "SpringHill Suites Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1011 Tony Canadeo Run, 54304, Green Bay",
+   "url": "https://www.marriott.com/grbsh"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "810 Morris Avenue, 54304, Green Bay",
+   "url": "https://www.hilton.com/en/hotels/grbhtht-home2-suites-green-bay/"
+  },
+  {
+   "name": "Residence Inn Green Bay Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "470 Marina Lane, 54304, Green Bay",
+   "url": "https://www.marriott.com/grbdt"
+  },
+  {
+   "name": "Baymont Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2840 South Oneida Street, 54304, Green Bay",
+   "url": "https://www.wyndhamhotels.com/baymont/green-bay-wisconsin/baymont-inn-and-suites-green-bay-wi/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Green Bay I-43 Bus. Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2911 Voyager Drive, 54311, Green Bay",
+   "url": "https://www.wyndhamhotels.com/super-8/green-bay-wisconsin/super-8-green-bay-i-43-bus-park/overview"
+  },
+  {
+   "name": "BEST WESTERN Green Bay Inn Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "780 Armed Forces Drive, 54304, Green Bay",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-green-bay/best-western-green-bay-inn-conference-center/propertyCode.50025.html"
+  },
+  {
+   "name": "Radisson Hotel & Conference Center Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2040 Airport Drive, 54313, Green Bay",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-conference-green-bay"
+  },
+  {
+   "name": "Days Inn & Suites Green Bay WI.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1125 East Mason Street, 54301, Green Bay",
+   "url": "https://www.wyndhamhotels.com/days-inn/green-bay-wisconsin/days-inn-and-suites-green-bay-wi/overview"
+  },
+  {
+   "name": "Hyatt Regency Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 Main Street, 54301, Green Bay",
+   "url": "https://www.hyatt.com/hyatt-regency/en-us/grbrg-hyatt-regency-green-bay"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1951 Bond Street, 54303, Green Bay",
+   "url": "https://www.choicehotels.com/wisconsin/kimberly/quality-inn-hotels"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2841 Ramada Way, 54304, Green Bay",
+   "url": "https://www.choicehotels.com/wisconsin/green-bay/comfort-inn-hotels/wi029?mc=llgoxxpx"
+  },
+  {
+   "name": "Hilton Garden Inn Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 Lombardi Avenue, 54304, Green Bay",
+   "url": "https://www.hilton.com/en/hotels/grbghgi-hilton-garden-inn-green-bay/"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1978 Holmgren Way, 54304, Green Bay",
+   "url": "https://www.choicehotels.com/wisconsin/green-bay/quality-inn-hotels/wi206?source=gglocaloz1"
+  },
+  {
+   "name": "Clarion Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2815 Ramada Way, 54304, Green Bay",
+   "url": "https://www.choicehotels.com/wisconsin/green-bay/clarion-hotels/wi181?mc=llgoxxpx"
+  },
+  {
+   "name": "Lodge Kohler",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1950 South Ridge Road, 54304, Green Bay",
+   "url": "https://www.lodgekohler.com"
+  },
+  {
+   "name": "AmericInn by Wyndham Green Bay East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2628 Manitowoc Road, 54311, Green Bay",
+   "url": "https://www.wyndhamhotels.com/americinn/green-bay-wisconsin/americinn-lodge-and-suites-green-bay-east/overview"
+  },
+  {
+   "name": "Astor House Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "637 South Monroe Avenue, 54301, Green Bay",
+   "url": "https://astorhouse.com/"
+  },
+  {
+   "name": "Delta Hotels by Marriott Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2750 Ramada Way, 54304, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Hawthorn Suites by Wyndham Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "335 West Saint Joseph Street, 54301, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2850 South Oneida Street, 54304, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1704 South Ashland Avenue, 54304, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Aloft Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "465 Pilgrim Way, 54304, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Nuk's Executive Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 James Street, 54115, De Pere",
+   "url": ""
+  },
+  {
+   "name": "Tundra Lodge Resort & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "865 Lombardi Avenue, 54304, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Lodge & Suites Green Bay West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel J Green Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2620 Packerland Drive, 54313, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Union Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 N Broadway, 54115, De Pere",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1639 Commanche Avenue, 54313, Green Bay",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Green Bay/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "499 Main Avenue, De Pere",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Green Bay - Lambeau",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Kress Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Village Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "St. Brendan's Irish Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bay Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Station 417",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Taqueria Michoacán",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1207 East Mason Street, 54301, Green Bay",
+   "website": "https://taqueriamichoacanmexicanrestaurantbar.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "859 Lombardi Avenue, 54304, Green Bay",
+   "website": "https://locations.pizzahut.com/wi/green-bay/859-lombardi-avenue"
+  },
+  {
+   "name": "Glass Nickel Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "416 Dousman Street, 54303, Green Bay",
+   "website": "https://www.glassnickelpizza.com/location/green-bay/"
+  },
+  {
+   "name": "Taco Burrito Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "208 South Webster Avenue, 54301, Green Bay",
+   "website": "https://www.facebook.com/TacoBurritoMexico/"
+  },
+  {
+   "name": "FreshKIND Kitchen",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "227 North Washington Street, 54301, Green Bay",
+   "website": "https://www.freshkindkitchen.com/"
+  },
+  {
+   "name": "Little Tokyo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "121 North Broadway, 54303, Green Bay",
+   "website": "https://www.greenbaysushi.com/"
+  },
+  {
+   "name": "Mayflower",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "414 South Military Avenue, 54303, Green Bay",
+   "website": "https://www.mayflowergb.com/"
+  },
+  {
+   "name": "Pho Coma",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "154 North Broadway, 54303, Green Bay",
+   "website": "https://phocoma.com/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://locations.chuckecheese.com/us/wi/greenbay/1273-lombardi-access"
+  },
+  {
+   "name": "Carnitas El Bajio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1742 East Mason Street, 54302, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "La Carreta",
+   "cuisines": [
+    "Mexican",
+    "Snack"
+   ],
+   "address": "1657 Main Street, 54302, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Jake's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "112 South Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Polito's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "201 North Washington Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Kentro Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "229 North Washington Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Madrid Tapas",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "225 East Walnut Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Tequilas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1258 Main Street, 54302, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "China Palace",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "213 North Washington Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Bangkok Garden",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "240 North Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Karaoke",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "418 South Military Avenue, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Nakashima of Japan",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "Marvelle Lane",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toppers",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mission BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sarape",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Pastorcito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kroll's West Restaurant",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hinterland Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cranky Pat's Pizzeria & Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hydrant Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carnitas El Baijo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Maldonados",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Magueyes Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Plia's Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lorelei Inn",
+   "cuisines": [
+    "German"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Basket Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gallagher's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koko Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "100 Restaurant and Bar",
+   "cuisines": [],
+   "address": "100 South Broadway, 54303, Green Bay",
+   "website": "https://100restaurantandbar.com/"
+  },
+  {
+   "name": "Poke the Bear Bar & Grill",
+   "cuisines": [],
+   "address": "304 North Adams Street, 54301, Green Bay",
+   "website": "https://pokethebeargb.com/"
+  },
+  {
+   "name": "1919 Kitchen & Tap",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.1919kitchenandtap.com/"
+  },
+  {
+   "name": "The Walnut Room",
+   "cuisines": [],
+   "address": "",
+   "website": "https://thewalnutroomgb.com/"
+  },
+  {
+   "name": "Vintage Cantina",
+   "cuisines": [],
+   "address": "119 South Washington Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "White Dog Black Cat Cafe",
+   "cuisines": [],
+   "address": "201 South Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Three Three Five",
+   "cuisines": [],
+   "address": "335 North Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Our Place Familiy Restaurant",
+   "cuisines": [],
+   "address": "519 South Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "The Sardine Can",
+   "cuisines": [],
+   "address": "519 South Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Angelina",
+   "cuisines": [],
+   "address": "117 North Adams Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Los Arcos",
+   "cuisines": [],
+   "address": "607 Bodart Street, 54301, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Copper State Brewing Co.",
+   "cuisines": [],
+   "address": "313 Dousman Street, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Chefusion",
+   "cuisines": [],
+   "address": "307 North Broadway, 54303, Green Bay",
+   "website": ""
+  },
+  {
+   "name": "Chili john's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Margarita's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Green Bay Distillery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Timsan's Japanese Steakhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Joe's Pizza and Ice Cream",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Pancake Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jimmy Seas",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hinterland",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "46 Below",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of the Windy City Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sammy's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Black & Tan Grille",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Republic Chophouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Leaps and Bounds Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taverne in the Sky",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kroll's East",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Neville Public Museum",
+   "kind": "museum",
+   "address": "210 Museum Place, 54303, Green Bay",
+   "website": "https://www.nevillepublicmuseum.org/",
+   "phone": "",
+   "latitude": 44.517812,
+   "longitude": -88.0185982
+  },
+  {
+   "name": "Heritage Hill State Historical Park",
+   "kind": "museum",
+   "address": "2640 South Webster Avenue, 54301, Green Bay",
+   "website": "https://heritagehillgb.org/",
+   "phone": "+1-920-448-5150",
+   "latitude": 44.4743882,
+   "longitude": -88.0340992
+  },
+  {
+   "name": "National Railroad Museum",
+   "kind": "museum",
+   "address": "2285 South Broadway, Green Bay",
+   "website": "https://nationalrrmuseum.org/",
+   "phone": "",
+   "latitude": 44.4831148,
+   "longitude": -88.0478844
+  },
+  {
+   "name": "Bay Beach Wildlife Sanctuary",
+   "kind": "attraction",
+   "address": "1660 East Shore Drive, 54302, Green Bay",
+   "website": "https://www.baybeachwildlife.com/",
+   "phone": "+1 920-391-3671",
+   "latitude": 44.5247285,
+   "longitude": -87.9616313
+  },
+  {
+   "name": "Green Bay Botanical Garden",
+   "kind": "attraction",
+   "address": "2600 Larsen Road, Green Bay",
+   "website": "https://gbbg.org/",
+   "phone": "+1 877 355 4224",
+   "latitude": 44.5312563,
+   "longitude": -88.1010208
+  },
+  {
+   "name": "Bay Beach Amusement Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5313833,
+   "longitude": -87.9801812
+  },
+  {
+   "name": "Zippin Pippin",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5331994,
+   "longitude": -87.9835665
+  },
+  {
+   "name": "The Children's Museum of Green Bay",
+   "kind": "museum",
+   "address": "1230 Bay Beach Road, 54302, Green Bay",
+   "website": "https://www.gbchildrensmuseum.org/",
+   "phone": "",
+   "latitude": 44.5311819,
+   "longitude": -87.9834874
+  },
+  {
+   "name": "White Pillars Museum",
+   "kind": "museum",
+   "address": "403 North Broadway, 54115, De Pere",
+   "website": "https://deperehistoricalsociety.org/white_pillars.php",
+   "phone": "",
+   "latitude": 44.4525717,
+   "longitude": -88.0608144
+  },
+  {
+   "name": "Historic Hazelwood",
+   "kind": "museum",
+   "address": "1008 South Monroe Avenue, Green Bay",
+   "website": "https://dnr.wi.gov/topic/parks/name/lostdauphin/",
+   "phone": "",
+   "latitude": 44.5004286,
+   "longitude": -88.0193466
+  },
+  {
+   "name": "Packers Hall of Fame & Stadium Tours",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.packers.com/lambeau-field/hall-of-fame/visit.html",
+   "phone": "",
+   "latitude": 44.5014164,
+   "longitude": -88.060217
+  },
+  {
+   "name": "The Art Garage",
+   "kind": "gallery",
+   "address": "1400 Cedar Street, 54302, Green Bay",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5102635,
+   "longitude": -87.9917439
+  },
+  {
+   "name": "Bay Beach East Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5318208,
+   "longitude": -87.9809732
+  },
+  {
+   "name": "Bay Beach West Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5325682,
+   "longitude": -87.9823262
+  },
+  {
+   "name": "Scrambler",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5314205,
+   "longitude": -87.9808052
+  },
+  {
+   "name": "Tilt-a-Whirl",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5311887,
+   "longitude": -87.980909
+  },
+  {
+   "name": "Helicopters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5313328,
+   "longitude": -87.9811708
+  },
+  {
+   "name": "Ferris Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.531606,
+   "longitude": -87.9812447
+  },
+  {
+   "name": "Yo-Yo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5317745,
+   "longitude": -87.9815209
+  },
+  {
+   "name": "Sky Fighters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5320037,
+   "longitude": -87.981592
+  },
+  {
+   "name": "Granny Bugs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5321796,
+   "longitude": -87.9816965
+  },
+  {
+   "name": "Lady Bugs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5322497,
+   "longitude": -87.9815388
+  },
+  {
+   "name": "Boats",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5321093,
+   "longitude": -87.9814038
+  },
+  {
+   "name": "Scat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5311183,
+   "longitude": -87.9813818
+  },
+  {
+   "name": "Chairplane",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5325225,
+   "longitude": -87.9818098
+  },
+  {
+   "name": "Jeeps",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5322098,
+   "longitude": -87.9818535
+  },
+  {
+   "name": "Race Cars",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5320023,
+   "longitude": -87.9817575
+  },
+  {
+   "name": "Merry Go Round",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5318161,
+   "longitude": -87.9806157
+  },
+  {
+   "name": "Sea Dragon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5331525,
+   "longitude": -87.9848012
+  },
+  {
+   "name": "Rockin' Tug",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5325026,
+   "longitude": -87.9811215
+  },
+  {
+   "name": "Big Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5325415,
+   "longitude": -87.9806517
+  },
+  {
+   "name": "Wildlife Viewing Pier",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.4489522,
+   "longitude": -88.0633034
+  },
+  {
+   "name": "Shrine to St. Anthony",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5324023,
+   "longitude": -87.9049737
+  },
+  {
+   "name": "Nature Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5278026,
+   "longitude": -87.9728315
+  },
+  {
+   "name": "Giant Slide",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5328781,
+   "longitude": -87.9818331
+  },
+  {
+   "name": "Bay Beast",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5322294,
+   "longitude": -87.9812465
+  },
+  {
+   "name": "Kastle Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5299978,
+   "longitude": -87.9835771
+  },
+  {
+   "name": "Observation Platform",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5262318,
+   "longitude": -87.9105705
+  },
+  {
+   "name": "1929 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5023176,
+   "longitude": -88.0606267
+  },
+  {
+   "name": "1930 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5023515,
+   "longitude": -88.0606857
+  },
+  {
+   "name": "1931 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5023936,
+   "longitude": -88.0607394
+  },
+  {
+   "name": "1936 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.502438,
+   "longitude": -88.060764
+  },
+  {
+   "name": "1939 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5022757,
+   "longitude": -88.0606643
+  },
+  {
+   "name": "1944 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5022987,
+   "longitude": -88.0607201
+  },
+  {
+   "name": "1961 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5023477,
+   "longitude": -88.0607726
+  },
+  {
+   "name": "1962 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.502389,
+   "longitude": -88.0608123
+  },
+  {
+   "name": "1965 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5024318,
+   "longitude": -88.0608327
+  },
+  {
+   "name": "1966 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5022321,
+   "longitude": -88.0606868
+  },
+  {
+   "name": "1967 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5022589,
+   "longitude": -88.0607501
+  },
+  {
+   "name": "1996 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5023699,
+   "longitude": -88.0608778
+  },
+  {
+   "name": "2010 Championship Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.5024112,
+   "longitude": -88.0609057
+  }
+ ]
+}

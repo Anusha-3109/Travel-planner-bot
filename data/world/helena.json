@@ -1,0 +1,790 @@
+{
+ "city": "Helena",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 46.5932,
+ "longitude": -112.0375,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Helena",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "725 Carter Drive, 59601, Helena",
+   "url": "https://www.hilton.com/en/hotels/helmthx-hampton-helena/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 Prospect Avenue, 59601, Helena",
+   "url": "http://www.daysinn.com/hotels/montana/helena/days-inn-helena/hotel-overview"
+  },
+  {
+   "name": "Baymont Helena",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "750 North Fee Street, 59601, Helena",
+   "url": "http://www.comfortinn.com/hotel-helena-montana-MT033"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "22 North Last Chance Gulch, 59601, Helena",
+   "url": "https://www.hilton.com/en/hotels/hlndndt-doubletree-helena-downtown/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2150 11th Avenue, 59601, Helena",
+   "url": "https://www.marriott.com/hlnfi"
+  },
+  {
+   "name": "Fairfield by Marriott Inn & Suites Helena North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2007 N Oakes Street, 59601, Helena",
+   "url": "https://www.marriott.com/en-us/hotels/hlnfn-fairfield-inn-and-suites-helena-north/overview/"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3325 North Sanders Street, 59602, Helena",
+   "url": "https://www.hilton.com/en/hotels/hlnhtht-home2-suites-helena/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2500 East Custer Avenue, 59602, Helena",
+   "url": "https://www.marriott.com/hlnri"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 11th Avenue, 59601-4843, Helena",
+   "url": "https://www.wyndhamhotels.com/super-8/helena-montana/super-8-helena/overview"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3170 North Sanders Street, 59602, Helena",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/helena/hlecl/hoteldetail"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3180 North Washington Street, 59602, Helena",
+   "url": "https://www.choicehotels.com/montana/helena/comfort-suites-hotels"
+  },
+  {
+   "name": "La Quinta Inn & Suites Helena",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/helena-montana/la-quinta-helena/overview"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1714 11th Avenue, 59601, Helena",
+   "url": "https://www.jorgensonsinn.com/"
+  },
+  {
+   "name": "Budget Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "524 North Last Chance Gulch Street, Helena",
+   "url": "https://budgetinnhelena.com/"
+  },
+  {
+   "name": "Montana Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 Missoula Avenue, 59601, Helena",
+   "url": ""
+  },
+  {
+   "name": "Elkhorn Mountain Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Jackson Creek Road",
+   "url": ""
+  },
+  {
+   "name": "Delta Hotels Helena Colonial",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnsons",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Shilo Inn Helena",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knight's Extended Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Sanders Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Helena Accommodations",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Barrister Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Carolina",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lamplighter Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Village Inn Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1830 Prospect Avenue, 59601-3177, Helena",
+   "website": "https://www.vippmt.com"
+  },
+  {
+   "name": "Steve's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1225 East Custer Avenue, 59601, Helena",
+   "website": "https://www.stevescafe.com/"
+  },
+  {
+   "name": "Bad Betty's Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "812 Front Street, 59601, Helena",
+   "website": "https://badbettysbarbecue.com/"
+  },
+  {
+   "name": "Jersey Mike's Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2024 Suite A Cromwell Dixon Lane, 59602",
+   "website": "https://www.jerseymikes.com/41013/helena-mt"
+  },
+  {
+   "name": "Planet Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1421 11th Avenue, 59601, Helena",
+   "website": "https://planetgyroshelena.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3267 North Montana Avenue, 59602, Helena",
+   "website": "https://locations.pizzahut.com/mt/helena/3267-north-montana-ave"
+  },
+  {
+   "name": "Steffano's Pizza & Subs",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2100 North Last Chance Gulch Street, 59601, Helena",
+   "website": "https://stefanospizzeria.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/mt/helena/1212-custer-92096"
+  },
+  {
+   "name": "Bullman's Wood Fired Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1130 Helena Avenue, 59601, Helena",
+   "website": "https://bullmanspizza.net/locations/helena/"
+  },
+  {
+   "name": "Old Salt Outpost",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Breakfast"
+   ],
+   "address": "406 North Last Chance Gulch Street, 59601, Helena",
+   "website": "https://www.oldsaltco-op.com/pages/outpost"
+  },
+  {
+   "name": "Brewhouse Pub & Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "939 1/2 Getchell Street, 59601, Helena",
+   "website": "https://atthebrewhouse.com/"
+  },
+  {
+   "name": "Staggering Ox",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "400 Euclid Avenue, Helena",
+   "website": "https://staggeringox.com/helena/"
+  },
+  {
+   "name": "Suds Hut",
+   "cuisines": [
+    "American",
+    "Chicken"
+   ],
+   "address": "2701 North Montana Avenue, Helena",
+   "website": "https://www.sudshut.com/"
+  },
+  {
+   "name": "Big Dipper Ice Cream",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "58 N Last Chance Gulch, 59601",
+   "website": "https://www.bigdippericecream.com/index.php/fuseaction/history.main.htm"
+  },
+  {
+   "name": "Benny's Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "108 E. Sixth Ave, 59601",
+   "website": "http://bennysbistro.com/"
+  },
+  {
+   "name": "Mediterranean Grill",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "42 South Park Ave, 59601",
+   "website": "http://www.mediterraneangrillhelena.com/"
+  },
+  {
+   "name": "Brooklyn Pizza & Pasta Company",
+   "cuisines": [
+    "Italian",
+    "Pasta",
+    "Pizza"
+   ],
+   "address": "70 South Park Avenue, 59601, Helena",
+   "website": ""
+  },
+  {
+   "name": "RockstarrBBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "139 Reeders Alley, 59601-0339, Helena",
+   "website": ""
+  },
+  {
+   "name": "Red Sugar Dim Sum",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1605 11th Avenue, Helena",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Overland Express",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Casa Fiesta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wong's Chinese Kitchen & Oriental Shop",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Vaquero Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nagoya Japanese Steakhouse & Sushi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jalisco Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "LaPa Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hokkaido Ramen and Izakaya",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Melaque's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jorgies Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rise N Shine Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "On Broadway",
+   "cuisines": [],
+   "address": "106 East Broadway Street, 59601, Helena",
+   "website": "https://www.onbroadwayinhelena.com/"
+  },
+  {
+   "name": "Silver Star Steak Co",
+   "cuisines": [],
+   "address": "833 Great Northern Boulevard, 59601, Helena",
+   "website": "https://silverstarsteakco.com/"
+  },
+  {
+   "name": "Last Chance Casino and Restaurant",
+   "cuisines": [],
+   "address": "1001 North Last Chance Gulch Street, Helena",
+   "website": "https://www.lastchancecasinoandrestaurant.com/"
+  },
+  {
+   "name": "Miller's Crossing",
+   "cuisines": [],
+   "address": "52 S Park Ave, 59601",
+   "website": "http://www.millerscrossing.biz/"
+  },
+  {
+   "name": "Taco del Sol",
+   "cuisines": [],
+   "address": "103 N Last Chance Gulch, 59601",
+   "website": "http://www.tacodelsol.com/"
+  },
+  {
+   "name": "Nosh",
+   "cuisines": [],
+   "address": "105 East 6th Ave, 59601",
+   "website": "https://www.facebook.com/CieloCocina"
+  },
+  {
+   "name": "RB's Drive-In",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Breakfast Club",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shellie's Country Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jade Garden",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Makenzie River Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hwy 55",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Early Bird Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Zydeco",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Hopper",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Montana Club",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lucca's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Creperie",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bella Roma",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Motherlode Sports Bar & Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Atlas",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Great Northern Carousel",
+   "kind": "attraction",
+   "address": "989 Carousel Way, 59601, Helena",
+   "website": "https://www.gncarousel.com/",
+   "phone": "+1-406-457-5353",
+   "latitude": 46.5975871,
+   "longitude": -112.036735
+  },
+  {
+   "name": "Montana's Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://mhs.mt.gov/Museum/",
+   "phone": "",
+   "latitude": 46.5863506,
+   "longitude": -112.0158403
+  },
+  {
+   "name": "Holter Museum of Art",
+   "kind": "museum",
+   "address": "12 East Lawrence Street, 59601, Helena",
+   "website": "https://holtermuseum.org/",
+   "phone": "+1-406-442-6400",
+   "latitude": 46.5908685,
+   "longitude": -112.0365118
+  },
+  {
+   "name": "Exploration Works",
+   "kind": "museum",
+   "address": "995 Carousel Way, 59601, Helena",
+   "website": "https://www.explorationworks.org/",
+   "phone": "+1-406-457-1800",
+   "latitude": 46.5976156,
+   "longitude": -112.0362156
+  },
+  {
+   "name": "Omerta Arts",
+   "kind": "gallery",
+   "address": "800 Front Street, 59601, Helena",
+   "website": "https://www.omertaarts.org/",
+   "phone": "+1-406-442-1436",
+   "latitude": 46.5949533,
+   "longitude": -112.0368337
+  },
+  {
+   "name": "Reeder's Alley Interpretive And Convention Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://reedersalley.com/",
+   "phone": "",
+   "latitude": 46.585362,
+   "longitude": -112.043716
+  },
+  {
+   "name": "Mountain Sage Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5914905,
+   "longitude": -112.0369312
+  },
+  {
+   "name": "Selfie Spot",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5848809,
+   "longitude": -112.0432873
+  },
+  {
+   "name": "Caretaker's Cabin",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5849241,
+   "longitude": -112.0432332
+  },
+  {
+   "name": "Montana Heritage Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5872531,
+   "longitude": -112.0159746
+  }
+ ]
+}

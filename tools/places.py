@@ -3,8 +3,9 @@
 Places to stay are live first: with check-in and check-out dates for today or
 later and a SerpApi key set, search_accommodations asks Airbnb (default) or
 Google Hotels for current prices. Otherwise, or if the live search fails, it
-uses the snapshot data (TravelPlanner for US cities, Inside Airbnb for
-European and Asian cities) with exact filters.
+uses the 2026 snapshot data with exact filters: Inside Airbnb stays with
+prices for 50 cities, and OpenStreetMap hotels, motels and guest houses without
+prices for the other US cities.
 """
 
 import json
@@ -100,21 +101,23 @@ def _snapshot_accommodations(city: str, max_price_per_night: float | None = None
 
     matches = [
         a for a in catalog.accommodations.get(city.lower(), [])
-        if (max_price is None or a.price <= max_price)
+        if (max_price is None or (a.price is not None and a.price <= max_price))
         and (room_type is None or a.matches_room_type(room_type))
         and (must_allow is None or a.allows(must_allow))
         and (nights is None or a.minimum_nights <= nights)
     ]
-    matches.sort(key=lambda a: (a.price, -(a.rating or 0)))
+    matches.sort(key=lambda a: (a.price is None, a.price or 0, -(a.rating or 0)))
 
     def summary(a) -> dict:
-        item = {"name": a.name, "room_type": a.room_type, "price_per_night": a.price,
-                "maximum_occupancy": a.maximum_occupancy, "minimum_nights": a.minimum_nights,
+        item = {"name": a.name, "room_type": a.room_type,
+                "price_per_night": a.price if a.price is not None else "not in the snapshot (search live)",
+                "maximum_occupancy": a.maximum_occupancy if a.maximum_occupancy else "not published",
+                "minimum_nights": a.minimum_nights,
                 "house_rules": list(a.house_rules) if a.house_rules is not None else "not published",
                 "rating": a.rating if a.rating is not None else "not available"}
         if people:
             item["rooms_needed"] = a.rooms_needed(people)
-            if nights:
+            if nights and a.price is not None:
                 item["total_cost"] = a.price * a.rooms_needed(people) * nights
         return item
 
@@ -125,7 +128,8 @@ def _snapshot_accommodations(city: str, max_price_per_night: float | None = None
         "match_count": len(matches),
         "accommodations": [summary(a) for a in matches[: config.MAX_RESULTS_SHOWN]],
         "note": f"{catalog.data_note(city)} When a group is larger than maximum_occupancy, several rooms are booked. "
-                "Prices are in USD. A stay whose house rules are not published never matches must_allow.",
+                "Prices are in USD. A stay whose house rules are not published never matches must_allow. "
+                "OpenStreetMap stays have no prices: search with dates for live prices.",
     }
 
 
@@ -137,8 +141,8 @@ def search_restaurants(city: str, cuisine: str | None = None, max_average_cost: 
     per person), open now, opening hours, address and a Maps link; each has an
     id to use in plans. cuisine is any word ('Italian', 'sushi', 'vegan').
     max_average_cost is the most per person in USD; min_rating is 0-5. If live
-    data is unavailable, snapshot restaurants are used (US 2022 with prices;
-    Europe and Asia without prices or ratings)."""
+    data is unavailable, 2026 OpenStreetMap restaurants are used (cuisines, but
+    no prices or ratings)."""
     try:
         return json.dumps(find_restaurants(city, cuisine, max_average_cost, min_rating))
     except InputValidationError as error:
@@ -212,8 +216,8 @@ def search_accommodations(city: str, check_in_date: str | None = None, check_out
     results with current prices for those dates and people, worldwide.
     stay_type: 'airbnb' (default) or 'hotel'. Each live stay has an id, a total
     price, a rating and a link. Without dates, or if live search is unavailable:
-    snapshot data (TravelPlanner US cities, Inside Airbnb for European and
-    Asian cities), where nights adds the total cost.
+    2026 snapshot data (Inside Airbnb with prices for 50 cities, OpenStreetMap
+    stays without prices for other US cities), where nights adds the total cost.
     room_type: 'entire room', 'private room', 'shared room' or 'not shared room'.
     must_allow: a house rule the guest needs allowed: 'smoking', 'parties',
     'children under 10', 'visitors' or 'pets'. min_rating: 0-5."""

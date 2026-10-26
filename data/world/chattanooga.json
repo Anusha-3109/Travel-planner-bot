@@ -1,0 +1,1859 @@
+{
+ "city": "Chattanooga",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.052,
+ "longitude": -85.3082,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "The Westin Chattanooga",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 Pine Street, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "The Edwin Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 Walnut Street, 37403, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "The Dwell Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 East 10th Street, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "Chattanooga Choo Choo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "407 Chestnut Street, 37402, Chattanooga",
+   "url": "https://www.hilton.com/en/hotels/chachdt-doubletree-chattanooga-downtown/"
+  },
+  {
+   "name": "Comfort Inn Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2420 Williams Street, 37408, Chattanooga",
+   "url": "https://www.choicehotels.com/tennessee/jasper/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Chattanooga-Lookout Mtn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3710 Modern Industries Parkway, 37419, Chattanooga",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/chattanooga/chami/hoteldetail"
+  },
+  {
+   "name": "SpringHill Suites Chattanooga Downtown/Cameron Harbor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "495 Riverfront Parkway, 37402, Chattanooga",
+   "url": "https://www.marriott.com/hotels/travel/chash-springhill-suites-chattanooga-downtown-cameron-harbor/"
+  },
+  {
+   "name": "Courtyard Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Chestnut Street, 37402, Chattanooga",
+   "url": "https://www.marriott.com/chacy"
+  },
+  {
+   "name": "Residence Inn Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 Chestnut Street, 37402, Chattanooga",
+   "url": "https://www.marriott.com/chari"
+  },
+  {
+   "name": "Hampton Inn & Suites Chattanooga / Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Chestnut Street, 37402, Chattanooga",
+   "url": "https://www.hilton.com/en/hotels/chadnhx-hampton-suites-chattanooga-downtown/"
+  },
+  {
+   "name": "Moxy Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1220 King Street, 37403, Chattanooga",
+   "url": "https://www.marriott.com/hotels/travel/chaox-moxy-chattanooga-downtown/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3725 Modern Industries Parkway, 37419, Chattanooga",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-chattanooga-lookout-mountain-tn"
+  },
+  {
+   "name": "Hampton Inn Chattanooga West/Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "74 Starview Lane, 37419, Chattanooga",
+   "url": "https://www.hilton.com/en/hotels/chalmhx-hampton-chattanooga-west-lookout-mountain/"
+  },
+  {
+   "name": "Days Inn by Wyndham Chattanooga Lookout Mountain West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3801 Cummings Highway, 37419, Chattanooga",
+   "url": "https://www.wyndhamhotels.com/days-inn/chattanooga-tennessee/days-inn-chattanooga-lookout-mountain-west/overview"
+  },
+  {
+   "name": "Hilton Garden Inn Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Chestnut Street, 37402, Chattanooga",
+   "url": "https://www.hilton.com/en/hotels/chadtgi-hilton-garden-inn-chattanooga-downtown/"
+  },
+  {
+   "name": "Staybridge Suites Chattanooga Downtown - Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1300 Carter Street, 37402, Chattanooga",
+   "url": "https://www.ihg.com/staybridge/hotels/us/en/chattanooga/chacs/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn Chattanooga/Hixson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1920 Hamill Road, 37343, Hixson",
+   "url": "https://www.hilton.com/en/hotels/chahxhx-hampton-chattanooga-hixson/"
+  },
+  {
+   "name": "Super 8 Chattanooga Lookout Mountain TN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Birmingham Highway, 37419, Chattanooga",
+   "url": "https://www.wyndhamhotels.com/super-8/chattanooga-tennessee/super-8-chattanooga-lookout-mountain-tn/overview"
+  },
+  {
+   "name": "Econo Lodge Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 Browns Ferry Road, 37419, Chattanooga",
+   "url": "https://www.choicehotels.com/tennessee/jasper/quality-inn-hotels"
+  },
+  {
+   "name": "La Quinta Inn & Suites Chattanooga - Lookout Mtn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Browns Ferry Road, 37419, Chattanooga",
+   "url": "https://www.wyndhamhotels.com/laquinta/chattanooga-tennessee/la-quinta-chattanooga-lookout-mtn/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Chattanooga I-24/Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "40 Starview Lane, 37419, Chattanooga",
+   "url": "https://www.marriott.com/chatf"
+  },
+  {
+   "name": "Comfort Inn & Suites Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3117 Parker Lane, 37419, Chattanooga",
+   "url": "https://www.choicehotels.com/tennessee/chattanooga/comfort-inn-hotels/tn359?mc=llgoxxpx"
+  },
+  {
+   "name": "Hotel Bo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "901 Carter Street, 37402, Chattanooga",
+   "url": "https://www.hotelbochattanooga.com/"
+  },
+  {
+   "name": "Best Western Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3644 Cummings Highway, 37419-2313, Chattanooga",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-chattanooga/best-western-royal-inn/propertyCode.43117.html"
+  },
+  {
+   "name": "Spark by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 West 21st Street, 37408, Chattanooga",
+   "url": "https://www.hilton.com/en/hotels/chaddpe-spark-chattanooga-downtown/"
+  },
+  {
+   "name": "Caption by Hyatt Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "105 West Main Street, 37408, Chattanooga",
+   "url": "https://www.hyatt.com/caption-by-hyatt/en-US/chacp-caption-by-hyatt-chattanooga-downtown"
+  },
+  {
+   "name": "The Waymark Chattanooga, Tapestry by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "736 Broad Street, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites by Wyndham Chattanooga Downtown/South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1225 Cowart Street, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "The Chattanoogan",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201 Broad Street, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3540 Cummings Highway, 37419, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Hotel & Suites Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Chattanooga Marriott Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Carter Plaza, 37402, Chattanooga",
+   "url": ""
+  },
+  {
+   "name": "Chanticleer Inn Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1300 Mockingbird Lane, 30750, Lookout Mountain",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Clemons",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "730 West 8th Street",
+   "url": ""
+  },
+  {
+   "name": "The Westin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Indigo Chattanooga - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Chattanooga Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Chattanooga - Lookout Mountain",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Read House Historic Inn And Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof PLUS+ & Suites Chattanooga - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Kinley",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "West Campus Housing Complex",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bluff View Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Crash Pad",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites By Carlson, Chattanooga North at Highway 153",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Chatt Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "102 Signal Mountain Road, 37405, Chattanooga",
+   "website": "https://locations.wafflehouse.com/chattanooga-tn-263/"
+  },
+  {
+   "name": "Attack Of The Tatsu",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "818 Georgia Avenue, 37402, Chattanooga",
+   "website": "https://www.attackofthetatsu.com/"
+  },
+  {
+   "name": "River Street Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "151 River Street, 37405, Chattanooga",
+   "website": "https://www.riverstdeli.com"
+  },
+  {
+   "name": "The Local Juicery and Kitchen",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "48 East Main Street, 37408, Chattanooga",
+   "website": "https://thelocaljuicery.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "408 Market Street, 37402, Chattanooga",
+   "website": "https://www.chilis.com/locations/us/tennessee/chattanooga/market-street"
+  },
+  {
+   "name": "Tottos Sushi & Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "330 Frazier Avenue, 37405",
+   "website": "https://www.tottonooga.com/"
+  },
+  {
+   "name": "Mindy B's Deli",
+   "cuisines": [
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "828 Georgia Avenue, 37402, Chattanooga",
+   "website": "https://mindybsdeli.com/"
+  },
+  {
+   "name": "Urban Stack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "12 West 13th Street, 37402, Chattanooga",
+   "website": "https://www.urbanstack.com/"
+  },
+  {
+   "name": "The Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1110 Market Street, 37402, Chattanooga",
+   "website": "https://publichousechattanooga.com/"
+  },
+  {
+   "name": "Big Chicken",
+   "cuisines": [
+    "American"
+   ],
+   "address": "410 Broad Street, 37402",
+   "website": "https://www.bigchicken.com/chattanooga-tn"
+  },
+  {
+   "name": "Sushi Nabe",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "110 River Street, 37405, Chattanooga",
+   "website": "https://www.sushinaberestaurant.com/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "120 Market Street, 37402",
+   "website": "https://www.buffalowildwings.com/locations/us/tn/chattanooga/120-market-street/sports-bar-221"
+  },
+  {
+   "name": "Han-Mi",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "3103 Broad Street, 37405, Chattanooga",
+   "website": "https://hanmichatt.com/"
+  },
+  {
+   "name": "Hunan Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2201 East 23rd Street, 37407-1108, Chattanooga",
+   "website": "https://www.hunanwok1.com/"
+  },
+  {
+   "name": "Puckett's Restaurant",
+   "cuisines": [
+    "Regional",
+    "American"
+   ],
+   "address": "2 West Aquarium Way, 37402, Chattanooga",
+   "website": "https://www.puckettsrestaurant.com/chattanooga"
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "205 Broad Street, 37402, Chattanooga",
+   "website": "https://www.mellowmushroom.com/locations/tn/chattanooga/205-broad-st/"
+  },
+  {
+   "name": "Wooden City",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "203 Broad Street, 37402, Chattanooga",
+   "website": "https://www.woodencitychattanooga.com/"
+  },
+  {
+   "name": "Conga",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "26 East Main Street, 37408, Chattanooga",
+   "website": "https://conga-latin-food.square.site/"
+  },
+  {
+   "name": "Stir",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1444 Market Street, 37402, Chattanooga",
+   "website": "https://stirchattanooga.com/"
+  },
+  {
+   "name": "Alleia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "25 East Main Street, 37408",
+   "website": "http://alleiarestaurant.com/"
+  },
+  {
+   "name": "Kenny's",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1251 Market Street, 37402, Chattanooga",
+   "website": "https://www.kennyssandwiches.com/"
+  },
+  {
+   "name": "Mezcla Cocina Y Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2 Cherokee Boulevard, 37405",
+   "website": "https://www.mezclacantina.com/"
+  },
+  {
+   "name": "Mayan Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "507 Broad Street, 37402",
+   "website": "https://themayankitchen.com/"
+  },
+  {
+   "name": "Rodizio Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "439 Broad Street, 37402",
+   "website": "https://www.rodiziogrill.com/chattanoogadowntown/"
+  },
+  {
+   "name": "Riverport Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "224 Broad Street, 37402",
+   "website": "https://riverportgrille.com/"
+  },
+  {
+   "name": "Southside Social",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1818 Chestnut Street, 37408",
+   "website": "https://www.thesouthsidesocial.com/"
+  },
+  {
+   "name": "Honey Seed",
+   "cuisines": [
+    "American",
+    "Pizza"
+   ],
+   "address": "1705 South Market Street, 37408",
+   "website": "https://www.honeyseedchatt.com/"
+  },
+  {
+   "name": "LA SANTA",
+   "cuisines": [
+    "Local",
+    "Mexican"
+   ],
+   "address": "551 River Street, 37405",
+   "website": "https://lasantachattanooga.com/"
+  },
+  {
+   "name": "Clumpies",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "26 Frazier Avenue, 37405, Chattanooga",
+   "website": "https://clumpies.com/pages/northshore"
+  },
+  {
+   "name": "Blue Orleans",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1463 Market Street, 37408",
+   "website": "https://blueorleansdowntown.com/"
+  },
+  {
+   "name": "The Pickle Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1012 Market Street, 37402",
+   "website": "https://picklebarreltn.com/"
+  },
+  {
+   "name": "Stevarinos",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "325 Cherokee Boulevard, 37405",
+   "website": "https://stevarinos.com/"
+  },
+  {
+   "name": "Brewhaus",
+   "cuisines": [
+    "German"
+   ],
+   "address": "224 Frazier Avenue, 37402",
+   "website": "https://brewhausbar.com/"
+  },
+  {
+   "name": "2nd",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1601 Cowart Street, 37408",
+   "website": "https://2ndamerican.com/"
+  },
+  {
+   "name": "Bollywood Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "203 East Main Street, 37408",
+   "website": "https://bollywoodtacos-tn.com/"
+  },
+  {
+   "name": "Champy's Fried Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "526 East Martin Luther King Boulevard, 37403, Chattanooga",
+   "website": "https://champyschicken.com/location/mlk"
+  },
+  {
+   "name": "Mexiville",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "809 Market Street, 37402, Chattanooga",
+   "website": "https://mexivilletn.com/"
+  },
+  {
+   "name": "Thai Smile",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "321 Market Street, 37402",
+   "website": "https://thaismilecha.com/"
+  },
+  {
+   "name": "Flaming Rooster",
+   "cuisines": [
+    "Chicken",
+    "Fried Chicken"
+   ],
+   "address": "1900 Broad Street, 37408, Chattanooga",
+   "website": "https://www.theflamingrooster.net/"
+  },
+  {
+   "name": "Frothy Monkey",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "1400 Market Street, 37402, Chattanooga",
+   "website": "https://frothymonkey.com/locations/southside-chattanooga/"
+  },
+  {
+   "name": "The Big Chill and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "103 Cherokee Boulevard, 37405",
+   "website": "https://bigchillchatt.com/"
+  },
+  {
+   "name": "Bento-Ya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "111 Frazier Avenue, 37405",
+   "website": "https://www.bentoyacha.com/"
+  },
+  {
+   "name": "Maple Street Biscuit Company",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "407 Broad Street, 37402",
+   "website": "https://www.maplestreetbiscuits.com/tennessee-locations/city-center"
+  },
+  {
+   "name": "Fiamma Pizza Company",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "37405",
+   "website": "https://fiammapizzaco.com/"
+  },
+  {
+   "name": "Pizza Bros Southside",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1817 Broad Street, 37408",
+   "website": "https://pizzabroschattanooga.com/"
+  },
+  {
+   "name": "Keystone Breakfast + Lunch",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "440 Frazier Avenue, 37405",
+   "website": "https://www.keystonechatt.com/"
+  },
+  {
+   "name": "St. Johns Restaurant",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "729 West 8th Street, 37402",
+   "website": "https://www.stjohnsrestaurant.com/"
+  },
+  {
+   "name": "Wings Town",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1805 East 23rd Street, 37404-5712, Chattanooga",
+   "website": "https://www.wingstowntogo.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1204 Hixson Pike, 37405, Chattanooga",
+   "website": "https://locations.pizzahut.com/tn/chattanooga/1204-hixson-pike"
+  },
+  {
+   "name": "Agave & Rye",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "185 Chestnut Street, 37402, Chattanooga",
+   "website": "https://www.agaveandrye.com/locations/agave-rye-chattanooga"
+  },
+  {
+   "name": "Hennens",
+   "cuisines": [
+    "Seafood",
+    "Steak House"
+   ],
+   "address": "193 Chestnut Street, 37402, Chattanooga",
+   "website": "https://www.hennens.net/"
+  },
+  {
+   "name": "Lupi's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "406 Broad Street, 37402",
+   "website": "https://lupi.com/"
+  },
+  {
+   "name": "Taqueria Jalisco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "850 Market St, 37402, Chattanooga",
+   "website": "https://www.taqueriacha.com/location"
+  },
+  {
+   "name": "Taqueria Jalisco Ania",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1639 Rossville Avenue, 37408",
+   "website": "https://www.taqueriacha.com/"
+  },
+  {
+   "name": "Whitebird",
+   "cuisines": [
+    "American"
+   ],
+   "address": "37403",
+   "website": "https://www.whitebirdchattanooga.com/"
+  },
+  {
+   "name": "Edley's Bar-B-Que",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "205 Manufacturers Road, 37405",
+   "website": "https://www.edleysbbq.com/locations/chattanooga"
+  },
+  {
+   "name": "Opa!",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "249 River Street, 37405",
+   "website": "https://www.opagreekrestaurants.com/"
+  },
+  {
+   "name": "Burger Republic",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "203 West Aquarium Way, 37402, Chattanooga",
+   "website": "https://burgerrepublic.com/chattanooga/"
+  },
+  {
+   "name": "City Cafe Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "511 Broad Street, 37402",
+   "website": "https://citycafediner.com/downtown-chattanooga/"
+  },
+  {
+   "name": "Chi-Chi's Charred Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "811 Market Street, 37402",
+   "website": "https://chattchichis.com/"
+  },
+  {
+   "name": "Crust Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3211 Broad Street, 37408",
+   "website": "https://www.crustpizzatn.com/"
+  },
+  {
+   "name": "Frazier Five & Dime",
+   "cuisines": [
+    "American"
+   ],
+   "address": "16 Frazier Avenue, 37405",
+   "website": "https://www.frazier5and10.com/"
+  },
+  {
+   "name": "Rembrandts",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "204 High Street, 37403",
+   "website": "https://bluffviewartdistrictchattanooga.com/rembrandtscoffeehouse/"
+  },
+  {
+   "name": "Taco Mamacita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "109 Market Street, 37405",
+   "website": "https://www.tacomamacitachattanooga.com/"
+  },
+  {
+   "name": "The Southern Star",
+   "cuisines": [
+    "American"
+   ],
+   "address": "37402",
+   "website": "https://www.southernstarrestaurant.com/"
+  },
+  {
+   "name": "Community Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "850 Market Street, Chattanooga",
+   "website": "https://communitypie.com/"
+  },
+  {
+   "name": "The Downtowner Breakfast Bistro & Bar",
+   "cuisines": [
+    "Coffee Shop",
+    "Danish",
+    "Pancake"
+   ],
+   "address": "901 Carter Street, 37402, Chattanooga",
+   "website": "https://www.hotelbochattanooga.com/dining"
+  },
+  {
+   "name": "Alex's Thai Food & Sushi Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "26 East Main Street, 37408, Chattanooga",
+   "website": "https://alexthaifood.com/"
+  },
+  {
+   "name": "Mr. Burrito Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "517 East Martin Luther King Boulevard, 37403, Chattanooga",
+   "website": "https://www.mrburritogrill.net/"
+  },
+  {
+   "name": "Universal Joint",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "532 Lookout Street, 37403, Chattanooga",
+   "website": "https://www.ujointbar.com/chattanooga"
+  },
+  {
+   "name": "Big Bad Breakfast",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "313 Manufacturers Road, Chattanooga",
+   "website": "https://bigbadbreakfast.com/chattanooga/"
+  },
+  {
+   "name": "Dosbros Fresh Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "37408",
+   "website": "https://dosbros.com/downtown-chattanooga-location/"
+  },
+  {
+   "name": "Chatt's Smoke House",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "416 East Martin Luther King Boulevard, 37402, Chattanooga",
+   "website": "https://chatt-smokehouse.com/"
+  },
+  {
+   "name": "Ankar's Downtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "510 Broad Street, 37402",
+   "website": ""
+  },
+  {
+   "name": "Tienda Tikal",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2421 4th Avenue, 37407-1118, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Browns Ferry Food Mart",
+   "cuisines": [
+    "American"
+   ],
+   "address": "541 Browns Ferry Road, 37419-1507, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "University Pizza & Deli",
+   "cuisines": [
+    "American",
+    "Greek",
+    "Mediterranean"
+   ],
+   "address": "430 Vine Street, 37403, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Lo Main",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2315 East Main Street, 37404, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "The Trinity Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1278 Market Street, 37406, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "The Yellow Deli",
+   "cuisines": [
+    "American"
+   ],
+   "address": "737 McCallie Avenue, 37403, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Innside Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "816 Chestnut Street, 37450, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Amigo's Mexican Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3812 Tennessee Avenue",
+   "website": ""
+  },
+  {
+   "name": "Il Primo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1100 Hixson Pike, 37405, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Goodfellas",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1208 King Street, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Memo's Grill",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "430 East Martin Luther King Boulevard, 37402, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Ruby Sunshine",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "405 Market Street, 37402",
+   "website": ""
+  },
+  {
+   "name": "Tony's Pasta Shop & Trattoria",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "423 Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Altena",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chipotle Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Solicito Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Bonita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Camoja",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mike's Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Scotties on the River",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zarzour's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Southside Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bella Lisboa",
+   "cuisines": [
+    "Portuguese",
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Bros",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frios Gourmet Pops",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chattanooga Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kai Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Barque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hello Monty",
+   "cuisines": [],
+   "address": "306 West Main Street, 37408",
+   "website": "https://www.hellomontyonmain.com/"
+  },
+  {
+   "name": "Shady's Corner",
+   "cuisines": [],
+   "address": "1402 Cemetery Avenue, 37408, Chattanooga",
+   "website": "https://www.shadyscorner.com/"
+  },
+  {
+   "name": "Bluegrass Grill",
+   "cuisines": [],
+   "address": "55 East Main Street, 37408",
+   "website": "https://www.bluegrassgrillchattanooga.com/"
+  },
+  {
+   "name": "Basecamp",
+   "cuisines": [],
+   "address": "346 Frazier Avenue, 37405",
+   "website": "https://www.basecampcha.com/"
+  },
+  {
+   "name": "The Playlist",
+   "cuisines": [],
+   "address": "100 Market Street, 37402",
+   "website": "https://theplaylist.biz/"
+  },
+  {
+   "name": "Old Gilman Grill",
+   "cuisines": [],
+   "address": "216 West 8th Street, 37402",
+   "website": "https://www.oldgilmangrill.com/"
+  },
+  {
+   "name": "Outpost Bar & Restaurant",
+   "cuisines": [],
+   "address": "342 East Main Street, 37408",
+   "website": "https://outpostcha.com/"
+  },
+  {
+   "name": "State of Confusion",
+   "cuisines": [],
+   "address": "301 East Main Street, 37408",
+   "website": "https://www.soconfusion.com/"
+  },
+  {
+   "name": "FEED Co. Table & Tavern",
+   "cuisines": [],
+   "address": "201 West Main Street, 37408",
+   "website": "https://www.feedtableandtavern.com/"
+  },
+  {
+   "name": "Easy Bistro and Bar",
+   "cuisines": [],
+   "address": "801 Chestnut Street, 37402",
+   "website": "https://www.easybistro.com/"
+  },
+  {
+   "name": "Southern Squeeze",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sluggo's",
+   "cuisines": [],
+   "address": "Cherokee Blvd",
+   "website": ""
+  },
+  {
+   "name": "Metropolis Cafe",
+   "cuisines": [],
+   "address": "200 Market Street, 37402, Chattanooga",
+   "website": ""
+  },
+  {
+   "name": "Boathouse Rotisserie & Raw Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Back Inn cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Parkway Pourhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Third Deck Burger Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aretha Frankenteins",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Longhorn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tubby's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nooga Q",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Foundry",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Daily Ration",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Tennessee Aquarium",
+   "kind": "aquarium",
+   "address": "1 Broad Street, 37402, Chattanooga",
+   "website": "https://www.tnaqua.org/",
+   "phone": "+1-800-262-0695",
+   "latitude": 35.0558394,
+   "longitude": -85.311023
+  },
+  {
+   "name": "Hunter Museum of American Art",
+   "kind": "museum",
+   "address": "10 Bluff View Avenue, 37403, Chattanooga",
+   "website": "https://www.huntermuseum.org/",
+   "phone": "+1-423-267-0968",
+   "latitude": 35.0558415,
+   "longitude": -85.3062145
+  },
+  {
+   "name": "International Towing and Recovery Hall of Fame and Museum",
+   "kind": "museum",
+   "address": "3315 Broad Street, 37408, Chattanooga",
+   "website": "https://internationaltowingmuseum.org/",
+   "phone": "",
+   "latitude": 35.0169936,
+   "longitude": -85.323637
+  },
+  {
+   "name": "Creative Discovery Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cdmfun.org/",
+   "phone": "",
+   "latitude": 35.05268,
+   "longitude": -85.3122013
+  },
+  {
+   "name": "Lake Winnepesaukah",
+   "kind": "theme park",
+   "address": "",
+   "website": "https://lakewinnie.com/",
+   "phone": "",
+   "latitude": 34.9762423,
+   "longitude": -85.24603
+  },
+  {
+   "name": "Orchard Knob Reservation",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0394631,
+   "longitude": -85.2735803
+  },
+  {
+   "name": "Ochs Memorial Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0125533,
+   "longitude": -85.3436573
+  },
+  {
+   "name": "Tennessee Valley Railroad Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0671607,
+   "longitude": -85.2057825
+  },
+  {
+   "name": "Louisville & Nashville Historical Society",
+   "kind": "museum",
+   "address": "4543 Turntable Road, 37421, Chattanooga",
+   "website": "http://www.lnrr.org",
+   "phone": "",
+   "latitude": 35.0649214,
+   "longitude": -85.2058296
+  },
+  {
+   "name": "Houston Museum of Decorative Arts",
+   "kind": "museum",
+   "address": "201 High Street, 37403, Chattanooga",
+   "website": "https://www.thehoustonmuseum.org/",
+   "phone": "",
+   "latitude": 35.0547297,
+   "longitude": -85.3057668
+  },
+  {
+   "name": "Chattanooga Zoo",
+   "kind": "zoo",
+   "address": "301 North Holtzclaw Avenue, 37404, Chattanooga",
+   "website": "https://www.chattzoo.org/",
+   "phone": "",
+   "latitude": 35.0431547,
+   "longitude": -85.28334
+  },
+  {
+   "name": "Siskin Museum of Religious Artifacts",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.siskin.org/museum-of-religious-artifacts/#:~:text=The%20Siskin%20Museum%20of%20Religious%20Artifacts%20contains%20over%20400%20religious,%2C%20Hinduism%2C%20Confucianism%20and%20others.",
+   "phone": "",
+   "latitude": 35.0503516,
+   "longitude": -85.290513
+  },
+  {
+   "name": "Central of Georgia 349",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.tvrail.com/equipment/central-of-georgia-349/",
+   "phone": "",
+   "latitude": 35.0482146,
+   "longitude": -85.2928749
+  },
+  {
+   "name": "Southern Railway Historical Assoc",
+   "kind": "museum",
+   "address": "4543 Turntable Road, 37421, Chattanooga",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0651711,
+   "longitude": -85.2057086
+  },
+  {
+   "name": "Tennessee Valley Railroad Museum - Grand Junction",
+   "kind": "museum",
+   "address": "4119 Cromwell Road, 37421, Chattanooga",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0678909,
+   "longitude": -85.2061398
+  },
+  {
+   "name": "Battles of Chattanooga Museum",
+   "kind": "museum",
+   "address": "1110 East Brow Road, 37350, Lookout Mountain",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0094367,
+   "longitude": -85.3438868
+  },
+  {
+   "name": "Coolidge National Medal of Honor Heritage Center",
+   "kind": "museum",
+   "address": "2 West Aquarium Way, 37401, Chattanooga",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0552275,
+   "longitude": -85.3104918
+  },
+  {
+   "name": "Ocean Journey",
+   "kind": "aquarium",
+   "address": "1 Broad Street, 37402, Chattanooga",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0560635,
+   "longitude": -85.3101147
+  },
+  {
+   "name": "Bessie Smith Cultural Center and Chattanooga African American Museum",
+   "kind": "museum",
+   "address": "200 East Martin Luther King Boulevard, 37403, Chattanooga",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0445706,
+   "longitude": -85.3065903
+  },
+  {
+   "name": "Freedom Church",
+   "kind": "attraction",
+   "address": "1212 South Seminole Drive, 37412",
+   "website": "",
+   "phone": "",
+   "latitude": 34.9974612,
+   "longitude": -85.2657917
+  },
+  {
+   "name": "Sunset Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0017537,
+   "longitude": -85.3548868
+  },
+  {
+   "name": "Coffey's Cliff",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0734547,
+   "longitude": -85.2539586
+  },
+  {
+   "name": "Ruby Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0187325,
+   "longitude": -85.3392923
+  },
+  {
+   "name": "Cravens House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0138036,
+   "longitude": -85.3414359
+  },
+  {
+   "name": "Baker Street Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0615807,
+   "longitude": -85.3025165
+  },
+  {
+   "name": "Chickamauga Limestone",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.1034059,
+   "longitude": -85.331361
+  },
+  {
+   "name": "Ropers Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0123858,
+   "longitude": -85.3442334
+  },
+  {
+   "name": "Umbrella Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0126909,
+   "longitude": -85.3437193
+  },
+  {
+   "name": "Walnut Street Bridge",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0581826,
+   "longitude": -85.3073083
+  },
+  {
+   "name": "Ayelet's Style",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.9956221,
+   "longitude": -85.2385908
+  },
+  {
+   "name": "Racoon Mountain Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0725706,
+   "longitude": -85.4139884
+  },
+  {
+   "name": "Denise Heinly Art Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.100985,
+   "longitude": -85.2360347
+  },
+  {
+   "name": "Sir Goony's Family Fun Center",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.01464,
+   "longitude": -85.2076495
+  },
+  {
+   "name": "Chattanooga Choo Choo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0371966,
+   "longitude": -85.3063846
+  }
+ ]
+}

@@ -1,0 +1,794 @@
+{
+ "city": "Eau Claire",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.8124,
+ "longitude": -91.5025,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Candlewood Suites Eau Claire I-94",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4937 Bullis Farm Road, 54701, Eau Claire",
+   "url": "https://www.ihg.com/candlewood/hotels/us/en/eau-claire/eaucs/hoteldetail?cm_mmc=GoogleMaps-_-CW-_-US-_-EAUCS"
+  },
+  {
+   "name": "Days Inn West-Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6319 Truax Lane, 54703, Eau Claire",
+   "url": "http://www.daysinn.com/hotels/wisconsin/eau-claire/days-inn-west-eau-claire/hotel-overview"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2703 Craig Road, 54701, Eau Claire",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/eau-claire/eaucr/hoteldetail"
+  },
+  {
+   "name": "Super 8 Eau Claire WI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1151 West Macarthur Avenue, 54701, Eau Claire",
+   "url": "http://www.super8.com/hotels/wisconsin/eau-claire/super-8-eau-claire-wi/hotel-overview"
+  },
+  {
+   "name": "Hampton Inn Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2622 Craig Road, 54701, Eau Claire",
+   "url": "https://www.hilton.com/en/hotels/eaucrhx-hampton-eau-claire/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6260 Texaco Drive, 54703, Eau Claire",
+   "url": "https://www.wyndhamhotels.com/super-8/eau-claire-wisconsin/super-8-eau-claire-i-94/overview"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4135 Oakwood Hills Parkway, 54701, Eau Claire",
+   "url": "https://www.hilton.com/en/hotels/eauuuht-home2-suites-eau-claire-south/"
+  },
+  {
+   "name": "Residence Inn Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4466 Princeton Ridge Drive, 54703, Eau Claire",
+   "url": "https://www.marriott.com/eauri"
+  },
+  {
+   "name": "Baymont Inn & Suites Eau Claire WI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4075 Commonwealth Avenue, 54701, Eau Claire",
+   "url": "https://www.wyndhamhotels.com/baymont/eau-claire-wisconsin/baymont-inn-and-suites-eau-claire-wi/overview"
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5872 33rd Avenue, 54703, Eau Claire",
+   "url": "https://www.choicehotels.com/wisconsin/menomonie/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Eau Claire Chippewa Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1666 Princeton Crossing, 54703, Eau Claire",
+   "url": "https://www.marriott.com/eaufi"
+  },
+  {
+   "name": "The Lismore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 Gibson Street, 54701, Eau Claire",
+   "url": "https://www.hilton.com/en/hotels/eaudtdt-the-lismore-hotel-eau-claire/"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3117 Craig Road, 54701, Eau Claire",
+   "url": "http://www.comfortinn.com/hotel-eau_claire-wisconsin-WI026"
+  },
+  {
+   "name": "Motel 6 Eau Claire, WI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2305 Craig Road, 54701, Eau Claire",
+   "url": "https://www.motel6.com/en/home/motels.wi.eauclaire.4953.html?lid=Local_Milestone_4953&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W"
+  },
+  {
+   "name": "Holiday Inn Eau Claire South I-94",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4751 Owen Ayres Court, 54701, Eau Claire",
+   "url": "https://www.staybridge.com/hotels/us/en/altoona/eaurp/hoteldetail"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4608 Royal Drive, 54701, Eau Claire",
+   "url": "https://www.choicehotels.com/wisconsin/menomonie/quality-inn-hotels"
+  },
+  {
+   "name": "BEST WESTERN PLUS Eau Claire Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3340 Mondovi Road, 54701-6131, Eau Claire",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-eau-claire/best-western-plus-eau-claire-conference-center/propertyCode.50126.html"
+  },
+  {
+   "name": "Scottish Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1135 West Macarthur Avenue, 54701, Eau Claire",
+   "url": ""
+  },
+  {
+   "name": "Curvue Hideway & Trees",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6760 Curvue Road, 54703, Eau Claire",
+   "url": ""
+  },
+  {
+   "name": "Antlers Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2245 South Hastings Way, 54701, Eau Claire",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Eau Claire - Altoona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 Bluestem Boulevard",
+   "url": ""
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Hotel & Suites Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites By Carlson, Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn & Suites Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Oxbow Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Metropolis Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Westgate Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clairemont Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Maple Manor Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Garton's Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "GrandStay Residential Suites Hotel Eau Claire",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Silly Serrano Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "329 Riverfront Terrace, 54703, Eau Claire",
+   "website": "https://www.sillyserrano.com/"
+  },
+  {
+   "name": "Hawaii Poke Bowl",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "949 West Clairemont Avenue, 54701, Eau Claire",
+   "website": "https://hawaiipokeusa.com"
+  },
+  {
+   "name": "Roadside Ice Cream and Diner",
+   "cuisines": [
+    "Burger",
+    "Ice Cream"
+   ],
+   "address": "1160 Menomonie Street, 54703, Eau Claire",
+   "website": "https://roadsideec.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1242 West Clairemont Avenue, 54701, Eau Claire",
+   "website": "https://locations.pizzahut.com/wi/eau-claire/1242-w-clairemont-ave"
+  },
+  {
+   "name": "Tokyo Restaurant",
+   "cuisines": [
+    "Japanese",
+    "Teppanyaki"
+   ],
+   "address": "2426 London Road, 54701, Eau Claire",
+   "website": "https://www.tokyoeauclaire.com/"
+  },
+  {
+   "name": "Madden Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "10 South Barstow Street, 54701, Eau Claire",
+   "website": "https://maddenramen.com/"
+  },
+  {
+   "name": "Mona Lisa's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "428 Water Street, 54703, Eau Claire",
+   "website": "https://www.monalisaeauclaire.com/"
+  },
+  {
+   "name": "Wisco's Bar & Eatery Eau Claire",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1920 South Hastings Way, 54701, Eau Claire",
+   "website": "http://wiscoseauclaire.com/"
+  },
+  {
+   "name": "Draganetti's Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3120 East Clairemont Avenue, 54720, Altoona",
+   "website": "https://www.draganettis.com/"
+  },
+  {
+   "name": "Bijou Bistro",
+   "cuisines": [
+    "European"
+   ],
+   "address": "2629 East Clairemont Avenue, 54701, Eau Claire",
+   "website": "http://www.bijou-bistro.com/"
+  },
+  {
+   "name": "Hot Pot & BBQ Sushi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2613 East Clairemont Avenue, 54701, Eau Claire",
+   "website": "https://hotpotbarbequesushi.kwickmenu.com/"
+  },
+  {
+   "name": "Leona's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "408 Galloway Street, 54703, Eau Claire",
+   "website": "https://leonaspizzeria.com/"
+  },
+  {
+   "name": "Topper's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Enterprise Street",
+   "website": "http://Toppers.com"
+  },
+  {
+   "name": "Casa Vallarta Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2426 Seymour Road, 54703, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Rice Palace",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "210 South Barstow Street, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Chick-A-Dee's Family Restaurant",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Diner"
+   ],
+   "address": "1928 3rd Street, 54703-5161",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1019 West Clairemont Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2025 Highland Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Thai Orchid",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "203 North Barstow Street, 54703, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2451 Truax Boulevard, 54703, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2911 Mall Drive, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Azul Tequila Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2503 London Road, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Gyro King",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "320 Water Street, 54703, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Poblanita Restaurante Mexicano",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2436 London Road, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Milwaukee Burger Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2620 East Clairemont Avenue, 54703, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Red Coal BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1907 Brackett Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Houligans Steak & Seafood Pub",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "415 South Barstow Street, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Ninja Japanese and Chinese Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "405 South Barstow Street, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Sammy's Pizza Restaurant & Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2812 London Road, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Olympic Flame",
+   "cuisines": [
+    "Greek",
+    "American"
+   ],
+   "address": "2920 London Road, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Tacos Juanita Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2823 East Hamilton Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Noodle Wrap Hmong",
+   "cuisines": [
+    "Hmong"
+   ],
+   "address": "2905 Mall Drive, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Pizza Del Re",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "911 North Hastings Way, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Jumbo House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2633 Birch Street, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cancun Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Juanita’s Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fortune Cookie",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cancun Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burracho's",
+   "cuisines": [
+    "Burrito",
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Egg Rolls Plus",
+   "cuisines": [
+    "Hmong"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Randy's Family Restaurant",
+   "cuisines": [],
+   "address": "1132 West MacArthur Avenue, 54701, Eau Claire",
+   "website": "https://randysfood.com/"
+  },
+  {
+   "name": "The Informalist",
+   "cuisines": [],
+   "address": "205 South Barstow Street, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "The Metro;Wisconsin Department of Public Instruction",
+   "cuisines": [],
+   "address": "402 Graham Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Nelson Cheese Factory",
+   "cuisines": [],
+   "address": "1636 Harding Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Dickies BBQ Pit",
+   "cuisines": [],
+   "address": "311 East Clairemont Avenue, 54701, Eau Claire",
+   "website": ""
+  },
+  {
+   "name": "Cowboy Jack's",
+   "cuisines": [],
+   "address": "1432 Front Porch Place",
+   "website": ""
+  },
+  {
+   "name": "The Nucleus",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Chippewa Valley Historical Museum",
+   "kind": "museum",
+   "address": "1204 Carson Park Drive, 54703, Eau Claire",
+   "website": "https://www.cvmuseum.com/",
+   "phone": "",
+   "latitude": 44.8115155,
+   "longitude": -91.517708
+  },
+  {
+   "name": "Paul Bunyan Logging Camp Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cvmuseum.com/",
+   "phone": "",
+   "latitude": 44.8104592,
+   "longitude": -91.5179189
+  },
+  {
+   "name": "Children’s Museum of Eau Claire",
+   "kind": "museum",
+   "address": "North Barstow Street, 54701, Eau Claire",
+   "website": "",
+   "phone": "",
+   "latitude": 44.8142735,
+   "longitude": -91.5017576
+  },
+  {
+   "name": "2Roots Gallery",
+   "kind": "gallery",
+   "address": "214 South Barstow Street",
+   "website": "",
+   "phone": "",
+   "latitude": 44.8111,
+   "longitude": -91.4998547
+  }
+ ]
+}

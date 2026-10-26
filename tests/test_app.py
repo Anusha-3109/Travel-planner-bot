@@ -32,7 +32,7 @@ def test_trip_question_names_dates_currency_and_stay():
 def test_examples_use_dates_from_today():
     examples = example_questions(date(2026, 10, 23))
     assert "starting 06 November 2026" in examples[0] and "22 November 2026" in examples[1]
-    assert examples[-1].endswith("(snapshot data).")
+    assert examples[-1].startswith("Plan a 3-day trip from Washington to Myrtle Beach starting 22 November 2026")
 
 
 def test_sidebar_has_currency_and_future_trip_form(app):
@@ -51,3 +51,11 @@ def test_changing_currency_updates_the_budget_label(app):
 def test_example_buttons_are_shown(app):
     labels = [b.label for b in app.button]
     assert example_questions()[0] in labels and example_questions()[-1] in labels
+
+
+def test_no_flight_rule_does_not_ask_for_flights():
+    question = trip_question("San Jose", "Portland", date(2026, 12, 25), 2, 2, 1000, "USD", "Airbnb",
+                             transportation="no flight")
+    assert "Include transport other than flights both ways" in question and "transportation: no flight" in question
+    assert "Include flights both ways" in trip_question("Boston", "Rome", date(2026, 12, 25), 2, 2, 1000, "USD",
+                                                        "Airbnb")

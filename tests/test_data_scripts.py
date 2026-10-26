@@ -30,7 +30,7 @@ class FakeResponse:
 def test_world_cities_have_urls_and_slugs():
     assert TOKYO.slug == "tokyo" and TOKYO.scrape_date == "2026-09-25"
     assert TOKYO.listings_url.startswith("https://data.insideairbnb.com/japan/") and TOKYO.listings_url.endswith(".csv.gz")
-    assert len({c.slug for c in WORLD_CITIES}) == len(WORLD_CITIES) == 50
+    assert len({c.slug for c in WORLD_CITIES}) == len(WORLD_CITIES) == 245
 
 
 def test_usd_rates_from_the_ecb(monkeypatch):
@@ -64,11 +64,11 @@ def test_stays_are_filtered_converted_and_sorted(monkeypatch):
 
 def test_openstreetmap_places_prefer_latin_names_and_skip_duplicates(monkeypatch):
     elements = [
-        {"tags": {"name": "寿司", "cuisine": "sushi"}},
-        {"tags": {"name": "Sushi Zanmai", "name:en": "Sushi Zanmai", "cuisine": "sushi;japanese",
+        {"tags": {"amenity": "restaurant", "name": "寿司", "cuisine": "sushi"}},
+        {"tags": {"amenity": "restaurant", "name": "Sushi Zanmai", "name:en": "Sushi Zanmai", "cuisine": "sushi;japanese",
                   "addr:housenumber": "4", "addr:street": "Tsukiji", "website": "https://x.test"}},
-        {"tags": {"name": "Sushi Zanmai", "cuisine": "sushi"}},
-        {"tags": {"name": "Ramen Bar", "cuisine": "ramen"}},
+        {"tags": {"amenity": "restaurant", "name": "Sushi Zanmai", "cuisine": "sushi"}},
+        {"tags": {"amenity": "restaurant", "name": "Ramen Bar", "cuisine": "ramen"}},
     ]
     monkeypatch.setattr(fetch_world, "_overpass", lambda query: elements)
     restaurants = fetch_world.fetch_restaurants(TOKYO)
@@ -140,4 +140,24 @@ def test_wide_areas_keep_only_listings_near_the_city(monkeypatch):
 
 def test_us_areas_are_listed():
     us = [c for c in WORLD_CITIES if c.country == "United States"]
-    assert len(us) == 34 and all(c.listings_url.startswith("https://data.insideairbnb.com/united-states/") for c in us)
+    airbnb = [c for c in us if c.airbnb_path]
+    assert len(airbnb) == 34 and all(c.listings_url.startswith("https://data.insideairbnb.com/united-states/")
+                                     for c in airbnb)
+    assert len(us) - len(airbnb) == 195  # smaller US cities: OpenStreetMap stays only
+
+
+def test_smaller_city_uses_one_combined_request(monkeypatch):
+    from travel_data.world_cities import SMALLER_US_CITIES
+    queries = []
+    elements = [
+        {"tags": {"amenity": "restaurant", "name": "Waffle House", "cuisine": "american"}},
+        {"tags": {"tourism": "motel", "name": "Waikiki Village"}},
+        {"tags": {"tourism": "museum", "name": "Hollywood Wax Museum"}, "center": {"lat": 33.7, "lon": -78.9}},
+    ]
+    monkeypatch.setattr(fetch_world, "_overpass", lambda query: queries.append(query) or elements)
+    data = fetch_world.fetch_city(SMALLER_US_CITIES[0], {"USD": 1.0}, "2026-10-26")
+    assert len(queries) == 1 and data["stays_source"] == "OpenStreetMap" and data["airbnb_scrape_date"] is None
+    assert [s["name"] for s in data["accommodations"]] == ["Waikiki Village"]
+    assert data["accommodations"][0]["price"] is None and data["accommodations"][0]["room_type"] == "Hotel room"
+    assert [r["name"] for r in data["restaurants"]] == ["Waffle House"]
+    assert [a["name"] for a in data["attractions"]] == ["Hollywood Wax Museum"]

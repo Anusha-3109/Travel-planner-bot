@@ -1,5 +1,6 @@
 # Runs the test suite on every push to main and on pull requests.
-# The tests use recorded API answers, so no API keys, credit or searches are needed.
+# The tests use recorded API answers and the committed 2026 city files, so no API keys, credit,
+# searches or downloads are needed.
 name: Tests
 
 on:
@@ -23,19 +24,6 @@ jobs:
 
       - name: Install packages
         run: pip install -r requirements.txt
-
-      # The TravelPlanner dataset (about 70 MB) is not stored in git; download it once and reuse it.
-      - name: Reuse the TravelPlanner download
-        uses: actions/cache@v6
-        with:
-          path: data/travelplanner
-          key: travelplanner-v1
-
-      - name: Download TravelPlanner data if missing
-        run: |
-          if [ ! -f data/travelplanner/test_ref_info.jsonl ]; then
-            python -m travel_data.download
-          fi
 
       - name: Run the tests
         run: python -m pytest -q

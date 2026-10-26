@@ -1,0 +1,526 @@
+{
+ "city": "Paducah",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.0853,
+ "longitude": -88.6109,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3901 Coleman Crossing Circle, 42001, Paducah",
+   "url": "https://www.hilton.com/en/hotels/pahclhx-hampton-suites-paducah/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "145 McBride Lane, 42001, Paducah",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-paducah-ky"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3835 Technology Drive, 42001, Paducah",
+   "url": "https://www.marriott.com/pahcy"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3950 Coleman Crossing Circle, 42001, Paducah",
+   "url": "https://www.marriott.com/pahfi"
+  },
+  {
+   "name": "Residence Inn Paducah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3900 Coleman Crossing Circle, 42001, Paducah",
+   "url": "https://www.marriott.com/pahri"
+  },
+  {
+   "name": "Baymont Paducah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5300 Cairo Road, 42001, Paducah",
+   "url": "https://www.wyndhamhotels.com/baymont/paducah-kentucky/baymont-inn-and-suites-paducah/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3960 Coleman Crossing Circle, 42001, Paducah",
+   "url": "https://www.wyndhamhotels.com/laquinta/paducah-kentucky/la-quinta-paducah/overview"
+  },
+  {
+   "name": "Comfort Inn Paducah I-24",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5135 Cairo Road, 42001, Paducah",
+   "url": "https://www.choicehotels.com/kentucky/paducah/quality-inn-hotels"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3901 Hinkleville Road, 42001, Paducah",
+   "url": "https://www.wyndhamhotels.com/days-inn/paducah-kentucky/days-inn-paducah/overview"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3918 Coleman Crossing Circle, 42001, Paducah",
+   "url": "https://www.choicehotels.com/kentucky/paducah/quality-inn-hotels"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2960 Husband Road, 42003-9500, Paducah",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-paducah/best-western-paducah-inn/propertyCode.18075.html"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2880 James Sanders Boulevard, 42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Paducah Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 North 4th Street, 42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Paducah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5125 Cairo Road, 42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Paducah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5106 Cairo Road, 42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Arbors At West End",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100-160 Arbor Lane, 42001, Paducah",
+   "url": ""
+  },
+  {
+   "name": "Drury Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Country Hearth Inn & Suites Paducah",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "727 Joe Clifton Drive",
+   "url": ""
+  },
+  {
+   "name": "Deluxe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1234 Broadway Street",
+   "url": ""
+  },
+  {
+   "name": "Hotel 7 Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Auburn Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Westowne Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The 1857 Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Pear Tree Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Boss Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1745 Kentucky Avenue, 42003, Paducah",
+   "website": "https://bossburritopaducah.com/"
+  },
+  {
+   "name": "Tribeca Mexican Cuisine",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "127 Market House Square, 42003, Paducah",
+   "website": "https://www.tribecarestaurant.net/"
+  },
+  {
+   "name": "Doe's Eat Place",
+   "cuisines": [
+    "American"
+   ],
+   "address": "136 Broadway Street, 42001, Paducah",
+   "website": "https://www.doeseatplace.com/"
+  },
+  {
+   "name": "Cynthia's Ristorante",
+   "cuisines": [
+    "Italian",
+    "Tuscan",
+    "Californian"
+   ],
+   "address": "125 South 2nd Street, 42003, Paducah",
+   "website": "http://www.cynthiasristorante.com/"
+  },
+  {
+   "name": "Shandies",
+   "cuisines": [
+    "Gourmet",
+    "Pub"
+   ],
+   "address": "202 Broadway Street, 42001, Paducah",
+   "website": "http://shandiesrestaurantandbar.com/"
+  },
+  {
+   "name": "Max's Brick Oven Cafe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "112 Market House Square, 42001, Paducah",
+   "website": "https://www.maxsbrickoven.com/"
+  },
+  {
+   "name": "Kirchoff's Deli",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "114 Market House Square, 42001, Paducah",
+   "website": "http://kirchhoffsbakery.com/"
+  },
+  {
+   "name": "Ristorante di Fratelli",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "211 Broadway Street, 42001, Paducah",
+   "website": "http://difratelli.com/"
+  },
+  {
+   "name": "Stricklands Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "548 North 32nd Street, 42001, Paducah",
+   "website": "https://www.facebook.com/strickllandsseafood/"
+  },
+  {
+   "name": "Italian Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "314 Broadway Street, 42003, Paducah",
+   "website": ""
+  },
+  {
+   "name": "Pizza By The Pound",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "600 North 32nd Street, 42001, Paducah",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "42001, Paducah",
+   "website": ""
+  },
+  {
+   "name": "Mi Lindo Michoacán Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gold Rush Cafe & Catering",
+   "cuisines": [],
+   "address": "400 Broadway Street, Paducah",
+   "website": "https://www.facebook.com/pages/Gold-Rush-Cafe-Catering/113937355304421"
+  },
+  {
+   "name": "JP's Bar and Grill",
+   "cuisines": [],
+   "address": "119 Market House Square, 42001, Paducah",
+   "website": "http://www.jpsgrill.com/"
+  },
+  {
+   "name": "Paducah Beer Werks",
+   "cuisines": [],
+   "address": "301 North 4th Street, 42001, Paducah",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The National Quilt Museum",
+   "kind": "museum",
+   "address": "215 Jefferson Street, 42001, Paducah",
+   "website": "https://www.quiltmuseum.org/",
+   "phone": "",
+   "latitude": 37.0893236,
+   "longitude": -88.5971848
+  },
+  {
+   "name": "Hotel Metropolitan",
+   "kind": "museum",
+   "address": "724 Oscar Cross Avenue, 42003, Paducah",
+   "website": "https://thehotelmetropolitan.org/home/",
+   "phone": "+1-270-443-7918",
+   "latitude": 37.0792794,
+   "longitude": -88.5992179
+  },
+  {
+   "name": "Market House Museum",
+   "kind": "museum",
+   "address": "121 Market House Square, 42001, Paducah",
+   "website": "https://markethousemuseum.com/",
+   "phone": "",
+   "latitude": 37.0872399,
+   "longitude": -88.5953467
+  },
+  {
+   "name": "River Heritage Museum",
+   "kind": "museum",
+   "address": "42001, Paducah",
+   "website": "https://riverdiscoverycenter.org/",
+   "phone": "",
+   "latitude": 37.0876272,
+   "longitude": -88.5942837
+  },
+  {
+   "name": "Bricolage Art Collective",
+   "kind": "gallery",
+   "address": "",
+   "website": "http://www.bricolageartcollective.com/",
+   "phone": "",
+   "latitude": 37.087335,
+   "longitude": -88.5956901
+  },
+  {
+   "name": "RB's Train",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.0788419,
+   "longitude": -88.6891999
+  },
+  {
+   "name": "ATOMIC CITY Family Fun Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.0827067,
+   "longitude": -88.6699565
+  }
+ ]
+}

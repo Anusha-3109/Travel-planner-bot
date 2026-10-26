@@ -1,0 +1,1466 @@
+{
+ "city": "Manchester",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.9956,
+ "longitude": -71.4548,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "DoubleTree by Hilton Manchester Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Elm Street, 03101, Manchester",
+   "url": "https://www.hilton.com/en/hotels/mhtmndt-doubletree-manchester-downtown/"
+  },
+  {
+   "name": "Courtyard by Marriott Manchester-Boston Regional Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Huse Road, 03103, Manchester",
+   "url": "https://www.marriott.com/mhtcy"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "135 Spring Street, 03101, Manchester",
+   "url": "https://www.hilton.com/en/hotels/mhtruru-tru-manchester-downtown/"
+  },
+  {
+   "name": "Spring Hill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "975 Perimeter Road, 03103, Manchester",
+   "url": "https://www.marriott.com/hotels/travel/mhtsh-springhill-suites-manchester-boston-regional-airport/"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "860 South Porter Street, 03103, Manchester",
+   "url": "https://www.marriott.com/hotels/travel/mhtfm-fairfield-inn-manchester-boston-regional-airport/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Hooksett",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 Bell Avenue, 03106, Hooksett",
+   "url": "https://www.marriott.com/hotels/travel/MHTHO-Fairfield-Inn-and-Suites-Hooksett"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Perimeter Road, 03103, Manchester",
+   "url": "http://homewoodsuites1.hilton.com/en_US/hw/hotel/MHTHWHW-Homewood-Suites-by-Hilton-Manchester-Airport-New-Hampshire/index.do"
+  },
+  {
+   "name": "Country Inn & Suites, Manchester Airport, NH",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 South River Road, 03110, Bedford",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-manchester-airport-nh"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "686 Huse Road, 03103, Manchester",
+   "url": "https://www.marriott.com/mhtts"
+  },
+  {
+   "name": "Comfort Inn Manchester Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "298 Queen City Avenue, 03102, Manchester",
+   "url": "http://www.comfortinn.com/hotel-manchester-new_hampshire-NH002"
+  },
+  {
+   "name": "Super 8 by Wyndham Manchester Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2301 Brown Avenue, 03103, Manchester",
+   "url": "http://www.super8.com/Super8/control/Booking/property_info?propertyId=03593"
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2280 Brown Avenue, 03103, Manchester",
+   "url": "https://www.holidayinn.com/hotels/us/en/manchester/mhtba/hoteldetail"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75 West Hancock Street, 03102, Manchester",
+   "url": "https://www.choicehotels.com/new-hampshire/manchester/econo-lodge-hotels/nh031"
+  },
+  {
+   "name": "Residence Inn Manchester Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "40 Lake Avenue, 03101, Manchester",
+   "url": "https://www.marriott.com/mhtrd"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1298 South Porter Street, 03103, Manchester",
+   "url": "https://www.hiexpress.com/hotels/us/en/manchester/mhtnh/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 South Commercial Street, 03101, Manchester",
+   "url": "http://www.hgi-manchester.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 Hawthorne Drive, 03110, Bedford",
+   "url": "http://www.hamptoninn.com/"
+  },
+  {
+   "name": "Woodland Stays - The Willow",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1385 Front Street, 03102, Manchester",
+   "url": "https://www.woodlandstays.com/"
+  },
+  {
+   "name": "Ash Street Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "118 Ash Street, 03104, Manchester",
+   "url": "https://www.ashstreetinn.com/"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "13500 South Willow Street, 03103, Manchester",
+   "url": "https://www.executivecourtinn.com/"
+  },
+  {
+   "name": "Quality Inn Manchester Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 John E. Devine Drive, 03103, Manchester",
+   "url": ""
+  },
+  {
+   "name": "Kozy 7 Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "175 Londonderry Turnpike, 03106, Hooksett",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "21 Front Street, 03102, Manchester",
+   "url": ""
+  },
+  {
+   "name": "The Grand at the Bedford Village Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Olde Bedford Way, 03110, Bedford",
+   "url": ""
+  },
+  {
+   "name": "Bedford Village Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Olde Bedford Way, 03110, Bedford",
+   "url": ""
+  },
+  {
+   "name": "English",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "352 Beech Street, 03103",
+   "url": ""
+  },
+  {
+   "name": "Majestic Arms Hotel",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 Lake Avenue, 03103, Manchester",
+   "url": ""
+  },
+  {
+   "name": "Hill Brook Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Blue Door Bungalow",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Eastern Crossing Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Red Arrow Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "61 Lowell Street, 03101, Manchester",
+   "website": "https://redarrowdiner.com/locations/manchester/"
+  },
+  {
+   "name": "Thirsty Moose Taphouse",
+   "cuisines": [
+    "American",
+    "Bar And Grill"
+   ],
+   "address": "795 Elm Street, 03101, Manchester",
+   "website": "https://www.thirstymoosetaphouse.com/manchester/"
+  },
+  {
+   "name": "SoHo Bistro & Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "20 Old Granite Street, 03101, Manchester",
+   "website": "https://sohonh.com/"
+  },
+  {
+   "name": "Zizza Authentic Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1100 Bicentennial Drive, 03104, Manchester",
+   "website": "https://www.zizzapizza.com/"
+  },
+  {
+   "name": "Shorty's Mexican Roadhouse",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1050 Bicentennial Drive, 03104, Manchester",
+   "website": "https://shortysmex.com/"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1500 South Willow Street, 03103, Manchester",
+   "website": "https://www.redrobin.com/"
+  },
+  {
+   "name": "PizzaExpress",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "865 Second Street, 03102, Manchester",
+   "website": "http://www.pizzaexpress2.com/"
+  },
+  {
+   "name": "The Puritan Backroom",
+   "cuisines": [
+    "American"
+   ],
+   "address": "245 Hooksett Road, 03104, Manchester",
+   "website": "https://puritanbackroom.com/"
+  },
+  {
+   "name": "Piccola",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "815 Elm Street, 03101, Manchester",
+   "website": "http://www.piccolanh.com/"
+  },
+  {
+   "name": "South Side Tavern",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "1279 South Willow Street, 03103, Manchester",
+   "website": "https://revocasino.com/south-side-tavern/"
+  },
+  {
+   "name": "Izumi",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "1525 South Willow Street, 03103, Manchester",
+   "website": "https://www.nhtheseafoodking.com/"
+  },
+  {
+   "name": "Mr. Mac's",
+   "cuisines": [
+    "Pasta",
+    "American"
+   ],
+   "address": "497 Hooksett Road, 03104, Manchester",
+   "website": "https://mr-macs.com/locations/manchester-nh/"
+  },
+  {
+   "name": "Kisaki Japanese Cuisine",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "641 Elm Street, 03101, Manchester",
+   "website": "https://kisakisushi.com/"
+  },
+  {
+   "name": "Pizza 911",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Salad"
+   ],
+   "address": "401 South Willow Street, 03103, Manchester",
+   "website": "https://pizza911nh.com/manchester-south-willow-street/"
+  },
+  {
+   "name": "Margaritas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1037 Elm Street, 03101, Manchester",
+   "website": "https://www.margs.com/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1525 South Willow Street, 03103, Manchester",
+   "website": "https://locations.chuckecheese.com/us/nh/manchester/1525-s.-willow-st"
+  },
+  {
+   "name": "Puerto Vallarta Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "865 Second Street, 03102, Manchester",
+   "website": "https://vallartamexicannh.com/"
+  },
+  {
+   "name": "East Side Grill",
+   "cuisines": [
+    "American",
+    "Greek"
+   ],
+   "address": "864 Page Street, 03109, Manchester",
+   "website": "hongkongcity.comcastbiz.net"
+  },
+  {
+   "name": "Giorgio's Ristorante & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "270 Granite Street, 03102, Manchester",
+   "website": "https://giorgios.com/"
+  },
+  {
+   "name": "Golden Tao",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "270 Armory Street, 03102, Manchester",
+   "website": "http://www.goldentaonh.com/"
+  },
+  {
+   "name": "Rumi Kabob House",
+   "cuisines": [
+    "Afghan"
+   ],
+   "address": "990 Elm Street, 03101, Manchester",
+   "website": "https://rumikabobhouse.com/"
+  },
+  {
+   "name": "El Rincon",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "10 Lake Avenue, 03101, Manchester",
+   "website": "https://elrinconnh.com/"
+  },
+  {
+   "name": "Pho Golden Bowl",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "12 Lake Avenue, 03101, Manchester",
+   "website": "https://www.phogoldenbowl.com"
+  },
+  {
+   "name": "The Great Greek Mediterranean Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "946 South Willow Street, 03103, Manchester",
+   "website": "https://www.thegreatgreekgrill.com/manchester-nh-s-willow-st"
+  },
+  {
+   "name": "Pizza Market",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Sandwich"
+   ],
+   "address": "845 Hanover Street, 03104, Manchester",
+   "website": "http://www.pizzamarket.net/"
+  },
+  {
+   "name": "The Breakfast Club",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "342 Cypress Street, 03103, Manchester",
+   "website": "https://www.breakfastclubmanchester.com/"
+  },
+  {
+   "name": "TGI Friday's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1516 South Willow Street, 03103, Manchester",
+   "website": "https://locations.tgifridays.com/nh/manchester/1516-s-willow-st.html"
+  },
+  {
+   "name": "Yuki Japanese Grill",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "377 South Willow Street, 03103, Manchester",
+   "website": "https://yukijapanesegrill.com/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1525 South Willow Street, 03103, Manchester",
+   "website": "https://www.texasroadhouse.com/"
+  },
+  {
+   "name": "Nadeau's Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "673 Hooksett Road, 03104, Manchester",
+   "website": "https://nadeaussubs.com/"
+  },
+  {
+   "name": "Venice Old Style Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "610 Front Street, 03102, Manchester",
+   "website": "http://www.venicepizzanh.com/"
+  },
+  {
+   "name": "Pappy's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1531 Elm Street, 03101, Manchester",
+   "website": "https://www.ilovepappys.com/"
+  },
+  {
+   "name": "Caesario's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1057 Elm Street, 03101, Manchester",
+   "website": "http://www.caesariospizza.com/"
+  },
+  {
+   "name": "Papa Gino's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1111 South Willow Street, 03103, Manchester",
+   "website": "https://www.papaginos.com/"
+  },
+  {
+   "name": "Souvlaki",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "256 Bridge Street, 03104, Manchester",
+   "website": "https://www.souvlakipizza.com/"
+  },
+  {
+   "name": "Las 3 Hermanas Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1065 Hanover Street, 03104, Manchester",
+   "website": "https://thecafemomo.com/"
+  },
+  {
+   "name": "The Bridge Café",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1117 Elm Street, 03101, Manchester",
+   "website": "http://thebridgecafe.net/"
+  },
+  {
+   "name": "Cheng Du Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "665 Hooksett Road, 03104, Manchester",
+   "website": "https://www.chengdumanchester.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/nh/manchester/581-2nd-st-shops-81038"
+  },
+  {
+   "name": "Nuevo Vallarta Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "791 Second Street, 03102, Manchester",
+   "website": "https://www.vallartamexicannh.com/"
+  },
+  {
+   "name": "Yee Dynasty",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "830 South Willow Street, 03103, Manchester",
+   "website": "https://yeedynasty.com/"
+  },
+  {
+   "name": "Chen's Garden",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "956 Second Street, 03102, Manchester",
+   "website": "https://www.chensgardennh.com/"
+  },
+  {
+   "name": "Zoey's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2160 Candia Road, 03109, Manchester",
+   "website": "http://www.zoeyspizzaonline.com/"
+  },
+  {
+   "name": "Bagel Cafe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "373 Hanover Street, 03104, Manchester",
+   "website": "https://www.bagelcafenh.com/"
+  },
+  {
+   "name": "T-Bones",
+   "cuisines": [
+    "American"
+   ],
+   "address": "25 South River Road, 03110, Bedford",
+   "website": "https://www.t-bones.com/"
+  },
+  {
+   "name": "Consuelo's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "36 Amherst Street, 03101, Manchester",
+   "website": "https://consuelostaqueria.com/"
+  },
+  {
+   "name": "Mangia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "33A Elm Street, 03101, Manchester",
+   "website": "https://www.gomangia.com/"
+  },
+  {
+   "name": "Golden Karma",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "6 Willow Street, 03103, Manchester",
+   "website": "https://www.goldenkarmanh.com/"
+  },
+  {
+   "name": "Grand Slam Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "331 South Mammoth Road, 03109, Manchester",
+   "website": "https://www.grandslampizza-manchester.com/"
+  },
+  {
+   "name": "Hanover Street Chophouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "149 Hanover Street, 03101, Manchester",
+   "website": "https://www.hanoverstreetchophouse.com/"
+  },
+  {
+   "name": "Giovanni's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "379 South Willow Street, 03103, Manchester",
+   "website": "https://www.giovannis.biz/"
+  },
+  {
+   "name": "India Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "575 South Willow Street, 03103, Manchester",
+   "website": "https://www.indiapalacenh.com/"
+  },
+  {
+   "name": "Jerome's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "393 Bridge Street, 03104, Manchester",
+   "website": "https://jeromesdeli.com/"
+  },
+  {
+   "name": "Luigi's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "712 Valley Street, 03103, Manchester",
+   "website": "http://www.nhluigispizza.com/"
+  },
+  {
+   "name": "Elm House of Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "102 Elm Street, 03101, Manchester",
+   "website": "http://www.elmhop.com/"
+  },
+  {
+   "name": "Margie's Dream Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "172 Hayward Street, 03103, Manchester",
+   "website": "https://www.margiesdreamdiner.com/"
+  },
+  {
+   "name": "Mi Jalisco Mexican Grill and Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "300 South Willow Street, 03103, Manchester",
+   "website": "https://mijaliscomanchester.com/"
+  },
+  {
+   "name": "Taqueria La Guadalupana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "917 Valley Street, 03103, Manchester",
+   "website": "https://taquerialaguadalupana.com/"
+  },
+  {
+   "name": "Hooked Seafood Restaurant",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "110 Hanover Street, 03101, Manchester",
+   "website": "http://www.hookednh.com/"
+  },
+  {
+   "name": "Bamboo Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "329 Lincoln Street, 03103, Manchester",
+   "website": "http://www.nh-bamboogarden.com/"
+  },
+  {
+   "name": "Szechuan House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "245 Maple Street, 03103, Manchester",
+   "website": "https://www.szechuanhousenh.com/"
+  },
+  {
+   "name": "La Esquina",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "363 Chestnut Street, 03101, Manchester",
+   "website": "https://burritopm.order.online/store/la-esquina-restaurant-manchester-23191187/"
+  },
+  {
+   "name": "Classic Biryani Kabab & Curry",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "484 South Main Street, Manchester",
+   "website": "https://www.classicbiryanikabab.com/"
+  },
+  {
+   "name": "Lemon Thai & Sushi",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "http://www.lemonthaisushinh.com/"
+  },
+  {
+   "name": "Muse Thai Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://musethaibistro.com/index.html"
+  },
+  {
+   "name": "Fratello's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://www.fratellos.com/"
+  },
+  {
+   "name": "THE FOUNDRY",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dave & Buster's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1500 South Willow Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Aloha Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Polynesian"
+   ],
+   "address": "901 Hanover Street, 03104, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Elite Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "72 Conant Street, 03102, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Willie B's Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "90 Union Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Villaggio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "677 Hooksett Road, 03104, Manchester",
+   "website": ""
+  },
+  {
+   "name": "110 Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "875 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Pindos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "49 Massabesic Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "The Local Moose",
+   "cuisines": [
+    "Coffee Shop",
+    "Sandwich"
+   ],
+   "address": "124 Queen City Avenue, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Bertucci's",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "1500 South Willow Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Osaka",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1077 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Taj India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "967 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Annula's Pizza & Deli",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "525 Chestnut Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "The Common Man",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "California Burritos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Bowl",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "26 Queen City Avenue, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "900 Degrees Neopolitan Wood-Fired Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "100 Dow Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Penuche's Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1087 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Campo Enoteca",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "969 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Thai food connection",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1069 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Talbot Street Pizza & Roast Beef",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "241 Candia Road, 03109, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Manchester Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "371 South Willow Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Santoro's Pizza & Subs",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "468 Union Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Chelby's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "284 Mammoth Road, 03109, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Salona's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "128 Maple Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Poké Spot",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "What The Pho",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "834 Elm Street",
+   "website": ""
+  },
+  {
+   "name": "Hot Stone Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "North Garden Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Kahuna Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Begy's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don Quijote",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Moe Joe's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blake's Restaurant",
+   "cuisines": [],
+   "address": "353 South Main Street, 03102, Manchester",
+   "website": "https://www.blakesicecream.com/"
+  },
+  {
+   "name": "KC's Rib Shack Barbecue",
+   "cuisines": [],
+   "address": "837 Second Street, 03102, Manchester",
+   "website": "https://www.ribshack.net/"
+  },
+  {
+   "name": "Belmont Restaurant",
+   "cuisines": [],
+   "address": "718 Grove Street, 03103, Manchester",
+   "website": "https://www.belmonthall.net/"
+  },
+  {
+   "name": "Ignite Bar & Grille",
+   "cuisines": [],
+   "address": "100 Hanover Street, 03101, Manchester",
+   "website": "https://ignitebng.com/"
+  },
+  {
+   "name": "Goldenrod",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.goldenrodrestaurant.com/"
+  },
+  {
+   "name": "Taipei & Tokyo 3",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.taipeitokyo3.com/"
+  },
+  {
+   "name": "Chez Vachon",
+   "cuisines": [],
+   "address": "136 Kelley Street, 03102, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Fricker's Neighborhood Grill",
+   "cuisines": [],
+   "address": "250 Dubuque Street, 03102, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Rita Mae's Restaurant",
+   "cuisines": [],
+   "address": "280 Main Street, 03102, Manchester",
+   "website": ""
+  },
+  {
+   "name": "North End Bistro",
+   "cuisines": [],
+   "address": "1361 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Hellenic Pizzeria",
+   "cuisines": [],
+   "address": "836 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Bravo",
+   "cuisines": [],
+   "address": "73 Hanover Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Souper Mett",
+   "cuisines": [],
+   "address": "835 Second Street, 03102, Manchester",
+   "website": ""
+  },
+  {
+   "name": "KS Kitchen",
+   "cuisines": [],
+   "address": "1105 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "BuBa Noodle Bar",
+   "cuisines": [],
+   "address": "36 Lowell Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Alas de Frida",
+   "cuisines": [],
+   "address": "931 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Stash Box",
+   "cuisines": [],
+   "address": "866 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Diz's Cafe",
+   "cuisines": [],
+   "address": "860 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "without",
+   "cuisines": [],
+   "address": "889 Elm Street, 03101, Manchester",
+   "website": ""
+  },
+  {
+   "name": "The Market Deli & Café",
+   "cuisines": [],
+   "address": "361 Pine Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Madear's",
+   "cuisines": [],
+   "address": "175 Hanover Street, 03104, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Maya's Kitchen",
+   "cuisines": [],
+   "address": "790 Elm Street",
+   "website": ""
+  },
+  {
+   "name": "Luisa's Italian Pizzeria",
+   "cuisines": [],
+   "address": "19 South River Road, 03110, Bedford",
+   "website": ""
+  },
+  {
+   "name": "Nature's Nectar",
+   "cuisines": [],
+   "address": "1500 South Willow Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "Lovisa",
+   "cuisines": [],
+   "address": "1500 South Willow Street, 03103, Manchester",
+   "website": ""
+  },
+  {
+   "name": "The Hill Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Asian Kabab and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Canton Garden Chinese Restaurant",
+   "cuisines": [],
+   "address": "77 Kelley Street",
+   "website": ""
+  },
+  {
+   "name": "Juba Market",
+   "cuisines": [],
+   "address": "135 Cedar Street",
+   "website": ""
+  },
+  {
+   "name": "Samuel Adams Brewhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yoette and Troy's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Fiera",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "JD's Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nutfield Ale & Steak House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Basha Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Currier Museum of Art",
+   "kind": "museum",
+   "address": "150 Ash Street, 03104, Manchester",
+   "website": "https://www.currier.org/",
+   "phone": "",
+   "latitude": 42.997742,
+   "longitude": -71.4556382
+  },
+  {
+   "name": "Aviation Museum of New Hampshire",
+   "kind": "museum",
+   "address": "27 Navigator Road, 03053",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9273087,
+   "longitude": -71.4280997
+  },
+  {
+   "name": "Block Party Social",
+   "kind": "attraction",
+   "address": "51 Zapora Drive, 03106, Hooksett",
+   "website": "https://blockpartysocial.com/",
+   "phone": "+1-603-621-5150",
+   "latitude": 43.0400853,
+   "longitude": -71.4330689
+  },
+  {
+   "name": "SEE Science Center",
+   "kind": "museum",
+   "address": "200 Bedford Street, 03101, Manchester",
+   "website": "https://www.see-sciencecenter.org/",
+   "phone": "+1-603-669-0400",
+   "latitude": 42.9896931,
+   "longitude": -71.46794
+  },
+  {
+   "name": "Muse Paintbar",
+   "kind": "gallery",
+   "address": "42 Hanover Street, 03101, Manchester",
+   "website": "https://musepaintbar.com/",
+   "phone": "",
+   "latitude": 42.9910473,
+   "longitude": -71.4617379
+  },
+  {
+   "name": "The Amoskeag Fishways",
+   "kind": "attraction",
+   "address": "4 Fletcher Street, 03102, Manchester",
+   "website": "https://www.amoskeagfishways.org/",
+   "phone": "",
+   "latitude": 43.0023443,
+   "longitude": -71.4735572
+  },
+  {
+   "name": "ARGH Gallery",
+   "kind": "gallery",
+   "address": "416 Chestnut Street, 03101, Manchester",
+   "website": "",
+   "phone": "",
+   "latitude": 42.991388,
+   "longitude": -71.4607886
+  },
+  {
+   "name": "Diane Crespo Fine Art Gallery",
+   "kind": "gallery",
+   "address": "32 Hanover Street, 03101, Manchester",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9910479,
+   "longitude": -71.4619757
+  },
+  {
+   "name": "Currier Museum Art Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9970185,
+   "longitude": -71.4563784
+  },
+  {
+   "name": "Roger Williams Studios",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9916966,
+   "longitude": -71.4610412
+  }
+ ]
+}

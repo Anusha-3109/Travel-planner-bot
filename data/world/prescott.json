@@ -1,0 +1,798 @@
+{
+ "city": "Prescott",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 34.5512,
+ "longitude": -112.4557,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Residence Inn Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3599 Lee Circle, 86301, Prescott",
+   "url": "https://www.marriott.com/hotels/travel/prcri-residence-inn-prescott/"
+  },
+  {
+   "name": "Hampton Inn Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3453 Ranch Drive, 86303, Prescott",
+   "url": "https://www.hilton.com/en/hotels/prchhhx-hampton-prescott/"
+  },
+  {
+   "name": "SpringHill Suites Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 East Sheldon Street, 86301, Prescott",
+   "url": "https://www.marriott.com/prcsh"
+  },
+  {
+   "name": "Holiday Inn Express Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3454 Ranch Drive, 86303, Prescott",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/prescott/pctaz/hoteldetail"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4499 East State Route 69, 86301-6731, Prescott",
+   "url": "https://www.wyndhamhotels.com/laquinta/prescott-arizona/la-quinta-conference-center-prescott/overview"
+  },
+  {
+   "name": "Hotel St. Michael, BW Premier Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 West Gurley Street, 86301, Prescott",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-prescott/hotel-st-michael-bw-premier-collection/propertyCode.03181.html"
+  },
+  {
+   "name": "Quality Inn Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1105 East Sheldon Street, 86301, Prescott",
+   "url": "https://www.choicehotels.com/en-xl/arizona/prescott/quality-inn-hotels/az371"
+  },
+  {
+   "name": "Best Western Prescottonian",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1317 East Gurley Street, 86301, Prescott",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-prescott/best-western-prescottonian/propertyCode.03061.html"
+  },
+  {
+   "name": "Hilton Garden Inn Prescott Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 North Montezuma Street, 86301, Prescott",
+   "url": "https://www.hilton.com/en/hotels/prcdtgi-hilton-garden-inn-prescott-downtown/"
+  },
+  {
+   "name": "Rodeway Inn Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1225 East Gurley Street, 86301, Prescott",
+   "url": "https://www.choicehotels.com/arizona/prescott/quality-inn-hotels"
+  },
+  {
+   "name": "Hassayampa Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "122 East Gurley Street, 86301, Prescott",
+   "url": "https://www.hassayampainn.com"
+  },
+  {
+   "name": "Forest Villas Prescott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3645 Lee Circle, 86303, Prescott",
+   "url": ""
+  },
+  {
+   "name": "Sierra Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "809 White Spar Road, Prescott",
+   "url": ""
+  },
+  {
+   "name": "Highland Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "813 Black Drive, 86301, Prescott",
+   "url": ""
+  },
+  {
+   "name": "Prescott Resort and Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Open Inn Turning Point",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "the motor lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Gurley St. Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "230 West Gurley Street, 86301, Prescott",
+   "website": "https://gurleystgrill.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1881 AZ 69, 86301, Prescott",
+   "website": "https://restaurants.applebees.com/en-us/az/prescott/1881-east-highway-69-91015"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3055 Gateway Boulevard, 86301, Prescott",
+   "website": "https://locations.redrobin.com/az/prescott/67/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3060 Highway 69, 86301, Prescott",
+   "website": "https://www.olivegarden.com/locations/az/prescott/prescott/1645"
+  },
+  {
+   "name": "Unsui Japanese Restaurant",
+   "cuisines": [
+    "Curry",
+    "Japanese",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "1355 Iron Springs Road, 86305, Prescott",
+   "website": "https://www.unsuiprescott.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1512 Willow Creek Road, 86301, Prescott",
+   "website": "https://locations.pizzahut.com/az/prescott/1512-willow-creek-rd"
+  },
+  {
+   "name": "LaBruzza's Italian Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1480 W Iron Springs Rd, 86305, Prescott",
+   "website": "https://www.labruzzas.com/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3310 Gateway Boulevard, 86303, Prescott",
+   "website": "https://www.texasroadhouse.com/locations/331-prescottaz"
+  },
+  {
+   "name": "Angry Crab Shack",
+   "cuisines": [
+    "Chicken",
+    "Fish",
+    "Fish And Chips",
+    "Seafood"
+   ],
+   "address": "520 Miller Valley Road, 86301",
+   "website": "https://www.angrycrabshack.com/"
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "1901 AZ 69, 86301, Prescott",
+   "website": "https://www.goldencorral.com/locations/location-detail/777/golden-corral-east-hwy-69/"
+  },
+  {
+   "name": "Vietnamese Pho Noodle Shop",
+   "cuisines": [
+    "Curry",
+    "Tea",
+    "Vietnamese"
+   ],
+   "address": "612 Miller Valley Road, 86301",
+   "website": "https://www.vietphonoodleshop.com/"
+  },
+  {
+   "name": "Taj Mahal",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "124 North Montezuma Street, 86301",
+   "website": "http://www.aztajmahal.com"
+  },
+  {
+   "name": "Ginza Sushi & Asian Cuisine",
+   "cuisines": [
+    "Japanese",
+    "Korean",
+    "Local",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "220 West Gurley Street, 86301",
+   "website": "https://www.ginzasushiandasiancuisine.com"
+  },
+  {
+   "name": "Dee Thai Express",
+   "cuisines": [
+    "Curry",
+    "Local",
+    "Tea",
+    "Thai"
+   ],
+   "address": "520 Suite 1 West Sheldon Street, 86301",
+   "website": "http://www.deethaiexpressaz.com"
+  },
+  {
+   "name": "Bill's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "107 South Cortez Street, 86303, Prescott",
+   "website": "https://www.billspizzaprescott.com/"
+  },
+  {
+   "name": "The Palace Restaurant & Saloon",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "120 South Montezuma Street, 86301, Prescott",
+   "website": "https://whiskeyrowpalace.com/"
+  },
+  {
+   "name": "Streets of New York",
+   "cuisines": [
+    "Pizza",
+    "Pasta",
+    "Sandwich"
+   ],
+   "address": "150 East Sheldon Street, 86301, Prescott",
+   "website": "https://www.streetsofnewyork.com"
+  },
+  {
+   "name": "Badger's Den",
+   "cuisines": [
+    "Steak",
+    "Seafood"
+   ],
+   "address": "1245, 86303, Prescott",
+   "website": "https://www.badgersdenaz.com/"
+  },
+  {
+   "name": "El Gato Azul",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "316 W Goodwin St, 86303, Prescott",
+   "website": "https://elgatoazulprescott.com"
+  },
+  {
+   "name": "Outlaw Donuts",
+   "cuisines": [
+    "Barbecue",
+    "Donut",
+    "Mexican"
+   ],
+   "address": "414 West Goodwin Street, 86303",
+   "website": ""
+  },
+  {
+   "name": "Thai Foon",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "432 West Goodwin Street, 86303",
+   "website": ""
+  },
+  {
+   "name": "The Grey Room",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yavapai Cantina Sports Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Scout's Gourmet Grub",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "1144 Iron Springs Road, 86305",
+   "website": ""
+  },
+  {
+   "name": "Russo's Cheesecakes and Deli",
+   "cuisines": [
+    "Deli",
+    "Hotdog"
+   ],
+   "address": "208 West Gurley Street, 86301",
+   "website": ""
+  },
+  {
+   "name": "Lindo Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1260, STE 101 Gail Gardner Way, 86305",
+   "website": ""
+  },
+  {
+   "name": "Casa Sanchez",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1459 W Gurley St, 86305, Prescott",
+   "website": ""
+  },
+  {
+   "name": "Frank's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "410 West Goodwin Street, 86303",
+   "website": ""
+  },
+  {
+   "name": "Brown Bag Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "150 East Sheldon Street, 86301, Prescott",
+   "website": ""
+  },
+  {
+   "name": "The Grumpy Sicilian",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "126 South Montezuma Street",
+   "website": ""
+  },
+  {
+   "name": "Tara Fine Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peter Piper Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Canton Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Heavy Hitter Smashburgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Limoncello",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Doc’s BBQ & Whiskey",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Guacamayas Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Don's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wildflower",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roman Ristorante",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bird Cage Saloon",
+   "cuisines": [],
+   "address": "160 South Montezuma Street, 86303, Prescott",
+   "website": "https://thebirdcagesaloon.com/"
+  },
+  {
+   "name": "Colt Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "https://coltgrill.com"
+  },
+  {
+   "name": "Fat Frog",
+   "cuisines": [],
+   "address": "1721 AZ-69 Prescott, AZ 86301, United States",
+   "website": "https://fatfrogaz.com/"
+  },
+  {
+   "name": "LazyG Brewhouse",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.lazygbrewhouse.com/"
+  },
+  {
+   "name": "The Waffle Iron",
+   "cuisines": [],
+   "address": "420 East Sheldon Street, 86301-3120, Prescott",
+   "website": ""
+  },
+  {
+   "name": "Gypsy’s Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bistro St. Michael",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Office Restaurant & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Icha Maajoh",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yogi's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cantina & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jersey Mike's Subs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cattleman's Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Museum of Indigenous People",
+   "kind": "museum",
+   "address": "147 N Arizona Ave, 86301, Prescott",
+   "website": "https://www.museumofindigenouspeople.org/",
+   "phone": "+1 928-445-1230",
+   "latitude": 34.5433576,
+   "longitude": -112.4587801
+  },
+  {
+   "name": "Sharlot Hall Museum",
+   "kind": "museum",
+   "address": "415 West Gurley Street, 86301, Prescott",
+   "website": "https://www.sharlothallmuseum.org/",
+   "phone": "",
+   "latitude": 34.5416549,
+   "longitude": -112.474186
+  },
+  {
+   "name": "Highlands Center for Natural History",
+   "kind": "museum",
+   "address": "1375 South Walker Road, 86303, Prescott",
+   "website": "https://highlandscenter.org/",
+   "phone": "",
+   "latitude": 34.5241692,
+   "longitude": -112.3930667
+  },
+  {
+   "name": "Phippen Museum of Western Art",
+   "kind": "museum",
+   "address": "4701 AZ 89, 86301, Prescott",
+   "website": "https://phippenartmuseum.org/",
+   "phone": "",
+   "latitude": 34.6234307,
+   "longitude": -112.425391
+  },
+  {
+   "name": "Mark Hines Designs",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://www.markhinesdesigns.com/",
+   "phone": "+1-928-771-8671",
+   "latitude": 34.559044,
+   "longitude": -112.4864493
+  },
+  {
+   "name": "Arts Prescott Gallery",
+   "kind": "gallery",
+   "address": "134 South Montezuma Street",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5410413,
+   "longitude": -112.4704498
+  },
+  {
+   "name": "Ian Russell Gallery of Fine Art",
+   "kind": "gallery",
+   "address": "132 South Montezuma Street",
+   "website": "",
+   "phone": "",
+   "latitude": 34.541112,
+   "longitude": -112.4703717
+  },
+  {
+   "name": "Western Heritage Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5403458,
+   "longitude": -112.4703935
+  },
+  {
+   "name": "Joseph Robertson Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5416024,
+   "longitude": -112.4704927
+  },
+  {
+   "name": "Van Gogh’s Ear",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5403891,
+   "longitude": -112.4704665
+  },
+  {
+   "name": "Mountain Spirit Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5408946,
+   "longitude": -112.4703589
+  },
+  {
+   "name": "Weir Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5416639,
+   "longitude": -112.4706809
+  },
+  {
+   "name": "Heritage Park Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.6128883,
+   "longitude": -112.4455028
+  },
+  {
+   "name": "Granite Dells",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5908877,
+   "longitude": -112.4161441
+  },
+  {
+   "name": "Lynx Creek Gold Pan Day Use Area",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5291959,
+   "longitude": -112.3843539
+  },
+  {
+   "name": "Whiskey Row",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.5409467,
+   "longitude": -112.4706135
+  }
+ ]
+}

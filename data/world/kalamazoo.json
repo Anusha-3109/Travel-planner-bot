@@ -1,0 +1,1057 @@
+{
+ "city": "Kalamazoo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.2897,
+ "longitude": -85.5853,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 North Rose Street, 49007, Kalamazoo",
+   "url": "https://www.hilton.com/en/hotels/azonegi-hilton-garden-inn-kalamazoo-downtown/"
+  },
+  {
+   "name": "Henderson Castle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Monroe Street",
+   "url": "https://www.hendersoncastle.com/"
+  },
+  {
+   "name": "Radisson Plaza Hotel at Kalamazoo Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 West Michigan Avenue, 49007, Kalamazoo",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-kalamazoo-center"
+  },
+  {
+   "name": "TownePlace Suites Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "49009, Kalamazoo",
+   "url": "https://www.marriott.com/azots"
+  },
+  {
+   "name": "Best Western Plus Kalamazoo Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2575 South 11th Street, 49009, Kalamazoo",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-kalamazoo/best-western-plus-kalamazoo-suites/propertyCode.23163.html"
+  },
+  {
+   "name": "Fairfield Inn Kalamazoo West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6420 Cracker Barrel Drive, 49009, Kalamazoo",
+   "url": "https://www.marriott.com/hotels/travel/azofw-fairfield-inn-kalamazoo-west/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 Retail Place Drive, 49048, Kalamazoo",
+   "url": "https://www.marriott.com/azoff"
+  },
+  {
+   "name": "Baymont Kalamazoo East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3800 East Cork Street Court, 49001, Kalamazoo",
+   "url": "https://www.wyndhamhotels.com/baymont/kalamazoo-michigan/baymont-inn-and-suites-kalamazoo-east/overview"
+  },
+  {
+   "name": "Baymont Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2203 South 11th Street, 49009, Kalamaazo",
+   "url": "http://www.baymontinns.com/hotels/michigan/kalamazoo/baymont-inn-and-suites-kalamazoo/hotel-overview"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "739 West Michigan Avenue, 49007, Kalamazoo",
+   "url": "http://www.comfortinn.com/hotel-kalamazoo-michigan-MI255?source=gglocaljn"
+  },
+  {
+   "name": "Residence Inn Kalamazoo East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 East Kilgore Road, 49001, Kalamazoo",
+   "url": "https://www.marriott.com/azozo"
+  },
+  {
+   "name": "Courtyard Kalamazoo Portage",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Trade Centre Way, 49002, Portage",
+   "url": "https://www.marriott.com/azocy"
+  },
+  {
+   "name": "Hampton Inn Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2610 Airview Boulevard, 49002, Kalamazoo",
+   "url": "https://www.hilton.com/en/hotels/azokahx-hampton-kalamazoo/"
+  },
+  {
+   "name": "SpringHill Suites Kalamazoo Portage",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "850 Trade Centre Way, 49002, Portage",
+   "url": "https://www.marriott.com/azosp"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 North Rose Street, 49007, Kalamazoo",
+   "url": "https://www.hilton.com/en/hotels/azokdht-home2-suites-kalamazoo-downtown/"
+  },
+  {
+   "name": "Super 8 by Wyndham Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "618 Maple Hill Drive, 49009, Kalamazoo",
+   "url": "https://www.wyndhamhotels.com/super-8/kalamazoo-michigan/super-8-kalamazoo/overview"
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3443 Retail Place Drive, 49048, Kalamazoo",
+   "url": "https://www.ihg.com/candlewood/hotels/us/en/kalamazoo/azocw/hoteldetail"
+  },
+  {
+   "name": "The Kalamazoo House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "447 West South Street, 49007, Kalamazoo",
+   "url": "https://thekalamazoohouse.com/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Kalamazoo West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1315 Westgate Drive, 49009, Kalamazoo",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/kalamazoo/azoes/hoteldetail"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3750 Easy Street, 49001, Kalamazoo",
+   "url": "https://www.choicehotels.com/michigan/plainwell/comfort-inn-hotels"
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5597 South 9th Street, 49009, Kalamazoo",
+   "url": "https://www.microtelinn.com/hotels/michigan/kalamazoo/microtel-inn-and-suites-kalamazoo/hotel-overview?reg=Local-_-all-_-MIC-_-all&cid=IP_Local&wid=local"
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 Seneca Lane, 49008, Kalamazoo",
+   "url": "http://www.ihg.com"
+  },
+  {
+   "name": "Upjohn House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "530 West South Street",
+   "url": "https://upjohnhouse.com/"
+  },
+  {
+   "name": "Delta Hotel Kalamazoo West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2747 South 11th Street, 49009, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "avid Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3717 East Cork Street, 49001, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "Four Points by Sheraton Kalamazoo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3600 East Cork Street Court, 49001, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn I-94",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3640 East Cork Street, 49001, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Kalamazoo East - Expo Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3701 East Cork Street, 49001, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1653 South 11th Street, kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "Kalamazoo Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1900 South Westnedge Avenue, 49008, Kalamazoo",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Kalamazoo-Portage",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Trade Centre Way, 49002, Portage",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Kalamazoo/Oshtemo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comerica",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites Kalamazoo West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "City Place Bella Vista Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Great Wall Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3025 South Westnedge Avenue, 49008, Kalamazoo",
+   "website": "https://greatwallexpress.com/"
+  },
+  {
+   "name": "University Roadhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1332 West Michigan Avenue, 49006, Kalamazoo",
+   "website": "https://www.universityroadhouse.com/menu.html"
+  },
+  {
+   "name": "Rice Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "811 West Michigan Avenue, 49007, Kalamazoo",
+   "website": "https://ricekitchenmitogo.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1930 West Main Street, 49006, Kalamazoo",
+   "website": "https://locations.pizzahut.com/mi/kalamazoo/1930-west-main-st"
+  },
+  {
+   "name": "Crow's Nest Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "816 South Westnedge Avenue, 49001, Kalamazoo",
+   "website": "https://crowsnestkalamazoo.com/"
+  },
+  {
+   "name": "The Blue Dolphin Restaurant",
+   "cuisines": [
+    "Greek",
+    "Burger",
+    "American",
+    "Sandwich",
+    "Breakfast",
+    "Persian"
+   ],
+   "address": "502 South Burdick Street",
+   "website": "https://www.thebluedolphinrestaurant.com/"
+  },
+  {
+   "name": "Nonla Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2103 South Burdick Street",
+   "website": "https://www.nonlaburger.com/"
+  },
+  {
+   "name": "Taste Of Soul By Dips",
+   "cuisines": [
+    "Chicken",
+    "Fish"
+   ],
+   "address": "2500 Nazareth Road, Kalamazoo",
+   "website": "https://chickencoop.biz/"
+  },
+  {
+   "name": "Martini's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "832 South Westnedge Avenue, 49008, Kalamazoo",
+   "website": "https://www.martinispizza.org/"
+  },
+  {
+   "name": "Main Street Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4514 West Main Street, 49006, Kalamazoo Township",
+   "website": "https://www.mainstpub.com/"
+  },
+  {
+   "name": "Sushi Ai",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "http://sushiaiarnold.com"
+  },
+  {
+   "name": "East Egg",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2628 West Michigan Avenue, 49006, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Big Apple Bagels",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "South Westnedge Avenue, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Super Carniceria Las Palmas",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "911 East Cork Street, 49001, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Stadium Drive, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Comensoli's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "762 West Main Street, 49007, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Gamma Psi Beta Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "12398 Cherry Street, 49008, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Bruno's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1528 West Michigan Avenue, 49006, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "Kzoo Cream",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "1502 South Westnedge Avenue",
+   "website": ""
+  },
+  {
+   "name": "Kazzopy's Pizza & Grinders",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1908 West Main Street, 49006, Kalamazoo",
+   "website": ""
+  },
+  {
+   "name": "SugarBowl Bar & Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "910 Washington Avenue, 49004",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hibachi Sushi Buffet",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rose Gold Coffe Co.",
+   "cuisines": [
+    "Coffee Shop",
+    "Tea",
+    "Lunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Hangar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bilbo's Pizza in a Pan",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Valley Dining Center",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Chicken",
+    "Coffee Shop",
+    "Italian",
+    "Mexican",
+    "Barbecue",
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "South China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lolita's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kalamazoo Beer Exchange",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maru Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rasa Ria",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roca",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Omoefe's Place",
+   "cuisines": [
+    "African"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cairo's Kitchen",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Berries Pancake House",
+   "cuisines": [
+    "Breakfast",
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Tangy Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Quekas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bomba's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fletcher's Pub",
+   "cuisines": [],
+   "address": "3013 Oakland Drive, 49008, Kalamazoo",
+   "website": "https://www.fletcherspub.com/"
+  },
+  {
+   "name": "Julianna's Restaurant",
+   "cuisines": [],
+   "address": "2105 Lake Street, 49001, Kalamazoo",
+   "website": "https://juliannasrestaurant.com/"
+  },
+  {
+   "name": "The Park Club",
+   "cuisines": [],
+   "address": "219 South Park St",
+   "website": "https://www.parkclub.net/"
+  },
+  {
+   "name": "Studio Grill",
+   "cuisines": [],
+   "address": "312 West Michigan Avenue, 49007",
+   "website": "https://www.studiogrillkalamazoo.com"
+  },
+  {
+   "name": "600 Kitchen & Bar",
+   "cuisines": [],
+   "address": "600 East Michigan Avenue, 49007, Kalamazoo",
+   "website": "https://www.600kitchenandbar.com/"
+  },
+  {
+   "name": "Artisan Sandwich co.",
+   "cuisines": [],
+   "address": "348 Kalamazoo Mall",
+   "website": ""
+  },
+  {
+   "name": "Louie's Trophy House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pop City Popcorn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "HUB Tavern + Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shawarma King: Lebanese & American Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Grazing Table Kalamazoo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diner @ Washington Square",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hop Cat",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Root Beer Stand",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Root Beer Stand",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burger Bros",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cosmo's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burdicks",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Bob's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Copper's Dog House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brick & Brine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rustica",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Principle",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Kalamazoo Valley Museum",
+   "kind": "museum",
+   "address": "230 North Rose Street, 49007, Kalamazoo",
+   "website": "https://kvm.kvcc.edu/",
+   "phone": "+1 269 373 7990",
+   "latitude": 42.2933191,
+   "longitude": -85.5838337
+  },
+  {
+   "name": "Kalamazoo Institute of Arts",
+   "kind": "museum",
+   "address": "314 South Park Street, 49007, Kalamazoo",
+   "website": "https://www.kiarts.org/",
+   "phone": "+1 269 349 7775",
+   "latitude": 42.2892088,
+   "longitude": -85.5877989
+  },
+  {
+   "name": "Air Zoo",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2286704,
+   "longitude": -85.555634
+  },
+  {
+   "name": "Celery Flats Interpretive Center",
+   "kind": "attraction",
+   "address": "Garden Lane, Portage",
+   "website": "",
+   "phone": "",
+   "latitude": 42.210349,
+   "longitude": -85.5842223
+  },
+  {
+   "name": "Kalamazoo Valley Community College Center for New Media Art Museum",
+   "kind": "museum",
+   "address": "100 East Michigan Avenue, Kalamazoo",
+   "website": "https://www.kvcc.edu/artexhibits/",
+   "phone": "",
+   "latitude": 42.2918265,
+   "longitude": -85.5830848
+  },
+  {
+   "name": "Flight Innovation Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.22746,
+   "longitude": -85.557192
+  },
+  {
+   "name": "Kalamazoo Mall",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2898116,
+   "longitude": -85.5831439
+  },
+  {
+   "name": "Black Arts & Cultural Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2888831,
+   "longitude": -85.5828497
+  },
+  {
+   "name": "Mr. Caution Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2496426,
+   "longitude": -85.5802846
+  },
+  {
+   "name": "South Street",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.289757,
+   "longitude": -85.5857497
+  },
+  {
+   "name": "Overlook Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2890863,
+   "longitude": -85.6954643
+  },
+  {
+   "name": "Artist Singh Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2496821,
+   "longitude": -85.5802949
+  },
+  {
+   "name": "Sports Life Art & Design",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2511271,
+   "longitude": -85.5631811
+  },
+  {
+   "name": "Wine and Canvas",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2136825,
+   "longitude": -85.5874172
+  },
+  {
+   "name": "Nature's Playground",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3636059,
+   "longitude": -85.5830032
+  }
+ ]
+}

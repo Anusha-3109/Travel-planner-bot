@@ -1,0 +1,2523 @@
+{
+ "city": "Long Beach",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.7685,
+ "longitude": -118.173,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hyatt Regency Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 South Pine Avenue, 90802, Long Beach",
+   "url": "https://longbeach.regency.hyatt.com/"
+  },
+  {
+   "name": "Hotel Maya - a DoubleTree by Hilton Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Queensway Drive, 90802, Long Beach",
+   "url": "https://www.hilton.com/en/hotels/lgbmydt-hotel-maya/"
+  },
+  {
+   "name": "The Queen Mary",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.queenmary.com/"
+  },
+  {
+   "name": "Marriott Long Beach Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "111 East Ocean Boulevard, 90802, Long Beach",
+   "url": "https://www.marriott.com/en-us/hotels/lgbmc-marriott-long-beach-downtown/overview/"
+  },
+  {
+   "name": "Econo Lodge Long Beach I-405",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3624 Pacific Coast Highway, 90804, Long Beach",
+   "url": "https://www.choicehotels.com/california/westminster/quality-inn-hotels"
+  },
+  {
+   "name": "Courtyard Long Beach Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 East 1st Street, 90802, Long Beach",
+   "url": "https://www.marriott.com/lgbcy"
+  },
+  {
+   "name": "Motel 6 Los Angeles - Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5665 East 7th Street, 90804, Long Beach",
+   "url": "https://www.motel6.com/en/motels.ca.long-beach.1312.html"
+  },
+  {
+   "name": "Travelodge Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "80 Atlantic Avenue, 90802, Long Beach",
+   "url": "https://www.wyndhamhotels.com/travelodge/long-beach-california/long-beach-convention-center-travelodge/overview"
+  },
+  {
+   "name": "Rodeway Inn Carson - Los Angeles South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1325 East Carson Street, 90745, Carson",
+   "url": "https://www.choicehotels.com/california/westminster/quality-inn-hotels"
+  },
+  {
+   "name": "BEST WESTERN PLUS Hotel at the Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "517 East 1st Street, 90802-5025, Long Beach",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-long-beach/best-western-plus-hotel-at-the-convention-center/propertyCode.05642.html"
+  },
+  {
+   "name": "Courtyard by Marroit",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3841 Lakewood Boulevard, 90808, Long Beach",
+   "url": "https://www.marriott.com/lgbcl"
+  },
+  {
+   "name": "Residence Inn Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4111 E Willow Street, 90815, Long Beach",
+   "url": "https://www.marriott.com/en-us/hotels/laxbh-residence-inn-long-beach/overview/"
+  },
+  {
+   "name": "THE COVE HOTEL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 East Willow Street, 90806, Long Beach",
+   "url": "https://www.covelongbeach.com/"
+  },
+  {
+   "name": "Hyatt Centric The Pike Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "285 Bay Street, 90802, Long Beach",
+   "url": "https://thepikelongbeach.hyatt.com/en/hotel/home.html"
+  },
+  {
+   "name": "Hampton Inn and Suites Seal Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2401 Seal Beach Boulevard, 90740, Seal Beach",
+   "url": "https://www.hilton.com/en/hotels/lgbsbhx-hampton-suites-seal-beach/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3771 North Lakewood Boulevard, 90808, Long Beach",
+   "url": "https://www.hilton.com/en/hotels/lgbaphx-hampton-long-beach-airport/"
+  },
+  {
+   "name": "Residence Inn Long Beach Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 Queensway Drive, 90802, Long Beach",
+   "url": "https://www.marriott.com/lgbri"
+  },
+  {
+   "name": "QueenCity Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3555 Pacific Coast Highway, 90755, Signal Hill",
+   "url": "http://www.queencityinn.com/#/"
+  },
+  {
+   "name": "Hotel Mai",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "107 Long Beach Boulevard, 90802, Long Beach",
+   "url": "https://hotelmai.com/"
+  },
+  {
+   "name": "Rodeway Inn Long Beach Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "50 Atlantic Avenue, 90802, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Days Inn by Wyndham Long Beach City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 East Pacific Coast Highway, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "The Cove Hotel, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 East Willow Street, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Gaslamp Restaurant & Bar",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6251 East Pacific Coast Highway, 90803, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Kearney Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1641 West Parade Street, 90810, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Raymoure Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1645 West Pacific Coast Highway, 90810, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Hiland Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1441 West Pacific Coast Highway, 90810, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Travel Eagle Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "809 West Pacific Coast Highway North Frontage Road, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Aqua Venture Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "848 E Pacific Coast Hwy, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Argonne Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1032 East 7th Street, 90813, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "El Capitan Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "446 West Pacific Coast Highway, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Hotel Royal",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "431 East Broadway, 90802, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Tower Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "421 W Pacific Coast Hwy, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "The Belmont Shore Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3946 East Ocean Boulevard, 90803, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4105 E Willow St, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Monterey Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1777 Cherry Avenue, 90813, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Beach Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "823 East 3rd Street, 90802, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Hotel Current",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5325 Pacific Coast Highway, 90804, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Vagabond Inn Convention Center Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Liberty hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1875 Cherry Avenue, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "Hilton Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Long Beach, Intl City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Best Western of Long Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travel King Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "849 East 7th Street",
+   "url": ""
+  },
+  {
+   "name": "777 Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "16240 Pacific Coast Hwy, 92649, Huntington Beach",
+   "url": ""
+  },
+  {
+   "name": "Ayres Hotel Seal Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12850 Seal Beach Boulevard, 90740, Seal Beach",
+   "url": ""
+  },
+  {
+   "name": "Don's Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Pacific Coast Highway",
+   "url": ""
+  },
+  {
+   "name": "Beacon Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "660 Pacific Coast Highway, 90806, Long Beach",
+   "url": ""
+  },
+  {
+   "name": "The Varden Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "335 Pacific Avenue",
+   "url": ""
+  },
+  {
+   "name": "Pacific View Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "16220 Mariner Drive, 92649, Huntington Beach",
+   "url": ""
+  },
+  {
+   "name": "La Mirage Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "City Center Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ronald McDonald House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Colonial Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Village Hotel apts",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Coast Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cherry Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Long Beach Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunshine Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Salina",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "The Attic",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3441 East Broadway, 90803, Long Beach",
+   "website": "https://www.theatticonbroadway.com/"
+  },
+  {
+   "name": "Phnom Penh Noodle Shack",
+   "cuisines": [
+    "Cambodian"
+   ],
+   "address": "1644 Cherry Avenue, 90813, Long Beach",
+   "website": "https://www.thenoodleshack.com"
+  },
+  {
+   "name": "Plant Power",
+   "cuisines": [
+    "Burger",
+    "Fries",
+    "Soft-Serve",
+    "Ice Cream"
+   ],
+   "address": "5095 Pacific Coast Highway, 90804-3311, Long Beach",
+   "website": "https://www.plantpowerfastfood.com/find-us"
+  },
+  {
+   "name": "Tacos La Revancha Kitchen & Beer",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2634 East Anaheim Street, 90804, Long Beach",
+   "website": "https://tacoslarevancha.com"
+  },
+  {
+   "name": "Kimu Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "745 East Broadway, 90802, Long Beach",
+   "website": "https://kimusushilongbeach.com/"
+  },
+  {
+   "name": "Blue Bird Haus",
+   "cuisines": [
+    "Sushi",
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "1532 East Broadway, 90802, Long Beach",
+   "website": "https://www.bluebirdhaussushi.com/"
+  },
+  {
+   "name": "The Win-Dow",
+   "cuisines": [
+    "Burger",
+    "Salad"
+   ],
+   "address": "4600 2nd St, 90803, Long Beach",
+   "website": "https://www.thewin-dow.la/"
+  },
+  {
+   "name": "Spicy Sugar",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1538 East Broadway, 90802, Long Beach",
+   "website": "https://www.spicysugarthai.com/"
+  },
+  {
+   "name": "Pho America",
+   "cuisines": [
+    "Asian",
+    "Vietnamese"
+   ],
+   "address": "1826 Pacific Avenue, 90806, Long Beach",
+   "website": "https://www.phoamerica.com/"
+  },
+  {
+   "name": "Gladstone's Long beach",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "330 South Pine Avenue, 90802, Long Beach",
+   "website": "https://www.gladstoneslongbeach.com/"
+  },
+  {
+   "name": "Massimo's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5616 East 2nd Street",
+   "website": "https://massimosnaples.com/"
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://m.yardhouse.com/locations/ca/long-beach/long-beach-shoreline-village/8301"
+  },
+  {
+   "name": "Sushi Nikkei",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "5020 2nd Street, 90803, Long Beach",
+   "website": "http://www.sushinikkei-la.com"
+  },
+  {
+   "name": "Gaucho Beach",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "780 E Shoreline Drive, 90802, Long Beach",
+   "website": "https://www.gauchobeach.com/"
+  },
+  {
+   "name": "Kin Long Beach",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "740 East Broadway, 90802, Long Beach",
+   "website": "https://kinlongbeachkitchen.com/"
+  },
+  {
+   "name": "Super Mex",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "732 East 1st Street, 90802, Long Beach",
+   "website": "https://www.supermex.com/"
+  },
+  {
+   "name": "Jounetsu Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "1035 East 4th Street, 90802, Long Beach",
+   "website": "https://jounetsuramen.com/"
+  },
+  {
+   "name": "Tequila Jack's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "407 Shoreline Village Drive, 90802, Long Beach",
+   "website": "https://tequilajacks.com/"
+  },
+  {
+   "name": "Long Beach Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.longbeachthai.com"
+  },
+  {
+   "name": "La Parolaccia Osteria Italiana",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "2945 East Broadway, 90803, Long Beqch",
+   "website": "https://laparolacciausa.com/"
+  },
+  {
+   "name": "Pickle Banh Mi Co.",
+   "cuisines": [
+    "Sandwich",
+    "Vietnamese"
+   ],
+   "address": "1171 East Anaheim Street, 90813",
+   "website": "https://picklebanhmi.co"
+  },
+  {
+   "name": "King's Fish House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "100 West Broadway, 90802, Long Beach",
+   "website": "https://www.kingsfishhouse.com/longbeach"
+  },
+  {
+   "name": "L'Opera Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "101 Pine Avenue, 90802, Long Beach",
+   "website": "https://lopera.com"
+  },
+  {
+   "name": "Cocorenos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3400 East Broadway, 90803, Long Beach",
+   "website": "https://www.cocorenos.com/"
+  },
+  {
+   "name": "Panini Kabob Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "421 West Broadway, 90802, Long Beach",
+   "website": "https://paninikabobgrill.com/"
+  },
+  {
+   "name": "123 Pho",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "210 East 3rd Street, 90802, Long Beach",
+   "website": "https://www.123-pho.com/"
+  },
+  {
+   "name": "LUNA",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5755 East Pacific Coast Highway",
+   "website": "https://www.lunabistrocafe.com/"
+  },
+  {
+   "name": "The Grain Cafe",
+   "cuisines": [
+    "Pizza",
+    "Salad",
+    "Pancake",
+    "Dessert"
+   ],
+   "address": "",
+   "website": "https://www.thegraincafeca.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "601 Long Beach Boulevard, Long Beach",
+   "website": "https://locations.dennys.com/CA/LONG-BEACH/247211"
+  },
+  {
+   "name": "Lola's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2030 East 4th Street, 90814, Long Beach",
+   "website": "https://lolasmexicancuisine.com/"
+  },
+  {
+   "name": "Zenmaru Teriyaki & Roll",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "454 Pine Avenue, 90802, Long Beach",
+   "website": "https://zenmarusushi.com"
+  },
+  {
+   "name": "4th Horseman",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "121 West 4th Street, 90802, Long Beach",
+   "website": "https://the4thhorsemanlbc.com"
+  },
+  {
+   "name": "El Viejón Mariscos & Sushi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "201 East Broadway, 90802, Long Beach",
+   "website": "https://elviejonms.com"
+  },
+  {
+   "name": "Broadway Pizza & Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "120 East Broadway, 90802, Long Beach",
+   "website": "https://www.broadwaypizzalb.com"
+  },
+  {
+   "name": "Homareya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "145 East 4th Street, 90802, Long Beach",
+   "website": "https://www.longbeachhomareya.com"
+  },
+  {
+   "name": "AZN",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "325 The Promenade North, 90802, Long Beach",
+   "website": "https://eatazn.com/locations/azn-long-beach/"
+  },
+  {
+   "name": "Sonoratown",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "244 East 3rd Street, 90802, Long Beach",
+   "website": "https://www.sonoratown.com"
+  },
+  {
+   "name": "Cinco de Mayo Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "351 Pacific Avenue, 90802, Long Beach",
+   "website": "https://cincodemayorestaurant.twupro.com"
+  },
+  {
+   "name": "La Traviata",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "301 Cedar Avenue, 90802, Long Beach",
+   "website": "https://latraviata301.com"
+  },
+  {
+   "name": "R Bar",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "106 West 3rd Street, 90802, Long Beach",
+   "website": "https://rbarlbc.com"
+  },
+  {
+   "name": "Laurie's Pie Bar",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "450 Pine Avenue, 90802, Long Beach",
+   "website": "https://www.lauriespiebar.com"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ca/signal-hill/899-east-spring-st-77047"
+  },
+  {
+   "name": "Flamincurry",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3344 East Broadway, 90803, Long Beach",
+   "website": "https://www.flamincurrylb.com/"
+  },
+  {
+   "name": "Baby Bros",
+   "cuisines": [
+    "Pizza",
+    "Wings"
+   ],
+   "address": "217 Pine Avenue, 90802, Long Beach",
+   "website": "https://www.babybrospizza.com/"
+  },
+  {
+   "name": "Manaow",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3618 East Broadway, 90803, Long Beach",
+   "website": "http://www.manaowthai.com/"
+  },
+  {
+   "name": "Wine District",
+   "cuisines": [
+    "Wine"
+   ],
+   "address": "144 Linden Avenue, 90802, Long Beach",
+   "website": "https://www.districtwine.com/"
+  },
+  {
+   "name": "Thai Silk",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1506 East Broadway, 90802, Long Beach",
+   "website": "https://www.thaisilkrestaurantlb.com/"
+  },
+  {
+   "name": "Mariscus Los Buchones",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "701 Long Beach Boulevard",
+   "website": "https://losbuchonesrestaurant.com/"
+  },
+  {
+   "name": "George's Greek Cafe",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": "https://www.georgesgreekcafe.com/"
+  },
+  {
+   "name": "Taco Shore",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://tacoshore.com/"
+  },
+  {
+   "name": "Roe's Seafood and fish market",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://roeseafood.com/"
+  },
+  {
+   "name": "Fuego",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.hotelmayalongbeach.com/fuego-restaurant/"
+  },
+  {
+   "name": "Eggs Etc.",
+   "cuisines": [
+    "Breakfast",
+    "Brunch",
+    "Burger"
+   ],
+   "address": "538 Redondo Avenue",
+   "website": ""
+  },
+  {
+   "name": "Wing Xscape by Hot Potato 1.2.3. Express",
+   "cuisines": [
+    "Chicken",
+    "Wings"
+   ],
+   "address": "1388 Daisy Avenue, 90813, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Black Bear Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1898 East Willow Street, 90755, Signal Hill",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Ruan",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1202 East Broadway, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Gabriel's Burgers",
+   "cuisines": [
+    "Burger",
+    "Mexican"
+   ],
+   "address": "2001 Pacific Avenue, 90806, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Buen Provecho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "301 The Promenade North, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Chuck's Coffee Shop",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "4120 East Ocean Boulevard, 90803, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Happy Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2081 Pacific Avenue, 90806, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "20 Shoreline Drive, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Rivera's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2901 East 7th Street, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Cafe Piccolo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3222 East Broadway",
+   "website": ""
+  },
+  {
+   "name": "Tommy's on Broadway",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1112 East Broadway",
+   "website": ""
+  },
+  {
+   "name": "Cafe Ambrosia",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1923 East Broadway",
+   "website": ""
+  },
+  {
+   "name": "La Ceiba;7th St Pizza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1436 East 7th Street",
+   "website": ""
+  },
+  {
+   "name": "Rebel Bite",
+   "cuisines": [
+    "Italian",
+    "Burger",
+    "Ribs",
+    "Sandwich"
+   ],
+   "address": "649 East Broadway, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Sapporo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "5735 East Pacific Coast Highway",
+   "website": ""
+  },
+  {
+   "name": "Fishbone Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "149 East 4th Street, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Pho Hong Phat",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Haskell's Prospector",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Traitero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "Pacific Coast Highway",
+   "website": ""
+  },
+  {
+   "name": "Baiplu Thai Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Leo's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "755 Magnolia Avenue, 90813, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Uncle Fung",
+   "cuisines": [
+    "Indonesian"
+   ],
+   "address": "5716 East 7th Street",
+   "website": ""
+  },
+  {
+   "name": "Gu Ramen Taps & Tapas",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "108 West 3rd Street, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Hokkaido Seafood Buffet",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alberto's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Islands",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chili Bravo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4207 Lakewood Boulevard, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Long Beach Pizza Co Sports Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "East Broadway, 90803, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Aji",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "California Pizza Kitchen",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chiang Rai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hong Cong Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "Long Beach Boulevard, 90806, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Star of Siam",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2109 East Broadway",
+   "website": ""
+  },
+  {
+   "name": "Joliza's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2233 Pacific Avenue, 90806",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cantarito Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2000 East 7th Street",
+   "website": ""
+  },
+  {
+   "name": "@Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Louisiana Charlie's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "Shoreline Village Drive",
+   "website": ""
+  },
+  {
+   "name": "555 East American Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "A&J Seafood Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hiro Nori",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aburi Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Chef Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi on Fire",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai District",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Naga Cafe Khmer Street Food",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big E Pizza | FUGETABOUTIT!",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sauz",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Milana's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wa Wa Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Barrio Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Canadian Pizza & Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pike Fish Grill & Cocktails",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Coyote",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Tarantella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Sauz Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Retroll Sushi L.B.C.",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wild Chive",
+   "cuisines": [],
+   "address": "2650 East Broadway, 90803, Long Beach",
+   "website": "https://thewildchive.com/"
+  },
+  {
+   "name": "Curley's Cafe",
+   "cuisines": [],
+   "address": "1999 East Willow Street, 90755-2096, Signal Hill",
+   "website": "http://curleyscafesignalhill.com"
+  },
+  {
+   "name": "The Reef",
+   "cuisines": [],
+   "address": "880 Harbor Scenic Drive, 90802",
+   "website": "https://www.reefrestaurant.com"
+  },
+  {
+   "name": "Ammatoli",
+   "cuisines": [],
+   "address": "285 East 3rd Street, 90802",
+   "website": "https://www.ammatoli.com/"
+  },
+  {
+   "name": "The Bamboo Club",
+   "cuisines": [],
+   "address": "3522 E. Anaheim St.",
+   "website": "https://www.bambooclublb.com"
+  },
+  {
+   "name": "Tokyo Wako Long Beach",
+   "cuisines": [],
+   "address": "310 South Pine Avenue, Long Beach",
+   "website": "https://www.tokyo-wako.com/"
+  },
+  {
+   "name": "Naree Thai",
+   "cuisines": [],
+   "address": "555 East Ocean Boulevard, 90802",
+   "website": "https://nareethailongbeach.com"
+  },
+  {
+   "name": "Poke Pola",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.pokepola.com/"
+  },
+  {
+   "name": "RAKKAN Ramen-Long Beach",
+   "cuisines": [],
+   "address": "",
+   "website": "https://rakkanramen.com/locations/long-beach/"
+  },
+  {
+   "name": "Zooks Kitchen",
+   "cuisines": [],
+   "address": "1208 Long Beach Boulevard, 90813-3225, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Gaslamp Restaurant & Bar",
+   "cuisines": [],
+   "address": "6251 East Pacific Coast Highway, 90803, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Sevilla",
+   "cuisines": [],
+   "address": "Pine Avenue, 90802-4411, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Great Society",
+   "cuisines": [],
+   "address": "601 East Broadway, 90802",
+   "website": ""
+  },
+  {
+   "name": "Parkers' Lighthouse Restaurant",
+   "cuisines": [],
+   "address": "1201 Harbor Boulevard, 92840, Garden Grove",
+   "website": ""
+  },
+  {
+   "name": "Panchos Mexican Restaurant",
+   "cuisines": [],
+   "address": "Pacific Coast Highway",
+   "website": ""
+  },
+  {
+   "name": "Belmont Burgers",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Potholder Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mother's Market Kitchen",
+   "cuisines": [],
+   "address": "2475 Cherry Avenue, 90755, Signal Hill",
+   "website": ""
+  },
+  {
+   "name": "Long Beach Fish Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Park Pantry",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crooked Duck",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Egg Heaven",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Choices Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza St.",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hiccups",
+   "cuisines": [],
+   "address": "1946 N Lakewood Boulevard, 90815, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Cream de la Crepe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Star Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Loaded Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roscoe's Chicken House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chez Bacchus",
+   "cuisines": [],
+   "address": "743 East 4th Street, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Right Mealz",
+   "cuisines": [],
+   "address": "422 East 4th Street, 90802, Long Beach",
+   "website": ""
+  },
+  {
+   "name": "Kelly's",
+   "cuisines": [],
+   "address": "5716 East 2nd Street, 90803",
+   "website": ""
+  },
+  {
+   "name": "Merced's Restaurant",
+   "cuisines": [],
+   "address": "1064 East Broadway",
+   "website": ""
+  },
+  {
+   "name": "Socal Wings",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "James Republic restaurant",
+   "cuisines": [],
+   "address": "500 East 1st Street",
+   "website": ""
+  },
+  {
+   "name": "Nick's on 2nd",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Open Sesame",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wok n Roll",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mink Quan Thai Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos Chapala",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alegria",
+   "cuisines": [],
+   "address": "Pine Avenue",
+   "website": ""
+  },
+  {
+   "name": "Queens Wharf Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marketplace Grill Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Polly's Pies",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Charcoal Pit",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Belmont Brewing Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Burrito Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papalucci",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Working Class Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hole Mole",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beach City Deli & BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seoulmate",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Strada",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saint & Second",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Ai",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Simmzy's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lasher's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Baja Fish Tacos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Legends Restaurant & Sports Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rance's Chicago Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Natraj",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sancho's Tacos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angelo's Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Domenico's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Riley's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rockfire Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toppings Custom Fired Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "AhiPoki",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Char Chicken",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cyclo Noodles",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Valentino's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Callaloo Caribbean Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Compadres Mexican Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Canadas Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deno's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Sanchez",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "JJ Chinese Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carvery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Viva Falafel",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Starling Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave’s",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Baja Cali",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Franco",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Omelette Inn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marathon Burger",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kalaveras",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beach Hut Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Risu",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Donburi Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Japanese Fried Chicken",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Condesa De Oaxaca",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saffron Mediterranean Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Egg Bred",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stinkin' Crawfish",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poké Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wok & Pho",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "McDowell's Seafood & Barbq",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Everytable",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mamy's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Esperanza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Paisa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Guanaquita",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Club Viva Mejor",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Ceiba",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Pho Long Beach Vietnamese Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos Y Mariscos La Fuente",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koh Ruessei Restaurant & Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Honduras' Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jerry's Breakfast Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Holé Molé",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "#9 Noodles & Beer",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "MVP Grill & Patio",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fatima's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sideburns",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tito's Bakery & Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Partake Collective",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K & R Grill Filipino Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bogart & Co",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Long Beach Museum of Art",
+   "kind": "museum",
+   "address": "2300 East Ocean Boulevard, 90803, Long Beach",
+   "website": "https://www.lbma.org/",
+   "phone": "",
+   "latitude": 33.7634748,
+   "longitude": -118.1647817
+  },
+  {
+   "name": "Museum of Latin American Art",
+   "kind": "museum",
+   "address": "",
+   "website": "https://molaa.org/",
+   "phone": "",
+   "latitude": 33.7745764,
+   "longitude": -118.179678
+  },
+  {
+   "name": "Aquarium of the Pacific",
+   "kind": "aquarium",
+   "address": "",
+   "website": "https://www.aquariumofpacific.org/",
+   "phone": "",
+   "latitude": 33.7619955,
+   "longitude": -118.1971331
+  },
+  {
+   "name": "Battleship USS Iowa",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7419912,
+   "longitude": -118.2773065
+  },
+  {
+   "name": "B-427 Scorpion",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7533053,
+   "longitude": -118.1914297
+  },
+  {
+   "name": "Red Car Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7432276,
+   "longitude": -118.1044499
+  },
+  {
+   "name": "Banning Residence Museum",
+   "kind": "museum",
+   "address": "401 East M Street, 90744, Wilmington",
+   "website": "https://www.thebanningmuseum.org/",
+   "phone": "+1-310-548-7777",
+   "latitude": 33.7899977,
+   "longitude": -118.2588223
+  },
+  {
+   "name": "Rancho Los Alamitos",
+   "kind": "museum",
+   "address": "6400 East Bixby Hill Road, 90815, Long Beach",
+   "website": "https://www.rancholosalamitos.org/",
+   "phone": "+1-562-431-3541",
+   "latitude": 33.7769682,
+   "longitude": -118.1074491
+  },
+  {
+   "name": "LGB Viewing Area",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.longbeach.gov/lgb/community-information/lgb-viewing-area/",
+   "phone": "",
+   "latitude": 33.8105864,
+   "longitude": -118.145024
+  },
+  {
+   "name": "Pacific Island Ethnic Art Museum",
+   "kind": "museum",
+   "address": "695 Alamitos Avenue, 90802, Long Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7751642,
+   "longitude": -118.1804467
+  },
+  {
+   "name": "Iguana Import Gallery",
+   "kind": "gallery",
+   "address": "3440 East Broadway, 90803, Long Beach",
+   "website": "",
+   "phone": "+1-562-433-1713",
+   "latitude": 33.7643043,
+   "longitude": -118.1515345
+  },
+  {
+   "name": "Long Beach Lifeguard Museum",
+   "kind": "museum",
+   "address": "5260 East Paoli Way",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7649916,
+   "longitude": -118.1273391
+  },
+  {
+   "name": "Dark Arts Emporium",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7682803,
+   "longitude": -118.1867658
+  },
+  {
+   "name": "Laura Trelstad",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7928557,
+   "longitude": -118.2000797
+  },
+  {
+   "name": "Longview Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8072114,
+   "longitude": -118.1777182
+  },
+  {
+   "name": "Beach Binoculars",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7382148,
+   "longitude": -118.1071623
+  },
+  {
+   "name": "Grand Prix of Long Beach Podium",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7638034,
+   "longitude": -118.185422
+  },
+  {
+   "name": "Red Car Greenbelt",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.771921,
+   "longitude": -118.1375733
+  },
+  {
+   "name": "The Queen Mary Ship",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7527617,
+   "longitude": -118.1896891
+  },
+  {
+   "name": "Grand Prix of Long Beach Finish Line",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7622661,
+   "longitude": -118.1872307
+  }
+ ]
+}

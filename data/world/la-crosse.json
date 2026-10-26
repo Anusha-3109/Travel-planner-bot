@@ -1,0 +1,968 @@
+{
+ "city": "La Crosse",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.8126,
+ "longitude": -91.2497,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "308 Hampton Court, 54650, Onalaska",
+   "url": "https://www.hilton.com/en/hotels/lsewihx-hampton-lacrosse-onalaska/"
+  },
+  {
+   "name": "GrandStay Hotel & Suites La Crosse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 Front Street North, 54601, La Crosse",
+   "url": "https://www.grandstayhospitality.com/find-a-hotel/locations/la-crosse/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2110 Rose Street, 54603, La Crosse",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-la-crosse-wi"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Front Street South, 54601, La Crosse",
+   "url": "https://www.marriott.com/lsecy"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1223 Crossing Meadows Drive, 54650, Onalaska",
+   "url": "https://www.choicehotels.com/wisconsin/onalaska/comfort-inn-hotels/wi028"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "434 3rd Street South, 54601, La Crosse",
+   "url": "https://www.marriott.com/lsefi"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3300 North Kinney Coulee Road, 54650, Onalaska",
+   "url": "https://www.wyndhamhotels.com/baymont/onalaska-wisconsin/baymont-inn-and-suites-la-crosse-onalaska/overview"
+  },
+  {
+   "name": "Home2 Suites by Hilton La Crosse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 Jay Street, 54601, La Crosse",
+   "url": "https://www.hilton.com/en/hotels/lsehtht-home2-suites-la-crosse/"
+  },
+  {
+   "name": "Radisson Hotel La Crosse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Second Street South, 200 Harborview Plaza, 54601, La Crosse",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-la-crosse"
+  },
+  {
+   "name": "Best Western Plus Lacrescent / Lacrosse",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "509 North Chestnut Street, 55947, La Crescent",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-la-crescent/best-western-plus-lacrescent-lacrosse/propertyCode.24146.html"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1625 Rose Street, 54603-2205, La Crosse",
+   "url": "https://www.wyndhamhotels.com/super-8/la-crosse-wisconsin/super-8-la-crosse/overview"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1906 Rose Street, 54603, La Crosse",
+   "url": "https://www.choicehotels.com/wisconsin/sparta/country-inn-suites-hotels"
+  },
+  {
+   "name": "Gundersen Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1520 Clinic Court, 54601, La Crosse",
+   "url": "https://www.gundersenhotel.com/"
+  },
+  {
+   "name": "Stay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9409 WI-16, 54650, Onalaska",
+   "url": "https://staysuitesonalaska.com/"
+  },
+  {
+   "name": "Shadow Run Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "710 2nd Avenue North, 54650, Onalaska",
+   "url": "http://www.shadowrunmotel.com/"
+  },
+  {
+   "name": "Affordable Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "614 Monitor Street, 54603, La Crosse",
+   "url": "http://www.affordableinnmotel.com/"
+  },
+  {
+   "name": "Bentley-Wheeler Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "950 Cass Street, 54601, La Crosse",
+   "url": "http://www.bentley-wheeler.com/"
+  },
+  {
+   "name": "Castle La Crosse Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1419 Cass Street, 54601, La Crosse",
+   "url": "https://castlelacrossebnb.com/"
+  },
+  {
+   "name": "Four Gables B&B",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "W5648 US-14, 54601, La Crosse",
+   "url": "https://www.explorelacrosse.com/project/four-gables-bed-breakfast/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "511 3rd Street North, 54601, La Crosse",
+   "url": ""
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1835 Rose Street, 54603, La Crosse",
+   "url": ""
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Sky Harbour Drive, 54603, La Crosse",
+   "url": ""
+  },
+  {
+   "name": "Lumber Baron Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "421 2nd Avenue North, 54650, Onalaska",
+   "url": ""
+  },
+  {
+   "name": "Onalaska Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "651 2nd Avenue South, 54650, Onalaska",
+   "url": ""
+  },
+  {
+   "name": "Lake Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "916 2nd Avenue North, 54650, Onalaska",
+   "url": ""
+  },
+  {
+   "name": "Microtel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Pearl Street Hotel and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Charmant Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Stoney Creek Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "La Crosse",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Lovechild Restaurant",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "300 3rd Street South, 54601, La Crosse",
+   "website": "https://www.lovechildrestaurant.com/"
+  },
+  {
+   "name": "corky's Legendary Pizza/Ice cream",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "American",
+    "Sandwich",
+    "Ice Cream"
+   ],
+   "address": "25 South Walnut Street, 55947, La Crescent",
+   "website": "https://corkyspizza.net/"
+  },
+  {
+   "name": "Pickerman's Soup & Sandwiches",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "327 Jay Street, 54601, La Crosse",
+   "website": "https://www.lacrossepickermans.com/"
+  },
+  {
+   "name": "Schmitty's TimeOut Tavern",
+   "cuisines": [
+    "American",
+    "Bar And Grill"
+   ],
+   "address": "444 North Chestnut Street, 55947, La Crescent",
+   "website": "https://www.schmittystimeout.com/"
+  },
+  {
+   "name": "Tacomex",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "302 Pearl Street, 54601, La Crosse",
+   "website": "https://tacomex.getbento.com/online-ordering/tacomex/menu"
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2915 East Avenue South, 54601, La Crosse",
+   "website": "https://pizzakinglacrosse.com/"
+  },
+  {
+   "name": "Uno Venti Pizzeria",
+   "cuisines": [
+    "Italian Pizza",
+    "Pizza"
+   ],
+   "address": "120 King Street, 54601",
+   "website": "https://www.unoventi.com/"
+  },
+  {
+   "name": "Rudy's Drive-In",
+   "cuisines": [
+    "Burger",
+    "Ice Cream",
+    "Root Beer"
+   ],
+   "address": "1004 La Crosse Street, 54602, La Crosse",
+   "website": "https://www.rudysdrivein.com/index.htm"
+  },
+  {
+   "name": "Gracie's Mediterranean Cuisine",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1908 Campbell Road, 54669, La Crosse",
+   "website": "https://graciesgyroslacrosse.dinehere.us/"
+  },
+  {
+   "name": "Hmong's Golden Eggroll",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "901 State Street, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Recovery Room Sports Pub & Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "901 7th Street South, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Freighthouse Restaurant",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "107 Vine Street, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Hungry Peddler",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3429 Mormon Coulee Rd, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2028 Ward Avenue, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Pogreba",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1232 Avon Street, 54603, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Polito's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "116 3rd Street South, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Ardies and Flipside",
+   "cuisines": [
+    "American"
+   ],
+   "address": "400 Lang Drive, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Howies",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1128 La Crosse Street, 54601, La Crosse",
+   "website": ""
+  },
+  {
+   "name": "Rocky Rococo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Breakfay Club & Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Al's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Digger's Sting",
+   "cuisines": [
+    "Steak House",
+    "Fish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lindy's Subs & Salads",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burger Fusion",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Senor Villas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toppers",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hmong's Golden Egg Rolls",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tequila's Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.yelp.com/biz/se%C3%B1or-villa-la-crosse"
+  },
+  {
+   "name": "The Waterfront",
+   "cuisines": [],
+   "address": "328 Front Street, 54601",
+   "website": ""
+  },
+  {
+   "name": "Rosie's Cafe",
+   "cuisines": [],
+   "address": "2225 16th Street South",
+   "website": ""
+  },
+  {
+   "name": "Schmidty's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Super Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Green Grass Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Piggy's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rudy's Drive In",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Dahl Auto Museum",
+   "kind": "museum",
+   "address": "711 3rd South Avenue, 54601, La Crosse",
+   "website": "https://www.dahlautomuseum.com/",
+   "phone": "+1-608-791-6494",
+   "latitude": 43.8059259,
+   "longitude": -91.2528086
+  },
+  {
+   "name": "Swarthout Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8110788,
+   "longitude": -91.2444304
+  },
+  {
+   "name": "Children's Museum of La Crosse",
+   "kind": "museum",
+   "address": "207 5th Avenue South, 54601, La Crosse",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8107686,
+   "longitude": -91.249737
+  },
+  {
+   "name": "World's Largest Six-Pack",
+   "kind": "attraction",
+   "address": "3rd South Avenue, 54601, La Crosse",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8028419,
+   "longitude": -91.253231
+  },
+  {
+   "name": "Explore La Crosse",
+   "kind": "attraction",
+   "address": "123 7th Street South, 54601, La Crosse",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8110555,
+   "longitude": -91.2464543
+  },
+  {
+   "name": "Historic Hixon House Museum",
+   "kind": "museum",
+   "address": "429 7th Street North, 54601, La Crosse",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8158796,
+   "longitude": -91.2471467
+  },
+  {
+   "name": "Riverside Museum",
+   "kind": "museum",
+   "address": "410 East Veterans Memorial Drive, 54601, La Crosse",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8183487,
+   "longitude": -91.2556951
+  },
+  {
+   "name": "Stoney Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8279088,
+   "longitude": -91.3167909
+  },
+  {
+   "name": "Table Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8328346,
+   "longitude": -91.2082638
+  },
+  {
+   "name": "Hass bench",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7716296,
+   "longitude": -91.1985607
+  },
+  {
+   "name": "Bench",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7636105,
+   "longitude": -91.2007487
+  },
+  {
+   "name": "Lookout Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8209753,
+   "longitude": -91.2002969
+  },
+  {
+   "name": "Milson Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8230482,
+   "longitude": -91.2118808
+  },
+  {
+   "name": "Hixon View",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8131527,
+   "longitude": -91.2015634
+  },
+  {
+   "name": "BoyScout Bench",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7703968,
+   "longitude": -91.1947493
+  },
+  {
+   "name": "Vista Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8206062,
+   "longitude": -91.2067055
+  },
+  {
+   "name": "Upper Dobson point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8076112,
+   "longitude": -91.1962976
+  },
+  {
+   "name": "Lower Dobson point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8071267,
+   "longitude": -91.1964044
+  },
+  {
+   "name": "Hedgehog",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8022482,
+   "longitude": -91.2046958
+  },
+  {
+   "name": "Cliffwood",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8017463,
+   "longitude": -91.2094447
+  },
+  {
+   "name": "George's Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8103713,
+   "longitude": -91.2055687
+  },
+  {
+   "name": "The Thrown",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8105161,
+   "longitude": -91.2019453
+  },
+  {
+   "name": "South View",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7533142,
+   "longitude": -91.1992275
+  },
+  {
+   "name": "Grand Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8097637,
+   "longitude": -91.206188
+  },
+  {
+   "name": "The Shelf",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8116736,
+   "longitude": -91.2117483
+  },
+  {
+   "name": "Lenox Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8531766,
+   "longitude": -91.2053516
+  },
+  {
+   "name": "KAPLAN quarry",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8353339,
+   "longitude": -91.2071001
+  },
+  {
+   "name": "VIEWPOINT",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7837397,
+   "longitude": -91.1842102
+  },
+  {
+   "name": "Visitors Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.865226,
+   "longitude": -91.3091716
+  },
+  {
+   "name": "Birch Point Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8189349,
+   "longitude": -91.1920458
+  },
+  {
+   "name": "Riverside Amusement Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8611142,
+   "longitude": -91.2386401
+  },
+  {
+   "name": "Rim of the City Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.828204,
+   "longitude": -91.213541
+  },
+  {
+   "name": "Zoerb Prairie",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8202233,
+   "longitude": -91.1946106
+  },
+  {
+   "name": "La Crosse Queen",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.8180802,
+   "longitude": -91.2568784
+  },
+  {
+   "name": "Stations of the Cross",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7524017,
+   "longitude": -91.1798894
+  },
+  {
+   "name": "Rosary Walk",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.7511139,
+   "longitude": -91.1798559
+  }
+ ]
+}

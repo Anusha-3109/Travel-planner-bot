@@ -1,0 +1,1467 @@
+{
+ "city": "Daytona Beach",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 29.2151,
+ "longitude": -81.0144,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Streamline Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sea Club IV",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3229 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://seaclubiv.com"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1715 West International Speedway Boulevard, 32114, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabvlhx-hampton-daytona-speedway-airport/"
+  },
+  {
+   "name": "Renaissance Daytona Beach Oceanfront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.marriott.com/en-us/hotels/dabbr-renaissance-daytona-beach-oceanfront-hotel/overview/"
+  },
+  {
+   "name": "Best Western Castillo Del Sol",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 South Atlantic Avenue, 32176-8105, Ormond Beach",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-ormond-beach/best-western-castillo-del-sol/propertyCode.10371.html"
+  },
+  {
+   "name": "Fairfield Inn & Suites Daytona Beach Speedway/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1820 Checkered Flag Boulevard, 32114, Daytona Beach",
+   "url": "https://www.marriott.com/hotels/travel/dabfi-fairfield-inn-and-suites-daytona-beach-speedway-airport/"
+  },
+  {
+   "name": "The Shores Resort & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2637 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.shoresresort.com/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1242 Ridgewood Avenue, 32114, Daytona Beach",
+   "url": "https://www.wyndhamhotels.com/super-8/daytona-beach-florida/super-8-daytona-beach/overview"
+  },
+  {
+   "name": "Max Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1901 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.maxdaytona.com/"
+  },
+  {
+   "name": "Hampton Inn Daytona Shores-Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3135 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.hilton.com/en/hotels/dabflhx-hampton-daytona-shores-oceanfront/"
+  },
+  {
+   "name": "Hampton Inn Daytona Beach/Beachfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1024 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabbfhx-hampton-daytona-beach-beachfront/"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "165 Bill France Boulevard, 32114, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabhwhw-homewood-suites-daytona-beach-speedway-airport/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "189 Midway Avenue, 32114, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabahgi-hilton-garden-inn-daytona-beach-airport/"
+  },
+  {
+   "name": "Residence Inn Daytona Beach Speedway/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1725 Richard Petty Boulevard, 32114, Daytona Beach",
+   "url": "https://www.marriott.com/dabri"
+  },
+  {
+   "name": "La Quinta Inn & Suites Oceanfront Daytona Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "816 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.wyndhamhotels.com/laquinta/daytona-beach-florida/la-quinta-oceanfront-daytona-beach/overview"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "90 Professional Boulevard, 32114, Daytona Beach",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/daytona-beach/dabrt/hoteldetail"
+  },
+  {
+   "name": "Home2 Suites by Hilton Ormond Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "711 State Highway A1A, 32176, Ormond Beach",
+   "url": "https://www.hilton.com/en/hotels/dabhtht-home2-suites-ormond-beach-oceanfront/"
+  },
+  {
+   "name": "Days Inn by Wyndham Daytona Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3357 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.wyndhamhotels.com/days-inn/daytona-beach-florida/days-inn-daytona-oceanfront/overview"
+  },
+  {
+   "name": "Residence Inn Daytona Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3209 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.marriott.com/dabdb"
+  },
+  {
+   "name": "Courtyard Daytona Beach Speedway/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1605 Richard Petty Boulevard, 32114, Daytona Beach",
+   "url": "https://www.marriott.com/dabcy"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Fentress Boulevard, 32114, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabgght-home2-suites-daytona-beach-speedway/"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2725 West International, 32114, Daytona Beach",
+   "url": "https://www.wyndhamhotels.com/baymont/daytona-beach-florida/baymont-daytona-beach-intl-speedway/overview"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "103 South Ocean Avenue, 32118, Daytona Beach",
+   "url": "https://www.choicehotels.com/florida/port-orange/country-inn-suites-hotels"
+  },
+  {
+   "name": "Hyatt Place Daytona Beach - Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3160 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "https://www.hyatt.com/en-us/hotel/florida/hyatt-place-daytona-beach-oceanfront/dabzd"
+  },
+  {
+   "name": "Hard Rock Hotel Daytona Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "918 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://hotel.hardrock.com/daytona-beach"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2620 International Speedway Boulevard, 32114, Daytona Beach",
+   "url": "https://www.bestwestern.com/en_US/book/daytona-beach/hotel-rooms/best-western-plus-daytona-inn-seabreeze-oceanfront/propertyCode.10404.html"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2900 International Speedway Boulevard, 32124, Daytona Beach",
+   "url": "https://www.choicehotels.com/florida/port-orange/country-inn-suites-hotels"
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 Bill France Boulevard, 32114, Daytona Beach",
+   "url": "https://www.extendedstayamerica.com/hotels/fl/daytona-beach/international-speedway?propertyCode=EA%3B2673&checkIn=2021-12-02&checkOut=2021-12-09&rooms=1&adults=1&children=0&rateType=ESH&code=&rate=Best%20Available%20Rate&accessible=off"
+  },
+  {
+   "name": "Hilton Garden Inn Daytona Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2560 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.hilton.com/en/hotels/dabofgi-hilton-garden-inn-daytona-beach-oceanfront/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "544 South Ridgewood Avenue, 32114, Daytona Beach",
+   "url": "https://www.wyndhamhotels.com/days-inn/daytona-beach-florida/days-inn-daytona-beach-downtown/overview"
+  },
+  {
+   "name": "BEST WESTERN Aku Tiki Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2225 South Atlantic Avenue, 32118-5007, Daytona Beach",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-daytona-beach/best-western-aku-tiki-inn/propertyCode.10038.html"
+  },
+  {
+   "name": "Hilton Daytona Beach Oceanfront Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 N Atlantic Ave;North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.daytonahilton.com/"
+  },
+  {
+   "name": "Studio 1 Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": "www.Studio1Motel.com"
+  },
+  {
+   "name": "Budget Inn Daytona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640 South Ridgewood Avenue, 32114, Daytona Beach",
+   "url": "https://budgetinndaytona.com/"
+  },
+  {
+   "name": "R&L Carrier Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "940 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": "https://www.rlcarriers.com/"
+  },
+  {
+   "name": "The Daytona, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1870 Victory Circle, 32114, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Heritage Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Ridgewood Avenue, 32119, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Ocean Walk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "North Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2250 International Speedway Boulevard, 32114, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Boardwalk Inn & Suites Daytona Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "301 South Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "137 Automall Circle, 32124, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Crosspoint Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1020 South Ridgewood Avenue, 32119, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Sandman Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1327 Ridgewood Avenue, 32114, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Parkway Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "South Ridgewood Avenue, 32114, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Red Carpet Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1855 South Ridgewood Avenue, 32119, South Daytona",
+   "url": ""
+  },
+  {
+   "name": "Tropic Aire Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 South Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Ocean Breeze Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 South Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Skyway Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "906 South Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Fantasy Island Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3200 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": ""
+  },
+  {
+   "name": "Super 8 Daytona Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Best Western Daytona Inn Seabreeze",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "730 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Fantasy Island Resort II",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3175 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": ""
+  },
+  {
+   "name": "Raintree Motel & Apartments",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "530 South Ridgewood Ave, 32114, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites Daytona Beach on the Ocean",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "930 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Daytona Shores Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3222 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": ""
+  },
+  {
+   "name": "Driftwood Beach Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "657 State Highway A1A, 32176, Ormond Beach",
+   "url": ""
+  },
+  {
+   "name": "La Bella Oceanfront Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1400 North Atlantic Avenue, 32118, Daytona Beach",
+   "url": ""
+  },
+  {
+   "name": "Royal Floridian Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "51 South Atlantic Avenue, 32176, Ormond Beach",
+   "url": ""
+  },
+  {
+   "name": "Atlantic Ocean Palm Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3247 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": ""
+  },
+  {
+   "name": "Turtle Inn Beach Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3233 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Metro Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1702 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://metrodiner.com/locations/florida/daytona-beach/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "329 Seabreeze Boulevard, 32118, Daytona Beach",
+   "website": "https://locations.wafflehouse.com/daytonabeach-fl-2291/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "500 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": "https://locations.pizzahut.com/fl/daytona-beach/500-s-atlantic-ave"
+  },
+  {
+   "name": "El Sabor Latino",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "701 North Ridgewood Avenue, 32117, Holly Hill",
+   "website": "https://elsaborlatinodaytona.com/"
+  },
+  {
+   "name": "Bonefish Grill",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1702 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://locations.bonefishgrill.com/florida/daytona-beach/1702-w.-international-speedway-blvd."
+  },
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1200 Main Street, 32118, Daytona Beach",
+   "website": "https://www.joescrabshack.com/location/joes-crab-shack-daytona-beach/"
+  },
+  {
+   "name": "Siam Spice",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "101 Bay Street, 32114, Daytona Beach",
+   "website": "https://siamspice.com/"
+  },
+  {
+   "name": "Pasha Middle East Cafe",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "919 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://pashamiddleeastcafe.pizzamico.com/"
+  },
+  {
+   "name": "AaVTAR",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "318 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": "http://www.avtarji.com/"
+  },
+  {
+   "name": "Monkey Morning Cafe",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "1435 South Ridgewood Avenue, 32114, Daytona Beach",
+   "website": "https://monkeymorningcafe.com/"
+  },
+  {
+   "name": "Ronin Sushi and Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "111 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://roninsushibar111.com/"
+  },
+  {
+   "name": "Don Vito's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "137 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://donvitosrestaurant.com/Home.html"
+  },
+  {
+   "name": "Tia's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "214 North Beach Street, 32114, Daytona Beach",
+   "website": "https://tiastacosdaytona.com/"
+  },
+  {
+   "name": "Cruisin' Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": "http://www.cruisincafe.com/"
+  },
+  {
+   "name": "Punk Rock Pizza and Bar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "821 Main Street, 32118, Daytona Beach",
+   "website": "https://punkrockpizzaandbar.com/"
+  },
+  {
+   "name": "Napoli Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.napolipizzadaytonabeach.com/"
+  },
+  {
+   "name": "Captain Pizza And Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.captainpizzaandgrillfl.com"
+  },
+  {
+   "name": "King's Pizza & Mediterranean",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.kingspizzadaytonafl.com"
+  },
+  {
+   "name": "Angelo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.angelospizzadaytona.com"
+  },
+  {
+   "name": "Hampton's Restaurant",
+   "cuisines": [
+    "Chicken",
+    "American"
+   ],
+   "address": "1116 Mason Avenue, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2204 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "website": ""
+  },
+  {
+   "name": "Fratelli's Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Gyros",
+    "Salad",
+    "Italian"
+   ],
+   "address": "2328 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Roma Pizza & Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2132 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "BBQ Daddy's Bar & Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "1130 South Ridgewood Avenue, 32119, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "El Tequila's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1784 South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Webber's Steakhouse",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "2017 South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Pagano's Pizzeia",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1945 South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Main Street, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "5 Element India Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1448 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Ocean Buffet",
+   "cuisines": [
+    "Seafood",
+    "Sushi",
+    "Grill"
+   ],
+   "address": "South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "China Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Masala Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "Beville Road, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "C's Waffles",
+   "cuisines": [
+    "Waffle",
+    "Breakfast"
+   ],
+   "address": "Beville Road, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Constantine Pizzeria",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "2032 South Ridgewood Avenue, 32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Little Italy's Ristorante",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "240 South Beach Street, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Ichi Ni San",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "246 South Beach Street, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Stavro's Pizza House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "258 South Beach Street, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Backyard BBQ",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "32119, South Daytona",
+   "website": ""
+  },
+  {
+   "name": "Bubba Gump Shrimp Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chucherias Hondureñas",
+   "cuisines": [
+    "Caribbean",
+    "Spanish"
+   ],
+   "address": "101 2nd Street",
+   "website": ""
+  },
+  {
+   "name": "Johnny Rockets",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Corleone’s Famous New York Pizza & Gyros",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zen Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Daytona Pizza & Wing Co.",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brickyard Lounge & Grill",
+   "cuisines": [],
+   "address": "747 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://brickyardlounge.com/"
+  },
+  {
+   "name": "Caribbean Jack's Restaurant and Bar",
+   "cuisines": [],
+   "address": "721 Ballough Road, 32114, Daytona Beach",
+   "website": "https://www.caribbeanjacks.com/"
+  },
+  {
+   "name": "Sushi King",
+   "cuisines": [],
+   "address": "238 North Nova Road, 32114, Daytona Beach",
+   "website": "https://sushikingdaytona.com/"
+  },
+  {
+   "name": "Martini's Organic Restaurant",
+   "cuisines": [],
+   "address": "1815 S Ridgewood Ave, 32119, South Daytona",
+   "website": "https://www.martinisorganic.com/"
+  },
+  {
+   "name": "Crab Stop II",
+   "cuisines": [],
+   "address": "933 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://www.crabstopdaytona.com/"
+  },
+  {
+   "name": "Chart House",
+   "cuisines": [],
+   "address": "1100 Marina Point Drive, 32114, Daytona Beach",
+   "website": "https://www.chart-house.com/location/chart-house-daytona-beach-fl/"
+  },
+  {
+   "name": "Hibachi Grill & Supreme Cafe",
+   "cuisines": [],
+   "address": "1320 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://hibachibuffetdaytona.com/"
+  },
+  {
+   "name": "Senorita Mexican Kitchen & Tequila Bar",
+   "cuisines": [],
+   "address": "114 South Beach Street, 32114, Daytona Beach",
+   "website": "https://www.senoritamexicankitchen.com/"
+  },
+  {
+   "name": "The Dancing Avocado",
+   "cuisines": [],
+   "address": "110 South Beach Street, 32114, Daytona Beach",
+   "website": "https://www.dancingavocadokitchen.com/"
+  },
+  {
+   "name": "Zappi's Italian Garden",
+   "cuisines": [],
+   "address": "128 South Beach Street, 32114, Daytona Beach",
+   "website": "https://italiangarden.com/"
+  },
+  {
+   "name": "Arepita Beach",
+   "cuisines": [],
+   "address": "174 North Beach Street, 32114, Daytona Beach",
+   "website": "http://www.arepitabeachfl.com/"
+  },
+  {
+   "name": "China One",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.chinaonedaytonafl.com"
+  },
+  {
+   "name": "Boundless",
+   "cuisines": [],
+   "address": "201 Aerospace Boulevard, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Legacy Walk Eats",
+   "cuisines": [],
+   "address": "32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Habibi Bar and Hookah Lounge",
+   "cuisines": [],
+   "address": "1500 West International Speedway Boulevard, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Land Shark Bar & Grill",
+   "cuisines": [],
+   "address": "471 South Atlantic Avenue, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Witch's Ride Tavern & Grill",
+   "cuisines": [],
+   "address": "144 North Ridgewood Avenue, 32117, Holly Hill",
+   "website": ""
+  },
+  {
+   "name": "Top of Daytona Restaurant Lounge",
+   "cuisines": [],
+   "address": "2625 South Atlantic Avenue, 32118, Daytona Beach Shores",
+   "website": ""
+  },
+  {
+   "name": "Farm to Fit Scratch Kitchen",
+   "cuisines": [],
+   "address": "168 North Beach Street, 32114, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Starlite Diner",
+   "cuisines": [],
+   "address": "401 North Atlantic Avenue, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Steve's Famous Diner",
+   "cuisines": [],
+   "address": "2011 North Atlantic Avenue, 32118, Daytona Beach",
+   "website": ""
+  },
+  {
+   "name": "Luna's Restaurant",
+   "cuisines": [],
+   "address": "2516 South Atlantic Avenue",
+   "website": ""
+  },
+  {
+   "name": "Hog Heaven Bar-B-Q",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Earl Street Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don Vito's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chrome Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Riverside Johnny's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sakana Japanese Steakhouse & Sushi Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Giovanni's Pizzeria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mr Pizza Plus",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Tuna's Beach Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crabby’s Oceanside",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atlantic Jack's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Red Bud Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Anna's Trattoria Italian Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "U China",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China WOK",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flight Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Refueling Station",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Museum of Arts & Sciences",
+   "kind": "museum",
+   "address": "352 S Nova Road, 32114, Daytona Beach",
+   "website": "https://www.moas.org/",
+   "phone": "+1 386 255 0285",
+   "latitude": 29.1921226,
+   "longitude": -81.0373513
+  },
+  {
+   "name": "Southeast Museum of Photography",
+   "kind": "museum",
+   "address": "",
+   "website": "https://southeastmuseumofphotography.org/",
+   "phone": "",
+   "latitude": 29.2006124,
+   "longitude": -81.0491515
+  },
+  {
+   "name": "Hankster's Hot Rods & Museum",
+   "kind": "museum",
+   "address": "1790 Nova Road, South Daytona",
+   "website": "https://www.hanksters.com/museum",
+   "phone": "+1 386 944 9219",
+   "latitude": 29.166913,
+   "longitude": -81.0250212
+  },
+  {
+   "name": "Daytona Aquarium & Rainforest Adventure",
+   "kind": "aquarium",
+   "address": "1008 International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "https://www.daytonaaquariumandrainforest.com/",
+   "phone": "+1-386-241-3144",
+   "latitude": 29.203462,
+   "longitude": -81.0418405
+  },
+  {
+   "name": "Cici and Hyatt Brown Museum of Art",
+   "kind": "museum",
+   "address": "352 Nova Road, 32114, Daytona Beach",
+   "website": "https://www.moas.org/explore/cici-and-hyatt-brown-museum-of-art/index",
+   "phone": "+1-386-255-0285",
+   "latitude": 29.1969467,
+   "longitude": -81.0368438
+  },
+  {
+   "name": "Aberrant Art Gallery",
+   "kind": "gallery",
+   "address": "118 North Beach Street, 32114, Daytona Beach",
+   "website": "https://aberrantart.com/aberrant-art-gallery/",
+   "phone": "+1 386 252 2300",
+   "latitude": 29.2126298,
+   "longitude": -81.0198756
+  },
+  {
+   "name": "Motorsports Hall of Fame of America",
+   "kind": "museum",
+   "address": "1801 W. International Speedway Blvd., 32114, Daytona Beach",
+   "website": "https://www.mshf.com/",
+   "phone": "",
+   "latitude": 29.191679,
+   "longitude": -81.0682306
+  },
+  {
+   "name": "Lilian Place",
+   "kind": "museum",
+   "address": "111 Silver Beach Avenue, Daytona Beach",
+   "website": "https://www.lilianplacehc.org/",
+   "phone": "",
+   "latitude": 29.2124588,
+   "longitude": -81.0069637
+  },
+  {
+   "name": "Mary McLeod Bethune House",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cookman.edu/mmbhome/",
+   "phone": "",
+   "latitude": 29.2128766,
+   "longitude": -81.0317732
+  },
+  {
+   "name": "Daytona Beach Screamer's Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "https://slingshotdaytonabeach.com/",
+   "phone": "",
+   "latitude": 29.2260325,
+   "longitude": -81.0074342
+  },
+  {
+   "name": "Hosseini Center",
+   "kind": "museum",
+   "address": "1200 W International Speedway Boulevard, 32114, Daytona Beach",
+   "website": "",
+   "phone": "+1-386 -506-4475",
+   "latitude": 29.2004358,
+   "longitude": -81.0493211
+  },
+  {
+   "name": "VJL Gallery",
+   "kind": "gallery",
+   "address": "170 North Beach Street, 32114, Daytona Beach",
+   "website": "",
+   "phone": "+1-386-256-4820",
+   "latitude": 29.2134858,
+   "longitude": -81.0202898
+  },
+  {
+   "name": "Halifax Historical Museum",
+   "kind": "museum",
+   "address": "252 South Beach Street, 32114, Daytona Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2086786,
+   "longitude": -81.0178601
+  },
+  {
+   "name": "Galerie Elan",
+   "kind": "gallery",
+   "address": "230 South Beach Street, 32114, Daytona Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2093198,
+   "longitude": -81.0181744
+  },
+  {
+   "name": "Dr. Josie Rogers' House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2211668,
+   "longitude": -81.0218602
+  },
+  {
+   "name": "UNOH FanZone",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.1880714,
+   "longitude": -81.070486
+  },
+  {
+   "name": "City of Holly H Ill Annex",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2445452,
+   "longitude": -81.0413061
+  },
+  {
+   "name": "Daytona International Speedway Visitors Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.1917532,
+   "longitude": -81.0678089
+  },
+  {
+   "name": "Zoom Air Adventure Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2019776,
+   "longitude": -81.0408457
+  },
+  {
+   "name": "Airport Observation Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.1865396,
+   "longitude": -81.0513917
+  },
+  {
+   "name": "Lakeside Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.2725145,
+   "longitude": -81.0712302
+  }
+ ]
+}

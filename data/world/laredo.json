@@ -1,0 +1,991 @@
+{
+ "city": "Laredo",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 27.5035,
+ "longitude": -99.5055,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "SpringHill Suites by Marriott Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5940 San Bernardo Avenue, 78041, Laredo",
+   "url": "https://www.marriott.com/hotels/travel/lrdsh-springhill-suites-laredo"
+  },
+  {
+   "name": "Embassy Suites by Hilton Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Calle Del Norte, 78041, Laredo",
+   "url": "https://www.hilton.com/en/hotels/lrdeses-embassy-suites-laredo/"
+  },
+  {
+   "name": "La Posada Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Zaragosa Street, 78040, Laredo",
+   "url": "https://www.laposada.com/"
+  },
+  {
+   "name": "Hampton Inn Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7903 San Dario Avenue, 78045, Laredo",
+   "url": "https://www.hilton.com/en/hotels/lrdtxhx-hampton-laredo/"
+  },
+  {
+   "name": "Landmark Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 South Main Avenue, 78040, Laredo",
+   "url": "https://www.landmarklaredo.com/#Paris"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3610 Santa Ursula Avenue, 78041, Laredo",
+   "url": "https://www.wyndhamhotels.com/laquinta/laredo-texas/la-quinta-inn-laredo-i-35/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Laredo Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7220 Bob Bullock Loop, 78041, Laredo",
+   "url": "https://www.wyndhamhotels.com/laquinta/laredo-texas/la-quinta-laredo-airport/overview"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3110 Santa Ursula Avenue, 78040, Laredo",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-laredo/best-western-plus-laredo-inn-suites/propertyCode.44702.html"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2010 Lomas Del Sur Boulevard, 78046, Laredo",
+   "url": "https://www.choicehotels.com/texas/laredo/econo-lodge-hotels"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2620 Santa Ursula Avenue, 78040, Laredo",
+   "url": "https://www.choicehotels.com/texas/laredo/econo-lodge-hotels"
+  },
+  {
+   "name": "Laredo Mansion",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1714 Houston Street, 78040, Laredo",
+   "url": "https://www.laredomansion.com"
+  },
+  {
+   "name": "Hotel Colón Plaza Business Class",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3446 Avenida César López de Lara, 88260",
+   "url": "https://www.hcolonplaza.com/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2410 Santa Ursula Avenue, 78040, Laredo",
+   "url": ""
+  },
+  {
+   "name": "TownePlace Suites Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6519 Arena Boulevard, 78041, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7223 Bob Bullock Loop, 78041, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Nazareth",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Calle Francisco Ignacio Madero, 88070, Nuevo Ladero, Tamaulipas",
+   "url": ""
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7060 San Bernardo Avenue, 78041, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7010 Bob Bullock Loop, 78041, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Lost Oaks Boulevard, 78041, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Hotel Ava",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 Garden Street, 78040, Laredo",
+   "url": ""
+  },
+  {
+   "name": "Rialto Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Laredo, TX - South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Laredo - Del Mar",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Albergue Municipal",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Real Inn Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sonia Hernández García",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "La Hacienda Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 9",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "International Inn of Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Emiratos",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Nuevo Laredo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Cesar Palace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Rosita",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel Cabañas Pilac",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Taco Palenque",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://tacopalenque.com/"
+  },
+  {
+   "name": "The Tack Room",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1101 Zaragosa Street, 78040, Laredo",
+   "website": "https://www.laposada.com/the-tack-room"
+  },
+  {
+   "name": "Peter Piper Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1400 Guadalupe Street, 78040, Laredo",
+   "website": "https://www.peterpiperpizza.com/menu/laredo-tx/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1519 Guadalupe Street, 78040, Laredo",
+   "website": "https://locations.pizzahut.com/tx/laredo/1519-guadalupe-st"
+  },
+  {
+   "name": "Clementine's Kitchen",
+   "cuisines": [
+    "Burger",
+    "Mexican"
+   ],
+   "address": "3301 San Bernardo Avenue, 78040, Laredo",
+   "website": "https://www.facebook.com/clementineskitchen/"
+  },
+  {
+   "name": "El Meson on Wheels",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "819 Iturbide Street, 78040, Laredo",
+   "website": "https://www.elmesonsagustin.com/s/order?location=11eca6fc6c56a4d5aaa30cc47a2ae3c4#13"
+  },
+  {
+   "name": "El Papalote Taco & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3102 Avenida Reforma, 88260",
+   "website": "https://elpapalote.com/"
+  },
+  {
+   "name": "El Meson de San Agustin",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "908 Grant Street, 78040, Laredo",
+   "website": "https://www.elmesonsagustin.com"
+  },
+  {
+   "name": "Koto Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3934 Avenida Reforma, 88280",
+   "website": "https://www.koto.mx"
+  },
+  {
+   "name": "Tacos LIRA",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://tacos-lira.negocio.site/"
+  },
+  {
+   "name": "Domino's Pizza Centro Nuevo Laredo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.dominos.com.mx/"
+  },
+  {
+   "name": "Casa Lopez Tapas Bar",
+   "cuisines": [
+    "Spanish",
+    "Grill",
+    "Fine Dining"
+   ],
+   "address": "2002 Hidalgo Street, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Charlie's Corona",
+   "cuisines": [
+    "American",
+    "Salad",
+    "Tex-Mex",
+    "Steak House"
+   ],
+   "address": "3902 San Bernardo Avenue, 78041, Laredo",
+   "website": ""
+  },
+  {
+   "name": "ALA Burger - Burgers and Alitas",
+   "cuisines": [
+    "Burger",
+    "Wings",
+    "American"
+   ],
+   "address": "515 San Agustin Avenue, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3600 Santa Ursula Avenue, 78041, Laredo",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "5301 San Dario Avenue, 78041, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Luby's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "710 West Calton Road, 78041, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Tango-Tango",
+   "cuisines": [
+    "Argentinian",
+    "Pizza",
+    "Empanada"
+   ],
+   "address": "3609 Avenida Reforma, 88270",
+   "website": ""
+  },
+  {
+   "name": "China Border",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "802 San Bernardo Avenue, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "OK Taco",
+   "cuisines": [
+    "Burger",
+    "Mexican"
+   ],
+   "address": "2305 South Zapata Highway, 78046, Laredo",
+   "website": ""
+  },
+  {
+   "name": "KC Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2304 Houston Street, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "La India - The Tasting Room",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1520 Marcella Avenue, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Lonches La Abuela",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1220 Hidalgo Street, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "El Diamente Snack",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "615 Salinas Avenue, 78040, Laredo",
+   "website": ""
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fuddruckers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Luis",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pic Nik Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tito's Burger & Snack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Jacales Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Obregon's Mexican Restaurant #2",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Ajos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lira's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Taco Tote",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Raul's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Antojitos Mexicanos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos Doña Kati",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tazaz",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tortilleria Lolita",
+   "cuisines": [
+    "Mexican",
+    "Tortilla"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gorilla Smoke & Grill",
+   "cuisines": [],
+   "address": "3301 San Bernardo Avenue, 78040, Laredo",
+   "website": "https://gorillalaredo.com"
+  },
+  {
+   "name": "Zaragoza Grill",
+   "cuisines": [],
+   "address": "1000 Zaragosa Street, 78040, Laredo",
+   "website": "https://www.laposada.com/zaragoza-grill"
+  },
+  {
+   "name": "Danny's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Palenque Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pollo Palenque",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Mexicanita Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Glass Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cantu's Tacos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pollo Feliz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Laura",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Super Salads",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Republic of the Rio Grande Museum",
+   "kind": "museum",
+   "address": "1005 Zaragosa Street, 78040, Laredo",
+   "website": "http://webbheritage.org/museums/republic-of-the-rio-grande-museum/",
+   "phone": "",
+   "latitude": 27.5020136,
+   "longitude": -99.5059562
+  },
+  {
+   "name": "Lamar Bruni Vergara Environmental Science Center",
+   "kind": "zoo",
+   "address": "Taylor Road, 78040, Laredo",
+   "website": "https://www.laredo.edu/student-life/Campus%20Life/lbv-environmental-science-center/index.html",
+   "phone": "",
+   "latitude": 27.509014,
+   "longitude": -99.5235293
+  },
+  {
+   "name": "Villa Antigua Border Heritage Museum",
+   "kind": "museum",
+   "address": "810 Zaragosa Street, 78040, Laredo",
+   "website": "https://webbheritage.org/Border-Heritage-Museum",
+   "phone": "+1 9567182727",
+   "latitude": 27.502338,
+   "longitude": -99.504167
+  },
+  {
+   "name": "Imaginarium of South Texas",
+   "kind": "museum",
+   "address": "P-149 West End Washington Street, 78040, Laredo",
+   "website": "https://www.istx.org",
+   "phone": "",
+   "latitude": 27.5086305,
+   "longitude": -99.5197256
+  },
+  {
+   "name": "Casa Daphne",
+   "kind": "gallery",
+   "address": "1420 Washington Street, 78040, Laredo",
+   "website": "https://www.daphneart.org/whats-on",
+   "phone": "",
+   "latitude": 27.509067,
+   "longitude": -99.510159
+  },
+  {
+   "name": "Los Olvidados Art Gallery",
+   "kind": "gallery",
+   "address": "309 Flores Avenue, 78040, Laredo",
+   "website": "",
+   "phone": "+1-956-220-8189",
+   "latitude": 27.5030329,
+   "longitude": -99.5064836
+  },
+  {
+   "name": "MUSA Alternative Artspace",
+   "kind": "gallery",
+   "address": "3301 San Bernardo Avenue, 78040, Laredo",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5292059,
+   "longitude": -99.5036554
+  },
+  {
+   "name": "Laredo Water Museum",
+   "kind": "museum",
+   "address": "2702 Anna Avenue, Laredo",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5238846,
+   "longitude": -99.5225298
+  },
+  {
+   "name": "Washington's Birthday Celebration Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5020775,
+   "longitude": -99.5055441
+  },
+  {
+   "name": "El Portal",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5011782,
+   "longitude": -99.5094875
+  },
+  {
+   "name": "Laredo Center For the Arts",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5046108,
+   "longitude": -99.5061337
+  },
+  {
+   "name": "Alberca \"Playa Dorada\"",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "+52 867 205 5433",
+   "latitude": 27.5152677,
+   "longitude": -99.5962626
+  },
+  {
+   "name": "Texas Mexican Railway Co. Car",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.5043952,
+   "longitude": -99.5218166
+  },
+  {
+   "name": "Alberca Ilusion Acuatica",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.4907513,
+   "longitude": -99.4900256
+  },
+  {
+   "name": "Expomex",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.4819447,
+   "longitude": -99.4847378
+  },
+  {
+   "name": "Zoológico y Acuario de Nuevo Laredo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.4785231,
+   "longitude": -99.482903
+  },
+  {
+   "name": "Mojapies El Palomo",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 27.4719106,
+   "longitude": -99.5738601
+  }
+ ]
+}

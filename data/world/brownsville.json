@@ -1,0 +1,614 @@
+{
+ "city": "Brownsville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 25.9148,
+ "longitude": -97.4954,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Brownsville, an IHG Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "651 Sunrise Boulevard, 78526, Brownsville",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/brownsville/brobv/hoteldetail"
+  },
+  {
+   "name": "SureStay by Best Western Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "825 North Expressway 83, 78520, Brownsville",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-brownsville/surestay-by-best-western-brownsville/propertyCode.54014.html"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Brownsville by IHG",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1985 North Expressway, 78520, Brownsville",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/brownsville/brotx/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn and Suites Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3000 North Expressway, 78526, Brownsville",
+   "url": "https://www.hilton.com/en/hotels/brohshx-hampton-suites-brownsville/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "747 Springmart Boulevard, 78526, Brownsville",
+   "url": "https://www.hilton.com/en/hotels/brossht-home2-suites-brownsville/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Brownsville North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5051 North Expressway, 78520, Brownsville",
+   "url": "https://www.wyndhamhotels.com/laquinta/brownsville-texas/la-quinta-brownsville-north/overview"
+  },
+  {
+   "name": "Courtyard Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3955 North Expressway, 78520, Brownsville",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3759 North Expressway, 78520, Brownsville",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7051 South Padre Island Highway, 78526, Brownsville",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3975 North Expressway, 78520, Brownsville",
+   "url": ""
+  },
+  {
+   "name": "San Juan Diego y San Francisco de Asís(Casa del migrante Matamoros).",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "49 Golfo de México, 87453, Matamoros",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Brownsville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7364 South Padre Island Highway, 78521, Brownsville",
+   "url": ""
+  },
+  {
+   "name": "Value Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "995 Media Luna Road",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "casa tiro fire",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "City Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel paraíso",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel las fuentes",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel condesa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "tía gloria",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "señor de lona",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "La hacienda",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cameron Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Deluxe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Everhome Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Delicious Desserts & Deli",
+   "cuisines": [
+    "Mexican",
+    "American",
+    "Regional"
+   ],
+   "address": "301 Mexico Boulevard, 78520, Brownsville",
+   "website": "https://www.mydeliciousdesserts.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2333 Boca Chica Boulevard, 78521, Brownsville",
+   "website": "https://locations.pizzahut.com/tx/brownsville/2333-boca-chica-blvd"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1075 Ruben M Torres Senior Boulevard, 78521, Brownsville",
+   "website": "https://www.redlobster.com/locations/list/tx/brownsville/1075-fm-802"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3807 North Expressway, 78520, Brownsville",
+   "website": "https://m.olivegarden.com/locations/tx/brownsville/brownsville/6408"
+  },
+  {
+   "name": "La traviata Restaurante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "107 7, 87300, Matamoros",
+   "website": "https://www.facebook.com/traviatarestaurante/"
+  },
+  {
+   "name": "Tortilleria San Juanita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "855 W Elizabeth St, 78520, Brownsville",
+   "website": "https://www.tortilleriasanjuanita.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2750 North Expressway, 78526, Brownsville",
+   "website": ""
+  },
+  {
+   "name": "Johnny Carino's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2600 North Expressway, 78526, Brownsville",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2430 Pablo Kisel Boulevard, 78526, Brownsville",
+   "website": ""
+  },
+  {
+   "name": "Buffet City",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "2921 Boca Chica Boulevard, 78521, Brownsville",
+   "website": ""
+  },
+  {
+   "name": "Camperos Grill & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2500 North Expressway, 78526, Brownsville",
+   "website": ""
+  },
+  {
+   "name": "La antigua 14",
+   "cuisines": [
+    "Regional",
+    "Mexican"
+   ],
+   "address": "799 Diagonal Cuauhtémoc, 87300",
+   "website": ""
+  },
+  {
+   "name": "Lon-SuShi Express",
+   "cuisines": [
+    "Japanese",
+    "Mexican",
+    "Fusion"
+   ],
+   "address": "Magisterio, 8700, Matamoros Tam",
+   "website": ""
+  },
+  {
+   "name": "Cheddar's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "MERT",
+   "cuisines": [
+    "Pizza",
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Bento",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Oyster Bar ll",
+   "cuisines": [],
+   "address": "153 153 Paredes Line Rd, 78521, Brownsville",
+   "website": "https://theoysterbartootx.com"
+  },
+  {
+   "name": "Taquería La Bravo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los cuates restaurant #2",
+   "cuisines": [],
+   "address": "3224",
+   "website": ""
+  },
+  {
+   "name": "Pollos Y Carnes Gil's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pollo Los Mismos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Loncheria La Jarochita",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Museo Casamata",
+   "kind": "museum",
+   "address": "Santos Degollado, 87360, Matamoros",
+   "website": "",
+   "phone": "+52 868 813 5929",
+   "latitude": 25.877833,
+   "longitude": -97.4973027
+  },
+  {
+   "name": "Gladys Porter Zoo",
+   "kind": "zoo",
+   "address": "500 Ringgold Street, 78520, Brownsville",
+   "website": "",
+   "phone": "",
+   "latitude": 25.9124483,
+   "longitude": -97.4961849
+  },
+  {
+   "name": "Historic Brownsville Museum",
+   "kind": "museum",
+   "address": "641 East Madison Street, 78520, Brownsville",
+   "website": "https://www.brownsvillehistory.org/historic-brownsville-museum.html",
+   "phone": "+1-956-541-5560",
+   "latitude": 25.90757,
+   "longitude": -97.499154
+  },
+  {
+   "name": "Brownsville Heritage Museum",
+   "kind": "museum",
+   "address": "1325 East Washington Street, 78520, Brownsville",
+   "website": "https://www.brownsvillehistory.org/historic-brownsville-museum.html",
+   "phone": "+1-956-541-5560",
+   "latitude": 25.9008219,
+   "longitude": -97.4961215
+  },
+  {
+   "name": "Stillman House Museum",
+   "kind": "museum",
+   "address": "1325 East Washington Street, 78520, Brownsville",
+   "website": "https://www.brownsvillehistory.org/stillman-house-museum.html",
+   "phone": "+1-956-541-5560",
+   "latitude": 25.9008772,
+   "longitude": -97.4962764
+  },
+  {
+   "name": "Welcome to Texas Sign",
+   "kind": "attraction",
+   "address": "2301 Courage Street, 78520, Brownsville",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8934826,
+   "longitude": -97.4774139
+  },
+  {
+   "name": "Museo IRBAM",
+   "kind": "gallery",
+   "address": "SN Calle Ocho, 87300, Heroica Matamoros",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8855289,
+   "longitude": -97.507421
+  },
+  {
+   "name": "Casa de arte y cultura Casamata",
+   "kind": "museum",
+   "address": "Santos Degollado, 87300, Matamoros",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8780903,
+   "longitude": -97.4971943
+  },
+  {
+   "name": "Museo del ferrocarril",
+   "kind": "museum",
+   "address": "Calle Miguel Hidalgo y Costilla Sur, 87300, Heroica Matamoros",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8858846,
+   "longitude": -97.5087985
+  },
+  {
+   "name": "Brownsville Art League Fine Arts Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8950807,
+   "longitude": -97.4949835
+  },
+  {
+   "name": "Children’s Museum of Brownsville",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.9170111,
+   "longitude": -97.4959006
+  },
+  {
+   "name": "Galería Gallardo",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.881931,
+   "longitude": -97.5028102
+  }
+ ]
+}

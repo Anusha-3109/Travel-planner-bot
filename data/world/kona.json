@@ -1,0 +1,998 @@
+{
+ "city": "Kona",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 19.6395,
+ "longitude": -155.9931,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "My Hawaii Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "76-6241 Alii Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Courtyard by Marriott King Kamehameha's Kona Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5660 Palani Road, 96740, Kailua-Kona",
+   "url": "https://www.marriott.com/en-us/hotels/koacy-courtyard-king-kamehamehas-kona-beach-hotel"
+  },
+  {
+   "name": "PACIFIC 19 Kona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5646 Palani Road, 96740, Kailua-Kona",
+   "url": "https://www.pacific19.com/kona"
+  },
+  {
+   "name": "Royal Kona Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5852 Alii Drive, 96740, Kailua-Kona",
+   "url": "https://www.royalkona.com/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Kailua-Kona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-146 Sarona Road, 96740, Kailua-Kona",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/kailua-kona/koahi/hoteldetail"
+  },
+  {
+   "name": "Hale Maluhia Country Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "76-770 Hualalai Road, 96740, Kailua-Kona",
+   "url": "https://www.hawaii-inns.com/"
+  },
+  {
+   "name": "Kona West",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5680 Kuakini Highway, 96740, Kailua-Kona",
+   "url": "https://kona-west-apartment-kailua-kona.booked.net/"
+  },
+  {
+   "name": "Downtown Kona Beach Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5874 Walua Road, 96740",
+   "url": "https://konabeachhostel.com/"
+  },
+  {
+   "name": "Hale Kona Kai",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5870 Kahakai Road",
+   "url": "https://www.halekonakai-hkk.com/"
+  },
+  {
+   "name": "Mauna Loa Village & Holua Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://clubwyndham.wyndhamdestinations.com/us/en/resorts/wyndham-hotels-resorts/united-states-of-america/hawaii/kailua-kona/holua-resort-at-the-mauna-loa-village"
+  },
+  {
+   "name": "Outrigger Kona Resort & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.outrigger.com/hawaii/hawaii-big-island/outrigger-kona-resort-and-spa"
+  },
+  {
+   "name": "White Sands Village",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.whitesandsvillage.com"
+  },
+  {
+   "name": "Kona Magic Honu Room",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "77-6469 #133 Ali`i Drive",
+   "url": ""
+  },
+  {
+   "name": "Kona Reef Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5888 Alii Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Sea Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-6002 Ali'i Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Royal Sea Cliff Resort by Outrigger",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-6040 Alii Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Koa Wood Hale",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-184 Ala Onaona Street, 96740",
+   "url": ""
+  },
+  {
+   "name": "WorldMark Kona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5949 Alii Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Uncle Billy's",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5739 Alii Drive, 96740, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Kona Islander Inn & Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75-5776 Alii Drive, Kailua-Kona",
+   "url": ""
+  },
+  {
+   "name": "Kona Coast Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Alii Drive, Kona",
+   "url": ""
+  },
+  {
+   "name": "KJs Place",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "76-6027 Mamalahoa Highway, 96725",
+   "url": ""
+  },
+  {
+   "name": "Kanaloa at Kona by Outrigger",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Alii Drive, Kona",
+   "url": ""
+  },
+  {
+   "name": "Keauhou Kona Surf & Racquet Club",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Kona Aliʻi",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Kona Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Airbnb",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Royal Poincianna Way",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Kona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Foster's Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "75-5805 Alii Drive, 96740, Kailua-Kona",
+   "website": "https://www.fosterskitchen.com/"
+  },
+  {
+   "name": "Seiji's Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "75-5669 Aliʻi Drive, 96740, Kailua-Kona",
+   "website": "https://www.seijissushi.com/"
+  },
+  {
+   "name": "Quinn's Almost by the Sea",
+   "cuisines": [
+    "American"
+   ],
+   "address": "75-5655 Palani Road, 96740, Kailua-Kona",
+   "website": "https://quinnsalmostbythesea.com/"
+  },
+  {
+   "name": "808 Grindz Cafe",
+   "cuisines": [
+    "Asian",
+    "Barbecue",
+    "Breakfast",
+    "Burger",
+    "Chinese",
+    "Coffee Shop",
+    "Fish",
+    "Friture",
+    "Local",
+    "Seafood"
+   ],
+   "address": "75-5660 Kopiko Plaza, 96740",
+   "website": "https://808grindzcafe.com/"
+  },
+  {
+   "name": "Paakai Poke",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "75-143 Hualalai Road, 96740, Kailua-Kona",
+   "website": "https://paakai.net/"
+  },
+  {
+   "name": "Huggo's",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://www.huggos.com/"
+  },
+  {
+   "name": "Papa Kona",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "75-5770 Aliʻi Drive",
+   "website": "https://papakonarestaurant.com/"
+  },
+  {
+   "name": "Harbor House Restaurant",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Fish And Chips",
+    "Regional"
+   ],
+   "address": "",
+   "website": "http://www.harborhouserestaurantkona.com/"
+  },
+  {
+   "name": "Island Ono Loa Grill",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://www.islandonoloagrill.com/"
+  },
+  {
+   "name": "Habaneros Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.habanerosgrillhawaii.com"
+  },
+  {
+   "name": "Willie's Hot Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": "https://willieshotchicken.com/"
+  },
+  {
+   "name": "Kona Crust",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "74-5586 Palani Road, 96740, Kailua Kona",
+   "website": ""
+  },
+  {
+   "name": "Get Sum",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "75-5812 building H Alii Drive, 96740, Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Sushi Shop Kyotoya",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ohana Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Rin Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "75-5799 Alii Drive, 96740, Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Killer Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Genki Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Daiichi Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Krua Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Lemongrass Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Big Island Grill",
+   "cuisines": [
+    "Hawaiian",
+    "Local",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amici Ristorante Italiano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burrito Bar",
+   "cuisines": [
+    "Burrito"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Kim Anh",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Orchid Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi cocoro & udon noodle",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fish Hopper Restaurant",
+   "cuisines": [],
+   "address": "75-5683 Aliʻi Drive, 96740, Kailua-Kona",
+   "website": "https://www.fishhopperkona.com/"
+  },
+  {
+   "name": "Big Kahuna Beach Grill",
+   "cuisines": [],
+   "address": "75-5663 Palani Road, 96740, Kailua-Kona",
+   "website": "https://www.bigkahunabeachgrill.com/"
+  },
+  {
+   "name": "Cheeky Tiki",
+   "cuisines": [],
+   "address": "75-5669 Aliʻi Drive, 96740, Kailua-Kona",
+   "website": "https://cheekytikikona.com/"
+  },
+  {
+   "name": "Kona Elks Hawaii Lodge #2616",
+   "cuisines": [],
+   "address": "75-170 Hualalai Road, 96740, Kailua-Kona",
+   "website": "https://www.konaelks.org/home"
+  },
+  {
+   "name": "Lava Java",
+   "cuisines": [],
+   "address": "75-5801 Ali'i Drive",
+   "website": "https://www.islandlavajava.com/"
+  },
+  {
+   "name": "kai",
+   "cuisines": [],
+   "address": "75-5776 Aliʻi Drive, 96740, Kailua Kona",
+   "website": "https://kaieatsanddrinks.com/"
+  },
+  {
+   "name": "Umekes Alii Plaza",
+   "cuisines": [],
+   "address": "Kailua-Kona",
+   "website": "https://umekesrestaurants.com/"
+  },
+  {
+   "name": "Umekes Fish Market Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "https://umekesrestaurants.com/live/"
+  },
+  {
+   "name": "The Temple",
+   "cuisines": [],
+   "address": "75-5799 Aliʻi Drive, 96740, Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Kalikala Cuisine",
+   "cuisines": [],
+   "address": "75-5695 Alii Drive, 96740, Kailua-Kona",
+   "website": ""
+  },
+  {
+   "name": "Bongo Ben's Island Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Broke da Mouth Grindz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "On the Rocks",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ocean’s Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don’s the Beachcomber Tiki Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jackie Rey's Ohana Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Don's Chinese Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Bourgune French Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kona Inn Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kona Teang On",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hawaii BBQ Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Hulihe‘e Palace Museum",
+   "kind": "museum",
+   "address": "75-5718 Aliʻi Drive, 96740, Kailua-Kona",
+   "website": "https://daughtersofhawaii.org/hulihee-palace/",
+   "phone": "+1-808-329-1877",
+   "latitude": 19.6393321,
+   "longitude": -155.9943588
+  },
+  {
+   "name": "Paradise Sailing Hawaii",
+   "kind": "attraction",
+   "address": "74-380 Kealakehe Parkway, 96740, Kailua Kona",
+   "website": "https://www.paradisesailinghawaii.com",
+   "phone": "",
+   "latitude": 19.6686361,
+   "longitude": -156.0236083
+  },
+  {
+   "name": "Hale Hoʻokipa Visitor Contact Station",
+   "kind": "museum",
+   "address": "73-4786 Kanalani St.",
+   "website": "https://www.nps.gov/kaho",
+   "phone": "+1-808-329-6881 x1329",
+   "latitude": 19.6787131,
+   "longitude": -156.0217722
+  },
+  {
+   "name": "Big Island Abalone",
+   "kind": "attraction",
+   "address": "73-357 Makako Bay Drive",
+   "website": "https://www.bigislandabalone.com",
+   "phone": "",
+   "latitude": 19.7134086,
+   "longitude": -156.0452009
+  },
+  {
+   "name": "Mountain Thunder Coffee",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://mountainthunder.com/",
+   "phone": "",
+   "latitude": 19.7023629,
+   "longitude": -155.9443401
+  },
+  {
+   "name": "Blue Sea Artisans Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://dolphindiscoveries.com",
+   "phone": "",
+   "latitude": 19.5705525,
+   "longitude": -155.9618731
+  },
+  {
+   "name": "Kona Cacoa Orchard Tour",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://punachocolate.com/products/kona-cacao-orchard-stroll-and-chocolate-tasting",
+   "phone": "",
+   "latitude": 19.5780076,
+   "longitude": -155.9381379
+  },
+  {
+   "name": "Ho’oulu Community Farmers Market",
+   "kind": "attraction",
+   "address": "78-128 Ehukai Street, 96740",
+   "website": "",
+   "phone": "",
+   "latitude": 19.5590605,
+   "longitude": -155.9626636
+  },
+  {
+   "name": "Honl's Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6284846,
+   "longitude": -155.9882487
+  },
+  {
+   "name": "Petroglyphs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6749944,
+   "longitude": -156.0241765
+  },
+  {
+   "name": "hula daddy kona coffee",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6798945,
+   "longitude": -155.9702163
+  },
+  {
+   "name": "Masashi's Nature School",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6684707,
+   "longitude": -156.021852
+  },
+  {
+   "name": "Shoreline Access",
+   "kind": "attraction",
+   "address": "75-6150 Aliʻi Drive",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6126153,
+   "longitude": -155.980759
+  },
+  {
+   "name": "Keauhou Kahaluʻu Heritage Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.570782,
+   "longitude": -155.961703
+  },
+  {
+   "name": "Hang Loose Boat Tours",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.66956,
+   "longitude": -156.0226426
+  },
+  {
+   "name": "Sea Genie II",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695923,
+   "longitude": -156.0229182
+  },
+  {
+   "name": "Silky Sportfishing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695498,
+   "longitude": -156.0225561
+  },
+  {
+   "name": "Fire Hatt Sportfishing Charters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695421,
+   "longitude": -156.0224905
+  },
+  {
+   "name": "Rod Bender Sportfishing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695356,
+   "longitude": -156.0224349
+  },
+  {
+   "name": "Hanamana",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695022,
+   "longitude": -156.0220091
+  },
+  {
+   "name": "Night Rower",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695117,
+   "longitude": -156.0221019
+  },
+  {
+   "name": "Ihu Nui",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695785,
+   "longitude": -156.0228006
+  },
+  {
+   "name": "Manta Ray",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.669525,
+   "longitude": -156.0222304
+  },
+  {
+   "name": "Kupanha",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6696,
+   "longitude": -156.0229837
+  },
+  {
+   "name": "Humdinger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6696063,
+   "longitude": -156.0230373
+  },
+  {
+   "name": "Medusa Sportfishing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6696132,
+   "longitude": -156.0230956
+  },
+  {
+   "name": "Waiopai Sport Fishing Charters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6695701,
+   "longitude": -156.0227285
+  },
+  {
+   "name": "Scenic Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.5760338,
+   "longitude": -155.9593146
+  },
+  {
+   "name": "Mo'ikeha Cave",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.5609056,
+   "longitude": -155.961891
+  },
+  {
+   "name": "Interpretive Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6494563,
+   "longitude": -155.9941097
+  },
+  {
+   "name": "My Kona Adventures",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.5610872,
+   "longitude": -155.9624245
+  },
+  {
+   "name": "Aloha Dolphin Tours",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6698699,
+   "longitude": -156.0226887
+  },
+  {
+   "name": "Fair Winds Tours",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.5613375,
+   "longitude": -155.9619813
+  },
+  {
+   "name": "Lava Light Galleries",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 19.6396905,
+   "longitude": -155.994136
+  }
+ ]
+}

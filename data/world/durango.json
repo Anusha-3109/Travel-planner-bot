@@ -1,0 +1,654 @@
+{
+ "city": "Durango",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.2782,
+ "longitude": -107.88,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "EconoLodge Inn & Suites - Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2002 Main Avenue, 81301, Durango",
+   "url": "https://www.choicehotels.com/colorado/durango/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1111 Camino del Rio, 81301, Durango",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/durango/drocd/hoteldetail"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Camino del Rio, 81301, Durango",
+   "url": "https://www.hilton.com/en/hotels/rldu-dt-doubletree-durango/"
+  },
+  {
+   "name": "SpringHill Suites Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "77 Mercury Village Drive, 81301, Durango",
+   "url": "https://www.marriott.com/drosh"
+  },
+  {
+   "name": "Homewood Suites by Hilton Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15 Girard Street, 81303, Durango",
+   "url": "https://www.hilton.com/en/hotels/drogshw-homewood-suites-durango-co/"
+  },
+  {
+   "name": "Comfort Inn and Suites Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "455 South Camino Del Rio, 81303, Durango",
+   "url": "https://www.choicehotels.com/colorado/durango/quality-inn-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 Stewart Street, 81303, Durango",
+   "url": "https://www.wyndhamhotels.com/super-8/durango-colorado/super-8-durango-purgatory/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "21719 West Us Highway 160, 81301, Durango",
+   "url": "https://www.marriott.com/drofi"
+  },
+  {
+   "name": "Best Western Rio Grande Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 East 2nd Avenue, 81301, Durango",
+   "url": "http://www.bwriograndeinn.com"
+  },
+  {
+   "name": "Residence Inn Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "81301, Durango",
+   "url": "https://www.marriott.com/drori"
+  },
+  {
+   "name": "Days Inn by Wyndham Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3030 Main Avenue, 81301, Durango",
+   "url": "https://www.wyndhamhotels.com/days-inn/durango-colorado/days-inn-durango/overview"
+  },
+  {
+   "name": "La Quinta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/durango-colorado/la-quinta-durango/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Durango Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "402 East 2nd Avenue, 81301",
+   "url": "https://www.hilton.com/en/hotels/droidhx-hampton-suites-durango-downtown-area/"
+  },
+  {
+   "name": "The Junction Hotel & Hostel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2202 Main Avenue, 81301, Durango",
+   "url": "https://www.junctiondurango.com/"
+  },
+  {
+   "name": "Antlers on the Creek Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "999 Lightner Creek Road, 81301, Durango",
+   "url": "https://www.antlersonthecreek.com/"
+  },
+  {
+   "name": "Rochester Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "726 East 2nd Avenue, 81301, Durango",
+   "url": "https://rochesterhotel.com/"
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.budgetinndurango.us/"
+  },
+  {
+   "name": "Club Wyndham Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 East 2nd Avenue, 81301, Durango",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites Durango Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "21636 US-160, 81301, Durango",
+   "url": ""
+  },
+  {
+   "name": "Adobe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2178 Main Avenue, 81301, Durango",
+   "url": ""
+  },
+  {
+   "name": "River Roost Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 Camino del Rio, 81301, Durango",
+   "url": ""
+  },
+  {
+   "name": "Caboose Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3363 Main Avenue, 81301, Durango",
+   "url": ""
+  },
+  {
+   "name": "Strater Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "699 Main Avenue",
+   "url": ""
+  },
+  {
+   "name": "Jarvis Suite Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 West 10th Street",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travelodge Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Spanish Trails Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Durango Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Adventure Inn Durango",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The General Palmer Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Iron Horse Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Baymont By Wyndham Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Vagabond Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Ore House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "147 East College Drive, 82301, Durango",
+   "website": "https://www.orehouserestaurant.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "666 Camino del Rio, 81301, Durango",
+   "website": "https://www.dennys.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1316 Main Avenue, 81301, Durango",
+   "website": "https://locations.pizzahut.com/co/durango/1316-main-ave"
+  },
+  {
+   "name": "Zia Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "400 South Camino Del Rio, 81301, Durango",
+   "website": "https://ziataqueria.com/hours-and-locations/"
+  },
+  {
+   "name": "Himalayan Kitchen",
+   "cuisines": [
+    "Indian",
+    "Nepalese",
+    "Tibetan"
+   ],
+   "address": "992 Main Avenue, 81301, Durango",
+   "website": "http://www.himkitchen.com"
+  },
+  {
+   "name": "Rice Monkeys",
+   "cuisines": [
+    "Oriental"
+   ],
+   "address": "1050 Main Avenue, Durango",
+   "website": "https://www.ricemonkeysdurango.com/"
+  },
+  {
+   "name": "Oscar's Cafe",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": "http://www.oscarsdurango.com/"
+  },
+  {
+   "name": "Cuckoo's",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "128 East College Drive, 81301, Durango",
+   "website": ""
+  },
+  {
+   "name": "Gazpacho Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "431 East 2nd Avenue, 81301, Durango",
+   "website": ""
+  },
+  {
+   "name": "Carver Brewing Co",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1022 Main Avenue, Durango",
+   "website": ""
+  },
+  {
+   "name": "N/A",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1000 Main Avenue, Durango",
+   "website": ""
+  },
+  {
+   "name": "636 Main",
+   "cuisines": [
+    "Fusion"
+   ],
+   "address": "636 Main Avenue, 81301",
+   "website": ""
+  },
+  {
+   "name": "Tequila's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "948 Main Avenue",
+   "website": ""
+  },
+  {
+   "name": "The Wilds Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "741 Main Avenue",
+   "website": ""
+  },
+  {
+   "name": "Fired Up Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "735 Main Avenue",
+   "website": ""
+  },
+  {
+   "name": "2nd Deli & Spirits",
+   "cuisines": [
+    "Deli",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sizzling Siam",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cocina Linda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gazpacho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pop Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Pappy Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Serious Texas Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Yellow Carrot",
+   "cuisines": [],
+   "address": "3206 Main Avenue",
+   "website": "https://theyellowcarrot.com/"
+  },
+  {
+   "name": "Durango Diner",
+   "cuisines": [],
+   "address": "957 Main Avenue",
+   "website": "https://durangodiner.com/"
+  },
+  {
+   "name": "China Cafe",
+   "cuisines": [],
+   "address": "1525 Main Avenue, 81301, Durango",
+   "website": ""
+  },
+  {
+   "name": "Highway 3 Roadhouse & Oyster Bar",
+   "cuisines": [],
+   "address": "955 CO-3, 81301, Durango",
+   "website": ""
+  },
+  {
+   "name": "Famburger",
+   "cuisines": [],
+   "address": "1400 East 2nd Avenue, 81301, Durango",
+   "website": ""
+  },
+  {
+   "name": "Jean Pierre Bakery",
+   "cuisines": [],
+   "address": "601 Main Avenue",
+   "website": ""
+  },
+  {
+   "name": "Oye Oysters",
+   "cuisines": [],
+   "address": "1015 Main Avenue",
+   "website": ""
+  },
+  {
+   "name": "Francisco's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The Powerhouse Science Centre",
+   "kind": "museum",
+   "address": "1333 Camino del Rio, 81301, Durango",
+   "website": "https://powsci.org/",
+   "phone": "+1 970-259-9234",
+   "latitude": 37.2787491,
+   "longitude": -107.8799933
+  },
+  {
+   "name": "Animas Museum",
+   "kind": "museum",
+   "address": "3065 West 2nd Avenue",
+   "website": "https://www.animasmuseum.org/",
+   "phone": "",
+   "latitude": 37.29923,
+   "longitude": -107.8732955
+  },
+  {
+   "name": "Diane West Jewelry & Art",
+   "kind": "gallery",
+   "address": "820 Main Avenue, 81301",
+   "website": "https://www.dianewestart.com/",
+   "phone": "+1-970-385-4444",
+   "latitude": 37.2726086,
+   "longitude": -107.8807868
+  },
+  {
+   "name": "Rail Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.durangotrain.com/dsng-museum/",
+   "phone": "",
+   "latitude": 37.2681686,
+   "longitude": -107.8822869
+  },
+  {
+   "name": "Art",
+   "kind": "gallery",
+   "address": "161 Skyhawk Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 37.277832,
+   "longitude": -107.8669558
+  }
+ ]
+}

@@ -1,0 +1,1463 @@
+{
+ "city": "Duluth",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 46.7806,
+ "longitude": -92.0969,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1510 Maple Grove Road, 55811, Duluth",
+   "url": "https://www.marriott.com/dlhfd"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Canal Park Drive, 55802, Duluth",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/minnesota/hampton-inn-duluth-DULMNHX/index.html"
+  },
+  {
+   "name": "Country Inn & Suites, Duluth North, MN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4257 Haines Road, 55811, Duluth",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-duluth-mn"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1002 Mall Drive, 55811, Duluth",
+   "url": "https://www.hilton.com/en/hotels/dlhnmhx-hampton-suites-duluth-north-mall-area/"
+  },
+  {
+   "name": "Days Inn Duluth Lakewalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2211 London Road, 55812, Duluth",
+   "url": "https://www.wyndhamhotels.com/days-inn/duluth-minnesota/days-inn-duluth-lakewalk/overview"
+  },
+  {
+   "name": "AmericInn by Wyndham Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "901 Joshua Avenue, 55811, Duluth",
+   "url": "https://www.wyndhamhotels.com/americinn/duluth-minnesota/americinn-by-wyndham-duluth/overview?CID=LC:div7epuxsaire17:52474&iata=00093796"
+  },
+  {
+   "name": "Residence Inn Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "517 West Central Entrance, 55811, Duluth",
+   "url": "https://www.marriott.com/dlhri"
+  },
+  {
+   "name": "La Quinta Inn & Suites Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1805 Maple Grove Road, 55811, Duluth",
+   "url": "https://www.wyndhamhotels.com/laquinta/duluth-minnesota/la-quinta-duluth/overview"
+  },
+  {
+   "name": "Cotton Mansion",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2309 East 1st Street, 55812, Duluth",
+   "url": "https://www.cottonmansion.com/"
+  },
+  {
+   "name": "Duluth Press Building",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1915 W Superior St, 55806, Duluth",
+   "url": "https://duluthpressbuilding.com/"
+  },
+  {
+   "name": "Best Western Bridgeview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "415 Hammond Avenue, 54880, Superior",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-superior/best-western-bridgeview-hotel/propertyCode.50024.html"
+  },
+  {
+   "name": "Radisson Hotel Duluth-Harborview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "505 West Superior Street, 55802, Duluth",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-duluth"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 2nd Avenue East, 54880, Superior",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/superior/suewi/hoteldetail"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Duluth by the Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "909 Cottonwood Avenue, 55811, Duluth",
+   "url": "https://www.wyndhamhotels.com/days-inn/duluth-minnesota/days-inn-and-suites-by-wyndham-duluth-by-the-mall/overview"
+  },
+  {
+   "name": "Econo Lodge Duluth Near Miller Hill Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4197 Haines Road, 55811, Duluth",
+   "url": "https://www.choicehotels.com/minnesota/duluth/econo-lodge-hotels"
+  },
+  {
+   "name": "Super 8 Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4100 West Superior Street, 55807-2725, Duluth",
+   "url": "https://www.wyndhamhotels.com/super-8/duluth-minnesota/super-8-duluth/overview"
+  },
+  {
+   "name": "Comfort Inn West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3900 West Superior Street, 55807, Duluth",
+   "url": "https://www.choicehotels.com/minnesota/duluth/econo-lodge-hotels"
+  },
+  {
+   "name": "Fairfield Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Minnesota Avenue, 55802, Duluth",
+   "url": "https://www.marriott.com/dlhfw"
+  },
+  {
+   "name": "Lift Bridge Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "408 Canal Park Drive, 55802, Duluth",
+   "url": "https://liftbridgelodge.com"
+  },
+  {
+   "name": "Canal Park Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 Railroad Street, 55802, Duluth",
+   "url": "https://canalparklodge.com"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.marriott.com/en-us/hotels/dlhts-towneplace-suites-duluth/"
+  },
+  {
+   "name": "The Inn On Lake Superior",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "003 Canal Park Drive, 55802, Duluth",
+   "url": "https://theinnonlakesuperior.com"
+  },
+  {
+   "name": "Cobblestone Hotel & Suites – Superior/Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1102 Tower Avenue, 54880, Superior",
+   "url": "https://staycobblestone.com/wi/superior-cobblestone/"
+  },
+  {
+   "name": "Ellery House Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "28 S 21st Ave E, 55812, Duluth",
+   "url": "https://www.elleryhouse.com/"
+  },
+  {
+   "name": "Hostel du Nord",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "217 West 1st Street, 55802, Duluth",
+   "url": "https://hosteldunord.com"
+  },
+  {
+   "name": "Beacon Pointe Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 Water Street, 55812, Duluth",
+   "url": "https://beaconpointeduluth.com"
+  },
+  {
+   "name": "Androy Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1213 Tower Avenue, 54880, Superior",
+   "url": "https://www.androyhotel.com/"
+  },
+  {
+   "name": "Fitger's Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 East Superior Street, 55802, Duluth",
+   "url": "http://www.fitgers.com/"
+  },
+  {
+   "name": "The Trailside Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "510 North 66th Avenue West, 55807, Duluth",
+   "url": "https://thetrailsidehotel.com/"
+  },
+  {
+   "name": "Park Point Marina Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1033 Minnesota Avenue",
+   "url": "https://www.parkpointmarinainn.com/"
+  },
+  {
+   "name": "Tru By Hilton Duluth Mall Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "503 Clearwood Drive, 55811, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Superior - Duluth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1405 Susquehanna Avenue, 54880, Superior",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 West First St, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Duluth, MN",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 South 27th Avenue West, 55806, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Duluth Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 East Superior Street, 55802, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Duluth North - Miller Hill",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4725 Market Street, 55811, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Pier B Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 West Railroad Street, 55802, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Harris House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cedar House",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1715 North 3rd Street, 54880, Superior",
+   "url": ""
+  },
+  {
+   "name": "South Pier Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 Lake Avenue South, 55802, Duluth",
+   "url": ""
+  },
+  {
+   "name": "Superior Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 Hammond Avenue, 54880, Superior",
+   "url": ""
+  },
+  {
+   "name": "Barkers Island Inn Resort & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Marina Drive, 54880, Superior",
+   "url": ""
+  },
+  {
+   "name": "King Manor",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "222 E 2nd St",
+   "url": ""
+  },
+  {
+   "name": "117 E 3rd St",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "117 E 3rd St",
+   "url": ""
+  },
+  {
+   "name": "506.5 E 4th St",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "506.5 E 4th St",
+   "url": ""
+  },
+  {
+   "name": "124 N 8th Ave E",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "124 N 8th Ave E",
+   "url": ""
+  },
+  {
+   "name": "223 N 9th Ave E",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "223 N 9th Ave E",
+   "url": ""
+  },
+  {
+   "name": "Merritt School Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "510 North 40th Ave West",
+   "url": ""
+  },
+  {
+   "name": "1518 Jefferson St",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1518 Jefferson St",
+   "url": ""
+  },
+  {
+   "name": "307 N 8th Ave E (Upper)",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "307 N 8th Ave E",
+   "url": ""
+  },
+  {
+   "name": "305 N 8th Ave E (Lower)",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "305 N 8th Ave E",
+   "url": ""
+  },
+  {
+   "name": "624 E 1st St, Apartment Entrance",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "624 E 1st St",
+   "url": ""
+  },
+  {
+   "name": "819 E 5th St, Apt 1",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "819 E 5th St",
+   "url": ""
+  },
+  {
+   "name": "819 E 5th St, Apt 2",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "819 E 5th St",
+   "url": ""
+  },
+  {
+   "name": "Park Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Edgewater Resort & Waterpark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Skyline Court Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Downtown Duluth Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Suites Hotel in Canal Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Willard Munger Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Va Bene Caffe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "742 East Superior Street, 55802, Duluth",
+   "website": "https://www.vabenecaffe.com/"
+  },
+  {
+   "name": "Duluth Grill",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "118 South 27th Avenue West, 55806, Duluth",
+   "website": "https://duluthgrill.com/"
+  },
+  {
+   "name": "Grandma's Saloon and Grill",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "522 Lake Avenue South, 55802, Duluth",
+   "website": "https://www.grandmasrestaurants.com/restaurants.htm"
+  },
+  {
+   "name": "Vitta Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "307 Canal Park Drive, 55802, Duluth",
+   "website": "https://www.vittapizza.com/"
+  },
+  {
+   "name": "Northern Waters Smokehaus",
+   "cuisines": [
+    "Fish"
+   ],
+   "address": "394 Lake Avenue South, 55802",
+   "website": "http://www.nwsmokehaus.com/"
+  },
+  {
+   "name": "Hanabi Sushi & Bar",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "110 North 1st Avenue West, 55802, Duluth",
+   "website": "https://www.hanabiduluthmn.com/"
+  },
+  {
+   "name": "Pizza Lucé",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "11 East Superior Street, 55802, Duluth",
+   "website": "https://pizzaluce.com/locations/duluth"
+  },
+  {
+   "name": "Green Mill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "340 Lake Avenue South, 55802, Duluth",
+   "website": "https://www.greenmill.com/locations/duluth-mn/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "902 Mall Drive, 55811, Duluth",
+   "website": "https://www.texasroadhouse.com/locations/minnesota/duluth"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "901 Mall Drive, 55811, Duluth",
+   "website": "https://www.olivegarden.com/locations/mn/duluth/duluth-miller-hill-mall/1618?cmpid=br:og_ag:ie_ch:loc_ca:OGGMB_sn:gmb_gt:duluth-mn-1618_pl:locurl_rd:1479"
+  },
+  {
+   "name": "Clyde Iron Works",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2920 West Michigan Street, 55806, Duluth",
+   "website": "https://clydeironworks.com/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "301 South Lake Avenue, 55802, Duluth",
+   "website": "https://www.redlobster.com/locations/list/mn/duluth/301-s-lake-avenue"
+  },
+  {
+   "name": "Vitta Pizza Central Entrance",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "21 West Central Entrance, 55811, Duluth",
+   "website": "https://www.vittapizza.com/"
+  },
+  {
+   "name": "Old Chicago",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "327 South Lake Avenue, 55802, Duluth",
+   "website": "https://oldchicago.com/locations/us/mn/duluth/327-s-lake-ave/"
+  },
+  {
+   "name": "Fitger's Brewhouse Brewery and Grille",
+   "cuisines": [
+    "Pub",
+    "Burger"
+   ],
+   "address": "600 East Superior Street, 55802, Duluth",
+   "website": "https://fitgersbrewhouse.com/"
+  },
+  {
+   "name": "OMC Smokehouse",
+   "cuisines": [
+    "American",
+    "Barbecue",
+    "Burger",
+    "Fish And Chips",
+    "Sandwich"
+   ],
+   "address": "1909 West Superior Street, 55806, Duluth",
+   "website": "https://omcsmokehouse.com/"
+  },
+  {
+   "name": "Mexico Lindo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "600 East Superior Street, 55802, Duluth",
+   "website": "https://www.lindoduluth.com/"
+  },
+  {
+   "name": "Wasabi Japanese Cuisine Restaurant",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "132 East Superior Street, 55802, Duluth",
+   "website": "http://wasabisushiduluth.com/"
+  },
+  {
+   "name": "Cloud 9",
+   "cuisines": [
+    "Asian",
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "308 South Lake Avenue, 55802, Duluth",
+   "website": "https://cloud9asianbistroduluth.com/"
+  },
+  {
+   "name": "Toppers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1231 East 9th Street, 55805",
+   "website": "https://www.toppers.com/locations/duluth/"
+  },
+  {
+   "name": "Little Angie's Cantina and Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "11 Buchanan Street, Duluth",
+   "website": "https://www.grandmasrestaurants.com/littleangies/"
+  },
+  {
+   "name": "India Palace",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "319 West Superior Street, 55802, Duluth",
+   "website": "http://indiapalaceduluth.com/"
+  },
+  {
+   "name": "Big Daddy's Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2828 Piedmont Avenue, 55811, Duluth",
+   "website": ""
+  },
+  {
+   "name": "Crooked Pint",
+   "cuisines": [
+    "Pub"
+   ],
+   "address": "1402 West Arrowhead Road, 55811, Duluth",
+   "website": ""
+  },
+  {
+   "name": "PhoHolic Taste of Vietnam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "309 East Central Entrance, 55811, Duluth",
+   "website": ""
+  },
+  {
+   "name": "PhoHolic",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1623 London Road",
+   "website": ""
+  },
+  {
+   "name": "A & Dubs",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3131 West 3rd Street, 55806, Duluth",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sabor by Pedro’s",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1608 Woodland Ave.",
+   "website": ""
+  },
+  {
+   "name": "Bellisio's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beijing Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oasis Del Norte",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "2401",
+   "website": ""
+  },
+  {
+   "name": "Bulldog Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sir Benedict's Tavern on the Lake",
+   "cuisines": [],
+   "address": "805 East Superior Street, 55802, Duluth",
+   "website": "https://sirbens.com"
+  },
+  {
+   "name": "Tavern on the Hill",
+   "cuisines": [],
+   "address": "1102 Woodland Avenue, 55803, Duluth",
+   "website": "https://www.tavernduluth.com/"
+  },
+  {
+   "name": "Lake Avenue Café",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.lakeavenuecafe.com/"
+  },
+  {
+   "name": "Hungry Hippie Tacos",
+   "cuisines": [],
+   "address": "1810 West Superior Street, 55806, Duluth",
+   "website": ""
+  },
+  {
+   "name": "Duluth Coffee Restaurant",
+   "cuisines": [],
+   "address": "107 East Superior Street, 55802, Duluth",
+   "website": ""
+  },
+  {
+   "name": "Residence Dining Center",
+   "cuisines": [],
+   "address": "1120 Kirby Drive",
+   "website": ""
+  },
+  {
+   "name": "Pholicious",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burger Paradox",
+   "cuisines": [],
+   "address": "2113 West Superior Street",
+   "website": ""
+  },
+  {
+   "name": "Blackwoods",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "At Sarah's Table Chester Creek Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sara's Table",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pickwick",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The St. Louis County Depot",
+   "kind": "museum",
+   "address": "506 West Michigan Street, 55802, Duluth",
+   "website": "https://www.experiencethedepot.org/",
+   "phone": "",
+   "latitude": 46.7813765,
+   "longitude": -92.1039969
+  },
+  {
+   "name": "Great Lakes Aquarium",
+   "kind": "aquarium",
+   "address": "353 Harbor Drive, 55802, Duluth",
+   "website": "https://glaquarium.org/",
+   "phone": "",
+   "latitude": 46.7789592,
+   "longitude": -92.1000928
+  },
+  {
+   "name": "Lake Superior Maritime Visitor Center",
+   "kind": "museum",
+   "address": "600 South Lake Avenue, Duluth",
+   "website": "http://www.lsmma.com/",
+   "phone": "+1 218-720-5260",
+   "latitude": 46.7798277,
+   "longitude": -92.092533
+  },
+  {
+   "name": "Karpeles Manuscript Library Museum",
+   "kind": "museum",
+   "address": "902 East 1st Street, 55805, Duluth",
+   "website": "https://karpeles.com/museums/dul.php",
+   "phone": "",
+   "latitude": 46.7962002,
+   "longitude": -92.0875538
+  },
+  {
+   "name": "Glensheen - Historic Congdon Estate",
+   "kind": "museum",
+   "address": "3300 London Rd, Duluth",
+   "website": "https://glensheen.org/",
+   "phone": "",
+   "latitude": 46.8151573,
+   "longitude": -92.0517206
+  },
+  {
+   "name": "SS William A. Irvin",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7827937,
+   "longitude": -92.0972273
+  },
+  {
+   "name": "Tweed Museum of Art",
+   "kind": "museum",
+   "address": "1201 Ordean Court",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8185503,
+   "longitude": -92.0845786
+  },
+  {
+   "name": "SS Meteor",
+   "kind": "attraction",
+   "address": "300 Marina Drive, 54880, Superior",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7228568,
+   "longitude": -92.063406
+  },
+  {
+   "name": "Enger Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7761105,
+   "longitude": -92.1249586
+  },
+  {
+   "name": "Lake Superior Zoo",
+   "kind": "zoo",
+   "address": "7210 Fremont Street, 55807, Duluth",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7255536,
+   "longitude": -92.1912886
+  },
+  {
+   "name": "Lake Superior Railroad Museum",
+   "kind": "museum",
+   "address": "506 West Michigan Street, 55802, Duluth",
+   "website": "https://www.lsrm.org/",
+   "phone": "",
+   "latitude": 46.781035,
+   "longitude": -92.1040294
+  },
+  {
+   "name": "Douglas County Historical Museum",
+   "kind": "museum",
+   "address": "1101 John Avenue, 54880, Superior",
+   "website": "https://www.douglashistory.org/",
+   "phone": "",
+   "latitude": 46.7252524,
+   "longitude": -92.101336
+  },
+  {
+   "name": "St. Louis County Historical Society",
+   "kind": "museum",
+   "address": "506 West Michigan Street, 55802, Duluth",
+   "website": "https://www.thehistorypeople.org/",
+   "phone": "",
+   "latitude": 46.7815045,
+   "longitude": -92.1038746
+  },
+  {
+   "name": "Richard Bong WWII Heritage Center",
+   "kind": "museum",
+   "address": "305 Harbor View Parkway, 54880, Superior",
+   "website": "http://bvhcenter.org/",
+   "phone": "",
+   "latitude": 46.7228986,
+   "longitude": -92.0683293
+  },
+  {
+   "name": "A World of Accordions Museum",
+   "kind": "museum",
+   "address": "1401 Belknap Street, 54880, Superior",
+   "website": "https://www.worldofaccordions.org/",
+   "phone": "",
+   "latitude": 46.7208602,
+   "longitude": -92.0982573
+  },
+  {
+   "name": "State of Wisconsin Fire & Police Hall of Fame",
+   "kind": "museum",
+   "address": "402 23rd Avenue East, 54880, Superior",
+   "website": "https://superiorpublicmuseums.org/old-firehouse/",
+   "phone": "",
+   "latitude": 46.7040653,
+   "longitude": -92.0480495
+  },
+  {
+   "name": "Harrington Arts Center",
+   "kind": "museum",
+   "address": "1401 Belknap Street, 54880, Superior",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7209555,
+   "longitude": -92.0982854
+  },
+  {
+   "name": "The Old Firehouse & Police Museum",
+   "kind": "museum",
+   "address": "402 23rd Avenue East, 54880, Superior",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7040456,
+   "longitude": -92.0479826
+  },
+  {
+   "name": "Fairlawn Mansion",
+   "kind": "museum",
+   "address": "906 East 2nd Street, 54880, Superior",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7179142,
+   "longitude": -92.0629426
+  },
+  {
+   "name": "Tug Bayfield",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7798452,
+   "longitude": -92.0920135
+  },
+  {
+   "name": "Bagley Nature Area viewing platform",
+   "kind": "viewpoint",
+   "address": "1325 Junction Avenue, 55812, Duluth",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8221846,
+   "longitude": -92.08933
+  },
+  {
+   "name": "Marshall W. Alworth Planetarium",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8161223,
+   "longitude": -92.0871729
+  },
+  {
+   "name": "Duluth Children's Museum",
+   "kind": "museum",
+   "address": "2125 West Superior Street, 55806, Duluth",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7663658,
+   "longitude": -92.1254911
+  },
+  {
+   "name": "Red Panda",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7248757,
+   "longitude": -92.1913071
+  },
+  {
+   "name": "Snow Leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7244545,
+   "longitude": -92.1916684
+  },
+  {
+   "name": "Grey Wolf",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7252191,
+   "longitude": -92.1928977
+  },
+  {
+   "name": "Caribou",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7258615,
+   "longitude": -92.1924258
+  },
+  {
+   "name": "River Otter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7250903,
+   "longitude": -92.1924227
+  },
+  {
+   "name": "Brown Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7252871,
+   "longitude": -92.1921095
+  },
+  {
+   "name": "Amur Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7254172,
+   "longitude": -92.1907552
+  },
+  {
+   "name": "Capybara",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7272463,
+   "longitude": -92.1916873
+  },
+  {
+   "name": "Bald Eagle",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7269804,
+   "longitude": -92.1916021
+  },
+  {
+   "name": "Coyote",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7246728,
+   "longitude": -92.1924785
+  },
+  {
+   "name": "Cougar",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7244131,
+   "longitude": -92.1924931
+  },
+  {
+   "name": "Black Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7245018,
+   "longitude": -92.1928883
+  },
+  {
+   "name": "Barnyard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.725291,
+   "longitude": -92.1900724
+  },
+  {
+   "name": "Prairie Dog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7255458,
+   "longitude": -92.1898291
+  },
+  {
+   "name": "Kruk Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7164688,
+   "longitude": -92.0886239
+  },
+  {
+   "name": "Hawk Ridge Bird Observatory",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8472019,
+   "longitude": -92.0316863
+  },
+  {
+   "name": "Leif Erikson Replica Longboat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7967211,
+   "longitude": -92.0821749
+  },
+  {
+   "name": "Glenshhen Mansion Congdon Estate Grounds",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8153171,
+   "longitude": -92.0509824
+  },
+  {
+   "name": "Little Free Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7464237,
+   "longitude": -92.1677726
+  },
+  {
+   "name": "Rock Knob",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.834736,
+   "longitude": -92.0902334
+  },
+  {
+   "name": "Phantom Galleries",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.723672,
+   "longitude": -92.1042158
+  },
+  {
+   "name": "Chester Park Trail Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8039894,
+   "longitude": -92.0871074
+  },
+  {
+   "name": "Gazebo Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.8354779,
+   "longitude": -92.0783261
+  },
+  {
+   "name": "Japanese Peace Bell",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7770748,
+   "longitude": -92.124123
+  },
+  {
+   "name": "Siiviis Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.7826158,
+   "longitude": -92.0943465
+  }
+ ]
+}

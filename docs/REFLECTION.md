@@ -6,7 +6,7 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 
 1. **TravelPlanner snapshot.** I started from the [TravelPlanner](https://huggingface.co/datasets/osunlp/TravelPlanner) dataset: 1,225 planning questions, each with its own bundle of US flights, restaurants, stays, attractions and ground routes from March 2022. I merged the bundles into one de-duplicated catalog (about 13,700 places in 257 cities) and indexed every place as one document in Chroma, with query translation, metadata filters and rank fusion on top.
 2. **Tools.** Six domain tools covered flights, restaurants, stays, semantic place search, trip costing and constraint checks. The costing and checking tools follow TravelPlanner's rules (meals and flights per person, cars per 5 travellers, rooms by occupancy).
-3. **Beyond the US and beyond 2022.** The dataset is US-only and four years old, so I added 16 European and Asian cities from Inside Airbnb (September 2026) and OpenStreetMap, then live data: Google Flights, Airbnb and Google Hotels through SerpApi, Google Places restaurants, Google Routes for public transport and driving, and daily exchange rates. Finally I added 2026 Inside Airbnb and OpenStreetMap data for 34 US areas, so the snapshot fallback is current for the main US cities.
+3. **Beyond the US and beyond 2022.** The dataset is US-only and four years old, so I added 16 European and Asian cities from Inside Airbnb (September 2026) and OpenStreetMap, then live data: Google Flights, Airbnb and Google Hotels through SerpApi, Google Places restaurants, Google Routes for public transport and driving, and daily exchange rates. Then I added 2026 Inside Airbnb and OpenStreetMap data for 34 US areas, and finally replaced the last 2022 data: OpenStreetMap restaurants, attractions and hotels for TravelPlanner's other 195 US cities, and no more 2022 flights or driving routes (live searches, or estimates from the distance). The app now holds no 2022 data; TravelPlanner's questions are still used for the evaluation.
 4. **Result cards.** The app draws flights, stays, restaurants, transport and the trip cost as cards from the tools' own results, so they look the same in every answer and the written answer can focus on the best picks.
 5. **Hardening.** A security review (key redaction in logs, screening of tool results for injected instructions), a test suite of 216 tests at 96% coverage, and a GitHub Actions workflow that runs them on every push.
 
@@ -16,7 +16,7 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 - **Prices come from tools, never from the model.** Every live result gets an id; the cost tool looks prices up by id (or exact name), so a total can't contain a number the model invented. Missing prices are listed as unpriced instead of guessed.
 - **Ready-made display text.** Small models reformat numbers inconsistently, so tools return finished text (`price_text`, `rating_text`, `cost_text`) for the model to copy. This fixed most formatting errors.
 - **Record-level chunks.** Each place is short, so it stays one chunk; splitting would separate a name from its price or house rules.
-- **Keep the 2022 data.** It remains the fallback for smaller US cities and is the only data that fits TravelPlanner's own test questions, which an evaluation needs.
+- **Current data only.** Nobody plans a trip on four-year-old prices, so all 2022 data was replaced. The cost: smaller US cities have no snapshot stay prices and there are no snapshot flight prices at all, so without live data those items are unpriced instead of outdated.
 
 ## Problems found and how I fixed them
 
@@ -36,7 +36,7 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 ## Limitations
 
 - **Unavailable prices.** Taxi fares, many public transport fares, attraction tickets and some restaurant prices aren't published by the sources, so totals leave them out (and say so). US driving costs are an estimate at the IRS 2026 mileage rate, without tolls or parking.
-- **Snapshot coverage.** 2026 snapshot data covers 50 cities; smaller US cities fall back to 2022 data when live search is unavailable.
+- **Snapshot prices.** Stays in the 195 smaller US cities and all flights have no snapshot prices, so plans depend on live searches for those.
 - **Model accuracy.** The model occasionally adds a detail the data doesn't contain (once it named a train service the data didn't). Tools supply all prices, ids and links, which limits this to the wording.
 - **Pattern-based injection screening** can miss rephrased attacks.
 - **Quotas.** SerpApi's free plan has 250 searches a month; a full plan uses about 3–4. The cache and per-chat limits stretch this.
@@ -44,6 +44,6 @@ This is a short reflection on how TripMate was built, the decisions behind it, t
 
 ## Improvements I would make next
 
-1. **Evaluation:** run the agent on a sample of TravelPlanner's validation questions with the 2022 catalog and report how many plans are complete and pass the hard and commonsense constraints; compare with and without retrieval.
+1. **Evaluation:** run the agent on a sample of TravelPlanner's validation questions, moved to future dates with live data, and report how many plans are complete and pass the hard and commonsense constraints; compare with and without retrieval.
 2. **Hybrid search:** keyword plus vector search, which would fix weak semantic matches such as "seafood restaurant" on names-only records.
 3. **An LLM-based injection classifier** alongside the patterns.

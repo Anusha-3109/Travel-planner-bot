@@ -104,12 +104,12 @@ def test_place_search_reports_bad_input_as_text():
     assert search_destination_options.invoke({"query": "museums", "category": "weather"}).startswith("Error:")
 
 
-def test_failing_google_routes_falls_back_to_snapshot(monkeypatch):
+def test_failing_google_routes_falls_back_to_an_estimate(monkeypatch):
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "test-key")
     monkeypatch.setattr("tools.local_transport.search_local_transport",
                         lambda *a: (_ for _ in ()).throw(http.LiveDataError("Google Routes is down")))
     result = find_local_transport("Washington", "Myrtle Beach")
-    assert result["transport_source"].startswith("snapshot") and "Google Routes is down" in result["note"]
+    assert result["transport_source"] == "estimate" and "Google Routes is down" in result["note"]
 
 
 def test_transport_tool_returns_errors_as_json():

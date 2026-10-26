@@ -1,0 +1,1194 @@
+{
+ "city": "Lynchburg",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.4137,
+ "longitude": -79.1561,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3600 Liberty Mountain Drive, 24502, Lynchburg",
+   "url": "https://www.hilton.com/en/hotels/lyhwlhx-hampton-suites-lynchburg/"
+  },
+  {
+   "name": "House of Lydia",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "313 Madison Street, 24504, Lynchburg",
+   "url": "https://www.houseoflydiabb.com/"
+  },
+  {
+   "name": "Courtyard Lynchburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4640 Murray Place, 24502, Lynchburg",
+   "url": "https://www.marriott.com/lyhcy"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3320 Candlers Mountain Road, 24502, Lynchburg",
+   "url": "https://www.wyndhamhotels.com/laquinta/lynchburg-virginia/la-quinta-lynchburg-at-liberty-univ/overview"
+  },
+  {
+   "name": "SpringHill Suites Lynchburg Airport/University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15171 Wards Road, 24502, Lynchburg",
+   "url": "https://www.marriott.com/lyhsh"
+  },
+  {
+   "name": "Fairfield Inn & Suites Lynchburg Liberty University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3777 Candlers Mountain Road, 24502, Lynchburg",
+   "url": "https://www.marriott.com/lyhfi"
+  },
+  {
+   "name": "Residence Inn Lynchburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2630 Wards Road, 24502, Lynchburg",
+   "url": "https://www.marriott.com/lyhri"
+  },
+  {
+   "name": "Super 8 by Wyndham Lynchburg VA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3736 Candlers Mountain Road, 24502, Lynchburg",
+   "url": "https://www.wyndhamhotels.com/super-8/lynchburg-virginia/super-8-lynchburg-va/overview"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4025 Wards Road, 24502, Lynchburg",
+   "url": "https://www.hilton.com/en/hotels/lyhlvgi-hilton-garden-inn-lynchburg/"
+  },
+  {
+   "name": "Comfort Inn & Suites Lynchburg Airport - University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15001 Wards Road, 24502, Lynchburg",
+   "url": "https://www.choicehotels.com/virginia/lynchburg/sleep-inn-hotels"
+  },
+  {
+   "name": "Craddock Terry Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1312 Commerce Street, 24504, Lynchburg",
+   "url": "https://www.craddockterryhotel.com/"
+  },
+  {
+   "name": "Spark by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3620 Candlers Mountain Road, 24502, Lynchburg",
+   "url": "https://www.hilton.com/en/hotels/lyhpepe-spark-lynchburg/"
+  },
+  {
+   "name": "Woodspring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Border Street, 24502, Lynchburg",
+   "url": "https://www.woodspring.com/extended-stay-hotels/locations/virginia/lynchburg/woodspring-suites-lynchburg"
+  },
+  {
+   "name": "Virginian Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "712 Church Street, Lynchburg",
+   "url": "https://www.thevirginianhotel.com/"
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3730 South Amherst Highway, 24572, Madison Heights",
+   "url": "https://www.redlion.com/knights-inn/va/madison-heights/knights-inn-madison-heights-va"
+  },
+  {
+   "name": "Federal Crest Inn Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 Federal Street, 24504",
+   "url": "https://www.federalcrest.com/"
+  },
+  {
+   "name": "Holiday Inn Express Lynchburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5600 Seminole Avenue, 24502, Lynchburg",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lynchburg/lyhsa/hoteldetail"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5604 Seminole Avenue",
+   "url": "https://www.choicehotels.com/virginia/lynchburg/quality-inn-hotels/va704"
+  },
+  {
+   "name": "Brentwood Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2400 Stadium Road, 24501, Lynchburg",
+   "url": "https://www.brentwoodinnandsuiteslynchburgva.com/"
+  },
+  {
+   "name": "Bella Vista Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2900 Candlers Mountain Road",
+   "url": "https://thebvhotel.com/"
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/microtel/lynchburg-virginia/microtel-inn-and-suites-by-wyndham-lynchburg/overview"
+  },
+  {
+   "name": "Tru by Hilton Lynchburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 Simons Run, 24502, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2815 Candlers Mountain Road, 24502, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4021 Wards Road, 24502, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Lynchburg Grand Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Main Street, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5016 South Amherst Highway, 24572, Madison Heights",
+   "url": ""
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "542 Simons Run, 24502, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Rosemary & George Dawson Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2012 Tate Springs Road, 24501, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "Acorn Hill Lodge",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2134 Old Forest Road, 24501, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "La Place",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "927 Church Street, 24504, Lynchburg",
+   "url": ""
+  },
+  {
+   "name": "James River Place",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1215 Jefferson Street",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Madison Heights, VA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "3121 Albert Lankford Drive, 24501, Lynchburg",
+   "website": "https://locations.outback.com/virginia/lynchburg/3121-albert-lankford-drive"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2413 Memorial Avenue, 24501, Lynchburg",
+   "website": "https://locations.pizzahut.com/va/lynchburg/2413-memorial-ave"
+  },
+  {
+   "name": "JoJo Pizza & Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1400 Lakeside Drive, 24501, Lynchburg",
+   "website": "https://www.jojopizzalynchburg.com"
+  },
+  {
+   "name": "Hueso Loco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1214 Commerce Street, 24504, Lynchburg",
+   "website": "https://huesoloco.com/"
+  },
+  {
+   "name": "Mizumi Japanese Bistro",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1125 Main Street, 24504, Lynchburg",
+   "website": "https://www.mizumiva.com"
+  },
+  {
+   "name": "The Water Dog",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1016 Jefferson Street, 24504, Lynchburg",
+   "website": "https://www.thewaterdog.com/"
+  },
+  {
+   "name": "Big Lick Tropical Grill",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "4001 Murray Place, 24501, Lynchburg",
+   "website": "https://biglicktropicalgrill.com/"
+  },
+  {
+   "name": "Water Stone Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1309 Jefferson Street, 24504, Lynchburg",
+   "website": "https://www.waterstonepizza.com/"
+  },
+  {
+   "name": "Shoemakers American Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1312 Commerce Street, 24501, Lynchburg",
+   "website": "https://shoemakersdining.com/"
+  },
+  {
+   "name": "Al Ryan Mediterranean Cuisine",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "817.5 Main Street, 24504, Lynchburg",
+   "website": "https://alryanmediterranea.wixsite.com/cuisine"
+  },
+  {
+   "name": "Hot & Cold Café",
+   "cuisines": [
+    "Indian",
+    "Mediterranean"
+   ],
+   "address": "1206 Main Street, Lynchburg",
+   "website": "https://www.hotcoldcafe.com/"
+  },
+  {
+   "name": "Depot Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "10 9th Street, Lynchburg",
+   "website": "https://depotgrille.com/lynchburg/"
+  },
+  {
+   "name": "{RA} Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1344 Main Street, 24504, Lynchburg",
+   "website": "https://rabistro.com/"
+  },
+  {
+   "name": "King House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2509 Memorial Avenue",
+   "website": "https://kinghousevatogo.com/"
+  },
+  {
+   "name": "Inka Grill",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "912 Main Street, 24504, Lynchburg",
+   "website": "https://www.inkagrill.pe"
+  },
+  {
+   "name": "El Mariachi Cafe & Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1001 Jefferson Street, 24503, Lynchburg",
+   "website": "https://www.elmariachimexfood.com/"
+  },
+  {
+   "name": "Uno Mas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "512 5th Street, 24504, Lynchburg",
+   "website": "https://www.unomasrestaurant.com"
+  },
+  {
+   "name": "Bentley's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2302 Bedford Avenue, 24503, Lynchburg",
+   "website": "https://www.bentleysonbedford.com/"
+  },
+  {
+   "name": "La Carreta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "131 Lakeview Drive, 24572, Madison Heights",
+   "website": "https://www.lacarretaonline.com/"
+  },
+  {
+   "name": "The Silver Pig",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "4835 South Amherst Highway, 24572, Madison Heights",
+   "website": "http://www.silverpigbbq.com/"
+  },
+  {
+   "name": "The Maple Leaf Tea Room",
+   "cuisines": [
+    "Tea"
+   ],
+   "address": "1215 Commerce Street, 24504, Lynchburg",
+   "website": "https://themapleleaftearoom.com"
+  },
+  {
+   "name": "Thai '99",
+   "cuisines": [
+    "Asian",
+    "Thai"
+   ],
+   "address": "21 Wadsworth Street",
+   "website": "https://www.thai99kitchen.com"
+  },
+  {
+   "name": "Asian Fusion",
+   "cuisines": [
+    "Asian",
+    "Japanese",
+    "Chinese",
+    "Filipino"
+   ],
+   "address": "2822 Linkhorne Drive, 24501, Lynchburg",
+   "website": "https://asianfusionlynchburg.godaddysites.com/"
+  },
+  {
+   "name": "Phillipine Delight Oriental Food",
+   "cuisines": [
+    "Asian",
+    "Filipino"
+   ],
+   "address": "1219 Main Street, 24504, Lynchburg",
+   "website": "https://lynchburgfilipinorestaurant.com/"
+  },
+  {
+   "name": "Skyline",
+   "cuisines": [
+    "American",
+    "Seafood"
+   ],
+   "address": "712 Church Street, 24504, Lynchburg",
+   "website": "https://skylineatthevirginian.com"
+  },
+  {
+   "name": "King's Island",
+   "cuisines": [
+    "Japanese",
+    "American",
+    "Chinese",
+    "Sushi"
+   ],
+   "address": "2804 Old Forest Road, 24501, Lynchburg",
+   "website": "https://kingsislandrestaurant.com/"
+  },
+  {
+   "name": "Bootleggers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "50 13th Street",
+   "website": "https://bootleggersburger.com/"
+  },
+  {
+   "name": "Lula Mae's",
+   "cuisines": [
+    "Local",
+    "Regional"
+   ],
+   "address": "1042 Florida Avenue",
+   "website": "https://lulamaeslyh.com/"
+  },
+  {
+   "name": "Yamato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "4915 Fort Avenue, 24502, Lynchburg",
+   "website": "https://yamatolynchburg.com/"
+  },
+  {
+   "name": "The Dahlia",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2221 Bedford Avenue, 24503, Lynchburg",
+   "website": "https://www.thedahlialynchburg.restaurant"
+  },
+  {
+   "name": "The Vaughan Garage",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1124 Church Street, 24504, Lynchburg",
+   "website": "https://thevaughan.net"
+  },
+  {
+   "name": "Kenney's",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "2062 Fort Avenue, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Benny Scarpetta's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1019 Main Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "The Sauce House",
+   "cuisines": [
+    "Burger",
+    "Chicken",
+    "Fish And Chips"
+   ],
+   "address": "710 5th Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Lola's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3025 Old Forest Road, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "The Cavalier Store",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "2920 Rivermont Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "The Yard on 5th Street",
+   "cuisines": [
+    "Barbecue",
+    "American"
+   ],
+   "address": "801 5th Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "El Camino",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2012 Lakeside Drive, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "My Dog Duke's Diner",
+   "cuisines": [
+    "Diner",
+    "American",
+    "Burger",
+    "Cafe"
+   ],
+   "address": "1007 Commerce Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Taco Jesús",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2309 Bedford Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Dudley's Family Restaurant",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "4614 South Amherst Highway, 24572, Madison Heights",
+   "website": ""
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4886 South Amherst Highway, 24572, Madison Heights",
+   "website": ""
+  },
+  {
+   "name": "Country Cooking by Irene",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "1219 Main Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Squared Biscuit Company",
+   "cuisines": [
+    "Breakfast",
+    "Chicken"
+   ],
+   "address": "522 5th Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Phillin Philly",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2100 12th, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Rivermont Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2496 Rivermont Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "The Latin Place",
+   "cuisines": [
+    "Latin American",
+    "Puerto Rican"
+   ],
+   "address": "2420 12th Street, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Harbor Inn",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3220 Old Forest Road, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Monte Carlo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3230 Old Forest Road, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Barb's Dream Hut",
+   "cuisines": [
+    "Regional",
+    "Diner",
+    "Sandwich",
+    "Burger"
+   ],
+   "address": "1219 Main Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Mother Nature's Soul Food Vegan Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "616 5th Street",
+   "website": ""
+  },
+  {
+   "name": "Aji Ramen & Sushi",
+   "cuisines": [
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "908 Main Street",
+   "website": ""
+  },
+  {
+   "name": "Oliver's",
+   "cuisines": [
+    "Burger",
+    "Seafood",
+    "Grill"
+   ],
+   "address": "2496 Rivermont Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Mikado Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3028 Memorial Avenue",
+   "website": ""
+  },
+  {
+   "name": "Pho Viet #2",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "915 Main Street",
+   "website": ""
+  },
+  {
+   "name": "Gr8 Pl8",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1415 Kemper Street",
+   "website": ""
+  },
+  {
+   "name": "Trust Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2221 Florida Avenue",
+   "website": ""
+  },
+  {
+   "name": "Weenie Stand #1",
+   "cuisines": [
+    "Burger",
+    "Hot Dog"
+   ],
+   "address": "201 Alleghany Avenue",
+   "website": ""
+  },
+  {
+   "name": "Soulfood Delight",
+   "cuisines": [
+    "Southern",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Market at Main",
+   "cuisines": [],
+   "address": "907 Main Street, 24504, Lynchburg",
+   "website": "https://www.marketatmain.com/"
+  },
+  {
+   "name": "TBR Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": "https://tbrbistroandthevaultbytr.com/"
+  },
+  {
+   "name": "Truss",
+   "cuisines": [],
+   "address": "2204 Bedford Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Dish Restaurant",
+   "cuisines": [],
+   "address": "1120 Main Street",
+   "website": ""
+  },
+  {
+   "name": "The Farm Basket",
+   "cuisines": [],
+   "address": "2008 Langhorne Road, 24501, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Magnolia Foods",
+   "cuisines": [],
+   "address": "2476 Rivermont Avenue, 24503, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Tiger Sun Restaurant & Lounge",
+   "cuisines": [],
+   "address": "1008 Commerce Street, 24504, Lynchburg",
+   "website": ""
+  },
+  {
+   "name": "Lone Star Market & Cafe",
+   "cuisines": [],
+   "address": "904 Main Street",
+   "website": ""
+  },
+  {
+   "name": "Trade Winds Subs & Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "William & Henry",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Lynchburg Museum",
+   "kind": "museum",
+   "address": "901 Court Street, Lynchburg",
+   "website": "https://www.lynchburgmuseum.org/",
+   "phone": "",
+   "latitude": 37.4136942,
+   "longitude": -79.1443474
+  },
+  {
+   "name": "Maier Museum of Art at Randolph College",
+   "kind": "museum",
+   "address": "1 Quinlan Street, 24503, Lynchburg",
+   "website": "https://maiermuseum.org/",
+   "phone": "",
+   "latitude": 37.4392188,
+   "longitude": -79.1699213
+  },
+  {
+   "name": "Anne Spencer House",
+   "kind": "museum",
+   "address": "1313 Pierce Street, 24501",
+   "website": "https://www.annespencermuseum.org",
+   "phone": "",
+   "latitude": 37.403707,
+   "longitude": -79.1521905
+  },
+  {
+   "name": "Amazement Square",
+   "kind": "museum",
+   "address": "27 9th Street, 24504, Lynchburg",
+   "website": "https://www.amazementsquare.org/",
+   "phone": "+1 434 845 1888",
+   "latitude": 37.4161763,
+   "longitude": -79.1404532
+  },
+  {
+   "name": "Jerry Falwell Museum",
+   "kind": "museum",
+   "address": "307 Liberty University Drive, 24515, Lynchburg",
+   "website": "https://www.liberty.edu/library/jerry-falwell-museum/",
+   "phone": "",
+   "latitude": 37.3534723,
+   "longitude": -79.177442
+  },
+  {
+   "name": "Legacy Museum of African American History",
+   "kind": "museum",
+   "address": "403 Monroe Street, 24504, Lynchburg",
+   "website": "https://legacymuseum.org",
+   "phone": "+1 434-845-3455",
+   "latitude": 37.4141653,
+   "longitude": -79.154308
+  },
+  {
+   "name": "Hill City AquaZoo",
+   "kind": "aquarium",
+   "address": "3405 Candlers Mountain Road, 24502, Lynchburg",
+   "website": "https://hillcityaquazoo.com/",
+   "phone": "",
+   "latitude": 37.3650237,
+   "longitude": -79.1784886
+  },
+  {
+   "name": "Point of Honor",
+   "kind": "attraction",
+   "address": "109 Norwood Street, 24504, Lynchburg",
+   "website": "https://pointofhonor.org",
+   "phone": "",
+   "latitude": 37.4201974,
+   "longitude": -79.1435908
+  },
+  {
+   "name": "Putt-Putt Fun Center",
+   "kind": "theme park",
+   "address": "8105 Timberlake Road, 24502, Lynchburg",
+   "website": "https://puttputt.com/lynchburg-va/",
+   "phone": "",
+   "latitude": 37.3503264,
+   "longitude": -79.232106
+  },
+  {
+   "name": "Up Front Gallery",
+   "kind": "gallery",
+   "address": "600 Main Street, Lynchburg",
+   "website": "https://academycenter.org/events/category/exhibits/?_event_venues=39827",
+   "phone": "",
+   "latitude": 37.4172976,
+   "longitude": -79.1442852
+  },
+  {
+   "name": "Ann White Academy Gallery",
+   "kind": "gallery",
+   "address": "600 Main Street, Lynchburg",
+   "website": "https://academycenter.org/events/category/exhibits/?_event_venues=39563",
+   "phone": "",
+   "latitude": 37.4173279,
+   "longitude": -79.1442312
+  },
+  {
+   "name": "Pierce Street Gateway",
+   "kind": "museum",
+   "address": "1301 Pierce Street, 24501",
+   "website": "http://psglyh.org",
+   "phone": "",
+   "latitude": 37.4042462,
+   "longitude": -79.1522082
+  },
+  {
+   "name": "The Chaplains Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://chaplainsmuseum.org/",
+   "phone": "",
+   "latitude": 37.3504324,
+   "longitude": -79.1817787
+  },
+  {
+   "name": "Awareness Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.awarenessgarden.org/",
+   "phone": "",
+   "latitude": 37.4187153,
+   "longitude": -79.1872718
+  },
+  {
+   "name": "BWXT Youth Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://academycenter.org/events/category/exhibits/?_event_venues=39825",
+   "phone": "",
+   "latitude": 37.4178443,
+   "longitude": -79.1437833
+  },
+  {
+   "name": "Pest House Medical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.gravegarden.org/the-pest-house/",
+   "phone": "",
+   "latitude": 37.4156986,
+   "longitude": -79.1579471
+  },
+  {
+   "name": "Art Spot",
+   "kind": "gallery",
+   "address": "1202 Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4123404,
+   "longitude": -79.1399142
+  },
+  {
+   "name": "Dr. Martin Luther King, Jr. Center for Human Rights",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4039862,
+   "longitude": -79.1674119
+  },
+  {
+   "name": "Riverside Park Historic Train Exhibit",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4393937,
+   "longitude": -79.1647313
+  },
+  {
+   "name": "Studio 3 Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4121115,
+   "longitude": -79.1394472
+  },
+  {
+   "name": "The Midtown Outdoor Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3998094,
+   "longitude": -79.1620058
+  },
+  {
+   "name": "Horse Drawn Road Grader",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4099166,
+   "longitude": -79.1598107
+  },
+  {
+   "name": "Art Alley",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4138539,
+   "longitude": -79.139658
+  },
+  {
+   "name": "Horse Hearse and Caretaker's Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4154243,
+   "longitude": -79.1584534
+  },
+  {
+   "name": "James River Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4120277,
+   "longitude": -79.1353948
+  },
+  {
+   "name": "Model 1474 Gallion Roller",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4099688,
+   "longitude": -79.1597752
+  },
+  {
+   "name": "Packet Boat Marshall",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4393486,
+   "longitude": -79.1628908
+  },
+  {
+   "name": "Station House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.4143213,
+   "longitude": -79.1581622
+  },
+  {
+   "name": "VUL Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3948076,
+   "longitude": -79.1517569
+  }
+ ]
+}

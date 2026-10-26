@@ -81,13 +81,14 @@ def test_falls_back_when_live_search_fails(serpapi):
     assert result["estimated_flight"]["price"] is None
 
 
-def test_past_dates_and_missing_key_use_snapshot(serpapi, monkeypatch):
+def test_past_dates_and_missing_key_give_an_estimate(serpapi, monkeypatch):
     sent, _ = serpapi
     monkeypatch.setattr("tools.transport.is_live_date", lambda day: False)
-    result = find_transport("Washington", "Myrtle Beach", "2022-03-13")
-    assert result["flights_source"].startswith("snapshot") and "in the past" in result["note"]
+    result = find_transport("Washington", "Myrtle Beach", "2026-03-13")
+    assert result["flights_source"] == "estimate" and "in the past" in result["note"]
+    assert result["estimated_flight"]["price"] is None
     monkeypatch.setattr(config, "SERPAPI_API_KEY", "")
-    assert "no SerpApi key" in find_transport("Washington", "Myrtle Beach", "2022-03-13")["note"]
+    assert "no SerpApi key" in find_transport("Washington", "Myrtle Beach", "2026-11-13")["note"]
     assert sent == []
 
 

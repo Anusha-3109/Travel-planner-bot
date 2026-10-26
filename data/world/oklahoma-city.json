@@ -1,0 +1,2098 @@
+{
+ "city": "Oklahoma City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.4717,
+ "longitude": -97.5074,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Colcord Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15 North Robinson Avenue, Oklahoma City",
+   "url": "https://colcordhotel.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3022 Northwest Expressway, 73112, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcnthx-hampton-oklahoma-city-northwest/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3233 Northwest Expressway, 73112, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcones-embassy-suites-oklahoma-city-northwest/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2821 Northwest 39th Street, 73112, Oklahoma City",
+   "url": "https://www.wyndhamhotels.com/super-8/oklahoma-city-oklahoma/super-8-oklahoma-fairgrounds/overview"
+  },
+  {
+   "name": "Sheraton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 North Broadway Avenue, 73102, Oklahoma City",
+   "url": "https://www.marriott.com/en-us/hotels/okcsi-sheraton-oklahoma-city-downtown-hotel/overview/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2801 Northwest 39th Street, 73112, Oklahoma City",
+   "url": "https://www.wyndhamhotels.com/days-inn/oklahoma-city-oklahoma/days-inn-oklahoma-city-fairground/overview"
+  },
+  {
+   "name": "Omni Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Oklahoma City Boulevard, 73109, Oklahoma City",
+   "url": "https://www.omnihotels.com/hotels/oklahoma-city"
+  },
+  {
+   "name": "Comfort Inn at Founders Tower",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5704 Mosteller Drive, 73112, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/oklahoma-city/comfort-inn-hotels/ok102"
+  },
+  {
+   "name": "Courtyard Oklahoma City Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 Northwest Expressway, 73118, Oklahoma City",
+   "url": "https://www.marriott.com/okcnw"
+  },
+  {
+   "name": "Renaissance",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6300 Waterford Boulevard, 73118, Oklahoma City",
+   "url": "https://www.marriott.com/en-us/hotels/okcbw-renaissance-waterford-oklahoma-city-hotel/overview/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1111 East Interstate 240 Service Road, 73149, Oklahoma City",
+   "url": "https://www.marriott.com/hotels/travel/okcri-residence-inn-oklahoma-city-south/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 West Reno Avenue, 73102, Oklahoma City",
+   "url": "https://www.marriott.com/okcdt"
+  },
+  {
+   "name": "Residence Inn Oklahoma City Downtown/Bricktown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 East Reno Avenue, 73104, Oklahoma City",
+   "url": "https://www.marriott.com/okcbt"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 South Sooner Road, 73110, Midwest City",
+   "url": "https://www.hiexpress.com/hotels/gb/en/midwest-city/okcmw/hoteldetail"
+  },
+  {
+   "name": "The Winslow",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1511 Northwest Expressway, 73118, Oklahoma City",
+   "url": "https://winslowhotels.com/winslow-oklahoma/"
+  },
+  {
+   "name": "Wyndham Grand Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 North Broadway Avenue, 73102, Oklahoma City",
+   "url": "https://www.wyndhamhotels.com/wyndham-grand/oklahoma-city-oklahoma/wyndham-grand-oklahoma-city-downtown/overview"
+  },
+  {
+   "name": "Motel 6 Oklahoma City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2727 Northwest 39th Street, 73112, Oklahoma City",
+   "url": "https://www.motel6.com/en/home/motels.ok.oklahoma-city.4627.html"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4410 Southwest 19th Street, 73108, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcardt-doubletree-oklahoma-city-airport/"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 South Meridian Avenue, 73108, Oklahoma City",
+   "url": "https://www.wyndhamhotels.com/ramada/oklahoma-city-oklahoma/ramada-oklahoma-city-airport-north/overview"
+  },
+  {
+   "name": "Hawthorn Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5701 Tinker Diagonal, 73110, Midwest City",
+   "url": "https://www.hawthornsuitesmidwestok.com/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1833 Warren Drive, 73110, Midwest City",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/oklahoma/hampton-inn-oklahoma-city-i-40-e-tinker-air-force-base-OKCMWHX/index.html"
+  },
+  {
+   "name": "SpringHill Suites Oklahoma City Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "510 South MacArthur Boulevard, 73128, Oklahoma City",
+   "url": "https://www.marriott.com/okcaw"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3141 Northwest Expressway, 73112, Oklahoma City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-oklahoma-city-northwest-ok"
+  },
+  {
+   "name": "Hampton Inn & Suites Oklahoma City-South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "920 Southwest 77th Street, 73139, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcsohx-hampton-suites-oklahoma-city-south/"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4501 Southwest 15th Street, 73108, Oklahoma City",
+   "url": "https://www.marriott.com/en-us/hotels/okcap-fairfield-inn-and-suites-oklahoma-city-airport/overview/"
+  },
+  {
+   "name": "Residence Inn Oklahoma City Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3151 Northwest Expressway, 73112, Oklahoma City",
+   "url": "https://www.marriott.com/okcrw"
+  },
+  {
+   "name": "Hilton Garden Inn Oklahoma City Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2809 Northwest Expressway, 73112, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcmdgi-hilton-garden-inn-oklahoma-city-midtown/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Oklahoma City Downtown - Bricktown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 East Main Street, 73104, Oklahoma City",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/oklahoma-city/okcbk/hoteldetail"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5653 Tinker Diagonal, 73110, Midwest City",
+   "url": "https://www.wyndhamhotels.com/laquinta/midwest-city-oklahoma/la-quinta-midwest-city-tinker-afb/overview"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5400 Main Street, 73115, Del City",
+   "url": "https://www.marriott.com/okcdc"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "73109, Oklahoma City",
+   "url": "https://www.marriott.com/okcdf"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4311 Southwest 15th Street, 73108, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcaiht-home2-suites-oklahoma-city-airport/"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4240 West I-40 Service Road, 73108, Oklahoma City",
+   "url": "https://www.wyndhamhotels.com/baymont/oklahoma-city-oklahoma/baymont-inn-and-suites-oklahoma-city-airport/overview"
+  },
+  {
+   "name": "Home2 Suites by Hilton Oklahoma City South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1001 Straka Terrace, 73139, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcstht-home2-suites-oklahoma-city-south/"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "20 North Russel M. Perry Avenue, 73104, Oklahoma City",
+   "url": "https://www.hyatt.com/en-us/hotel/oklahoma/hyatt-place-oklahoma-city-bricktown/okczd"
+  },
+  {
+   "name": "Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4716 West I-40 Service Road, 73128, Oklahoma City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-oklahoma-city-airport"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4601 Southwest 15th Street, 73108, Oklahoma City",
+   "url": "https://www.marriott.com/okcts"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4800 South I-35 Service Road, 73129, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/yukon/comfort-suites-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn Oklahoma City – Bricktown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "328 East Sheridan Avenue, 73104, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcsagi-hilton-garden-inn-oklahoma-city-bricktown/"
+  },
+  {
+   "name": "Sleep Inn & Suites Oklahoma City Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5200 North Classen Circle, 73118, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/yukon/comfort-suites-hotels"
+  },
+  {
+   "name": "Sonesta Simply Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4400 West River Park Drive, 73108-1732",
+   "url": "https://www.sonesta.com/sonesta-simply-suites/ok/oklahoma-city/sonesta-simply-suites-oklahoma-city-airport"
+  },
+  {
+   "name": "Super 8 by Wyndham Midwest City OK",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6166 Tinker Diagonal, 73110, Midwest City",
+   "url": "https://www.wyndhamhotels.com/super-8/midwest-city-oklahoma/super-8-midwest-city-ok/overview"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6701 Tinker Diagonal, 73110, Midwest City",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-midwest-city/best-western-plus-midwest-city-inn-suites/propertyCode.37111.html"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 South Meridian Avenue, 73108, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/yukon/comfort-suites-hotels"
+  },
+  {
+   "name": "Best Western Plus Barsana Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7701 C A Henderson Boulevard, 73139, Oklahoma City",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-oklahoma-city/best-western-plus-barsana-hotel-suites/propertyCode.37112.html"
+  },
+  {
+   "name": "Comfort Inn Oklahoma City South - I-240",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7601 C A Henderson Boulevard, 73139, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/yukon/comfort-suites-hotels"
+  },
+  {
+   "name": "Embassy Suites by Hilton Oklahoma City Downtown Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "741 North Phillips Avenue, 73104, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcokes-embassy-suites-oklahoma-city-downtown-medical-center/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 South Meridian Avenue, 73108, Oklahoma City",
+   "url": "https://www.hilton.com/en/hotels/okcahgi-hilton-garden-inn-oklahoma-city-airport/"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "929 East Reno Avenue, Oklahoma City",
+   "url": "https://www.choicehotels.com/oklahoma/oklahoma-city/sleep-inn-hotels/ok322"
+  },
+  {
+   "name": "Fordson Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 West Main Street, 73106, Oklahoma City",
+   "url": "https://www.hyatt.com/en-us/hotel/oklahoma/fordson-hotel/okcub"
+  },
+  {
+   "name": "The Skirvin Hilton Oklahoma City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Park Avenue, Oklahoma City",
+   "url": "https://www.skirvinhilton.com/"
+  },
+  {
+   "name": "OYO",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4601 Southwest 3rd Street, 73128, Oklahoma City",
+   "url": "https://www.oyorooms.com/us/219465/"
+  },
+  {
+   "name": "Americas Best Value Inn Oklahoma City/I-35 South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3030 South Prospect Avenue, 73129",
+   "url": "http://www.americasbestvalueinn.com"
+  },
+  {
+   "name": "Governor's Suites Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2308 South Meridian Avenue, 73108, Oklahoma City",
+   "url": "https://www.govsuitesokc.com/"
+  },
+  {
+   "name": "Oklahoma City Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.marriott.com/hotels/travel/okcok-oklahoma-city-marriott/"
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1905 South Meridian Avenue, 73108, Oklahoma City",
+   "url": ""
+  },
+  {
+   "name": "Wingate",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 East Interstate 240 Service Road, 73149, Oklahoma City",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5501 Tinker Diagonal, 73115, Del City",
+   "url": ""
+  },
+  {
+   "name": "Four Points by Sheraton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4708 West I-40 Service Road, 73128, Oklahoma City",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2101 South Meridian Avenue, 73108, Oklahoma City",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Plant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1120 North Walker Avenue, 73103, Oklahoma City",
+   "website": "https://www.eatatplant.com/"
+  },
+  {
+   "name": "Paseo Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2909 North Paseo Street, 73103, Oklahoma City",
+   "website": "https://paseogrill.com"
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1 South Mickey Mantle Drive, 73104, Oklahoma City",
+   "website": "https://www.osf.com/location/oklahoma-city/"
+  },
+  {
+   "name": "Let's Do Greek!",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "120 North Robinson Avenue, 73102",
+   "website": "https://letsdogreek.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "105 South Martin Luther King Avenue, 73117, Oklahoma City",
+   "website": "https://locations.wafflehouse.com/oklahomacity-ok-292/"
+  },
+  {
+   "name": "Naija Wife Kitchen",
+   "cuisines": [
+    "African"
+   ],
+   "address": "119 North Robinson Avenue, 73102, Oklahoma City",
+   "website": "https://naijawifekitchenfusion.com/"
+  },
+  {
+   "name": "The Goose",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1210 North Hudson Avenue, 73103, Oklahoma City",
+   "website": "https://goosedeli.com"
+  },
+  {
+   "name": "Mo Bettah's",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "300 Northwest 23rd Street, 73103, Oklahoma City",
+   "website": "https://locations.mobettahs.com/ok/oklahoma-city/uptown-okc/"
+  },
+  {
+   "name": "Chick N Beer",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "715 Northwest 23rd Street, 73103, Oklahoma City",
+   "website": "https://www.chicknbeerokc.com/home"
+  },
+  {
+   "name": "Taj Cuisine of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1500 Northwest 23rd Street, 73106, Oklahoma City",
+   "website": "https://www.tajokc.com/"
+  },
+  {
+   "name": "Sweets and Eats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "110 North Robinson Avenue, 73102, Oklahoma City",
+   "website": "https://sweetsandeats.org/"
+  },
+  {
+   "name": "VII Asian Bistro",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2900 North Classen Boulevard, 73106, Oklahoma City",
+   "website": "https://www.viiasianbistro.com/"
+  },
+  {
+   "name": "Sushi Moto Asian Kitchen",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "432 Northwest 10th Street, 73103",
+   "website": "https://eatsushimoto.com/"
+  },
+  {
+   "name": "Plus254 - A Taste Of Africa",
+   "cuisines": [
+    "African"
+   ],
+   "address": "119 North Robinson Avenue, 73102, Oklahoma City",
+   "website": "https://254.froogledev.com"
+  },
+  {
+   "name": "Cafe de L'Asie",
+   "cuisines": [
+    "Asian",
+    "Vietnamese"
+   ],
+   "address": "100 West Main Street, 73102, Oklahoma City",
+   "website": "https://cafedelasie.com"
+  },
+  {
+   "name": "Charleston’s",
+   "cuisines": [
+    "American"
+   ],
+   "address": "224 Johnny Bench Drive, 73104, Oklahoma City",
+   "website": "https://charlestons.com/locations/charlestons-bricktown/"
+  },
+  {
+   "name": "The Wedge Pizzaria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "230 Northeast 1st Street, 73104, Oklahoma City",
+   "website": "https://thewedgepizzeria.com"
+  },
+  {
+   "name": "Leos Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3631 North Kelley Avenue, 73111, Oklahoma City",
+   "website": "https://www.facebook.com/LeosBarbecue/"
+  },
+  {
+   "name": "Flint",
+   "cuisines": [
+    "American"
+   ],
+   "address": "15 Ron Norick Boulevard",
+   "website": "https://flintokc.com/"
+  },
+  {
+   "name": "Gorõ Ramen",
+   "cuisines": [
+    "Japanese",
+    "Ramen"
+   ],
+   "address": "1634 North Blackwelder Avenue, 73106, Oklahoma City",
+   "website": "https://www.gororamen.com/"
+  },
+  {
+   "name": "La Brasa",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "1310 Northwest 25th Street, 73106, Oklahoma City",
+   "website": "https://labrasaokc.com/"
+  },
+  {
+   "name": "Burger Punk",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3012 North Walker Avenue, 73103, Oklahoma City",
+   "website": "https://www.burgerpunkokc.com/"
+  },
+  {
+   "name": "The Loaded Bowl",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "1211 Southwest 2nd Street, 73108",
+   "website": "https://www.theloadedbowlokc.com/"
+  },
+  {
+   "name": "Kaisers Grateful Bean",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1039 North Walker Avenue, 73102, Oklahoma City",
+   "website": "https://kaisersgratefulbean.com/"
+  },
+  {
+   "name": "Pizzeria Gusto",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2415 North Walker Avenue, 73103, Oklahoma City",
+   "website": "http://pizzeria-gusto.com"
+  },
+  {
+   "name": "Duckie's Woodfire",
+   "cuisines": [
+    "Bagel",
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "310 North Klein Avenue, 73106, Oklahoma City",
+   "website": "https://duckiesok.com"
+  },
+  {
+   "name": "Kao Mun Gai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3709 North Western Avenue, 73118, Oklahoma City",
+   "website": "https://www.kaomungaiokc.com"
+  },
+  {
+   "name": "Aurora Breakfast, Bar & Backyard",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1704 Northwest 16th Street, 73106, Oklahoma City",
+   "website": "https://shinewithaurora.com/"
+  },
+  {
+   "name": "The Press",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1610 North Gatewood Avenue, 73106, Oklahoma City",
+   "website": "https://www.thepressokc.com/"
+  },
+  {
+   "name": "Barrios Fine Mexican Dishes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1000 North Hudson Avenue, 73102, Oklahoma City",
+   "website": "https://www.barriosmexicanokc.com/"
+  },
+  {
+   "name": "Hatch Early Mood Food",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1101 North Broadway Avenue, 73103, Oklahoma City",
+   "website": "http://www.hatchokc.com/"
+  },
+  {
+   "name": "Tellers OKC",
+   "cuisines": [
+    "Italian",
+    "Grill"
+   ],
+   "address": "120 North Robinson Avenue, 73102, Oklahoma City",
+   "website": "https://www.tellersokc.com/location/tellers/"
+  },
+  {
+   "name": "Tower Grille",
+   "cuisines": [
+    "Lebanese",
+    "Breakfast",
+    "Mediterranean",
+    "Burger"
+   ],
+   "address": "210 Park Avenue, 73102, Oklahoma City",
+   "website": "https://towergrilleokc.com/"
+  },
+  {
+   "name": "Happy House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "502 North Hudson Avenue, 73102",
+   "website": "https://www.happyhouseok.com/"
+  },
+  {
+   "name": "Smitty’s Garage Burgers and Beer",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1117 North Robinson Avenue, 73103",
+   "website": "https://eatatthegarage.com/"
+  },
+  {
+   "name": "Cajun Corner",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "312 Northwest 23rd Street, 73103, Oklahoma City",
+   "website": "https://www.cajuncornerokc.com/uptown-23rd-st"
+  },
+  {
+   "name": "Red Prime Steak",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "504 North Broadway Avenue",
+   "website": "https://redprimesteak.com/"
+  },
+  {
+   "name": "Szechuan Story",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2800 North Classen Boulevard, 73106, Oklahoma City",
+   "website": "https://www.szechuanstoryonline.com/"
+  },
+  {
+   "name": "Red Rooster Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3100 North Walker Avenue, 73118, Oklahoma City",
+   "website": "https://www.okcredrooster.com/"
+  },
+  {
+   "name": "Ted's Tacos and Cantina",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "600 Northwest 23rd Street, 73103, Oklahoma City",
+   "website": "https://tedstacocantina.com"
+  },
+  {
+   "name": "Nic's Grill",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1201 North Pennsylvania Avenue, 73107",
+   "website": "https://nics-grill.weeblyte.com/"
+  },
+  {
+   "name": "Lido Asian Cuisine",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2518 North Military Avenue",
+   "website": "http://lidorestaurantokc.com/"
+  },
+  {
+   "name": "Hacienda Tacos",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "",
+   "website": "https://haciendatacos.com/"
+  },
+  {
+   "name": "Bún Box",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": "https://bunboxok.com/"
+  },
+  {
+   "name": "Nashbird",
+   "cuisines": [
+    "Chicken",
+    "Nashville Hot Chicken"
+   ],
+   "address": "",
+   "website": "https://www.nashbirdchicken.com/"
+  },
+  {
+   "name": "Neighborhood JAM",
+   "cuisines": [
+    "American"
+   ],
+   "address": "525 Northwest 11th Street",
+   "website": ""
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "4 East Sheridan Avenue, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3030 South Prospect Avenue, 73129, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Chely's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "119 North Robinson Avenue, 73102, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Snow Pea Chinese",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "119 North Robinson Avenue, 73102, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Abuelos Food Concepts of Oklahoma City",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "17 East Sheridan Avenue, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Earls",
+   "cuisines": [
+    "American"
+   ],
+   "address": "Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "The Mayan Taqueria & Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3020 North Walker Avenue, 73103, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "China Queen Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2900 South Prospect Avenue, 73129, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Hideaway Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Joinery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "121 East Sheridan Avenue, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Chelio's Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1621 South Prospect Avenue, 73129, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Urban Johnnie Bar and Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "121 Northeast 2nd Street, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Kitchen 324",
+   "cuisines": [
+    "American"
+   ],
+   "address": "324 North Robinson Avenue, 73102, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "George's Happy Hog Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "712 Culbertson Drive, 73105, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Joses Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "517 West Reno Avenue, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Sun Cattle Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "800 West Sheridan Avenue, 73106, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "nebu",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "333 West Sheridan Avenue",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shaka",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Fried Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stella Nova",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hy Palace Asian Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Neptune Submarine Sandwiches",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tamashii Ramen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lang Bakery",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chelinos Mexican Restaurant Bricktown",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Italian Express",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Park Harvey Sushi & Sports Lounge",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bob’s Steak & Chop House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "PhillMeUp",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Okie Poke",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Press Waffle Co",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zios Italian Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tien Grand House Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iron Star Urban Barbeque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spaghetti Warehouse",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phở Liên Hòa",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tahn's Tofu",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stock and Bond Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mahogany Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mexican Restaurant Underground",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Jones Assembly",
+   "cuisines": [],
+   "address": "901 West Sheridan Avenue, 73106, Oklahoma City",
+   "website": "https://www.thejonesassembly.com/"
+  },
+  {
+   "name": "Mushwings",
+   "cuisines": [],
+   "address": "1407 Northeast 10th Street",
+   "website": "https://mushwingsokc.wixsite.com/mushwings"
+  },
+  {
+   "name": "Nic's Place",
+   "cuisines": [],
+   "address": "1116 North Robinson Avenue, Oklahoma City",
+   "website": "https://nicsokc.com"
+  },
+  {
+   "name": "Brickopolis Bar & Grill",
+   "cuisines": [],
+   "address": "101 South Mickey Mantle Drive, 73104, Oklahoma City",
+   "website": "https://www.brickopolisu.com/venue/"
+  },
+  {
+   "name": "Seoul Pocha",
+   "cuisines": [],
+   "address": "1520 Northwest 23rd Street, 73106",
+   "website": "https://seoulpocha.com/"
+  },
+  {
+   "name": "Bee Healthy Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.coolgreens.com/"
+  },
+  {
+   "name": "Levitate Grill",
+   "cuisines": [],
+   "address": "209 North Walnut Avenue",
+   "website": "https://levitategrill.com/"
+  },
+  {
+   "name": "Riviere Modern Banh Mi",
+   "cuisines": [],
+   "address": "905 North Hudson Avenue, 73102",
+   "website": "https://www.riviereokc.com/"
+  },
+  {
+   "name": "Guyutes",
+   "cuisines": [],
+   "address": "730 Northwest 23rd Street, 73103",
+   "website": "https://www.guyutes.com/"
+  },
+  {
+   "name": "Parlor",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.parlorokc.com"
+  },
+  {
+   "name": "1492 New World Latin Cuisine",
+   "cuisines": [],
+   "address": "1207 North Walker Avenue, 73103, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Bourbon Street Cafe",
+   "cuisines": [],
+   "address": "Oklahoma Avenue, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "The Clove",
+   "cuisines": [],
+   "address": "200 South Oklahoma Avenue, 73104, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Mama Lou's",
+   "cuisines": [],
+   "address": "1427 Southeast 30th Street, 73129, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Blazing Jay",
+   "cuisines": [],
+   "address": "3845 North Lincoln Boulevard, 73105, Oklahoma City",
+   "website": ""
+  },
+  {
+   "name": "Sauced",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Blue Note",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stag Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DS Pub JJS Alley",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toby Keith's I Love this Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Earth to Urban Elements",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Miriwa Chinese Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Basil Mediterranean",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Empire Slice Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frida Southwest",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kamp Brothers Grocery and Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Kacao",
+   "cuisines": [],
+   "address": "North Classen Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Meg and Guess Couture",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rio Bravo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Chick",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Culberson Center",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Gilded Acorn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cattlemen's Steakhouse",
+   "cuisines": [],
+   "address": "1309 South Agnew Avenue",
+   "website": ""
+  },
+  {
+   "name": "Seltzer’s Modern Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Edie’s Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Kitchen Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jonnies Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Hungry Frog",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tom and Jerry Diegos Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phở Cường",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phở Thái Nguyên",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jeffs Café Country",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "David L Murphy Geologist",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Coney Island",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iguana Mexican Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Captain Norms Dockside Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Purple Martini",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deep Deuce Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toby Keith Restaurant I Love This Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cheevers Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hobby's Hoagies",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Biting Sow",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hunan Garden Chinese Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yucatan Taco Stand Tequila Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clara Belle's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Oklahoma City Museum of Art",
+   "kind": "museum",
+   "address": "415 Couch Drive, 73102, Oklahoma City",
+   "website": "https://www.okcmoa.com/",
+   "phone": "+1 405-236-3100",
+   "latitude": 35.4696863,
+   "longitude": -97.5203978
+  },
+  {
+   "name": "Oklahoma History Center",
+   "kind": "museum",
+   "address": "800 Nazih Zuhdi Drive, 73105, Oklahoma City",
+   "website": "https://www.okhistory.org/historycenter/",
+   "phone": "+1-405-522-0765",
+   "latitude": 35.4940968,
+   "longitude": -97.4998464
+  },
+  {
+   "name": "First Americans Museum",
+   "kind": "museum",
+   "address": "659 First Americans Boulevard, 73129, Oklahoma City",
+   "website": "https://famok.org/",
+   "phone": "+1-405-594-2100",
+   "latitude": 35.4572296,
+   "longitude": -97.4812106
+  },
+  {
+   "name": "Oklahoma City Zoo",
+   "kind": "zoo",
+   "address": "2101 Northeast 50th Street, 73111, Oklahoma City",
+   "website": "https://www.okczoo.org/",
+   "phone": "+1-405-424-3344",
+   "latitude": 35.5207981,
+   "longitude": -97.4721524
+  },
+  {
+   "name": "Six Flags Hurricane Harbor",
+   "kind": "theme park",
+   "address": "3908 West Reno Avenue, 73107, Oklahoma City",
+   "website": "https://www.sixflags.com/hurricaneharborokc/",
+   "phone": "",
+   "latitude": 35.4613269,
+   "longitude": -97.5884928
+  },
+  {
+   "name": "Paycom Center",
+   "kind": "attraction",
+   "address": "100 West Reno Avenue, 73102, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4633944,
+   "longitude": -97.5151217
+  },
+  {
+   "name": "Oklahoma State Capitol",
+   "kind": "attraction",
+   "address": "2300 North Lincoln Boulevard, 73105, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4922059,
+   "longitude": -97.5033333
+  },
+  {
+   "name": "Oklahoma State Fair Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4715035,
+   "longitude": -97.5723746
+  },
+  {
+   "name": "Oklahoma State Firefighters Museum",
+   "kind": "museum",
+   "address": "2716 Northeast 50th Street, 73111, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.5217507,
+   "longitude": -97.4638473
+  },
+  {
+   "name": "Centennial Land Run Monument",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4611303,
+   "longitude": -97.5051862
+  },
+  {
+   "name": "American Banjo Museum",
+   "kind": "museum",
+   "address": "9 East Sheridan Avenue, 73104, Oklahoma City",
+   "website": "https://americanbanjomuseum.com/",
+   "phone": "+1 405 604 2793",
+   "latitude": 35.4667665,
+   "longitude": -97.511543
+  },
+  {
+   "name": "Science Museum Oklahoma",
+   "kind": "museum",
+   "address": "2020 Remington Place, 73111, Oklahoma City",
+   "website": "https://www.sciencemuseumok.org",
+   "phone": "+1-405-602-6664",
+   "latitude": 35.523203,
+   "longitude": -97.4751795
+  },
+  {
+   "name": "Oklahoma Railway Museum",
+   "kind": "museum",
+   "address": "3400 Northeast Grand Boulevard, 73111, Oklahoma City",
+   "website": "https://oklahomarailwaymuseum.org",
+   "phone": "+1-405-424-8222",
+   "latitude": 35.5052111,
+   "longitude": -97.4667892
+  },
+  {
+   "name": "Red Earth",
+   "kind": "museum",
+   "address": "100 North Broadway Avenue, 73102, Oklahoma City",
+   "website": "https://www.visitokc.com/listing/red-earth-art-center/793/",
+   "phone": "",
+   "latitude": 35.4684781,
+   "longitude": -97.5133718
+  },
+  {
+   "name": "Mycelium Gallery",
+   "kind": "gallery",
+   "address": "2816 North Pennsylvania Avenue, 73109",
+   "website": "https://www.myceliumgallery.com/",
+   "phone": "+1 572-278-1031",
+   "latitude": 35.498025,
+   "longitude": -97.5474428
+  },
+  {
+   "name": "Devon Energy Oil and Gas Park",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.okhistory.org/historycenter/oilfield",
+   "phone": "",
+   "latitude": 35.494729,
+   "longitude": -97.4972896
+  },
+  {
+   "name": "1515 Lincoln Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://1515lg.com",
+   "phone": "+1-405-593-1063",
+   "latitude": 35.4843083,
+   "longitude": -97.5037729
+  },
+  {
+   "name": "Oklahoma Museum of Telephone History",
+   "kind": "museum",
+   "address": "111 Dean A McGee Avenue, 73102, Oklahoma City",
+   "website": "",
+   "phone": "+1 405-236-6153",
+   "latitude": 35.4710432,
+   "longitude": -97.5152344
+  },
+  {
+   "name": "45th Infantry Division Museum",
+   "kind": "museum",
+   "address": "2145 Northeast 36th Street, 73111, Oklahoma City",
+   "website": "",
+   "phone": "+1-405-424-5313",
+   "latitude": 35.5079232,
+   "longitude": -97.4737637
+  },
+  {
+   "name": "ARTSPACE at Untitled",
+   "kind": "gallery",
+   "address": "1 Northwest 3rd Street, 73104, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4710624,
+   "longitude": -97.5120263
+  },
+  {
+   "name": "Exhibit C Gallery",
+   "kind": "gallery",
+   "address": "1 East Sheridan Avenue, 73104, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4668093,
+   "longitude": -97.5118289
+  },
+  {
+   "name": "Celebration Station",
+   "kind": "theme park",
+   "address": "509 Westline Drive, 73108, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4587158,
+   "longitude": -97.5986764
+  },
+  {
+   "name": "The American Pigeon Museum & Library",
+   "kind": "museum",
+   "address": "2300 Northeast 63rd Street, 73111, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.53632,
+   "longitude": -97.4713493
+  },
+  {
+   "name": "By His Hands Mini Farm",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "+1 405-201-1962",
+   "latitude": 35.4816002,
+   "longitude": -97.4455769
+  },
+  {
+   "name": "World of Wings Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.535732,
+   "longitude": -97.470124
+  },
+  {
+   "name": "Architectural DNA",
+   "kind": "attraction",
+   "address": "Northwest 10th Street, 73103, Oklahoma City",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4783751,
+   "longitude": -97.5148078
+  },
+  {
+   "name": "William Fremont Harn Gardens Homestead",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4866394,
+   "longitude": -97.5073091
+  },
+  {
+   "name": "The World Organization of China Painters",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4789428,
+   "longitude": -97.5607928
+  },
+  {
+   "name": "Lifehouse Books and Coffee Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4815169,
+   "longitude": -97.5124985
+  },
+  {
+   "name": "Oklahoma National Stockyards Company",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4533051,
+   "longitude": -97.5583085
+  },
+  {
+   "name": "City Arts Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4736616,
+   "longitude": -97.5696053
+  },
+  {
+   "name": "Overholser Mansion (Oklahoma Historical Society)",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4851601,
+   "longitude": -97.5195131
+  },
+  {
+   "name": "Oklahoma State Capitol Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4945888,
+   "longitude": -97.502798
+  },
+  {
+   "name": "Coca Cola Brick Town Event Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4656674,
+   "longitude": -97.5049446
+  },
+  {
+   "name": "Wheeler Ferris Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4526333,
+   "longitude": -97.5316561
+  },
+  {
+   "name": "Oklahoma River Cruises",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4583935,
+   "longitude": -97.5040267
+  },
+  {
+   "name": "Devon Energy Center Rotunda",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4670661,
+   "longitude": -97.5179987
+  },
+  {
+   "name": "Walcourt",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4827964,
+   "longitude": -97.5091198
+  },
+  {
+   "name": "Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4938015,
+   "longitude": -97.5954736
+  },
+  {
+   "name": "Betty Price Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.492032,
+   "longitude": -97.5034658
+  },
+  {
+   "name": "Oklahoma Heritage Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.4834963,
+   "longitude": -97.5261517
+  }
+ ]
+}

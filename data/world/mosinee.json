@@ -1,0 +1,96 @@
+{
+ "city": "Mosinee",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.787,
+ "longitude": -89.7109,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Quality Inn Central Wisconsin Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 Orbitting Drive;Orbiting Drive, 54455, Mosinee",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "216 Main Street, 54455",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pinewood Supper Club",
+   "cuisines": [
+    "American"
+   ],
+   "address": "147801 Half Moon Lake Drive, 54455, Mosinee",
+   "website": "http://www.thepinewood.com/"
+  },
+  {
+   "name": "Cyprus Grill",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "801 Western Avenue, 54455, Mosinee",
+   "website": "http://cyprus-grill.business.site/#menu"
+  },
+  {
+   "name": "Two's Co Restaurant & Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "213 Main Street, 54455, Mosinee",
+   "website": "https://www.twoscompanymosinee.com/"
+  },
+  {
+   "name": "Lin's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "117 Main Street, 54455, Mosinee",
+   "website": "http://places.singleplatform.com/lins-garden-33/menu?ref=google"
+  },
+  {
+   "name": "Gorski's",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "450 Orbitting Drive, 54455, Mosinee",
+   "website": ""
+  },
+  {
+   "name": "Mosinee Cafe",
+   "cuisines": [],
+   "address": "313 Main Street, 54455, Mosinee",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Gallery 164",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7840544,
+   "longitude": -89.6725288
+  }
+ ]
+}

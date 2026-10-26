@@ -1,0 +1,3346 @@
+{
+ "city": "Miami",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 25.7783,
+ "longitude": -80.1865,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Fontainebleau",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4441 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.fontainebleau.com/miamibeach/wellness/lapis-spa/"
+  },
+  {
+   "name": "Eden Roc Resort Miami Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4525 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.edenrochotelmiami.com/"
+  },
+  {
+   "name": "Iberostar Waves Berkeley Shore",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1610 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.iberostar.com/eu/hotels/miami/iberostar-waves-berkeley-shore/"
+  },
+  {
+   "name": "Hotel Riu Plaza Miami Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.riu.com/en/hotel/usa/miami-beach/hotel-riu-plaza-miami-beach/"
+  },
+  {
+   "name": "Iberostar Waves",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "334 20th Street, 33139, Miami Beach",
+   "url": "https://www.iberostar.com/eu/hotels/miami/iberostar-waves-miami-beach/"
+  },
+  {
+   "name": "Biltmore Hotel Miami Coral Gables",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 Anastasia Avenue, 33134, Coral Gables",
+   "url": "https://www.biltmorehotel.com/"
+  },
+  {
+   "name": "SLS South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1701 Collins Avenue, 33139, Miami Beach",
+   "url": "https://slshotels.com/south-beach/"
+  },
+  {
+   "name": "The Palms Hotel & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3025 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.thepalmshotel.com/"
+  },
+  {
+   "name": "EAST, Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "788 Brickell Plaza, 33131, Miami",
+   "url": "https://www.easthotels.com/en/miami/"
+  },
+  {
+   "name": "Chesterfield Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "855 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.thechesterfieldhotel.com/"
+  },
+  {
+   "name": "The Goodtime Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Washington Avenue, 33139, Miami Beach",
+   "url": "https://www.marriott.com/en-us/hotels/miasx-the-goodtime-hotel-miami-beach-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+  },
+  {
+   "name": "Beacon Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "720 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.beaconsouthbeach.com/"
+  },
+  {
+   "name": "The Villa Casa Casuarina",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1116 Ocean Drive, 33139, Miami Beach",
+   "url": "https://vmmiamibeach.com/"
+  },
+  {
+   "name": "Hilton Cabana Miami Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6261 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.hilton.com/en/hotels/miambhf-hilton-cabana-miami-beach-resort/"
+  },
+  {
+   "name": "W South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2201 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.marriott.com/en-us/hotels/miaws-w-south-beach/overview/"
+  },
+  {
+   "name": "Hotel Arya, BW Premier Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2889 McFarlane Road, 33133, Miami",
+   "url": "https://www.hotelaryacg.com/"
+  },
+  {
+   "name": "JW Marriott Marquis Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 Biscayne Boulevard Way, 33131, Miami",
+   "url": "https://www.marriott.com/en-us/hotels/miamj-jw-marriott-marquis-miami/overview/"
+  },
+  {
+   "name": "Hotel Shelley",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "844 Collins Avenue, 33139, Miami Beach",
+   "url": "https://hotelshelley.com/"
+  },
+  {
+   "name": "The Balfour Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.thebalfourmiamibeach.com"
+  },
+  {
+   "name": "Waldorf Towers Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "860 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.waldorftowersmiami.com/"
+  },
+  {
+   "name": "Freehand Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2727 Indian Creek Drive, 33140, Miami Beach",
+   "url": "https://freehandhotels.com/miami/"
+  },
+  {
+   "name": "Doubletree by Hilton Grand Hotel Biscayne Bay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1717 North Bayshore Drive, 33132-1180, Miami",
+   "url": "https://www.hilton.com/en/hotels/miabsdt-doubletree-grand-hotel-biscayne-bay/"
+  },
+  {
+   "name": "The Ritz-Carlton, South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Lincoln Road, 33139, Miami Beach",
+   "url": "https://www.ritzcarlton.com/en/hotels/miami/south-beach"
+  },
+  {
+   "name": "National",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1677 Collins Avenue, Miami Beach",
+   "url": "https://nationalhotel.com/"
+  },
+  {
+   "name": "Four Seasons Hotel Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1435 Brickell Avenue, 33131, Miami",
+   "url": "https://www.fourseasons.com/miami/"
+  },
+  {
+   "name": "InterContinental Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Chopin Plaza, 33131, Miami",
+   "url": "https://www.icmiamihotel.com/"
+  },
+  {
+   "name": "The Colony Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "736 Ocean Drive, 33139, Miami Beach",
+   "url": "https://colonymiami.com/"
+  },
+  {
+   "name": "Eurostars Langford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "121 Southeast 1st Street, 33131, Miami",
+   "url": "https://www.eurostarshotels.com/eurostars-langford.html"
+  },
+  {
+   "name": "Hotel Chelsea",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "944 Washington Avenue, 33139, Miami Beach",
+   "url": "https://thehotelchelsea.com/"
+  },
+  {
+   "name": "Marquis Miami",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Biscayne Boulevard, 33132, Miami",
+   "url": "https://marquiscondosmiami.com/"
+  },
+  {
+   "name": "Hyatt Regency Miami",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 South East Second Avenue, 33131, Miami",
+   "url": "https://miami.regency.hyatt.com/"
+  },
+  {
+   "name": "Urbanica The Meridian Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "418 Meridian Avenue, 33139, Miami Beach",
+   "url": "https://www.meridianhotelmiami.com/"
+  },
+  {
+   "name": "1 Hotel South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2341 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.1hotels.com/south-beach"
+  },
+  {
+   "name": "Park Central Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640 Ocean Drive, 33139, Miami Beach",
+   "url": "http://www.theparkcentral.com/"
+  },
+  {
+   "name": "The Marlin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.themarlinhotel.com"
+  },
+  {
+   "name": "Starlite Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "750 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.starlitehotel.com/"
+  },
+  {
+   "name": "Eurostars Winter Haven",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1400 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.eurostarshotels.co.uk/eurostars-winter-haven.html"
+  },
+  {
+   "name": "Kenmore Village Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1050 Washington Avenue, 33139, Miami Beach",
+   "url": "https://www.kenmorevillagehotel.com/"
+  },
+  {
+   "name": "Cadillac Hotel & Beach Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3921 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.marriott.com/en-us/hotels/miakc-cadillac-hotel-and-beach-club-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+  },
+  {
+   "name": "Hilton Miami Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1601 Biscayne Boulevard, 33132, Miami",
+   "url": "https://www.hilton.com/en/hotels/miadthf-hilton-miami-downtown/"
+  },
+  {
+   "name": "El Paseo Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "405 Española Way, 33139, Miami Beach",
+   "url": "https://kasa.com/properties/kasa-el-paseo-miami-beach?propertyType=&petsAllowed=&parking&bedCount=1&bedroomCount=0&bathroomCount=1&amenities=&adultGuestCount=1&childGuestCount=0&infantGuestCount=0&travelingForBusiness=false"
+  },
+  {
+   "name": "Epic Residences & Hotel",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Biscayne Boulevard Way, 33131, Miami",
+   "url": "https://www.epicmiamiresidences.com/"
+  },
+  {
+   "name": "Viajero Hostels Miami",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1120 Collins Avenue, 33139, Miami Beach",
+   "url": "https://www.viajerohostels.com/en/destinations-eeuu/miami-south-beach/"
+  },
+  {
+   "name": "Grand Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4835 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.grandbeachhotel.com/miami-beach"
+  },
+  {
+   "name": "Majestic Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "660 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.majesticsouthbeach.com/"
+  },
+  {
+   "name": "Selina Miami Gold Dust",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7700 Biscayne Boulevard, 33138, Miami",
+   "url": "https://www.selina.com/usa/miami-gold-dust/"
+  },
+  {
+   "name": "Posh South Beach Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 Collins Avenue, 33139, Miami Beach",
+   "url": "http://www.poshsouthbeach.com"
+  },
+  {
+   "name": "Hotel Croydon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3720 Collins Avenue, 33140, Miami Beach",
+   "url": "https://www.hotelcroydonmiamibeach.com/"
+  },
+  {
+   "name": "Avalon Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.avalonhotel.com/default-en.html"
+  },
+  {
+   "name": "Boulevard Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "740 Ocean Drive, 33139, Miami Beach",
+   "url": "http://boulevardhotelsouthbeach.com/"
+  },
+  {
+   "name": "Beach Park Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.beachparkmiami.com/"
+  },
+  {
+   "name": "The Century Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 Ocean Drive, 33139, Miami",
+   "url": "https://www.centurymiamibeach.com/"
+  },
+  {
+   "name": "Congress Hotel South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1036 Ocean Drive, 33139, Miami Beach",
+   "url": "https://www.congresshotelsouthbeach.com/"
+  },
+  {
+   "name": "Edison Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "960 Ocean Drive, 33139, Miami Beach",
+   "url": "http://edisonhotelsouthbeach.com/"
+  },
+  {
+   "name": "Hotel Breakwater South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "940 Ocean Drive, 33139, Miami Beach",
+   "url": "http://breakwaterhotelsouthbeach.com/"
+  },
+  {
+   "name": "Hotel Astor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "956 Washington Avenue, 33139, Miami Beach",
+   "url": "https://www.roami.com/destinations/miami-beach/68bd45d4846c200042b3f4f0?"
+  },
+  {
+   "name": "Lombardy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6300 Collins Avenue, 33141, Miami Beach",
+   "url": "https://hotelscompany.net/business/lombardy-inn-hotel-04zos3"
+  },
+  {
+   "name": "Cavalier Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1320 Ocean Drive, 33139, Miami Beach",
+   "url": "https://cavaliersouthbeach.com/"
+  },
+  {
+   "name": "Nassau Suite Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1414 Collins Avenue, 33139, Miami Beach",
+   "url": "https://nassausuite.com/"
+  },
+  {
+   "name": "Mondrian South Beach Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 West Avenue, 33139, Miami Beach",
+   "url": "http://mondriansouthbeach.com/"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Quinto Miami",
+   "cuisines": [
+    "South American",
+    "Latin American",
+    "Breakfast",
+    "Brunch",
+    "Lunch"
+   ],
+   "address": "788 Brickell Plaza, 33131, Miami",
+   "website": "https://www.quintomiami.us/"
+  },
+  {
+   "name": "Tacos Atarantados Brickell",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "1250 South Miami Avenue, 33130, Miami",
+   "website": "http://tacosatarantados.us/"
+  },
+  {
+   "name": "Barceloneta Miami",
+   "cuisines": [
+    "Spanish",
+    "Tapas"
+   ],
+   "address": "1400 20th Street, 33139, Miami Beach",
+   "website": "https://www.barcelonetamiami.com/"
+  },
+  {
+   "name": "Rishtedar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "232 Northwest 24th Street, 33127, Miami",
+   "website": "https://rishtedar.com"
+  },
+  {
+   "name": "Love 'N Gyros",
+   "cuisines": [
+    "Greek",
+    "Mediterranean"
+   ],
+   "address": "2814 North Miami Avenue, 33127, Miami",
+   "website": "https://www.lovengyros.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1529 Southwest 8th Street, 33135, Miami",
+   "website": "https://locations.pizzahut.com/fl/miami/1529-sw-8th-st"
+  },
+  {
+   "name": "Mike's at Venetia",
+   "cuisines": [
+    "Pub",
+    "Seafood",
+    "Bar And Grill",
+    "Grill"
+   ],
+   "address": "555 Northeast 15th Street, 33132, Miami",
+   "website": "https://mikesmiami.com/"
+  },
+  {
+   "name": "Old Greg’s Pizza",
+   "cuisines": [
+    "Pizza",
+    "Local"
+   ],
+   "address": "3620 Northeast 2nd Avenue, 33137, Miami Design District",
+   "website": "https://www.oldgregspizza.com/"
+  },
+  {
+   "name": "Piola Brickell",
+   "cuisines": [
+    "Pizza",
+    "Pasta"
+   ],
+   "address": "1250 South Miami Avenue, 33130, Miami",
+   "website": "https://piolausa.com/locations-miami-brickell-fl/"
+  },
+  {
+   "name": "Old Lisbon - Coral Gables",
+   "cuisines": [
+    "Portuguese"
+   ],
+   "address": "1698 Southwest 22nd Street, 33145, Miami",
+   "website": "https://www.oldlisbonrestaurants.com/"
+  },
+  {
+   "name": "Crisppis | Miami",
+   "cuisines": [
+    "Burger",
+    "Chicken",
+    "Donut",
+    "Sandwich",
+    "Dessert",
+    "Fries"
+   ],
+   "address": "2917 Biscayne Boulevard, 33137, Miami",
+   "website": "https://www.crisppischicken.com/"
+  },
+  {
+   "name": "Smart Bowls Miami",
+   "cuisines": [
+    "Mediterranean",
+    "Healthy Food"
+   ],
+   "address": "542 NW 30th Street, 33127-3764, Miami",
+   "website": "https://smartbowlsmiami.com/"
+  },
+  {
+   "name": "El Cristo Cuban Restaurant",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1543 Southwest 8th Street, 33135, Miami",
+   "website": "https://www.elcristorestaurant.com/"
+  },
+  {
+   "name": "Sushi Garage",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1784 West Avenue, 33139, Miami Beach",
+   "website": "https://www.sushigarage.com/"
+  },
+  {
+   "name": "Pamplemousse on the Bay",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "910 West Avenue, 33139, Miami Beach",
+   "website": "https://www.pamplemoussemiami.com"
+  },
+  {
+   "name": "Bagatelle Miami River",
+   "cuisines": [
+    "French",
+    "Mediterranean"
+   ],
+   "address": "311 Northwest South River Drive, 33128, Miami",
+   "website": "https://bagatelle.com/venues/bagatelle-miami-river"
+  },
+  {
+   "name": "Old‘s Havana",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1442 Southwest 8th Street, 33135, Miami",
+   "website": "https://oldshavana.com/"
+  },
+  {
+   "name": "Braga Portuguese Restaurant",
+   "cuisines": [
+    "Portuguese"
+   ],
+   "address": "1401 Southwest 22nd Street, 33145, Miami",
+   "website": "https://bragarestaurant.com/"
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "401 Biscayne Boulevard, 33132, Miami",
+   "website": "https://www.hardrock.com/cafes/miami/"
+  },
+  {
+   "name": "Baires grill",
+   "cuisines": [
+    "Argentinian",
+    "Steak House",
+    "Barbecue"
+   ],
+   "address": "1010 South Miami Avenue, 33130, Miami",
+   "website": "https://www.bairesgrill.com/"
+  },
+  {
+   "name": "El Atlacatl",
+   "cuisines": [
+    "Latin American",
+    "Salvadoran"
+   ],
+   "address": "466 Southwest 17th Avenue, 33135, Miami",
+   "website": "http://orderelatlacatl.com/"
+  },
+  {
+   "name": "Macchialina",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "820 Alton Road, 33139, Miami Beach",
+   "website": "https://www.macchialina.com/"
+  },
+  {
+   "name": "Pinolandia",
+   "cuisines": [
+    "Latin American",
+    "Nicaraguan"
+   ],
+   "address": "119 Northwest 12th Avenue, 33128, Miami",
+   "website": "https://www.pinolandiafl.com/"
+  },
+  {
+   "name": "Bariloche Gourmet",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "1198 Southwest 17th Avenue, 33135, Miami",
+   "website": "https://barilochegourmet.com/"
+  },
+  {
+   "name": "Hometown Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1200 Northwest 22nd Street, 33142, Miami",
+   "website": "https://hometownbbqmiami.com/"
+  },
+  {
+   "name": "iBurger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "275 Northeast 18th Street, 33132, Miami",
+   "website": "http://iburgeronline.com"
+  },
+  {
+   "name": "Paperfish Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1421 South Miami Avenue, 33130, Miami",
+   "website": "https://paperfishsushi.com/"
+  },
+  {
+   "name": "Red Rooster Overtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "920 Northwest 2nd Avenue, 33136, Miami",
+   "website": "https://redroosterovertown.com/"
+  },
+  {
+   "name": "North Italia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "900 South Miami Avenue, 33130, Miami",
+   "website": "https://www.northitalia.com/locations/miami-fl/"
+  },
+  {
+   "name": "Mister O1",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1680 Michigan Avenue, 33139, Miami Beach",
+   "website": "https://www.mistero1.com/"
+  },
+  {
+   "name": "Enriqueta's Sandwich Shop",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "186 Northeast 29th Street, 33137",
+   "website": "http://places.singleplatform.com/enriquetas-cafe/menu"
+  },
+  {
+   "name": "Pubbelly Sushi Miami Beach",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1424 20th Street, 33139, Miami Beach",
+   "website": "https://www.pubbellyglobal.com/location/miami-beach-pubbelly-sushi/"
+  },
+  {
+   "name": "Sha Wynwood",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "97 Northwest 25th Street, 33127, Miami",
+   "website": "https://www.shawynwood.com/"
+  },
+  {
+   "name": "El Pub Restaurant",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1548 Southwest 8th Street, 33135, Miami",
+   "website": "https://www.elpubrestaurant.com/"
+  },
+  {
+   "name": "Rakachaka Grill y Más",
+   "cuisines": [
+    "Latin American",
+    "Nicaraguan"
+   ],
+   "address": "1280 Southwest 1st Street, 33135, Miami",
+   "website": "https://rakachaka.com/"
+  },
+  {
+   "name": "Rodeo Grill",
+   "cuisines": [
+    "Steak House",
+    "Argentinian",
+    "Barbecue"
+   ],
+   "address": "401 Biscayne Boulevard, 33132, Miami",
+   "website": "https://www.rodeogrillsteakhouse.com/"
+  },
+  {
+   "name": "Giselle Miami",
+   "cuisines": [
+    "Fusion"
+   ],
+   "address": "15 Northeast 11th Street, 33132, Miami",
+   "website": "https://gisellemiami.com"
+  },
+  {
+   "name": "Kan Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "900 South Miami Avenue, 33130, Miami",
+   "website": "https://kan-sushi.com/"
+  },
+  {
+   "name": "Batch Gastropub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "30 Southwest 12th Street, 33130, Miami",
+   "website": "https://batchgastropub.com/miami/"
+  },
+  {
+   "name": "Black Market",
+   "cuisines": [
+    "American"
+   ],
+   "address": "401 Biscayne Boulevard, 33132",
+   "website": "http://blackmarketmia.com"
+  },
+  {
+   "name": "Mario the Baker Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "43 West Flagler Street, 33128, Miami",
+   "website": "https://www.ordermariothebaker.com/"
+  },
+  {
+   "name": "Pollos & Jarras",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "115 Northeast 3rd Avenue, 33132, Miami",
+   "website": "https://www.pollosyjarras.com/"
+  },
+  {
+   "name": "Wayan Miami",
+   "cuisines": [
+    "Indonesian",
+    "French-Indonesian",
+    "Asian",
+    "Asian Fusion"
+   ],
+   "address": "50 Northwest 24th Street, 33127, Miami",
+   "website": "https://wayan-miami.com"
+  },
+  {
+   "name": "El Rey de las Fritas",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "1821 Southwest 8th Street, 33135, Miami",
+   "website": "https://www.elreydelasfritas.com/"
+  },
+  {
+   "name": "Novikov",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "300 South Biscayne Boulevard, 33131-3828, Miami",
+   "website": "https://novikovmiami.com/"
+  },
+  {
+   "name": "Exupery Burger & Tacos",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1782 Southwest 8th Street, 33135, Miami",
+   "website": "https://www.exuperyburgertaco.com"
+  },
+  {
+   "name": "New York Roma Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "125 Southeast 2nd Avenue, 33131-1501, Miami",
+   "website": "https://miami.newyorkromapizzapasta.com"
+  },
+  {
+   "name": "L'ATELIER DE JOEL ROBUCHON",
+   "cuisines": [
+    "French"
+   ],
+   "address": "151 Northeast 41st Street, 33137, Miami",
+   "website": "https://latelier-miami.com/"
+  },
+  {
+   "name": "Manolo & Rene Grill",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "188 Northeast 3rd Avenue",
+   "website": "https://www.manologrill.com/"
+  },
+  {
+   "name": "Luke's Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "701 South Miami Avenue, 33130-1946, Miami",
+   "website": "https://lukeslobster.com/pages/brickell-city-centre"
+  },
+  {
+   "name": "La Birra Bar (Wynwood)",
+   "cuisines": [
+    "Burger",
+    "Argentinian"
+   ],
+   "address": "250 Northwest 24th Street, 33127, Miami",
+   "website": "https://www.labirrabarusa.com/"
+  },
+  {
+   "name": "Ghee - Wynwood",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "63 Northwest 24th Street, 33127, Miami",
+   "website": "https://www.gheemiami.com/"
+  },
+  {
+   "name": "Marabu Restaurant",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "701 South Miami Avenue, 33131, Miami",
+   "website": "https://www.maraburestaurant.com/"
+  },
+  {
+   "name": "Amazonico",
+   "cuisines": [
+    "International"
+   ],
+   "address": "800 Brickell Avenue, 33131, Miami",
+   "website": "https://amazonicorestaurant.com/"
+  },
+  {
+   "name": "Giardino Gourmet Salads",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "169 East Flagler Street, 33131, Miami",
+   "website": "https://giardinosalads.com/"
+  },
+  {
+   "name": "Icebox Café",
+   "cuisines": [
+    "Breakfast",
+    "Italian"
+   ],
+   "address": "1855 Purdy Avenue, 33139",
+   "website": "https://iceboxcafe.com/"
+  },
+  {
+   "name": "The Capital Grille",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "444 Brickell Avenue, 33131-2015, Miami",
+   "website": "https://www.thecapitalgrille.com/locations/fl/miami/miami/8006"
+  },
+  {
+   "name": "Bodega Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1220 16th Street, 33139, Miami Beach",
+   "website": "https://www.bodegataqueria.com/"
+  },
+  {
+   "name": "Asian Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1981 Southwest 8th Street, 33135, Miami",
+   "website": "https://sw8th.asianthaikitchenonline.com"
+  },
+  {
+   "name": "Flyfuel Food Co.",
+   "cuisines": [
+    "Health Food"
+   ],
+   "address": "154 Northeast 29th Street, 33137, Miami",
+   "website": "https://www.eatflyfuel.com/"
+  },
+  {
+   "name": "Okami",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "156 Northeast 41st Street, 33137, Miami",
+   "website": "https://www.okami-miami.com/"
+  },
+  {
+   "name": "COTE MIAMI",
+   "cuisines": [
+    "Steak House",
+    "Korean"
+   ],
+   "address": "3900 Northeast 2nd Avenue, 33137, Miami",
+   "website": "https://cotemiami.com/"
+  },
+  {
+   "name": "Lucali Miami",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "1930 Bay Road, 33139, Miami Beach",
+   "website": "https://lucali.com"
+  },
+  {
+   "name": "305 Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "151 Northwest 24th Street, 33127, Miami",
+   "website": "https://www.order305pizza.com"
+  },
+  {
+   "name": "Salty Flame",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1414 Brickell Avenue, 33131, Miami",
+   "website": "https://saltyflamerestaurant.com/"
+  },
+  {
+   "name": "Dulce de Leche Bakery Miami",
+   "cuisines": [
+    "Argentinian",
+    "Cafe",
+    "Empanada",
+    "Bakery"
+   ],
+   "address": "3500 North Miami Avenue, 33127, Miami",
+   "website": "https://www.dulcedelechebakery.com/"
+  },
+  {
+   "name": "Mignonette",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "210 Northeast 18th Street, Miami",
+   "website": "https://www.mignonettemiami.com/"
+  },
+  {
+   "name": "ALMA",
+   "cuisines": [
+    "American"
+   ],
+   "address": "310 Northwest 24th Street, 33127, Miami",
+   "website": "https://www.almarestaurant.com/"
+  },
+  {
+   "name": "Azucar Ice Cream Company",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "1503 Southwest 8th Street, 33135",
+   "website": "https://www.azucaricecream.com/location/azucar-ice-cream-miami-fl/"
+  },
+  {
+   "name": "CVI.CHE 105",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "105 Northeast 3rd Avenue, 33132, Miami",
+   "website": "https://www.ceviche105.com/"
+  },
+  {
+   "name": "Huahua's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1211 Lincoln Road, 33139, Miami Beach",
+   "website": "https://huahuastaco.com/"
+  },
+  {
+   "name": "Sunny Poke",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1784 West Avenue, 33139",
+   "website": "https://www.sunnypoke.com/"
+  },
+  {
+   "name": "Motek - Mediterranean Cafe & Restaurant",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "36 NE 1st St",
+   "website": "https://motekcafe.com/"
+  },
+  {
+   "name": "Felice Brickell",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1450 Brickell Avenue, 33131",
+   "website": "https://felicerestaurants.com"
+  },
+  {
+   "name": "Doraku Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1104 Lincoln Road",
+   "website": "https://dorakusushi.com/store_locator/miami-beach/"
+  },
+  {
+   "name": "Lagniappe",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3425 Northeast 2nd Avenue",
+   "website": "http://www.lagniappehouse.com"
+  },
+  {
+   "name": "China Lee",
+   "cuisines": [
+    "Asian",
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.chinaleemiamifl.com"
+  },
+  {
+   "name": "Shokudo",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "https://www.shokudomiami.com"
+  },
+  {
+   "name": "Joey's Italian Cuisine",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://joeyswynwood.com/"
+  },
+  {
+   "name": "B&B Joint",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://bnbjoint.com/"
+  },
+  {
+   "name": "The Daily Creative Food Co.",
+   "cuisines": [
+    "Sandwich",
+    "Salad",
+    "Breakfast",
+    "Brunch",
+    "Coffee Shop"
+   ],
+   "address": "2001 Biscayne Boulevard, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Wing Xscape by Hot Potato 1.2.3. Express",
+   "cuisines": [
+    "Chicken",
+    "Wings"
+   ],
+   "address": "3417 Northeast 1st Avenue, 33132-1004, Miami",
+   "website": ""
+  },
+  {
+   "name": "The River Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "33 Southeast 7th Street, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Opera House",
+   "cuisines": [
+    "Pizza",
+    "Burger"
+   ],
+   "address": "1750 North Bayshore Drive, 33132, Miami",
+   "website": ""
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1681 Lenox Avenue, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "David's Cafecito Cafe",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "919 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Wynwood Smoke and Lounge",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "320 Northwest 24th Street, 33127, Miami",
+   "website": ""
+  },
+  {
+   "name": "Rey's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Cuban"
+   ],
+   "address": "2391 West Flagler Street, 33135, Miami",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3600 Biscayne Boulevard, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Lung Yai Thai Tappas",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1731 Southwest 8th Street, 33135, Miami",
+   "website": ""
+  },
+  {
+   "name": "Palat",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "4702 Northeast 2nd Avenue, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Mykonos",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1201 Coral Way, 33145, Miami",
+   "website": ""
+  },
+  {
+   "name": "Balans",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "1022 Lincoln Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "The Henry",
+   "cuisines": [
+    "American"
+   ],
+   "address": "701 South Miami Avenue, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "El Cartel Colombian Restaurant",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "194 Southeast 1st Avenue, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Iron Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "120 Southeast 3rd Avenue, 33131-2004, Miami",
+   "website": ""
+  },
+  {
+   "name": "Chick'n Grill",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "250 Southwest 8th Street, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "Little Bread Cuban Sandwich Co.",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "541 Southwest 12th Avenue, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "seventeen",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1710 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Mi Rinconcito Mexicano",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1961 Southwest 8th Street, 33135, Miami",
+   "website": ""
+  },
+  {
+   "name": "Lean Sushi Bar & Lounge",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1435 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "ZZ’s Sushi Bar",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "151 Northeast 41st Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "El Bajareque",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "278 Northwest 36th Street, 33127, Miami",
+   "website": ""
+  },
+  {
+   "name": "3 Chefs Chinese & Vietnamese Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1800 Biscayne Boulevard, 33132",
+   "website": ""
+  },
+  {
+   "name": "La Moon",
+   "cuisines": [
+    "Latin",
+    "Columbia"
+   ],
+   "address": "97 Southwest 8th Street, Miami",
+   "website": ""
+  },
+  {
+   "name": "Harry's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3918 North Miami Avenue, 33127, Miami",
+   "website": ""
+  },
+  {
+   "name": "Master's Pizza Pasta & Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1720 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "YOSO Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "87 Northeast 40th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Bella Napoli Restaurant & Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1443 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Tacomi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3930 Northeast 2nd Avenue, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Sofia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "140 Northeast 39th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Stiltsville Fish Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1787 Purdy Avenue, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Camila's Restaurante Brasileiro",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "129 Southeast 1st Avenue, 33131",
+   "website": ""
+  },
+  {
+   "name": "Bubba Gump Shrimp Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cajun Boil",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "141 Southwest 7th Street, 33130",
+   "website": ""
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Quattro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1014 Lincoln Road",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New York Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vapiano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Nuevo Siglo",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Latin American Cuisine",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "García,s Seafood",
+   "cuisines": [
+    "Seafood",
+    "Fish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Macaluso's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1747 Alton Road",
+   "website": ""
+  },
+  {
+   "name": "Masaru Sushi & Thai",
+   "cuisines": [
+    "Sushi",
+    "Thai"
+   ],
+   "address": "1671 Alton Road",
+   "website": ""
+  },
+  {
+   "name": "Drunken Dragon",
+   "cuisines": [
+    "Korean",
+    "Fusion"
+   ],
+   "address": "1424 Alton Road",
+   "website": ""
+  },
+  {
+   "name": "Yambo",
+   "cuisines": [
+    "Nicaraguan"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sukhothai Sushi + Asian Food",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "1570C Alton Road",
+   "website": ""
+  },
+  {
+   "name": "China Moon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1540 Alton Road",
+   "website": ""
+  },
+  {
+   "name": "Atlantica Seafood Restaurant and Market",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Taquito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "Southwest 8th Street",
+   "website": ""
+  },
+  {
+   "name": "Suviche",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fiesta Café Shop",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taula",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tradewinds Waterfront Bar And Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Largo Bar & Grill",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brawy Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Ranchos Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gyro House",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mambo Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Porto Cervo Restaurant",
+   "cuisines": [
+    "Italian",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Trattoria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maple & Ash",
+   "cuisines": [],
+   "address": "699 Northeast 1st Avenue, 33132, Miami",
+   "website": "https://www.mapleandash.com/miami/"
+  },
+  {
+   "name": "The Cocinita Miami",
+   "cuisines": [],
+   "address": "70 Southeast 5th Street, 33131, Miami",
+   "website": "https://www.thecocinitamiami.getsauce.com/"
+  },
+  {
+   "name": "Juvia",
+   "cuisines": [],
+   "address": "1111 Lincoln Road, 33139, Miami Beach",
+   "website": "http://www.juviamiami.com"
+  },
+  {
+   "name": "Mary Mary Bar and SwitchPoint Station Bar",
+   "cuisines": [],
+   "address": "600 Northwest 6th Street, 33136, Miami",
+   "website": "https://www.gobrightline.com/train-stations/fl/miami"
+  },
+  {
+   "name": "Chotto Matte",
+   "cuisines": [],
+   "address": "1664 Lenox Avenue, Miami Beach",
+   "website": "https://chotto-matte.com/"
+  },
+  {
+   "name": "El Cuban Diner",
+   "cuisines": [],
+   "address": "1620 Southwest 8th Street, 33135, Miami",
+   "website": "https://www.elcubandiner.com/"
+  },
+  {
+   "name": "Coral House Italian Restaurant",
+   "cuisines": [],
+   "address": "1762 Southwest 22nd Street, 33145, Miami",
+   "website": "https://coralhousemiami.com/"
+  },
+  {
+   "name": "Cafe La Trova",
+   "cuisines": [],
+   "address": "971 Southwest 8th Street, 33130, Miami",
+   "website": "https://www.cafelatrova.com/"
+  },
+  {
+   "name": "MIA MARKET",
+   "cuisines": [],
+   "address": "140 Northeast 39th Street, 33137, Miami",
+   "website": "https://www.miamarket.com/"
+  },
+  {
+   "name": "Mangal",
+   "cuisines": [],
+   "address": "2929 Biscayne Boulevard, 33137, Miami",
+   "website": "https://mymangal.com/wp-content/uploads/2025/12/2025-10-02.webp"
+  },
+  {
+   "name": "Amara at Paraiso",
+   "cuisines": [],
+   "address": "3101 Northeast 7th Avenue, 33137, Miami",
+   "website": "https://amaraatparaiso.com/"
+  },
+  {
+   "name": "Semilla Eatery & Bar",
+   "cuisines": [],
+   "address": "1330 Alton Road, 33139, Miami Beach",
+   "website": "https://www.semillamiami.com/"
+  },
+  {
+   "name": "The Café at Books and Books",
+   "cuisines": [],
+   "address": "1300 Biscayne Boulevard, 33132, Miami",
+   "website": "https://booksandbooks.com/"
+  },
+  {
+   "name": "Bebito's",
+   "cuisines": [],
+   "address": "",
+   "website": "https://bebitos.cafe/"
+  },
+  {
+   "name": "Margaritaville",
+   "cuisines": [],
+   "address": "401 Biscayne Boulevard, 33132, Miami",
+   "website": "https://www.margaritavillemiamibayside.com"
+  },
+  {
+   "name": "Claudie",
+   "cuisines": [],
+   "address": "1101 Brickell Avenue, 33131, Miami",
+   "website": "https://www.claudierestaurant.com/"
+  },
+  {
+   "name": "La Estacion Cafe",
+   "cuisines": [],
+   "address": "1390 Brickell Avenue, 33131, Miami",
+   "website": "https://laestacioncafe.net/"
+  },
+  {
+   "name": "Barton G the Restaurant",
+   "cuisines": [],
+   "address": "1427 West Avenue, 33139, miami beach",
+   "website": "bartongtherestaurant.com"
+  },
+  {
+   "name": "The District Miami",
+   "cuisines": [],
+   "address": "190 NE 46th St, 33137, Miami",
+   "website": "http://thedistrictmiami.com"
+  },
+  {
+   "name": "Mad Butcher",
+   "cuisines": [],
+   "address": "2300 Northwest 2nd Avenue, 33127, Miami",
+   "website": "https://www.madbutcher.com/"
+  },
+  {
+   "name": "La Sandwicherie",
+   "cuisines": [],
+   "address": "34 Southwest 8th Street, 33130, Miami",
+   "website": "https://www.lasandwicherie.com/"
+  },
+  {
+   "name": "FREEHOLD Miami",
+   "cuisines": [],
+   "address": "2219 Northwest 2nd Avenue, 33127, Miami",
+   "website": "https://www.freeholdmiami.com/"
+  },
+  {
+   "name": "PURA VIDA",
+   "cuisines": [],
+   "address": "3818 Northeast 1st Avenue, 33137, Miami",
+   "website": "https://puravidamiami.com/"
+  },
+  {
+   "name": "Komodo",
+   "cuisines": [],
+   "address": "801 Brickell Ave, 33131, Miami",
+   "website": "https://komodomiami.com/"
+  },
+  {
+   "name": "Zuma",
+   "cuisines": [],
+   "address": "270 Southeast 4th Street, 33131, Miami",
+   "website": "https://www.zumarestaurant.com/en/miami"
+  },
+  {
+   "name": "Lafayette Miami",
+   "cuisines": [],
+   "address": "1111 Southwest 1st Avenue, 33131, Miami",
+   "website": "https://www.lafayette-miami.com/"
+  },
+  {
+   "name": "Casa Vigil Miami",
+   "cuisines": [],
+   "address": "5020 Northeast 2nd Avenue, 33137, Miami",
+   "website": "https://casavigilmiami.com/"
+  },
+  {
+   "name": "Cantina La Veinte",
+   "cuisines": [],
+   "address": "495 Brickell Avenue, 33131, Miami",
+   "website": "http://www.cantinala20.com/"
+  },
+  {
+   "name": "Japow",
+   "cuisines": [],
+   "address": "151 Northeast 41st Street, 33137, Miami",
+   "website": "https://www.japoworiginal.com/"
+  },
+  {
+   "name": "Crab du Jour",
+   "cuisines": [],
+   "address": "3201 North Miami Avenue",
+   "website": "crabdujour.com"
+  },
+  {
+   "name": "RivaReno Gelato Brickell",
+   "cuisines": [],
+   "address": "901 South Miami Avenue, 33130",
+   "website": "https://rivareno.com/"
+  },
+  {
+   "name": "Lokum",
+   "cuisines": [],
+   "address": "1629 Alton Road",
+   "website": "http://lokummiami.com/"
+  },
+  {
+   "name": "La Santa Taqueria",
+   "cuisines": [],
+   "address": "114 SW North River Dr, 33130",
+   "website": "https://www.lasantataqueria.com/"
+  },
+  {
+   "name": "Sushi Siam",
+   "cuisines": [],
+   "address": "",
+   "website": "https://sushisiambrickell.menufy.com"
+  },
+  {
+   "name": "Soul Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.soultavern.com"
+  },
+  {
+   "name": "La Licuadora",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.lalicuadoramiamifl.com"
+  },
+  {
+   "name": "Vero italian",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.orderveroitalian.com"
+  },
+  {
+   "name": "Le Chick Miami",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.lechickmiami.com/"
+  },
+  {
+   "name": "Truluck's Ocean's Finest Seafood and Crab",
+   "cuisines": [],
+   "address": "777 Brickell Avenue, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Mercado Japones",
+   "cuisines": [],
+   "address": "1036 South Miami Avenue, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "Alloy Bistro Gourmet",
+   "cuisines": [],
+   "address": "154 Southeast 1st Avenue, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Perricone's Marketplace & Cafe",
+   "cuisines": [],
+   "address": "1700 Southwest 3rd Avenue, 33129, Miami",
+   "website": ""
+  },
+  {
+   "name": "Casola's Pizzeria & Sub Shop",
+   "cuisines": [],
+   "address": "2437 Southwest 17th Avenue, 33145, Miami",
+   "website": ""
+  },
+  {
+   "name": "Jackson Soul Food",
+   "cuisines": [],
+   "address": "950 Northwest 3rd Avenue, 33136, Miami",
+   "website": ""
+  },
+  {
+   "name": "Shelter Restaurant - Miami",
+   "cuisines": [],
+   "address": "10 Northeast 27th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Fonda La Chismosa",
+   "cuisines": [],
+   "address": "981 Southwest 8th Street, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "Seaspice Brasserie & Lounge",
+   "cuisines": [],
+   "address": "422 Northwest N River Drive, 33128, Miami",
+   "website": ""
+  },
+  {
+   "name": "Lil Greenhouse Grill",
+   "cuisines": [],
+   "address": "1300 Northwest 3rd Avenue, 33136, Miami",
+   "website": ""
+  },
+  {
+   "name": "The Arketekt by Aficionados",
+   "cuisines": [],
+   "address": "1200 Brickell Bay Drive, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Le Jardinier",
+   "cuisines": [],
+   "address": "151 Northeast 41st Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "SWAN & BAR BEVY",
+   "cuisines": [],
+   "address": "90 Northeast 39th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "MC Kitchen",
+   "cuisines": [],
+   "address": "4141 Northeast 2nd Avenue, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Carrot Express",
+   "cuisines": [],
+   "address": "80 Northeast 2nd Avenue, 33132, Miami",
+   "website": ""
+  },
+  {
+   "name": "Beaker & Gray",
+   "cuisines": [],
+   "address": "2637 North Miami Avenue, 33127-4437, Miami",
+   "website": ""
+  },
+  {
+   "name": "MICHAEL'S GENUINE FOOD & DRINK",
+   "cuisines": [],
+   "address": "130 Northeast 40th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Mercato",
+   "cuisines": [],
+   "address": "4141 Northeast 2nd Avenue, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "Gordon Ramsay Hell's Kitchen",
+   "cuisines": [],
+   "address": "340 Southeast 3rd Street, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "SoCal Tacos Co. & Cantina",
+   "cuisines": [],
+   "address": "1000 South Miami Avenue, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "Bakan Wynwood",
+   "cuisines": [],
+   "address": "2801 Northwest 2nd Avenue, 33127, Miami",
+   "website": ""
+  },
+  {
+   "name": "Fat Ronnie's",
+   "cuisines": [],
+   "address": "1233 Lincoln Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Okeydokey",
+   "cuisines": [],
+   "address": "268 Southwest 8th Street, 33130, Miami",
+   "website": ""
+  },
+  {
+   "name": "Sardinia Enoteca Ristorante",
+   "cuisines": [],
+   "address": "1801 Purdy Avenue, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "NaiYaRa",
+   "cuisines": [],
+   "address": "1854 Bay Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "jugofresh",
+   "cuisines": [],
+   "address": "1935 20th Street, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Sunset Juice Cafe",
+   "cuisines": [],
+   "address": "1940 Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Lola Restaurant & Grill",
+   "cuisines": [],
+   "address": "1223 Lincoln Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Thank You Miami",
+   "cuisines": [],
+   "address": "1663 West Flagler Street, 33135, Miami",
+   "website": ""
+  },
+  {
+   "name": "Jar and Fork",
+   "cuisines": [],
+   "address": "270 East Flagler Street, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "CAJA CALIENTE TRUCK",
+   "cuisines": [],
+   "address": "95 Northeast 40th Street, 33137, Miami",
+   "website": ""
+  },
+  {
+   "name": "La Granja",
+   "cuisines": [],
+   "address": "127 Southeast 2nd Avenue, 33131, Miami",
+   "website": ""
+  },
+  {
+   "name": "Lime - Fresh Mexican Grill",
+   "cuisines": [],
+   "address": "1439-B Alton Road, 33139, Miami Beach",
+   "website": ""
+  },
+  {
+   "name": "Mmmm",
+   "cuisines": [],
+   "address": "2519 Northwest 2nd Avenue, Miami",
+   "website": ""
+  },
+  {
+   "name": "Amarres de amor Florida",
+   "cuisines": [],
+   "address": "43 Northeast 1st Street, 33132",
+   "website": ""
+  },
+  {
+   "name": "Food@Science",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rusty Pelican",
+   "cuisines": [],
+   "address": "3201 Rickenbacker Causeway, 33149",
+   "website": ""
+  },
+  {
+   "name": "Crust",
+   "cuisines": [],
+   "address": "668 Northwest 5th Street",
+   "website": ""
+  },
+  {
+   "name": "Texas de Brazil",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dōma",
+   "cuisines": [],
+   "address": "35 Northeast 26th Street",
+   "website": ""
+  },
+  {
+   "name": "Meraki Greek Bistro",
+   "cuisines": [],
+   "address": "142 Southeast 1st Avenue",
+   "website": ""
+  },
+  {
+   "name": "Blackbird Ordinary",
+   "cuisines": [],
+   "address": "729 Southwest 1st Avenue",
+   "website": ""
+  },
+  {
+   "name": "Comida de la Tierra Colombian Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dr Smood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delicias en Miami",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lulu's",
+   "cuisines": [],
+   "address": "Miamarina Parkway Drive",
+   "website": ""
+  },
+  {
+   "name": "Lombardi's Italian Restaurant",
+   "cuisines": [],
+   "address": "Miamarina Parkway Drive",
+   "website": ""
+  },
+  {
+   "name": "Latin American",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Verde",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Coyo Taco",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Honey Tree",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Delicious Raw",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wynwood Kitchen & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Morgan's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wok Town",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New York Bagel Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tre Italian Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Sake",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wynwood Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oliver's Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Baires Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "DOYA",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nusr-Et",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "American Social",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "GK Bistronomie",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Nuevos Jarritos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "«Il Gabbiano»",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Love Life Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cvltvra",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Venetian Pool",
+   "kind": "attraction",
+   "address": "2701 De Soto Boulevard, 33134, Coral Gables",
+   "website": "https://www.coralgables.com/venetian-pool",
+   "phone": "+1 305-460-5306",
+   "latitude": 25.7458012,
+   "longitude": -80.2731503
+  },
+  {
+   "name": "Flamingo Park",
+   "kind": "attraction",
+   "address": "999 11th Street, 33139, Miami Beach",
+   "website": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/facility-info-flamingo-park/",
+   "phone": "+1 305-673-7779",
+   "latitude": 25.7844442,
+   "longitude": -80.1385947
+  },
+  {
+   "name": "Villa Vizcaya",
+   "kind": "museum",
+   "address": "3251 South Miami Avenue, 33129",
+   "website": "http://www.vizcaya.org",
+   "phone": "+1-305-250-9133",
+   "latitude": 25.7443837,
+   "longitude": -80.2104967
+  },
+  {
+   "name": "Bass Museum of Art",
+   "kind": "museum",
+   "address": "2100 Collins Avenue, 33139, Miami Beach",
+   "website": "https://thebass.org/",
+   "phone": "",
+   "latitude": 25.7975692,
+   "longitude": -80.1301139
+  },
+  {
+   "name": "Pérez Art Museum Miami",
+   "kind": "museum",
+   "address": "1103 Biscayne Boulevard, 33132, Miami",
+   "website": "https://www.pamm.org/",
+   "phone": "+1-305-375-3000",
+   "latitude": 25.7860342,
+   "longitude": -80.1863239
+  },
+  {
+   "name": "Jewish Museum of Florida",
+   "kind": "museum",
+   "address": "301 Washington Avenue, 33139, Miami Beach",
+   "website": "https://jmof.fiu.edu/",
+   "phone": "",
+   "latitude": 25.7725596,
+   "longitude": -80.1342236
+  },
+  {
+   "name": "Coral Gables Museum",
+   "kind": "museum",
+   "address": "285 Aragon Avenue, 33134, Coral Gables",
+   "website": "https://coralgablesmuseum.org/",
+   "phone": "+13056038067",
+   "latitude": 25.7507368,
+   "longitude": -80.2603915
+  },
+  {
+   "name": "The Historic Hampton House",
+   "kind": "museum",
+   "address": "4240 Northwest 27th Avenue, 33142, Miami",
+   "website": "https://www.historichamptonhouse.org/",
+   "phone": "",
+   "latitude": 25.8141904,
+   "longitude": -80.2407669
+  },
+  {
+   "name": "World Erotic Art Museum",
+   "kind": "museum",
+   "address": "1205 Washington Avenue, 33139, Miami Beach",
+   "website": "https://www.weammuseum.com",
+   "phone": "+1 305 532 9336",
+   "latitude": 25.7831428,
+   "longitude": -80.1319409
+  },
+  {
+   "name": "Miami Children's Museum",
+   "kind": "museum",
+   "address": "980 Macarthur Causeway, 33132",
+   "website": "https://www.miamichildrensmuseum.org/",
+   "phone": "",
+   "latitude": 25.7847528,
+   "longitude": -80.1766011
+  },
+  {
+   "name": "Bay of Pigs Museum",
+   "kind": "museum",
+   "address": "1821 Southwest 9th Street, 33135, Miami",
+   "website": "https://www.bayofpigsbrigade2506.com/",
+   "phone": "",
+   "latitude": 25.7650074,
+   "longitude": -80.2250562
+  },
+  {
+   "name": "HistoryMiami Museum",
+   "kind": "museum",
+   "address": "101 West Flagler Street, 33130, Miami",
+   "website": "https://historymiami.org/",
+   "phone": "+1 305-375-1492",
+   "latitude": 25.7745642,
+   "longitude": -80.1965921
+  },
+  {
+   "name": "Freedom Tower at Miami Dade College",
+   "kind": "attraction",
+   "address": "600 Biscayne Boulevard, 33132, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7802928,
+   "longitude": -80.1897132
+  },
+  {
+   "name": "Patricia and Phillip Frost Museum of Science",
+   "kind": "museum",
+   "address": "1101 Biscayne Boulevard, 33132, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.785299,
+   "longitude": -80.1877391
+  },
+  {
+   "name": "de la Cruz Collection",
+   "kind": "gallery",
+   "address": "23 Northeast 41st Street, 33137, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.814315,
+   "longitude": -80.1949005
+  },
+  {
+   "name": "The Wolfsonian - FIU",
+   "kind": "museum",
+   "address": "1001 Washington Avenue, 33139, Miami Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7809174,
+   "longitude": -80.1324633
+  },
+  {
+   "name": "THE HAITIAN HERITAGE MUSEUM",
+   "kind": "gallery",
+   "address": "4141 Northeast 2nd Avenue, 33137, Miami",
+   "website": "",
+   "phone": "+1-305-371-5988",
+   "latitude": 25.8143405,
+   "longitude": -80.1907192
+  },
+  {
+   "name": "Art Deco Museum",
+   "kind": "museum",
+   "address": "1001 Ocean Drive, 33139, Miami Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7803098,
+   "longitude": -80.1303898
+  },
+  {
+   "name": "Wynwood Walls",
+   "kind": "attraction",
+   "address": "2520 Northwest 2nd Avenue, 33127, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8011739,
+   "longitude": -80.1996624
+  },
+  {
+   "name": "South Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7744291,
+   "longitude": -80.1332415
+  },
+  {
+   "name": "Normandy Isle Park & Pool",
+   "kind": "attraction",
+   "address": "7030 Trouville Esplanade, 33141, Miami Beach",
+   "website": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/normandy-isle-park/",
+   "phone": "+1-305-993-2021",
+   "latitude": 25.8518854,
+   "longitude": -80.138697
+  },
+  {
+   "name": "Flamingo Park Pool",
+   "kind": "attraction",
+   "address": "1245 Michigan Avenue, 33139, Miami Beach",
+   "website": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/facility-info-flamingo-park/",
+   "phone": "+1 305-673-7750",
+   "latitude": 25.7827465,
+   "longitude": -80.1380909
+  },
+  {
+   "name": "Lina Cerrone Gallery",
+   "kind": "gallery",
+   "address": "2239 Northwest 2nd Avenue, 33127-4828, Miami",
+   "website": "https://linacerronegallery.com/",
+   "phone": "+1-305-646-1474",
+   "latitude": 25.7988036,
+   "longitude": -80.1988755
+  },
+  {
+   "name": "Miami Beach Botanical Garden",
+   "kind": "attraction",
+   "address": "2000 Convention Center Drive, 33139, Miami Beach",
+   "website": "https://www.mbgarden.org/",
+   "phone": "",
+   "latitude": 25.795683,
+   "longitude": -80.1356088
+  },
+  {
+   "name": "Anthony Liggins Gallery 88",
+   "kind": "gallery",
+   "address": "237 20th Street, 33139, Miami Beach",
+   "website": "https://anthonyliggins.com/",
+   "phone": "+1-305-397-8098",
+   "latitude": 25.7957246,
+   "longitude": -80.1311454
+  },
+  {
+   "name": "Normandy Isle Pool",
+   "kind": "attraction",
+   "address": "7030 Trouville Esplanade, 33141, Miami Beach",
+   "website": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/normandy-isle-park/",
+   "phone": "+1-305-993-2021",
+   "latitude": 25.8520745,
+   "longitude": -80.1382747
+  },
+  {
+   "name": "Institute of Contemporary Art, Miami",
+   "kind": "museum",
+   "address": "61 Northeast 41st Street, 33137, Miami",
+   "website": "https://icamiami.org/",
+   "phone": "+1-305-901-5272",
+   "latitude": 25.814353,
+   "longitude": -80.1943011
+  },
+  {
+   "name": "Belairfineart",
+   "kind": "gallery",
+   "address": "442 Lincoln Road, 33139, Miami Beach",
+   "website": "https://www.belairfineart.com/en/galleries/miami",
+   "phone": "",
+   "latitude": 25.790503,
+   "longitude": -80.1328323
+  },
+  {
+   "name": "Dina Mitrani Art Gallery",
+   "kind": "gallery",
+   "address": "2620 Northwest 2nd Avenue, 33127, Miami",
+   "website": "http://www.dinamitranigallery.com/",
+   "phone": "+1-786-486-7248",
+   "latitude": 25.8018619,
+   "longitude": -80.1992361
+  },
+  {
+   "name": "American Museum of the Cuban Diaspora",
+   "kind": "museum",
+   "address": "1200 Coral Way, 33145, Miami",
+   "website": "https://thecuban.org/",
+   "phone": "",
+   "latitude": 25.7507931,
+   "longitude": -80.2141801
+  },
+  {
+   "name": "Thriller Miami Speedboat Adventures",
+   "kind": "attraction",
+   "address": "401 Biscayne Boulevard, 33132, Miami",
+   "website": "https://www.thrillermiami.com/",
+   "phone": "+1-305-371-3278",
+   "latitude": 25.7776843,
+   "longitude": -80.185741
+  },
+  {
+   "name": "Oolite Arts",
+   "kind": "gallery",
+   "address": "924 Lincoln Road",
+   "website": "https://oolitearts.org",
+   "phone": "",
+   "latitude": 25.7903156,
+   "longitude": -80.1382612
+  },
+  {
+   "name": "Green Space Miami",
+   "kind": "gallery",
+   "address": "7200 Biscayne Boulevard, 33138, Miami",
+   "website": "https://greenspacemiami.org/",
+   "phone": "+1-786-266-6392",
+   "latitude": 25.8413578,
+   "longitude": -80.1846388
+  },
+  {
+   "name": "Swampspace",
+   "kind": "gallery",
+   "address": "3940 North Miami Avenue, 33127, Miami",
+   "website": "http://swampspace.blogspot.com/",
+   "phone": "+1-305-710-8631",
+   "latitude": 25.8129057,
+   "longitude": -80.1956169
+  },
+  {
+   "name": "PARADOX Museum Miami",
+   "kind": "museum",
+   "address": "2301 North Miami Avenue, 33137, Miami",
+   "website": "https://paradoxmuseummiami.com/",
+   "phone": "",
+   "latitude": 25.7991027,
+   "longitude": -80.1946258
+  },
+  {
+   "name": "Jungle Island",
+   "kind": "theme park",
+   "address": "1111 Parrot Jungle Trail, 33132, Miami",
+   "website": "https://www.jungleisland.com/",
+   "phone": "",
+   "latitude": 25.7862298,
+   "longitude": -80.1757224
+  },
+  {
+   "name": "Museum of Illusions",
+   "kind": "museum",
+   "address": "536 Lincoln Road, 33139, Miami Beach",
+   "website": "https://miaillusions.com/",
+   "phone": "",
+   "latitude": 25.7903791,
+   "longitude": -80.1339701
+  },
+  {
+   "name": "Cuban Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://coralgablesmuseum.org/",
+   "phone": "",
+   "latitude": 25.7511035,
+   "longitude": -80.2591403
+  },
+  {
+   "name": "Museum of the Americas",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museumamericas.com/",
+   "phone": "",
+   "latitude": 25.765691,
+   "longitude": -80.207946
+  },
+  {
+   "name": "Noguchi Breton",
+   "kind": "gallery",
+   "address": "",
+   "website": "http://guccivuitton.net",
+   "phone": "",
+   "latitude": 25.8522634,
+   "longitude": -80.192757
+  },
+  {
+   "name": "Museum of ice cream",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.museumoficecream.com/",
+   "phone": "",
+   "latitude": 25.8088282,
+   "longitude": -80.1238865
+  },
+  {
+   "name": "BuroWynwood",
+   "kind": "gallery",
+   "address": "125 Northwest 23rd Street, 33127, Miami",
+   "website": "",
+   "phone": "+1 305-549-8768",
+   "latitude": 25.799335,
+   "longitude": -80.1975235
+  },
+  {
+   "name": "Venetian Way",
+   "kind": "attraction",
+   "address": "Venetian Causeway",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7912472,
+   "longitude": -80.1521803
+  },
+  {
+   "name": "Historic Black Police Precinct Courthouse and Museum",
+   "kind": "museum",
+   "address": "480 Northwest 11th Street, 33136, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7842481,
+   "longitude": -80.2027582
+  },
+  {
+   "name": "Miami Springs Historical Society",
+   "kind": "museum",
+   "address": "501 East Drive, 33166, Miami Springs",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8115853,
+   "longitude": -80.272559
+  },
+  {
+   "name": "Alejandra von Hartz Gallery",
+   "kind": "gallery",
+   "address": "2630 Northwest 2nd Avenue, 33127, Miami",
+   "website": "",
+   "phone": "+1-305-438-0220",
+   "latitude": 25.8020752,
+   "longitude": -80.1992601
+  },
+  {
+   "name": "Opera Gallery",
+   "kind": "gallery",
+   "address": "151 Northeast 41st Street, 33137, Miami",
+   "website": "",
+   "phone": "+1-305-868-3337",
+   "latitude": 25.8147161,
+   "longitude": -80.1921156
+  },
+  {
+   "name": "Museum of Graffiti",
+   "kind": "museum",
+   "address": "299 NW 25th Street, 33127, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.800868,
+   "longitude": -80.2009332
+  },
+  {
+   "name": "Rubell Museum",
+   "kind": "museum",
+   "address": "1100 Northwest 23rd Street, 33127",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7986936,
+   "longitude": -80.2142568
+  },
+  {
+   "name": "Miami Beach Sign",
+   "kind": "attraction",
+   "address": "535 Ocean Drive, 33139, Golden Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7751844,
+   "longitude": -80.1314766
+  },
+  {
+   "name": "Waltman Ortega Fine Art",
+   "kind": "gallery",
+   "address": "2300 North Miami Avenue, 33127, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7994402,
+   "longitude": -80.1951203
+  },
+  {
+   "name": "GALERIES BARTOUX",
+   "kind": "gallery",
+   "address": "127 Northeast 40th Street, 33137, Miami",
+   "website": "",
+   "phone": "+1-786-534-4574",
+   "latitude": 25.8135755,
+   "longitude": -80.1928068
+  },
+  {
+   "name": "Miami Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7772039,
+   "longitude": -80.1289421
+  },
+  {
+   "name": "Gallery 2612",
+   "kind": "gallery",
+   "address": "2612 Northwest 2nd Avenue, 33127, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8018063,
+   "longitude": -80.1992321
+  },
+  {
+   "name": "Mora Studio",
+   "kind": "gallery",
+   "address": "66 Northeast 40th Street, 33137, Miami",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8132642,
+   "longitude": -80.1941555
+  },
+  {
+   "name": "Latin American Art Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7647222,
+   "longitude": -80.2311111
+  },
+  {
+   "name": "Sanford L Ziff Jewish Museum of Florida",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7716667,
+   "longitude": -80.1347222
+  },
+  {
+   "name": "Lemur Encounter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7865085,
+   "longitude": -80.174973
+  },
+  {
+   "name": "Bunnies Encounter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7862849,
+   "longitude": -80.1753901
+  },
+  {
+   "name": "Gigant Tortoise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7856261,
+   "longitude": -80.174047
+  },
+  {
+   "name": "Primates",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7867974,
+   "longitude": -80.1747762
+  },
+  {
+   "name": "Flamingo Encounter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.786732,
+   "longitude": -80.1743203
+  },
+  {
+   "name": "Calle Ocho Walk of Fame",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7656438,
+   "longitude": -80.2199727
+  },
+  {
+   "name": "South Pointe Park Pier",
+   "kind": "attraction",
+   "address": "South Pointe Park walk",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7638086,
+   "longitude": -80.1301949
+  },
+  {
+   "name": "Large Jewish Throne",
+   "kind": "attraction",
+   "address": "North Bayshore Drive",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7928594,
+   "longitude": -80.1856214
+  },
+  {
+   "name": "Street Art",
+   "kind": "attraction",
+   "address": "Northeast 1st Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7914294,
+   "longitude": -80.1926895
+  },
+  {
+   "name": "Serpentarium",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7870726,
+   "longitude": -80.1759606
+  },
+  {
+   "name": "Mindy Solomon Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8524163,
+   "longitude": -80.1926782
+  },
+  {
+   "name": "Miami seaplane tour",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7466736,
+   "longitude": -80.1779538
+  },
+  {
+   "name": "Mildred and Claude Pepper Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.774401,
+   "longitude": -80.185476
+  },
+  {
+   "name": "Lik Gallery",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7907881,
+   "longitude": -80.135759
+  },
+  {
+   "name": "Calle Ocho Walk of Fame. West.",
+   "kind": "attraction",
+   "address": "Southwest 8th Street",
+   "website": "",
+   "phone": "",
+   "latitude": 25.765556,
+   "longitude": -80.2223402
+  },
+  {
+   "name": "Miami Riverwalk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7689462,
+   "longitude": -80.1958978
+  },
+  {
+   "name": "Royal Caribbean Port",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7723009,
+   "longitude": -80.1590068
+  },
+  {
+   "name": "South Pointe Park Lighthouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7668734,
+   "longitude": -80.1366638
+  },
+  {
+   "name": "MSC Cruises Port",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7704877,
+   "longitude": -80.1551087
+  },
+  {
+   "name": "Ichimura Miami Japanese Garden",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7835874,
+   "longitude": -80.1735303
+  },
+  {
+   "name": "Miami Design District",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.813414,
+   "longitude": -80.19342
+  },
+  {
+   "name": "Tour Boat Boarding",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7782099,
+   "longitude": -80.1861767
+  },
+  {
+   "name": "Historic Virginia Key Beach Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7348701,
+   "longitude": -80.1575286
+  },
+  {
+   "name": "Fossilized Reef View",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7263608,
+   "longitude": -80.1484241
+  },
+  {
+   "name": "Española way",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7868393,
+   "longitude": -80.1353227
+  },
+  {
+   "name": "Lock & Load Miami Range",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8015043,
+   "longitude": -80.1945494
+  },
+  {
+   "name": "Julia B. Tuttle's Homestead",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7709148,
+   "longitude": -80.1923196
+  },
+  {
+   "name": "Carnival Cruise",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7776866,
+   "longitude": -80.1734911
+  },
+  {
+   "name": "MSC Cruises",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7743163,
+   "longitude": -80.1648222
+  },
+  {
+   "name": "Art @ The Citadel",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.8521939,
+   "longitude": -80.1932514
+  },
+  {
+   "name": "the orb",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7865081,
+   "longitude": -80.1300803
+  },
+  {
+   "name": "Norwegian Cruise Line",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7747237,
+   "longitude": -80.1657167
+  },
+  {
+   "name": "Impression Group South Inc",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.767508,
+   "longitude": -80.134333
+  },
+  {
+   "name": "Insegna LITTLE HAVANA",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7653687,
+   "longitude": -80.2377228
+  },
+  {
+   "name": "Norwegian Port",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 25.7735533,
+   "longitude": -80.1631495
+  }
+ ]
+}

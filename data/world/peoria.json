@@ -1,0 +1,921 @@
+{
+ "city": "Peoria",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.7152,
+ "longitude": -89.5892,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Peoria Marriott Pere Marquette Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Main Street, 61602, Peoria",
+   "url": "https://www.marriott.com/hotels/travel/piamc-peoria-marriott-pere-marquette/"
+  },
+  {
+   "name": "Four Points by Sheraton Peoria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Hamilton Boulevard, 61602, Peoria",
+   "url": "https://www.marriott.com/hotels/travel/piafp-four-points-peoria/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Eastlight Court, 61611, East Peoria",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-east-peoria/best-western-plus-peoria/propertyCode.14202.html"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1928 West War Memorial Drive, 61614, Peoria",
+   "url": "https://www.marriott.com/piacy"
+  },
+  {
+   "name": "Baymont Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2002 West War Memorial Drive, 61614, Peoria",
+   "url": "https://www.wyndhamhotels.com/baymont/peoria-illinois/baymont-inn-and-suites-peoria/overview"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2000 West War Memorial Drive, 61614, Peoria",
+   "url": "https://www.marriott.com/piail"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5309 W. Landens Way, 61615, Peoria",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-peoria-il"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Bass Pro Drive, 61611, East Peoria",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/east-peoria/piaep/hoteldetail"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Eastlight Court, 61611, East Peoria",
+   "url": "https://www.marriott.com/en-us/hotels/piape-fairfield-inn-and-suites-peoria-east/overview/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Conference Center Drive, 61611, East Peoria",
+   "url": "https://www.hilton.com/en/hotels/piaeses-embassy-suites-east-peoria-riverfront-hotel-and-conference-center/"
+  },
+  {
+   "name": "Comfort Suites Peoria I-74",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1812 West War Memorial Drive, 61614-6728, Peoria",
+   "url": "https://www.choicehotels.com/illinois/washington/sleep-inn-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Peoria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1816 West War Memorial Drive, 61614, Peoria",
+   "url": "https://www.wyndhamhotels.com/super-8/peoria-illinois/super-8-peoria/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Peoria East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "725 Taylor Street, 61611, East Peoria",
+   "url": "https://www.wyndhamhotels.com/super-8/east-peoria-illinois/super-8-peoria-east/overview"
+  },
+  {
+   "name": "Staybridge Suites Peoria Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 West Romeo B Garrett Avenue, 61605, Peoria",
+   "url": "https://www.ihg.com/staybridge/hotels/us/en/peoria/piadt/hoteldetail"
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "104 West Camp Street, 61611, East Peoria",
+   "url": "https://www.redlion.com/americas-best-value-inn/il/east-peoria/americas-best-value-inn-east-peoria"
+  },
+  {
+   "name": "Stoney Creek Hotel Peoria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Mariners Way, 61611, East Peoria",
+   "url": "https://www.stoneycreekhotels.com/hotel/peoria/"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1822 West War Memorial Drive, 61614",
+   "url": "https://www.wyndhamhotels.com/travelodge/peoria-illinois/travelodge-peoria/overview"
+  },
+  {
+   "name": "Peoria Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2701 West Lake Avenue, 61615, Peoria",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2726 West Lake Avenue, 61615, Peoria",
+   "url": ""
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4244 North Brandywine Drive, 61614, Peoria",
+   "url": ""
+  },
+  {
+   "name": "Par-A-Dice Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11 Winners Way, 61611, East Peoria",
+   "url": ""
+  },
+  {
+   "name": "Mark Twain Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 Northeast Adams Street, 61602, Peoria",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5300 West Landens Way, 61615, Peoria",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Holiday Street, 61611, East Peoria",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Peoria",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Par-A-Dice Casino Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Rhythm Kitchen Music Cafe",
+   "cuisines": [
+    "Burger",
+    "Grill",
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "305 Southwest Water Street, 61602, Peoria",
+   "website": "https://rhythmkitchenmusiccafe.com"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "600 Riverside Drive, 61611, East Peoria",
+   "website": "https://www.texasroadhouse.com/locations/131-east-peoriail"
+  },
+  {
+   "name": "Blue Duck Barbecue Tavern",
+   "cuisines": [
+    "Barbecue",
+    "Salad",
+    "Soup",
+    "Sandwich",
+    "Chicken",
+    "Pork",
+    "Tacos",
+    "Beer",
+    "Wine"
+   ],
+   "address": "212 Southwest Water Street, 61602, Peoria",
+   "website": "https://www.blueduckbarbecue.com/"
+  },
+  {
+   "name": "Childers Eatery Junction City",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5805 North Humboldt Avenue, 61614, Peoria",
+   "website": "https://childerseatery.com/locations/junction-city/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1200 West Main Street, 61606, Peoria",
+   "website": "https://locations.pizzahut.com/il/peoria/1200-w-main-st"
+  },
+  {
+   "name": "Asia Grill",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "5832 North Knoxville Avenue, 61614, Peoria",
+   "website": "https://www.asiagrillpeoriail.com/"
+  },
+  {
+   "name": "Hacienda el Mirador",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5805 North Humboldt Avenue, 61614, Peoria",
+   "website": "https://www.haciendaelmiradorpeoria.com/"
+  },
+  {
+   "name": "Herold's Pizza Oven",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3821 North Sterling Avenue, 61615, Peoria",
+   "website": "https://tavern41pizza.com/"
+  },
+  {
+   "name": "Bay Leaf: Indian Restaurant and Bar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "316 Southwest Washington Street, 61602",
+   "website": "https://www.bayleafpeoria.com"
+  },
+  {
+   "name": "BrightSide Kitchen",
+   "cuisines": [
+    "Chicken",
+    "Ramen",
+    "Bagel"
+   ],
+   "address": "106 East McClure Avenue, 61603, Peoria",
+   "website": "https://www.brightside.kitchen/"
+  },
+  {
+   "name": "Thyme Kitchen + Craft Beer",
+   "cuisines": [
+    "Sandwich",
+    "Salad",
+    "Soup",
+    "Beer"
+   ],
+   "address": "736 Southwest Washington Street, 61602, Peoria",
+   "website": "http://thymepeoria.com/"
+  },
+  {
+   "name": "Eggcelent Cafe",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "322 West Washington Street, 61611, East Peoria",
+   "website": "https://www.eggcellentcafe309.com/"
+  },
+  {
+   "name": "LaGondola & Leonardo's",
+   "cuisines": [
+    "Sandwich",
+    "Pizza",
+    "Italian"
+   ],
+   "address": "700 East War Memorial Drive, 61614, Peoria",
+   "website": "https://www.peorialagondola.com/"
+  },
+  {
+   "name": "Sugar Wood Fired Bistro",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Wine",
+    "Beer"
+   ],
+   "address": "826 Southwest Adams Street, 61602, Peoria",
+   "website": "https://sugarpeoria.com/"
+  },
+  {
+   "name": "Thanh Linh Restaurant",
+   "cuisines": [
+    "Oriental",
+    "International",
+    "Coffee Shop",
+    "Asian",
+    "Chinese",
+    "Chicken",
+    "Vietnamese",
+    "Thai"
+   ],
+   "address": "1209 West Main Street, 61606, Peoria",
+   "website": "https://m.facebook.com/ThanhLinhVietnameseRestaurant"
+  },
+  {
+   "name": "Jim's Steakhouse",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "110 Southwest Jefferson Avenue, 61602, Peoria",
+   "website": "https://jimssteakhouse.net/"
+  },
+  {
+   "name": "El Taco Loco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4325 North Sheridan Road, 61614, Peoria",
+   "website": "https://eltacolocotogo.com/"
+  },
+  {
+   "name": "Sharkey's",
+   "cuisines": [
+    "Chicken",
+    "Fish",
+    "Seafood",
+    "Gyros"
+   ],
+   "address": "3108 North Sterling Avenue, 61604, Peoria",
+   "website": "https://www.sharkeysfishchicken.com/"
+  },
+  {
+   "name": "Casa Agave",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4542 North Prospect Road, 61616",
+   "website": "https://www.casaagaveheights.com/"
+  },
+  {
+   "name": "Alexander's Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "100 Alexander Avenue, 61603, Peoria",
+   "website": "https://alexanderssteak.com/"
+  },
+  {
+   "name": "El Habanero Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "823 Northeast Jefferson Avenue, 61603",
+   "website": "https://elhabaneromexicanstreetfoodil.com/"
+  },
+  {
+   "name": "Los Jimadores",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1200 West Main Street, 61606, Peoria",
+   "website": "https://jimadormexican.com/"
+  },
+  {
+   "name": "Hokkaido Restaurant",
+   "cuisines": [
+    "Japanese",
+    "Thai",
+    "Chinese"
+   ],
+   "address": "3311 North University Street",
+   "website": "https://hokkaidores.com/"
+  },
+  {
+   "name": "Obed & Isaac's",
+   "cuisines": [
+    "American",
+    "Beer"
+   ],
+   "address": "",
+   "website": "https://www.connshg.com/obed-and-isaacs/peoria"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://locations.chuckecheese.com/us/il/peoria/2601-w.-lake-ave"
+  },
+  {
+   "name": "Steak & Fries",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.steakandfriespeoria.com/"
+  },
+  {
+   "name": "Hoops Pub & Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "http://www.hoopspubandpizza.com/index.php"
+  },
+  {
+   "name": "Chef Moussa",
+   "cuisines": [
+    "American",
+    "Lebanese",
+    "Mediterranean"
+   ],
+   "address": "201 East Lake Avenue, 61614, Peoria",
+   "website": ""
+  },
+  {
+   "name": "Logan's Roadhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "240 Conference Center Drive, 61611, East Peoria",
+   "website": ""
+  },
+  {
+   "name": "William B’s Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "21 Blackjack Boulevard, East Peoria",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Cotorriza",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "712 East War Memorial Drive",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "833 West Camp Street",
+   "website": ""
+  },
+  {
+   "name": "Eat and evolve",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "5832 North Knoxville Avenue",
+   "website": ""
+  },
+  {
+   "name": "Golden Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3311 North Sterling Avenue",
+   "website": ""
+  },
+  {
+   "name": "Coco's Tacos Mexican Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2626 North Sheridan Road, 61604",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Wall Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1219 West Main Street, Peoria",
+   "website": ""
+  },
+  {
+   "name": "Craft 309 Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "61602",
+   "website": ""
+  },
+  {
+   "name": "El Mexicano Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jonah's Seafood House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushigawa",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Southern Style Fish & Chicken",
+   "cuisines": [
+    "Chicken",
+    "Fish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cyd's Grill & Star Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Ko",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lorena's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Twisted Pasta",
+   "cuisines": [],
+   "address": "456 Fulton Street, 61602, Peoria",
+   "website": "https://twistedpasta.org/"
+  },
+  {
+   "name": "The Queen of Squash",
+   "cuisines": [],
+   "address": "1108 West Glen Avenue, 61614, Peoria",
+   "website": "https://thequeenofsquash.com/"
+  },
+  {
+   "name": "Haddad's Resturant",
+   "cuisines": [],
+   "address": "1010 West Main Street, 61606, Peoria",
+   "website": "http://www.haddadsdowntownil.com/"
+  },
+  {
+   "name": "Smokin Notes BBQ",
+   "cuisines": [],
+   "address": "400 Riverside Drive, 61611",
+   "website": "http://smokennotesbarbeque.com"
+  },
+  {
+   "name": "Insomnia Cookies",
+   "cuisines": [],
+   "address": "1200 West Main Street, 61606, Peoria",
+   "website": ""
+  },
+  {
+   "name": "KanPai Ayce Sushi",
+   "cuisines": [],
+   "address": "714 West Lake Avenue, 61614, Peoria",
+   "website": ""
+  },
+  {
+   "name": "Cyd's Take Away Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jerusalem Restaurant",
+   "cuisines": [],
+   "address": "2027 West Farmington Road",
+   "website": ""
+  },
+  {
+   "name": "A Matter of Taste Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bloody Mary Brunch",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "John C. Flanagan House Museum",
+   "kind": "museum",
+   "address": "942 Northeast Glen Oak Avenue, 61603, Peoria",
+   "website": "https://www.peoriahistoricalsociety.com/houses",
+   "phone": "",
+   "latitude": 40.7045188,
+   "longitude": -89.5854851
+  },
+  {
+   "name": "Pettingill-Morron House",
+   "kind": "museum",
+   "address": "1212 West Moss Avenue, 61606, Peoria",
+   "website": "https://www.peoriahistoricalsociety.com/houses",
+   "phone": "",
+   "latitude": 40.6939896,
+   "longitude": -89.6118522
+  },
+  {
+   "name": "Peoria Riverfront Museum",
+   "kind": "museum",
+   "address": "222 Southwest Washington Street, 61602, Peoria",
+   "website": "https://www.peoriariverfrontmuseum.org/",
+   "phone": "+1 309-686-7000",
+   "latitude": 40.6892327,
+   "longitude": -89.5899218
+  },
+  {
+   "name": "Fon du Lac Farm Park & Petting Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "https://www.fondulacpark.com/facilities/fondulac-farm-park/",
+   "phone": "",
+   "latitude": 40.6627453,
+   "longitude": -89.537483
+  },
+  {
+   "name": "Peoria Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7174813,
+   "longitude": -89.5737857
+  },
+  {
+   "name": "Peoria PlayHouse Children's Museum",
+   "kind": "museum",
+   "address": "2218 North Prospect Road, 61603, Peoria",
+   "website": "https://peoriaplayhouse.org/",
+   "phone": "+1 309-323-6900",
+   "latitude": 40.7146501,
+   "longitude": -89.5733561
+  },
+  {
+   "name": "The Doug Oberhelman Caterpillar Visitors Center",
+   "kind": "attraction",
+   "address": "110 Southwest Washington Street, 61602, Peoria",
+   "website": "https://www.caterpillar.com/en/company/visitors-center.html",
+   "phone": "+1-309-675-0606",
+   "latitude": 40.6900517,
+   "longitude": -89.5886317
+  },
+  {
+   "name": "African American Hall of Fame",
+   "kind": "museum",
+   "address": "309 South DuSable Street, 61605, Peoria",
+   "website": "https://aahfmpeoria.org/",
+   "phone": "+1-309-673-2206",
+   "latitude": 40.6854172,
+   "longitude": -89.6162119
+  },
+  {
+   "name": "Luthy Botanical Gardens greenhouse",
+   "kind": "attraction",
+   "address": "2520 North Prospect Road, 61603, Peoria",
+   "website": "https://peoriaparks.org/facility/luthy/",
+   "phone": "+1 309-686-3362",
+   "latitude": 40.7185312,
+   "longitude": -89.5751838
+  },
+  {
+   "name": "Arts Partners",
+   "kind": "gallery",
+   "address": "706 West Main Street",
+   "website": "https://artspartners.net/",
+   "phone": "",
+   "latitude": 40.6995517,
+   "longitude": -89.6039015
+  },
+  {
+   "name": "Peoria Heights Observation Tower",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7469997,
+   "longitude": -89.57482
+  },
+  {
+   "name": "Farmdale Reservoir Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.672935,
+   "longitude": -89.5023966
+  },
+  {
+   "name": "Fondulac Drive Lookout 1",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6705422,
+   "longitude": -89.5699383
+  },
+  {
+   "name": "Studios on Sheridan",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6991417,
+   "longitude": -89.604289
+  },
+  {
+   "name": "Kartville",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6989614,
+   "longitude": -89.6449385
+  }
+ ]
+}

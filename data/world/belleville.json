@@ -1,0 +1,465 @@
+{
+ "city": "Belleville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.5149,
+ "longitude": -89.9804,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "136 Regency Park Drive, 62269, O'Fallon",
+   "url": "https://www.wyndhamhotels.com/laquinta/o-fallon-illinois/la-quinta-inn-suites-o-fallon-il-st-louis/overview"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 Ludwig Drive, 62208, Fairview Heights",
+   "url": "https://hamptoninn3.hilton.com/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "445 Regency Park Drive, 62269, O'Fallon",
+   "url": "https://www.marriott.com/stlto"
+  },
+  {
+   "name": "Super 8 by Wyndham Fairview Heights-St. Louis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "45 Ludwig Drive, 62208, Fairview Heights",
+   "url": "https://www.wyndhamhotels.com/super-8/fairview-heights-illinois/super-8-fairview-heights-st-louis/overview"
+  },
+  {
+   "name": "Baymont O'Fallon St. Louis Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1320 Park Plaza Drive, 62269, O'Fallon",
+   "url": "https://www.wyndhamhotels.com/baymont/ofallon-illinois/baymont-inn-and-suites-ofallon-st-louis-area/overview"
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 Venita Drive, 62269, O Fallon",
+   "url": "https://www.choicehotels.com/missouri/saint-louis/quality-inn-hotels"
+  },
+  {
+   "name": "Super 8 - Belleville, IL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 East Main Street, 62220, Belleville",
+   "url": "https://www.wyndhamhotels.com/super-8/belleville-illinois/super-8-belleville-il-st-louis-area/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites O’Fallon, IL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1180 Central Park Drive, 62269, O'Fallon",
+   "url": "https://www.marriott.com/stlfo"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "137 Ludwig Drive, 62208, Fairview Heights",
+   "url": "https://www.choicehotels.com/de-de/illinois/fairview-heights/comfort-suites-hotels/il244"
+  },
+  {
+   "name": "Drury Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1118 Central Park Drive, 62269",
+   "url": "https://www.druryhotels.com/locations/st-louis-mo/drury-inn-and-suites-st-louis-ofallon-il"
+  },
+  {
+   "name": "Scott Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1510 Beech St, 62225",
+   "url": "https://www.375fss.com/scott_inn.htm"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 Ludwig Drive, 62208, Fairview Heights",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1332 Park Plaza Drive, 62269, O'Fallon",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn St. Louis-Fairview Heights",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "313 Salem Place, 62208, Fairview Heights",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn Fairview Heights/St. Louis East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "305 Salem Place, 62208, Fairview Heights",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3396 Greenmount Crossing Drive, 62269",
+   "url": ""
+  },
+  {
+   "name": "Best Royal Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1438 Centreville Avenue, Belleville",
+   "url": ""
+  },
+  {
+   "name": "Trailway Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10039 Lincoln Trail, 62208",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Suburban Extended Stay Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Belleville Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cholula's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1500 North Illinois Street, 62226, Swansea",
+   "website": "https://cholulasmexicanrestaurant.webnode.page/"
+  },
+  {
+   "name": "Main Street Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1601 West Main Street, 62220, Belleville",
+   "website": "https://www.bellevilleeats.com/"
+  },
+  {
+   "name": "Casa Maria Mexican Grill",
+   "cuisines": [
+    "Mexican",
+    "Barbecue"
+   ],
+   "address": "100 North High Street, 62220, Belleville",
+   "website": "https://www.casamariamex.com/"
+  },
+  {
+   "name": "Papa Vito's",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "318 East Washington Street, 62220, Belleville",
+   "website": "https://www.mypapavitos.com/location/downtown-belleville/"
+  },
+  {
+   "name": "India's Oven",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2625 North Illinois Street, 62226, Swansea",
+   "website": "http://www.indiasovens.com/"
+  },
+  {
+   "name": "Beast Craft BBQ Company",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "20 South Belt West, 62220, Belleville",
+   "website": "https://beastcraftbbq.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/il/swansea/2624-n.-illinois-street-81015"
+  },
+  {
+   "name": "The B's Family Kitchen",
+   "cuisines": [
+    "American",
+    "Fish",
+    "Chicken",
+    "Burger"
+   ],
+   "address": "216 Service Street, 62221, Swansea",
+   "website": "https://www.instagram.com/the_bs_family_kitchen_/"
+  },
+  {
+   "name": "Clara B's Kitchen Table",
+   "cuisines": [
+    "American"
+   ],
+   "address": "732 South Illinois Street, 62220, Belleville",
+   "website": "https://www.clarabs.com/"
+  },
+  {
+   "name": "Steak Out",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2013 North 17th Street, 62226, Belleville",
+   "website": ""
+  },
+  {
+   "name": "Belleville Pancake House",
+   "cuisines": [
+    "Pancake",
+    "Breakfast"
+   ],
+   "address": "3605 North Belt West, 62226, Belleville",
+   "website": ""
+  },
+  {
+   "name": "Cutter's",
+   "cuisines": [
+    "Burger",
+    "Pizza",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Margaritas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dos Gorditos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Easy",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Silvercreek Saloon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Li Chinese Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saint Louis Bread Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Green Root Gallery",
+   "kind": "gallery",
+   "address": "125 East Main Street, 62220-1606, Belleville",
+   "website": "https://greenrootgallery.com/",
+   "phone": "+1-618-510-9116",
+   "latitude": 38.5137245,
+   "longitude": -89.9816941
+  },
+  {
+   "name": "St. Clair County Historical Society",
+   "kind": "museum",
+   "address": "701 East Washington Street, 62220, Belleville",
+   "website": "http://stcchs.org/",
+   "phone": "",
+   "latitude": 38.5127777,
+   "longitude": -89.9763461
+  },
+  {
+   "name": "Emma Kunz County Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.emma-kunz.com/en/museum/",
+   "phone": "",
+   "latitude": 38.5091946,
+   "longitude": -89.9769576
+  },
+  {
+   "name": "Labor & Industrial Museum",
+   "kind": "museum",
+   "address": "123 North Church Street, 62220, Belleville",
+   "website": "",
+   "phone": "",
+   "latitude": 38.5154162,
+   "longitude": -89.9803788
+  }
+ ]
+}

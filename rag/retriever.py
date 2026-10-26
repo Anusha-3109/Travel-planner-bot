@@ -121,5 +121,5 @@ def retrieve(question: str, category: str | None = None, city: str | None = None
 
 def format_documents(documents: list[Document]) -> str:
     if not documents:
-        return "No matching places were found in the TravelPlanner data."
+        return "No matching places were found in the snapshot data."
     return "\n\n".join(f"--- Source: [{d.metadata.get('source')}] ---\n{d.page_content}" for d in documents)

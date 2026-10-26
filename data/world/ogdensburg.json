@@ -1,0 +1,180 @@
+{
+ "city": "Ogdensburg",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 44.6978,
+ "longitude": -75.4944,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Ships Anchor Inn B & B",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.shipsanchorinn.com/"
+  },
+  {
+   "name": "Bridgewaters Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2702 County Road 2, K0E 1T1, Johnstown",
+   "url": ""
+  },
+  {
+   "name": "Johnstown Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1843 County Road 2, K0E 1T0",
+   "url": ""
+  },
+  {
+   "name": "Colonel's Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "408 East Street",
+   "url": ""
+  },
+  {
+   "name": "Dewar's Inn on the River",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Big Cheese Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "701 Canton St, 13669, Ogdensburg",
+   "website": "https://m.facebook.com/@bigcheesepizzany/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1010 Patterson Street, 13669, Ogdensburg",
+   "website": "https://locations.pizzahut.com/ny/ogdensburg/1010-patterson-st"
+  },
+  {
+   "name": "Wing House",
+   "cuisines": [
+    "Burger",
+    "Chicken"
+   ],
+   "address": "298 King Street West, K0E 1T0",
+   "website": "https://winghouse.ca/"
+  },
+  {
+   "name": "Dragon Garden Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wok House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tim's Fish and Chips",
+   "cuisines": [
+    "Fish And Chips"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nick's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bobby's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Prescott Railway Station",
+   "kind": "museum",
+   "address": "820 St Lawrence Street, Prescott",
+   "website": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=498",
+   "phone": "",
+   "latitude": 44.711057,
+   "longitude": -75.5246971
+  },
+  {
+   "name": "Battle of the Windmill National Historic Site",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.7209932,
+   "longitude": -75.4874506
+  },
+  {
+   "name": "Homewood Museum",
+   "kind": "museum",
+   "address": "1372 County Road 2",
+   "website": "https://www.heritagetrust.on.ca/properties/homewood-museum",
+   "phone": "",
+   "latitude": 44.6561205,
+   "longitude": -75.5885284
+  },
+  {
+   "name": "Frederick Remington Art Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.698524,
+   "longitude": -75.4931559
+  },
+  {
+   "name": "The Blue Church",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 44.6799855,
+   "longitude": -75.5605909
+  }
+ ]
+}

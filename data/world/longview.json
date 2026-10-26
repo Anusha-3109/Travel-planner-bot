@@ -1,0 +1,722 @@
+{
+ "city": "Longview",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 32.4953,
+ "longitude": -94.7491,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "905 East Hawkins Parkway, 75605, Longview",
+   "url": "https://www.hilton.com/en/hotels/ggggigi-hilton-garden-inn-longview/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "908 East Hawkins Parkway, 75605, Longview",
+   "url": "https://www.wyndhamhotels.com/laquinta/longview-texas/la-quinta-longview-north/overview"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "112 South Access Road, 75603-1700, Longview",
+   "url": "https://www.wyndhamhotels.com/days-inn/longview-texas/days-inn-longview-south/overview"
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3305 North Fourth Street, 75605, Longview",
+   "url": "https://www.marriott.com/lgvfi"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1125 East Hawkins Parkway, 75605, Longview",
+   "url": "https://www.marriott.com/lgvcy"
+  },
+  {
+   "name": "Hampton Inn Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "160 Lucy Drive, 75602, Longview",
+   "url": "https://www.hilton.com/en/hotels/ggglvhx-hampton-longview/"
+  },
+  {
+   "name": "Hampton Inn & Suites Longview North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3044 North Eastman Road, 75605, Longview",
+   "url": "https://www.hilton.com/en/hotels/gggnohx-hampton-suites-longview-north/"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3307 North Fourth Street, 75605, Longview",
+   "url": "https://www.choicehotels.com/texas/marshall/quality-inn-hotels"
+  },
+  {
+   "name": "Hawthorn Suites by Wyndham Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3211 Hotel Way, 75605, Longview",
+   "url": "https://www.wyndhamhotels.com/hawthorn-extended-stay/longview-texas/hawthorn-suites-longview/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Longview/North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "203 North Spur 63, 75601, Longview",
+   "url": "https://www.wyndhamhotels.com/super-8/longview-texas/super-8-longviewdowntown/overview"
+  },
+  {
+   "name": "Best Western Plus Longview - University Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "900 South Access Road, 75602, Longview",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-longview/best-western-plus-longview-university-hotel/propertyCode.44747.html"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Longview South I-20",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "711 North Access Road, 75602, Longview",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/longview/gggna/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Longview/I-20",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3304 South Eastman Road, 75602, Longview",
+   "url": "https://www.wyndhamhotels.com/super-8"
+  },
+  {
+   "name": "Baymont Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "502 South Access Road, 75603, Longview",
+   "url": "https://www.wyndhamhotels.com/baymont/longview-texas/baymont-inn-suites-longview/overview"
+  },
+  {
+   "name": "Quality Inn & Suites Longview I-20",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "803 North Access Road, 75602, Longview",
+   "url": "https://www.wyndhamhotels.com/microtel"
+  },
+  {
+   "name": "Tru by Hilton Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3037 North Eastman Road, 75605, Longview",
+   "url": ""
+  },
+  {
+   "name": "Wingate",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "431 East Loop 281, 75605, Longview",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Longview - North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Tuttle Circle, 75605, Longview",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "419 North Spur 63, 75601, Longview",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 North Spur 63, 75601, Longview",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "615 City Center Way, 75605, Longview",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2700 North Eastman Road, 75605, Longview",
+   "url": ""
+  },
+  {
+   "name": "America's Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3100 Estes Parkway, 75602, Longview",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3103 Estes Parkway, 75602, Longview",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn & Suites Longview South I-20",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "707 North Access Road, 75602, Longview",
+   "url": ""
+  },
+  {
+   "name": "Majestic Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1409 East Marshall Avenue, 75601, Longview",
+   "url": ""
+  },
+  {
+   "name": "Guest Inn Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "605 North Access Road, 75602, Longview",
+   "url": ""
+  },
+  {
+   "name": "Relax Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2314 East US Highway 80, 75693, White Oak",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Longview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Texas Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "El Rincon",
+   "cuisines": [
+    "Mexican",
+    "Tex-Mex"
+   ],
+   "address": "1709 South Mobberly Avenue, 75602, Longview",
+   "website": "https://el-rincon-latin-american-restaurant.business.site/"
+  },
+  {
+   "name": "Judd's Downtown",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Seafood",
+    "Steak",
+    "Italian",
+    "Mexican",
+    "Dessert",
+    "Bar"
+   ],
+   "address": "117 East Tyler Street, 75601, Longview",
+   "website": "https://www.facebook.com/juddsdowntown/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2106 Judson Road, 75605, Longview",
+   "website": "https://locations.pizzahut.com/tx/longview/2106-judson-road"
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1903 West Loop 281, 75604, Longview",
+   "website": "https://dickeys.com"
+  },
+  {
+   "name": "Goung Zhou Asian Bistro & Sushi Bar",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2002 Judson Road, 75605, Longview",
+   "website": "https://gzasianbistro.com/"
+  },
+  {
+   "name": "Pizza King",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1100 East Marshall Avenue, 75601, Longview",
+   "website": "https://www.pizzaking1965.com/"
+  },
+  {
+   "name": "McCann Street Bar & Grill",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "1217 McCann Road, 75601, Longview",
+   "website": "https://mccannst.com/"
+  },
+  {
+   "name": "The Jalapeno Tree",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "508 North Eastman Road, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Ramen Saikou",
+   "cuisines": [
+    "Japanese",
+    "Noodle"
+   ],
+   "address": "1426 McCann Road, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Pupusas El Torogoz",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "1707 East Marshall Avenue, 75601",
+   "website": ""
+  },
+  {
+   "name": "Pacifico Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1023 East Marshall Avenue, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Jucys Hamburgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2701 North Eastman Road, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Tomboni's Bistro",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1811 Judson Road, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Mi Casita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "324 North Spur 63, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Brenda's Good Eats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1809 West Loop 281, 75604, Longview",
+   "website": ""
+  },
+  {
+   "name": "La Carreta Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1809 West Loop 281, 75604, Longview",
+   "website": ""
+  },
+  {
+   "name": "Bodacious Barbecue",
+   "cuisines": [
+    "Regional",
+    "Barbecue"
+   ],
+   "address": "2227 South Mobberly Avenue, 75602, Longview",
+   "website": ""
+  },
+  {
+   "name": "El Taquito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1010 South Mobberly Avenue, 75602, Longview",
+   "website": ""
+  },
+  {
+   "name": "Lil Thai House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "212 North Fredonia Street, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Bodacious Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1300 West Loop 281, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "China King",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "440 West Loop 281, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Fisherman's Market Restaurant & Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "116 Johnston Street, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Sumo Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1301 McCann Road, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Chen's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1021 McCann Road, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "The Butcher Shop",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "102 Lehigh Drive, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "New Hupei Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "421 North Spur 63, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Amigos Buffet",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2511 Judson Road, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Carlito's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2517 Judson Road, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Magic China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1903 Gilmer Road, 75604, Longview",
+   "website": ""
+  },
+  {
+   "name": "El Sambero",
+   "cuisines": [
+    "Tex-Mex",
+    "Regional",
+    "Mexican"
+   ],
+   "address": "2005 Toler Road, 75604, Longview",
+   "website": ""
+  },
+  {
+   "name": "Taco's Lucerito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2065 South High Street, 75602, Longview",
+   "website": ""
+  },
+  {
+   "name": "Cicis",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Posados",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fun Noodle Bar",
+   "cuisines": [
+    "Chinese",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Corner Cafe",
+   "cuisines": [],
+   "address": "Glaske Drive, 75602, Longview",
+   "website": ""
+  },
+  {
+   "name": "Doshirock Sushi, Teriyaki & Wok",
+   "cuisines": [],
+   "address": "105 Ruthlynn Drive, 75605, Longview",
+   "website": ""
+  },
+  {
+   "name": "Cotton Patch",
+   "cuisines": [],
+   "address": "1228 McCann Road, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Quenchies Shaved Ice Beverages",
+   "cuisines": [],
+   "address": "1905 West Loop 281, 75604, Longview",
+   "website": ""
+  },
+  {
+   "name": "It'll Do Deli",
+   "cuisines": [],
+   "address": "716 West Marshall Avenue, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Tia Juanita's Fish Camp",
+   "cuisines": [],
+   "address": "1501 East Marshall Avenue, 75601, Longview",
+   "website": ""
+  },
+  {
+   "name": "Hot Dog Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Longview Museum of Fine Arts",
+   "kind": "museum",
+   "address": "215 East Tyler Street, 75601, Longview",
+   "website": "https://www.lmfa.org/",
+   "phone": "",
+   "latitude": 32.4948178,
+   "longitude": -94.7377956
+  },
+  {
+   "name": "Gregg County Historical Museum",
+   "kind": "museum",
+   "address": "214 North Fredonia Street, 75601, Longview",
+   "website": "https://gregghistorical.org/",
+   "phone": "+1 903 753 5840",
+   "latitude": 32.4953182,
+   "longitude": -94.7381549
+  },
+  {
+   "name": "Longview World of Wonders",
+   "kind": "museum",
+   "address": "112 East Tyler Street, 75601, Longview",
+   "website": "https://longviewwow.org/",
+   "phone": "+1 903 212 4969",
+   "latitude": 32.4946869,
+   "longitude": -94.7397074
+  },
+  {
+   "name": "Ann Lacy Crain Exhibit Center",
+   "kind": "museum",
+   "address": "218 North Fredonia Street, 75601, Longview",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4954132,
+   "longitude": -94.7381008
+  },
+  {
+   "name": "Equipment Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4666077,
+   "longitude": -94.7291212
+  }
+ ]
+}

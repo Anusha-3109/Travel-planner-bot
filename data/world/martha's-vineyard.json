@@ -1,0 +1,371 @@
+{
+ "city": "Martha's Vineyard",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.3911,
+ "longitude": -70.5501,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "HI - Martha's Vineyard",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 Edgartown Road, West Tisbury",
+   "url": "https://www.hiusa.org/find-hostels/massachusetts/vineyard-haven-525-edgartown-w-tisbury-road"
+  },
+  {
+   "name": "Narragansett House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "46 Narragansett Avenue, 02557, Oak Bluffs",
+   "url": "https://narragansetthouse.com/"
+  },
+  {
+   "name": "Oak Bluffs Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "64 Circuit Avenue, 02557, Oak Bluffs",
+   "url": "https://oakbluffsinn.com/"
+  },
+  {
+   "name": "Dockside Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9 Circuit Avenue Extension, 02557",
+   "url": "http://www.vineyardinns.com"
+  },
+  {
+   "name": "The Harborside Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3 South Water Street, 02539, Edgartown",
+   "url": ""
+  },
+  {
+   "name": "Harbor View",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Mansion House Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Harbor Landing",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Summercamp",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Ginger",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Vineyard Harbor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Look Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Faraway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Edgartown Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "The Square Rigger",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "225 Edgartown-Vineyard Haven Road",
+   "website": "https://squareriggerrestaurant.com/"
+  },
+  {
+   "name": "Wolf’s Den Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "249 Edgartown - Vineyard Haven Road, 02539, Edgartown",
+   "website": ""
+  },
+  {
+   "name": "Edgartown Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seafood Shanty",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "19 Prime",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alchemy",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Port Hunter",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chesca's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atlantic",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Among the Flowers",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rockfish",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Edgartown Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pelican Club",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wharf",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Flying Horses Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4574017,
+   "longitude": -70.5571127
+  },
+  {
+   "name": "Martha's Vineyard Museum",
+   "kind": "museum",
+   "address": "151 Lagoon Pond Road, 02568, Vineyard Haven",
+   "website": "https://mvmuseum.org",
+   "phone": "+1-508-627-4441",
+   "latitude": 41.4492207,
+   "longitude": -70.5997693
+  },
+  {
+   "name": "Vincent House Museum",
+   "kind": "museum",
+   "address": "99 Main Street, 02539, Edgartown",
+   "website": "https://vineyardtrust.org/property/vincent-house-gardens/",
+   "phone": "",
+   "latitude": 41.391165,
+   "longitude": -70.5153156
+  },
+  {
+   "name": "Featherstone Center for the Arts",
+   "kind": "gallery",
+   "address": "30 Featherstone Lane, 02557, Oak Bluffs",
+   "website": "https://www.featherstoneart.org/",
+   "phone": "",
+   "latitude": 41.4244295,
+   "longitude": -70.5981551
+  },
+  {
+   "name": "Cottage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.mvcma.org/museum-gift-shop-1",
+   "phone": "",
+   "latitude": 41.4550141,
+   "longitude": -70.5616021
+  },
+  {
+   "name": "Doctor Daniel Fisher House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://vineyardtrust.org/property/dr-daniel-fisher-house-gardens/",
+   "phone": "",
+   "latitude": 41.3907765,
+   "longitude": -70.5158302
+  },
+  {
+   "name": "The Carnegie Heritage Center",
+   "kind": "museum",
+   "address": "58 North Water Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.3905176,
+   "longitude": -70.5112702
+  },
+  {
+   "name": "Old Schoolhouse Museum and Liberty Pole",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4565008,
+   "longitude": -70.6033617
+  },
+  {
+   "name": "Big Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4161323,
+   "longitude": -70.5488123
+  },
+  {
+   "name": "Tashmoo Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4455138,
+   "longitude": -70.6224063
+  },
+  {
+   "name": "Mariposa Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4547436,
+   "longitude": -70.5589707
+  }
+ ]
+}

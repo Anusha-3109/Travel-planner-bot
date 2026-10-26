@@ -1,0 +1,530 @@
+{
+ "city": "Punta Gorda",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 26.9286,
+ "longitude": -82.0496,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "812 Kings Highway, 33980, Port Charlotte",
+   "url": "https://www.choicehotels.com/florida/port-charlotte/sleep-inn-hotels"
+  },
+  {
+   "name": "SpringHill Suites Punta Gorda Harborside",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Harborside Avenue, 33950, Punta Gorda",
+   "url": "https://www.marriott.com/rswpg"
+  },
+  {
+   "name": "Baymont Punta Gorda Port Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9035 Mac Drive, 33950, Punta Gorda",
+   "url": "https://www.wyndhamhotels.com/baymont/punta-gorda-florida/baymont-inn-and-suites-punta-gorda-port-charlotte/overview"
+  },
+  {
+   "name": "Country Inn & Suites, Port Charlotte, FL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "24244 Corporate Court, 33954, Port Charlotte",
+   "url": "https://www.choicehotels.com/florida/port-charlotte/sleep-inn-hotels"
+  },
+  {
+   "name": "Sleep Inn & Suites Port Charlotte-Punta Gorda",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "806 Kings Highway, Port Charlotte",
+   "url": "https://www.choicehotels.com/florida/port-charlotte/sleep-inn-hotels"
+  },
+  {
+   "name": "Sunseeker Resort Charlotte Harbor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.sunseekerresorts.com/"
+  },
+  {
+   "name": "American Inn Punta Gorda Florida",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10151 Tamiami Trail, 33950, Punta Gorda",
+   "url": ""
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Port Charlotte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4056 Tamiami Trail, 33952, Port Charlotte",
+   "url": ""
+  },
+  {
+   "name": "Four Points by Sheraton Punta Gorda Harborside",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn-Punta Gorda",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1520 Tamiami Trail, 33950, Charlotte Park",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "24100 Beatrix Boulevard",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Punta Gorda",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Punta Gorda",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunnybrook Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "27100 Sunnybrook Road",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1501 South Tamiami Trail, 33950, Punta Gorda",
+   "website": "https://restaurants.ihop.com/en-us/fl/punta-gorda/breakfast-1501-south-tamiami-trail-360089"
+  },
+  {
+   "name": "Leroy's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "201 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://www.leroyspg.com/"
+  },
+  {
+   "name": "Ortigia Cucina & Barl",
+   "cuisines": [
+    "American"
+   ],
+   "address": "212 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://www.ortigiacucina.com/"
+  },
+  {
+   "name": "Pioneers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4560 Tamiami Trail, 33980, Port Charlotte",
+   "website": "https://www.orderpioneerpizza.com/"
+  },
+  {
+   "name": "Manatee's pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "408 Tamiami Trail, 33950, Punta Gorda",
+   "website": "https://manateespizza.webbersaur.us/"
+  },
+  {
+   "name": "Dean's South of the Border",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "130 Tamiami Trail, 33950, Punta Gorda",
+   "website": "https://deanssouthoftheborder.com/"
+  },
+  {
+   "name": "Village Brewhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1200 West Retta Esplanade, Punta Gorda",
+   "website": "https://www.scottysbrewhouse.com/punta-gorda-fl"
+  },
+  {
+   "name": "Harpoon Harry's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1200 West Retta Esplanade, 33950, Punta Gorda",
+   "website": "https://harpoonharrys.com"
+  },
+  {
+   "name": "Nino's Bakery",
+   "cuisines": [
+    "Breakfast",
+    "Sandwich"
+   ],
+   "address": "3078 Cooper Street, 33950, Punta Gorda",
+   "website": "https://ninosbakery.us/"
+  },
+  {
+   "name": "Riviera Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5500 Deltona Drive, 33950, Punta Gorda",
+   "website": "https://rivierabarandgrillpuntagorda.com/"
+  },
+  {
+   "name": "Isabel & Annabel's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "201 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://isabelandannabel.com/"
+  },
+  {
+   "name": "Toula's",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "119 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://www.toulas-restaurant.com/"
+  },
+  {
+   "name": "Beef 'O' Brady's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1105 Taylor Road, 33950, Punta Gorda",
+   "website": "https://www.beefobradys.com/puntagorda"
+  },
+  {
+   "name": "Italia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "127 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://www.italiapg.com/"
+  },
+  {
+   "name": "Laishley Crab House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://laishleycrabhouse.com/"
+  },
+  {
+   "name": "Burg'r Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "317 Tamiami Trail",
+   "website": "https://burgrbarpg.com/"
+  },
+  {
+   "name": "Wood Street Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "221 Wood Street, Punta Gorda",
+   "website": "https://woodstreetgrill.typepad.com/wood_street_grill_restaur/"
+  },
+  {
+   "name": "Leroy's Fish Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "http://www.village-fish-market.com/"
+  },
+  {
+   "name": "THE ISLANDS",
+   "cuisines": [
+    "American",
+    "Sushi"
+   ],
+   "address": "2100 West Retta Esplanade, 33950, Punta Gorda",
+   "website": ""
+  },
+  {
+   "name": "Pizza Gorda",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Taylor Street, 33950, Punta Gorda",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "1451 Tamiami Trail, 33950",
+   "website": ""
+  },
+  {
+   "name": "Downtown Gators",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brooklyn Joe's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wildwood Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "F.M. Don's",
+   "cuisines": [],
+   "address": "201 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://fmdons.com/"
+  },
+  {
+   "name": "The Belgian Monk",
+   "cuisines": [],
+   "address": "318 Tamiami Trail, 33950, Punta Gorda",
+   "website": "https://thebelgianmonkpg.com/"
+  },
+  {
+   "name": "River City Grill",
+   "cuisines": [],
+   "address": "131 West Marion Avenue, 33950, Punta Gorda",
+   "website": "https://www.rivercitygrillpg.com/"
+  },
+  {
+   "name": "The Perfect Caper",
+   "cuisines": [],
+   "address": "121 East Marion Avenue, 33950, Punta Gorda",
+   "website": "https://theperfectcaper.com/"
+  },
+  {
+   "name": "Carmelo's Italian Restaurant",
+   "cuisines": [],
+   "address": "321 West Retta Esplanade",
+   "website": "https://www.carmelosristorante.com/"
+  },
+  {
+   "name": "Dock Side Grill",
+   "cuisines": [],
+   "address": "33 Tamiami Trail, 33950, Punta Gorda",
+   "website": "https://www.spinnakerpg.com/"
+  },
+  {
+   "name": "88 Keys",
+   "cuisines": [],
+   "address": "101 East Retta Esplanade, 33950, Punta Gorda",
+   "website": "https://www.88keysflorida.com/"
+  },
+  {
+   "name": "Winesett House",
+   "cuisines": [],
+   "address": "139 West Marion Avenue, 33950, Punta Gorda",
+   "website": ""
+  },
+  {
+   "name": "Sandra's Restaurant",
+   "cuisines": [],
+   "address": "111 Olympia Avenue",
+   "website": ""
+  },
+  {
+   "name": "Elena's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Monty's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Saigon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Smoke House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Captain's Table",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Family Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Florida Military Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://militaryheritagemuseum.org/",
+   "phone": "",
+   "latitude": 26.9290024,
+   "longitude": -82.0598559
+  },
+  {
+   "name": "Blanchard House Museum",
+   "kind": "museum",
+   "address": "406 Dr Martin Luther King Jr Boulevard, Punta Gorda",
+   "website": "http://www.blanchardhousemuseum.org/",
+   "phone": "+1-941-575-7518",
+   "latitude": 26.9361598,
+   "longitude": -82.043871
+  },
+  {
+   "name": "Riverside park public boat launch",
+   "kind": "attraction",
+   "address": "8114 Riverside Drive, 33982",
+   "website": "",
+   "phone": "",
+   "latitude": 26.974211,
+   "longitude": -81.9654824
+  },
+  {
+   "name": "Keystone Gallery",
+   "kind": "gallery",
+   "address": "26300 Airport Road",
+   "website": "",
+   "phone": "",
+   "latitude": 26.9233343,
+   "longitude": -82.0185957
+  },
+  {
+   "name": "Marrage Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.9412921,
+   "longitude": -82.0495998
+  },
+  {
+   "name": "A. C. Freeman House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.9349627,
+   "longitude": -82.0533664
+  },
+  {
+   "name": "Visual Arts Center",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 26.9262274,
+   "longitude": -82.0615379
+  }
+ ]
+}

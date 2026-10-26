@@ -1,0 +1,460 @@
+{
+ "city": "Charlotte Amalie",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 18.341,
+ "longitude": -64.9288,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Bunker Hill Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2307 Commandant Gade, 00802, Charlotte Amalie",
+   "url": "https://www.bunkerhillhotel.com/"
+  },
+  {
+   "name": "The Ritz-Carlton, Saint Thomas",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Westin Beach Resort & Spa at Frenchman's Reef",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5 Estate Bakkeroe",
+   "url": "https://www.marriott.com/en-us/hotels/sttwi-the-westin-beach-resort-and-spa-at-frenchmans-reef/overview/"
+  },
+  {
+   "name": "Water Island Villas",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "73 Main Road, 00802, St Thomas",
+   "url": "https://www.waterislandvillas.com"
+  },
+  {
+   "name": "Crystal Palace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Marriott’s Frenchmen Cove",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Windward Passage Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Paradise Found Villa",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Mafolie Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Island Beachcomber Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Emerald Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Carib Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Point Pleasant Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Elysian Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Inn at Blackbeard's Castle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Magen's Point Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel 1829",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "758 Bar & Restaurant",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "",
+   "website": "https://www.758bar.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Old Stone Farmhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Fast Food",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Heidi's Hilltop Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Rosas Del Cibao",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Veggie Plus",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mafolie Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rancho Latino",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beni Iguana's Sushi Bar & Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sibs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Virgilio's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seaside Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jolly Roger",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Coral World Ocean Park",
+   "kind": "zoo",
+   "address": "6450 Coki Point Road, 00802, St Thomas",
+   "website": "https://www.coralworldvi.com/",
+   "phone": "+1 340 775 1555",
+   "latitude": 18.3494231,
+   "longitude": -64.8641001
+  },
+  {
+   "name": "Magen's Bay Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://magensbayauthority.com/",
+   "phone": "",
+   "latitude": 18.3624264,
+   "longitude": -64.9248831
+  },
+  {
+   "name": "Blackbeard's Castle (99 steps (102) + 35 steps)",
+   "kind": "attraction",
+   "address": "271 Blackbeard's Hill Way",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3438577,
+   "longitude": -64.9295878
+  },
+  {
+   "name": "Brewers Bay Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3428041,
+   "longitude": -64.9772765
+  },
+  {
+   "name": "Lindberg Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3351161,
+   "longitude": -64.9659403
+  },
+  {
+   "name": "Seven Arches Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "www.sevenarchesmuseum.com",
+   "phone": "",
+   "latitude": 18.343567,
+   "longitude": -64.9287562
+  },
+  {
+   "name": "Weibel Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3427968,
+   "longitude": -64.9326561
+  },
+  {
+   "name": "Haagensen House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3435671,
+   "longitude": -64.9301452
+  },
+  {
+   "name": "Hull Bay Beach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3699523,
+   "longitude": -64.9515701
+  },
+  {
+   "name": "The Ring",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3168463,
+   "longitude": -64.9569779
+  },
+  {
+   "name": "St. Thomas Historical Trust Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3418446,
+   "longitude": -64.9285697
+  },
+  {
+   "name": "Drake's Seat",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3529802,
+   "longitude": -64.927014
+  },
+  {
+   "name": "Fort Segarra Tunnel Entrance",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3081892,
+   "longitude": -64.9567477
+  },
+  {
+   "name": "99 Steps (102 w/concrete steps added)",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3427417,
+   "longitude": -64.930141
+  },
+  {
+   "name": "University of the Virgin Islands Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3403004,
+   "longitude": -64.9713573
+  },
+  {
+   "name": "St Thomas Airport Outlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3536616,
+   "longitude": -64.9904533
+  },
+  {
+   "name": "Pirate Treasure Museum",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3338253,
+   "longitude": -64.9186818
+  },
+  {
+   "name": "Tree of Lost Soles",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 18.3179978,
+   "longitude": -64.9514113
+  }
+ ]
+}

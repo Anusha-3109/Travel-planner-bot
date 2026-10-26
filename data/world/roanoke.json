@@ -1,0 +1,1302 @@
+{
+ "city": "Roanoke",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.2715,
+ "longitude": -79.9395,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Affordable Corporate Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 Northern Drive, 24153, Salem",
+   "url": "https://affordablecorporatesuites.net/extended-stay-hotels-salem-va/"
+  },
+  {
+   "name": "Spark by Hilton Roanoke Civic Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "815 Gainsboro Road Northwest, 24016, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roacipe-spark-roanoke-civic-center/"
+  },
+  {
+   "name": "Super 8 Roanoke",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6616 Thirlane Road Northwest, 24019, Roanoke",
+   "url": "http://www.super8.com/hotels/virginia/roanoke/super-8-roanoke-va/hotel-overview"
+  },
+  {
+   "name": "Residence Inn Roanoke Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3305 Ordway Drive, 24017, Roanoke",
+   "url": "https://www.marriott.com/en-us/hotels/roari-residence-inn-roanoke-airport/overview/"
+  },
+  {
+   "name": "Courtyard Roanoke Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3301 Ordway Drive, 24017, Roanoke",
+   "url": "https://www.marriott.com/en-us/hotels/roacy-courtyard-roanoke-airport/overview/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Roanoke",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4830 Valley View Boulevard Northwest, 24012, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roavvht-home2-suites-roanoke/"
+  },
+  {
+   "name": "Hampton Inn & Suites Roanoke - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "27 Church Avenue Southeast, 24011, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roardhx-hampton-suites-roanoke-downtown/"
+  },
+  {
+   "name": "Hampton Inn Roanoke / Hollins / I-81",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7922 Plantation Road, 24019, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roahhhx-hampton-roanoke-hollins-i-81/"
+  },
+  {
+   "name": "Hampton Inn & Suites Roanoke Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5033 Valley View Boulevard North, 24012, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roaaphx-hampton-suites-roanoke-airport/"
+  },
+  {
+   "name": "Hampton Inn Salem East-Electric Road",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1886 Electric Road, 24153, Salem",
+   "url": "https://www.hilton.com/en/hotels/saevahx-hampton-salem-east-electric-road/"
+  },
+  {
+   "name": "SpringHill Suites Roanoke",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "301 Reserve Avenue Southwest, 24016, Roanoke",
+   "url": "https://www.marriott.com/roash"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4500 South Peak Boulevard, 24018, Roanoke",
+   "url": "https://www.hilton.com/en/hotels/roagigi-hilton-garden-inn-roanoke/"
+  },
+  {
+   "name": "Days Inn by Wyndham Roanoke Near I-81",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8118 Plantation Road, 24019, Roanoke",
+   "url": "https://www.wyndhamhotels.com/days-inn/roanoke-virginia/days-inn-roanoke-near-i-81/overview"
+  },
+  {
+   "name": "Baymont Salem Roanoke Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "179 Sheraton Drive, 24153, Salem",
+   "url": "https://www.wyndhamhotels.com/baymont/salem-virginia/baymont-inn-and-suites-salem-roanoke-area/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Roanoke Salem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 Sheraton Drive, 24153, Salem",
+   "url": "https://www.wyndhamhotels.com/laquinta/salem-virginia/la-quinta-inn-and-suites-roanoke-salem/overview"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1535 East Main Street, 24153, Salem",
+   "url": "https://www.wyndhamhotels.com/days-inn/salem-virginia/days-inn-salem/overview"
+  },
+  {
+   "name": "Sleep Inn Tanglewood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4045 Electric Road, Roanoke",
+   "url": "https://www.choicehotels.com/virginia/troutville/quality-inn-hotels"
+  },
+  {
+   "name": "Country Inn & Suites, Roanoke, VA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7860 Plantation Road, 24019, Roanoke",
+   "url": "https://www.choicehotels.com/virginia/troutville/quality-inn-hotels"
+  },
+  {
+   "name": "Comfort Inn Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5070 Valley View Boulevard North, 24012, Roanoke",
+   "url": "https://www.choicehotels.com/virginia/troutville/quality-inn-hotels"
+  },
+  {
+   "name": "BEST WESTERN PLUS Inn at Valley View",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5050 Valley View Boulevard Northwest, 24012, Roanoke",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-roanoke/best-western-plus-inn-at-valley-view/propertyCode.47094.html"
+  },
+  {
+   "name": "Econo Lodge Civic Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "308 Carver Avenue Northeast, 24016, Roanoke",
+   "url": "https://www.choicehotels.com/virginia/troutville/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Salem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "991 Russell Road, 24153, Salem",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/salem/saess/hoteldetail"
+  },
+  {
+   "name": "Fairfield Inn & Suites Roanoke Hollins/I-81",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7944 Plantation Road, 24019, Roanoke",
+   "url": "https://www.marriott.com/roano"
+  },
+  {
+   "name": "Comfort Suites Inn at Ridgewood Farm",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2898 Keagy Road, 24153, Salem",
+   "url": "https://www.choicehotels.com/virginia/troutville/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Roanoke Salem",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "121 Sheraton Drive, 24153, Salem",
+   "url": "https://www.marriott.com/roasl"
+  },
+  {
+   "name": "Hyatt Place Roanoke Airport/Valley View Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5040 Valley View Boulevard Northwest, 24012, Roanoke",
+   "url": "https://www.hyatt.com/en-us/hotel/virginia/hyatt-place-roanoke-airport-valley-view-mall/roazr"
+  },
+  {
+   "name": "Roanoke Boutique Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "539 Day Avenue Southwest, 24016, Roanoke",
+   "url": "https://www.roanokeboutiquehotel.com/"
+  },
+  {
+   "name": "Tru by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8161 Gander Way, 24019, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "The Hotel Roanoke & Conference Center, Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Shenandoah Avenue Northwest, 24016, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Roanoke, VA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6621 Thirlane Road Northwest, 24019, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Roanoke Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6626 Thirlane Road Northwest, 24019, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Roanoke - Valley View",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3305 Ordway Drive, 24017, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Roanoke-Tanglewood-Rt 419&I581",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4468 Starkey Road, 24018, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Mainstay Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5080 Valley View Boulevard North, 24012, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "King George Inn Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "315 King George Avenue Southwest, 24016, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Kingston Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7120 Williamson Road, 24019, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Starlite Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4448 Melrose Avenue Northwest, Roanoke",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson Inn Roanoke/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Roanoke Hotel and Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Roanoke - Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Roanoke Civic Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Airport Plaza Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Texas Tavern",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "114 Church Avenue Southwest, 24011, Roanoke",
+   "website": "https://texastavern-inc.com/"
+  },
+  {
+   "name": "Taaza Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1910 Memorial Avenue Southwest, 24015, Roanoke",
+   "website": "http://taazaroanoke.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "4764 Valley View Boulevard Northwest, 24012, Roanoke",
+   "website": "https://restaurants.ihop.com/en-us/va/roanoke/breakfast-4764-valley-view-blvd-nw-593"
+  },
+  {
+   "name": "Sakura Asian Fusion",
+   "cuisines": [
+    "Asian",
+    "Sushi",
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://www.sakuraroanoke.com"
+  },
+  {
+   "name": "El Cielito Lindo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "683 Brandon Avenue Southwest, 24015, Roanoke",
+   "website": "https://www.elcielitolindomexrestaurant.com/"
+  },
+  {
+   "name": "Viet Sub Banh Mi",
+   "cuisines": [
+    "Sandwich",
+    "Vietnamese"
+   ],
+   "address": "1403 Williamson Road Northeast, 24016, Roanoke",
+   "website": "https://www.vietsubroanoke.com/"
+  },
+  {
+   "name": "Cedars Lebanese Restaurant",
+   "cuisines": [
+    "Lebanese",
+    "Mediterranean"
+   ],
+   "address": "112 Campbell Avenue Southeast, 24011",
+   "website": "https://cedarsatroanoke.com/"
+  },
+  {
+   "name": "PortaBella Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "1132 Salem Avenue Southwest, 24016, Roanoke",
+   "website": "https://portabellaroanoke.com"
+  },
+  {
+   "name": "Mission BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2229 Colonial Avenue Southwest, 24015, Roanoke",
+   "website": "https://mission-bbq.com/"
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2063 Colonial Avenue Southwest, 24015, Roanoke",
+   "website": "https://www.mcalistersdeli.com"
+  },
+  {
+   "name": "FarmBurguesa",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "303 South Pollard Street, 24179, Vinton",
+   "website": "https://farmburguesa.com/"
+  },
+  {
+   "name": "The Hatch",
+   "cuisines": [
+    "American"
+   ],
+   "address": "32 Market Street Southeast, 24011, Roanoke",
+   "website": "https://www.thehatchroanoke.com/"
+  },
+  {
+   "name": "Grace's Place Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1316 Grandin Road Southwest, 24015, Roanoke",
+   "website": "https://gracesplacepizzeria.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/roanoke-va-2231/"
+  },
+  {
+   "name": "Wasabi Restaurant",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "214 Market Street SE, 24011, Roanoke",
+   "website": "https://wasabisroanoke.com/"
+  },
+  {
+   "name": "Lews",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "11 Walnut Avenue Southwest, 24016, Roanoke",
+   "website": "https://www.lewsrestaurant.com/"
+  },
+  {
+   "name": "Big Valley Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "120 Luck Avenue Southwest, 24011, Roanoke",
+   "website": "https://www.bigvalleybarbecue.com/"
+  },
+  {
+   "name": "Delicias Boricuas",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "16 Church Avenue Southwest, 24011, Roanoke",
+   "website": "https://delicias-boricuas-va.square.site/"
+  },
+  {
+   "name": "Sidecar",
+   "cuisines": [
+    "Polish",
+    "German",
+    "American"
+   ],
+   "address": "411 1st Street Southwest, 24011, Roanoke",
+   "website": "https://www.sidecarva.com/"
+  },
+  {
+   "name": "Fortunato",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "104 Kirk Avenue Southwest, 24011, Roanoke",
+   "website": "https://www.fortunatoroanoke.com/"
+  },
+  {
+   "name": "Stock Cafe and Bar",
+   "cuisines": [
+    "Scandanavian",
+    "Nordic",
+    "American"
+   ],
+   "address": "13 Church Avenue Southeast, 24011, Roanoke",
+   "website": "https://firestationone.com/stock/"
+  },
+  {
+   "name": "Alexander's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "105 South Jefferson Street, 24011, Roanoke",
+   "website": "https://www.alexandersva.com/"
+  },
+  {
+   "name": "Pueblo Chico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2626 Broadway Avenue Southwest, 24014",
+   "website": "https://pueblochico24014.wixsite.com/website"
+  },
+  {
+   "name": "Inka Peruvian Grill",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "611 South Jefferson Street, 24011, Roanoke",
+   "website": "https://inkagrilllatinfusion.com/"
+  },
+  {
+   "name": "Crescent City BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "19 Salem Avenue Southeast, 24011, Roanoke",
+   "website": "https://www.crescentcitybourbonbbq.com/"
+  },
+  {
+   "name": "Tuco’s Taqueria Garaje",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "416 Salem Avenue Southwest, 24016, Roanoke",
+   "website": "https://tucostaqueria.com/"
+  },
+  {
+   "name": "Caribbica Soul",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "215 Market Street Southeast, 24011, Roanoke",
+   "website": "https://www.caribbicasoul.com/"
+  },
+  {
+   "name": "Frankie Rowland's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "104 South Jefferson Street, 24011, Roanoke",
+   "website": "https://frankierowlandssteakhouse.com/"
+  },
+  {
+   "name": "Macado's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.macados.net/"
+  },
+  {
+   "name": "Bethlehem Restaurant & Grocery",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": "https://www.facebook.com/people/Bethlehem-Restaurant-Grocery/100057413081468/"
+  },
+  {
+   "name": "Falafel House",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "1329 Grandin Road Southwest, 24015, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1925 Valley View Blvd Northwest, 24012, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "All-Sports Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2326 Grandin Road Southwest, 24015, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "4845 Valley View Blvd Northwest, 24012, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Nawab",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "118 Campbell Avenue Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Fork in the Market",
+   "cuisines": [
+    "Burger",
+    "Pizza"
+   ],
+   "address": "32 Market Street Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Aesy's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "505 Campbell Avenue Southwest, 24016, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Billy's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "102 Market Street Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Sidewinders",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "16 Campbell Avenue Southwest, 24014, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Awful Arthur's Seafood Company",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "108 Campbell Avenue Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Fork in the Alley",
+   "cuisines": [
+    "Burger",
+    "Pizza"
+   ],
+   "address": "2123 Crystal Spring Avenue Southwest, 24014, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Scrambled",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "32 Market Street Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Beijing Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "502 Elm Avenue Southwest, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Kabuki Japanese Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3503 Franklin Road Southwest, 24014, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "La Casa Del Burrito Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "515 2nd Street, 24179, Vinton",
+   "website": ""
+  },
+  {
+   "name": "New York Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "708 Hardy Road, 24179, Vinton",
+   "website": ""
+  },
+  {
+   "name": "China Taste",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2185 Bennington Street Southeast, 24014, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Tacos Rojas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "713 13th Street Southwest, 24016",
+   "website": ""
+  },
+  {
+   "name": "Shakers",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1909 Valley View Boulevard Northwest, 24012, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Lucky",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "18 Kirk Avenue Southwest, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Cheddar's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "O'Charley's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of Asia",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nanjing Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Viet Nam",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fiji Island Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Torreo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Green Goat",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Abuelo's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama Maria's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Wall",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roanoke Weiner Stand",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bloom",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wasena City Tap Room & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bobby's Hot & Cheesy",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Evie's Bistro and Bakery",
+   "cuisines": [],
+   "address": "1212 4th Street Southwest, 24016, Roanoke",
+   "website": "https://www.eviesbistroandbakery.com/"
+  },
+  {
+   "name": "Rockfish Food and Wine",
+   "cuisines": [],
+   "address": "1402 Grandin Road Southwest, 24015, Roanoke",
+   "website": "https://rockfishfood.com/"
+  },
+  {
+   "name": "Pop's Ice Cream and Soda Bar",
+   "cuisines": [],
+   "address": "1916 Memorial Avenue Southwest, 24015, Roanoke",
+   "website": "https://popsgrandin.com/"
+  },
+  {
+   "name": "Local Roots",
+   "cuisines": [],
+   "address": "1314 Grandin Road Southwest, 24015, Roanoke",
+   "website": "https://localrootsrestaurant.com/"
+  },
+  {
+   "name": "2 Chill Restaurant",
+   "cuisines": [],
+   "address": "312 2nd Street Southwest, 24011, Roanoke",
+   "website": "https://2chillrestaurant.com/"
+  },
+  {
+   "name": "Bayou Snowballs",
+   "cuisines": [],
+   "address": "32 Market Street Southeast, 24011, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "New Yorker Deli",
+   "cuisines": [],
+   "address": "2802 Williamson Road Northeast, 24012, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "The River and Rail",
+   "cuisines": [],
+   "address": "2201 Crystal Spring Avenue Southwest, 24014, Roanoke",
+   "website": ""
+  },
+  {
+   "name": "Screaming Vegan",
+   "cuisines": [],
+   "address": "2715 Melrose Avenue Northwest, 24017",
+   "website": ""
+  },
+  {
+   "name": "Dogwood Restaurant",
+   "cuisines": [],
+   "address": "106 East Lee Avenue, 24179, Vinton",
+   "website": ""
+  },
+  {
+   "name": "Joe Goodpie's",
+   "cuisines": [],
+   "address": "24179, Vinton",
+   "website": ""
+  },
+  {
+   "name": "The Roanoker",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Scratch Biscuit",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Village Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bob's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Library",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Taubman Museum of Art",
+   "kind": "museum",
+   "address": "110 Salem Avenue Southeast, 24011, Roanoke",
+   "website": "https://www.taubmanmuseum.org/",
+   "phone": "+1-540-342-5760",
+   "latitude": 37.272774,
+   "longitude": -79.9383189
+  },
+  {
+   "name": "Roanoke Star",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2508882,
+   "longitude": -79.9323807
+  },
+  {
+   "name": "Mill Mountain Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.247432,
+   "longitude": -79.9367893
+  },
+  {
+   "name": "Virginia Museum of Transportation",
+   "kind": "museum",
+   "address": "303 Norfolk Avenue Southwest, 24016, Roanoke",
+   "website": "https://www.vmt.org/",
+   "phone": "+1-540-342-5670",
+   "latitude": 37.2732024,
+   "longitude": -79.9470477
+  },
+  {
+   "name": "Salem Museum",
+   "kind": "museum",
+   "address": "801 East Main Street, 24153, Salem",
+   "website": "https://salemmuseum.org/",
+   "phone": "",
+   "latitude": 37.2947835,
+   "longitude": -80.047604
+  },
+  {
+   "name": "Eleanor D Wilson Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.hollins.edu/museum/index.shtml",
+   "phone": "",
+   "latitude": 37.353667,
+   "longitude": -79.9423257
+  },
+  {
+   "name": "O. Winston Link Museum",
+   "kind": "museum",
+   "address": "101 Shenandoah Avenue, 24016",
+   "website": "https://roanokehistory.org",
+   "phone": "",
+   "latitude": 37.273527,
+   "longitude": -79.93797
+  },
+  {
+   "name": "Roanoke Pinball Museum",
+   "kind": "museum",
+   "address": "24011",
+   "website": "https://roanokepinball.org",
+   "phone": "",
+   "latitude": 37.2715633,
+   "longitude": -79.9395578
+  },
+  {
+   "name": "BanG Studios",
+   "kind": "gallery",
+   "address": "425 4th Street Southwest, 24016, Roanoke",
+   "website": "",
+   "phone": "+1-540-354-1462",
+   "latitude": 37.2697922,
+   "longitude": -79.9487673
+  },
+  {
+   "name": "Vinton Historical Society Museum",
+   "kind": "museum",
+   "address": "210 East Jackson Avenue, 24179, Vinton",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2789346,
+   "longitude": -79.8964347
+  },
+  {
+   "name": "Roanoke Mountain Loop Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2116201,
+   "longitude": -79.9355634
+  },
+  {
+   "name": "Jupiter Missile",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2729652,
+   "longitude": -79.9446197
+  },
+  {
+   "name": "Norfolk Southern 8661",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2728111,
+   "longitude": -79.9448072
+  },
+  {
+   "name": "Buzzards Rock",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3404249,
+   "longitude": -79.9001983
+  },
+  {
+   "name": "FBO Planespotting",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.3228967,
+   "longitude": -79.9732778
+  },
+  {
+   "name": "Mill Mountain Star Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2510832,
+   "longitude": -79.932462
+  },
+  {
+   "name": "Mill Mountain Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2510406,
+   "longitude": -79.9350233
+  },
+  {
+   "name": "Roanoke River Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.2527817,
+   "longitude": -79.8719908
+  }
+ ]
+}

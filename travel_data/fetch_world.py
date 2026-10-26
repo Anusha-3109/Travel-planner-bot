@@ -1,11 +1,13 @@
-"""Fetch current data for the European and Asian cities in world_cities.py.
+"""Fetch current data for the cities in world_cities.py.
 
 Run:  python -m travel_data.fetch_world            (all cities)
       python -m travel_data.fetch_world Tokyo Rome (some cities)
 
 Sources, all free and openly licensed:
 - Places to stay: Inside Airbnb (CC BY 4.0, https://insideairbnb.com), the most
-  reviewed listings with a price. Prices are converted to USD.
+  reviewed listings with a price. Prices are converted to USD. Cities without
+  Inside Airbnb data get OpenStreetMap hotels, motels and guest houses instead,
+  which have no prices.
 - Exchange rates: European Central Bank daily reference rates.
 - Restaurants and attractions: OpenStreetMap via the Overpass API
   (ODbL, (c) OpenStreetMap contributors).
@@ -34,6 +36,10 @@ OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 MAX_STAYS = 150
 MAX_RESTAURANTS = 250
 MAX_ATTRACTIONS = 120
+MAX_OSM_STAYS = 60
+STAY_RADIUS_M = 10000
+OSM_STAY_KINDS = {"hotel": "Hotel room", "motel": "Hotel room", "guest_house": "Private room",
+                  "hostel": "Shared room", "apartment": "Entire home/apt"}
 RESTAURANT_RADIUS_M = 5000
 ATTRACTION_RADIUS_M = 10000
 MIN_REVIEWS = 10
@@ -91,8 +97,12 @@ def fetch_stays(city: WorldCity, usd_per_unit: float) -> list[dict]:
 
 def _overpass(query: str) -> list[dict]:
     for attempt in range(4):
-        response = requests.post(OVERPASS_URL, data={"data": query}, timeout=180,
-                                 headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+        try:
+            response = requests.post(OVERPASS_URL, data={"data": query}, timeout=180,
+                                     headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+        except requests.ConnectionError:  # the network dropped: wait for it rather than skip the city
+            time.sleep(60 * (attempt + 1))
+            continue
         if response.status_code in (429, 502, 503, 504):
             time.sleep(30 * (attempt + 1))  # the public server is shared; back off and retry
             continue
@@ -130,9 +140,26 @@ def _ranked(elements: list[dict], limit: int, *extra_keys: str) -> list[dict]:
     return picked
 
 
-def fetch_restaurants(city: WorldCity) -> list[dict]:
-    query = (f'[out:json][timeout:120];nwr["amenity"="restaurant"]["name"]'
-             f'(around:{RESTAURANT_RADIUS_M},{city.latitude},{city.longitude});out center tags;')
+def _restaurant_query(city: WorldCity) -> str:
+    return f'nwr["amenity"="restaurant"]["name"](around:{RESTAURANT_RADIUS_M},{city.latitude},{city.longitude});'
+
+
+def _attraction_query(city: WorldCity) -> str:
+    return (f'nwr["tourism"~"^({"|".join(ATTRACTION_KINDS)})$"]["name"]'
+            f'(around:{ATTRACTION_RADIUS_M},{city.latitude},{city.longitude});')
+
+
+def _stay_query(city: WorldCity) -> str:
+    return (f'nwr["tourism"~"^({"|".join(OSM_STAY_KINDS)})$"]["name"]'
+            f'(around:{STAY_RADIUS_M},{city.latitude},{city.longitude});')
+
+
+def _query(*parts: str) -> str:
+    return f'[out:json][timeout:180];({"".join(parts)});out center tags;'
+
+
+def _restaurants(elements: list[dict]) -> list[dict]:
+    elements = [e for e in elements if e.get("tags", {}).get("amenity") == "restaurant"]
     return [
         {
             "name": _name(e["tags"]),
@@ -140,16 +167,14 @@ def fetch_restaurants(city: WorldCity) -> list[dict]:
             "address": _address(e["tags"]),
             "website": e["tags"].get("website", ""),
         }
-        for e in _ranked(_overpass(query), MAX_RESTAURANTS, "cuisine")
+        for e in _ranked(elements, MAX_RESTAURANTS, "cuisine")
     ]
 
 
-def fetch_attractions(city: WorldCity) -> list[dict]:
-    kinds = "|".join(ATTRACTION_KINDS)
-    query = (f'[out:json][timeout:120];nwr["tourism"~"^({kinds})$"]["name"]'
-             f'(around:{ATTRACTION_RADIUS_M},{city.latitude},{city.longitude});out center tags;')
+def _attractions(elements: list[dict]) -> list[dict]:
+    elements = [e for e in elements if e.get("tags", {}).get("tourism") in ATTRACTION_KINDS]
     attractions = []
-    for e in _ranked(_overpass(query), MAX_ATTRACTIONS):
+    for e in _ranked(elements, MAX_ATTRACTIONS):
         point = e.get("center") or e
         attractions.append({
             "name": _name(e["tags"]),
@@ -163,24 +188,66 @@ def fetch_attractions(city: WorldCity) -> list[dict]:
     return attractions
 
 
+def _osm_stays(elements: list[dict]) -> list[dict]:
+    elements = [e for e in elements if e.get("tags", {}).get("tourism") in OSM_STAY_KINDS]
+    return [
+        {
+            "name": _name(e["tags"]),
+            "price": None,
+            "room_type": OSM_STAY_KINDS[e["tags"]["tourism"]],
+            "kind": e["tags"]["tourism"].replace("_", " "),
+            "minimum_nights": 1,
+            "maximum_occupancy": None,
+            "rating": None,
+            "address": _address(e["tags"]),
+            "url": e["tags"].get("website", ""),
+        }
+        for e in _ranked(elements, MAX_OSM_STAYS)
+    ]
+
+
+def fetch_restaurants(city: WorldCity) -> list[dict]:
+    return _restaurants(_overpass(_query(_restaurant_query(city))))
+
+
+def fetch_attractions(city: WorldCity) -> list[dict]:
+    return _attractions(_overpass(_query(_attraction_query(city))))
+
+
+def fetch_osm_stays(city: WorldCity) -> list[dict]:
+    """Hotels, motels and guest houses from OpenStreetMap, for cities without Inside
+    Airbnb data. OpenStreetMap has no prices or guest limits, so both stay empty."""
+    return _osm_stays(_overpass(_query(_stay_query(city))))
+
+
 def fetch_city(city: WorldCity, rates: dict[str, float], rates_date: str) -> dict:
     data = {
         "city": city.name, "country": city.country, "region": city.region,
         "latitude": city.latitude, "longitude": city.longitude,
         "currency": city.currency, "usd_per_unit": rates[city.currency], "rates_date": rates_date,
-        "airbnb_scrape_date": city.scrape_date,
+        "airbnb_scrape_date": city.scrape_date if city.airbnb_path else None,
+        "stays_source": "Inside Airbnb" if city.airbnb_path else "OpenStreetMap",
         "fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "accommodations": fetch_stays(city, rates[city.currency]),
     }
-    data["restaurants"] = fetch_restaurants(city)
-    time.sleep(5)  # be polite to the shared Overpass server
-    data["attractions"] = fetch_attractions(city)
+    if city.airbnb_path:
+        data["accommodations"] = fetch_stays(city, rates[city.currency])
+        data["restaurants"] = fetch_restaurants(city)
+        time.sleep(5)  # be polite to the shared Overpass server
+        data["attractions"] = fetch_attractions(city)
+    else:
+        # Smaller cities: one Overpass request for stays, restaurants and attractions together.
+        elements = _overpass(_query(_stay_query(city), _restaurant_query(city), _attraction_query(city)))
+        data["accommodations"] = _osm_stays(elements)
+        data["restaurants"] = _restaurants(elements)
+        data["attractions"] = _attractions(elements)
     return data
 
 
-def main(names: list[str]) -> None:
+def main(names: list[str], missing_only: bool = False) -> None:
     wanted = {n.lower() for n in names}
     cities = [c for c in WORLD_CITIES if not wanted or c.name.lower() in wanted]
+    if missing_only:  # resume: skip cities that already have a file
+        cities = [c for c in cities if not (config.WORLD_DIR / f"{c.slug}.json").exists()]
     if not cities:
         sys.exit(f"Unknown city. Choose from: {', '.join(c.name for c in WORLD_CITIES)}")
     rates, rates_date = fetch_usd_rates()
@@ -194,9 +261,9 @@ def main(names: list[str]) -> None:
             continue
         (config.WORLD_DIR / f"{city.slug}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1),
                                                              encoding="utf-8")
-        prices = sorted(s["price"] for s in data["accommodations"])
-        median = prices[len(prices) // 2] if prices else 0
-        print(f"{city.name}: {len(data['accommodations'])} stays (median ${median:.0f}/night), "
+        prices = sorted(s["price"] for s in data["accommodations"] if s["price"] is not None)
+        median = f"median ${prices[len(prices) // 2]:.0f}/night" if prices else "no prices"
+        print(f"{city.name}: {len(data['accommodations'])} stays ({median}), "
               f"{len(data['restaurants'])} restaurants, {len(data['attractions'])} attractions", flush=True)
         time.sleep(5)
 
@@ -204,4 +271,6 @@ def main(names: list[str]) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("cities", nargs="*", help="City names (default: all)")
-    main(parser.parse_args().cities)
+    parser.add_argument("--missing", action="store_true", help="Only cities that have no data file yet")
+    arguments = parser.parse_args()
+    main(arguments.cities, arguments.missing)

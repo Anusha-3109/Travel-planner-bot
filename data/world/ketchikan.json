@@ -1,0 +1,323 @@
+{
+ "city": "Ketchikan",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 55.3424,
+ "longitude": -131.6451,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Cape Fox Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 Venetia Wat, Ketchikan",
+   "url": "https://capefoxlodge.com/"
+  },
+  {
+   "name": "My Place Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3612 Tongass Avenue, 99901, Ketchikan",
+   "url": ""
+  },
+  {
+   "name": "Clover Bay Floating Fishing",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "88 Brusich Road, 99901, Ketchikan",
+   "url": ""
+  },
+  {
+   "name": "Inn at Creek Street",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "133 Creek Street, 99901, Ketchikan",
+   "url": ""
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Landing Best Western & Sunny Point Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Ketch Inn & Marina - rebranded from Edgewater Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4871 North Tongass Highway",
+   "url": ""
+  },
+  {
+   "name": "New York Hotel and Cafe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2050 Sea Level Drive, 99901",
+   "website": "https://www.godfathers.com/"
+  },
+  {
+   "name": "Pioneer Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "619 Mission Street, 99901",
+   "website": "https://www.menupix.com/alaska/restaurants/5300619/Pioneer-Cafe-Ketchikan-AK"
+  },
+  {
+   "name": "Bar Harbor Restaurant",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "2813 Tongass Avenue, 99901",
+   "website": "www.barharborrestaurantktn.com"
+  },
+  {
+   "name": "The Landing Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3434 Tongass Avenue, 99901",
+   "website": "https://www.landinghotel.com/"
+  },
+  {
+   "name": "Annabelle's Famous Keg & Chowder House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "326 Front Street, 99901",
+   "website": "https://www.annabellesketchikan.com/"
+  },
+  {
+   "name": "Good Fortune Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4 Creek Street, 99901",
+   "website": "https://goodfortuneketchikan.com/index.html"
+  },
+  {
+   "name": "Panhandle Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "417 Dock Street, Ketchikan",
+   "website": "https://akpanpizza.com/"
+  },
+  {
+   "name": "Alaska Crepe Company",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "123 Stedman Street, 99901, Ketchikan",
+   "website": "https://alaskacrepe.co/"
+  },
+  {
+   "name": "Jellyfish Donuts",
+   "cuisines": [
+    "Donut"
+   ],
+   "address": "910 Water Street, 99901",
+   "website": ""
+  },
+  {
+   "name": "Eagles Nest",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "800 Venetia Avenue",
+   "website": ""
+  },
+  {
+   "name": "Burger Queen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Harbor",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chico's Mexican Resturant",
+   "cuisines": [
+    "Mexican",
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diaz Cafe",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New China Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "D'Santas Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Alaska Fish House",
+   "cuisines": [],
+   "address": "3 Salmon Landing, 99901, Ketchikan",
+   "website": ""
+  },
+  {
+   "name": "Galley",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New York Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carb & Go",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Totem Heritage Center",
+   "kind": "museum",
+   "address": "601 Deermount Street, Ketchikan",
+   "website": "https://www.ktn-ak.us/totem-heritage-center",
+   "phone": "",
+   "latitude": 55.3425724,
+   "longitude": -131.6340574
+  },
+  {
+   "name": "Saxman Totem Park",
+   "kind": "attraction",
+   "address": "2706 South Tongass Highway, 99901, Saxman",
+   "website": "",
+   "phone": "",
+   "latitude": 55.3189655,
+   "longitude": -131.5981441
+  },
+  {
+   "name": "Tongass Historical Museum",
+   "kind": "museum",
+   "address": "629 Dock Street, 99901, Ketchikan",
+   "website": "http://www.ketchikanmuseums.org/",
+   "phone": "+1 907-225-5900",
+   "latitude": 55.3425947,
+   "longitude": -131.6436282
+  },
+  {
+   "name": "Alaska Rainforest Family Adventure",
+   "kind": "attraction",
+   "address": "Pipeline Trail, 99901, Ketchikan",
+   "website": "",
+   "phone": "",
+   "latitude": 55.4158559,
+   "longitude": -131.7132405
+  },
+  {
+   "name": "Dolly's Museum",
+   "kind": "museum",
+   "address": "24 Creek Street",
+   "website": "",
+   "phone": "",
+   "latitude": 55.3414962,
+   "longitude": -131.641081
+  },
+  {
+   "name": "Wolf Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 55.3622108,
+   "longitude": -131.7088666
+  },
+  {
+   "name": "Great Alaskan Lumberjack Show",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 55.3401202,
+   "longitude": -131.6433021
+  }
+ ]
+}

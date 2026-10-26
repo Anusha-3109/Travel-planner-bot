@@ -1,0 +1,3589 @@
+{
+ "city": "Salt Lake City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.7651,
+ "longitude": -111.8844,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Kimpton Hotel Monaco Salt Lake City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "15 West 200 South, 84101, Salt Lake City",
+   "url": "https://www.monaco-saltlakecity.com/"
+  },
+  {
+   "name": "Little America Hotel Salt Lake City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 South Main Street, 84101, Salt Lake City",
+   "url": "https://saltlake.littleamerica.com/"
+  },
+  {
+   "name": "University Guest House & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 South Fort Douglas Boulevard, 84113-5036, Salt Lake City",
+   "url": "https://www.universityguesthouse.com/"
+  },
+  {
+   "name": "Salt Lake City Marriott City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "220 South State Street, 84111, Salt Lake City",
+   "url": "https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview/"
+  },
+  {
+   "name": "Hilton Salt Lake City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 South West Temple, 84101, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slccchh-hilton-salt-lake-city-center/"
+  },
+  {
+   "name": "DoubleTree Suites by Hilton Hotel Salt Lake City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 West 600 South, 84101, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slcwsdt-doubletree-suites-salt-lake-city-downtown/"
+  },
+  {
+   "name": "Salt Lake Marriott Downtown at City Creek",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75 South West Temple, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/en-us/hotels/slcut-salt-lake-marriott-downtown-at-city-creek/overview/"
+  },
+  {
+   "name": "The Avenues Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "107 North F Street, 84103, Salt Lake City",
+   "url": "https://www.saltlakehostel.com/"
+  },
+  {
+   "name": "Grand America Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "555 South Main Street, 84111, Salt Lake City",
+   "url": ""
+  },
+  {
+   "name": "Peery Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 West 300 South, Salt Lake City",
+   "url": ""
+  },
+  {
+   "name": "Asher Adams, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Salt Lake City-Airport East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 North 2100 West, 84116, Salt Lake City",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/salt-lake-city/slcut/hoteldetail"
+  },
+  {
+   "name": "Comfort Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "171 North 2100 West, 84116, Salt Lake City",
+   "url": "https://www.choicehotels.com/utah/salt-lake-city/comfort-suites-hotels/ut053?source=gyxt"
+  },
+  {
+   "name": "Microtel Inn & Suites by Wyndham Salt Lake City Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "61 North Tommy Thompson Road, 84116, Salt Lake City",
+   "url": "https://www.wyndhamhotels.com/microtel/salt-lake-city-utah/microtel-salt-lake-city-airport/overview?CID=LC:MT::GGL:RIO:National:28073&iata=00065402"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "715 West North Temple, 84116, Salt Lake City",
+   "url": "https://www.choicehotels.com/utah/salt-lake-city/econo-lodge-hotels/ut043"
+  },
+  {
+   "name": "SpringHill Suites Salt Lake City West Valley",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3662 South 2400 West, 84119, West Valley City",
+   "url": "https://www.marriott.com/en-us/hotels/slcsv-springhill-suites-salt-lake-city-west-valley/overview/"
+  },
+  {
+   "name": "Hyatt Place Salt Lake City Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "52 North Tommy Thompson Road, 84116, Salt Lake City",
+   "url": "https://www.hyatt.com/en-US/hotel/utah/hyatt-place-salt-lake-city-airport/slcza"
+  },
+  {
+   "name": "Fairfield Inn and Suites Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 West 400 South, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/slcfd"
+  },
+  {
+   "name": "Crystal Inn Hotel & Suites Salt Lake City - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "230 West 500 South, 84101, Salt Lake City",
+   "url": "https://www.crystalinnsaltlake.com/"
+  },
+  {
+   "name": "Crystal Inn Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2254 West City Center Court, 84119, West Valley City",
+   "url": "https://www.crystalinnwestvalley.com/"
+  },
+  {
+   "name": "Hyatt Regency Salt Lake City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "170 South West Temple, 84101, Salt Lake City",
+   "url": "https://www.hyatt.com/en-US/hotel/utah/hyatt-regency-salt-lake-city/slcrs"
+  },
+  {
+   "name": "SpringHill Suites Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "625 South 300 West, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/slcsh"
+  },
+  {
+   "name": "Embassy Suites by Hilton Salt Lake West Valley City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3524 South Market Street, 84119, West Valley City",
+   "url": "https://embassysuites3.hilton.com/en/hotels/utah/embassy-suites-by-hilton-salt-lake-west-valley-city-SLCSMES/index.html"
+  },
+  {
+   "name": "Hyatt Place Salt Lake City - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 North 400 West, 84101, Salt Lake City",
+   "url": "https://www.hyatt.com/en-us/hotel/utah/hyatt-place-salt-lake-city-downtown-the-gateway/slczd"
+  },
+  {
+   "name": "Patient and Family Housing",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2080 West North Temple, 84116, Salt Lake City",
+   "url": "https://healthcare.utah.edu/locations/patient-family-housing/"
+  },
+  {
+   "name": "Holiday Inn Express Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "206 South West Temple, 84101, Salt Lake City",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/salt-lake-city/slccc/hoteldetail"
+  },
+  {
+   "name": "Courtyard Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "345 West 100 South, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/slccd"
+  },
+  {
+   "name": "Radisson Hotel Salt Lake City Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2177 West North Temple, 84116, Salt Lake City",
+   "url": "https://www.choicehotels.com/utah/salt-lake-city/radisson-hotels/ut300"
+  },
+  {
+   "name": "Residence Inn Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "285 West 300 South, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/slcri"
+  },
+  {
+   "name": "Hyatt House Salt Lake City/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 South 300 West, 84101, Salt Lake City",
+   "url": "https://saltlakecitydowntown.house.hyatt.com/en/hotel/home.html"
+  },
+  {
+   "name": "Hampton Inn Salt Lake City-Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "425 South 300 West, 84101, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slcdthx-hampton-salt-lake-city-downtown/"
+  },
+  {
+   "name": "Sonesta Simply Suites Salt Lake City Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2170 West North Temple, 84116, Salt Lake City",
+   "url": "https://www.sonesta.com/sonesta-simply-suites/ut/salt-lake-city/sonesta-simply-suites-salt-lake-city-airport/"
+  },
+  {
+   "name": "SpringHill Suites Salt Lake City Sugar House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2206 South 1300 East, 84106, Salt Lake City",
+   "url": "https://www.marriott.com/slcso"
+  },
+  {
+   "name": "Quality Inn Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "616 South 200 West, 84101, Salt Lake City",
+   "url": "https://www.choicehotels.com/utah/salt-lake-city/quality-inn-hotels/ut120"
+  },
+  {
+   "name": "Hilton Garden Inn Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 West 600 South, 84101, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slcdwgi-hilton-garden-inn-salt-lake-city-downtown/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "171 West 500 South, 84101, Salt Lake City",
+   "url": "https://www.choicehotels.com/utah/west-valley-city/comfort-inn-hotels"
+  },
+  {
+   "name": "Hampton Inn Salt Lake City Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2055 South Redwood Road, 84119, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slcrrhx-hampton-salt-lake-city-central/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3422 South Decker Lake Drive, 84119, West Valley City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-west-valley-city-ut"
+  },
+  {
+   "name": "TownePlace Suites Salt Lake City Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "135 West 200 South, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/slctd"
+  },
+  {
+   "name": "Asher Adams",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 South 400 West, 84101, Salt Lake City",
+   "url": "https://www.marriott.com/en-us/hotels/slcau-asher-adams-autograph-collection/overview/"
+  },
+  {
+   "name": "Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 West South Temple, 84101, Salt Lake City",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-salt-lake-city-downtown"
+  },
+  {
+   "name": "Homewood Suites by Hilton Salt Lake City - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "441;423 West 300 South, 84101, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slchwhw-homewood-suites-salt-lake-city-downtown/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Salt Lake City - East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2350 South Foothill Drive, 84109, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slceaht-home2-suites-salt-lake-city-east/"
+  },
+  {
+   "name": "Hampton Inn & Suites Salt Lake City/University-Foothill Dr.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1345 South Foothill Drive, 84108, Salt Lake City",
+   "url": "https://www.hilton.com/en/hotels/slcfhhx-hampton-suites-salt-lake-city-university-foothill-dr/"
+  },
+  {
+   "name": "SureStay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1009 South Main Street, 84111-4419, Salt Lake City",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-salt-lake-city/surestay-by-best-western-salt-lake-city-downtown/propertyCode.53080.html"
+  },
+  {
+   "name": "Best Western West Valley Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3540 South 2200 West, 84119, West Valley City",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-west-valley-city/best-western-west-valley-inn/propertyCode.45097.html"
+  },
+  {
+   "name": "Comfort Inn West Valley - Salt Lake City South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2229 West City Center Court, 84119, West Valley City",
+   "url": "https://www.choicehotels.com/utah/west-valley-city/comfort-inn-hotels"
+  },
+  {
+   "name": "Sleep Inn West Valley City - Salt Lake City South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3440 South Decker Lake Drive, 84119, West Valley City",
+   "url": "https://www.choicehotels.com/utah/salt-lake-city/sleep-inn-hotels/ut051"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Salt Lake City West Valley",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3036 South Decker Lake Drive, 84119, West Valley City",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/west-valley-city/wvchi/hoteldetail"
+  },
+  {
+   "name": "The Kimball at Temple Square",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 North Main Street, 84103, Salt Lake City",
+   "url": "https://www.thekimball.com/"
+  },
+  {
+   "name": "Baymont Murray/Salt Lake City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4465 South Century Drive, 84123, Murray",
+   "url": "https://www.wyndhamhotels.com/baymont/murray-utah/baymont-inn-and-suites-murray-salt-lake-city/overview?CID=LC:BU::GGL:RIO:National:47915&iata=00093796"
+  },
+  {
+   "name": "Inn on the Hill",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 North State Street, 84103, Salt Lake City",
+   "url": "https://www.inn-on-the-hill.com/"
+  },
+  {
+   "name": "Anniversary Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "460 South 1000 East, 84102, Salt Lake City",
+   "url": "https://anniversaryinn.com/5th_south/"
+  },
+  {
+   "name": "My Place Hotel - Salt Lake City/West Valley City, UT",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3074 South Decker Lake Drive, 84119, West Valley City",
+   "url": "https://www.myplacehotels.com/locations/my-place-hotel-west-valley-city-ut"
+  },
+  {
+   "name": "Utah Village Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "271 West 900 South, 84101, Salt Lake City",
+   "url": "https://utahvillagemotel.com/"
+  },
+  {
+   "name": "InTown Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "48 West 3300 South, 84115, South Salt Lake",
+   "url": "https://www.intownsuites.com/extended-stay-hotels/utah/salt-lake-city/south-11/"
+  },
+  {
+   "name": "evo Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://campus.evo.com/evo-hotel/"
+  },
+  {
+   "name": "Extended Stay America - Salt Lake City - Sugar House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1220 East 2100 South, 84106, Salt Lake City",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2455 South State Street, 84115, South Salt Lake",
+   "url": ""
+  },
+  {
+   "name": "City Creek Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1009 South Main Street, 84111, Salt Lake City",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pretty Bird",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "675 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.prettybirdchicken.com"
+  },
+  {
+   "name": "Red Iguana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "736 West North Temple, 84116, Salt Lake City",
+   "website": "https://www.rediguana.com/"
+  },
+  {
+   "name": "Avenues Proper",
+   "cuisines": [
+    "American"
+   ],
+   "address": "376 East 8th Avenue, 84103, Salt Lake City",
+   "website": "https://avenuesproper.com"
+  },
+  {
+   "name": "The Soup Kitchen",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "2012 South 1100 East, 84106-2319, Salt Lake City",
+   "website": "https://the-soup-kitchen-restaurants-catering.square.site"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1701 West North Temple, 84116, Salt Lake City",
+   "website": "https://locations.dennys.com/UT/SALT-LAKE-CITY/247480"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "307 West 2100 South, 84115, South Salt Lake",
+   "website": "https://restaurants.ihop.com/en-us/ut/salt-lake-city/breakfast-307-west-2100-s-1774"
+  },
+  {
+   "name": "The Pie Pizzeria - Underground",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1320 East 200 South, 84102, Salt Lake City",
+   "website": "https://www.thepie.com"
+  },
+  {
+   "name": "The Cheesecake Factory",
+   "cuisines": [
+    "American"
+   ],
+   "address": "65 South Regent Street, 84111, Salt Lake City",
+   "website": "https://www.thecheesecakefactory.com/"
+  },
+  {
+   "name": "Spitz",
+   "cuisines": [
+    "Kebab",
+    "Mediterranean",
+    "Turkish"
+   ],
+   "address": "35 East 300 South, 84111, Salt Lake City",
+   "website": "https://spitz-restaurant.com/mediterranean-food-downtown-salt-lake-city-restaurant-bar/"
+  },
+  {
+   "name": "Matteo",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "77 West 200 South, 84101, Salt Lake City",
+   "website": "https://www.matteoslc.com/"
+  },
+  {
+   "name": "Sara Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "609 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.sarathaikitchen.com"
+  },
+  {
+   "name": "Marmalade Brunch House",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "535 North 300 West, 84103, Salt Lake City",
+   "website": "https://marmaladebrunchhouse.com/"
+  },
+  {
+   "name": "Paréa",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "320 East 900 South, Salt Lake City",
+   "website": "https://www.pareaon9th.com/"
+  },
+  {
+   "name": "Nutritious Bowl",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "530 West 200 South, Salt Lake City",
+   "website": "https://nutritiousbowls.com"
+  },
+  {
+   "name": "Apollo Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "143 North Redwood Road, 84116, Salt Lake City",
+   "website": "https://apolloburgers.com/"
+  },
+  {
+   "name": "Desert Edge Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "602 East 500 South, 84102, Salt Lake City",
+   "website": "https://desertedgebrewery.com/"
+  },
+  {
+   "name": "Brio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "80 South Regent Street, 84111, Salt Lake City",
+   "website": "https://www.brioitalian.com/locations/us/ut/salt-lake/80-s-regent-st/"
+  },
+  {
+   "name": "Laziz Kitchen",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "912 South Jefferson Street, 84101, Salt Lake City",
+   "website": "https://lazizkitchen.com/"
+  },
+  {
+   "name": "Vessel Kitchen",
+   "cuisines": [
+    "American",
+    "Lebanese",
+    "International"
+   ],
+   "address": "902 East 900 South, 84105, Salt Lake City",
+   "website": "https://www.vesselkitchen.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "804 West North Temple, 84116, Salt Lake City",
+   "website": "https://locations.pizzahut.com/ut/salt-lake-city/804-w-north-temple"
+  },
+  {
+   "name": "Zao Asian Cafe",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "639 East 400 South, 84102, Salt Lake City",
+   "website": "https://www.zaoasiancafe.com/location/salt-lake-city/"
+  },
+  {
+   "name": "Golden Pearl",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1625 West 700 North, 84116, Salt Lake City",
+   "website": "https://www.goldenpearlut.com/"
+  },
+  {
+   "name": "Koyote",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "551 West 400 North, 84116, Salt Lake City",
+   "website": "https://koyoteslc.com"
+  },
+  {
+   "name": "Bricks Corner",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1465 South 700 East, 84105, Salt Lake City",
+   "website": "https://brickscorner.com/slc-location/"
+  },
+  {
+   "name": "Cucina",
+   "cuisines": [
+    "Sandwich",
+    "American",
+    "Seafood",
+    "Breakfast",
+    "Pastry",
+    "Diner",
+    "Fine Dining",
+    "Wine",
+    "Bar"
+   ],
+   "address": "1026 East 2nd Avenue, 84103, Salt Lake City",
+   "website": "http://www.cucinadeli.com/"
+  },
+  {
+   "name": "Vertical Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "234 West 900 South, 84101, Salt Lake City",
+   "website": "https://verticaldiner.com/"
+  },
+  {
+   "name": "Beast from the East",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1702 South Main Street, 84115, Salt Lake City",
+   "website": "https://beastfromtheeastsandwichery.com"
+  },
+  {
+   "name": "The Goat Head",
+   "cuisines": [
+    "American"
+   ],
+   "address": "702 South 300 East, 84111, Salt Lake City",
+   "website": "https://slcgoathead.com"
+  },
+  {
+   "name": "Tamarind",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "120 South Main Street, Salt Lake City",
+   "website": "https://www.tamarindslc.com/"
+  },
+  {
+   "name": "Blatch's Backyard BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "186 North I Street, 84103, Salt Lake City",
+   "website": "https://www.blatchsbbq.com"
+  },
+  {
+   "name": "Finn's",
+   "cuisines": [
+    "Scandinavian",
+    "American",
+    "Breakfast",
+    "Brunch",
+    "Lunch"
+   ],
+   "address": "1624 South 1100 East, 84105, Salt Lake City",
+   "website": "https://www.finnscafe.net/"
+  },
+  {
+   "name": "Pie Hole",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "344 South State Street, 84111, Salt Lake City",
+   "website": "https://pieholeutah.com/"
+  },
+  {
+   "name": "Thai Archer",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1429 South 1100 East, 84105, Salt Lake City",
+   "website": "http://thaiarcher.net/"
+  },
+  {
+   "name": "Cafe Rio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "532 East 400 South, 84102, Salt Lake City",
+   "website": "https://www.caferio.com/locations/4th-south"
+  },
+  {
+   "name": "Curry Fried Chicken",
+   "cuisines": [
+    "Indian",
+    "Pakistani"
+   ],
+   "address": "660 South State Street, Salt Lake City",
+   "website": "https://www.curryfriedchickenutah.com/"
+  },
+  {
+   "name": "JINYA Ramen Bar",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "675 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.jinyaramenbar.com/"
+  },
+  {
+   "name": "Hub & Spoke Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1291 South 1100 East, 84105, Salt Lake City",
+   "website": "https://www.hubandspokediner.com/"
+  },
+  {
+   "name": "Rio Grande Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "258 1300 East, 84102, Salt Lake City",
+   "website": "https://riograndecafeslc.com"
+  },
+  {
+   "name": "GR Kitchen",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "358 South 700 East, 84102, Salt Lake City",
+   "website": "https://www.eatgrkitchen.com"
+  },
+  {
+   "name": "Mozz Sourdough Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "416 East 900 South, 84111, Salt Lake City",
+   "website": "https://www.mozzartisanpizza.com/milk-block"
+  },
+  {
+   "name": "Aubergine Kitchen",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1010 East 2100 South, 84106, Salt Lake City",
+   "website": "https://aubergineandcompany.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "644 East 400 South, 84102, Salt Lake City",
+   "website": "https://www.chilis.com/locations/us/utah/salt-lake-city/slc-downtown/"
+  },
+  {
+   "name": "Veggie House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "52 East 1700 South, 84115, Salt Lake City",
+   "website": "https://www.veggiehouseutah.com/"
+  },
+  {
+   "name": "All Chay",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1264 West 500 North, 84116, Salt Lake City",
+   "website": "https://all-chay.res-menu.com/"
+  },
+  {
+   "name": "Fleming's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "20 South 400 West, Salt Lake City",
+   "website": "https://www.flemingssteakhouse.com/locations/ut/salt-lake-city"
+  },
+  {
+   "name": "Rodizio Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "602 East 500 South, 84102, Salt Lake City",
+   "website": "https://www.rodiziogrill.com/salt-lake-city/"
+  },
+  {
+   "name": "Tucci's Cucina Italiana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "515 S 700 East, 84102, Salt Lake City",
+   "website": "https://tuccisslc.com/"
+  },
+  {
+   "name": "Salt Lake Brewing Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "168 West 300 South, 84101, Salt Lake City",
+   "website": "https://www.saltlakebrewingco.com/squatters"
+  },
+  {
+   "name": "La Cai Noodle House",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "961 South State Street, 84111, Salt Lake City",
+   "website": "http://lacainoodlehouse.com"
+  },
+  {
+   "name": "Star of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1000 South Main Street, 84101, Salt Lake City",
+   "website": "https://www.starofindiaonline.com/"
+  },
+  {
+   "name": "Pho Tay Ho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1766 South Main Street, 84115, Salt Lake City",
+   "website": "https://photayho.com/"
+  },
+  {
+   "name": "Osteria Amore",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "224 South 1300 East, 84102, Salt Lake City",
+   "website": "https://www.osteriaamore.com"
+  },
+  {
+   "name": "Cilantree",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "26 North E Street, 84103, Salt Lake City",
+   "website": "https://cilantree.com"
+  },
+  {
+   "name": "Copper Common",
+   "cuisines": [
+    "American"
+   ],
+   "address": "111 East 300 South, 84111, Salt Lake City",
+   "website": "https://coppercommon.com/"
+  },
+  {
+   "name": "The Copper Onion",
+   "cuisines": [
+    "American"
+   ],
+   "address": "111 East 300 South, 84111, Salt Lake City",
+   "website": "https://www.thecopperonion.com/"
+  },
+  {
+   "name": "Stoneground Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "249 East 400 South, 84111, Salt Lake City",
+   "website": "https://stonegrounditalian.com/"
+  },
+  {
+   "name": "The Bruce Scottish Pub",
+   "cuisines": [
+    "Scot"
+   ],
+   "address": "169 South Rio Grande Street, 84101, Salt Lake City",
+   "website": "https://brucepub.com"
+  },
+  {
+   "name": "Sawadee 2Go",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "61 East Gallivan Avenue, 84111, Salt Lake City",
+   "website": "https://sawadee2go.square.site/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "2132 South Highland Drive, 84106, Salt Lake City",
+   "website": "https://www.buffalowildwings.com/locations/us/ut/salt-lake-city/2132-south-highland-drive/sports-bar-1401/"
+  },
+  {
+   "name": "Eva's Bakery",
+   "cuisines": [
+    "Sandwich",
+    "Pastry",
+    "Bakery"
+   ],
+   "address": "155 South Main Street, Salt Lake City",
+   "website": "https://www.evasbakeryslc.com/"
+  },
+  {
+   "name": "Oasis Cafe",
+   "cuisines": [
+    "Breakfast",
+    "Lunch",
+    "Brunch",
+    "Coffee Shop",
+    "Dinner",
+    "Salad",
+    "Fish",
+    "Soup"
+   ],
+   "address": "151 South 500 East, 84102, Salt Lake City",
+   "website": "https://oasiscafeslc.com"
+  },
+  {
+   "name": "Dave & Buster's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "140 South Rio Grande Street, 84101, Salt Lake City",
+   "website": "https://www.daveandbusters.com/us/en/about/locations/salt-lake-city/"
+  },
+  {
+   "name": "Nono",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "925 East 900 South, 84105, Salt Lake City",
+   "website": "https://www.nonopizza.com/"
+  },
+  {
+   "name": "Panchos Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "250 West 2100 South, 84115, Salt Lake City",
+   "website": "https://panchosmexicangrillslc.com/"
+  },
+  {
+   "name": "Slackwater Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "684 South 500 West, 84101, Salt Lake City",
+   "website": "https://slackwaterpizzeria.com/"
+  },
+  {
+   "name": "Egg Break",
+   "cuisines": [
+    "Breakfast",
+    "Sandwich"
+   ],
+   "address": "193 West 2100 South, 84115, South Salt Lake",
+   "website": "https://eggbreakbreakfast.com/"
+  },
+  {
+   "name": "Dangerous Pretzel",
+   "cuisines": [
+    "Pretzel"
+   ],
+   "address": "352 West 600 South, 84101, Salt Lake City",
+   "website": "https://www.dangerouspretzel.com/"
+  },
+  {
+   "name": "Junah",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "916 South Jefferson Street, 84101, Salt Lake City",
+   "website": "https://junahslc.com/"
+  },
+  {
+   "name": "Rancherito's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "775 West North Temple, 84116, Salt Lake City",
+   "website": "https://rancheritosmexicanfood.com/locations/salt-lake-city-775-w/"
+  },
+  {
+   "name": "Kneaders",
+   "cuisines": [
+    "Sandwich",
+    "Pastry"
+   ],
+   "address": "28 South State Street, 84111, Salt Lake City",
+   "website": "https://www.kneaders.com/"
+  },
+  {
+   "name": "Bruges Waffles and Frites",
+   "cuisines": [
+    "International"
+   ],
+   "address": "336 West 300 South, 84101, Salt Lake City",
+   "website": "https://www.brugeswaffles.com/bruges-bistro-salt-lake-city/"
+  },
+  {
+   "name": "Top Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "358 South 700 East, 84102, Salt Lake City",
+   "website": "https://topthairestaurantslc.com"
+  },
+  {
+   "name": "Central",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "454 East 300 South, 84111, Salt Lake City",
+   "website": "https://centralbysaffronvalley.com/"
+  },
+  {
+   "name": "Oh Mai",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "850 South State Street, 84111, Salt Lake City",
+   "website": "https://www.ohmaisandwichkitchen.com/"
+  },
+  {
+   "name": "Handosake",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "222 South Main Street, 84101, Salt Lake City",
+   "website": "https://handosake.com/"
+  },
+  {
+   "name": "Arempa's",
+   "cuisines": [
+    "Venezuelan"
+   ],
+   "address": "350 South State Street, 84111, Salt Lake City",
+   "website": "https://www.arempas.com/"
+  },
+  {
+   "name": "Indochine Vietnamese Bistro",
+   "cuisines": [
+    "Chinese",
+    "Vietnamese"
+   ],
+   "address": "230 1300 East, 84102, Salt Lake City",
+   "website": "https://indochineslc.com/"
+  },
+  {
+   "name": "Ozora Izakaya Japanese Bar & Tapas (Downtown)",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "65 East 300 South, 84111, Salt Lake City",
+   "website": "https://ozoraizakaya.com/"
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "1152 East 2100 South, 84106, Salt Lake City",
+   "website": "https://locations.noodles.com/ut/salt-lake-city/1152-east-2100-south.html"
+  },
+  {
+   "name": "Pat's Barbeque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "155 West Commonwealth Avenue, 84115, South Salt Lake",
+   "website": "https://patsbbq.com/"
+  },
+  {
+   "name": "Central 9th Market",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "161 West 900 South, 84101, Salt Lake City",
+   "website": "https://central9th.com"
+  },
+  {
+   "name": "Hanaya Poke",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "675 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.hanayapokeslc.com/"
+  },
+  {
+   "name": "Maize",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "151 South Regent Street, 84111, Salt Lake City",
+   "website": "https://www.maizetacos.com"
+  },
+  {
+   "name": "Urban Hill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "510 South 300 West, 84101, Salt Lake City",
+   "website": "https://www.urban-hill.com/"
+  },
+  {
+   "name": "Tokyo Tower",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1158 South State Street, 84111, Salt Lake City",
+   "website": "https://www.tokyotowerslc.com"
+  },
+  {
+   "name": "Drunken Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "333 West 2100 South, 84115, South Salt Lake",
+   "website": "https://drunkenkitch.com/"
+  },
+  {
+   "name": "Mi Buena Vida Express",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "170 South Main Street, 84101, Salt Lake City",
+   "website": "https://mibuenavidaslc.com/"
+  },
+  {
+   "name": "Happy Camper Deli & Bakery",
+   "cuisines": [
+    "Sandwich",
+    "Pizza",
+    "Breakfast",
+    "Salad"
+   ],
+   "address": "602 East 600 South, 84105, Salt Lake City",
+   "website": "https://www.happycamperdeli.com/"
+  },
+  {
+   "name": "Nico's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1458 West North Temple, 84116, Salt Lake City",
+   "website": "https://nicos-restaurant.square.site"
+  },
+  {
+   "name": "Dee's Restaurant",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Pasta",
+    "Salad"
+   ],
+   "address": "2104 South 700 East, 84106, Salt Lake City",
+   "website": "https://deesutah.com/locations/sugar-house/"
+  },
+  {
+   "name": "HSL",
+   "cuisines": [
+    "American"
+   ],
+   "address": "418 East 200 South, 84111, Salt Lake City",
+   "website": "https://www.hslrestaurant.com/"
+  },
+  {
+   "name": "Chubby's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "955 North 1400 West, 84116, Salt Lake City",
+   "website": "https://www.slcmenu.com/2016/01/03/chubbys-mexican-restaurant-menu/"
+  },
+  {
+   "name": "Le Boeuf",
+   "cuisines": [
+    "French",
+    "Italian"
+   ],
+   "address": "248 West 900 South, 84101, Salt Lake City",
+   "website": "https://le-boeuf.square.site"
+  },
+  {
+   "name": "Benihana",
+   "cuisines": [
+    "Japanese",
+    "Teppanyaki",
+    "Steak"
+   ],
+   "address": "165 South West Temple, 84101, Salt Lake City",
+   "website": "https://www.benihana.com/locations/salt-lake-city/"
+  },
+  {
+   "name": "Red Iguana 2",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "866 West South Temple, 84104, Salt Lake City",
+   "website": "https://www.rediguana.com/locations/red-iguana-2/"
+  },
+  {
+   "name": "Johnny Rockets",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "36 South State Street, 84103, Salt Lake City",
+   "website": "https://locations.johnnyrockets.com/ll/US/UT/Salt-Lake-City/36-South-State-St_*-Unit-240"
+  },
+  {
+   "name": "Rich's Burgers 'N Grub",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "30 East 300 South, Salt Lake City",
+   "website": "https://richsburgersngrub.com"
+  },
+  {
+   "name": "Siegfried's Delicatessen",
+   "cuisines": [
+    "German"
+   ],
+   "address": "20 West 200 South, 84101, Salt Lake City",
+   "website": "http://www.siegfriedsdelicatessen.com/"
+  },
+  {
+   "name": "Lucky H Grille",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "500 South Main Street, 84101, Salt Lake City",
+   "website": "https://saltlake.littleamerica.com/lucky-h-buffet/"
+  },
+  {
+   "name": "Thai 101",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "214 West 600 South, Salt Lake City",
+   "website": "https://thai101slc.com"
+  },
+  {
+   "name": "From Scratch",
+   "cuisines": [
+    "American"
+   ],
+   "address": "62 East Gallivan Avenue, 84111, Salt Lake City",
+   "website": "https://fromscratchslc.com/"
+  },
+  {
+   "name": "Salt Egg City",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1391 South 300 West, 84115, Salt Lake City",
+   "website": "https://salteggcity.com/"
+  },
+  {
+   "name": "That Sandwich Shop",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "55 North Redwood Road, 84116, Salt Lake City",
+   "website": "https://thatsandwichshop.com/"
+  },
+  {
+   "name": "Ramblin Roads",
+   "cuisines": [
+    "American"
+   ],
+   "address": "206 South West Temple, 84101, Salt Lake City",
+   "website": "https://ramblinroadsrestaurant.com/salt-lake-city-206-south-temple"
+  },
+  {
+   "name": "Saffron Valley",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "479 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.saffronvalley.com/saffron-bistro-sugar-house-indian-restaurant-utah"
+  },
+  {
+   "name": "Little Saigon",
+   "cuisines": [
+    "Asian",
+    "Vietnamese"
+   ],
+   "address": "2021 South Windsor Street, 84105, Salt Lake City",
+   "website": "https://www.littlesaigonutah.com/"
+  },
+  {
+   "name": "The Capital Grille",
+   "cuisines": [
+    "Steak"
+   ],
+   "address": "40 East 100 South, 84111, Salt Lake City",
+   "website": "https://www.thecapitalgrille.com/locations/ut/salt-lake-city/8069"
+  },
+  {
+   "name": "Monarca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "268 South State Street, 84111, Salt Lake City",
+   "website": "https://monarcaut.com/"
+  },
+  {
+   "name": "Mint",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2121 South McClelland Street, 84106, Salt Lake City",
+   "website": "https://mintsushiut.com"
+  },
+  {
+   "name": "Publik Kitchen",
+   "cuisines": [
+    "Breakfast",
+    "Brunch",
+    "Lunch"
+   ],
+   "address": "931 East 900 South, 84105, Salt Lake City",
+   "website": "https://publikcoffee.com/locations/publik-kitchen"
+  },
+  {
+   "name": "Piko Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "511 South 500 East, Salt Lake City",
+   "website": "https://pikomexicangrill.com"
+  },
+  {
+   "name": "Kuchu Shabu",
+   "cuisines": [
+    "Japanese",
+    "Hot Pot",
+    "Ramen"
+   ],
+   "address": "2121 South McClelland Street, 84106, Salt Lake City",
+   "website": "https://www.kuchushabu.com/"
+  },
+  {
+   "name": "Mom's Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2233 South State Street, 84115, South Salt Lake",
+   "website": "https://www.momskitchenut.com/"
+  },
+  {
+   "name": "Proper Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "865 South Main Street, 84111, Salt Lake City",
+   "website": "https://properbrewingco.com/locations/proper-burger-downtown/"
+  },
+  {
+   "name": "VENETO",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "370 East 900 South, 84111, Salt Lake City",
+   "website": "https://venetoslc.com"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "389 West 1830 South, 84115, Salt Lake City",
+   "website": "https://locations.chuckecheese.com/us/ut/saltlakecity/389-w.-1830-south"
+  },
+  {
+   "name": "Himalayan Kitchen",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "360 South State Street, 84111, Salt Lake City",
+   "website": "https://www.himalayankitchen.com/"
+  },
+  {
+   "name": "Publik Ed's",
+   "cuisines": [
+    "American",
+    "Coffee Shop"
+   ],
+   "address": "210 South University Street, 84102, Salt Lake City",
+   "website": "https://www.publikcoffee.com/"
+  },
+  {
+   "name": "Bambara",
+   "cuisines": [
+    "American"
+   ],
+   "address": "202 South Main Street, 84101, Salt Lake City",
+   "website": "https://bambara-slc.com/"
+  },
+  {
+   "name": "Antica Roma",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "132 South Main Street, 84101, Salt Lake City",
+   "website": "https://www.anticaromaslc.com/"
+  },
+  {
+   "name": "The Robin's Nest",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "83 East 300 South, 84111, Salt Lake City",
+   "website": "https://robinsnestslc.com/"
+  },
+  {
+   "name": "Aker",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "9 East Exchange Place, 84101, Salt Lake City",
+   "website": "https://akersaltlake.com/"
+  },
+  {
+   "name": "Tucano's Brazilian Grill",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "162 South 400 West, 84101, Salt Lake City",
+   "website": "https://www.tucanos.com/location/slc"
+  },
+  {
+   "name": "Charlie Chow's Dragon Grill",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "255 East 400 South, 84111, Salt Lake City",
+   "website": "https://www.charliechowsslc.com/"
+  },
+  {
+   "name": "China Delight",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1704 West North Temple, 84116, Salt Lake City",
+   "website": "https://www.chinadelightsaltlakecity.com/"
+  },
+  {
+   "name": "Chunga's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "180 South 900 West, 84104, Salt Lake City",
+   "website": "https://chungasslc.com/"
+  },
+  {
+   "name": "Urban Gyro & Chicken",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2121 South McClelland Street, 84106, Salt Lake City",
+   "website": "https://ugcplatters.com"
+  },
+  {
+   "name": "Toaster's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "151 West 200 South, 84101, Salt Lake City",
+   "website": "https://www.toastersdeli.com/"
+  },
+  {
+   "name": "Pizzeria Limone",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "613 East 400 South, 84102, Salt Lake City",
+   "website": "https://pizzerialimone.com/downtown/"
+  },
+  {
+   "name": "Chile-Tepin",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "307 West 200 South, 84101, Salt Lake City",
+   "website": "https://www.chile-tepin.com/home"
+  },
+  {
+   "name": "Gaetano's Sub Shop",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1618 South State Street, Salt Lake City",
+   "website": "https://gaetanosslc.com"
+  },
+  {
+   "name": "Oromian",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1522 South State Street, 84115, Salt Lake City",
+   "website": "https://oromianrestaurant.com/"
+  },
+  {
+   "name": "Tsunami",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "1059 East 900 South, 84105, Salt Lake City",
+   "website": "https://www.tsunamiutah.com/tsunami-9th"
+  },
+  {
+   "name": "Ozora Izakaya Japanese Bar & Tapas",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1078 East 2100 South, 84106, Salt Lake City",
+   "website": "https://www.ozoraizakaya.com/"
+  },
+  {
+   "name": "Mar Muntanya",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "170 South West Temple, 84101, Salt Lake City",
+   "website": "https://www.mar-muntanya.com/"
+  },
+  {
+   "name": "Jollofology",
+   "cuisines": [
+    "Nigerian"
+   ],
+   "address": "67 West 1700 South, Salt Lake City",
+   "website": "https://jollofology.com"
+  },
+  {
+   "name": "Shawarma Shack",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "268 South Main Street, Salt Lake City",
+   "website": "https://shawarmashack.co"
+  },
+  {
+   "name": "Millcrepes",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "330 East 400 South, Salt Lake City",
+   "website": "https://www.millcrepescafe.com"
+  },
+  {
+   "name": "Strada",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "30 East 300 South, 84111, Salt Lake City",
+   "website": "https://stradaslc.com"
+  },
+  {
+   "name": "Saltify Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "209 South 1300 East, 84102, Salt Lake City",
+   "website": "https://saltifygrill.com/"
+  },
+  {
+   "name": "Brownstone 22",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "22 East 100 South, 84111, Salt Lake City",
+   "website": "https://www.brownstone22.com/"
+  },
+  {
+   "name": "Moochie's Meatballs and More",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2121 South State Street, 84115, South Salt Lake",
+   "website": "https://moochiesmeatballs.com/"
+  },
+  {
+   "name": "Valter's Osteria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "173 West 300 South, Salt Lake City",
+   "website": "https://valtersosteria.com/"
+  },
+  {
+   "name": "Meno's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "75 West 1700 South, 84115, Salt Lake City",
+   "website": "https://www.elmenosslc.com/"
+  },
+  {
+   "name": "New Golden Dragon",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1716 South State Street, 84115, Salt Lake City",
+   "website": "https://www.newgoldendragonslc.com/"
+  },
+  {
+   "name": "Settebello",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "260 South 200 West, 84101, Salt Lake City",
+   "website": "https://www.settebello.net"
+  },
+  {
+   "name": "Kokonut Island Grill",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "358 South 700 East, 84102, Salt Lake City",
+   "website": "https://www.kokonutislandgrill.com/"
+  },
+  {
+   "name": "Gracie's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "326 South West Temple, 84101, Salt Lake City",
+   "website": "https://www.graciesslc.com/"
+  },
+  {
+   "name": "Bodega (The Rest)",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "331 South Main Street, 84111, Salt Lake City",
+   "website": "https://bodegaslc.com/"
+  },
+  {
+   "name": "R&R BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "307 West 600 South, 84101, Salt Lake City",
+   "website": "https://locations.randrbbq.com/ut/salt-lake-city/salt-lake/"
+  },
+  {
+   "name": "Lucky 13",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "135 West 1300 South, 84115, Salt Lake City",
+   "website": "https://www.lucky13slc.com/"
+  },
+  {
+   "name": "Big Dipper Sandwiches",
+   "cuisines": [
+    "Sandwich",
+    "Soup"
+   ],
+   "address": "208 East 500 South, 84111, Salt Lake City",
+   "website": "https://bigdippersandwiches.com"
+  },
+  {
+   "name": "Wild Pepper Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "777 South State Street, Salt Lake City",
+   "website": "https://wildpepperpizza.com/"
+  },
+  {
+   "name": "Kafe Mamai",
+   "cuisines": [
+    "African",
+    "Caribbean"
+   ],
+   "address": "47 East Gallivan Avenue, Salt Lake City",
+   "website": "https://kafemamai.com/"
+  },
+  {
+   "name": "Little World",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1356 South State Street, 84115, Salt Lake City",
+   "website": "https://www.littleworldslc.com/"
+  },
+  {
+   "name": "Penny Ann's Cafe",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1810 South Main Street, 84115, Salt Lake City",
+   "website": "https://pennyannscafe.com/"
+  },
+  {
+   "name": "Kathmandu Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "212 South 700 East, 84102",
+   "website": "https://www.kathmandugrillslc.com/"
+  },
+  {
+   "name": "Noodle and Dumpling",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "516 East 300 South, 84102, Salt Lake City",
+   "website": "https://www.noodledumpling.com/"
+  },
+  {
+   "name": "Thai Garden Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "868 East 900 South, 84105, Salt Lake City",
+   "website": "https://www.thaigardenslc.com/"
+  },
+  {
+   "name": "Nacho Daddy",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "241 West 200 South, 84101, Salt Lake City",
+   "website": "https://nachodaddy.com/locations/salt-lake-city/"
+  },
+  {
+   "name": "Los Tapatios",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "120 North 900 West, 84116, Salt Lake City",
+   "website": "https://www.lostapatiostacogrill.com/"
+  },
+  {
+   "name": "Costa Vida",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "60 East South Temple, 84111, Salt Lake City",
+   "website": "https://www.costavida.com/locations/us/ut/salt-lake-city/60-east-south-temple/"
+  },
+  {
+   "name": "Salt & Olive",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "270 South 300 East, 84111, Salt Lake City",
+   "website": "https://saltandoliveutah.com/"
+  },
+  {
+   "name": "Sol Agave",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "660 South Main Street, 84101, Salt Lake City",
+   "website": "https://www.solagave.com/salt-lake-city"
+  },
+  {
+   "name": "Chuck-a-Rama",
+   "cuisines": [
+    "American"
+   ],
+   "address": "744 East 400 South, 84102, Salt Lake City",
+   "website": "https://www.chuck-a-rama.com/salt-lake"
+  },
+  {
+   "name": "Manoli's",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "402 East 900 South, 84111, Salt Lake City",
+   "website": "https://www.manolison9th.com/"
+  },
+  {
+   "name": "Tandoori Taqueria",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "156 East 900 South, 84111, Salt Lake City",
+   "website": "https://thetandooritaqueria.com"
+  },
+  {
+   "name": "Top Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1427 South 300 West, 84115, Salt Lake City",
+   "website": "https://toptacorestaurant.com/"
+  },
+  {
+   "name": "Sushi By Bou",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "110 West 300 South, Salt Lake City",
+   "website": "https://www.sushibybou.com/location/salt-lake-city-ut-the-peery/"
+  },
+  {
+   "name": "MENSHO",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "550 South 300 West, Salt Lake City",
+   "website": "https://mensho.com/location/mensho-salt-lake/"
+  },
+  {
+   "name": "Nomad East",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1675 East 1300 South, 84105, Salt Lake City",
+   "website": "https://www.nomad-east.com/"
+  },
+  {
+   "name": "Tacos Garay",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "909 South 300 West, 84101, Salt Lake City",
+   "website": "https://www.tacosgaray.com/"
+  },
+  {
+   "name": "Blue Iguana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "165 South West Temple, 84101, Salt Lake City",
+   "website": "https://blueiguanarestaurant.net/"
+  },
+  {
+   "name": "Laurel Brasserie & Bar",
+   "cuisines": [
+    "European"
+   ],
+   "address": "555 South Main Street, 84111, Salt Lake City",
+   "website": "https://laurelslc.com"
+  },
+  {
+   "name": "Krua Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "212 East 500 South, 84111, Salt Lake City",
+   "website": "https://www.kruathairestaurant.co/"
+  },
+  {
+   "name": "Legends Sports Pub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "677 South 200 West, 84111, Salt Lake City",
+   "website": "https://www.whylegends.com/"
+  },
+  {
+   "name": "Alberto's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "511 South 300 West, Salt Lake City",
+   "website": "https://www.albertosmex.com"
+  },
+  {
+   "name": "Chanon Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "278 East 900 South, 84111, Salt Lake City",
+   "website": "https://chanonthaislc.com/"
+  },
+  {
+   "name": "Hong Kong Teahouse and Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "565 West 200 South, 84101, Salt Lake City",
+   "website": "https://hongkongteahouse.yolasite.com/"
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://www.pfchangs.com/locations/us/ut/salt-lake-city/174-west-300-south/6000-salt-lake-city.html"
+  },
+  {
+   "name": "Hamachi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "84111",
+   "website": "https://hamachisushibar.com/"
+  },
+  {
+   "name": "Afghan Kitchen",
+   "cuisines": [
+    "Afghan"
+   ],
+   "address": "1465 South State Street, Salt Lake City",
+   "website": "https://afghanistanrestaurant.com"
+  },
+  {
+   "name": "Tosh's Ramen",
+   "cuisines": [
+    "Ramen",
+    "Japanese"
+   ],
+   "address": "1465 South State Street, 84115, Salt Lake City",
+   "website": "https://toshsramenslc.com/"
+  },
+  {
+   "name": "Caffe Molise",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "404 South West Temple, 84101, Salt Lake City",
+   "website": "http://caffemolise.com"
+  },
+  {
+   "name": "Skewered Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "575 700 East, 84102, Salt Lake City",
+   "website": "https://skeweredthai.com/"
+  },
+  {
+   "name": "Uncle Hot Pot",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "569 North 300 West, 84103, Salt Lake City",
+   "website": "https://www.unclehotpot.com/"
+  },
+  {
+   "name": "Shinobi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "555 North 300 West, 84103, Salt Lake City",
+   "website": "https://www.shinobislc.com/"
+  },
+  {
+   "name": "LemonShark Poke",
+   "cuisines": [
+    "Polish"
+   ],
+   "address": "6 East Broadway Street, 84111, Salt Lake City",
+   "website": "https://lemonsharkpoke.com/saltlakecity/"
+  },
+  {
+   "name": "El Cholo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2166 South 900 East, 84106, Salt Lake City",
+   "website": "https://www.elcholo.com"
+  },
+  {
+   "name": "Rouser",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2 South 400 West, Salt Lake City",
+   "website": "https://rouserslc.com"
+  },
+  {
+   "name": "Smothered Burrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "250 West 500 South, Salt Lake City",
+   "website": "https://smothered-burrito.com/"
+  },
+  {
+   "name": "Thai Lake City",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1425 South 300 West, 84115, Salt Lake City",
+   "website": "https://thailakecity.com"
+  },
+  {
+   "name": "Killa",
+   "cuisines": [
+    "Japanese",
+    "Peruvian"
+   ],
+   "address": "279 East 300 South, 84111, Salt Lake City",
+   "website": "https://www.killanikkei.com"
+  },
+  {
+   "name": "J Dawg's",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "50 East South Temple, Salt Lake City",
+   "website": "https://www.jdawgs.com"
+  },
+  {
+   "name": "Spencers for Steaks and Chops",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "255 South West Temple",
+   "website": "https://www.spencersslc.com/"
+  },
+  {
+   "name": "Kyoto",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1080 East 1300 South, 84105, Salt Lake City",
+   "website": "https://www.kyotoslc.com/"
+  },
+  {
+   "name": "Ahh Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "22 East 100 South, Salt Lake City",
+   "website": "https://www.oshucks-ahhsushi.com/"
+  },
+  {
+   "name": "Huckleberry Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "335 West 1830 South, Salt Lake City",
+   "website": "https://huckleberrygrill.com"
+  },
+  {
+   "name": "Gossip Kitchen",
+   "cuisines": [
+    "Japanese",
+    "Italian"
+   ],
+   "address": "152 East 200 South, 84111, Salt Lake City",
+   "website": "https://gossipkitchenutah.com"
+  },
+  {
+   "name": "Santo Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "380 South State Street, 84111, Salt Lake City",
+   "website": "https://santotacos.com/"
+  },
+  {
+   "name": "Taverna Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "427 North 300 West, 84103, Salt Lake City",
+   "website": "https://taverna.pizza/"
+  },
+  {
+   "name": "Momomaru",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "636 South 200 West, Salt Lake City",
+   "website": "https://www.rollwithmomomaru.com/"
+  },
+  {
+   "name": "Culinary Dropout",
+   "cuisines": [
+    "American"
+   ],
+   "address": "765 South 400 West, Salt Lake City",
+   "website": "https://culinarydropout.com/locations/salt-lake-city-ut"
+  },
+  {
+   "name": "The Park Café",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://theparkcafeslc.com/"
+  },
+  {
+   "name": "STK Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "111 South 300 West, Salt Lake City",
+   "website": "https://stksteakhouse.com"
+  },
+  {
+   "name": "Freshie's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "356 East 900 South",
+   "website": "https://freshieslobsterco.com"
+  },
+  {
+   "name": "Doner and Company",
+   "cuisines": [
+    "German"
+   ],
+   "address": "915 South Washington Street, Salt Lake City",
+   "website": "https://donerandcompany.com"
+  },
+  {
+   "name": "Yoimi Sushi & Hibachi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1280 South 300 West",
+   "website": "https://yoimisaltlakecity.com"
+  },
+  {
+   "name": "Eggsburgh",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://eggsburgh.com/"
+  },
+  {
+   "name": "Cafe Guanaco",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "",
+   "website": "https://cafeguanacout.com/"
+  },
+  {
+   "name": "Adelaide",
+   "cuisines": [
+    "French",
+    "Cajun"
+   ],
+   "address": "",
+   "website": "https://www.adelaidesaltlake.com/"
+  },
+  {
+   "name": "Pizza Twist",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://saltlakecity.pizzatwist.com/menucat"
+  },
+  {
+   "name": "Prime Corn",
+   "cuisines": [
+    "Mexican",
+    "Indegenous"
+   ],
+   "address": "",
+   "website": "https://www.primecornfood.com"
+  },
+  {
+   "name": "Burger Fusion",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://burgerfusion.com/"
+  },
+  {
+   "name": "The Lobby Lounge",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://www.grandamerica.com/dining/lobby-lounge/"
+  },
+  {
+   "name": "Rusty Birds Cafe",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "",
+   "website": "https://www.rustybirdscafe.com/"
+  },
+  {
+   "name": "Salt City Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": "https://saltcitybbq.co"
+  },
+  {
+   "name": "MOZZ Artisan Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://mozzartisanpizza.com"
+  },
+  {
+   "name": "Pinoy Inasal",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "",
+   "website": "https://pinoyinasal.com/"
+  },
+  {
+   "name": "Don Daniel's Mexican Grill & Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1017 North 900 West, 84116, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Les Banh Mi",
+   "cuisines": [
+    "Vietnamese",
+    "Sandwich",
+    "Noodle"
+   ],
+   "address": "249 East 400 South, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "The Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "602 East 500 South, 84102, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Yoko Ramen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "473 East 300 South, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Mahider Ethiopian Restaurant & Market",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1465 South State Street, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Cafe Shambala",
+   "cuisines": [
+    "Tibetan"
+   ],
+   "address": "382 East 4th Avenue, 84103, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Bhansa Ghar",
+   "cuisines": [
+    "Asian",
+    "Nepal"
+   ],
+   "address": "250 West 2100 South, 84115, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Litzas Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "716 East 400 South, 84102, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Laan Na Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "336 West 300 South, 84101, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Hoshi Hoshi",
+   "cuisines": [
+    "Ramen",
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "2030 South 900 East, 84105, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Ramen Ichizu",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "915 South Washington Street, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Tepanyaki Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "310 East 400 South, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Thani Bowl",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "365 West 400 South, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Moochie's Meatballs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "232 East 800 South, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Este Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2148 South 900 East, 84106, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Taste of Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2130 South Highland Drive, 84106, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "The Original Pancake House",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "790 East 2100 South, 84106, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Angelito Mexican Restaurant & Ice Cream",
+   "cuisines": [
+    "Mexican",
+    "Ice Cream"
+   ],
+   "address": "1625 West 700 North, 84116, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Masa Sushi Ayce",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "618 East 400 South, 84102, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Aranya Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "810 South State Street, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Ruby River",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "435 South 700 East, 84102, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Rusted Sun Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2010 South State Street, 84115, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Tappo",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "565 East 2100 South, 84106, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Bartolo's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cosmica",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "945 South 300 West, 84101, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Julia's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "51 South 1000 West, 84104, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Mazza",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "1515 South 1500 East, 84105, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Pleiku",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "264 South Main Street, 84101, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "The Other Place",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "469 East 300 South, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Sapa Bar & Grill",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "722 South State Street, 84111, Salt Lake City",
+   "website": ""
+  },
+  {
+   "name": "Nice BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "153 South Rio Grande Street, Salt Lake City",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Family History Library",
+   "kind": "attraction",
+   "address": "32 North West Temple, 84150, Salt Lake City",
+   "website": "https://www.familysearch.org/en/library/",
+   "phone": "+1-801-240-6996",
+   "latitude": 40.7701892,
+   "longitude": -111.8944896
+  },
+  {
+   "name": "Hogle Zoo",
+   "kind": "zoo",
+   "address": "2600 East Sunnyside Avenue, 84108, Salt Lake City",
+   "website": "https://www.hoglezoo.org/",
+   "phone": "+1-801-584-1700",
+   "latitude": 40.7495115,
+   "longitude": -111.815949
+  },
+  {
+   "name": "Clark Planetarium",
+   "kind": "museum",
+   "address": "110 South 400 West, 84101, Salt Lake City",
+   "website": "http://www.clarkplanetarium.org",
+   "phone": "+1-385-468-7827",
+   "latitude": 40.7667062,
+   "longitude": -111.9031435
+  },
+  {
+   "name": "Church History Museum",
+   "kind": "museum",
+   "address": "45 North West Temple, 84150, Salt Lake City",
+   "website": "https://www.churchofjesuschrist.org/learn/church-history-museum-temple-square?lang=eng",
+   "phone": "",
+   "latitude": 40.7709569,
+   "longitude": -111.8944824
+  },
+  {
+   "name": "Natural History Museum Of Utah",
+   "kind": "museum",
+   "address": "301 South Wakara Way, 84108, Salt Lake City",
+   "website": "https://nhmu.utah.edu",
+   "phone": "",
+   "latitude": 40.7641321,
+   "longitude": -111.8227076
+  },
+  {
+   "name": "Utah Museum of Contemporary Art",
+   "kind": "museum",
+   "address": "20 South West Temple, 84101, Salt Lake City",
+   "website": "https://www.utahmoca.org/",
+   "phone": "+1-801-328-4201",
+   "latitude": 40.7681897,
+   "longitude": -111.894389
+  },
+  {
+   "name": "Discovery Gateway Children's Museum",
+   "kind": "museum",
+   "address": "444 West 100 South, 84116, Salt Lake City",
+   "website": "https://www.discoverygateway.org/",
+   "phone": "+1 801-456-5437",
+   "latitude": 40.7673973,
+   "longitude": -111.903884
+  },
+  {
+   "name": "Utah Museum of Fine Arts",
+   "kind": "museum",
+   "address": "",
+   "website": "https://umfa.utah.edu/",
+   "phone": "",
+   "latitude": 40.760243,
+   "longitude": -111.8431702
+  },
+  {
+   "name": "Temple Square",
+   "kind": "attraction",
+   "address": "North Temple, 84101, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7704254,
+   "longitude": -111.8925347
+  },
+  {
+   "name": "Deveraux House",
+   "kind": "attraction",
+   "address": "334 W South Temple, 84111, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7700376,
+   "longitude": -111.9010197
+  },
+  {
+   "name": "White Memorial Chapel",
+   "kind": "attraction",
+   "address": "150 East 300 North, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7755732,
+   "longitude": -111.8868427
+  },
+  {
+   "name": "Conference Center",
+   "kind": "attraction",
+   "address": "60 North West Temple, 84150, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7726514,
+   "longitude": -111.8925043
+  },
+  {
+   "name": "Utah State Capitol Building",
+   "kind": "attraction",
+   "address": "350 North State Street, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7774323,
+   "longitude": -111.8882172
+  },
+  {
+   "name": "Lion House",
+   "kind": "attraction",
+   "address": "63 South Temple, 84150, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7697897,
+   "longitude": -111.8889969
+  },
+  {
+   "name": "Church History Library",
+   "kind": "attraction",
+   "address": "15 East North Temple, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7720848,
+   "longitude": -111.8904224
+  },
+  {
+   "name": "Joseph Smith Memorial Building",
+   "kind": "attraction",
+   "address": "15 South Temple, 84150, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7698867,
+   "longitude": -111.8905118
+  },
+  {
+   "name": "Beehive House",
+   "kind": "attraction",
+   "address": "67 South Temple, 84150, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.76975,
+   "longitude": -111.8886969
+  },
+  {
+   "name": "Rio Grande Depot",
+   "kind": "museum",
+   "address": "300 South Rio Grande Street, 84101, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7628146,
+   "longitude": -111.9046066
+  },
+  {
+   "name": "Governor's Mansion",
+   "kind": "attraction",
+   "address": "603 East South Temple, 84102, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7697959,
+   "longitude": -111.8741054
+  },
+  {
+   "name": "Block U",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7793692,
+   "longitude": -111.839874
+  },
+  {
+   "name": "Meridian Peak",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.8130486,
+   "longitude": -111.891255
+  },
+  {
+   "name": "Mount Wire",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7706363,
+   "longitude": -111.7984528
+  },
+  {
+   "name": "Chase Home Museum Of Utah Folk Arts",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7455348,
+   "longitude": -111.8744145
+  },
+  {
+   "name": "Mount Van Cott",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7817726,
+   "longitude": -111.8242138
+  },
+  {
+   "name": "Mormon Battalion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7764818,
+   "longitude": -111.8869056
+  },
+  {
+   "name": "Gospel Grace Church",
+   "kind": "attraction",
+   "address": "662 East 1300 South, 84105, Salt Lake City",
+   "website": "https://www.gospelgrace.com/",
+   "phone": "+1 801-508-4610",
+   "latitude": 40.7413794,
+   "longitude": -111.8717834
+  },
+  {
+   "name": "Museum of Utah",
+   "kind": "museum",
+   "address": "450 North State Street, Salt Lake City",
+   "website": "https://history.utah.gov/museum/",
+   "phone": "",
+   "latitude": 40.7787738,
+   "longitude": -111.8881562
+  },
+  {
+   "name": "Land Cruiser Heritage Museum",
+   "kind": "museum",
+   "address": "476 West 600 North, 84103, Salt Lake City",
+   "website": "https://landcruiserhm.com/",
+   "phone": "",
+   "latitude": 40.7830269,
+   "longitude": -111.9047257
+  },
+  {
+   "name": "Pioneer Memorial Museum",
+   "kind": "museum",
+   "address": "300 North Main Street, 84103, Salt Lake City",
+   "website": "https://isdup.org/museum/",
+   "phone": "",
+   "latitude": 40.7766705,
+   "longitude": -111.8911361
+  },
+  {
+   "name": "Urban Arts Gallery",
+   "kind": "gallery",
+   "address": "116 South Rio Grande Street, 84101, Salt Lake City",
+   "website": "https://www.urbanartsgallery.org/",
+   "phone": "+1-801-230-0820",
+   "latitude": 40.7666919,
+   "longitude": -111.904248
+  },
+  {
+   "name": "15th Street Gallery",
+   "kind": "gallery",
+   "address": "1519 South 1500 East, 84105, Salt Lake City",
+   "website": "https://15thstreetgallery.com/m/",
+   "phone": "+1 801-468-1515",
+   "latitude": 40.7365914,
+   "longitude": -111.847669
+  },
+  {
+   "name": "Dreamscapes",
+   "kind": "attraction",
+   "address": "16 North Rio Grande Street, Salt Lake City",
+   "website": "https://utaharts.org/en/dreamscapes/",
+   "phone": "",
+   "latitude": 40.7697046,
+   "longitude": -111.9038461
+  },
+  {
+   "name": "Cross E Ranch",
+   "kind": "attraction",
+   "address": "3500 North 2200 West, 84116, Salt Lake City",
+   "website": "https://www.crosseranch.com/",
+   "phone": "+1 801-203-0148",
+   "latitude": 40.8402641,
+   "longitude": -111.9519134
+  },
+  {
+   "name": "ember",
+   "kind": "gallery",
+   "address": "623 South State Street, Salt Lake City",
+   "website": "https://emberslc.com",
+   "phone": "+1-385-355-4211",
+   "latitude": 40.7557137,
+   "longitude": -111.887889
+  },
+  {
+   "name": "Salt Lake Art Museum",
+   "kind": "museum",
+   "address": "249 South 400 East",
+   "website": "https://saltlakeartmuseum.org/",
+   "phone": "",
+   "latitude": 40.7638035,
+   "longitude": -111.8791183
+  },
+  {
+   "name": "Museum of Utah Folk Art",
+   "kind": "museum",
+   "address": "",
+   "website": "https://artsandmuseums.utah.gov/chase-home-museum/",
+   "phone": "",
+   "latitude": 40.7455463,
+   "longitude": -111.874446
+  },
+  {
+   "name": "Lost Acorn",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://bio.site/lostacorn",
+   "phone": "+1 801-810-5549",
+   "latitude": 40.7760601,
+   "longitude": -111.866902
+  },
+  {
+   "name": "Material Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://materialartgallery.com",
+   "phone": "",
+   "latitude": 40.7067058,
+   "longitude": -111.894276
+  },
+  {
+   "name": "Tracy Aviary",
+   "kind": "zoo",
+   "address": "589 East 1300 South, 84105, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7430409,
+   "longitude": -111.875128
+  },
+  {
+   "name": "Fort Douglas Museum",
+   "kind": "museum",
+   "address": "1990 East Potter Street, 84113, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.763948,
+   "longitude": -111.8336961
+  },
+  {
+   "name": "McCune Mansion",
+   "kind": "attraction",
+   "address": "200 North Main Street, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7740113,
+   "longitude": -111.890427
+  },
+  {
+   "name": "The National Society of the Sons of Utah Pioneers",
+   "kind": "museum",
+   "address": "3301 East Louise Avenue, 84109, Millcreek",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7084337,
+   "longitude": -111.8018191
+  },
+  {
+   "name": "Classic Cars International Museum",
+   "kind": "museum",
+   "address": "355 West 700 South, 84101, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.753748,
+   "longitude": -111.9018052
+  },
+  {
+   "name": "A Gallery",
+   "kind": "gallery",
+   "address": "1321 South 2100 East, 84108, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.740999,
+   "longitude": -111.8304372
+  },
+  {
+   "name": "Phillips Gallery",
+   "kind": "gallery",
+   "address": "444 East 200 South, 84111, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7647037,
+   "longitude": -111.8780778
+  },
+  {
+   "name": "Alice Gallery",
+   "kind": "museum",
+   "address": "617 East South Temple, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7697511,
+   "longitude": -111.873526
+  },
+  {
+   "name": "Mestizo Institute of Culture and Arts",
+   "kind": "gallery",
+   "address": "95 South Rio Grande Street, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7674932,
+   "longitude": -111.9038975
+  },
+  {
+   "name": "Studio de Verre",
+   "kind": "gallery",
+   "address": "2312 South West Temple, South Salt Lake",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7205462,
+   "longitude": -111.8942362
+  },
+  {
+   "name": "Fear Factory",
+   "kind": "attraction",
+   "address": "666 West 800 South, 84104, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7509675,
+   "longitude": -111.909712
+  },
+  {
+   "name": "Yusdelly Visual Arts",
+   "kind": "gallery",
+   "address": "2020 East 3300 South, Millcreek",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6990659,
+   "longitude": -111.833055
+  },
+  {
+   "name": "David Ericson Fine Art",
+   "kind": "gallery",
+   "address": "410 East 3rd Avenue, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7726209,
+   "longitude": -111.8772461
+  },
+  {
+   "name": "Weixler Co.",
+   "kind": "gallery",
+   "address": "132 North E Street, 84103, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7724817,
+   "longitude": -111.8772341
+  },
+  {
+   "name": "Modern West Fine Art",
+   "kind": "gallery",
+   "address": "242 East South Temple, Salt Lake City",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7691133,
+   "longitude": -111.8838672
+  },
+  {
+   "name": "Red Butte",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7744824,
+   "longitude": -111.8051417
+  },
+  {
+   "name": "David Keith Mansion and Carriage House",
+   "kind": "attraction",
+   "address": "529 East South Temple",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7695234,
+   "longitude": -111.8750849
+  },
+  {
+   "name": "Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7444663,
+   "longitude": -111.8747078
+  },
+  {
+   "name": "Saans",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.763043,
+   "longitude": -111.8858628
+  },
+  {
+   "name": "Garden Exhibits",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7654473,
+   "longitude": -111.8237883
+  },
+  {
+   "name": "Social Hall Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7682233,
+   "longitude": -111.8877953
+  },
+  {
+   "name": "Conservation Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7496385,
+   "longitude": -111.8172778
+  },
+  {
+   "name": "Ensign Peak",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7943754,
+   "longitude": -111.8907037
+  },
+  {
+   "name": "African Elephant",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7504818,
+   "longitude": -111.8169664
+  },
+  {
+   "name": "White Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7503343,
+   "longitude": -111.8175734
+  },
+  {
+   "name": "Polar Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7503156,
+   "longitude": -111.8191625
+  },
+  {
+   "name": "Harbor Seal & Sea Lion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7501506,
+   "longitude": -111.8187394
+  },
+  {
+   "name": "Grizzly Bear",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7500514,
+   "longitude": -111.819497
+  },
+  {
+   "name": "Snow Leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7490133,
+   "longitude": -111.8184263
+  },
+  {
+   "name": "Red Fox",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7490409,
+   "longitude": -111.818139
+  },
+  {
+   "name": "Amur Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.748818,
+   "longitude": -111.8186277
+  },
+  {
+   "name": "Arabian Sand Cat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7488662,
+   "longitude": -111.8188636
+  },
+  {
+   "name": "Amur Leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7489744,
+   "longitude": -111.8188422
+  },
+  {
+   "name": "Siamese Crocodile",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7495001,
+   "longitude": -111.8178344
+  },
+  {
+   "name": "Orangutan",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7495934,
+   "longitude": -111.8165059
+  },
+  {
+   "name": "Gorilla",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7495462,
+   "longitude": -111.8161541
+  },
+  {
+   "name": "Giraffe",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.749644,
+   "longitude": -111.8151741
+  },
+  {
+   "name": "Zebra",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7496377,
+   "longitude": -111.8146948
+  },
+  {
+   "name": "Ostrich",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7495146,
+   "longitude": -111.8143822
+  },
+  {
+   "name": "Warthog",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7498079,
+   "longitude": -111.8149636
+  },
+  {
+   "name": "Stained Glass Illusions",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7388633,
+   "longitude": -111.8941361
+  },
+  {
+   "name": "Trolley History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7571429,
+   "longitude": -111.8725349
+  },
+  {
+   "name": "Vista Mound",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7921285,
+   "longitude": -111.8890809
+  },
+  {
+   "name": "Museum of Illusions",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7669175,
+   "longitude": -111.9042699
+  },
+  {
+   "name": "Hawaii Fluid Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7662085,
+   "longitude": -111.9042471
+  },
+  {
+   "name": "River Otters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.750383,
+   "longitude": -111.8185495
+  },
+  {
+   "name": "Globe Fountian",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7500002,
+   "longitude": -111.8141227
+  },
+  {
+   "name": "Canyon Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7705018,
+   "longitude": -111.8185958
+  },
+  {
+   "name": "Mercer Park Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7625274,
+   "longitude": -111.8750216
+  },
+  {
+   "name": "Living Room",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7666218,
+   "longitude": -111.8117005
+  },
+  {
+   "name": "Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.768952,
+   "longitude": -111.8191085
+  },
+  {
+   "name": "Seiter Art Gallery & Studio",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6789715,
+   "longitude": -111.8914511
+  },
+  {
+   "name": "Anthony's Fine Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7652502,
+   "longitude": -111.8792709
+  },
+  {
+   "name": "Jack's Mailbox",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7377689,
+   "longitude": -111.7958696
+  },
+  {
+   "name": "Bore Glass Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7612763,
+   "longitude": -111.8890664
+  },
+  {
+   "name": "State of Utah",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.776248,
+   "longitude": -111.8882206
+  }
+ ]
+}

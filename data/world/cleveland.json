@@ -1,0 +1,2197 @@
+{
+ "city": "Cleveland",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.5059,
+ "longitude": -81.6887,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Lakeside Avenue East, 44114, Cleveland",
+   "url": "https://www.hilton.com/en/hotels/cledohh-hilton-cleveland-downtown/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1100 Carnegie Avenue, 44115, Cleveland",
+   "url": "https://www.hilton.com/en/hotels/clegwgi-hilton-garden-inn-cleveland-downtown/"
+  },
+  {
+   "name": "Tudor Arms Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10660 Carnegie Avenue, 44106, Cleveland",
+   "url": "https://www.hilton.com/en/hotels/cleucdt-the-tudor-arms-hotel-cleveland/"
+  },
+  {
+   "name": "Hotel Cleveland, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "24 Public Square, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "Westin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "777 Saint Clair Avenue Northeast, 44114, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "Hotel Indigo Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "651 Huron Road, 44115, Cleveland",
+   "url": "https://www.ihg.com/spnd/hotels/us/en/cleveland/clehr/hoteldetail"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Cleveland Downtown - Lakeside",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1111 Lakeside Avenue East, 44114, Cleveland",
+   "url": "https://www.hilton.com/en/hotels/clelsdt-doubletree-cleveland-downtown-lakeside/"
+  },
+  {
+   "name": "Courtyard Cleveland University Circle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2021 Cornell Road, 44106, Cleveland",
+   "url": "https://www.marriott.com/clece"
+  },
+  {
+   "name": "Cleveland Marriott Downtown at Key Tower",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1360 West Mall Drive, 44114, Cleveland",
+   "url": "https://www.marriott.com/hotels/travel/clesc-cleveland-marriott-downtown-at-key-tower/"
+  },
+  {
+   "name": "Hampton Inn Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1460 East Ninth Street, 44114, Cleveland",
+   "url": "https://www.hilton.com/en/hotels/cledthx-hampton-cleveland-downtown/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Euclid Avenue, 44115, Cleveland",
+   "url": "https://www.choicehotels.com/ohio/streetsboro/econo-lodge-hotels"
+  },
+  {
+   "name": "Hyatt Regency Cleveland at The Arcade",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "420 Superior Avenue East, 44114, Cleveland",
+   "url": "https://cleveland.hyatt.com/"
+  },
+  {
+   "name": "Residence Inn Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "527 Prospect Avenue East, 44115, Cleveland",
+   "url": "https://www.marriott.com/cleri"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12019 Lake Avenue West 117th Street and Clifton Boulevard, 44107, Cleveland",
+   "url": "https://www.wyndhamhotels.com/days-inn/cleveland-ohio/days-inn-cleveland-lakewood/overview"
+  },
+  {
+   "name": "Travelodge Cleveland Lakewood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11837 Edgewater Drive, 44107, Lakewood",
+   "url": "https://www.wyndhamhotels.com/travelodge/lakewood-ohio/travelodge-cleveland-lakewood/overview"
+  },
+  {
+   "name": "Drury Plaza Hotel Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1380 East 6th Street, 44114",
+   "url": "https://www.druryhotels.com/locations/cleveland-oh/drury-plaza-hotel-cleveland-downtown"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "44106, Cleveland",
+   "url": "https://www.marriott.com/cleuv"
+  },
+  {
+   "name": "Stone Gables Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3806 Franklin Boulevard, 44113, Cleveland",
+   "url": "https://stonegablesinn.com"
+  },
+  {
+   "name": "InterContinental Hotel Cleveland",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.ihg.com/intercontinental/hotels/gb/en/cleveland/cleha/hoteldetail"
+  },
+  {
+   "name": "Tru by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6955 Euclid Avenue, 44103, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "J. Palen House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2708 Bridge Avenue, 44113, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "The Kimpton Schofield Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2000 East 9th Street, 44115, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "Crown Plaza Cleveland at Playhouse Square",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1260 Euclid Avenue, 44115, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "The Ritz-Carlton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 West 3rd Street, 44113, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "629 Euclid Avenue, 44114, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Cleveland Clinic",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8650 Euclid Avenue",
+   "url": ""
+  },
+  {
+   "name": "Aloft Cleveland Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fidelity Hotel CLE",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1940 East 6th Street, Cleveland",
+   "url": ""
+  },
+  {
+   "name": "InterContinental Suites Hotel Cleveland",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Winton Place Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Glidden House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Lancer",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Mc Call's Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Metropolitan at The 9, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Maker",
+   "cuisines": [
+    "American"
+   ],
+   "address": "24 Public Square, 44113, Cleveland",
+   "website": "https://www.marriott.com/en-us/hotels/cledk-hotel-cleveland-autograph-collection/dining/"
+  },
+  {
+   "name": "The Bourbon Street Barrel Room",
+   "cuisines": [
+    "Cajun",
+    "Creole"
+   ],
+   "address": "2393 Professor Avenue, 44113, Cleveland",
+   "website": "http://www.bourbonstreetbarrelroom.com/"
+  },
+  {
+   "name": "REBOL",
+   "cuisines": [
+    "Organic"
+   ],
+   "address": "101 West Superior Avenue, 44113, Cleveland",
+   "website": "https://www.wearerebol.com/"
+  },
+  {
+   "name": "Le Petit Triangle Cafe",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1881 Fulton Road, 44113",
+   "website": "https://lepetittriangle.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3401 Steelyard Drive, 44109, Cleveland",
+   "website": "https://restaurants.applebees.com/en-us/oh/cleveland/3401-steelyard-drive-76017"
+  },
+  {
+   "name": "Mamilla",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "401 Euclid Avenue, 44114, Cleveland",
+   "website": "https://www.mamillacle.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2211 Chester Avenue, 44114, Cleveland",
+   "website": "https://locations.pizzahut.com/oh/cleveland/2211-chester-ave"
+  },
+  {
+   "name": "Winking Lizard",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1300 East 9th Street, 44114, Cleveland",
+   "website": "https://www.winkinglizard.com/"
+  },
+  {
+   "name": "Saigon Restaurant & Bar",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2061 East 4th Street, 44115, Cleveland",
+   "website": "https://saigoncleveland.com/"
+  },
+  {
+   "name": "Amba",
+   "cuisines": [
+    "Indian",
+    "American"
+   ],
+   "address": "1430 West 28th Street, 44113, Cleveland",
+   "website": "https://ambacle.com/"
+  },
+  {
+   "name": "FIYAH Korean BBQ & Hot Pot",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1253 East 55th Street, 44103",
+   "website": "http://fiyahkoreanbbq.com"
+  },
+  {
+   "name": "Il Rione",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1303 West 65th Street, 44102, Cleveland",
+   "website": "https://www.ilrionepizzeria.com/"
+  },
+  {
+   "name": "Ginko",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2247 Professor Avenue, 44113-4466, Cleveland",
+   "website": "http://restaurantdante.us/ginko-index.html"
+  },
+  {
+   "name": "Barrio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "503 Prospect Avenue, 44114, Cleveland",
+   "website": "https://barrio-tacos.com/"
+  },
+  {
+   "name": "Heart of Gold",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4133 Lorain Avenue, 44113, Cleveland",
+   "website": "https://heartofgoldcle.com/"
+  },
+  {
+   "name": "Johnny's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3164 Fulton Road, 44109, Cleveland",
+   "website": "https://johnnysonfulton.com/"
+  },
+  {
+   "name": "Alea",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2912 Church Avenue, 44113, Cleveland",
+   "website": "https://www.aleacle.com/"
+  },
+  {
+   "name": "Merwin's Wharf",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1785 Merwin Avenue, 44113, Cleveland",
+   "website": "https://www.clevelandmetroparks.com/Main/Merwins-Wharf.aspx"
+  },
+  {
+   "name": "Lago East Bank",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1091 West 10th Street, 44113, Cleveland",
+   "website": "https://www.lagoeastbank.com/"
+  },
+  {
+   "name": "Dante",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2247 Professor Avenue, 44113-4466, Tremenont",
+   "website": "https://danteboccuzzi.com/dante-tremont/"
+  },
+  {
+   "name": "STEAK",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2179 West 11th Street, Cleveland",
+   "website": "https://www.steakcle.com/coming-soon-01"
+  },
+  {
+   "name": "Casa La Luna",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2100 Superior Viaduct, 44113, Cleveland",
+   "website": "https://lalunacleveland.com/"
+  },
+  {
+   "name": "Aladdin's Bakery and Market",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "1301 Carnegie Avenue, Cleveland",
+   "website": "https://www.aladdinbaking.com"
+  },
+  {
+   "name": "Tandul Indian Restaurant & Bar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2505 Professor Avenue, 44113, Cleveland",
+   "website": "http://tandulintremont.com/"
+  },
+  {
+   "name": "Sora",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1121 West 10th Street, 44113, Cleveland",
+   "website": "https://www.eatatsora.com/"
+  },
+  {
+   "name": "Map of Thailand",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3710 Payne Avenue, 44114, Cleveland",
+   "website": "https://mapofthailandrestaurant.com"
+  },
+  {
+   "name": "Rising Grill BBQ",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "3709 Payne Avenue, 44114, Cleveland",
+   "website": "https://www.facebook.com/people/Rising-Grill-Korean-BBQ/100054206003311/"
+  },
+  {
+   "name": "Jade New Asian",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1048 Old River Road, 44113, Cleveland",
+   "website": "https://www.thisiscleveland.com/locations/jade"
+  },
+  {
+   "name": "Momocho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1835 Fulton Road, 44113",
+   "website": "http://momocho.com/"
+  },
+  {
+   "name": "Dagu Rice Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "",
+   "website": "https://www.dagu-usa.com/"
+  },
+  {
+   "name": "Wonton Gourmet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3211 Payne Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Pho Thang Cafe",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "815 Superior Ave East",
+   "website": ""
+  },
+  {
+   "name": "Sushi En",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1507 Euclid Avenue, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Cibréo Italian Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1438 Euclid Avenue, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "230 Euclid Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Zanzibar",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "627 Prospect Avenue East, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Blue Pointe",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "700 West Saint Clair Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Masa & Agave",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "777 Saint Clair Avenue Northeast, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Karl's Inn of the Barristers",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1264 West 3rd Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Mabel's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2050 East 4th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Chapati Indian grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2215 Chester Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Edison's Pizza Kitchen",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2700 Carroll Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Naf Naf Grill",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "184 Euclid Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Siam Cafe",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3922 Saint Clair Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Blue Agave",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "East 4th Street, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Hyde Park Chophouse",
+   "cuisines": [
+    "Steak"
+   ],
+   "address": "123 West Prospect Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Taza Lebanese Grill",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "1400 West 6th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "LULO",
+   "cuisines": [
+    "Latin American",
+    "Juice"
+   ],
+   "address": "1273 West 9th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Camino",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1300 West 9th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Mallorca",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "1390 West 9th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Pizza Melt",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1413 East 9th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Deons",
+   "cuisines": [
+    "Soul"
+   ],
+   "address": "6218 Superior Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Ninja City Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "6706 Detroit Avenue, 44102, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Yours Truly",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1228 Euclid Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Martha on the Fly",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2173 Professor Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Chelsey's Restaurant & Carryout",
+   "cuisines": [
+    "Soul Food",
+    "Seafood",
+    "Italian"
+   ],
+   "address": "7907 Central Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Bar Oni",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2173 Professor Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Cocky's Bagels + Bar",
+   "cuisines": [
+    "Bagel",
+    "Sandwich"
+   ],
+   "address": "1127 Old River Road, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Battr",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "910 Literary Road, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Bo Loong",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3922 St Clair Ave, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Soho Chicken and Whiskey",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "4211 Lorain Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Local West",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "7400 Detroit Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Good Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "East 4th Street, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Marie's",
+   "cuisines": [
+    "Croatian"
+   ],
+   "address": "4504 Saint Clair Avenue",
+   "website": ""
+  },
+  {
+   "name": "Shay's Restaurant",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "4007 Saint Clair Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Angela's Family Restaurant",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "7121 Saint Clair Avenue, 44103, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Indian Delight",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "5507 Detroit Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Annie B & Earl's Place",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "4017 Saint Clair Avenue, 44103",
+   "website": ""
+  },
+  {
+   "name": "House of Blues",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "#1 Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "3120 Superior Avenue East, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Smokin BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3829 Lorain Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Ha Ahn",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Avo Modern Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2058 West 25th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Taste",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1803 East 12th Street",
+   "website": ""
+  },
+  {
+   "name": "Hanabi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1313 West 6th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Alley Cat Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1056 Old River Road",
+   "website": ""
+  },
+  {
+   "name": "Caribe Bake Shop",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "2906 Seymour Avenue",
+   "website": ""
+  },
+  {
+   "name": "Primo African Cuisine",
+   "cuisines": [
+    "African"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "1942 Tacos & Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Han Kabob & Grill",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seoul House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Superior Phở",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Red",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Souper Market",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wahlburger's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza 216",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zaytoon Lebanese Kitchen",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Szechuan Gourmet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bombay Chaat",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Harp",
+   "cuisines": [
+    "Irish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angie's Soul Food",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kan Zaman",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Slyman's",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crust",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kyuu-juu",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "West Side Market Cafe",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Fun Thai Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boaz Cafe",
+   "cuisines": [
+    "Lebanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Landmark Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Spread",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Addy's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Banana Blossom",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cleveland Chop",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mike & Dee's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Phnom Penh",
+   "cuisines": [
+    "Cambodian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Playa Mexican Food & Mariscos",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marble Room",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bruno's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Il Venetian",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Taino Restaurante",
+   "cuisines": [
+    "Puerto Rican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Juicy Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Dos Fronteras",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nate’s Deli",
+   "cuisines": [],
+   "address": "1923 West 25th Street, 44113, Cleveland",
+   "website": "https://natesohiocity.com/"
+  },
+  {
+   "name": "Emperor's Palace",
+   "cuisines": [],
+   "address": "2136 Rockwell Avenue, Cleveland",
+   "website": "https://www.emperorspalacecleveland.com/"
+  },
+  {
+   "name": "Johnny Mango's",
+   "cuisines": [],
+   "address": "3120 Bridge Avenue, Cleveland",
+   "website": "https://jmango.com/"
+  },
+  {
+   "name": "Ghost Light",
+   "cuisines": [],
+   "address": "1260 Euclid Avenue, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "1890 Lounge",
+   "cuisines": [],
+   "address": "410 Superior Avenue East, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Juneberry Table",
+   "cuisines": [],
+   "address": "3900 Lorain Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "The Fruit Stand",
+   "cuisines": [],
+   "address": "1505 Euclid Avenue, 44115, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Acqua di Dea",
+   "cuisines": [],
+   "address": "500 West Saint Clair Avenue, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Johnny's Downtown",
+   "cuisines": [],
+   "address": "1406 West 6th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Grumpy's",
+   "cuisines": [],
+   "address": "2621 West 14th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "The Friars' Table",
+   "cuisines": [],
+   "address": "1305 Euclid Avenue, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Bright Side",
+   "cuisines": [],
+   "address": "1948 West 25th Street, 44113, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Blue Habanero Street Tacos and Tequila",
+   "cuisines": [],
+   "address": "6416 Detroit Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Fifth Wheel",
+   "cuisines": [],
+   "address": "3312 Saint Clair Avenue Northeast, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Danny's Deli & Restaurant",
+   "cuisines": [],
+   "address": "1658 Saint Clair Avenue Northeast, 44114, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Superior Restaurant",
+   "cuisines": [],
+   "address": "3000 Superior Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Cordelia",
+   "cuisines": [],
+   "address": "2058 East 4th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "China House",
+   "cuisines": [],
+   "address": "5238 Saint Clair Avenue, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "Toast",
+   "cuisines": [],
+   "address": "1365 West 65th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "The Diner on 55th",
+   "cuisines": [],
+   "address": "1328 East 55th Street, Cleveland",
+   "website": ""
+  },
+  {
+   "name": "District",
+   "cuisines": [],
+   "address": "East 14th St",
+   "website": ""
+  },
+  {
+   "name": "Bin 216",
+   "cuisines": [],
+   "address": "Euclid Ave",
+   "website": ""
+  },
+  {
+   "name": "Rascal House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Li Wah",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cassa",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bon Appetit",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Centro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bett's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hunan-1",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nautica Queen Cleveland's Dining Cruise Ship",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fortyniner Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lindey's Lake House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fat Cats",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cilantro Taqueria - Tremont",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Heck's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bold",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Sausolito",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Burnham",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Osteria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Choolaah Indian BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sazón Latino",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Greens Salad Co.",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pearl's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yonder",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Rock and Roll Hall of Fame",
+   "kind": "museum",
+   "address": "East 9th Street, 44114, 1100",
+   "website": "https://www.rockhall.com/",
+   "phone": "",
+   "latitude": 41.5084932,
+   "longitude": -81.6954548
+  },
+  {
+   "name": "USS Cod Submarine Memorial",
+   "kind": "attraction",
+   "address": "1089 East 9th Street, 44114, Cleveland",
+   "website": "http://www.usscod.org/",
+   "phone": "",
+   "latitude": 41.5100788,
+   "longitude": -81.6916298
+  },
+  {
+   "name": "Cleveland Museum of Art",
+   "kind": "museum",
+   "address": "11150 East Boulevard, 44114, Cleveland",
+   "website": "https://www.clevelandart.org/",
+   "phone": "+1 216 421 7350",
+   "latitude": 41.5090215,
+   "longitude": -81.6119301
+  },
+  {
+   "name": "Great Lakes Science Center",
+   "kind": "museum",
+   "address": "601 Erieside Avenue, 44114, Cleveland",
+   "website": "https://greatscience.com/",
+   "phone": "+1-216-694-2000",
+   "latitude": 41.5075234,
+   "longitude": -81.6967535
+  },
+  {
+   "name": "Cleveland History Center",
+   "kind": "museum",
+   "address": "10825 East Boulevard, 44106, Cleveland",
+   "website": "https://www.wrhs.org/explore/exhibits/",
+   "phone": "+1 216 721 5722",
+   "latitude": 41.5135175,
+   "longitude": -81.610506
+  },
+  {
+   "name": "International Women's Air and Space Museum",
+   "kind": "museum",
+   "address": "1501 North Marginal Road, 44114, Cleveland",
+   "website": "https://iwasm.org/wp-blog/",
+   "phone": "+1-216-623-1111",
+   "latitude": 41.5113986,
+   "longitude": -81.6902994
+  },
+  {
+   "name": "Children’s Museum of Cleveland",
+   "kind": "museum",
+   "address": "3813 Euclid Avenue, Cleveland",
+   "website": "https://cmcleveland.org/",
+   "phone": "",
+   "latitude": 41.5045274,
+   "longitude": -81.6599927
+  },
+  {
+   "name": "SS William G. Mather",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://greatscience.com/explore/exhibits/william-g-mather-steamship",
+   "phone": "",
+   "latitude": 41.50932,
+   "longitude": -81.6981065
+  },
+  {
+   "name": "Memphis Kiddie Park",
+   "kind": "theme park",
+   "address": "10340 Memphis Avenue, Brooklyn",
+   "website": "https://memphiskiddiepark.com",
+   "phone": "+1-216-941-5995",
+   "latitude": 41.4407806,
+   "longitude": -81.7572309
+  },
+  {
+   "name": "A Christmas Story House Museum",
+   "kind": "museum",
+   "address": "1103 Rowley Avenue, 44109, Cleveland",
+   "website": "https://www.achristmasstoryhouse.com/",
+   "phone": "+1 216 2984919",
+   "latitude": 41.468726,
+   "longitude": -81.6878985
+  },
+  {
+   "name": "Nature Center at Shaker Lakes",
+   "kind": "museum",
+   "address": "2600 South Park Boulevard, 44123, Shaker Heights",
+   "website": "https://shakerlakes.org/",
+   "phone": "",
+   "latitude": 41.4850559,
+   "longitude": -81.574218
+  },
+  {
+   "name": "Greater Cleveland Aquarium",
+   "kind": "zoo",
+   "address": "2000 Sycamore St",
+   "website": "http://greaterclevelandaquarium.com/",
+   "phone": "",
+   "latitude": 41.4967468,
+   "longitude": -81.7038232
+  },
+  {
+   "name": "Cleveland Metroparks Zoo",
+   "kind": "zoo",
+   "address": "3900 Wildlife Way, 44109, Cleveland",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4473571,
+   "longitude": -81.7122797
+  },
+  {
+   "name": "Museum of Contemporary Art Cleveland",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5089359,
+   "longitude": -81.6047624
+  },
+  {
+   "name": "Bohemian National Hall",
+   "kind": "museum",
+   "address": "4939 Broadway Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 41.472175,
+   "longitude": -81.6562016
+  },
+  {
+   "name": "Cleveland Cultural Gardens",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5292123,
+   "longitude": -81.6279235
+  },
+  {
+   "name": "League Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5117013,
+   "longitude": -81.6428508
+  },
+  {
+   "name": "Cleveland Museum of Natural History",
+   "kind": "museum",
+   "address": "1 Wade Oval Drive, 44106, Cleveland",
+   "website": "https://www.cmnh.org",
+   "phone": "",
+   "latitude": 41.5116816,
+   "longitude": -81.6131135
+  },
+  {
+   "name": "Ralph Perkins II Wildlife Center and Woods Garden",
+   "kind": "zoo",
+   "address": "Wade Oval Drive, 44106, Cleveland",
+   "website": "http://perkins.cmnh.org/",
+   "phone": "",
+   "latitude": 41.5107232,
+   "longitude": -81.6134646
+  },
+  {
+   "name": "Western Reserve Fire Museum",
+   "kind": "museum",
+   "address": "310 Carnegie Avenue, 44115, Cleveland",
+   "website": "https://wrfmc.com/",
+   "phone": "",
+   "latitude": 41.4931962,
+   "longitude": -81.6870565
+  },
+  {
+   "name": "Baseball Heritage Museum",
+   "kind": "museum",
+   "address": "6601 Lexington Ave, Cleveland",
+   "website": "https://baseballheritagemuseum.org/",
+   "phone": "+1-216-789-1083",
+   "latitude": 41.5111865,
+   "longitude": -81.6442783
+  },
+  {
+   "name": "Dunham Tavern Museum and Gardens",
+   "kind": "museum",
+   "address": "6709 Euclid Avenue, 44103, Cleveland",
+   "website": "https://www.dunhamtavern.org",
+   "phone": "",
+   "latitude": 41.5052374,
+   "longitude": -81.6428227
+  },
+  {
+   "name": "Dittrick Museum of Medicine History",
+   "kind": "museum",
+   "address": "",
+   "website": "https://artsci.case.edu/dittrick/",
+   "phone": "",
+   "latitude": 41.5059503,
+   "longitude": -81.6084402
+  },
+  {
+   "name": "Buckland Museum of Witchcraft and Magick",
+   "kind": "museum",
+   "address": "2155 Broadview Road, 44109, Cleveland",
+   "website": "https://bucklandmuseum.org/",
+   "phone": "",
+   "latitude": 41.4381207,
+   "longitude": -81.6997569
+  },
+  {
+   "name": "African American Museum of Cleveland",
+   "kind": "museum",
+   "address": "1765 Crawford Road, 44106, Cleveland",
+   "website": "https://aamcleveland.wixsite.com/aamc",
+   "phone": "",
+   "latitude": 41.5087475,
+   "longitude": -81.6272786
+  },
+  {
+   "name": "Cleveland Hungarian Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://clevelandhungarianmuseum.org/",
+   "phone": "",
+   "latitude": 41.5052033,
+   "longitude": -81.6891703
+  },
+  {
+   "name": "Huntington Convention Center of Cleveland",
+   "kind": "attraction",
+   "address": "300 Lakeside Avenue East, 44113",
+   "website": "https://www.clevelandconventions.com",
+   "phone": "+1-216-928-1600",
+   "latitude": 41.5030338,
+   "longitude": -81.6941217
+  },
+  {
+   "name": "Artists Archive of the Western Reserve",
+   "kind": "gallery",
+   "address": "1834 E 123rd",
+   "website": "https://artistsarchive.org/",
+   "phone": "+1-216-721-9020",
+   "latitude": 41.5130799,
+   "longitude": -81.5992366
+  },
+  {
+   "name": "Old Stone House Museum",
+   "kind": "museum",
+   "address": "44107, Lakewood",
+   "website": "https://www.lakewoodhistory.org/properties/oldest-stone-house-museum",
+   "phone": "",
+   "latitude": 41.4934147,
+   "longitude": -81.7984995
+  },
+  {
+   "name": "Crawford Auto-Aviation Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.wrhs.org/crawford/",
+   "phone": "",
+   "latitude": 41.513281,
+   "longitude": -81.6111732
+  },
+  {
+   "name": "Hay-McKinney House",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.wrhs.org/rentals/history-center-in-university-circle/hay-mckinney-house/",
+   "phone": "",
+   "latitude": 41.5129074,
+   "longitude": -81.60969
+  },
+  {
+   "name": "Museum of Divine Statues",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.thesanctuarymuseum.org/",
+   "phone": "",
+   "latitude": 41.4767002,
+   "longitude": -81.7783597
+  },
+  {
+   "name": "Cleveland Script Sign at Edgewater Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4875455,
+   "longitude": -81.7492496
+  },
+  {
+   "name": "NASA Glenn Visitor Center",
+   "kind": "attraction",
+   "address": "44114, Cleveland",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5075724,
+   "longitude": -81.6973023
+  },
+  {
+   "name": "Museum of Illusions",
+   "kind": "attraction",
+   "address": "186 Euclid Avenue, Cleveland",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4993507,
+   "longitude": -81.6918602
+  },
+  {
+   "name": "Physics Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.503706,
+   "longitude": -81.6077923
+  },
+  {
+   "name": "Jeep Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403671,
+   "longitude": -81.7575734
+  },
+  {
+   "name": "Boat Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403577,
+   "longitude": -81.7573364
+  },
+  {
+   "name": "Merry-Go-Round",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403785,
+   "longitude": -81.7570918
+  },
+  {
+   "name": "Darl Center for the Arts",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4679011,
+   "longitude": -81.6516929
+  },
+  {
+   "name": "Bonfoey Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5009714,
+   "longitude": -81.6797133
+  },
+  {
+   "name": "Centennial Dental Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5053749,
+   "longitude": -81.6033454
+  },
+  {
+   "name": "Solstice Steps",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4971699,
+   "longitude": -81.7980098
+  },
+  {
+   "name": "Fifth Third Bank Stage",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4457153,
+   "longitude": -81.7111175
+  },
+  {
+   "name": "Sky Fighters",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4405007,
+   "longitude": -81.7571811
+  },
+  {
+   "name": "The Little Dipper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4405112,
+   "longitude": -81.7575827
+  },
+  {
+   "name": "MKP Airways",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403978,
+   "longitude": -81.7577354
+  },
+  {
+   "name": "Pony Carts",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403292,
+   "longitude": -81.7574594
+  },
+  {
+   "name": "Turtle Chase",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4405946,
+   "longitude": -81.7572699
+  },
+  {
+   "name": "Ferris Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4403435,
+   "longitude": -81.7574491
+  },
+  {
+   "name": "date",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.443788,
+   "longitude": -81.7174974
+  },
+  {
+   "name": "Birthplace of John Heisman",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4820462,
+   "longitude": -81.71371
+  },
+  {
+   "name": "Cleveland Script Sign - The Foundry",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4902141,
+   "longitude": -81.6991829
+  },
+  {
+   "name": "City of Cleveland Greenhouse at Rockefeller Park",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5370567,
+   "longitude": -81.628641
+  },
+  {
+   "name": "Gather 'Round Farm",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4802548,
+   "longitude": -81.712552
+  },
+  {
+   "name": "Ukrainian Museum-Archives",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4799978,
+   "longitude": -81.6902101
+  },
+  {
+   "name": "The Sculpture Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.513243,
+   "longitude": -81.5994467
+  },
+  {
+   "name": "Murrray Hill Galleries",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5075313,
+   "longitude": -81.5982304
+  },
+  {
+   "name": "A Christmas Story House & Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4686196,
+   "longitude": -81.6874912
+  },
+  {
+   "name": "Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5426521,
+   "longitude": -81.6381202
+  },
+  {
+   "name": "Mill Creek Falls Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4450543,
+   "longitude": -81.625361
+  },
+  {
+   "name": "Spaces",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.489852,
+   "longitude": -81.7112897
+  },
+  {
+   "name": "Cuyahoga River Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4410178,
+   "longitude": -81.6692823
+  },
+  {
+   "name": "Cleveland Script Sign - North Coast Harbor",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5099122,
+   "longitude": -81.6969156
+  },
+  {
+   "name": "Cleveland Script Sign - Tremont",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4846741,
+   "longitude": -81.6928919
+  },
+  {
+   "name": "Playhouse Square Chandelier",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5009063,
+   "longitude": -81.681827
+  },
+  {
+   "name": "Torpedo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5099586,
+   "longitude": -81.6914335
+  },
+  {
+   "name": "Sokolowski's Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.4851202,
+   "longitude": -81.6904007
+  },
+  {
+   "name": "Fred and Laura Ruth Bidwell Exhibition Space",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.5047702,
+   "longitude": -81.6439997
+  }
+ ]
+}

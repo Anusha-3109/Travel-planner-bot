@@ -1,0 +1,1835 @@
+{
+ "city": "Atlantic City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 39.3573,
+ "longitude": -74.4303,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Showboat Hotel Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "801 Boardwalk, 08401, Atlantic City",
+   "url": "https://www.showboathotelac.com/"
+  },
+  {
+   "name": "Golden Nugget",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 Huron Avenue, 08401, Atlantic City",
+   "url": "https://www.goldennugget.com/atlantic-city/"
+  },
+  {
+   "name": "Hard Rock Hotel and Casino Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Borgata",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Borgata Way, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Ocean Resort Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Boardwalk",
+   "url": ""
+  },
+  {
+   "name": "The Claridge Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "123 South Indiana Avenue, 08401, Atlantic City",
+   "url": "https://www.claridge.com/"
+  },
+  {
+   "name": "Courtyard Atlantic City Beach Block",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 Pacific Avenue, 08401, Atlantic City",
+   "url": "https://www.marriott.com/aiycy"
+  },
+  {
+   "name": "Nobu Hotel Atlantic City - A Caesars Rewards Destination",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "url": "https://www.caesars.com/nobu-atlantic-city"
+  },
+  {
+   "name": "Days Inn by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "406 East Absecon Boulevard, 08201, Abescon",
+   "url": "https://www.wyndhamhotels.com/days-inn/absecon-new-jersey/days-inn-by-wyndham-absecon-atlantic-city-area/overview"
+  },
+  {
+   "name": "Days Inn Atlantic City Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3000 Boardwalk At Morris Avenue, 08401, Atlantic City",
+   "url": "https://www.wyndhamhotels.com/days-inn/atlantic-city-new-jersey/days-inn-atlantic-city-oceanfront-boardwalk/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham Atlantic City Beachblock",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "169 South Kentucky Avenue, 08401, Atlantic City",
+   "url": "https://www.wyndhamhotels.com/days-inn/atlantic-city-new-jersey/days-inn-atlantic-city-beachblock/overview"
+  },
+  {
+   "name": "Oh St Joseph Resort Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8029 Black Horse Pike, Egg Harbor Township",
+   "url": "https://www.ohstjosephresorthotel.com/"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "539 East Absecon Boulevard, 08201, Absecon",
+   "url": "https://www.wyndhamhotels.com/travelodge/absecon-new-jersey/travelodge-absecon-atlantic-city/overview"
+  },
+  {
+   "name": "Econo Lodge Beach and Boardwalk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3001 Pacific Avenue, 08401, Atlantic City",
+   "url": "https://www.choicehotels.com/new-jersey/somers-point/econo-lodge-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "175-181 South Tennessee Avenue, 08401, Atlantic City",
+   "url": "https://www.wyndhamhotels.com/super-8/atlantic-city-new-jersey/super-8-atlantic-city/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "124 South North Carolina Avenue, 08401, Atlantic City",
+   "url": "https://www.choicehotels.com/new-jersey/somers-point/econo-lodge-hotels"
+  },
+  {
+   "name": "Rodeway Inn Oceanview",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3200 Pacific Avenue, 08401, Atlantic City",
+   "url": "https://www.choicehotels.com/new-jersey/somers-point/econo-lodge-hotels"
+  },
+  {
+   "name": "Tropicana Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "url": "https://www.caesars.com/tropicana-ac"
+  },
+  {
+   "name": "Ramada West Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8037 Black Horse Pike East, 08232, Egg Harbor Township",
+   "url": "https://www.wyndhamhotels.com/ramada/atlantic-city-new-jersey/ramada-atlantic-city-west/overview"
+  },
+  {
+   "name": "Best Western Envoy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1416 Pacific Avenue, 08401-8011, Atlantic City",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-atlantic-city/best-western-atlantic-city-hotel/propertyCode.31044.html"
+  },
+  {
+   "name": "Flagship Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "60 North Maine Avenue, 08401, Atlantic City",
+   "url": "https://www.clubboardwalkresorts.com/flagship/"
+  },
+  {
+   "name": "Margate Towers",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9400 Atlantic Avenue, 08402, Margate City",
+   "url": "https://www.margatetowers.com"
+  },
+  {
+   "name": "Caesars Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "url": "https://www.caesars.com/caesars-ac"
+  },
+  {
+   "name": "Howard Johnson by Wyndham Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1339 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "TRYP by Wyndham Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 South Iowa Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Atlantic City Convention Center Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Convention Boulevard, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Flamingo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3101 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 North Albany Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Sandering II",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4401 Ocean Avenue, 08203, Brigantine",
+   "url": ""
+  },
+  {
+   "name": "New Sea Breeze Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7080 Black Horse Pike, 08232, Pleasantville",
+   "url": ""
+  },
+  {
+   "name": "Ocean Villa",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 East Brigantine Avenue, 08203, Brigantine",
+   "url": ""
+  },
+  {
+   "name": "Raman",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 West Brigantine Avenue, 08203, Brigantine",
+   "url": ""
+  },
+  {
+   "name": "Resorts Casino Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Bally's Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1900 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Brunswick Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "160 Saint James Place, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "El Dorodo Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2741 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7070 Black Horse Pike, 08232, Pleasantville",
+   "url": ""
+  },
+  {
+   "name": "Royal Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "553 East Absecon Boulevard, 08201, Absecon",
+   "url": ""
+  },
+  {
+   "name": "North Beach",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 East Brigantine Avenue, 08203, Brigantine",
+   "url": ""
+  },
+  {
+   "name": "The Ocean Front",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "212 West Brigantine Avenue, 08203, Brigantine",
+   "url": ""
+  },
+  {
+   "name": "Alice's Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "145 Ocean Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Martinique Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3029 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Ocean Terrace",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "351 North New Hampshire Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Red Carpet Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1104 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Atlantic Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1109 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Downbeach Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3601 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Chelsea Pub & Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 South Morris Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Admiral",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 South Hartford Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "The High Gate",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "655 Absecon Boulevard, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Skyline Inn Atlantic City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 N Albany Ave, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Sunset Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 Absecon Boulevard, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Abel Manor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2621 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Abandoned Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7095 Black Horse Pike",
+   "url": ""
+  },
+  {
+   "name": "Island Club",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "108 South Montpelier Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Sea Breeze Club",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3501 Pacific Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Ocean Villas",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "132 South Providence Avenue, 08401, Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Bay Drive Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8010 Black Horse Pike, 08232, West Atlantic City",
+   "url": ""
+  },
+  {
+   "name": "Luxury Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "547 East Absecon Boulevard, 08201, Absecon",
+   "url": ""
+  },
+  {
+   "name": "Casino Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "545 East Absecon Boulevard, 08201, Absecon",
+   "url": ""
+  },
+  {
+   "name": "Sunrise Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "435 East Absecon Boulevard, 08201, Absecon",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "White House Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2301 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Nobu",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "website": "https://noburestaurants.com/atlantic-city/home"
+  },
+  {
+   "name": "Tony Boloney’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "300 Oriental Avenue, 08401, Atlantic City",
+   "website": "https://www.tonyboloneys.com/"
+  },
+  {
+   "name": "Rainforest Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2201 Boardwalk, 08401, Atlantic City",
+   "website": "https://www.rainforestcafe.com/location/rainforest-cafe-atlantic-city-nj/"
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": "https://www.hooters.com/"
+  },
+  {
+   "name": "Chelsea Pizza II",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1735 Atlantic Avenue, 08401, Atlantic City",
+   "website": "https://www.chelseapizzaatlanticcity.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/nj/atlantic-city/129-n.-michigan-ave.-98029"
+  },
+  {
+   "name": "La Strada at the Shore",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": "https://www.caesars.com/harrahs-ac/restaurants/martorano"
+  },
+  {
+   "name": "Gordon Ramsay Steak",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": "https://www.caesars.com/harrahs-ac/restaurants/gordonramsaysteak"
+  },
+  {
+   "name": "AC Burger Co.",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "777 Harrah's Baywalk, 08401, Atlantic City",
+   "website": "https://www.caesars.com/harrahs-ac/restaurants/ACBurgerCo"
+  },
+  {
+   "name": "Bobby's Burgers by Bobby Flay",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": "https://www.caesars.com/harrahs-ac/restaurants/bobbys-burgers"
+  },
+  {
+   "name": "Coastal Craft Kitchen & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": "https://www.caesars.com/harrahs-ac/restaurants/coastalcraftkitchenandbar"
+  },
+  {
+   "name": "Bouree",
+   "cuisines": [
+    "American"
+   ],
+   "address": "201 South New York Avenue, 08401, Atlantic City",
+   "website": "https://www.cardinal-ac.com/"
+  },
+  {
+   "name": "Red Room Cafe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "141 North Dorset Avenue, 08406",
+   "website": "https://redroomnj.com/"
+  },
+  {
+   "name": "Isabella's Ventnor Cafe",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4 South Portland Avenue, 08406",
+   "website": "https://www.isabellasventnor.com/"
+  },
+  {
+   "name": "Tun Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.tuntavern.com"
+  },
+  {
+   "name": "P.F. Chang's",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Kelsey's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1545 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Sabor Latino",
+   "cuisines": [
+    "Puerto Rican",
+    "Tex-Mex"
+   ],
+   "address": "4227 Ventnor Avenue, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Chang He",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1007 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Morton's The Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "McCormick & Schmick's",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Wild Honey Smokehouse and Tavern",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Provenza",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5001D Wellington Avenue, 08406, Ventnor City",
+   "website": ""
+  },
+  {
+   "name": "Breadsticks Cafe & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Il Verdi",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Broadway Burger Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Cuba Libre",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Carmine's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Palm",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Gilchrist Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "3050 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Council Oak Fish",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Kuro",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Youyu Noodle Bar",
+   "cuisines": [
+    "Asian",
+    "Noodle"
+   ],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Healthy Hippo",
+   "cuisines": [
+    "Smoothie",
+    "Bowl"
+   ],
+   "address": "5209 Atlantic Avenue, 08406, Ventnor City",
+   "website": ""
+  },
+  {
+   "name": "Perry's Cafe",
+   "cuisines": [
+    "American",
+    "Sandwich"
+   ],
+   "address": "1339 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Ossu Tavern",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Gilchrist Atlantic City Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "804 North Rhode Island Avenue, 08401",
+   "website": ""
+  },
+  {
+   "name": "Joe's Famous Hoagies & Steak Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3816 Ventnor Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Capriccio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Chickie's and Pete's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Pancho's Mexican Taqueria",
+   "cuisines": [
+    "Spanish",
+    "Mexican"
+   ],
+   "address": "2303 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Kwi Noodle House",
+   "cuisines": [
+    "Noodle",
+    "Asian"
+   ],
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Il Mulino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Slice",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Pizata",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2801 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Chelsea Five Gastropub",
+   "cuisines": [
+    "Pub",
+    "Gastropub"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Casa Taco & Tequila Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Simpson Restaurant & Bar",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1 Atlantic Ocean, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Twenties Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "123 Indiana Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Leavander's 22 Southern Cuisine",
+   "cuisines": [
+    "American"
+   ],
+   "address": "123 Indiana Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Jade Street",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "777 Harrah's Boulevard, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Eastwind Chinese Restaurant and Noodle Bar",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "El Charro",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2403 Fairmount Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Angeloni's Club Madrid",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2400 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Setaara",
+   "cuisines": [
+    "French",
+    "Afghan"
+   ],
+   "address": "2322 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Mukashi Sushi & Wine Bar",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Dougherty's Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Dougherty's Raw Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Famous Famiglia Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Girasole",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3108 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Superfrico Atlantic City",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho Sydney",
+   "cuisines": [
+    "Asian",
+    "Vietnamese"
+   ],
+   "address": "2323 Atlantic Avenue",
+   "website": ""
+  },
+  {
+   "name": "Ruby Tuesday",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Johnny Rockets",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bricker's Burgers & More",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sugar Factory",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Petite Crêperie",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Original LoPresti's Pizza & Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Spanky & Son Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Macau Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amada",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ocean Cut",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Linguini By The Sea",
+   "cuisines": [
+    "Italian",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harper's",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe 500",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Distrito",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Villain & Saint",
+   "cuisines": [
+    "Pub"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Zhen Bang",
+   "cuisines": [
+    "Noodle",
+    "Asian",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cereal Town",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atlantic City Eatery",
+   "cuisines": [
+    "Brunch"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Worship Surf Bar",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roberts's Streakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Guy's Bar-B-Que Joint",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Park Place Prime",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jerry Longo's Meatballs and Martinis",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dos Caminos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "SkyCafe",
+   "cuisines": [
+    "Cafe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jimmy Buffett's Margaritaville",
+   "cuisines": [],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": "https://www.margaritavilleatlanticcity.com"
+  },
+  {
+   "name": "LandShark Bar & Grill",
+   "cuisines": [],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": "https://atlanticcity.landsharkbarandgrill.com/"
+  },
+  {
+   "name": "Queen Bean Bistro",
+   "cuisines": [],
+   "address": "4800 Boardwalk, 08406, Ventnor City",
+   "website": "https://www.thequeenbeanbistro.com/"
+  },
+  {
+   "name": "Coco’s Chicken & Waffles",
+   "cuisines": [],
+   "address": "1009 Arctic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Cafe Di Roma",
+   "cuisines": [],
+   "address": "1903 Atlantic Avenue",
+   "website": ""
+  },
+  {
+   "name": "Hash House A Go Go",
+   "cuisines": [],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Irish Pub",
+   "cuisines": [],
+   "address": "164 Saint James Place, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Mexico Restaurant",
+   "cuisines": [],
+   "address": "3810 Ventnor Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Tony's Baltimore Grill",
+   "cuisines": [],
+   "address": "2800 Atlantic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Tony Luke's",
+   "cuisines": [],
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "AC Snack Shack",
+   "cuisines": [],
+   "address": "1900 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Hell's Kitchen",
+   "cuisines": [],
+   "address": "2100 Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Chart House",
+   "cuisines": [],
+   "address": "600 Huron Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Mr. Steak Halal",
+   "cuisines": [],
+   "address": "1732 Atlantic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "King Gourmet Restaurant",
+   "cuisines": [],
+   "address": "1608 Atlantic Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Kelsey & Kim's Southern Restaurant",
+   "cuisines": [],
+   "address": "209 Melrose Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "The Soup Man",
+   "cuisines": [],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Ruby's Diner",
+   "cuisines": [],
+   "address": "1133 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Plum Lounge",
+   "cuisines": [],
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Salt & Pepper",
+   "cuisines": [],
+   "address": "Pacific Avenue, 08401, Atlantic City",
+   "website": ""
+  },
+  {
+   "name": "Mrs. Fields",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Wok Chinese",
+   "cuisines": [],
+   "address": "1541 Atlantic Avenue",
+   "website": ""
+  },
+  {
+   "name": "The Terrace",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joe Rock Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Amigos Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vanina's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mario's 2 Pizzeria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bill's Gyro Souvalki",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Knife & Fork Inn",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bungalow Beach",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jersey Shore Pizza & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Molto Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Atlantic City Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gino's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "American Craft Beer Joint and Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "My Friends Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe by CK",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wolfgang Puck American Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bobby Flay Steak",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angeline",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Izakaya",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Old Homestead",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vic & Anthony's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Michael Patrick's Brasserie",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lillie's Asian Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bean & Bread",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Backstage Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh Harvest Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Lucy the Elephant",
+   "kind": "attraction",
+   "address": "9200 Atlantic Avenue, 08402, Margate City",
+   "website": "https://www.lucytheelephant.org/",
+   "phone": "",
+   "latitude": 39.3208371,
+   "longitude": -74.5115928
+  },
+  {
+   "name": "Steel Pier",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3573744,
+   "longitude": -74.4189597
+  },
+  {
+   "name": "Brigantine Lighthouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3948094,
+   "longitude": -74.3895324
+  },
+  {
+   "name": "Longport Historical Society",
+   "kind": "museum",
+   "address": "2305 Atlantic Avenue, 08403, Longport",
+   "website": "http://www.longporthistoricalsociety.org/",
+   "phone": "",
+   "latitude": 39.3117257,
+   "longitude": -74.5278215
+  },
+  {
+   "name": "Brigantine Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://brigantinebeach.org/visit-brigantine/brigantine-history-museum/",
+   "phone": "",
+   "latitude": 39.3951042,
+   "longitude": -74.3904439
+  },
+  {
+   "name": "Wentworth Gallery",
+   "kind": "gallery",
+   "address": "1000 Boardwalk, 08401, Atlantic City",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3607673,
+   "longitude": -74.4202101
+  },
+  {
+   "name": "Zephyr Gallery",
+   "kind": "gallery",
+   "address": "2831 Boardwalk, 08401, Atlantic City",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3526156,
+   "longitude": -74.4459173
+  },
+  {
+   "name": "Atlantic Galleries",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3567852,
+   "longitude": -74.4266999
+  },
+  {
+   "name": "Atlantic City Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3769391,
+   "longitude": -74.4201039
+  },
+  {
+   "name": "Haunted Tales",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3567555,
+   "longitude": -74.4271958
+  },
+  {
+   "name": "Gardners Point",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3763351,
+   "longitude": -74.4196046
+  },
+  {
+   "name": "Longport Welcome Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3141566,
+   "longitude": -74.526052
+  },
+  {
+   "name": "Noyes Arts Garage",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.360319,
+   "longitude": -74.440934
+  },
+  {
+   "name": "Chelsea Heights Nature Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 39.3542636,
+   "longitude": -74.4659491
+  }
+ ]
+}

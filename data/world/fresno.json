@@ -1,0 +1,1447 @@
+{
+ "city": "Fresno",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 36.7528,
+ "longitude": -119.7862,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "DoubleTree by Hilton Fresno Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2233 Ventura Street, 93721, Fresno",
+   "url": "https://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-fresno-convention-center-FATCCDT/index.html"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "327 East Fir Avenue, 93720, Fresno",
+   "url": "https://www.hilton.com/en/hotels/fatcahx-hampton-suites-fresno/"
+  },
+  {
+   "name": "Hampton by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1515 North Peach Avenue, 93727, Fresno",
+   "url": "https://www.hilton.com/en/hotels/fataphx-hampton-fresno-airport/"
+  },
+  {
+   "name": "Piccadilly Inn Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5115 East McKinley Avenue, 93727, Fresno",
+   "url": "https://www.piccadillyinnairport.com/"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1710 West Shaw Avenue, 93711, Fresno",
+   "url": "https://www.marriott.com/fatno"
+  },
+  {
+   "name": "Country Inn & Suites, Fresno North, CA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6065 North Thesta Street, 93710, Fresno",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-fresno-north-ca"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "808 M Street, 93721, Fresno",
+   "url": "https://www.marriott.com/en-us/hotels/fatdc-courtyard-fresno-downtown/overview/"
+  },
+  {
+   "name": "SureStay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2127 Inyo Street, 93721, Fresno",
+   "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.52139.html"
+  },
+  {
+   "name": "TownePlace Suites Fresno Clovis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "580 West Shaw Avenue, 93612, Clovis",
+   "url": "https://www.marriott.com/fattf"
+  },
+  {
+   "name": "Days Inn by Wyndham Fresno South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2640 South Second Street, 93706, Fresno",
+   "url": "https://www.wyndhamhotels.com/days-inn/fresno-california/days-inn-fresno-south/overview"
+  },
+  {
+   "name": "Days Inn Yosemite Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6090 North Blackstone Avenue, 93710, Fresno",
+   "url": "https://www.wyndhamhotels.com/days-inn/fresno-california/days-inn-yosemite-area-ca/overview"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6844 North Fresno Street, 93710, Fresno",
+   "url": "https://www.marriott.com/fatsh"
+  },
+  {
+   "name": "Hampton Inn & Suites Clovis-Airport North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "855 Gettysburg Avenue, 93612, Clovis",
+   "url": "https://www.hilton.com/en/hotels/fatclhx-hampton-suites-clovis-airport-north/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Clovis Fresno Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "810 Santa Ana Avenue, 93612, Clovis",
+   "url": "https://www.hilton.com/en/hotels/fatcfht-home2-suites-clovis-fresno-airport/"
+  },
+  {
+   "name": "Motel 6 Fresno - Blackstone North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4245 North Blackstone Avenue, 93726, Fresno",
+   "url": "https://www.motel6.com/en/home/motels.ca.fresno.9170.html"
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Fresno South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2660 South 2nd Street, 93706, Fresno",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/fresno/fatja/hoteldetail"
+  },
+  {
+   "name": "BEST WESTERN PLUS Fresno Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "480 East Shaw Avenue, 93710, Fresno",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-fresno/best-western-plus-fresno-inn/propertyCode.05687.html"
+  },
+  {
+   "name": "Comfort Suites Fresno River Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 East Herndon Avenue, 93720, Fresno",
+   "url": "https://www.choicehotels.com/california/fresno/quality-inn-hotels"
+  },
+  {
+   "name": "HomeTowne Studios Fresno - West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3460;3060 West Shaw Avenue, 93711, Fresno",
+   "url": "https://www.redroof.com/extendedstay/hometownestudios/property/CA/Fresno/HTS1054"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6065 North Thesta Street, 93710, Fresno",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-fresno-north-ca"
+  },
+  {
+   "name": "La Quinta Fresno Yosemite",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/fresno-california/la-quinta-inn-fresno-yosemite/overview"
+  },
+  {
+   "name": "Ramada Fresno North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "324 East Shaw, 93710, Fresno",
+   "url": "https://www.wyndhamhotels.com/ramada/fresno-california/ramada-university/overview"
+  },
+  {
+   "name": "Hilton Garden Inn Clovis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "520 West Shaw Avenue, 93612, Clovis",
+   "url": "https://www.hilton.com/en/hotels/fatcsgi-hilton-garden-inn-clovis/"
+  },
+  {
+   "name": "Days Inn by Wyndham Fresno Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1101 North Parkway Drive, 93728, Fresno",
+   "url": "https://www.wyndhamhotels.com/"
+  },
+  {
+   "name": "Best Western Village Inn 3",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3110 North Blackstone Avenue, 93703, Fresno",
+   "url": "https://bestwestern.com"
+  },
+  {
+   "name": "Best Western Village Inn 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3110 North Blackstone Avenue, 93703, Fresno",
+   "url": "https://bestwestern.com"
+  },
+  {
+   "name": "Americas Best Value Inn Fresno Convention Center Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2425 Merced Street, 93721, Fresno",
+   "url": "https://redlion.com/"
+  },
+  {
+   "name": "Americas Best Value Inn & Suites-Clovis/Fresno 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1616 Clovis Avenue, 93612, Clovis",
+   "url": "https://redlion.com/"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3876 North Blackstone Avenue, 93726, Fresno",
+   "url": "https://www.wyndhamhotels.com/travelodge/fresno-california/travelodge-fresno-yosemite-area/overview?CID=LC:fkqqcjhla7b6gbb:10904"
+  },
+  {
+   "name": "Best Western Village Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3110 North Blackstone Avenue, 93703, Fresno",
+   "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.05403.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:05403"
+  },
+  {
+   "name": "University Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2655 East Shaw Avenue, 93710, Fresno",
+   "url": "https://universityinnfresno.com/"
+  },
+  {
+   "name": "Ambassador Inn Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1804 West Olive Avenue, 93728, Fresno",
+   "url": "https://ambassadorinnfresno.us/"
+  },
+  {
+   "name": "San Joaquin Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1309 West Shaw Avenue, 93711, Fresno",
+   "url": "https://www.sanjoaquinhotelfresno.com/"
+  },
+  {
+   "name": "Summerfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6309 North Blackstone Avenue, 93710, Fresno",
+   "url": "https://www.booking.com/hotel/us/econo-lodge-fresno-blackstone.html"
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4290 North Blackstone Avenue, 93726, Fresno",
+   "url": "http://www.economyinnfresno.com/"
+  },
+  {
+   "name": "Motel 6 Fresno - State Route 99",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1240 North Crystal Avenue, 93728-1139, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Travelodge Highway 41 Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3876 North Blackstone Avenue, 93726, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Clovis-Fresno Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 West Shaw Avenue, 93612, Clovis",
+   "url": ""
+  },
+  {
+   "name": "Hope Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4061 N Blackstone Ave, 93726, Fresno",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites Fresno Riverpark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 East Fir Avenue, 93720, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Best Western Village Inn 1",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "North Blackstone Avenue, 93703, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Fresno Near University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6051 North Thesta Ave, 93710, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Fresno Yosemite Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5113 East McKinley Avenue, 93727, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Sonesta ES Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5322 North Diana Avenue, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3844 North Blackstone Avenue, 93726, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "University Square Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4961 N Cedar Ave, 93726, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn Fresno 1",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1087 North Parkway Drive, 93728, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn Fresno 2",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1087 North Parkway Drive, 93728, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn Fresno 3",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1087 North Parkway Drive, 93728, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Ashlan Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4278 West Ashlan Avenue, 93722, Fresno",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Fresno Yosemite Airport 1",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5113 East McKinley Avenue, 93727, Fresno",
+   "url": ""
+  },
+  {
+   "name": "The Hotel Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3737 N Blackstone Ave, 93726, Fresno",
+   "url": ""
+  },
+  {
+   "name": "The Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Fresno Airport/Clovis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Vagabond Inn Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Bakersfield - Fresno",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Fresno Yosemite Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "FOB (Fried Or Boiled) Seafood Fusion",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "4280 North Blackstone Avenue, 93726, Fresno",
+   "website": "http://www.fobseafood.com"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1937 West Clinton Avenue, 93705, Fresno",
+   "website": "https://www.mountainmikespizza.com/locations/fresno-w-clinton/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4260 North Blackstone Avenue, 93726, Fresno",
+   "website": "https://locations.pizzahut.com/ca/fresno/4260-n-blackstone-ave"
+  },
+  {
+   "name": "Mariscos El Barba Negra",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "831 Van Ness Avenue, 93721, Fresno",
+   "website": "https://mariscoselbarbanegraca.com/"
+  },
+  {
+   "name": "Tipzys Tacos & Beer",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "920 East Olive Avenue, 93728, Fresno",
+   "website": "https://tipzystacosandbeer.com/"
+  },
+  {
+   "name": "The Lincoln Pub & Grub",
+   "cuisines": [
+    "American"
+   ],
+   "address": "609 East Olive Avenue, 93728, Fresno",
+   "website": "http://www.thelincolnpubandgrub.com/"
+  },
+  {
+   "name": "On A Roll Sushi",
+   "cuisines": [
+    "Sushi",
+    "Mexican"
+   ],
+   "address": "1306 Van Ness Avenue, 93721, Fresno",
+   "website": "https://www.onarollsushifresno.com/"
+  },
+  {
+   "name": "Mezcal Lounge",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1310 Van Ness Avenue, 93721, Fresno",
+   "website": "https://www.mezcalloungefresno.com/"
+  },
+  {
+   "name": "Noodle Express",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "601 East Olive Avenue, 93728, Fresno",
+   "website": "https://www.noodleexpressfresno.com/"
+  },
+  {
+   "name": "El Patio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "552 East Olive Avenue, 93728, Fresno",
+   "website": "https://fresnoelpatio.com/"
+  },
+  {
+   "name": "Veni Vidi Vivi",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1116 North Fulton Street, 93728, Fresno",
+   "website": "http://venividivicifresno.com/"
+  },
+  {
+   "name": "Quesadilla Gorilla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "608 East Weldon Avenue, 93704, Fresno",
+   "website": "https://www.quesadillagorilla.com/"
+  },
+  {
+   "name": "CDT Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "805 East Olive Avenue, 93728, Fresno",
+   "website": "https://cdtcocina.com/"
+  },
+  {
+   "name": "Tower Blendz",
+   "cuisines": [
+    "Juice",
+    "Salad",
+    "Smoothie"
+   ],
+   "address": "802 East Olive Avenue, 93728, Fresno",
+   "website": "https://towerblendz.square.site/s/order"
+  },
+  {
+   "name": "Irene's Café",
+   "cuisines": [
+    "American"
+   ],
+   "address": "747 East Olive Avenue, 93728, Fresno",
+   "website": "http://www.irenescafe.com/"
+  },
+  {
+   "name": "Mama Mia Pizzeria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "737 East Olive Avenue, 93728, Fresno",
+   "website": "https://www.mamamiapizzeriaoffresno.com/"
+  },
+  {
+   "name": "India's Oven",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1153 North Fulton Street, 93728, Fresno",
+   "website": "https://order.online/store/india's-oven-(tower)-fresno-564068/?activationPreview=true&hideModal=true&pickup=true"
+  },
+  {
+   "name": "Banzai Japanese Bar & Kitchen",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "609 East Olive Avenue, 93728, Fresno",
+   "website": "https://www.banzaifresno.com/"
+  },
+  {
+   "name": "Me-n-Ed's On Tap",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1247 North Wishon Avenue, 93728, Fresno",
+   "website": "https://www.meneds.com/"
+  },
+  {
+   "name": "Sequoia Brewing",
+   "cuisines": [
+    "American"
+   ],
+   "address": "777 East Olive Avenue, 93728, Fresno",
+   "website": "https://www.sequoiabrewing.com/"
+  },
+  {
+   "name": "Umi Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2321 Kern Street, 93721, Fresno",
+   "website": "https://www.umisushifresno.com/"
+  },
+  {
+   "name": "Gus Kabob",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "855 M Street, 93721, Fresno",
+   "website": "https://www.guskabob.com/"
+  },
+  {
+   "name": "GG's Food Factory",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2139 Kern Street, 93721, Fresno",
+   "website": "https://www.clover.com/online-ordering/ggs-food-factory-fresno"
+  },
+  {
+   "name": "Dab Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "721 Fulton Street, 93721, Fresno",
+   "website": "https://dabtacos.top/"
+  },
+  {
+   "name": "Rocco's Eats",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Brunch",
+    "Lunch"
+   ],
+   "address": "2119 Merced Street, 93721, Fresno",
+   "website": "https://roccoseats.com/"
+  },
+  {
+   "name": "Toshiko Ramen & Sushi Bar",
+   "cuisines": [
+    "Japanese",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "1112 Fulton Street, 93721, Fresno",
+   "website": "https://www.toshikojc.com/"
+  },
+  {
+   "name": "Peach Pit",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "555 East Olive Avenue, 93728, Fresno",
+   "website": "https://peachpit.top/"
+  },
+  {
+   "name": "Smokin Woods BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "727 Fulton Street, 93721, Fresno",
+   "website": "https://smokinwoodsbbq.com/"
+  },
+  {
+   "name": "Aromas",
+   "cuisines": [
+    "Brunch",
+    "Breakfast",
+    "Lunch",
+    "American"
+   ],
+   "address": "568 East Olive Avenue, 93728, Fresno",
+   "website": "https://aromasfresno.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "3020 Tulare Street, 93721",
+   "website": "https://restaurants.ihop.com/ca/fresno/654"
+  },
+  {
+   "name": "Mediterranean Grill & Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1031 U Street, 93721, Fresno",
+   "website": "https://www.medgrillfresno.com"
+  },
+  {
+   "name": "Douggy Fresh Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1585 North Palm Avenue, 93728, Fresno",
+   "website": "http://douggyfreshpizza.com/"
+  },
+  {
+   "name": "Bobby Salazar's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "725 East Olive Avenue, 93728, Fresno",
+   "website": "https://bobbystower.com/"
+  },
+  {
+   "name": "Golden Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1135 North Fulton Street, 93728, Fresno",
+   "website": "http://www.goldenrestaurantfresno.com/#contactform"
+  },
+  {
+   "name": "FOB Seafood Fusion",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "4280 North Blackstone Avenue, 93726, Fresno",
+   "website": "https://fobseafoods.com/"
+  },
+  {
+   "name": "Cafe Leon Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4239 North Blackstone Avenue, 93726, Fresno",
+   "website": "http://cafeleonfresno.com/"
+  },
+  {
+   "name": "The Burger Shack",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1615 East Ashlan Avenue, 93726, Fresno",
+   "website": "https://www.theburgershackca.com/"
+  },
+  {
+   "name": "Don Salsa's Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "420 West Olive Avenue, 93728, Fresno",
+   "website": "http://donsalsas.com/"
+  },
+  {
+   "name": "Chicomostok Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "224 West Olive Avenue, 93728, Fresno",
+   "website": "https://www.orderchicomostokmexicanfood.com/#/"
+  },
+  {
+   "name": "El Cochinito Contento",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "88 East Olive Avenue, 93728, Fresno",
+   "website": "https://el-cochinito-contento.com/"
+  },
+  {
+   "name": "Pacifica Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "444 East Olive Avenue, 93728, Fresno",
+   "website": "http://pacificapizzatower.com/"
+  },
+  {
+   "name": "China Place Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://chinaplaceexpressca.com/"
+  },
+  {
+   "name": "Michoacan Meat Market",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "508 North Van Ness North Van Ness Avenue, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Mabel's Kitchen",
+   "cuisines": [
+    "Sandwich",
+    "Dessert",
+    "Salad"
+   ],
+   "address": "700 Van Ness Avenue, 93721, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Richie's Pizza & Hot Dogs",
+   "cuisines": [
+    "Pizza",
+    "Hot Dog"
+   ],
+   "address": "844 East Olive Avenue, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3120 North Blackstone Avenue, 93703, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Cuca's Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "936 East Olive Avenue, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "La Cocina de Mama",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2015 Mariposa Street, 93721, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Tacos Y Mariscos Tijuana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4313 North Blackstone Avenue, 93726, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Taqueria La Penca",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "108 East Olive Avenue, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Fung's Chinese Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ming's Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1414 N Van Ness Ave, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Taqueria",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Deli Delicious",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2041 East Shields Avenue, 93726, Fresno",
+   "website": ""
+  },
+  {
+   "name": "El Gran Rodeo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Game Time Pizza Palace",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Premio Mayor",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Elegante",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Panderia Vista Hermosa",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rancho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carniceria Y Taqueria La Nueva Reyna",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cuca's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Longvek Marketplace",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Panchos",
+   "cuisines": [],
+   "address": "1000 Fulton Street, 93721, Fresno",
+   "website": "https://lospanchos-fresno.com/"
+  },
+  {
+   "name": "Livingstone's Restaurant & Pub",
+   "cuisines": [],
+   "address": "831 East Fern Avenue, 93728, Fresno",
+   "website": "http://www.livingstonestower.com/"
+  },
+  {
+   "name": "Toledito's Mexican Restaurant",
+   "cuisines": [],
+   "address": "1704 Van Ness Avenue, 93721, Fresno",
+   "website": "https://www.toleditosmexicanrestaurant.com/"
+  },
+  {
+   "name": "Noodle Q Home Style Fresh Noodles and Sushi",
+   "cuisines": [],
+   "address": "2648 East Ashlan Avenue, 93726",
+   "website": "http://noodleqhomestylefreshnoodles.com"
+  },
+  {
+   "name": "Food to Share",
+   "cuisines": [],
+   "address": "4270 North Blackstone Avenue, 93726, Fresno",
+   "website": "http://www.foodtoshare.org/contact"
+  },
+  {
+   "name": "Mariscos El Centenario",
+   "cuisines": [],
+   "address": "3874 North Blackstone Avenue, 93726, Fresno",
+   "website": "https://elcentenariomariscos.com"
+  },
+  {
+   "name": "The Donut Hole",
+   "cuisines": [],
+   "address": "3097 Tulare Street, 93721, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Tacos y Tortas Chalio's",
+   "cuisines": [],
+   "address": "2108 North Blackstone Avenue, 93703",
+   "website": ""
+  },
+  {
+   "name": "Badd Burgers",
+   "cuisines": [],
+   "address": "833 East Fern Avenue, 93728, Fresno",
+   "website": ""
+  },
+  {
+   "name": "Birrieria El Niño",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kopje Lodge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Safari Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diners Smorgasbord",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lily's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Triangle Burger",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fu Hai Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Breakfast Hut",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco's Tijuana",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Fresno Chaffee Zoo",
+   "kind": "zoo",
+   "address": "894 West Belmont Avenue, 93728, Fresno",
+   "website": "https://www.fresnochaffeezoo.org/",
+   "phone": "",
+   "latitude": 36.7521489,
+   "longitude": -119.8231949
+  },
+  {
+   "name": "Fresno Metropolitan Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.7402438,
+   "longitude": -119.7957793
+  },
+  {
+   "name": "The Archive on Kern",
+   "kind": "museum",
+   "address": "2120 Kern Street, 93721, Fresno",
+   "website": "https://www.valleyhistory.org/",
+   "phone": "+1-559-441-0862",
+   "latitude": 36.7338668,
+   "longitude": -119.787162
+  },
+  {
+   "name": "Fresno Discovery Center",
+   "kind": "museum",
+   "address": "1944 North Winery Avenue, 93703, Fresno",
+   "website": "https://www.fresnodiscoverycenter.org/",
+   "phone": "+1 559 251 5533",
+   "latitude": 36.7681127,
+   "longitude": -119.7314425
+  },
+  {
+   "name": "Armenian Heritage Museum",
+   "kind": "museum",
+   "address": "550 East Shaw Avenue, 93710, Fresno",
+   "website": "https://www.armof.org/",
+   "phone": "+1-559-224-1001",
+   "latitude": 36.809297,
+   "longitude": -119.7783928
+  },
+  {
+   "name": "A Sense Of Place",
+   "kind": "gallery",
+   "address": "2003 North Van Ness Boulevard, 93704, Fresno",
+   "website": "https://www.asenseofplacefineart.com/",
+   "phone": "+1-559-580-9616",
+   "latitude": 36.7688325,
+   "longitude": -119.8043455
+  },
+  {
+   "name": "Spectrum Gallery",
+   "kind": "gallery",
+   "address": "608 East Olive Avenue, 93728, Fresno",
+   "website": "https://spectrumphotogallery.org/",
+   "phone": "+1-559-266-0691",
+   "latitude": 36.7575259,
+   "longitude": -119.8038214
+  },
+  {
+   "name": "Downtown Artist Gallery",
+   "kind": "gallery",
+   "address": "701 L Street, 93721, Fresno",
+   "website": "https://www.downtownfresno.org/go/downtown-artist-gallery",
+   "phone": "+15593043424",
+   "latitude": 36.732446,
+   "longitude": -119.7851868
+  },
+  {
+   "name": "Fig Tree Gallery",
+   "kind": "gallery",
+   "address": "644 Van Ness Avenue, 93721, Fresno",
+   "website": "https://www.figtreegallery.us/",
+   "phone": "+15594850460",
+   "latitude": 36.731525,
+   "longitude": -119.7854238
+  },
+  {
+   "name": "Door Art Gallery",
+   "kind": "gallery",
+   "address": "3073 West Bullard Avenue, 93711, Fresno",
+   "website": "https://www.thedoorartgallery.com/",
+   "phone": "+15592611610",
+   "latitude": 36.8215906,
+   "longitude": -119.8464449
+  },
+  {
+   "name": "Corridor 2122",
+   "kind": "gallery",
+   "address": "2122 Mono Street, 93721, Fresno",
+   "website": "https://www.corridor2122.com/",
+   "phone": "",
+   "latitude": 36.731832,
+   "longitude": -119.7853215
+  },
+  {
+   "name": "Silva Salazar Studios",
+   "kind": "gallery",
+   "address": "654 Van Ness Avenue, 93721, Fresno",
+   "website": "http://www.dixiesalazar.com/",
+   "phone": "",
+   "latitude": 36.731633,
+   "longitude": -119.7855549
+  },
+  {
+   "name": "Meux Home Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://meuxhomemuseum.org/",
+   "phone": "",
+   "latitude": 36.7397106,
+   "longitude": -119.7825426
+  },
+  {
+   "name": "Rotary Sports Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.7983399,
+   "longitude": -119.7701752
+  },
+  {
+   "name": "THE ASH PIT",
+   "kind": "gallery",
+   "address": "1459 North Van Ness Avenue, 93728, Fresno",
+   "website": "",
+   "phone": "+15593754509",
+   "latitude": 36.76241,
+   "longitude": -119.7995086
+  }
+ ]
+}

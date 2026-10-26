@@ -1,0 +1,1779 @@
+{
+ "city": "Norfolk",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 36.8554,
+ "longitude": -76.2886,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "SpringHill Suites Norfolk Virginia Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6350 Newtown Road, 23502, Norfolk",
+   "url": "https://www.marriott.com/hotels/travel/orfnw-springhill-suites-norfolk-virginia-beach/"
+  },
+  {
+   "name": "Hazel Inn & Suites",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1003;1005 Hazel Court, 23325-2402, Chesapeake",
+   "url": "https://hazel-inn-and-s.gohotelo.com"
+  },
+  {
+   "name": "Residence Inn Chesapeake Greenbrier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.marriott.com/hotels/travel/orfgb-residence-inn-chesapeake-greenbrier/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5793 Greenwich Road, 23462, Virginia Beach",
+   "url": "https://www.hilton.com/en/hotels/orfvbhx-hampton-norfolk-virginia-beach/"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 North Military Highway, 23502, Norfolk",
+   "url": "https://www.hilton.com/en/hotels/orfnadt-doubletree-norfolk-airport/"
+  },
+  {
+   "name": "La Quinta Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "192 Newtown Road, 23462, Virginia Beach",
+   "url": "https://www.wyndhamhotels.com/laquinta/virginia-beach-virginia/la-quinta-inn-norfolk-virginia-beach/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1387 North Military Highway, 23502, Norfolk",
+   "url": "https://www.wyndhamhotels.com/laquinta/norfolk-virginia/la-quinta-inn-and-suites-norfolk/overview"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5620 East Princess Anne Road, 23502, Norfolk",
+   "url": "https://www.hilton.com/en/hotels/orfhtht-home2-suites-norfolk-airport/"
+  },
+  {
+   "name": "Residence Inn Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1590 North Military Highway, 23502, Norfolk",
+   "url": "https://www.marriott.com/orfri"
+  },
+  {
+   "name": "SpringHill Suites Chesapeake Greenbrier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1446 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.marriott.com/hotels/travel/orfnc-springhill-suites-chesapeake-greenbrier/"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1450 North Military Highway, 23502-2200, Norfolk",
+   "url": "https://www.wyndhamhotels.com/days-inn/norfolk-virginia/daysinn-norfolk/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1511 USAA Drive, 23502, Norfolk",
+   "url": "https://www.hilton.com/en/hotels/orfaphx-hampton-suites-norfolk-airport/"
+  },
+  {
+   "name": "SpringHill Suites Norfolk Old Dominion University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4500 Hampton Boulevard, 23508, Norfolk",
+   "url": "https://www.marriott.com/orfod"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8501 Hampton Boulevard, 23505-1009, Norfolk",
+   "url": "https://www.hilton.com/en/hotels/orfnbhx-hampton-norfolk-naval-base/"
+  },
+  {
+   "name": "Econo Lodge Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5819 Northampton Boulevard, 23455;23455-4622, Virginia Beach",
+   "url": "https://www.choicehotels.com/virginia/virginia-beach/quality-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express Chesapeake - Norfolk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "721 Conference Center Drive, 23320, Chesapeake",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/chesapeake/orfgb/hoteldetail?cm=mmc-_-EX-_-USA-_-ORFGB"
+  },
+  {
+   "name": "Delta Hotels by Marriott Chesapeake Norfolk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "725 Woodlake Drive, 23320, Chesapeake",
+   "url": "https://www.marriott.com/en-us/hotels/orfcd-delta-hotels-chesapeake-norfolk/overview/"
+  },
+  {
+   "name": "Courtyard Chesapeake Greenbrier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1562 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.marriott.com/orfcy"
+  },
+  {
+   "name": "Residence Inn Norfolk Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "227 West Brambleton Avenue, 23510, Norfolk",
+   "url": "https://www.marriott.com/orfrn"
+  },
+  {
+   "name": "Fairfield Inn & Suites Virginia Beach/Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5800 Burton Station Road, 23455, Virginia Beach",
+   "url": "https://www.marriott.com/orffv"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5700 Greenwich Road, 23462, Virginia Beach",
+   "url": "https://www.marriott.com/orfvb"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2222 South Military Highway, 23320, Chesapeake",
+   "url": "https://www.choicehotels.com/virginia/virginia-beach/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Chesapeake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1560 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.marriott.com/orffc"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1550 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.choicehotels.com/virginia/virginia-beach/quality-inn-hotels"
+  },
+  {
+   "name": "Courtyard Norfolk Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "520 Plume Street, 23510, Norfolk",
+   "url": "https://www.marriott.com/orfdt"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1571 Premium Outlets Boulevard, 23502, Norfolk",
+   "url": "https://www.hilton.com/en/hotels/orfruru-tru-norfolk-airport/"
+  },
+  {
+   "name": "Aloft Chesapeake",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1454 Crossways Boulevard, 23320, Chesapeake",
+   "url": "http://www.aloftchesapeake.com"
+  },
+  {
+   "name": "Hilton Garden Inn - Chesapeake/Greenbrier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1565 Crossways Boulevard, 23320, Chesapeake",
+   "url": "https://www.hilton.com/en/hotels/orfchgi-hilton-garden-inn-chesapeake-greenbrier/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1157 North Military Highway, 23502, Norfolk",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/norfolk/orfex/hoteldetail"
+  },
+  {
+   "name": "Delta by Marriott Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1570 North Military Highway, 23502, Norfolk",
+   "url": "https://www.marriott.com/en-us/hotels/orfde-delta-hotels-norfolk-airport/overview/"
+  },
+  {
+   "name": "WoodSpring Suites Chesapeake-Norfolk Greenbrier",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1708 Sentinel Drive, 23320, Chesapeake",
+   "url": "https://www.woodspring.com"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1850 East Little Creek Road, 23518, Norfolk",
+   "url": "https://www.choicehotels.com/virginia/virginia-beach/quality-inn-hotels"
+  },
+  {
+   "name": "Best Western Center Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5718 Northampton Boulevard, 23455, Virginia Beach",
+   "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.47087.html"
+  },
+  {
+   "name": "Comfort Inn & Suites Virginia Beach - Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5808 Burton Station Road, 23455, Virginia Beach",
+   "url": "https://www.choicehotels.com/virginia/virginia-beach/comfort-inn-hotels/va697"
+  },
+  {
+   "name": "Sleep Inn Lake Wright - Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1521 Northampton Boulevard, 23502, Norfolk",
+   "url": "https://www.choicehotels.com/virginia/norfolk/sleep-inn-hotels/va059"
+  },
+  {
+   "name": "Quality Suites Lake Wright",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1521 Premium Outlets Boulevard, 23502, Norfolk",
+   "url": "https://www.choicehotels.com/virginia/norfolk/quality-inn-hotels/va055"
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5745 Northampton Boulevard, 23455, Virginia Beach",
+   "url": "https://www.redroof.com/property/va/virginia-beach/RRI567"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2000 Old Greenbrier Road, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Wingate Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817 Greenbrier Circle, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1569 Crossways Boulevard, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Virginia Beach - Norfolk",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5655 Greenwich Road, 23462, Virginia Beach",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "809 Greenbrier Circle, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Chesapeake - Virginia Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "709 Woodlake Drive, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Norfolk Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 Monticello Avenue, 23510, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Hilton Norfolk The Main",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 East Main Street, 23510, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Renaissance Portsmouth-Norfolk Waterfront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "425 Water Street, 23704, Portsmouth",
+   "url": ""
+  },
+  {
+   "name": "National at Harbor Towers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Harbor Court, 23704, Portsmouth",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5600 Lowery Road, 23502, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Norfolk Waterside Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "777 Waterside Drive, 23510, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Virginia Beach/Norfolk Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5733 Cleveland Street, 23462, Virginia Beach",
+   "url": ""
+  },
+  {
+   "name": "Norfolk Waterside Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 East Main Street, 23510, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn Olde Town",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "347 Effingham Street, Portsmouth",
+   "url": ""
+  },
+  {
+   "name": "Budget Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2105 Broadmoor Avenue, 23323, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Open 24 Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3265 South Military Highway, 23323, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "The Thrift Store Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2033 Battlefield Boulevard North, 23324, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Intown Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2150 Old Greenbrier Road, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Sun Suites Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1520 Crossways Boulevard, 23320, Chesapeake",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "853 North Military Highway, 23502, Norfolk",
+   "url": ""
+  },
+  {
+   "name": "Riverwalk Inn & Suites Portsmouth",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 Effingham Street, 23704, Portsmouth",
+   "url": ""
+  },
+  {
+   "name": "Super Value Inn Ports Mouth/Olde Town Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "925 London Boulevard, 23704, Portsmouth",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "High Street Pizza & Pour House",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "501 High Street, 23704, Portsmouth",
+   "website": "https://www.highstreet.pizza"
+  },
+  {
+   "name": "Roger Brown's Restaurant and Sports Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "316 High Street, 23704, Portsmouth",
+   "website": "https://www.rogerbrowns.com/"
+  },
+  {
+   "name": "MJ's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4019 Granby Street, 23504, Norfolk",
+   "website": "http://www.mjtavern.com/"
+  },
+  {
+   "name": "Streats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "915 West 21st Street, 23517, Norfolk",
+   "website": "https://www.streatsnorfolk.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1535 Ingleside Road, 23502, Norfolk",
+   "website": "https://www.wafflehouse.com/"
+  },
+  {
+   "name": "Yummy Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "811 Brandon Avenue, 23517, Norfolk",
+   "website": "https://www.yummywokva.com/"
+  },
+  {
+   "name": "Biscuit Belly",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "2401 Hampton Boulevard, 23517, Norfolk",
+   "website": "https://biscuitbelly.com/norfolk/"
+  },
+  {
+   "name": "Guads",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "612 Court Street, 23704, Portsmouth",
+   "website": "https://www.guadsmexicanrestaurant.com/"
+  },
+  {
+   "name": "Mi Hogar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4201 Granby Street, 23504, Norfolk",
+   "website": "https://www.mihogarmexicanrestaurant.com/"
+  },
+  {
+   "name": "Chen's Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3538 Tidewater Drive, 23509, Norfolk",
+   "website": "https://www.chenskitchen.net/"
+  },
+  {
+   "name": "Mazzika Restaurant & Hooka Lounge",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "4800 Colley Avenue, 23508, Norfolk",
+   "website": "https://www.mazzikarestaurant.com/"
+  },
+  {
+   "name": "456 Fish",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "456 East Charlotte Street;Granby Street, 23510, Norfolk",
+   "website": "https://www.456fish.com"
+  },
+  {
+   "name": "80/20 Burger Bar",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "123 West 21st Street, 23517, Norfolk",
+   "website": "https://www.8020burgerbar.com/"
+  },
+  {
+   "name": "Leonne's On The Side",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "455 Granby Street, 23510, Norfolk",
+   "website": "https://www.leonesitalian.com"
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "23517",
+   "website": "https://www.noodles.com/"
+  },
+  {
+   "name": "The Fishin' Pig",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "119 West 25th Street, 23517",
+   "website": "https://www.fishinpig.com/norfolk"
+  },
+  {
+   "name": "Mr Shawarma",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "725 West 21st Street, 23517, Norfolk",
+   "website": "https://mrshawarma.com/"
+  },
+  {
+   "name": "Pho 79",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "723 West 21st Street, 23517, Norfolk",
+   "website": "https://www.eatpho79.com/menu"
+  },
+  {
+   "name": "Kotobuki",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "721 West 21st Street, 23517, Norfolk",
+   "website": "https://kotobukisushibar.com/"
+  },
+  {
+   "name": "Norfolk Smokehouse & Seafood Company",
+   "cuisines": [
+    "Barbecue",
+    "Seafood"
+   ],
+   "address": "1903 Shoop Avenue, 23509, Norfolk",
+   "website": "https://www.norfolksmokehouseseafoodcompany.com/"
+  },
+  {
+   "name": "Zeke's",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "800 Granby Street, 23510, Norfolk",
+   "website": "https://www.zekes.net/"
+  },
+  {
+   "name": "Gogi Guys Korean BBQ",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "717 West 21st Street, 23517, Norfolk",
+   "website": "https://gogiguysbbq.com/"
+  },
+  {
+   "name": "Union Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "218 West 25th Street, 23517, Norfolk",
+   "website": "https://www.uniontacova.com/"
+  },
+  {
+   "name": "Golden Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5401 Tidewater Drive, 23509, Norfolk",
+   "website": "https://www.goldenpizzeria.us/"
+  },
+  {
+   "name": "Tacos Y Tequila",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1421 Colley Avenue, 23517, Norfolk",
+   "website": "https://www.tytghent.com/"
+  },
+  {
+   "name": "Hair Of The Dog Eatery",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "4820 Hampton Boulevard, 23508, Norfolk",
+   "website": "https://www.hairofthedogva.com/"
+  },
+  {
+   "name": "Kappo Nara Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "2000 Colonial Avenue, 23517, Norfolk",
+   "website": "https://kapponararamen.net/"
+  },
+  {
+   "name": "Little Dog Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1917 Colley Avenue, 23517, Norfolk",
+   "website": "https://littledogdiner.com/"
+  },
+  {
+   "name": "Punjabi Rasoi",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "4200 Monarch Way, 23508, Norfolk",
+   "website": "https://punjabirasoicuisine.com/"
+  },
+  {
+   "name": "Taste Unlimited",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "407 West 21st Street, 23517, Norfolk",
+   "website": "https://www.tasteunlimited.com/"
+  },
+  {
+   "name": "Lin's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3925 Hampton Boulevard, 23508, Norfolk",
+   "website": "https://www.linsgardennorfolkva.com/"
+  },
+  {
+   "name": "China Ocean",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1505 London Boulevard, 23704, Portsmouth",
+   "website": "https://chinaocean-va.com/"
+  },
+  {
+   "name": "619 Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "619 High Street, 23704, Portsmouth",
+   "website": "https://the619cantina.com/"
+  },
+  {
+   "name": "Bangkok Garden Noodle House",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "301 High Street, 23704, Portsmouth",
+   "website": "https://www.bkknoodlehouse.com/"
+  },
+  {
+   "name": "Gino's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "455 Court Street, 23704, Portsmouth",
+   "website": "https://www.orderginospizzeriamenu.com/"
+  },
+  {
+   "name": "Olde Towne Public House",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "467 Court Street, 23704, Portsmouth",
+   "website": "https://oldetownepublichouse.com/"
+  },
+  {
+   "name": "Jem's Take a Plate",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "1504 Portsmouth Boulevard, 23704, Portsmouth",
+   "website": "https://portsvacation.com/places/jems-take-a-plate/"
+  },
+  {
+   "name": "Fish & Slips Marina Raw Bar and Grille",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "10 Crawford Parkway, Portsmouth",
+   "website": "https://fishnslips.com/"
+  },
+  {
+   "name": "Sakura Express",
+   "cuisines": [
+    "Asian",
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "1501, suite a Colley Avenue, 23517",
+   "website": "https://sakuraexpressnorfolk.com/"
+  },
+  {
+   "name": "The Bird",
+   "cuisines": [
+    "Coffee Shop",
+    "American"
+   ],
+   "address": "4314 Colley Avenue, 23508, Norfolk",
+   "website": "https://www.thebirdva.com"
+  },
+  {
+   "name": "Luce",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "245 Granby Street",
+   "website": "https://lucenorfolk.com"
+  },
+  {
+   "name": "Pokey Ramen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "215 Granby Street",
+   "website": "https://pokeyramen.com/"
+  },
+  {
+   "name": "Alkaline",
+   "cuisines": [
+    "Ramen",
+    "Drinks"
+   ],
+   "address": "742 West 21st Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Doumar's Cones & Barbeque",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1919 Monticello Avenue, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "A.W. Shucks",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2200 Colonial Avenue, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Charlie's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1800 Granby Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "114 East 21st Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "No Frill Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "806 Spotswood Avenue, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Del Veechios",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1080 West 47th Street, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Grannies",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "2301 Colley Avenue, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "The Twisted Pig",
+   "cuisines": [
+    "Barbecue",
+    "Southern"
+   ],
+   "address": "722 Mount Vernon Avenue, 23707, Portsmouth",
+   "website": ""
+  },
+  {
+   "name": "Bardo",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "430 West 21st Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Fellini's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3910 Colley Avenue, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Renny's Chicken and Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "528 East Indian River Road, 23523, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "328 Tequila Lounge",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "328 West 20th Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Ynot Italian",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1517 Colley Ave, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Glass Light Restaurant",
+   "cuisines": [
+    "French"
+   ],
+   "address": "201 Granby Street, 23510, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Hank's Filling Station",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "4301 Colley Avenue, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Cogan's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1901 Colonial Avenue, 23517",
+   "website": ""
+  },
+  {
+   "name": "Bonchan",
+   "cuisines": [
+    "Korean",
+    "Asian"
+   ],
+   "address": "273 Granby Street",
+   "website": ""
+  },
+  {
+   "name": "Los Primos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "23502",
+   "website": ""
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sanctuary at The Railyard",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Johnny Rockets",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cogans Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Fortune Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mojo Bones",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "219 Bistro",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dirty Buffalo",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Freemason Abbey Restauurant",
+   "cuisines": [
+    "American",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luna maya",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lo Mo Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "BLYSS Ice Cream & Dessert",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Orapax Restaurant",
+   "cuisines": [],
+   "address": "1300 Redgate Avenue, Norfolk",
+   "website": "https://www.orapaxrestaurant.com/"
+  },
+  {
+   "name": "Crudo Nudo",
+   "cuisines": [],
+   "address": "727 West 21st Street, 23517, Norfolk",
+   "website": "https://crudonudo.com/"
+  },
+  {
+   "name": "ILO Bistro",
+   "cuisines": [],
+   "address": "509 Botetourt Street, 23510, Norfolk",
+   "website": "https://ilobistro.com/"
+  },
+  {
+   "name": "CODEX",
+   "cuisines": [],
+   "address": "429 Granby Street, 23510, Norfolk",
+   "website": "https://www.codexva.com/"
+  },
+  {
+   "name": "Granby Bistro & Deli",
+   "cuisines": [],
+   "address": "225 Granby Street",
+   "website": "http://granbybistroanddeli.com"
+  },
+  {
+   "name": "Chicho's Pizza Backstage",
+   "cuisines": [],
+   "address": "320 Granby Street",
+   "website": "https://granby.chichospizza.com"
+  },
+  {
+   "name": "Cafe Milo",
+   "cuisines": [],
+   "address": "",
+   "website": "https://cafemilonfk.com/"
+  },
+  {
+   "name": "Ziggy’s Street Eats",
+   "cuisines": [],
+   "address": "1503 Portsmouth Boulevard, 23704, Portsmouth",
+   "website": ""
+  },
+  {
+   "name": "Maks Chinese Food",
+   "cuisines": [],
+   "address": "1330 Poindexter Street, 23324, Chesapeake",
+   "website": ""
+  },
+  {
+   "name": "The Lunch Box",
+   "cuisines": [],
+   "address": "1110 Poindexter Street, 23324, Chesapeake",
+   "website": ""
+  },
+  {
+   "name": "Mariner's Reef",
+   "cuisines": [],
+   "address": "1484 Kempff Street, 23709, Portsmouth",
+   "website": ""
+  },
+  {
+   "name": "University Pizza",
+   "cuisines": [],
+   "address": "5008 Colley Avenue, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Capt'n Crabby",
+   "cuisines": [],
+   "address": "4140 Granby Street, 23502, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "350 Grace",
+   "cuisines": [],
+   "address": "West 22nd Street, 23517, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Coach House Bar & Grill",
+   "cuisines": [],
+   "address": "5103 Colley Avenue, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Mack's Barge",
+   "cuisines": [],
+   "address": "4300 Colley Avenue, 23508, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Bugattis",
+   "cuisines": [],
+   "address": "111 College Place, 23510, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Four Eleven York",
+   "cuisines": [],
+   "address": "409 York Street, 23510, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "YaYa Asian Gourmet House",
+   "cuisines": [],
+   "address": "College Place, 23510, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Hokkaido Sushi",
+   "cuisines": [],
+   "address": "233 Granby Street",
+   "website": ""
+  },
+  {
+   "name": "blanca Food+Wine",
+   "cuisines": [],
+   "address": "23504, Norfolk",
+   "website": ""
+  },
+  {
+   "name": "Rama Garden",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Bakehouse at Chelsea",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Guy Fieri's Smokehouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stripers Waterside",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Local",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luk Fu",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rappahannock Oyster Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saltine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Varia",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "D'Egg Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jack Brown's Beer & Burger Joint",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Benny Damato's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Famous Uncle Al's Hot Dogs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Byrd & Baldwin Brothers Steakhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Norfolk Seafood Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Granby Street Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "California Burrito",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grilled Cheese Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lamia's Crepes",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweet Teas",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Plaza Azteca",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Handsome Biscuit",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sam's Texas Sub Shop",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cork & Co.",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peck & Pour",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Colley Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Press 626",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Portsmouth Lightship Museum",
+   "kind": "museum",
+   "address": "421 Water Street, 23704, Portsmouth",
+   "website": "http://www.portsmouthnavalshipyardmuseum.com/lightship/index.html",
+   "phone": "",
+   "latitude": 36.836986,
+   "longitude": -76.2961796
+  },
+  {
+   "name": "USS Wisconsin BB-64",
+   "kind": "museum",
+   "address": "1 Waterside Drive, 23510, Norfolk",
+   "website": "https://nauticus.org/",
+   "phone": "+1-757-664-1000",
+   "latitude": 36.8483577,
+   "longitude": -76.2952154
+  },
+  {
+   "name": "Children's Museum of Virginia",
+   "kind": "museum",
+   "address": "221 High Street, 23704, Portsmouth",
+   "website": "http://www.childrensmuseumva.com/",
+   "phone": "",
+   "latitude": 36.8349373,
+   "longitude": -76.2989315
+  },
+  {
+   "name": "Chrysler Museum of Art",
+   "kind": "museum",
+   "address": "1 Memorial Place, 23510, Norfolk",
+   "website": "http://www.chrysler.org/",
+   "phone": "+1-757-664-6200",
+   "latitude": 36.8563882,
+   "longitude": -76.2929951
+  },
+  {
+   "name": "Portsmouth Colored Community Library Museum",
+   "kind": "museum",
+   "address": "904 Elm Avenue, 23704, Portsmouth",
+   "website": "https://portsvaafricanamericanheritage.com/",
+   "phone": "",
+   "latitude": 36.8317908,
+   "longitude": -76.3130504
+  },
+  {
+   "name": "USS Norfolk Bell",
+   "kind": "attraction",
+   "address": "23510, Norfolk",
+   "website": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/USS_Norfolk_Bell_LightBox.jpg",
+   "phone": "",
+   "latitude": 36.8489192,
+   "longitude": -76.2944388
+  },
+  {
+   "name": "Virginia Zoological Park",
+   "kind": "zoo",
+   "address": "3500 Granby Street, 23504, Norfolk",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8781277,
+   "longitude": -76.2761421
+  },
+  {
+   "name": "Barry Art Museum",
+   "kind": "museum",
+   "address": "1075 W 43rd St, 23508, Norfolk",
+   "website": "",
+   "phone": "",
+   "latitude": 36.883031,
+   "longitude": -76.3018395
+  },
+  {
+   "name": "F/A-18",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.9228459,
+   "longitude": -76.304098
+  },
+  {
+   "name": "The MacArthur Memorial Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8473578,
+   "longitude": -76.2881613
+  },
+  {
+   "name": "The Hermitage Foundation",
+   "kind": "museum",
+   "address": "76737 North Shore Road, 23505, Norfolk",
+   "website": "https://thehermitagemuseum.org/",
+   "phone": "",
+   "latitude": 36.9108576,
+   "longitude": -76.3123136
+  },
+  {
+   "name": "Portsmouth Art & Cultural Center",
+   "kind": "museum",
+   "address": "400 High Street, 23704, Portsmouth",
+   "website": "http://portsmouthartcenter.com/",
+   "phone": "",
+   "latitude": 36.8356299,
+   "longitude": -76.3013702
+  },
+  {
+   "name": "Portsmouth Naval Shipyard Museum",
+   "kind": "museum",
+   "address": "2 High Street, 23704, Portsmouth",
+   "website": "http://www.portsmouthnavalshipyardmuseum.com/",
+   "phone": "",
+   "latitude": 36.8360021,
+   "longitude": -76.2967468
+  },
+  {
+   "name": "Anchor;USS Antietam Anchor",
+   "kind": "attraction",
+   "address": "1 Waterside Drive, 23510, Norfolk",
+   "website": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Antietam_Anchor_LightBox.jpg",
+   "phone": "",
+   "latitude": 36.8467421,
+   "longitude": -76.2943584
+  },
+  {
+   "name": "Nauticus",
+   "kind": "museum",
+   "address": "1 Waterside Drive, 23510, Norfolk",
+   "website": "https://nauticus.org/",
+   "phone": "+1-757-664-1000",
+   "latitude": 36.8476408,
+   "longitude": -76.2951283
+  },
+  {
+   "name": "Hunter House Victorian Museum",
+   "kind": "museum",
+   "address": "240 West Freemason Street, 23510, Norfolk",
+   "website": "https://www.hunterhousemuseum.org/",
+   "phone": "+1-757-623-9814",
+   "latitude": 36.8522629,
+   "longitude": -76.2926088
+  },
+  {
+   "name": "Hill House Museum",
+   "kind": "museum",
+   "address": "221 North Street, 23704, Portsmouth",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8382372,
+   "longitude": -76.298837
+  },
+  {
+   "name": "Chrysler Museum Glass Studio",
+   "kind": "museum",
+   "address": "745 Duke Street, 23510, Norfolk",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8553339,
+   "longitude": -76.2923804
+  },
+  {
+   "name": "Fresnel Lens from Hog Island Light",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8347085,
+   "longitude": -76.2962675
+  },
+  {
+   "name": "Spanish American War 1898-1902",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.838636,
+   "longitude": -76.2980184
+  },
+  {
+   "name": "Pokey Smokey II",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8329499,
+   "longitude": -76.3703083
+  },
+  {
+   "name": "Railroad Museum of Virginia",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8305706,
+   "longitude": -76.2995184
+  },
+  {
+   "name": "Airport Public Observation Area",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8889316,
+   "longitude": -76.2082059
+  },
+  {
+   "name": "Archway",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 36.8375951,
+   "longitude": -76.2977754
+  }
+ ]
+}

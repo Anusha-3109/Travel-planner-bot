@@ -1,0 +1,641 @@
+{
+ "city": "Cedar City",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 37.6771,
+ "longitude": -113.0624,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "60 Main Street, 84720, Cedar City",
+   "url": "https://www.hilton.com/en/hotels/cdccchx-hampton-suites-cedar-city/"
+  },
+  {
+   "name": "SpringHill Suites Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1477 Old U.S. 91, 84720, Cedar City",
+   "url": "https://www.marriott.com/cdcsh"
+  },
+  {
+   "name": "Hampton Inn Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1145 S Bentley Boulevard, 84720, Cedar City",
+   "url": "https://www.hilton.com/en/hotels/cedarhx-hampton-cedar-city/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1377 S Main Street, 84720, Cedar City",
+   "url": "https://www.wyndhamhotels.com/laquinta/cedar-city-utah/la-quinta-cedar-city/overview"
+  },
+  {
+   "name": "Courtyard Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1294 S Interstate Drive, 84720, Cedar City",
+   "url": "https://www.marriott.com/cdccy"
+  },
+  {
+   "name": "Abbey Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "940 W 200 North, 84720, Cedar City",
+   "url": "https://www.abbeyinncedar.com/"
+  },
+  {
+   "name": "Travelodge Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2555 North Freeway Drive, 84721, Cedar City",
+   "url": "https://www.wyndhamhotels.com/travelodge/cedar-city-utah/cedar-city-travelodge/overview"
+  },
+  {
+   "name": "Super 8 by Wyndham Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "145 1550 West, 84720, Cedar City",
+   "url": "https://www.wyndhamhotels.com/super-8/cedar-city-utah/super-8-cedar-city/overview"
+  },
+  {
+   "name": "Cedar Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "479 S Main Street, 84720, Cedar City",
+   "url": "https://cedarlodgeextendedstay.com/"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1288 S Main Street, 84720, Cedar City",
+   "url": "https://www.choicehotels.com/utah/cedar-city/quality-inn-hotels"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "323 South Main Street, 84720, Cedar City",
+   "url": "http://besttravelinn.pagehotel.net/"
+  },
+  {
+   "name": "The Iron Gate Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 North 200 West, Cedar City",
+   "url": "https://www.theirongateinn.com/"
+  },
+  {
+   "name": "Best Western Plus Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "50 W 200 North, 84720-2528, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "America's Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 N 1100 West, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1620 West 200 North, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1555 Old Highway 91, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "281 S Main Street, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1204 S Main Street, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 N 1100 West, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "Magnuson Hotel Cedar City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "190 S Main Street, 84720, Cedar City",
+   "url": ""
+  },
+  {
+   "name": "The Anniversary House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Big Yellow Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1352 S Providence Center Drive, 84720, Cedar City",
+   "website": "https://restaurants.applebees.com/en-us/ut/cedar-city/1352-south-providence-center-d-95066"
+  },
+  {
+   "name": "Erawan Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1190 S Sage Drive, 84720, Cedar City",
+   "website": "https://www.erawanthaicuisinecedarcity.com"
+  },
+  {
+   "name": "Pizza Cart",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1190 S Sage Drive, 84720, Cedar City",
+   "website": "https://cedarcitypizzacart.com/"
+  },
+  {
+   "name": "Sushi Burrito #5",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1233 S Sage Drive, 84720, Cedar City",
+   "website": "https://www.sushiburritotogo.com"
+  },
+  {
+   "name": "Cafe Rio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1243 S Sage Drive, 84720, Cedar City",
+   "website": "https://www.caferio.com/locations/cedar-city"
+  },
+  {
+   "name": "Las Flores Family Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "126 N Main Street, 84720, Cedar City",
+   "website": "http://www.lasfloresfamilymexicanrestaurant.com/"
+  },
+  {
+   "name": "Mandarin",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "241 N Main Street, 84721, Cedar City",
+   "website": "https://www.beyondmenu.com/54425/cedar-city/mandarin-cedar-city-84720.aspx"
+  },
+  {
+   "name": "Bombay Cafe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "64 N Main Street, 84720, Cedar City",
+   "website": "https://bombaycafeindianfood.com/"
+  },
+  {
+   "name": "Sweet Basil",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1322 S Providence Center Drive, 84720, Cedar City",
+   "website": "https://sweetbasilthaiutah.com"
+  },
+  {
+   "name": "Namaste America Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2107 North Main Street, 84721, Cedar City",
+   "website": "https://namastecedar.com"
+  },
+  {
+   "name": "Ninja Japanese Steakhouse",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1180 S Sage Drive, 84720, Cedar City",
+   "website": "https://www.cedarcityninja.com/"
+  },
+  {
+   "name": "Pisco Peruvian Cuisine",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "1180 S Sage Drive, 84720, Cedar City",
+   "website": "https://www.piscoperuvian.com/"
+  },
+  {
+   "name": "Tea Tok Cafe and Ramen House",
+   "cuisines": [
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "93 South Main Street, 84720, Cedar City",
+   "website": "https://www.teatokcafe.com"
+  },
+  {
+   "name": "Red Fort Cuisine of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "255 North 1100 West, 84720, Cedar City",
+   "website": "https://redfortcuisine.com"
+  },
+  {
+   "name": "Kabuto Sushi and Ramen Bar",
+   "cuisines": [
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "927 S Main Street, 84720, Cedar City",
+   "website": "https://www.kabutoutah.com"
+  },
+  {
+   "name": "Park Place Eatery",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "23 West Center Street, 84720, Cedar City",
+   "website": "https://www.facebook.com/parkplaceeatery"
+  },
+  {
+   "name": "All American Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "501 S Main Street, 84720, Cedar City",
+   "website": "https://www.allamericancedar.com/"
+  },
+  {
+   "name": "The French Spot",
+   "cuisines": [
+    "French"
+   ],
+   "address": "18 South Main Street, 84720, Cedar City",
+   "website": "https://www.thefrenchspotcafe.com/"
+  },
+  {
+   "name": "Asian Bistro",
+   "cuisines": [
+    "Asian",
+    "Thai",
+    "Japanese",
+    "Chinese"
+   ],
+   "address": "1380 S Providence Center Drive, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1237 S Sage Drive, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Buffet",
+   "cuisines": [
+    "Chinese",
+    "Buffet"
+   ],
+   "address": "84 N Main Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "980 W 200 North, 84721, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Hermie's Drive In",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "294 N Main Street, 84721, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Adelita's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1322 S Providence Center Drive, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Vittles Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "155 N Main Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Bruno's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Great Harvest Bread Co.",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "126 N Main Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "5 Buck Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1390 S Providence Center Drive, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Pizza Factory",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "131 S Main Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Centro Woodfired Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "50 West Center Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Lupita's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2052 W Cross Hollow Road, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Rita's Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1098 W 200 North, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Don Miguel",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "453 S Main Street, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Alfredo's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brody's Mexican",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Sabor",
+   "cuisines": [],
+   "address": "1327 S Interstate Drive, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Silver Silo",
+   "cuisines": [],
+   "address": "777 Cross Hollow Road, 84720, Cedar City",
+   "website": ""
+  },
+  {
+   "name": "Rusty's Ranch House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pastry Pub",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Honolulu Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Utah Shakespeare Festival",
+   "kind": "attraction",
+   "address": "351 West Center Street, 84720, Cedar City",
+   "website": "https://www.bard.org/",
+   "phone": "",
+   "latitude": 37.6765399,
+   "longitude": -113.0644677
+  },
+  {
+   "name": "Southern Utah Museum of Art",
+   "kind": "museum",
+   "address": "15 S 300 West, 84720, Cedar City",
+   "website": "https://www.suu.edu/suma/",
+   "phone": "+1 435 586 5432",
+   "latitude": 37.6770499,
+   "longitude": -113.0661595
+  },
+  {
+   "name": "Frontier Homestead State Park Museum",
+   "kind": "museum",
+   "address": "635 N Main Street, Cedar City",
+   "website": "https://stateparks.utah.gov/parks/frontier-homestead/",
+   "phone": "",
+   "latitude": 37.6886193,
+   "longitude": -113.0625392
+  },
+  {
+   "name": "Artisans Art Gallery",
+   "kind": "gallery",
+   "address": "94 West Center Street, 84720, Cedar City",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6776664,
+   "longitude": -113.0632499
+  },
+  {
+   "name": "The Museum of Composite Propellant Hobby Rocketry",
+   "kind": "museum",
+   "address": "2053 West 850 North, 84721",
+   "website": "",
+   "phone": "+1 435-865-7100",
+   "latitude": 37.6915186,
+   "longitude": -113.0881848
+  },
+  {
+   "name": "Cedar City Lighthouse",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6546066,
+   "longitude": -113.0838805
+  },
+  {
+   "name": "C-overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.6424728,
+   "longitude": -113.034543
+  }
+ ]
+}

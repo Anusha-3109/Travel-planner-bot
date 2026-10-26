@@ -1,0 +1,583 @@
+{
+ "city": "Islip",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.7239,
+ "longitude": -73.2004,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn Long Island/Islandia",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 Veterans Memorial Highway, 11749, Islandia",
+   "url": "https://www.hilton.com/en/hotels/ispnyhx-hampton-long-island-islandia/"
+  },
+  {
+   "name": "Travelodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 East Main Street, 11706, Bay Shore",
+   "url": "https://www.wyndhamhotels.com/travelodge/bay-shore-new-york/travelodge-bay-shore-long-island/overview"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11 Court House Drive, 11722, Central Islip",
+   "url": "https://www.marriott.com/ispci"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7 Court House Drive, 11722, Central Islip",
+   "url": "https://www.marriott.com/ispcl"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3055 Veterans Memorial Highway, 11779, Ronkonkoma",
+   "url": "https://www.choicehotels.com/new-york/syosset/comfort-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn Islip/MacArthur Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3485 Veterans Memorial Highway, 11779, Ronkonkoma",
+   "url": "https://www.hilton.com/en/hotels/ispahgi-hilton-garden-inn-islip-macarthur-airport/"
+  },
+  {
+   "name": "The Palms Hotel Fire Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "168 Cottage Walk, 11770, Ocean Beach",
+   "url": "https://www.palmshotelfireisland.com/"
+  },
+  {
+   "name": "Blue Waters Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "624 Bayberey Walk, 11770, Ocean Beach",
+   "url": "https://www.bluewatershoteloceanbeachfireisland.com/"
+  },
+  {
+   "name": "McArthur Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1087 Smithtown Avenue, 11716, Bohemia",
+   "url": ""
+  },
+  {
+   "name": "La Grange Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 Higbie Lane, 11795, West Islip",
+   "url": ""
+  },
+  {
+   "name": "Palms Hotel Fire Island",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "315 Cottage Walk, 11770, Ocean Beach",
+   "url": ""
+  },
+  {
+   "name": "Seashore Condo Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "78 Bayview Avenue, 11770, Ocean Bay Park",
+   "url": ""
+  },
+  {
+   "name": "Bay Shore Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Bay Shore Road, 11706, West Islip",
+   "url": ""
+  },
+  {
+   "name": "Seasons Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "468 Dehnhoff Walk, 11770, Ocean Beach",
+   "url": ""
+  },
+  {
+   "name": "Olympic Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 Vanderbilt Motor Parkway, 11788, Hauppauge",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2050 Express Drive South, 11788, Hauppauge",
+   "url": ""
+  },
+  {
+   "name": "The Lakeland Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1630 Lakeland Avenue, 11716, Bohemia",
+   "url": ""
+  },
+  {
+   "name": "Housers Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "2",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Oak Street, 11722, Central Islip",
+   "url": ""
+  },
+  {
+   "name": "1129",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1129 Connetquot Avenue",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "J&R's Islip Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "116 Main Street, 11751, Islip",
+   "website": "https://jandrsislip.com/"
+  },
+  {
+   "name": "Redefine Meals",
+   "cuisines": [
+    "American",
+    "Italian",
+    "Mexican",
+    "Asian"
+   ],
+   "address": "526 East Main Street, 11751, Islip",
+   "website": "https://www.redefinemeals.com/"
+  },
+  {
+   "name": "Vinnie's Mulberry Street",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "42 West Main Street, 11730, East Islip",
+   "website": "https://vinniesmulberrystreet.com/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "11706",
+   "website": "https://www.chilis.com/"
+  },
+  {
+   "name": "Friendly's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "50 East Main Street;Montauk Highway, 11730, East Islip",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1715 Sunrise Highway, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Chowdar Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "123 Maple Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Captain Bills Restaurant",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "122 Ocean Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Deli By the Bay",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "139 South Clinton Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "The Snapper Inn",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "500 Shore Drive, 11769, Oakdale",
+   "website": ""
+  },
+  {
+   "name": "Nicky's Clam Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "99 Maple Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big Daddy’s East",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nicky’s On The Bay",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mango Tango Asian Fusion",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oconee Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Casa Pizza & Pasta",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yan Min Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Isabel's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "AJI53 Japanese Cuisine",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sunny Buffet",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Linwood Restaurant and Cocktails",
+   "cuisines": [],
+   "address": "150 East Main Street, 11706, Bay Shore",
+   "website": "https://thelinwoodbayshore.com/"
+  },
+  {
+   "name": "Jackson Hall",
+   "cuisines": [],
+   "address": "335 East Main Street, 11730, East Islip",
+   "website": "https://www.jacksonhallbarandgrille.com/"
+  },
+  {
+   "name": "Mediterranean Express",
+   "cuisines": [],
+   "address": "",
+   "website": "https://foodeist.com/place/mediterraneanexpress"
+  },
+  {
+   "name": "The Lakehouse",
+   "cuisines": [],
+   "address": "135 Maple Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Shandon Court",
+   "cuisines": [],
+   "address": "115 East Main Street;Main Street, 11730, East Islip",
+   "website": ""
+  },
+  {
+   "name": "Irish Coffee Pub",
+   "cuisines": [],
+   "address": "131 Carleton Avenue, 11730, East Islip",
+   "website": ""
+  },
+  {
+   "name": "Whalers",
+   "cuisines": [],
+   "address": "124 Maple Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Fat Fish",
+   "cuisines": [],
+   "address": "28 Cottage Avenue, 11706, Bay Shore",
+   "website": ""
+  },
+  {
+   "name": "Bayside Clam Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Long Beach Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bubbas Burrito Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gino's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great River Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "George Martin's Strip Steak",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Sagtikos Manor",
+   "kind": "museum",
+   "address": "677 West Montauk Highway, 11706, Bay Shore",
+   "website": "https://www.sagtikosmanor.org/",
+   "phone": "",
+   "latitude": 40.7023959,
+   "longitude": -73.2754244
+  },
+  {
+   "name": "Long Island Maritime Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.limaritime.org/",
+   "phone": "",
+   "latitude": 40.7228442,
+   "longitude": -73.0952885
+  },
+  {
+   "name": "Bay Shore Historical Society",
+   "kind": "museum",
+   "address": "22 Maple Avenue, 11706, Bay Shore",
+   "website": "https://www.bayshorehistoricalsociety.org/",
+   "phone": "",
+   "latitude": 40.720384,
+   "longitude": -73.2469411
+  },
+  {
+   "name": "Islip Art Museum",
+   "kind": "gallery",
+   "address": "50 Irish Lane, 11730, East Islip",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7345426,
+   "longitude": -73.1989618
+  },
+  {
+   "name": "Islip Town Firefighters Museum",
+   "kind": "museum",
+   "address": "4 Courthouse Drive, 11722, Central Islip",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7638832,
+   "longitude": -73.1938262
+  },
+  {
+   "name": "Suffolk County Marine Museum West",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7283372,
+   "longitude": -73.095106
+  },
+  {
+   "name": "Bayard Cutting Estate Mansion",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.73565,
+   "longitude": -73.1623435
+  },
+  {
+   "name": "Altamira",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7295056,
+   "longitude": -73.2132609
+  },
+  {
+   "name": "Long Island Photo Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.7291082,
+   "longitude": -73.2146364
+  }
+ ]
+}

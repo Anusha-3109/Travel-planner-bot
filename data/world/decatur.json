@@ -1,0 +1,2375 @@
+{
+ "city": "Decatur",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.7748,
+ "longitude": -84.2955,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hyatt Regency Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "265 Peachtree Street Northeast, 30303, Atlanta",
+   "url": "https://atlanta.regency.hyatt.com/"
+  },
+  {
+   "name": "Atlanta Marriott Marquis",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "265 Peachtree Center Avenue Northeast, 30303, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlmq-atlanta-marriott-marquis/overview/"
+  },
+  {
+   "name": "The Westin Peachtree Plaza, Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://westin.marriott.com/hotel-locations/"
+  },
+  {
+   "name": "Residence Inn Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "134 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/atldt"
+  },
+  {
+   "name": "Home2 Suites by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "975 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlhoht-home2-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Stonehurst Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "923 Piedmont Avenue Northeast, 30309, Atlanta",
+   "url": "https://www.stonehurstplace.com/"
+  },
+  {
+   "name": "AC Hotel by Marriott Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "53 14th Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlcn-ac-hotel-atlanta-midtown/overview/"
+  },
+  {
+   "name": "Courtyard Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640-1 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.marriott.com/atlyc"
+  },
+  {
+   "name": "Courtyard Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "133 Carnegie Way Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/"
+  },
+  {
+   "name": "Loews Atlanta Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1065 Peachtree Street Northeast, 30309, Atlanta",
+   "url": "https://www.loewshotels.com/atlanta-hotel"
+  },
+  {
+   "name": "Canopy by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1414 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmwpy-canopy-atlanta-midtown/"
+  },
+  {
+   "name": "Aloft Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Ted Turner Drive Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atldn-aloft-atlanta-downtown/overview/"
+  },
+  {
+   "name": "Element Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "640-2 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlle-element-atlanta-midtown/overview/"
+  },
+  {
+   "name": "Hilton Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlahhh-hilton-atlanta/"
+  },
+  {
+   "name": "Residence Inn Atlanta Midtown/Georgia Tech",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1041 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.marriott.com/atlmt"
+  },
+  {
+   "name": "Four Seasons Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "75 14th Street Northeast, 30309, Atlanta",
+   "url": "https://www.fourseasons.com/atlanta/"
+  },
+  {
+   "name": "Twelve Downtown, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlpk-twelve-downtown-autograph-collection/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "97 10th Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlamgi-hilton-garden-inn-atlanta-midtown/"
+  },
+  {
+   "name": "Hotel Indigo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "683 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlfx/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn & Suites Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1231 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmnhx-hampton-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Homewood Suites by Hilton Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "97 10th Street Northwest, 30309, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlmihw-homewood-suites-atlanta-midtown-ga/"
+  },
+  {
+   "name": "Moxy Atlanta Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "48 13th Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/hotels/hotel-rooms/atlox-moxy-atlanta-midtown/"
+  },
+  {
+   "name": "The Starling Atlanta Midtown, Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "188 14th Street Northeast, 30361, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atltwqq-the-starling-atlanta-midtown/"
+  },
+  {
+   "name": "Courtyard Atlanta Decatur Downtown/Emory",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 Clairemont Avenue, 30030, Decatur",
+   "url": "https://www.marriott.com/atldc"
+  },
+  {
+   "name": "Hotel Granada, a Member of Design Hotels",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1302 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://granadaatlanta.com/"
+  },
+  {
+   "name": "Staybridge Suites Atlanta - Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "23 Linden Avenue Northwest, 30308, Atlanta",
+   "url": "https://www.ihg.com/staybridge/hotels/us/en/atlanta/atlpe/hoteldetail"
+  },
+  {
+   "name": "The American Hotel Atlanta Downtown, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "160 Ted Turner Drive Northwest, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlupup-the-american-hotel-atlanta-downtown/"
+  },
+  {
+   "name": "Hyatt Centric Midtown Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 10th Street Northeast, 30309, Atlanta",
+   "url": "https://www.hyatt.com/hyatt-centric/atlhm-hyatt-centric-midtown-atlanta"
+  },
+  {
+   "name": "Twelve Midtown, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "361 17th Street Northwest, 30363, Atlanta",
+   "url": "https://twelvehotels.com/hotels/midtown"
+  },
+  {
+   "name": "Residence Inn Atlanta Midtown/Peachtree at 17th",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1365 Peachtree Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/atlri"
+  },
+  {
+   "name": "Hyatt Place Atlanta/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 Peachtree Street Northeast, 30308, Atlanta",
+   "url": "https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-downtown/"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4156 LaVista Road, 30084, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlladt-doubletree-atlanta-northlake/"
+  },
+  {
+   "name": "Embassy Suites Midtown Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "290 17th Street Northwest, 30363, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlldes-embassy-suites-atlanta-midtown/"
+  },
+  {
+   "name": "Inn At The Peachtrees, Ascend Hotel Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.choicehotels.com/georgia/atlanta/ascend-hotels/ga045"
+  },
+  {
+   "name": "Crowne Plaza Atlanta - Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "590 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.ihg.com/crowneplaza/hotels/us/en/atlanta/atlpw/hoteldetail"
+  },
+  {
+   "name": "The Candler Hotel Atlanta, Curio Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "127 Peachtree Street, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlcdqq-the-candler-hotel-atlanta/"
+  },
+  {
+   "name": "Courtland Grand Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "165 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://courtlandgrandhotel.com/"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Courtland Street Northeast, 30303, Atlanta",
+   "url": "https://www.motel6.com/en/home/motels.ga.atlanta.4496.html"
+  },
+  {
+   "name": "The Ritz-Carlton, Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "181 Peachtree Street Northeast, 30303, Atlanta",
+   "url": "http://www.ritzcarlton.com/en/hotels/georgia/atlanta"
+  },
+  {
+   "name": "Hampton Inn Atlanta-Georgia Tech Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "264 North Avenue Northwest, 30313, Atlanta",
+   "url": "https://hamptoninn3.hilton.com/en/hotels/georgia/hampton-inn-atlanta-georgia-tech-downtown-ATLGTHX/"
+  },
+  {
+   "name": "Ellis Hotel, Atlanta, a Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "176 Peachtree Street Northwest, 30303, Atlanta",
+   "url": "https://www.ellishotel.com/"
+  },
+  {
+   "name": "Sonesta Select Atlanta Midtown Georgia Tech",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1132 Techwood Drive, 30318, Atlanta",
+   "url": "https://www.sonesta.com/us/georgia/atlanta/sonesta-select-atlanta-midtown-georgia-tech"
+  },
+  {
+   "name": "Renaissance Atlanta Midtown Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "866 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlbd-renaissance-atlanta-midtown-hotel/overview/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "820 Sidney Marcus Boulevard Northeast, 30324, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlbu-towneplace-suites-atlanta-buckhead/overview/"
+  },
+  {
+   "name": "JW Marriott Atlanta Buckhead",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3300 Lenox Road NE, 30326, Atlanta",
+   "url": "https://www.marriott.com/hotels/travel/atljw-jw-marriott-atlanta-buckhead"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "87 Cone Street Northwest, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atldwht-home2-suites-atlanta-downtown/"
+  },
+  {
+   "name": "Glenn Hotel, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "110 Marietta Street Northwest, 30303, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlak-glenn-hotel-autograph-collection/overview/"
+  },
+  {
+   "name": "Biltmore Innovation Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "817 West Peachtree Street Northwest, 30308, Atlanta",
+   "url": "https://biltmoreinnovationcenter.com/"
+  },
+  {
+   "name": "Hotel Indigo Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "230 Peachtree Street Northeast",
+   "url": "https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlid/hoteldetail"
+  },
+  {
+   "name": "JW Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "45 Ivan Allen Junior Boulevard, 30308, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/"
+  },
+  {
+   "name": "Signia by Hilton Atlanta Georgia World Congress Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "159 Northside Dr NW, 30313, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlwcsa-signia-atlanta-georgia-world-congress-center/"
+  },
+  {
+   "name": "Courtyard Atlanta Executive Park/Emory",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1236 Executive Park Drive, 30329, Atlanta",
+   "url": "https://www.marriott.com/atlep"
+  },
+  {
+   "name": "Kimpton Shane Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1340 West Peachtree Street Northwest, 30309, Atlanta",
+   "url": "https://www.shanehotelatlanta.com/"
+  },
+  {
+   "name": "Otto's Apartment Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "644 North Highland Avenue Northeast, 30306, Atlanta",
+   "url": "https://www.ottosatl.com/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "267 Marietta Street, 30313, Atlanta",
+   "url": "http://embassysuites1.hilton.com/en_US/es/hotel/ATLESES-Embassy-Suites-Atlanta-at-Centennial-Olympic-Park-Georgia/index.do"
+  },
+  {
+   "name": "House of Kube Atlanta",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "275 Baker Street Northwest, 30313, Atlanta",
+   "url": "https://hiltongardeninn.hilton.com/en/gi/hotels/index.jhtml?ctyhocn=ATLDOGI"
+  },
+  {
+   "name": "Atlanta Marriott Suites Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "35 14th Street Northeast, 30309, Atlanta",
+   "url": "https://www.marriott.com/en-us/hotels/atlms-atlanta-marriott-suites-midtown/overview/"
+  },
+  {
+   "name": "Epicurean Hotel Atlanta | Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1117 West Peachtree Street Northwest",
+   "url": "https://www.epicureanhotelatlanta.com/"
+  },
+  {
+   "name": "Omni Atlanta Hotel at Centennial Park",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "190 Marietta Street Northwest, 30303, Atlanta",
+   "url": "https://www.omnihotels.com/hotels/atlanta-centennial-park"
+  },
+  {
+   "name": "Hampton Inn and Suites Atlanta Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "161 Spring Street Northwest, 30303, Atlanta",
+   "url": "https://www.hilton.com/en/hotels/atlhshx-hampton-suites-atlanta-downtown/"
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Elmyriachi Restaurant & Cantina",
+   "cuisines": [
+    "Mexican",
+    "Tex-Mex"
+   ],
+   "address": "1950 Hosea L Williams Drive Southeast",
+   "website": "https://www.elmyriachi.com"
+  },
+  {
+   "name": "Kimball House",
+   "cuisines": [
+    "Seafood",
+    "Steak House"
+   ],
+   "address": "303 East Howard Avenue, 30030, Decatur",
+   "website": "http://kimball-house.com/"
+  },
+  {
+   "name": "Gigi's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1660 McLendon Avenue, 30307, Atlanta",
+   "website": "https://gigisitaliankitchenatl.com"
+  },
+  {
+   "name": "Sushi Avenue",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "131 Sycamore Street, 30030, Decatur",
+   "website": "https://www.sushiavenuedecatur.com/"
+  },
+  {
+   "name": "Cuddlefish",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "316 Church Street, 30030, Decatur",
+   "website": "https://www.cuddlefishatl.com/"
+  },
+  {
+   "name": "D92 Korean BBQ",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "225 East Trinity Place, 30030, Decatur",
+   "website": "https://d92kbbq.com/"
+  },
+  {
+   "name": "Chai Pani",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "406 West Ponce de Leon Avenue",
+   "website": "https://www.chaipani.com/decatur"
+  },
+  {
+   "name": "The Iberian Pig",
+   "cuisines": [
+    "Spanish",
+    "Tapas"
+   ],
+   "address": "121 Sycamore Street",
+   "website": "https://www.iberianpig.com/decatur"
+  },
+  {
+   "name": "Mediteranean Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2126 North Decatur Road, 30033, Decatur",
+   "website": "https://www.mediterraneangrill.com"
+  },
+  {
+   "name": "Smiley's Burger Club",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "310 East Howard Avenue, 30030",
+   "website": "https://www.smileysburgerclub.com/"
+  },
+  {
+   "name": "Siam Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "123 Sycamore Street",
+   "website": "https://www.siamthaidecatur.com/"
+  },
+  {
+   "name": "Rreal Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "312 Church Street",
+   "website": "https://rrealtacos.com/"
+  },
+  {
+   "name": "La Fonda Latina",
+   "cuisines": [
+    "Mexican",
+    "Spanish",
+    "Cuban"
+   ],
+   "address": "1639 McLendon Avenue Northeast, 30307, Atlanta",
+   "website": "https://lafondaatlanta.com/candler-park"
+  },
+  {
+   "name": "The Deer and The Dove",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "155 Sycamore Street, 30030, Decatur",
+   "website": "https://www.deerdove.com/"
+  },
+  {
+   "name": "Fellini's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1634 McLendon Avenue Northeast, 30307, Atlanta",
+   "website": "https://fellinisatlanta.com/candler"
+  },
+  {
+   "name": "Taqueria del Sol",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "359 West Ponce de Leon Avenue",
+   "website": "http://taqueriadelsol.com"
+  },
+  {
+   "name": "Taziki's Mediterranean Cafe",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "3027 North Druid Hills Road Northeast, 30329, Atlanta",
+   "website": "https://www.tazikis.com/location/tocohills"
+  },
+  {
+   "name": "Belén Bistro + Market Argentina",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "115 Sycamore Street",
+   "website": "https://www.belenbistro.com/"
+  },
+  {
+   "name": "Billy's Avondale",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "121 Center Street, 30002, Avondale Estates",
+   "website": "https://billysavondale.com/"
+  },
+  {
+   "name": "Dumpling Master",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1248 Clairmont Road",
+   "website": "https://dumplingmaster.us/"
+  },
+  {
+   "name": "Farm Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "410B West Ponce de Leon Avenue",
+   "website": "https://www.farmburger.com/"
+  },
+  {
+   "name": "Arepa Mia",
+   "cuisines": [
+    "Venezuelan"
+   ],
+   "address": "10 North Clarendon Avenue, 30002, Avondale Estates",
+   "website": "https://www.arepamiaatlanta.com"
+  },
+  {
+   "name": "Los Bravos Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2895 North Decatur Road, 30033, Decatur",
+   "website": "https://losbravosmexicanrest.com"
+  },
+  {
+   "name": "Avondale Pizza Cafe",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2823 East College Avenue, 30030, Decatur",
+   "website": "https://avondalepizzacafe.com"
+  },
+  {
+   "name": "My Parents' Basement",
+   "cuisines": [
+    "American"
+   ],
+   "address": "22 North Avondale Road, 30002, Avondale Estates",
+   "website": "https://www.myparentsbasementcbcb.com"
+  },
+  {
+   "name": "Urban Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2012A Hosea L Williams Drive Northeast, 30317, Atlanta",
+   "website": "https://urbanpieatl.com/"
+  },
+  {
+   "name": "Vietvana",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2831 East College Avenue, 30002, Avondale Estates",
+   "website": "https://www.vietvana.com"
+  },
+  {
+   "name": "Bona Fide Deluxe",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1454 La France Street Northeast, 30307, Atlanta",
+   "website": "https://www.bonafide-atl.com"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2850 East College Avenue, 30030, Decatur",
+   "website": "https://locations.wafflehouse.com/decatur-ga-1000/"
+  },
+  {
+   "name": "Home Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1992 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": "https://www.homebaratl.com/"
+  },
+  {
+   "name": "Thaicoon",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1799 Briarcliff Road Northeast",
+   "website": "https://www.thaicoonatlanta.com"
+  },
+  {
+   "name": "Le Petit Marche",
+   "cuisines": [
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "1984 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": "https://www.lepetit-marche.com/"
+  },
+  {
+   "name": "Souper Jenny",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "2118 North Decatur Road, 30033, Decatur",
+   "website": "https://www.souperjennyatl.com/decatur"
+  },
+  {
+   "name": "Green Ginger",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "265 Ponce de Leon Place, 30030, Decatur",
+   "website": "https://www.greengingerdecatur.com"
+  },
+  {
+   "name": "Mezcalito's Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "653 East Lake Drive, 30030, Decatur",
+   "website": "https://www.mezcalitoscantina.com/"
+  },
+  {
+   "name": "La Parilla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2945 North Druid Hills Road",
+   "website": "https://laparrilla.com/locations/"
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2133 Lavista Road Northeast, 30329, Atlanta",
+   "website": "https://www.chilis.com/"
+  },
+  {
+   "name": "Gene's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2371 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": "https://www.genesgenesgenes.com/"
+  },
+  {
+   "name": "Tenya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "2064 North Decatur Road, 30033, Decatur",
+   "website": "https://atltenya.com"
+  },
+  {
+   "name": "Kafenio Avondale",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2700 East College Avenue, 30030, Decatur",
+   "website": "https://www.kafeniogreekdiner.com/"
+  },
+  {
+   "name": "Ghion Ethiopian Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "3761 North Druid Hills Road, 30033, Decatur",
+   "website": "https://www.ghionatl.com/"
+  },
+  {
+   "name": "Savage Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "115 Laredo Drive, 30002, Avondale Estates",
+   "website": "https://savagepizza.com"
+  },
+  {
+   "name": "Honest",
+   "cuisines": [
+    "Asian",
+    "Indian"
+   ],
+   "address": "1707 Church Street, 30033",
+   "website": "https://honestrestaurantsusa.com/index.html"
+  },
+  {
+   "name": "Zyka",
+   "cuisines": [
+    "Asian",
+    "Indian"
+   ],
+   "address": "1677 Scott Boulevard, 30033",
+   "website": "https://www.zyka.com/"
+  },
+  {
+   "name": "Moxie Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1660 DeKalb Avenue Northeast, 30307, Atlanta",
+   "website": "https://www.moxierestaurantgroup.com/moxie-burger.html"
+  },
+  {
+   "name": "BULLGOGI",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "2140 North Decatur Road, 30033, Decatur",
+   "website": "https://www.bullgogidecatur.com"
+  },
+  {
+   "name": "Ford's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "350 Mead Road, 30030, Decatur",
+   "website": "https://matadorcantina.com/"
+  },
+  {
+   "name": "Curry Up Now: Indian Street Food",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1575 Suite #210 Church Street, 30033",
+   "website": "https://www.curryupnow.com"
+  },
+  {
+   "name": "Hai",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2641 North Decatur Road, 30033, Decatur",
+   "website": "https://www.haichinese.com/"
+  },
+  {
+   "name": "SunO",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "2144 North Decatur Road, 30033, Decatur",
+   "website": "https://sunodessert.com"
+  },
+  {
+   "name": "The Flying Biscuit",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "1530 Dekalb Avenue Northeast, 30307, Atlanta",
+   "website": "https://flyingbiscuit.com/locations-2/candler-park/"
+  },
+  {
+   "name": "Doc Chey's Dragon Bowl",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1556 North Decatur Road",
+   "website": "https://www.doccheys.com/locations/emory.php"
+  },
+  {
+   "name": "Yogli Mogli",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "1403 Oxford Road Northeast, 30307",
+   "website": "https://www.yoglimogli.com/"
+  },
+  {
+   "name": "Sushi Matsuya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": "http://sushimatsuyaus.com/main/"
+  },
+  {
+   "name": "Cafe Alsace",
+   "cuisines": [
+    "French"
+   ],
+   "address": "121 East Ponce de Leon Avenue",
+   "website": "https://cafealsace.net/"
+  },
+  {
+   "name": "FolkArt",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "174 West Ponce de Leon Avenue",
+   "website": "https://www.folkartrestaurant.com"
+  },
+  {
+   "name": "Cafe Lily",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "308B W Ponce de Leon Avenue",
+   "website": "https://www.cafelily.com/"
+  },
+  {
+   "name": "Sapori di Napoli",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "314",
+   "website": "https://www.saporidinapolipizzeria.com/index.html"
+  },
+  {
+   "name": "Mojo Pizza N Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "657",
+   "website": "https://www.mojopizzanpub.com/"
+  },
+  {
+   "name": "Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "205",
+   "website": "http://noodlehouse.net/decatur.htm"
+  },
+  {
+   "name": "Burnt Fork BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "614",
+   "website": "https://burntforkbbq.com/"
+  },
+  {
+   "name": "Dos Madres Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "http://www.dosmadrescantina.com"
+  },
+  {
+   "name": "Sceptre Brewing Arts",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.sceptrebrewingarts.com/eats"
+  },
+  {
+   "name": "Caribbean Chicken & Fish",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "3358 East Ponce de Leon Avenue, 30079, Scottdale",
+   "website": ""
+  },
+  {
+   "name": "Ponko Chicken",
+   "cuisines": [
+    "Chicken",
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yami Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1248 Clairmont Road",
+   "website": ""
+  },
+  {
+   "name": "Besto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "340 Church Street",
+   "website": ""
+  },
+  {
+   "name": "Blaze Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Babygirl",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "2371 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "340 West Ponce de Leon Avenue, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Grindhouse Killer Burgers",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "433 North McDonough Street, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2502 Blackmon Drive, 30033, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Paolino Italian Restaurant",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "350 Mead Road, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Cicis",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "3912 North Druid Hills Road, 30033, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Da Flava Jamaican & Soul Food Restaurant",
+   "cuisines": [
+    "Jamaican",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maddio's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2892 North Druid Hills Road Northeast, 30329, Atlanta",
+   "website": ""
+  },
+  {
+   "name": "Willy's Mexicana Grill",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "2074 North Decatur Road, 30033, Decatur",
+   "website": ""
+  },
+  {
+   "name": "General Muir",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweet Monkey",
+   "cuisines": [
+    "Yogurt"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Coyotes Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "105 Sycamore Place, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Casa Balam",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "201 West Ponce de Leon Avenue, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Madras Mantra",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Q Korean BBQ Revolving Sushi",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresh2Order",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marlow's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Romeo's NY",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chris's",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Donatos Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Arden's Garden",
+   "cuisines": [
+    "Juice",
+    "Smoothie"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "American Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "225",
+   "website": ""
+  },
+  {
+   "name": "Tin Lizzy's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shorty's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dave's Cosmic Subs",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falafel King",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "rise-n-dine",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Double Zero",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1577",
+   "website": ""
+  },
+  {
+   "name": "Wagaya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1579",
+   "website": ""
+  },
+  {
+   "name": "Lalibela Cafe",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "KABOB-iSH",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Adryannis",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boruboru Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aladdin's",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papi's Cuban Grill",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Paradise Biryani",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chow Mei Mei",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lucky’s Burger & Brew",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Santo Cantina & Cocina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bench Warmers",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Louisiana Grill",
+   "cuisines": [
+    "Seafood",
+    "Cajun"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "City Barbeque",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Enzo Izakaya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nite Owl",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jolene Jolene",
+   "cuisines": [],
+   "address": "1963 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": "https://jolenejoleneatl.com/"
+  },
+  {
+   "name": "I Put My Foot N It Cafe",
+   "cuisines": [],
+   "address": "780 Glendale Road, 30079, Scottdale",
+   "website": "https://iputmyfootnitscottdale.com/"
+  },
+  {
+   "name": "Platez",
+   "cuisines": [],
+   "address": "130 Clairemont Avenue, 30030, Decatur",
+   "website": "https://www.platezsouthernkitchencocktails.com/"
+  },
+  {
+   "name": "Golden Buddha",
+   "cuisines": [],
+   "address": "1905 Clairmont Road, 30033fvedws, Decatur",
+   "website": "https://www.goldenbuddhaga.com"
+  },
+  {
+   "name": "Athens Pizza",
+   "cuisines": [],
+   "address": "1341 Clairmont Road, 30033",
+   "website": "https://athenspizzaatlanta.com/"
+  },
+  {
+   "name": "The Stratford Pub",
+   "cuisines": [],
+   "address": "17 North Avondale Road, 30002, Avondale Estates",
+   "website": "https://stratfordpub.com"
+  },
+  {
+   "name": "Dulce Vegan Bakery and Cafe",
+   "cuisines": [],
+   "address": "1994 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": "https://www.dulcevegan.com/"
+  },
+  {
+   "name": "Community Q BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": "https://communityqbbq.com/"
+  },
+  {
+   "name": "Parkers on Ponce",
+   "cuisines": [],
+   "address": "116 East Ponce de Leon Avenue",
+   "website": "https://parkersonponce.com/"
+  },
+  {
+   "name": "Wheelhouse Craft Pub and Kitchen",
+   "cuisines": [],
+   "address": "1479 Scott Blvd, 30030, Decatur",
+   "website": "https://www.wheelhousepubdecatur.com/"
+  },
+  {
+   "name": "Poor Hendrix",
+   "cuisines": [],
+   "address": "2371 Hosea L Williams Drive Southeast, 30317",
+   "website": "http://www.poorhendrix.com/"
+  },
+  {
+   "name": "Dead End Drinks",
+   "cuisines": [],
+   "address": "130 Arizona Avenue Northeast, 30307, Atlanta",
+   "website": "https://rationanddram.com/"
+  },
+  {
+   "name": "no. 246",
+   "cuisines": [],
+   "address": "129 East Ponce de Leon Avenue",
+   "website": "http://www.no246.com/"
+  },
+  {
+   "name": "Leon's Full Service",
+   "cuisines": [],
+   "address": "131 E. Ponce de Leon Avenue",
+   "website": "https://www.leonsfullservice.com/"
+  },
+  {
+   "name": "Carpe Diem",
+   "cuisines": [],
+   "address": "105",
+   "website": "https://apresdiem.com/carpe_diem"
+  },
+  {
+   "name": "Sweet Melissa's",
+   "cuisines": [],
+   "address": "127",
+   "website": "http://sweetmelissas.home.comcast.net/"
+  },
+  {
+   "name": "Melton's App & Tap",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.meltonsappandtap.com"
+  },
+  {
+   "name": "Figo Pasta",
+   "cuisines": [],
+   "address": "627-A",
+   "website": "https://figopasta.com/"
+  },
+  {
+   "name": "Kirkwood Kravingz",
+   "cuisines": [],
+   "address": "1989 Hosea L Williams Drive Southeast, 30317, Atlanta",
+   "website": ""
+  },
+  {
+   "name": "Thinking Man Tavern",
+   "cuisines": [],
+   "address": "537 West Howard Avenue, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "Poke Bar Decatur",
+   "cuisines": [],
+   "address": "419 Church Street, 30030, Decatur",
+   "website": ""
+  },
+  {
+   "name": "The Po'Boy Shop",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wings N Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mela Restaurant & Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Iron Age Korean Steakhouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bad Daddy's Burger Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dimitri's Breakfast Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Young Blood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Glida Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Georgia Aquarium",
+   "kind": "aquarium",
+   "address": "225 Baker Street Northwest, 30313, Atlanta",
+   "website": "https://www.georgiaaquarium.org/",
+   "phone": "+1 404 581 4000",
+   "latitude": 33.7633392,
+   "longitude": -84.3950088
+  },
+  {
+   "name": "Rhodes Hall",
+   "kind": "museum",
+   "address": "1516 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://rhodeshall.org",
+   "phone": "+1-404-885-7800",
+   "latitude": 33.7959433,
+   "longitude": -84.3883429
+  },
+  {
+   "name": "Margaret Mitchell House",
+   "kind": "museum",
+   "address": "979 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.atlantahistorycenter.com/buildings-and-grounds/atlanta-history-center-midtown/",
+   "phone": "+1-404-249-7015",
+   "latitude": 33.7813882,
+   "longitude": -84.3845922
+  },
+  {
+   "name": "National Center for Civil and Human Rights",
+   "kind": "museum",
+   "address": "100 Ivan Allen Junior Boulevard, 30313, Atlanta",
+   "website": "https://www.civilandhumanrights.org/",
+   "phone": "+1 678 999 8990",
+   "latitude": 33.7640448,
+   "longitude": -84.3930476
+  },
+  {
+   "name": "Carter Presidential Library",
+   "kind": "museum",
+   "address": "441 John Lewis Freedom Parkway Northeast, 30307-1498, Atlanta",
+   "website": "https://www.jimmycarterlibrary.gov/",
+   "phone": "+1 404-865-7100",
+   "latitude": 33.7668813,
+   "longitude": -84.3570552
+  },
+  {
+   "name": "The Breman Museum",
+   "kind": "museum",
+   "address": "1440 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://www.thebreman.org/",
+   "phone": "+1-678-222-3700",
+   "latitude": 33.7941259,
+   "longitude": -84.3899401
+  },
+  {
+   "name": "Woodruff Arts Center",
+   "kind": "museum",
+   "address": "1280 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://woodruffcenter.org/",
+   "phone": "+1 404-733-4200",
+   "latitude": 33.7891683,
+   "longitude": -84.3852094
+  },
+  {
+   "name": "World of Coca-Cola",
+   "kind": "museum",
+   "address": "121 Baker Street Northwest, 30313, Atlanta",
+   "website": "https://www.worldofcoca-cola.com/",
+   "phone": "+1 404 676-5151",
+   "latitude": 33.7628965,
+   "longitude": -84.3927578
+  },
+  {
+   "name": "Children's Museum of Atlanta",
+   "kind": "museum",
+   "address": "275 Centennial Olympic Park Drive, 30313, Atlanta",
+   "website": "https://childrensmuseumatlanta.org/",
+   "phone": "+1 404-659-5437",
+   "latitude": 33.762471,
+   "longitude": -84.3917414
+  },
+  {
+   "name": "High Museum of Art",
+   "kind": "museum",
+   "address": "1280 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.high.org/",
+   "phone": "+1-404-733-4400",
+   "latitude": 33.78955,
+   "longitude": -84.3858471
+  },
+  {
+   "name": "Michael C. Carlos Museum",
+   "kind": "museum",
+   "address": "571 South Kilgo Circle NE, 30322, Atlanta",
+   "website": "https://carlos.emory.edu/",
+   "phone": "+1-404-727-4282",
+   "latitude": 33.7904724,
+   "longitude": -84.3241919
+  },
+  {
+   "name": "Museum of Design Atlanta (MODA)",
+   "kind": "museum",
+   "address": "1315 Peachtree Street Northeast",
+   "website": "https://www.museumofdesign.org/",
+   "phone": "+1-404-979-6455",
+   "latitude": 33.7907228,
+   "longitude": -84.3845665
+  },
+  {
+   "name": "Besharat Gallery & Museum - Atlanta",
+   "kind": "museum",
+   "address": "175 Peters Street Southwest",
+   "website": "https://www.besharatgallery.com/",
+   "phone": "+1-404-524-4781",
+   "latitude": 33.7498851,
+   "longitude": -84.3994369
+  },
+  {
+   "name": "Atlanta Botanical Garden",
+   "kind": "attraction",
+   "address": "1345 Piedmont Avenue Northeast, 30309",
+   "website": "https://atlantabg.org/",
+   "phone": "+1-404-876-5859",
+   "latitude": 33.7906044,
+   "longitude": -84.3738282
+  },
+  {
+   "name": "Apex Museum",
+   "kind": "museum",
+   "address": "135 Auburn Avenue Northeast, 30303, Atlanta",
+   "website": "https://www.apexmuseum.org/",
+   "phone": "",
+   "latitude": 33.7554342,
+   "longitude": -84.383103
+  },
+  {
+   "name": "College Football Hall of Fame",
+   "kind": "museum",
+   "address": "250 Marietta Street Northwest, 30313, Atlanta",
+   "website": "https://www.cfbhall.com/",
+   "phone": "+1-404-880-4800",
+   "latitude": 33.7599349,
+   "longitude": -84.3953271
+  },
+  {
+   "name": "Martin Luther King Jr. National Historic Site",
+   "kind": "museum",
+   "address": "450 Auburn Avenue Northeast, 30312, Atlanta",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7563627,
+   "longitude": -84.3734667
+  },
+  {
+   "name": "Historic Fire Station Number 6",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7553377,
+   "longitude": -84.3719034
+  },
+  {
+   "name": "Science and Technology Museum of Atlanta",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7663241,
+   "longitude": -84.3809841
+  },
+  {
+   "name": "Zoo Atlanta",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7326372,
+   "longitude": -84.3711454
+  },
+  {
+   "name": "Museum of Illusions Atlanta",
+   "kind": "museum",
+   "address": "264 19th Street Northwest, 30363, Atlanta",
+   "website": "https://moiatlanta.com/",
+   "phone": "+1-404-458-4717",
+   "latitude": 33.7931094,
+   "longitude": -84.3973121
+  },
+  {
+   "name": "The Millennium Gate Museum",
+   "kind": "museum",
+   "address": "395 17th Street Northwest, 30318, Atlanta",
+   "website": "https://www.thegatemuseum.org/",
+   "phone": "+1-404-881-0900",
+   "latitude": 33.7911271,
+   "longitude": -84.3997253
+  },
+  {
+   "name": "Center for Puppetry Arts",
+   "kind": "museum",
+   "address": "1404 Spring Street Northwest, 30309, Atlanta",
+   "website": "https://puppet.org/",
+   "phone": "+1 404 873 3391",
+   "latitude": 33.7927615,
+   "longitude": -84.3898162
+  },
+  {
+   "name": "The Moog Gallery & Custom Framing",
+   "kind": "gallery",
+   "address": "1653B McLendon Avenue Northeast",
+   "website": "https://mooggallery.com/",
+   "phone": "+1-404-668-9678",
+   "latitude": 33.7647485,
+   "longitude": -84.3333194
+  },
+  {
+   "name": "Gallery Chimera",
+   "kind": "gallery",
+   "address": "624 North Highland Avenue Northeast, 30306, Atlanta",
+   "website": "https://gallerychimera.com/",
+   "phone": "",
+   "latitude": 33.7715133,
+   "longitude": -84.3527245
+  },
+  {
+   "name": "Gallery Anderson Smith",
+   "kind": "gallery",
+   "address": "1401 Peachtree Street Northeast, 30309",
+   "website": "https://www.galleryandersonsmith.com/",
+   "phone": "+1-404-907-4183",
+   "latitude": 33.7930317,
+   "longitude": -84.3863186
+  },
+  {
+   "name": "Waffle House Museum",
+   "kind": "museum",
+   "address": "2719 East College Avenue, 30030, Decatur",
+   "website": "https://www.wafflehouse.com/museum",
+   "phone": "",
+   "latitude": 33.7745015,
+   "longitude": -84.2784247
+  },
+  {
+   "name": "Atlanta Monetary Museum",
+   "kind": "museum",
+   "address": "1000 Peachtree Street Northeast, 30309, Atlanta",
+   "website": "https://www.atlantafed.org/education/visit/atlanta",
+   "phone": "+1-404-498-8777",
+   "latitude": 33.7820606,
+   "longitude": -84.3846623
+  },
+  {
+   "name": "Gregg Irby Gallery",
+   "kind": "gallery",
+   "address": "2345 Peachtree Street Northeast, 30305, Atlanta",
+   "website": "https://www.greggirbygallery.com",
+   "phone": "+1 404 549 8303",
+   "latitude": 33.8193199,
+   "longitude": -84.386715
+  },
+  {
+   "name": "Fernbank Museum of Natural History",
+   "kind": "museum",
+   "address": "767 Clifton Road Northeast, 30307, Atlanta",
+   "website": "https://www.fernbankmuseum.org/",
+   "phone": "",
+   "latitude": 33.7739337,
+   "longitude": -84.3277486
+  },
+  {
+   "name": "Art-Haus",
+   "kind": "gallery",
+   "address": "332 Ormond Street Southeast, 30315, Atlanta",
+   "website": "https://www.myart-haus.com/",
+   "phone": "+1-404-771-5540",
+   "latitude": 33.7315759,
+   "longitude": -84.3767386
+  },
+  {
+   "name": "Madame C.J. Walker’s Beauty Shoppe and WERDStudio Museum",
+   "kind": "museum",
+   "address": "54 Hilliard Street Northeast, 30312, Atlanta",
+   "website": "https://www.madamecjwalkermuseum.com/",
+   "phone": "+1 404 518 2887",
+   "latitude": 33.7557767,
+   "longitude": -84.3767249
+  },
+  {
+   "name": "David J. Sencer CDC Museum",
+   "kind": "museum",
+   "address": "1600 Clifton Road Northeast, 30329, Atlanta",
+   "website": "https://www.cdc.gov/museum/",
+   "phone": "+1-404-639-0830",
+   "latitude": 33.7991894,
+   "longitude": -84.3296646
+  },
+  {
+   "name": "pb&j gallery",
+   "kind": "gallery",
+   "address": "35 Howard Street Southeast, 30317, Atlanta",
+   "website": "https://www.pbjart.com/",
+   "phone": "+1 404-606-1856",
+   "latitude": 33.7511765,
+   "longitude": -84.3231946
+  },
+  {
+   "name": "Avondale Arts Alliance",
+   "kind": "gallery",
+   "address": "84 North Avondale Road, 30002, Avondale Estates",
+   "website": "https://www.avondaleartsalliance.com",
+   "phone": "",
+   "latitude": 33.7762682,
+   "longitude": -84.2691535
+  },
+  {
+   "name": "DeKalb History Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://dekalbhistory.org/",
+   "phone": "",
+   "latitude": 33.7751244,
+   "longitude": -84.2965182
+  },
+  {
+   "name": "African American Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.apexmuseum.org/",
+   "phone": "",
+   "latitude": 33.7553355,
+   "longitude": -84.3831172
+  },
+  {
+   "name": "The Sun ATL",
+   "kind": "gallery",
+   "address": "399 Edgewood Avenue Northeast, 30312",
+   "website": "http://Vinsonart.com",
+   "phone": "",
+   "latitude": 33.754244,
+   "longitude": -84.3756857
+  },
+  {
+   "name": "Decatur History Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://dekalbhistory.org/",
+   "phone": "",
+   "latitude": 33.7751221,
+   "longitude": -84.2965137
+  },
+  {
+   "name": "Seen Gallery",
+   "kind": "gallery",
+   "address": "411",
+   "website": "theseengallery.com",
+   "phone": "",
+   "latitude": 33.7748343,
+   "longitude": -84.2947371
+  },
+  {
+   "name": "Delafield Planetarium",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.agnesscott.edu/bradleyobservatory/",
+   "phone": "",
+   "latitude": 33.7655166,
+   "longitude": -84.2939106
+  },
+  {
+   "name": "SCAD FASH Museum of Fashion And Film",
+   "kind": "museum",
+   "address": "1600 Peachtree Street Northeast, Atlanta",
+   "website": "",
+   "phone": "+1 404-253-3132",
+   "latitude": 33.7965525,
+   "longitude": -84.391291
+  },
+  {
+   "name": "Scott Park",
+   "kind": "attraction",
+   "address": "231 Sycamore Street, 30030",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7732243,
+   "longitude": -84.2935543
+  },
+  {
+   "name": "King Birth Home",
+   "kind": "museum",
+   "address": "501 Auburne Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7552228,
+   "longitude": -84.3711635
+  },
+  {
+   "name": "Sycamore Place Gallery",
+   "kind": "gallery",
+   "address": "120 Sycamore Place, 30030, Decatur",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7730675,
+   "longitude": -84.2896238
+  },
+  {
+   "name": "Fountain of Rings",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.759496,
+   "longitude": -84.3928868
+  },
+  {
+   "name": "Ebenezer Baptist Church, Heritage Sanctuary",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7552179,
+   "longitude": -84.3741225
+  },
+  {
+   "name": "Freedom Hall",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7550042,
+   "longitude": -84.3724169
+  },
+  {
+   "name": "African Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8495678,
+   "longitude": -84.2552881
+  },
+  {
+   "name": "Jackson Street Bridge Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7603359,
+   "longitude": -84.3743008
+  },
+  {
+   "name": "Alan Avery Art Company",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8289474,
+   "longitude": -84.3656697
+  },
+  {
+   "name": "WWI Cannon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7753724,
+   "longitude": -84.2964207
+  },
+  {
+   "name": "ABV Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7419059,
+   "longitude": -84.3481672
+  },
+  {
+   "name": "Decatur Fine Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.773214,
+   "longitude": -84.2856626
+  },
+  {
+   "name": "Trail Sign - Great Blue Heron",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8224138,
+   "longitude": -84.3558714
+  },
+  {
+   "name": "Trail Sign - Pillbug",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8219947,
+   "longitude": -84.3570622
+  },
+  {
+   "name": "Trail Sign - Lizard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8213797,
+   "longitude": -84.3581434
+  },
+  {
+   "name": "Trail Sign - Peachtree Creek Wildlife Olympics Trail",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8209455,
+   "longitude": -84.3587525
+  },
+  {
+   "name": "Trail Sign - Grasshopper",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8224116,
+   "longitude": -84.3562898
+  },
+  {
+   "name": "Trail Sign - Monarch Butterfly",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8223379,
+   "longitude": -84.3565664
+  },
+  {
+   "name": "Trail Sign - White-tailed Deer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.8211207,
+   "longitude": -84.3586204
+  },
+  {
+   "name": "Little Tree Art Studio",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7763649,
+   "longitude": -84.2740425
+  },
+  {
+   "name": "Olympic Rings",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7597322,
+   "longitude": -84.3922616
+  },
+  {
+   "name": "Hop e Hill Beloved Community Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7542183,
+   "longitude": -84.3731442
+  }
+ ]
+}

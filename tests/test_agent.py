@@ -34,19 +34,20 @@ def test_agent_calls_tool_then_answers(monkeypatch):
     llm = ScriptedLLM([
         AIMessage(content="", tool_calls=[{
             "name": "search_flights",
-            "args": {"origin_city": "Washington", "destination_city": "Myrtle Beach", "date": "2022-03-13"},
+            "args": {"origin_city": "Washington", "destination_city": "Myrtle Beach", "date": "2026-11-13"},
             "id": "call_1",
         }]),
-        AIMessage(content="F3927581 is cheapest.", usage_metadata={"input_tokens": 10, "output_tokens": 5, "total_tokens": 15}),
+        AIMessage(content="The flight takes about 1h 40m.", usage_metadata={"input_tokens": 10, "output_tokens": 5,
+                                                                             "total_tokens": 15}),
     ])
     monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
 
     steps = []
-    result = run_agent("Flights from Washington to Myrtle Beach on 2022-03-13?", on_step=steps.append)
+    result = run_agent("Flights from Washington to Myrtle Beach on 2026-11-13?", on_step=steps.append)
 
-    assert result.answer == "F3927581 is cheapest."
+    assert result.answer == "The flight takes about 1h 40m."
     assert [c.name for c in result.tool_calls] == ["search_flights"]
-    assert json.loads(result.tool_calls[0].output)["flight_count"] == 2
+    assert json.loads(result.tool_calls[0].output)["estimated_flight"]["price"] is None  # no SerpApi key in tests
     assert result.token_usage["total_tokens"] == 15
     assert "Searching live flights..." in steps
 
@@ -55,16 +56,16 @@ def test_agent_collects_sources_from_place_search(monkeypatch, small_index):
     llm = ScriptedLLM([
         AIMessage(content="", tool_calls=[{
             "name": "search_destination_options",
-            "args": {"query": "museums", "city": "Rockford", "category": "attraction"},
+            "args": {"query": "museums", "city": "Asheville", "category": "attraction"},
             "id": "call_1",
         }]),
-        AIMessage(content="Try the Burpee Museum [attraction: Burpee Museum of Natural History, Rockford]."),
+        AIMessage(content="Try the Asheville Art Museum [attraction: Asheville Art Museum, Asheville]."),
     ])
     monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
 
-    result = run_agent("What museums are in Rockford?")
+    result = run_agent("What museums are in Asheville?")
     assert result.sources
-    assert all(s["source"].startswith("attraction: ") and s["source"].endswith(", Rockford") for s in result.sources)
+    assert all(s["source"].startswith("attraction: ") and s["source"].endswith(", Asheville") for s in result.sources)
 
 
 def test_unknown_tool_and_bad_args_do_not_crash(monkeypatch):

@@ -1,0 +1,1933 @@
+{
+ "city": "Lexington",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.0494,
+ "longitude": -84.4989,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "863 South Broadway, 40504, Lexington",
+   "url": "https://www.marriott.com/hotels/travel/lexsh-springhill-suites-lexington-near-the-university-of-kentucky/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Lexington North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 Hackney Place, 40511, Lexington",
+   "url": "https://www.marriott.com/en-us/hotels/lexnw-fairfield-inn-and-suites-lexington-north/overview/"
+  },
+  {
+   "name": "Hampton Inn Lexington South-Keeneland/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3060 Lakecrest Circle, 40513, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexaphx-hampton-lexington-south-keeneland-airport/"
+  },
+  {
+   "name": "Double Tree Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2601 Richmond Road, 40509, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexrrdt-doubletree-suites-lexington/"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2688 Pink Pigeon Parkway, 40509, Lexington",
+   "url": "https://www.marriott.com/hotels/travel/lexri-residence-inn-lexington-south-hamburg-place"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2297 Executive Drive, 40505, Lexington",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-lexington-ky"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1790 Vendor Way, 40509, Lexington",
+   "url": "https://www.marriott.com/hotels/travel/lexts-towneplace-suites-lexington-south-hamburg-place/"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "775 Newtown Court, 40511, Lexington",
+   "url": "https://www.marriott.com/lexno"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1973 Plaudit Place, 40509, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexlhgi-hilton-garden-inn-lexington/"
+  },
+  {
+   "name": "Courtyard Lexington South/Hamburg Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1951 Pleasant Ridge Drive, 40509, Lexington",
+   "url": "https://www.marriott.com/lexce"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1801 Newtown Pike, 40511, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexeses-embassy-suites-lexington-uk-coldstream/"
+  },
+  {
+   "name": "Courtyard Lexington Keeneland/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3100 Wall Street, 40513, Lexington",
+   "url": "https://www.marriott.com/lexkn"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "126 East Lowry Lane, 40503, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexmeht-home2-suites-lexington-university-medical-center/"
+  },
+  {
+   "name": "Hampton Inn Lexington Medical Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1953 Nicholasville Road, 40503, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexmchx-hampton-lexington-medical-center/"
+  },
+  {
+   "name": "Holiday Inn Lexington - Hamburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1976 Justice Drive, 40509, Lexington",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/lexington/lexmw/hoteldetail"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2251 Elkhorn Road, 40505, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexehhx-hampton-i-75-lexington-hamburg-area/"
+  },
+  {
+   "name": "TownePlace Suites Lexington Keeneland/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "980 Midnight Pass, 40513, Lexington",
+   "url": "https://www.marriott.com/lextw"
+  },
+  {
+   "name": "Residence Inn Lexington City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 West Main Street, 40507, Lexington",
+   "url": "https://www.marriott.com/lexrd"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1987 North Broadway, 40505, Lexington",
+   "url": "https://www.wyndhamhotels.com/days-inn/lexington-kentucky/days-inn-and-suites-lexington/overview"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "535 Waller Avenue, 40504, Lexington",
+   "url": "https://www.hilton.com/en/hotels/lexumru-tru-lexington-university-medical-center/"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1920 Plaudit Place, Lexington",
+   "url": "https://www.choicehotels.com/kentucky/winchester/comfort-inn-hotels"
+  },
+  {
+   "name": "Hyatt Place Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2001 Bryant Road, 40509, Lexington",
+   "url": "https://www.hyatt.com/en-us/hotel/kentucky/hyatt-place-lexington/lexzl"
+  },
+  {
+   "name": "Fairfield Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3050 Lakecrest Circle, 40513, Lexington",
+   "url": "https://www.marriott.com/lexsw"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3060 Fieldstone Way, 40513, Lexington",
+   "url": "https://www.choicehotels.com/kentucky/winchester/comfort-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Lexington Dtwn Area-Keeneland",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1780 Sharkey Way, 40511, Lexington",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lexington/lexnc/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Lexington Winchester Rd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2351 Buena Vista Road, 40505, Lexington",
+   "url": "https://www.wyndhamhotels.com/super-8/lexington-kentucky/super-8-lexington-hamburg-area/overview"
+  },
+  {
+   "name": "Best Western Lexington Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2221 Elkhorn Road, 40505, Lexington",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-lexington/best-western-lexington-inn/propertyCode.18117.html"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2255 Buena Vista Road, 40505, Lexington",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lexington/lexsl/hoteldetail"
+  },
+  {
+   "name": "Ramada Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2143 North Broadway, 40505, Lexington",
+   "url": "https://www.wyndhamhotels.com/ramada/lexington-kentucky/ramada-conference-center-of-lexington/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Lexington East \\ I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2211 Elkhorn Road, 40505, Lexington",
+   "url": "https://www.marriott.com/lexle"
+  },
+  {
+   "name": "Hyatt Regency Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 West High Street, 40507, Lexington",
+   "url": "https://www.hyatt.com/hyatt-regency/en-us/lexrl-hyatt-regency-lexington"
+  },
+  {
+   "name": "21c",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "167 West Main Street, 40507, Lexington",
+   "url": "https://www.21cmuseumhotels.com/lexington/"
+  },
+  {
+   "name": "Clarion Hotel Conference Center Lexington North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1950 Newtown Pike, 40511, Lexington",
+   "url": "https://www.choicehotels.com/kentucky/lexington/clarion-hotels/ky231"
+  },
+  {
+   "name": "La Quinta Inn - Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/lexington-kentucky/la-quinta-inn-lexington/overview"
+  },
+  {
+   "name": "Griffin Gate Marriott Resort & Spa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Newtown Pike, Lexington",
+   "url": "https://www.marriott.com/lexky"
+  },
+  {
+   "name": "Homewood Suites by Hilton Lexington-Hamburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2033 Bryant Road, 40509, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Hilton Lexington/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "369 West Vine Street, 40507, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Four Points by Sheraton - Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1938 Stanton Way, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2260 Elkhorn Road, 40509, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Export Street, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2651 Wilhite Drive, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3575 Tates Creek Road, 40517, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Catalina Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "208 West New Circle Road, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "603 Adcolor Drive, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "125 Louie Place, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Bourbon Hous",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "402 South Broadway, 40508, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Ronald McDonald House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1300 Sports Center Drive, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Horseshoe Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "917 Georgetown Road, 40511, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Bluegrass Extended Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2753 Richmond Road, Lexington",
+   "url": ""
+  },
+  {
+   "name": "The Sire Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 West Second Street, 40507, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Lexington - Nicholasville Road",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2650 Wilhite Court, Lexington",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Campbell House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Origin Hotel Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "GuestHouse Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "SureStay Plus Hotel by Best Western Lexington",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Lexington Marriott City Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Manchester",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1761 Sharkey Way, 40511-2028, Lexington",
+   "website": "https://restaurants.applebees.com/en-us/ky/lexington/1761-sharkey-way-98069"
+  },
+  {
+   "name": "Rosemont Station",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "222 Rosemont Garden, 40503, Lexington",
+   "website": "https://www.rosemontstation.com"
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "836 Euclid Avenue, 40502, Lexington",
+   "website": "https://www.mcalistersdeli.com/locations/ky/lexington/836-euclid-avenue-1361"
+  },
+  {
+   "name": "Athenian Grill",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "120 East Main Street, 40507, Lexington",
+   "website": "https://www.atheniangrill.com/"
+  },
+  {
+   "name": "Pietana",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "210 Rosemont Garden, 40503, Lexington",
+   "website": "https://www.pietana.com/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2306 Palumbo Drive, 40509, Lexington",
+   "website": "https://restaurants.ihop.com/en-us/ky/lexington/breakfast-2306-palumbo-dr-3134"
+  },
+  {
+   "name": "WING KYNG",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "101 West Loudon Avenue, 40508, Lexington",
+   "website": "https://www.wingkyng.com/"
+  },
+  {
+   "name": "Moody Mike's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "802 North Limestone, 40505, Lexington",
+   "website": "https://moodymikes.org/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1012 Georgetown Road, 40505, Lexington",
+   "website": "https://locations.wafflehouse.com/lexington-ky-1099/"
+  },
+  {
+   "name": "Aqua Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "440 Hilltop Avenue, 40508, Lexington",
+   "website": "https://uky.campusdish.com/LocationsAndMenus/AquaSushi"
+  },
+  {
+   "name": "The Wondering Bock",
+   "cuisines": [
+    "Pretzel",
+    "Sausage"
+   ],
+   "address": "101 West Loudon Avenue, 40508, Lexington",
+   "website": "https://www.papapretzel.com/the-wandering-bock"
+  },
+  {
+   "name": "County Club",
+   "cuisines": [
+    "Smoked Meat",
+    "Salad"
+   ],
+   "address": "555 Jefferson Street, 40508, Lexington",
+   "website": "https://countyclubrestaurant.com/"
+  },
+  {
+   "name": "Donatos Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "265 West New Circle Road, Lexington",
+   "website": "https://www.donatos.com/"
+  },
+  {
+   "name": "Mulberry Street Bar & Kitchen",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "574 North Limestone, 40508, Lexington",
+   "website": "https://www.eatfavor.com/"
+  },
+  {
+   "name": "Joe Bologna's",
+   "cuisines": [
+    "Italian",
+    "Pasta",
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "120 West Maxwell Street, 40508",
+   "website": "https://joebolognas.com/"
+  },
+  {
+   "name": "Old North Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "101 West Loudon Avenue, 40508, Lexington",
+   "website": "https://oldnorthbar.com/"
+  },
+  {
+   "name": "Blue Door Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "819 National Avenue, 40502, Lexington",
+   "website": "https://bluedoorsmokehouse.com/"
+  },
+  {
+   "name": "Minton's",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Pancake",
+    "Savory Pancakes"
+   ],
+   "address": "701 National Avenue, 40502",
+   "website": "https://mintonsat760.com/"
+  },
+  {
+   "name": "Bourbon n' Toulouse",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "829 Euclid Avenue, 40502-1741, Lexington",
+   "website": "https://www.ilovecajun.com/"
+  },
+  {
+   "name": "Smithtown Seafood",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "501 West Sixth Street, 40508, Lexington",
+   "website": "https://smithtownseafood.com/"
+  },
+  {
+   "name": "Eppings on Eastside",
+   "cuisines": [
+    "American"
+   ],
+   "address": "264 Walton Avenue, 40502, Lexington",
+   "website": "https://www.eppingsoneastside.com"
+  },
+  {
+   "name": "Mama Tequila",
+   "cuisines": [
+    "Mexican",
+    "Tex-Mex"
+   ],
+   "address": "367 West Short Street, 40507, Lexington",
+   "website": "https://mamatequilarestaurant.com"
+  },
+  {
+   "name": "Jeff Ruby's Steakhouse - Lexington",
+   "cuisines": [
+    "Steak House",
+    "Seafood"
+   ],
+   "address": "101 West Vine Street, 40507, Lexington",
+   "website": "https://www.jeffruby.com/lexington"
+  },
+  {
+   "name": "Cinco de Mayo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "122 West Maxwell Street, 40508, Lexington",
+   "website": "https://www.cincodemayolexington.com/"
+  },
+  {
+   "name": "Kung Fu Noodle",
+   "cuisines": [
+    "Asian",
+    "Noodle"
+   ],
+   "address": "535 South Upper Street, 40508, Lexington",
+   "website": "https://kfnna.com/"
+  },
+  {
+   "name": "Sav's Chill",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "819 National Avenue, 40502, Lexington",
+   "website": "https://www.savslex.com/"
+  },
+  {
+   "name": "Shake n Crave",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "535 South Upper Street, 40508, Lexington",
+   "website": "https://shakencrave.com"
+  },
+  {
+   "name": "Infinity: Rooftop Restaurant + Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "150 West Main Street, 40507, Lexington",
+   "website": "https://infinityrestaurantandbar.com"
+  },
+  {
+   "name": "The Local Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "315 South Limestone, 40508, Lexington",
+   "website": "https://localtacolex.com/"
+  },
+  {
+   "name": "PARLOUR Pizza + Pints",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2099 Harrodsburg Road, 40503, Lexington",
+   "website": "https://eatparlour.com/"
+  },
+  {
+   "name": "Sav's Restaurant and Gourmet Ice Cream",
+   "cuisines": [
+    "African",
+    "Dessert"
+   ],
+   "address": "630 East Main Street, Lexington",
+   "website": "https://savslex.weebly.com/"
+  },
+  {
+   "name": "Josie's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "821 Chevy Chase Place, 40502, Lexington",
+   "website": "https://www.josies-ky.com/"
+  },
+  {
+   "name": "Charlie Brown's",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "816 Euclid Avenue, 40502, Lexington",
+   "website": "https://charliebrownslex.com/"
+  },
+  {
+   "name": "Buenos Nachos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "818 Euclid Avenue, 40502, Lexington",
+   "website": "http://www.rinconmexicanorestaurantky.com/"
+  },
+  {
+   "name": "Fizzy Fox Soda",
+   "cuisines": [
+    "Drinks",
+    "Soda"
+   ],
+   "address": "101 West Loudon Avenue, 40508, Lexington",
+   "website": "https://fizzyfoxsoda.com/"
+  },
+  {
+   "name": "Sawyer's Downtown",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "140 West Main Street, 40507, Lexington",
+   "website": "https://sawyersdowntown.com"
+  },
+  {
+   "name": "School Sushi",
+   "cuisines": [
+    "Sushi",
+    "Asian"
+   ],
+   "address": "163 West Short Street, 40507, Lexington",
+   "website": "https://schoolsushilex.com"
+  },
+  {
+   "name": "ItalX",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "160 West Main Street, 40507, Lexington",
+   "website": "https://italx.com"
+  },
+  {
+   "name": "The Ketch",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2012 Regency Road, Lexington",
+   "website": "https://www.ketchseafoodgrill.com/"
+  },
+  {
+   "name": "Blue Heron",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "185 Jefferson Street, 40507, Lexington",
+   "website": "https://blueheronsteakhouse.com/"
+  },
+  {
+   "name": "Agave & Rye",
+   "cuisines": [
+    "Mexican",
+    "Tex-Mex"
+   ],
+   "address": "123 North Broadway, 40507, Lexington",
+   "website": "https://agaveandrye.com"
+  },
+  {
+   "name": "Ginger Wasabi Sushi + Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "103 West Maxwell Street, Lexington",
+   "website": "https://www.ilovegingerwasabi.com/"
+  },
+  {
+   "name": "Willie's Locally Known",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "805 North Broadway, 40508, Lexington",
+   "website": "http://www.willieslex.com/"
+  },
+  {
+   "name": "Mexico Mi Amor",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "780 North Limestone, Lexington",
+   "website": "https://redlightlex.com/"
+  },
+  {
+   "name": "Enoteca",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "191 Jefferson Street, 40508, Lexington",
+   "website": "https://www.facebook.com/enotecalexington?rf=394930457278286"
+  },
+  {
+   "name": "Nick Ryan's Saloon",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "157 Jefferson Street, 40508, Lexington",
+   "website": "https://nickryans.com/"
+  },
+  {
+   "name": "Thai Orchid Cafe",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1030 South Broadway, 40504, Lexington",
+   "website": "http://www.thaiorchidcafe.net/"
+  },
+  {
+   "name": "JY Kitchen",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": "https://jy-kitchen.com"
+  },
+  {
+   "name": "Grillfish",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "",
+   "website": "http://www.grillfishlexington.com/"
+  },
+  {
+   "name": "Le Deauville",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": "https://ledeauvillebistro.com/"
+  },
+  {
+   "name": "Philip’s Market",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "553 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Mirror Twin Brewing",
+   "cuisines": [
+    "Pizza",
+    "Brewery",
+    "Beer"
+   ],
+   "address": "725 National Avenue, 40502, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Courtyard Deli",
+   "cuisines": [
+    "Regional",
+    "Sandwich",
+    "American",
+    "Soup"
+   ],
+   "address": "351 Church Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "First Watch",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1080 South Broadway, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "BlueFire Bar & Gril",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "401 West High Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Ramirez",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1429 Alexandria Drive, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Ruby Jean's All You Can Eat Buffet",
+   "cuisines": [
+    "Buffet"
+   ],
+   "address": "450 Southland Drive, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1080 South Broadway, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Le Gourmet",
+   "cuisines": [
+    "Hatian"
+   ],
+   "address": "1080 South Broadway, 40504-4108, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Tomo",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "848 East High Street, 40502, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Nat's",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "111 South Upper Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Yummy Yummy Asian Cuisine",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1395 West Main Street, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Sabor Latino",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1479 Boardwalk, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Taste of Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "101 West Main Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Alfalfa",
+   "cuisines": [
+    "Ethnic"
+   ],
+   "address": "141 East Main Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Mai Thai Restaurant",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "304 Southland Drive, 40503, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1949 Nicholasville Road, Lexingtion",
+   "website": ""
+  },
+  {
+   "name": "Sir Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1064 South Broadway, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "185 East New Circle Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Backyard Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "397 Waller Avenue, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "El Huarache",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1316 Russell Cave Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Puccini's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "833 Chevy Chase Place, 40502, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Sugano Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1533 Eastland Parkway, 40505, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Viva Mexico",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "400 Old Vine Street, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Han Woo Ri",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "371 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "K Lair",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "373 Hilltop Avenue, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "girlsgirlsgirls Burritos",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "394 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "The Soup Kitchen",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "376 Southland Drive, 40503, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Lee's Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "680 Lima Drive, 40511, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Halal Munchies",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "395 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Portofino",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "249 East Main Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Dad's Favorites",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "236 East Main Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Okome",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "341 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "El Cid",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "304 South Limestone, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2217 Harrodsburg Road",
+   "website": ""
+  },
+  {
+   "name": "Oasis",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "837 Chevy Chase Place, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Sarah's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "Henry Clay Boulevard, 40505, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Buddha Lounge",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "109 North Mill Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "The Apiary",
+   "cuisines": [
+    "Fine Dining"
+   ],
+   "address": "218 Jefferson Street, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Brasabana",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "841 Lane Allen Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Maria's",
+   "cuisines": [
+    "Mexican",
+    "Tacos"
+   ],
+   "address": "895 North Broadway, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Stella's Kentucky Deli",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "143 Jefferson Street, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Joella's Hot Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "101 Cochran Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Suggin's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "345 Romany Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Grey Goose",
+   "cuisines": [
+    "Pizza",
+    "Burger",
+    "Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Distilled",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "157 Jefferson Street, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Sweet Mango",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "Rose Street, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Insomnia Cookies",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nefertiti",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1301 Winchester Road, 40505",
+   "website": ""
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dudley's",
+   "cuisines": [
+    "International"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wheeler's (Grill)",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bellini's",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Duango's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Orange Leaf",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Columbia's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Goodfella's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sassy Bleu",
+   "cuisines": [
+    "Southern",
+    "Comfort Food"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jalapeno's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mad Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Restaurante Aguascalientes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Blue Reef Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Goodfella’s",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Winchell's",
+   "cuisines": [],
+   "address": "348 Southland Drive, 40503, Lexington",
+   "website": "WinchellsRestaurant.com"
+  },
+  {
+   "name": "Carson's Food & Drink",
+   "cuisines": [],
+   "address": "362 East Main Street, 40507, Lexington",
+   "website": "https://www.carsonsfoodanddrink.com/"
+  },
+  {
+   "name": "Green Tree Tea Room",
+   "cuisines": [],
+   "address": "521 West Short Street, 40507, Lexington",
+   "website": "http://www.greentreetearoom.com/"
+  },
+  {
+   "name": "Ramsey's Diners",
+   "cuisines": [],
+   "address": "2197 Nicholasville Road, Lexington",
+   "website": "https://ramseysdiners.com/"
+  },
+  {
+   "name": "Corto y Lima",
+   "cuisines": [],
+   "address": "101 West Short Street, 40507, Lexington",
+   "website": "https://www.cortolima.com/"
+  },
+  {
+   "name": "The Social Vegan",
+   "cuisines": [],
+   "address": "101 West Loudon Avenue",
+   "website": "https://www.thesocialveganlex.com/"
+  },
+  {
+   "name": "Sam's Hot Dog Stand",
+   "cuisines": [],
+   "address": "",
+   "website": "http://www.samshotdogs.com/"
+  },
+  {
+   "name": "Hibachi Express",
+   "cuisines": [],
+   "address": "",
+   "website": "https://order.online/business/hibachi-express-388845"
+  },
+  {
+   "name": "Cafe Emporio by Busalacchi",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.jgumbos.com/lexington/"
+  },
+  {
+   "name": "Wong Wong Chinese Restaurant",
+   "cuisines": [],
+   "address": "458 Southland Drive, 40503, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Good Foods Cafe",
+   "cuisines": [],
+   "address": "455 Southland Drive, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Bad Wolf Burgers - Fiercely Crafted Burgers & Cafe",
+   "cuisines": [],
+   "address": "1415 Leestown Road, 40511, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Pines & Pints",
+   "cuisines": [],
+   "address": "401 West Main Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Oshimi Sushi",
+   "cuisines": [],
+   "address": "1093 South Broadway, 40504, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Louie's Wine Dive & Chevy Chase Kitchen",
+   "cuisines": [],
+   "address": "854 East High Street, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Liberty Road Cafe",
+   "cuisines": [],
+   "address": "720 Henry Clay Boulevard, 40505, Lexington",
+   "website": ""
+  },
+  {
+   "name": "North Lime Coffee & Donuts",
+   "cuisines": [],
+   "address": "101 West Loudon Avenue, 40508, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Weekly Juicery",
+   "cuisines": [],
+   "address": "438 Old Vine Street, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "The Tulip Bistro & Bar",
+   "cuisines": [],
+   "address": "355 Romany Road, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Minglewood",
+   "cuisines": [],
+   "address": "159 North Limestone, 40507, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Bear & The Butcher",
+   "cuisines": [],
+   "address": "815 Euclid Avenue, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Sage Rabbit",
+   "cuisines": [],
+   "address": "438 South Ashland Avenue, Lexington",
+   "website": ""
+  },
+  {
+   "name": "Jasmine Rice",
+   "cuisines": [],
+   "address": "911 Winchester Road",
+   "website": ""
+  },
+  {
+   "name": "The Peach Cobbler Factory",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Doodles",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Toro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marikka's Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pete's Wok",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sky Blue Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kentucky Native Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gyroz Mediterranean Eatery and Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Aviation Museum of Kentucky",
+   "kind": "museum",
+   "address": "4029 Airport Road",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0330115,
+   "longitude": -84.5987631
+  },
+  {
+   "name": "Mary Todd Lincoln House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.051257,
+   "longitude": -84.5027965
+  },
+  {
+   "name": "Lexington Children's Museum",
+   "kind": "museum",
+   "address": "440 West Short Street, 40507, Lexington",
+   "website": "https://lexingtonchildrensmuseum.org/",
+   "phone": "",
+   "latitude": 38.0500707,
+   "longitude": -84.4999962
+  },
+  {
+   "name": "Living Arts and Science Center",
+   "kind": "museum",
+   "address": "362 North Martin Luther King Boulevard, 40508, Lexington",
+   "website": "https://lasclex.org/",
+   "phone": "",
+   "latitude": 38.0487684,
+   "longitude": -84.4886303
+  },
+  {
+   "name": "Kentucky Room",
+   "kind": "museum",
+   "address": "140 East Main Street, 40507, Lexington",
+   "website": "https://www.lexpublib.org/page/kentucky-room",
+   "phone": "",
+   "latitude": 38.0455462,
+   "longitude": -84.4965018
+  },
+  {
+   "name": "Waveland Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://parks.ky.gov/lexington/parks/historic/waveland-state-historic-site",
+   "phone": "",
+   "latitude": 37.9711891,
+   "longitude": -84.5374395
+  },
+  {
+   "name": "William S. Webb Museum of Anthropology",
+   "kind": "museum",
+   "address": "1020 Export Street, 40504",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0360222,
+   "longitude": -84.5144839
+  },
+  {
+   "name": "New Editions Gallery",
+   "kind": "gallery",
+   "address": "500 West Short Street, 40507, Lexington",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0502144,
+   "longitude": -84.5003579
+  },
+  {
+   "name": "Painting With A Twist",
+   "kind": "gallery",
+   "address": "2573 Richmond Road, Lexington",
+   "website": "",
+   "phone": "",
+   "latitude": 38.011567,
+   "longitude": -84.4549915
+  },
+  {
+   "name": "Comedy Off Broadway",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9948369,
+   "longitude": -84.5236179
+  },
+  {
+   "name": "LakeSide LIve Summer Music Festival",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 37.9950949,
+   "longitude": -84.5238627
+  },
+  {
+   "name": "Lexington History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0477592,
+   "longitude": -84.4977433
+  },
+  {
+   "name": "Morlan Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0523352,
+   "longitude": -84.4928459
+  },
+  {
+   "name": "Ockerman Globe Monument",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.0578791,
+   "longitude": -84.5045898
+  }
+ ]
+}

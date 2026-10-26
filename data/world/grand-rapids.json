@@ -1,0 +1,1820 @@
+{
+ "city": "Grand Rapids",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.9648,
+ "longitude": -85.6721,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Amway Grand Plaza",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "187 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "JW Marriott Grand Rapids",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 Louis Street Northwest, 49503, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3251 Deposit Drive Northeast, 49546, Grand Rapids",
+   "url": "https://www.choicehotels.com/michigan/grand-rapids/country-inn-suites-hotels/mi607"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 28th Street Southwest, 49548, Grand Rapids",
+   "url": "https://www.wyndhamhotels.com/baymont/grand-rapids-michigan/baymont-inn-and-suites-grand-rapids-near-downtown/overview"
+  },
+  {
+   "name": "AC Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "50 Monroe Avenue Northwest, Grand Rapids",
+   "url": "https://www.marriott.com/en-us/hotels/grrar-ac-hotel-grand-rapids-downtown/"
+  },
+  {
+   "name": "Courtyard Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "url": "https://www.marriott.com/grrdt"
+  },
+  {
+   "name": "Motel 6 Grand Rapids Northeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3221 Plainfield Avenue Northeast, 49525, Grand Rapids",
+   "url": "https://www.motel6.com/content/g6/en/home/motels.mi.grand-rapids.8890.html"
+  },
+  {
+   "name": "Budgetel Grand Rapids",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "35 28th Street Southwest, 49548, Grand Rapids",
+   "url": "https://www.budgetel.com/hotel-details/bi-grand-rapids-mi"
+  },
+  {
+   "name": "Hampton Inn & Suites Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "433 Dudley Avenue Northeast, 49503, Grand Rapids",
+   "url": "https://www.hilton.com/en/hotels/grrdthx-hampton-suites-grand-rapids-downtown/"
+  },
+  {
+   "name": "SpringHill Suites Grand Rapids North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "450 Center Drive Northwest, 49544, Grand Rapids",
+   "url": "https://www.marriott.com/grrsh"
+  },
+  {
+   "name": "Fairfield Inn & Suites Grand Rapids North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 Center Drive Northwest, 49544, Walker",
+   "url": "https://www.marriott.com/grrfn"
+  },
+  {
+   "name": "Hampton Inn Grand Rapids-North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 Center Drive Northwest, 49544, Grand Rapids",
+   "url": "https://www.hilton.com/en/hotels/grraphx-hampton-grand-rapids-north/"
+  },
+  {
+   "name": "Spark By Hilton Walker Grand Rapids North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2151 Holton Court Northwest, 49544, Walker",
+   "url": "https://www.wyndhamhotels.com/baymont/walker-michigan/baymont-inn-and-suites-grand-rapids-n-walker/overview"
+  },
+  {
+   "name": "Residence Inn Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "40 Louis Street Northwest, 49503, Grand Rapids",
+   "url": "https://www.marriott.com/grrrd"
+  },
+  {
+   "name": "Hilton Garden Inn Grand Rapids East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2321 East Beltline Avenue Southeast, 49546, Grand Rapids",
+   "url": "https://www.hilton.com/en/hotels/grrebgi-hilton-garden-inn-grand-rapids-east/"
+  },
+  {
+   "name": "Quality Inn Grand Rapids Near Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "65 28th Street Southwest, 49548, Grand Rapids",
+   "url": "https://www.choicehotels.com/michigan/grand-rapids/quality-inn-hotels/mi281?mc=llgoxxpx"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "330 River Ridge Drive Northwest, 49544, Grand Rapids",
+   "url": "https://www.hilton.com/en/hotels/grrnoht-home2-suites-grand-rapids-north/"
+  },
+  {
+   "name": "Comfort Suites Grand Rapids North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Dodge Street Northeast, 49321, Comstock Park",
+   "url": "https://www.choicehotels.com/michigan/walker/quality-inn-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Wyoming/Grand Rapids Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "727 44th Street Southwest, 49509, Wyoming",
+   "url": "https://www.wyndhamhotels.com/super-8/wyoming-michigan/super-8-grand-rapids-wyoming/overview"
+  },
+  {
+   "name": "Best Western Executive Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2725 Buchanan Avenue Southwest, 49548, Grand Rapids",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-grand-rapids/best-western-executive-inn-suites/propertyCode.23165.html"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Grand Rapids-North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "358 River Ridge Drive Northwest, 49544, Walker",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/walker/grrds/hoteldetail"
+  },
+  {
+   "name": "Hyatt Place Grand Rapids/Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "140 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "url": "https://www.hyatt.com/en-us/hotel/michigan/hyatt-place-grand-rapids-downtown/grrzd"
+  },
+  {
+   "name": "Embassy Suites Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "710 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "url": "https://www.hilton.com/en/hotels/grrmaes-embassy-suites-grand-rapids-downtown/"
+  },
+  {
+   "name": "Days Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "255 28th Street Southwest, 49548, Grand Rapids",
+   "url": "https://www.wyndhamhotels.com/days-inn/grand-rapids-michigan/days-inn-and-suites-grand-rapids-near-downtown/overview"
+  },
+  {
+   "name": "The Brauhaus Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "611 Madison Avenue Southeast",
+   "url": "https://thebrauhausinn.com/"
+  },
+  {
+   "name": "The Orchards",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "998 4 Mile Road Northwest, 49544",
+   "url": "http://theorchardsapartments.com"
+  },
+  {
+   "name": "Michigan Meadows",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://michiganmeadowsgr.com"
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "340 Dodge Street Northeast, 49321, Comstock Park",
+   "url": ""
+  },
+  {
+   "name": "Amway Grand Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn & Suites Grand Rapids",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3930 Stahl Drive Southeast, 49512, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Travelodge by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "777 3 Mile Road Northwest, 49544, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3920 Stahl Drive Southeast, 49512, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "310 Pearl Street Northwest, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2171 Holton Court Northwest, 49544, Walker",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Grand Rapids South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4500 Clyde Park Avenue Southwest, 49509, Wyoming",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Grand Rapids Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "161 Ottawa Avenue Northwest, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Lincoln Lawns Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3743 Lake Michigan Drive Northwest, 49534, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Lazy T Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3370 Plainfield Ave NE, 49525, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "The Blue Jay Hotel & Events",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "644 Bridge Street Northwest, 49504, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "CityFlatsHotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "83 Monroe Center Street Northwest, Grand Rapids",
+   "url": ""
+  },
+  {
+   "name": "Dunbar Woods",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 36th Street Southwest, 49509",
+   "url": ""
+  },
+  {
+   "name": "Home2 Suites by Hilton Grand Rapids Northeast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3082 Peregrine Drive Northeast, 49525",
+   "url": ""
+  },
+  {
+   "name": "Canopy by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Grand Rapids East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Plainfield Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Barri",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Field & Fire Cafe",
+   "cuisines": [
+    "Bakery",
+    "Cafe",
+    "Sandwich",
+    "Breakfast"
+   ],
+   "address": "820 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://fieldandfire.com/"
+  },
+  {
+   "name": "One Stop Coney Shop",
+   "cuisines": [
+    "Burger",
+    "Friture",
+    "Hot Dog"
+   ],
+   "address": "154 Fulton Street East, 49503, Grand Rapids",
+   "website": "https://www.onestopconeyshop.com/"
+  },
+  {
+   "name": "Tamales Mary",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1253 Burton Street Southwest, 49509, Wyoming",
+   "website": "https://tamales-mary.com/"
+  },
+  {
+   "name": "K-ROK Korean BBQ & Karaoke",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "169 Louis Campau Promenade Northwest, 49503, Grand Rapids",
+   "website": "https://www.krokgr.com"
+  },
+  {
+   "name": "Littlebird",
+   "cuisines": [
+    "Sandwich",
+    "Brunch",
+    "Breakfast",
+    "American",
+    "Regional"
+   ],
+   "address": "95 Monroe Center Street Northwest",
+   "website": "https://www.thelittlebirdgr.com/"
+  },
+  {
+   "name": "Ginza Sushi & Ramen Bar",
+   "cuisines": [
+    "Sushi",
+    "Ramen",
+    "Pho"
+   ],
+   "address": "1015 Michigan Street Northeast, 49503, Grand Rapids",
+   "website": "https://ginzasushiramen.com/"
+  },
+  {
+   "name": "Global Street Food - Roam",
+   "cuisines": [
+    "International"
+   ],
+   "address": "250 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://roambysanchez.com/"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "8 Ionia Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://www.buffalowildwings.com"
+  },
+  {
+   "name": "City Built Brewing Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "820 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://citybuiltbrewing.com/"
+  },
+  {
+   "name": "Tortilleria y Restaurante La Guadalupana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1627 Division Avenue South, 49507, Grand Rapids",
+   "website": "https://www.facebook.com/tortilleriaYrestauranteLaguadalupana/"
+  },
+  {
+   "name": "Black Napkin",
+   "cuisines": [
+    "Burger",
+    "French"
+   ],
+   "address": "996 Fulton Street East, 49503, Grand Rapids",
+   "website": "https://www.blacknapkingr.com/"
+  },
+  {
+   "name": "Monsoon Vietnamese Cuisine",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "55 Monroe Center Street Northwest, 49503, Grand Rapids",
+   "website": "https://www.monsoongr.com"
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "187 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://ruthschris.com/"
+  },
+  {
+   "name": "Palio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "545 Michigan Street Northeast, 49503, Grand Rapids",
+   "website": "https://paliorestaurant.com/"
+  },
+  {
+   "name": "Maru Sushi & Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "927 Cherry Street Southeast, 49506",
+   "website": "https://www.marusushi.com/location/grand-rapids/"
+  },
+  {
+   "name": "Wolfgang's",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1530 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "http://www.mattwolfgang.com"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1433 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://locations.pizzahut.com/mi/grand-rapids/1433-wealthy-street"
+  },
+  {
+   "name": "Tacos El Cuñado",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2151 Wealthy Street Southeast, 49506",
+   "website": "http://tacodelcunadowealthy.com"
+  },
+  {
+   "name": "The Omelette Shoppe",
+   "cuisines": [
+    "Breakfast",
+    "Pancake",
+    "Savory Pancakes"
+   ],
+   "address": "545 Michigan Street Northeast, 49503, Grand Rapids",
+   "website": "https://www.omeletteshoppe.com/"
+  },
+  {
+   "name": "Brick & Porter",
+   "cuisines": [
+    "Burger",
+    "Sandwich",
+    "American",
+    "Regional"
+   ],
+   "address": "47 Monroe Center Street Northwest",
+   "website": "https://www.brickandportergr.com/#"
+  },
+  {
+   "name": "El Cerrito Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1400 Lake Drive Southeast, 49506",
+   "website": "https://www.elcerritogr.com"
+  },
+  {
+   "name": "Schnitz Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1315 Fulton Street East, 49503, Grand Rapids",
+   "website": "https://schnitzdeli.com/"
+  },
+  {
+   "name": "Mangiamo",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "1033 Lake Drive Southeast, 49506, Grand Rapids",
+   "website": "https://www.thegilmorecollection.com/mangiamo.php"
+  },
+  {
+   "name": "Yesterdog",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1505 Wealthy Street Southeast, 49506",
+   "website": "http://yesterdoggrandrapids.com"
+  },
+  {
+   "name": "Cherie Inn",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "969 Cherry Street Southeast, 49506, Grand Rapids",
+   "website": "https://cherieinn.com/"
+  },
+  {
+   "name": "Chez Olga",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1441 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://the-chez-olga.weeblyte.com/"
+  },
+  {
+   "name": "Cherry Deli & Catering",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "834 Cherry Street Southeast, 49506, Grand Rapids",
+   "website": "https://www.cherrydeli.com/"
+  },
+  {
+   "name": "Sushi Yama",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "146 Monroe Center Street Northwest",
+   "website": "http://sushiyamamenu.com"
+  },
+  {
+   "name": "Nonla Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "449 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://www.nonlaburger.com/"
+  },
+  {
+   "name": "Go Jo Ethiopian Cuisine & Deli",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "421 Norwood Avenue Southeast, 49506",
+   "website": "https://www.gojoethiopiancuisine.com"
+  },
+  {
+   "name": "KCM",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "209 Diamond Avenue Southeast, 49506",
+   "website": "https://www.kcmgr.com"
+  },
+  {
+   "name": "The Kitchen @ 40 Cherry",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "40 Cherry Street Southwest, 49503, Grand Rapids",
+   "website": "https://kitchenat40cherry.com/"
+  },
+  {
+   "name": "Soho Sushi",
+   "cuisines": [
+    "Japanese",
+    "Chinese",
+    "Thai"
+   ],
+   "address": "58 Monroe Center Street Northwest",
+   "website": "https://sohosushitogo.com/"
+  },
+  {
+   "name": "Sweet Yo's",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "134 Monroe Center Street Northwest",
+   "website": "http://sweetyos.com"
+  },
+  {
+   "name": "Pide & Stick",
+   "cuisines": [
+    "Pita"
+   ],
+   "address": "428 Bridge Street Northwest, Grand Rapids",
+   "website": "https://www.pideandstick.com/"
+  },
+  {
+   "name": "Wing Kingz",
+   "cuisines": [
+    "Wings",
+    "Fries",
+    "Hot Dog"
+   ],
+   "address": "1604 Diamond Avenue Northeast, 49505, Grand Rapids",
+   "website": "https://www.thewingkingz.com/"
+  },
+  {
+   "name": "Fratelli's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "435 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://fratellisgr.com/"
+  },
+  {
+   "name": "Fratelli's Kitchen & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "443 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://fratellisgr.com/"
+  },
+  {
+   "name": "Noodlepig",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "601 Bond Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://www.noodlepig.com/"
+  },
+  {
+   "name": "Testa Rossa Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1017 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://testarossagr.com/"
+  },
+  {
+   "name": "Grand Coney",
+   "cuisines": [
+    "American"
+   ],
+   "address": "809 Michigan Street Northeast, 49503",
+   "website": "https://thegrandconey.com/"
+  },
+  {
+   "name": "The Electric Cheetah",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1015 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://www.electriccheetah.com/"
+  },
+  {
+   "name": "Donkey Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "665 Wealthy Street Southeast, 49503, Grand Rapids",
+   "website": "https://www.facebook.com/DonkeyGR"
+  },
+  {
+   "name": "Joezano's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "340 State Street Southeast, 49503, Grand Rapids",
+   "website": "https://www.joezanospizza.com"
+  },
+  {
+   "name": "The Butchers Union",
+   "cuisines": [
+    "American"
+   ],
+   "address": "438 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://www.butchersuniongr.com/"
+  },
+  {
+   "name": "ATO Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "180 Monroe Avenue Northwest, 49503",
+   "website": "https://www.atosushigr.com/"
+  },
+  {
+   "name": "O'Tool's Public House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "448 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://otoolesgr.com/"
+  },
+  {
+   "name": "Z's Bar & Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "168 Louis, Campau Promenade NW, 49503, Grand Rapids",
+   "website": "https://zsbar.com"
+  },
+  {
+   "name": "Basalt",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1450 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://www.basaltgr.com/"
+  },
+  {
+   "name": "Tacos Yanga",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1338 Division Avenue South, 49507",
+   "website": "http://www.ordertacosyanga.com"
+  },
+  {
+   "name": "Hancock",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1157 Wealthy Street Southeast, Grand Rapids",
+   "website": "https://www.hancockgr.com/"
+  },
+  {
+   "name": "Vitale's Italian Restaurant",
+   "cuisines": [
+    "Italian",
+    "Pizza",
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.theoriginalvitales.com/"
+  },
+  {
+   "name": "Real Seafood Co",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://realseafoodcorestaurant.com/grand-rapids-location/"
+  },
+  {
+   "name": "Bangkok Taste Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://grbangkoktastecuisine.com/"
+  },
+  {
+   "name": "Beijing Kitchen",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "http://www.beijingkitchengr.com/"
+  },
+  {
+   "name": "Parsley Mediterranean Grill",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "80 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Big Bobs Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "661 Croswell Avenue Southeast, 49506, East Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Cinco de Mayo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "114 Monroe Center Street Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Condado Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "449 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Los Dos Amigos Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1624 Division Avenue South, 49507, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1215 Fuller Avenue Northeast, 49505",
+   "website": ""
+  },
+  {
+   "name": "Hoshi Hoshi",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "2159 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Rincón Criollo Restaurant",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1523 Cesar E Chavez Avenue Southwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Matchbox Diner & Drinks",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "1345 Lake Drive Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Big O's Pizza and Booze",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "80 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Little Africa Ethiopian Cuisine",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "956 Fulton Street East, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "The Caribbean Bite",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "122 Oakes Street Southwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "The Pita House",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1508 Wealthy Street Southeast",
+   "website": ""
+  },
+  {
+   "name": "Two Beards Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "38 Commerce Avenue Southwest, 49503",
+   "website": ""
+  },
+  {
+   "name": "Good Truckin' Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "701 Wealthy Street Southeast, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Bowdie's Chophouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2237 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Pera Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2224 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Bagel Kitchen",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2228 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Pink Piggy",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2230 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Crazy Charlie's",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "2184 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Kaffeine Place - Bar & Restaurant",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "637 Michigan Street Northeast, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Grand Woods Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "77 Cesar E Chavez Avenue Southwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "The Chicago Beef Joint",
+   "cuisines": [
+    "Steak",
+    "Burger"
+   ],
+   "address": "822 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "MeXo Tequila & Mezcal Bar and Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "118 Fulton Street East, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Carlucci's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "One Trick Pony",
+   "cuisines": [
+    "American"
+   ],
+   "address": "136 Fulton Street East, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "DiPiazza's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1358 Leonard Street Northwest, 49504, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Gino's Pizza",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Popeyes",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "2150 Alpine Avenue Northwest, 49544",
+   "website": ""
+  },
+  {
+   "name": "Tupelo Honey",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "B.C. Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Linear Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1001 Monroe Avenue Northwest",
+   "website": ""
+  },
+  {
+   "name": "Barrio Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "BRANN'S Steakhouse & Grill",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Arnie's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Salvatore's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peppino's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sandy's Donuts",
+   "cuisines": [
+    "Pastry",
+    "Donut",
+    "Cookie"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mr Burger",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hunan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "San Chez",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fu Garden",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mertens Prime",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carolina Lowcountry Kitchen",
+   "cuisines": [
+    "American",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Table",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cone Shoppe",
+   "cuisines": [
+    "Ice Cream"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lai Thai Kitchen",
+   "cuisines": [
+    "Chinese",
+    "Thai",
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Borracho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pokē Pokē",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Brickyard Tavern",
+   "cuisines": [],
+   "address": "940 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "https://www.brickyardtaverngr.com/"
+  },
+  {
+   "name": "Morning Belle",
+   "cuisines": [],
+   "address": "434 Bridge Street Northwest, 49504, Grand Rapids",
+   "website": "https://morningbellebrunch.com"
+  },
+  {
+   "name": "Gaia house cafe",
+   "cuisines": [],
+   "address": "1553 Plainfield Avenue Northeast, 49505, Grand Rapids",
+   "website": "https://gaiahousecafe.com/"
+  },
+  {
+   "name": "Curry Kitchen",
+   "cuisines": [],
+   "address": "961 Fulton Street East, 49503, Grand Rapids",
+   "website": "https://currykitchengr.com/"
+  },
+  {
+   "name": "Uncle Cheetah's Soup Shop",
+   "cuisines": [],
+   "address": "1133 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "https://www.unclecheetahs.com/"
+  },
+  {
+   "name": "The Commons",
+   "cuisines": [],
+   "address": "547 Cherry St SE., 49503, Grand Rapids",
+   "website": "https://www.commons-gr.online/"
+  },
+  {
+   "name": "Cafe Mamo",
+   "cuisines": [],
+   "address": "1601 Plainfield Avenue Northeast, 49505",
+   "website": "https://www.cafemamo.com/"
+  },
+  {
+   "name": "Lucy's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.lucyscafegr.com/"
+  },
+  {
+   "name": "Terra",
+   "cuisines": [],
+   "address": "1429 Lake Drive Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Olive’s Restaurant and Bar",
+   "cuisines": [],
+   "address": "2162 Wealthy Street Southeast, 49506",
+   "website": ""
+  },
+  {
+   "name": "New Beginnings",
+   "cuisines": [],
+   "address": "1601 Alpine Avenue Northwest, 49504, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Healthy Habits Downtown",
+   "cuisines": [],
+   "address": "150 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Gimme's Par & Grill",
+   "cuisines": [],
+   "address": "45 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Downtown Nutrition LLC",
+   "cuisines": [],
+   "address": "150 Ottawa Avenue Northwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Pochis Sweet Designs",
+   "cuisines": [],
+   "address": "44 Ionia Avenue Southwest, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Daisies Place",
+   "cuisines": [],
+   "address": "15 Ionia Avenue Southwest, 49503, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Jack Danger's",
+   "cuisines": [],
+   "address": "1499 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Partage",
+   "cuisines": [],
+   "address": "834 Cherry Street Southeast, 49506, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "The Friesian Gastro Pub",
+   "cuisines": [],
+   "address": "720 Michigan Street Northeast, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Kelvin and Co",
+   "cuisines": [],
+   "address": "1450 Wealthy Street Southeast",
+   "website": ""
+  },
+  {
+   "name": "Silva",
+   "cuisines": [],
+   "address": "975 Ottawa Avenue Northwest, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Social Misfits",
+   "cuisines": [],
+   "address": "43 Fulton Street West, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Stan's Tacos",
+   "cuisines": [],
+   "address": "67 Ottawa Avenue Southwest, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "Sundance Grill & Bar",
+   "cuisines": [],
+   "address": "151 Ottawa Avenue Northwest, Grand Rapids",
+   "website": ""
+  },
+  {
+   "name": "New Beginnings Restaurant",
+   "cuisines": [],
+   "address": "1455 Michigan Street Northeast",
+   "website": ""
+  },
+  {
+   "name": "Grove",
+   "cuisines": [],
+   "address": "Cherry Street Southeast",
+   "website": ""
+  },
+  {
+   "name": "Reserve",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Westsider Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Great Wall Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tavern on the Square",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Greenwell",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "One Twenty Three Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bistro Bella Vita",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Leo's Coney Island on Tap",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Stella's Lounge",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Toasted Pickle",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Grand Rapids Art Museum",
+   "kind": "museum",
+   "address": "101 Monroe Center Street Northwest, 49503, Grand Rapids",
+   "website": "https://www.artmuseumgr.org/",
+   "phone": "+1 616 831 1000",
+   "latitude": 42.9650338,
+   "longitude": -85.6710137
+  },
+  {
+   "name": "Grand Rapids Public Museum",
+   "kind": "museum",
+   "address": "272 Pearl Street Northwest, 49504, Grand Rapids",
+   "website": "https://www.grpm.org/",
+   "phone": "",
+   "latitude": 42.965658,
+   "longitude": -85.676564
+  },
+  {
+   "name": "Meyer May House",
+   "kind": "museum",
+   "address": "450 Madison Avenue Southeast, Grand Rapids",
+   "website": "https://meyermayhouse.steelcase.com/",
+   "phone": "",
+   "latitude": 42.9541968,
+   "longitude": -85.6587631
+  },
+  {
+   "name": "Gerald R. Ford Presidential Museum",
+   "kind": "museum",
+   "address": "303 Pearl Street Northwest, 49504, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9684258,
+   "longitude": -85.6774271
+  },
+  {
+   "name": "Frederik Meijer Gardens and Sculpture Park",
+   "kind": "museum",
+   "address": "1000 East Beltline Avenue Northeast, 49525, Grand Rapids",
+   "website": "https://www.meijergardens.org/",
+   "phone": "",
+   "latitude": 42.9790861,
+   "longitude": -85.5836612
+  },
+  {
+   "name": "Grand Rapids Model Railroad Historical Society",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.grmrhs.org/",
+   "phone": "",
+   "latitude": 43.0365822,
+   "longitude": -85.6706807
+  },
+  {
+   "name": "Muse SE",
+   "kind": "gallery",
+   "address": "501 Eastern Avenue Southeast, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9536164,
+   "longitude": -85.6495472
+  },
+  {
+   "name": "DreamPirate Gallery",
+   "kind": "gallery",
+   "address": "136 Division Avenue South, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9598739,
+   "longitude": -85.6674772
+  },
+  {
+   "name": "Muse GR",
+   "kind": "gallery",
+   "address": "727 Leonard Street Northwest, 49504, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.985367,
+   "longitude": -85.6866504
+  },
+  {
+   "name": "AllArtWorks Viewing Studio",
+   "kind": "gallery",
+   "address": "333 Cesar E Chavez Avenue Southwest, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.956665,
+   "longitude": -85.6746014
+  },
+  {
+   "name": "106 Gallery",
+   "kind": "gallery",
+   "address": "106 Division Avenue South, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.96053,
+   "longitude": -85.6673505
+  },
+  {
+   "name": "Avenue for the Arts Artposts",
+   "kind": "gallery",
+   "address": "24 Fountain Street Northeast, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9650761,
+   "longitude": -85.666653
+  },
+  {
+   "name": "Canal Park Presented by SILVA",
+   "kind": "gallery",
+   "address": "941 Monroe Avenue Northwest, 49503, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9804227,
+   "longitude": -85.6722397
+  },
+  {
+   "name": "The McKendrick Building",
+   "kind": "gallery",
+   "address": "1443 Wealthy Street Southeast, 49506, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9553027,
+   "longitude": -85.6336435
+  },
+  {
+   "name": "Grand Rapids Children's Museum",
+   "kind": "museum",
+   "address": "11 Sheldon Avenue Northeast, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9636763,
+   "longitude": -85.6672511
+  },
+  {
+   "name": "Grand Rapids African American Museum and Archives",
+   "kind": "museum",
+   "address": "87 Monroe Center Street Northwest, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9647264,
+   "longitude": -85.6700054
+  },
+  {
+   "name": "Cultivate",
+   "kind": "gallery",
+   "address": "620 Wealthy Street Southeast, Grand Rapids",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9554986,
+   "longitude": -85.6533062
+  },
+  {
+   "name": "Caulkins Law Office",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9611632,
+   "longitude": -85.6631193
+  },
+  {
+   "name": "Van Andel Living Shores",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9630713,
+   "longitude": -85.7042494
+  },
+  {
+   "name": "John Ball Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9637252,
+   "longitude": -85.7046802
+  },
+  {
+   "name": "Viewing Hill",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9820002,
+   "longitude": -85.584976
+  },
+  {
+   "name": "Trail Hub",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9200661,
+   "longitude": -85.7718464
+  },
+  {
+   "name": "Trail Head",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9218235,
+   "longitude": -85.768054
+  }
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "city": "Alpena",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 45.0687,
+ "longitude": -83.4387,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 River Street, 49707, Alpena",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/alpena/apnes/hoteldetail"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 US 23 North, 49707, Alpena",
+   "url": "https://www.wyndhamhotels.com/hotels/alpena-michigan?brand_id=RA"
+  },
+  {
+   "name": "Days Inn by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1496 M-32 West, 49707, Alpena",
+   "url": "https://www.wyndhamhotels.com/days-inn/alpena-michigan/days-inn-alpena/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1060 Crittenden Court, 49707, Alpena",
+   "url": "https://www.hilton.com/en/locations/usa/michigan/alpena/indoor-pool/hampton-by-hilton/"
+  },
+  {
+   "name": "Alpena Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1285 M 32 West, 49707, Alpena",
+   "url": "https://www.alpenaresorts.com/"
+  },
+  {
+   "name": "40 Winks Motel & Vacation Rentals",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1021 South State Avenue, 49707, Alpena",
+   "url": "https://40winksmotel.com/"
+  },
+  {
+   "name": "Water's Edge Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 South State Avenue, 49707, Alpena",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1468 M-32 West, 49707, Alpena",
+   "website": "https://restaurants.applebees.com/en-us/mi/alpena/1468-m-32-west-97003"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2131 US 23 South, 49707, Alpena",
+   "website": "https://locations.pizzahut.com/mi/alpena/2131-us-23-so"
+  },
+  {
+   "name": "The Bulldog",
+   "cuisines": [
+    "Pizza",
+    "Hot Dog",
+    "Fries"
+   ],
+   "address": "125 North 2nd Avenue, 49707, Alpena",
+   "website": "https://bobsbullpen.com/"
+  },
+  {
+   "name": "Pompeyos Mexical Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1120 South State Avenue, 49707, Alpena",
+   "website": "https://www.facebook.com/profile.php?id=100063639037783"
+  },
+  {
+   "name": "Red Brick Tap and Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "109 River Street, 49707, Alpena",
+   "website": "https://www.redbricktap.com/"
+  },
+  {
+   "name": "Jimmy Chen's Hunan Chinese Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Thai"
+   ],
+   "address": "1283 M 32 West, 49707, Alpena",
+   "website": "https://www.facebook.com/Jimmychenshunanchineserestaurant/"
+  },
+  {
+   "name": "Twin Acres 19th Hole",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1081 US-23 North, 49707, Alpena",
+   "website": "https://www.twinacres19thhole.com/"
+  },
+  {
+   "name": "Court Yard Ristorante & Olde Roost Lounge",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2024 US 23, 49707, Alpena",
+   "website": "https://courtyardristorante.com/"
+  },
+  {
+   "name": "808 Bowlz",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "119 River Street, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Grand China Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2270 South State Avenue, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "The Nest",
+   "cuisines": [
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "628 West Chisholm Street, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Starlite Bay Cafe",
+   "cuisines": [
+    "Diner",
+    "American"
+   ],
+   "address": "2205 US 23 South, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Mangos Tequila Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "121 West Chisholm Street, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Freier's Pizzeria Italian Bistro LLC",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "424 West Chisholm Street, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Mandarin Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2401 US 23 South, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "The Old Polish Corner",
+   "cuisines": [
+    "American",
+    "Polish"
+   ],
+   "address": "626 North 2nd Avenue, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Chee Peng Chinese & Thai Restaurant",
+   "cuisines": [
+    "Chinese",
+    "Thai"
+   ],
+   "address": "1237 US 23 North, 49707, Alpena",
+   "website": ""
+  },
+  {
+   "name": "Big Boy",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hungry Hippie",
+   "cuisines": [],
+   "address": "510 North Ripley Boulevard, 49707, Alpena",
+   "website": "https://www.hungry-hippie.com/"
+  },
+  {
+   "name": "Mancino's Pizza & Grinders",
+   "cuisines": [],
+   "address": "1235 South State Avenue, 49707, Alpena",
+   "website": "https://www.mancinosnorth.com/"
+  },
+  {
+   "name": "The Burger Shack",
+   "cuisines": [],
+   "address": "2192 US 23 South, 49707, Alpena",
+   "website": "https://www.thunderbowlinc.com/"
+  },
+  {
+   "name": "JJ's Steak & Pizza House",
+   "cuisines": [],
+   "address": "411 North 2nd Avenue, 49707, Alpena",
+   "website": "https://www.jjspizzas.com/"
+  },
+  {
+   "name": "John Boy's Restaurant",
+   "cuisines": [],
+   "address": "817 West Chisholm Street, 49707, Alpena",
+   "website": "https://johnboysgoodeats.com/"
+  },
+  {
+   "name": "Rolin Lynx Bar & Grill",
+   "cuisines": [],
+   "address": "1135 Golf Course Road, 49707, Alpena",
+   "website": "https://www.alpenagolfclub.com/bar-grill/"
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Besser Museum",
+   "kind": "museum",
+   "address": "491 Johnson Street, 49707, Alpena",
+   "website": "https://www.bessermuseum.org/",
+   "phone": "",
+   "latitude": 45.0808086,
+   "longitude": -83.4484533
+  },
+  {
+   "name": "Art in the Loft",
+   "kind": "gallery",
+   "address": "109 North 2nd Avenue, 49707, Alpena",
+   "website": "https://www.artintheloft.org/",
+   "phone": "",
+   "latitude": 45.0627917,
+   "longitude": -83.4332626
+  },
+  {
+   "name": "Great Lakes Maritime Heritage Center",
+   "kind": "museum",
+   "address": "500 West Fletcher Street, 49707, Alpena",
+   "website": "https://thunderbay.noaa.gov/visit/great-lakes-maritime-heritage-center.html",
+   "phone": "+1-989-356-8805",
+   "latitude": 45.0686806,
+   "longitude": -83.4347141
+  },
+  {
+   "name": "Arzo Sports and Fun Park",
+   "kind": "theme park",
+   "address": "2516 Bloom Road, 49707, Alpena",
+   "website": "https://www.arzopark.com/index.html",
+   "phone": "+1-989-358-1111",
+   "latitude": 45.1349506,
+   "longitude": -83.4399882
+  },
+  {
+   "name": "Lady Michigan",
+   "kind": "attraction",
+   "address": "500 W. Fletcher Street, 49707, Alpena",
+   "website": "https://thunderbayfriends.org/index.php/alpena-shipwreck-tours/",
+   "phone": "",
+   "latitude": 45.067282,
+   "longitude": -83.4345544
+  },
+  {
+   "name": "Spaceship Simulator",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.1346024,
+   "longitude": -83.4406656
+  }
+ ]
+}

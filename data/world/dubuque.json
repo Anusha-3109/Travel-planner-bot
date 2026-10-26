@@ -1,0 +1,891 @@
+{
+ "city": "Dubuque",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.4999,
+ "longitude": -90.6619,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hotel Julien Dubuque",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Main Street, 52001, Dubuque",
+   "url": "https://hoteljuliendubuque.com/"
+  },
+  {
+   "name": "Redstone Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "504 Bluff Street, 52001, Dubuque",
+   "url": "http://www.theredstoneinn.com/"
+  },
+  {
+   "name": "The Hancock House Bed and Breakfast Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "TownePlace Suites Dubuque Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1151 Washington Street, 52001, Dubuque",
+   "url": "https://www.marriott.com/hotels/travel/dbqts-towneplace-suites-dubuque-downtown/"
+  },
+  {
+   "name": "Holiday Inn Dubuque/Galena",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "450 Main Street, 52001, Dubuque",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/dubuque/dbqia/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-DBQIA"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3434 Dodge Street, 52003, Dubuque",
+   "url": "https://www.hilton.com/en/hotels/dbqiahx-hampton-dubuque/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1315 Associates Drive, 52003, Dubuque",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-dubuque-ia"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4025 McDonald Drive, 52003, Dubuque",
+   "url": "https://www.wyndhamhotels.com/baymont/dubuque-iowa/baymont-inn-and-suites-dubuque/overview"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3100 Dodge Street, 52003, Dubuque",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-dubuque/best-western-plus-dubuque-hotel-conference-center/propertyCode.16073.html"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2730 Dodge Street, 52003, Dubuque",
+   "url": "https://www.wyndhamhotels.com/super-8/dubuque-iowa/super-8-dubuque/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham Dubuque",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1111 Dodge Street, 52003, Dubuque",
+   "url": "https://www.wyndhamhotels.com/days-inn/dubuque-iowa/days-inn-dubuque/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2670 Dodge Street, 52003, Dubuque",
+   "url": "https://www.choicehotels.com/wisconsin/platteville/country-inn-suites-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1801 Greyhound Park Road, 52001, Dubuque",
+   "url": "https://www.hilton.com/en/hotels/dbqdtgi-hilton-garden-inn-dubuque-downtown/"
+  },
+  {
+   "name": "Dubuque Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3400 Dodge Street, 52003, Dubuque",
+   "url": "https://www.choicehotels.com/iowa/dubuque/choice-hotels/ia374"
+  },
+  {
+   "name": "Country Heights Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1154 Badger Road, 53811, Hazel Green",
+   "url": "https://countryheightssupperclubandmotel.com/"
+  },
+  {
+   "name": "Kick it",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2405 Rhomberg Avenue, 52001",
+   "url": "https://dli.com/"
+  },
+  {
+   "name": "Grand Harbor Resort & Waterpark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "350 Bell Street, 52001, Dubuque",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2080 Holliday Drive, 52002, Dubuque",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn East Dubuque",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7787 Timmerman Drive, 61025, East Dubuque",
+   "url": ""
+  },
+  {
+   "name": "Richards House Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1492 Locust Street, 52001, Dubuque",
+   "url": ""
+  },
+  {
+   "name": "Canfield Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Drake House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1118",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "MainStay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Key Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Terrace Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Swiss Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Dottie's Cafe",
+   "cuisines": [
+    "Diner",
+    "Breakfast"
+   ],
+   "address": "504 Central Avenue, 52001, Dubuque",
+   "website": "https://dottiescafe.business.site/"
+  },
+  {
+   "name": "HuHot",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "555 John F Kennedy Road, 52002, Dubuque",
+   "website": "https://www.huhot.com/location/dubuque-ia/"
+  },
+  {
+   "name": "Vinny Vanucchi's Little Italy",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "180 Main Street, 52001, Dubuque",
+   "website": "https://www.vinnysdubuque.com/"
+  },
+  {
+   "name": "Caroline's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "200 Main Street, 52001, Dubuque",
+   "website": "https://hoteljuliendubuque.com/dining/carolines-restaurant/"
+  },
+  {
+   "name": "1st & Main",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "101 Main Street, 52001, Dubuque",
+   "website": "https://1standmaindbq.com/index.htm"
+  },
+  {
+   "name": "Shot Tower Inn",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "390 Locust Street, 52001, Dubuque",
+   "website": "https://www.shottowerinn.net/"
+  },
+  {
+   "name": "Pepper Sprout",
+   "cuisines": [
+    "Bistro"
+   ],
+   "address": "378 Main Street, 52001, Dubuque",
+   "website": "http://www.peppersprout.com/"
+  },
+  {
+   "name": "Houlihan's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1801 Greyhound Park Road, 52001, Dubuque",
+   "website": "https://www.houlihans.com/location/dubuque-houlihans/"
+  },
+  {
+   "name": "Happy Joe's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1094 University Avenue, 52001, Dubuque",
+   "website": "https://www.happyjoes.com/"
+  },
+  {
+   "name": "Tony Roma's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "350 Bell Street, 52001, Dubuque",
+   "website": "https://tonyromas.com/location/Dubuque/"
+  },
+  {
+   "name": "Brazen Open Kitchen | Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "955 Washington Street, 52001, Dubuque",
+   "website": "https://www.brazenopenkitchen.com/"
+  },
+  {
+   "name": "Ichiban Steakhouse & Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "3187 University Avenue, 52001, Dubuque",
+   "website": "https://www.ichibandbq.com/"
+  },
+  {
+   "name": "Barrel House",
+   "cuisines": [
+    "Bar And Grill"
+   ],
+   "address": "299 Main Street, 52001, Dubuque",
+   "website": "https://www.barrelhousepub.com/"
+  },
+  {
+   "name": "Flatted Fifth at Dimensional",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "67 Main Street, 52001, Dubuque",
+   "website": "https://static1.squarespace.com/static/5368f600e4b09e8405d84b23/t/62470f4917f7b01035c70591/1648824140014/2022+Dimensional+Menu+Final.pdf"
+  },
+  {
+   "name": "River Rock Kitchen & Tap",
+   "cuisines": [
+    "American"
+   ],
+   "address": "450 Main Street, 52001, Dubuque",
+   "website": "https://www.riverrockkitchenandtap.com/"
+  },
+  {
+   "name": "Foodie Garage Eatery",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1046 Central Avenue, 52001, Dubuque",
+   "website": "https://foodiegarageeatery.com/"
+  },
+  {
+   "name": "Los Aztecas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2700 Dodge Street, 52003, Dubuque",
+   "website": "https://losaztecasdubuqueandgalena.com"
+  },
+  {
+   "name": "Town Clock Inn",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "799 Main Street, 52001, Dubuque",
+   "website": "https://www.townclockpizza.com/"
+  },
+  {
+   "name": "Adobos Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "756 Main Street, 52001, Dubuque",
+   "website": "https://foodeist.com/place/adobos-mexican-grill"
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "800 Wacker Drive, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Old Chicago",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3100 Dodge Street, 52003, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3415 Stoneman Road, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1940 John F Kennedy Road, 52001, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "845 Wacker Drive, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3350 Dodge Street, 52003, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1215 East 16th Street, 52001, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Dubuque Mining Co.",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "555 John F Kennedy Road, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Oolong Asian Cuisine",
+   "cuisines": [
+    "Asian",
+    "Vietnamese",
+    "Thai"
+   ],
+   "address": "145 West 11th Street, 52001, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "La Leona",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2075 John F Kennedy Road, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Pete's Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "609 East 22nd Street, 52001, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Europa Haus Restaurant & Bier Stube",
+   "cuisines": [
+    "German"
+   ],
+   "address": "1301 Rhomberg Avenue, 52001, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Sunshine Family Restaurant West",
+   "cuisines": [
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "1575 John F Kennedy Road, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "The Point",
+   "cuisines": [
+    "American"
+   ],
+   "address": "52001",
+   "website": ""
+  },
+  {
+   "name": "Mario's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "52001",
+   "website": ""
+  },
+  {
+   "name": "Magoo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Catfish Charlie's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "House of China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Falbo Bros. Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Your Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Vault Restaurant & Cocktail Lounge",
+   "cuisines": [],
+   "address": "342 Main Street, 52001, Dubuque",
+   "website": "https://www.thevaultdubuque.com/"
+  },
+  {
+   "name": "Sunshine Family Restaurant",
+   "cuisines": [],
+   "address": "401 Central Avenue, 52001, Dubuque",
+   "website": "https://www.facebook.com/pages/Sunshine-Cafe/216970428327288"
+  },
+  {
+   "name": "West Dubuque Tap",
+   "cuisines": [],
+   "address": "1701 Asbury Road, 52002, Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Timmerman's Supper Club",
+   "cuisines": [],
+   "address": "7777 Timmerman Drive, 61025, East Dubuque",
+   "website": ""
+  },
+  {
+   "name": "Marco's Italian & American",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy's Place",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "L.May Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "National Mississippi River Museum & Aquarium",
+   "kind": "museum",
+   "address": "350 East 3rd Street, 52001, Dubuque",
+   "website": "https://www.rivermuseum.com/",
+   "phone": "+15635579545",
+   "latitude": 42.4966842,
+   "longitude": -90.6613173
+  },
+  {
+   "name": "William M. Black",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4954188,
+   "longitude": -90.6621192
+  },
+  {
+   "name": "Tavern",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4955041,
+   "longitude": -90.6619592
+  },
+  {
+   "name": "Fenelon Place Elevator",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4964824,
+   "longitude": -90.6690312
+  },
+  {
+   "name": "Crystal Lake Cave",
+   "kind": "attraction",
+   "address": "6684 Crystal Lake Cave Road, 52003, Dubuque",
+   "website": "https://crystallakecave.com/",
+   "phone": "+1-563-556-6451",
+   "latitude": 42.433762,
+   "longitude": -90.6204001
+  },
+  {
+   "name": "Voices Studios",
+   "kind": "gallery",
+   "address": "1585 Central Avenue, 52001, Dubuque",
+   "website": "https://voicesstudios.org/",
+   "phone": "",
+   "latitude": 42.507734,
+   "longitude": -90.6687384
+  },
+  {
+   "name": "Dark Chambers Haunted Attraction",
+   "kind": "attraction",
+   "address": "1341 Frontage Road, 53811",
+   "website": "https://www.darkchambers.com/",
+   "phone": "+1-563-239-0367",
+   "latitude": 42.5553478,
+   "longitude": -90.6105801
+  },
+  {
+   "name": "Towboat Logsdon",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.rivermuseum.org/",
+   "phone": "",
+   "latitude": 42.4962825,
+   "longitude": -90.6606727
+  },
+  {
+   "name": "National Rivers Hall of Fame",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.rivermuseum.com/national-rivers-hall-of-fame",
+   "phone": "",
+   "latitude": 42.4956216,
+   "longitude": -90.6588494
+  },
+  {
+   "name": "Diamond Jo National River Center",
+   "kind": "museum",
+   "address": "400 East 3rd Street, 52001, Dubuque",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4956376,
+   "longitude": -90.6591947
+  },
+  {
+   "name": "E B Lyons Nature Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4597906,
+   "longitude": -90.664129
+  },
+  {
+   "name": "Mississippi Mud Studios",
+   "kind": "gallery",
+   "address": "406 East 7th Street, 52001, Dubuque",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5018195,
+   "longitude": -90.6597867
+  },
+  {
+   "name": "Riverwalk Pier",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4956106,
+   "longitude": -90.6564844
+  },
+  {
+   "name": "Ham House Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5313335,
+   "longitude": -90.6506091
+  },
+  {
+   "name": "Horseshoe Bluff",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4640077,
+   "longitude": -90.6379436
+  },
+  {
+   "name": "Dunleith Aquatic Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4957915,
+   "longitude": -90.6226697
+  },
+  {
+   "name": "River Viewing Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5372395,
+   "longitude": -90.6455894
+  },
+  {
+   "name": "Allison Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5379453,
+   "longitude": -90.6462466
+  },
+  {
+   "name": "Shiras Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.5376227,
+   "longitude": -90.6458953
+  },
+  {
+   "name": "Observation Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4595817,
+   "longitude": -90.6331227
+  },
+  {
+   "name": "Ampitheater",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4621019,
+   "longitude": -90.6342206
+  },
+  {
+   "name": "Storybook Park & Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.4685176,
+   "longitude": -90.7289292
+  }
+ ]
+}

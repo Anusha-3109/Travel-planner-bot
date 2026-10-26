@@ -13,8 +13,12 @@ from the price stored with that id: flights and transit fares per person, a
 live stay's nightly price for the whole booking, and a live restaurant's
 estimated cost per person (the middle of Google's price range).
 
-Some prices don't exist (estimated flights, many restaurants outside the US,
-transit fares Google doesn't publish). Those items are listed as unpriced
+Without a live id, a flight is an estimated flight time (no price) and a
+drive or taxi ride is estimated from the distance between the city centres
+(driving in the US at the IRS mileage rate; taxis have no fares).
+
+Some prices don't exist (estimated flights, snapshot restaurants and
+OpenStreetMap stays, transit fares Google doesn't publish). Those items are listed as unpriced
 rather than guessed, and the budget check says it is incomplete. Totals can be
 shown in any currency at today's exchange rate.
 """
@@ -31,7 +35,7 @@ from pydantic import BaseModel, Field
 from live import fx, items
 from live.http import LiveDataError
 from security.validation import InputValidationError, validate_budget, validate_people
-from travel_data.catalog import SELF_DRIVING_SEATS, TAXI_SEATS, load_catalog
+from travel_data.catalog import SELF_DRIVING_SEATS, TAXI_SEATS, GroundRoute, load_catalog
 
 HouseRule = Literal["smoking", "parties", "children under 10", "visitors", "pets"]
 RoomType = Literal["entire room", "private room", "shared room", "not shared room"]
@@ -41,11 +45,12 @@ TransportRule = Literal["no flight", "no self-driving"]
 class Transport(BaseModel):
     mode: Literal["flight", "self-driving", "taxi", "transit"]
     item_id: str | None = Field(
-        default=None, description="The id of a live flight ('flight-...') from search_flights or a public "
-                                  "transport route ('transit-...') from get_local_transport.")
+        default=None, description="The id of a live flight ('flight-...') from search_flights, a public "
+                                  "transport route ('transit-...') from get_local_transport, or a drive "
+                                  "('drive-...') from either tool for self-driving or a taxi.")
     flight_number: str | None = Field(
-        default=None, description="For snapshot US flights from search_flights, e.g. 'F3792603'. Leave item_id "
-                                  "and flight_number empty for an estimated flight.")
+        default=None, description="A live flight's number when its id is unknown, e.g. 'BA 548'. Leave item_id "
+                                  "and flight_number empty for an estimated flight (no price).")
     origin: str | None = Field(default=None, description="Required for self-driving, taxi and estimated flights.")
     destination: str | None = Field(default=None, description="Required for self-driving, taxi and estimated flights.")
 
@@ -228,9 +233,6 @@ def _day_cities(day: DayPlan) -> list[str]:
     names = [day.city]
     if day.transportation:
         names += [day.transportation.origin or "", day.transportation.destination or ""]
-        flight = catalog.flights_by_number.get((day.transportation.flight_number or "").upper())
-        if flight:
-            names += [flight.origin, flight.destination]
     return list(dict.fromkeys(c for c in (catalog.city_name(n) for n in names if n) if c))
 
 
@@ -253,12 +255,12 @@ def _resolve_transport(transport: Transport, day: int, catalog, unknown: list[st
             return None
         return EstimatedFlight(origin, destination, estimate["distance_km"])
     if transport.mode == "flight":
-        flight = (catalog.flights_by_number.get((transport.flight_number or "").upper())
-                  or _live_by_name(transport.flight_number or "", "flight"))
+        flight = _live_by_name(transport.flight_number or "", "flight")
         if not flight:
-            unknown.append(f"day {day}: flight '{transport.flight_number}'")
+            unknown.append(f"day {day}: flight '{transport.flight_number}' (search flights again and use its id)")
         return flight
-    route = catalog.ground.get((transport.mode, (origin or "").lower(), (destination or "").lower()))
+    # No live drive id: estimate the drive from the distance between the city centres.
+    route = catalog.estimate_drive(transport.mode, origin, destination) if origin and destination else None
     if not route:
         unknown.append(f"day {day}: {transport.mode} from '{transport.origin}' to '{transport.destination}'")
     return route
@@ -339,6 +341,8 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
         totals_usd[group] += cost
 
     def label(item) -> str:
+        if isinstance(item, GroundRoute):
+            return "estimate"
         checked = getattr(item, "checked_at", None)
         return f"live (checked {checked})" if checked is not None else "snapshot"
 
@@ -356,12 +360,12 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
             add(n, "transportation", f"Flight {transport.number}, {transport.origin} → {transport.destination}",
                 transport.price, people, label(transport))
         else:
-            note = ""
-            if isinstance(transport, LiveDrive):
-                note = " (IRS-rate estimate)" if transport.cost is not None else " (no fare data)"
+            note = " (IRS-rate estimate)" if transport.cost is not None else " (no fare data)"
+            if isinstance(transport, GroundRoute):
+                note = f" (~{transport.distance_km:,.0f} km by road, estimated from the distance){note}"
             add(n, "transportation", f"{transport.mode.title()}, {transport.origin} → {transport.destination}{note}",
                 transport.cost, transport.vehicles_needed(people), label(transport),
-                estimate="IRS 2026 mileage rate, fuel and running costs" if note == " (IRS-rate estimate)" else None)
+                estimate="IRS 2026 mileage rate, fuel and running costs" if transport.cost is not None else None)
 
     for day in resolved["days"]:
         n = day["day"]
@@ -375,8 +379,9 @@ def compute_cost(plan: TripPlan | dict, resolved: dict | None = None) -> dict:
                     estimate="middle of Google's price range per person" if isinstance(restaurant, LiveRestaurant) else None)
         stay = day["accommodation"]
         if stay:
-            add(n, "accommodation", f"{stay.name}, {stay.city} (1 night)", stay.price, stay.rooms_needed(people),
-                label(stay))
+            add(n, "accommodation", f"{stay.name}, {stay.city} (1 night)"
+                + ("" if stay.price is not None else " (no price in the snapshot; search stays live)"),
+                stay.price, stay.rooms_needed(people), label(stay))
 
     currency, rates, notes = (plan.currency or "USD").strip().upper(), None, []
     if currency != "USD":
@@ -513,10 +518,9 @@ def _error(error: Exception) -> str:
 @tool
 def calculate_trip_cost(plan: TripPlan) -> str:
     """Add up the cost of a day-by-day plan. Use the ids of live results
-    (flight-, stay-, restaurant-, transit-) from the search tools, or exact
-    snapshot names and flight numbers. Flights, meals and transit fares are per
-    person; a live stay's nightly price covers the whole booking; snapshot cars
-    seat 5 and taxis 4. currency sets the budget's and the totals' currency.
+    (flight-, stay-, restaurant-, transit-, drive-) from the search tools, or exact
+    snapshot place names. Flights, meals and transit fares are per person; a
+    live stay's nightly price covers the whole booking; cars seat 5 and taxis 4. currency sets the budget's and the totals' currency.
     Returns a line-by-line breakdown marked live or snapshot, the total, whether
     it fits the budget, and items with no price (they aren't in the total)."""
     try:

@@ -1,0 +1,431 @@
+{
+ "city": "North Platte",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.1285,
+ "longitude": -100.7627,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "602 East 4th Street, 69101, North Platte",
+   "url": "https://www.redlion.com/north-platte"
+  },
+  {
+   "name": "Hampton Inn North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Platte Oasis Parkway, 69101, North Platte",
+   "url": "https://www.hilton.com/en/hotels/lbfnehx-hampton-north-platte/"
+  },
+  {
+   "name": "Super 8 North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "220 West Eugene Avenue, 69101, North Platte",
+   "url": "https://www.wyndhamhotels.com/super-8/north-platte-nebraska/super-8-north-platte/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "319 West South River Road, 69101, North Platte",
+   "url": "https://www.marriott.com/lbffi"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 Halligan Drive, 69101, North Platte",
+   "url": "https://www.choicehotels.com/nebraska/north-platte/rodeway-inn-hotels/ne117"
+  },
+  {
+   "name": "Days Inn North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3102 South Jeffers Street, 69101, North Platte",
+   "url": "https://www.wyndhamhotels.com/days-inn/north-platte-nebraska/days-inn-north-platte/overview"
+  },
+  {
+   "name": "BEST WESTERN PLUS North Platte Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3201 South Jeffers Street, 69101-6880, North Platte",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-north-platte/best-western-plus-north-platte-inn-suites/propertyCode.28074.html"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2102 South Jeffers Street, 69101, North Platte",
+   "url": "https://www.wyndhamhotels.com/ramada/north-platte-nebraska/ramada-by-wyndham-north-platte/overview"
+  },
+  {
+   "name": "La Quinta Inn & Suites North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/north-platte-nebraska/la-quinta-north-platte/overview"
+  },
+  {
+   "name": "Pawnee Retirement Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "221 East 5th Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "920 North Jeffers Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Holiday Frontage Road, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "North Platte Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1209 South Dewey Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Country Inn North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "321 South Dewey Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Husker Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "721 East 4th Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Blue Spruce Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "821 South Dewey Street, 69101, North Platte",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Oak Tree Inn North Platte",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bronco Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Good Life on the Bricks",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "402 North Dewey Street, 69101, North Platte",
+   "website": "https://www.goodlifeonthebricks.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/ne/north-platte/102-platte-oasis-parkway-90039"
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2302 South Jeffers Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Ruby Tuesday",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2320 South Jeffers Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "King's Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "402 East Leota Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "520 East Philip Avenue, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Merricks Ranch House",
+   "cuisines": [
+    "American",
+    "Regional",
+    "Burger",
+    "Sandwich",
+    "Chicken",
+    "Fish And Chips"
+   ],
+   "address": "1220 East 4th Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Noel's Taco Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "320 East Francis Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Amigo's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "1210 South Jeffers Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Penny's Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "451 Halligan Drive, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Luigi's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "504 South Jeffers Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Village Inn",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pepperjax Grill",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1313 South Dewey Street",
+   "website": ""
+  },
+  {
+   "name": "Hunan Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Royal Wok",
+   "cuisines": [],
+   "address": "1318 South Chestnut Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Canteen Bar & Grille",
+   "cuisines": [],
+   "address": "2102 South Jeffers Street, 69101, North Platte",
+   "website": ""
+  },
+  {
+   "name": "Pal's Brewing Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Cedar Room",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tempura",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Golden Spike Tower",
+   "kind": "viewpoint",
+   "address": "1249 North Homestead Rd., 69101, Northplatte",
+   "website": "https://goldenspiketower.com/",
+   "phone": "+1-308-532-9920",
+   "latitude": 41.144393,
+   "longitude": -100.8293864
+  },
+  {
+   "name": "Lincoln County Historical Museum",
+   "kind": "museum",
+   "address": "2403 North Buffalo Bill Avenue, North Platte",
+   "website": "https://lincolncountymuseum.org/",
+   "phone": "",
+   "latitude": 41.1603124,
+   "longitude": -100.7907769
+  },
+  {
+   "name": "Fort Cody Trading Post",
+   "kind": "attraction",
+   "address": "221 Halligan Drive, North Platte",
+   "website": "",
+   "phone": "+1 308-532-8081",
+   "latitude": 41.1135895,
+   "longitude": -100.7627449
+  },
+  {
+   "name": "North Platte Area Children's Museum",
+   "kind": "museum",
+   "address": "314 North Jeffers Street, 69101, North Platte",
+   "website": "",
+   "phone": "",
+   "latitude": 41.136196,
+   "longitude": -100.7637165
+  },
+  {
+   "name": "Cody Park Railroad Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1476816,
+   "longitude": -100.7529287
+  }
+ ]
+}

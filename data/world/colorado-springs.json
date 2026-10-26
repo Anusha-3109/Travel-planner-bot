@@ -1,0 +1,2541 @@
+{
+ "city": "Colorado Springs",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 38.8352,
+ "longitude": -104.8642,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "The Antlers",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4 South Cascade Avenue, 80903, Colorado Springs",
+   "url": "https://www.antlers.com/"
+  },
+  {
+   "name": "The Cliff House",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "306 Cañon Avenue, 80829, Manitou Springs",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Colorado Springs South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2765 Geyser Drive, 80906, Colorado Springs",
+   "url": "https://www.marriott.com/cosri"
+  },
+  {
+   "name": "Hampton Inn & Suites Colorado Springs/I-25 South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2910 Geyser Drive, 80906, Colorado Springs",
+   "url": "https://www.hilton.com/en/hotels/coswahx-hampton-suites-colorado-springs-i-25-south/"
+  },
+  {
+   "name": "Colorado Springs Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5580 Tech Center Drive, 80919, Colorado Springs",
+   "url": "https://www.marriott.com/en-us/hotels/cosmc-colorado-springs-marriott/overview/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Colorado Springs South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2725 Geyser Drive, 80906, Colorado Springs",
+   "url": "https://www.marriott.com/cosfs"
+  },
+  {
+   "name": "The Mining Exchange Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8 South Nevada Avenue, 80903, Colorado Springs",
+   "url": "https://www.wyndhamhotels.com/en-uk/registry-collection/colorado-springs-colorado/the-mining-exchange-a-registry-collection-hotel/overview"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4604 Rusina Road, 80907, Colorado Springs",
+   "url": "https://www.wyndhamhotels.com/super-8/colorado-springs-colorado/super-8-colo-sprs-garden-of-the-gods/overview"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "123 North Cascade Avenue, 80903, Colorado Springs",
+   "url": "https://www.hilton.com/en/hotels/cosgigi-hilton-garden-inn-colorado-springs-downtown/"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2750 Geyser Drive, 80906, Colorado Springs",
+   "url": "https://www.wyndhamhotels.com/laquinta/colorado-springs-colorado/la-quinta-colorado-springs-south-ap/overview"
+  },
+  {
+   "name": "Courtyard Colorado Springs South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2570 Tenderfoot Hill Street, 80906, Colorado Springs",
+   "url": "https://www.marriott.com/coscs"
+  },
+  {
+   "name": "TownePlace Suites Colorado Springs Garden of the Gods",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4760 Centennial Boulevard, 80919, Colorado Springs",
+   "url": "https://www.marriott.com/costs"
+  },
+  {
+   "name": "SCP Hotel Colorado Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2850 Circle Drive, 80906, Colorado Springs",
+   "url": "https://www.scphotel.com/colorado-springs/"
+  },
+  {
+   "name": "Econo Lodge Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "714 North Nevada Avenue, 80903, Colorado Springs",
+   "url": "http://www.econolodge.com/hotel-colorado_springs-colorado-CO078"
+  },
+  {
+   "name": "Days Inn by Wyndham Manitou Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Manitou Avenue, 80829, Manitou Springs",
+   "url": "https://www.wyndhamhotels.com/days-inn/manitou-springs-colorado/days-inn-manitou-springs/overview"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1235 Tenderfoot Hill Road, 80906, Colorado Springs",
+   "url": "https://www.hilton.com/en/hotels/denssht-home2-suites-colorado-springs-south/"
+  },
+  {
+   "name": "SpringHill Suites Colorado Springs Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "402 South Tejon Street, 80903, Colorado Springs",
+   "url": "https://www.marriott.com/en-us/hotels/cossd-springhill-suites-colorado-springs-downtown/overview/"
+  },
+  {
+   "name": "Hyatt Place Colorado Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "503 West Garden of the Gods Road, 80907, Colorado Springs",
+   "url": "https://www.hyatt.com/en-us/hotel/colorado/hyatt-place-colorado-springs-garden-of-the-gods/coszc"
+  },
+  {
+   "name": "St. Mary's Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "530 North Nevada Avenue, 80903, Colorado Springs",
+   "url": "https://thestmarysinn.com/"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1440 Harrison Road, 80905, Colorado Springs",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-colorado-springs/best-western-executive-inn-suites/propertyCode.06167.html"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 East Kiowa Street, 80903, Colorado Springs",
+   "url": "https://www.hyatt.com/en-US/hotel/colorado/hyatt-place-colorado-springs-downtown/denzp"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1775 East Cheyenne Mountain Boulevard, 80906, Colorado Springs",
+   "url": "https://www.hilton.com/en/hotels/cosp-dt-doubletree-colorado-springs/"
+  },
+  {
+   "name": "Quality Inn & Suites Manitou Springs at Pikes Peak",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "103 Manitou Avenue, 80829, Manitou Springs",
+   "url": "https://www.choicehotels.com/colorado/manitou-springs/econo-lodge-hotels/co244"
+  },
+  {
+   "name": "Howard Johnson by Wyndham Colorado Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1231 South Nevada Avenue, 80903, Colorado Springs",
+   "url": "https://www.wyndhamhotels.com/hojo/colorado-springs-colorado/howard-johnson-express-inn-colorado-springs/overview"
+  },
+  {
+   "name": "Days Inn by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4610 Rusina Road, 80907, Colorado Springs",
+   "url": "https://www.wyndhamhotels.com/days-inn/colorado-springs-colorado/days-inn-colorado-springs-garden-of-the-gods/overview"
+  },
+  {
+   "name": "Element Colorado Springs Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 East Costilla Street, 80903, Colorado Springs",
+   "url": "https://www.marriott.com/en-us/hotels/cosed-element-colorado-springs-downtown/overview/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites - Manitou Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "114 Manitou Avenue, 80829, Manitou Springs",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/manitou-springs/cosms/hoteldetail"
+  },
+  {
+   "name": "Extended Stay America - Colorado Springs - West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5855 Corporate Drive, 80919, Colorado Springs",
+   "url": "https://www.extendedstayamerica.com/hotels/co/colorado-springs/west"
+  },
+  {
+   "name": "Park Inn by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3228 North Chestnut Street, 80907, Colorado Springs",
+   "url": "https://www.motel6.com/content/g6/en/home/motels.co.colorado-springs.9308.html"
+  },
+  {
+   "name": "La Quinta Inn Colorado Springs Garden of the Gods",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/colorado-springs-colorado/la-quinta-inn-colorado-springs-garden-of-the-gods/overview"
+  },
+  {
+   "name": "Executive Residency by Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3150 North Chestnut Street, 80907, Colorado Springs",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-colorado-springs/best-western-plus-executive-residency-fillmore-inn/propertyCode.06191.html"
+  },
+  {
+   "name": "Avenue Hotel Bed and Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "711 Manitou Avenue, 80829, Manitou Springs",
+   "url": "https://www.AvenueHotelBandB.com"
+  },
+  {
+   "name": "TravelStar Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1703 South Nevada Avenue, Colorado Springs",
+   "url": "https://www.travelstarinnsuites-co.us/"
+  },
+  {
+   "name": "Circle S Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1639 South Nevada Avenue, 80905, Colorado Springs",
+   "url": "http://www.circlesmotel.comcastbiz.net/index2.html"
+  },
+  {
+   "name": "Rodeway Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1623 South Nevada Avenue, 80905, Colorado Springs",
+   "url": "https://www.choicehotels.com/colorado/colorado-springs/rodeway-inn-hotels/co725"
+  },
+  {
+   "name": "The Cheyenne Cañon Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2030 West Cheyenne Road, 80906, Colorado Springs",
+   "url": "http://www.thecheyennecanoninn.com/"
+  },
+  {
+   "name": "Crescent Lily Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6 Boulder Crescent Street, 80903, Colorado Springs",
+   "url": "http://www.crescentlilyinn.com/"
+  },
+  {
+   "name": "Red Wing Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "56 El Paso Boulevard, 80829, Manitou Springs",
+   "url": "https://redwingmotel.com/"
+  },
+  {
+   "name": "Silver Saddle Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "215 Manitou Avenue, 80829, Manitou Springs",
+   "url": "https://www.silversaddleinn.com/"
+  },
+  {
+   "name": "Magnuson Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "311 Manitou Avenue, 80829",
+   "url": "https://www.magnusonhotels.com/Magnuson-Hotel-Manitou-Springs/"
+  },
+  {
+   "name": "Waltons Mountain Lodge",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "235 Mesa Avenue, 80829, Manitou Springs",
+   "url": "https://www.waltonsmountainlodge.com/"
+  },
+  {
+   "name": "Garden of the Gods Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3320 Mesa Road, 80904",
+   "url": "https://www.gardenofthegodsclub.com/"
+  },
+  {
+   "name": "Holden House 1902 Bed & Breakfast Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1102 West Pikes Peak Avenue, 80904, Colorado Springs",
+   "url": "https://www.colorado-bed-breakfast.com/"
+  },
+  {
+   "name": "Red Crags Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "302 Rockledge Lane",
+   "url": "http://www.redcrags.com/"
+  },
+  {
+   "name": "Springs Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 West Colorado Avenue, 80905, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Ridge Apartments",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4125 Pebble Ridge Circle, 80906, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Hyatt House Colorado Springs",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Colorado Springs Central",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "105 North Spruce Street, 80905, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Oslo residence hall",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 East Boulder Street, 80909, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Innsbruck residence hall",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 East Boulder Street, 80909, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Cortina residence hall",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1750 East Boulder Street, 80909, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "520 North Murray Boulevard, 80909",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "512 South Nevada Avenue, 80903, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Travelers Uptown Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "220 East Cimarron Street, 80903, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Agate Hill B&B Cottages",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "103 Cave Avenue, 80829, Manitou Springs",
+   "url": ""
+  },
+  {
+   "name": "Bijou Condos",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "314 West Bijou Street, 80905, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Spurs and Lace Inn Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2829 West Pikes Peak Avenue, 80904, Colorado Springs",
+   "url": ""
+  },
+  {
+   "name": "Pikes Peak Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "626 Manitou Avenue",
+   "url": ""
+  },
+  {
+   "name": "Villa Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "481 Manitou Avenue",
+   "url": ""
+  },
+  {
+   "name": "Crossland Colorado Springs Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3490 Afternoon Circle, 80910, Colorado Springs",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Borriello Brothers",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "215 East Platte Avenue, 80903, Colorado Springs",
+   "website": "http://borriellobrothers.com/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "595 South 8th Street, 80905, Colorado Springs",
+   "website": "https://www.texasroadhouse.com/locations/129-colorado-springs2co"
+  },
+  {
+   "name": "Edelweiss",
+   "cuisines": [
+    "German"
+   ],
+   "address": "34 East Ramona Avenue, 80906, Colorado Springs",
+   "website": "https://www.edelweissrest.com/"
+  },
+  {
+   "name": "Jack Quinn's Irish Alehouse and Pub",
+   "cuisines": [
+    "Irish",
+    "Pub",
+    "Burger",
+    "Fish And Chips",
+    "Dessert"
+   ],
+   "address": "21 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://jackquinnspub.com/"
+  },
+  {
+   "name": "Urban Egg",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "28 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.urbanegg.com/location/urban-egg-downtown/"
+  },
+  {
+   "name": "ORO",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "123 East Pikes Peak Avenue, 80903, Colorado Springs",
+   "website": "https://www.orocoloradosprings.com"
+  },
+  {
+   "name": "Red Gravy",
+   "cuisines": [
+    "Italian",
+    "Pasta"
+   ],
+   "address": "23 South Tejon Street, 80903, Colorado Springs",
+   "website": "http://www.redgravyco.com"
+  },
+  {
+   "name": "East Coast Restaurant and Delicatessen",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "24 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.eastcoastdeli.net/"
+  },
+  {
+   "name": "Mo's Diner",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "108 Manitou Avenue, 80904, Manitou Springs",
+   "website": "https://www.mosdinermanitou.com/home"
+  },
+  {
+   "name": "503 W",
+   "cuisines": [
+    "American",
+    "Korean"
+   ],
+   "address": "503 West Colorado Avenue, 80905, Colorado Springs",
+   "website": "https://www.503w.co/"
+  },
+  {
+   "name": "Fujiyama Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "22 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://fujiyamasushi.com/"
+  },
+  {
+   "name": "La Baguette",
+   "cuisines": [
+    "French"
+   ],
+   "address": "117 East Pikes Peak Avenue, 80903, Colorado Springs",
+   "website": "https://www.labaguettedowntown.com/"
+  },
+  {
+   "name": "Dos Santos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "70 East Moreno Avenue, 80903, Colorado Springs",
+   "website": "https://www.dossantostacos.com/location/dos-santos-colorado-springs/"
+  },
+  {
+   "name": "Tokyo Joes",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1634 South Nevada Avenue, 80906, Colorado Springs",
+   "website": "https://tokyojoes.com/locations/colorado-springs-s-nevada/"
+  },
+  {
+   "name": "Colonel Mustard's Sandwich Emporium",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1412 South 21st Street, 80904, Colorado Springs",
+   "website": "https://www.colmustardsandwich.com/"
+  },
+  {
+   "name": "Rudy's Country Store & Bar-B-Q",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "315 South 31st Street, 80904, Colorado Springs",
+   "website": "https://rudysbbq.com/location/detail/colorado-springs-co"
+  },
+  {
+   "name": "Sherpa Garden",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1005 West Colorado Avenue, 80905, Colorado Springs",
+   "website": "https://sherpagarden.com/"
+  },
+  {
+   "name": "The Perk Downtown",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "24 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://theperkdowntown.com/"
+  },
+  {
+   "name": "Illegal Pete's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "32 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.illegalpetes.com/locations/co-springs"
+  },
+  {
+   "name": "Saigon Cafe",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "32 South Tejon Street, 80903, Colorado Springs",
+   "website": "http://coloradosaigoncafe.com/"
+  },
+  {
+   "name": "Omelets Etc",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1616 South 8th Street, 80905, Colorado Springs",
+   "website": "https://www.omeletsetc.biz/"
+  },
+  {
+   "name": "Coal Mine Dragon Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1720 West Uintah Street, 80904, Colorado Springs",
+   "website": "http://www.coalminedragon8.com/"
+  },
+  {
+   "name": "European Cafe",
+   "cuisines": [
+    "Polish",
+    "Breakfast",
+    "Lunch"
+   ],
+   "address": "1015 West Colorado Avenue, 80905",
+   "website": "https://www.europeancafeocc.com/"
+  },
+  {
+   "name": "Bambino's Urban Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "36 East Bijou Street, 80903, Colorado Springs",
+   "website": "https://www.bambinosurbanpizzeria.com/"
+  },
+  {
+   "name": "Burnt Toast",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "112 North Nevada Avenue, 80903, Colorado Springs",
+   "website": "https://www.goburnttoast.com/"
+  },
+  {
+   "name": "Stellina Pizza Cafe",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "749 East Willamette Avenue, 80903, Colorado Springs",
+   "website": "https://www.stellinapizza.co/"
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "30 East Pikes Peak Avenue, 80903, Colorado Springs",
+   "website": "https://www.meltingpot.com/"
+  },
+  {
+   "name": "Happy Eats Pasta",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "1536 South Nevada Avenue, 80905, Colorado Springs",
+   "website": "https://www.happyeatspasta.com/"
+  },
+  {
+   "name": "Brakeman’s Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "10 South Sierra Madre Street, 80903, Colorado Springs",
+   "website": "https://www.brakemansburgers.com/menus/"
+  },
+  {
+   "name": "Ivywild Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "80905",
+   "website": "https://www.ivywildkitchen.co"
+  },
+  {
+   "name": "Front Range BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2330 West Colorado Avenue, 80904, Colorado Springs",
+   "website": "https://frbbq.com/"
+  },
+  {
+   "name": "Ola Juice Bar",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "27 East Kiowa Street, 80903",
+   "website": "https://www.olajuicebar.com/"
+  },
+  {
+   "name": "White Pie",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "330 South Nevada Avenue, 80903, Colorado Springs",
+   "website": "http://www.twomooninnovations.com/"
+  },
+  {
+   "name": "The Fameous Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "31 North Tejon Street, 80903, Colorado Springs",
+   "website": "http://www.thefamoussteakhouse.net/"
+  },
+  {
+   "name": "Pub Dog Colorado",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "2207 Bott Avenue, 80904, Colorado Springs",
+   "website": "https://pubdogcolorado.com/"
+  },
+  {
+   "name": "Spark Beer+BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1604 South Cascade Avenue, 80905",
+   "website": "https://www.sparkbeerandbbq.com"
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "1812 Southgate Road, Colorado Springs",
+   "website": "https://locations.noodles.com/co/colorado-springs/1812-southgate-rd"
+  },
+  {
+   "name": "Louie's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "333 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://louies-pizza.com/"
+  },
+  {
+   "name": "Decent Pizza Co.",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "80905",
+   "website": "https://www.decentpizza.co"
+  },
+  {
+   "name": "José Muldoon's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "222 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://josemuldoons.com/"
+  },
+  {
+   "name": "Skirted Heifer",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "204 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://skirtedheifer.com/"
+  },
+  {
+   "name": "Oskar Blues Grill & Brew",
+   "cuisines": [
+    "Cajun",
+    "Burger",
+    "Beer"
+   ],
+   "address": "118 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://oskarbluesfooderies.com/oskar-blues/oskar-blues-colorado-springs/"
+  },
+  {
+   "name": "Mediterranean Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "118 East Kiowa Street, 80903, Colorado Springs",
+   "website": "https://medcafe-co.com/"
+  },
+  {
+   "name": "Bonny and Read Seafood",
+   "cuisines": [
+    "Seafood",
+    "Steak House",
+    "Steak",
+    "American"
+   ],
+   "address": "101 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.bonnyandreadseafood.com/"
+  },
+  {
+   "name": "Crystal Park Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "178 Crystal Park Road, 80829, Manitou Springs",
+   "website": "https://www.crystalparkcantina.com/"
+  },
+  {
+   "name": "House of Saigon",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1014 South 21st Street, 80904, Colorado Springs",
+   "website": "https://www.houseofsaigonco.com"
+  },
+  {
+   "name": "Angry Chicken & Juicy 88 Hotdog",
+   "cuisines": [
+    "Asian",
+    "Korean",
+    "Hot Dog"
+   ],
+   "address": "1869 South Nevada Avenue, 80905, Colorado Springs",
+   "website": "https://www.angrychickencsco.com/"
+  },
+  {
+   "name": "Atomic Cowboy",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Pizza"
+   ],
+   "address": "528 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://order.theatomiccowboy.com/"
+  },
+  {
+   "name": "Rasta Pasta",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "405 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.rastapastacs.com"
+  },
+  {
+   "name": "Taste of Jerusalem Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "15 East Bijou Street, 80903, Colorado Springs",
+   "website": "https://tasteofjerusalemcafe.com/"
+  },
+  {
+   "name": "Fratelli Ristorante Italiano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "124 North Nevada Avenue, 80903, Colorado Springs",
+   "website": "https://fratelliristorante.com/"
+  },
+  {
+   "name": "King's Chef Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "131 East Bijou Street, 80903, Colorado Springs",
+   "website": "http://www.cosdiner.com/"
+  },
+  {
+   "name": "Yoo Mae Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "17 East Kiowa Street, 80903, Colorado Springs",
+   "website": "http://yoomae.com/"
+  },
+  {
+   "name": "The Rabbit Hole",
+   "cuisines": [
+    "New American",
+    "Cocktails"
+   ],
+   "address": "101 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.rabbitholedinner.com/"
+  },
+  {
+   "name": "Shugas",
+   "cuisines": [
+    "American"
+   ],
+   "address": "702 South Cascade Avenue, 80903, Colorado Springs",
+   "website": "https://www.shugas.com/"
+  },
+  {
+   "name": "Totem",
+   "cuisines": [
+    "Coffee Shop",
+    "Mexican"
+   ],
+   "address": "305 East Pikes Peak Avenue, 80903",
+   "website": "https://www.totemmazatlan.com/home-cos"
+  },
+  {
+   "name": "Arceo's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://arceosrestaurant.com/"
+  },
+  {
+   "name": "The Wobly Olive - Downtown",
+   "cuisines": [
+    "American"
+   ],
+   "address": "323 North Tejon Street, 80903",
+   "website": "https://makeamericaslurpagain.com/"
+  },
+  {
+   "name": "Four by Brother Luck",
+   "cuisines": [
+    "American",
+    "Regional",
+    "Southwestern"
+   ],
+   "address": "321 North Tejon Street, 80903",
+   "website": "https://fourbybrotherluck.com/"
+  },
+  {
+   "name": "Everest Nepal Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "28 East Bijou Street, 80903, Colorado Springs",
+   "website": "https://www.everestnepalrestaurant.com/"
+  },
+  {
+   "name": "Paravicini's Italian Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2802 West Colorado Avenue, 80904, Colorado Springs",
+   "website": "https://www.paravicinis.com"
+  },
+  {
+   "name": "Coal Mine Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1779 South 8th Street, 80905, Colorado Springs",
+   "website": "https://www.coalminedragonchinese.com"
+  },
+  {
+   "name": "Little Nepal",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1747 South 8th Street, 80905, Colorado Springs",
+   "website": "https://www.lnepal.com/"
+  },
+  {
+   "name": "Salad or Bust",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "80905",
+   "website": "https://saladorbust.com"
+  },
+  {
+   "name": "Alfonso's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1022 South 21st Street, 80904, Colorado Springs",
+   "website": "https://www.alfonsosmexicanfoodcs.com/"
+  },
+  {
+   "name": "Spice Island Grill",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "10 North Sierra Madre Street, 80903",
+   "website": "https://spiceislandgrill.com/"
+  },
+  {
+   "name": "Panino's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "604 North Tejon Street, 80903",
+   "website": "https://www.paninos.com/"
+  },
+  {
+   "name": "The Sandwich Depot",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "10 South Sierra Madre Street, 80903, Colorado Springs",
+   "website": "https://www.thesandwichdepotcos.com/"
+  },
+  {
+   "name": "Masala Mingle Indian Bistro & Bar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "326 South Nevada Avenue, 80903",
+   "website": "https://www.masalaminglecos.com/"
+  },
+  {
+   "name": "Summit",
+   "cuisines": [
+    "American"
+   ],
+   "address": "19 Lake Circle, 80906",
+   "website": "https://www.broadmoor.com/summit/"
+  },
+  {
+   "name": "High Grade Foods Jamaican Restaurant and Bar",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "1020 South Tejon Street, 80903",
+   "website": "https://highgradefoods.com/"
+  },
+  {
+   "name": "Gaia Masala and Burger",
+   "cuisines": [
+    "Burger",
+    "Indian",
+    "Mediterranean"
+   ],
+   "address": "12 South Tejon Street, 80903",
+   "website": "https://gaiamasalaandburger.com/"
+  },
+  {
+   "name": "Monse's Pupuseria",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "",
+   "website": "https://www.monsestasteofelsalvador.online/"
+  },
+  {
+   "name": "Western Omelette",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.westernomelettetogo.com"
+  },
+  {
+   "name": "Mexico Real",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1899 South Nevada Avenue, 80905, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "La Casita Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "306 South 8th Street, 80905, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Rocha's Mexican Fast Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1534 South Nevada Avenue, 80905, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Oscars Oyster Bar",
+   "cuisines": [
+    "Cajun",
+    "Seafood"
+   ],
+   "address": "110 North Nevada Avenue, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Sportivo Primo",
+   "cuisines": [
+    "Sports Bar"
+   ],
+   "address": "4 South Cascade Avenue, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Nara Sushi & Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3117 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Dos Dos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "131 North Tejon Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Antlers Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4 South Cascade Avenue, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Wild Ginger Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2628 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Mary's Mountain Cookies",
+   "cuisines": [
+    "Dessert"
+   ],
+   "address": "7 South Tejon Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "La Unica",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3317 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Slice 420 Express",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "107 North Tejon Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Jorge's Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2427 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Monica’s Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amanda's Fonda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3625 West Colorado Avenue, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Salt & Citrus Mexican Kitchen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "Manitou Avenue",
+   "website": ""
+  },
+  {
+   "name": "Uchenna Ethiopian Restaurant",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "2501 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "I Love Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1817 South Nevada Avenue, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Kebab & Grill Indian Style",
+   "cuisines": [
+    "Indian",
+    "Kebab"
+   ],
+   "address": "19 North Tejon Street, 80903",
+   "website": ""
+  },
+  {
+   "name": "Mausam",
+   "cuisines": [
+    "Breakfast",
+    "Indian",
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Haole",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "South Tejon Street, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Anju",
+   "cuisines": [
+    "Korean",
+    "Fusion"
+   ],
+   "address": "South Tejon Street, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Luchals",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "South Tejon Street, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Smash Pizza",
+   "cuisines": [
+    "Burger",
+    "Pizza"
+   ],
+   "address": "19 North Tejon Street, 80903",
+   "website": ""
+  },
+  {
+   "name": "Pho King Wing",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "19 North Tejon Street, 80903",
+   "website": ""
+  },
+  {
+   "name": "Sushi Ring",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1861 South Nevada Avenue, 80906",
+   "website": ""
+  },
+  {
+   "name": "Luigi's Italian foods",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Miguel's Mexican Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "229 South 8th Street",
+   "website": ""
+  },
+  {
+   "name": "Night Ramen",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jax",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Uncle Sam's Pancake House",
+   "cuisines": [
+    "Pancake"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Savelli's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Slice 420",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alchemy",
+   "cuisines": [
+    "Irish"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Westside Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "TAPAteria",
+   "cuisines": [
+    "Tapas"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizzera Rustica",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Paris Crepe",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Garden of the Gods Market and Cafe",
+   "cuisines": [
+    "Coffee Shop",
+    "Bakery",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "TILL Neighborhood Bistro & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sheldon's Luncheonette",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Spot",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Joey's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Row",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "T-Bird's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Upstate Pizzaria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Awi Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Choojai Sushi Thai & Ramen",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Principal's Office",
+   "cuisines": [],
+   "address": "1604 South Cascade Avenue, 80905, Colorado Springs",
+   "website": "https://principalsoffice.co"
+  },
+  {
+   "name": "Ritz Grill",
+   "cuisines": [],
+   "address": "15 South Tejon Street, 80903, Colorado Springs",
+   "website": "http://www.ritzgrill.com/"
+  },
+  {
+   "name": "Cerberus Brewing Company",
+   "cuisines": [],
+   "address": "702 West Colorado Avenue, 80905, Colorado Springs",
+   "website": "https://www.cerberusbrewingco.com/"
+  },
+  {
+   "name": "Poor Richard's Restaurant",
+   "cuisines": [],
+   "address": "324 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://poorrichardsdowntown.com/"
+  },
+  {
+   "name": "MacKenzie's Chop House",
+   "cuisines": [],
+   "address": "128 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://mackenzieschophouse.com/"
+  },
+  {
+   "name": "Streetcar 520",
+   "cuisines": [],
+   "address": "520 South Tejon Street, 80903, Colorado Springs",
+   "website": "https://streetcar520.com/"
+  },
+  {
+   "name": "Dale Street Cafe",
+   "cuisines": [],
+   "address": "115 East Dale Street, 80903, Colorado Springs",
+   "website": "http://www.mydalestreetcafe.com/"
+  },
+  {
+   "name": "Bennys Restaurant & Lounge",
+   "cuisines": [],
+   "address": "517 West Colorado Avenue, 80905, Colorado Springs",
+   "website": "https://www.bennyscos.com/"
+  },
+  {
+   "name": "Summa",
+   "cuisines": [],
+   "address": "817 West Colorado Avenue, 80905",
+   "website": "https://www.summacos.com"
+  },
+  {
+   "name": "Peppertree Restaurant",
+   "cuisines": [],
+   "address": "888 West Moreno Avenue, 80905, Colorado Springs",
+   "website": "https://peppertreecs.com/"
+  },
+  {
+   "name": "The Warehouse Restaurant and Gallery",
+   "cuisines": [],
+   "address": "25 West Cimarron Street, 80903, Colorado Springs",
+   "website": "https://www.thewarehouserestaurant.com/"
+  },
+  {
+   "name": "The Corner Cafe",
+   "cuisines": [],
+   "address": "7 East Vermijo Avenue, 80903",
+   "website": "https://www.cornercafecs.com/"
+  },
+  {
+   "name": "Seeds Community Café",
+   "cuisines": [],
+   "address": "109 East Pikes Peak Avenue, 80903",
+   "website": "http://seedscommunitycafe.org/"
+  },
+  {
+   "name": "Jake and Telly’s Greek Taverna",
+   "cuisines": [],
+   "address": "2616 West Colorado Avenue, 80904, Colorado Springs",
+   "website": "https://www.jakeandtellys.com/"
+  },
+  {
+   "name": "Green Line Grill",
+   "cuisines": [],
+   "address": "230 1/2 Pueblo Avenue, 80903, Colorado Springs",
+   "website": "https://www.greenlinegrill.com/"
+  },
+  {
+   "name": "Track Ten Urban Kitchen",
+   "cuisines": [],
+   "address": "10 South Sierra Madre Street, 80903, Colorado Springs",
+   "website": "https://www.track10urbankitchen.com/"
+  },
+  {
+   "name": "Jun Japanese Restaurant",
+   "cuisines": [],
+   "address": "3276 Centennial Boulevard",
+   "website": "https://www.jun-japanese.com"
+  },
+  {
+   "name": "Spencer Center",
+   "cuisines": [],
+   "address": "830 North Tejon Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Dainty's Kitchen",
+   "cuisines": [],
+   "address": "302 East Platte Avenue, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Joseph's Fine Dining",
+   "cuisines": [],
+   "address": "1603 South 8th Street, 80905, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "The Joint",
+   "cuisines": [],
+   "address": "19 North Tejon Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Lorenzo's French Fry Palace",
+   "cuisines": [],
+   "address": "1755 South 8th Street, 80905",
+   "website": ""
+  },
+  {
+   "name": "Preserve",
+   "cuisines": [],
+   "address": "1090 North Cascade Avenue, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "the Mactory",
+   "cuisines": [],
+   "address": "125 North Spruce Street, 80903, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Dat's Italian",
+   "cuisines": [],
+   "address": "2514 West Colorado Avenue, 80904, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Ephemera",
+   "cuisines": [],
+   "address": "South Tejon Street, Colorado Springs",
+   "website": ""
+  },
+  {
+   "name": "Trainwreck",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Carlo's Bistro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Adam's Mountain Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Prime 25",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Flame Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Billy's Pizza and Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Tropicz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "haole hawaiian grindz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roots Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Colorado Springs Pioneers Museum",
+   "kind": "museum",
+   "address": "215 South Tejon Street",
+   "website": "https://www.cspm.org/",
+   "phone": "+1-719-385-5990",
+   "latitude": 38.8303916,
+   "longitude": -104.8228383
+  },
+  {
+   "name": "Miramont Castle",
+   "kind": "museum",
+   "address": "9 Capitol Hill Avenue, 80829",
+   "website": "https://www.miramontcastle.org/",
+   "phone": "+1-719-685-1011",
+   "latitude": 38.859329,
+   "longitude": -104.9224618
+  },
+  {
+   "name": "Cheyenne Mountain Zoo",
+   "kind": "zoo",
+   "address": "4250 Cheyenne Mountain Zoo Road Cheyenne Mountain Zoo Road, 80906",
+   "website": "https://www.cmzoo.org/",
+   "phone": "",
+   "latitude": 38.7713646,
+   "longitude": -104.8548581
+  },
+  {
+   "name": "McAllister House Museum",
+   "kind": "museum",
+   "address": "423 North Cascade Avenue, 80903",
+   "website": "https://mcallisterhouse.org/",
+   "phone": "+1-719-635-7925",
+   "latitude": 38.8405013,
+   "longitude": -104.8245311
+  },
+  {
+   "name": "Colorado Springs Fine Arts Center",
+   "kind": "museum",
+   "address": "30 West Dale Street, 80903, Colorado Springs",
+   "website": "https://www.csfineartscenter.org/",
+   "phone": "+1-719-634-5583",
+   "latitude": 38.8458119,
+   "longitude": -104.8260709
+  },
+  {
+   "name": "Manitou Cliff Dwellings",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.cliffdwellingsmuseum.com/",
+   "phone": "",
+   "latitude": 38.8631281,
+   "longitude": -104.9125439
+  },
+  {
+   "name": "Cave of the Winds",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://caveofthewinds.com/",
+   "phone": "",
+   "latitude": 38.8726046,
+   "longitude": -104.9201964
+  },
+  {
+   "name": "Rock Ledge Ranch Historic Site",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://rockledgeranch.com/",
+   "phone": "",
+   "latitude": 38.8736954,
+   "longitude": -104.8722249
+  },
+  {
+   "name": "Balanced Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8647321,
+   "longitude": -104.8974257
+  },
+  {
+   "name": "Seven Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.78118,
+   "longitude": -104.8801561
+  },
+  {
+   "name": "Ghost Town Wild West Museum",
+   "kind": "museum",
+   "address": "400 South 21st Street",
+   "website": "https://www.ghosttownmuseum.com",
+   "phone": "+1-719-634-0696",
+   "latitude": 38.8404326,
+   "longitude": -104.8608588
+  },
+  {
+   "name": "Space Foundation Discovery Center",
+   "kind": "museum",
+   "address": "4425 Arrowswest Drive, 80907, Colorado Springs",
+   "website": "https://discoverspace.org/",
+   "phone": "",
+   "latitude": 38.8958218,
+   "longitude": -104.8626432
+  },
+  {
+   "name": "Rocky Mountain Motorcycle Museum",
+   "kind": "museum",
+   "address": "19 North Tejon Street, 80903, Colorado Springs",
+   "website": "https://www.themotorcyclemuseum.com/",
+   "phone": "",
+   "latitude": 38.8346673,
+   "longitude": -104.8232718
+  },
+  {
+   "name": "American Numismatic & Money Museum",
+   "kind": "museum",
+   "address": "818 North Cascade Avenue, 80903, Colorado Springs",
+   "website": "https://www.money.org/money-museum",
+   "phone": "+1-800-367-9723",
+   "latitude": 38.8458512,
+   "longitude": -104.8252933
+  },
+  {
+   "name": "U.S. Olympic and Paralympic Museum",
+   "kind": "museum",
+   "address": "200 South Sierra Madre Street",
+   "website": "https://usopm.org",
+   "phone": "+1 719-497-1234",
+   "latitude": 38.8295071,
+   "longitude": -104.8296242
+  },
+  {
+   "name": "Angie Tingle Studio & Gallery",
+   "kind": "gallery",
+   "address": "505 East Columbia Street, 80907, Colorado Springs",
+   "website": "https://angiesstudioandgallery.com/",
+   "phone": "+1-719-297-1830",
+   "latitude": 38.8536008,
+   "longitude": -104.814832
+  },
+  {
+   "name": "Old Colorado City History Center Museum",
+   "kind": "museum",
+   "address": "1 South 24th Street, 80904, Colorado Springs",
+   "website": "https://occhs.org/",
+   "phone": "+1-719-636-1225",
+   "latitude": 38.8467323,
+   "longitude": -104.8604564
+  },
+  {
+   "name": "Continuum — the Julie Penrose Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://coloradosprings.gov/parks-recreation-and-cultural-services/page/america-beautiful-park",
+   "phone": "",
+   "latitude": 38.8299679,
+   "longitude": -104.8328499
+  },
+  {
+   "name": "World Figure Skating Museum",
+   "kind": "museum",
+   "address": "20 1st",
+   "website": "https://worldskatingmuseum.org",
+   "phone": "+1-719-635-5200",
+   "latitude": 38.7938624,
+   "longitude": -104.8488529
+  },
+  {
+   "name": "Manitou and Pike's Peak Railway No. 2",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.rgusrail.com/compp2.html",
+   "phone": "",
+   "latitude": 38.8577147,
+   "longitude": -104.9121103
+  },
+  {
+   "name": "Popcycle Bridge",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.facebook.com/Popcycle-Bridge-754133471352056/",
+   "phone": "",
+   "latitude": 38.8671886,
+   "longitude": -104.8284407
+  },
+  {
+   "name": "Penrose Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.elpomar.org/About-Us/museum-and-legacy-properties/penrose-heritage-museum-1/",
+   "phone": "",
+   "latitude": 38.7927817,
+   "longitude": -104.849912
+  },
+  {
+   "name": "Orly's",
+   "kind": "gallery",
+   "address": "730 South Tejon Street, 80903, Colorado Springs",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8233751,
+   "longitude": -104.8242934
+  },
+  {
+   "name": "Race Car Museum Outlet",
+   "kind": "museum",
+   "address": "135 Manitou Avenue, 80829, Manitou Springs",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8577224,
+   "longitude": -104.8944613
+  },
+  {
+   "name": "surface gallery",
+   "kind": "gallery",
+   "address": "2752 West Colorado Avenue, 80904, Colorado Springs",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8499071,
+   "longitude": -104.866765
+  },
+  {
+   "name": "Heritage Center",
+   "kind": "museum",
+   "address": "517 Manitou Avenue",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8573416,
+   "longitude": -104.9119127
+  },
+  {
+   "name": "Marie Walsh Sharpe Gallery of Contemporary Art",
+   "kind": "gallery",
+   "address": "North Nevada Avenue, Colorado Springs",
+   "website": "",
+   "phone": "",
+   "latitude": 38.9046456,
+   "longitude": -104.8157458
+  },
+  {
+   "name": "Domestic Goats",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.7701086,
+   "longitude": -104.853391
+  },
+  {
+   "name": "snow leopard",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.7711813,
+   "longitude": -104.8549995
+  },
+  {
+   "name": "Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.7706572,
+   "longitude": -104.854727
+  },
+  {
+   "name": "Grand View Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8739431,
+   "longitude": -104.7780203
+  },
+  {
+   "name": "Medicine Wheel Sacred Indian Sitr",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8797441,
+   "longitude": -104.9540342
+  },
+  {
+   "name": "Lyons Sandstone Quarry",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8441926,
+   "longitude": -104.8831919
+  },
+  {
+   "name": "Ridgeline Pass",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8346657,
+   "longitude": -104.8824524
+  },
+  {
+   "name": "Mesa Trail Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8392439,
+   "longitude": -104.886926
+  },
+  {
+   "name": "Helen Hunt Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.7887178,
+   "longitude": -104.9034903
+  },
+  {
+   "name": "Garden of the Gods Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8828842,
+   "longitude": -104.8717282
+  },
+  {
+   "name": "Siamese Twins",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8698628,
+   "longitude": -104.8884843
+  },
+  {
+   "name": "Giraffe Feeding Experience",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.7714216,
+   "longitude": -104.8529475
+  },
+  {
+   "name": "Kissing Camels",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8798994,
+   "longitude": -104.8808627
+  },
+  {
+   "name": "The Scottsman",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8722744,
+   "longitude": -104.8844304
+  },
+  {
+   "name": "The Michael Garman Museum & Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8469999,
+   "longitude": -104.8619932
+  },
+  {
+   "name": "Greenlee Trail Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8409328,
+   "longitude": -104.8864423
+  },
+  {
+   "name": "Three Graces",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8762218,
+   "longitude": -104.8813631
+  },
+  {
+   "name": "Pulpit Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.877163,
+   "longitude": -104.8817339
+  },
+  {
+   "name": "Sentinel Spires",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8782741,
+   "longitude": -104.880948
+  },
+  {
+   "name": "South Gateway Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8772706,
+   "longitude": -104.8802486
+  },
+  {
+   "name": "Giant Footprint",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.875865,
+   "longitude": -104.8839516
+  },
+  {
+   "name": "Steamboat Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8643374,
+   "longitude": -104.8972486
+  },
+  {
+   "name": "Gray Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8745002,
+   "longitude": -104.8795665
+  },
+  {
+   "name": "Sleeping Giant",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8731557,
+   "longitude": -104.880701
+  },
+  {
+   "name": "Forrest Allen Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8278897,
+   "longitude": -104.8920451
+  },
+  {
+   "name": "Rocky overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.9022127,
+   "longitude": -104.8027919
+  },
+  {
+   "name": "American Indian Interpretive Area",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.876037,
+   "longitude": -104.873399
+  },
+  {
+   "name": "Signal Hill",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8690114,
+   "longitude": -104.7652983
+  },
+  {
+   "name": "Colorado Springs Trolleys",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8668214,
+   "longitude": -104.8317361
+  },
+  {
+   "name": "High Point Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8655409,
+   "longitude": -104.879743
+  },
+  {
+   "name": "Tower of Babel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8809598,
+   "longitude": -104.8814101
+  },
+  {
+   "name": "North Gateway Rock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8785732,
+   "longitude": -104.8805337
+  },
+  {
+   "name": "Keyhole Window",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8728375,
+   "longitude": -104.880609
+  },
+  {
+   "name": "Snake Pit Bouldering",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8739294,
+   "longitude": -104.8780416
+  },
+  {
+   "name": "Christmas Rock Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.9166646,
+   "longitude": -104.8854449
+  },
+  {
+   "name": "Pikes Peak Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8807179,
+   "longitude": -104.7691909
+  },
+  {
+   "name": "Little Moab",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8819987,
+   "longitude": -104.769147
+  },
+  {
+   "name": "Sentinel Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8779981,
+   "longitude": -104.7705955
+  },
+  {
+   "name": "South Knoll",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8759097,
+   "longitude": -104.766483
+  },
+  {
+   "name": "Pawnee Ridge",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8757219,
+   "longitude": -104.7646469
+  },
+  {
+   "name": "ochre cliffs",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8839607,
+   "longitude": -104.7718643
+  },
+  {
+   "name": "Cathedral Spires",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8735186,
+   "longitude": -104.7672134
+  },
+  {
+   "name": "Garden Of The Gods Sign",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8782834,
+   "longitude": -104.8717207
+  },
+  {
+   "name": "Garden of the Gods Visitor Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 38.8784241,
+   "longitude": -104.8703005
+  }
+ ]
+}

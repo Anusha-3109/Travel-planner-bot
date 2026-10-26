@@ -1,0 +1,3278 @@
+{
+ "city": "Burbank",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 34.1815,
+ "longitude": -118.3305,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Safari Inn, a Coast Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1911 W Olive Ave, 91506, Burbank",
+   "url": "https://safariburbank.com/"
+  },
+  {
+   "name": "Chateau Marmont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8221 West Sunset Boulevard, 90046, Hollywood",
+   "url": "https://chateaumarmont.com/"
+  },
+  {
+   "name": "Banana Bungalow Hollywood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5920 Hollywood Boulevard, 90028, Los Angeles",
+   "url": "https://www.bananabungalows.com/HollywoodHostelLosAngeles.html"
+  },
+  {
+   "name": "The Hollywood Roosevelt",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7000 Hollywood Boulevard, 90028, Los Angeles",
+   "url": "https://www.thehollywoodroosevelt.com/"
+  },
+  {
+   "name": "HollywoodHostels",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.ushostel.com/"
+  },
+  {
+   "name": "Sportsmen's Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12825 Ventura Boulevard, 91604",
+   "url": ""
+  },
+  {
+   "name": "Hilton Los Angeles/Universal City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "321 South Ikea way, 91502, Burbank",
+   "url": "https://www.marriott.com/burri"
+  },
+  {
+   "name": "Hotel Amarano Burbank-Hollywood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "322 North Pass Avenue, 91505, Burbank",
+   "url": "https://hotelamarano.com/"
+  },
+  {
+   "name": "The Aster",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1717 Vine Street, 90028, Los Angeles",
+   "url": "https://www.theasterla.com/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2005 North Highland Avenue, 90068, Los Angeles",
+   "url": "https://www.hilton.com/en/hotels/laxhogi-hilton-garden-inn-los-angeles-hollywood/"
+  },
+  {
+   "name": "Sheraton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 Universal Hollywood Drive, 91608, Universal City",
+   "url": "https://www.marriott.com/en-us/hotels/bursi-sheraton-universal-hotel/"
+  },
+  {
+   "name": "Hampton Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7501 North Glenoaks Boulevard, 91504, Burbank",
+   "url": "https://www.hilton.com/en/hotels/laxbkhx-hampton-suites-los-angeles-burbank-airport/"
+  },
+  {
+   "name": "Hotel Burbank",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "150 East Angeleno Avenue, 91502, Burbank",
+   "url": "https://oso.co/locations/hotel-burbank/"
+  },
+  {
+   "name": "Best Western Hollywood Plaza Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2011 Highland Avenue, Los Angeles",
+   "url": "https://www.bestwestern.com/es_ES/book/hotels-in-hollywood/best-western-hollywood-plaza-inn/propertyCode.05491.html"
+  },
+  {
+   "name": "Courtyard Los Angeles Burbank Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2100 Empire Avenue, 91504, Burbank",
+   "url": "https://www.marriott.com/hotels/travel/burcy-courtyard-los-angeles-burbank-airport/"
+  },
+  {
+   "name": "Hyatt Place Glendale",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "225 West Wilson Avenue, 91203, Glendale",
+   "url": "https://www.hyatt.com/en-US/hotel/california/hyatt-place-glendale-los-angeles/laxzg"
+  },
+  {
+   "name": "Cambria Hotel Burbank Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3501 North San Fernando Boulevard, 91505, Burbank",
+   "url": "https://www.cambriaburbank.com/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7541 Laurel Canyon Boulevard, 91605, North Hollywood",
+   "url": "https://www.wyndhamhotels.com/super-8/north-hollywood-california/super-8-north-hollywood/overview"
+  },
+  {
+   "name": "Studio City Court Yard Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12933 Ventura Blvd, 91604, Studio City",
+   "url": "https://www.studiocitycourtyard.com/"
+  },
+  {
+   "name": "Los Angeles Marriott Burbank Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2500 North Hollywood Way, 91505, Burbank",
+   "url": "https://www.marriott.com/hotels/travel/burap-los-angeles-marriott-burbank-airport/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "800 North Central Avenue, 91203, Glendale",
+   "url": "https://www.hilton.com/en/hotels/burgles-embassy-suites-los-angeles-glendale/"
+  },
+  {
+   "name": "Best Western Plus Media Center Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3910 Riverside Drive, 91505, Burbank",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-burbank/best-western-plus-media-center-inn-suites/propertyCode.05631.html"
+  },
+  {
+   "name": "Dream Hollywood, by Hyatt",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6417 Selma Avenue, 90028, Hollywood",
+   "url": "https://www.hyatt.com/en-US/hotel/california/dream-hollywood/laxdz"
+  },
+  {
+   "name": "Comfort Inn & Suites Near Universal - N. Hollywood - Burbank",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6147 Lankershim Boulevard, 91606, North Hollywood",
+   "url": "https://www.choicehotels.com/california/stevenson-ranch/comfort-suites-hotels"
+  },
+  {
+   "name": "Best Western Burbank Airport Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7615 Lankershim Boulevard, 91605, North Hollywood",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-north-hollywood/best-western-burbank-airport-inn/propertyCode.05694.html"
+  },
+  {
+   "name": "Palihotel Hollywood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7023 West Sunset Boulevard, 90028",
+   "url": "https://www.palisociety.com/hotels/hollywood"
+  },
+  {
+   "name": "Orange Drive Hostel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1764 North Orange Drive, 90028, Los Angeles",
+   "url": "https://www.orangedrivehostel.com/"
+  },
+  {
+   "name": "BLVD Hotel & SPA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10730 Ventura Boulevard, 91604, Studio City",
+   "url": "https://www.blvdstudiocity.com/"
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2200 Empire Avenue, 91504",
+   "url": "https://www.extendedstayamerica.com/hotels/ca/los-angeles/burbank-airport"
+  },
+  {
+   "name": "Rodeway Inn Regalodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 West Colorado Street, 91204, Glendale",
+   "url": "https://www.choicehotels.com/california/walnut/quality-inn-hotels"
+  },
+  {
+   "name": "Springhill Suites Burbank Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "549 South San Fernando Boulevard, 91502, Burbank",
+   "url": "https://www.marriott.com/bursh"
+  },
+  {
+   "name": "Motel 6 Los Angeles - Hollywood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.motel6.com/"
+  },
+  {
+   "name": "Hollywood Celebrity Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1775 Orchid Avenue, 90028, Los Angeles",
+   "url": "https://www.hotelcelebrity.com/"
+  },
+  {
+   "name": "Hotel Mariposa",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "12828 Riverside Drive",
+   "url": "https://www.hotelmariposala.com/"
+  },
+  {
+   "name": "Saharan Motor Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7212 West Sunset Boulevard, 90046, West Hollywood",
+   "url": "https://www.saharanhotel.com/"
+  },
+  {
+   "name": "Timens House",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5947 Tujunga Avenue, 91601, North Hollywood",
+   "url": "https://www.northhollywoodboardinghouse.com/"
+  },
+  {
+   "name": "USA Hostels",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1624 Schrader Boulevard, 90028, Los Angeles",
+   "url": "https://www.usahostels.com/directions.html?h=1"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1133 Vine Street, 90038, Los Angeles",
+   "url": "https://www.hilton.com/en/hotels/laxhxhx-hampton-suites-los-angeles-hollywood/"
+  },
+  {
+   "name": "W Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6250 Hollywood Boulevard, 90028",
+   "url": "https://www.marriott.com/en-us/hotels/laxwh-w-hollywood/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+  },
+  {
+   "name": "The Kimpton Everly Hotel - Hollywood",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Argyle Avenue, 90028, Los Angeles",
+   "url": "https://www.everlyhotelhollywood.com/"
+  },
+  {
+   "name": "Thompson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1541 Wilcox Avenue, 90028, Los Angeles",
+   "url": "https://www.hyatt.com/thompson-hotels/laxth-thompson-hollywood"
+  },
+  {
+   "name": "Travelodge Hollywood-Vermont/Sunset",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "http://www.travelodgehollywood.com"
+  },
+  {
+   "name": "Hollywood Premiere Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5333 Hollywood Boulevard, 90027, Thai Town",
+   "url": "http://hollywoodpremieremotella.us/"
+  },
+  {
+   "name": "Hollywood Inn Express North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5131 Hollywood Boulevard, 90027, Thai Town",
+   "url": "https://www.hollywoodinnexpressnorth.com/"
+  },
+  {
+   "name": "Cara Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://coralsands-la.com/"
+  },
+  {
+   "name": "The Glenmark, Glendale, a Tribute Portfolio Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 North Brand Boulevard, 91202, Glendale",
+   "url": "https://www.marriott.com/hotels/travel/laxtg-the-glenmark-glendale-a-tribute-portfolio-hotel/"
+  },
+  {
+   "name": "Magic Castle Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.magiccastlehotel.com/"
+  },
+  {
+   "name": "Pink Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9457 San Fernando Road, 91352, Los Angeles",
+   "url": "https://www.cadillac-jacks.com/"
+  },
+  {
+   "name": "Hollywood Highland Hotel & Hostel",
+   "price": null,
+   "room_type": "Shared room",
+   "kind": "hostel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7038 Hollywood Boulevard, 90028, Los Angeles",
+   "url": "https://www.yelp.com/biz/hollywood-highland-hotel-and-hostel-los-angeles"
+  },
+  {
+   "name": "Nite Inn at Universal City",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10612 Ventura Boulevard, 91604, Studio City",
+   "url": "https://www.niteinnuniversal.com/"
+  },
+  {
+   "name": "StayHW",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1751 North Las Palmas Avenue, 90028",
+   "url": "https://stayhw.com/"
+  },
+  {
+   "name": "Hotel Covell",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4626 Hollywood Boulevard, 90027, Los Angeles",
+   "url": "https://www.hotelcovell.com/"
+  },
+  {
+   "name": "Hollywood Hills Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1999 North Sycamore Avenue, 90068, Los Angeles",
+   "url": "https://www.hollywoodhillshotel.com/"
+  },
+  {
+   "name": "Lyfe Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "9417 San Fernando Road, 91352",
+   "url": "https://www.agahotels.com/"
+  },
+  {
+   "name": "Kasa Sunset Los Angeles",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://kasa.com/properties/kasa-sunset-los-angeles"
+  },
+  {
+   "name": "The Garland",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.thegarland.com/"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1921 Highland Avenue, Los Angeles",
+   "url": ""
+  },
+  {
+   "name": "Griffith Park Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1634 Victory Boulevard, 91201, Glendale",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn North Hollywood - Burbank Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "11350 Burbank Boulevard, 91601, North Hollywood",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Bob's Big Boy",
+   "cuisines": [
+    "Burger",
+    "Italian"
+   ],
+   "address": "4211 Riverside Drive, 91505, Burbank",
+   "website": "https://bobs.net"
+  },
+  {
+   "name": "Islands",
+   "cuisines": [
+    "American",
+    "Mexican"
+   ],
+   "address": "101 East Orange Grove Avenue",
+   "website": "https://www.islandsrestaurants.com/locations/burbank"
+  },
+  {
+   "name": "Chili Johns",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2018 Burbank Boulevard, 91506, Burbank",
+   "website": "https://www.chilijohnsla.com/"
+  },
+  {
+   "name": "Porto's Bakery & Cafe",
+   "cuisines": [
+    "Cuban",
+    "Bakery",
+    "Breakfast",
+    "Cake",
+    "Empanada"
+   ],
+   "address": "3614 West Magnolia Boulevard, 91505, Burbank",
+   "website": "https://www.portosbakery.com"
+  },
+  {
+   "name": "Inkwell Tavern",
+   "cuisines": [
+    "American",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "924 South San Fernando Boulevard, 91502",
+   "website": "https://inkwelltavern.com/"
+  },
+  {
+   "name": "Black Angus",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "235 Ikea Way, 91502",
+   "website": "https://www.blackangus.com/"
+  },
+  {
+   "name": "The Ramp Restaurant & Bar",
+   "cuisines": [
+    "American",
+    "Italian"
+   ],
+   "address": "7730 North Hollywood Way",
+   "website": "https://www.tgerampburbank.com"
+  },
+  {
+   "name": "JINYA Ramen Bar",
+   "cuisines": [
+    "Ramen"
+   ],
+   "address": "4011 Riverside Drive, 91505, Burbank",
+   "website": "https://www.jinyaramenbar.com/locations/burbank/"
+  },
+  {
+   "name": "Baked Pizza and Sandwiches",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "222 Glenoaks Boulevard, 91502, Burbank",
+   "website": "https://www.bakedrestaurants.com/"
+  },
+  {
+   "name": "Shakey's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1300 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://www.shakeys.com/locations/los-angeles/burbank-pizza-restaurant/"
+  },
+  {
+   "name": "The Witch's Cottage",
+   "cuisines": [
+    "Coffee Shop",
+    "American"
+   ],
+   "address": "5303 Lankershim Boulevard, 91601, Los Angeles",
+   "website": "https://www.witchscottage.com/"
+  },
+  {
+   "name": "North End Pizzeria",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Salad",
+    "Wings"
+   ],
+   "address": "2206 West Magnolia Boulevard, 91506, Burbank",
+   "website": "https://www.northendpizza.com/"
+  },
+  {
+   "name": "Over/Under Public House",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "310 North San Fernando Boulevard, 91501, Burbank",
+   "website": "https://www.overunderburbank.com"
+  },
+  {
+   "name": "Tallyrand",
+   "cuisines": [
+    "Burger",
+    "American",
+    "Italian"
+   ],
+   "address": "1700 West Olive Avenue, 91506, Burbank",
+   "website": "www.tallyrand.com"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1741 Victory Place, 91504, Burbank",
+   "website": "https://www.olivegarden.com"
+  },
+  {
+   "name": "Mucho Mas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "10405 Burbank Boulevard",
+   "website": "https://muchomas.us/"
+  },
+  {
+   "name": "Cafe De Olla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2315 Victory Boulevard, 91506, Burbank",
+   "website": "https://www.cafedeollarestaurant.com/"
+  },
+  {
+   "name": "Prime Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "603 North Hollywood Way, 91505, Burbank",
+   "website": "https://order.toasttab.com/online/prime-pizza-burbank"
+  },
+  {
+   "name": "California Pizza Kitchen",
+   "cuisines": [
+    "Pizza",
+    "Salad",
+    "Pasta"
+   ],
+   "address": "601 North San Fernando Boulevard, 91502, Burbank",
+   "website": "https://cpk.com"
+  },
+  {
+   "name": "BJ's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "107 South First Street, 91502, Burbank",
+   "website": "https://www.bjsrestaurants.com/locations/ca/burbank"
+  },
+  {
+   "name": "Bread & Breakfast",
+   "cuisines": [
+    "Mexican",
+    "Breakfast"
+   ],
+   "address": "321 East Alameda Avenue, 91502, Burbank",
+   "website": "https://breadandbreakfastla.com"
+  },
+  {
+   "name": "My Sushi Glendale",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "6222 San Fernando Road, 91201-2435, Glendale",
+   "website": "https://www.mysushila.com"
+  },
+  {
+   "name": "Zono Sushi",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "610 North First Street, 91502, Burbank",
+   "website": "https://www.zonosushi.com/"
+  },
+  {
+   "name": "Kabuki",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "221 San Fernando Boulevard, 91501, Burbank",
+   "website": "https://www.kabukirestaurants.com/location/kabuki-restaurants-burbank/"
+  },
+  {
+   "name": "Han Korean BBQ House",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "201 Magnolia Boulevard, 91502, Burbank",
+   "website": "https://hanbbq.com/"
+  },
+  {
+   "name": "Yes Chef Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "207 East Alameda Avenue, 91502",
+   "website": "https://yescheftacos.com"
+  },
+  {
+   "name": "Granville",
+   "cuisines": [
+    "Breakfast",
+    "Burger",
+    "Fish",
+    "Local",
+    "Pasta",
+    "Pizza"
+   ],
+   "address": "11136 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "https://www.granvillerestaurants.com"
+  },
+  {
+   "name": "Tokyoya Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "520 Glenoaks Boulevard, 91502, Burbank",
+   "website": "https://tokyoyasushi.com"
+  },
+  {
+   "name": "Adana Restaurant",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "6918 San Fernando Road, 91201, Glendale",
+   "website": "https://adanamenu.com/"
+  },
+  {
+   "name": "Hill Street Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3301 North Glenoaks Boulevard, 91504, Burbank",
+   "website": "https://www.hillstreetcafeonline.com/"
+  },
+  {
+   "name": "Yakumi",
+   "cuisines": [
+    "Sushi",
+    "Japanese"
+   ],
+   "address": "3919 Riverside Drive, 91505, Burbank",
+   "website": "yakumi.com"
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "1761 Victory Place, 91504, Burbank",
+   "website": "https://www.outback.com/"
+  },
+  {
+   "name": "Malbec Argentinian Cuisine",
+   "cuisines": [
+    "Argentinian"
+   ],
+   "address": "10151 Riverside Drive, 91602, Toluca Lake",
+   "website": "https://www.malbeccuisine.com/toluca-lake"
+  },
+  {
+   "name": "Gindi Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "4017 Riverside Drive, 91505, Burbank",
+   "website": "https://gindithai.com/"
+  },
+  {
+   "name": "Urban Press Winery & Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "316 North San Fernando Boulevard, 91502, Burbank",
+   "website": "https://www.urbanpresswinery.com"
+  },
+  {
+   "name": "Tacos Los Desvelados",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1402 West Kenneth Road, 91201, Glendale",
+   "website": "https://www.tacoslosdesvelados.com/"
+  },
+  {
+   "name": "Açaí Jungle",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "326 North Victory Boulevard, 91502, Burbank",
+   "website": "https://acaijunglebowls.com"
+  },
+  {
+   "name": "Wood Ranch",
+   "cuisines": [
+    "Barbecue",
+    "American"
+   ],
+   "address": "110 First Street",
+   "website": "https://www.woodranch.com/restaurants/burbank/"
+  },
+  {
+   "name": "Eat 'n Park Restaurant",
+   "cuisines": [
+    "American",
+    "Coffee Shop"
+   ],
+   "address": "2517 Victory Boulevard, 91505, Burbank",
+   "website": "https://eatnparkburbank.com/"
+  },
+  {
+   "name": "Sushi Dake",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "1723 West Verdugo Avenue, 91506, Burbank",
+   "website": "https://sushidake.com/users/login"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1428 Glenoaks Boulevard, 91201, Glendale",
+   "website": "https://locations.pizzahut.com/ca/glendale/1428-w-glenoaks-blvd"
+  },
+  {
+   "name": "Dog Haus",
+   "cuisines": [
+    "Hot Dog"
+   ],
+   "address": "3817 Olive Avenue, 91505, Burbank",
+   "website": "https://doghaus.com/location/burbank/"
+  },
+  {
+   "name": "Norm's Hamburger",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Breakfast",
+    "Sandwich",
+    "Mexican"
+   ],
+   "address": "1201 West Magnolia Boulevard, 91506",
+   "website": "https://www.normsburger.com/"
+  },
+  {
+   "name": "Yerord Mas Bakery and Deli",
+   "cuisines": [
+    "Armenian"
+   ],
+   "address": "6800 San Fernando Road, 91201, Glendale",
+   "website": "https://yerordmas.toast.site/"
+  },
+  {
+   "name": "Mama Hong's Vietnamese Kitchen",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "221 N San Fernando Blvd, 91502, Burbank",
+   "website": "https://www.mamahongs.com/"
+  },
+  {
+   "name": "Mexcocina Cafe",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Coffee Shop",
+    "Mexican"
+   ],
+   "address": "2714 Burbank Boulevard, 91505",
+   "website": "https://mexcocinacafe.com/"
+  },
+  {
+   "name": "Gyu-Kaku",
+   "cuisines": [
+    "Barbecue",
+    "Japanese"
+   ],
+   "address": "116 South San Fernando Boulevard, 91502, Burbank",
+   "website": "https://www.gyu-kaku.com/burbank/"
+  },
+  {
+   "name": "Big Mama and Papas Pizza",
+   "cuisines": [
+    "Pizza",
+    "Wings",
+    "Sandwich"
+   ],
+   "address": "321 East Alameda Avenue",
+   "website": "https://bmpp.com/index.php"
+  },
+  {
+   "name": "Urbane Cafe",
+   "cuisines": [
+    "Asian",
+    "Chicken",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "3800 West Verdugo Avenue, 91505, Burbank",
+   "website": "https://urbanecafe.com/location/burbank/"
+  },
+  {
+   "name": "Chop N Grill BBQ",
+   "cuisines": [
+    "Kabob",
+    "Barbecue",
+    "Mediterranean"
+   ],
+   "address": "510 South Glenoaks Boulevard, Burbank",
+   "website": "https://chopngrillbbq.com/"
+  },
+  {
+   "name": "Lotus Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "511 North Glenoaks Boulevard, 91502, Burbank",
+   "website": "https://www.lotuschineseburbank.com/"
+  },
+  {
+   "name": "Tatik's",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "443 South Glenoaks Boulevard, 91506",
+   "website": "https://www.mytatiks.com"
+  },
+  {
+   "name": "Poquito Mas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://www.poquitomas.com/location/burbank/"
+  },
+  {
+   "name": "Los Compadres Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1212 North San Fernando Boulevard",
+   "website": "https://www.lctaqueria.com/"
+  },
+  {
+   "name": "Pinball Pizza",
+   "cuisines": [
+    "Pizza",
+    "Chicken",
+    "Salad"
+   ],
+   "address": "2109 West Magnolia Boulevard, 91506",
+   "website": "https://pinballpizza.net/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "913 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://restaurants.ihop.com/en-us/ca/burbank/breakfast-913-n-san-fernando-blvd-728"
+  },
+  {
+   "name": "Pitfire Artisan Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "5203 Lankershim Boulevard, 91601, North Hollywood",
+   "website": "https://www.pitfirepizza.com/location/north-hollywood/"
+  },
+  {
+   "name": "Oku-Niku",
+   "cuisines": [
+    "Japanese",
+    "Barbecue"
+   ],
+   "address": "4013 Riverside Drive, 91505, Burbank",
+   "website": "https://oku-niku.com/"
+  },
+  {
+   "name": "Finney's Crafthouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "164 East Palm Avenue, 91502, Burbank",
+   "website": "https://www.finneyscrafthouse.com/"
+  },
+  {
+   "name": "Wokcano",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "150 South San Fernando Boulevard, 91502, Burbank",
+   "website": "https://wokcanorestaurant.com/locations/burbank/"
+  },
+  {
+   "name": "Gus's Fried Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "509 Glenoaks Boulevard, 91502",
+   "website": "https://gusfriedchicken.com/locations/burbank-california"
+  },
+  {
+   "name": "Pizza Man",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "334 South Glenoaks Boulevard, 91502, Burbank",
+   "website": "https://www.pizzamanburbank.com/"
+  },
+  {
+   "name": "Yunomi Handroll",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "10218 Riverside Drive",
+   "website": "https://yunomihandroll.com/"
+  },
+  {
+   "name": "Hook Burger",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "1731 North Victory Place",
+   "website": "https://hookburger.com/"
+  },
+  {
+   "name": "Original Thai (Noho) Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "11235 Magnolia Boulevard",
+   "website": "https://www.originalthai.com"
+  },
+  {
+   "name": "El Tejano",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "11122 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "https://www.eltejanotexmex.com/"
+  },
+  {
+   "name": "Sharky's",
+   "cuisines": [
+    "Mexican",
+    "Salad"
+   ],
+   "address": "1791 North Victory Place",
+   "website": "https://www.sharkys.com/en-us/locations/ca/burkbank/1791-north-victory-place/"
+  },
+  {
+   "name": "Amazing Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "10604 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "http://www.amazingthaicuisine.com"
+  },
+  {
+   "name": "Sotta",
+   "cuisines": [
+    "Kebab",
+    "Dessert",
+    "Mediterranean",
+    "Sandwich",
+    "Salad"
+   ],
+   "address": "2009 West Alameda",
+   "website": "https://sottala.com/"
+  },
+  {
+   "name": "Original Kabob Factory",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "1817 Glenoaks Boulevard",
+   "website": "https://www.originalkabobfactoryca.com/"
+  },
+  {
+   "name": "Cava",
+   "cuisines": [
+    "Salad",
+    "Mediterranean"
+   ],
+   "address": "1787 North Victory Place",
+   "website": "https://cava.com/locations/empire-center-ca"
+  },
+  {
+   "name": "Frontier Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1816 West Olive Avenue",
+   "website": "https://frontierwok.com/"
+  },
+  {
+   "name": "Jersey Mike’s",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "105 East Alameda Avenue, 91502",
+   "website": "https://www.jerseymikes.com/"
+  },
+  {
+   "name": "Aikan Sushi",
+   "cuisines": [
+    "Sushi",
+    "Japanese",
+    "Asian"
+   ],
+   "address": "230 North San Fernando Boulevard, 91502, Burbank",
+   "website": "https://www.aikanpayce.com/"
+  },
+  {
+   "name": "Mambos Cafe",
+   "cuisines": [
+    "Spanish",
+    "Cuban",
+    "Sandwich",
+    "Salad"
+   ],
+   "address": "1701 Victory Boulevard, 91201, Glendale",
+   "website": "https://mamboscafela.com/"
+  },
+  {
+   "name": "Smashed",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "118 North San Fernando Boulevard, 91502",
+   "website": "https://www.smashedburbank.com/"
+  },
+  {
+   "name": "Chop Stop",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "1001 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://chopstop.com"
+  },
+  {
+   "name": "The Stage Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "546 South San Fernando Boulevard, 91501, Burbank",
+   "website": "https://www.thestagecafe.com"
+  },
+  {
+   "name": "Saraya Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1438 West Verdugo Avenue",
+   "website": "https://www.sarayaburbank.com/"
+  },
+  {
+   "name": "Exotic Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1212 North San Fernando Boulevard",
+   "website": "https://www.exoticthaiofburbank.com/"
+  },
+  {
+   "name": "Hilltop Restaurant & Bar",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1500 East Walnut Avenue, 91501, Burbank",
+   "website": "https://www.debellgolf.com/dining/"
+  },
+  {
+   "name": "Taqueria El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2501 Victory Boulevard",
+   "website": "https://taqeltap.com/"
+  },
+  {
+   "name": "Barnrau Thai Halal",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "10825 Oxnard Street, 91606, North Hollywood",
+   "website": "https://www.barnrau.com/"
+  },
+  {
+   "name": "Lancers",
+   "cuisines": [
+    "American"
+   ],
+   "address": "697 North Victory Boulevard, 91502, Burbank",
+   "website": "https://lancersfamilyrestaurant.com"
+  },
+  {
+   "name": "Season Thai Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "166 E Orange Grove Ave",
+   "website": "https://m.facebook.com/seasonthaicuisine?rf=115824291772601"
+  },
+  {
+   "name": "Soo Raa Thai-American",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "10650 Riverside Drive, 91602, Toluca Lake",
+   "website": "http://www.sooraa.net/"
+  },
+  {
+   "name": "Sharky's Woodfired Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "10119 Riverside Drive, 91602, Toluca Lake",
+   "website": "https://www.sharkys.com/"
+  },
+  {
+   "name": "Timmy Nolan's Tavern and Grill",
+   "cuisines": [
+    "Irish"
+   ],
+   "address": "10111 Riverside Drive, 91602, Toluca Lake",
+   "website": "http://timmynolans.net/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1010 West Alameda Avenue, 91506",
+   "website": "http://Dennys.com"
+  },
+  {
+   "name": "Lotus Vegan",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "4715 Lankershim Boulevard, 91602, North Hollywood",
+   "website": "https://lotusveganla.com/"
+  },
+  {
+   "name": "Tamashii",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "11024 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "https://tamashiiramenusa.com/"
+  },
+  {
+   "name": "Kahuna Tiki",
+   "cuisines": [
+    "Sushi",
+    "Seafood",
+    "Hawaiian"
+   ],
+   "address": "11026 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "https://www.kahunatiki.com/"
+  },
+  {
+   "name": "The New Deal Restaurant and Wine Bar",
+   "cuisines": [
+    "Burger",
+    "Brunch",
+    "Soup",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "3501 West Magnolia Boulevard, 91505, Burbank",
+   "website": "https://thenewdealrestaurant.com/"
+  },
+  {
+   "name": "What Up Dough Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3619 West Magnolia Boulevard, Burbank",
+   "website": "https://www.whatupdough.com"
+  },
+  {
+   "name": "The Pizza Press",
+   "cuisines": [
+    "Pizza",
+    "Salad",
+    "Ice Cream"
+   ],
+   "address": "5077 Lankershim Boulevard, 91601, North Hollywood",
+   "website": "https://thepizzapress.com/"
+  },
+  {
+   "name": "Sun Moon Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1511 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://sunmoongardentogo.com/"
+  },
+  {
+   "name": "Nu Great Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "101 North Victory Boulevard",
+   "website": "https://www.nugreatwok.com/"
+  },
+  {
+   "name": "Slice House By Toni Gemignani",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.slicehouse.com"
+  },
+  {
+   "name": "Via Selfie Kitchen",
+   "cuisines": [
+    "Pizza",
+    "Sandwich",
+    "Pasta",
+    "Italian",
+    "Seafood",
+    "Salad",
+    "American"
+   ],
+   "address": "240 East Alameda Avenue, 91502, Burbank",
+   "website": "https://viaselfiekitchen.com"
+  },
+  {
+   "name": "Pinocchio Restaurant",
+   "cuisines": [
+    "Italian",
+    "Dessert"
+   ],
+   "address": "3103 West Magnolia Boulevard, 91505, Burbank",
+   "website": "https://www.instagram.com/explore/locations/1352257051476870/pinocchios-italian-restaurant-burbank/"
+  },
+  {
+   "name": "The Gala Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "11040 Magnolia Boulevard, 91601, North Hollywood",
+   "website": "http://www.galathainoho.com/"
+  },
+  {
+   "name": "Isabella's Italian Kitchen",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "1220 Burbank Boulevard, 91506, Burbank",
+   "website": "https://isabellasitaliankitchenburbank2.mybistro.online/"
+  },
+  {
+   "name": "Novo Cafe",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3900 Riverside Drive, 91505, Burbank",
+   "website": "https://www.novocafe.com"
+  },
+  {
+   "name": "Granada",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1100 Victory Boulevard, 91506, Burbank",
+   "website": "https://thegranadarestaurant.com/"
+  },
+  {
+   "name": "El Criollo Cuban Bar & Grill",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "916 Burbank Boulevard, 91506, Burbank",
+   "website": "https://www.instagram.com/elcriollola/"
+  },
+  {
+   "name": "The Ciderworks @Story Tavern",
+   "cuisines": [
+    "Bar And Grill",
+    "Pub"
+   ],
+   "address": "130 South San Fernando Boulevard, 91502, Burbank",
+   "website": "https://www.storytavernburbank.com"
+  },
+  {
+   "name": "Century Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3711 West Magnolia Boulevard, 91505, Burbank",
+   "website": "https://www.centurydragonmagnolia.com/"
+  },
+  {
+   "name": "All About Poke",
+   "cuisines": [
+    "Hawaiian",
+    "Seafood"
+   ],
+   "address": "3503 West Magnolia Boulevard, 91505, Burbank",
+   "website": "https://allaboutpoke.com/"
+  },
+  {
+   "name": "Georges Cucina Italiana",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "1418 West Kenneth Road, 91201, Glendale",
+   "website": "https://georgescucina.com/"
+  },
+  {
+   "name": "Cafe Elegante",
+   "cuisines": [
+    "Persian"
+   ],
+   "address": "2905 North Glenoaks Boulevard, 91504",
+   "website": "https://cafeeleganteburbank.com/"
+  },
+  {
+   "name": "Zankou Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "1001 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://zankouchicken.com"
+  },
+  {
+   "name": "TAP Asian Rice Bowls",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1050 North San Fernando Boulevard, 91504, Burbank",
+   "website": "https://www.theasianproject.com/"
+  },
+  {
+   "name": "Summer Buffalo",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "449 Glenoaks Boulevard, 91502",
+   "website": "https://summerbuffalo.com/"
+  },
+  {
+   "name": "Octopus Restaurant",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "227 East Palm Avenue, 91502, Burbank",
+   "website": "https://www.octopusrestaurant.com"
+  },
+  {
+   "name": "Barragan's Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "730 North Victory Boulevard, 91502, Burbank",
+   "website": "https://www.barragansrestaurant.com/"
+  },
+  {
+   "name": "Ubatuba Acai",
+   "cuisines": [
+    "Breakfast",
+    "Juice",
+    "Acai",
+    "Empanada",
+    "Smoothies"
+   ],
+   "address": "1212 North San Fernando Boulevard",
+   "website": "https://ubatubaacai.com/"
+  },
+  {
+   "name": "La Bamba Fresh Island Cuisine",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "2600 North Glenoaks Boulevard, 91504, Burbank",
+   "website": "https://labambaburbank.com/"
+  },
+  {
+   "name": "Eat That Burger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "11142 Burbank Boulevard, 91601, North Hollywood",
+   "website": "http://www.hollywoodeatthatburger.com/"
+  },
+  {
+   "name": "Barney's Beanery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "250 North First Street, 91502, Burbank",
+   "website": "https://barneysbeanery.com/"
+  },
+  {
+   "name": "Something Vegan",
+   "cuisines": [
+    "Burger",
+    "Pasta",
+    "Thai"
+   ],
+   "address": "10000 Riverside Drive, 91602",
+   "website": "https://www.somethingveganla.com/"
+  },
+  {
+   "name": "Little Toni’s",
+   "cuisines": [
+    "Italian Pizza"
+   ],
+   "address": "4745 Lankershim Boulevard, 91602",
+   "website": "https://www.littletonis.com/"
+  },
+  {
+   "name": "Aleppo Kitchen",
+   "cuisines": [
+    "Arab"
+   ],
+   "address": "2128 Glenoaks Boulevard, 91502",
+   "website": "http://aleppokitchen.com"
+  },
+  {
+   "name": "Western Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1311 North Hollywood Way, 91505",
+   "website": "https://www.westernwokla.com/"
+  },
+  {
+   "name": "Los Amigos Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "http://losamigosbarandgrill.com"
+  },
+  {
+   "name": "Olive and Thyme",
+   "cuisines": [
+    "Coffee Shop",
+    "Breakfast",
+    "Soup",
+    "Salad",
+    "Brunch",
+    "Sandwich",
+    "Lunch"
+   ],
+   "address": "",
+   "website": "https://oliveandthyme.com/"
+  },
+  {
+   "name": "Ribs Against The Machine",
+   "cuisines": [
+    "Barbecue",
+    "Sandwich"
+   ],
+   "address": "240 Glenoaks Boulevard, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Yaki's",
+   "cuisines": [
+    "Burger",
+    "Teriyaki"
+   ],
+   "address": "906 West Alameda Avenue, 91506, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Cantina Urban Kalaveras",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "221 San Fernando Boulevard, 91501, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Poke Loulu",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1520 North San Fernando Boulevard, 91504, Burbank",
+   "website": ""
+  },
+  {
+   "name": "TK Cafe",
+   "cuisines": [
+    "Asian",
+    "Bubble Tea",
+    "Sandwich"
+   ],
+   "address": "1212 North San Fernando Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Casitas Taco Al Carbon",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "405 North Victory Boulevard, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Alfredo's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "911 North San Fernando Boulevard, 91504, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Kuru Kuru Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi"
+   ],
+   "address": "521 North Hollywood Way, 91505, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Kabosu Japanese Cuisine",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Hotpot"
+   ],
+   "address": "10155 Riverside Drive, 91602, Toluca Lake",
+   "website": ""
+  },
+  {
+   "name": "Don Cuco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "218 E Orange Grove Ave, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Niko Niko",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1212 North San Fernando Boulevard, 91504",
+   "website": ""
+  },
+  {
+   "name": "The Boiling Crab",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "Palm Avenue, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Moana Hawaiian BBQ",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "150 North San Fernando Boulevard, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Mariscos Costa Azul",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2001",
+   "website": ""
+  },
+  {
+   "name": "Sweetsalt Food Shop",
+   "cuisines": [
+    "Burger",
+    "Sandwich",
+    "Salad",
+    "Coffee Shop",
+    "Breakfast",
+    "Dessert",
+    "American"
+   ],
+   "address": "10106 Riverside Drive",
+   "website": ""
+  },
+  {
+   "name": "Rustic Spoon",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "4384 Lankershim Boulevard, 91602, North Hollywood",
+   "website": ""
+  },
+  {
+   "name": "Dino's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3520 Burbank Boulevard, 91505",
+   "website": ""
+  },
+  {
+   "name": "Centanni",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "117 North Victory Boulevard, 91502, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Thai Room",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Anantra Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2730 W Burbank Blvd",
+   "website": ""
+  },
+  {
+   "name": "BeaBea's",
+   "cuisines": [
+    "Coffee Shop",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lotus & Light",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Broken Compass Tiki",
+   "cuisines": [
+    "Asian",
+    "American"
+   ],
+   "address": "2013 Burbank Boulevard, 91506, Burbank",
+   "website": ""
+  },
+  {
+   "name": "New Town Buffet",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1100 San Fernando Boulevard, 91504",
+   "website": ""
+  },
+  {
+   "name": "Chinar Restaurant and Lounge",
+   "cuisines": [
+    "Fine Dining",
+    "Mediterranean"
+   ],
+   "address": "1333 Hollywood Way, 91505",
+   "website": ""
+  },
+  {
+   "name": "Swinging Door",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "11018 Vanowen Street, 91605",
+   "website": ""
+  },
+  {
+   "name": "Corner Cottage",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Santoros",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "Burbank Boulevard, 91506, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yard House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tonir Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Andy's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Claim Jumper",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kabab Way",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "6424 San Fernando Road",
+   "website": ""
+  },
+  {
+   "name": "Guild Hall",
+   "cuisines": [
+    "Bar And Grill",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pablito's World",
+   "cuisines": [
+    "Mexican",
+    "Peruvian"
+   ],
+   "address": "Burbank Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Guy's Burger Joint",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Frank's Steak House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Delve's",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Victorio's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ribs USA",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Angel Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pinto Thai Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tun Lahmajo",
+   "cuisines": [
+    "Armenian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "FYC Bar + Kitchen",
+   "cuisines": [],
+   "address": "322 North Pass Avenue, 91505, Burbank",
+   "website": "https://www.hotelamarano.com/dining/fyc-bar-and-kitchen/"
+  },
+  {
+   "name": "The Corner",
+   "cuisines": [],
+   "address": "6720 San Fernando Road",
+   "website": "https://thecorner.la"
+  },
+  {
+   "name": "Aki Shabu",
+   "cuisines": [],
+   "address": "5568 Vineland Avenue",
+   "website": "https://akishabu.com"
+  },
+  {
+   "name": "Tocaya Organica",
+   "cuisines": [],
+   "address": "4303 Riverside Drive",
+   "website": "https://www.tocaya.com/"
+  },
+  {
+   "name": "Salomi Indian & Bangladeshi Restaurant",
+   "cuisines": [],
+   "address": "5225 Lankershim Blvd, 91601, North Hollywood",
+   "website": "https://www.salomiindiannoho.com/"
+  },
+  {
+   "name": "The Magnolia Grille",
+   "cuisines": [],
+   "address": "10530 Magnolia Blvd, 91601, North Hollywood",
+   "website": "https://www.themagnoliagrille.com/"
+  },
+  {
+   "name": "Basecamp Dinette",
+   "cuisines": [],
+   "address": "1221 West Riverside Drive, 91506",
+   "website": "https://basecampdinette.com/"
+  },
+  {
+   "name": "Leonor's Vegetarian Mexican Restaurant",
+   "cuisines": [],
+   "address": "11403 Victory Boulevard, 91606, North Hollywood",
+   "website": "https://theogleonors.com/"
+  },
+  {
+   "name": "Vegan Exchange",
+   "cuisines": [],
+   "address": "5275 Craner Avenue, 91601",
+   "website": "https://www.veganexchangeevents.com/"
+  },
+  {
+   "name": "Smokehouse Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.smokehouse1946.com/"
+  },
+  {
+   "name": "Vicious Dogs",
+   "cuisines": [],
+   "address": "5231 Lankershim Blvd",
+   "website": "http://www.viciousdogs.com"
+  },
+  {
+   "name": "The Juice Parlor",
+   "cuisines": [],
+   "address": "5658 Cahuenga Boulevard, 91601",
+   "website": "http://thejuiceparlor.com"
+  },
+  {
+   "name": "Glendale Shawarma",
+   "cuisines": [],
+   "address": "1910 West Glenoaks Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Verse",
+   "cuisines": [],
+   "address": "4212 Lankershim Boulevard, 91602, Toluca Lake",
+   "website": ""
+  },
+  {
+   "name": "Don Cuco Mexican Restaurant (Toluca Lake)",
+   "cuisines": [],
+   "address": "3911 Riverside Drive, Burbank",
+   "website": ""
+  },
+  {
+   "name": "Taco Azteca",
+   "cuisines": [],
+   "address": "1201 West Magnolia Boulevard",
+   "website": ""
+  },
+  {
+   "name": "North Hollywood Diner",
+   "cuisines": [],
+   "address": "11329 Magnolia Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Arian BBQ",
+   "cuisines": [],
+   "address": "321 East Alameda Avenue",
+   "website": ""
+  },
+  {
+   "name": "The Castaway",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alloro",
+   "cuisines": [],
+   "address": "1950 West Magnolia Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Commissary",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Store 2 Door",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Palma Restaurant",
+   "cuisines": [],
+   "address": "269 East Palm Avenue",
+   "website": ""
+  },
+  {
+   "name": "Monta Factory",
+   "cuisines": [],
+   "address": "1208 Glenoaks Boulevard, 91201",
+   "website": ""
+  },
+  {
+   "name": "Daily Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Philadelphia Sandwiches",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Diane Mina's Backyard Bar & Eats",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Base Camp",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chop Stop Salad",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hacienda Diaz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Autry Museum of the American West",
+   "kind": "museum",
+   "address": "4700 Western Heritage Way, 90027, Los Angles",
+   "website": "https://theautry.org/",
+   "phone": "",
+   "latitude": 34.1485739,
+   "longitude": -118.281268
+  },
+  {
+   "name": "Griffith Observatory",
+   "kind": "museum",
+   "address": "2800 East Observatory Road, 90027, Los Angeles",
+   "website": "https://griffithobservatory.org/",
+   "phone": "",
+   "latitude": 34.1182134,
+   "longitude": -118.3003722
+  },
+  {
+   "name": "Hollywood Heritage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.hollywoodheritage.org/",
+   "phone": "",
+   "latitude": 34.1085321,
+   "longitude": -118.3361185
+  },
+  {
+   "name": "Madame Tussaud's",
+   "kind": "museum",
+   "address": "6933 Hollywood Boulevard, 90028, Hollywood",
+   "website": "https://www.madametussauds.com/hollywood/",
+   "phone": "",
+   "latitude": 34.1019411,
+   "longitude": -118.3414286
+  },
+  {
+   "name": "Museum of Death",
+   "kind": "museum",
+   "address": "6363 Selma, 90028",
+   "website": "http://www.museumofdeath.net/",
+   "phone": "",
+   "latitude": 34.0998785,
+   "longitude": -118.3290098
+  },
+  {
+   "name": "The Hollywood Museum",
+   "kind": "museum",
+   "address": "1660 Highland Avenue, Los Angeles",
+   "website": "https://thehollywoodmuseum.com/",
+   "phone": "",
+   "latitude": 34.101077,
+   "longitude": -118.3383269
+  },
+  {
+   "name": "Bolton Hall",
+   "kind": "museum",
+   "address": "10110 Commerce Avenue, 91042, Tujunga",
+   "website": "http://www.littlelandershistoricalsociety.org/",
+   "phone": "+1-818-352-3420",
+   "latitude": 34.2526144,
+   "longitude": -118.2882243
+  },
+  {
+   "name": "Universal Studios Hollywood",
+   "kind": "theme park",
+   "address": "100 Universal City Plaza, 91608, Universal City",
+   "website": "https://www.universalstudioshollywood.com/",
+   "phone": "+1-800-864-8377",
+   "latitude": 34.1392248,
+   "longitude": -118.3552732
+  },
+  {
+   "name": "Travel Town Museum",
+   "kind": "museum",
+   "address": "5200 Zoo Drive, 90027, Los Angeles",
+   "website": "https://www.traveltown.org/",
+   "phone": "",
+   "latitude": 34.1546797,
+   "longitude": -118.3076242
+  },
+  {
+   "name": "Los Angeles Municipal Art Gallery",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.lamag.org/",
+   "phone": "+1 323-644-6269",
+   "latitude": 34.1004021,
+   "longitude": -118.2936452
+  },
+  {
+   "name": "Museum of Neon Art",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.neonmona.org",
+   "phone": "",
+   "latitude": 34.1437557,
+   "longitude": -118.2545819
+  },
+  {
+   "name": "Luz De Jesus",
+   "kind": "gallery",
+   "address": "4633 Hollywood Boulevard, 90027",
+   "website": "https://laluzdejesus.com/",
+   "phone": "+1 323-666-7667",
+   "latitude": 34.1003514,
+   "longitude": -118.289957
+  },
+  {
+   "name": "LA Live Steamers",
+   "kind": "museum",
+   "address": "5202 Zoo Drive, 90027, Los Angeles",
+   "website": "https://lals.org/",
+   "phone": "+1-323-661-8958; +1-323-662-8030",
+   "latitude": 34.1548971,
+   "longitude": -118.3020299
+  },
+  {
+   "name": "Hollywood Wax Museum",
+   "kind": "museum",
+   "address": "6767 Hollywood Boulevard, 90028, Los Angeles",
+   "website": "https://www.hollywoodwaxmuseum.com/",
+   "phone": "",
+   "latitude": 34.10173,
+   "longitude": -118.3381249
+  },
+  {
+   "name": "Psychiatry: An Industry of Death Museum",
+   "kind": "museum",
+   "address": "6616 West Sunset Boulevard, Los Angeles",
+   "website": "https://www.cchr.org/",
+   "phone": "",
+   "latitude": 34.0978074,
+   "longitude": -118.3339175
+  },
+  {
+   "name": "Martial Arts History Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://martialartsmuseum.com/",
+   "phone": "",
+   "latitude": 34.1726045,
+   "longitude": -118.3335606
+  },
+  {
+   "name": "Jurassic World-The Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/jurassic-world",
+   "phone": "",
+   "latitude": 34.1403771,
+   "longitude": -118.3576195
+  },
+  {
+   "name": "Hollywood Sign",
+   "kind": "attraction",
+   "address": "Mount Lee Drive, 90068, Los Angeles",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1340991,
+   "longitude": -118.321652
+  },
+  {
+   "name": "Los Angeles Fire Department Museum and Memorial",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.0959378,
+   "longitude": -118.3300585
+  },
+  {
+   "name": "Hollyhock House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1000128,
+   "longitude": -118.2943686
+  },
+  {
+   "name": "Hollywood Sculpture Garden",
+   "kind": "gallery",
+   "address": "2430 Vasanta Way, 90068, Los Angeles",
+   "website": "",
+   "phone": "",
+   "latitude": 34.113902,
+   "longitude": -118.3235423
+  },
+  {
+   "name": "Hollywood Walk of Fame",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1008789,
+   "longitude": -118.3337938
+  },
+  {
+   "name": "Walk of Fame",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1016711,
+   "longitude": -118.3446991
+  },
+  {
+   "name": "Universal CityWalk Hollywood",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1361909,
+   "longitude": -118.353773
+  },
+  {
+   "name": "Roslin Art Gallery",
+   "kind": "gallery",
+   "address": "111 West California Avenue, Glendale",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1500137,
+   "longitude": -118.2557193
+  },
+  {
+   "name": "RockWalk",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.0982128,
+   "longitude": -118.3515079
+  },
+  {
+   "name": "Los Angeles Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1483335,
+   "longitude": -118.289411
+  },
+  {
+   "name": "Hollywood and Vine",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.101602,
+   "longitude": -118.3267154
+  },
+  {
+   "name": "L'Imagerie",
+   "kind": "gallery",
+   "address": "10555 Victory Boulevard, 91606, Los Angeles",
+   "website": "https://www.limageriegallery.com",
+   "phone": "+1-818-762-8488",
+   "latitude": 34.1859163,
+   "longitude": -118.3609467
+  },
+  {
+   "name": "Lighthouse Immersive (Los Angeles)",
+   "kind": "museum",
+   "address": "6200 Sunset Boulevard, 90028, Los Angeles",
+   "website": "https://www.amoeba.com/",
+   "phone": "+1-323-245-6400",
+   "latitude": 34.0975525,
+   "longitude": -118.3291584
+  },
+  {
+   "name": "Gattopardo",
+   "kind": "gallery",
+   "address": "918 Ruberta Avenue, 91201, Glendale",
+   "website": "https://gattopardo.la/",
+   "phone": "",
+   "latitude": 34.1663216,
+   "longitude": -118.2894899
+  },
+  {
+   "name": "Museum of Selfies",
+   "kind": "museum",
+   "address": "6757 Hollywood Boulevard, 90028, Los Angeles",
+   "website": "https://museumofselfies.com/",
+   "phone": "+1 737 471-5566",
+   "latitude": 34.1017438,
+   "longitude": -118.3378435
+  },
+  {
+   "name": "Hollywood Entertainment Museum",
+   "kind": "museum",
+   "address": "7021 Hollywood Boulevard, Hollywood",
+   "website": "https://www.seeing-stars.com/Museums/HollywoodEntertainment.shtml",
+   "phone": "",
+   "latitude": 34.1019444,
+   "longitude": -118.3425
+  },
+  {
+   "name": "Guinness World Records Museum",
+   "kind": "museum",
+   "address": "6764 Hollywood Boulevard, 90028, Los Angeles",
+   "website": "https://www.guinnessmuseumhollywood.com/",
+   "phone": "+1-323-463-6433",
+   "latitude": 34.1013769,
+   "longitude": -118.3380488
+  },
+  {
+   "name": "Edmund D. Edelman Hollywood Bowl Museum",
+   "kind": "museum",
+   "address": "2301 North Highland Avenue",
+   "website": "https://www.hollywoodbowl.com/visit/when-youre-here/hollywood-bowl-museum",
+   "phone": "",
+   "latitude": 34.1117032,
+   "longitude": -118.3372004
+  },
+  {
+   "name": "DreamWorks Theatre",
+   "kind": "attraction",
+   "address": "4457",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/dreamworks-theatre",
+   "phone": "",
+   "latitude": 34.1381228,
+   "longitude": -118.3544409
+  },
+  {
+   "name": "Mr Musichead",
+   "kind": "gallery",
+   "address": "7420 West Sunset Boulevard, 90046, Los Angeles",
+   "website": "https://mrmusichead.com/",
+   "phone": "",
+   "latitude": 34.0978329,
+   "longitude": -118.3525559
+  },
+  {
+   "name": "Griffith Park Merry-Go-Round",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.laparks.org/dos/parks/griffithPK/mgr.htm",
+   "phone": "",
+   "latitude": 34.1327053,
+   "longitude": -118.2838104
+  },
+  {
+   "name": "Griffith Park Train Rides",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.griffithparktrainrides.com/",
+   "phone": "",
+   "latitude": 34.1218839,
+   "longitude": -118.2734114
+  },
+  {
+   "name": "Mario Kart: Bowser’s Challenge",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/mario-kart-bowsers-challenge",
+   "phone": "",
+   "latitude": 34.141566,
+   "longitude": -118.3578222
+  },
+  {
+   "name": "Despicable Me: Minion Mayhem",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/despicable-me-minion-mayhem",
+   "phone": "",
+   "latitude": 34.1382784,
+   "longitude": -118.3564904
+  },
+  {
+   "name": "WaterWorld",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/waterworld",
+   "phone": "",
+   "latitude": 34.1369219,
+   "longitude": -118.3541946
+  },
+  {
+   "name": "Lauren Powell Projects",
+   "kind": "gallery",
+   "address": "5225 Hollywood Boulevard, 90027, Thai Town",
+   "website": "https://www.laurenpowellprojects.com/",
+   "phone": "",
+   "latitude": 34.1018908,
+   "longitude": -118.3043833
+  },
+  {
+   "name": "Sarah Brook Gallery",
+   "kind": "gallery",
+   "address": "5229 Hollywood Boulevard, 90027, Thai Town",
+   "website": "https://sarahbrookgallery.com/",
+   "phone": "",
+   "latitude": 34.1018898,
+   "longitude": -118.3044936
+  },
+  {
+   "name": "Ripley's Believe It or Not! Odditoriums",
+   "kind": "museum",
+   "address": "6780 Hollywood Boulevard, 90028, Los Angeles",
+   "website": "https://www.ripleys.com/hollywood/",
+   "phone": "",
+   "latitude": 34.1013711,
+   "longitude": -118.3384968
+  },
+  {
+   "name": "Flight of the Hippogriff",
+   "kind": "attraction",
+   "address": "5461",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/flight-of-the-hippogriff",
+   "phone": "",
+   "latitude": 34.1376129,
+   "longitude": -118.3536951
+  },
+  {
+   "name": "The Secret Life of Pets: Off The Leash",
+   "kind": "attraction",
+   "address": "3458",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/the-secret-life-of-pets",
+   "phone": "",
+   "latitude": 34.1379647,
+   "longitude": -118.3557241
+  },
+  {
+   "name": "The Simpsons Ride",
+   "kind": "attraction",
+   "address": "4407",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/the-simpsons-ride",
+   "phone": "",
+   "latitude": 34.1396122,
+   "longitude": -118.3536505
+  },
+  {
+   "name": "Forest Lawn Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://forestlawn.com/museum/",
+   "phone": "",
+   "latitude": 34.1284656,
+   "longitude": -118.246095
+  },
+  {
+   "name": "Larry Edmunds Bookshop",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.larryedmunds.com/",
+   "phone": "+1 323-463-3273",
+   "latitude": 34.1013143,
+   "longitude": -118.3344322
+  },
+  {
+   "name": "Harry Potter and the Forbidden Journey",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/harry-potter-and-the-forbidden-journey",
+   "phone": "",
+   "latitude": 34.1378895,
+   "longitude": -118.3528881
+  },
+  {
+   "name": "Transformers: The Ride-3D",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/transformers-the-ride-3d",
+   "phone": "",
+   "latitude": 34.1415257,
+   "longitude": -118.3568289
+  },
+  {
+   "name": "Revenge of the Mummy - The Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/revenge-of-the-mummy-the-ride",
+   "phone": "",
+   "latitude": 34.1408777,
+   "longitude": -118.3562843
+  },
+  {
+   "name": "The World-Famous Studio Tour",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/the-world-famous-studio-tour",
+   "phone": "",
+   "latitude": 34.1387841,
+   "longitude": -118.352727
+  },
+  {
+   "name": "Silly Swirly Fun Ride",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/silly-swirly-fun-ride",
+   "phone": "",
+   "latitude": 34.1388332,
+   "longitude": -118.3565335
+  },
+  {
+   "name": "Haunted Picnic Table 29",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://pinintheatlas.com/travel-blogs/haunted-picnic-table-29-griffith-park-california/",
+   "phone": "",
+   "latitude": 34.1371859,
+   "longitude": -118.3067867
+  },
+  {
+   "name": "Alexandra Manukyan Art Studio",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://alexandramanukyan.com/",
+   "phone": "",
+   "latitude": 34.2032913,
+   "longitude": -118.2266099
+  },
+  {
+   "name": "Barnes & Noble",
+   "kind": "attraction",
+   "address": "12136 Ventura Boulevard, 91604, Studio City",
+   "website": "",
+   "phone": "",
+   "latitude": 34.143109,
+   "longitude": -118.3964209
+  },
+  {
+   "name": "Walt Disney’s Carolwood Barn",
+   "kind": "museum",
+   "address": "5202 Zoo Drive, 90027, Los Angeles",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1551702,
+   "longitude": -118.3016407
+  },
+  {
+   "name": "The Last House on Mulholland",
+   "kind": "viewpoint",
+   "address": "6101 Mulholland Highway, 90068, Los Angeles",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1312431,
+   "longitude": -118.3204566
+  },
+  {
+   "name": "Warner Bros. Transportation Museum",
+   "kind": "museum",
+   "address": "4000 Warner Boulevard, 91522, Burbank",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1464202,
+   "longitude": -118.340304
+  },
+  {
+   "name": "Samuel-Novarro House",
+   "kind": "attraction",
+   "address": "2255 Verde Oak Drive, 90068, Los Angeles",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1110655,
+   "longitude": -118.3118724
+  },
+  {
+   "name": "Secret Forest Los Angeles",
+   "kind": "gallery",
+   "address": "3412 West Magnolia Boulevard, 91505, Burbank",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1685714,
+   "longitude": -118.3444199
+  },
+  {
+   "name": "Grand Central Airport Terminal",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1629864,
+   "longitude": -118.2866876
+  },
+  {
+   "name": "Stage 50 - Earthquake",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1400272,
+   "longitude": -118.3468115
+  },
+  {
+   "name": "Zen Gallery",
+   "kind": "gallery",
+   "address": "5642 Hollywood Boulevard, 90028, Hollywood",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1015264,
+   "longitude": -118.3129555
+  },
+  {
+   "name": "Greenberg Memorial Bench",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1194797,
+   "longitude": -118.2825119
+  },
+  {
+   "name": "Children's Discovery Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1491552,
+   "longitude": -118.2841734
+  },
+  {
+   "name": "Hollywood Movie Star Homes Tour",
+   "kind": "attraction",
+   "address": "6806 Hollywood Boulevard, 90028",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1014912,
+   "longitude": -118.338883
+  },
+  {
+   "name": "Jim Morrison's House",
+   "kind": "attraction",
+   "address": "8021 Rothdell Trail",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1090095,
+   "longitude": -118.3691367
+  },
+  {
+   "name": "Wisdom Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1360265,
+   "longitude": -118.3321097
+  },
+  {
+   "name": "Beacon Hill",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1284912,
+   "longitude": -118.2773421
+  },
+  {
+   "name": "Streamline Moderne gas station",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1324301,
+   "longitude": -118.2421241
+  },
+  {
+   "name": "Whites Art Framing & Restoration",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.2064138,
+   "longitude": -118.231102
+  },
+  {
+   "name": "War of the Worlds Set",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1358987,
+   "longitude": -118.347234
+  },
+  {
+   "name": "Jupiter's Claim Set",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1351,
+   "longitude": -118.3484629
+  },
+  {
+   "name": "Fast & Furious: Hollywood Drift",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.139238,
+   "longitude": -118.3551268
+  },
+  {
+   "name": "5 Points",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.126901,
+   "longitude": -118.280258
+  },
+  {
+   "name": "Red's Bookshop",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.101358,
+   "longitude": -118.3362662
+  },
+  {
+   "name": "Tyrolean Tank Hollywood Sign Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1306282,
+   "longitude": -118.3188281
+  },
+  {
+   "name": "Meet Mario, Luigi & Princess Peach",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1409914,
+   "longitude": -118.3578122
+  },
+  {
+   "name": "Love Street",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1089203,
+   "longitude": -118.3693074
+  },
+  {
+   "name": "Hollywood Sign Vista at Last House",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1306411,
+   "longitude": -118.320373
+  },
+  {
+   "name": "Little Ass Farm",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.2626472,
+   "longitude": -118.3465972
+  },
+  {
+   "name": "Henry Cook Lookout Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.2132058,
+   "longitude": -118.3108886
+  },
+  {
+   "name": "Hollywood Bowl Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1168228,
+   "longitude": -118.3413598
+  },
+  {
+   "name": "Dead Man Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1236178,
+   "longitude": -118.3874477
+  },
+  {
+   "name": "Autry Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1234053,
+   "longitude": -118.3891365
+  },
+  {
+   "name": "Vista Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1235668,
+   "longitude": -118.2852932
+  },
+  {
+   "name": "Cloud's Rest",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1108552,
+   "longitude": -118.348751
+  },
+  {
+   "name": "Hollywood's Rock Walk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.0981489,
+   "longitude": -118.3518699
+  },
+  {
+   "name": "The Tiffany & Co. Foundation Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1262598,
+   "longitude": -118.3055928
+  },
+  {
+   "name": "Warner Bros Studio Tour",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1519737,
+   "longitude": -118.3366125
+  },
+  {
+   "name": "Barbara Fine Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1213045,
+   "longitude": -118.3977799
+  },
+  {
+   "name": "Nancy Hoover Pohl Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.122268,
+   "longitude": -118.3852218
+  },
+  {
+   "name": "Universal City Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1289372,
+   "longitude": -118.3652198
+  },
+  {
+   "name": "Beachwood Dr. - Mid-block",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1074501,
+   "longitude": -118.3223268
+  },
+  {
+   "name": "Colonial Street",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1390584,
+   "longitude": -118.3455218
+  },
+  {
+   "name": "Letter \"H\"",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1789731,
+   "longitude": -118.2562991
+  },
+  {
+   "name": "Inspiration Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1067591,
+   "longitude": -118.3488967
+  },
+  {
+   "name": "Hugh Hefner Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1345629,
+   "longitude": -118.3232032
+  },
+  {
+   "name": "Cathy's Corner",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.139304,
+   "longitude": -118.30819
+  },
+  {
+   "name": "Mount Beanpole",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.1407796,
+   "longitude": -118.3580846
+  },
+  {
+   "name": "Burbank Christmas Tree",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.2050417,
+   "longitude": -118.311643
+  },
+  {
+   "name": "Lookout Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 34.2647418,
+   "longitude": -118.3718337
+  }
+ ]
+}

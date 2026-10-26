@@ -252,9 +252,10 @@ def _sidebar() -> tuple[str | None, object]:
                 "change before booking.\n"
                 "- **Not available live:** taxi fares, most public transport fares, attraction entry prices and "
                 "some restaurant prices. They're listed as unpriced and left out of totals.\n"
-                f"- **Snapshot** (fallback and past dates): Inside Airbnb stays (September 2026) and OpenStreetMap "
-                f"restaurants and attractions for {current} cities in the US, Europe and Asia, and the TravelPlanner "
-                "dataset (March 2022) for other US cities and for US flights and driving routes.\n"
+                f"- **Snapshot** (fallback and past dates), all from 2026, for {current} cities in the US, Europe "
+                "and Asia: OpenStreetMap restaurants and attractions, Inside Airbnb stays with prices for 50 cities, "
+                "and OpenStreetMap hotels without prices for the other US cities. There are no snapshot flights or "
+                "driving routes: without live data they're estimated from the distance, without a flight price.\n"
                 "- Expand **Tool calls** under an answer to see what was searched, and **Sources** for places from "
                 "the knowledge base."
             )

@@ -1,0 +1,1140 @@
+{
+ "city": "Lake Charles",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 30.2165,
+ "longitude": -93.2239,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Comfort Suites Sulphur",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2505 Highway 108, 70665, Sulphur",
+   "url": "https://www.choicehotels.com/louisiana/sulphur/comfort-suites-hotels"
+  },
+  {
+   "name": "TownePlace Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2985 L'Auberge Boulevard, 70601, Lake Charles",
+   "url": "https://www.marriott.com/lchts"
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 Mallard Street, 70665, Sulphur",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/sulphur/slfms/hoteldetail"
+  },
+  {
+   "name": "Days Inn by Wyndham Sulphur LA",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "108 Dennis Avenue, 70665, Sulphur",
+   "url": "https://www.wyndhamhotels.com/days-inn/sulphur-louisiana/days-inn-sulphur-la/overview"
+  },
+  {
+   "name": "Golden Nugget Lake Charles Hotel & Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2550 Golden Nugget Boulevard, 70601, Lake Charles",
+   "url": "https://www.goldennugget.com/lake-charles/"
+  },
+  {
+   "name": "Best Western Plus Executive Hotel & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 Pintail Street, 70665, Sulphur",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-sulphur/best-western-plus-executive-hotel-suites/propertyCode.19093.html"
+  },
+  {
+   "name": "Horseshoe Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 Westlake Ave, 70669, Westlake",
+   "url": "https://www.caesars.com/horseshoe-lake-charles"
+  },
+  {
+   "name": "Courtyard Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2995 L'Auberge Boulevard, 70601, Lake Charles",
+   "url": "https://www.marriott.com/lchcy"
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Mallard Street, 70665, Sulphur",
+   "url": "https://www.choicehotels.com/louisiana/sulphur/quality-inn-hotels/la523"
+  },
+  {
+   "name": "SpringHill Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1551 West Prien Lake Road, 70601, Lake Charles",
+   "url": "https://www.marriott.com/lchsh"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1008 Sampson Street, 70669, Westlake",
+   "url": "https://www.wyndhamhotels.com/laquinta/westlake-louisiana/la-quinta-lake-charles-westlake/overview"
+  },
+  {
+   "name": "Residence Inn Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1591 West Prien Lake Road, 70601, Lake Charles",
+   "url": "https://www.marriott.com/lchri"
+  },
+  {
+   "name": "OYO",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "112 Dennis Avenue, 70665, Sulphur",
+   "url": "https://www.oyorooms.com/us/242720"
+  },
+  {
+   "name": "Super 8 by Wyndham Lake Charles/Sulphur",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1350 East Prien Lake Road, 70601, Lake Charles",
+   "url": "https://www.wyndhamhotels.com/super-8/lake-charles-louisiana/super-8-lake-charles-sulphur/overview"
+  },
+  {
+   "name": "Econo Lodge Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "351 North Martin Luther King High, 70601, Lake Charles",
+   "url": "https://www.choicehotels.com/louisiana/sulphur/comfort-suites-hotels"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "402 North Martin Luther King Highway, 70601, Lake Charles",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/lake-charles/lchla/hoteldetail"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1004 North Martin Luther King Highway, 70601, Lake Charles",
+   "url": "https://www.wyndhamhotels.com/super-8/lake-charles-louisiana/super-8-lake-charles-northeast/overview"
+  },
+  {
+   "name": "Comfort Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1016 Martin Luther King Highway, 70601, Lake Charles",
+   "url": "https://www.choicehotels.com/louisiana/sulphur/comfort-suites-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1212 North Lakeshore Drive, 70601, Lake Charles",
+   "url": "https://www.wyndhamhotels.com/days-inn/lake-charles-louisiana/days-inn-lake-charles/overview"
+  },
+  {
+   "name": "Howard Johnson by Wyndham Historic Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "825 Broad Street, 70601, Lake Charles",
+   "url": "https://www.wyndhamhotels.com/hojo/lake-charles-louisiana/howard-johnson-inn-historic-lake-charles/overview"
+  },
+  {
+   "name": "The Marco Hotel Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 N Lakeshore Dr, 70601, Lake Charles",
+   "url": "https://www.themarcohotel.com/"
+  },
+  {
+   "name": "Americas Best Value Inn & Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3231 Lake Street, 70601, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Hotel & Suites Lake Charles South,",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2940 Lake Street, 70601, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "BEST WESTERN PLUS Prien Lake Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1245 East Prien Lake Road, 70601, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3202 N Power Center, 70615, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3411 Broad Street, 70615, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn - Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "284 East Ward Line Road, 70615, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "The Lofts At Walnut Grove",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2070 East Walnut Street, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "L'Auberge Casino Resort Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "777 Avenue L'Auberge, 70601, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2700 Broad Street, 70615, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Deluxe Inn Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3900 Highway 90 E, 70615, Lake Charles",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Lake Charles Casino Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn & Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 on the Bayou",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Lake Charles",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Lake Charles South Casino Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Mulberry Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aunt Ruby's Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Jojo's Chinese Bistro",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1732 West Prien Lake Road, 70601, Lake Charles",
+   "website": "https://www.visitlakecharles.org/listing/jojos-china-bistro/149079/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1725 West Prien Lake Road, 70601, Lake Charles",
+   "website": "https://www.olivegarden.com/"
+  },
+  {
+   "name": "Cajun's Wharf",
+   "cuisines": [
+    "American",
+    "Cajun"
+   ],
+   "address": "3500 Ryan Street, 70605, Lake Charles",
+   "website": "https://thecajunswharf.com/"
+  },
+  {
+   "name": "TaD's Louisiana Cooking",
+   "cuisines": [
+    "American",
+    "Cajun"
+   ],
+   "address": "3624 Ryan Street, 70605, Lake Charles",
+   "website": "https://tadsrestaurants.com/lake-charles"
+  },
+  {
+   "name": "SHUCKS!",
+   "cuisines": [
+    "American",
+    "Seafood",
+    "Cajun"
+   ],
+   "address": "1301 Bayou Vue Drive, 70601, Lake Charles",
+   "website": "https://shuckslc.com/"
+  },
+  {
+   "name": "Steamboat Bill's Seafood",
+   "cuisines": [
+    "American",
+    "Cajun"
+   ],
+   "address": "732 South Martin Luther King Highway, 70601, Lake Charles",
+   "website": "https://www.steamboatbillsseafood.com/"
+  },
+  {
+   "name": "Leonard's Food Quarters",
+   "cuisines": [
+    "American",
+    "Cajun",
+    "Creole"
+   ],
+   "address": "1708 Gerstner Memorial Drive, 70601, Lake Charles",
+   "website": "https://www.leonardsfoodquarters.com/"
+  },
+  {
+   "name": "Mr. Gatti's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3522 Ryan Street, Lake Charles",
+   "website": "https://www.mrgattispizza.com/"
+  },
+  {
+   "name": "Restaurant Calla",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1400 Market Street, 70601, Lake Charles",
+   "website": "https://www.restaurantcalla.com/"
+  },
+  {
+   "name": "Coffee:30",
+   "cuisines": [
+    "Coffee Shop",
+    "American",
+    "Breakfast",
+    "Regional"
+   ],
+   "address": "3420 Ryan Street, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Pedro's",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "4051 Ryan Street, 70605, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Luna Bar & Grill",
+   "cuisines": [
+    "Sandwich",
+    "Burger",
+    "Seafood"
+   ],
+   "address": "719 Ryan Street, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "3431",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "3205 Gerstner Memorial Highway, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "211 West Prien Lake Road, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Nogal Mexican Cuisine & Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1776 West Prien Lake Road, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Famous Foods",
+   "cuisines": [
+    "American",
+    "Cajun"
+   ],
+   "address": "1475 Gerstner Memorial Drive, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2601 Admiral King Street, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Rosita's 2 Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3669 5th Avenue, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Lucky Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2609 Broad Street, 70615, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "La Star Buffet",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3539 Ryan Street, 70605, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Blue Iguana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "629 West Prien Lake Road, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Raja's Curry Kitchen and Grill",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3821 Ryan Street, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Area 337",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Seafood Palace",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2218 Enterprise Boulevad, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Zeus Greek & Lebanese Cafe",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "625 West Prien Lake Road, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Cotten's Downtown",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Koko Ramen Poke Bowl",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1748 West Prien Lake Road",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cicis",
+   "cuisines": [
+    "Pizza",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Eggs Up Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "UMAMI Japanese Restaurant & Sushi Bar",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Lake Charles",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Bad Apple Saloon & Grill",
+   "cuisines": [
+    "American",
+    "Cajun"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tony's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Manana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wasabi Japanese Sushi & Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pho World",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kelly Cajun Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shwarma's",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Crusts Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China One",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Parrilla",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Salata Kitchen",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Qué Pasa Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Yeung's Lotus Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rotolo's Pizzeria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "KD's Diner",
+   "cuisines": [],
+   "address": "240 West Prien Lake Road, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Crying Eagle Brewing Company - Lakefront",
+   "cuisines": [],
+   "address": "911 North Lakeshore Drive, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Panorama Music House",
+   "cuisines": [],
+   "address": "331 Broad Street, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Steamboat Bill's on the Lake",
+   "cuisines": [],
+   "address": "1004 North Lakeshore Drive, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Darrell's",
+   "cuisines": [],
+   "address": "119 West College Street, 70605, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Mama Reta’s Kitchen",
+   "cuisines": [],
+   "address": "1916 Belden Street, 70601, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Paradise Daquiris, Bar, and Grill",
+   "cuisines": [],
+   "address": "1780 West Prien Lake Road, Lake Charles",
+   "website": ""
+  },
+  {
+   "name": "Cotten's Famous Hamburgers",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Southern Spice Restaurant & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Villa Harlequin",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jeanne's Bourbon St. BBQ",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mazen's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Victoria's Taqueria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pronia's Deli and Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Round Top Burger House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jim's Seafood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nawal's Kebab House and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "La Truffe Sauvage",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tia Juanita's Fish Camp",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sam's Southern Eatery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Smalls Sliders",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pitt Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pappy's Bar And Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "1910",
+   "cuisines": [],
+   "address": "949 Ryan Street, 70601, Lake Charles",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Historic City Hall Arts & Cultural Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.cityoflakecharles.com/department/division.php?fDD=3-29",
+   "phone": "",
+   "latitude": 30.2260162,
+   "longitude": -93.2172954
+  },
+  {
+   "name": "Imperial Calcasieu Museum",
+   "kind": "museum",
+   "address": "204 West Sallier Street, 70601, Lake Charles",
+   "website": "https://imperialcalcasieumuseum.org/",
+   "phone": "",
+   "latitude": 30.2133876,
+   "longitude": -93.2221646
+  },
+  {
+   "name": "Nature and Science Center",
+   "kind": "museum",
+   "address": "1011 N Lakeshore Drive, 70601, Lake Charles",
+   "website": "",
+   "phone": "",
+   "latitude": 30.2364398,
+   "longitude": -93.2275009
+  },
+  {
+   "name": "The Children's Museum",
+   "kind": "museum",
+   "address": "327 Broad Street, 70601, Lake Charles",
+   "website": "",
+   "phone": "",
+   "latitude": 30.2295217,
+   "longitude": -93.2161545
+  },
+  {
+   "name": "Port Wonder",
+   "kind": "museum",
+   "address": "1011 North Lakeshore Drive, 70601, Lake Charles",
+   "website": "",
+   "phone": "",
+   "latitude": 30.2363821,
+   "longitude": -93.2272301
+  },
+  {
+   "name": "Imperial Calcasieu Museum - The Annex Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.2136892,
+   "longitude": -93.2220388
+  },
+  {
+   "name": "The Children's Museum at Port Wonder",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.236397,
+   "longitude": -93.2270141
+  }
+ ]
+}

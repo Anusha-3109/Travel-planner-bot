@@ -66,8 +66,9 @@ def place_documents(catalog: TravelCatalog | None = None, cities: Iterable[str] 
             add("restaurant", place, text, cuisines=cuisines, average_cost=place.average_cost, rating=place.rating)
         for place in catalog.accommodations.get(key, []):
             rules = (", ".join(place.house_rules) or "none") if place.house_rules is not None else "not published"
-            text = (f"{place.name} is a {place.room_type.lower()} to stay in {where}. "
-                    f"${place.price:.0f} per night, sleeps up to {place.maximum_occupancy}, "
+            price = f"${place.price:.0f} per night" if place.price is not None else "No price listed (search live)"
+            sleeps = f", sleeps up to {place.maximum_occupancy}" if place.maximum_occupancy else ""
+            text = (f"{place.name} is a {place.room_type.lower()} to stay in {where}. {price}{sleeps}, "
                     f"minimum stay {place.minimum_nights} nights. House rules: {rules}.{_rating(place.rating)}")
             add("accommodation", place, text, price=place.price, room_type=place.room_type, house_rules=rules,
                 maximum_occupancy=place.maximum_occupancy, minimum_nights=place.minimum_nights, rating=place.rating)

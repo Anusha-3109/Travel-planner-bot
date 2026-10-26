@@ -1,0 +1,945 @@
+{
+ "city": "Montgomery",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 32.3761,
+ "longitude": -86.3006,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Homewood Suites by Hilton Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1800 Interstate Park Drive, 36109, Montgomery",
+   "url": "https://www.hilton.com/en/hotels/mgmhwhw-homewood-suites-montgomery/"
+  },
+  {
+   "name": "Hilton Garden Inn Montgomery East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 Interstate Park Drive, 36109, Montgomery",
+   "url": "https://www.hilton.com/en/hotels/mgmgigi-hilton-garden-inn-montgomery-east/"
+  },
+  {
+   "name": "Home2 Suites by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "155 Columbus Street, 36104, Montgomery",
+   "url": "https://www.hilton.com/en/hotels/mgmpsht-home2-suites-montgomery-downtown/"
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Montgomery Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "120 Madison Avenue, 36104, Montgomery",
+   "url": "https://www.hilton.com/en/hotels/mgmmadt-doubletree-montgomery-downtown/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "152 Coosa Street, 36104, Montgomery",
+   "url": "https://www.marriott.com/mgmsm"
+  },
+  {
+   "name": "Courtyard Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5555 Carmichael Road, 36117, Montgomery",
+   "url": "https://www.marriott.com/mgmch"
+  },
+  {
+   "name": "Baymont Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5837 Monticello Drive, 36117, Montgomery",
+   "url": "https://www.wyndhamhotels.com/baymont/montgomery-alabama/baymont-montgomery-al/overview"
+  },
+  {
+   "name": "Embassy Suites Montgomery Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Tallapoosa Street, 36104, Montgomery",
+   "url": "https://embassysuites3.hilton.com/en/hotels/alabama/embassy-suites-by-hilton-montgomery-hotel-and-conference-center-MGMESES/index.html"
+  },
+  {
+   "name": "Sleep Inn & Suites Montgomery East I-85",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5005 Carmichael Road, 36106, Montgomery",
+   "url": "https://www.choicehotels.com/alabama/prattville/econo-lodge-hotels"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5155 Carmichael Road, 36106, Montgomery",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-montgomery-al"
+  },
+  {
+   "name": "Comfort Inn & Suites Montgomery East Carmichael Rd",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1201 Townplace Drive, 36106, Montgomery",
+   "url": "https://www.choicehotels.com/alabama/prattville/econo-lodge-hotels"
+  },
+  {
+   "name": "Days Inn - Montgomery / Troy Highway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4180 Troy Highway, 36116, Montgomery",
+   "url": "https://www.wyndhamhotels.com/days-inn/montgomery-alabama/days-inn-montgomery/overview"
+  },
+  {
+   "name": "Comfort Suites Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5918 Monticello Drive, 36117, Montgomery",
+   "url": "https://www.choicehotels.com/alabama/prattville/econo-lodge-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Montgomery I-65",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1035 South Boulevard, 36105, Montgomery",
+   "url": "https://www.wyndhamhotels.com/super-8/montgomery-alabama/super-8-montgomery-i65/overview?CID=LC:SE::GGL:RIO:National:49989&iata=00093796"
+  },
+  {
+   "name": "Country Inn & Suites by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5225 Carmichael Road, 36106, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites near Maxwell-Gunter Air Force Base",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4480 Northchase Boulevard, 36110, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Drury Inn & Suites Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1124 Eastern Boulevard, 36117, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Montgomery - Carmichael Rd.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5035 Carmichael Road, 36106, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Montgomery - East I-85",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5135 Carmichael Road, 36106, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Montgomery - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "275 Montgomery Street, 36104, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Montgomery, AL - East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1051 Eastern Boulevard, 36117, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Montgomery - Eastern Blvd.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2491 Eastern Boulevard, 36117, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Baymont Montgomery South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4273 Troy Highway, 36116, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1401 Eastern Boulevard, 36117, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Destiny Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3951 Norman Bridge Road, 36105, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2060 Eastern Blvd Frontage Road, 36117, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Home Inn & Suites Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5709 Express Drive, 36116, Montgomery",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Montgomery Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn - Montgomery / Carmichael Rd.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Renaissance Montgomery Hotel & Spa at the Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Montgomery East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Residence Inn Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Montgomery Midtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "InTown Suites Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Stay Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn Montgomery East Monticello Dr",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Home-Towne Suites of Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "America's Best Inns & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Express Inn East Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Alabama Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Place Montgomery",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Governors House Hotel & Convention Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3001 Carter Hill Road, 36111, Montgomery",
+   "website": "https://restaurants.applebees.com/en-us/al/montgomery/3001-carter-hill-road-89076"
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "2960 Zelda Road, 36106, Montgomery",
+   "website": "https://cava.com/locations/zelda-al"
+  },
+  {
+   "name": "Chris' Famous Hotdogs",
+   "cuisines": [
+    "Hot Dog",
+    "Burger"
+   ],
+   "address": "138 Dexter Avenue, 36104, Montgomery",
+   "website": "https://www.chrishotdogs.com"
+  },
+  {
+   "name": "5 Points Deli & Grill",
+   "cuisines": [
+    "Burger",
+    "Barbecue",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "1010 East Fairview Avenue, 36106, Montgomery",
+   "website": "https://order.5pointsdeliandgrill.com/"
+  },
+  {
+   "name": "Dreamland BBQ Montgomery",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "12 West Jefferson Street, 36104, Montgomery",
+   "website": "https://dreamlandbbq.com"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/montgomery-al-563/"
+  },
+  {
+   "name": "Cahawba House",
+   "cuisines": [
+    "Southern",
+    "Breakfast"
+   ],
+   "address": "31 South Court Street, 36104, Montgomery",
+   "website": "https://www.cahawbahouse.com/"
+  },
+  {
+   "name": "Wintzell's Oyster House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "105 Commerce Street, 36104, Montgomery",
+   "website": "http://www.wintzellsoysterhouse.com/location/montgomery/"
+  },
+  {
+   "name": "Flames Grille",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "142 Montgomery Street, 36104, Montgomery",
+   "website": ""
+  },
+  {
+   "name": "Tomatino's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "503 Cloverdale Road, 36106, Montgomery",
+   "website": ""
+  },
+  {
+   "name": "Lek's Railroad Thai",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "300 B Water Street, 36104, Montgomery",
+   "website": ""
+  },
+  {
+   "name": "Sam's Bar-B-Que",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3510 Atlanta Highway, 36109, Montgomery",
+   "website": ""
+  },
+  {
+   "name": "Bibb Street Pizza Co",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "Bibb Street, Montgomery",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wasabi Japanese Cuisine",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jalapenos in the Alley",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sa-Za",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Martin's Restaurant",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taquieria El Campesino",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Little Donkey",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Central",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "NYC Gyros",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hero",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "The Legacy Museum",
+   "kind": "museum",
+   "address": "400 North Court Street, 36104, Montgomery",
+   "website": "https://legacysites.eji.org",
+   "phone": "+1-334-386-9100",
+   "latitude": 32.3824751,
+   "longitude": -86.3083558
+  },
+  {
+   "name": "Civil Rights Memorial Center",
+   "kind": "museum",
+   "address": "400 Washington Avenue, 36104, Montgomery",
+   "website": "https://www.splcenter.org/civil-rights-memorial",
+   "phone": "",
+   "latitude": 32.3761269,
+   "longitude": -86.3032781
+  },
+  {
+   "name": "Montgomery Museum of Fine Arts",
+   "kind": "museum",
+   "address": "1 Museum Drive, 36117, Montgomery",
+   "website": "https://mmfa.org/",
+   "phone": "",
+   "latitude": 32.3509776,
+   "longitude": -86.206472
+  },
+  {
+   "name": "Greyhound Bus Station;Freedom Rides Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://ahc.alabama.gov/properties/freedomrides/freedomrides.aspx",
+   "phone": "",
+   "latitude": 32.3746295,
+   "longitude": -86.309111
+  },
+  {
+   "name": "First White House of the Confederacy",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.3761406,
+   "longitude": -86.2999377
+  },
+  {
+   "name": "Montgomery Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4204533,
+   "longitude": -86.2774147
+  },
+  {
+   "name": "Harriott II Riverboat",
+   "kind": "attraction",
+   "address": "255 Commerce Street, 36104, Montgomery",
+   "website": "https://www.funinmontgomery.com/Home/Components/FacilityDirectory/FacilityDirectory/224/3052",
+   "phone": "+1-334-625-2100",
+   "latitude": 32.3818065,
+   "longitude": -86.3140399
+  },
+  {
+   "name": "Hank Williams Museum",
+   "kind": "museum",
+   "address": "118 Commerce Street, 36104, Montgomery",
+   "website": "https://www.thehankwilliamsmuseum.net/",
+   "phone": "+1 334-262-3600",
+   "latitude": 32.3794803,
+   "longitude": -86.3106763
+  },
+  {
+   "name": "Dr. Richard Harris House",
+   "kind": "museum",
+   "address": "333 South Jackson Street, 36104, Montgomery",
+   "website": "https://richardharrishouse.com",
+   "phone": "+1 334 220 9979",
+   "latitude": 32.3726909,
+   "longitude": -86.2960085
+  },
+  {
+   "name": "F. Scott & Zelda Fitzgerald Museum",
+   "kind": "museum",
+   "address": "919 Felder Avenue, 36106, Montgomery",
+   "website": "https://www.thefitzgeraldmuseum.org/",
+   "phone": "",
+   "latitude": 32.3587277,
+   "longitude": -86.2923011
+  },
+  {
+   "name": "Rosa Parks Library and Museum",
+   "kind": "museum",
+   "address": "36104, Montgomery",
+   "website": "https://www.troy.edu/student-life-resources/arts-culture/rosa-parks-museum/index.html",
+   "phone": "",
+   "latitude": 32.3767064,
+   "longitude": -86.311225
+  },
+  {
+   "name": "Center for the Study of Civil Rights and African-American Culture",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.lib.alasu.edu/natctr/",
+   "phone": "",
+   "latitude": 32.360264,
+   "longitude": -86.2895482
+  },
+  {
+   "name": "Air Force Enlisted Heritage Hall",
+   "kind": "museum",
+   "address": "550 McDonald St, 36115, Maxwell-Gunter Annex",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4038105,
+   "longitude": -86.2492859
+  },
+  {
+   "name": "Alabama Agricultural Center",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4056176,
+   "longitude": -86.2699786
+  },
+  {
+   "name": "Town of Spectre",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4486615,
+   "longitude": -86.3305179
+  },
+  {
+   "name": "W. A. Gayle Planetarium",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.36811,
+   "longitude": -86.2873739
+  },
+  {
+   "name": "Dexter Parsonage Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.3730347,
+   "longitude": -86.2960476
+  },
+  {
+   "name": "Dexter Parsonage Interpretive Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.373176,
+   "longitude": -86.2960927
+  },
+  {
+   "name": "The Legacy Museum: From Enslavement to Mass Incarceration",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.3798347,
+   "longitude": -86.3103689
+  },
+  {
+   "name": "Mann Wildlife Learning Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.4179173,
+   "longitude": -86.2780485
+  },
+  {
+   "name": "Escapology Montgomery",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.379818,
+   "longitude": -86.3111165
+  },
+  {
+   "name": "Avenue of Flags",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 32.3769531,
+   "longitude": -86.3004459
+  }
+ ]
+}

@@ -1,0 +1,1333 @@
+{
+ "city": "Baton Rouge",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 30.4458,
+ "longitude": -91.1849,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hilton Baton Rouge Capitol Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 Lafayette Street, 70801, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrcphf-hilton-baton-rouge-capitol-center/"
+  },
+  {
+   "name": "Crowne Plaza Executive Center Baton Rouge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4728 Constitution Avenue, 70808, Baton Rouge",
+   "url": "https://www.ihg.com/crowneplaza/hotels/us/en/baton-rouge/btrca/hoteldetail"
+  },
+  {
+   "name": "SpringHill Suites Baton Rouge North/Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7980 Howell Boulevard, 70807, Baton Rouge",
+   "url": "https://www.marriott.com/hotels/fact-sheet/travel/btrna-springhill-suites-baton-rouge-north-airport/"
+  },
+  {
+   "name": "Hilton Garden Inn Baton Rouge Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3330 Harding Boulevard, 70807, Baton Rouge",
+   "url": "https://hiltongardeninn3.hilton.com/en/hotels/louisiana/hilton-garden-inn-baton-rouge-airport-BTRGIGI/index.html"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4646 Constitution Avenue, 70808, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrcnhx-hampton-baton-rouge-i-10-and-college-dr/"
+  },
+  {
+   "name": "Residence Inn by Marriott Baton Rouge near LSU",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7061 Commerce Circle, 70809, Baton Rouge",
+   "url": "https://www.marriott.com/en-us/hotels/btrrb-residence-inn-baton-rouge-towne-center-at-cedar-lodge/overview/"
+  },
+  {
+   "name": "Microtel Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3444 Harding Boulevard, 70807, Baton Rouge",
+   "url": "https://www.wyndhamhotels.com/microtel/baton-rouge-louisiana/microtel-inn-and-suites-baton-rouge-airport/overview"
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5860 Corporate Boulevard, 70808, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrcdhw-homewood-suites-baton-rouge/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2665 Office Park Drive, 70767, Port Allen",
+   "url": "https://www.marriott.com/btrpa"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4964 Constitution Avenue, 70808, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrcadt-doubletree-baton-rouge/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4914 Constitution Avenue, 70808, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrcses-embassy-suites-baton-rouge/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4924 Constitution Avenue, 70808, Baton Rouge",
+   "url": "https://www.choicehotels.com/louisiana/baton-rouge/comfort-inn-hotels/la162"
+  },
+  {
+   "name": "Hampton Inn & Suites Baton Rouge Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "462 Lafayette Street, 70801, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrdnhx-hampton-suites-baton-rouge-downtown/"
+  },
+  {
+   "name": "Courtyard Baton Rouge Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "260 Third Street, 70801, Baton Rouge",
+   "url": "https://www.marriott.com/btrcd"
+  },
+  {
+   "name": "Courtyard Baton Rouge Acadian Centre/LSU Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2421 South Acadian Thruway, 70808, Baton Rouge",
+   "url": "https://www.marriott.com/btrch"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7979 Essen Park Avenue, 70809, Baton Rouge",
+   "url": "https://www.marriott.com/btrsh"
+  },
+  {
+   "name": "Hampton Inn & Suites Baton Rouge/Port Allen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2755 Commercial Drive, 70767, Port Allen",
+   "url": "https://www.hilton.com/en/hotels/btrpahx-hampton-suites-baton-rouge-port-allen/"
+  },
+  {
+   "name": "La Quinta Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2720 North Westport Drive, 70767, Port Allen",
+   "url": "https://www.wyndhamhotels.com/laquinta/port-allen-louisiana/la-quinta-baton-rouge-port-allen/overview"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2552 CitiPlace Court, 70808, Baton Rouge",
+   "url": "https://www.hilton.com/en/hotels/btrciht-home2-suites-baton-rouge-citiplace/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3010 Valley Creek Drive, 70808, Baton Rouge",
+   "url": "https://www.choicehotels.com/louisiana/zachary/comfort-inn-hotels"
+  },
+  {
+   "name": "Comfort Inn & Suites Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2949 Varsity Street, 70807-4059, Baton Rouge",
+   "url": "https://www.choicehotels.com/louisiana/zachary/comfort-inn-hotels"
+  },
+  {
+   "name": "Comfort Suites Port Allen - Baton Rouge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2880 North Westport Drive, 70767, Port Allen",
+   "url": "https://www.choicehotels.com/louisiana/zachary/comfort-inn-hotels"
+  },
+  {
+   "name": "Days Inn by Wyndham Baton Rouge Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7979 Howell Boulevard, 70807, Baton Rouge",
+   "url": "https://www.wyndhamhotels.com/days-inn/baton-rouge-louisiana/days-inn-baton-rouge-airport/overview"
+  },
+  {
+   "name": "Paradise Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7015 Airline Highway, 70812, Baton Rouge",
+   "url": "https://www.paradiseinnbr.com/"
+  },
+  {
+   "name": "Vel Rose Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4902 Airline Highway, 70805, Baton Rouge",
+   "url": "https://www.velrosemotel.com/"
+  },
+  {
+   "name": "Holiday Inn Baton Rouge College Drive I-10",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4848 Constitution Avenue",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/baton-rouge/btrco/hoteldetail"
+  },
+  {
+   "name": "Rivermark Centre",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "451 Florida Street, 70801, Baton Rouge",
+   "url": "https://www.rivermarkcentre.com/"
+  },
+  {
+   "name": "Sonesta ES Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.sonesta.com/sonesta-es-suites/la/baton-rouge/sonesta-es-suites-baton-rouge-university-southgate"
+  },
+  {
+   "name": "Hotel Indigo Baton Rouge Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Convention Street, 70801, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "Tru Baton Rouge Citiplace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2562 Citiplace Court, 70808, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "Belle of Baton Rouge Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "103 France Street, 70802, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "Ten Flags Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7682 Airline Highway, 70814, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3045 Valley Creek Drive",
+   "url": ""
+  },
+  {
+   "name": "Drury Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7939 Essen Park Ave",
+   "url": ""
+  },
+  {
+   "name": "Country Inn & Suites by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7959 Essen Park Avenue",
+   "url": ""
+  },
+  {
+   "name": "Wood Acres Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8287 Airline Highway, 70815, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "Value Place Baton Rouge (North)",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8382 Airline Highway, 70815, Baton Rouge",
+   "url": ""
+  },
+  {
+   "name": "La Quinta Inn Baton Rouge University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The villas at riverbend",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5689 River Road, 70820",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ramada Limited - Port Allen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Port Allen, LA - Baton Rouge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Radisson Hotel Baton Rouge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Baton Rouge Marriott",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Cook Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "WATERMARK Baton Rouge, Autograph Collection",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Audubon Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ed's Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Magnuson Hotel Port Allen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Baton Rouge - Citiplace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "SureStay Plus Hotel by Best Western Baton Rouge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Shades Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Baton Rouge West Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites Baton Rouge West - Port Allen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Hotel & Suites Baton Rouge -Port Allen",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Port Allen La I-10 West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fountain Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "BEST WESTERN Magnolia Manor",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Alamo Plaza Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Simple Joe Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3057 Government Street, 70806, Baton Rouge",
+   "website": "https://www.simplejoecafe.biz/"
+  },
+  {
+   "name": "Burgersmith Perkins & Acadian",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3613 Perkins Road, 70808, Baton Rouge",
+   "website": "https://www.burgersmith.com/"
+  },
+  {
+   "name": "Heather V's Cafe",
+   "cuisines": [
+    "Cafe",
+    "Deli Sandwich"
+   ],
+   "address": "3655 Perkins Road, 70808, Baton Rouge",
+   "website": "https://heathervscafe.com"
+  },
+  {
+   "name": "The Jambalaya Shoppe",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "3265 LA-1, 70767, Port Allen",
+   "website": "https://thejambalayashoppe.com/"
+  },
+  {
+   "name": "George's",
+   "cuisines": [
+    "American",
+    "Sandwich",
+    "Burger"
+   ],
+   "address": "2943 Perkins Road, 70808, Baton Rouge",
+   "website": "https://www.georgesbr.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "520 South Alexander Avenue, 70767, Port Allen",
+   "website": "https://locations.pizzahut.com/la/port-allen/520-s-alexander-ave"
+  },
+  {
+   "name": "La Salvadoreña",
+   "cuisines": [
+    "Salvadoran"
+   ],
+   "address": "3285 Nicholson Drive, 70802, Baton Rouge",
+   "website": "http://orderlasalvadorenarestaurant.com/"
+  },
+  {
+   "name": "Daruma Ramen Bar & Grill",
+   "cuisines": [
+    "Japanese",
+    "Ramen",
+    "Hibachi"
+   ],
+   "address": "3669 Government Street, 70806, Baton Rouge",
+   "website": "http://www.darumaramela.com/"
+  },
+  {
+   "name": "Modesto",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3930 Burbank Drive, 70808, Baton Rouge",
+   "website": "https://eatmodesto.com/"
+  },
+  {
+   "name": "The Overpass Merchant",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Chicken",
+    "Sandwich",
+    "Seafood"
+   ],
+   "address": "2904 Perkins Road",
+   "website": "https://www.theoverpassmerchant.com/"
+  },
+  {
+   "name": "Pastime Restuarant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "252 South Boulevard, 70802, Baton Rouge",
+   "website": "https://www.pastimerestaurant.com/"
+  },
+  {
+   "name": "Mestizo Louisiana Mexican Cuisine",
+   "cuisines": [
+    "Mexican",
+    "Regional"
+   ],
+   "address": "2323 South Acadian Thruway, 70808, Baton Rouge",
+   "website": "https://www.mestizorestaurant.com/"
+  },
+  {
+   "name": "Curbside Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "4158 Government Street, 70806, Baton Rouge",
+   "website": "https://www.curbsideburgers.com/"
+  },
+  {
+   "name": "Umami",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "3930 Burbank Drive, 70808, Baton Rouge",
+   "website": "https://umamibr.com/"
+  },
+  {
+   "name": "KOK Wings & Things",
+   "cuisines": [
+    "Chicken",
+    "Seafood"
+   ],
+   "address": "1509 Government Street, 70802, Baton Rouge",
+   "website": "https://eatkok.com/"
+  },
+  {
+   "name": "Kalurah Street Grill",
+   "cuisines": [
+    "Regional",
+    "International",
+    "Chicken",
+    "Burger",
+    "Sandwich",
+    "Seafood"
+   ],
+   "address": "2857 Kalurah Street",
+   "website": "https://kalurahstreetgrill.com/"
+  },
+  {
+   "name": "Hannah Q Smokehouse",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "4808 Government Street, 70806, Baton Rouge",
+   "website": "https://www.hannahqsmokehouse.com"
+  },
+  {
+   "name": "The Little Village",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "447 3rd Street, 70801, Baton Rouge",
+   "website": "https://www.littlevillagebr.com/little_village_downtown_information/"
+  },
+  {
+   "name": "Lit Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3930 Burbank Drive, 70808, Baton Rouge",
+   "website": "https://lit.pizza/"
+  },
+  {
+   "name": "Walk-On's Sports Bistreaux",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3838 Burbank Drive, 70808, Baton Rouge",
+   "website": "https://walk-ons.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/portallen-la-1016/"
+  },
+  {
+   "name": "Acme Oyster House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3535 Perkins Road",
+   "website": "https://acmeoyster.com/"
+  },
+  {
+   "name": "Red Zeppelin Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4395 Perkins Road, 70808, Baton Rouge",
+   "website": "https://redzeppelinpizza.com/"
+  },
+  {
+   "name": "Anthony's Italian Deli",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "5575 Government Street, 70806, Baton Rouge",
+   "website": "https://bestmuffoletta.com/"
+  },
+  {
+   "name": "Schlittz & Giggles",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2355 Ferndale Avenue",
+   "website": "https://schlittz.com/"
+  },
+  {
+   "name": "Rocca Pizzaria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3897 Government Street, 70806, Baton Rouge",
+   "website": "https://www.roccapizzeria.com/"
+  },
+  {
+   "name": "Brasserie Byronz",
+   "cuisines": [
+    "Regional",
+    "French"
+   ],
+   "address": "515 Mouton Street, 70806, Baton Rouge",
+   "website": "https://www.brasseriebyronz.com/"
+  },
+  {
+   "name": "TAP 65",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "515 Mouton Street, 70806, Baton Rouge",
+   "website": "https://www.tap65.com/"
+  },
+  {
+   "name": "Parrain's Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3225 Perkins Road",
+   "website": "https://parrains.com/"
+  },
+  {
+   "name": "Louie's Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3322 Lake Street, 70802, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "City Sub",
+   "cuisines": [
+    "Sandwich",
+    "Coffee Shop",
+    "Salad"
+   ],
+   "address": "4401 Dalrymple Drive, 70802, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "Frostop",
+   "cuisines": [
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "402 Government Street, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "Juban's",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "3739 Perkins Road, 70808, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "Superior Bar & Grill MidCity",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "5435 Government Street, 70806, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "DiGiulio Brothers",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2903 Perkins Road",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mike's Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hook's Catch",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Chinese Combo King",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Simple Greek",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ty Ribs",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pit-N-Peel BBQ and Seafood",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Barracuda Taco Stand",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shaq's Big Kitchen",
+   "cuisines": [
+    "Fried Chicken"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "BLDG 5",
+   "cuisines": [],
+   "address": "2805 Kalurah Street",
+   "website": "https://www.bldg5.com/private-events.html#/"
+  },
+  {
+   "name": "The Gregory",
+   "cuisines": [],
+   "address": "150 3rd Street, 70801, Baton Rouge",
+   "website": "https://www.thegregorybr.com"
+  },
+  {
+   "name": "Doe's Eat Place",
+   "cuisines": [],
+   "address": "3723 Government Street, 70806, Baton Rouge",
+   "website": "https://doesbatonrouge.com/"
+  },
+  {
+   "name": "MJ's Cafe",
+   "cuisines": [],
+   "address": "5162 Government St",
+   "website": "http://mjscafebr.com/"
+  },
+  {
+   "name": "Newk's Eatery",
+   "cuisines": [],
+   "address": "3332 Lake Street, 70802, Baton Rouge",
+   "website": ""
+  },
+  {
+   "name": "Royal Taste of Jamaica",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pot & Paddle Jambalaya Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Kami Nari Sushi and Hibachi",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "USS Kidd",
+   "kind": "attraction",
+   "address": "305 South River Road, 70802-6220, Baton Rouge",
+   "website": "https://www.usskidd.com/",
+   "phone": "",
+   "latitude": 30.444335,
+   "longitude": -91.1914961
+  },
+  {
+   "name": "LSU Rural Life Museum",
+   "kind": "museum",
+   "address": "4560 Essen Lane",
+   "website": "https://www.lsu.edu/rurallife/",
+   "phone": "",
+   "latitude": 30.4114498,
+   "longitude": -91.1155092
+  },
+  {
+   "name": "Old State Capitol",
+   "kind": "museum",
+   "address": "100 North Boulevard, 70801, Baton Rouge",
+   "website": "https://www.louisianaoldstatecapitol.org/",
+   "phone": "",
+   "latitude": 30.4465938,
+   "longitude": -91.1890731
+  },
+  {
+   "name": "Capitol Park Museum",
+   "kind": "museum",
+   "address": "660 North 4th Street, 70802, Baton Rouge",
+   "website": "https://www.louisianastatemuseum.org/",
+   "phone": "",
+   "latitude": 30.4539074,
+   "longitude": -91.1864062
+  },
+  {
+   "name": "Louisiana Art and Science Museum",
+   "kind": "museum",
+   "address": "100 South River Road, 70801, Baton Rouge",
+   "website": "https://www.lasm.org/",
+   "phone": "",
+   "latitude": 30.4462143,
+   "longitude": -91.1903756
+  },
+  {
+   "name": "Pentagon Barracks Museum",
+   "kind": "museum",
+   "address": "959 North 3rd Street, 70802, Baton Rouge",
+   "website": "https://www.nps.gov/nr/travel/louisiana/pen.htm",
+   "phone": "",
+   "latitude": 30.4555158,
+   "longitude": -91.1893373
+  },
+  {
+   "name": "Governor's Mansion",
+   "kind": "museum",
+   "address": "1001 Capitol Access Road, Baton Rouge",
+   "website": "http://www.oldgovernorsmansion.org/",
+   "phone": "",
+   "latitude": 30.4590005,
+   "longitude": -91.1805994
+  },
+  {
+   "name": "Mike the Tiger Habitat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4134234,
+   "longitude": -91.1850659
+  },
+  {
+   "name": "USS Kidd Veterans Museum",
+   "kind": "museum",
+   "address": "305 South River Road, 70802-6220, Baton Rouge",
+   "website": "https://www.usskidd.com/",
+   "phone": "+1-225-342-1942",
+   "latitude": 30.4432992,
+   "longitude": -91.1902444
+  },
+  {
+   "name": "Old Arsenal Powder Magazine",
+   "kind": "museum",
+   "address": "900 Capitol Lake Dr, Baton Rouge",
+   "website": "https://www.sos.la.gov/HistoricalResources/VisitMuseums/OldArsenalMuseum/Pages/default.aspx",
+   "phone": "",
+   "latitude": 30.4576561,
+   "longitude": -91.18463
+  },
+  {
+   "name": "LSU Museum of Art",
+   "kind": "museum",
+   "address": "100 Lafayette Street, 70801, Baton Rouge",
+   "website": "https://www.lsumoa.org/",
+   "phone": "",
+   "latitude": 30.4476983,
+   "longitude": -91.1887878
+  },
+  {
+   "name": "West Baton Rouge Parish Museum",
+   "kind": "museum",
+   "address": "845 North Jefferson Avenue, 70767, Port Allen",
+   "website": "https://westbatonrougemuseum.org/",
+   "phone": "",
+   "latitude": 30.4604683,
+   "longitude": -91.2064969
+  },
+  {
+   "name": "Louisiana Black History Hall of Fame",
+   "kind": "museum",
+   "address": "1305 Myrtle Street, 70802, Baton Rouge",
+   "website": "https://lbhhf.org/",
+   "phone": "",
+   "latitude": 30.4386104,
+   "longitude": -91.1752425
+  },
+  {
+   "name": "LSU AgCenter Botanic Gardens and Museum",
+   "kind": "museum",
+   "address": "4560 Essen Lane, Baton Rouge",
+   "website": "https://sites01.lsu.edu/wp/rurallife/",
+   "phone": "+1 225 765-2437",
+   "latitude": 30.4057072,
+   "longitude": -91.103358
+  },
+  {
+   "name": "Jack and Priscilla Andonie Museum",
+   "kind": "museum",
+   "address": "3828 West Lakeshore Drive, 70808, Baton Rouge",
+   "website": "https://calendar.lsu.edu/andonie_museum_411",
+   "phone": "",
+   "latitude": 30.4142998,
+   "longitude": -91.1692021
+  },
+  {
+   "name": "Baton Rouge African American Museum",
+   "kind": "museum",
+   "address": "538 South Boulevard",
+   "website": "https://www.braamuseum.org/",
+   "phone": "+1 225-343-4431",
+   "latitude": 30.4392668,
+   "longitude": -91.1855411
+  },
+  {
+   "name": "Martin L. Harvey Hall",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.susla.edu/page/university-museum",
+   "phone": "",
+   "latitude": 30.5229821,
+   "longitude": -91.1980116
+  },
+  {
+   "name": "William A. Brookshire Military Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.lsu.edu/brookshire-museum/index.php",
+   "phone": "",
+   "latitude": 30.41441,
+   "longitude": -91.1788872
+  },
+  {
+   "name": "Knock Knock Childrens Museum",
+   "kind": "museum",
+   "address": "1900 Dalrymple Drive, 70808, Baton Rouge",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4300739,
+   "longitude": -91.1698438
+  },
+  {
+   "name": "13th Gate Necropolis",
+   "kind": "theme park",
+   "address": "813 Saint Philip Street, 70802, Baton Rouge",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4405166,
+   "longitude": -91.187901
+  },
+  {
+   "name": "Mississippi River Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4395179,
+   "longitude": -91.196302
+  },
+  {
+   "name": "Louisiana State Welcome Center",
+   "kind": "attraction",
+   "address": "702 North River Road",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4541029,
+   "longitude": -91.1897439
+  },
+  {
+   "name": "Baton Rouge Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4335031,
+   "longitude": -91.166922
+  },
+  {
+   "name": "Southern University Agricultural Research and Extension",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.5310091,
+   "longitude": -91.1907976
+  },
+  {
+   "name": "Gallery 14",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 30.4457942,
+   "longitude": -91.1748338
+  }
+ ]
+}

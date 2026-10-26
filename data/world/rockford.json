@@ -1,0 +1,870 @@
+{
+ "city": "Rockford",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.277,
+ "longitude": -89.0884,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Super 8 Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7646 Colosseum Drive, 61107, Rockford",
+   "url": "https://www.wyndhamhotels.com/super-8/rockford-illinois/super-8-rockford/overview"
+  },
+  {
+   "name": "Residence Inn Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7542 Colosseum Drive, 61107, Rockford",
+   "url": "https://www.marriott.com/rfdil"
+  },
+  {
+   "name": "Holiday Inn Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8550 East State Street, 61108, Rockford",
+   "url": "https://www.rockhospitality.com/holiday-inn"
+  },
+  {
+   "name": "Fairfield Inn & Suites Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7651 Walton Street, 61008, Rockford",
+   "url": "https://www.marriott.com/rfdrf"
+  },
+  {
+   "name": "Comfort Inn Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7392 Argus Drive, 61107, Rockford",
+   "url": "https://www.choicehotels.com/wisconsin/beloit/quality-inn-hotels"
+  },
+  {
+   "name": "Embassy Suites Rockford Riverfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "416 South Main Street, 61101, Rockford",
+   "url": "https://www.hilton.com/en/hotels/rfdmses-embassy-suites-rockford-riverfront/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Walton Street, 61108, Rockford",
+   "url": "https://www.wyndhamhotels.com/laquinta/rockford-illinois/la-quinta-rockford/overview"
+  },
+  {
+   "name": "Riverview Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 West Riverside Boulevard, 61103, Rockford",
+   "url": "https://www.choicehotels.com/illinois/rockford/ascend-hotels/il049"
+  },
+  {
+   "name": "Radisson Hotel & Conference Center Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 South Bell School Road, 61108, Rockford",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-conference-rockford"
+  },
+  {
+   "name": "Sleep Inn Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "725 Colosseum Drive, 61107, Rockford",
+   "url": "https://www.choicehotels.com/wisconsin/beloit/quality-inn-hotels"
+  },
+  {
+   "name": "Staybridge Suites Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "633 North Bell School Road, 61107, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Courtyard Rockford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7676 East State Street, 61108, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Alpine Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4404 East State Street, 61108, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Quality Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4605 East State Street, 61108, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Rockford East - Casino District",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7434 East State Street, 61108, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Rockford - I-90",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Colosseum Drive, 61107, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Airport Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4419 11th Street, 61109, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Towne & Country Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4422 11th Street, 61109, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4850 East State Street, 61108",
+   "url": ""
+  },
+  {
+   "name": "Travlur Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7125 West State Street, Rockford",
+   "url": ""
+  },
+  {
+   "name": "Howard Johnson Hotel Rockford IL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Rockford - State Street",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Gold Star Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7885 West State Street",
+   "url": ""
+  },
+  {
+   "name": "The Park Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clayton House Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "OlivioTaco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "330 College Avenue, 61104, Rockford",
+   "website": "OlivioTaco345.com"
+  },
+  {
+   "name": "Panino's",
+   "cuisines": [
+    "Italian",
+    "Sandwich"
+   ],
+   "address": "2725 North Main Street, 61103",
+   "website": "https://paninosofrockford.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3748 North Main Street, 61103, Rockford",
+   "website": "https://locations.pizzahut.com/il/rockford/3748-n-main-st"
+  },
+  {
+   "name": "Woodfire Rockford",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "408 East State Street, 61104, Rockford",
+   "website": "https://woodfire.pizza/"
+  },
+  {
+   "name": "Stockholm Inn",
+   "cuisines": [
+    "Savory Pancakes",
+    "Breakfast"
+   ],
+   "address": "2420 Charles Street, 61108, Rockford",
+   "website": "http://www.Stockholminn.com"
+  },
+  {
+   "name": "Pino's on Main",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "2511 North Main Street, 61103",
+   "website": "https://www.pinosonmain.com/"
+  },
+  {
+   "name": "Taqueria La Katrina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3605 Auburn Street, 61101, Rockford",
+   "website": "https://tacoseltoro.com/"
+  },
+  {
+   "name": "Vincenzo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1513 Charles Street, 61104",
+   "website": "http://www.mariespizza.net/"
+  },
+  {
+   "name": "Cantina Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "117 South Main Street, 61101",
+   "website": "https://www.cantinataco.com/"
+  },
+  {
+   "name": "Culinary Underground",
+   "cuisines": [
+    "American"
+   ],
+   "address": "416 South Main Street, 61101",
+   "website": "https://www.culinaryundergroundrockford.com/"
+  },
+  {
+   "name": "Disco Chicken",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "212 East State Street, 61105",
+   "website": "https://discochicken815.com/"
+  },
+  {
+   "name": "27 ALUNA",
+   "cuisines": [
+    "Filipino"
+   ],
+   "address": "61101",
+   "website": "https://www.27aluna.com/"
+  },
+  {
+   "name": "Beefaroo",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "1680 North Alpine Road, 61107, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Ambiance Cuisine Cocktails & Catering",
+   "cuisines": [
+    "Soul Food"
+   ],
+   "address": "307 South Main Street, 61101, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Alvarez Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "205 East Riverside Boulevard, 61111, Loves Park",
+   "website": ""
+  },
+  {
+   "name": "Sisters Thai Cafe",
+   "cuisines": [
+    "Thai",
+    "Asian"
+   ],
+   "address": "514 East State Street, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Smoke House Barbecue",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "432 West Harrison Avenue, 61104, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Plume",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1132 Auburn Street, 61103, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Hacienda San Jose",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3725 East State Street, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Jalisco & Tequila Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "805 East State Street, 61104, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Chulos Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "226 7th Street, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Bop Bop Korean BBQ and Rice Bowls",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "116 North Madison Street, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Las Gorditas de Don Angel",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "217 7th Street, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Norwegian",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Green Lite",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ripe Life Juice Co.",
+   "cuisines": [
+    "Juice"
+   ],
+   "address": "333 East State Street",
+   "website": ""
+  },
+  {
+   "name": "Swedish Pancake House",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sam's Pizza",
+   "cuisines": [
+    "Pizza",
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Primo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Johnny Pamcakes",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tortilla Express",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mr. Burger",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Schiro's Restaurant & Lounge",
+   "cuisines": [],
+   "address": "1201 North Springfield Avenue, 61101, Rockford",
+   "website": "http://schiros.biz/mymenu.aspx"
+  },
+  {
+   "name": "El Burrito Loco",
+   "cuisines": [],
+   "address": "2430 Auburn Street, 61101, Rockford",
+   "website": "https://www.elburritoloco.com/"
+  },
+  {
+   "name": "Mr.J's Restaurant & Pizzeria",
+   "cuisines": [],
+   "address": "3701 Auburn Street, 61101, Rockford",
+   "website": "https://www.mrjsrestaurantpizzeria.com/"
+  },
+  {
+   "name": "Spring Garden Family Restaurant",
+   "cuisines": [],
+   "address": "4820 N 2nd St, 61111",
+   "website": "https://www.springgardenfamilyrestaurant.com"
+  },
+  {
+   "name": "Mi Ranchito",
+   "cuisines": [],
+   "address": "2019 South Main Street, 61102, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Ojeda's",
+   "cuisines": [],
+   "address": "411 E Riverside Blvd, 61111, Loves Park",
+   "website": ""
+  },
+  {
+   "name": "Joe's Casa Di Amici",
+   "cuisines": [],
+   "address": "200 East Riverside Boulevard, 61111, Loves Park",
+   "website": ""
+  },
+  {
+   "name": "District Bar & Grill",
+   "cuisines": [],
+   "address": "205 West State Street, 61101, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Wong Wong Chinese Restaurant",
+   "cuisines": [],
+   "address": "3703 Auburn Street, 61101, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Chocolat by Daniel",
+   "cuisines": [],
+   "address": "211 East State Street, 61107, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Abreo",
+   "cuisines": [],
+   "address": "515 East State Street, 61104, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Harvey Wallbangers",
+   "cuisines": [],
+   "address": "519 East State Street, 61104, Rockford",
+   "website": ""
+  },
+  {
+   "name": "Oak and Embers Bistro",
+   "cuisines": [],
+   "address": "700 West Riverside Boulevard",
+   "website": ""
+  },
+  {
+   "name": "Nunzio's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cahoots Rockford",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fresco at the Gardens",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hollywood Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olympic Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "On State Bar and Resturant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ali's Sandwich Factory",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lydia's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hai Quynh Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Olympic Tavern",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Star Resturant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Burpee Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2771736,
+   "longitude": -89.0881668
+  },
+  {
+   "name": "Midway Village Museum",
+   "kind": "museum",
+   "address": "6799 Guilford Road, 61107, Rockford",
+   "website": "https://www.midwayvillage.com/",
+   "phone": "+1 815-397-9112",
+   "latitude": 42.2804867,
+   "longitude": -88.9845832
+  },
+  {
+   "name": "Tinker Swiss Cottage & Gardens",
+   "kind": "museum",
+   "address": "411 Kent Street, 61102, Rockford",
+   "website": "http://www.tinkercottage.com",
+   "phone": "+1-815-964-2424",
+   "latitude": 42.2644698,
+   "longitude": -89.102025
+  },
+  {
+   "name": "Frank Lloyd Wright's Laurent House",
+   "kind": "museum",
+   "address": "4646 Spring Brook Road, 61114, Rockford",
+   "website": "https://laurenthouse.com",
+   "phone": "+1-815-877-2952",
+   "latitude": 42.2998226,
+   "longitude": -89.0243481
+  },
+  {
+   "name": "Veterans Memorial Hall and Museum",
+   "kind": "museum",
+   "address": "211 North Main Street, 61101, Rockford",
+   "website": "https://veteransmemorialhall.com/",
+   "phone": "+1-815-969-1999",
+   "latitude": 42.2725772,
+   "longitude": -89.0931056
+  },
+  {
+   "name": "Klehm Arboretum & Botanic Gardens",
+   "kind": "attraction",
+   "address": "2715 S Main Street, Rockford",
+   "website": "https://klehm.org/",
+   "phone": "+1-815-965-8146",
+   "latitude": 42.2448446,
+   "longitude": -89.1122552
+  },
+  {
+   "name": "Rockford Art Museum",
+   "kind": "museum",
+   "address": "711 North Main Street, 61103, Rockford",
+   "website": "https://rockfordartmuseum.org/",
+   "phone": "+1-815-968-2787",
+   "latitude": 42.2771267,
+   "longitude": -89.0891792
+  },
+  {
+   "name": "Discovery Center Museum",
+   "kind": "museum",
+   "address": "711 North Main Street, 61103, Rockford",
+   "website": "https://discoverycentermuseum.org/",
+   "phone": "+1-8159682787",
+   "latitude": 42.2768889,
+   "longitude": -89.0887325
+  },
+  {
+   "name": "Ethnic Heritage Museum",
+   "kind": "museum",
+   "address": "1129 South Main Street, 61101, Rockford",
+   "website": "http://ethnicheritagemuseum.org/",
+   "phone": "+1 815-962-7402",
+   "latitude": 42.2611061,
+   "longitude": -89.10093
+  },
+  {
+   "name": "Kith and Kiln Art Collective",
+   "kind": "gallery",
+   "address": "510 East State Street, 61104, Rockford",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2680313,
+   "longitude": -89.0878588
+  },
+  {
+   "name": "Alpine Hills Adventure Park",
+   "kind": "theme park",
+   "address": "4442 Larson Avenue, 61108, Rockford",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2613269,
+   "longitude": -89.0325164
+  },
+  {
+   "name": "Erlander Home Museum",
+   "kind": "museum",
+   "address": "404 South 3rd Street, 61104, Rockford",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2640674,
+   "longitude": -89.0886034
+  },
+  {
+   "name": "Bennie's Cleaners",
+   "kind": "gallery",
+   "address": "126 North 1st Street, Rockford",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2689604,
+   "longitude": -89.0884161
+  },
+  {
+   "name": "Riverfront Museum Park",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.276817,
+   "longitude": -89.0889061
+  },
+  {
+   "name": "Inscape Collective",
+   "kind": "gallery",
+   "address": "201 7th Street",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2656498,
+   "longitude": -89.081044
+  },
+  {
+   "name": "Lenny the Cat",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.2692107,
+   "longitude": -89.0962068
+  },
+  {
+   "name": "Labyrinth",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3091251,
+   "longitude": -89.0123022
+  }
+ ]
+}

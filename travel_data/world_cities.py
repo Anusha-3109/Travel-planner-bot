@@ -1,7 +1,9 @@
-"""Cities with 2026 snapshot data, added on top of the 2022 TravelPlanner data.
+"""Cities with 2026 snapshot data.
 
-16 European and Asian cities, and 34 US areas whose 2026 data replaces
-TravelPlanner's 2022 places where both exist. Each city has a centre point
+16 European and Asian cities and 34 US areas with Inside Airbnb stays, and the
+smaller US cities from TravelPlanner (data/us_cities.json), which have no
+Inside Airbnb data: their stays are OpenStreetMap hotels, motels and guest
+houses without prices. Each city has a centre point
 (used for OpenStreetMap searches, for keeping Airbnb listings near the city
 and for flight distance estimates), the currency its Inside Airbnb prices are
 listed in, and the Inside Airbnb scrape to use.
@@ -12,10 +14,13 @@ distance of the centre. Taipei has Inside Airbnb data but is left out because
 the ECB publishes no rate for the Taiwan dollar.
 """
 
+import json
 from dataclasses import dataclass
+from pathlib import Path
 
 AIRBNB_BASE = "https://data.insideairbnb.com"
 US = "United States"
+US_CITIES_FILE = Path(__file__).resolve().parents[1] / "data" / "us_cities.json"
 
 
 @dataclass(frozen=True)
@@ -26,7 +31,7 @@ class WorldCity:
     latitude: float
     longitude: float
     currency: str
-    airbnb_path: str  # <country>/<region>/<city>/<scrape date>
+    airbnb_path: str  # <country>/<region>/<city>/<scrape date>; empty: no Inside Airbnb data
     max_km: float | None = None  # keep only listings this close to the centre
 
     @property
@@ -103,4 +108,9 @@ UNITED_STATES = (
     _us("Washington", 38.9072, -77.0369, "dc/washington-dc/2026-09-19"),
 )
 
-WORLD_CITIES = EUROPE_AND_ASIA + UNITED_STATES
+# The smaller US cities (TravelPlanner's other cities, with centres from its attractions).
+SMALLER_US_CITIES = tuple(
+    WorldCity(row["name"], US, "North America", row["latitude"], row["longitude"], "USD", "")
+    for row in json.loads(US_CITIES_FILE.read_text(encoding="utf-8")))
+
+WORLD_CITIES = EUROPE_AND_ASIA + UNITED_STATES + SMALLER_US_CITIES

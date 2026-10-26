@@ -1,0 +1,3024 @@
+{
+ "city": "Madison",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 43.0748,
+ "longitude": -89.3868,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Madison Concourse Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 West Dayton Street, 53703, Madison",
+   "url": "https://www.concoursehotel.com/"
+  },
+  {
+   "name": "Hampton Inn & Suites Madison / Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "440 West Johnson Street, 53703, Madison",
+   "url": "https://www.hilton.com/en/hotels/msnbjhx-hampton-suites-madison-downtown/"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "333 West Washington Avenue, 53703, Madison",
+   "url": "https://www.hyatt.com/en-us/hotel/wisconsin/hyatt-place-madison-downtown/msnzd"
+  },
+  {
+   "name": "Edgewater Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1001 Wisconsin Place, 53703, Madison",
+   "url": "https://theedgewater.com/"
+  },
+  {
+   "name": "Madison Marriott South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "706 John Nolen Drive, 53713, Madison",
+   "url": "https://www.marriott.com/en-us/hotels/msnso-madison-marriott-south/overview/"
+  },
+  {
+   "name": "Arbor House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3402 Monroe Street, 53711, Madison",
+   "url": "https://arbor-house.com/"
+  },
+  {
+   "name": "Governor's Mansion Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 East Gilman Street, 53703, Madison",
+   "url": "https://governorsmansioninn.com/"
+  },
+  {
+   "name": "Mansion Hill Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "424 North Pinckney Street, Madison",
+   "url": ""
+  },
+  {
+   "name": "Hilton Madison Monona Terrace",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Graduate by Hilton Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "601 Langdon Street, 53703, Madison",
+   "url": "https://www.hilton.com/en/hotels/msngmgu-graduate-madison/"
+  },
+  {
+   "name": "Embassy Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "231 South Pinckney Street, Madison",
+   "url": "https://www.hilton.com/en/hotels/msnbces-embassy-suites-madison-downtown/"
+  },
+  {
+   "name": "DoubleTree by Hilton Madison Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 West Johnson Street, 53703, Madison",
+   "url": "https://www.hilton.com/en/hotels/msndtdt-doubletree-madison-downtown/"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2153 Rimrock Road, 53713, Madison",
+   "url": "https://www.hilton.com/en/hotels/msnmsht-home2-suites-madison-central-alliant-energy-center/"
+  },
+  {
+   "name": "DoubleTree by Hilton Madison East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4402 East Washington Avenue, 53704, Madison",
+   "url": "https://www.hilton.com/en/hotels/msnmadt-doubletree-madison-east/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1602 West Beltline Highway, 53713-2330, Madison",
+   "url": "https://www.wyndhamhotels.com/super-8/madison-wisconsin/super-8-madison-south/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "400 River Place, 53716, Madison",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-madison-wi"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "770 Regent Street, 53715, Madison",
+   "url": "https://www.hilton.com/en/hotels/msnmugi-hilton-garden-inn-madison-downtown/"
+  },
+  {
+   "name": "Baymont Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2810 Coho Street, 53713, Madison",
+   "url": "https://www.wyndhamhotels.com/baymont/madison-wisconsin/baymont-inn-and-suites-madison/overview"
+  },
+  {
+   "name": "InnTowner",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2424 University Avenue, 53726, Madison",
+   "url": "https://inntowner.com/"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4601 Frey Street, 53705, Madison",
+   "url": "https://www.marriott.com/msnhw"
+  },
+  {
+   "name": "Best Western - West Towne Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "650 Grand Canyon Drive, 53719-1044, Madison",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-madison/best-western-west-towne-suites/propertyCode.50102.html"
+  },
+  {
+   "name": "Radisson Hotel Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "517 Grand Canyon Drive, 53719, Madison",
+   "url": "https://www.radissonhotels.com/en-us/hotels/radisson-madison"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4822 East Washington Avenue, 53704, Madison",
+   "url": "https://www.choicehotels.com/wisconsin/sun-prairie/quality-inn-hotels"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4845 Hayes Road, 53704, Madison",
+   "url": "https://www.choicehotels.com/wisconsin/sun-prairie/quality-inn-hotels"
+  },
+  {
+   "name": "Days Inn & Suites by Wyndham Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4402 East Broadway Service Road, 53716, Madison",
+   "url": "https://www.wyndhamhotels.com/days-inn/madison-wisconsin/days-inn-madison-wi/overview"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4802 Tradewinds Parkway, Madison",
+   "url": "https://www.choicehotels.com/wisconsin/sun-prairie/quality-inn-hotels"
+  },
+  {
+   "name": "AC Hotel Madison Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1 North Webster Street, 53703, Madison",
+   "url": "http://achotels.marriott.com/hotels/ac-hotel-madison-downtown"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4801 Annamark Drive, 53704-7402, Madison",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-madison/best-western-east-towne-suites/propertyCode.50115.html"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4726 East Washington Avenue, 53704, Madison",
+   "url": "https://www.choicehotels.com/wisconsin/sun-prairie/quality-inn-hotels"
+  },
+  {
+   "name": "AmericInn by Wyndham Madison West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "516 Grand Canyon Drive, 53719",
+   "url": "https://www.wyndhamhotels.com/americinn/madison-wisconsin/americinn-lodge-and-suites-madison-west/overview?CID=LC:div7epuxsaire17:52054&iata=00093796"
+  },
+  {
+   "name": "Spark by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "102 East Rusk Avenue, 53713",
+   "url": "https://www.hilton.com/en/hotels/msnrkpe-spark-madison-central/"
+  },
+  {
+   "name": "Value Stay Mayflower",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2509 Perry Street, 53713",
+   "url": "https://www.valuedstay.com/"
+  },
+  {
+   "name": "Moxy Madison Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "823 East Washington Avenue, 53703, Madison",
+   "url": "https://www.marriott.com/en-us/hotels/msnox-moxy-madison-downtown/overview/"
+  },
+  {
+   "name": "The Saddlery Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "323 E;327 Wilson St;East Wilson Street, 53703",
+   "url": "https://www.thesaddlerymadison.com/"
+  },
+  {
+   "name": "The Buckingham Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1615 Summit Avenue",
+   "url": "https://buckinghaminn.com/"
+  },
+  {
+   "name": "Hotel Ruby Marie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "524 East Wilson Street, 53703, Madison",
+   "url": "https://rubymarie.com/"
+  },
+  {
+   "name": "Marquette Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "414 South Baldwin Street",
+   "url": "https://www.madisonmarquettehotel.com/"
+  },
+  {
+   "name": "Wisconsin Union Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://union.wisc.edu/wuhotel.htm"
+  },
+  {
+   "name": "Best Western Premier Park Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "22 South Carroll Street, 53703, Madison",
+   "url": ""
+  },
+  {
+   "name": "The Better Housing Company",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "637 Fairmont Avenue, 53714, Madison",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn of Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4820 Hayes Road, 53704, Madison",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Madison, WI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4830 Hayes Road, 53704, Madison",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Madison",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Madison Fitchburg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2969 Cahill Main, 53713, Fitchburg",
+   "url": ""
+  },
+  {
+   "name": "Primestay Extended Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4862 Hayes Road, 53704, Madison",
+   "url": ""
+  },
+  {
+   "name": "Hotel Indigo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Magnuson Grand Hotel Madison",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3510 Millpond Road, 53718, Madison",
+   "url": ""
+  },
+  {
+   "name": "Hawthorn Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "AmericInn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Tru",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Park Inn by Radisson",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Dylin",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "615 East Dayton Street",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "avid Hotel Madison - Monona",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aloha Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valued Stay office",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valued Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Mickies Dairy Bar",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "1511 Monroe Street, 53711, Madison",
+   "website": ""
+  },
+  {
+   "name": "Glass Nickel Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Turn Key Supper Club",
+   "cuisines": [
+    "Steak",
+    "Brunch",
+    "American",
+    "Fish"
+   ],
+   "address": "1344 East Washington Avenue, Madison",
+   "website": "https://www.turnkeymadison.com"
+  },
+  {
+   "name": "Mad Rabbit Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "805 Williamson Street, 53703, Madison",
+   "website": "https://www.themadrabbitcafe.com/"
+  },
+  {
+   "name": "Pink Flamingo Brunch Cafe",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "638 State Street",
+   "website": "https://www.pinkflamingobrunch.com"
+  },
+  {
+   "name": "Banzo",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2105 Sherman Avenues, 53704, Madison",
+   "website": "https://banzomadison.com/"
+  },
+  {
+   "name": "Grampa's Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1374 Williamson Street, 53703, Madison",
+   "website": "https://www.grampaspizzeria.com/"
+  },
+  {
+   "name": "Bandung Indonesian Restaurant",
+   "cuisines": [
+    "Thai",
+    "Indonesian",
+    "Lunch",
+    "Dinner"
+   ],
+   "address": "600 Williamson Street, 53703, Madison",
+   "website": "https://bandungrestaurant.com/"
+  },
+  {
+   "name": "Ian's Pizza on State",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "100 State Street, 53703, Madison",
+   "website": "https://ianspizza.com/location/state-street-madison/"
+  },
+  {
+   "name": "Ogdens North Street Diner",
+   "cuisines": [
+    "Diner"
+   ],
+   "address": "560 North Street, 53704, Madison",
+   "website": "https://www.facebook.com/Ogdens-North-Street-Diner-350282905130008/"
+  },
+  {
+   "name": "Tex Tubb's Taco Palace",
+   "cuisines": [
+    "Tacos"
+   ],
+   "address": "2009 Atwood Avenue, 53704, Madison",
+   "website": "https://www.textubbstacos.com/"
+  },
+  {
+   "name": "The Walking Jerk",
+   "cuisines": [
+    "Tex-Mex",
+    "Tacos"
+   ],
+   "address": "2352 South Park Street, 53713-1920, Madison",
+   "website": "https://www.thewalkingjerk.com"
+  },
+  {
+   "name": "Comfort Fuel",
+   "cuisines": [
+    "Comfort Food",
+    "Coffee Shop",
+    "Breakfast"
+   ],
+   "address": "439 North Frances Street, 53703, Madison",
+   "website": "https://www.eatcomfortfuel.com/"
+  },
+  {
+   "name": "Taj Indian Cuisine and Bar",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "444 South Park Street, 53715, Madison",
+   "website": "https://eattaj.com"
+  },
+  {
+   "name": "Alchemy",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1980 Atwood Avenue, 53704, Madison",
+   "website": "http://www.alchemycafe.net/"
+  },
+  {
+   "name": "Naf Naf Grill",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "555 State Street, 53703, Madison",
+   "website": "https://www.nafnafgrill.com/locations/#jump-madison"
+  },
+  {
+   "name": "Ru Yi Hand Pulled Noodle",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "334 State Street, 53703, Madison",
+   "website": "https://ruyihandpullednoodle.com/"
+  },
+  {
+   "name": "Mint Mark",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1874 East Washington Avenue, 53704, Madison",
+   "website": "https://www.mintmarkmadison.com/"
+  },
+  {
+   "name": "Molten Monkey",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "912 East Johnson Street",
+   "website": "https://www.moltenmonkey.com/"
+  },
+  {
+   "name": "Lallande",
+   "cuisines": [
+    "American",
+    "French"
+   ],
+   "address": "1859 Monroe Street, 53711, Madison",
+   "website": "https://www.lallandemadison.com/"
+  },
+  {
+   "name": "A La Brasa Mexican Grill",
+   "cuisines": [
+    "Latin American",
+    "Mexican"
+   ],
+   "address": "15 North Broom Street, 53703, Madison",
+   "website": "https://www.orderalabrasamexicangrill.com/"
+  },
+  {
+   "name": "Graze",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1 South Pinckney Street, 53703, Madison",
+   "website": "https://www.grazemadison.com/"
+  },
+  {
+   "name": "Natt Spil",
+   "cuisines": [
+    "Pizza",
+    "Burger"
+   ],
+   "address": "211 King Street, 53703, Madison",
+   "website": "https://www.nattspil.com/"
+  },
+  {
+   "name": "Cubarican’s Cocina",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "2007 Atwood Avenue, 53704-5324, Madison",
+   "website": "https://www.cubaricanscocina.com/"
+  },
+  {
+   "name": "Haven",
+   "cuisines": [
+    "Asian",
+    "Noodle",
+    "Middle Eastern",
+    "Chinese",
+    "Bubble Tea",
+    "Tea"
+   ],
+   "address": "430 W Gilman, 53703, Madison",
+   "website": "https://haven-wi.com/"
+  },
+  {
+   "name": "Greenbush Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "914 Regent Street, 53715, Madison",
+   "website": "https://www.greenbushbaronregent.com/"
+  },
+  {
+   "name": "Ha Long Bay",
+   "cuisines": [
+    "Thai",
+    "Vietnamese",
+    "Lao"
+   ],
+   "address": "1353 Williamson Street, 53703, Madison",
+   "website": "http://www.halongbaymadison.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "520 South Park Street, 53715, Madison",
+   "website": "https://locations.pizzahut.com/wi/madison/520-s-park-st"
+  },
+  {
+   "name": "Draper Brothers Chophouse",
+   "cuisines": [
+    "Italian",
+    "Steak House"
+   ],
+   "address": "101 North Hamilton Street, 53703, Madison",
+   "website": "https://draperbrotherschophouse.com/"
+  },
+  {
+   "name": "Turkish Kitchen",
+   "cuisines": [
+    "Turkish"
+   ],
+   "address": "2606 Monroe Street, 53711, Madison",
+   "website": "https://turkishkitchenmadison.com/"
+  },
+  {
+   "name": "Prost!",
+   "cuisines": [
+    "German"
+   ],
+   "address": "401 East Washington Avenue, 53703, Madison",
+   "website": "https://www.letsprost.com"
+  },
+  {
+   "name": "Pizza Brutta",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1805 Monroe Street, 53711, Madison",
+   "website": "https://www.pizzabrutta.com/"
+  },
+  {
+   "name": "Tavernakaya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "27 East Main Street, 53703, Madison",
+   "website": "https://www.tavernakaya.com/"
+  },
+  {
+   "name": "Lucille",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "101 King Street, 53703, Madison",
+   "website": "https://www.lucillemadison.com"
+  },
+  {
+   "name": "Madistan",
+   "cuisines": [
+    "Mediterranean",
+    "Middle Eastern",
+    "Shawarma",
+    "Indian"
+   ],
+   "address": "317 North Bassett Street, 53703, Madison",
+   "website": "https://madistanwi.com/"
+  },
+  {
+   "name": "The Mediterranean Joint",
+   "cuisines": [
+    "Mediterranean",
+    "Turkish"
+   ],
+   "address": "600 Williamson Street, 53703, Madison",
+   "website": "https://themediterraneanjoint.com"
+  },
+  {
+   "name": "Canteen",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "111 South Hamilton Street, 53703, Madison",
+   "website": "https://www.canteentaco.com/"
+  },
+  {
+   "name": "Casetta Kitchen & Counter",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "222 West Washington Avenue, 53703, Madison",
+   "website": "https://www.casettakitchen.com/"
+  },
+  {
+   "name": "Monty's Blue Plate Diner",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Burger",
+    "Diner",
+    "Pancake"
+   ],
+   "address": "2089 Atwood Avenue, Madison",
+   "website": "https://www.montysblueplatediner.com/"
+  },
+  {
+   "name": "The Old Fashioned",
+   "cuisines": [
+    "American",
+    "Regional"
+   ],
+   "address": "23 North Pinckney Street, 53703, Madison",
+   "website": "https://theoldfashioned.com/"
+  },
+  {
+   "name": "Weary Traveler Free House",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1201 Williamson Street, 53703, Madison",
+   "website": "https://www.wearytravelerfreehouse.com/"
+  },
+  {
+   "name": "Red Rock Saloon",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "222 West Gorham Street, 53703, Madison",
+   "website": "https://redrockmadison.com/"
+  },
+  {
+   "name": "Ian's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "319 North Frances Street, 53703, Madison",
+   "website": "https://ianspizza.com/madison/"
+  },
+  {
+   "name": "Dotty Dumpling's Dowry",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "317 North Frances Street, 53703, Madison",
+   "website": "https://dottydumplingsdowry.com/"
+  },
+  {
+   "name": "Eloura",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "10 West Mifflin Street, 53703, Madison",
+   "website": "https://elouramediterranean.com"
+  },
+  {
+   "name": "Blue Moon Bar & Grill",
+   "cuisines": [
+    "Burger",
+    "American"
+   ],
+   "address": "2535 University Avenue, 53705, Madison",
+   "website": "https://www.bluemoonbar.com/"
+  },
+  {
+   "name": "Estacion Inka",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "616 University Avenue, 53715, Madison",
+   "website": "http://estacioninkamadison.com/"
+  },
+  {
+   "name": "Poke Plus",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "615 State Street, 53703, Madison",
+   "website": "https://poketeriyaki.com/"
+  },
+  {
+   "name": "Bassett Street Brunch Club",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "44 West Johnson Street, 53703, Madison",
+   "website": "https://brunchclubmadison.com/menus/"
+  },
+  {
+   "name": "Nam's Noodle",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1336 Regent Street, Madison",
+   "website": "https://www.namnoodle.com/"
+  },
+  {
+   "name": "Pasture & Plenty",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://pastureandplenty.com/"
+  },
+  {
+   "name": "Curry in the Box",
+   "cuisines": [
+    "Curry",
+    "Thai"
+   ],
+   "address": "2907 University Avenue, 53705, Madison",
+   "website": "https://www.curryintheboxuniversity.com/"
+  },
+  {
+   "name": "Bar Corallini",
+   "cuisines": [
+    "Italian",
+    "Italian Pizza"
+   ],
+   "address": "2004 Atwood Avenue, 53704",
+   "website": "https://www.barcorallini.com/"
+  },
+  {
+   "name": "Thai Basil",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "3510 University Avenue, 53705",
+   "website": "https://www.thaibasilfoodmadison.com/"
+  },
+  {
+   "name": "Fya Side Kitchen",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "1925 Monroe Street, 53711, Madison",
+   "website": "https://www.fyasydekitchen.com"
+  },
+  {
+   "name": "Chen's Noodles & Dumplings",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "505 State Street, 53703, Madison",
+   "website": "https://chensdumplinghouse.com/"
+  },
+  {
+   "name": "Stalzy's Deli",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "2701 Atwood Avenue, 53704, Madison",
+   "website": "https://www.stalzysdeli.com/"
+  },
+  {
+   "name": "Monsoon Siam",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2326 Atwood Avenue, 53704, Madison",
+   "website": "https://order.toasttab.com/online/monsoon-siam-madison"
+  },
+  {
+   "name": "Kosharie",
+   "cuisines": [
+    "Egyptian",
+    "American"
+   ],
+   "address": "1437 Regent Street, 53711, Madison",
+   "website": "https://www.kosharie.com/"
+  },
+  {
+   "name": "Rising Sons Deli",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "617 State Street, 53703, Madison",
+   "website": "https://www.risingsonswi.com/"
+  },
+  {
+   "name": "Parthenon Gyros",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "316 State Street, 53703, Madison",
+   "website": "https://www.parthenongyros.com/"
+  },
+  {
+   "name": "Sushi Express",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "610 University Avenue, 53715, Madison",
+   "website": "http://www.sushiexpresswi.com"
+  },
+  {
+   "name": "Paul's Pel'meni",
+   "cuisines": [
+    "Russian"
+   ],
+   "address": "414 West Gilman Street, 53703, Madison",
+   "website": "https://paulspelmenimadison.com/39592"
+  },
+  {
+   "name": "Harvest",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "21 North Pinckney Street",
+   "website": "https://www.opentable.com/harvest-wisconsin"
+  },
+  {
+   "name": "Oishi Japanese Restaurant",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "532 South Park Street, 53715, Madison",
+   "website": "https://oishimadison.com/"
+  },
+  {
+   "name": "Ichiban Sichuan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "610 South Park Street, 53715",
+   "website": "https://www.ichibanmadison.com/"
+  },
+  {
+   "name": "China Wok",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1724 Fordem Avenue, 53704, Madison",
+   "website": "https://www.chinawokmadison.com/"
+  },
+  {
+   "name": "Cento",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "122 West Mifflin Street",
+   "website": "https://www.centomadison.com"
+  },
+  {
+   "name": "Salvatore's Tomato Pies",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "10 North Livingston Street, 53703, Madison",
+   "website": "https://www.salvatorestomatopies.com/location/dark-horse/"
+  },
+  {
+   "name": "RED",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "316 West Washington Avenue, Madison",
+   "website": "https://red-madison.com/"
+  },
+  {
+   "name": "Tokyo Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1133 Williamson Street, 53703, Madison",
+   "website": "https://tokyosushimadison.com/"
+  },
+  {
+   "name": "Forage Kitchen",
+   "cuisines": [
+    "Salad",
+    "American",
+    "Soup"
+   ],
+   "address": "800 West Broadway, 53716, Monona",
+   "website": "https://www.eatforage.com/"
+  },
+  {
+   "name": "Eat Xpress",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "203 West Gorham Street, 53703, Madison",
+   "website": "https://www.eatxpresswi.com/"
+  },
+  {
+   "name": "Mishqui Peruvian Bistro",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "225 King Street, 53703, Madison",
+   "website": "https://www.mishquiperu.com/"
+  },
+  {
+   "name": "Osteria Novella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2903 University Avenue, 53705, Madison",
+   "website": "https://osterianovella.com/"
+  },
+  {
+   "name": "Rossi's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "4503 Monona Drive, 53716, Monona",
+   "website": "https://rossispizzamonona.com/"
+  },
+  {
+   "name": "Starkweather Brewing Company",
+   "cuisines": [
+    "Gastropub"
+   ],
+   "address": "2439 Atwood Avenue, 53704, Madison",
+   "website": "https://starkweatherbrewing.com/"
+  },
+  {
+   "name": "Umami Ramen & Dumpling Bar",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "923 Williamson Street, 53703, Madison",
+   "website": "https://www.umamimadison.com/"
+  },
+  {
+   "name": "Taste Of India",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2623 Monroe Street, 53711, Madison",
+   "website": "https://tasteofindiamadison.com/"
+  },
+  {
+   "name": "begonia.",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "1835 Monroe Street, 53711, Madison",
+   "website": "https://www.begoniamadison.com/"
+  },
+  {
+   "name": "So Gong Dong",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "559 State Street, 53703, Madison",
+   "website": "https://www.sgdrestaurant.com"
+  },
+  {
+   "name": "Heritage Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "131 East Mifflin Street, 53703, Madison",
+   "website": "https://heritagetavern.com/"
+  },
+  {
+   "name": "Little Tibet",
+   "cuisines": [
+    "Tibetan"
+   ],
+   "address": "827 East Johnson Street",
+   "website": "https://www.littletibetmadison.com/"
+  },
+  {
+   "name": "Ahan",
+   "cuisines": [
+    "Southeast Asian"
+   ],
+   "address": "53704",
+   "website": "https://ahanmadison.com/"
+  },
+  {
+   "name": "Butterbird",
+   "cuisines": [
+    "Chicken",
+    "Burger",
+    "American"
+   ],
+   "address": "1134 Regent Street",
+   "website": "https://www.butterbird.com/"
+  },
+  {
+   "name": "Cafe MiMi",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "10 South Allen Street",
+   "website": "https://www.mimicafestore.com/"
+  },
+  {
+   "name": "Lombardino's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2500 University Avenue, 53705, Madison",
+   "website": "https://www.lombardinos.com/"
+  },
+  {
+   "name": "Fabiola's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1301 Regent Street",
+   "website": "https://www.fabiolasmadison.com/"
+  },
+  {
+   "name": "The Post",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://thepostmadison.com"
+  },
+  {
+   "name": "Everly",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2701 Monroe Street, 53711, Madison",
+   "website": "http://www.bluephies.com"
+  },
+  {
+   "name": "Maharani Indian Restaurant",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": "https://www.maharaniindianrestaurant.com"
+  },
+  {
+   "name": "Coopers Tavern",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "20 West Mifflin Street",
+   "website": "https://thecooperstavern.com/"
+  },
+  {
+   "name": "The Icehouse",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "American"
+   ],
+   "address": "1001 Wisconsin Place, 53703, Madison",
+   "website": "https://www.icehousemadison.com/slice-house/"
+  },
+  {
+   "name": "Ramen Station",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "1124 South Park Street, 53715, Madison",
+   "website": "https://www.ramenstationwi.com"
+  },
+  {
+   "name": "Señor Machetes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "121 East Main Street, 53703, Madison",
+   "website": "https://senormachetes.com/"
+  },
+  {
+   "name": "Fairchild",
+   "cuisines": [
+    "American",
+    "Seafood",
+    "Pasta"
+   ],
+   "address": "2611 Monroe Street, 53711, Madison",
+   "website": "https://www.fairchildrestaurant.com/"
+  },
+  {
+   "name": "Jalisco Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "108 King Street",
+   "website": "https://www.jaliscomadison.com/"
+  },
+  {
+   "name": "Baldwin Street Grille",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1304 East Washington Avenue, 53703, Madison",
+   "website": "https://baldwinstreetgrille.com/"
+  },
+  {
+   "name": "Breakwater",
+   "cuisines": [
+    "American"
+   ],
+   "address": "6308 Inland Way, 53713, Monona",
+   "website": "https://breakwatermonona.com/"
+  },
+  {
+   "name": "Crostini Sandwiches",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "231 North Street, 53704",
+   "website": "http://www.crostinisandwiches.com/"
+  },
+  {
+   "name": "Steenbock's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "330 North Orchard Street",
+   "website": "https://www.steenbocksonorchard.com/"
+  },
+  {
+   "name": "Mad Seafood Boiler",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "201 West Gorham Street, 53703, Madison",
+   "website": "https://madseafoodboiler.com"
+  },
+  {
+   "name": "Strings Ramen",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "311 N Frances St;North Frances Street",
+   "website": "https://www.stringsramen.com"
+  },
+  {
+   "name": "Conrad's Grill",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "563 State Street",
+   "website": "https://www.conradsgrill.com/madison-wi"
+  },
+  {
+   "name": "Friends Applaud",
+   "cuisines": [
+    "Raclette",
+    "Fish"
+   ],
+   "address": "1602 Gilson Street, 53715",
+   "website": "https://www.friendsapplaud.com/"
+  },
+  {
+   "name": "Camp Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1501 Regent Street",
+   "website": "https://camp-cantina.com/"
+  },
+  {
+   "name": "Sultan",
+   "cuisines": [
+    "Punjabi",
+    "South Asian"
+   ],
+   "address": "1054 Williamson Street",
+   "website": "https://sultanmadison.com/"
+  },
+  {
+   "name": "NORI Sushi & Grill",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "2911 University Avenue, 53705, Madison",
+   "website": "https://www.norisushieats.com/"
+  },
+  {
+   "name": "Casa Zaragoza",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1824 South Park Street, 53713",
+   "website": "http://://www.casazaragozamadison.com"
+  },
+  {
+   "name": "Pizza Extreme",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://pizzaextremes.com/"
+  },
+  {
+   "name": "Sardine",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "617 Williamson Street",
+   "website": "http://sardinemadison.com/"
+  },
+  {
+   "name": "Sa-Bai Thong",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://www.sabaithong.com/index.php"
+  },
+  {
+   "name": "Samba Brazilian Grill",
+   "cuisines": [
+    "Brazilian"
+   ],
+   "address": "240 W. Gilman Street, 53703",
+   "website": "https://sambabraziliangrill.com/"
+  },
+  {
+   "name": "Tornado Room",
+   "cuisines": [
+    "Supper Club",
+    "Steak House",
+    "American"
+   ],
+   "address": "116 South Hamilton Street",
+   "website": "https://www.tornadosteakhouse.com"
+  },
+  {
+   "name": "Merchant",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "",
+   "website": "https://www.merchantmadison.com/"
+  },
+  {
+   "name": "Asian Kitchen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://www.asiankitchenwi.com/"
+  },
+  {
+   "name": "HWY1",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2701 Monroe Street",
+   "website": "https://www.hwy1restaurant.com/"
+  },
+  {
+   "name": "Sequoia Ramen & Sushi Lounge",
+   "cuisines": [
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://www.seequoia.com/"
+  },
+  {
+   "name": "Vintage Brewing Co. Capitol East",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "803 East Washington Avenue, 53703, Madison",
+   "website": "https://vintagebrewingcompany.com/capitoleast/"
+  },
+  {
+   "name": "Garibaldi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "117 South Butler Street",
+   "website": "https://garibaldimexicanwi.com/"
+  },
+  {
+   "name": "Ancora Cafe + Bakery",
+   "cuisines": [
+    "Brunch",
+    "Cafe"
+   ],
+   "address": "107 King Street, 53703",
+   "website": "https://www.ancoracafes.com/"
+  },
+  {
+   "name": "Cranberry Creek Restaurant & Catering",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1501 Lake Point Drive, 53713, Monona",
+   "website": "http://www.cranberrycreek-cafe.com/"
+  },
+  {
+   "name": "Tempest",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://tempestoysterbar.com/"
+  },
+  {
+   "name": "FreshFin Poke",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": "https://www.freshfinpoke.com/"
+  },
+  {
+   "name": "Naples 15",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "15 North Butler Street",
+   "website": "https://naples15.com/"
+  },
+  {
+   "name": "Silk Road",
+   "cuisines": [
+    "Tajik"
+   ],
+   "address": "1920 South Park Street",
+   "website": "https://www.silkroadmadison.com"
+  },
+  {
+   "name": "South Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://union.wisc.edu/dine/find-food-and-drink/urban-slice/"
+  },
+  {
+   "name": "Harvest Grains",
+   "cuisines": [
+    "Soup",
+    "Salad",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": "https://union.wisc.edu/harvestgrains.htm"
+  },
+  {
+   "name": "Ginger Root",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": "https://union.wisc.edu/gingerroot.htm"
+  },
+  {
+   "name": "Saigon Sandwich",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": "https://saigonsandwichwi.square.site/"
+  },
+  {
+   "name": "Ama Kitchen",
+   "cuisines": [
+    "Nepalese"
+   ],
+   "address": "",
+   "website": "https://amakitchenmadison.com"
+  },
+  {
+   "name": "Parkway Family Restaurant",
+   "cuisines": [
+    "American",
+    "Breakfast"
+   ],
+   "address": "",
+   "website": "https://www.parkwayfamilyrestaurant.com/"
+  },
+  {
+   "name": "Side Door Grill",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "",
+   "website": "http://thesidedoorgrill.com/"
+  },
+  {
+   "name": "5 Star Korean BBQ",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": "https://5starkoreanbbq.com/"
+  },
+  {
+   "name": "Palette Bar & Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.palettegrill.com/"
+  },
+  {
+   "name": "Palio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": "https://onesocialmadison.com/vendor/palio/"
+  },
+  {
+   "name": "Casey's Tavern",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://onesocialmadison.com/vendor/caseys-tavern/"
+  },
+  {
+   "name": "Real Seafood Co",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://onesocialmadison.com/vendor/real-seafood-co/"
+  },
+  {
+   "name": "Senora Machetes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": "https://onesocialmadison.com/vendor/senora-machetes/"
+  },
+  {
+   "name": "Buraka",
+   "cuisines": [
+    "Ethiopian"
+   ],
+   "address": "1210 Williamson Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "The Curve",
+   "cuisines": [
+    "Diner",
+    "Breakfast",
+    "Lunch",
+    "American",
+    "Sandwich",
+    "Burger",
+    "Pancake",
+    "Waffle"
+   ],
+   "address": "653 South Park Street, 53715, Madison",
+   "website": ""
+  },
+  {
+   "name": "Izakaya Kuroyama",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "419 State Street",
+   "website": ""
+  },
+  {
+   "name": "Green Owl Cafe",
+   "cuisines": [
+    "Sandwich",
+    "Burger",
+    "American"
+   ],
+   "address": "1970 Atwood Avenue",
+   "website": ""
+  },
+  {
+   "name": "Noodles & Company",
+   "cuisines": [
+    "Pasta"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "L'Etoile",
+   "cuisines": [
+    "French"
+   ],
+   "address": "1 South Pinckney Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Sunny Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "602 South Park Street, 53715, Madison",
+   "website": ""
+  },
+  {
+   "name": "Willalby's",
+   "cuisines": [
+    "Diner",
+    "Pancake",
+    "American",
+    "Sandwich",
+    "Breakfast"
+   ],
+   "address": "1351 Williamson Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Famous Dave's",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "A8 China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "608 University Avenue",
+   "website": ""
+  },
+  {
+   "name": "La Hacienda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "515 South Park Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "Bear & Bottle",
+   "cuisines": [
+    "American"
+   ],
+   "address": "601 North Sherman Avenue, 53704, Madison",
+   "website": ""
+  },
+  {
+   "name": "El Aguila Real",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "226 State Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Sweet Home Wisconsin",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "910 Regent Street, 53715, Madison",
+   "website": ""
+  },
+  {
+   "name": "Toppers Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1368 Regent Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "Great China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "619 North Sherman Avenue, 53704, Madison",
+   "website": ""
+  },
+  {
+   "name": "Sol's on the Square",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "117 East Mifflin Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Szechuan Garden Chinese Cuisine",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2825 University Avenue",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Cafe",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2 South Mills Street, 53716, Madison",
+   "website": ""
+  },
+  {
+   "name": "Dagu Rice Noodle",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "604 University Avenue, 53715, Madison",
+   "website": ""
+  },
+  {
+   "name": "The Harvey House",
+   "cuisines": [
+    "Regional",
+    "Fine Dining"
+   ],
+   "address": "644 West Washington Avenue, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "A La Brasa #2",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "45 South Bassett Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "Mediterranean Cafe",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "625 State Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "The Globe",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "309 North Henry Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Johnny Delmonico's",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "130 South Pinckney Street, 53703",
+   "website": ""
+  },
+  {
+   "name": "Cadre",
+   "cuisines": [
+    "French"
+   ],
+   "address": "2540 University Avenue, 53705, Madison",
+   "website": ""
+  },
+  {
+   "name": "Senjoy",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "785 University Avenue, 53715, Madison",
+   "website": ""
+  },
+  {
+   "name": "Hutong",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "410 East Wilson Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Osteria Papavero",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "128 East Wilson Street",
+   "website": ""
+  },
+  {
+   "name": "Taiwan Little Eats",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "330 State Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "Double 10 Mini Hot Pot",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "600 Williamson Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "Yume Sushi",
+   "cuisines": [
+    "Sushi",
+    "Asian"
+   ],
+   "address": "449 State Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Fugu Fusion",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "411 West Gilman Street, 53703",
+   "website": ""
+  },
+  {
+   "name": "Himali Chulo",
+   "cuisines": [
+    "Nepalese"
+   ],
+   "address": "318 State Street",
+   "website": ""
+  },
+  {
+   "name": "Chin Up",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "461 West Gilman Street",
+   "website": ""
+  },
+  {
+   "name": "Baked Wings and Things",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "250 State Street, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "One Prime",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "119 East Wilson Street, 53703, Madsion",
+   "website": ""
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "427 State Street",
+   "website": ""
+  },
+  {
+   "name": "El Pollo Rumbero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "77 Sirloin Strip, 53713, Madison",
+   "website": ""
+  },
+  {
+   "name": "Sern Sapp",
+   "cuisines": [
+    "Laotian",
+    "Southeast Asian"
+   ],
+   "address": "1146 Williamson Street",
+   "website": ""
+  },
+  {
+   "name": "Ashirwad",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "128 State Street",
+   "website": ""
+  },
+  {
+   "name": "5 Stars Chicken",
+   "cuisines": [
+    "Korean",
+    "Barbecue"
+   ],
+   "address": "605 East Washington Avenue, 53703, Madison",
+   "website": ""
+  },
+  {
+   "name": "Apex Grill",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of Sichuan",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bandit Tacos & Coffee",
+   "cuisines": [
+    "Coffee Shop",
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hot Lunch",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "708 1/4 East Johnson Street",
+   "website": ""
+  },
+  {
+   "name": "GM Banh Mi",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "334 West Johnson Street",
+   "website": ""
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Gemelos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Strada",
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Orient House",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sabores Fusion Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lao Laan-Xang",
+   "cuisines": [
+    "Asian",
+    "Lao"
+   ],
+   "address": "2098 Atwood Avenue",
+   "website": ""
+  },
+  {
+   "name": "Delices De Awa",
+   "cuisines": [
+    "African"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rocky Rococo",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luchador Tequila & Taco Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Custom Mac & Cheese Bar",
+   "cuisines": [
+    "Macaroni And Cheese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Capitol Chop House",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rancho Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marigold Kitchen",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "53703",
+   "website": ""
+  },
+  {
+   "name": "QQ Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Adamah Neighborhood Table",
+   "cuisines": [
+    "Jewish",
+    "Smoothie",
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "King of Falafel",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rare Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jacknife",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Muriel's Place",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacos El Capi",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "World Buffet",
+   "cuisines": [
+    "Chinese",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Guadalajara",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Statehouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rosie's Coffee Bar & Bakery",
+   "cuisines": [
+    "Bakery",
+    "Coffee Shop",
+    "Diner"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Gooseberry",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Wonder Bar",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Happy Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Pastor",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lola's Hi/Lo Lounge",
+   "cuisines": [],
+   "address": "617 North Sherman Avenue, 53704, Madison",
+   "website": "https://www.lolasmadison.com/"
+  },
+  {
+   "name": "Jardin",
+   "cuisines": [],
+   "address": "829 East Washington Avenue, 53703",
+   "website": "https://www.jardin-madison.com/"
+  },
+  {
+   "name": "Highland Corner Grill",
+   "cuisines": [],
+   "address": "",
+   "website": "https://inntowner.com/dining"
+  },
+  {
+   "name": "Feast",
+   "cuisines": [],
+   "address": "",
+   "website": "https://www.feastmadison.com"
+  },
+  {
+   "name": "Robinia Courtyard",
+   "cuisines": [],
+   "address": "",
+   "website": "https://robiniacourtyard.com/"
+  },
+  {
+   "name": "Justveggiez",
+   "cuisines": [],
+   "address": "542 State Street, Madison",
+   "website": ""
+  },
+  {
+   "name": "CIRC",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Four Lakes Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Boathouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Liberty Station",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Madison Children's Museum",
+   "kind": "museum",
+   "address": "100 North Hamilton Street, 53703, Madison",
+   "website": "https://madisonchildrensmuseum.org",
+   "phone": "",
+   "latitude": 43.0768154,
+   "longitude": -89.3844709
+  },
+  {
+   "name": "Madison Museum of Contemporary Art",
+   "kind": "museum",
+   "address": "227 State Street, 53703, Madison",
+   "website": "https://www.mmoca.org/",
+   "phone": "",
+   "latitude": 43.0745214,
+   "longitude": -89.3889084
+  },
+  {
+   "name": "Chazen Museum of Art",
+   "kind": "museum",
+   "address": "750 University Avenue, Madison",
+   "website": "https://chazen.wisc.edu/",
+   "phone": "",
+   "latitude": 43.0739028,
+   "longitude": -89.3987712
+  },
+  {
+   "name": "Henry Vilas Zoo",
+   "kind": "zoo",
+   "address": "702 South Randall Avenue, 53715, Madison",
+   "website": "https://www.henryvilaszoo.gov/",
+   "phone": "",
+   "latitude": 43.0597652,
+   "longitude": -89.4097966
+  },
+  {
+   "name": "Olbrich Botanical Gardens",
+   "kind": "attraction",
+   "address": "3330 Atwood Avenue, 53704, Madison",
+   "website": "https://www.olbrich.org/",
+   "phone": "",
+   "latitude": 43.092702,
+   "longitude": -89.3349781
+  },
+  {
+   "name": "L.R. Ingersoll Physics Museum",
+   "kind": "museum",
+   "address": "1150 University Avenue, Madison",
+   "website": "https://www.physics.wisc.edu/ingersollmuseum/",
+   "phone": "+1-608-262-3898",
+   "latitude": 43.0736469,
+   "longitude": -89.4054156
+  },
+  {
+   "name": "UW Geology Museum",
+   "kind": "museum",
+   "address": "1215 West Dayton Street",
+   "website": "https://geoscience.wisc.edu/museum/",
+   "phone": "",
+   "latitude": 43.0705257,
+   "longitude": -89.4059387
+  },
+  {
+   "name": "Washburn Observatory",
+   "kind": "attraction",
+   "address": "1401 Observatory Drive, Madison",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0761909,
+   "longitude": -89.4089491
+  },
+  {
+   "name": "Wisconsin Veterans Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0750805,
+   "longitude": -89.3864517
+  },
+  {
+   "name": "Governor's Mansion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1088823,
+   "longitude": -89.3689514
+  },
+  {
+   "name": "Talbot Studio And Gallery",
+   "kind": "gallery",
+   "address": "2118 Atwood Avenue, 53704, Madison",
+   "website": "http://www.talbotphoto.com",
+   "phone": "+1-608-241-4082",
+   "latitude": 43.0929506,
+   "longitude": -89.3513107
+  },
+  {
+   "name": "Marshall Boats",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.madisonboats.com/",
+   "phone": "",
+   "latitude": 43.0932582,
+   "longitude": -89.482055
+  },
+  {
+   "name": "University of Wisconsin Space Place",
+   "kind": "museum",
+   "address": "2300 South Park Street",
+   "website": "http://www.spaceplace.wisc.edu",
+   "phone": "",
+   "latitude": 43.0409728,
+   "longitude": -89.3952452
+  },
+  {
+   "name": "Vitense Golfland",
+   "kind": "theme park",
+   "address": "5501 Schroeder Road, 53711, Madison",
+   "website": "https://www.vitense.com/",
+   "phone": "",
+   "latitude": 43.0445306,
+   "longitude": -89.4760672
+  },
+  {
+   "name": "PhotoMidwest",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://www.photomidwest.org/",
+   "phone": "",
+   "latitude": 43.0491177,
+   "longitude": -89.4915162
+  },
+  {
+   "name": "Tandem Press",
+   "kind": "gallery",
+   "address": "1741 Commercial Avenue",
+   "website": "https://tandempress.wisc.edu/",
+   "phone": "",
+   "latitude": 43.1057302,
+   "longitude": -89.3615048
+  },
+  {
+   "name": "Conrad A. Elvehjem Building",
+   "kind": "museum",
+   "address": "800 University Avenue, Madison",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0739047,
+   "longitude": -89.3994226
+  },
+  {
+   "name": "Gallery Marzen",
+   "kind": "gallery",
+   "address": "2345 Atwood Avenue, 53704, Madison",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0935161,
+   "longitude": -89.3471066
+  },
+  {
+   "name": "Milward Farrell Fine Art",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0567024,
+   "longitude": -89.4293635
+  },
+  {
+   "name": "Backspace Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.069283,
+   "longitude": -89.3950466
+  },
+  {
+   "name": "Great Plains Paleontolgy",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0849821,
+   "longitude": -89.3620849
+  },
+  {
+   "name": "Black Hawk's Cave",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0872242,
+   "longitude": -89.4460303
+  },
+  {
+   "name": "Star Studios",
+   "kind": "gallery",
+   "address": "6645 Odana Road",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0560618,
+   "longitude": -89.4959596
+  },
+  {
+   "name": "Rhino",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.060401,
+   "longitude": -89.41147
+  },
+  {
+   "name": "Tiger",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0605851,
+   "longitude": -89.4106975
+  },
+  {
+   "name": "Lion",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0604194,
+   "longitude": -89.4110207
+  },
+  {
+   "name": "Chilean Flamingo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0590762,
+   "longitude": -89.4104572
+  },
+  {
+   "name": "River Otter",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0595485,
+   "longitude": -89.4097545
+  },
+  {
+   "name": "Capybara",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0596719,
+   "longitude": -89.4097599
+  },
+  {
+   "name": "Polar Bears",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0591291,
+   "longitude": -89.4091322
+  },
+  {
+   "name": "Badgers",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0585056,
+   "longitude": -89.4085784
+  },
+  {
+   "name": "Bison",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.058549,
+   "longitude": -89.4090678
+  },
+  {
+   "name": "Camel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0596187,
+   "longitude": -89.4110525
+  },
+  {
+   "name": "Somali Wild Ass",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0594661,
+   "longitude": -89.4104894
+  },
+  {
+   "name": "Giraffe",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.059856,
+   "longitude": -89.4111725
+  },
+  {
+   "name": "Conservation Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0588528,
+   "longitude": -89.4110708
+  },
+  {
+   "name": "African Penguins",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0600837,
+   "longitude": -89.4097823
+  },
+  {
+   "name": "Observatory Hill Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0766483,
+   "longitude": -89.4088401
+  },
+  {
+   "name": "Monona Terrace Rooftop Terrace",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0714255,
+   "longitude": -89.3798188
+  },
+  {
+   "name": "Seals",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0587292,
+   "longitude": -89.4082846
+  },
+  {
+   "name": "Goat Feeding",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0592721,
+   "longitude": -89.4112002
+  },
+  {
+   "name": "Saban's Viewpoint",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.1091628,
+   "longitude": -89.4850778
+  },
+  {
+   "name": "Grizzly Bears",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0589385,
+   "longitude": -89.4085668
+  },
+  {
+   "name": "Overture Center For The Arts",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0745111,
+   "longitude": -89.3883068
+  },
+  {
+   "name": "Bright Red Studios",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0852761,
+   "longitude": -89.3700528
+  },
+  {
+   "name": "Frautschi (Second) Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0927225,
+   "longitude": -89.431018
+  },
+  {
+   "name": "Booth Courtenay Memorial Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.047669,
+   "longitude": -89.4277814
+  },
+  {
+   "name": "Sunset Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0667933,
+   "longitude": -89.4446308
+  },
+  {
+   "name": "Raymer's Cove",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0890521,
+   "longitude": -89.4400193
+  },
+  {
+   "name": "Picnic Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0897699,
+   "longitude": -89.415194
+  },
+  {
+   "name": "Muir Knoll",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0762832,
+   "longitude": -89.40296
+  },
+  {
+   "name": "Raymer's Ravine",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0889186,
+   "longitude": -89.4399794
+  },
+  {
+   "name": "Tundra Buggy",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0587207,
+   "longitude": -89.4087248
+  },
+  {
+   "name": "Tenney Park Breakwater",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0953651,
+   "longitude": -89.3722595
+  },
+  {
+   "name": "Progress Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 43.0767455,
+   "longitude": -89.3987916
+  }
+ ]
+}

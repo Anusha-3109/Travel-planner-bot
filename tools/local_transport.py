@@ -2,8 +2,8 @@
 
 Live from Google Routes when a Google Maps key is set: public transport routes
 with lines, stops and times, plus driving time and distance (Google gives no
-taxi fares). Without live data, two cities in the TravelPlanner data still get
-their March 2022 self-driving and taxi options.
+taxi fares). Without live data, two known cities get a drive and a taxi ride
+estimated from the distance between their centres.
 """
 
 import json
@@ -24,7 +24,7 @@ def _snapshot(origin: str, destination: str) -> list[dict]:
     a, b = catalog.city_name(origin), catalog.city_name(destination)
     if not a or not b:
         return []
-    routes = [catalog.ground.get((mode, a.lower(), b.lower())) for mode in ("self-driving", "taxi")]
+    routes = [catalog.estimate_drive(mode, a, b) for mode in ("self-driving", "taxi")]
     return [{"mode": r.mode, "duration": r.duration, "distance_km": r.distance_km, "cost_per_vehicle": r.cost,
              "seats_per_vehicle": 5 if r.mode == "self-driving" else 4} for r in routes if r]
 
@@ -64,10 +64,11 @@ def find_local_transport(origin: str, destination: str, city: str | None = None,
             return live
     snapshot = _snapshot(origin, destination)
     if not snapshot:
-        raise InputValidationError(f"{reason} No snapshot routes exist between these places either.")
-    return {"transport_source": "snapshot (TravelPlanner, March 2022)", "from": origin, "to": destination,
+        raise InputValidationError(f"{reason} These places aren't known cities, so no estimate is possible either.")
+    return {"transport_source": "estimate", "from": origin, "to": destination,
             "public_transport": [], "ground_options": snapshot,
-            "note": f"{reason} Showing March 2022 self-driving and taxi data; costs are per vehicle."}
+            "note": f"{reason} Showing a drive and a taxi ride estimated from the distance between the city centres; "
+                    "US car costs use the IRS mileage rate and are per vehicle; taxis have no fares."}
 
 
 @tool

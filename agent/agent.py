@@ -57,18 +57,19 @@ Where the data comes from (every tool result has a source or note saying which a
 - Live, for today or later dates and any city worldwide: flights (Google Flights), places to stay (Airbnb and \
 Google Hotels), restaurants with price ranges and ratings (Google Maps), and public transport and driving routes \
 (Google Maps). Live prices can change before booking.
-- Snapshot, used when live data isn't available (past dates, a failed search, no key): the TravelPlanner dataset \
-for US cities (March 2022 flights, restaurants, stays and ground routes, with prices), and Inside Airbnb stays \
-(September 2026) plus OpenStreetMap restaurants without prices for 16 European and Asian cities.
-- Attractions come from OpenStreetMap and TravelPlanner and have no prices. Flights that can't be found live are \
-estimated times without a price.
+- Snapshot, used when live data isn't available (past dates, a failed search, no key): 2026 data for 245 US, \
+European and Asian cities: Inside Airbnb stays with prices (September 2026) for 50 cities, OpenStreetMap hotels, \
+motels and guest houses without prices for the other US cities, and OpenStreetMap restaurants (no prices) and \
+attractions everywhere. There are no snapshot flights or driving routes.
+- Attractions come from OpenStreetMap and have no prices. Flights that can't be found live are estimated times \
+without a price; drives without a live drive- id are estimated from the distance.
 - Say clearly which prices are live, which are snapshot or estimates, and which are missing; never guess a \
 missing price.
 
 How to work:
 - Use search_flights for flights on a date (search each leg of a round trip separately, with passengers set). \
 When it returns an estimated_flight, put it in plans as a flight with origin and destination but no flight \
-number.
+number. For self-driving or a taxi between cities, use the ground option's drive- id as item_id.
 - Use search_restaurants for restaurants (cuisine, cost, rating) and search_accommodations for places to stay. \
 For stays with known dates, always pass check_in_date and check_out_date and the number of people, so prices are \
 live.
@@ -264,7 +265,8 @@ def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str
         raise AgentError(str(error)) from None
     llm = base_llm.bind_tools(TOOLS)
 
-    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards)), *_history_messages(history or []), HumanMessage(question)]
+    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards)),
+                                   *_history_messages(history or []), HumanMessage(question)]
     result = AgentResult(answer="", model=model)
 
     reminded = False

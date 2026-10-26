@@ -1,0 +1,1421 @@
+{
+ "city": "Knoxville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.9633,
+ "longitude": -83.9177,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Andrew Johnson Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "912 South Gay Street, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Graduate by Hilton Knoxville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1706 Cumberland Avenue, 37916, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tysgkgu-graduate-knoxville/"
+  },
+  {
+   "name": "Cumberland House Knoxville, Tapestry Collection by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1109 White Avenue, 37916, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tyschup-cumberland-house-knoxville/"
+  },
+  {
+   "name": "Hampton Inn & Suites - Knoxville/North I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5411 Pratt Road, 37912, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tysnohx-hampton-suites-knoxville-north-i-75/"
+  },
+  {
+   "name": "Embassy Suites by Hilton Knoxville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "507 South Gay Street, 37902, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tysxdes-embassy-suites-knoxville-downtown/"
+  },
+  {
+   "name": "Holiday Inn Knoxville N - Merchant Drive",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5634 Merchants Center Boulevard, Knoxville",
+   "url": "https://www.ihg.com/holidayinn/hotels/us/en/knoxville/tysmr/hoteldetail"
+  },
+  {
+   "name": "Residence Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 West Church Avenue, 37902, Knoxville",
+   "url": "https://www.marriott.com/tysdt"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "706 Walnut Street, 37902, Knoxville",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/knoxville/tysws/hoteldetail"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 Brookview Centre Way, 37919, Knoxville",
+   "url": "https://www.marriott.com/tysck"
+  },
+  {
+   "name": "Days Inn by Wyndham Knoxville East",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5423 Asheville Highway, 37914, Knoxville",
+   "url": "https://www.wyndhamhotels.com/days-inn/knoxville-tennessee/days-inn-knoxville-east/overview"
+  },
+  {
+   "name": "Hampton Inn Knoxville-Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "618 Henley Street, 37902, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tyshshx-hampton-suites-knoxville-downtown"
+  },
+  {
+   "name": "Hyatt Place",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "530 South Gay Street, 37902, Knoxville",
+   "url": "https://www.hyatt.com/hyatt-place/en-US/tyszd-hyatt-place-knoxville-downtown"
+  },
+  {
+   "name": "Marriott Knoxville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 Henley Street, 37902",
+   "url": "https://www.marriott.com/en-us/hotels/tyskn-marriott-knoxville-downtown/overview/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5505 Merchant Center. Boulevard, 37912, Knoxville",
+   "url": "https://www.choicehotels.com/tennessee/sevierville/sleep-inn-hotels"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "341 Merchant Drive, 37912, Knoxville",
+   "url": "https://www.wyndhamhotels.com/super-8/knoxville-tennessee/super-8-knoxville-downtown-area/overview"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Knoxville West - Papermill Dr",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6324 Papermill Drive, 37917, Knoxville",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/knoxville/tyspm/hoteldetail"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6200 Papermill Drive, 37919, Knoxville",
+   "url": "https://www.hilton.com/en/hotels/tysongi-hilton-garden-inn-knoxville-papermill-drive/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Knoxville Papermill",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1317 Kirby Road, 37909",
+   "url": "https://www.wyndhamhotels.com/laquinta/knoxville-tennessee/la-quinta-knoxville-central-papermill/overview?CID=LC:LQ::GGL:RIO:National:53130&iata=00093796"
+  },
+  {
+   "name": "Days Inn by Wyndham Knoxville North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "114 Dante Road, 37918, Knoxville",
+   "url": "https://www.wyndhamhotels.com/days-inn/knoxville-tennessee/days-inn-knoxville-north/overview"
+  },
+  {
+   "name": "Comfort Suites North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5466 Central Avenue Pike, 37912, Knoxville",
+   "url": "https://www.choicehotels.com/tennessee/sevierville/sleep-inn-hotels"
+  },
+  {
+   "name": "The Tennessean",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "531 Henley Street, 37902",
+   "url": "https://thetennesseanhotel.com"
+  },
+  {
+   "name": "Best Western Knoxville Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5317 Pratt Road Northeast, 37912-2706, Knoxville",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-knoxville/best-western-knoxville-suites-downtown/propertyCode.43166.html"
+  },
+  {
+   "name": "Hilton Knoxville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "501 West Church Avenue, 37902",
+   "url": "https://www.hilton.com/en/hotels/knxkhhf-hilton-knoxville/"
+  },
+  {
+   "name": "Crowne Plaza",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 West Summit Hill Drive, 37902",
+   "url": "https://www.crowneknox.com/"
+  },
+  {
+   "name": "The Oliver Hotel - Knoxville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "37902",
+   "url": "https://theoliverhotel.com/knoxville/"
+  },
+  {
+   "name": "Red Roof Inn Knoxville - North Merchants",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5334 Central Avenue Pike, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Tru by Hilton Knoxville North I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5418 Pratt Road Northeast, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn & Suites Knoxville Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5620 Merchants Center Boulevard, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5640 Merchants Center Boulevard, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Mainstay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "144 Merchant Drive, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6712 Central Avenue Pike, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn & Suites Near Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5335 Central Avenue Pike, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Merchants Drive",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "117 Cedar Lane, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5460 Central Avenue Pike, 37912, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Middlebrook Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1234 Hilton Road, 37909, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Executive Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3400 Chapman Highway, 37920, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "University Towers Condominiums",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 Clinch Avenue, 37916, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3207 East Magnolia Avenue, 37914, Knoxville",
+   "url": ""
+  },
+  {
+   "name": "Americas Best Value Inn & Suites Knoxville North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "300 Merchant Drive",
+   "url": ""
+  },
+  {
+   "name": "Lakeview Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6133 Chapman Highway",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Knoxville Central - Papermill Road",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Sky-Lite Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Gus's Good Times Deli",
+   "cuisines": [
+    "Regional",
+    "Burger",
+    "Sandwich",
+    "Chicken",
+    "American"
+   ],
+   "address": "815 Melrose Place, 37916, Knoxville",
+   "website": "https://www.gussgoodtimesdeli.com/"
+  },
+  {
+   "name": "Balter Beer Works",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "100 South Broadway, 37902, Knoxville",
+   "website": "https://www.balterbeerworks.com/"
+  },
+  {
+   "name": "D.P. Dough",
+   "cuisines": [
+    "Calzone"
+   ],
+   "address": "1823 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://dpdough.com/"
+  },
+  {
+   "name": "DiCarlo's Pizza - Knoxville",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "524 South Gay Street, 37902-1501, Knoxville",
+   "website": "http://dicarlos.pizza"
+  },
+  {
+   "name": "STIR",
+   "cuisines": [
+    "American"
+   ],
+   "address": "217 Willow Avenue, 37915, Knoxville",
+   "website": "https://www.stirknoxville.com/"
+  },
+  {
+   "name": "Kaizen",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "127 South Central Street, 37902, Knoxville",
+   "website": "https://www.knoxkaizen.com/"
+  },
+  {
+   "name": "Good Golly Tamale",
+   "cuisines": [
+    "Tex-Mex",
+    "Mexican"
+   ],
+   "address": "112 South Central Street, 37902, Knoxville",
+   "website": "https://goodgollytamale.com"
+  },
+  {
+   "name": "Southern Kitchen",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "1525 White Avenue, 37916, Knoxville",
+   "website": "https://dining.utk.edu/vendor/southern-kitchen/"
+  },
+  {
+   "name": "Barley's Taproom and Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "200 East Jackson Avenue, 37915, Knoxville",
+   "website": "https://barleysknoxville.com"
+  },
+  {
+   "name": "Ruth's Chris Steak House",
+   "cuisines": [
+    "American",
+    "Steak House"
+   ],
+   "address": "950 Volunteer Landing Lane, 37915, Knoxville",
+   "website": "https://ruthschris.com/locations/tn/knoxville/knoxville/7340"
+  },
+  {
+   "name": "SoKno Taco Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3701 Sevierville Pike, 37920, Knoxville",
+   "website": "https://soknota.co"
+  },
+  {
+   "name": "French Market Crêperie",
+   "cuisines": [
+    "Crepe",
+    "Coffee Shop",
+    "French"
+   ],
+   "address": "524 South Gay Street, 37917, Knoxville",
+   "website": "http://www.thefrenchmarketknoxville.com/"
+  },
+  {
+   "name": "Chaiyos Thai & Sushi",
+   "cuisines": [
+    "Thai",
+    "Sushi"
+   ],
+   "address": "601 James Agee Street, 37916, Knoxville",
+   "website": "https://www.chaiyosrestaurant.com/"
+  },
+  {
+   "name": "South Coast Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1103 Sevier Avenue Southeast, 37920, Knoxville",
+   "website": "https://southcoastpizza.com/"
+  },
+  {
+   "name": "CAVA",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "1834 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://cava.com/locations/Cumberland-Avenue-TN"
+  },
+  {
+   "name": "Hot Birds",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "333 West Depot Avenue, 37917, Knoxville",
+   "website": "https://gethotbirds.com/"
+  },
+  {
+   "name": "Tarik's North African",
+   "cuisines": [
+    "African",
+    "French",
+    "Mediterranean"
+   ],
+   "address": "900 East Hill Avenue, 37915, Knoxville",
+   "website": "https://order.toasttab.com/online/tariks-north-african"
+  },
+  {
+   "name": "Chismoso",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "131 South Gay Street, 37902, Knoxville",
+   "website": "http://chismosoknox.com/"
+  },
+  {
+   "name": "Chivo Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "314 South Gay Street, 37902, Knoxville",
+   "website": "https://chivotaqueria.com/"
+  },
+  {
+   "name": "Curious Dogs Hotdogs & Sandwhiches",
+   "cuisines": [
+    "Sandwich",
+    "Hot Dog"
+   ],
+   "address": "200 West Jackson Avenue, 37902, Knoxville",
+   "website": "https://curiousdogknoxville.com/"
+  },
+  {
+   "name": "Kopita Authentic Mediterranean",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "507, 37902",
+   "website": "https://kopitarestaurants.com/"
+  },
+  {
+   "name": "Dazzos Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "710 South Gay Street, 37902, Knoxville",
+   "website": "https://dazzospizza.com"
+  },
+  {
+   "name": "Stock & Barrel",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "35 Market square, 37902, Knoxville",
+   "website": "https://thestockandbarrel.com"
+  },
+  {
+   "name": "J.C. Holdway",
+   "cuisines": [
+    "American"
+   ],
+   "address": "501 Union Avenue, 37902, Knoxville",
+   "website": "https://jcholdway.com/"
+  },
+  {
+   "name": "Saloon 16",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "",
+   "website": "https://saloon16.com/"
+  },
+  {
+   "name": "Oscar's Restaraunt",
+   "cuisines": [
+    "Pizza",
+    "Italian",
+    "Sandwich",
+    "Mexican"
+   ],
+   "address": "1840 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://www.oscarsrestaurantknoxville.com/"
+  },
+  {
+   "name": "Southern Grit",
+   "cuisines": [
+    "American"
+   ],
+   "address": "126 South Central Street, 37902, Knoxville",
+   "website": "https://thesoutherngrit.com/"
+  },
+  {
+   "name": "Billie Rae's Soul Food and Catering",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "1920 East Magnolia Avenue, 37917",
+   "website": "https://www.billieraesbbq.com/"
+  },
+  {
+   "name": "Kern's Food Hall",
+   "cuisines": [
+    "Burger",
+    "Chicken",
+    "Sushi",
+    "Indian",
+    "Korean",
+    "Pizza",
+    "Donut",
+    "Coffee Shop",
+    "Bubble Tea",
+    "Ice Cream",
+    "Grill"
+   ],
+   "address": "2201 Kern's Rising Way, 37920, Knoxville",
+   "website": "https://kernsbakery.com/thehall/"
+  },
+  {
+   "name": "Lonesome Dove",
+   "cuisines": [
+    "Fine Dining",
+    "Steak House"
+   ],
+   "address": "100 North Central Street, 37902, Knoxville",
+   "website": "https://lonesomedoveknoxville.com/"
+  },
+  {
+   "name": "Sevier Ave Burger Company",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1120 Sevier Avenue Southeast, 37920",
+   "website": "https://sevieravenueburgerco.com/"
+  },
+  {
+   "name": "Fin-Two Japanese Ale House",
+   "cuisines": [
+    "Japanese",
+    "Ramen",
+    "Sushi"
+   ],
+   "address": "122 South Central Street, 37902",
+   "website": "https://fin-two.com/"
+  },
+  {
+   "name": "Not Watson's Kitchen + Bar",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "15 Market Square, 37902, Knoxville",
+   "website": "https://notwatsons.com/"
+  },
+  {
+   "name": "The Humble Hog",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "312 South Gay Street, 37902, Knoxville",
+   "website": "https://humblehogbbq.com/"
+  },
+  {
+   "name": "Victor's Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2121 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://victorsts.com"
+  },
+  {
+   "name": "Ruby Sunshine",
+   "cuisines": [
+    "American"
+   ],
+   "address": "37 Market Square, 37902, Knoxville",
+   "website": "https://rubybrunch.com/locations/?location=knoxville"
+  },
+  {
+   "name": "Tupelo Honey Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1 Market Square, 37902, Knoxville",
+   "website": "https://tupelohoneycafe.com/restaurant/knoxville/"
+  },
+  {
+   "name": "Emilia",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "16 Market Square, 37902, Knoxville",
+   "website": "https://emiliaknox.com/"
+  },
+  {
+   "name": "Cafe 4",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "4 Market Square, 37917, Knoxville",
+   "website": "https://www.cafe4knoxville.com/"
+  },
+  {
+   "name": "Fiori Bar and Lounge",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "111 East Jackson Avenue, 37915",
+   "website": "https://fioribar.com/"
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "37915",
+   "website": "https://www.meltingpot.com/knoxville-tn/"
+  },
+  {
+   "name": "The Brass Pearl Oyster Bar",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "24 South Gay Street, 37902, Knoxville",
+   "website": "https://brasspearlknox.com/"
+  },
+  {
+   "name": "Lilou Brasserie",
+   "cuisines": [
+    "French"
+   ],
+   "address": "428 South Gay Street, 37902, Knoxville",
+   "website": "https://lilouknoxville.com/"
+  },
+  {
+   "name": "Nama Izakaya",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "141 South Gay Street, 37902, Knoxville",
+   "website": "https://www.namaizakaya.com/"
+  },
+  {
+   "name": "Jason's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "2106 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://www.jasonsdeli.com/locations/tn/knoxville/2106-cumberland-ave/"
+  },
+  {
+   "name": "Au Bon Coin",
+   "cuisines": [
+    "Fine Dining",
+    "French"
+   ],
+   "address": "724 North Broadway, 37917, Knoxville",
+   "website": "https://www.auboncoin.fun/"
+  },
+  {
+   "name": "Sunspot",
+   "cuisines": [
+    "Caribbean"
+   ],
+   "address": "2200 Cumberland Avenue, 37916",
+   "website": "https://www.sunspotrestaurant.com/"
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2109 Cumberland Avenue, 37919",
+   "website": "https://www.mellowmushroom.com/locations/tn/knoxville/2109-cumberland-ave/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2405 Chapman Highway, 37920, Knoxville",
+   "website": "https://locations.pizzahut.com/tn/knoxville/2405-chapman-hwy"
+  },
+  {
+   "name": "Señor Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3325 North Broadway, 37917, Knoxville",
+   "website": "https://senortacoknox.com/"
+  },
+  {
+   "name": "La Bamba Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2619 Chapman Highway, 37920, Knoxville",
+   "website": "https://labambaseafoodtn.com/"
+  },
+  {
+   "name": "Oliver Royale",
+   "cuisines": [
+    "American"
+   ],
+   "address": "5, 37902",
+   "website": "https://www.oliverroyale.com"
+  },
+  {
+   "name": "Chesapeake's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "415 Locust Street, 37902",
+   "website": "https://chesapeakes.com/locations/downtown-knoxville/"
+  },
+  {
+   "name": "Otsu!",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "235, 37917",
+   "website": "https://otsudumpling.com/"
+  },
+  {
+   "name": "Kefi",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "120 East Jackson Avenue, 37915",
+   "website": "https://kefiknox.com/"
+  },
+  {
+   "name": "Taqueria Mares",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2008 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://taqueriamaresnew.toast.site/"
+  },
+  {
+   "name": "Silvia's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2421 University Commons Way, 37919, Knoxville",
+   "website": "https://www.silviasmexican.com/"
+  },
+  {
+   "name": "Calhoun’s on the River",
+   "cuisines": [
+    "Barbecue",
+    "American"
+   ],
+   "address": "400 Neyland Drive, 37902",
+   "website": "https://calhouns.com/locations/tennessee-river/"
+  },
+  {
+   "name": "Soccer Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "9 Market Square, 37902, Knoxville",
+   "website": "https://www.soccertaco.com/market-square/"
+  },
+  {
+   "name": "The Bistro at the Bijou",
+   "cuisines": [
+    "American"
+   ],
+   "address": "37902",
+   "website": "https://www.thebistroatthebijou.com/"
+  },
+  {
+   "name": "Vida",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "37902",
+   "website": "https://www.vidaknoxville.com/"
+  },
+  {
+   "name": "Brenz Pizza Co.",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1705 Cumberland Avenue, 37916",
+   "website": "https://www.brenz.com/locations/knoxville"
+  },
+  {
+   "name": "Mirage Knoxville",
+   "cuisines": [
+    "Mediterranean",
+    "American"
+   ],
+   "address": "415 South Gay Street, 37902, Knoxville",
+   "website": "https://mirageknoxville.com/"
+  },
+  {
+   "name": "Aladdin Pizza & Grill",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1723 Cumberland Avenue, 37916, Knoxville",
+   "website": "https://www.aladdingrillpizza.com/"
+  },
+  {
+   "name": "Uncle Sam's Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "115 South 17th Street, 37916",
+   "website": "https://unclesamsrestaurantmenu.com/"
+  },
+  {
+   "name": "Osaka Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4009 Chapman Highway, 37920, Knoxville",
+   "website": "http://www.osakagrillsushi.com/"
+  },
+  {
+   "name": "Tomato Head",
+   "cuisines": [
+    "Pizza",
+    "Sandwich"
+   ],
+   "address": "12 Market Square",
+   "website": "https://thetomatohead.com"
+  },
+  {
+   "name": "Downtown Grill & Brewery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "37902",
+   "website": "http://www.downtownbrewery.com/"
+  },
+  {
+   "name": "Nama",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "506 South Gay Street, 37902",
+   "website": "https://namasushibar.com/locations/downtown-knoxville/"
+  },
+  {
+   "name": "A Dopo Sourdough Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "516 Williams Street Northwest, 37919",
+   "website": "https://www.adopopizza.com/"
+  },
+  {
+   "name": "Osteria Stella",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "108 West Jackson Avenue, 37902",
+   "website": "https://osteriastella.com/"
+  },
+  {
+   "name": "Shoney's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.shoneys.com/locations/tn/knoxville-chapman-hwy"
+  },
+  {
+   "name": "Cancun",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4409 Chapman Highway, 37920",
+   "website": "https://cancunknox.com/"
+  },
+  {
+   "name": "Jackie's Dream",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1008 East Woodland Avenue, 37917",
+   "website": "https://knoxvillesoulfood.com/"
+  },
+  {
+   "name": "Yummy Yummy Teriyaki Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "4409 Chapman Highway, 37920",
+   "website": "https://zmenu.com/yummy-yummy-teriyaki-knoxville-online-menu"
+  },
+  {
+   "name": "Las Fuentes",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2525 Chapman Highway, 37920, Knoxville",
+   "website": ""
+  },
+  {
+   "name": "CJ's Tacos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "37902",
+   "website": ""
+  },
+  {
+   "name": "Da Vinci's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "113 South Central Street, 37902",
+   "website": ""
+  },
+  {
+   "name": "Studio Visage",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "11 Market Square, 37917, Knoxville",
+   "website": ""
+  },
+  {
+   "name": "Bella Luna",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "Market Square, 37917, Knoxville",
+   "website": ""
+  },
+  {
+   "name": "Vol Market",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Soiree",
+   "cuisines": [
+    "French"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fred's Around the Corner",
+   "cuisines": [],
+   "address": "421 Union Avenue, 37902, Knoxville",
+   "website": "https://www.fredsaroundthecorner.com/"
+  },
+  {
+   "name": "The Kennedy",
+   "cuisines": [],
+   "address": "430 South Gay Street, 37902, Knoxville",
+   "website": "https://thekennedyknoxville.com/"
+  },
+  {
+   "name": "Redbud Kitchen",
+   "cuisines": [],
+   "address": "906 Sevier Avenue Southeast, 37920, Knoxville",
+   "website": "https://www.redbudkitchen.com"
+  },
+  {
+   "name": "Ale' Rae’s GastroPub",
+   "cuisines": [],
+   "address": "937 North Broadway, 37917",
+   "website": "https://www.aleraes.live/"
+  },
+  {
+   "name": "Tennessee Riverboat",
+   "cuisines": [],
+   "address": "300 Neyland Drive, 37902, Knoxville",
+   "website": "https://www.tnriverboat.com/"
+  },
+  {
+   "name": "Yassin Falafel",
+   "cuisines": [],
+   "address": "706 Walnut Street",
+   "website": "https://yassinsfalafelhouse.com"
+  },
+  {
+   "name": "Aretha Frankensteins",
+   "cuisines": [],
+   "address": "3318 Chapman Highway, 37920, Knoxville",
+   "website": "https://www.arethas.com/"
+  },
+  {
+   "name": "Monkeys Bar",
+   "cuisines": [],
+   "address": "103 West Depot Avenue, 37917",
+   "website": "https://monkeysbarknox.com/"
+  },
+  {
+   "name": "Mahogany's",
+   "cuisines": [],
+   "address": "401 West Summit Hill Drive, 37902",
+   "website": "https://www.crowneknox.com/dining"
+  },
+  {
+   "name": "Knox Bros",
+   "cuisines": [],
+   "address": "East Summit Hill Drive",
+   "website": "https://knoxbros.org/"
+  },
+  {
+   "name": "Puckers Sports Grill",
+   "cuisines": [],
+   "address": "115 Mimosa Avenue Southeast, 37920",
+   "website": ""
+  },
+  {
+   "name": "Szechuan Garden Chinese Restaurant",
+   "cuisines": [],
+   "address": "4211 Chapman Highway, 37920",
+   "website": ""
+  },
+  {
+   "name": "The Lunchbox",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Knoxville Museum of Art",
+   "kind": "museum",
+   "address": "1050 Worlds Fair Park Drive, 37916, Knoxville",
+   "website": "https://knoxart.org/",
+   "phone": "+1-865-525-6101",
+   "latitude": 35.962448,
+   "longitude": -83.9252242
+  },
+  {
+   "name": "Blount Mansion",
+   "kind": "museum",
+   "address": "200 West Hill Avenue, 37902, Knoxville",
+   "website": "https://blountmansion.org/",
+   "phone": "",
+   "latitude": 35.9610968,
+   "longitude": -83.9147849
+  },
+  {
+   "name": "Women's Basketball Hall of Fame",
+   "kind": "museum",
+   "address": "700 Hall of Fame Drive, 37915, Knoxville",
+   "website": "https://www.wbhof.com/",
+   "phone": "+1 865 633 9000",
+   "latitude": 35.9632172,
+   "longitude": -83.911123
+  },
+  {
+   "name": "Mabry-Hazen House",
+   "kind": "museum",
+   "address": "1711 Dandridge Avenue Southeast, 37915, Knoxville",
+   "website": "https://www.mabryhazen.com/",
+   "phone": "",
+   "latitude": 35.971922,
+   "longitude": -83.9032629
+  },
+  {
+   "name": "Zoo Knoxville",
+   "kind": "zoo",
+   "address": "3500 Knoxville Zoo Drive, 37914, Knoxville",
+   "website": "https://zooknoxville.org/",
+   "phone": "",
+   "latitude": 35.9979717,
+   "longitude": -83.8894874
+  },
+  {
+   "name": "East Tennessee History Center",
+   "kind": "museum",
+   "address": "601 South Gay Street, 37902, Knoxville",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9639973,
+   "longitude": -83.9179668
+  },
+  {
+   "name": "The Muse Knoxville",
+   "kind": "museum",
+   "address": "516 North Beaman Street, 37914, Knoxville",
+   "website": "https://themuseknoxville.org/",
+   "phone": "+1-865-594-1494",
+   "latitude": 35.9976956,
+   "longitude": -83.8855199
+  },
+  {
+   "name": "McClung Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://mcclungmuseum.utk.edu/",
+   "phone": "",
+   "latitude": 35.9520094,
+   "longitude": -83.9272212
+  },
+  {
+   "name": "Beck Cultural Exchange Center",
+   "kind": "museum",
+   "address": "1927 Dandridge Avenue Southeast, 37915, Knoxville",
+   "website": "https://www.beckcenter.net/",
+   "phone": "",
+   "latitude": 35.9730142,
+   "longitude": -83.8981527
+  },
+  {
+   "name": "Ancient Lore Village at Boyd Hollow",
+   "kind": "theme park",
+   "address": "",
+   "website": "https://www.ancientlorevillage.com",
+   "phone": "+1 865 200 2434",
+   "latitude": 35.9188146,
+   "longitude": -83.8440044
+  },
+  {
+   "name": "Ramsey House Visitor Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.ramseyhouse.org/",
+   "phone": "",
+   "latitude": 35.967507,
+   "longitude": -83.823423
+  },
+  {
+   "name": "Winstead Mansion",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9746674,
+   "longitude": -83.901207
+  },
+  {
+   "name": "University of Tennessee Knoxville art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9688483,
+   "longitude": -83.920477
+  },
+  {
+   "name": "Lilienthal Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.974562,
+   "longitude": -83.9231458
+  },
+  {
+   "name": "Ramsey House Plantation",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.966714,
+   "longitude": -83.823149
+  },
+  {
+   "name": "River Bluff Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9419245,
+   "longitude": -83.9274962
+  },
+  {
+   "name": "Knox Selfie Lab",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9683972,
+   "longitude": -83.921139
+  },
+  {
+   "name": "Broadway Studios and Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.9833645,
+   "longitude": -83.9229965
+  }
+ ]
+}

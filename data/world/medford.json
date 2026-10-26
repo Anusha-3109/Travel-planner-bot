@@ -1,0 +1,1614 @@
+{
+ "city": "Medford",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.3311,
+ "longitude": -122.8708,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "The White House Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1122 Morrow Road, 97504, Medford",
+   "url": "https://www.hilton.com/en/hotels/mfrorhx-hampton-medford/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1395 Center Drive, 97501, Medford",
+   "url": "https://www.marriott.com/mfrts"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2280 Biddle Road, 97504, Medford",
+   "url": "https://www.choicehotels.com/oregon/medford/comfort-inn-hotels/or052"
+  },
+  {
+   "name": "City Center Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "324 South Central Avenue, 97501, Medford",
+   "url": "https://www.citycentermotel.com/"
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1950 Biddle Road, 97504, Medford",
+   "url": "https://www.choicehotels.com/oregon/medford/quality-inn-hotels/or201"
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2400 Biddle Road, 97504, Medford",
+   "url": "https://www.motel6.com/property/motel-medford-or-oregon-us-294249/"
+  },
+  {
+   "name": "Ramada by Wyndham",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2111 Biddle Road, 97504, Medford",
+   "url": "https://www.wyndhamhotels.com/ramada/medford-oregon/ramada-medford-airport-north/overview"
+  },
+  {
+   "name": "Fairfield Inn & Suites Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1503 Center Drive, 97501, Medford",
+   "url": "https://www.marriott.com/en-us/hotels/mfrfm-fairfield-inn-and-suites-medford/"
+  },
+  {
+   "name": "La Quinta Inn & Suites Central Point - Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1777 Larue Drive, 97502, Central Point",
+   "url": "https://www.wyndhamhotels.com/laquinta/central-point-oregon/la-quinta-central-point-medford/overview"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1389 Center Drive, 97501, Medford",
+   "url": "https://www.marriott.com/mfrsh"
+  },
+  {
+   "name": "Cedar Lodge Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "518 North Riverside Avenue, 97501, Medford",
+   "url": "https://americasbestmedford.hotels-oregon.com/en/"
+  },
+  {
+   "name": "WoodSpring Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "529 East Barnett Road, 97504, Medford",
+   "url": "https://www.woodspring.com/extended-stay-hotels/locations/oregon/medford/woodspring-suites-medford-near-i5"
+  },
+  {
+   "name": "Courtyard - Medford Airport",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "600 Airport Road, 97504, Medford",
+   "url": "https://www.marriott.com/en-us/hotels/mfrcy-courtyard-medford-airport/overview/"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1000 Welcome Way, 97504, Medford",
+   "url": "https://www.hilton.com/en/hotels/mfrhegi-hilton-garden-inn-medford/"
+  },
+  {
+   "name": "Super 8 by Wyndham Central Pt Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4999 Biddle Road, 97502, Medford",
+   "url": "https://www.wyndhamhotels.com/super-8/medford-oregon/super-8-central-pt-medford/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "901 South Riverside Avenue, 97501, Medford",
+   "url": "https://www.choicehotels.com/oregon/medford/rodeway-inn-hotels"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "285 Peninger Road, 97502, Central Point",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/medford/mfrcp/hoteldetail"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1154 East Barnett Road, 97504-8221, Medford",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-medford/best-western-horizon-inn/propertyCode.38145.html"
+  },
+  {
+   "name": "Medford Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 South Riverside Avenue, 97501, Medford",
+   "url": "https://www.tripadvisor.com/Hotel_Review-g51965-d96040-Reviews-Econo_Lodge_Inn_Suites_Central-Medford_Oregon.html"
+  },
+  {
+   "name": "Compass Hotel Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2399 South Pacific Highway, 97501, Medford",
+   "url": "https://www.compasshotel.com/medford"
+  },
+  {
+   "name": "Jacksonville Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "175 East California Street",
+   "url": "https://www.jacksonvilleinn.com/"
+  },
+  {
+   "name": "Sovanna Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "250 East Barnett Road, 97501, Medford",
+   "url": "https://www.sovanainnmedford.us/"
+  },
+  {
+   "name": "Jacksonville's Magnolia Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "245 North 5th Street, Jacksonville",
+   "url": "http://www.mag-inn.com/"
+  },
+  {
+   "name": "Red Carpet Inn Medford, Oregon",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 South Riverside Avenue, 97501, Medford",
+   "url": "http://www.redcarpetinnmedford.com/"
+  },
+  {
+   "name": "My Place Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "580 Airport Road",
+   "url": "https://www.myplacehotels.com/my-place-hotel-medford-or"
+  },
+  {
+   "name": "Touvelle House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.touvellehouse.com/"
+  },
+  {
+   "name": "Old Stage Cottage",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "794 Old Stage Road, 97502, Central Point",
+   "url": ""
+  },
+  {
+   "name": "Rogue Valley Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "500 North Riverside Avenue, 97501, Medford",
+   "url": ""
+  },
+  {
+   "name": "Ramada Medford Hotel & Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2250 Biddle Road, 97504, Medford",
+   "url": ""
+  },
+  {
+   "name": "Tiki Lodge Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "509 North Riverside Avenue, 97501, Medford",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3548 Heathrow Way, 97504-4004",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sunset Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "529 North Riverside Avenue, 97501, Medford",
+   "url": ""
+  },
+  {
+   "name": "Lady Geneva Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Inn at the Commons",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Harvey's",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rogue Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valli Hai Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travelers Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "America's Best Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Royal Crest Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Valley Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Redwood Inn Motel Medford",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Plymale Cottage",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sis-Q",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bybee's Historic Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Plaza Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Wine country",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The fourth Quarter 55+ community",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sauced-Up Sandwiches",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "1320 West Main Street, 97501, Medford",
+   "website": "http://saucedupsandwiches.com"
+  },
+  {
+   "name": "Punky's Diner & Pies",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Pie"
+   ],
+   "address": "953 Medford Center, 97504, Medford",
+   "website": "https://www.punkysdinerandpies.com/"
+  },
+  {
+   "name": "Tap & Vine at 559",
+   "cuisines": [
+    "Burger",
+    "Salad",
+    "Dessert"
+   ],
+   "address": "559 Medford Center, 97504, Medford",
+   "website": "https://tapandvine559.com/"
+  },
+  {
+   "name": "Buen Provecho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1112 Progress Drive, 97504, Medford",
+   "website": "https://www.buenprovechomedford.com/"
+  },
+  {
+   "name": "Bambu",
+   "cuisines": [
+    "Asian",
+    "Wine"
+   ],
+   "address": "970 North Phoenix Road, 97504, Medford",
+   "website": "https://www.tigerroll.com/"
+  },
+  {
+   "name": "Rogue Salad Co.",
+   "cuisines": [
+    "Salad"
+   ],
+   "address": "1251 East McAndrews Road, 97504, Medford",
+   "website": "https://roguesalad.com/"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "499 Medford Center",
+   "website": "https://www.redrobin.com/locations/or/medford/medford-181"
+  },
+  {
+   "name": "Abby's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2550 Crater Lake Highway, 97504, Medford",
+   "website": "https://northmedford.abbys.com/zgrid/proc/site/sitep.jsp"
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "1700 Delta Waters Road, 97504, Medford",
+   "website": "https://www.buffalowildwings.com/locations/us/or/medford/1700-delta-waters-road/sports-bar-1018/"
+  },
+  {
+   "name": "Vinny's Italian Kitchen",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "970 North Phoenix Road, 97504, Medford",
+   "website": "https://www.vinnysitaliankitchen.com/"
+  },
+  {
+   "name": "Casa Vieja Bar and Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "959 Medford Center, 97504, Medford",
+   "website": "https://casaviejabargrill.com/"
+  },
+  {
+   "name": "The Point Pub & Grill",
+   "cuisines": [
+    "Sandwich",
+    "Burger",
+    "Cocktails",
+    "Salad"
+   ],
+   "address": "1345 Center Drive, 97501, Medford",
+   "website": "https://lovemypoint.com/"
+  },
+  {
+   "name": "Medford Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "1250 Biddle Road, 97504, Medford",
+   "website": "https://www.medfordindiancuisine.com/"
+  },
+  {
+   "name": "Mr. Pho",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "1924 Biddle Road, 97504, Medford",
+   "website": "https://phomedford.com/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3125 Crater Lake Highway, 97504, Medford",
+   "website": "https://www.olivegarden.com/locations/or/medford/medford/1592"
+  },
+  {
+   "name": "Blue Royal",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "970 North Phoenix Road, 97504, Medford",
+   "website": "https://www.blueroyalindiancuisine.com/"
+  },
+  {
+   "name": "Senor Sam's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "535 Stevens Street, 97504, Medford",
+   "website": "https://senorsams.com"
+  },
+  {
+   "name": "Jackson Creek Pizza",
+   "cuisines": [
+    "Pizza",
+    "Calzone",
+    "Salad",
+    "Wraps"
+   ],
+   "address": "1590 Delta Waters Road, 97504, Medford",
+   "website": "https://jacksoncreekpizza.com/"
+  },
+  {
+   "name": "Shari's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "71 East Stewart Avenue, 97501, Medford",
+   "website": "https://www.sharis.com/"
+  },
+  {
+   "name": "Black Bear Diner",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "1150 East Barnett Road, 97504, Medford",
+   "website": "https://blackbeardiner.com/locations/store/or/medford/58/"
+  },
+  {
+   "name": "Silver Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1011 Spring Street, 97504, Medford",
+   "website": "https://www.silverdragonor.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1325 Center Drive, 97501, Medford",
+   "website": "https://locations.pizzahut.com/or/medford/1325-center-dr"
+  },
+  {
+   "name": "Mortons",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "980 North Phoenix Road, 97504, Medford",
+   "website": "https://morrtons.com/"
+  },
+  {
+   "name": "Elmer's",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "2000 Biddle Road, 97504, Medford",
+   "website": "https://eatatelmers.com/"
+  },
+  {
+   "name": "Barney’s Better Burgers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1850 Biddle Road, 97504, Medford",
+   "website": "https://www.barneysbetterburgers.com/"
+  },
+  {
+   "name": "Chuck E. Cheese",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "293 East Barnett Road, 97501, Medford",
+   "website": "https://www.chuckecheese.com/medford-or/"
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1720 Delta Waters Road, 97504, Medford",
+   "website": "https://www.texasroadhouse.com/locations/431-medford"
+  },
+  {
+   "name": "El Molcajete",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "960 North Phoenix Road, 97504, Medford",
+   "website": "https://elmolcajetemedford.com/"
+  },
+  {
+   "name": "Hiro Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "3613 Aviation Way, 97504, Medford",
+   "website": "https://hirosushi4u.com/"
+  },
+  {
+   "name": "Cicily's Castaria & Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1251 East McAndrews Road, 97504, Medford",
+   "website": "https://cicilyspastariaandgrill1.godaddysites.com/"
+  },
+  {
+   "name": "Ollie's Brooklyn Slices",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "149 South Central Avenue, 97501, Medford",
+   "website": "https://olliesbrooklynslices.com/"
+  },
+  {
+   "name": "Auntie Annie's",
+   "cuisines": [
+    "Pretzel",
+    "Snack"
+   ],
+   "address": "15 Garfield Street, 97501, Medford",
+   "website": "https://locations.auntieannes.com/or/medford/15-garfield-st"
+  },
+  {
+   "name": "Rooster's Resturant",
+   "cuisines": [
+    "American",
+    "Breakfast",
+    "Brunch",
+    "Pies"
+   ],
+   "address": "350 East Barnett Road, 97501, Medford",
+   "website": "https://1roostersrestauran.wixsite.com/roosters"
+  },
+  {
+   "name": "Old Spaghetti Factory",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "147 North Front Street, 97501, Medford",
+   "website": "https://www.osf.com"
+  },
+  {
+   "name": "Crackin & Stackin",
+   "cuisines": [
+    "Breakfast",
+    "Pancake",
+    "Burger"
+   ],
+   "address": "215 East Jackson Street, 97501, Medford",
+   "website": "http://crackinandstackin.com"
+  },
+  {
+   "name": "Kaleidoscope Pizzeria and Pub",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3084 Crater Lake Highway, 97504, Medford",
+   "website": "https://kaleidoscopepizza.com/"
+  },
+  {
+   "name": "Kaleidoscope To Go",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3084 Crater Lake Highway, 97504, Medford",
+   "website": "https://kaleidoscopepizza.com/"
+  },
+  {
+   "name": "El Tapatio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1250 Biddle Road, 97504, Medford",
+   "website": "https://eltapatiomedford.com/"
+  },
+  {
+   "name": "NORI - Sushi & Izakaya",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1250 Biddle Road, 97504, Medford",
+   "website": "https://norimedford.com/"
+  },
+  {
+   "name": "CABA Empanadas",
+   "cuisines": [
+    "Argentine",
+    "Empanadas"
+   ],
+   "address": "137 South Central Avenue, 97501, Medford",
+   "website": "https://www.cabaempanadas.com/"
+  },
+  {
+   "name": "Hen & Flour",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "141 South Central Avenue, 97501-7221, Medford",
+   "website": "https://orderonline-henandflour.square.site/"
+  },
+  {
+   "name": "Happy Dragon Mongolian BBQ",
+   "cuisines": [
+    "Mongolian Grill"
+   ],
+   "address": "975 Medford Center, 97504, Medford",
+   "website": "https://www.happydragonbbq.com/"
+  },
+  {
+   "name": "Common Block",
+   "cuisines": [
+    "Pub"
+   ],
+   "address": "315 East 5th Street, Medford",
+   "website": "https://commonblockbrewing.com/"
+  },
+  {
+   "name": "Luna Mexican Cuisine",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1310 Center Drive, 97501, Medford",
+   "website": "https://lunamexicancuisine.com/"
+  },
+  {
+   "name": "Senor Sam’s",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1234 South Riverside Avenue, 97501, Medford",
+   "website": "https://www.senorsams.com/"
+  },
+  {
+   "name": "Muchas Gracias",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2305 West Main Street",
+   "website": "https://www.muchasgraciasmexicanfood.com/"
+  },
+  {
+   "name": "Peruvian Point Express",
+   "cuisines": [
+    "Peruvian"
+   ],
+   "address": "1925 West Main Street",
+   "website": "https://peruvianpointfoodtruck.com"
+  },
+  {
+   "name": "Tosu Ramen and Sushi",
+   "cuisines": [
+    "Japanese",
+    "Sushi",
+    "Ramen"
+   ],
+   "address": "213 East Barnett Road, 97501, Medford",
+   "website": "https://www.tosusushiramen.com/"
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "2200 Crater Lake Highway",
+   "website": "https://redlobster.com/"
+  },
+  {
+   "name": "China Hut",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "450 South Riverside Avenue",
+   "website": "https://www.chinahutmedford.com/"
+  },
+  {
+   "name": "Rosario's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2221 West Main Street",
+   "website": "https://rosariositalianrestaurant.com/"
+  },
+  {
+   "name": "Habaneros Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "142 North Front Street, Medford",
+   "website": "https://habanerosmedford.com/"
+  },
+  {
+   "name": "Ali's Thai Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2392 North Pacific Highway",
+   "website": "https://www.alisthaikitchen.net/"
+  },
+  {
+   "name": "The wharf",
+   "cuisines": [
+    "Fish And Chips"
+   ],
+   "address": "827 West Jackson Street",
+   "website": "https://www.medfordwharf.com/"
+  },
+  {
+   "name": "Octavio’s La Burrita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2716 West Main Street",
+   "website": "https://octavioslaburrita.com/"
+  },
+  {
+   "name": "Bobbios",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": "https://www.bobbios.com"
+  },
+  {
+   "name": "Bonsai Teriyaki & Sushi Medford",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1812 East Barnett Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "New China",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "409 East Barnett Road, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Luigi's Italian Sandwiches",
+   "cuisines": [
+    "Italian",
+    "Sandwich"
+   ],
+   "address": "1619 North Riverside Avenue, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "I Love Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "219 East Barnett Road, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Old Farmhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "603 South Riverside Avenue, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Taco Delite",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1021 Morrow Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "El Arriero Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "235 East Barnett Road, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "The Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1250 Biddle Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Buttercloud",
+   "cuisines": [
+    "Coffee Shop"
+   ],
+   "address": "310",
+   "website": ""
+  },
+  {
+   "name": "RAM Restaurant and Brewery",
+   "cuisines": [
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "165 Rossanley Dr, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Maguey Cocina & Tequilas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2041 Roberts Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Wok",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Las Morenas",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sakura",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fiesta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hero's Grill",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria El Gallo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Shiki Sushi & Asian Fusion",
+   "cuisines": [],
+   "address": "1206 North Riverside Avenue, 97501, Medford",
+   "website": "https://shikisushiasianfusion.com"
+  },
+  {
+   "name": "Sid's Gourmet Smoke N Grill",
+   "cuisines": [],
+   "address": "702 South Grape Street, 97501, Medford",
+   "website": "https://sidsgourmet.com/"
+  },
+  {
+   "name": "Las Margaritas Bar & Grill",
+   "cuisines": [],
+   "address": "1361 Center Drive, 97501, Medford",
+   "website": "https://www.margaritasmedford.com/"
+  },
+  {
+   "name": "Jacksonville Inn",
+   "cuisines": [],
+   "address": "175 East California Street",
+   "website": "https://www.jacksonvilleinn.com/"
+  },
+  {
+   "name": "Angelo's Pizza",
+   "cuisines": [],
+   "address": "2161 West Main Street",
+   "website": "https://www.angelospizza.com/"
+  },
+  {
+   "name": "Melange Eatery",
+   "cuisines": [],
+   "address": "406 East Main Street, Medford",
+   "website": "https://www.melangeeatery.com/"
+  },
+  {
+   "name": "NoHo's Hawaiian Cafe",
+   "cuisines": [],
+   "address": "330 East McAndrews Road",
+   "website": "https://nohos.com/"
+  },
+  {
+   "name": "Flavor Restaurant & Bar",
+   "cuisines": [],
+   "address": "1213 West Main Street",
+   "website": "https://flavorglobalkitchen.com/"
+  },
+  {
+   "name": "Lemon Grass Thai",
+   "cuisines": [],
+   "address": "2366 West Main Street",
+   "website": "https://lmgmedford.blogspot.com/"
+  },
+  {
+   "name": "Wild River Pizza",
+   "cuisines": [],
+   "address": "2684 North Pacific Highway",
+   "website": "https://www.wildriverbrewing.com/"
+  },
+  {
+   "name": "Roadhouse Grill",
+   "cuisines": [],
+   "address": "2699 West Main Street",
+   "website": "https://originalroadhousegrill.com/"
+  },
+  {
+   "name": "Oh's osaka",
+   "cuisines": [],
+   "address": "123 South Front Street",
+   "website": "https://ohsosaka.com/"
+  },
+  {
+   "name": "Killer Burger Medford",
+   "cuisines": [],
+   "address": "7 Rossanley Drive, 97501",
+   "website": "https://killerburger.com/"
+  },
+  {
+   "name": "Game Night Deli",
+   "cuisines": [],
+   "address": "1390 Progress Drive, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Purple Parrot",
+   "cuisines": [],
+   "address": "1913 Delta Waters Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Old Farm House Restaurant",
+   "cuisines": [],
+   "address": "1757 North Riverside Avenue, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Mr. Smith's",
+   "cuisines": [],
+   "address": "401 East Jackson Street, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Barnies Burgers",
+   "cuisines": [],
+   "address": "415 North Riverside Avenue, 97501, Medford",
+   "website": ""
+  },
+  {
+   "name": "Erawan Thai Cuisine",
+   "cuisines": [],
+   "address": "820 Crater Lake Ave, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Joe's Sports Bar & Grill",
+   "cuisines": [],
+   "address": "2061 Roberts Road, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Tin Tin Buffet",
+   "cuisines": [],
+   "address": "2368 Poplar Drive, 97504, Medford",
+   "website": ""
+  },
+  {
+   "name": "Bohemian Club",
+   "cuisines": [],
+   "address": "123 West Main Street",
+   "website": ""
+  },
+  {
+   "name": "Jack's Hide-a-way",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Over Easy Southern Oregon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Decant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jaspers Café",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "SHOJI's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Moe's Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jalapenos Taco Shop",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Inn at the Commons",
+   "cuisines": [],
+   "address": "Medford",
+   "website": ""
+  },
+  {
+   "name": "Deli Delight",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tacoriendo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Squeeze Inn Sandwich",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bonsai",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Ramos",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Luke's Bakery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "R&D Sandwich",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Si casa flores",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Great harvest bread",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sushi Teriyaki",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Real Taste of India",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Crater Rock Museum",
+   "kind": "museum",
+   "address": "2002 Scenic Avenue, 97502, Central Point",
+   "website": "https://craterrock.com/",
+   "phone": "+1-541-664-6081",
+   "latitude": 42.3892212,
+   "longitude": -122.9249547
+  },
+  {
+   "name": "Phoenix Museum",
+   "kind": "museum",
+   "address": "607 North Church Street, 97535, Phoenix",
+   "website": "https://phoenixoregonheritage.org/",
+   "phone": "+1-541-512-0614",
+   "latitude": 42.2770001,
+   "longitude": -122.820397
+  },
+  {
+   "name": "Mountain Bird Studios (Wine and Brush)",
+   "kind": "gallery",
+   "address": "205 North Phoenix Road, 97535, Phoenix",
+   "website": "https://www.spurlockartandwine.com/",
+   "phone": "+1-541-660-0366",
+   "latitude": 42.2826044,
+   "longitude": -122.8185128
+  },
+  {
+   "name": "Rogue Valley Model Railroad Club",
+   "kind": "attraction",
+   "address": "760 Berrydale Avenue, 97501, Medford",
+   "website": "http://rvmrc.railfan.net/",
+   "phone": "",
+   "latitude": 42.3494424,
+   "longitude": -122.8811731
+  },
+  {
+   "name": "Crooked Mile Gallery",
+   "kind": "gallery",
+   "address": "4495 South Pacific Highway, 97535, Phoenix",
+   "website": "https://crookedmilegallery.com/",
+   "phone": "",
+   "latitude": 42.2694966,
+   "longitude": -122.8103078
+  },
+  {
+   "name": "Rogue Valley Family Fun Center",
+   "kind": "theme park",
+   "address": "1A Penninger Road",
+   "website": "https://www.rvffc.com/",
+   "phone": "+1 541-664-4263",
+   "latitude": 42.380928,
+   "longitude": -122.905102
+  },
+  {
+   "name": "Hanley Farm",
+   "kind": "museum",
+   "address": "",
+   "website": "https://sohs.org/hanley-farm/",
+   "phone": "",
+   "latitude": 42.3359054,
+   "longitude": -122.933321
+  },
+  {
+   "name": "Pheasant Fields Farm",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.pheasantfieldsfarm.com/",
+   "phone": "",
+   "latitude": 42.2636853,
+   "longitude": -122.8281248
+  },
+  {
+   "name": "Historic Jackson County Courthouse",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.314496,
+   "longitude": -122.9649718
+  },
+  {
+   "name": "Southern Oregon Historical Society",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.327797,
+   "longitude": -122.873059
+  },
+  {
+   "name": "Historic C.C. Beekman House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3126133,
+   "longitude": -122.9638077
+  },
+  {
+   "name": "Kid Time! Discovery Experience",
+   "kind": "museum",
+   "address": "Medford",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3276444,
+   "longitude": -122.8729087
+  },
+  {
+   "name": "Linda Brody Memorial Fountain",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3118462,
+   "longitude": -122.9640957
+  },
+  {
+   "name": "Medford Armory",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3115358,
+   "longitude": -122.8575813
+  },
+  {
+   "name": "Jackson County Fairground",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.386059,
+   "longitude": -122.9112449
+  },
+  {
+   "name": "Southern Oregon Live Steamers",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.3494994,
+   "longitude": -122.880566
+  },
+  {
+   "name": "Historic Nunan House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.319764,
+   "longitude": -122.9664946
+  }
+ ]
+}

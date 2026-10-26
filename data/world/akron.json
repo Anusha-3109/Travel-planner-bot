@@ -1,0 +1,891 @@
+{
+ "city": "Akron",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 41.0847,
+ "longitude": -81.521,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Sheraton Suites Akron Cuyahoga Falls",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1989 Front Street, 44221, Cuyahoga Falls",
+   "url": "https://www.marriott.com/en-us/hotels/caksi-sheraton-suites-akron-cuyahoga-falls/"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1420 Main Street, 44221, Cuyahoga Falls",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-cuyahoga-falls-oh"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "41 Furnace Street, 44308, Akron",
+   "url": "https://www.marriott.com/cakdt"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1307 East Market Street, 44305, Akron",
+   "url": "https://www.hilton.com/en/hotels/cakemgi-hilton-garden-inn-akron/"
+  },
+  {
+   "name": "Blutique",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "17 South Main Street, 44308",
+   "url": "https://metisentry.com/"
+  },
+  {
+   "name": "Akron Steam and Sauna",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "41 South Case Avenue, 44305, Akron",
+   "url": ""
+  },
+  {
+   "name": "Lakeside Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3529 Manchester Road, 44319",
+   "url": ""
+  },
+  {
+   "name": "DoubleTree by Hilton Hotel Akron/Fairlawn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hilton Akron/Fairlawn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Akron City Center Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Economy Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ranch Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Chin's Place",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "474 West Market Street, 44302, Akron",
+   "website": "https://chinsplace.com/"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1681 Home Avenue, 44310, Akron",
+   "website": "https://locations.dennys.com/OH/AKRON/9214"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1591 Copley Road, 44320, Akron",
+   "website": "https://locations.pizzahut.com/oh/akron/1591-copley-rd"
+  },
+  {
+   "name": "Platinum Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "814 West Market Street, 44303, Akron",
+   "website": "https://www.platinumdragonakron.com/"
+  },
+  {
+   "name": "Upper Crust",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "835 West Market Street, 44303, Akron",
+   "website": "https://www.uppercrustoh.com/akron"
+  },
+  {
+   "name": "Aladdin's Eatery",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "782 West Market Street, 44303, Akron",
+   "website": "https://aladdins.com/"
+  },
+  {
+   "name": "Hibachi Xpress Highland Square",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "810 West Market Street, 44303, Akron",
+   "website": "https://highlandsq.orderhibachixpressgrill.com/"
+  },
+  {
+   "name": "Mama Rosa's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1115 Brown Street, 44301, Akron",
+   "website": "https://mamarosespizza.com/"
+  },
+  {
+   "name": "Great Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1065 East Tallmadge Avenue, 44310",
+   "website": "http://www.greatgarden1065.com/"
+  },
+  {
+   "name": "Totally Baked Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "18 North High Street, 44308, Akron",
+   "website": "https://totallybakedpizza.net/"
+  },
+  {
+   "name": "Diamond Grille",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "77 West Market Street, 44308, Akron",
+   "website": "http://www.diamondgrille.com/"
+  },
+  {
+   "name": "Mary Coyle Ice Cream",
+   "cuisines": [
+    "Italian",
+    "Ice Cream"
+   ],
+   "address": "780 West Market Street, 44303, Akron",
+   "website": "https://www.trecasos.com"
+  },
+  {
+   "name": "Hanini Subs",
+   "cuisines": [
+    "Sandwich",
+    "Salad",
+    "Gyros"
+   ],
+   "address": "835 Brittain Ridge, 44305, akron",
+   "website": "https://www.haninisubs.com/"
+  },
+  {
+   "name": "Marco's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "9 North Hawkins Avenue, 44313, Akron",
+   "website": ""
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "175 Howe Avenue, 44221, Cuyahoga Falls",
+   "website": ""
+  },
+  {
+   "name": "Good Company",
+   "cuisines": [
+    "Grill"
+   ],
+   "address": "60 South Maple Street, 44303, Akron",
+   "website": ""
+  },
+  {
+   "name": "Papa Gryo's",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "1 North Hawkins Avenue, 44313, Akron",
+   "website": ""
+  },
+  {
+   "name": "Edgar's Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "530 Nome Avenue, 44320, Akron",
+   "website": ""
+  },
+  {
+   "name": "Agavero Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "400 Howe Avenue, 44221, Cuyahoga Falls",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bob's hamburg",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1351 East Avenue, 44307",
+   "website": ""
+  },
+  {
+   "name": "Nippon Hibachi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "492 West Market Street",
+   "website": ""
+  },
+  {
+   "name": "Wally Waffle",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mid East Cafe",
+   "cuisines": [
+    "Arab",
+    "Local"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wingstop",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Rancho",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pad Thai",
+   "cuisines": [
+    "Sushi",
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jade Dragon",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dontinos",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taqueria Treas Amigos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Ming",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Southern Comfort Kitchen Ohio",
+   "cuisines": [],
+   "address": "812 West Market Street, 44303, Akron",
+   "website": "http://www.sococreolegmail.com/"
+  },
+  {
+   "name": "Nepali Kitchen",
+   "cuisines": [],
+   "address": "399 East Cuyahoga Falls Avenue, 44310, Akron",
+   "website": "https://nepalikitchen.weebly.com"
+  },
+  {
+   "name": "Akron Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": "https://akron-family-restaurant.business.site/"
+  },
+  {
+   "name": "Dante Boccuzzi Akron",
+   "cuisines": [],
+   "address": "21 Furnace Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Mature Lounge & Eatery",
+   "cuisines": [],
+   "address": "271 South Main Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Frank's Place",
+   "cuisines": [],
+   "address": "549 West Market Street, 44303, Akron",
+   "website": ""
+  },
+  {
+   "name": "Rockne's Bar & Grille",
+   "cuisines": [],
+   "address": "9 Merriman Road, 44303, Akron",
+   "website": ""
+  },
+  {
+   "name": "Gino's Pizza",
+   "cuisines": [],
+   "address": "1374 Copley Road, 44320, Akron",
+   "website": ""
+  },
+  {
+   "name": "BLU Plate",
+   "cuisines": [],
+   "address": "45 East Market Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Jamaican Jerk Center",
+   "cuisines": [],
+   "address": "1231 East Tallmadge Avenue, 44310",
+   "website": ""
+  },
+  {
+   "name": "Luigi's",
+   "cuisines": [],
+   "address": "105 North Main Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Einstein's Bagels",
+   "cuisines": [],
+   "address": "10 North Main Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Urban Eats Cafe",
+   "cuisines": [],
+   "address": "17 Maiden Lane, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Crave",
+   "cuisines": [],
+   "address": "57 East Market Street, 44308, Akron",
+   "website": ""
+  },
+  {
+   "name": "Spaghetti Warehouse",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Eye Opener",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Farmer Boy",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Lockview",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Klein Seafood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Rasiccis Pizza & Chicken",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Lee Angelo's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cilantro Thai & Sushi",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Twisted Tomato Pizzeria & Beer Wall",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "United States Pierogi Service",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "EuroGyro",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tandoori Kabobs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "D.P. Dough Akron",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Nuevo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fred's Dinner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Union Market",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New York style pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Alexander Pierce",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Main Street Saloon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IDO Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "North Side Saloon",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Namaste Cuisine",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bar-B-Q Boss",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Valley Wings",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste of Bangkok",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Boiling House Seafood & Sushi",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Square Scullery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Akron Zoo",
+   "kind": "zoo",
+   "address": "500 Edgewood Avenue, 44307",
+   "website": "https://www.akronzoo.org/",
+   "phone": "+1-330-375-2550",
+   "latitude": 41.0792242,
+   "longitude": -81.5414927
+  },
+  {
+   "name": "Cuyahoga Falls Historical Society",
+   "kind": "museum",
+   "address": "2083 Cook Street, 44221, Cuyahoga Falls",
+   "website": "https://cuyahogafallshistoricalsociety.com/museum.php",
+   "phone": "",
+   "latitude": 41.1353476,
+   "longitude": -81.4741256
+  },
+  {
+   "name": "Akron Art Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://akronartmuseum.org/",
+   "phone": "",
+   "latitude": 41.0842553,
+   "longitude": -81.5152486
+  },
+  {
+   "name": "Stan Hywet Hall & Gardens",
+   "kind": "attraction",
+   "address": "714 North Portage Path, 44303, Akron",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1195542,
+   "longitude": -81.550303
+  },
+  {
+   "name": "Old Town Hall",
+   "kind": "museum",
+   "address": "12 Tallmadge Circle, 44278, Tallmadge",
+   "website": "https://www.tallmadgehistory.com/old-town-hall-museum",
+   "phone": "+1-330-633-2420",
+   "latitude": 41.1011149,
+   "longitude": -81.4413219
+  },
+  {
+   "name": "Old Stone School",
+   "kind": "museum",
+   "address": "301 South Broadway Street, 44308, Akron",
+   "website": "https://www.summithistory.org/old-stone-school",
+   "phone": "",
+   "latitude": 41.0767064,
+   "longitude": -81.5185029
+  },
+  {
+   "name": "Overlook Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://www.summitmetroparks.org/",
+   "phone": "+1-330-867-5511",
+   "latitude": 41.124786,
+   "longitude": -81.5203227
+  },
+  {
+   "name": "Clayton Bailey’s World Of Wonders",
+   "kind": "museum",
+   "address": "225 South Main Street",
+   "website": "https://claytonbailey.org/",
+   "phone": "",
+   "latitude": 41.0790363,
+   "longitude": -81.5200599
+  },
+  {
+   "name": "Cuyahoga Valley Scenic Railroad",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0973095,
+   "longitude": -81.5247055
+  },
+  {
+   "name": "Cuyahoga Valley Art Center",
+   "kind": "gallery",
+   "address": "2131 Front Street, 44221, Cuyahoga Falls",
+   "website": "",
+   "phone": "+13309288092",
+   "latitude": 41.13562,
+   "longitude": -81.4825962
+  },
+  {
+   "name": "Akrona Gallery",
+   "kind": "gallery",
+   "address": "1765 West Market Street, 44313, Akron",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1112471,
+   "longitude": -81.5718434
+  },
+  {
+   "name": "Woodrow Nash Art Gallery",
+   "kind": "gallery",
+   "address": "800 Copley Road, 44320, Akron",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0846228,
+   "longitude": -81.5508374
+  },
+  {
+   "name": "Akron History Center",
+   "kind": "museum",
+   "address": "172 South Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0806525,
+   "longitude": -81.5196236
+  },
+  {
+   "name": "Watkins Academy Museum of the Cultural Arts",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0842223,
+   "longitude": -81.5567853
+  },
+  {
+   "name": "Painting with a Twist",
+   "kind": "attraction",
+   "address": "2890 Sand Run Parkway, 44333",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1335015,
+   "longitude": -81.6125665
+  },
+  {
+   "name": "Akron Soul Train",
+   "kind": "gallery",
+   "address": "191 South Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.080149,
+   "longitude": -81.5193396
+  },
+  {
+   "name": "Art X Love",
+   "kind": "gallery",
+   "address": "35 South Main Street",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0839907,
+   "longitude": -81.5169558
+  },
+  {
+   "name": "Observation Deck",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1233835,
+   "longitude": -81.4974064
+  },
+  {
+   "name": "Akron Children’s Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.079869,
+   "longitude": -81.5217292
+  },
+  {
+   "name": "Cummings Center for the History of Psychology",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0806339,
+   "longitude": -81.5106376
+  },
+  {
+   "name": "Waters Park Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0958811,
+   "longitude": -81.5121974
+  },
+  {
+   "name": "Portage Country Club",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1090057,
+   "longitude": -81.5520051
+  },
+  {
+   "name": "Missing Link Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1234518,
+   "longitude": -81.5288048
+  },
+  {
+   "name": "Prather Vista",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.1247961,
+   "longitude": -81.530766
+  },
+  {
+   "name": "Akron Children's Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 41.0797036,
+   "longitude": -81.5216985
+  }
+ ]
+}

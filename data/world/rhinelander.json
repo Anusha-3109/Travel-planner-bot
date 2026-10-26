@@ -1,0 +1,194 @@
+{
+ "city": "Rhinelander",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 45.6336,
+ "longitude": -89.411,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1490 Lincoln Street, 54501, Rhinelander",
+   "url": "https://www.choicehotels.com/wisconsin/tomahawk/rodeway-inn-hotels"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "667 West Kemp Street, 54501, Rhinelander",
+   "url": "https://www.choicehotels.com/wisconsin/tomahawk/rodeway-inn-hotels"
+  },
+  {
+   "name": "Pine Valley Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3980 Lakeshore Drive, 54501, Rhinelander",
+   "url": "https://www.pinevalleylodgewi.com/"
+  },
+  {
+   "name": "Days Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "70 North Stevens Street, 54501, Rhinelander",
+   "url": ""
+  },
+  {
+   "name": "AmericInn Lodge & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "315 South Courtney Street, 54501, Rhinelander",
+   "website": "https://locations.pizzahut.com/wi/rhinelander/315-s-courtney-street"
+  },
+  {
+   "name": "Bucketheads Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "46 North Brown Street, 54501, Rhinelander",
+   "website": "http://citrausa.wixsite.com/bucketheads"
+  },
+  {
+   "name": "Nacho's Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "232 South Courtney Street, 54501, Rhinelander",
+   "website": "https://www.facebook.com/profile.php?id=100078583847447"
+  },
+  {
+   "name": "Taco Bell",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "200 Eisenhower Parkway, 54501",
+   "website": "https://locations.tacobell.com/wi/rhinelander/200-s-eisenhower-pkwy.html"
+  },
+  {
+   "name": "Oriental Kitchen",
+   "cuisines": [
+    "Chinese",
+    "Asian"
+   ],
+   "address": "1903 Lincoln Street",
+   "website": ""
+  },
+  {
+   "name": "Casa Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "343 Lincoln Street, 54501, Rhinelander",
+   "website": ""
+  },
+  {
+   "name": "Peking Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "825 Lincoln Street, 54501, Rhinelander",
+   "website": ""
+  },
+  {
+   "name": "Pizza Ranch",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Casa Mexicana Rhinelander",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Friendship House Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Top of the Hill Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dina Mia Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Nicolet College Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.607853,
+   "longitude": -89.4235718
+  },
+  {
+   "name": "Art Start",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.6368693,
+   "longitude": -89.4115205
+  }
+ ]
+}

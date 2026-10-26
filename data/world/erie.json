@@ -1,0 +1,1256 @@
+{
+ "city": "Erie",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.1284,
+ "longitude": -80.094,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8050 Peach Street, 16509, Erie",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-erie-pa"
+  },
+  {
+   "name": "Hampton Inn & Suites East Erie Bayfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "130 East Front Street, 16507, Erie",
+   "url": "https://www.hilton.com/en/hotels/eribfhx-hampton-suites-erie-bayfront/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8035 Oliver Road, 16509, Erie",
+   "url": "https://www.hilton.com/en/hotels/erihtht-home2-suites-erie-pa/"
+  },
+  {
+   "name": "TownePlace Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2090 Interchange Road, 16565, Erie",
+   "url": "https://www.marriott.com/erike"
+  },
+  {
+   "name": "La Quinta Inn & Suites Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7820 Perry Highway, 16509, Erie",
+   "url": "https://www.wyndhamhotels.com/laquinta/erie-pennsylvania/la-quinta-erie/overview"
+  },
+  {
+   "name": "Baymont",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8170 Perry Highway, 16509, Erie",
+   "url": "https://www.wyndhamhotels.com/baymont/erie-pennsylvania/baymont-inn-and-suites-erie/overview"
+  },
+  {
+   "name": "SpringHill Suites Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2087 Interchange Road, 16509, Erie",
+   "url": "https://www.marriott.com/erish"
+  },
+  {
+   "name": "Courtyard Erie Bayfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2 Sassafras Pier, 16507, Erie",
+   "url": "https://www.marriott.com/eridt"
+  },
+  {
+   "name": "Courtyard Erie Ambassador Conference Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7792 Peach Street, 16509, Erie",
+   "url": "https://www.marriott.com/ericy"
+  },
+  {
+   "name": "Days Inn by Wyndham Erie I-90",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6101 Wattsburg Road, 16509, Erie",
+   "url": "https://www.wyndhamhotels.com/days-inn/erie-pennsylvania/days-inn-erie/overview"
+  },
+  {
+   "name": "Fairfield Inn Erie Millcreek Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2082 Interchange Road, 16565, Erie",
+   "url": "https://www.marriott.com/erifi"
+  },
+  {
+   "name": "Comfort Inn Erie - Presque Isle",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3041 West 12th Street, 16505, Erie",
+   "url": "https://www.choicehotels.com/pennsylvania/fairview/quality-inn-hotels"
+  },
+  {
+   "name": "Comfort Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8051 Peach Street, 16509, Erie",
+   "url": "https://www.choicehotels.com/pennsylvania/fairview/quality-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2225 Downs Drive, 16509, Erie",
+   "url": "https://www.hilton.com/en/hotels/erigigi-hilton-garden-inn-erie/"
+  },
+  {
+   "name": "Sleep Inn Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8100 Peach Street, 16509, Erie",
+   "url": "https://www.choicehotels.com/pennsylvania/fairview/quality-inn-hotels"
+  },
+  {
+   "name": "Lake Breeze Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3504 West Lake Road, 16505, Erie",
+   "url": "https://www.facebook.com/pages/Lake-Breeze-Motel/113761378655547"
+  },
+  {
+   "name": "Riviera Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3107 West Lake Road, 16505, Erie",
+   "url": "https://www.rivieramotelerie.com/"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8040 Perry Highway, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Erie - South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8050 Old Oliver Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Hawthorn Suites by Wyndham Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8061 Peach Street, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Wyndham Garden Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8101 Peach Street, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotel & Suites - Harborcreek",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4995 Station Road, 16510, Erie",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2084 Interchange Road, 16565, Erie",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8060 Old Oliver Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Erie Bayfront Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "55 West Bay Road, 16507, Erie",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Erie - I-90",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7865 Perry Highway, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2020 Interchange Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7455 Schultz Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites Conference Center Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8040 Perry Highway, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Red Roof PLUS+ & Suites Erie - Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "10 West 18th Street, 16501, Erie",
+   "url": ""
+  },
+  {
+   "name": "Clarion Pointe Near Erie Casino",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7415 Schultz Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Spark by Hilton Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8033 Oliver Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Best Western Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8040 Oliver Road, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2260 Downs Drive, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Lake Erie Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1015 Peninsula Drive, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Glass House Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3202 West 26th Street, 16506, Erie",
+   "url": ""
+  },
+  {
+   "name": "Cobblestone Hotel & Suites - Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "701 West Bayfront Parkway, 16507, Erie",
+   "url": ""
+  },
+  {
+   "name": "Victoria Inn - Erie",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 Peach Street, 16507, Erie",
+   "url": ""
+  },
+  {
+   "name": "Bayfront Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2540 West 8th Street, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Spencer House Bed & Breakfast",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "519 West 6th Street, 16507, Erie",
+   "url": ""
+  },
+  {
+   "name": "Park Plaza Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2510 West 8th Street, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Thunderbird Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3056 West 12th Street, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Steelhead Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3005 West 12th Street, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Linn-Lee Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3425 West Lake Road, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Greenwood Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4535 East Lake Road, 16511, Erie",
+   "url": ""
+  },
+  {
+   "name": "Lighthouse Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3704 East Lake Road, 16511, Erie",
+   "url": ""
+  },
+  {
+   "name": "Golden Triangle Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3425 West 12th Street, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Blue Spruce Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8270 Perry Highway, 16509, Erie",
+   "url": ""
+  },
+  {
+   "name": "Meads Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3651 West Lake Road, 16505, Erie",
+   "url": ""
+  },
+  {
+   "name": "Gilded Eagle Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3630 Sycamore Road, 16505, Erie",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Sloppy Duck Saloon",
+   "cuisines": [
+    "American"
+   ],
+   "address": "726 Lawrence Pier, 16507, Erie",
+   "website": "https://www.sloppyducksaloon.com/"
+  },
+  {
+   "name": "Perkins",
+   "cuisines": [
+    "American"
+   ],
+   "address": "4403 Peach Street, 16509, Erie",
+   "website": ""
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2340 West 12th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Mama Mia's Pizzeria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1529 West 38th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Ling Ling",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1526 West 26th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Oba Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "516 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Fortune Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1210 West 26th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "F&F Hibachi Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "709 West 38th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "El Canelo",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "4236 Peach Street, 16509, Erie",
+   "website": ""
+  },
+  {
+   "name": "Calamari's Squid Row",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1317 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Federal Hill Smokehouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2609 Peach Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Avanti's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1662 West 8th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Mi Scuzi",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2641 Myrtle Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "The Breakfast Place",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "4108 Peach Street, 16509, Erie",
+   "website": ""
+  },
+  {
+   "name": "Happy Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1537 West 38th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "El Amigo Mexican Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "333 State Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Francisco’s Mexican Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2301 Broad Street, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "Chopstix Express",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "3842 Liberty Street, 16509, Erie",
+   "website": ""
+  },
+  {
+   "name": "Kabob & Mandi",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1202 French Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Patti's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3700 Pine Avenue, 16504, Erie",
+   "website": ""
+  },
+  {
+   "name": "Valerio's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2179 West 32nd Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Golden Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3202 Pittsburgh Avenue, 16506, Erie",
+   "website": ""
+  },
+  {
+   "name": "Alfee's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3001 Glenwood Park Avenue, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Like My Thai",
+   "cuisines": [
+    "Thai",
+    "Noodle"
+   ],
+   "address": "827 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Skippereno's Italian Restaurant",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1604 West Grandview Boulevard, 16509, Erie",
+   "website": ""
+  },
+  {
+   "name": "Happy Garden",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "418 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Stevo's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1019 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Smugglers' Wharf",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "3 State Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Zodiac Dinor",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2516 State Street, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "Saigon Nights",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "2430 West 8th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Cathay Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3 East 18th Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Ricardo's",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2112 East Lake Road, 16511, Erie",
+   "website": ""
+  },
+  {
+   "name": "Coppola’s Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1042 West 26th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Tandoori Hut Indian Cuisine",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2605 Washington Avenue, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Clancy's Pub & Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "901 East Avenue, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "Panos' Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1504 West 38th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Colony Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2664 West 8th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Chippers Seafood & Southern Fusion",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1023 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Bar Rōnin",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "948 West Erie Plaza Drive, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Krazy Kitchen",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1018 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Enrique's Southeast Mexico Taqueria & Tortilleria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1801 Liberty Street, 16502, Erie",
+   "website": ""
+  },
+  {
+   "name": "Virgil's Plate",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1001 West 6th Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Lucero",
+   "cuisines": [
+    "Spanish"
+   ],
+   "address": "940 West Erie Plaza Drive, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Erie Curry House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "3740 Peach Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Outlaw Barbecue Revolution",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "3431 Poplar Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Oakwood Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "861 East 38th Street, 16504, Erie",
+   "website": ""
+  },
+  {
+   "name": "F&F Poke Bowl",
+   "cuisines": [],
+   "address": "2501 West 12th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Underdog BBQ",
+   "cuisines": [],
+   "address": "2714 West 8th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Casablanca Grill",
+   "cuisines": [],
+   "address": "2174 West 8th Street, 16505, Erie",
+   "website": ""
+  },
+  {
+   "name": "Pineapple Eddie Southern Bistro",
+   "cuisines": [],
+   "address": "1402 West 10th Street, 16502, Erie",
+   "website": ""
+  },
+  {
+   "name": "Colao's Ristorante",
+   "cuisines": [],
+   "address": "2826 Plum Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "The Brewerie at Union Station",
+   "cuisines": [],
+   "address": "123 West 14th Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "Red Hot Restaurant",
+   "cuisines": [],
+   "address": "1301 Parade Street, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "New York Lunch",
+   "cuisines": [],
+   "address": "1005 Parade Street, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "McGarrey's Oakwood Cafe",
+   "cuisines": [],
+   "address": "1624 West 38th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "The Knight Club",
+   "cuisines": [],
+   "address": "162 West 4th Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Room 33 Speakeasy",
+   "cuisines": [],
+   "address": "1033 State Street, 16501, Erie",
+   "website": ""
+  },
+  {
+   "name": "The Cove Bay-Side Restaurant & Tavern",
+   "cuisines": [],
+   "address": "2 State Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Mel-N-Lee´s Canteen",
+   "cuisines": [],
+   "address": "1089 Cascade Street, 16502, Erie",
+   "website": ""
+  },
+  {
+   "name": "Annapurna Kitchen",
+   "cuisines": [],
+   "address": "1315 Parade Street, 16503, Erie",
+   "website": ""
+  },
+  {
+   "name": "Judges Corner",
+   "cuisines": [],
+   "address": "848 East 5th Street, 16507, Erie",
+   "website": ""
+  },
+  {
+   "name": "Gurkha Grill & Chill",
+   "cuisines": [],
+   "address": "1214 East 38th Street, 16504, Erie",
+   "website": ""
+  },
+  {
+   "name": "Give a Crepe",
+   "cuisines": [],
+   "address": "2431 Peach Street, 16502, Erie",
+   "website": ""
+  },
+  {
+   "name": "La Cocina Coqui",
+   "cuisines": [],
+   "address": "653 West 26th Street, 16508, Erie",
+   "website": ""
+  },
+  {
+   "name": "Grotto Commons",
+   "cuisines": [],
+   "address": "501 East 38th Street, 16546, Erie",
+   "website": ""
+  },
+  {
+   "name": "The Cork 1794",
+   "cuisines": [],
+   "address": "900 West Erie Plaza Drive, 16505, Erie",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Old Customs House",
+   "kind": "museum",
+   "address": "409 State Street, 16501, Erie",
+   "website": "http://www.eriebuildings.info/buildings.php?buildingID=14010002021100",
+   "phone": "",
+   "latitude": 42.1311876,
+   "longitude": -80.0859594
+  },
+  {
+   "name": "Waldameer Park & Water World",
+   "kind": "theme park",
+   "address": "220 Peninsula Drive, 16505, Erie",
+   "website": "https://waldameer.com/",
+   "phone": "+1-814-838-3591",
+   "latitude": 42.106881,
+   "longitude": -80.1556216
+  },
+  {
+   "name": "Watson-Curtze Mansion",
+   "kind": "museum",
+   "address": "356 West 6th Street, 16507, Erie",
+   "website": "https://www.eriehistory.org/",
+   "phone": "",
+   "latitude": 42.126779,
+   "longitude": -80.0936234
+  },
+  {
+   "name": "Erie Art Museum",
+   "kind": "museum",
+   "address": "20 East 5th Street, 16507, Erie",
+   "website": "https://erieartmuseum.org/",
+   "phone": "",
+   "latitude": 42.131074,
+   "longitude": -80.0856569
+  },
+  {
+   "name": "Erie Maritime Museum",
+   "kind": "museum",
+   "address": "100 East Front Street, 16507, Erie",
+   "website": "https://www.eriemaritimemuseum.org/",
+   "phone": "",
+   "latitude": 42.1364582,
+   "longitude": -80.0871807
+  },
+  {
+   "name": "Erie Zoo",
+   "kind": "zoo",
+   "address": "423 West 38th Street, 16508, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0970544,
+   "longitude": -80.0756041
+  },
+  {
+   "name": "USS Niagara",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1371351,
+   "longitude": -80.0874674
+  },
+  {
+   "name": "Lawrence Park Historical Society",
+   "kind": "museum",
+   "address": "4230 Iroquois Avenue, 16511, Erie",
+   "website": "https://www.lawrenceparktwp.org/about-the-township/lawrence-park-historical-society/",
+   "phone": "",
+   "latitude": 42.1525377,
+   "longitude": -80.0122479
+  },
+  {
+   "name": "ExpERIEnce Childrens Museum",
+   "kind": "museum",
+   "address": "420 French Street, 16507, Erie",
+   "website": "https://www.eriechildrensmuseum.org",
+   "phone": "+1 814 453 3743",
+   "latitude": 42.1312411,
+   "longitude": -80.0850324
+  },
+  {
+   "name": "Flagship Niagara League",
+   "kind": "museum",
+   "address": "150 East Front Street, 16507, Erie",
+   "website": "https://sailfnl.org/",
+   "phone": "",
+   "latitude": 42.1366387,
+   "longitude": -80.0867762
+  },
+  {
+   "name": "Tom Ridge Environmental Center",
+   "kind": "museum",
+   "address": "301 Peninsula Drive, 16505, Erie",
+   "website": "https://www.trecf.org/",
+   "phone": "",
+   "latitude": 42.1100038,
+   "longitude": -80.1540595
+  },
+  {
+   "name": "Firefighters Historical Museum",
+   "kind": "museum",
+   "address": "428 Chestnut Street, 16507, Erie",
+   "website": "https://firefightershistoricalmuseum.org/",
+   "phone": "",
+   "latitude": 42.127366,
+   "longitude": -80.0947349
+  },
+  {
+   "name": "Glenhill Farmhouse",
+   "kind": "viewpoint",
+   "address": "4701 College Drive, 16563, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1191955,
+   "longitude": -79.9857484
+  },
+  {
+   "name": "Glass Growers Gallery",
+   "kind": "gallery",
+   "address": "10 East 5th Street, 16507, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1307892,
+   "longitude": -80.0855358
+  },
+  {
+   "name": "Graffiti Wall",
+   "kind": "attraction",
+   "address": "1401 Peach Street, 16501, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1202039,
+   "longitude": -80.0818424
+  },
+  {
+   "name": "V Gallery",
+   "kind": "gallery",
+   "address": "3330 West 26th Street, 16506, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.0845095,
+   "longitude": -80.1492695
+  },
+  {
+   "name": "Artlore Studio",
+   "kind": "gallery",
+   "address": "3406 West Lake Road, 16505, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1013582,
+   "longitude": -80.1634466
+  },
+  {
+   "name": "Kada Gallery",
+   "kind": "gallery",
+   "address": "2632 West 8th Street, 16505, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.106368,
+   "longitude": -80.1425582
+  },
+  {
+   "name": "Bastion Studios",
+   "kind": "gallery",
+   "address": "2016 Peach Street, 16502, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1158085,
+   "longitude": -80.0781947
+  },
+  {
+   "name": "D' Hopkins Denniston Gallery",
+   "kind": "gallery",
+   "address": "5 West 10th Street, 16501, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1252085,
+   "longitude": -80.0828975
+  },
+  {
+   "name": "City Gallery",
+   "kind": "gallery",
+   "address": "1503 State Street, 16501, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1209354,
+   "longitude": -80.0790419
+  },
+  {
+   "name": "Victorian Princess",
+   "kind": "attraction",
+   "address": "16507, Erie",
+   "website": "",
+   "phone": "",
+   "latitude": 42.1382987,
+   "longitude": -80.0908416
+  }
+ ]
+}

@@ -1,0 +1,1475 @@
+{
+ "city": "Redding",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 40.5896,
+ "longitude": -122.3775,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Budgetel River Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1286 Twin View Boulevard, 96003, Redding",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/redding/rddxp/hoteldetail"
+  },
+  {
+   "name": "Super 8 by Wyndham Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5175 Churn Creek Road, 96002, Redding",
+   "url": "https://www.wyndhamhotels.com/super-8/redding-california/super-8-redding/overview"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2300 Hilltop Drive, 96003, Redding",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-redding/best-western-plus-hilltop-inn/propertyCode.05280.html"
+  },
+  {
+   "name": "TownePlace Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2180 Larkspur Lane, 96002, Redding",
+   "url": "https://www.marriott.com/rddrd"
+  },
+  {
+   "name": "Hampton Inn & Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2160 Larkspur Lane, 96002, Redding",
+   "url": "https://www.hilton.com/en/hotels/rddcahx-hampton-suites-redding/"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "850 Mistletoe Lane, 96002, Redding",
+   "url": "https://www.choicehotels.com/california/redding/quality-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5050 Bechelli Lane, 96002, Redding",
+   "url": "https://www.hilton.com/en/hotels/rddregi-hilton-garden-inn-redding/"
+  },
+  {
+   "name": "Surestay Plus Hotel by Best Western Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2600 Larkspur Lane, 96002-1016, Redding",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-redding/surestay-plus-hotel-by-best-western-redding/propertyCode.52057.html"
+  },
+  {
+   "name": "Comfort Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1195 Grand Avenue, 96003, Redding",
+   "url": "https://www.choicehotels.com/california/redding/quality-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5164 Caterpillar Road, 96003, Redding",
+   "url": "https://www.marriott.com/rddre"
+  },
+  {
+   "name": "La Quinta Inn & Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.wyndhamhotels.com/laquinta/redding-california/la-quinta-redding/overview"
+  },
+  {
+   "name": "Thunderbird Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://www.thunderbirdlodgeredding.com/"
+  },
+  {
+   "name": "Travelodge Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "540 Market Street, 96003, Redding",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2220 Pine Street, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2059 Hilltop Drive, 96002, Redding",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2240 Hilltop Drive, 96003, Redding",
+   "url": ""
+  },
+  {
+   "name": "Bridgehouse Bed & Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1455 Riverside Drive, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Apple's River House",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 Mora Court, 96003, Redding",
+   "url": ""
+  },
+  {
+   "name": "Oxford Suites Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1967 Hilltop Drive, 96002, Redding",
+   "url": ""
+  },
+  {
+   "name": "Bridgeway Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2731 Bechelli Lane, 96002, Redding",
+   "url": ""
+  },
+  {
+   "name": "Desmond House B&B",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1449 Riverside Drive, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Tiffany House B&B",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1510 Barbara Road, 96003, Redding",
+   "url": ""
+  },
+  {
+   "name": "Turtle Bay Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 North Market Street, 96003, Redding",
+   "url": ""
+  },
+  {
+   "name": "Sundial Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1055 Market Street, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Americana Modern Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1241 Market Street, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Capri Motel-Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4620 Westside Road, 96001, Redding",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "536 East Cypress Avenue",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Redding North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Hotel Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1830 Hilltop Drive",
+   "url": ""
+  },
+  {
+   "name": "Best Western Plus: Twin View Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sheraton Redding at Sundial Bridge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Shasta Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Delux Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Market Street Manor Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Americana Lodge Redding",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Stardust Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Win-River Casino Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Damburger",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1320 Placer Street, 96001, Redding",
+   "website": "https://www.damburger.net/"
+  },
+  {
+   "name": "Sweetie's Cafe & Catering",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Coffee Shop",
+    "Ice Cream",
+    "Dessert",
+    "Barbecue",
+    "Pie"
+   ],
+   "address": "3105 South Market Street, 96001, Redding",
+   "website": "https://www.sweetiescafecatering.com/"
+  },
+  {
+   "name": "Déjà Vu",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "1590 California Street, 96001, Redding",
+   "website": "https://dejavu.cafe"
+  },
+  {
+   "name": "Black Bear Diner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2605 Hilltop Drive, 96002, Redding",
+   "website": "https://blackbeardiner.com/location/redding/"
+  },
+  {
+   "name": "Mountain Mike's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "2727 Churn Creek Road, 96002, Redding",
+   "website": "https://www.mountainmikespizza.com/locations/redding/"
+  },
+  {
+   "name": "The Chicken Shack",
+   "cuisines": [
+    "Comfort Food",
+    "Wings",
+    "Fries",
+    "Chicken",
+    "Sandwich"
+   ],
+   "address": "2586 Churn Creek Road",
+   "website": "https://chickenshackredding.com"
+  },
+  {
+   "name": "Panda South Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "64 Lake Boulevard, 96003, Redding",
+   "website": "https://www.pandasouthchinese.com/"
+  },
+  {
+   "name": "Dill's Deli",
+   "cuisines": [
+    "Barbecue",
+    "Sandwich"
+   ],
+   "address": "5132 Caterpillar Road, 96003, Redding",
+   "website": "https://www.dillsdeli.com/"
+  },
+  {
+   "name": "Fratelli's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1774 California Street, 96001, Redding",
+   "website": "https://www.facebook.com/fratellispizzaredding/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "2495 Hilltop Drive, 96002, Redding",
+   "website": "https://restaurants.ihop.com/en-us/ca/redding/breakfast-2495-hilltop-dr-642"
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1035 Dana Drive",
+   "website": "https://locations.redrobin.com/ca/redding/70/"
+  },
+  {
+   "name": "Kampi Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "351 Northpoint Drive, 96003, Redding",
+   "website": "https://www.reddingkampaisushi.com/"
+  },
+  {
+   "name": "Outback Steakhouse",
+   "cuisines": [
+    "American",
+    "Steak"
+   ],
+   "address": "910 Dana Drive, 96003, Redding",
+   "website": "https://locations.outback.com/california/redding/910-dana-dr."
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1801 Hilltop Drive, 96002",
+   "website": "https://restaurants.applebees.com/en-us/ca/redding/1801-hilltop-drive-89012"
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2608 Hilltop Drive, 96002, Redding",
+   "website": "https://locations.dennys.com/CA/REDDING/248536"
+  },
+  {
+   "name": "La Cocina De Chuy",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2030 Eureka Way, 96001, Redding",
+   "website": "http://www.lacocinadechuy.com/"
+  },
+  {
+   "name": "Lulu's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "2230 Pine Street, 96001, Redding",
+   "website": "http://lulusreddingrestaurant.com/"
+  },
+  {
+   "name": "Kobe",
+   "cuisines": [
+    "Sushi",
+    "Steak House",
+    "Japanese",
+    "Seafood"
+   ],
+   "address": "1300 Market Street, 96001, redding",
+   "website": "https://koberedding.net/"
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1025 Dana Drive, 96003, redding",
+   "website": "https://www.olivegarden.com/locations/ca/redding/redding/1359"
+  },
+  {
+   "name": "Hilltop Dinner",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1987 Hilltop Drive, 96002, Redding",
+   "website": "https://www.hilltopdiner.com/"
+  },
+  {
+   "name": "Golden Star",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2257 Hilltop Drive, 96002, Redding",
+   "website": "https://www.goldenstarredding.com/"
+  },
+  {
+   "name": "Country Kitchen",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1099 Hilltop Drive, 96003, Redding",
+   "website": "https://www.countrykitchenredding.com/"
+  },
+  {
+   "name": "Cinders",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1415 Market Street, 96001, Redding",
+   "website": "https://www.cinderspizza.com"
+  },
+  {
+   "name": "TBar",
+   "cuisines": [
+    "Tea",
+    "Salad"
+   ],
+   "address": "1477 Hilltop Drive",
+   "website": "https://ilovetbar.com/"
+  },
+  {
+   "name": "Guadalajara",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "435 East Cypress Avenue, 96002, Redding",
+   "website": "https://guadalajararestaurant.net/"
+  },
+  {
+   "name": "Mary's Pizza Shack",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1177 East Street, 96002, Redding",
+   "website": "https://www.maryspizzashack.com/locations/redding/"
+  },
+  {
+   "name": "Chuck E. Cheese's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "910 Hilltop Drive",
+   "website": "https://locations.chuckecheese.com/us/ca/redding/910-hilltop-dr."
+  },
+  {
+   "name": "Trendy's",
+   "cuisines": [
+    "Diner",
+    "Farm-To-Table",
+    "American",
+    "Comfort Food"
+   ],
+   "address": "1730 Gold Street, 96001, Redding",
+   "website": "http://www.trendysredding.com/"
+  },
+  {
+   "name": "Taqueria Los Gordos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1400 Pine Street, 96001, Redding",
+   "website": "http://www.taquerialosgordos1.com/"
+  },
+  {
+   "name": "Maxwell's Eatery",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1344 Market Street, 96001, redding",
+   "website": "https://www.maxwellseatery.com/"
+  },
+  {
+   "name": "Cafe Paradisio",
+   "cuisines": [
+    "American",
+    "Cafe"
+   ],
+   "address": "1270 Yuba Street, 96001, Redding",
+   "website": "http://www.cafeparadisio.com/"
+  },
+  {
+   "name": "Priya",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2937 Churn Creek Road",
+   "website": "https://reddingpriya.com/"
+  },
+  {
+   "name": "Osaka Sushi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1340 Churn Creek Road, 96003, Redding",
+   "website": "https://www.osakasushiredding.com/"
+  },
+  {
+   "name": "Lumberjacks",
+   "cuisines": [
+    "American"
+   ],
+   "address": "501 East Cypress Avenue, 96002, Redding",
+   "website": "https://lumberjacksrestaurant.com/"
+  },
+  {
+   "name": "Pete's",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "815 Browning Street",
+   "website": "https://petesbrewhouse.com/"
+  },
+  {
+   "name": "Market Street Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "871 North Market Street, 96003, Redding",
+   "website": "http://www.marketstreetpizza.net/"
+  },
+  {
+   "name": "Karline's Restaurant & Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1100 Center Street, 96001, Redding",
+   "website": "https://www.karlinesrestaurant.com/"
+  },
+  {
+   "name": "Corbett's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1455 Pine Street, 96001, Redding",
+   "website": "http://corbetts-restaurant.com/"
+  },
+  {
+   "name": "Country Waffles",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "2300 Athens Avenue",
+   "website": "https://www.countrywafflesredding.com/"
+  },
+  {
+   "name": "Tortilla Flats",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2800 Park Marina Drive",
+   "website": "https://www.tortillaflatsredding.com/"
+  },
+  {
+   "name": "Jeff's California Cattle Company",
+   "cuisines": [
+    "American"
+   ],
+   "address": "400 East Cypress Avenue, 96002, Redding",
+   "website": "http://www.jeffscattleco.com/"
+  },
+  {
+   "name": "Coco Mongolian Grill & Sushi",
+   "cuisines": [
+    "Sushi",
+    "Mongolian Grill"
+   ],
+   "address": "2691 Churn Creek Road, 96002, Redding",
+   "website": "http://www.cocoredding.com/"
+  },
+  {
+   "name": "Redding's Ultimate Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1720 Pleasant Street, 96001, Redding",
+   "website": "https://www.reddingsultimate-pizza.com/"
+  },
+  {
+   "name": "Chu's Too",
+   "cuisines": [
+    "Chinese",
+    "Sushi"
+   ],
+   "address": "1135 Pine Street, 96001, redding",
+   "website": "https://chustoo.com/"
+  },
+  {
+   "name": "Mosaic",
+   "cuisines": [
+    "Californian",
+    "Farm-To-Table"
+   ],
+   "address": "826 Sundial Bridge Drive, 96001, Redding",
+   "website": "https://www.mosaicredding.com/"
+  },
+  {
+   "name": "Cicada Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1691 Hilltop Drive",
+   "website": "https://www.cicadacantina.com/"
+  },
+  {
+   "name": "Rose Garden",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "2825 South Market Street, 96001, Redding",
+   "website": "https://www.facebook.com/RoseGardenRedding/"
+  },
+  {
+   "name": "Lunas",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "2914 Churn Creek Road",
+   "website": "https://lunasfusion.com/"
+  },
+  {
+   "name": "Mazatlan Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1630 Hilltop Drive",
+   "website": "https://www.mazatlangrillredding.com/"
+  },
+  {
+   "name": "Casa Ramos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "995 Hilltop Drive",
+   "website": "https://www.casaramos.net/"
+  },
+  {
+   "name": "Market Street Blade & Barrel",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1777 Market Street, 96001, Redding",
+   "website": "https://marketstreetbladeandbarrel.com/"
+  },
+  {
+   "name": "Tokyo Garden",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1675 Hilltop Drive",
+   "website": "https://www.tokyogardenredding.com/"
+  },
+  {
+   "name": "Fresh Fire Grill",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "161 Lake Boulevard",
+   "website": "https://www.freshfiregrill.com/"
+  },
+  {
+   "name": "Vallarta Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "983 Lake Boulevard",
+   "website": "http://ordervallartataqueria.com/"
+  },
+  {
+   "name": "Casa Rios",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1647 Hartnell Avenue, Redding",
+   "website": "https://www.facebook.com/Casariosgrill/"
+  },
+  {
+   "name": "Dave's Hot Chicken",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "917 Dana Drive, 96003",
+   "website": "https://daveshotchicken.com/"
+  },
+  {
+   "name": "C.R. Gibbs",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://crgibbs.com/"
+  },
+  {
+   "name": "New China Two",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": "https://newchina2redding.com/"
+  },
+  {
+   "name": "Humble Joe's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://humblejoes.com/"
+  },
+  {
+   "name": "From the Hearth",
+   "cuisines": [
+    "Dessert",
+    "American"
+   ],
+   "address": "1427 Market Street, 96001, Redding",
+   "website": ""
+  },
+  {
+   "name": "Carnegie's",
+   "cuisines": [
+    "Sandwich",
+    "American"
+   ],
+   "address": "1600 Oregon Street, 96001, Redding",
+   "website": ""
+  },
+  {
+   "name": "Logan's Roadhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1955 Hilltop Drive, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Court Street Eats",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1718 Placer Street, 96001, Redding",
+   "website": ""
+  },
+  {
+   "name": "Fat Daddy's BBQ",
+   "cuisines": [
+    "American",
+    "Barbecue"
+   ],
+   "address": "942 Hartnell Avenue, 96002, redding",
+   "website": ""
+  },
+  {
+   "name": "Round Table Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "70 Lake Boulevard, 96003, Redding",
+   "website": ""
+  },
+  {
+   "name": "Las Dos Marias",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2640 Bechelli Lane, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Smokehaüs Pizza & Pints",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1244 Hartnell Avenue, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Grand buffet",
+   "cuisines": [
+    "Chinese",
+    "Buffet"
+   ],
+   "address": "2650 Hilltop Drive, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Wing Spot",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "991 Lake Boulevard",
+   "website": ""
+  },
+  {
+   "name": "La Cabana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1335 Market Street, 96001, Redding",
+   "website": ""
+  },
+  {
+   "name": "Kahunas Mongolian BBQ",
+   "cuisines": [
+    "Mongolian Grill",
+    "Sushi",
+    "Cocktails"
+   ],
+   "address": "1800 Churn Creek Road",
+   "website": ""
+  },
+  {
+   "name": "Xander's Greek Gyro",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "2180 Churn Creek Road, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Dude's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1642 Hartnell Avenue, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Bagel Deli",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "2658 Bechelli Lane, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Champa Garden",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1107 Hilltop Drive, 96003, redding",
+   "website": ""
+  },
+  {
+   "name": "Giff’s Steakburger",
+   "cuisines": [
+    "American",
+    "Burger"
+   ],
+   "address": "2827 Bechelli Lane, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Raliberto’s Taco Shop",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1701 California Street",
+   "website": ""
+  },
+  {
+   "name": "Super Burrito's Mexican Food",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2600 Churn Creek Road, 96002",
+   "website": ""
+  },
+  {
+   "name": "Nello's Place",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "3055 Bechelli Lane, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Thai Hut",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1165 Hartnell Avenue",
+   "website": ""
+  },
+  {
+   "name": "Taroko Asian Bar & Grill",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "1701 Pine Street, 96001, Redding",
+   "website": ""
+  },
+  {
+   "name": "Yama Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "40 Hartnell Avenue, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "Thai Cafe",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "820",
+   "website": ""
+  },
+  {
+   "name": "Mini Max",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "913",
+   "website": ""
+  },
+  {
+   "name": "Poke Land Extra",
+   "cuisines": [
+    "Asian",
+    "Hawaiian"
+   ],
+   "address": "909",
+   "website": ""
+  },
+  {
+   "name": "Maro Noodle House",
+   "cuisines": [
+    "Noodle"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Noni's Slice Shop",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pasta Pronto",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Cachorros Taqueria",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2425",
+   "website": ""
+  },
+  {
+   "name": "Cattlemens",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Puerto Vallarta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Brunch House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Racha Noodle",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Odell’s",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The F.A.R.M. where legacy grows",
+   "cuisines": [],
+   "address": "1416 Yuba Street, 96001, Redding",
+   "website": "https://thefarmredding.com/"
+  },
+  {
+   "name": "Branch House Riverfront Bistro",
+   "cuisines": [],
+   "address": "844 Sundial Bridge Drive",
+   "website": "https://www.branchhouseredding.com"
+  },
+  {
+   "name": "Raliberto's Taco Shop",
+   "cuisines": [],
+   "address": "775 East Cypress Avenue, 96002, Redding",
+   "website": "https://ralibertotacoshop.com/"
+  },
+  {
+   "name": "View 202",
+   "cuisines": [],
+   "address": "202 Hemsted Drive, 96002, Redding",
+   "website": "https://www.view202redding.com"
+  },
+  {
+   "name": "The Post Office",
+   "cuisines": [],
+   "address": "1636 Market Street, 96001, Redding",
+   "website": "https://www.postofficesaloon.com/"
+  },
+  {
+   "name": "Wilda’s Grill",
+   "cuisines": [],
+   "address": "1712 Churn Creek Road",
+   "website": "https://wildasgrill.com/"
+  },
+  {
+   "name": "Le Testimony Organic Bistro",
+   "cuisines": [],
+   "address": "3365 Placer Street, 96001",
+   "website": "https://letestimonyorganicbistro.com/"
+  },
+  {
+   "name": "Niu Hawaiian BBQ",
+   "cuisines": [],
+   "address": "1030 East Cypress Avenue, 96002, Redding",
+   "website": ""
+  },
+  {
+   "name": "The Shack Social",
+   "cuisines": [],
+   "address": "1325 Eureka Way, 96001, Redding",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Sundial Bridge",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5922682,
+   "longitude": -122.3775525
+  },
+  {
+   "name": "McConnell Botanical Gardens",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5946069,
+   "longitude": -122.3810709
+  },
+  {
+   "name": "Turtle Bay Exploration Park",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5887058,
+   "longitude": -122.3754943
+  },
+  {
+   "name": "Courthouse Museum",
+   "kind": "museum",
+   "address": "15312 Highway 299 West, 96087, Shasta",
+   "website": "https://www.parks.ca.gov/?page_id=1302",
+   "phone": "+1 530-243-8194",
+   "latitude": 40.5992655,
+   "longitude": -122.4918229
+  },
+  {
+   "name": "Old City Hall Art Gallery",
+   "kind": "museum",
+   "address": "1313 Market Street, 96001, Redding",
+   "website": "https://www.shastaartscouncil.org/",
+   "phone": "",
+   "latitude": 40.5862156,
+   "longitude": -122.3912968
+  },
+  {
+   "name": "Turtle Bay Museum",
+   "kind": "museum",
+   "address": "844 Sundial Bridge Drive, 96001, Redding",
+   "website": "https://www.turtlebay.org/",
+   "phone": "+1-530-2438850",
+   "latitude": 40.5911353,
+   "longitude": -122.3766131
+  },
+  {
+   "name": "Behrens-Eaton Display Museum",
+   "kind": "museum",
+   "address": "1925 Butte Street, 96001, Redding",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5827295,
+   "longitude": -122.3978105
+  },
+  {
+   "name": "Shasta Historical Society",
+   "kind": "museum",
+   "address": "1449 Market Street, 96001, Redding",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5846901,
+   "longitude": -122.3905907
+  },
+  {
+   "name": "Fish Viewing Facility",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5934125,
+   "longitude": -122.3940842
+  },
+  {
+   "name": "Mill Building",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5889229,
+   "longitude": -122.376278
+  },
+  {
+   "name": "Chaunay Carroll Bush",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5932268,
+   "longitude": -122.3929337
+  },
+  {
+   "name": "General Merchandise",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5975122,
+   "longitude": -122.4902512
+  },
+  {
+   "name": "Oasis Fun Center",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6540689,
+   "longitude": -122.3610435
+  },
+  {
+   "name": "Eaton House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5825781,
+   "longitude": -122.3974599
+  },
+  {
+   "name": "Artistic Endeavors",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.6142577,
+   "longitude": -122.3858338
+  },
+  {
+   "name": "Art Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 40.5909695,
+   "longitude": -122.3762388
+  }
+ ]
+}

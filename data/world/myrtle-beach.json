@@ -1,0 +1,2034 @@
+{
+ "city": "Myrtle Beach",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 33.7053,
+ "longitude": -78.8818,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Waikiki Village",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1500 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Dunes Village Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Caravelle Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3200 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrobup-the-ellie-beach-resort-myrtle-beach/"
+  },
+  {
+   "name": "DoubleTree Resort by Hilton Myrtle Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3200 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrdtdt-doubletree-resort-myrtle-beach-oceanfront/"
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1801 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrofhx-hampton-suites-myrtle-beach-oceanfront/"
+  },
+  {
+   "name": "Hampton Inn Myrtle Beach - Broadway @ The Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1140 Celebrity Circle, 29577, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrcchx-hampton-myrtle-beach-broadway-at-the-beach/"
+  },
+  {
+   "name": "Tropical Seas Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2807 South ocean boulevard, 29577",
+   "url": "https://www.tropicalseashotel.com/"
+  },
+  {
+   "name": "Studio 6 Myrtle Beach, SC",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "730 Frontage Road East, 29577, Myrtle Beach",
+   "url": "https://www.motel6.com/en/home/motels.sc.myrtlebeach.3667.html"
+  },
+  {
+   "name": "La Quinta Myrtle Beach Broadway Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1561 21st Avenue North, 29577, Myrtle Beach",
+   "url": "https://www.wyndhamhotels.com/laquinta/myrtle-beach-south-carolina/la-quinta-myrtle-beach-broadway-area/overview"
+  },
+  {
+   "name": "Country Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3516 Waccamaw Boulevard, 29579, Myrtle Beach",
+   "url": "https://www.radissonhotels.com/en-us/hotels/country-inn-myrtle-beach-sc"
+  },
+  {
+   "name": "voco The Shelby - Myrtle Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1802 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.ihg.com/voco/hotels/us/en/myrtle-beach/myroc/hoteldetail"
+  },
+  {
+   "name": "Sea Dip Motel & Condominium Family Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2608 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.seadip.com/"
+  },
+  {
+   "name": "Hampton Inn Myrtle Beach-West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4551 Highway 501, 29579, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrwehx-hampton-myrtle-beach-west/"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "620 75th Avenue North, 29572, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrnohx-hampton-myrtle-beach-northwood/"
+  },
+  {
+   "name": "Days Inn by Wyndham Myrtle Beach-Beach Front",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1403 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.wyndhamhotels.com/days-inn/myrtle-beach-south-carolina/days-inn-myrtle-beach-beach-front/overview"
+  },
+  {
+   "name": "Comfort Suites Myrtle Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "710 Frontage Road East, 29577, Myrtle Beach",
+   "url": "https://www.choicehotels.com/south-carolina/surfside-beach/comfort-inn-hotels"
+  },
+  {
+   "name": "La Quinta Inn & Suites Myrtle Beach - N Kings Hwy",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4709 North Kings Highway, 29577, Myrtle Beach",
+   "url": "https://www.wyndhamhotels.com/laquinta/myrtle-beach-south-carolina/la-quinta-myrtle-beach-n-kings-hwy/overview"
+  },
+  {
+   "name": "Courtyard Myrtle Beach Broadway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1351 21st Avenue North, 29577, Myrtle Beach",
+   "url": "https://www.marriott.com/myrcy"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3650 Waccamaw Boulevard, 29579, Myrtle Beach",
+   "url": "https://www.wyndhamhotels.com/days-inn/myrtle-beach-south-carolina/days-inn-myrtle-beach/overview"
+  },
+  {
+   "name": "Four Points By Sheraton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Fantasy Harbour Boulevard, 29579, Myrtle Beach",
+   "url": "https://www.marriott.com/en-us/hotels/myrfp-four-points-by-sheraton-myrtle-beach/overview/"
+  },
+  {
+   "name": "Residence Inn Myrtle Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2605 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.marriott.com/myrrm"
+  },
+  {
+   "name": "Holiday Inn Club Vacations Myrtle Beach Oceanfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3090 Springmaid Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.holidayinnclub.com/explore-resorts/myrtle-beach-oceanfront-resort"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2006 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.marriott.com/myrco"
+  },
+  {
+   "name": "SpringHill Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2006 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.marriott.com/myrso"
+  },
+  {
+   "name": "Sleep Inn Near Outlets",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "108 Waccamaw Pines Drive, 29579, Myrtle Beach",
+   "url": "https://www.choicehotels.com/south-carolina/surfside-beach/comfort-inn-hotels"
+  },
+  {
+   "name": "Staybridge Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "303 Fantasy Harbour Boulevard, 29579, Myrtle Beach",
+   "url": "https://www.ihg.com/hotels/us/en/myrtle-beach/myrfh/hoteldetail"
+  },
+  {
+   "name": "Sandcastle Oceanfront Resort South Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2207 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.sandcastlesouthbeach.com/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3450 Macklen Road, 29588, Myrtle Beach",
+   "url": "https://www.wyndhamhotels.com/super-8/myrtle-beach-south-carolina/super-8-myrtle-beach-market-common-area/overview"
+  },
+  {
+   "name": "Fairfield Inn Myrtle Beach Broadway at the Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3150 Oleander Drive, 29577, Myrtle Beach",
+   "url": "https://www.marriott.com/myrfb"
+  },
+  {
+   "name": "Island Vista Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6000 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://islandvista.com/"
+  },
+  {
+   "name": "Marina Inn at Grande Dunes",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8121 Amalfi Place, 29572, Myrtle Beach",
+   "url": "https://marinainnatgrandedunes.com/"
+  },
+  {
+   "name": "Hilton Garden Inn Myrtle Beach/Coastal Grand Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2383 Coastal Grand Circle, 29577, Myrtle Beach",
+   "url": "https://www.hilton.com/en/hotels/myrapgi-hilton-garden-inn-myrtle-beach-coastal-grand-mall/"
+  },
+  {
+   "name": "Bar Harbor Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "100 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://bar-harbor.com"
+  },
+  {
+   "name": "Sandy Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "201 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.sandybeachoceanfrontresort.com"
+  },
+  {
+   "name": "Wave Rider Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": "https://www.waveriderresortmyrtlebeach.com/"
+  },
+  {
+   "name": "Palmetto Vacation Rentals, Myrtle Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4101 Mayfair Street, 29577, Myrtle Beach",
+   "url": "https://www.palmettovacationrentals.com/"
+  },
+  {
+   "name": "The Diplomat Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "608 Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Myrtle Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "220 Whitty Drive, 29579, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Serendipity Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "407 71st Avenue North, 29572, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Days Inn by Wyndham Myrtle Beach-Grand Strand",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "806 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Palette Resort Myrtle Beach by OYO",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "703 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Marriott Myrtle Beach Resort & Spa at Grande Dunes",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "8400 Costa Verde Drive, 29572, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Best Western Plus Grand Strand Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1804 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Affordable Suites of America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "117 West Perry Road, 29579, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "401 Hospitality Lane, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Myrtle Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3100 Oleander Drive, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "712 Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3622 Waccamaw Boulevard, 29579, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Happy Holiday Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "507 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Myrtle Beach Hotel - Market Commons",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2801 South Kings Highway, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Monterey Bay Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6804 North Ocean Boulevard, 29572, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Myrtle Beach Oceanfront Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2711 South Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Windsurfer Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "210 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn Conway",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1004 S Ocean Blvd, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Breakers Myrtle Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2104 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Sunrise Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2303 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Boardwalk Beach Resort",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2301 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Carnival Inn & Suite @ The Beach",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2502 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  },
+  {
+   "name": "Riptide Beach Club",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2806 North Ocean Boulevard, 29577, Myrtle Beach",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Thorny's Steakhouse & Saloon",
+   "cuisines": [
+    "American",
+    "Burger",
+    "Beef",
+    "Fish",
+    "Grill",
+    "Fries",
+    "Meat",
+    "Chicken",
+    "Pasta",
+    "Barbecue",
+    "Wings",
+    "Sandwich",
+    "Seafood"
+   ],
+   "address": "",
+   "website": "https://thornys.com"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/myrtlebeach-sc-2331/"
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1300 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://restaurants.ihop.com/en-us/sc/myrtle-beach/breakfast-1300-s-kings-hwy-500"
+  },
+  {
+   "name": "Thai Cuisine & Sushi Bar",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1208 North Kings Highway, 29577, Myrtle Beach",
+   "website": "https://thaicuisinemb.com/"
+  },
+  {
+   "name": "LongHorn Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "1180 Oak Forest Lane, 29577, Myrtle Beach",
+   "website": "https://www.longhornsteakhouse.com/locations/sc/myrtle-beach/myrtle-beach-coastal-grand-mall/5239"
+  },
+  {
+   "name": "Bob Evans",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3384 Waccamaw Boulevard, 29579, Myrtle Beach",
+   "website": "https://www.bobevans.com/locations/myrtle-beach"
+  },
+  {
+   "name": "Thai-Lao Restaurant",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1210 North Kings Highway, 29577, Myrtle Beach",
+   "website": "https://www.thai-lao-restaurant.com/"
+  },
+  {
+   "name": "Tu Taco",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1343 North Kings Highway, 29577",
+   "website": "https://tutacoshops.com/"
+  },
+  {
+   "name": "Lemongrass",
+   "cuisines": [
+    "Vietnamese",
+    "Thai"
+   ],
+   "address": "1943 Mr. Joe White Avenue, 29577, Myrtle Beach",
+   "website": "https://www.lemongrasseatery.com/"
+  },
+  {
+   "name": "Eggs Up Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1289 38th Avenue North, 29577, Myrtle Beach",
+   "website": "https://locations.eggsupgrill.com/sc/myrtle-beach/4/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "901 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://locations.pizzahut.com/sc/myrtle-beach/901-s-kings-hwy"
+  },
+  {
+   "name": "Carolina Roadhouse",
+   "cuisines": [
+    "Regional"
+   ],
+   "address": "4617 North Kings Highway, 29577, Myrtle Beach",
+   "website": "https://carolinaroadhouse.com/"
+  },
+  {
+   "name": "Reggae Island Grill",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "803 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://www.reggaeislandgrillmb.com/"
+  },
+  {
+   "name": "Nine Spices Hot Pot & BBQ",
+   "cuisines": [
+    "Korean",
+    "Hotpot"
+   ],
+   "address": "1509 North Kings Highway, 29577, Myrtle Beach",
+   "website": "https://www.doordash.com/store/nine-spices-hot-pot-and-korean-bbq-myrtle-beach-32098425/"
+  },
+  {
+   "name": "Capriccio",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1285 38th Avenue North, 29577, Myrtle Beach",
+   "website": "https://eatcapriccio.com/"
+  },
+  {
+   "name": "Thai Bistro",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1225 38th Avenue North, 29577, Myrtle Beach",
+   "website": "http://www.thethaibistro.com/"
+  },
+  {
+   "name": "Jimmy Buffett's Margaritaville",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1114 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "https://www.margaritavillemyrtlebeach.com"
+  },
+  {
+   "name": "Pizza de Roma",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "806 North Oak Street, 29577, Myrtle Beach",
+   "website": "https://pizzaderomasc.com/"
+  },
+  {
+   "name": "Taste of Asia Buffet",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1293 38th Avenue North, 29577, Myrtle Beach",
+   "website": "https://www.tasteofasiabuffet.com/"
+  },
+  {
+   "name": "Captain George's Seafood Restaurant",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1401 29th Avenue North, 29577, Myrtle Beach",
+   "website": "https://captaingeorges.com"
+  },
+  {
+   "name": "Paradise Pancake & Omelette House",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "1201 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://paradisepancakehouse.com/"
+  },
+  {
+   "name": "Pan American Pancake & Omelette House",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1305 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://panamericanpancake.com/"
+  },
+  {
+   "name": "Plantations House of Pancakes",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "1501 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://plantationpancakes.com/"
+  },
+  {
+   "name": "Angelo's Steak & Pasta",
+   "cuisines": [
+    "Pasta",
+    "Steak House"
+   ],
+   "address": "2311 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://angelosteakandpasta.com/"
+  },
+  {
+   "name": "Shoney's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://www.shoneys.com/locations/sc/myrtle-beach"
+  },
+  {
+   "name": "Sharkey's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "600 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://sharkeysclub.com/"
+  },
+  {
+   "name": "Art Burgers",
+   "cuisines": [
+    "Burger",
+    "Sushi"
+   ],
+   "address": "700 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://www.artburgerbar.com/"
+  },
+  {
+   "name": "Villa Romana",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "707 South Kings Highway, 29577, Myrtle Beach",
+   "website": "https://www.villaromanamyrtlebeach.com/"
+  },
+  {
+   "name": "Yamato",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "1213 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "https://www.yamatoinc.com/Broadway.html"
+  },
+  {
+   "name": "Marco Polo Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "513 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://www.marcopolomenu.com/"
+  },
+  {
+   "name": "King Kong Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1306 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "https://www.kingkongsushi.com/"
+  },
+  {
+   "name": "Joe's Crab Shack",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1219 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Cracker Barrel",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1208 North Retail Court, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Red Robin",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1218 North Retail Court, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "868 Oak Forest Lane, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Logan's Roadhouse",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1136 Oak Forest Lane, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1230 North Retail Court, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Hooters",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "3901 North Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "4401 North Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "The Melting Pot",
+   "cuisines": [
+    "Fondue"
+   ],
+   "address": "5001 North Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Denny's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "800 South Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Dave & Buster's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1322 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Wahlburgers",
+   "cuisines": [
+    "Burger",
+    "Bar And Grill"
+   ],
+   "address": "1320 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Toscana Italian Kitchen and Bar",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "2703 North Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Landry's Seafood House",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1312 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "99 Bar & Grill",
+   "cuisines": [
+    "American",
+    "Pizza",
+    "Burger"
+   ],
+   "address": "703 South Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Rioz Brazilian Steakhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2920 Hollywood Drive, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Lulu’s Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1903 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Fuddruckers",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burger Paradise",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "906 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Ho Wah Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "409 South Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Wok Express",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1110 South Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Good Time Charley's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1302 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Shawarma King",
+   "cuisines": [
+    "Mediterranean"
+   ],
+   "address": "715 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Friendly's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hard Rock Cafe",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mellow Mushroom",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Godfather's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Texas Roadhouse",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Maryland Fried Chicken",
+   "cuisines": [
+    "Chicken",
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olive Garden",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Calabash Seafood",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Japanese Hibatchi and Sushi",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Chef",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Abuelo's",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ramando's Italian Grill",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Cerro Mexican Bar & Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Masala Bistro",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Medieval Times",
+   "cuisines": [],
+   "address": "2904 Fantasy Way, 29579, Myrtle Beach",
+   "website": "https://www.medievaltimes.com/"
+  },
+  {
+   "name": "Boathouse Waterway Bar & Grill",
+   "cuisines": [],
+   "address": "201 Fantasy Harbour Boulevard, 29579, Myrtle Beach",
+   "website": "https://www.landingmb.com/"
+  },
+  {
+   "name": "Grumpy Monk",
+   "cuisines": [],
+   "address": "1317 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "https://www.grumpymonkmyrtlebeach.com/"
+  },
+  {
+   "name": "Pier 14 Restaurant",
+   "cuisines": [],
+   "address": "1306 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://pier14.com/"
+  },
+  {
+   "name": "PopStroke",
+   "cuisines": [],
+   "address": "1187 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "https://popstroke.com/venues/myrtle-beach/"
+  },
+  {
+   "name": "Mad Myrtle's Ice Creamery",
+   "cuisines": [],
+   "address": "918 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://madmyrtles.com/"
+  },
+  {
+   "name": "Simply Southern Smokehouse",
+   "cuisines": [],
+   "address": "1913 Mr. Joe White Avenue, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Moe Moon’s",
+   "cuisines": [],
+   "address": "990 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Paula Deen's Family Kitchen",
+   "cuisines": [],
+   "address": "1202 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Big Mike’s Soul Food",
+   "cuisines": [],
+   "address": "504 16th Avenue North, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Key West Grill",
+   "cuisines": [],
+   "address": "1214 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Queen Deli & Happy Scooter",
+   "cuisines": [],
+   "address": "311 3rd Avenue South, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Señor Frogs",
+   "cuisines": [],
+   "address": "1304 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Paradise Creamery",
+   "cuisines": [],
+   "address": "904 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Big Daddy's Roadhouse Grill",
+   "cuisines": [],
+   "address": "1610 South Kings Highway, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Sweet Carolina's",
+   "cuisines": [],
+   "address": "1207 Celebrity Circle, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "8th Avenue Tiki Bar & Grill",
+   "cuisines": [],
+   "address": "708 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "The Patio Cafe",
+   "cuisines": [],
+   "address": "Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Sole Italian Restaurant",
+   "cuisines": [],
+   "address": "Myrtle Beach",
+   "website": ""
+  },
+  {
+   "name": "Bummz Beach Cafe & Bar",
+   "cuisines": [],
+   "address": "2002 North Ocean Boulevard",
+   "website": ""
+  },
+  {
+   "name": "River City Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Pizza Romana",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Olympic Flame Pancake House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sea Captain's House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sea Trawler",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "GiGi's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Drafts Sports Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "T-Bonz",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Fiesta del Burro Loco",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oceanfront Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Bowery",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ocean Grill & Deli",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Beach House Bar & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Papa's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aladdin Eastern Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Toscana",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Farlo's Burrito Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mr. Fish Seafood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mammy's Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hot Stacks Pancake House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hooks Calabash Seafood",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Ron Jon's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Munchies Pizzeria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Loco Gecko Beach Shak",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Strong Waters",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bandito's Cantina",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jason's Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mamma Mia Pizzeria",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jaybo's Pizza & Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Big League Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Roosters Restaurant & Bar",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Aspen Grille",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Burky's Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sweet South Popcorn Company",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Hang Out",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Peaches Corner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Family Kingdom Amusement Park",
+   "kind": "theme park",
+   "address": "300 South Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://www.familykingdomfun.com/",
+   "phone": "+1-843-626-3447",
+   "latitude": 33.6821398,
+   "longitude": -78.8920094
+  },
+  {
+   "name": "Hollywood Wax Museum",
+   "kind": "attraction",
+   "address": "1808 21st Avenue North, 29577, Myrtle Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7172668,
+   "longitude": -78.8912892
+  },
+  {
+   "name": "Swamp Fox",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.682542,
+   "longitude": -78.89184
+  },
+  {
+   "name": "SkyWheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6938514,
+   "longitude": -78.8773534
+  },
+  {
+   "name": "Wheels of Yesteryear",
+   "kind": "museum",
+   "address": "439 Hospitality Lane, 29579, Myrtle Beach",
+   "website": "https://www.wheelsofyesteryearmb.com/",
+   "phone": "+1 843-903-4774",
+   "latitude": 33.7459277,
+   "longitude": -78.9554692
+  },
+  {
+   "name": "Franklin G. Burroughs - Simeon B. Chapin Art Museum",
+   "kind": "museum",
+   "address": "3100 South Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://myrtlebeachartmuseum.org/",
+   "phone": "+1-843-238-2510",
+   "latitude": 33.6587284,
+   "longitude": -78.9197731
+  },
+  {
+   "name": "Myrtle Beach Colored School Museum and Education Center",
+   "kind": "museum",
+   "address": "900 Dunbar Street, 29577, Myrtle Beach",
+   "website": "https://www.cityofmyrtlebeach.com/i_want_to/find/historic_myrtle_beach_colored_school_museum_and_education_center.php",
+   "phone": "+1-843-918-4905",
+   "latitude": 33.698833,
+   "longitude": -78.8844664
+  },
+  {
+   "name": "The Funplex",
+   "kind": "theme park",
+   "address": "1405 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://thefunplex.com/myrtle-beach/",
+   "phone": "",
+   "latitude": 33.6963951,
+   "longitude": -78.8755122
+  },
+  {
+   "name": "Free Fall Thrill Park",
+   "kind": "theme park",
+   "address": "1201 North Ocean Boulevard, 29577, Myrtle Beach",
+   "website": "https://freefallpark.com/",
+   "phone": "",
+   "latitude": 33.6946856,
+   "longitude": -78.8773995
+  },
+  {
+   "name": "Myrtle Beach Safari Wild Encounters Tour",
+   "kind": "zoo",
+   "address": "Folly Ranch Lane, 29588",
+   "website": "https://myrtlebeachsafari.com",
+   "phone": "+1 843-361-4552",
+   "latitude": 33.6957236,
+   "longitude": -78.970684
+  },
+  {
+   "name": "Ferris Wheel",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.familykingdomfun.com/amusement-park/",
+   "phone": "",
+   "latitude": 33.6813991,
+   "longitude": -78.8912283
+  },
+  {
+   "name": "Bumper Boats",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://www.familykingdomfun.com/family-rides/bumper-boats-water-ride/",
+   "phone": "",
+   "latitude": 33.6807483,
+   "longitude": -78.8925056
+  },
+  {
+   "name": "WonderWorks",
+   "kind": "attraction",
+   "address": "1313 Celebrity Circle, 29577, Myrtle Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7168629,
+   "longitude": -78.8843273
+  },
+  {
+   "name": "Helicopter Adventures",
+   "kind": "attraction",
+   "address": "1860 21st Avenue North, 29577, Myrtle Beach",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7198063,
+   "longitude": -78.8948496
+  },
+  {
+   "name": "Childrens Museum of South Carolina",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7049958,
+   "longitude": -78.8715006
+  },
+  {
+   "name": "Seacoast Local Art Gallery",
+   "kind": "gallery",
+   "address": "3032 Nevers Street",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6684445,
+   "longitude": -78.9400536
+  },
+  {
+   "name": "Go Karts (Figure 8 Track)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6809513,
+   "longitude": -78.8920667
+  },
+  {
+   "name": "Go Karts (Oval Track)",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6819902,
+   "longitude": -78.8922263
+  },
+  {
+   "name": "Ripley's Aquarium",
+   "kind": "aquarium",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.715936,
+   "longitude": -78.8778573
+  },
+  {
+   "name": "Spyglass Adventure Golf",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7160639,
+   "longitude": -78.8564774
+  },
+  {
+   "name": "Galleon",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6816687,
+   "longitude": -78.8911521
+  },
+  {
+   "name": "Scrambler",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6814428,
+   "longitude": -78.8909596
+  },
+  {
+   "name": "Carousel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6833373,
+   "longitude": -78.8929033
+  },
+  {
+   "name": "Yo-Yo",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6817116,
+   "longitude": -78.8917211
+  },
+  {
+   "name": "Tilt-A-Whirl",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6818792,
+   "longitude": -78.8918686
+  },
+  {
+   "name": "Kiddie Speedway",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7188958,
+   "longitude": -78.8912523
+  },
+  {
+   "name": "Treasure Island Miniature Golf",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7234559,
+   "longitude": -78.8474365
+  },
+  {
+   "name": "Pavilion Park Action Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7147893,
+   "longitude": -78.8824086
+  },
+  {
+   "name": "Pavilion Park Fun Park",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7163172,
+   "longitude": -78.8846767
+  },
+  {
+   "name": "Ripley's 5D Moving Theater, Marvalous Mirror Maze & Believe It or Not",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6933972,
+   "longitude": -78.8787747
+  },
+  {
+   "name": "Broadway Grand Prix",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7192749,
+   "longitude": -78.8903045
+  },
+  {
+   "name": "Pirates Voyage",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7644396,
+   "longitude": -78.8086107
+  },
+  {
+   "name": "The Carolina Opry",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7639402,
+   "longitude": -78.807452
+  },
+  {
+   "name": "Fun Plaza",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6923818,
+   "longitude": -78.8793472
+  },
+  {
+   "name": "Arcade",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6927862,
+   "longitude": -78.8789165
+  },
+  {
+   "name": "Ripley's Believe It or Not Museum",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6923415,
+   "longitude": -78.8798102
+  },
+  {
+   "name": "Ripley's Haunted Adventure",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6932683,
+   "longitude": -78.8787899
+  },
+  {
+   "name": "Nightmare Haunted House",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6936258,
+   "longitude": -78.8783818
+  },
+  {
+   "name": "Slick Track",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7184267,
+   "longitude": -78.891077
+  },
+  {
+   "name": "Speed Racer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7181511,
+   "longitude": -78.8905533
+  },
+  {
+   "name": "High Bank Oval",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.718108,
+   "longitude": -78.8902349
+  },
+  {
+   "name": "Grand Prix Express",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7183412,
+   "longitude": -78.8900549
+  },
+  {
+   "name": "Grand Prix Pro",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7184677,
+   "longitude": -78.8896015
+  },
+  {
+   "name": "Kidz Track",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7190307,
+   "longitude": -78.8913772
+  },
+  {
+   "name": "Junior Racer",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7194169,
+   "longitude": -78.8911589
+  },
+  {
+   "name": "Family Track",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7194342,
+   "longitude": -78.8909359
+  },
+  {
+   "name": "Tot Rods",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7182616,
+   "longitude": -78.8898409
+  },
+  {
+   "name": "Pro Tow",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.7182081,
+   "longitude": -78.8898842
+  },
+  {
+   "name": "Jack Axe Throwing",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.6457723,
+   "longitude": -78.9423697
+  },
+  {
+   "name": "Trust Thy Barber",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 33.669406,
+   "longitude": -78.9390694
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "city": "Pellston",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 45.5517,
+ "longitude": -84.7864,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Pellston Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1600 US-31, 49769, Pellston",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Small Town Grill",
+   "cuisines": [],
+   "address": "182 US-31, 49769, Pellston",
+   "website": ""
+  },
+  {
+   "name": "Nancy Kelly’s Restaurant",
+   "cuisines": [],
+   "address": "230 US-31, 49769, Pellston",
+   "website": ""
+  },
+  {
+   "name": "Dam Site Inn",
+   "cuisines": [],
+   "address": "6705 Woodland Road, 49769, Pellston",
+   "website": ""
+  },
+  {
+   "name": "Hoppies Landing",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Pellston Historical Society Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 45.5527497,
+   "longitude": -84.7846641
+  }
+ ]
+}

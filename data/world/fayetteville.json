@@ -1,0 +1,961 @@
+{
+ "city": "Fayetteville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 35.0552,
+ "longitude": -78.8822,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Residence Inn by Marriott Fayetteville Cross Creek",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1468 Skibo Road, 28303, Fayetteville",
+   "url": "https://www.marriott.com/hotels/travel/fayri-residence-inn-fayetteville-cross-creek/"
+  },
+  {
+   "name": "Hampton Inn Fayetteville Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1700 Skibo Road, 28303, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/faycchx-hampton-fayetteville-fort-bragg/"
+  },
+  {
+   "name": "Home2 Suites by Hilton Fayetteville Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4035 Sycamore Dairy Road, 28303, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/faysdht-home2-suites-fayetteville-nc/"
+  },
+  {
+   "name": "Comfort Inn Near Ft. Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1922 Skibo Road, 28314, Fayetteville",
+   "url": "https://www.choicehotels.com/north-carolina/spring-lake/sleep-inn-hotels"
+  },
+  {
+   "name": "Courtyard Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4192 Sycamore Dairy Road, 28303, Fayetteville",
+   "url": "https://www.marriott.com/faych"
+  },
+  {
+   "name": "TownePlace Suites Fayetteville Cross Creek",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1464 Skibo Road, 28303, Fayetteville",
+   "url": "https://www.marriott.com/fayts"
+  },
+  {
+   "name": "SpringHill Suites Fayetteville Fort Liberty",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4750 Lake Valley Drive, 28303, Fayetteville",
+   "url": "https://www.marriott.com/fayfb"
+  },
+  {
+   "name": "Comfort Inn Fayetteville I-95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1569 Jim Johnson Road, 28312, Fayetteville",
+   "url": "https://www.choicehotels.com/north-carolina/spring-lake/sleep-inn-hotels"
+  },
+  {
+   "name": "Sleep Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1915 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.choicehotels.com/north-carolina/spring-lake/sleep-inn-hotels"
+  },
+  {
+   "name": "Super 8 by Wyndham Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1875 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.wyndhamhotels.com/hojo/fayetteville-north-carolina/howard-johnson-fayetteville-i-95/overview"
+  },
+  {
+   "name": "Travelodge Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2076 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.wyndhamhotels.com/travelodge/fayetteville-north-carolina/travelodge-by-wyndham-fayetteville/overview"
+  },
+  {
+   "name": "Days Inn Fayetteville-South/I-95 Exit 49",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2111 Cedar Creek Road, 28312-9547, Fayetteville",
+   "url": "https://www.wyndhamhotels.com/days-inn/fayetteville-north-carolina/days-inn-fayetteville-south-i-95-exit-49/overview"
+  },
+  {
+   "name": "Hampton Inn & Suites Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2065 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/faycehx-hampton-suites-fayetteville/"
+  },
+  {
+   "name": "Days Inn & Suites Fayetteville Northwest Fort Bragg Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1720 Skibo Road, 28308-3253, Fayetteville",
+   "url": "https://www.wyndhamhotels.com/days-inn/fayetteville-north-carolina/days-inn-and-suites-by-wyndham-fort-bragg-cross-creek-mall/overview"
+  },
+  {
+   "name": "Embassy Suites by Hilton Fayetteville Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4760 Lake Valley Drive, 28303, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/fayfbes-embassy-suites-fayetteville-fort-bragg/"
+  },
+  {
+   "name": "Hilton;DoubleTree By Hilton Hotel Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1965 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/faydtdt-doubletree-fayetteville/"
+  },
+  {
+   "name": "Hilton Garden Inn Fayetteville/Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4025 Sycamore Dairy Road, 28303, Fayetteville",
+   "url": "https://www.hilton.com/en/hotels/faynhgi-hilton-garden-inn-fayetteville-fort-bragg/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Fayetteville North",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4249 Ramsey Street, 28311, Fayetteville",
+   "url": "https://www.marriott.com/fayfn"
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1952 Cedar Creek Road, 28312, Fayetteville",
+   "url": "https://www.choicehotels.com/north-carolina/spring-lake/sleep-inn-hotels"
+  },
+  {
+   "name": "Tru by Hilton Fayetteville I 95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2055 Cedar Creek Road, 28312, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Wingate by Wyndham Fayetteville/Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4182 Sycamore Dairy Road, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites by Hilton Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4028 Legend Avenue, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Everhome Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1720 Convoy Lane, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Fayetteville - Cross Creek Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4105 Sycamore Dairy Road, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Candlewood Suites Fayetteville Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4108 Legend Avenue, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America - Fayetteville - Owen Dr.",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "408 Owen Drive, 28304, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Knights Inn Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2848 Bragg Blvd, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2910 Sigman Street, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Deluxe Inn Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2123 Cedar Creek Rd, 28312, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "770 West Rowan Street, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Baymont Inn & Suites Fayetteville I-95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1922 Cedar Creek Road, 28312, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Eastover Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3236 Dunn Road, 28312, Eastover",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn & Suites Fayetteville - Fort Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3136 Bordeaux Park Drive, 28306, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Inn & Suites Fayetteville at Cross Creek Mall",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "562 Cross Creek Mall, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Studio 6 Fayetteville, NC - Fort Bragg Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3719 Bragg Blvd, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Fayetteville West",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1381 Walter Reed Road, 28304, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Affordable Suites Fayetteville / Fort Bragg NC Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4660 Lake Valley Drive, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Regency Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "521 Ramsey Street, 28301, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Tropical Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4306 Bragg Boulevard, 28303, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Cloverleaf Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1353 Dobbin Holmes Road, 28312, Eastover",
+   "url": ""
+  },
+  {
+   "name": "Mt Rose Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2320 Gillespie Street, 28306, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "OYO Hotel Fayetteville S Eastern Boulevard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "525 S Eastern Blvd Fayetteville, 28301, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Ambassador Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2035 South Eastern Boulevard, 28306, Fayetteville",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Fayetteville I-95 South",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Fairfield Inn Fayetteville I-95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Rodeway Inn - Hotel Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6 Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Baymont Inn & Suites Fayetteville Fort Bragg Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express Fayetteville - Ft. Bragg",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Driftwood Budget Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Bel Aire Budget Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Crown Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Coliseum Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Travel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Budget Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Scottish Inn Fayetteville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Roof Inn Fayetteville I-95",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "3041 Boone Trail Extension, 28306, Fayetteville",
+   "website": "https://locations.pizzahut.com/nc/fayetteville/3041-boone-trail"
+  },
+  {
+   "name": "Wing Co. Express",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "132 Person Street, 28301, Fayetteville",
+   "website": "https://www.thewingcoexpress.com/"
+  },
+  {
+   "name": "Ichi Kaku",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "350 North Eastern Boulevard, 28301, Fayetteville",
+   "website": "https://ichi-kaku.order.infi.us/"
+  },
+  {
+   "name": "Hunan Garden Chinese Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "2726 Raeford Road, 28303, Fayetteville",
+   "website": "https://www.fayettevillehunangarden.com/"
+  },
+  {
+   "name": "Latitude 35 Bar and Grill",
+   "cuisines": [
+    "American",
+    "Seafood",
+    "Caribbean"
+   ],
+   "address": "1217 Hay Street, 28305, Fayetteville",
+   "website": "https://latitude35fay.com/"
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://locations.wafflehouse.com/fayetteville-nc-1434/"
+  },
+  {
+   "name": "Agora Mediterranean Restaurant",
+   "cuisines": [
+    "Greek"
+   ],
+   "address": "107 Person Street, 28301, Fayetteville",
+   "website": "https://www.facebook.com/people/Agora-Fayetteville-NC/100095259339103/"
+  },
+  {
+   "name": "Archway Burgers, Dogs, And Beer",
+   "cuisines": [
+    "American"
+   ],
+   "address": "113 Person Street, 28301, Fayetteville",
+   "website": "https://archwayburgersdogsandbeer.com/"
+  },
+  {
+   "name": "Haymount Truckstop",
+   "cuisines": [
+    "American",
+    "Grill"
+   ],
+   "address": "100 Broadfoot Avenue, 28305, Fayetteville",
+   "website": "https://www.haymounttruckstop.com/"
+  },
+  {
+   "name": "The Coffee Scene at Prince Charles",
+   "cuisines": [
+    "Coffee Shop",
+    "Ice Cream"
+   ],
+   "address": "450 Hay Street, 28301, Fayetteville",
+   "website": "https://www.instagram.com/tcsprincecharles/"
+  },
+  {
+   "name": "Thai Lanna",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": "https://thailannanc.com"
+  },
+  {
+   "name": "North Atlantic Fish & Chips",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1203 Bragg Boulevard, 28301, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "NY Supreme Steamers",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "1047 Murchinson Road, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "Pierros Bistro",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "217 Hay Street, 28301, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "Antonella's Ristorante",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "300 Hay Street, 28301, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "McAlister's Deli",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mi Casita",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Vibe Gastropub",
+   "cuisines": [],
+   "address": "131 Hay Street, 28301, Fayetteville",
+   "website": "https://www.instagram.com/vibe.gastropub/"
+  },
+  {
+   "name": "Saigon Bistro",
+   "cuisines": [],
+   "address": "1040 Bragg Boulevard, 28301, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "Fuller's Old Fashion BBQ",
+   "cuisines": [],
+   "address": "113 North Eastern Boulevard, 28301, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "Parkton Grill",
+   "cuisines": [],
+   "address": "1070 Southern Avenue, 28306, Fayetteville",
+   "website": ""
+  },
+  {
+   "name": "Rudolph Jones Dining Hall",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Bronco Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sandpiper Seafood Buffet",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Binkie's Pizza & WIngs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "China Garden",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Airborne and Special Operations Museum",
+   "kind": "museum",
+   "address": "100 Bragg Boulevard, Fayetteville",
+   "website": "https://www.asomf.org/",
+   "phone": "+1 910-643-2778",
+   "latitude": 35.0559368,
+   "longitude": -78.8855518
+  },
+  {
+   "name": "Cape Fear Botanical Garden",
+   "kind": "attraction",
+   "address": "536 North Eastern Boulevard, 28301, Fayetteville",
+   "website": "https://www.capefearbg.org/",
+   "phone": "+1-910-486-0221",
+   "latitude": 35.0548518,
+   "longitude": -78.858708
+  },
+  {
+   "name": "Edgar Allen Poe's House",
+   "kind": "museum",
+   "address": "206 Bradford Avenue",
+   "website": "https://museumofthecapefear.ncdcr.gov/1897-poe-house",
+   "phone": "",
+   "latitude": 35.0541864,
+   "longitude": -78.8927515
+  },
+  {
+   "name": "Market House",
+   "kind": "attraction",
+   "address": "50 Market Square, Fayetteville",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0525657,
+   "longitude": -78.878304
+  },
+  {
+   "name": "Independent Light Infantry Museum",
+   "kind": "museum",
+   "address": "210 Burgess Street, 28301, Fayetteville",
+   "website": "https://www.fili1793.com/",
+   "phone": "+1-910-433-1457",
+   "latitude": 35.0542914,
+   "longitude": -78.880747
+  },
+  {
+   "name": "Museum of the Cape Fear",
+   "kind": "museum",
+   "address": "801 Arsenal Avenue, Fayetteville",
+   "website": "https://museumofthecapefear.ncdcr.gov/",
+   "phone": "+1 910-486-1330",
+   "latitude": 35.0545276,
+   "longitude": -78.8926444
+  },
+  {
+   "name": "The Art Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.theartscouncil.com/",
+   "phone": "",
+   "latitude": 35.0532463,
+   "longitude": -78.8812468
+  },
+  {
+   "name": "Clark Park Nature Center",
+   "kind": "museum",
+   "address": "",
+   "website": "https://www.fcpr.us/parks-trails/parks/clark-park",
+   "phone": "",
+   "latitude": 35.0884481,
+   "longitude": -78.8686443
+  },
+  {
+   "name": "Cape Fear River Trail",
+   "kind": "attraction",
+   "address": "631 Sherman Drive, Fayetteville",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0881135,
+   "longitude": -78.8707632
+  },
+  {
+   "name": "Fascinate-U Children’s Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0530973,
+   "longitude": -78.8777495
+  },
+  {
+   "name": "Clark Park Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 35.0884399,
+   "longitude": -78.8685863
+  }
+ ]
+}

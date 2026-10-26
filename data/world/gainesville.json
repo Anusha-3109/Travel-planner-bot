@@ -1,0 +1,1366 @@
+{
+ "city": "Gainesville",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 29.6476,
+ "longitude": -82.3248,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton Inn & Suites Gainesville-Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "101 Southeast 1st Avenue, 32601, Gainesville",
+   "url": "https://www.hilton.com/en/hotels/gnvdthx-hampton-suites-gainesville-downtown/"
+  },
+  {
+   "name": "Days Inn by Wyndham Gainesville University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1901 Southwest 13th Street, 32608, Gainesville",
+   "url": "https://www.wyndhamhotels.com/days-inn/gainesville-florida/days-inn-gainesville-university/overview"
+  },
+  {
+   "name": "Courtyard Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3700 Southwest 42nd Street, 32608, Gainesville",
+   "url": "https://www.marriott.com/gnvcy"
+  },
+  {
+   "name": "La Quinta Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "908 Northwest 69th Terrace, 32607:32608, Gainesville",
+   "url": "https://www.wyndhamhotels.com/laquinta/gainesville-florida/la-quinta-gainesville-fl/overview"
+  },
+  {
+   "name": "Days Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "920 Northwest 69 th Terrace, 32605, Gainesville",
+   "url": "https://www.wyndhamhotels.com/days-inn/gainesville-florida/days-inn-gainesville-universityi-75/overview"
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3440 Southwest 40th Boulevard, 32608, Gainesville",
+   "url": "https://www.choicehotels.com/florida/gainesville/sleep-inn-hotels"
+  },
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4225 Southwest 40th Boulevard, 32608, Gainesville",
+   "url": "https://www.hilton.com/en/hotels/gnvflhx-hampton-gainesville/"
+  },
+  {
+   "name": "Reitz Union Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "686 Museum Road, 32611, Gainesville",
+   "url": "https://union.ufl.edu/hotel/"
+  },
+  {
+   "name": "Super 8",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4202 Southwest 40th Boulevard, 32608-2306, Gainesville",
+   "url": "http://www.super8.com/hotels/florida/gainesville/super-8-gainesville/hotel-overview"
+  },
+  {
+   "name": "Hyatt Place Gainesville Downtown",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "212 Southeast 1st Street, 32601, Gainesville",
+   "url": "https://www.hyatt.com/en-us/hotel/florida/hyatt-place-gainesville-downtown/gnvzg"
+  },
+  {
+   "name": "Residence Inn Gainesville I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3275 Southwest 40th Boulevard, 32608, Gainesville",
+   "url": "https://www.marriott.com/gnvgi"
+  },
+  {
+   "name": "Home2 Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2115 Southwest 13th Street, 32608, Gainesville",
+   "url": "https://www.hilton.com/en/hotels/gnvthht-home2-suites-gainesville-medical-center/"
+  },
+  {
+   "name": "TownePlace Suites Gainesville Northwest",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "7451 West Newberry Road, 32605, Gainesville",
+   "url": "https://www.marriott.com/gnvnw"
+  },
+  {
+   "name": "DoubleTree",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3726 Southwest 40th Boulevard, 32608, Gainesville",
+   "url": "https://www.hilton.com/en/hotels/gnvgldt-doubletree-gainesville/"
+  },
+  {
+   "name": "Baymont Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "6901 Northwest 4th Boulevard, 32607, Gainesville",
+   "url": "https://www.wyndhamhotels.com/baymont/gainesville-florida/baymont-inn-and-suites-gainesville/overview"
+  },
+  {
+   "name": "Rodeway Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3459 Williston Road, 32608, Gainesville",
+   "url": "https://www.choicehotels.com/florida/gainesville/sleep-inn-hotels"
+  },
+  {
+   "name": "Country Inn & Suites, Gainesville, FL",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4015 Southwest 43rd Street, 32608, Gainesville",
+   "url": "https://www.choicehotels.com/florida/gainesville/sleep-inn-hotels"
+  },
+  {
+   "name": "Hilton Garden Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4075 Southwest 33rd Place, 32608, Gainesville",
+   "url": "https://www.hilton.com/en/hotels/gnvgfgi-hilton-garden-inn-gainesville/"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2603 Southwest 13th Street, 32608, Gainesville",
+   "url": "https://www.choicehotels.com/florida/gainesville/sleep-inn-hotels"
+  },
+  {
+   "name": "SpringHill Suites Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "32608, Gainesville",
+   "url": "https://www.marriott.com/gnvsh"
+  },
+  {
+   "name": "Sleep Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "4110 Southwest 40th Boulevard, Gainesville",
+   "url": "https://www.choicehotels.com/florida/gainesville/sleep-inn-hotels"
+  },
+  {
+   "name": "Fairfield Inn & Suites Gainesville I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "32608, Gainesville",
+   "url": "https://www.marriott.com/gnvsw"
+  },
+  {
+   "name": "Frederick Gardens",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1405 SW 10th Ter",
+   "url": "https://www.frederickgardens.com"
+  },
+  {
+   "name": "Cooperative Living Organization",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://cloliving.org"
+  },
+  {
+   "name": "Lakewood Villas Apartment",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "700 SW 62nd Blvd., Gainesville, FL 32607",
+   "url": "https://www.lakewoodvillas.com/"
+  },
+  {
+   "name": "The Palms",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": "https://gnvcitycenter.com/"
+  },
+  {
+   "name": "Holiday Inn Gainesville University Center",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1250 West University Avenue, 32601, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "Red Roof PLUS+ Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3500 Southwest 42nd Street, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "Extended Stay America",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "3600 Southwest 42nd Street, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "WoodSpring Suites Gainesville I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "5505 Southwest 41st Boulevard, 32608, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "Stayable Select",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2900 Southwest 13th Street, 32608, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn University",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2435 Southwest 13th Street, 32608, Gainesville",
+   "url": ""
+  },
+  {
+   "name": "Hotel Indigo Gainesville-Celebration Pointe",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Drury Inn & Suites Gainesville",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Express & Suites Gainesville I-75",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Homewood Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "AC Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hotel Eleo",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hilton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Econo Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Aloft Gainesville University Area",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "hōm hotel + suites a Trademark",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Gainesville Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Sweetwater Branch Inn",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Trabajo Ricky",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ricky ( A step above)",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Ani casa Ricky",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Amber’s House",
+   "price": null,
+   "room_type": "Entire home/apt",
+   "kind": "apartment",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Piesanos",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1250 West University Avenue, 32601, Gainesville",
+   "website": "https://piesanostogo.com/"
+  },
+  {
+   "name": "Germain's Chicken Sandwiches",
+   "cuisines": [
+    "American",
+    "Chicken",
+    "Sandwich"
+   ],
+   "address": "220 Northwest 8th Avenue, 332601-4621, Gainesville",
+   "website": "https://www.germainsgnv.com"
+  },
+  {
+   "name": "Sushi-2-Go",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "1412 West University Avenue, 32603, Gainesville",
+   "website": "https://www.sushi-2-go.com"
+  },
+  {
+   "name": "El Indio",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "407 Northwest 13th Street, 32601, Gainesville",
+   "website": "https://eatelindio.com/"
+  },
+  {
+   "name": "Bento",
+   "cuisines": [
+    "Asian",
+    "Sushi",
+    "Chinese",
+    "Japanese"
+   ],
+   "address": "150 Northwest 13th Street, 32601, Gainesville",
+   "website": "https://eatatbento.com/locations/gainesville-midtown/"
+  },
+  {
+   "name": "Sweetberries",
+   "cuisines": [
+    "Sandwich",
+    "Custard"
+   ],
+   "address": "619 Northwest 5th Avenue, 32601, Gainesville",
+   "website": "https://sweetberries.com/gainesville/on-5th-ave/"
+  },
+  {
+   "name": "Mi Apá",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "114 Southwest 34th Street, 32607, Gainesville",
+   "website": "https://miapalatincafe.com/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1005 NW 13th St, 32601, Gainesville",
+   "website": "https://restaurants.applebees.com/en-us/fl/gainesville/1005-n-w-13th-street-89000"
+  },
+  {
+   "name": "Momoyaki",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "1624 Southwest 13th Street, 32608",
+   "website": "https://momoyaki.com/"
+  },
+  {
+   "name": "Muñecas Taco Garden and Bar",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "317 Southwest 4th Avenue, 32601, Gainesville",
+   "website": "https://munecasdowntown.com"
+  },
+  {
+   "name": "Tinker Latin Street Food",
+   "cuisines": [
+    "Latin American"
+   ],
+   "address": "502 South Main Street, 32601",
+   "website": "https://tinkerfoodtruck.com/"
+  },
+  {
+   "name": "Harry's",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "110 Southeast 1st Street, 32601",
+   "website": "https://hookedonharrys.com/location/gainesville/"
+  },
+  {
+   "name": "Gator Suyaki",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "3830 Southwest 13th Street, 32608, Gainesville",
+   "website": "https://www.gatorsuyakifl.com/"
+  },
+  {
+   "name": "Hogan's Great Sandwiches",
+   "cuisines": [
+    "Deli"
+   ],
+   "address": "2327 Northwest 13th Street, 32609, Gainesville",
+   "website": "https://www.hogansgreatsandwiches.com/"
+  },
+  {
+   "name": "V Pizza & SideCar",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "115 Southeast 1st Street, 32601, Gainesville",
+   "website": "https://www.vpizza.com/"
+  },
+  {
+   "name": "Seoul Pocha",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "3610 Southwest 13th Street, 32608",
+   "website": "https://seoulpochafl.com/"
+  },
+  {
+   "name": "Original American Kitchen",
+   "cuisines": [
+    "Southern"
+   ],
+   "address": "15 Southeast 1st Avenue, 32601, Gainesville",
+   "website": "https://www.oakgainesville.com"
+  },
+  {
+   "name": "Pleasant Street Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "308 Northwest 5th Avenue, 32601, Gainesville",
+   "website": "https://www.facebook.com/PleasantStrPizza"
+  },
+  {
+   "name": "Satchel's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1800 Northeast 23rd Avenue, 32609, Gainesville",
+   "website": "https://www.satchelspizza.com/"
+  },
+  {
+   "name": "The Swamp Restaurant",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1104 Southwest 2nd Avenue, 32601, Gainesville",
+   "website": "https://www.swamprestaurant.com"
+  },
+  {
+   "name": "La Tienda",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "2204 Southwest 13th Street, 32606, Gainesville",
+   "website": "http://latiendagainesville.com"
+  },
+  {
+   "name": "Kabab House",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "2022 SW 34th St, 32608, Gainesville",
+   "website": "https://kababhousegainesville.com/"
+  },
+  {
+   "name": "Frenchman Street Food",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "439 South Main Street, 32601, Gainesville",
+   "website": "https://frenchmenstreetgnv.com"
+  },
+  {
+   "name": "G'ville Seafood N' Chicken",
+   "cuisines": [
+    "Chicken",
+    "Seafood"
+   ],
+   "address": "2224 East University Avenue, 32641",
+   "website": "https://www.gvilleseafood.com/"
+  },
+  {
+   "name": "Las Carretas Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3501 Southwest 2nd Avenue, 32607",
+   "website": "https://www.lascarretasmexicanrest.com/"
+  },
+  {
+   "name": "Bolay",
+   "cuisines": [
+    "American"
+   ],
+   "address": "50 Northwest 13th Street, 32603",
+   "website": "https://bolay.com/"
+  },
+  {
+   "name": "Burrito Factory & Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "7 Southeast 1st Avenue, 32601, Gainesville",
+   "website": "https://burritosfactory.com"
+  },
+  {
+   "name": "Mildred's Big City Food",
+   "cuisines": [
+    "American",
+    "Fine Dining"
+   ],
+   "address": "3445 West University Avenue, 32607",
+   "website": "https://www.mildredsbigcityfood.com/"
+  },
+  {
+   "name": "Reggae Shack Cafe",
+   "cuisines": [
+    "Jamaican"
+   ],
+   "address": "619 West University Avenue, 32601",
+   "website": "https://reggaeshackcafe.com/"
+  },
+  {
+   "name": "Bluegill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "1310 Southwest 13th Street, 32601",
+   "website": "https://bluegillqualityfoods.com/"
+  },
+  {
+   "name": "Flaco's Cuban Bakery",
+   "cuisines": [
+    "Cuban"
+   ],
+   "address": "200 West University Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Bagels & Noodles",
+   "cuisines": [
+    "Thai",
+    "Breakfast"
+   ],
+   "address": "1222 West University Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Sonny's BBQ",
+   "cuisines": [
+    "Barbecue"
+   ],
+   "address": "2700 Northeast Waldo Road, 32609, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Squarehouse Pizza",
+   "cuisines": [
+    "Detroit Style Pizza"
+   ],
+   "address": "405 Southwest 4th Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Tuptim Thai and Sushi",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "1228 West University Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Humble Wood Fire Bagel Shop",
+   "cuisines": [
+    "Bagel"
+   ],
+   "address": "307 Southwest 4th Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Humble Wood Fire Pizzaria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "619 South Main Street, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Cry Baby's",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1 West University Avenue",
+   "website": ""
+  },
+  {
+   "name": "Burrito Famous",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3412 West University Avenue, 32607, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Rock N Roll",
+   "cuisines": [
+    "Crepe"
+   ],
+   "address": "1025 West University Avenue, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Papa Johns",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1710 Southwest 13th Street, 32608, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Pho House",
+   "cuisines": [
+    "Vietnamese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "IHOP",
+   "cuisines": [
+    "Breakfast",
+    "Pancake"
+   ],
+   "address": "Gainesville",
+   "website": ""
+  },
+  {
+   "name": "New Deal",
+   "cuisines": [
+    "American"
+   ],
+   "address": "3445 W University Ave, 32607",
+   "website": ""
+  },
+  {
+   "name": "Waffle House",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Saffron Spice",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Wild Blue Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Liquid Ginger",
+   "cuisines": [
+    "Asian Fusion",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Dragonfly Sushi Company",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Halal Shack",
+   "cuisines": [
+    "Middle Eastern"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "New Wok",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Relish",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sus-Hi Eatstation",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Amelia’s",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K-INACUP",
+   "cuisines": [
+    "Korean"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Jefe's Mexican Cantina",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Grill Express",
+   "cuisines": [
+    "Kebab"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hurricane BTW (Burgers+Tacos+Wings)",
+   "cuisines": [
+    "Burger",
+    "Tacos",
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taco Bell",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Poke Bowl Station",
+   "cuisines": [
+    "Poke"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Spot",
+   "cuisines": [
+    "Greek",
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Public & General",
+   "cuisines": [],
+   "address": "1000 Northeast 16th Avenue, 32601, Gainesville",
+   "website": "https://www.publicandgeneral.com/"
+  },
+  {
+   "name": "Boca Fiesta",
+   "cuisines": [],
+   "address": "232 Southeast 1st Street, 32601, Gainesville",
+   "website": "https://www.bocafiesta.com/"
+  },
+  {
+   "name": "The Fresh Food Company",
+   "cuisines": [],
+   "address": "596 Broward Drive, 32611, Gainesville",
+   "website": "https://gatordining.com/fresh-food-company-menu/"
+  },
+  {
+   "name": "Parkside Sandwich & Shoppe",
+   "cuisines": [],
+   "address": "201 Southeast Depot Avenue, 32601",
+   "website": "https://www.thedepotstation.com/parkside"
+  },
+  {
+   "name": "Metro Diner",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Caribbean Queen",
+   "cuisines": [],
+   "address": "507 Northwest 5th Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "Claudie's",
+   "cuisines": [],
+   "address": "5 Southeast Second Avenue, 32601, Gainesville",
+   "website": ""
+  },
+  {
+   "name": "East End Eatery",
+   "cuisines": [],
+   "address": "1202 NE 8th Ave, 32601",
+   "website": ""
+  },
+  {
+   "name": "The Top",
+   "cuisines": [],
+   "address": "30 N Main St., 32601",
+   "website": ""
+  },
+  {
+   "name": "Chopstix",
+   "cuisines": [],
+   "address": "3500 Southwest 13th Street, 32601",
+   "website": ""
+  },
+  {
+   "name": "Pleasant Street Pizza Pub",
+   "cuisines": [],
+   "address": "603 NW 6th St",
+   "website": ""
+  },
+  {
+   "name": "Superette Wine, Bar, Cafe",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Clock Family Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Afternoon Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Leonardo's 706",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Superette",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tikka Express",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Swamp Religion",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Good Berry Acai Bowls",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jersey Mikes",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marco's Pizza",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Harn Museum of Art",
+   "kind": "museum",
+   "address": "3259 Hull Road, 32611, Gainesville",
+   "website": "https://harn.ufl.edu/",
+   "phone": "+1-352-392-9826",
+   "latitude": 29.6369265,
+   "longitude": -82.3704188
+  },
+  {
+   "name": "Ben Hill Griffin Stadium",
+   "kind": "attraction",
+   "address": "157 Gale Lemerand Drive, 32611, Gainesville",
+   "website": "https://floridagators.com/facilities/?id=1",
+   "phone": "+1-352-375-4683",
+   "latitude": 29.6500337,
+   "longitude": -82.3488406
+  },
+  {
+   "name": "Ring of Honor",
+   "kind": "attraction",
+   "address": "Gainesville",
+   "website": "https://floridagators.com/sports/2015/12/10/_facilities_q_bhgriffin_ring_honor.aspx",
+   "phone": "",
+   "latitude": 29.650811,
+   "longitude": -82.3486245
+  },
+  {
+   "name": "Florida Museum of Natural History",
+   "kind": "museum",
+   "address": "3215 Hull Road, 32611, Gainesville",
+   "website": "https://www.floridamuseum.ufl.edu/",
+   "phone": "+1-352-846-2000",
+   "latitude": 29.6359398,
+   "longitude": -82.3703895
+  },
+  {
+   "name": "Century Tower",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://arts.ufl.edu/sites/carillon-studio/photo-galleries/century-tower/",
+   "phone": "",
+   "latitude": 29.6488138,
+   "longitude": -82.3433213
+  },
+  {
+   "name": "A. Quinn Jones House",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6573622,
+   "longitude": -82.3354697
+  },
+  {
+   "name": "Bat House",
+   "kind": "attraction",
+   "address": "Museum Road, 32611, Gainesville",
+   "website": "https://www.floridamuseum.ufl.edu/bats/",
+   "phone": "",
+   "latitude": 29.6442358,
+   "longitude": -82.3627708
+  },
+  {
+   "name": "Heritage Hall",
+   "kind": "museum",
+   "address": "105 Gale Lemerand Drive, 32611, Gainesville",
+   "website": "https://www.gatorboosters.org/",
+   "phone": "+1-352-375-4683",
+   "latitude": 29.6511078,
+   "longitude": -82.3486199
+  },
+  {
+   "name": "Matheson History Museum",
+   "kind": "museum",
+   "address": "513 East University Avenue, 32601, Gainesville",
+   "website": "https://mathesonmuseum.org/",
+   "phone": "",
+   "latitude": 29.6516236,
+   "longitude": -82.3202791
+  },
+  {
+   "name": "Gatorade's Birthplace",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://explore.research.ufl.edu/historical-markers/gatorades-birthplace/",
+   "phone": "",
+   "latitude": 29.6500025,
+   "longitude": -82.3502872
+  },
+  {
+   "name": "4Most Gallery",
+   "kind": "gallery",
+   "address": "",
+   "website": "https://www.4mostgallery.com",
+   "phone": "",
+   "latitude": 29.6485182,
+   "longitude": -82.3307153
+  },
+  {
+   "name": "Cade Museum for Creativity and Invention",
+   "kind": "museum",
+   "address": "811 S Main St, 32601, Gainesville",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6436353,
+   "longitude": -82.324918
+  },
+  {
+   "name": "Skate Station",
+   "kind": "theme park",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6660977,
+   "longitude": -82.4261336
+  },
+  {
+   "name": "The Gainesville Solar Walk",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6593965,
+   "longitude": -82.3721055
+  },
+  {
+   "name": "Cotton Club Museum and Cultural Center",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6455797,
+   "longitude": -82.3153778
+  },
+  {
+   "name": "Alachua Lake Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.5996918,
+   "longitude": -82.2933772
+  },
+  {
+   "name": "The Fred Bear Archery Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6102613,
+   "longitude": -82.3838622
+  },
+  {
+   "name": "Observation Tower",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.592821,
+   "longitude": -82.3091105
+  },
+  {
+   "name": "WARPHaus",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6484629,
+   "longitude": -82.3306846
+  },
+  {
+   "name": "Sweetwater Print Cooperative",
+   "kind": "gallery",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 29.6504093,
+   "longitude": -82.3248216
+  }
+ ]
+}

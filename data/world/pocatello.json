@@ -1,0 +1,575 @@
+{
+ "city": "Pocatello",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 42.8618,
+ "longitude": -112.4378,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Hampton",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "151 Vista Drive, 83201, Pocatello",
+   "url": "https://www.hilton.com/en/hotels/pihidhx-hampton-suites-pocatello/"
+  },
+  {
+   "name": "TownePlace Suites Pocatello",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2376 Via Caporatti Drive, 83201, Pocatello",
+   "url": "https://www.marriott.com/idats"
+  },
+  {
+   "name": "Holiday Inn Express & Suites Pocatello",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "200 Via Venitio, 83201, Pocatello",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pocatello/pihex/hoteldetail"
+  },
+  {
+   "name": "Best Western",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1415 Bench Road, 83201-2444, Pocatello",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-pocatello/best-western-pocatello-inn/propertyCode.13032.html"
+  },
+  {
+   "name": "Super 8 by Wyndham Pocatello",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1330 Bench Road, 83201, Pocatello",
+   "url": "https://www.wyndhamhotels.com/super-8/pocatello-idaho/super-8-pocatello/overview"
+  },
+  {
+   "name": "Courtyard",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "290 Vista Drive, 83201, Pocatello",
+   "url": "https://www.marriott.com/idapc"
+  },
+  {
+   "name": "Fairfield Inn and Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "205 Via Venitio, 83201, Pocatello",
+   "url": "https://www.marriott.com/idafp"
+  },
+  {
+   "name": "Ramada",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Red Lion Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Motel 6",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Comfort Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Black Swan Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Clarion Inn Pocatello",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "AmeriTel Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "The Monarch Hotel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Thunderbird Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Palate Neighborhood Bistro",
+   "cuisines": [
+    "Bistro"
+   ],
+   "address": "1015 North 10th Avenue, 83201-5247, Pocatello",
+   "website": "https://www.palatestreetbistro.com/"
+  },
+  {
+   "name": "New Hong Kong",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "107 North 5th Avenue, 83201, Pocatello",
+   "website": "https://www.pocatellonewhongkong.com/"
+  },
+  {
+   "name": "Pizza Hut",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "945 South 5th Avenue, 83201, Pocatello",
+   "website": "https://locations.pizzahut.com/id/pocatello/945-s-5th-ave"
+  },
+  {
+   "name": "Elmer's",
+   "cuisines": [
+    "Breakfast",
+    "American"
+   ],
+   "address": "951 South 5th Avenue",
+   "website": "https://eatatelmers.com/"
+  },
+  {
+   "name": "Yoi Mi Sushi & Hibachi",
+   "cuisines": [
+    "Japanese"
+   ],
+   "address": "240 South Main Street, 83204",
+   "website": "https://yoimipocatello.com"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/id/pocatello/1411-bench-road-84075"
+  },
+  {
+   "name": "Taste of India & Nepal",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "330 North Main Street, 83204, Pocatello",
+   "website": "https://www.tasteofindianepal.com/"
+  },
+  {
+   "name": "Jakers",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "2365 Via Caporatti Dr, 83201, Pocatello",
+   "website": "https://jakers.com/pocatello/"
+  },
+  {
+   "name": "PV's Pasta Vino",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "138 North Main Street, Pocatello",
+   "website": "http://www.pvspastavino.com"
+  },
+  {
+   "name": "Sizzler",
+   "cuisines": [
+    "Steak House"
+   ],
+   "address": "",
+   "website": "https://sizzler.com/locations/sizzler-pocatello/"
+  },
+  {
+   "name": "Himalayan Flavor",
+   "cuisines": [
+    "Indian"
+   ],
+   "address": "303 East Alameda Road, 83201, Pocatello",
+   "website": ""
+  },
+  {
+   "name": "Butterburs",
+   "cuisines": [
+    "American"
+   ],
+   "address": "917 Yellowstone Avenue, 83201",
+   "website": ""
+  },
+  {
+   "name": "Hot Rosters",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Los Robertos",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "754 North Main Street",
+   "website": ""
+  },
+  {
+   "name": "Portneuf Valley Brewing",
+   "cuisines": [
+    "Pizza",
+    "Beer Craft"
+   ],
+   "address": "615 South 1st Avenue, 83201, Pocatello",
+   "website": ""
+  },
+  {
+   "name": "Villano's Italian",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "165 North Main Street, Pocatello",
+   "website": ""
+  },
+  {
+   "name": "Chili's",
+   "cuisines": [
+    "Tex-Mex"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Golden Corral",
+   "cuisines": [
+    "American",
+    "Buffet"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Tuscano",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Senor Garcia's Puerto Vallarta",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sumisu",
+   "cuisines": [
+    "Asian",
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cue and Brew Bar, Rim rock Grill, Pool hall",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Herradero",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Tokyo Belly Sushi",
+   "cuisines": [
+    "Sushi"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mo' Bettahs Hawaiian Style Food",
+   "cuisines": [
+    "Hawaiian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "El Caporal Mexican Restaurant",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Zap",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Paradise Cuisine",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "ButterBurr's Lickety Split",
+   "cuisines": [
+    "Soup"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Round River Baking",
+   "cuisines": [],
+   "address": "250 North Main Street, 83201, Pocatello",
+   "website": "https://www.roundriverbaking.com/"
+  },
+  {
+   "name": "The Yellowstone Restaurant",
+   "cuisines": [],
+   "address": "83204",
+   "website": "https://www.theyellowstonerestaurant.com/"
+  },
+  {
+   "name": "Melted Magic",
+   "cuisines": [],
+   "address": "240 South Main Street, 83204",
+   "website": ""
+  },
+  {
+   "name": "The Bacon Experience",
+   "cuisines": [],
+   "address": "204 North Main Street, Pocatello",
+   "website": ""
+  },
+  {
+   "name": "Red Rabbit Grill",
+   "cuisines": [],
+   "address": "1200 Yellowstone Avenue",
+   "website": ""
+  },
+  {
+   "name": "Winger's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buddy's Italian Restaurant",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Oliver's",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Thai Kitchen",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mama Inez",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Sandbagger's Bar and Grill",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Cafe Rio",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Mandarin House",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Healthier Place To Eat",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Taste Of Hawaii",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Zoo Idaho",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8424927,
+   "longitude": -112.4196766
+  },
+  {
+   "name": "Pocatello Model Railroad and Historical Society",
+   "kind": "museum",
+   "address": "B-59 South Harrison Avenue, 83204, Pocatello",
+   "website": "https://pocatellomodelrailroad.weebly.com/",
+   "phone": "",
+   "latitude": 42.8597607,
+   "longitude": -112.446675
+  },
+  {
+   "name": "Historic Downtown Pocatello",
+   "kind": "museum",
+   "address": "420 North Main Street, 83204, Pocatello",
+   "website": "https://www.historicdowntownpocatello.com/",
+   "phone": "",
+   "latitude": 42.8646947,
+   "longitude": -112.453385
+  },
+  {
+   "name": "Museum of Clean",
+   "kind": "museum",
+   "address": "",
+   "website": "https://museumofclean.com/",
+   "phone": "",
+   "latitude": 42.85938,
+   "longitude": -112.4418493
+  },
+  {
+   "name": "McKee's Petting Zoo",
+   "kind": "zoo",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.9169215,
+   "longitude": -112.4648394
+  },
+  {
+   "name": "Bannock County Historical Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 42.8441797,
+   "longitude": -112.4190186
+  }
+ ]
+}

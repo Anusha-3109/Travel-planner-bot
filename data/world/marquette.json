@@ -1,0 +1,790 @@
+{
+ "city": "Marquette",
+ "country": "United States",
+ "region": "North America",
+ "latitude": 46.5461,
+ "longitude": -87.3944,
+ "currency": "USD",
+ "usd_per_unit": 1.0,
+ "rates_date": "2026-10-23",
+ "airbnb_scrape_date": null,
+ "stays_source": "OpenStreetMap",
+ "fetched_at": "2026-10-26",
+ "accommodations": [
+  {
+   "name": "Landmark Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Hampton Inn Marquette/Waterfront",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "461 South Lakeshore Boulevard, 49855, Marquette",
+   "url": "https://www.hilton.com/en/hotels/mqtwfhx-hampton-marquette-waterfront/"
+  },
+  {
+   "name": "Fairfield Inn & Suites Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "808 South Lakeshore Boulevard, 49855, Marquette",
+   "url": "https://www.marriott.com/mqtfi"
+  },
+  {
+   "name": "Best Western Plus",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "1200 Wilson Street, 49855-4454, Marquette",
+   "url": "https://www.bestwestern.com/en_US/book/hotels-in-marquette/best-western-plus-marquette-hotel-suites/propertyCode.23189.html"
+  },
+  {
+   "name": "Holiday Inn Express",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2472 US-41/M-28, 49855, Marquette",
+   "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/marquette/mqtmq/hoteldetail"
+  },
+  {
+   "name": "Days Inn Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "49855, Marquette",
+   "url": "https://www.wyndhamhotels.com/days-inn/marquette-michigan/days-inn-marquette/overview"
+  },
+  {
+   "name": "Comfort Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2463 Us 41 West, 49855, Marquette",
+   "url": "https://www.choicehotels.com/michigan/marquette/econo-lodge-hotels"
+  },
+  {
+   "name": "Budget Host Brentwood Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2603 US Highway 41 West, 49855, Marquette",
+   "url": ""
+  },
+  {
+   "name": "My Place Hotel - Marquette, MI",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "2383 US Highway 41 West, 49855, Marquette",
+   "url": ""
+  },
+  {
+   "name": "Nestledown Bed and Breakfast",
+   "price": null,
+   "room_type": "Private room",
+   "kind": "guest house",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "975 Lakeshore Boulevard, 49855, Marquette",
+   "url": ""
+  },
+  {
+   "name": "Ramada Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "412 West Washington Street",
+   "url": ""
+  },
+  {
+   "name": "Holiday Inn Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Quality Inn & Suites",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Marquette",
+   "url": ""
+  },
+  {
+   "name": "Staybridge Suites Marquette",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Value Host Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "Marquette",
+   "url": ""
+  },
+  {
+   "name": "Tall Pines Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "America's Best Value Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Venture Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Cedar Motor Inn",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Imperial Motel",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "Superior Stay",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "hotel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  },
+  {
+   "name": "UP Motor Lodge",
+   "price": null,
+   "room_type": "Hotel room",
+   "kind": "motel",
+   "minimum_nights": 1,
+   "maximum_occupancy": null,
+   "rating": null,
+   "address": "",
+   "url": ""
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Cafe BODEGA",
+   "cuisines": [
+    "Local"
+   ],
+   "address": "517 North 3rd Street, 49855, Marquette",
+   "website": "https://www.cafebodegamqt.com/"
+  },
+  {
+   "name": "Border Grill",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "1145 West Washington Street, 49855, Marquette",
+   "website": "https://bordergrill.net/"
+  },
+  {
+   "name": "Delft Bistro",
+   "cuisines": [
+    "American",
+    "Local",
+    "Seafood"
+   ],
+   "address": "139, 49855",
+   "website": "https://www.thedelftbistro.com/"
+  },
+  {
+   "name": "Donckers Restaurant",
+   "cuisines": [
+    "Sandwich",
+    "Chocolate"
+   ],
+   "address": "137 West Washington Street, 49855, Marquette",
+   "website": "https://www.donckersonline.com/"
+  },
+  {
+   "name": "Big Boy",
+   "cuisines": [
+    "Burger"
+   ],
+   "address": "1950 US-41/M-28, 49855, Marquette",
+   "website": "https://www.marquettebigboy.com/"
+  },
+  {
+   "name": "Casa Calabria",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "1106 North 3rd Street, 49855, Marquette",
+   "website": "https://thecasa.us/"
+  },
+  {
+   "name": "La Catrina Cocina Mexicana",
+   "cuisines": [
+    "Mexican"
+   ],
+   "address": "3165 Wright Street, 49855, Marquette",
+   "website": "https://la-catrina-cocina-mexicana.foodjoyy.com"
+  },
+  {
+   "name": "Jet's Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1475 West Washington Street, 49855, Marquette",
+   "website": "https://www.jetspizza.com/stores/michigan/marquette/1475-w-washington-st/"
+  },
+  {
+   "name": "Applebee's",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": "https://restaurants.applebees.com/en-us/mi/marquette/2902-us-hwy.-41-96066"
+  },
+  {
+   "name": "Yoop Coop",
+   "cuisines": [
+    "Chicken"
+   ],
+   "address": "510 West Washington Street, 49855, Marquette",
+   "website": "https://yoopcoop.com/"
+  },
+  {
+   "name": "Third Coast Pizzeria",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "227 West Washington Street, 49855, Marquette",
+   "website": "https://www.thirdcoastpizzeria.com/"
+  },
+  {
+   "name": "Elizabeth's Chop House",
+   "cuisines": [
+    "Seafood",
+    "Steak"
+   ],
+   "address": "113 South Front Street, 49855, Marquette",
+   "website": "https://www.elizabethschophouse.com/"
+  },
+  {
+   "name": "Earl E. Byrds",
+   "cuisines": [
+    "Breakfast",
+    "Brunch"
+   ],
+   "address": "102 West Washington Street, 49855, Marquette",
+   "website": "https://earlebyrds.com/"
+  },
+  {
+   "name": "The Pasta Shop",
+   "cuisines": [
+    "Italian"
+   ],
+   "address": "824 North 3rd Street, 49855, Marquette",
+   "website": "http://www.thepastashop.com/"
+  },
+  {
+   "name": "Wings & Things",
+   "cuisines": [
+    "Burger",
+    "Pizza",
+    "American"
+   ],
+   "address": "",
+   "website": "http://superior-lanes.squarespace.com/"
+  },
+  {
+   "name": "Lagniappe Cajun Creole Eatery",
+   "cuisines": [
+    "Cajun"
+   ],
+   "address": "145 West Washington Street",
+   "website": "https://marquettecajun.com/"
+  },
+  {
+   "name": "Lake Superior Pizza",
+   "cuisines": [
+    "Pizza"
+   ],
+   "address": "1109 Lincoln Avenue",
+   "website": ""
+  },
+  {
+   "name": "Melted",
+   "cuisines": [
+    "Sandwich"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Harley's Restaurant and Lounge",
+   "cuisines": [
+    "American"
+   ],
+   "address": "412 West Washington Street, 49855, Marquette",
+   "website": ""
+  },
+  {
+   "name": "Thai House",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Hong Kong Buffet",
+   "cuisines": [
+    "Chinese",
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Buffalo Wild Wings",
+   "cuisines": [
+    "Wings"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Marquette Cinemas Drive Through",
+   "cuisines": [
+    "Snack",
+    "Popcorn"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Teriyaki Bowl",
+   "cuisines": [
+    "Asian"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "K's Oriental Restaurant",
+   "cuisines": [
+    "Chinese"
+   ],
+   "address": "1105",
+   "website": ""
+  },
+  {
+   "name": "Red Lobster",
+   "cuisines": [
+    "Seafood"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Jeffery's Family Restaurant",
+   "cuisines": [
+    "Breakfast"
+   ],
+   "address": "300",
+   "website": ""
+  },
+  {
+   "name": "Hudson's Bar and Grill",
+   "cuisines": [
+    "American"
+   ],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "The Rice Paddy",
+   "cuisines": [
+    "Thai"
+   ],
+   "address": "Presque Isle Avenue",
+   "website": ""
+  },
+  {
+   "name": "The Vierling",
+   "cuisines": [],
+   "address": "119 South Front Street, 49855, Marquette",
+   "website": "https://vierlingrestaurant.com/"
+  },
+  {
+   "name": "Coachlight",
+   "cuisines": [],
+   "address": "423 West Washington Street, 49855-4157, Marquette",
+   "website": "http://coachlight.tripod.com/"
+  },
+  {
+   "name": "Lawry's Pasty Shop",
+   "cuisines": [],
+   "address": "2164 US-41/M-28, 49855, Marquette",
+   "website": "https://www.lawryspasties.com/"
+  },
+  {
+   "name": "Third Street Bagel",
+   "cuisines": [],
+   "address": "429 Third Street",
+   "website": "https://www.thirdstreetbagel.com/"
+  },
+  {
+   "name": "OutLanders",
+   "cuisines": [],
+   "address": "1014 West Washington Street, 49855, Marquette",
+   "website": "http://outlanderstogo.com"
+  },
+  {
+   "name": "The Wildcat Den",
+   "cuisines": [],
+   "address": "",
+   "website": "https://nmu.edu/dining/wildcat-den"
+  },
+  {
+   "name": "Iron Bay",
+   "cuisines": [],
+   "address": "105 East Washington Street, 49855, Marquette",
+   "website": ""
+  },
+  {
+   "name": "Presque Deli",
+   "cuisines": [],
+   "address": "1635 Presque Isle Avenue, 49855, Marquette",
+   "website": ""
+  },
+  {
+   "name": "Third Street Grill",
+   "cuisines": [],
+   "address": "1034 North 3rd Street, 49855, Marquette",
+   "website": ""
+  },
+  {
+   "name": "Vango's",
+   "cuisines": [],
+   "address": "North 3rd Street",
+   "website": ""
+  },
+  {
+   "name": "Beef-a-Roo",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  },
+  {
+   "name": "Digs",
+   "cuisines": [],
+   "address": "",
+   "website": ""
+  }
+ ],
+ "attractions": [
+  {
+   "name": "Marquette Maritime Museum",
+   "kind": "museum",
+   "address": "",
+   "website": "https://mqtmaritimemuseum.com/",
+   "phone": "",
+   "latitude": 46.5455762,
+   "longitude": -87.3792412
+  },
+  {
+   "name": "Marquette Regional History Center",
+   "kind": "museum",
+   "address": "145 West Spring Street, 49855, Marquette",
+   "website": "https://www.marquettehistory.org/",
+   "phone": "",
+   "latitude": 46.5414175,
+   "longitude": -87.3956425
+  },
+  {
+   "name": "McClintock Annex",
+   "kind": "attraction",
+   "address": "",
+   "website": "https://mqtmaritimemuseum.com/exhibits",
+   "phone": "",
+   "latitude": 46.5431411,
+   "longitude": -87.3872475
+  },
+  {
+   "name": "City of Marquette Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://campkonahills.com/",
+   "phone": "",
+   "latitude": 46.5033728,
+   "longitude": -87.3733275
+  },
+  {
+   "name": "Rock Cut Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "https://campkonahills.com/",
+   "phone": "",
+   "latitude": 46.5033941,
+   "longitude": -87.3645194
+  },
+  {
+   "name": "Graci Gallery",
+   "kind": "gallery",
+   "address": "110 North 3rd Street, 49855, Marquette",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5440146,
+   "longitude": -87.3950368
+  },
+  {
+   "name": "Upper Peninsula Children's Museum",
+   "kind": "museum",
+   "address": "West Baraga Avenue, 49855, Marquette",
+   "website": "",
+   "phone": "+1-906-226-3911",
+   "latitude": 46.5404652,
+   "longitude": -87.3944597
+  },
+  {
+   "name": "The Gallery",
+   "kind": "gallery",
+   "address": "130 West Washington Street, 49855, Marquette",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5435142,
+   "longitude": -87.3939421
+  },
+  {
+   "name": "Morgan Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5053209,
+   "longitude": -87.4379145
+  },
+  {
+   "name": "Lower Carp Falls",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5038992,
+   "longitude": -87.4463208
+  },
+  {
+   "name": "Fire Bell",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5430238,
+   "longitude": -87.3910338
+  },
+  {
+   "name": "Sunset Point",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5901218,
+   "longitude": -87.385895
+  },
+  {
+   "name": "Oak Hill Lookout",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5208003,
+   "longitude": -87.4439804
+  },
+  {
+   "name": "Lower Harbor Ore Dock",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5413813,
+   "longitude": -87.3912371
+  },
+  {
+   "name": "Mount Marquette Scenic Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5142128,
+   "longitude": -87.4023991
+  },
+  {
+   "name": "Pioneer Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5215371,
+   "longitude": -87.4199536
+  },
+  {
+   "name": "Marquette Township Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5248904,
+   "longitude": -87.4325144
+  },
+  {
+   "name": "Wetmore Pond Viewing Platform",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.603712,
+   "longitude": -87.4710014
+  },
+  {
+   "name": "Pete's Pass Tunnel",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5496429,
+   "longitude": -87.4633927
+  },
+  {
+   "name": "Buschell Vista Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5031699,
+   "longitude": -87.4036069
+  },
+  {
+   "name": "Benson Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5137408,
+   "longitude": -87.4223106
+  },
+  {
+   "name": "Blue Heron Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5695726,
+   "longitude": -87.4545307
+  },
+  {
+   "name": "Morgan Falls Overlook",
+   "kind": "viewpoint",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5051668,
+   "longitude": -87.437215
+  },
+  {
+   "name": "906 Pump Track",
+   "kind": "attraction",
+   "address": "",
+   "website": "",
+   "phone": "",
+   "latitude": 46.5540699,
+   "longitude": -87.3851644
+  }
+ ]
+}
