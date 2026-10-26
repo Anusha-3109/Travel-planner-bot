@@ -90,9 +90,10 @@ def _build_filter(category: str | None, city: str | None) -> dict | None:
 
 
 def retrieve(question: str, category: str | None = None, city: str | None = None, llm=None,
-             k: int = config.RETRIEVAL_K) -> RetrievalResult:
+             k: int = config.RETRIEVAL_K, plan: SearchPlan | None = None) -> RetrievalResult:
+    """plan skips the query translation (the evaluation passes one to compare strategies)."""
     replies: list = []
-    plan = plan_search(question, llm, replies)
+    plan = plan or plan_search(question, llm, replies)
     category = category or plan.category
     city = city or plan.city
     where = _build_filter(category, city)

@@ -1,0 +1,6 @@
+# Extra packages for the evaluation (python -m evaluation.ragas_eval). RAGAS needs an older
+# openai package than the app, so install these in a separate environment:
+#   uv venv .venv-eval --python 3.12
+#   uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r requirements-eval.txt
+ragas==0.4.3
+langchain-community<0.4  # ragas 0.4.3 imports chat models that newer versions removed
