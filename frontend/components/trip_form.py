@@ -23,10 +23,6 @@ EXPLORE_EXAMPLES = [
     "Which areas of Lisbon are nice to stay in, and what is there to see?",
     "How do I get from Fiumicino Airport to the Colosseum?",
 ]
-PLACEHOLDERS = {
-    "plan": "Romantic weekend in Paris, mid-November, 2 people, around EUR 1,200...",
-    "explore": "Museums, food or neighbourhoods anywhere, e.g. street food in Bangkok...",
-}
 
 
 def example_questions(today: date | None = None, mode: str = "plan") -> list[str]:

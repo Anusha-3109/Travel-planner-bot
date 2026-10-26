@@ -18,7 +18,7 @@ from backend.security.validation import InputValidationError
 from backend.storage import history, trips
 from frontend.components.cards import render_result_cards
 from frontend.components.common import PAGES, cost_text, mode_key, set_mode, show_markdown
-from frontend.components.trip_form import PLACEHOLDERS, example_questions, trip_dialog
+from frontend.components.trip_form import example_questions, trip_dialog
 from frontend.html import render as html
 
 TAGLINE = "Your travel planner with live prices, costed against your budget"
@@ -182,11 +182,11 @@ def _composer() -> str | None:
     with st.container(key="composer"):
         _mode_picker()
         with st.form("composer-form", border=False, clear_on_submit=True):
-            text = st.text_area("Your trip", placeholder=PLACEHOLDERS[st.session_state.mode], height=110,
-                                label_visibility="collapsed")
-            with st.container(horizontal=True, horizontal_alignment="right", vertical_alignment="center"):
-                st.caption(MODE_HELP[st.session_state.mode])
+            text = st.text_area("Your trip", height=110, label_visibility="collapsed")
+            # theme.css moves this round button into the text area's bottom-right corner.
+            with st.container(key="composer-send"):
                 sent = st.form_submit_button("Send", icon=":material/arrow_upward:", type="primary")
+            st.caption(MODE_HELP[st.session_state.mode])
     if st.button("Fill in the trip form instead", icon=":material/edit_note:", type="tertiary"):
         trip_dialog()
     return text.strip() if sent and text.strip() else None

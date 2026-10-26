@@ -6,7 +6,13 @@
 /* The Plan / Explore box on an empty chat: a rounded card with pill-shaped mode buttons. */
 .st-key-composer { border: 1px solid #2c2f36; border-radius: 18px; padding: 0.75rem; background-color: #1d1f24; }
 .st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
-.st-key-composer textarea { font-size: 1rem; }
+.st-key-composer textarea { font-size: 1rem; padding-right: 3.25rem; }
+/* Send is a round arrow button inside the text area's bottom-right corner (the text area is 110px high).
+   The label stays for screen readers and tests, but only the arrow is shown. */
+.st-key-composer [data-testid="stForm"] { position: relative; }
+.st-key-composer-send { position: absolute; top: calc(110px - 2.9rem); right: 0.55rem; width: auto; z-index: 1; }
+.st-key-composer-send button { border-radius: 999px; width: 2.4rem; height: 2.4rem; min-height: 0; padding: 0; }
+.st-key-composer-send button [data-testid="stMarkdownContainer"] { display: none; }
 
 /* The orange note under the model list in Settings. */
 .st-key-model-note { border-left: 3px solid #f97316; padding-left: 0.75rem; }

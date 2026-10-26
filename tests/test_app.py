@@ -87,7 +87,7 @@ def test_empty_chat_has_the_hero_box_examples_and_no_chat_box(app):
     labels = [b.label for b in app.main.button]
     assert "Send" in labels and "Fill in the trip form instead" in labels
     assert example_questions()[0] in labels and example_questions()[-1] in labels
-    assert not app.chat_input and app.text_area[0].placeholder.startswith("Romantic weekend in Paris")
+    assert not app.chat_input and not app.text_area[0].placeholder
     assert app.button_group[0].value == "plan"
 
 
