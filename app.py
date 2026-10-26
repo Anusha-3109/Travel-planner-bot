@@ -12,8 +12,8 @@ import streamlit as st
 
 import config
 from security.redaction import protect_logs
-from ui import benchmarks, chat, dashboard, how_it_answers, sidebar
-from ui.common import init_state, prepare_index, sync_chat_with_url
+from ui import benchmarks, chat, dashboard, how_it_answers, sidebar, trips_pages
+from ui.common import PAGES, init_state, prepare_index, sync_chat_with_url
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
 protect_logs()
@@ -37,7 +37,10 @@ def main() -> None:
         "dashboard": st.Page(dashboard.render, title="Dashboard", icon=":material/speed:", url_path="dashboard"),
         "how": st.Page(how_it_answers.render, title="How it answers", icon=":material/account_tree:",
                        url_path="how-it-answers"),
+        "trips": st.Page(trips_pages.my_trips, title="My trips", icon=":material/luggage:", url_path="trips"),
+        "trip": st.Page(trips_pages.trip_page, title="Trip", icon=":material/map:", url_path="trip"),
     }
+    PAGES.update(pages)
     page = st.navigation(list(pages.values()), position="hidden")
     if page.url_path in ("", "chat"):
         sync_chat_with_url()

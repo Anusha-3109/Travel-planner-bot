@@ -48,6 +48,7 @@ def render(pages: dict) -> None:
         if st.button("New chat", icon=":material/edit_square:", type="tertiary"):
             start_new_chat()
             st.switch_page(pages["chat"])
+        st.page_link(pages["trips"], label="My trips", icon=":material/luggage:")
         st.page_link(pages["benchmarks"], label="Benchmarks", icon=":material/leaderboard:")
         st.page_link(pages["dashboard"], label="Dashboard", icon=":material/speed:")
         st.page_link(pages["how"], label="How it answers", icon=":material/account_tree:")

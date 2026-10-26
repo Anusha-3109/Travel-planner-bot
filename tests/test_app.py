@@ -78,7 +78,7 @@ def test_sidebar_has_the_pages_new_chat_and_settings(app):
     sidebar_buttons = [b.label for b in app.sidebar.button]
     assert "New chat" in sidebar_buttons and "Settings" in sidebar_buttons
     links = [link.proto.label for link in app.sidebar.get("page_link")]
-    assert links == ["Benchmarks", "Dashboard", "How it answers"]
+    assert links == ["My trips", "Benchmarks", "Dashboard", "How it answers"]
     assert "Saved on this computer." in [c.value for c in app.sidebar.caption]
 
 
@@ -208,3 +208,31 @@ def test_how_it_answers_lists_every_tool_and_searches_for_free(monkeypatch):
     at.run()
     assert not at.exception
     assert "**57,000** places in **245** cities, one document per place" in " ".join(m.value for m in at.markdown)
+
+
+def test_a_costed_plan_can_be_saved_as_a_trip(offline, monkeypatch):
+    from agent.agent import ToolCallRecord
+    from tests.test_trips import COST, FLIGHTS_BACK, FLIGHTS_OUT, RESTAURANTS, STAYS, TRANSFER
+
+    def plan(question, **kwargs):
+        calls = [ToolCallRecord(c["name"], c["args"], c["output"])
+                 for c in (FLIGHTS_OUT, FLIGHTS_BACK, STAYS, RESTAURANTS, TRANSFER, COST)]
+        return AgentResult(answer="Your Boston plan", model=kwargs["model"], tool_calls=calls,
+                           token_usage={"input_tokens": 1, "output_tokens": 1, "total_tokens": 2, "cost_usd": 0.0})
+    monkeypatch.setattr("ui.chat.run_agent", plan)
+    at = AppTest.from_file("../app.py", default_timeout=30)
+    at.run()
+    send(at, "Plan 2 nights in Boston from Washington")
+    next(b for b in at.button if b.label == "Save as trip").click().run()
+    assert not at.exception
+    (trip,) = history.list_trips()
+    assert trip["title"] == "Boston, 2 nights" and trip["chat_id"] == history.list_chats()[0]["id"]
+
+
+def test_tiles_start_a_question_or_say_coming_soon(answers):
+    at = AppTest.from_file("../app.py", default_timeout=30)
+    at.run()
+    assert sum("Coming soon" in m.value for m in at.markdown) == 4  # budget, packing, documents, journal
+    discover = [b for b in at.main.button if b.label == "Try it"][2]  # AI planning, Booking, Discover
+    discover.click().run()
+    assert answers[-1]["mode"] == "explore" and history.list_chats()[0]["title"] == "Museums for kids in Chicago."

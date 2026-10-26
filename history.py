@@ -1,7 +1,8 @@
-"""Saved chats and the request log, in a SQLite file on this computer.
+"""Saved chats, saved trips and the request log, in a SQLite file on this computer.
 
 Chats keep every message with its tool results (so result cards can be drawn
-again), the model and currency used, and a bookmark flag. The request log has
+again), the model and currency used, and a bookmark flag. Saved trips keep a
+costed plan with its prices and places, for the trip page. The request log has
 one row per question: when it was asked, how long the answer took, whether it
 was answered, refused or failed (and why), tokens, cost, tool calls and live
 searches. The dashboard is built from it.
@@ -107,9 +108,10 @@ def delete_chat(chat_id: str) -> None:
 
 
 def delete_all() -> None:
-    with closing(_connect()) as db, db:
+    with closing(_connect_trips()) as db, db:
         db.execute("DELETE FROM chats")
         db.execute("DELETE FROM requests")
+        db.execute("DELETE FROM trips")
 
 
 def group_chats(chats: list[dict], today: date | None = None) -> dict[str, list[dict]]:
@@ -156,3 +158,46 @@ def requests_since(days: int) -> list[dict]:
     with closing(_connect()) as db:
         rows = db.execute("SELECT * FROM requests WHERE asked_at >= ? ORDER BY asked_at", (since,)).fetchall()
     return [{**dict(row), "tools": json.loads(row["tools"])} for row in rows]
+
+
+# --- Saved trips ----------------------------------------------------------------
+
+TRIPS_SCHEMA = """
+CREATE TABLE IF NOT EXISTS trips (
+    id TEXT PRIMARY KEY, chat_id TEXT, title TEXT NOT NULL, created_at REAL NOT NULL, trip TEXT NOT NULL);
+"""
+
+
+def _connect_trips() -> sqlite3.Connection:
+    connection = _connect()
+    connection.executescript(TRIPS_SCHEMA)
+    return connection
+
+
+def save_trip(trip: dict, chat_id: str | None = None) -> str:
+    """Saves a trip built by trips.build_trip and returns its id."""
+    trip_id = uuid.uuid4().hex[:12]
+    with closing(_connect_trips()) as db, db:
+        db.execute("INSERT INTO trips (id, chat_id, title, created_at, trip) VALUES (?, ?, ?, ?, ?)",
+                   (trip_id, chat_id, trip["title"], time.time(), json.dumps(trip, ensure_ascii=False)))
+    return trip_id
+
+
+def load_trip(trip_id: str) -> dict | None:
+    with closing(_connect_trips()) as db:
+        row = db.execute("SELECT * FROM trips WHERE id = ?", (trip_id,)).fetchone()
+    return None if row is None else {**json.loads(row["trip"]), "id": row["id"], "chat_id": row["chat_id"],
+                                     "created_at": row["created_at"]}
+
+
+def list_trips() -> list[dict]:
+    """Every saved trip, newest first."""
+    with closing(_connect_trips()) as db:
+        rows = db.execute("SELECT * FROM trips ORDER BY created_at DESC").fetchall()
+    return [{**json.loads(row["trip"]), "id": row["id"], "chat_id": row["chat_id"], "created_at": row["created_at"]}
+            for row in rows]
+
+
+def delete_trip(trip_id: str) -> None:
+    with closing(_connect_trips()) as db, db:
+        db.execute("DELETE FROM trips WHERE id = ?", (trip_id,))

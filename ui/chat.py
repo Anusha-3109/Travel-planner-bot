@@ -14,6 +14,7 @@ import streamlit as st
 
 import config
 import history
+import trips
 from agent.agent import AgentError, run_agent
 from agent.llm import model_name
 from live.budget import use_budget
@@ -21,7 +22,7 @@ from security.rate_limit import RateLimiter
 from security.validation import InputValidationError, validate_city
 from travel_data.catalog import HOUSE_RULES, ROOM_TYPES, TRANSPORT_RULES
 from trip_form import PLACEHOLDERS, example_questions, trip_question
-from ui.common import cost_text, mode_key, show_markdown
+from ui.common import PAGES, cost_text, mode_key, set_mode, show_markdown
 from ui_cards import render_result_cards
 
 LOGO = Path(__file__).resolve().parents[1] / "assets" / "logo.svg"
@@ -37,6 +38,22 @@ COMPOSER_CSS = """<style>
 .st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
 .st-key-composer textarea { font-size: 1rem; }
 </style>"""
+# Feature tiles on an empty chat: (icon, title, text, action). Actions: "ask:<mode>" asks the first example of
+# that mode, "page:<name>" opens a page, None is coming soon.
+TILES = [
+    (":material/auto_awesome:", "AI planning", "Describe a trip: TripMate builds a costed plan, day by day.",
+     "ask:plan"),
+    (":material/calendar_month:", "Day-by-day plan", "Your saved trips as timelines: times, places and prices.",
+     "page:trips"),
+    (":material/route:", "Route planning", "Every stop of a saved trip on a map.", "page:trips"),
+    (":material/hotel:", "Booking", "Find Airbnbs and hotels with live prices, and book on their sites.",
+     "ask:booking"),
+    (":material/explore:", "Discover", "Sights, food and neighbourhoods in 245 cities.", "ask:explore"),
+    (":material/savings:", "Budget tracker", "Planned against spent, split between travellers.", None),
+    (":material/backpack:", "Packing list", "A checklist made for your trip.", None),
+    (":material/description:", "Documents", "Tickets, visas and vouchers, by day.", None),
+    (":material/book:", "Journal", "Notes and photos for each day.", None),
+]
 CUISINES = ["American", "Chinese", "French", "Indian", "Italian", "Japanese", "Mediterranean", "Mexican", "Spanish",
             "Thai"]
 
@@ -53,9 +70,21 @@ def refusal_reason(error: Exception) -> str:
     return "invalid input"
 
 
-def _render_details(message: dict) -> None:
+def _save_trip_button(index: int) -> None:
+    """Under an answer with a costed plan: save it as a trip and open the trip page."""
+    if not trips.find_plan(trips.tool_calls([st.session_state.messages[index]])):
+        return
+    if st.button("Save as trip", key=f"save-trip-{index}", icon=":material/luggage:", type="primary"):
+        trip = trips.build_trip(st.session_state.messages, index)
+        trip_id = history.save_trip(trip, st.session_state.chat_id)
+        st.switch_page(PAGES["trip"], query_params={"trip": trip_id})
+
+
+def _render_details(message: dict, index: int | None = None) -> None:
     tool_calls = message.get("tool_calls") or []
     render_result_cards(tool_calls)
+    if index is not None:
+        _save_trip_button(index)
     sources = message.get("sources") or []
     queries = message.get("retrieval_queries") or []
     if tool_calls:
@@ -224,6 +253,35 @@ def _examples() -> str | None:
     return None
 
 
+def _ask_from_tile(target: str) -> None:
+    """A tile's starter question: the first example of its mode, or the stay example for Booking."""
+    mode = "explore" if target == "explore" else "plan"
+    set_mode(mode)
+    examples = example_questions(mode=mode)
+    st.session_state.pending_question = examples[2] if target == "booking" else examples[0]
+
+
+def _tiles() -> None:
+    """What TripMate can do, as tiles; the last ones are coming soon."""
+    st.markdown("**What TripMate can do**")
+    for number, (icon, title, text, action) in enumerate(TILES):
+        if number % 3 == 0:
+            columns = st.columns(3)  # a new row, so the tiles in a row line up
+        with columns[number % 3].container(border=True, height="stretch"):
+            st.markdown(f"{icon} **{title}**")
+            st.caption(text)
+            st.space("stretch")
+            if action is None:
+                st.badge("Coming soon", color="gray")
+            elif action.startswith("page:"):
+                if st.button("Open", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
+                    st.switch_page(PAGES[action.split(":")[1]])
+            else:
+                # A callback, so the Plan / Explore switch can be changed before it's drawn again.
+                st.button("Try it", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:",
+                          on_click=_ask_from_tile, args=(action.split(":")[1],))
+
+
 def render() -> None:
     st.html(COMPOSER_CSS)
     if st.session_state.chat_id:
@@ -232,6 +290,7 @@ def render() -> None:
     if not st.session_state.messages:
         _hero()
         question = _composer() or _examples() or st.session_state.pop("pending_question", None)
+        _tiles()
     else:
         title, mode, button = st.columns([3, 2, 1], vertical_alignment="center")
         title.markdown("### TripMate")
@@ -239,11 +298,11 @@ def render() -> None:
             _mode_picker()
         if button.button("Plan a trip", icon=":material/flight_takeoff:", width="stretch"):
             trip_dialog()
-        for message in st.session_state.messages:
+        for index, message in enumerate(st.session_state.messages):
             with st.chat_message(message["role"]):
                 show_markdown(message["content"])
                 if message["role"] == "assistant":
-                    _render_details(message)
+                    _render_details(message, index)
         placeholder = ("Ask for a trip plan, flights, restaurants or places to stay..."
                        if st.session_state.mode == "plan" else "Ask about places, food or getting around...")
         question = st.chat_input(placeholder) or st.session_state.pop("pending_question", None)

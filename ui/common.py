@@ -13,6 +13,9 @@ from rag.ingest import ensure_index
 from security.rate_limit import RateLimiter
 
 
+PAGES: dict = {}  # the app's pages by name, filled in by app.py, for links between pages
+
+
 @st.cache_resource(show_spinner="Updating the knowledge base (the first run embeds every place and takes a while)...")
 def prepare_index() -> int:
     return ensure_index()
