@@ -275,10 +275,10 @@ travel-planner-bot/
 | Folder | What's in it |
 |---|---|
 | [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
-| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, shared session state and labels |
+| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, the theme's colours for charts and maps (`palette.py`), shared session state and labels |
 | [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, `theme.css`) and `render.py`, which fills them in |
 | [`frontend/assets/`](frontend/assets) | The logo |
-| [`.streamlit/config.toml`](.streamlit/config.toml) | The dark theme |
+| [`.streamlit/config.toml`](.streamlit/config.toml) | The Graphite amber theme (graphite background, amber accent, 14px text) and where secrets are read from |
 
 ### Backend (the logic)
 
