@@ -28,7 +28,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 | **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer; **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
 | **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover. |
 | **Dashboard** | Requests, answer times, tokens, cost, tool calls, refused questions, errors and live searches per day, from the request log. |
-| **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model and trip-plan pass rates. |
+| **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table) and trip-plan pass rates. |
 | **How it answers** | How a question becomes an answer, the tools, the knowledge base (with a free search box), data sources, costing rules and safety checks. |
 | **Settings** | The answer model (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash), currency, chat export, deleting history, rebuilding the knowledge base. |
 
@@ -117,7 +117,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 
 - *Easy:* conversation history and export (Markdown and JSON), source citations, an interactive help page (How it answers, with a search box).
 - *Medium:* real-time data (live flights, stays, restaurants and transport), prompt-injection protection (user messages and tool results), rate limiting and API key management, token usage and cost display, multi-model support, visualisation of tool call results (result cards, trip timeline and map), logging and monitoring (request log and dashboard).
-- *Hard:* an evaluation of the RAG system with RAGAS and retrieval metrics, plus A/B testing of four retrieval strategies (see [Evaluation](#evaluation)). The scripts are in place; the results are added to the Benchmarks page once the evaluation has run.
+- *Hard:* an evaluation of the RAG system with RAGAS and retrieval metrics, plus A/B testing of four retrieval strategies (see [Evaluation](#evaluation)). The results are on the Benchmarks page and written up in [docs/EVALUATION.md](docs/EVALUATION.md).
 
 ## Data sources
 
@@ -172,7 +172,11 @@ Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered mod
 
 ## Evaluation
 
-The scripts in `evaluation/` save their results in `evaluation/results/`, which the Benchmarks page reads.
+The scripts in `evaluation/` save their results in `evaluation/results/`, which the Benchmarks page reads. The method, results and lessons of all three parts are in **[docs/EVALUATION.md](docs/EVALUATION.md)**.
+
+- **Retrieval:** the app's strategy finds a right place for 96.7% of 60 questions, with 12% of places from the wrong city (29% with plain vector search).
+- **Answers (RAGAS, judged by GPT-6.1 Sol):** faithfulness 0.90 for GPT-6 Luna, 0.85 for Gemini 3.7 Flash and 0.81 for Haiku, after a prompt fix the evaluation found; two other judges were compared.
+- **Trip plans:** all 18 TravelPlanner trips got a costed plan with live 2026 data, and 39% pass every check (72% without the house-rule check, which live stays can't pass).
 
 ```bash
 python -m evaluation.retrieval                                   # four retrieval strategies, known answers
@@ -181,6 +185,7 @@ python -m evaluation.plans                                       # trip plans on
 uv venv .venv-eval --python 3.12                                 # RAGAS needs its own environment
 uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r requirements-eval.txt
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model anthropic/claude-haiku-5.5
+.venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model anthropic/claude-haiku-5.5 --rejudge --judge openai/gpt-6.1-sol
 ```
 
 ## Costs and limits
@@ -204,7 +209,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-265 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+271 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -269,7 +274,7 @@ travel-planner-bot/
 | `data/travelplanner/` | TravelPlanner questions for the evaluation | No, downloaded |
 | [`evaluation/`](evaluation) | The three evaluation scripts; `results/` feeds the Benchmarks page | Yes |
 | [`tests/`](tests) | pytest suite, recorded API answers in `tests/fixtures/` | Yes |
-| [`docs/`](docs) | Reflection and notes | Yes |
+| [`docs/`](docs) | The evaluation write-up ([EVALUATION.md](docs/EVALUATION.md)), reflection and notes | Yes |
 | [`legacy/tripmate/`](legacy/tripmate) | The first version's tools, kept for reference | Yes |
 
 ## Known limitations and ideas for improvement
