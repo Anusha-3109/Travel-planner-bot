@@ -12,3 +12,8 @@ font = "sans-serif"
 
 [theme.sidebar]
 backgroundColor = "#101114"
+
+# Where Streamlit looks for secrets: the usual places, plus the Google sign-in settings that Cloud Run
+# mounts from Secret Manager (a mounted secret can't go in .streamlit/, as it would hide this file).
+[secrets]
+files = ["~/.streamlit/secrets.toml", ".streamlit/secrets.toml", "/secrets/streamlit/secrets.toml"]

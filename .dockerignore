@@ -1,5 +1,6 @@
 # Keys and local state never go into the image.
 .env
+.streamlit/secrets.toml
 .venv/
 .venv-eval/
 .chroma/

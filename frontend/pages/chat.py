@@ -17,7 +17,7 @@ from backend.security.rate_limit import RateLimiter
 from backend.security.validation import InputValidationError
 from backend.storage import history, trips
 from frontend.components.cards import render_result_cards
-from frontend.components.common import PAGES, cost_text, mode_key, set_mode, show_markdown
+from frontend.components.common import PAGES, cost_text, current_owner, mode_key, set_mode, show_markdown
 from frontend.components.trip_form import example_questions, trip_dialog
 from frontend.html import render as html
 
@@ -64,7 +64,7 @@ def _save_trip_button(index: int) -> None:
         return
     if st.button("Save as trip", key=f"save-trip-{index}", icon=":material/luggage:", type="primary"):
         trip = trips.build_trip(st.session_state.messages, index)
-        trip_id = history.save_trip(trip, st.session_state.chat_id)
+        trip_id = history.save_trip(trip, st.session_state.chat_id, current_owner())
         st.switch_page(PAGES["trip"], query_params={"trip": trip_id})
 
 
@@ -102,7 +102,7 @@ def _save(question: str, message: dict) -> None:
     """Adds the exchange to the session and the saved chat (a new chat starts with its first question)."""
     st.session_state.messages += [{"role": "user", "content": question, "mode": st.session_state.mode}, message]
     if st.session_state.chat_id is None:
-        st.session_state.chat_id = history.create_chat(question, st.session_state.mode)
+        st.session_state.chat_id = history.create_chat(question, st.session_state.mode, current_owner())
         st.query_params["chat"] = st.session_state.chat_id
     history.save_messages(st.session_state.chat_id, st.session_state.messages)
 
@@ -111,7 +111,7 @@ def ask(question: str) -> None:
     model, mode = st.session_state.model, st.session_state.mode
     limiter: RateLimiter = st.session_state.rate_limiter
     if not limiter.try_acquire():
-        history.log_request(st.session_state.chat_id, model, "limit", "sending too quickly", mode=mode)
+        history.log_request(st.session_state.chat_id, model, "limit", "sending too quickly", mode=mode, owner=current_owner())
         st.warning(f"You're sending messages too quickly. Try again in {limiter.seconds_until_available()} seconds.")
         return
 
@@ -132,19 +132,19 @@ def ask(question: str) -> None:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "refused", refusal_reason(error),
-                                    time.monotonic() - started, mode=mode)
+                                    time.monotonic() - started, mode=mode, owner=current_owner())
                 return
             except AgentError as error:
                 status.update(label="Couldn't answer", state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "error", str(error)[:200],
-                                    time.monotonic() - started, mode=mode)
+                                    time.monotonic() - started, mode=mode, owner=current_owner())
                 return
             except Exception:
                 status.update(label="Something went wrong", state="error")
                 st.error("Something unexpected went wrong. Please try again.")
                 history.log_request(st.session_state.chat_id, model, "error", "unexpected error",
-                                    time.monotonic() - started, mode=mode)
+                                    time.monotonic() - started, mode=mode, owner=current_owner())
                 return
             status.update(label=f"Done · {len(result.tool_calls)} tool call(s)", state="complete")
 
@@ -164,7 +164,7 @@ def ask(question: str) -> None:
     searches = {name: budget.used.get(name, 0) - searches_before.get(name, 0) for name in budget.used}
     history.log_request(st.session_state.chat_id, model, "answered", seconds=time.monotonic() - started,
                         usage=result.token_usage, tools=[c.name for c in result.tool_calls], searches=searches,
-                        mode=mode)
+                        mode=mode, owner=current_owner())
 
 
 def _mode_picker() -> None:

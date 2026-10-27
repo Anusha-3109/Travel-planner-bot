@@ -64,3 +64,25 @@ def test_delete_all_clears_chats_and_the_log():
     history.log_request(None, "m", "answered")
     history.delete_all()
     assert history.list_chats() == [] and history.requests_since(365) == []
+
+
+def test_each_owner_sees_only_their_own_chats_trips_and_log():
+    ana, ben = history.owner_for("Ana@Example.com "), history.owner_for("ben@example.com")
+    assert ana == history.owner_for("ana@example.com") and ana.startswith("user-") and "ana" not in ana
+    chat = history.create_chat("Museums in Rome", owner=ana)
+    trip = history.save_trip({"title": "Rome, 2 nights"}, chat, owner=ana)
+    history.log_request(chat, "model", "answered", owner=ana)
+    assert [c["id"] for c in history.list_chats(ana)] == [chat] and history.list_chats(ben) == []
+    assert history.load_chat(chat, ben) is None and history.load_trip(trip, ben) is None  # a guessed id finds nothing
+    assert len(history.requests_since(1, ana)) == 1 and history.requests_since(1, ben) == []
+    history.delete_all(ben)  # deletes only Ben's data
+    assert history.load_chat(chat, ana) and history.load_trip(trip, ana)
+
+
+def test_data_saved_before_sign_in_goes_to_the_author():
+    chat = history.create_chat("Saved without sign-in")
+    trip = history.save_trip({"title": "Boston, 2 nights"})
+    author = history.owner_for("author@example.com")
+    assert history.claim_local_data(author) == 2
+    assert history.load_chat(chat, author) and history.load_trip(trip, author)
+    assert history.list_chats() == [] and history.list_trips() == []

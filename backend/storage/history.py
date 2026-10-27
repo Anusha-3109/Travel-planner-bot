@@ -10,9 +10,16 @@ one row per question: when it was asked, how long the answer took, whether it
 was answered, refused or failed (and why), tokens, cost, tool calls and live
 searches. The dashboard is built from it.
 
+Every chat, request and trip has an owner: the signed-in user (a hash of their
+Google email, never the email itself), or "local" when sign-in isn't set up.
+Reading and listing only ever return the owner's own rows, so a guessed chat or
+trip id from someone else finds nothing. Expenses, packing lists, journals and
+documents belong to a trip, so they're reached only through an owned trip.
+
 The file (.history/chats.sqlite3) is git-ignored. No API keys are stored.
 """
 
+import hashlib
 import json
 import re
 import shutil
@@ -36,8 +43,11 @@ CREATE TABLE IF NOT EXISTS requests (
     cost_usd REAL, tools TEXT NOT NULL DEFAULT '[]', serpapi INTEGER DEFAULT 0, google INTEGER DEFAULT 0);
 CREATE INDEX IF NOT EXISTS requests_by_time ON requests (asked_at);
 """
+LOCAL_OWNER = "local"  # the owner on a computer without sign-in, and of everything saved before it
 # Columns added after the first version; existing files get them on the next start.
-ADDED_COLUMNS = {"chats": {"mode": "TEXT NOT NULL DEFAULT 'plan'"}, "requests": {"mode": "TEXT"}}
+ADDED_COLUMNS = {"chats": {"mode": "TEXT NOT NULL DEFAULT 'plan'", "owner": f"TEXT NOT NULL DEFAULT '{LOCAL_OWNER}'"},
+                 "requests": {"mode": "TEXT", "owner": f"TEXT NOT NULL DEFAULT '{LOCAL_OWNER}'"},
+                 "trips": {"owner": f"TEXT NOT NULL DEFAULT '{LOCAL_OWNER}'"}}
 STATUSES = ("answered", "refused", "limit", "error")
 
 
@@ -45,13 +55,18 @@ def _connect() -> sqlite3.Connection:
     config.HISTORY_DB.parent.mkdir(parents=True, exist_ok=True)
     connection = sqlite3.connect(config.HISTORY_DB)
     connection.row_factory = sqlite3.Row
-    connection.executescript(SCHEMA)
+    connection.executescript(SCHEMA + TRIPS_SCHEMA)
     for table, columns in ADDED_COLUMNS.items():
         present = {row["name"] for row in connection.execute(f"PRAGMA table_info({table})")}
         for name, definition in columns.items():
             if name not in present:
                 connection.execute(f"ALTER TABLE {table} ADD COLUMN {name} {definition}")
     return connection
+
+
+def owner_for(email: str) -> str:
+    """The owner id for a signed-in user: a hash of their email, so the email itself isn't stored."""
+    return "user-" + hashlib.sha256(email.strip().lower().encode()).hexdigest()[:20]
 
 
 def title_for(question: str) -> str:
@@ -61,11 +76,11 @@ def title_for(question: str) -> str:
 
 # --- Chats --------------------------------------------------------------------
 
-def create_chat(first_question: str, mode: str = "plan") -> str:
+def create_chat(first_question: str, mode: str = "plan", owner: str = LOCAL_OWNER) -> str:
     chat_id, now = uuid.uuid4().hex[:12], time.time()
     with closing(_connect()) as db, db:
-        db.execute("INSERT INTO chats (id, title, created_at, updated_at, mode) VALUES (?, ?, ?, ?, ?)",
-                   (chat_id, title_for(first_question), now, now, mode))
+        db.execute("INSERT INTO chats (id, title, created_at, updated_at, mode, owner) VALUES (?, ?, ?, ?, ?, ?)",
+                   (chat_id, title_for(first_question), now, now, mode, owner))
     return chat_id
 
 
@@ -80,18 +95,19 @@ def save_messages(chat_id: str, messages: list[dict]) -> None:
                    (json.dumps(messages, ensure_ascii=False), time.time(), chat_id))
 
 
-def load_chat(chat_id: str) -> dict | None:
+def load_chat(chat_id: str, owner: str = LOCAL_OWNER) -> dict | None:
+    """The owner's chat, or None (also for someone else's chat)."""
     with closing(_connect()) as db:
-        row = db.execute("SELECT * FROM chats WHERE id = ?", (chat_id,)).fetchone()
+        row = db.execute("SELECT * FROM chats WHERE id = ? AND owner = ?", (chat_id, owner)).fetchone()
     return None if row is None else {**dict(row), "messages": json.loads(row["messages"]),
                                      "bookmarked": bool(row["bookmarked"])}
 
 
-def list_chats() -> list[dict]:
-    """Every chat without its messages, most recently used first."""
+def list_chats(owner: str = LOCAL_OWNER) -> list[dict]:
+    """The owner's chats without their messages, most recently used first."""
     with closing(_connect()) as db:
-        rows = db.execute("SELECT id, title, created_at, updated_at, bookmarked, mode FROM chats "
-                          "ORDER BY updated_at DESC").fetchall()
+        rows = db.execute("SELECT id, title, created_at, updated_at, bookmarked, mode FROM chats WHERE owner = ? "
+                          "ORDER BY updated_at DESC", (owner,)).fetchall()
     return [{**dict(row), "bookmarked": bool(row["bookmarked"])} for row in rows]
 
 
@@ -113,14 +129,27 @@ def delete_chat(chat_id: str) -> None:
         db.execute("UPDATE requests SET chat_id = NULL WHERE chat_id = ?", (chat_id,))
 
 
-def delete_all() -> None:
+def delete_all(owner: str = LOCAL_OWNER) -> None:
+    """Deletes everything the owner saved: chats, request log, trips and what was added to them."""
+    trip_ids = [trip["id"] for trip in list_trips(owner)]
     with closing(_connect_trips()) as db, db:
-        db.execute("DELETE FROM chats")
-        db.execute("DELETE FROM requests")
-        db.execute("DELETE FROM trips")
+        db.execute("DELETE FROM chats WHERE owner = ?", (owner,))
+        db.execute("DELETE FROM requests WHERE owner = ?", (owner,))
+        db.execute("DELETE FROM trips WHERE owner = ?", (owner,))
         for table in TRIP_EXTRA_TABLES:
-            db.execute(f"DELETE FROM {table}")
-    shutil.rmtree(documents_dir(), ignore_errors=True)
+            db.executemany(f"DELETE FROM {table} WHERE trip_id = ?", [(trip_id,) for trip_id in trip_ids])
+    for trip_id in trip_ids:
+        shutil.rmtree(documents_dir() / trip_id, ignore_errors=True)
+
+
+def claim_local_data(owner: str) -> int:
+    """Gives everything saved without sign-in (owner "local") to this owner, for example the app's
+    author when sign-in is first turned on. Returns how many chats and trips moved."""
+    with closing(_connect_trips()) as db, db:
+        moved = sum(db.execute(f"UPDATE {table} SET owner = ? WHERE owner = ?", (owner, LOCAL_OWNER)).rowcount
+                    for table in ("chats", "trips"))
+        db.execute("UPDATE requests SET owner = ? WHERE owner = ?", (owner, LOCAL_OWNER))
+    return moved
 
 
 def group_chats(chats: list[dict], today: date | None = None) -> dict[str, list[dict]]:
@@ -148,24 +177,25 @@ def group_chats(chats: list[dict], today: date | None = None) -> dict[str, list[
 
 def log_request(chat_id: str | None, model: str, status: str, reason: str | None = None,
                 seconds: float | None = None, usage: dict | None = None, tools: list[str] | None = None,
-                searches: dict | None = None, mode: str | None = None) -> None:
+                searches: dict | None = None, mode: str | None = None, owner: str = LOCAL_OWNER) -> None:
     if status not in STATUSES:
         raise ValueError(f"Unknown request status: {status}")
     usage, searches = usage or {}, searches or {}
     with closing(_connect()) as db, db:
         db.execute(
             "INSERT INTO requests (chat_id, asked_at, model, status, reason, seconds, input_tokens, output_tokens, "
-            "cost_usd, tools, serpapi, google, mode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "cost_usd, tools, serpapi, google, mode, owner) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (chat_id, time.time(), model, status, reason, seconds, usage.get("input_tokens", 0),
              usage.get("output_tokens", 0), usage.get("cost_usd"), json.dumps(tools or []),
-             searches.get("serpapi", 0), searches.get("google", 0), mode))
+             searches.get("serpapi", 0), searches.get("google", 0), mode, owner))
 
 
-def requests_since(days: int) -> list[dict]:
-    """Request log rows from the last `days` days, oldest first."""
+def requests_since(days: int, owner: str = LOCAL_OWNER) -> list[dict]:
+    """The owner's request log rows from the last `days` days, oldest first."""
     since = time.time() - days * 86400
     with closing(_connect()) as db:
-        rows = db.execute("SELECT * FROM requests WHERE asked_at >= ? ORDER BY asked_at", (since,)).fetchall()
+        rows = db.execute("SELECT * FROM requests WHERE asked_at >= ? AND owner = ? ORDER BY asked_at",
+                          (since, owner)).fetchall()
     return [{**dict(row), "tools": json.loads(row["tools"])} for row in rows]
 
 
@@ -191,31 +221,30 @@ TRIP_EXTRA_TABLES = ("expenses", "packing_items", "journal_entries", "documents"
 
 
 def _connect_trips() -> sqlite3.Connection:
-    connection = _connect()
-    connection.executescript(TRIPS_SCHEMA)
-    return connection
+    return _connect()
 
 
-def save_trip(trip: dict, chat_id: str | None = None) -> str:
+def save_trip(trip: dict, chat_id: str | None = None, owner: str = LOCAL_OWNER) -> str:
     """Saves a trip built by trips.build_trip and returns its id."""
     trip_id = uuid.uuid4().hex[:12]
     with closing(_connect_trips()) as db, db:
-        db.execute("INSERT INTO trips (id, chat_id, title, created_at, trip) VALUES (?, ?, ?, ?, ?)",
-                   (trip_id, chat_id, trip["title"], time.time(), json.dumps(trip, ensure_ascii=False)))
+        db.execute("INSERT INTO trips (id, chat_id, title, created_at, trip, owner) VALUES (?, ?, ?, ?, ?, ?)",
+                   (trip_id, chat_id, trip["title"], time.time(), json.dumps(trip, ensure_ascii=False), owner))
     return trip_id
 
 
-def load_trip(trip_id: str) -> dict | None:
+def load_trip(trip_id: str, owner: str = LOCAL_OWNER) -> dict | None:
+    """The owner's trip, or None (also for someone else's trip)."""
     with closing(_connect_trips()) as db:
-        row = db.execute("SELECT * FROM trips WHERE id = ?", (trip_id,)).fetchone()
+        row = db.execute("SELECT * FROM trips WHERE id = ? AND owner = ?", (trip_id, owner)).fetchone()
     return None if row is None else {**json.loads(row["trip"]), "id": row["id"], "chat_id": row["chat_id"],
                                      "created_at": row["created_at"]}
 
 
-def list_trips() -> list[dict]:
-    """Every saved trip, newest first."""
+def list_trips(owner: str = LOCAL_OWNER) -> list[dict]:
+    """The owner's saved trips, newest first."""
     with closing(_connect_trips()) as db:
-        rows = db.execute("SELECT * FROM trips ORDER BY created_at DESC").fetchall()
+        rows = db.execute("SELECT * FROM trips WHERE owner = ? ORDER BY created_at DESC", (owner,)).fetchall()
     return [{**json.loads(row["trip"]), "id": row["id"], "chat_id": row["chat_id"], "created_at": row["created_at"]}
             for row in rows]
 

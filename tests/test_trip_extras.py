@@ -140,3 +140,10 @@ def test_trip_page_has_the_four_new_tabs_working():
     history.save_document(trip_id, "ticket.pdf", PDF, "Flights")
     at.run()
     assert not at.exception and "**ticket.pdf**" in " ".join(m.value for m in at.markdown)
+
+
+def test_someone_elses_trip_link_shows_nothing(monkeypatch):
+    trip_id = history.save_trip(trips.build_trip(MESSAGES, 3), owner=history.owner_for("ana@example.com"))
+    monkeypatch.setattr("frontend.pages.trips.current_owner", lambda: history.owner_for("ben@example.com"))
+    at = _open(trip_id)
+    assert not at.exception and at.title[0].value == "Trip not found" and not at.tabs

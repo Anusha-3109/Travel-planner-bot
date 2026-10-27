@@ -16,7 +16,7 @@ from backend import config
 from backend.rag.vectorstore import get_vectorstore
 from backend.storage import history
 from backend.travel_data.catalog import load_catalog
-from frontend.components.common import cached_live_status
+from frontend.components.common import cached_live_status, current_owner
 
 RANGES = {"7 days": 7, "30 days": 30, "90 days": 90, "1 year": 365}
 STATUS_LABELS = {"answered": "Answered", "refused": "Turned away by the guard", "limit": "Turned away by a limit",
@@ -174,7 +174,7 @@ def render() -> None:
         choice = st.segmented_control("Range", list(RANGES), default="30 days", label_visibility="collapsed",
                                       key="dashboard-range") or "30 days"
     days = RANGES[choice]
-    rows = history.requests_since(days)
+    rows = history.requests_since(days, current_owner())
     numbers = summary(rows)
 
     kb = knowledge_base()

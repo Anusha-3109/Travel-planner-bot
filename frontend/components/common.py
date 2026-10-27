@@ -55,9 +55,31 @@ def start_new_chat() -> None:
     st.query_params.clear()
 
 
+def sign_in_enabled() -> bool:
+    """True when Google sign-in is set up ([auth] in .streamlit/secrets.toml)."""
+    try:
+        return "auth" in st.secrets
+    except Exception:  # no secrets file: a computer without sign-in
+        return False
+
+
+def signed_in_user() -> dict | None:
+    """The signed-in user's details (name, email), or None when nobody is signed in or sign-in isn't set up."""
+    if sign_in_enabled() and st.user.get("is_logged_in"):
+        return {"name": st.user.get("name"), "email": st.user.get("email") or ""}
+    return None
+
+
+def current_owner() -> str:
+    """Whose chats and trips to show: the signed-in user, or "local" without sign-in."""
+    if user := signed_in_user():
+        return history.owner_for(user["email"])
+    return history.LOCAL_OWNER
+
+
 def open_chat(chat_id: str) -> bool:
-    """Loads a saved chat into the session. False if it no longer exists."""
-    chat = history.load_chat(chat_id)
+    """Loads a saved chat into the session. False if it no longer exists or isn't the user's."""
+    chat = history.load_chat(chat_id, current_owner())
     if chat is None:
         return False
     st.session_state.messages = chat["messages"]

@@ -5,7 +5,7 @@ from pathlib import Path
 import streamlit as st
 
 from backend.storage import history
-from frontend.components.common import start_new_chat
+from frontend.components.common import current_owner, signed_in_user, start_new_chat
 from frontend.pages.settings import settings_dialog
 
 LOGO = Path(__file__).resolve().parents[1] / "assets" / "logo.svg"
@@ -41,7 +41,7 @@ def render(pages: dict) -> None:
         st.page_link(pages["dashboard"], label="Dashboard", icon=":material/speed:")
         st.page_link(pages["how"], label="How it answers", icon=":material/account_tree:")
 
-        for group, chats in history.group_chats(history.list_chats()).items():
+        for group, chats in history.group_chats(history.list_chats(current_owner())).items():
             st.caption(group)
             for chat in chats[:MAX_CHATS_PER_GROUP]:
                 name, menu = st.columns([6, 1], gap="small", vertical_alignment="center")
@@ -54,7 +54,11 @@ def render(pages: dict) -> None:
 
         with st.container(key="sidebar-footer"):  # pinned to the bottom by frontend/html/theme.css
             st.divider()
-            st.caption("Saved on this computer.")
+            if user := signed_in_user():
+                st.caption(f"Signed in as {user['name'] or user['email']}")
+                st.button("Sign out", icon=":material/logout:", type="tertiary", on_click=st.logout)
+            else:
+                st.caption("Saved on this computer.")
             # The pop-up opens from the main area (app.py), as dialogs don't open from inside the sidebar.
             st.button("Settings", icon=":material/settings:", type="tertiary",
                       on_click=lambda: st.session_state.update(open_settings=True))

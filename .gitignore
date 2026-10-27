@@ -15,3 +15,6 @@ data/travelplanner/
 
 # Local Claude Code launch settings
 .claude/
+
+# Streamlit secrets (Google sign-in client id and secret)
+.streamlit/secrets.toml

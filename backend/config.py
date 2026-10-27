@@ -47,8 +47,11 @@ CACHE_DB = ROOT_DIR / ".cache" / "backend.live.sqlite3"
 # Saved chats and the request log (git-ignored). HISTORY_DIR moves it, for example to a mounted
 # Cloud Storage bucket on Cloud Run, so it survives restarts.
 HISTORY_DB = Path(os.getenv("HISTORY_DIR") or ROOT_DIR / ".history") / "chats.sqlite3"
-# When set, the app asks for this password first (for a deployed copy; empty locally).
+# When set, the app asks for this password first (for a deployed copy; empty locally). Google sign-in
+# ([auth] in .streamlit/secrets.toml) replaces it when that's set up.
 APP_PASSWORD = os.getenv("APP_PASSWORD", "")
+# With sign-in: the Google email that gets everything saved before sign-in was turned on.
+OWNER_EMAIL = os.getenv("OWNER_EMAIL", "")
 COLLECTION_NAME = "travelplanner_places"
 
 INDEX_BATCH_SIZE = 500

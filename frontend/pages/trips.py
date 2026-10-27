@@ -16,7 +16,7 @@ import streamlit as st
 from backend.rag.retriever import SearchPlan, retrieve
 from backend.storage import history
 from frontend.components import trip_tabs
-from frontend.components.common import PAGES, set_mode, start_new_chat
+from frontend.components.common import PAGES, current_owner, set_mode, start_new_chat
 from frontend.html import render
 
 POINT_COLOURS = {"origin": [139, 143, 152], "destination": [59, 130, 246], "attraction": [249, 115, 22]}
@@ -39,7 +39,7 @@ def _summary(trip: dict) -> str:
 def my_trips() -> None:
     st.title("My trips")
     st.caption("Trips saved from a costed plan in the chat. Press **Save as trip** under a plan to add one.")
-    trips = history.list_trips()
+    trips = history.list_trips(current_owner())
     if not trips:
         st.info("No trips yet. Plan a trip in the chat, then press Save as trip under the plan.",
                 icon=":material/luggage:")
@@ -146,7 +146,7 @@ def _discover_tab(trip: dict) -> None:
 
 
 def trip_page() -> None:
-    trip = history.load_trip(st.query_params.get("trip") or "")
+    trip = history.load_trip(st.query_params.get("trip") or "", current_owner())
     if trip is None:
         st.title("Trip not found")
         st.caption("It may have been deleted.")

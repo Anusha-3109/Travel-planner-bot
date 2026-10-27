@@ -11,7 +11,7 @@ import streamlit as st
 
 from backend.agent.packing import suggest_items
 from backend.storage import history, trip_extras
-from frontend.components.common import cost_text
+from frontend.components.common import cost_text, signed_in_user
 
 PLANNED_COLOUR, SPENT_COLOUR = "#3987e5", "#d95926"
 DOCUMENT_TAGS = ["Flights", "Stays", "Activities", "Insurance", "Other"]
@@ -210,8 +210,12 @@ def _size(size: int) -> str:
 
 
 def documents_tab(trip: dict) -> None:
-    st.warning("Everyone who can open TripMate can see these files, so don't upload passports, ID or "
-               "anything private. Tickets, booking confirmations and vouchers are fine.", icon=":material/lock:")
+    if signed_in_user():
+        st.info("Only you can see these files. They're stored as uploaded, without extra encryption, so keep "
+                "passports and ID out. Tickets, booking confirmations and vouchers are fine.", icon=":material/lock:")
+    else:
+        st.warning("Everyone who can open TripMate can see these files, so don't upload passports, ID or "
+                   "anything private. Tickets, booking confirmations and vouchers are fine.", icon=":material/lock:")
     with st.form(f"document-{trip['id']}", clear_on_submit=True, border=True):
         upload = st.file_uploader("Upload a file (PDF, PNG, JPEG or WebP, up to 5 MB)",
                                   type=["pdf", "png", "jpg", "jpeg", "webp"], max_upload_size=UPLOAD_MB)

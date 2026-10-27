@@ -7,7 +7,7 @@ import streamlit as st
 from backend import config
 from backend.rag.ingest import build_index
 from backend.storage import history
-from frontend.components.common import export_markdown, model_label, prepare_index, start_new_chat
+from frontend.components.common import current_owner, export_markdown, model_label, prepare_index, start_new_chat
 from frontend.components.trip_form import CURRENCIES
 
 TESTED_MODEL = "anthropic/claude-haiku-5.5"
@@ -77,7 +77,7 @@ def settings_dialog() -> None:
                               file_name="tripmate_chat.json", width="stretch", icon=":material/download:")
     confirm = st.checkbox("Yes, delete every saved chat and the dashboard log")
     if st.button("Delete all history", icon=":material/delete:", disabled=not confirm):
-        history.delete_all()
+        history.delete_all(current_owner())
         start_new_chat()
         st.rerun()
 

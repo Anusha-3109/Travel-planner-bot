@@ -96,7 +96,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 
 ### Saved data
 
-`backend/storage/history.py` keeps chats (messages with their tool results, model, currency, mode, bookmark), the request log behind the dashboard, and saved trips with what the traveller adds to them (expenses, packing list, journal), in `.history/chats.sqlite3` (git-ignored); uploaded documents and photos are files in `.history/documents/`, checked by their first bytes (PDF, PNG, JPEG or WebP, up to 5 MB). `backend/storage/trip_extras.py` sums the budget and makes the packing list with plain rules (documents, clothes for the nights, a plug adapter when the sockets differ from home, items for the plan and season); "Suggest more" asks the model for extra items (`backend/agent/packing.py`, about $0.001). `backend/storage/trips.py` builds a trip from a costed plan's tool results only: the plan, prices, checks, flight times, transit steps, stay links and ratings.
+`backend/storage/history.py` keeps chats (messages with their tool results, model, currency, mode, bookmark), the request log behind the dashboard, and saved trips with what the traveller adds to them (expenses, packing list, journal), in `.history/chats.sqlite3` (git-ignored). Every chat, request and trip has an owner: the signed-in user (a hash of their Google email, not the email) or `local` without sign-in, and reads only return the owner's own rows, so a guessed chat or trip link from someone else finds nothing; uploaded documents and photos are files in `.history/documents/`, checked by their first bytes (PDF, PNG, JPEG or WebP, up to 5 MB). `backend/storage/trip_extras.py` sums the budget and makes the packing list with plain rules (documents, clothes for the nights, a plug adapter when the sockets differ from home, items for the plan and season); "Suggest more" asks the model for extra items (`backend/agent/packing.py`, about $0.001). `backend/storage/trips.py` builds a trip from a costed plan's tool results only: the plan, prices, checks, flight times, transit steps, stay links and ratings.
 
 ## Course requirements
 
@@ -173,7 +173,7 @@ Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered mod
 
 ## Deployment
 
-TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app>. It asks for a password first (`APP_PASSWORD`), because everyone who opens it shares the same saved chats and the same API credit; ask the author for it.
+TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app>. You sign in with your Google account, and you see only your own chats, trips, expenses, packing lists, journal and documents. Sign-in is limited to the test users the author has added, so ask the author to add your Google email. Before sign-in is set up, the deployed copy asks for a password instead (`APP_PASSWORD`).
 
 | Part | How it's set up |
 |---|---|
@@ -182,6 +182,7 @@ TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app
 | Service | Cloud Run `tripmate` in `europe-west1`: 1 CPU, 2 GiB, at most 1 instance, session affinity for Streamlit's connection, scales to zero when unused |
 | Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY` and `APP_PASSWORD` in Secret Manager, passed in as environment variables; never in the image or the repository |
 | Saved chats and trips | A Cloud Storage bucket mounted at `/mnt/history` (`HISTORY_DIR`), so they survive restarts. At most one instance writes to the SQLite file |
+| Sign-in | Streamlit's built-in Google sign-in (`st.login`). Its settings (`[auth]`: client id and secret, cookie secret, redirect address) are a Secret Manager secret mounted as `/secrets/streamlit/secrets.toml`, which `.streamlit/config.toml` lists as a secrets file. `OWNER_EMAIL` names the author, whose first sign-in takes over everything saved before sign-in |
 
 **Every push to `main` deploys automatically.** After the tests pass, [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the image, tags it with the commit id, pushes it and deploys it, so the live link shows the new version about 40 minutes later (most of that is building the knowledge base into the image). GitHub signs in to Google Cloud with Workload Identity Federation: there's no key file, and Google Cloud accepts only this repository's `main` branch. The deploy account (`github-deployer`) can push images and deploy, but can't read the secrets. Copies of the repository run the tests and skip the deploy.
 
@@ -226,6 +227,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **Tool results** (listing names, place descriptions and other outside text) are screened before the model reads them: instruction-like text is removed, only http(s) links are kept and long text is trimmed (`backend/security/tool_output.py`).
 - **Tool inputs** chosen by the model are validated like user input: cities, dates, people, prices, ratings, cuisines, place names and plan structure.
 - **Limits:** a per-session message rate limit, per-chat live-call limits, at most 10 agent steps per answer, and clear limits for Google Flights (9 passengers) and Airbnb (16 guests).
+- **Accounts:** Google sign-in, so TripMate never stores a password; each user's chats, trips, request log and documents are reached only through their own owner id, and a test opens another user's trip link to check it shows nothing.
 - **Uploads:** documents and photos are kept only if their first bytes are a PDF, PNG, JPEG or WebP and they're up to 5 MB; file names are cleaned so they can't point to another folder.
 - **HTML:** answers never render raw HTML; the HTML parts in `frontend/html/` escape every value they show and only link to http(s) addresses.
 
@@ -235,7 +237,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-281 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+286 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -313,8 +315,8 @@ travel-planner-bot/
 - **Public transport times** are for your travel day up to 100 days ahead (Google's limit); further ahead they come from the current timetable.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain. Tools supply all prices, ids and links to keep this to the text.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
-- **Shared saved data:** there are no user accounts, so everyone who can open the app sees the same chats, trips and uploaded documents; the Documents tab says not to upload passports or ID.
-- **Next steps:** hybrid search (BM25 plus vectors), accounts so each traveller has their own trips and documents, and serving the tools as an MCP server.
+- **Sign-in:** the deployed copy signs in with Google only, and only the test users added to the Google sign-in screen can sign in (up to 100) until it's published. On a computer without sign-in settings, everything belongs to one local user.
+- **Next steps:** hybrid search (BM25 plus vectors), and serving the tools as an MCP server.
 
 ## Attribution
 
