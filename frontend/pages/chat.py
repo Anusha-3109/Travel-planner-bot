@@ -250,9 +250,8 @@ def render() -> None:
                 show_markdown(message["content"])
                 if message["role"] == "assistant":
                     _render_details(message, index)
-        placeholder = ("Ask for a trip plan, flights, restaurants or places to stay..."
-                       if st.session_state.mode == "plan" else "Ask about places, food or getting around...")
-        question = st.chat_input(placeholder) or st.session_state.pop("pending_question", None)
+        # No hint text, like the box on an empty chat.
+        question = st.chat_input("") or st.session_state.pop("pending_question", None)
 
     if question:
         before = len(st.session_state.messages)

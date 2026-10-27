@@ -103,7 +103,7 @@ def test_explore_mode_changes_the_examples_and_reaches_the_agent(answers):
     assert answers[-1]["mode"] == "explore"
     (chat,) = history.list_chats()
     assert chat["mode"] == "explore" and history.requests_since(1)[0]["mode"] == "explore"
-    assert at.chat_input  # after the first answer the usual chat box is back
+    assert at.chat_input and not at.chat_input[0].placeholder  # after the first answer the chat box is back, empty
 
 
 def test_an_answer_is_saved_logged_and_listed_in_the_sidebar(answers):
