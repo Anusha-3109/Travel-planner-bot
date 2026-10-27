@@ -13,6 +13,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 - [Course requirements](#course-requirements)
 - [Data sources](#data-sources)
 - [Setup and run](#setup-and-run)
+- [Deployment](#deployment)
 - [Evaluation](#evaluation)
 - [Costs and limits](#costs-and-limits)
 - [Security](#security)
@@ -168,7 +169,29 @@ streamlit run app.py
 
 Open <http://localhost:8501>. On the first start the app downloads a small embedding model (about 80 MB) and indexes the places into `.chroma/`; later starts only add new places. To rebuild the index yourself, run `python -m backend.rag.ingest`.
 
-Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered models are listed in `backend/config.py`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`.
+Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered models are listed in `backend/config.py`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`, and for a deployed copy `APP_PASSWORD` (a password screen before the app opens) and `HISTORY_DIR` (where the saved chats and trips are kept).
+
+## Deployment
+
+TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app>. It asks for a password first (`APP_PASSWORD`), because everyone who opens it shares the same saved chats and the same API credit; ask the author for it.
+
+| Part | How it's set up |
+|---|---|
+| Image | [`Dockerfile`](Dockerfile): Python 3.12, the app and the 2026 city files, and the knowledge base built into the image, so a cold start doesn't re-embed 54,309 places. [`.dockerignore`](.dockerignore) keeps `.env`, local state, tests and the evaluation data out of it |
+| Registry | Artifact Registry, `europe-west1-docker.pkg.dev/<project>/tripmate/app` |
+| Service | Cloud Run `tripmate` in `europe-west1`: 1 CPU, 2 GiB, at most 1 instance, session affinity for Streamlit's connection, scales to zero when unused |
+| Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY` and `APP_PASSWORD` in Secret Manager, passed in as environment variables; never in the image or the repository |
+| Saved chats and trips | A Cloud Storage bucket mounted at `/mnt/history` (`HISTORY_DIR`), so they survive restarts. At most one instance writes to the SQLite file |
+
+To deploy a new version from this folder:
+
+```bash
+docker build -t europe-west1-docker.pkg.dev/<project>/tripmate/app .
+docker push europe-west1-docker.pkg.dev/<project>/tripmate/app
+gcloud run deploy tripmate --image europe-west1-docker.pkg.dev/<project>/tripmate/app --region europe-west1
+```
+
+The deployed copy has its own saved chats and trips (in the bucket), separate from the ones on your computer (`.history/`).
 
 ## Evaluation
 
@@ -209,13 +232,14 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-271 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+272 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
 ```
 travel-planner-bot/
 ├── app.py              entry point: streamlit run app.py
+├── Dockerfile          the image for Google Cloud Run
 ├── frontend/           what you see in the browser
 │   ├── pages/
 │   ├── components/

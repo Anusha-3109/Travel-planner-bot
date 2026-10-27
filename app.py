@@ -8,6 +8,8 @@ computer (history.py), and the open chat's id is kept in the page address so a
 refresh reopens it.
 """
 
+import hmac
+
 import streamlit as st
 
 from backend import config
@@ -22,7 +24,24 @@ st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", lay
 protect_logs()
 
 
+def password_ok() -> bool:
+    """The password screen for a deployed copy (APP_PASSWORD). Without a password set, it's skipped."""
+    if not config.APP_PASSWORD or st.session_state.get("signed_in"):
+        return True
+    st.title("TripMate")
+    with st.form("password"):
+        password = st.text_input("Password", type="password")
+        if st.form_submit_button("Open TripMate", type="primary"):
+            if hmac.compare_digest(password.encode(), config.APP_PASSWORD.encode()):
+                st.session_state.signed_in = True
+                st.rerun()
+            st.error("Wrong password.")
+    return False
+
+
 def main() -> None:
+    if not password_ok():
+        st.stop()
     init_state()
     if not config.OPENROUTER_API_KEY:
         st.error("OPENROUTER_API_KEY is not set. Copy `.env.example` to `.env`, add your key, and restart the app.")

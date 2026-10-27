@@ -19,8 +19,10 @@ HAIKU = "anthropic/claude-haiku-5.5"
 
 @pytest.fixture
 def offline(monkeypatch):
-    """A placeholder OpenRouter key and no index build, so the app renders without network calls."""
+    """A placeholder OpenRouter key, no password screen (even with APP_PASSWORD in .env) and no index
+    build, so the app renders without network calls."""
     monkeypatch.setattr(config, "OPENROUTER_API_KEY", "test-key")
+    monkeypatch.setattr(config, "APP_PASSWORD", "")
     monkeypatch.setattr("frontend.components.common.ensure_index", lambda on_progress=None: 0)
 
 
@@ -237,3 +239,15 @@ def test_tiles_start_a_question_or_say_coming_soon(answers):
     discover = [b for b in at.main.button if b.label == "Try it"][2]  # AI planning, Booking, Discover
     discover.click().run()
     assert answers[-1]["mode"] == "explore" and history.list_chats()[0]["title"] == "Museums for kids in Chicago."
+
+
+def test_password_screen_opens_the_app_only_with_the_right_password(offline, monkeypatch):
+    monkeypatch.setattr(config, "APP_PASSWORD", "secret")
+    at = AppTest.from_file("../app.py", default_timeout=30).run()
+    assert at.text_input[0].label == "Password" and not at.text_area
+    at.text_input[0].input("wrong")
+    at.button[0].click().run()
+    assert at.error and not at.text_area
+    at.text_input[0].input("secret")
+    at.button[0].click().run()
+    assert not at.exception and at.text_area  # the Plan / Explore box

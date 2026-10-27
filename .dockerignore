@@ -1,0 +1,23 @@
+# Keys and local state never go into the image.
+.env
+.venv/
+.venv-eval/
+.chroma/
+.cache/
+.history/
+.deepeval/
+.claude/
+.git/
+.github/
+.pytest_cache/
+.ruff_cache/
+**/__pycache__/
+*.pyc
+
+# Not needed to run the app.
+tests/
+data/travelplanner/
+data/raw/
+legacy/
+docs/
+125.md

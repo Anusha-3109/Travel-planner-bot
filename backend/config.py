@@ -44,7 +44,11 @@ TRAVELPLANNER_DIR = DATA_DIR / "travelplanner"
 WORLD_DIR = DATA_DIR / "world"
 CHROMA_DIR = ROOT_DIR / ".chroma"
 CACHE_DB = ROOT_DIR / ".cache" / "backend.live.sqlite3"
-HISTORY_DB = ROOT_DIR / ".history" / "chats.sqlite3"  # saved chats and the request log (git-ignored)
+# Saved chats and the request log (git-ignored). HISTORY_DIR moves it, for example to a mounted
+# Cloud Storage bucket on Cloud Run, so it survives restarts.
+HISTORY_DB = Path(os.getenv("HISTORY_DIR") or ROOT_DIR / ".history") / "chats.sqlite3"
+# When set, the app asks for this password first (for a deployed copy; empty locally).
+APP_PASSWORD = os.getenv("APP_PASSWORD", "")
 COLLECTION_NAME = "travelplanner_places"
 
 INDEX_BATCH_SIZE = 500
