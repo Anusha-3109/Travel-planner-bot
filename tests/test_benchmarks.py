@@ -9,6 +9,8 @@ import evaluation
 from frontend.pages import benchmarks
 
 HAIKU = "anthropic/claude-haiku-5.5"
+LUNA = "openai/gpt-6-luna"
+SOL = "openai/gpt-6.1-sol"
 
 
 @pytest.fixture
@@ -62,6 +64,45 @@ def test_tables_are_built_from_the_result_files(results):
     assert strategies.iloc[-1]["Strategy"] == "full  ·  used by the app" and strategies.iloc[-1]["Hit rate"] == 0.9
     plans = benchmarks.plan_table(benchmarks.load(results / "plans.json"))
     assert list(plans["Questions"]) == ["All", "Easy", "Medium", "Hard"] and plans.iloc[3]["Final pass"] == 0.1
+
+
+def _ragas(faithfulness, per_answer, cost=None):
+    return {"questions": 2, "agent_cost_usd": 0.004, "median_seconds": 5.0, "judge_cost_usd": cost,
+            "summary": {"overall": {"faithfulness": faithfulness, "answer_relevancy": 0.9, "context_precision": 0.8}},
+            "rows": [{"faithfulness": f, "answer_relevancy": 0.9, "context_precision": 0.8} for f in per_answer]}
+
+
+def test_the_main_judge_is_shown_and_compared_with_the_first(results):
+    _write(evaluation.ragas_results_path(HAIKU), _ragas(0.7, [0.6, 0.8]))
+    _write(evaluation.ragas_results_path(LUNA), _ragas(0.9, [0.9, 0.9]))
+    assert benchmarks.shown_judge() == HAIKU and benchmarks.judges_run() == [HAIKU]
+    _write(evaluation.ragas_results_path(HAIKU, SOL), _ragas(0.8, [0.8, 0.8], cost=0.7))
+    _write(evaluation.ragas_results_path(LUNA, SOL), _ragas(0.85, [0.9, 0.8], cost=0.5))
+    assert benchmarks.shown_judge() == SOL
+    assert list(benchmarks.model_table()["Faithfulness"]) == [0.8, 0.85]  # the main judge's scores
+    judges = benchmarks.judge_table()
+    assert list(judges["Judge"][:2]) == ["Claude Haiku 5.5  ·  judges itself", "OpenAI GPT-6.1 Sol"]
+    agreement = benchmarks.judge_agreement().iloc[0]
+    assert agreement["Judges"] == "Claude Haiku 5.5 vs OpenAI GPT-6.1 Sol"
+    assert agreement["Faithfulness"] == "Same ranking · gap 0.08"  # (0.2 + 0 + 0 + 0.1) / 4
+    assert benchmarks.judge_costs() == "OpenAI GPT-6.1 Sol $1.20"
+    scores = benchmarks.judge_scores("faithfulness")
+    assert list(scores["Judge"]) == ["Haiku 5.5", "GPT-6.1 Sol"] * 2
+    assert list(scores["Score"]) == [0.7, 0.8, 0.9, 0.85]
+    spec = benchmarks.judge_dot_plot("faithfulness").to_dict()
+    assert [layer["mark"]["type"] for layer in spec["layer"]] == ["rule", "point"]
+
+
+def test_judge_comparison_switches_between_dot_plot_and_table(results):
+    _write(evaluation.ragas_results_path(HAIKU), _ragas(0.7, [0.6, 0.8]))
+    _write(evaluation.ragas_results_path(HAIKU, SOL), _ragas(0.8, [0.8, 0.8], cost=0.7))
+    at = AppTest.from_function(_page, default_timeout=30)
+    at.run()
+    assert not at.exception
+    assert at.button_group(key="judge-view").value == "Dot plot"
+    tables = len(at.dataframe)
+    at.button_group(key="judge-view").set_value("Table").run()
+    assert not at.exception and len(at.dataframe) == tables + 1
 
 
 def test_each_trip_lists_its_constraints_and_failed_checks(results):
