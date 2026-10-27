@@ -93,6 +93,19 @@ def test_the_main_judge_is_shown_and_compared_with_the_first(results):
     assert [layer["mark"]["type"] for layer in spec["layer"]] == ["rule", "point"]
 
 
+def test_a_fresh_run_shows_how_much_the_scores_change(results):
+    _write(evaluation.ragas_results_path(HAIKU, SOL), _ragas(0.8, [0.8, 0.8]))
+    _write(evaluation.ragas_results_path(LUNA, SOL), _ragas(0.9, [0.9, 0.9]))
+    assert benchmarks.stability_table().empty and benchmarks.stability_summary() == ""
+    _write(evaluation.ragas_results_path(HAIKU, SOL, "repeat"), _ragas(0.75, [0.7, 0.8]))
+    _write(evaluation.ragas_results_path(LUNA, SOL, "repeat"), _ragas(0.92, [0.9, 0.94]))
+    row = benchmarks.stability_table().iloc[0]
+    assert row["Model"] == "Claude Haiku 5.5" and row["Faithfulness"] == "0.80 → 0.75 (-0.05)"
+    assert benchmarks.stability_summary() == ("Largest change between the two runs: faithfulness 0.05, answer "
+                                              "relevancy 0.00, context precision 0.00; the faithfulness ranking "
+                                              "of the models stayed the same.")
+
+
 def test_judge_comparison_switches_between_dot_plot_and_table(results):
     _write(evaluation.ragas_results_path(HAIKU), _ragas(0.7, [0.6, 0.8]))
     _write(evaluation.ragas_results_path(HAIKU, SOL), _ragas(0.8, [0.8, 0.8], cost=0.7))

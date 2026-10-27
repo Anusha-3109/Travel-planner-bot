@@ -40,8 +40,11 @@ def load(path: Path) -> dict | None:
         return None
 
 
-def ragas_result(model: str, judge: str) -> dict | None:
-    return load(ragas_results_path(model, None if judge == FIRST_JUDGE else judge))
+REPEAT_RUN = "repeat"  # a fresh run of the same questions (ragas_eval --run repeat), judged by MAIN_JUDGE
+
+
+def ragas_result(model: str, judge: str, run: str | None = None) -> dict | None:
+    return load(ragas_results_path(model, None if judge == FIRST_JUDGE else judge, run))
 
 
 def judges_run() -> list[str]:
@@ -144,6 +147,39 @@ def judge_agreement() -> pd.DataFrame:
                 row[label] = f"{'Same' if same else 'Different'} ranking · gap {sum(gaps) / len(gaps):.2f}"                     if gaps else "—"
             rows.append(row)
     return pd.DataFrame(rows)
+
+
+def stability_table() -> pd.DataFrame:
+    """Each model's scores from the first answers and from a fresh run of the same questions, both
+    judged by the main judge, and the change. Empty until the fresh run exists."""
+    rows = []
+    for model, (name, *_) in config.MODELS.items():
+        first, fresh = ragas_result(model, MAIN_JUDGE), ragas_result(model, MAIN_JUDGE, REPEAT_RUN)
+        if not (first and fresh):
+            continue
+        row = {"Model": name}
+        for metric, label in METRICS.items():
+            a, b = first["summary"]["overall"].get(metric), fresh["summary"]["overall"].get(metric)
+            row[label] = f"{a:.2f} → {b:.2f} ({b - a:+.2f})" if a is not None and b is not None else "—"
+        rows.append(row)
+    return pd.DataFrame(rows)
+
+
+def stability_summary() -> str:
+    """The largest change per metric and whether the faithfulness ranking held, as one sentence."""
+    pairs = [(ragas_result(m, MAIN_JUDGE), ragas_result(m, MAIN_JUDGE, REPEAT_RUN)) for m in config.MODELS]
+    pairs = [(a, b) for a, b in pairs if a and b]
+    if len(pairs) < 2:
+        return ""
+
+    def score(result, metric):
+        return result["summary"]["overall"].get(metric) or 0
+
+    changes = ", ".join(f"{label.lower()} {max(abs(score(b, m) - score(a, m)) for a, b in pairs):.2f}"
+                        for m, label in METRICS.items())
+    order = [sorted(range(len(pairs)), key=lambda i: -score(pairs[i][run], "faithfulness")) for run in (0, 1)]
+    held = "the faithfulness ranking of the models stayed the same" if order[0] == order[1]         else "the faithfulness ranking of the models changed"
+    return f"Largest change between the two runs: {changes}; {held}."
 
 
 def judge_costs() -> str:
@@ -279,6 +315,13 @@ def render() -> None:
                 st.dataframe(agreement, hide_index=True, width="stretch")
                 st.caption("Gap: how far apart two judges score the same answer, on average (0 to 1). "
                            + (f"Judge cost for all answers: {judge_costs()}.".replace("$", r"\$") if judge_costs() else ""))
+        stability = stability_table()
+        if not stability.empty:
+            st.subheader("How stable are the scores?")
+            st.caption(f"The same questions answered again by each model and judged again by {JUDGES[MAIN_JUDGE]}. "
+                       "Differences between models smaller than these changes shouldn't be read as real.")
+            st.dataframe(stability, hide_index=True, width="stretch")
+            st.caption(stability_summary())
 
     st.subheader("Retrieval strategies")
     if not retrieval:

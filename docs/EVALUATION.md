@@ -17,7 +17,7 @@ How well TripMate finds places, answers from them and plans whole trips, measure
 | Part | What it measures | Main result |
 |---|---|---|
 | 1. Retrieval | Does the search find the right places? | The app's strategy finds a right place for **96.7%** of questions, with **12%** of places from the wrong city (29% with plain vector search) |
-| 2. Answers (RAGAS) | Are answers built on what was found? | Faithfulness **0.90** for GPT-6 Luna, **0.85** for Gemini 3.7 Flash and **0.81** for Haiku (judged by GPT-6.1 Sol), after a prompt fix the evaluation found; two other judges rank Haiku last too |
+| 2. Answers (RAGAS) | Are answers built on what was found? | Faithfulness **0.90** for GPT-6 Luna, **0.85** for Gemini 3.7 Flash and **0.81** for Haiku (judged by GPT-6.1 Sol), after a prompt fix the evaluation found; two other judges and a fresh run rank Haiku last too, and a fresh run moves scores by up to 0.05 |
 | 3. Trip plans | Does a full plan meet the traveller's rules? | **100%** of 18 plans delivered, **39%** pass every check, **72%** if the house-rule check is left out |
 
 ## Part 1: Retrieval
@@ -119,7 +119,7 @@ A rule was added to the system prompt ([`backend/agent/agent.py`](../backend/age
 
 - **GPT-6 Luna and Gemini follow the rule:** Gemini's museum answers went from 0.51 to 0.91, and GPT-6 Luna's cuisine answers from 0.62 to 0.94.
 - **Answer relevancy stayed about the same**, so the shorter answers still answer the question.
-- **Haiku barely changed.** Part of its low score is the wording of the data: Haiku calls OpenStreetMap hotels "hotels", while the knowledge-base text says "private room", the room type they're stored under.
+- **Haiku barely changed.** Part of its low score is the wording of the data: Haiku calls OpenStreetMap hotels "hotels", while the knowledge-base text said "private room", the room type they're stored under. The knowledge base now says "hotel room (private room)" for these 7,351 stays; the scores here were measured before that change.
 
 ### Does the judge matter?
 
@@ -149,6 +149,20 @@ Do the judges agree?
 - **Context precision depends on the judge:** the rankings differ, so small differences there shouldn't be read as real.
 - **Sonnet made clear mistakes.** It scored GPT-6 Luna's answer to "Italian restaurants in St. Louis" at 0.13, but the answer only lists the 6 retrieved restaurants, each of which the retrieved text calls "Cuisines: Italian". GPT-6.1 Sol scored it 0.88. Sonnet did the same on two more cuisine answers, which is why it ranks GPT-6 Luna lower.
 - **The lesson:** a single LLM judge can be confidently wrong, so it's worth checking the lowest scores by hand and comparing judges before trusting small differences.
+
+### How stable are the scores?
+
+The judge isn't the only source of noise: the same model can answer the same question differently the next time. So all three models answered the 15 questions again, and GPT-6.1 Sol judged the new answers. The first answers stay as they were, and the fresh run is saved separately in [`results/ragas/runs/repeat/`](../evaluation/results/ragas/runs/repeat).
+
+| Model | Faithfulness, first → fresh | Answer relevancy | Context precision |
+|---|---|---|---|
+| Claude Haiku 5.5 | 0.810 → 0.774 (−0.04) | 0.846 → 0.851 (+0.01) | 0.988 → 0.983 (−0.01) |
+| OpenAI GPT-6 Luna | 0.901 → 0.908 (+0.01) | 0.901 → 0.889 (−0.01) | 0.967 → 0.922 (−0.05) |
+| Google Gemini 3.7 Flash | 0.850 → 0.891 (+0.04) | 0.931 → 0.924 (−0.01) | 0.978 → 0.965 (−0.01) |
+
+- **The ranking holds:** GPT-6 Luna is the most faithful and Haiku the least in both runs.
+- **Answer relevancy is very stable**, within 0.01.
+- **Faithfulness and context precision move by up to 0.05** from one run to the next. Differences between models smaller than that, such as Gemini against GPT-6 Luna on faithfulness in the fresh run (0.89 against 0.91), shouldn't be read as real.
 
 ## Part 3: Trip plans
 
@@ -205,11 +219,12 @@ With and without the knowledge base, on the same 6 trips:
 | 1. Retrieval | $0.006 | none |
 | 2. RAGAS, both runs (answers) | about $0.23, plus Haiku's judging (not recorded) | none |
 | 2. Two more judges on the saved answers | $4.92 (GPT-6.1 Sol $1.98, Sonnet 5.5 $2.94) | none |
+| 2. Fresh run, judged by GPT-6.1 Sol | $2.11 ($0.11 answers, $2.01 judge) | none |
 | 3. Trip plans (18 + 6 without the knowledge base) | about $0.76 | 61 SerpApi searches, 230 Google Maps calls |
 
 ## Limitations
 
-- **Small samples:** 60, 15 and 18 questions. One answer more or less moves a score by up to 7 points (in part 3, by 17 points within one level).
+- **Small samples:** 60, 15 and 18 questions. One answer more or less moves a score by up to 7 points (in part 3, by 17 points within one level), and a fresh run of the same RAGAS questions moved faithfulness and context precision by up to 0.05.
 - **LLM judges disagree:** three judges agree on answer relevancy, mostly agree on faithfulness and disagree on context precision, and one judge (Sonnet 5.5) made clear mistakes. The same judge also varies a little between runs: Haiku rejudging the same answers moved context precision by up to 0.03.
 - **Live data changes:** the trip plans use live prices and availability, so a new run gives different plans and totals.
 - **Not TravelPlanner's official score:** the checks follow its rules, but the questions were moved to 2026 and scored with TripMate's own checks.
@@ -224,6 +239,7 @@ python -m evaluation.plans                                            # part 3, 
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna            # part 2, per model
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge  # score saved answers again
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge --judge openai/gpt-6.1-sol  # another judge, about $0.66
+.venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --run repeat --judge openai/gpt-6.1-sol  # fresh answers, saved separately, about $0.70
 ```
 
 The RAGAS environment is set up as described in the [README](../README.md#evaluation).

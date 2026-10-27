@@ -29,7 +29,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 | **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer; **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
 | **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover. |
 | **Dashboard** | Requests, answer times, tokens, cost, tool calls, refused questions, errors and live searches per day, from the request log. |
-| **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table) and trip-plan pass rates. |
+| **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
 | **How it answers** | How a question becomes an answer, the tools, the knowledge base (with a free search box), data sources, costing rules and safety checks. |
 | **Settings** | The answer model (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash), currency, chat export, deleting history, rebuilding the knowledge base. |
 
@@ -234,7 +234,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-273 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+274 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
