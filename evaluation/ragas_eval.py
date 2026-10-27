@@ -6,11 +6,14 @@ Run in the evaluation environment (RAGAS needs an older openai package than the 
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval                         (the default model)
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge   (score the saved answers again)
+    .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge --judge openai/gpt-6.1-sol
+        (score the saved answers with another judge, saved in results/ragas/judges/, to compare judges)
 
 The agent answers 15 knowledge-base questions (museums, cuisines and private rooms
 in random cities, from the same generator as part 1) with only its knowledge-base
 search tool, so every answer is built on retrieved places. RAGAS then judges each
-answer against the places it was given, with the app's default model as judge:
+answer against the places it was given, with the app's default model as judge
+(or the model given with --judge):
 - faithfulness: the share of the answer's claims supported by the retrieved places
 - answer relevancy: how well the answer addresses the question (it generates
   questions back from the answer and compares them with the real one, using the
@@ -26,6 +29,7 @@ import time
 from contextlib import contextmanager
 from datetime import datetime, timezone
 
+import httpx
 from openai import AsyncOpenAI
 from ragas.embeddings.base import BaseRagasEmbedding
 from ragas.llms import llm_factory
@@ -79,9 +83,21 @@ def questions(per_kind: int = PER_KIND) -> list[dict]:
     return picked
 
 
-async def judge(rows: list[dict]) -> None:
-    client = AsyncOpenAI(api_key=config.OPENROUTER_API_KEY, base_url=config.OPENROUTER_BASE_URL)
-    llm = llm_factory(config.OPENROUTER_MODEL, client=client, max_tokens=JUDGE_MAX_TOKENS)
+async def judge(rows: list[dict], judge_model: str = config.OPENROUTER_MODEL) -> float:
+    """Scores each row in place. Returns what the judge's calls cost (OpenRouter's reported cost)."""
+    cost = 0.0
+
+    async def add_cost(response: httpx.Response) -> None:
+        nonlocal cost
+        await response.aread()
+        try:
+            cost += float((response.json().get("usage") or {}).get("cost") or 0)
+        except ValueError:  # not JSON, for example an error page
+            pass
+
+    client = AsyncOpenAI(api_key=config.OPENROUTER_API_KEY, base_url=config.OPENROUTER_BASE_URL,
+                         http_client=httpx.AsyncClient(timeout=120, event_hooks={"response": [add_cost]}))
+    llm = llm_factory(judge_model, client=client, max_tokens=JUDGE_MAX_TOKENS)
     metrics = {"faithfulness": Faithfulness(llm=llm),
                "answer_relevancy": AnswerRelevancy(llm=llm, embeddings=LocalEmbeddings()),
                "context_precision": ContextPrecisionWithoutReference(llm=llm)}
@@ -98,6 +114,7 @@ async def judge(rows: list[dict]) -> None:
             except Exception as error:  # one failed judgement shouldn't stop the run
                 row[name] = None
                 row.setdefault("errors", []).append(f"{name}: {error}")
+    return round(cost, 4)
 
 
 def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
@@ -111,22 +128,25 @@ def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
                          "agent_cost_usd": result.token_usage.get("cost_usd"),
                          "seconds": round(time.monotonic() - started, 1)})
     print("Judging with RAGAS...", flush=True)
-    asyncio.run(judge(rows))
+    judge_cost = asyncio.run(judge(rows))
     seconds = sorted(r["seconds"] for r in rows)
     return {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "model": model,
-            "judge": config.OPENROUTER_MODEL, "questions": len(rows),
+            "judge": config.OPENROUTER_MODEL, "judge_cost_usd": judge_cost, "questions": len(rows),
             "answered_from_retrieval": sum(bool(r["contexts"]) for r in rows),
             "agent_cost_usd": round(sum(r["agent_cost_usd"] or 0 for r in rows), 4),
             "median_seconds": seconds[len(seconds) // 2] if seconds else None,
             "summary": summarise(rows), "rows": rows}
 
 
-def rejudge(result: dict) -> dict:
-    """Score saved answers again (for example after changing the judge), without asking the model again."""
-    print("Judging with RAGAS...", flush=True)
-    asyncio.run(judge(result["rows"]))
+def rejudge(result: dict, judge_model: str = config.OPENROUTER_MODEL) -> dict:
+    """Score saved answers again (after changing the judge, or with another judge), without asking the
+    model again. The saved scores are left out first, so a failed judgement can't keep an old score."""
+    names = ("faithfulness", "answer_relevancy", "context_precision", "errors")
+    rows = [{k: v for k, v in row.items() if k not in names} for row in result["rows"]]
+    print(f"Judging with RAGAS ({judge_model})...", flush=True)
+    judge_cost = asyncio.run(judge(rows, judge_model))
     return {**result, "judged_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "judge": config.OPENROUTER_MODEL, "summary": summarise(result["rows"])}
+            "judge": judge_model, "judge_cost_usd": judge_cost, "summary": summarise(rows), "rows": rows}
 
 
 def summarise(rows: list[dict]) -> dict:
@@ -147,9 +167,18 @@ def main() -> None:
                         help="The model that writes the answers (the judge is always the default model)")
     parser.add_argument("--rejudge", action="store_true",
                         help="Score the saved answers for this model again instead of asking the model")
+    parser.add_argument("--judge", help="Another judge model for --rejudge (default: the app's default model); "
+                                         "its scores are saved separately, so the judges can be compared")
     args = parser.parse_args()
-    path = ragas_results_path(args.model)
-    result = rejudge(json.loads(path.read_text(encoding="utf-8"))) if args.rejudge else run(args.model)
+    if args.judge and not args.rejudge:
+        parser.error("--judge scores saved answers, so it needs --rejudge")
+    other_judge = args.judge if args.judge and args.judge != config.OPENROUTER_MODEL else None
+    path = ragas_results_path(args.model, other_judge)
+    if args.rejudge:
+        saved = json.loads(ragas_results_path(args.model).read_text(encoding="utf-8"))
+        result = rejudge(saved, other_judge or config.OPENROUTER_MODEL)
+    else:
+        result = run(args.model)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"\nSaved {path}.")

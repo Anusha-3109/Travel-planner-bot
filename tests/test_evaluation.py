@@ -6,7 +6,7 @@ import pytest
 
 from backend.rag.retriever import SearchPlan
 from backend.travel_data.catalog import load_catalog
-from evaluation import plans
+from evaluation import RESULTS_DIR, plans, ragas_results_path
 from evaluation.retrieval import Question, build_questions, score, strategy_plans, summarise
 
 QUESTION = Question("museums", "museums in Boston", "Boston",
@@ -120,3 +120,8 @@ def test_without_rag_removes_only_the_search_tool():
         assert "search_destination_options" not in agent_module.TOOLS_BY_NAME
         assert len(agent_module.TOOLS) == len(before) - 1
     assert [t.name for t in agent_module.TOOLS] == before
+
+
+def test_each_judge_has_its_own_ragas_results():
+    assert ragas_results_path("openai/gpt-6-luna") == RESULTS_DIR / "ragas" / "openai-gpt-6-luna.json"
+    assert ragas_results_path("openai/gpt-6-luna", "openai/gpt-6.1-sol") ==         RESULTS_DIR / "ragas" / "judges" / "openai-gpt-6.1-sol" / "openai-gpt-6-luna.json"
