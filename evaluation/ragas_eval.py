@@ -5,6 +5,7 @@ Run in the evaluation environment (RAGAS needs an older openai package than the 
     uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r requirements-eval.txt
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval                         (the default model)
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna
+    .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge   (score the saved answers again)
 
 The agent answers 15 knowledge-base questions (museums, cuisines and private rooms
 in random cities, from the same generator as part 1) with only its knowledge-base
@@ -38,6 +39,8 @@ from evaluation import ragas_results_path
 from evaluation.retrieval import SEED, build_questions
 
 PER_KIND = 5
+# Faithfulness lists every claim in an answer, which doesn't fit RAGAS's default reply length.
+JUDGE_MAX_TOKENS = 8192
 KINDS = {"museums": "What museums can I visit in {city}?",
          "cuisine": "Which {text} can I try?",
          "private room": "Where can I book {text}?"}
@@ -78,7 +81,7 @@ def questions(per_kind: int = PER_KIND) -> list[dict]:
 
 async def judge(rows: list[dict]) -> None:
     client = AsyncOpenAI(api_key=config.OPENROUTER_API_KEY, base_url=config.OPENROUTER_BASE_URL)
-    llm = llm_factory(config.OPENROUTER_MODEL, client=client)
+    llm = llm_factory(config.OPENROUTER_MODEL, client=client, max_tokens=JUDGE_MAX_TOKENS)
     metrics = {"faithfulness": Faithfulness(llm=llm),
                "answer_relevancy": AnswerRelevancy(llm=llm, embeddings=LocalEmbeddings()),
                "context_precision": ContextPrecisionWithoutReference(llm=llm)}
@@ -86,6 +89,7 @@ async def judge(rows: list[dict]) -> None:
         if not row["contexts"]:
             continue
         inputs = {"user_input": row["question"], "response": row["answer"], "retrieved_contexts": row["contexts"]}
+        row.pop("errors", None)
         for name, metric in metrics.items():
             arguments = {k: v for k, v in inputs.items() if k != "retrieved_contexts"} if name == "answer_relevancy" \
                 else inputs
@@ -108,6 +112,24 @@ def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
                          "seconds": round(time.monotonic() - started, 1)})
     print("Judging with RAGAS...", flush=True)
     asyncio.run(judge(rows))
+    seconds = sorted(r["seconds"] for r in rows)
+    return {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "model": model,
+            "judge": config.OPENROUTER_MODEL, "questions": len(rows),
+            "answered_from_retrieval": sum(bool(r["contexts"]) for r in rows),
+            "agent_cost_usd": round(sum(r["agent_cost_usd"] or 0 for r in rows), 4),
+            "median_seconds": seconds[len(seconds) // 2] if seconds else None,
+            "summary": summarise(rows), "rows": rows}
+
+
+def rejudge(result: dict) -> dict:
+    """Score saved answers again (for example after changing the judge), without asking the model again."""
+    print("Judging with RAGAS...", flush=True)
+    asyncio.run(judge(result["rows"]))
+    return {**result, "judged_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "judge": config.OPENROUTER_MODEL, "summary": summarise(result["rows"])}
+
+
+def summarise(rows: list[dict]) -> dict:
     names = ("faithfulness", "answer_relevancy", "context_precision")
 
     def mean(items: list[dict], name: str) -> float | None:
@@ -116,22 +138,18 @@ def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
     summary = {"overall": {name: mean(rows, name) for name in names}}
     summary.update({kind: {name: mean([r for r in rows if r["kind"] == kind], name) for name in names}
                     for kind in KINDS})
-    seconds = sorted(r["seconds"] for r in rows)
-    return {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "model": model,
-            "judge": config.OPENROUTER_MODEL, "questions": len(rows),
-            "answered_from_retrieval": sum(bool(r["contexts"]) for r in rows),
-            "agent_cost_usd": round(sum(r["agent_cost_usd"] or 0 for r in rows), 4),
-            "median_seconds": seconds[len(seconds) // 2] if seconds else None,
-            "summary": summary, "rows": rows}
+    return summary
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Score knowledge-base answers with RAGAS.")
     parser.add_argument("--model", default=config.OPENROUTER_MODEL, choices=list(config.MODELS),
                         help="The model that writes the answers (the judge is always the default model)")
-    model = parser.parse_args().model
-    result = run(model)
-    path = ragas_results_path(model)
+    parser.add_argument("--rejudge", action="store_true",
+                        help="Score the saved answers for this model again instead of asking the model")
+    args = parser.parse_args()
+    path = ragas_results_path(args.model)
+    result = rejudge(json.loads(path.read_text(encoding="utf-8"))) if args.rejudge else run(args.model)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"\nSaved {path}.")

@@ -1,0 +1,2504 @@
+{
+ "run_at": "2026-10-26T16:38:11+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "k": 6,
+ "questions": 60,
+ "usage": {
+  "input_tokens": 37141,
+  "output_tokens": 4871,
+  "total_tokens": 42012,
+  "cost_usd": 0.00615
+ },
+ "summary": {
+  "vector": {
+   "overall": {
+    "hit": 0.933,
+    "precision": 0.569,
+    "reciprocal_rank": 0.851,
+    "wrong_city": 0.289
+   },
+   "cuisine": {
+    "hit": 0.8,
+    "precision": 0.289,
+    "reciprocal_rank": 0.469,
+    "wrong_city": 0.467
+   },
+   "museums": {
+    "hit": 1.0,
+    "precision": 0.844,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.122
+   },
+   "named place": {
+    "hit": 0.933,
+    "precision": 0.156,
+    "reciprocal_rank": 0.933,
+    "wrong_city": 0.556
+   },
+   "private room": {
+    "hit": 1.0,
+    "precision": 0.989,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.011
+   }
+  },
+  "+ filters": {
+   "overall": {
+    "hit": 0.95,
+    "precision": 0.627,
+    "reciprocal_rank": 0.889,
+    "wrong_city": 0.125
+   },
+   "cuisine": {
+    "hit": 0.933,
+    "precision": 0.444,
+    "reciprocal_rank": 0.691,
+    "wrong_city": 0.0
+   },
+   "museums": {
+    "hit": 1.0,
+    "precision": 0.92,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "named place": {
+    "hit": 0.867,
+    "precision": 0.144,
+    "reciprocal_rank": 0.867,
+    "wrong_city": 0.5
+   },
+   "private room": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  "+ multi-query": {
+   "overall": {
+    "hit": 0.933,
+    "precision": 0.572,
+    "reciprocal_rank": 0.831,
+    "wrong_city": 0.264
+   },
+   "cuisine": {
+    "hit": 0.733,
+    "precision": 0.289,
+    "reciprocal_rank": 0.413,
+    "wrong_city": 0.444
+   },
+   "museums": {
+    "hit": 1.0,
+    "precision": 0.833,
+    "reciprocal_rank": 0.967,
+    "wrong_city": 0.122
+   },
+   "named place": {
+    "hit": 1.0,
+    "precision": 0.167,
+    "reciprocal_rank": 0.944,
+    "wrong_city": 0.489
+   },
+   "private room": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  "full": {
+   "overall": {
+    "hit": 0.967,
+    "precision": 0.63,
+    "reciprocal_rank": 0.867,
+    "wrong_city": 0.122
+   },
+   "cuisine": {
+    "hit": 0.933,
+    "precision": 0.444,
+    "reciprocal_rank": 0.624,
+    "wrong_city": 0.0
+   },
+   "museums": {
+    "hit": 1.0,
+    "precision": 0.92,
+    "reciprocal_rank": 0.967,
+    "wrong_city": 0.0
+   },
+   "named place": {
+    "hit": 0.933,
+    "precision": 0.156,
+    "reciprocal_rank": 0.878,
+    "wrong_city": 0.489
+   },
+   "private room": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "kind": "museums",
+   "question": "museums in Cheyenne",
+   "city": "Cheyenne",
+   "right_answers": 7,
+   "plan": {
+    "queries": [
+     "museums in Cheyenne",
+     "Cheyenne Wyoming museum attractions",
+     "Cheyenne history and art museums"
+    ],
+    "category": "attraction",
+    "city": "Cheyenne"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Omaha",
+   "city": "Omaha",
+   "right_answers": 17,
+   "plan": {
+    "queries": [
+     "museums in Omaha",
+     "Omaha museum attractions",
+     "Omaha art history science museum"
+    ],
+    "category": "attraction",
+    "city": "Omaha"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Missoula",
+   "city": "Missoula",
+   "right_answers": 8,
+   "plan": {
+    "queries": [
+     "museums in Missoula",
+     "Missoula Montana museum attractions",
+     "Missoula art history science museum"
+    ],
+    "category": "attraction",
+    "city": "Missoula"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Des Moines",
+   "city": "Des Moines",
+   "right_answers": 11,
+   "plan": {
+    "queries": [
+     "museums in Des Moines",
+     "Des Moines museum attractions",
+     "Des Moines art history science museum"
+    ],
+    "category": "attraction",
+    "city": "Des Moines"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Laredo",
+   "city": "Laredo",
+   "right_answers": 5,
+   "plan": {
+    "queries": [
+     "museums in Laredo",
+     "Laredo Texas museum attractions",
+     "Laredo museum history art"
+    ],
+    "category": "attraction",
+    "city": "Laredo"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Pensacola",
+   "city": "Pensacola",
+   "right_answers": 12,
+   "plan": {
+    "queries": [
+     "museums in Pensacola",
+     "Pensacola museum attractions",
+     "Pensacola history and art museums"
+    ],
+    "category": "attraction",
+    "city": "Pensacola"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Hong Kong",
+   "city": "Hong Kong",
+   "right_answers": 48,
+   "plan": {
+    "queries": [
+     "museums in Hong Kong",
+     "Hong Kong museum attractions",
+     "Hong Kong art and history museums"
+    ],
+    "category": "attraction",
+    "city": "Hong Kong"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Longview",
+   "city": "Longview",
+   "right_answers": 4,
+   "plan": {
+    "queries": [
+     "museums in Longview",
+     "Longview museum attractions",
+     "Longview art history science museum"
+    ],
+    "category": "attraction",
+    "city": "Longview"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.8,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.8,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Owensboro",
+   "city": "Owensboro",
+   "right_answers": 3,
+   "plan": {
+    "queries": [
+     "museums in Owensboro",
+     "Owensboro museum attractions",
+     "Owensboro Kentucky art history museum"
+    ],
+    "category": "attraction",
+    "city": "Owensboro"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in El Paso",
+   "city": "El Paso",
+   "right_answers": 21,
+   "plan": {
+    "queries": [
+     "museums in El Paso",
+     "El Paso museum attractions",
+     "El Paso art history science museum"
+    ],
+    "category": "attraction",
+    "city": "El Paso"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Punta Gorda",
+   "city": "Punta Gorda",
+   "right_answers": 3,
+   "plan": {
+    "queries": [
+     "museums in Punta Gorda",
+     "Punta Gorda museum attractions",
+     "Punta Gorda history and art museum"
+    ],
+    "category": "attraction",
+    "city": "Punta Gorda"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Sacramento",
+   "city": "Sacramento",
+   "right_answers": 14,
+   "plan": {
+    "queries": [
+     "museums in Sacramento",
+     "Sacramento museum attractions",
+     "Sacramento history and art museums"
+    ],
+    "category": "attraction",
+    "city": "Sacramento"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Barcelona",
+   "city": "Barcelona",
+   "right_answers": 61,
+   "plan": {
+    "queries": [
+     "museums in Barcelona",
+     "Barcelona art museum",
+     "Barcelona history museum attractions"
+    ],
+    "category": "attraction",
+    "city": "Barcelona"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Nashville",
+   "city": "Nashville",
+   "right_answers": 20,
+   "plan": {
+    "queries": [
+     "museums in Nashville",
+     "Nashville museum attractions",
+     "Nashville art history museums"
+    ],
+    "category": "attraction",
+    "city": "Nashville"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "museums",
+   "question": "museums in Kansas City",
+   "city": "Kansas City",
+   "right_answers": 24,
+   "plan": {
+    "queries": [
+     "museums in Kansas City",
+     "Kansas City museum attractions",
+     "Kansas City art history science museums"
+    ],
+    "category": "attraction",
+    "city": "Kansas City"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Chinese restaurants in Tokyo",
+   "city": "Tokyo",
+   "right_answers": 13,
+   "plan": {
+    "queries": [
+     "Chinese restaurants in Tokyo",
+     "Chinese cuisine restaurants Tokyo Japan",
+     "best Chinese food Tokyo"
+    ],
+    "category": "restaurant",
+    "city": "Tokyo"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Greek restaurants in Portland",
+   "city": "Portland",
+   "right_answers": 4,
+   "plan": {
+    "queries": [
+     "Greek restaurants in Portland",
+     "Greek cuisine restaurant Portland",
+     "best Greek food Portland"
+    ],
+    "category": "restaurant",
+    "city": "Portland"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.6666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Japanese restaurants in Rome",
+   "city": "Rome",
+   "right_answers": 13,
+   "plan": {
+    "queries": [
+     "Japanese restaurants in Rome",
+     "Japanese cuisine Rome Italy",
+     "sushi ramen Rome restaurant"
+    ],
+    "category": "restaurant",
+    "city": "Rome"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Pita restaurants in Vienna",
+   "city": "Vienna",
+   "right_answers": 4,
+   "plan": {
+    "queries": [
+     "Pita restaurants in Vienna",
+     "pita restaurants Vienna",
+     "Vienna restaurants serving pita or Middle Eastern cuisine",
+     "Vienna falafel kebab Middle Eastern restaurants"
+    ],
+    "category": "restaurant",
+    "city": "Vienna"
+   },
+   "vector": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 1.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.2,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "full": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Mexican restaurants in Savannah",
+   "city": "Savannah",
+   "right_answers": 5,
+   "plan": {
+    "queries": [
+     "Mexican restaurants in Savannah",
+     "Savannah Mexican cuisine restaurant",
+     "best tacos and Mexican food Savannah"
+    ],
+    "category": "restaurant",
+    "city": "Savannah"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.25,
+    "wrong_city": 0.6666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Vietnamese restaurants in Phoenix",
+   "city": "Phoenix",
+   "right_answers": 3,
+   "plan": {
+    "queries": [
+     "Vietnamese restaurants in Phoenix",
+     "Phoenix Vietnamese cuisine pho banh mi",
+     "best Vietnamese food Phoenix Arizona"
+    ],
+    "category": "restaurant",
+    "city": "Phoenix"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.2,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Regional restaurants in San Juan",
+   "city": "San Juan",
+   "right_answers": 27,
+   "plan": {
+    "queries": [
+     "Regional restaurants in San Juan",
+     "regional restaurants San Juan",
+     "traditional Puerto Rican restaurants San Juan",
+     "local cuisine restaurants in San Juan"
+    ],
+    "category": "restaurant",
+    "city": "San Juan"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 0.3333333333333333,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 0.25,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 0.3333333333333333,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Italian restaurants in Santa Ana",
+   "city": "Santa Ana",
+   "right_answers": 7,
+   "plan": {
+    "queries": [
+     "Italian restaurants in Santa Ana",
+     "Santa Ana Italian cuisine restaurant",
+     "best Italian dining Santa Ana California"
+    ],
+    "category": "restaurant",
+    "city": "Santa Ana"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.16666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Mexican restaurants in Phoenix",
+   "city": "Phoenix",
+   "right_answers": 51,
+   "plan": {
+    "queries": [
+     "Mexican restaurants in Phoenix",
+     "Mexican cuisine restaurants Phoenix Arizona",
+     "best rated Mexican food Phoenix"
+    ],
+    "category": "restaurant",
+    "city": "Phoenix"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.3333333333333333,
+    "wrong_city": 0.5
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Italian restaurants in St. Louis",
+   "city": "St. Louis",
+   "right_answers": 18,
+   "plan": {
+    "queries": [
+     "Italian restaurants in St. Louis",
+     "best Italian food St. Louis",
+     "St. Louis Italian cuisine restaurants"
+    ],
+    "category": "restaurant",
+    "city": "St. Louis"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.6666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "American restaurants in Missoula",
+   "city": "Missoula",
+   "right_answers": 6,
+   "plan": {
+    "queries": [
+     "American restaurants in Missoula",
+     "Missoula American cuisine restaurant",
+     "best American food Missoula Montana"
+    ],
+    "category": "restaurant",
+    "city": "Missoula"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.16666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.5,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Burger restaurants in Indianapolis",
+   "city": "Indianapolis",
+   "right_answers": 4,
+   "plan": {
+    "queries": [
+     "Burger restaurants in Indianapolis",
+     "burger restaurants Indianapolis",
+     "Indianapolis burger cuisine restaurants",
+     "best burgers Indianapolis"
+    ],
+    "category": "restaurant",
+    "city": "Indianapolis"
+   },
+   "vector": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Chinese restaurants in Berlin",
+   "city": "Berlin",
+   "right_answers": 9,
+   "plan": {
+    "queries": [
+     "Chinese restaurants in Berlin",
+     "Berlin Chinese cuisine restaurant",
+     "best Chinese food Berlin"
+    ],
+    "category": "restaurant",
+    "city": "Berlin"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.5
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.3333333333333333,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Barbecue restaurants in Sacramento",
+   "city": "Sacramento",
+   "right_answers": 3,
+   "plan": {
+    "queries": [
+     "Barbecue restaurants in Sacramento",
+     "Sacramento BBQ smokehouse",
+     "Sacramento barbecue ribs brisket"
+    ],
+    "category": "restaurant",
+    "city": "Sacramento"
+   },
+   "vector": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "cuisine",
+   "question": "Mediterranean restaurants in Burbank",
+   "city": "Burbank",
+   "right_answers": 6,
+   "plan": {
+    "queries": [
+     "Mediterranean restaurants in Burbank",
+     "Burbank Mediterranean cuisine restaurant",
+     "best Mediterranean dining Burbank"
+    ],
+    "category": "restaurant",
+    "city": "Burbank"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.2,
+    "wrong_city": 0.5
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.5,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.2,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Cambridge",
+   "city": "Cambridge",
+   "right_answers": 65,
+   "plan": {
+    "queries": [
+     "a private room to stay in Cambridge",
+     "private room accommodation Cambridge",
+     "Cambridge private room stay",
+     "Cambridge guesthouse private room"
+    ],
+    "category": "accommodation",
+    "city": "Cambridge"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Pensacola",
+   "city": "Pensacola",
+   "right_answers": 47,
+   "plan": {
+    "queries": [
+     "a private room to stay in Pensacola",
+     "private room accommodation Pensacola",
+     "Pensacola private room stay",
+     "Pensacola hotel private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Pensacola"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Milwaukee",
+   "city": "Milwaukee",
+   "right_answers": 59,
+   "plan": {
+    "queries": [
+     "a private room to stay in Milwaukee",
+     "private room accommodation Milwaukee",
+     "Milwaukee private room stay",
+     "Milwaukee room rental nightly price rating"
+    ],
+    "category": "accommodation",
+    "city": "Milwaukee"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Detroit",
+   "city": "Detroit",
+   "right_answers": 57,
+   "plan": {
+    "queries": [
+     "a private room to stay in Detroit",
+     "private room accommodation Detroit",
+     "Detroit private room stay",
+     "Detroit affordable private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Detroit"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Santa Cruz",
+   "city": "Santa Cruz",
+   "right_answers": 21,
+   "plan": {
+    "queries": [
+     "a private room to stay in Santa Cruz",
+     "private room accommodation Santa Cruz",
+     "Santa Cruz private room stay",
+     "Santa Cruz lodging private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Santa Cruz"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Tulsa",
+   "city": "Tulsa",
+   "right_answers": 58,
+   "plan": {
+    "queries": [
+     "a private room to stay in Tulsa",
+     "private room accommodation Tulsa",
+     "Tulsa private room stay",
+     "Tulsa hotel private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Tulsa"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Medford",
+   "city": "Medford",
+   "right_answers": 52,
+   "plan": {
+    "queries": [
+     "a private room to stay in Medford",
+     "private room accommodation Medford",
+     "Medford private room stay",
+     "Medford lodging private room"
+    ],
+    "category": "accommodation",
+    "city": "Medford"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Vienna",
+   "city": "Vienna",
+   "right_answers": 20,
+   "plan": {
+    "queries": [
+     "a private room to stay in Vienna",
+     "private room Vienna",
+     "Vienna accommodation private room",
+     "affordable private room stay Vienna"
+    ],
+    "category": "accommodation",
+    "city": "Vienna"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Cedar City",
+   "city": "Cedar City",
+   "right_answers": 22,
+   "plan": {
+    "queries": [
+     "a private room to stay in Cedar City",
+     "private room accommodation Cedar City",
+     "Cedar City hotel private room",
+     "Cedar City lodging private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Cedar City"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Cheyenne",
+   "city": "Cheyenne",
+   "right_answers": 43,
+   "plan": {
+    "queries": [
+     "a private room to stay in Cheyenne",
+     "private room accommodation Cheyenne",
+     "Cheyenne private room stay",
+     "Cheyenne lodging private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Cheyenne"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Phoenix",
+   "city": "Phoenix",
+   "right_answers": 60,
+   "plan": {
+    "queries": [
+     "a private room to stay in Phoenix",
+     "private room accommodation Phoenix",
+     "Phoenix private room stay",
+     "Phoenix accommodation private room rating price"
+    ],
+    "category": "accommodation",
+    "city": "Phoenix"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Syracuse",
+   "city": "Syracuse",
+   "right_answers": 52,
+   "plan": {
+    "queries": [
+     "a private room to stay in Syracuse",
+     "private room accommodation Syracuse",
+     "Syracuse private room stay",
+     "Syracuse hotel private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Syracuse"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.8333333333333334,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.16666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Corpus Christi",
+   "city": "Corpus Christi",
+   "right_answers": 53,
+   "plan": {
+    "queries": [
+     "a private room to stay in Corpus Christi",
+     "private room accommodation Corpus Christi",
+     "Corpus Christi hotel private room",
+     "Corpus Christi lodging rating nightly price"
+    ],
+    "category": "accommodation",
+    "city": "Corpus Christi"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Jacksonville",
+   "city": "Jacksonville",
+   "right_answers": 58,
+   "plan": {
+    "queries": [
+     "a private room to stay in Jacksonville",
+     "private room accommodation Jacksonville",
+     "Jacksonville private room stay",
+     "Jacksonville private room hotel rating nightly price"
+    ],
+    "category": "accommodation",
+    "city": "Jacksonville"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "private room",
+   "question": "a private room to stay in Fort Dodge",
+   "city": "Fort Dodge",
+   "right_answers": 8,
+   "plan": {
+    "queries": [
+     "a private room to stay in Fort Dodge",
+     "private room Fort Dodge",
+     "Fort Dodge accommodation private room",
+     "Fort Dodge hotel private room rating"
+    ],
+    "category": "accommodation",
+    "city": "Fort Dodge"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 1.0,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Insegna LITTLE HAVANA",
+   "city": "Miami",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Insegna LITTLE HAVANA",
+     "Little Havana",
+     "Little Havana Miami attractions",
+     "Little Havana restaurants"
+    ],
+    "category": null,
+    "city": null
+   },
+   "vector": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 0.16666666666666666,
+    "wrong_city": 0.5
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Musée de Montmartre",
+   "city": "Paris",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Musée de Montmartre",
+     "Musée de Montmartre Paris attraction",
+     "Montmartre museum Paris history art"
+    ],
+    "category": "attraction",
+    "city": "Paris"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Southern Oregon Live Steamers",
+   "city": "Medford",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Southern Oregon Live Steamers",
+     "Southern Oregon Live Steamers model railroad park",
+     "Southern Oregon Live Steamers Medford Oregon attraction"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Mirador de Cal Lluquer",
+   "city": "Barcelona",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Mirador de Cal Lluquer",
+     "Cal Lluquer viewpoint",
+     "Cal Lluquer attraction"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Wilding Cran Gallery",
+   "city": "Los Angeles",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Wilding Cran Gallery",
+     "Wilding Cran Gallery attraction",
+     "art gallery Wilding Cran"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Rahmi M. Koç Müzesi",
+   "city": "Istanbul",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Rahmi M. Koç Müzesi",
+     "Rahmi Koç Museum Istanbul",
+     "Istanbul museums attractions"
+    ],
+    "category": "attraction",
+    "city": "Istanbul"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.5
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Art of Republic",
+   "city": "Columbus",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Art of Republic",
+     "Art of Republic restaurant",
+     "Art of Republic attraction"
+    ],
+    "category": null,
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Imaginarium of South Texas",
+   "city": "Laredo",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Imaginarium of South Texas",
+     "Imaginarium science museum Corpus Christi",
+     "Corpus Christi children's museum attraction"
+    ],
+    "category": "attraction",
+    "city": "Corpus Christi"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 1.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 0.0,
+    "precision": 0.0,
+    "reciprocal_rank": 0.0,
+    "wrong_city": 1.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Nature Center at Shaker Lakes",
+   "city": "Cleveland",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Nature Center at Shaker Lakes",
+     "Shaker Lakes nature center attraction",
+     "Shaker Heights Ohio nature center"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "1931 Championship Tree",
+   "city": "Green Bay",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "1931 Championship Tree",
+     "Championship Tree attraction",
+     "1931 Championship Tree golf landmark"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "New Orleans Mint",
+   "city": "New Orleans",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "New Orleans Mint",
+     "Old U.S. Mint New Orleans",
+     "New Orleans museums historic attractions"
+    ],
+    "category": "attraction",
+    "city": "New Orleans"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.3333333333333333
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "The Grand Gallery",
+   "city": "Oakland",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "The Grand Gallery",
+     "Grand Gallery attraction",
+     "Grand Gallery museum art"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Neuberger Museum of Art",
+   "city": "White Plains",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Neuberger Museum of Art",
+     "Neuberger Museum of Art Purchase New York museum",
+     "Neuberger Museum art gallery attraction"
+    ],
+    "category": "attraction",
+    "city": null
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.6666666666666666
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Memphis Children's Museum",
+   "city": "Memphis",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Memphis Children's Museum",
+     "children's museum Memphis",
+     "Memphis kids museum attraction"
+    ],
+    "category": "attraction",
+    "city": "Memphis"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.0
+   }
+  },
+  {
+   "kind": "named place",
+   "question": "Destination Mound Town",
+   "city": "Houston",
+   "right_answers": 1,
+   "plan": {
+    "queries": [
+     "Destination Mound Town",
+     "Mound Town attractions",
+     "Mound Town restaurants",
+     "Mound Town accommodations hotels"
+    ],
+    "category": null,
+    "city": "Mound Town"
+   },
+   "vector": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ filters": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "+ multi-query": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   },
+   "full": {
+    "hit": 1.0,
+    "precision": 0.16666666666666666,
+    "reciprocal_rank": 1.0,
+    "wrong_city": 0.8333333333333334
+   }
+  }
+ ]
+}

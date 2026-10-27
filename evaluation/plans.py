@@ -171,7 +171,7 @@ def run(per_level: int = PER_LEVEL, without_rag_per_level: int = WITHOUT_RAG_PER
     budget = SessionBudget(limits=dict(EVAL_LIMITS))
     runs = []
     for number, row in enumerate(rows, 1):
-        print(f"{number}/{len(rows)} {row['level']}: {row['origin']} → {row['destination']} on {row['start']}", flush=True)
+        print(f"{number}/{len(rows)} {row['level']}: {row['origin']} to {row['destination']} on {row['start']}", flush=True)
         runs.append({**row, **run_one(row, budget)})
     rng = random.Random(SEED)
     ablation_rows = [r for level in ("easy", "medium", "hard")
@@ -179,7 +179,7 @@ def run(per_level: int = PER_LEVEL, without_rag_per_level: int = WITHOUT_RAG_PER
     ablation = []
     with without_rag():
         for number, row in enumerate(ablation_rows, 1):
-            print(f"without RAG {number}/{len(ablation_rows)}: {row['origin']} → {row['destination']}", flush=True)
+            print(f"without RAG {number}/{len(ablation_rows)}: {row['origin']} to {row['destination']}", flush=True)
             ablation.append({**row, **run_one(row, budget)})
     with_rag_same = [next(r for r in runs if r["question"] == a["question"]) for a in ablation]
     return {
