@@ -14,9 +14,9 @@ from frontend.pages.dashboard import knowledge_base
 FLOW = """
 digraph {
   rankdir=LR; bgcolor="transparent"; pad=0.2;
-  node [shape=box style="rounded,filled" fillcolor="#1d1f24" color="#3b82f6" fontcolor="#e6e7ea"
+  node [shape=box style="rounded,filled" fillcolor="#202020" color="#f59e0b" fontcolor="#ececec"
         fontname="Helvetica" fontsize=11 margin="0.15,0.08"];
-  edge [color="#8b8f98" arrowsize=0.7];
+  edge [color="#8b8b8b" arrowsize=0.7];
   q [label="Your question"]; guard [label="Input guard\\n(rules)"];
   agent [label="Agent\\n(the model you picked)"]; tools [label="Tools\\nlive first, snapshot fallback"];
   screen [label="Tool results\\nscreened"]; cost [label="Cost and checks\\n(tools, not the model)"];

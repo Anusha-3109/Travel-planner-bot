@@ -1,18 +1,17 @@
-/* TripMate's own styles on top of the Streamlit dark theme (.streamlit/config.toml).
+/* TripMate's own styles on top of the Graphite amber theme (.streamlit/config.toml).
+   Colours: background #161616, cards #202020, borders #2f2f2f, text #ececec, muted #a3a3a3,
+   amber #f59e0b (the same as frontend/components/palette.py).
    Loaded once per page by frontend/html/render.py. Streamlit gives a container with the key
    "composer" the class "st-key-composer", which is how these rules find them.
    Keep angle brackets out of this file: Streamlit's HTML cleaner drops a style block containing them. */
 
 /* The Plan / Explore box on an empty chat: a rounded card with pill-shaped mode buttons. */
-.st-key-composer { border: 1px solid #2c2f36; border-radius: 18px; padding: 0.75rem; background-color: #1d1f24; }
+.st-key-composer { border: 1px solid #2f2f2f; border-radius: 14px; padding: 0.55rem 0.65rem; background-color: #202020; }
 .st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
-.st-key-composer textarea { font-size: 1rem; padding-right: 3.25rem; }
-/* Send is a round arrow button inside the text area's bottom-right corner (the text area is 110px high).
-   The label stays for screen readers and tests, but only the arrow is shown. */
-.st-key-composer [data-testid="stForm"] { position: relative; }
-.st-key-composer-send { position: absolute; top: calc(110px - 2.9rem); right: 0.55rem; width: auto; z-index: 1; }
-.st-key-composer-send button { border-radius: 999px; width: 2.4rem; height: 2.4rem; min-height: 0; padding: 0; }
-.st-key-composer-send button [data-testid="stMarkdownContainer"] { display: none; }
+/* The message box is a chat box (Enter sends, Shift+Enter starts a new line) with its own send arrow;
+   it gets a little height so it reads as the place to describe a trip. */
+.st-key-composer [data-testid="stChatInput"] textarea { font-size: 0.95rem; min-height: 3.4rem; }
+.st-key-composer [data-testid="stChatInput"] { background-color: #161616; }
 
 /* The orange note under the model list in Settings. */
 .st-key-model-note { border-left: 3px solid #f97316; padding-left: 0.75rem; }
@@ -24,23 +23,44 @@
 [data-testid="stSidebarUserContent"] > div { flex: 1; display: flex; flex-direction: column; }
 [data-testid="stSidebarUserContent"] > div > [data-testid="stVerticalBlock"] { flex: 1; }
 [data-testid="stLayoutWrapper"]:has(> .st-key-sidebar-footer) { margin-top: auto; position: sticky; bottom: 0;
-                                                                 z-index: 1; background-color: #101114; }
+                                                                 z-index: 1; background-color: #111111; }
 .st-key-sidebar-footer { padding-bottom: 0.5rem; }
 
-/* The hero on an empty chat. */
-.tm-hero { text-align: center; margin: 1.5rem 0 1.25rem; }
-.tm-hero img { width: 260px; max-width: 70%; }
-.tm-hero p { font-size: 1.15rem; margin: 0.4rem 0 0; }
+/* Amber buttons get dark text: white on amber is too faint to read. */
+button[data-testid^="stBaseButton-primary"], button[data-testid^="stBaseButton-primary"] p,
+button[data-testid^="stBaseButton-primary"] span { color: #1c1300 !important; }
+
+/* Every page: less empty space at the top, and a readable width on big screens. */
+[data-testid="stMainBlockContainer"] { padding-top: 3.6rem; padding-bottom: 2rem; max-width: 1180px; }
+[data-testid="stMainBlockContainer"] [data-testid="stVerticalBlock"] { gap: 0.6rem; }
+h1 { padding-top: 0.25rem !important; }
+
+/* The hero on an empty chat: the logo with the tagline under it. */
+.tm-hero { margin: 0.25rem 0 0.35rem; }
+.tm-hero p { font-size: 0.95rem; color: #a3a3a3; }
+
+/* Example questions: small chips that keep to one line; the full question shows on hover. */
+.st-key-examples button { min-height: 0; padding: 0.3rem 0.65rem; }
+.st-key-examples button p { font-size: 0.82rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.st-key-examples [data-testid="stVerticalBlock"] { gap: 0.4rem; }
+
+/* What TripMate can do: small cards with the feature, one line about it and an amber "Try it" link. */
+.st-key-tiles [data-testid="stLayoutWrapper"] > [data-testid="stVerticalBlock"] { padding: 0.45rem 0.8rem; gap: 0.15rem; }
+.st-key-tiles [data-testid="stHorizontalBlock"] { gap: 0.6rem; }
+.st-key-tiles [data-testid="stCaptionContainer"] p { font-size: 0.8rem; line-height: 1.35; }
+.st-key-tiles span[data-testid="stIconMaterial"] { color: #f59e0b; }
+.st-key-tiles button { min-height: 0; padding: 0; }
+.st-key-tiles button p { font-size: 0.82rem; color: #f59e0b; }
 
 /* A day on the trip page. */
-.tm-day { border: 1px solid #2c2f36; border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
+.tm-day { border: 1px solid #2f2f2f; border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
 .tm-day h4 { margin: 0 0 0.6rem; font-size: 1rem; font-weight: 600; }
-.tm-day h4 span { color: #9aa0aa; font-weight: 400; }
-.tm-items { border-left: 2px solid #3b82f6; padding-left: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.tm-day h4 span { color: #a3a3a3; font-weight: 400; }
+.tm-items { border-left: 2px solid #f59e0b; padding-left: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem; }
 .tm-item .tm-title { font-weight: 500; }
 .tm-item .tm-price { font-weight: 600; }
-.tm-item .tm-detail { color: #9aa0aa; font-size: 0.85rem; }
-.tm-item a { color: #60a5fa; }
-.tm-item details { font-size: 0.85rem; color: #c3c7cf; }
+.tm-item .tm-detail { color: #a3a3a3; font-size: 0.85rem; }
+.tm-item a { color: #fbbf24; }
+.tm-item details { font-size: 0.85rem; color: #cfcfcf; }
 .tm-item details ol { margin: 0.25rem 0 0; padding-left: 1.2rem; }
-.tm-unpriced { color: #9aa0aa; font-size: 0.8rem; margin-top: 0.5rem; }
+.tm-unpriced { color: #a3a3a3; font-size: 0.8rem; margin-top: 0.5rem; }

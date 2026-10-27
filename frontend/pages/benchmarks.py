@@ -13,6 +13,7 @@ import streamlit as st
 
 from backend import config
 from evaluation import RESULTS_DIR, ragas_results_path
+from frontend.components import palette
 from frontend.pages.settings import TESTED_MODEL
 
 # The RAGAS judges: the first scored every run; the others scored the same saved answers again
@@ -114,7 +115,7 @@ def judge_dot_plot(metric: str) -> alt.Chart:
     scale = alt.Scale(domain=[round(low, 1), 1])
     x = alt.X("Score:Q", title=f"{METRICS[metric]} (0 to 1)", scale=scale)
     y = alt.Y("Answer model:N", title=None, sort=models, axis=alt.Axis(labelLimit=220))
-    spread = alt.Chart(scores).mark_rule(color="#8b8f98", strokeWidth=2).encode(
+    spread = alt.Chart(scores).mark_rule(color=palette.NEUTRAL, strokeWidth=2).encode(
         x=alt.X("min(Score):Q", scale=scale), x2="max(Score):Q", y=y)
     judges = [_short(name) for name in JUDGES.values()]
     dots = alt.Chart(scores).mark_point(size=140, filled=True, opacity=1).encode(
@@ -362,7 +363,7 @@ def render() -> None:
             st.markdown("**Checks that failed most**")
             failed = plans["failed_checks"]
             if failed:
-                st.bar_chart(pd.Series(failed, name="plans"), horizontal=True, color="#3b82f6")
+                st.bar_chart(pd.Series(failed, name="plans"), horizontal=True, color=palette.CHART_AMBER)
             else:
                 st.caption("Every check passed.")
         with st.expander("Each trip"):

@@ -11,9 +11,10 @@ import streamlit as st
 
 from backend.agent.packing import suggest_items
 from backend.storage import history, trip_extras
+from frontend.components import palette
 from frontend.components.common import cost_text, signed_in_user
 
-PLANNED_COLOUR, SPENT_COLOUR = "#3987e5", "#d95926"
+PLANNED_COLOUR, SPENT_COLOUR = palette.NEUTRAL, palette.CHART_AMBER
 DOCUMENT_TAGS = ["Flights", "Stays", "Activities", "Insurance", "Other"]
 DOCUMENT_ICONS = {"application/pdf": ":material/picture_as_pdf:"}
 UPLOAD_MB = history.MAX_DOCUMENT_BYTES // (1024 * 1024)

@@ -49,9 +49,8 @@ def answers(offline, monkeypatch):
 
 
 def send(at, text: str) -> None:
-    """Types into the Plan / Explore box on an empty chat and sends it."""
-    at.text_area[0].input(text)
-    next(b for b in at.button if b.label == "Send").click().run()
+    """Types into the Plan / Explore box on an empty chat and presses Enter."""
+    at.chat_input(key="composer-input").set_value(text).run()
 
 
 def test_trip_question_names_dates_currency_and_stay():
@@ -87,9 +86,10 @@ def test_sidebar_has_the_pages_new_chat_and_settings(app):
 
 def test_empty_chat_has_the_hero_box_examples_and_no_chat_box(app):
     labels = [b.label for b in app.main.button]
-    assert "Send" in labels and "Fill in the trip form instead" in labels
+    assert "Fill in the trip form instead" in labels
     assert example_questions()[0] in labels and example_questions()[-1] in labels
-    assert not app.chat_input and not app.text_area[0].placeholder
+    (box,) = app.chat_input  # the Plan / Explore box only: no chat box at the bottom yet
+    assert box.key == "composer-input" and not box.placeholder
     assert app.button_group[0].value == "plan"
 
 
@@ -235,9 +235,12 @@ def test_a_costed_plan_can_be_saved_as_a_trip(offline, monkeypatch):
 def test_tiles_start_a_question_or_open_a_page(answers):
     at = AppTest.from_file("../app.py", default_timeout=30)
     at.run()
-    assert not any("Coming soon" in m.value for m in at.markdown)
-    assert sum(b.label == "Open" for b in at.main.button) == 6  # day-by-day, route, budget, packing, documents, journal
-    discover = [b for b in at.main.button if b.label == "Try it"][2]  # AI planning, Booking, Discover
+    tiles = sorted((b for b in at.main.button if (b.key or "").startswith("tile-")), key=lambda b: int(b.key[5:]))
+    assert len(tiles) == 9 and [b.label for b in tiles][:3] == ["Try it", "Open", "Open"]  # AI planning, day by day, route
+    cards = " ".join(m.value for m in at.markdown)
+    assert "**AI planning**" in cards and "**Journal**" in cards
+    assert any(c.value.startswith("Planned against spent") for c in at.caption)  # each card's one line
+    discover = tiles[4]  # AI planning, Day-by-day plan, Route planning, Booking, Discover
     discover.click().run()
     assert answers[-1]["mode"] == "explore" and history.list_chats()[0]["title"] == "Museums for kids in Chicago."
 
@@ -245,20 +248,20 @@ def test_tiles_start_a_question_or_open_a_page(answers):
 def test_password_screen_opens_the_app_only_with_the_right_password(offline, monkeypatch):
     monkeypatch.setattr(config, "APP_PASSWORD", "secret")
     at = AppTest.from_file("../app.py", default_timeout=30).run()
-    assert at.text_input[0].label == "Password" and not at.text_area
+    assert at.text_input[0].label == "Password" and not at.chat_input
     at.text_input[0].input("wrong")
     at.button[0].click().run()
-    assert at.error and not at.text_area
+    assert at.error and not at.chat_input
     at.text_input[0].input("secret")
     at.button[0].click().run()
-    assert not at.exception and at.text_area  # the Plan / Explore box
+    assert not at.exception and at.chat_input  # the Plan / Explore box
 
 
 def test_with_sign_in_set_up_the_app_asks_to_sign_in_first(offline, monkeypatch):
     monkeypatch.setattr("frontend.components.common.sign_in_enabled", lambda: True)
     at = AppTest.from_file("../app.py", default_timeout=30).run()
     assert not at.exception and [b.label for b in at.button] == ["Sign in with Google"]
-    assert not at.text_area and "private to your account" in at.caption[0].value
+    assert not at.chat_input and "private to your account" in at.caption[0].value
 
 
 def test_signed_in_the_author_gets_the_data_saved_before_sign_in(offline, monkeypatch):

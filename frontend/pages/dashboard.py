@@ -16,14 +16,16 @@ from backend import config
 from backend.rag.vectorstore import get_vectorstore
 from backend.storage import history
 from backend.travel_data.catalog import load_catalog
+from frontend.components import palette
 from frontend.components.common import cached_live_status, current_owner
 
 RANGES = {"7 days": 7, "30 days": 30, "90 days": 90, "1 year": 365}
 STATUS_LABELS = {"answered": "Answered", "refused": "Turned away by the guard", "limit": "Turned away by a limit",
                  "error": "Error"}
-STATUS_COLOURS = {"Answered": "#3b82f6", "Turned away by the guard": "#8b8f98", "Turned away by a limit": "#d4a017",
-                  "Error": "#ef4444"}
-BLUE, LIGHT_BLUE = "#3b82f6", "#9cc3ff"
+STATUS_COLOURS = {"Answered": palette.CHART_AMBER, "Turned away by the guard": palette.NEUTRAL,
+                  "Turned away by a limit": palette.CHART_BLUE, "Error": palette.DANGER}
+# Two series of the same kind (input and output tokens, SerpApi and Google searches) in two ambers.
+BLUE, LIGHT_BLUE = palette.CHART_AMBER, palette.ACCENT_SOFT
 
 
 # --- Numbers (no Streamlit) ------------------------------------------------------
@@ -244,7 +246,7 @@ def render() -> None:
         st.caption("went to the agent as travel questions.")
         if refused:
             st.caption("The rest were turned away before the model saw them:")
-            st.altair_chart(_horizontal(refused, "#8b8f98"))
+            st.altair_chart(_horizontal(refused, palette.NEUTRAL))
         limited = sum(1 for r in rows if r["status"] == "limit")
         if limited:
             st.caption(f"{limited} more were turned away by the message rate limit.")

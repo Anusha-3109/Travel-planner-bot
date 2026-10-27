@@ -179,26 +179,25 @@ def _mode_picker() -> None:
 
 
 def _composer() -> str | None:
-    """The Plan / Explore box on an empty chat. Returns a question when one is sent."""
+    """The Plan / Explore box on an empty chat. Returns a question when one is sent: Enter sends it,
+    Shift+Enter starts a new line (a chat box inside a container stays in the page instead of the bottom)."""
     with st.container(key="composer"):
         _mode_picker()
-        with st.form("composer-form", border=False, clear_on_submit=True):
-            text = st.text_area("Your trip", height=110, label_visibility="collapsed")
-            # theme.css moves this round button into the text area's bottom-right corner.
-            with st.container(key="composer-send"):
-                sent = st.form_submit_button("Send", icon=":material/arrow_upward:", type="primary")
-            st.caption(MODE_HELP[st.session_state.mode])
+        text = st.chat_input("", key="composer-input")
+        st.caption(MODE_HELP[st.session_state.mode])
     if st.button("Fill in the trip form instead", icon=":material/edit_note:", type="tertiary"):
         trip_dialog()
-    return text.strip() if sent and text.strip() else None
+    return text.strip() if text and text.strip() else None
 
 
 def _examples() -> str | None:
     st.markdown("**Try one of these**")
-    columns = st.columns(2)
-    for index, example in enumerate(example_questions(mode=st.session_state.mode)):
-        if columns[index % 2].button(example, key=f"example-{st.session_state.mode}-{index}", width="stretch"):
-            return example
+    with st.container(key="examples"):  # small one-line chips (frontend/html/theme.css)
+        columns = st.columns(3)
+        for index, example in enumerate(example_questions(mode=st.session_state.mode)):
+            if columns[index % 3].button(example, key=f"example-{st.session_state.mode}-{index}", width="stretch",
+                                         help=example):
+                return example
     return None
 
 
@@ -211,22 +210,23 @@ def _ask_from_tile(target: str) -> None:
 
 
 def _tiles() -> None:
-    """What TripMate can do, as tiles."""
+    """What TripMate can do, as small cards: the feature, one line about it and a link to try it."""
     st.markdown("**What TripMate can do**")
-    for number, (icon, title, text, action) in enumerate(TILES):
-        if number % 3 == 0:
-            columns = st.columns(3)  # a new row, so the tiles in a row line up
-        with columns[number % 3].container(border=True, height="stretch"):
-            st.markdown(f"{icon} **{title}**")
-            st.caption(text)
-            st.space("stretch")
-            if action.startswith("page:"):
-                if st.button("Open", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
-                    st.switch_page(PAGES[action.split(":")[1]])
-            else:
-                # A callback, so the Plan / Explore switch can be changed before it's drawn again.
-                st.button("Try it", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:",
-                          on_click=_ask_from_tile, args=(action.split(":")[1],))
+    with st.container(key="tiles"):  # compact cards (frontend/html/theme.css)
+        for number, (icon, title, text, action) in enumerate(TILES):
+            if number % 3 == 0:
+                columns = st.columns(3)  # a new row, so the cards in a row line up
+            with columns[number % 3].container(border=True, height="stretch"):
+                st.markdown(f"{icon} **{title}**")
+                st.caption(text)
+                st.space("stretch")
+                if action.startswith("page:"):
+                    if st.button("Open", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
+                        st.switch_page(PAGES[action.split(":")[1]])
+                else:
+                    # A callback, so the Plan / Explore switch can be changed before it's drawn again.
+                    st.button("Try it", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:",
+                              on_click=_ask_from_tile, args=(action.split(":")[1],))
 
 
 def render() -> None:

@@ -15,11 +15,11 @@ import streamlit as st
 
 from backend.rag.retriever import SearchPlan, retrieve
 from backend.storage import history
-from frontend.components import trip_tabs
+from frontend.components import palette, trip_tabs
 from frontend.components.common import PAGES, current_owner, set_mode, start_new_chat
 from frontend.html import render
 
-POINT_COLOURS = {"origin": [139, 143, 152], "destination": [59, 130, 246], "attraction": [249, 115, 22]}
+POINT_COLOURS = {"origin": palette.NEUTRAL_RGB, "destination": palette.ACCENT_RGB, "attraction": palette.TEAL_RGB}
 
 
 def _dates(trip: dict) -> str:
@@ -92,13 +92,13 @@ def _route_tab(trip: dict) -> None:
                         get_radius=120, radius_min_pixels=5, pickable=True)]
     if legs:
         layers.append(pdk.Layer("ArcLayer", pd.DataFrame(legs), get_source_position="from",
-                                get_target_position="to", get_source_color=[139, 143, 152],
-                                get_target_color=[59, 130, 246], get_width=3))
+                                get_target_position="to", get_source_color=palette.NEUTRAL_RGB,
+                                get_target_color=palette.ACCENT_RGB, get_width=3))
     focus = frame[frame["kind"] != "origin"] if len(frame) > 1 else frame
     view = pdk.ViewState(latitude=float(focus["lat"].mean()), longitude=float(focus["lon"].mean()),
                          zoom=11 if not legs else 4)
     st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view, tooltip={"text": "{name}"}), height=420)
-    st.caption("Grey: where you start · blue: the destination · orange: places in the plan.")
+    st.caption("Grey: where you start · amber: the destination · green: places in the plan.")
     st.dataframe(frame[["name", "kind"]].rename(columns={"name": "Stop", "kind": "Type"}), hide_index=True)
 
 

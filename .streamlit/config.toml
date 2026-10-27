@@ -1,17 +1,23 @@
-# Dark theme, close to the reference screenshots.
+# Graphite amber: a neutral dark theme with amber highlights, and compact type (14px instead of 16px).
+# frontend/components/palette.py has the same colours for charts, maps and diagrams.
 [theme]
 base = "dark"
-primaryColor = "#3b82f6"
-backgroundColor = "#141518"
-secondaryBackgroundColor = "#1d1f24"
-textColor = "#e6e7ea"
-borderColor = "#2c2f36"
+primaryColor = "#f59e0b"
+backgroundColor = "#161616"
+secondaryBackgroundColor = "#202020"
+textColor = "#ececec"
+borderColor = "#2f2f2f"
+linkColor = "#fbbf24"
 showWidgetBorder = true
 baseRadius = "medium"
 font = "sans-serif"
+baseFontSize = 14
+headingFontSizes = ["1.9rem", "1.45rem", "1.2rem", "1rem", "0.9rem", "0.8rem"]
+chartCategoricalColors = ["#c98500", "#3987e5", "#199e70", "#9085e9", "#d55181", "#8b8b8b"]
 
 [theme.sidebar]
-backgroundColor = "#101114"
+backgroundColor = "#111111"
+secondaryBackgroundColor = "#1b1b1b"
 
 # Where Streamlit looks for secrets: the usual places, plus the Google sign-in settings that Cloud Run
 # mounts from Secret Manager (a mounted secret can't go in .streamlit/, as it would hide this file).
