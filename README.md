@@ -1,10 +1,12 @@
 # TripMate ✈️ travel planner chatbot
 
-[![Tests](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml)
+[![Tests](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml) [![Deploy](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/deploy.yml/badge.svg)](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/deploy.yml)
 
 TripMate plans day-by-day trips anywhere in the world: flights, a place to stay, restaurants for each meal, things to see and how to get from the airport, all costed against your budget in your currency. It searches **live** flights, Airbnb and hotel prices, restaurants and public transport, and falls back to 2026 snapshot data when live data isn't available. It is built with LangChain, OpenRouter (Claude Haiku 5.5 by default) and Streamlit, and combines advanced RAG with tool calling.
 
 The Sprint 2 task description is in [`125.md`](125.md).
+
+![The TripMate home page in the Graphite amber theme: the Plan and Explore box, example questions, and cards for AI planning, day-by-day plans, route planning, booking, discover, budget tracker, packing list, documents and journal](docs/images/home.png)
 
 ## Contents
 
