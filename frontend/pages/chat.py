@@ -28,7 +28,7 @@ MODE_HELP = {"plan": "A full trip: flights, a stay, restaurants, transport, the 
              "explore": "Ideas and places: sights, restaurants and getting around. No flight or stay searches, so "
                         "it's quicker and uses no live search quota."}
 # Feature tiles on an empty chat: (icon, title, text, action). Actions: "ask:<mode>" asks the first example of
-# that mode, "page:<name>" opens a page, None is coming soon.
+# that mode, "page:<name>" opens a page.
 TILES = [
     (":material/auto_awesome:", "AI planning", "Describe a trip: TripMate builds a costed plan, day by day.",
      "ask:plan"),
@@ -38,10 +38,11 @@ TILES = [
     (":material/hotel:", "Booking", "Find Airbnbs and hotels with live prices, and book on their sites.",
      "ask:booking"),
     (":material/explore:", "Discover", "Sights, food and neighbourhoods in 245 cities.", "ask:explore"),
-    (":material/savings:", "Budget tracker", "Planned against spent, split between travellers.", None),
-    (":material/backpack:", "Packing list", "A checklist made for your trip.", None),
-    (":material/description:", "Documents", "Tickets, visas and vouchers, by day.", None),
-    (":material/book:", "Journal", "Notes and photos for each day.", None),
+    (":material/savings:", "Budget tracker", "Planned against spent, and spent per traveller, on a saved trip.",
+     "page:trips"),
+    (":material/backpack:", "Packing list", "A checklist made for your trip.", "page:trips"),
+    (":material/description:", "Documents", "Tickets, bookings and vouchers, by day.", "page:trips"),
+    (":material/book:", "Journal", "Notes, ratings and photos for each day.", "page:trips"),
 ]
 
 
@@ -210,7 +211,7 @@ def _ask_from_tile(target: str) -> None:
 
 
 def _tiles() -> None:
-    """What TripMate can do, as tiles; the last ones are coming soon."""
+    """What TripMate can do, as tiles."""
     st.markdown("**What TripMate can do**")
     for number, (icon, title, text, action) in enumerate(TILES):
         if number % 3 == 0:
@@ -219,9 +220,7 @@ def _tiles() -> None:
             st.markdown(f"{icon} **{title}**")
             st.caption(text)
             st.space("stretch")
-            if action is None:
-                st.badge("Coming soon", color="gray")
-            elif action.startswith("page:"):
+            if action.startswith("page:"):
                 if st.button("Open", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
                     st.switch_page(PAGES[action.split(":")[1]])
             else:

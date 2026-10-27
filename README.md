@@ -27,7 +27,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 | Page | What it's for |
 |---|---|
 | **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer; **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
-| **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover. |
+| **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover, plus what you add: a budget tracker (planned against spent, and spent per traveller), a packing list made for the trip, a journal with a note, rating and photos per day, and documents such as tickets and bookings. |
 | **Dashboard** | Requests, answer times, tokens, cost, tool calls, refused questions, errors and live searches per day, from the request log. |
 | **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
 | **How it answers** | How a question becomes an answer, the tools, the knowledge base (with a free search box), data sources, costing rules and safety checks. |
@@ -96,7 +96,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 
 ### Saved data
 
-`backend/storage/history.py` keeps chats (messages with their tool results, model, currency, mode, bookmark), the request log behind the dashboard, and saved trips, in `.history/chats.sqlite3` (git-ignored). `backend/storage/trips.py` builds a trip from a costed plan's tool results only: the plan, prices, checks, flight times, transit steps, stay links and ratings.
+`backend/storage/history.py` keeps chats (messages with their tool results, model, currency, mode, bookmark), the request log behind the dashboard, and saved trips with what the traveller adds to them (expenses, packing list, journal), in `.history/chats.sqlite3` (git-ignored); uploaded documents and photos are files in `.history/documents/`, checked by their first bytes (PDF, PNG, JPEG or WebP, up to 5 MB). `backend/storage/trip_extras.py` sums the budget and makes the packing list with plain rules (documents, clothes for the nights, a plug adapter when the sockets differ from home, items for the plan and season); "Suggest more" asks the model for extra items (`backend/agent/packing.py`, about $0.001). `backend/storage/trips.py` builds a trip from a costed plan's tool results only: the plan, prices, checks, flight times, transit steps, stay links and ratings.
 
 ## Course requirements
 
@@ -183,7 +183,7 @@ TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app
 | Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY` and `APP_PASSWORD` in Secret Manager, passed in as environment variables; never in the image or the repository |
 | Saved chats and trips | A Cloud Storage bucket mounted at `/mnt/history` (`HISTORY_DIR`), so they survive restarts. At most one instance writes to the SQLite file |
 
-**Every push to `main` deploys automatically.** After the tests pass, [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the image, tags it with the commit id, pushes it and deploys it, so the live link shows the new version about 15 to 25 minutes later (most of that is building the knowledge base). GitHub signs in to Google Cloud with Workload Identity Federation: there's no key file, and Google Cloud accepts only this repository's `main` branch. The deploy account (`github-deployer`) can push images and deploy, but can't read the secrets. Copies of the repository run the tests and skip the deploy.
+**Every push to `main` deploys automatically.** After the tests pass, [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the image, tags it with the commit id, pushes it and deploys it, so the live link shows the new version about 40 minutes later (most of that is building the knowledge base into the image). GitHub signs in to Google Cloud with Workload Identity Federation: there's no key file, and Google Cloud accepts only this repository's `main` branch. The deploy account (`github-deployer`) can push images and deploy, but can't read the secrets. Copies of the repository run the tests and skip the deploy.
 
 To deploy by hand from this folder instead:
 
@@ -226,6 +226,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **Tool results** (listing names, place descriptions and other outside text) are screened before the model reads them: instruction-like text is removed, only http(s) links are kept and long text is trimmed (`backend/security/tool_output.py`).
 - **Tool inputs** chosen by the model are validated like user input: cities, dates, people, prices, ratings, cuisines, place names and plan structure.
 - **Limits:** a per-session message rate limit, per-chat live-call limits, at most 10 agent steps per answer, and clear limits for Google Flights (9 passengers) and Airbnb (16 guests).
+- **Uploads:** documents and photos are kept only if their first bytes are a PDF, PNG, JPEG or WebP and they're up to 5 MB; file names are cleaned so they can't point to another folder.
 - **HTML:** answers never render raw HTML; the HTML parts in `frontend/html/` escape every value they show and only link to http(s) addresses.
 
 ## Tests
@@ -234,7 +235,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-274 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+281 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -272,7 +273,7 @@ travel-planner-bot/
 | Folder | What's in it |
 |---|---|
 | [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
-| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, shared session state and labels |
+| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, shared session state and labels |
 | [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, `theme.css`) and `render.py`, which fills them in |
 | [`frontend/assets/`](frontend/assets) | The logo |
 | [`.streamlit/config.toml`](.streamlit/config.toml) | The dark theme |
@@ -287,7 +288,7 @@ travel-planner-bot/
 | [`backend/rag/`](backend/rag) | Chroma store, indexing and retrieval |
 | [`backend/security/`](backend/security) | Input checks, rate limits, key redaction, tool output screening |
 | [`backend/travel_data/`](backend/travel_data) | Catalog of the 2026 city files, city download script, TravelPlanner download |
-| [`backend/storage/`](backend/storage) | Saved chats, request log and trips |
+| [`backend/storage/`](backend/storage) | Saved chats, request log, trips and what's added to them (expenses, packing, journal, documents) |
 | [`backend/config.py`](backend/config.py) | Keys, models, limits, cache times, paths |
 
 ### Data, evaluation and tests
@@ -312,7 +313,8 @@ travel-planner-bot/
 - **Public transport times** are for your travel day up to 100 days ahead (Google's limit); further ahead they come from the current timetable.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain. Tools supply all prices, ids and links to keep this to the text.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
-- **Next steps:** hybrid search (BM25 plus vectors), the budget tracker, packing list, documents and journal on saved trips, and serving the tools as an MCP server.
+- **Shared saved data:** there are no user accounts, so everyone who can open the app sees the same chats, trips and uploaded documents; the Documents tab says not to upload passports or ID.
+- **Next steps:** hybrid search (BM25 plus vectors), accounts so each traveller has their own trips and documents, and serving the tools as an MCP server.
 
 ## Attribution
 

@@ -232,10 +232,11 @@ def test_a_costed_plan_can_be_saved_as_a_trip(offline, monkeypatch):
     assert trip["title"] == "Boston, 2 nights" and trip["chat_id"] == history.list_chats()[0]["id"]
 
 
-def test_tiles_start_a_question_or_say_coming_soon(answers):
+def test_tiles_start_a_question_or_open_a_page(answers):
     at = AppTest.from_file("../app.py", default_timeout=30)
     at.run()
-    assert sum("Coming soon" in m.value for m in at.markdown) == 4  # budget, packing, documents, journal
+    assert not any("Coming soon" in m.value for m in at.markdown)
+    assert sum(b.label == "Open" for b in at.main.button) == 6  # day-by-day, route, budget, packing, documents, journal
     discover = [b for b in at.main.button if b.label == "Try it"][2]  # AI planning, Booking, Discover
     discover.click().run()
     assert answers[-1]["mode"] == "explore" and history.list_chats()[0]["title"] == "Museums for kids in Chicago."

@@ -116,7 +116,7 @@ def test_trip_page_shows_the_plan_stays_and_discover(monkeypatch):
     at = _app("trip_page")
     at.query_params["trip"] = trip_id
     at.run()
-    assert not at.exception and [t.label for t in at.tabs] == ["Plan", "Route", "Stays", "Discover"]
+    assert not at.exception and [t.label for t in at.tabs][:4] == ["Plan", "Route", "Stays", "Discover"]
     metrics = {m.label: m.value for m in at.metric}
     assert metrics["Total"] == "USD 336.40" and metrics["Left"] == "USD 563.60"
     days = " ".join(h.proto.body for h in at.get("html"))  # the days come from frontend/html/timeline.html

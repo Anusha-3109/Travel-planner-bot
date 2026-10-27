@@ -1,8 +1,10 @@
-"""The My trips page and the trip page (plan, route, stays and Discover).
+"""The My trips page and the trip page (plan, route, stays, Discover, budget, packing, journal
+and documents).
 
 Trips are saved from a costed plan in the chat ("Save as trip"). The trip page
 shows the plan as a day-by-day timeline, its stops on a map, the stays found for
-it, and places to see in the destination from the knowledge base.
+it, and places to see in the destination from the knowledge base. The last four
+tabs are what the traveller adds (frontend/components/trip_tabs.py).
 """
 
 from datetime import date
@@ -13,6 +15,7 @@ import streamlit as st
 
 from backend.rag.retriever import SearchPlan, retrieve
 from backend.storage import history
+from frontend.components import trip_tabs
 from frontend.components.common import PAGES, set_mode, start_new_chat
 from frontend.html import render
 
@@ -153,12 +156,8 @@ def trip_page() -> None:
     st.caption("My trips")
     st.title(trip["title"])
     st.caption(_summary(trip) + (f" · from {trip['origin']}" if trip.get("origin") else ""))
-    plan, route, stays, discover = st.tabs(["Plan", "Route", "Stays", "Discover"])
-    with plan:
-        _plan_tab(trip)
-    with route:
-        _route_tab(trip)
-    with stays:
-        _stays_tab(trip)
-    with discover:
-        _discover_tab(trip)
+    tabs = st.tabs(["Plan", "Route", "Stays", "Discover", "Budget", "Packing", "Journal", "Documents"])
+    for tab, draw in zip(tabs, (_plan_tab, _route_tab, _stays_tab, _discover_tab, trip_tabs.budget_tab,
+                                trip_tabs.packing_tab, trip_tabs.journal_tab, trip_tabs.documents_tab)):
+        with tab:
+            draw(trip)

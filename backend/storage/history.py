@@ -2,7 +2,10 @@
 
 Chats keep every message with its tool results (so result cards can be drawn
 again), the model and currency used, and a bookmark flag. Saved trips keep a
-costed plan with its prices and places, for the trip page. The request log has
+costed plan with its prices and places, for the trip page, and what the
+traveller adds to a trip: expenses, a packing list, a journal and documents.
+Uploaded documents are files next to the SQLite file (in documents/), not in
+it, so saving a note never rewrites the files. The request log has
 one row per question: when it was asked, how long the answer took, whether it
 was answered, refused or failed (and why), tokens, cost, tool calls and live
 searches. The dashboard is built from it.
@@ -11,11 +14,14 @@ The file (.history/chats.sqlite3) is git-ignored. No API keys are stored.
 """
 
 import json
+import re
+import shutil
 import sqlite3
 import time
 import uuid
 from contextlib import closing
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 from backend import config
 
@@ -112,6 +118,9 @@ def delete_all() -> None:
         db.execute("DELETE FROM chats")
         db.execute("DELETE FROM requests")
         db.execute("DELETE FROM trips")
+        for table in TRIP_EXTRA_TABLES:
+            db.execute(f"DELETE FROM {table}")
+    shutil.rmtree(documents_dir(), ignore_errors=True)
 
 
 def group_chats(chats: list[dict], today: date | None = None) -> dict[str, list[dict]]:
@@ -165,7 +174,20 @@ def requests_since(days: int) -> list[dict]:
 TRIPS_SCHEMA = """
 CREATE TABLE IF NOT EXISTS trips (
     id TEXT PRIMARY KEY, chat_id TEXT, title TEXT NOT NULL, created_at REAL NOT NULL, trip TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS expenses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, trip_id TEXT NOT NULL, day INTEGER, category TEXT NOT NULL,
+    amount REAL NOT NULL, note TEXT NOT NULL DEFAULT '', created_at REAL NOT NULL);
+CREATE TABLE IF NOT EXISTS packing_items (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, trip_id TEXT NOT NULL, name TEXT NOT NULL, section TEXT NOT NULL,
+    packed INTEGER NOT NULL DEFAULT 0, created_at REAL NOT NULL);
+CREATE TABLE IF NOT EXISTS journal_entries (
+    trip_id TEXT NOT NULL, day INTEGER NOT NULL, text TEXT NOT NULL DEFAULT '', rating INTEGER,
+    updated_at REAL NOT NULL, PRIMARY KEY (trip_id, day));
+CREATE TABLE IF NOT EXISTS documents (
+    id TEXT PRIMARY KEY, trip_id TEXT NOT NULL, name TEXT NOT NULL, tag TEXT NOT NULL, day INTEGER,
+    mime TEXT NOT NULL, size INTEGER NOT NULL, created_at REAL NOT NULL);
 """
+TRIP_EXTRA_TABLES = ("expenses", "packing_items", "journal_entries", "documents")
 
 
 def _connect_trips() -> sqlite3.Connection:
@@ -199,5 +221,142 @@ def list_trips() -> list[dict]:
 
 
 def delete_trip(trip_id: str) -> None:
+    """Deletes the trip with everything added to it: expenses, packing list, journal and documents."""
     with closing(_connect_trips()) as db, db:
         db.execute("DELETE FROM trips WHERE id = ?", (trip_id,))
+        for table in TRIP_EXTRA_TABLES:
+            db.execute(f"DELETE FROM {table} WHERE trip_id = ?", (trip_id,))
+    shutil.rmtree(documents_dir() / trip_id, ignore_errors=True)
+
+
+# --- What the traveller adds to a trip -------------------------------------------
+
+def add_expense(trip_id: str, category: str, amount: float, day: int | None = None, note: str = "") -> None:
+    if amount <= 0:
+        raise ValueError("An expense must be more than 0.")
+    with closing(_connect_trips()) as db, db:
+        db.execute("INSERT INTO expenses (trip_id, day, category, amount, note, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+                   (trip_id, day, category, round(amount, 2), note.strip()[:200], time.time()))
+
+
+def list_expenses(trip_id: str) -> list[dict]:
+    """A trip's expenses by day (expenses without a day last), in the order they were added."""
+    with closing(_connect_trips()) as db:
+        rows = db.execute("SELECT * FROM expenses WHERE trip_id = ? ORDER BY day IS NULL, day, id",
+                          (trip_id,)).fetchall()
+    return [dict(row) for row in rows]
+
+
+def delete_expense(expense_id: int) -> None:
+    with closing(_connect_trips()) as db, db:
+        db.execute("DELETE FROM expenses WHERE id = ?", (expense_id,))
+
+
+def add_packing_items(trip_id: str, items: list[tuple[str, str]]) -> int:
+    """Adds (name, section) items, skipping names the list already has (ignoring case).
+    Returns how many were added."""
+    added = 0
+    with closing(_connect_trips()) as db, db:
+        have = {row["name"].lower() for row in db.execute("SELECT name FROM packing_items WHERE trip_id = ?",
+                                                          (trip_id,))}
+        for name, section in items:
+            name = " ".join(name.split())[:80]
+            if name and name.lower() not in have:
+                have.add(name.lower())
+                added += 1
+                db.execute("INSERT INTO packing_items (trip_id, name, section, created_at) VALUES (?, ?, ?, ?)",
+                           (trip_id, name, section, time.time()))
+    return added
+
+
+def list_packing_items(trip_id: str) -> list[dict]:
+    with closing(_connect_trips()) as db:
+        rows = db.execute("SELECT * FROM packing_items WHERE trip_id = ? ORDER BY id", (trip_id,)).fetchall()
+    return [{**dict(row), "packed": bool(row["packed"])} for row in rows]
+
+
+def set_packed(item_id: int, packed: bool) -> None:
+    with closing(_connect_trips()) as db, db:
+        db.execute("UPDATE packing_items SET packed = ? WHERE id = ?", (int(packed), item_id))
+
+
+def delete_packing_item(item_id: int) -> None:
+    with closing(_connect_trips()) as db, db:
+        db.execute("DELETE FROM packing_items WHERE id = ?", (item_id,))
+
+
+def save_journal(trip_id: str, day: int, text: str | None = None, rating: int | None = None) -> None:
+    """Saves a day's note and/or rating (0-5 stars); a value left as None keeps what was saved."""
+    entry = load_journal(trip_id).get(day, {"text": "", "rating": None})
+    text = entry["text"] if text is None else text.strip()[:5000]
+    rating = entry["rating"] if rating is None else max(0, min(5, rating))
+    with closing(_connect_trips()) as db, db:
+        db.execute("INSERT OR REPLACE INTO journal_entries (trip_id, day, text, rating, updated_at) "
+                   "VALUES (?, ?, ?, ?, ?)", (trip_id, day, text, rating, time.time()))
+
+
+def load_journal(trip_id: str) -> dict[int, dict]:
+    """The trip's journal: day number -> {text, rating, updated_at}."""
+    with closing(_connect_trips()) as db:
+        rows = db.execute("SELECT * FROM journal_entries WHERE trip_id = ?", (trip_id,)).fetchall()
+    return {row["day"]: {"text": row["text"], "rating": row["rating"], "updated_at": row["updated_at"]}
+            for row in rows}
+
+
+# The types documents may have, with their file ending and the bytes such a file starts with.
+DOCUMENT_TYPES = {"application/pdf": (".pdf", b"%PDF"), "image/png": (".png", b"\x89PNG"),
+                  "image/jpeg": (".jpg", b"\xff\xd8\xff"), "image/webp": (".webp", b"RIFF")}
+MAX_DOCUMENT_BYTES = 5 * 1024 * 1024
+
+
+def documents_dir() -> Path:
+    return config.HISTORY_DB.parent / "documents"
+
+
+def _safe_name(name: str) -> str:
+    return (re.sub(r"[^\w .()-]", "_", Path(name).name).strip(" .") or "file")[:100]
+
+
+def save_document(trip_id: str, name: str, data: bytes, tag: str, day: int | None = None) -> str:
+    """Stores an uploaded PDF or image for the trip and returns its id. The type is read from the
+    file's first bytes, not its name, and only PDFs, PNGs, JPEGs and WebPs up to 5 MB are kept."""
+    if len(data) > MAX_DOCUMENT_BYTES:
+        raise ValueError("The file is larger than 5 MB.")
+    mime = next((m for m, (_, magic) in DOCUMENT_TYPES.items() if data.startswith(magic)), None)
+    if mime is None or (mime == "image/webp" and data[8:12] != b"WEBP"):
+        raise ValueError("Only PDF, PNG, JPEG and WebP files can be uploaded.")
+    document_id = uuid.uuid4().hex[:12]
+    folder = documents_dir() / trip_id
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / f"{document_id}{DOCUMENT_TYPES[mime][0]}").write_bytes(data)
+    with closing(_connect_trips()) as db, db:
+        db.execute("INSERT INTO documents (id, trip_id, name, tag, day, mime, size, created_at) "
+                   "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                   (document_id, trip_id, _safe_name(name), tag, day, mime, len(data), time.time()))
+    return document_id
+
+
+def list_documents(trip_id: str, day: int | None = None) -> list[dict]:
+    """A trip's documents, newest first; with `day`, only that day's."""
+    query, args = "SELECT * FROM documents WHERE trip_id = ?", [trip_id]
+    if day is not None:
+        query, args = query + " AND day = ?", [*args, day]
+    with closing(_connect_trips()) as db:
+        rows = db.execute(query + " ORDER BY created_at DESC", args).fetchall()
+    return [dict(row) for row in rows]
+
+
+def _document_path(document: dict) -> Path:
+    return documents_dir() / document["trip_id"] / f"{document['id']}{DOCUMENT_TYPES[document['mime']][0]}"
+
+
+def read_document(document: dict) -> bytes:
+    return _document_path(document).read_bytes()
+
+
+def delete_document(document_id: str) -> None:
+    with closing(_connect_trips()) as db, db:
+        row = db.execute("SELECT * FROM documents WHERE id = ?", (document_id,)).fetchone()
+        db.execute("DELETE FROM documents WHERE id = ?", (document_id,))
+    if row is not None:
+        _document_path(dict(row)).unlink(missing_ok=True)
