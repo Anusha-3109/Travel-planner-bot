@@ -8,6 +8,8 @@ Run in the evaluation environment (RAGAS needs an older openai package than the 
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge   (score the saved answers again)
     .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge --judge openai/gpt-6.1-sol
         (score the saved answers with another judge, saved in results/ragas/judges/, to compare judges)
+    .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --run repeat --judge openai/gpt-6.1-sol
+        (new answers in results/ragas/runs/repeat/, to see how much the scores change between runs)
 
 The agent answers 15 knowledge-base questions (museums, cuisines and private rooms
 in random cities, from the same generator as part 1) with only its knowledge-base
@@ -117,7 +119,7 @@ async def judge(rows: list[dict], judge_model: str = config.OPENROUTER_MODEL) ->
     return round(cost, 4)
 
 
-def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
+def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND, judge_model: str = config.OPENROUTER_MODEL) -> dict:
     rows = []
     with rag_only():
         for number, item in enumerate(questions(per_kind), 1):
@@ -128,10 +130,10 @@ def run(model: str = config.OPENROUTER_MODEL, per_kind: int = PER_KIND) -> dict:
                          "agent_cost_usd": result.token_usage.get("cost_usd"),
                          "seconds": round(time.monotonic() - started, 1)})
     print("Judging with RAGAS...", flush=True)
-    judge_cost = asyncio.run(judge(rows))
+    judge_cost = asyncio.run(judge(rows, judge_model))
     seconds = sorted(r["seconds"] for r in rows)
     return {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "model": model,
-            "judge": config.OPENROUTER_MODEL, "judge_cost_usd": judge_cost, "questions": len(rows),
+            "judge": judge_model, "judge_cost_usd": judge_cost, "questions": len(rows),
             "answered_from_retrieval": sum(bool(r["contexts"]) for r in rows),
             "agent_cost_usd": round(sum(r["agent_cost_usd"] or 0 for r in rows), 4),
             "median_seconds": seconds[len(seconds) // 2] if seconds else None,
@@ -167,18 +169,20 @@ def main() -> None:
                         help="The model that writes the answers (the judge is always the default model)")
     parser.add_argument("--rejudge", action="store_true",
                         help="Score the saved answers for this model again instead of asking the model")
-    parser.add_argument("--judge", help="Another judge model for --rejudge (default: the app's default model); "
-                                         "its scores are saved separately, so the judges can be compared")
+    parser.add_argument("--judge", help="Another judge model (default: the app's default model); its scores are "
+                                         "saved separately, so the judges can be compared")
+    parser.add_argument("--run", help="Save new answers under this name in results/ragas/runs/, leaving the saved "
+                                       "answers alone (for example to check how stable the scores are)")
     args = parser.parse_args()
-    if args.judge and not args.rejudge:
-        parser.error("--judge scores saved answers, so it needs --rejudge")
+    if args.judge and not (args.rejudge or args.run):
+        parser.error("--judge needs --rejudge (score the saved answers) or --run (new answers saved separately)")
     other_judge = args.judge if args.judge and args.judge != config.OPENROUTER_MODEL else None
-    path = ragas_results_path(args.model, other_judge)
+    path = ragas_results_path(args.model, other_judge, args.run)
     if args.rejudge:
-        saved = json.loads(ragas_results_path(args.model).read_text(encoding="utf-8"))
+        saved = json.loads(ragas_results_path(args.model, run=args.run).read_text(encoding="utf-8"))
         result = rejudge(saved, other_judge or config.OPENROUTER_MODEL)
     else:
-        result = run(args.model)
+        result = run(args.model, judge_model=other_judge or config.OPENROUTER_MODEL)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"\nSaved {path}.")

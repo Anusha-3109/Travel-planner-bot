@@ -1,0 +1,322 @@
+{
+ "run_at": "2026-10-27T13:25:37+00:00",
+ "model": "google/gemini-3.7-flash",
+ "judge": "openai/gpt-6.1-sol",
+ "judge_cost_usd": 0.6955,
+ "questions": 15,
+ "answered_from_retrieval": 15,
+ "agent_cost_usd": 0.0901,
+ "median_seconds": 11.7,
+ "summary": {
+  "overall": {
+   "faithfulness": 0.891,
+   "answer_relevancy": 0.924,
+   "context_precision": 0.965
+  },
+  "museums": {
+   "faithfulness": 0.966,
+   "answer_relevancy": 0.979,
+   "context_precision": 1.0
+  },
+  "cuisine": {
+   "faithfulness": 0.796,
+   "answer_relevancy": 0.953,
+   "context_precision": 0.894
+  },
+  "private room": {
+   "faithfulness": 0.91,
+   "answer_relevancy": 0.84,
+   "context_precision": 1.0
+  }
+ },
+ "rows": [
+  {
+   "kind": "museums",
+   "city": "Omaha",
+   "question": "What museums can I visit in Omaha?",
+   "answer": "Here are museums you can visit in Omaha:\n\n- **Durham Museum** [attraction: Durham Museum, Omaha]\n  - Type: Museum\n  - Address: 801 South 10th Street, 68108, Omaha\n  - Website: https://durhammuseum.org/\n\n- **Great Plains Black History Museum** [attraction: Great Plains Black History Museum, Omaha]\n  - Type: Museum\n  - Address: 2221 North 24th Street, 68110, Omaha\n  - Website: https://gpblackhistorymuseum.org/\n\n- **Omaha Childrens Museum** [attraction: Omaha Childrens Museum, Omaha]\n  - Type: Museum\n  - Website: https://ocm.org/\n\n- **Florence Mill Museum** [attraction: Florence Mill Museum, Omaha]\n  - Type: Museum\n  - Website: https://theflorencemill.com/\n\n- **Historic Florence Bank Museum** [attraction: Historic Florence Bank Museum, Omaha]\n  - Type: Museum\n  - Website: https://www.visitomaha.com/listings/historic-florence-bank-and-depot-museums/56959/\n\n- **Omaha Home for the Boys Visitors Center and History Museum** [attraction: Omaha Home for the Boys Visitors Center and History Museum, Omaha]\n  - Type: Museum",
+   "contexts": [
+    "Durham Museum is a museum in Omaha, United States. Address: 801 South 10th Street, 68108, Omaha. Website: https://durhammuseum.org/.",
+    "Florence Mill Museum is a museum in Omaha, United States. Address: unknown. Website: https://theflorencemill.com/.",
+    "Omaha Home for the Boys Visitors Center and History Museum is a museum in Omaha, United States. Address: unknown.",
+    "Great Plains Black History Museum is a museum in Omaha, United States. Address: 2221 North 24th Street, 68110, Omaha. Website: https://gpblackhistorymuseum.org/.",
+    "Historic Florence Bank Museum is a museum in Omaha, United States. Address: unknown. Website: https://www.visitomaha.com/listings/historic-florence-bank-and-depot-museums/56959/.",
+    "Omaha Childrens Museum is a museum in Omaha, United States. Address: unknown. Website: https://ocm.org/."
+   ],
+   "agent_cost_usd": 0.005675,
+   "seconds": 13.5,
+   "faithfulness": 1.0,
+   "answer_relevancy": 1.0,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "museums",
+   "city": "Pensacola",
+   "question": "What museums can I visit in Pensacola?",
+   "answer": "Here are the museums you can visit in Pensacola:\n\n- **Museum of Industry** [attraction: Museum of Industry, Pensacola]\n  - Type: Museum\n  - Address: 200 East Zarragossa Street, 32502, Pensacola\n  - Website: https://historicpensacola.org/plan-your-visit/museums-properties/museum-of-industry/\n\n- **Pensacola Museum of Art** [attraction: Pensacola Museum of Art, Pensacola]\n  - Type: Museum\n  - Address: 407 S Jefferson St, 32502, Pensacola\n  - Website: https://www.pensacolamuseum.org/\n\n- **Museum of Commerce** [attraction: Museum of Commerce, Pensacola]\n  - Type: Museum\n  - Address: 201 East Zarragossa Street, Pensacola\n  - Website: https://historicpensacola.org/plan-your-visit/museums-properties/museum-of-commerce/\n\n- **Pensacola Museum of History** [attraction: Pensacola Museum of History, Pensacola]\n  - Type: Museum\n  - Address: 330 South Jefferson Street, 32502, Pensacola\n\n- **Tivoli High House** [attraction: Tivoli High House, Pensacola]\n  - Type: Museum\n  - Address: Unknown\n\n- **The Quina House Museum** [attraction: The Quina House Museum, Pensacola]\n  - Type: Museum\n  - Address: 204 South Alcaniz Street, Pensacola\n\n*(Note: Attraction details come from OpenStreetMap data and do not include pricing or admission fee information.)*",
+   "contexts": [
+    "Museum of Industry is a museum in Pensacola, United States. Address: 200 East Zarragossa Street, 32502, Pensacola. Website: https://historicpensacola.org/plan-your-visit/museums-properties/museum-of-industry/.",
+    "Pensacola Museum of Art is a museum in Pensacola, United States. Address: 407 S Jefferson St, 32502, Pensacola. Website: https://www.pensacolamuseum.org/.",
+    "Museum of Commerce is a museum in Pensacola, United States. Address: 201 East Zarragossa Street, Pensacola. Website: https://historicpensacola.org/plan-your-visit/museums-properties/museum-of-commerce/.",
+    "Pensacola Museum of History is a museum in Pensacola, United States. Address: 330 South Jefferson Street, 32502, Pensacola.",
+    "Tivoli High House is a museum in Pensacola, United States. Address: unknown.",
+    "The Quina House Museum is a museum in Pensacola, United States. Address: 204 South Alcaniz Street, Pensacola."
+   ],
+   "agent_cost_usd": 0.005765,
+   "seconds": 12.9,
+   "faithfulness": 0.941,
+   "answer_relevancy": 0.96,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "museums",
+   "city": "Owensboro",
+   "question": "What museums can I visit in Owensboro?",
+   "answer": "Here are the museums you can visit in Owensboro:\n\n1. **Owensboro Museum of Fine Art** [attraction: Owensboro Museum of Fine Art, Owensboro]\n   - **Type:** Museum\n   - **Website:** https://omfa.us/\n\n2. **Owensboro Museum of Science and History** [attraction: Owensboro Museum of Science and History, Owensboro]\n   - **Type:** Museum\n   - **Address:** 122 East 2nd Street, 42303, Owensboro\n\n3. **Bluegrass Hall of Fame & Museum** [attraction: Bluegrass Hall of Fame & Museum, Owensboro]\n   - **Type:** Museum\n   - **Address:** 311 West 2nd Street, 42301, Owensboro\n   - **Website:** https://www.bluegrasshall.org/\n\n*(Note: Attraction information is from OpenStreetMap snapshot data; admission prices are not listed.)*",
+   "contexts": [
+    "Owensboro Museum of Fine Art is a museum in Owensboro, United States. Address: unknown. Website: https://omfa.us/.",
+    "Owensboro Museum of Science and History is a museum in Owensboro, United States. Address: 122 East 2nd Street, 42303, Owensboro.",
+    "Bluegrass Hall of Fame & Museum is a museum in Owensboro, United States. Address: 311 West 2nd Street, 42301, Owensboro. Website: https://www.bluegrasshall.org/."
+   ],
+   "agent_cost_usd": 0.005174,
+   "seconds": 8.9,
+   "faithfulness": 0.889,
+   "answer_relevancy": 1.0,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "museums",
+   "city": "Barcelona",
+   "question": "What museums can I visit in Barcelona?",
+   "answer": "Here are museums you can visit in Barcelona:\n\n1. **Museu de les Arts Escèniques**  \n   - **Type:** Museum  \n   - **Address:** Plaça de Margarida Xirgu, 08004, Barcelona  \n   - **Website:** https://www.cdmae.cat/  \n   - [attraction: Museu de les Arts Escèniques, Barcelona]\n\n2. **Museu Europeu d'Art Modern**  \n   - **Type:** Museum  \n   - **Address:** 5 Carrer Barra de Ferro, 08003, Barcelona  \n   - **Website:** https://www.meam.es/ca/  \n   - [attraction: Museu Europeu d'Art Modern, Barcelona]\n\n3. **Picasso Museum**  \n   - **Type:** Museum  \n   - **Address:** Unknown  \n   - **Website:** https://museupicassobcn.cat  \n   - [attraction: Picasso Museum, Barcelona]\n\n4. **Museum of Funeral Carriages**  \n   - **Type:** Museum  \n   - **Address:** Unknown  \n   - **Website:** https://www.cbsa.cat/colleccio/  \n   - [attraction: Museum of Funeral Carriages, Barcelona]\n\n5. **Erotic Museum**  \n   - **Type:** Museum  \n   - **Address:** Unknown  \n   - **Website:** http://www.erotica-museum.com/  \n   - [attraction: Erotic Museum, Barcelona]\n\n6. **Arxiu Fotogràfic de Barcelona**  \n   - **Type:** Museum  \n   - **Address:** 2 2on. Plaça de Pons i Cierch, Barcelona  \n   - **Website:** https://ajuntament.barcelona.cat/arxiumunicipal/arxiufotografic/ca  \n   - [attraction: Arxiu Fotogràfic de Barcelona, Barcelona]",
+   "contexts": [
+    "Museu de les Arts Escèniques is a museum in Barcelona, Spain. Address: Plaça de Margarida Xirgu, 08004, Barcelona. Website: https://www.cdmae.cat/.",
+    "Museu Europeu d'Art Modern is a museum in Barcelona, Spain. Address: 5 Carrer Barra de Ferro, 08003, Barcelona. Website: https://www.meam.es/ca/.",
+    "Picasso Museum is a museum in Barcelona, Spain. Address: unknown. Website: https://museupicassobcn.cat.",
+    "Museum of Funeral Carriages is a museum in Barcelona, Spain. Address: unknown. Website: https://www.cbsa.cat/colleccio/.",
+    "Erotic Museum is a museum in Barcelona, Spain. Address: unknown. Website: http://www.erotica-museum.com/.",
+    "Arxiu Fotogràfic de Barcelona is a museum in Barcelona, Spain. Address: 2 2on. Plaça de Pons i Cierch, Barcelona. Website: https://ajuntament.barcelona.cat/arxiumunicipal/arxiufotografic/ca."
+   ],
+   "agent_cost_usd": 0.006091,
+   "seconds": 11.3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.974,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "museums",
+   "city": "Punta Gorda",
+   "question": "What museums can I visit in Punta Gorda?",
+   "answer": "Here are the museums and galleries you can visit in Punta Gorda:\n\n* **Blanchard House Museum** [attraction: Blanchard House Museum, Punta Gorda]  \n  * **Type:** Museum  \n  * **Address:** 406 Dr Martin Luther King Jr Boulevard, Punta Gorda  \n  * **Website:** http://www.blanchardhousemuseum.org/\n\n* **Florida Military Heritage Museum** [attraction: Florida Military Heritage Museum, Punta Gorda]  \n  * **Type:** Museum  \n  * **Website:** https://militaryheritagemuseum.org/\n\n* **A. C. Freeman House** [attraction: A. C. Freeman House, Punta Gorda]  \n  * **Type:** Museum  \n\n* **Visual Arts Center** [attraction: Visual Arts Center, Punta Gorda]  \n  * **Type:** Gallery  \n\n* **Keystone Gallery** [attraction: Keystone Gallery, Punta Gorda]  \n  * **Type:** Gallery  \n  * **Address:** 26300 Airport Road",
+   "contexts": [
+    "Blanchard House Museum is a museum in Punta Gorda, United States. Address: 406 Dr Martin Luther King Jr Boulevard, Punta Gorda. Website: http://www.blanchardhousemuseum.org/.",
+    "Florida Military Heritage Museum is a museum in Punta Gorda, United States. Address: unknown. Website: https://militaryheritagemuseum.org/.",
+    "A. C. Freeman House is a museum in Punta Gorda, United States. Address: unknown.",
+    "Visual Arts Center is a gallery in Punta Gorda, United States. Address: unknown.",
+    "Keystone Gallery is a gallery in Punta Gorda, United States. Address: 26300 Airport Road.",
+    "Riverside park public boat launch is a attraction in Punta Gorda, United States. Address: 8114 Riverside Drive, 33982."
+   ],
+   "agent_cost_usd": 0.005331,
+   "seconds": 9.7,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.96,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "cuisine",
+   "city": "Sacramento",
+   "question": "Which Barbecue restaurants in Sacramento can I try?",
+   "answer": "Here are some barbecue restaurants in Sacramento:\n\n1. **Buckhorn Grill** [restaurant: Buckhorn Grill, Sacramento]\n   - **Cuisine:** Barbecue\n   - **Price:** Price not available\n\n2. **JJ's Hawaiian BBQ + Ramen** [restaurant: JJ's Hawaiian BBQ + Ramen, Sacramento]\n   - **Cuisine:** Barbecue, Ramen, Hawaiian\n   - **Price:** Price not available\n\n3. **Tasty Hawaiian BBQ** [restaurant: Tasty Hawaiian BBQ, Sacramento]\n   - **Cuisine:** Hawaiian\n   - **Price:** Price not available\n\n4. **Thai Farm House BBQ and Bistro** [restaurant: Thai Farm House BBQ and Bistro, Sacramento]\n   - **Cuisine:** Thai\n   - **Price:** Price not available\n\n*Note: The details above come from OpenStreetMap snapshot data, where prices are not available.*",
+   "contexts": [
+    "Thai Farm House BBQ and Bistro is a restaurant in Sacramento, United States. Cuisines: Thai. Price not available.",
+    "Tasty Hawaiian BBQ is a restaurant in Sacramento, United States. Cuisines: Hawaiian. Price not available.",
+    "JJ's Hawaiian BBQ + Ramen is a restaurant in Sacramento, United States. Cuisines: Barbecue, Ramen, Hawaiian. Price not available.",
+    "Buckhorn Grill is a restaurant in Sacramento, United States. Cuisines: Barbecue. Price not available.",
+    "House Kitchen & Bar is a restaurant in Sacramento, United States. Cuisines: not listed. Price not available.",
+    "Tiger Bar + Restaurant is a restaurant in Sacramento, United States. Cuisines: not listed. Price not available."
+   ],
+   "agent_cost_usd": 0.005619,
+   "seconds": 11.7,
+   "faithfulness": 0.875,
+   "answer_relevancy": 0.956,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "cuisine",
+   "city": "Portland",
+   "question": "Which Greek restaurants in Portland can I try?",
+   "answer": "Here are Greek restaurants in Portland you can try:\n\n- **Mad Greek Deli** [restaurant: Mad Greek Deli, Portland] — A Greek restaurant in Portland. (Price not available)\n- **Alexis Restaurant** [restaurant: Alexis Restaurant, Portland] — A Greek restaurant in Portland. (Price not available)\n- **Bluto's** [restaurant: Bluto's, Portland] — A Greek restaurant in Portland. (Price not available)\n- **Eleni's Philoxenia** [restaurant: Eleni's Philoxenia, Portland] — A Greek restaurant in Portland. (Price not available)\n\n*Note: These listings come from OpenStreetMap snapshot data, which does not include pricing or detailed live information.*",
+   "contexts": [
+    "Mad Greek Deli is a restaurant in Portland, United States. Cuisines: Greek. Price not available.",
+    "Alexis Restaurant is a restaurant in Portland, United States. Cuisines: Greek. Price not available.",
+    "Oak & Olive is a restaurant in Portland, United States. Cuisines: Italian. Price not available.",
+    "Bluto's is a restaurant in Portland, United States. Cuisines: Greek. Price not available.",
+    "Piazza Italia is a restaurant in Portland, United States. Cuisines: Italian. Price not available.",
+    "Eleni's Philoxenia is a restaurant in Portland, United States. Cuisines: Greek. Price not available."
+   ],
+   "agent_cost_usd": 0.005392,
+   "seconds": 8.4,
+   "faithfulness": 0.727,
+   "answer_relevancy": 0.955,
+   "context_precision": 0.854
+  },
+  {
+   "kind": "cuisine",
+   "city": "Vienna",
+   "question": "Which Pita restaurants in Vienna can I try?",
+   "answer": "Here is the pita restaurant found in Vienna:\n\n1. **Fladerei Mittersteig** [restaurant: Fladerei Mittersteig, Vienna]  \n   * **Cuisines:** Pita  \n   * **Price:** Price not available  \n\n*Note: This result comes from snapshot data (OpenStreetMap), where prices are not available.*",
+   "contexts": [
+    "Fladerei Mittersteig is a restaurant in Vienna, Austria. Cuisines: Pita. Price not available.",
+    "SAPA is a restaurant in Vienna, Austria. Cuisines: Vietnamese. Price not available.",
+    "Matcha Komatchi is a restaurant in Vienna, Austria. Cuisines: Japanese. Price not available.",
+    "Restaurant SURA is a restaurant in Vienna, Austria. Cuisines: Korean, Japanese. Price not available.",
+    "La Cocotte Italian Bistro is a restaurant in Vienna, Austria. Cuisines: Italian. Price not available.",
+    "The Opposite of West by Tapas Bar is a restaurant in Vienna, Austria. Cuisines: Balkan, Tapas. Price not available."
+   ],
+   "agent_cost_usd": 0.004854,
+   "seconds": 8.8,
+   "faithfulness": 0.6,
+   "answer_relevancy": 0.937,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "cuisine",
+   "city": "St. Louis",
+   "question": "Which Italian restaurants in St. Louis can I try?",
+   "answer": "Here are some Italian restaurants in St. Louis you can try:\n\n1. **Sauce on the Side** [restaurant: Sauce on the Side, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n2. **The Old Spaghetti Factory** [restaurant: The Old Spaghetti Factory, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n3. **Bar Italia Ristorante** [restaurant: Bar Italia Ristorante, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n4. **Edera Italian Eatery** [restaurant: Edera Italian Eatery, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n5. **Katie's Pizza & Pasta** [restaurant: Katie's Pizza & Pasta, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n6. **Charlie Gitto's** [restaurant: Charlie Gitto's, St. Louis]\n   - Cuisines: Italian\n   - Price: Not available\n\n*(Note: Data is from OpenStreetMap snapshot records; pricing information is not available.)*",
+   "contexts": [
+    "Sauce on the Side is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available.",
+    "The Old Spaghetti Factory is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available.",
+    "Bar Italia Ristorante is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available.",
+    "Edera Italian Eatery is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available.",
+    "Katie's Pizza & Pasta is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available.",
+    "Charlie Gitto's is a restaurant in St. Louis, United States. Cuisines: Italian. Price not available."
+   ],
+   "agent_cost_usd": 0.005733,
+   "seconds": 8.7,
+   "faithfulness": 0.923,
+   "answer_relevancy": 0.974,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "cuisine",
+   "city": "Indianapolis",
+   "question": "Which Burger restaurants in Indianapolis can I try?",
+   "answer": "Here are the burger restaurant options available in Indianapolis:\n\n1. **Bru Burger Bar** [restaurant: Bru Burger Bar, Indianapolis]\n   - **Type:** Restaurant\n   - **Cuisines:** Burger\n   - **Price:** Price not available\n\n2. **Hooters** [restaurant: Hooters, Indianapolis]\n   - **Type:** Restaurant\n   - **Cuisines:** Burger\n   - **Price:** Price not available\n\n*(Note: Data is from OpenStreetMap snapshot records; pricing information is not available.)*",
+   "contexts": [
+    "Bru Burger Bar is a restaurant in Indianapolis, United States. Cuisines: Burger. Price not available.",
+    "Gordon's Milkshake Bar is a restaurant in Indianapolis, United States. Cuisines: not listed. Price not available.",
+    "Hooters is a restaurant in Indianapolis, United States. Cuisines: Burger. Price not available.",
+    "Conner's Kitchen + Bar Indianapolis is a restaurant in Indianapolis, United States. Cuisines: Grill. Price not available.",
+    "Vee Sandwich Shop is a restaurant in Indianapolis, United States. Cuisines: not listed. Price not available.",
+    "Toppers is a restaurant in Indianapolis, United States. Cuisines: Pizza. Price not available.",
+    "Bru Burger Bar is a restaurant in Indianapolis, United States. Cuisines: Burger. Price not available.",
+    "Conner's Kitchen + Bar Indianapolis is a restaurant in Indianapolis, United States. Cuisines: Grill. Price not available.",
+    "Gordon's Milkshake Bar is a restaurant in Indianapolis, United States. Cuisines: not listed. Price not available.",
+    "Vee Sandwich Shop is a restaurant in Indianapolis, United States. Cuisines: not listed. Price not available.",
+    "Hooters is a restaurant in Indianapolis, United States. Cuisines: Burger. Price not available.",
+    "Toppers is a restaurant in Indianapolis, United States. Cuisines: Pizza. Price not available."
+   ],
+   "agent_cost_usd": 0.008667,
+   "seconds": 15.7,
+   "faithfulness": 0.857,
+   "answer_relevancy": 0.943,
+   "context_precision": 0.615
+  },
+  {
+   "kind": "private room",
+   "city": "Cedar City",
+   "question": "Where can I book a private room to stay in Cedar City?",
+   "answer": "Here are options for private rooms to stay in Cedar City:\n\n1. **Hampton Inn & Suites** [accommodation: Hampton Inn & Suites, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n2. **Big Yellow Inn** [accommodation: Big Yellow Inn, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n3. **Comfort Inn & Suites** [accommodation: Comfort Inn & Suites, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n4. **Magnuson Hotel Cedar City** [accommodation: Magnuson Hotel Cedar City, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n5. **Abbey Inn** [accommodation: Abbey Inn, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n6. **Super 8 by Wyndham Cedar City** [accommodation: Super 8 by Wyndham Cedar City, Cedar City]\n   - Type: Private room\n   - Location: Cedar City, United States\n   - Minimum stay: 1 night\n\n*Note: These listings are from snapshot data (OpenStreetMap) and do not have prices listed. If you have specific travel dates and guest numbers, let me know so I can search for live availability and pricing.*",
+   "contexts": [
+    "Hampton Inn & Suites is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Big Yellow Inn is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Comfort Inn & Suites is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Magnuson Hotel Cedar City is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Abbey Inn is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Super 8 by Wyndham Cedar City is a private room to stay in Cedar City, United States. No price listed (search live), minimum stay 1 nights. House rules: not published."
+   ],
+   "agent_cost_usd": 0.006278,
+   "seconds": 39.8,
+   "faithfulness": 0.905,
+   "answer_relevancy": 0.844,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "private room",
+   "city": "Medford",
+   "question": "Where can I book a private room to stay in Medford?",
+   "answer": "Here are options for private rooms to stay in Medford from available snapshot data:\n\n1. **My Place Hotel** [accommodation: My Place Hotel, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n2. **Rogue Regency Inn** [accommodation: Rogue Regency Inn, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n3. **Budget Inn** [accommodation: Budget Inn, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n4. **Inn at the Commons** [accommodation: Inn at the Commons, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n5. **Ramada Medford Hotel & Conference Center** [accommodation: Ramada Medford Hotel & Conference Center, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n6. **Red Carpet Inn Medford, Oregon** [accommodation: Red Carpet Inn Medford, Oregon, Medford]\n   - Private room in Medford, United States. Minimum stay: 1 night. Price not listed. House rules not published.\n\n*Note: These listings are from snapshot data and do not include pricing. If you have specific travel dates and number of guests, please share them so I can check for live availability and prices.*",
+   "contexts": [
+    "My Place Hotel is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Rogue Regency Inn is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Budget Inn is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Inn at the Commons is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Ramada Medford Hotel & Conference Center is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Red Carpet Inn Medford, Oregon is a private room to stay in Medford, United States. No price listed (search live), minimum stay 1 nights. House rules: not published."
+   ],
+   "agent_cost_usd": 0.006552,
+   "seconds": 25.6,
+   "faithfulness": 0.962,
+   "answer_relevancy": 0.817,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "private room",
+   "city": "Corpus Christi",
+   "question": "Where can I book a private room to stay in Corpus Christi?",
+   "answer": "Here are private room accommodation options in Corpus Christi:\n\n1. **Relax Inn** [accommodation: Relax Inn, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n2. **Regency Inn** [accommodation: Regency Inn, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n3. **Hampton Inn & Suites** [accommodation: Hampton Inn & Suites, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n4. **Home2 Suites by Hilton Corpus Christi Southeast** [accommodation: Home2 Suites by Hilton Corpus Christi Southeast, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n5. **Country Inn & Suites** [accommodation: Country Inn & Suites, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n6. **Budget Inn** [accommodation: Budget Inn, Corpus Christi]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n*Note: These listings are from OpenStreetMap snapshot data and do not include live rates. If you have specific check-in and check-out dates and the number of guests, let me know and I can search for live availability and pricing.*",
+   "contexts": [
+    "Relax Inn is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Regency Inn is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Hampton Inn & Suites is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Home2 Suites by Hilton Corpus Christi Southeast is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Country Inn & Suites is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Budget Inn is a private room to stay in Corpus Christi, United States. No price listed (search live), minimum stay 1 nights. House rules: not published."
+   ],
+   "agent_cost_usd": 0.006443,
+   "seconds": 26.5,
+   "faithfulness": 0.905,
+   "answer_relevancy": 0.817,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "private room",
+   "city": "Cheyenne",
+   "question": "Where can I book a private room to stay in Cheyenne?",
+   "answer": "Here are options for private rooms to stay in Cheyenne:\n\n1. **My Place Hotel - Cheyenne, WY** [accommodation: My Place Hotel - Cheyenne, WY, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n2. **Hampton Inn & Suites** [accommodation: Hampton Inn & Suites, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n3. **Comfort Inn & Suites** [accommodation: Comfort Inn & Suites, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n4. **Days Inn** [accommodation: Days Inn, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n5. **Microtel Inn & Suites** [accommodation: Microtel Inn & Suites, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n6. **The Downtowner Studios** [accommodation: The Downtowner Studios, Cheyenne]\n   - Private room · Minimum stay: 1 night · No price listed · House rules: not published\n\n*Note: These accommodations are from snapshot data (OpenStreetMap) and do not have prices listed. If you have specific check-in and check-out dates and the number of guests, let me know and I can search for live rates and availability.*",
+   "contexts": [
+    "My Place Hotel - Cheyenne, WY is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Hampton Inn & Suites is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Comfort Inn & Suites is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Days Inn is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Microtel Inn & Suites is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "The Downtowner Studios is a private room to stay in Cheyenne, United States. No price listed (search live), minimum stay 1 nights. House rules: not published."
+   ],
+   "agent_cost_usd": 0.006294,
+   "seconds": 25.3,
+   "faithfulness": 0.923,
+   "answer_relevancy": 0.878,
+   "context_precision": 1.0
+  },
+  {
+   "kind": "private room",
+   "city": "Fort Dodge",
+   "question": "Where can I book a private room to stay in Fort Dodge?",
+   "answer": "Here are options for booking a private room in Fort Dodge:\n\n1. **Quality Inn** [accommodation: Quality Inn, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n2. **Country Inn & Suites** [accommodation: Country Inn & Suites, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n3. **Days Inn by Wyndham Fort Dodge** [accommodation: Days Inn by Wyndham Fort Dodge, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n4. **Super 8 by Wyndham Fort Dodge IA** [accommodation: Super 8 by Wyndham Fort Dodge IA, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n5. **AmericInn by Wyndham Fort Dodge** [accommodation: AmericInn by Wyndham Fort Dodge, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n6. **Holiday Inn Express & Suites** [accommodation: Holiday Inn Express & Suites, Fort Dodge]\n   - Type: Private room\n   - Minimum stay: 1 night\n   - Price: No price listed\n\n*Note: These listings are from snapshot data (OpenStreetMap) and do not include pricing. If you have specific travel dates and guest counts, let me know and I can search for live availability and rates.*",
+   "contexts": [
+    "Quality Inn is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Country Inn & Suites is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Days Inn by Wyndham Fort Dodge is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Super 8 by Wyndham Fort Dodge IA is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "AmericInn by Wyndham Fort Dodge is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published.",
+    "Holiday Inn Express & Suites is a private room to stay in Fort Dodge, United States. No price listed (search live), minimum stay 1 nights. House rules: not published."
+   ],
+   "agent_cost_usd": 0.006193,
+   "seconds": 10.3,
+   "faithfulness": 0.857,
+   "answer_relevancy": 0.845,
+   "context_precision": 1.0
+  }
+ ]
+}

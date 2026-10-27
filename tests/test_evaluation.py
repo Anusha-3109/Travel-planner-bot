@@ -125,3 +125,4 @@ def test_without_rag_removes_only_the_search_tool():
 def test_each_judge_has_its_own_ragas_results():
     assert ragas_results_path("openai/gpt-6-luna") == RESULTS_DIR / "ragas" / "openai-gpt-6-luna.json"
     assert ragas_results_path("openai/gpt-6-luna", "openai/gpt-6.1-sol") ==         RESULTS_DIR / "ragas" / "judges" / "openai-gpt-6.1-sol" / "openai-gpt-6-luna.json"
+    assert ragas_results_path("openai/gpt-6-luna", "openai/gpt-6.1-sol", "repeat") ==         RESULTS_DIR / "ragas" / "runs" / "repeat" / "judges" / "openai-gpt-6.1-sol" / "openai-gpt-6-luna.json"
