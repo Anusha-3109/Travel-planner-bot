@@ -71,6 +71,54 @@ def plan_table(result: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+SEARCH_NAMES = {"serpapi": "SerpApi searches", "google": "Google Maps calls", "exchange_rates": "exchange rate look-up"}
+
+
+def searches_text(used: dict) -> str:
+    return ", ".join(f"{count} {SEARCH_NAMES.get(name, name)}" for name, count in used.items() if count)
+
+
+def _constraints(run: dict) -> str:
+    parts = [f"house rule: {run['house_rule']}" if run.get("house_rule") else None,
+             f"room: {run['room_type']}" if run.get("room_type") else None,
+             f"cuisines: {', '.join(run['cuisines'])}" if run.get("cuisines") else None,
+             f"transport: {run['transportation']}" if run.get("transportation") else None]
+    return "; ".join(p for p in parts if p) or "none"
+
+
+def trip_table(result: dict) -> pd.DataFrame:
+    """One row per planned trip, with the checks it failed."""
+    rows = []
+    for run in result.get("runs", []):
+        score = run["score"]
+        failed = [c["check"] for c in score.get("checks", []) if not c["passed"]]
+        rows.append({"Level": run["level"].capitalize(), "Trip": f"{run['origin']} to {run['destination']}",
+                     "Start": run["start"], "People": run["people"], "Budget": f"${run['budget']:,.0f}",
+                     "Constraints": _constraints(run),
+                     "Result": "Passed" if score.get("passed") else ("Failed" if score.get("delivered") else "No plan"),
+                     "Failed checks": ", ".join(failed) or "—",
+                     "Cost": f"${run['usage']['cost_usd']:.3f}" if run.get("usage") else "—"})
+    return pd.DataFrame(rows)
+
+
+def key_results(models: pd.DataFrame, retrieval: dict | None, plans: dict | None) -> list[tuple[str, str, str]]:
+    """(label, value, note) for the metrics row at the top, from whichever evaluations have run."""
+    items = []
+    if retrieval:
+        full = retrieval["summary"]["full"]["overall"]
+        items.append(("Retrieval hit rate", f"{full['hit']:.0%}", f"wrong city {full['wrong_city']:.0%}"))
+    if not models.empty:
+        best = models.loc[models["Faithfulness"].idxmax()]
+        items.append(("Best faithfulness", f"{best['Faithfulness']:.2f}", best["Model"].split("  ·  ")[0]))
+    if plans:
+        rates = plans["summary"]["all"]
+        items.append(("Plans delivered", f"{rates['delivery_rate']:.0%}", f"{rates['plans']} trips"))
+        items.append(("Plans passing every check", f"{rates['final_pass_rate']:.0%}", "house rules fail most"
+                      if max(plans["failed_checks"], key=plans["failed_checks"].get, default="") == "house rule"
+                      else ""))
+    return items
+
+
 def _not_run(command: str) -> None:
     st.info(f"Not run yet. Run `{command}` to fill this in.", icon=":material/hourglass_top:")
 
@@ -80,10 +128,17 @@ def render() -> None:
     st.caption("How well TripMate's retrieval, answers and trip plans do, and what each model costs. Scores are from "
                "the evaluation scripts in evaluation/ and the files they save.")
 
+    models = model_table()
+    retrieval = load(RESULTS_DIR / "retrieval.json")
+    plans = load(RESULTS_DIR / "plans.json")
+    if items := key_results(models, retrieval, plans):
+        with st.container(horizontal=True):
+            for label, value, note in items:
+                st.metric(label, value, note or None, delta_color="off", delta_arrow="off", border=True)
+
     st.subheader("What each model costs")
     st.caption("Knowledge-base questions answered by each model and judged with RAGAS (the judge is always "
                f"{config.MODELS[TESTED_MODEL][0]}). Cost and time are per question, with the knowledge-base search.")
-    models = model_table()
     if models.empty:
         _not_run(".venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model <model>")
     else:
@@ -94,7 +149,6 @@ def render() -> None:
             st.caption(f"Not measured yet: {', '.join(missing)}.")
 
     st.subheader("Retrieval strategies")
-    retrieval = load(RESULTS_DIR / "retrieval.json")
     if not retrieval:
         _not_run("python -m evaluation.retrieval")
     else:
@@ -112,7 +166,6 @@ def render() -> None:
                 hide_index=True, width="stretch", column_config={"Hit rate": SCORE, "Precision": SCORE, "MRR": SCORE})
 
     st.subheader("Trip plans")
-    plans = load(RESULTS_DIR / "plans.json")
     if not plans:
         _not_run("python -m evaluation.plans")
     else:
@@ -137,7 +190,9 @@ def render() -> None:
                 st.bar_chart(pd.Series(failed, name="plans"), horizontal=True, color="#3b82f6")
             else:
                 st.caption("Every check passed.")
-        st.caption(f"Live searches used: {plans['live_searches_used']} · model cost "
+        with st.expander("Each trip"):
+            st.dataframe(trip_table(plans), hide_index=True, width="stretch")
+        st.caption(f"Live searches used: {searches_text(plans['live_searches_used'])} · model cost "
                    f"${plans['summary']['all']['cost_usd']:.2f} · run {plans['run_at'][:10]}")
 
     st.subheader("How this was measured")

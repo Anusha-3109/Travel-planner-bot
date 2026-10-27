@@ -43,8 +43,13 @@ def _fill(results):
     _write(results / "plans.json", {
         "summary": {"all": _rates(18, 0.3), "easy": _rates(6, 0.5), "medium": _rates(6, 0.3), "hard": _rates(6, 0.1)},
         "rag_comparison": {"with_rag": _rates(6, 0.33), "without_rag": _rates(6, 0.17)},
-        "failed_checks": {"house rule": 8, "budget": 2}, "live_searches_used": {"serpapi": 70},
-        "run_at": "2026-10-27T10:00:00+00:00"})
+        "failed_checks": {"house rule": 8, "budget": 2}, "live_searches_used": {"serpapi": 70, "google": 0},
+        "run_at": "2026-10-27T10:00:00+00:00", "runs": [
+            {"level": "hard", "origin": "Houston", "destination": "Pensacola", "start": "2027-01-03", "people": 2,
+             "budget": 1400.0, "house_rule": "visitors", "room_type": None, "cuisines": ["Indian", "Chinese"],
+             "transportation": "no self-driving", "usage": {"cost_usd": 0.0412},
+             "score": {"delivered": True, "passed": False, "checks": [
+                 {"check": "budget", "passed": True}, {"check": "house rule", "passed": False}]}}]})
 
 
 def test_tables_are_built_from_the_result_files(results):
@@ -57,6 +62,23 @@ def test_tables_are_built_from_the_result_files(results):
     assert strategies.iloc[-1]["Strategy"] == "full  ·  used by the app" and strategies.iloc[-1]["Hit rate"] == 0.9
     plans = benchmarks.plan_table(benchmarks.load(results / "plans.json"))
     assert list(plans["Questions"]) == ["All", "Easy", "Medium", "Hard"] and plans.iloc[3]["Final pass"] == 0.1
+
+
+def test_each_trip_lists_its_constraints_and_failed_checks(results):
+    _fill(results)
+    trip = benchmarks.trip_table(benchmarks.load(results / "plans.json")).iloc[0]
+    assert trip["Trip"] == "Houston to Pensacola" and trip["Budget"] == "$1,400" and trip["Cost"] == "$0.041"
+    assert trip["Constraints"] == "house rule: visitors; cuisines: Indian, Chinese; transport: no self-driving"
+    assert trip["Result"] == "Failed" and trip["Failed checks"] == "house rule"
+
+
+def test_key_results_and_search_counts_read_as_text(results):
+    assert benchmarks.searches_text({"serpapi": 61, "google": 230, "exchange_rates": 0}) ==         "61 SerpApi searches, 230 Google Maps calls"
+    _fill(results)
+    items = benchmarks.key_results(benchmarks.model_table(), benchmarks.load(results / "retrieval.json"),
+                                   benchmarks.load(results / "plans.json"))
+    assert items == [("Retrieval hit rate", "90%", "wrong city 0%"), ("Best faithfulness", "0.92", "Claude Haiku 5.5"),
+                     ("Plans delivered", "100%", "18 trips"), ("Plans passing every check", "30%", "house rules fail most")]
 
 
 def _page():
@@ -77,5 +99,6 @@ def test_page_shows_the_results(results):
     at = AppTest.from_function(_page, default_timeout=30)
     at.run()
     assert not at.exception and not at.info
-    assert len(at.dataframe) == 5  # models, strategies, by kind, plans, with/without RAG
+    assert len(at.dataframe) == 6  # models, strategies, by kind, plans, with/without RAG, each trip
+    assert len(at.metric) == 4 and "70 SerpApi searches" in " ".join(c.value for c in at.caption)
     assert any("Not measured yet: OpenAI GPT-6 Luna, Google Gemini 3.7 Flash" in c.value for c in at.caption)
