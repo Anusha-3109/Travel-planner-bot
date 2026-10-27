@@ -1,0 +1,57 @@
+# Deploys TripMate to Google Cloud Run after the tests pass on main, so the live link
+# (https://tripmate-6d5rna4tra-ew.a.run.app) always runs the latest code and data.
+# GitHub signs in with Workload Identity Federation: no key file is stored anywhere, and Google
+# Cloud accepts only this repository's main branch. Copies of the repository (such as the
+# course submission) run the tests but skip this job.
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: [Tests]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  id-token: write  # the short-lived sign-in token for Google Cloud
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false  # a deploy that has started finishes; the next push waits
+
+jobs:
+  deploy:
+    if: >-
+      github.repository == 'Anusha-3109/Travel-planner-bot'
+      && github.event.workflow_run.event == 'push'
+      && github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      IMAGE: europe-west1-docker.pkg.dev/travel-planner-bot-512410/tripmate/app:${{ github.event.workflow_run.head_sha }}
+    steps:
+      - name: Get the tested code
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Sign in to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: projects/139549082989/locations/global/workloadIdentityPools/github/providers/github
+          service_account: github-deployer@travel-planner-bot-512410.iam.gserviceaccount.com
+
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v3
+
+      - name: Build the image (includes building the knowledge base)
+        run: |
+          gcloud auth configure-docker europe-west1-docker.pkg.dev --quiet
+          docker build -t "$IMAGE" .
+
+      - name: Push the image
+        run: docker push "$IMAGE"
+
+      - name: Deploy the new version
+        # Only the image changes; the secrets, history bucket, memory and instance limit stay as set.
+        run: gcloud run deploy tripmate --image "$IMAGE" --region europe-west1 --quiet

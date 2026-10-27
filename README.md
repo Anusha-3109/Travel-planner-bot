@@ -183,7 +183,9 @@ TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app
 | Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY` and `APP_PASSWORD` in Secret Manager, passed in as environment variables; never in the image or the repository |
 | Saved chats and trips | A Cloud Storage bucket mounted at `/mnt/history` (`HISTORY_DIR`), so they survive restarts. At most one instance writes to the SQLite file |
 
-To deploy a new version from this folder:
+**Every push to `main` deploys automatically.** After the tests pass, [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the image, tags it with the commit id, pushes it and deploys it, so the live link shows the new version about 15 to 25 minutes later (most of that is building the knowledge base). GitHub signs in to Google Cloud with Workload Identity Federation: there's no key file, and Google Cloud accepts only this repository's `main` branch. The deploy account (`github-deployer`) can push images and deploy, but can't read the secrets. Copies of the repository run the tests and skip the deploy.
+
+To deploy by hand from this folder instead:
 
 ```bash
 docker build -t europe-west1-docker.pkg.dev/<project>/tripmate/app .
@@ -232,7 +234,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-272 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+273 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
