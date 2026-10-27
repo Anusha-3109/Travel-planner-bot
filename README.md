@@ -167,7 +167,7 @@ copy .env.example .env             # macOS/Linux: cp .env.example .env, then add
 streamlit run app.py
 ```
 
-Open <http://localhost:8501>. On the first start the app downloads a small embedding model (about 80 MB) and indexes the places into `.chroma/`; later starts only add new places. To rebuild the index yourself, run `python -m backend.rag.ingest`.
+Open <http://localhost:8501>. On the first start the app downloads a small embedding model (about 80 MB) and indexes the places into `.chroma/`; later starts only add new places and replace places whose description changed. To rebuild the index yourself, run `python -m backend.rag.ingest`.
 
 Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered models are listed in `backend/config.py`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`, and for a deployed copy `APP_PASSWORD` (a password screen before the app opens) and `HISTORY_DIR` (where the saved chats and trips are kept).
 

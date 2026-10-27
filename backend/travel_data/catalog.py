@@ -92,6 +92,7 @@ class Accommodation:
     minimum_nights: int
     maximum_occupancy: int | None  # None: the source doesn't publish a guest limit
     rating: float | None
+    listed_as: str | None = None  # the source's own room type when room_type maps it, e.g. "Hotel room"
 
     def allows(self, rule: str) -> bool:
         """Only a stay whose published rules don't forbid it counts as allowing it."""
@@ -267,11 +268,12 @@ class _Builder:
         for record in data.get("accommodations", []):
             if self._is_new("accommodation", record["name"], city):
                 occupancy = record.get("maximum_occupancy")
+                room_type = ROOM_TYPE_ALIASES.get(record["room_type"], record["room_type"])
                 self.accommodations[city.lower()].append(Accommodation(
-                    record["name"], city, _number(record.get("price"), None),
-                    ROOM_TYPE_ALIASES.get(record["room_type"], record["room_type"]), None,
+                    record["name"], city, _number(record.get("price"), None), room_type, None,
                     int(record.get("minimum_nights") or 1), int(occupancy) if occupancy else None,
-                    _number(record.get("rating"), None)))
+                    _number(record.get("rating"), None),
+                    record["room_type"] if record["room_type"] != room_type else None))
         for record in data.get("restaurants", []):
             if self._is_new("restaurant", record["name"], city):
                 self.restaurants[city.lower()].append(Restaurant(

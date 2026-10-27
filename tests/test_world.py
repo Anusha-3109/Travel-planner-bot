@@ -21,7 +21,8 @@ SAMPLE_CITY = {
     "currency": "JPY", "usd_per_unit": 0.0063, "rates_date": "2026-10-21", "airbnb_scrape_date": "2026-09-25",
     "fetched_at": "2026-10-22",
     "accommodations": [{"name": "Machiya by the river", "price": 120.5, "price_local": 19000, "room_type": "Entire home/apt",
-                        "minimum_nights": 2, "maximum_occupancy": 4, "rating": 4.9, "reviews": 300, "url": ""}],
+                        "minimum_nights": 2, "maximum_occupancy": 4, "rating": 4.9, "reviews": 300, "url": ""},
+                       {"name": "Station Hotel", "price": None, "room_type": "Hotel room", "minimum_nights": 1}],
     "restaurants": [{"name": "Soba Corner", "cuisines": ["Japanese", "Soba"], "address": "", "website": ""}],
     "attractions": [{"name": "Golden Pavilion", "kind": "attraction", "address": "", "website": "", "phone": "",
                      "latitude": 35.0394, "longitude": 135.7292}],
@@ -66,6 +67,13 @@ def test_world_documents_carry_country(sample_catalog):
     assert {d.metadata["country"] for d in documents} == {"Japan"}
     restaurant = next(d for d in documents if d.metadata["category"] == "restaurant")
     assert "Price not available" in restaurant.page_content and "average_cost" not in restaurant.metadata
+
+
+def test_a_hotel_room_is_described_as_both_hotel_and_private_room(sample_catalog):
+    hotel = next(s for s in sample_catalog.accommodations["kyoto"] if s.name == "Station Hotel")
+    assert hotel.room_type == "Private room" and hotel.listed_as == "Hotel room" and hotel.matches_room_type("private room")
+    text = next(d.page_content for d in place_documents(sample_catalog, cities=["Kyoto"]) if d.metadata["name"] == "Station Hotel")
+    assert text.startswith("Station Hotel is a hotel room (private room) to stay in Kyoto")
 
 
 @needs_tokyo

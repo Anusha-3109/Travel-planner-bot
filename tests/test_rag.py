@@ -45,8 +45,8 @@ def test_retrieves_named_attraction(small_index):
 
 def test_index_update_adds_new_places_and_removes_old_ones(tmp_path, monkeypatch):
     """At startup the app only embeds places that are new, and drops places that are gone."""
-    def place(name):
-        return Document(f"{name} is a restaurant in Testville.",
+    def place(name, kind="restaurant"):
+        return Document(f"{name} is a {kind} in Testville.",
                         metadata={"category": "restaurant", "city": "Testville", "name": name,
                                   "source": f"restaurant: {name}, Testville"})
 
@@ -65,6 +65,14 @@ def test_index_update_adds_new_places_and_removes_old_ones(tmp_path, monkeypatch
         assert progress == [(1, 1)]  # only Gamma was embedded
         names = {m["name"] for m in vectorstore.get_vectorstore().get(include=["metadatas"])["metadatas"]}
         assert names == {"Beta", "Gamma"}
+
+        # A place whose text changed is embedded again; the others are left alone.
+        monkeypatch.setattr(ingest, "place_documents", lambda cities=None: [place("Beta", "cafe"), place("Gamma")])
+        progress.clear()
+        assert ingest.ensure_index(on_progress=lambda done, total: progress.append((done, total))) == 2
+        assert progress == [(1, 1)]
+        texts = vectorstore.get_vectorstore().get(include=["documents"])["documents"]
+        assert sorted(texts) == ["Beta is a cafe in Testville.", "Gamma is a restaurant in Testville."]
 
         monkeypatch.setattr(ingest, "place_documents", lambda cities=None: [])
         with pytest.raises(RuntimeError, match="No places found"):

@@ -8,7 +8,8 @@ structured filters in rag/retriever.py.
 
 Each document's id is a hash of its source, so the index can be updated
 incrementally: ensure_index() adds new places (for example newly fetched
-cities) and removes places that are no longer in the data.
+cities), replaces places whose description changed and removes places that are no
+longer in the data.
 
 Run directly to rebuild the index:  python -m backend.rag.ingest
 """
@@ -68,7 +69,11 @@ def place_documents(catalog: TravelCatalog | None = None, cities: Iterable[str] 
             rules = (", ".join(place.house_rules) or "none") if place.house_rules is not None else "not published"
             price = f"${place.price:.0f} per night" if place.price is not None else "No price listed (search live)"
             sleeps = f", sleeps up to {place.maximum_occupancy}" if place.maximum_occupancy else ""
-            text = (f"{place.name} is a {place.room_type.lower()} to stay in {where}. {price}{sleeps}, "
+            # "a hotel room (a private room)": the source's word, so answers calling it a hotel are
+            # supported, and the room type that room-type searches and checks use.
+            kind = (f"{place.listed_as.lower()} ({place.room_type.lower()})" if place.listed_as
+                    else place.room_type.lower())
+            text = (f"{place.name} is a {kind} to stay in {where}. {price}{sleeps}, "
                     f"minimum stay {place.minimum_nights} nights. House rules: {rules}.{_rating(place.rating)}")
             add("accommodation", place, text, price=place.price, room_type=place.room_type, house_rules=rules,
                 maximum_occupancy=place.maximum_occupancy, minimum_nights=place.minimum_nights, rating=place.rating)
@@ -96,12 +101,17 @@ def build_index(cities: Iterable[str] | None = None, on_progress: ProgressCallba
 
 
 def ensure_index(on_progress: ProgressCallback | None = None) -> int:
-    """Bring the index in line with the data: add places that are missing and
-    remove places that are gone. Returns the number of documents indexed."""
+    """Bring the index in line with the data: add places that are missing, remove places that are
+    gone, and replace places whose text changed (ids come from the source, not the text, so a new
+    description wouldn't be picked up otherwise). Returns the number of documents indexed."""
     documents = {document_id(d): d for d in place_documents()}
     vectorstore = get_vectorstore()
-    existing = set(vectorstore.get(include=[])["ids"])
-    stale = sorted(existing - documents.keys())
+    stored = vectorstore.get(include=["documents"])
+    texts = dict(zip(stored["ids"], stored["documents"]))
+    changed = {doc_id for doc_id, text in texts.items()
+               if doc_id in documents and documents[doc_id].page_content != text}
+    existing = set(texts) - changed
+    stale = sorted(set(texts) - documents.keys()) + sorted(changed)
     for start in range(0, len(stale), config.INDEX_BATCH_SIZE):
         vectorstore.delete(ids=stale[start:start + config.INDEX_BATCH_SIZE])
     missing = [document for doc_id, document in documents.items() if doc_id not in existing]
