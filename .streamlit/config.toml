@@ -1,11 +1,11 @@
-# Two themes with the same compact type (14px): Graphite amber (dark) and Light amber. People choose
+# Two themes with the same compact type (15px): Graphite amber (dark) and Light amber. People choose
 # Light, Dark or System (their computer's setting, the default) in Streamlit's menu: ⋮ → Settings.
 # frontend/components/palette.py has the same colours for the CSS, charts, maps and diagrams.
 [theme]
 showWidgetBorder = true
 baseRadius = "medium"
 font = "sans-serif"
-baseFontSize = 14
+baseFontSize = 15
 headingFontSizes = ["1.9rem", "1.45rem", "1.2rem", "1rem", "0.9rem", "0.8rem"]
 
 [theme.dark]

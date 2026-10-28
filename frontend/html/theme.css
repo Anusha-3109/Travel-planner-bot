@@ -63,6 +63,11 @@ h1 { padding-top: 0.25rem !important; }
 .st-key-tiles button { min-height: 0; padding: 0; }
 .st-key-tiles button p { font-size: 0.82rem; color: var(--tm-accent); }
 
+/* The trip page's tabs (Plan, Route, Stays, Discover, Budget, Packing, Journal, Documents): larger
+   labels with more room, so they read as the page's main navigation. */
+[data-testid="stTabs"] [data-testid="stTab"] { padding: 0.55rem 0.9rem; }
+[data-testid="stTabs"] [data-testid="stTab"] p { font-size: 1.1rem; font-weight: 500; }
+
 /* A day on the trip page. */
 .tm-day { border: 1px solid var(--tm-border); border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
 .tm-day h4 { margin: 0 0 0.6rem; font-size: 1rem; font-weight: 600; }
