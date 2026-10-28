@@ -1,17 +1,26 @@
-/* TripMate's own styles on top of the Graphite amber theme (.streamlit/config.toml).
-   Colours: background #161616, cards #202020, borders #2f2f2f, text #ececec, muted #a3a3a3,
-   amber #f59e0b (the same as frontend/components/palette.py).
+/* TripMate's own styles on top of the two Streamlit themes (.streamlit/config.toml).
    Loaded once per page by frontend/html/render.py. Streamlit gives a container with the key
    "composer" the class "st-key-composer", which is how these rules find them.
    Keep angle brackets out of this file: Streamlit's HTML cleaner drops a style block containing them. */
 
+/* Colours that follow the theme the moment it's switched in the menu (Settings), without a rerun:
+   they are worked out from each element's own text colour (currentColor), which Streamlit changes
+   with the theme. Borders and grey text are a share of the text colour; amber is mixed a little
+   toward it, so it's lighter on dark and deeper on light, and readable on both. */
+:root {
+  --tm-accent: color-mix(in srgb, #f59e0b 76%, currentColor);
+  --tm-border: color-mix(in srgb, currentColor 15%, transparent);
+  --tm-muted: color-mix(in srgb, currentColor 62%, transparent);
+  --tm-soft-text: color-mix(in srgb, currentColor 82%, transparent);
+  --tm-on-accent: #1c1300;
+}
+
 /* The Plan / Explore box on an empty chat: a rounded card with pill-shaped mode buttons. */
-.st-key-composer { border: 1px solid #2f2f2f; border-radius: 14px; padding: 0.55rem 0.65rem; background-color: #202020; }
+.st-key-composer { border: 1px solid var(--tm-border); border-radius: 14px; padding: 0.55rem 0.65rem; }
 .st-key-composer [data-testid="stButtonGroup"] button { border-radius: 999px; }
 /* The message box is a chat box (Enter sends, Shift+Enter starts a new line) with its own send arrow;
    it gets a little height so it reads as the place to describe a trip. */
 .st-key-composer [data-testid="stChatInput"] textarea { font-size: 0.95rem; min-height: 3.4rem; }
-.st-key-composer [data-testid="stChatInput"] { background-color: #161616; }
 
 /* The orange note under the model list in Settings. */
 .st-key-model-note { border-left: 3px solid #f97316; padding-left: 0.75rem; }
@@ -23,21 +32,23 @@
 [data-testid="stSidebarUserContent"] > div { flex: 1; display: flex; flex-direction: column; }
 [data-testid="stSidebarUserContent"] > div > [data-testid="stVerticalBlock"] { flex: 1; }
 [data-testid="stLayoutWrapper"]:has(> .st-key-sidebar-footer) { margin-top: auto; position: sticky; bottom: 0;
-                                                                 z-index: 1; background-color: #111111; }
+                                                                 z-index: 1; background-color: inherit; }
+/* The footer's sticky background is the sidebar's own colour, passed down through its parents. */
+[data-testid="stSidebar"] :has(.st-key-sidebar-footer) { background-color: inherit; }
 .st-key-sidebar-footer { padding-bottom: 0.5rem; }
 
 /* Amber buttons get dark text: white on amber is too faint to read. */
 button[data-testid^="stBaseButton-primary"], button[data-testid^="stBaseButton-primary"] p,
-button[data-testid^="stBaseButton-primary"] span { color: #1c1300 !important; }
+button[data-testid^="stBaseButton-primary"] span { color: var(--tm-on-accent) !important; }
 
-/* Every page: less empty space at the top, and a readable width on big screens. */
-[data-testid="stMainBlockContainer"] { padding-top: 3.6rem; padding-bottom: 2rem; max-width: 1180px; }
+/* Every page: less empty space at the top, and the full width beside the sidebar on any screen. */
+[data-testid="stMainBlockContainer"] { padding: 3.6rem 2.5rem 2rem; max-width: none; }
 [data-testid="stMainBlockContainer"] [data-testid="stVerticalBlock"] { gap: 0.6rem; }
 h1 { padding-top: 0.25rem !important; }
 
 /* The hero on an empty chat: the logo with the tagline under it. */
 .tm-hero { margin: 0.25rem 0 0.35rem; }
-.tm-hero p { font-size: 0.95rem; color: #a3a3a3; }
+.tm-hero p { font-size: 0.95rem; color: var(--tm-muted); }
 
 /* Example questions: small chips that keep to one line; the full question shows on hover. */
 .st-key-examples button { min-height: 0; padding: 0.3rem 0.65rem; }
@@ -48,19 +59,19 @@ h1 { padding-top: 0.25rem !important; }
 .st-key-tiles [data-testid="stLayoutWrapper"] > [data-testid="stVerticalBlock"] { padding: 0.45rem 0.8rem; gap: 0.15rem; }
 .st-key-tiles [data-testid="stHorizontalBlock"] { gap: 0.6rem; }
 .st-key-tiles [data-testid="stCaptionContainer"] p { font-size: 0.8rem; line-height: 1.35; }
-.st-key-tiles span[data-testid="stIconMaterial"] { color: #f59e0b; }
+.st-key-tiles span[data-testid="stIconMaterial"] { color: var(--tm-accent); }
 .st-key-tiles button { min-height: 0; padding: 0; }
-.st-key-tiles button p { font-size: 0.82rem; color: #f59e0b; }
+.st-key-tiles button p { font-size: 0.82rem; color: var(--tm-accent); }
 
 /* A day on the trip page. */
-.tm-day { border: 1px solid #2f2f2f; border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
+.tm-day { border: 1px solid var(--tm-border); border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
 .tm-day h4 { margin: 0 0 0.6rem; font-size: 1rem; font-weight: 600; }
-.tm-day h4 span { color: #a3a3a3; font-weight: 400; }
-.tm-items { border-left: 2px solid #f59e0b; padding-left: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.tm-day h4 span { color: var(--tm-muted); font-weight: 400; }
+.tm-items { border-left: 2px solid var(--tm-accent); padding-left: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem; }
 .tm-item .tm-title { font-weight: 500; }
 .tm-item .tm-price { font-weight: 600; }
-.tm-item .tm-detail { color: #a3a3a3; font-size: 0.85rem; }
-.tm-item a { color: #fbbf24; }
-.tm-item details { font-size: 0.85rem; color: #cfcfcf; }
+.tm-item .tm-detail { color: var(--tm-muted); font-size: 0.85rem; }
+.tm-item a { color: var(--tm-accent); }
+.tm-item details { font-size: 0.85rem; color: var(--tm-soft-text); }
 .tm-item details ol { margin: 0.25rem 0 0; padding-left: 1.2rem; }
-.tm-unpriced { color: #a3a3a3; font-size: 0.8rem; margin-top: 0.5rem; }
+.tm-unpriced { color: var(--tm-muted); font-size: 0.8rem; margin-top: 0.5rem; }

@@ -19,7 +19,12 @@ from frontend.components import palette, trip_tabs
 from frontend.components.common import PAGES, current_owner, set_mode, start_new_chat
 from frontend.html import render
 
-POINT_COLOURS = {"origin": palette.NEUTRAL_RGB, "destination": palette.ACCENT_RGB, "attraction": palette.TEAL_RGB}
+
+def _point_colours() -> dict[str, list[int]]:
+    """Map colours from the viewer's theme: grey for the start, amber for the destination, green for places."""
+    c = palette.colours()
+    return {"origin": palette.rgb(c["neutral"]), "destination": palette.rgb(c["accent"]),
+            "attraction": palette.rgb(c["chart_teal"])}
 
 
 def _dates(trip: dict) -> str:
@@ -85,15 +90,16 @@ def _route_tab(trip: dict) -> None:
         st.caption("No map positions for this trip's places: its cities aren't in the snapshot data.")
         return
     frame = pd.DataFrame(points)
-    frame["colour"] = frame["kind"].map(POINT_COLOURS)
+    colours = _point_colours()
+    frame["colour"] = frame["kind"].map(colours)
     legs = [{"from": [a["lon"], a["lat"]], "to": [b["lon"], b["lat"]]}
             for a, b in zip(points, points[1:]) if {a["kind"], b["kind"]} == {"origin", "destination"}]
     layers = [pdk.Layer("ScatterplotLayer", frame, get_position="[lon, lat]", get_fill_color="colour",
                         get_radius=120, radius_min_pixels=5, pickable=True)]
     if legs:
         layers.append(pdk.Layer("ArcLayer", pd.DataFrame(legs), get_source_position="from",
-                                get_target_position="to", get_source_color=palette.NEUTRAL_RGB,
-                                get_target_color=palette.ACCENT_RGB, get_width=3))
+                                get_target_position="to", get_source_color=colours["origin"],
+                                get_target_color=colours["destination"], get_width=3))
     focus = frame[frame["kind"] != "origin"] if len(frame) > 1 else frame
     view = pdk.ViewState(latitude=float(focus["lat"].mean()), longitude=float(focus["lon"].mean()),
                          zoom=11 if not legs else 4)

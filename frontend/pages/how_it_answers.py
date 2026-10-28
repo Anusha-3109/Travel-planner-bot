@@ -2,6 +2,8 @@
 the data sources, how prices are costed and the safety checks. It also lets you try
 the knowledge-base search directly (no model, no cost)."""
 
+from string import Template
+
 import pandas as pd
 import streamlit as st
 
@@ -9,14 +11,16 @@ from backend import config
 from backend.agent.agent import TOOLS
 from backend.rag.retriever import SearchPlan, retrieve
 from backend.security.validation import PLACE_CATEGORIES, InputValidationError, validate_question
+from frontend.components import palette
 from frontend.pages.dashboard import knowledge_base
 
+# $fill, $line, $text and $edge are filled in from the viewer's theme by flow().
 FLOW = """
 digraph {
   rankdir=LR; bgcolor="transparent"; pad=0.2;
-  node [shape=box style="rounded,filled" fillcolor="#202020" color="#f59e0b" fontcolor="#ececec"
+  node [shape=box style="rounded,filled" fillcolor="$fill" color="$line" fontcolor="$text"
         fontname="Helvetica" fontsize=11 margin="0.15,0.08"];
-  edge [color="#8b8b8b" arrowsize=0.7];
+  edge [color="$edge" arrowsize=0.7];
   q [label="Your question"]; guard [label="Input guard\\n(rules)"];
   agent [label="Agent\\n(the model you picked)"]; tools [label="Tools\\nlive first, snapshot fallback"];
   screen [label="Tool results\\nscreened"]; cost [label="Cost and checks\\n(tools, not the model)"];
@@ -24,6 +28,12 @@ digraph {
   q -> guard -> agent -> tools -> screen -> agent; agent -> cost -> agent; agent -> answer;
 }
 """
+
+
+def flow() -> str:
+    """The flow diagram in the viewer's theme colours."""
+    c = palette.colours()
+    return Template(FLOW).substitute(fill=c["card"], line=c["accent"], text=c["text"], edge=c["neutral"])
 
 TOOL_DETAILS = {
     "search_flights": ("Google Flights via SerpApi, grouped by airline", "Estimated flight time, no price"),
@@ -80,7 +90,7 @@ def render() -> None:
                "plans honest.")
 
     st.subheader("From question to answer")
-    st.graphviz_chart(FLOW, width="stretch")
+    st.graphviz_chart(flow(), width="stretch")
     st.markdown(
         f"1. **Input guard.** Your message is checked for length, control characters and prompt-injection patterns "
         "before any model sees it.\n"

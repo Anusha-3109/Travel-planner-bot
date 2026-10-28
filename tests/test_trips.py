@@ -149,7 +149,7 @@ def test_a_day_is_html_with_escaped_values():
 
 def test_hero_and_theme_load_from_the_html_folder():
     from frontend.html import render
-    assert render._logo_data_uri().startswith("data:image/svg+xml;base64,")
+    assert render._logo_data_uri(render.logo_path()).startswith("data:image/svg+xml;base64,")
     assert ".st-key-composer" in render._read("theme.css") and "$tagline" in render._read("hero.html")
 
 
@@ -157,3 +157,18 @@ def test_theme_has_nothing_that_looks_like_a_tag():
     """Streamlit's HTML cleaner drops a whole style block containing something that looks like a tag."""
     from frontend.html import render
     assert "<" not in render._read("theme.css")
+
+
+def test_the_css_colours_follow_the_theme_without_fixed_backgrounds():
+    """Switching theme in Streamlit's menu doesn't rerun the app, so theme.css works its colours out from
+    the text colour in the browser: every variable it uses is defined from currentColor, and it sets no
+    fixed background colour that would stay dark on the light theme (or light on the dark one)."""
+    import re
+
+    from frontend.html import render
+    css = render._read("theme.css")
+    used = set(re.findall(r"var\((--tm-[a-z-]+)\)", css))
+    defined = dict(re.findall(r"(--tm-[a-z-]+):\s*([^;]+);", css))
+    assert used <= set(defined), used - set(defined)
+    assert all("currentColor" in value for name, value in defined.items() if name != "--tm-on-accent")
+    assert not re.search(r"background-color:\s*#", css)

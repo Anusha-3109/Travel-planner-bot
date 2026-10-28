@@ -32,20 +32,26 @@ def _fill(template: str, **values: str) -> str:
 
 
 def theme() -> None:
-    """TripMate's styles (theme.css) for the current page. Given as a .css file, st.html adds it
-    as page styles (a <style> block in an HTML string would be stripped by its HTML cleaner)."""
+    """TripMate's styles (theme.css) for the current page. Its colours follow the light or dark theme
+    in the browser. Given as a .css file, st.html adds it as page styles (a <style> block in an HTML
+    string would be stripped by its HTML cleaner)."""
     st.html(FOLDER / "theme.css")
 
 
-@lru_cache(maxsize=1)
-def _logo_data_uri() -> str:
+def logo_path() -> Path:
+    """The logo: one amber (#e8930a) that reads on both the light and the dark theme."""
+    return ASSETS / "logo.svg"
+
+
+@lru_cache(maxsize=2)
+def _logo_data_uri(path: Path) -> str:
     # As a data URI, because st.html strips inline SVG but keeps images.
-    data = base64.b64encode((ASSETS / "logo.svg").read_bytes()).decode()
+    data = base64.b64encode(path.read_bytes()).decode()
     return f"data:image/svg+xml;base64,{data}"
 
 
 def hero(tagline: str) -> None:
-    st.html(_fill(_read("hero.html"), logo=_logo_data_uri(), tagline=escape(tagline)))
+    st.html(_fill(_read("hero.html"), logo=_logo_data_uri(logo_path()), tagline=escape(tagline)))
 
 
 def _item_html(template: str, item: dict) -> str:

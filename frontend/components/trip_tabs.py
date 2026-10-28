@@ -14,7 +14,6 @@ from backend.storage import history, trip_extras
 from frontend.components import palette
 from frontend.components.common import cost_text, signed_in_user
 
-PLANNED_COLOUR, SPENT_COLOUR = palette.NEUTRAL, palette.CHART_AMBER
 DOCUMENT_TAGS = ["Flights", "Stays", "Activities", "Insurance", "Other"]
 DOCUMENT_ICONS = {"application/pdf": ":material/picture_as_pdf:"}
 UPLOAD_MB = history.MAX_DOCUMENT_BYTES // (1024 * 1024)
@@ -44,7 +43,7 @@ def _budget_chart(rows: list[dict]) -> alt.Chart:
         xOffset=alt.XOffset("Amount:N", sort=["Planned", "Spent"]),
         y=alt.Y("Value:Q", title=None),
         color=alt.Color("Amount:N", title=None, scale=alt.Scale(domain=["Planned", "Spent"],
-                                                                range=[PLANNED_COLOUR, SPENT_COLOUR]),
+                                                                range=[palette.colours()["neutral"], palette.colours()["chart_amber"]]),
                         legend=alt.Legend(orient="top")),
         tooltip=["Category:N", "Amount:N", alt.Tooltip("Value:Q", format=",.2f")]).properties(height=240)
 

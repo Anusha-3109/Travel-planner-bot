@@ -1,23 +1,38 @@
-# Graphite amber: a neutral dark theme with amber highlights, and compact type (14px instead of 16px).
-# frontend/components/palette.py has the same colours for charts, maps and diagrams.
+# Two themes with the same compact type (14px): Graphite amber (dark) and Light amber. People choose
+# Light, Dark or System (their computer's setting, the default) in Streamlit's menu: ⋮ → Settings.
+# frontend/components/palette.py has the same colours for the CSS, charts, maps and diagrams.
 [theme]
-base = "dark"
+showWidgetBorder = true
+baseRadius = "medium"
+font = "sans-serif"
+baseFontSize = 14
+headingFontSizes = ["1.9rem", "1.45rem", "1.2rem", "1rem", "0.9rem", "0.8rem"]
+
+[theme.dark]
 primaryColor = "#f59e0b"
 backgroundColor = "#161616"
 secondaryBackgroundColor = "#202020"
 textColor = "#ececec"
 borderColor = "#2f2f2f"
 linkColor = "#fbbf24"
-showWidgetBorder = true
-baseRadius = "medium"
-font = "sans-serif"
-baseFontSize = 14
-headingFontSizes = ["1.9rem", "1.45rem", "1.2rem", "1rem", "0.9rem", "0.8rem"]
 chartCategoricalColors = ["#c98500", "#3987e5", "#199e70", "#9085e9", "#d55181", "#8b8b8b"]
 
-[theme.sidebar]
+[theme.dark.sidebar]
 backgroundColor = "#111111"
 secondaryBackgroundColor = "#1b1b1b"
+
+[theme.light]
+primaryColor = "#d97706"
+backgroundColor = "#faf8f4"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1f1b16"
+borderColor = "#e6dfd3"
+linkColor = "#b45309"
+chartCategoricalColors = ["#b45309", "#2a78d6", "#0f8a5f", "#6250d6", "#c23d70", "#7a7268"]
+
+[theme.light.sidebar]
+backgroundColor = "#f1ede5"
+secondaryBackgroundColor = "#e9e3d8"
 
 # Where Streamlit looks for secrets: the usual places, plus the Google sign-in settings that Cloud Run
 # mounts from Secret Manager (a mounted secret can't go in .streamlit/, as it would hide this file).

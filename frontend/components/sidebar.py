@@ -1,14 +1,12 @@
 """The sidebar: new chat, the pages, saved chats by day, and Settings."""
 
-from pathlib import Path
-
 import streamlit as st
 
 from backend.storage import history
 from frontend.components.common import current_owner, signed_in_user, start_new_chat
+from frontend.html import render as html
 from frontend.pages.settings import settings_dialog
 
-LOGO = Path(__file__).resolve().parents[1] / "assets" / "logo.svg"
 MAX_CHATS_PER_GROUP = 25
 
 
@@ -32,7 +30,7 @@ def _chat_menu(chat: dict) -> None:
 
 def render(pages: dict) -> None:
     with st.sidebar:
-        st.logo(str(LOGO), size="large")
+        st.logo(str(html.logo_path()), size="large")
         if st.button("New chat", icon=":material/edit_square:", type="tertiary"):
             start_new_chat()
             st.switch_page(pages["chat"])

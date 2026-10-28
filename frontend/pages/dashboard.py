@@ -22,10 +22,17 @@ from frontend.components.common import cached_live_status, current_owner
 RANGES = {"7 days": 7, "30 days": 30, "90 days": 90, "1 year": 365}
 STATUS_LABELS = {"answered": "Answered", "refused": "Turned away by the guard", "limit": "Turned away by a limit",
                  "error": "Error"}
-STATUS_COLOURS = {"Answered": palette.CHART_AMBER, "Turned away by the guard": palette.NEUTRAL,
-                  "Turned away by a limit": palette.CHART_BLUE, "Error": palette.DANGER}
-# Two series of the same kind (input and output tokens, SerpApi and Google searches) in two ambers.
-BLUE, LIGHT_BLUE = palette.CHART_AMBER, palette.ACCENT_SOFT
+def _status_colours() -> dict[str, str]:
+    """A colour per request outcome, from the viewer's theme."""
+    c = palette.colours()
+    return {"Answered": c["chart_amber"], "Turned away by the guard": c["neutral"],
+            "Turned away by a limit": c["chart_blue"], "Error": c["danger"]}
+
+
+def _two_ambers() -> list[str]:
+    """Two series of the same kind (input and output tokens, SerpApi and Google searches): soft, then strong."""
+    c = palette.colours()
+    return [c["chart_soft"], c["chart_amber"]]
 
 
 # --- Numbers (no Streamlit) ------------------------------------------------------
@@ -159,7 +166,8 @@ def _bars(frame: pd.DataFrame, columns: list[str], colours: list[str], title: st
     ).properties(height=220)
 
 
-def _horizontal(counts: dict[str, int], colour: str = BLUE) -> alt.Chart:
+def _horizontal(counts: dict[str, int], colour: str | None = None) -> alt.Chart:
+    colour = colour or palette.colours()["chart_amber"]
     frame = pd.DataFrame({"name": list(counts), "count": list(counts.values())})
     return alt.Chart(frame).mark_bar(color=colour).encode(
         x=alt.X("count:Q", title=None, axis=alt.Axis(tickMinStep=1, format="d")),
@@ -212,7 +220,7 @@ def render() -> None:
         card, show = _card("Requests per day", "requests")
         statuses = list(STATUS_LABELS.values())
         _show(card, show, frame[["day", *statuses]],
-              _bars(frame, statuses, [STATUS_COLOURS[s] for s in statuses], "requests"))
+              _bars(frame, statuses, [_status_colours()[s] for s in statuses], "requests"))
     with right:
         card, show = _card("Time to answer", "time")
         times = frame.dropna(subset=["p50_seconds"])
@@ -226,7 +234,7 @@ def render() -> None:
             card.altair_chart(alt.Chart(long).mark_line(point=True).encode(
                 x=alt.X("day:T", title=None, axis=alt.Axis(format="%d %b", labelAngle=0)),
                 y=alt.Y("seconds:Q", title="seconds"),
-                color=alt.Color("series:N", title=None, scale=alt.Scale(range=[LIGHT_BLUE, BLUE]),
+                color=alt.Color("series:N", title=None, scale=alt.Scale(range=_two_ambers()),
                                 legend=alt.Legend(orient="top")),
                 tooltip=[alt.Tooltip("day:T", format="%d %b %Y"), "series:N", "seconds:Q"]).properties(height=220))
             card.caption("Answered requests only.")
@@ -246,7 +254,7 @@ def render() -> None:
         st.caption("went to the agent as travel questions.")
         if refused:
             st.caption("The rest were turned away before the model saw them:")
-            st.altair_chart(_horizontal(refused, palette.NEUTRAL))
+            st.altair_chart(_horizontal(refused, palette.colours()["neutral"]))
         limited = sum(1 for r in rows if r["status"] == "limit")
         if limited:
             st.caption(f"{limited} more were turned away by the message rate limit.")
@@ -264,18 +272,18 @@ def render() -> None:
         renamed = frame.rename(columns={"input_tokens": "Read by the model (input)",
                                         "output_tokens": "Written (output)"})
         columns = ["Read by the model (input)", "Written (output)"]
-        _show(card, show, renamed[["day", *columns]], _bars(renamed, columns, [LIGHT_BLUE, BLUE], "tokens"))
+        _show(card, show, renamed[["day", *columns]], _bars(renamed, columns, _two_ambers(), "tokens"))
     with right:
         card, show = _card("Cost per day", "cost")
         costs = frame.rename(columns={"cost_usd": "Cost (USD)"})
-        _show(card, show, costs[["day", "Cost (USD)"]], _bars(costs, ["Cost (USD)"], [LIGHT_BLUE], "USD", whole=False))
+        _show(card, show, costs[["day", "Cost (USD)"]], _bars(costs, ["Cost (USD)"], _two_ambers()[:1], "USD", whole=False))
 
     left, right = st.columns(2)
     with left:
         card, show = _card("Live searches per day", "searches")
         searches = frame.rename(columns={"serpapi": "SerpApi (flights, stays)", "google": "Google Maps"})
         columns = ["SerpApi (flights, stays)", "Google Maps"]
-        _show(card, show, searches[["day", *columns]], _bars(searches, columns, [BLUE, LIGHT_BLUE], "searches"))
+        _show(card, show, searches[["day", *columns]], _bars(searches, columns, _two_ambers()[::-1], "searches"))
         card.caption("Searches that came from the cache are free and not counted.")
     with right, st.container(border=True, height="stretch"):
         st.markdown("**Live data services**")
