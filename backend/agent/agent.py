@@ -49,7 +49,7 @@ PLAN_SEARCHES = {"search_flights", "search_accommodations"}
 PLAN_TOOLS = {"calculate_trip_cost", "check_constraints"}
 COST_REMINDER = ("Before you answer, call calculate_trip_cost and check_constraints with the full day-by-day plan "
                  "(use the live results' ids or exact names, set stay to the place to stay, use search_restaurants "
-                 "results for meals, and set currency to the user's currency). Fix anything check_constraints "
+                 "results for meals, and set the plan's currency field to the user's currency). Fix anything check_constraints "
                  "reports. Then present the whole day-by-day plan followed by the cost summary copied from "
                  "calculate_trip_cost; don't add up prices yourself.")
 
@@ -88,7 +88,7 @@ hours before the flight on departure. Times in the result are 12- or 24-hour clo
 calculate_trip_cost and \
 check_constraints with the plan: flights and public transport by item_id, the chosen stay in the plan's stay \
 field, the airport transfers in that day's local_transport (by the route's transit- or drive- id), a different \
-restaurant (id or exact name) for each meal, and currency set to the user's currency. If a check fails, fix the \
+restaurant (id or exact name) for each meal, and the plan's currency and budget fields set (inside the plan) to the user's currency and budget. If a check fails, fix the \
 plan and check again before answering.
 - When the user picks an option by its id (a flight-, stay-, restaurant-, transit- or drive- id, for example \
 "Use the stay Casa Monti (stay-5d0a91c3) for every night"), change only that item in the latest plan and keep \
@@ -186,8 +186,8 @@ def system_prompt(today: date | None = None, currency: str = "USD", cards: bool 
     if language != "en":
         prompt += "\n\n" + LANGUAGE_RULE.format(name=LANGUAGE_NAMES.get(language, language))
     return (f"{prompt}\n\nToday is {today:%A, %d %B %Y} ({today.isoformat()}). The user's currency is "
-            f"{currency}: treat budgets without a currency as {currency} and set calculate_trip_cost's currency to "
-            f"{currency}, unless the user names another one.")
+            f"{currency}: treat budgets without a currency as {currency} and set the plan's currency field "
+            f"(inside the plan) to {currency}, unless the user names another one.")
 
 
 # What the app shows while each tool runs.
@@ -237,6 +237,25 @@ def _history_messages(history: list[dict]) -> list[BaseMessage]:
 
 def _add_usage(result: AgentResult, message: AIMessage) -> None:
     add_usage(result.token_usage, message_usage(result.model, message))
+
+
+PLAN_FIELDS = ("currency", "budget")  # TripPlan fields models sometimes send next to the plan instead of in it
+
+
+def plan_args(name: str, args: dict) -> dict:
+    """The cost and check tools read currency and budget from inside the plan. Models sometimes send them
+    beside it, where the tool would ignore them (totals in USD for a EUR trip), so they're moved into the
+    plan when it doesn't set them itself."""
+    if name not in PLAN_TOOLS or not isinstance(args.get("plan"), dict):
+        return args
+    stray = {key: args[key] for key in PLAN_FIELDS if args.get(key) is not None}
+    if not stray:
+        return args
+    plan = dict(args["plan"])
+    for key, value in stray.items():
+        if plan.get(key) is None:
+            plan[key] = value
+    return {**{key: value for key, value in args.items() if key not in PLAN_FIELDS}, "plan": plan}
 
 
 def _run_tool(name: str, args: dict, result: AgentResult, llm) -> str:
@@ -330,7 +349,7 @@ def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str
             return result
 
         for call in response.tool_calls:
-            name, args = call["name"], call.get("args") or {}
+            name, args = call["name"], plan_args(call["name"], call.get("args") or {})
             notify(TOOL_PROGRESS.get(name, f"Using {name}..."))
             if name not in allowed:
                 output = json.dumps({"error": f"Unknown tool: {name}"})

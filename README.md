@@ -229,7 +229,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **OpenRouter:** with Claude Haiku 5.5, a full trip plan costs about $0.02 and a simple question well under a cent. Each answer shows its exact cost and the dashboard shows the totals. A simple knowledge-base question cost about $0.0023 with Claude Haiku 5.5, $0.0008 with GPT-6 Luna and $0.009 with Gemini 3.7 Flash. Claude Haiku 5.5 was tested on full plans; the other models may follow the answer formats less closely.
 - **SerpApi:** a full plan uses about 3–4 searches (flights both ways and a stay); Explore mode uses none. Repeat questions come from the cache for free, and each chat is limited to 20 searches.
 - **Google Maps:** restaurant and route requests are small and covered by Google's free monthly allowance at this scale; each chat is limited to 60.
-- **Languages:** a German answer costs the same as an English one; a German question in Explore mode cost about $0.0016 with Claude Haiku 5.5.
+- **Languages:** a German answer costs the same as an English one: a German question in Explore mode cost about $0.0016 and a full German trip plan (Berlin to Vienna, 3 nights for 2) about $0.02–0.03 with Claude Haiku 5.5.
 
 ## Security
 
@@ -248,7 +248,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-309 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+311 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -326,7 +326,7 @@ travel-planner-bot/
 - **Round trips** are searched as two one-way flights; real round-trip fares can be a little cheaper.
 - **Public transport times** are for your travel day up to 100 days ahead (Google's limit); further ahead they come from the current timetable.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain. Tools supply all prices, ids and links to keep this to the text.
-- **Languages:** English and German only. Benchmarks, Dashboard, How it answers and the trip pages are in English, and texts from the tools (such as "per person" on the cards) stay in English; the written answer translates them. Amounts keep the English number format (EUR 742.80). A German trip plan in Plan mode hasn't been tested with live searches yet.
+- **Languages:** English and German only. Benchmarks, Dashboard, How it answers and the trip pages are in English, and texts from the tools (such as "per person" on the cards) stay in English; the written answer translates them. Amounts keep the English number format (EUR 742.80). A full German trip plan was tested once with live searches (Berlin to Vienna): German answer, English tool inputs, totals in EUR and every check passed.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
 - **Sign-in:** the deployed copy signs in with Google only, and only the test users added to the Google sign-in screen can sign in (up to 100) until it's published. On a computer without sign-in settings, everything belongs to one local user.
 - **Next steps:** hybrid search (BM25 plus vectors), and serving the tools as an MCP server.

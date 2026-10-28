@@ -148,6 +148,34 @@ def test_users_currency_is_passed_to_the_model(monkeypatch):
     assert "The user's currency is EUR" in llm.calls[0][0].content
 
 
+def test_currency_and_budget_beside_the_plan_are_moved_into_it():
+    plan = {"people": 2, "days": [{"day": 1, "city": "Vienna"}]}
+    args = agent_module.plan_args("calculate_trip_cost", {"plan": plan, "currency": "EUR", "budget": 1200})
+    assert args == {"plan": {**plan, "currency": "EUR", "budget": 1200}}
+    # A value the plan sets itself wins; other tools are left alone.
+    own = agent_module.plan_args("check_constraints", {"plan": {**plan, "currency": "GBP", "budget": None},
+                                                       "currency": "EUR", "budget": 900})
+    assert own["plan"]["currency"] == "GBP" and own["plan"]["budget"] == 900 and "currency" not in own
+    assert agent_module.plan_args("search_flights", {"currency": "EUR"}) == {"currency": "EUR"}
+
+
+def test_a_eur_plan_is_costed_in_eur_when_the_currency_is_sent_beside_it(monkeypatch):
+    """The bug a German test trip found: currency next to the plan was ignored and totals came out in USD."""
+    from backend.live import fx
+    monkeypatch.setattr(fx, "get_rates", lambda: fx.ExchangeRates({"USD": 1.0, "EUR": 0.9}, "2026-10-28", "test"))
+    plan = {"people": 1, "days": [{"day": 1, "city": "Myrtle Beach", "attractions": ["Myrtle Beach SkyWheel"]}]}
+    llm = ScriptedLLM([
+        AIMessage(content="", tool_calls=[{"name": "calculate_trip_cost", "id": "call_1",
+                                           "args": {"plan": plan, "currency": "EUR", "budget": 500}}]),
+        AIMessage(content="Done."),
+    ])
+    monkeypatch.setattr(agent_module, "get_llm", lambda model=None: llm)
+    result = run_agent("Cost it", currency="EUR")
+    cost = json.loads(result.tool_calls[0].output)
+    assert cost["currency"] == "EUR" and cost["budget_text"] == "EUR 500.00"
+    assert result.tool_calls[0].args["plan"]["currency"] == "EUR"  # saved trips read the corrected plan
+
+
 def test_explore_mode_offers_only_place_tools(monkeypatch):
     bound = []
 

@@ -14,7 +14,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 8. **Deployment.** A Docker image with the knowledge base built in, on Google Cloud Run, with saved data in a Cloud Storage bucket and keys in Secret Manager. Every push to `main` now deploys automatically after the tests pass.
 9. **For travellers, not only for planning.** A budget tracker, packing list, journal and documents on every saved trip, and user accounts with Google sign-in, so each person sees only their own chats, trips and files.
 10. **A finished interface.** Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu, with CSS colours worked out from the theme's text colour so a switch shows at once; a compact, full-width layout; a home box that sends on Enter; and result cards that take the next step ("Use this stay", "Add to the plan") by naming the option's live id, so the planner swaps exactly that item.
-11. **German, and a check of the embedding model.** English and German buttons in Settings switch the chat page, trip form, cards, sidebar and Settings, and TripMate answers in the chosen language while its searches stay in English. An embedding probe compared the local model with two OpenAI models in English and German. The suite now has 309 tests.
+11. **German, and a check of the embedding model.** English and German buttons in Settings switch the chat page, trip form, cards, sidebar and Settings, and TripMate answers in the chosen language while its searches stay in English. An embedding probe compared the local model with two OpenAI models in English and German, and a full German trip plan was tested with live searches. The suite now has 311 tests.
 
 ## Key decisions
 
@@ -57,6 +57,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 | Text shown as a formula | Two "$" signs in a caption made Streamlit render the text between them as maths | Escape "$" in every caption and label with amounts |
 | Local tests failed after adding a password | With `APP_PASSWORD` in `.env`, the app tests only reached the password screen | The tests always turn the password off; a separate test checks the screen |
 | A mounted secret would hide the theme | Cloud Run mounts a secret over its whole folder, and `.streamlit/` holds the theme | The sign-in settings are mounted elsewhere and listed in `config.toml` as a secrets file |
+| Trip totals in USD for a EUR trip | A German test plan (Berlin to Vienna, budget 1,200 EUR) came back as "USD 1,133.00" against a "USD 1,200" budget: the model sent the currency and budget next to the plan, where the cost tool ignored them | The agent moves a currency or budget sent beside the plan into it, and the prompt says to set the plan's own currency field; the same trip then came back as EUR 1,136.79 against EUR 1,200 |
 | Theme colours lagged after a switch | Streamlit's menu changes the theme in the browser without rerunning the app, so CSS colours picked on the server stayed on the old theme until a refresh | The CSS colours are worked out from each element's text colour (`currentColor`), which follows the theme at once |
 | Stale code in the running app | Streamlit's reload kept old modules in memory after changes | Restart the app after code changes |
 
@@ -81,5 +82,5 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 4. **A shared database** (Firestore or Cloud SQL) instead of SQLite, so the app can run more than one instance.
 5. **Faster deploys:** build the knowledge base once per data change and reuse it, instead of on every deploy.
 6. **TripMate's search as an MCP server**, so other assistants can use the 2026 knowledge base.
-7. **More languages and a German trip plan:** the interface texts are in one dictionary, so a third language is mostly translation; a full German trip plan with live searches is still untested.
+7. **More languages:** the interface texts are in one dictionary, so a third language is mostly translation; the trip pages, Benchmarks and Dashboard would follow the chat page into German.
 8. **Measure the hotel-room wording change** by running the private-room RAGAS questions again.
