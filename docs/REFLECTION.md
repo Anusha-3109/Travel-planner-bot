@@ -12,7 +12,8 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 6. **A real app around the chat.** Saved chat history, a request log behind a Dashboard, model choice and token costs, a Plan and an Explore mode, and saved trips with a timeline, a route map, stays and places to discover. The code was split into `frontend/` and `backend/`, with the parts that are only shown written as HTML and CSS.
 7. **Evaluation.** Retrieval on 60 questions with known answers (four strategies), RAGAS on three models with three judges and a fresh run, and 18 TravelPlanner trips planned with live 2026 data. The results are on the Benchmarks page and in [EVALUATION.md](EVALUATION.md).
 8. **Deployment.** A Docker image with the knowledge base built in, on Google Cloud Run, with saved data in a Cloud Storage bucket and keys in Secret Manager. Every push to `main` now deploys automatically after the tests pass.
-9. **For travellers, not only for planning.** A budget tracker, packing list, journal and documents on every saved trip, and user accounts with Google sign-in, so each person sees only their own chats, trips and files. The suite now has 286 tests.
+9. **For travellers, not only for planning.** A budget tracker, packing list, journal and documents on every saved trip, and user accounts with Google sign-in, so each person sees only their own chats, trips and files.
+10. **A finished interface.** Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu, with CSS colours worked out from the theme's text colour so a switch shows at once; a compact, full-width layout; a home box that sends on Enter; and result cards that take the next step ("Use this stay", "Add to the plan") by naming the option's live id, so the planner swaps exactly that item. The suite now has 292 tests.
 
 ## Key decisions
 
@@ -54,6 +55,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 | Text shown as a formula | Two "$" signs in a caption made Streamlit render the text between them as maths | Escape "$" in every caption and label with amounts |
 | Local tests failed after adding a password | With `APP_PASSWORD` in `.env`, the app tests only reached the password screen | The tests always turn the password off; a separate test checks the screen |
 | A mounted secret would hide the theme | Cloud Run mounts a secret over its whole folder, and `.streamlit/` holds the theme | The sign-in settings are mounted elsewhere and listed in `config.toml` as a secrets file |
+| Theme colours lagged after a switch | Streamlit's menu changes the theme in the browser without rerunning the app, so CSS colours picked on the server stayed on the old theme until a refresh | The CSS colours are worked out from each element's text colour (`currentColor`), which follows the theme at once |
 | Stale code in the running app | Streamlit's reload kept old modules in memory after changes | Restart the app after code changes |
 
 ## Limitations
@@ -73,9 +75,8 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 
 1. **Hybrid search:** keyword plus vector search, which would fix weak semantic matches such as "seafood restaurant" on names-only records, and a retrieval evaluation to show it.
 2. **Retry and an honest summary on failure:** a Retry button when an answer fails, and a short list of what's still incomplete when a search fell back or a price is missing.
-3. **Interactive cards:** "Use this stay" and "Use this flight" buttons that update and re-cost the plan.
-4. **An LLM-based injection classifier** alongside the patterns.
-5. **A shared database** (Firestore or Cloud SQL) instead of SQLite, so the app can run more than one instance.
-6. **Faster deploys:** build the knowledge base once per data change and reuse it, instead of on every deploy.
-7. **TripMate's search as an MCP server**, so other assistants can use the 2026 knowledge base.
-8. **Measure the hotel-room wording change** by running the private-room RAGAS questions again.
+3. **An LLM-based injection classifier** alongside the patterns.
+4. **A shared database** (Firestore or Cloud SQL) instead of SQLite, so the app can run more than one instance.
+5. **Faster deploys:** build the knowledge base once per data change and reuse it, instead of on every deploy.
+6. **TripMate's search as an MCP server**, so other assistants can use the 2026 knowledge base.
+7. **Measure the hotel-room wording change** by running the private-room RAGAS questions again.
