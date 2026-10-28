@@ -20,30 +20,30 @@ from frontend.components.cards import render_result_cards
 from frontend.components.common import PAGES, cost_text, current_owner, mode_key, set_mode, show_markdown
 from frontend.components.trip_form import example_questions, trip_dialog
 from frontend.html import render as html
+from frontend.i18n import language, step_text, t
 
-TAGLINE = "Your travel planner with live prices, costed against your budget"
-MODE_LABELS = {"plan": ":material/auto_awesome: Plan", "explore": ":material/explore: Explore"}
-MODE_HELP = {"plan": "A full trip: flights, a stay, restaurants, transport, the cost against your budget and the "
-                     "checks.",
-             "explore": "Ideas and places: sights, restaurants and getting around. No flight or stay searches, so "
-                        "it's quicker and uses no live search quota."}
-# Feature tiles on an empty chat: (icon, title, text, action). Actions: "ask:<mode>" asks the first example of
-# that mode, "page:<name>" opens a page.
+MODE_ICONS = {"plan": ":material/auto_awesome:", "explore": ":material/explore:"}
+# Feature tiles on an empty chat: (icon, text key in frontend/i18n.py, action). Actions: "ask:<mode>" asks the
+# first example of that mode, "page:<name>" opens a page.
 TILES = [
-    (":material/auto_awesome:", "AI planning", "Describe a trip: TripMate builds a costed plan, day by day.",
-     "ask:plan"),
-    (":material/calendar_month:", "Day-by-day plan", "Your saved trips as timelines: times, places and prices.",
-     "page:trips"),
-    (":material/route:", "Route planning", "Every stop of a saved trip on a map.", "page:trips"),
-    (":material/hotel:", "Booking", "Find Airbnbs and hotels with live prices, and book on their sites.",
-     "ask:booking"),
-    (":material/explore:", "Discover", "Sights, food and neighbourhoods in 245 cities.", "ask:explore"),
-    (":material/savings:", "Budget tracker", "Planned against spent, and spent per traveller, on a saved trip.",
-     "page:trips"),
-    (":material/backpack:", "Packing list", "A checklist made for your trip.", "page:trips"),
-    (":material/description:", "Documents", "Tickets, bookings and vouchers, by day.", "page:trips"),
-    (":material/book:", "Journal", "Notes, ratings and photos for each day.", "page:trips"),
+    (":material/auto_awesome:", "tile.ai", "ask:plan"),
+    (":material/calendar_month:", "tile.days", "page:trips"),
+    (":material/route:", "tile.route", "page:trips"),
+    (":material/hotel:", "tile.booking", "ask:booking"),
+    (":material/explore:", "tile.discover", "ask:explore"),
+    (":material/savings:", "tile.budget", "page:trips"),
+    (":material/backpack:", "tile.packing", "page:trips"),
+    (":material/description:", "tile.documents", "page:trips"),
+    (":material/book:", "tile.journal", "page:trips"),
 ]
+
+
+def tagline() -> str:
+    return t("tagline")
+
+
+def _mode_label(mode: str) -> str:
+    return f"{MODE_ICONS[mode]} {t(f'mode.{mode}')}"
 
 
 def refusal_reason(error: Exception) -> str:
@@ -62,7 +62,7 @@ def _save_trip_button(index: int) -> None:
     """Under an answer with a costed plan: save it as a trip and open the trip page."""
     if not trips.find_plan(trips.tool_calls([st.session_state.messages[index]])):
         return
-    if st.button("Save as trip", key=f"save-trip-{index}", icon=":material/luggage:", type="primary"):
+    if st.button(t("chat.save_trip"), key=f"save-trip-{index}", icon=":material/luggage:", type="primary"):
         trip = trips.build_trip(st.session_state.messages, index)
         trip_id = history.save_trip(trip, st.session_state.chat_id, current_owner())
         st.switch_page(PAGES["trip"], query_params={"trip": trip_id})
@@ -80,26 +80,26 @@ def _render_details(message: dict, index: int | None = None) -> None:
     sources = message.get("sources") or []
     queries = message.get("retrieval_queries") or []
     if tool_calls:
-        with st.expander(f"🛠️ Tool calls ({len(tool_calls)})"):
+        with st.expander("🛠️ " + t("chat.tool_calls", count=len(tool_calls))):
             for call in tool_calls:
-                st.markdown(f"**`{call['name']}`** with arguments")
+                st.markdown(f"**`{call['name']}`** {t('chat.with_arguments')}")
                 st.json(call["args"])
                 try:
                     st.json(json.loads(call["output"]))
                 except (json.JSONDecodeError, TypeError):
                     st.text(call["output"][:3000])
     if sources:
-        with st.expander(f"📚 Sources ({len(sources)})"):
+        with st.expander("📚 " + t("chat.sources", count=len(sources))):
             if queries:
-                st.caption("Search queries after query translation: " + " · ".join(f"“{q}”" for q in queries))
+                st.caption(t("chat.queries") + " " + " · ".join(f"“{q}”" for q in queries))
             for source in sources:
                 st.markdown(f"**{source['source']}** — {source.get('section') or ''} (RRF score {source.get('rrf_score')})")
                 st.caption(source["content"][:600])
     usage = message.get("token_usage")
     if usage and usage.get("total_tokens"):
-        answered_by = f"Answered by {model_name(message['model'])} · " if message.get("model") else ""
-        st.caption(f"{answered_by}Tokens: {usage['input_tokens']:,} in · {usage['output_tokens']:,} out · "
-                   f"Cost: {cost_text(usage.get('cost_usd'))}")
+        answered_by = t("chat.answered_by", model=model_name(message["model"])) + " · " if message.get("model") else ""
+        st.caption(answered_by + t("chat.usage", input=f"{usage['input_tokens']:,}",
+                                   output=f"{usage['output_tokens']:,}", cost=cost_text(usage.get("cost_usd"))))
 
 
 def _save(question: str, message: dict) -> None:
@@ -116,7 +116,7 @@ def ask(question: str) -> None:
     limiter: RateLimiter = st.session_state.rate_limiter
     if not limiter.try_acquire():
         history.log_request(st.session_state.chat_id, model, "limit", "sending too quickly", mode=mode, owner=current_owner())
-        st.warning(f"You're sending messages too quickly. Try again in {limiter.seconds_until_available()} seconds.")
+        st.warning(t("chat.too_quick", seconds=limiter.seconds_until_available()))
         return
 
     conversation = [{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]
@@ -127,30 +127,32 @@ def ask(question: str) -> None:
         show_markdown(question)
 
     with st.chat_message("assistant"):
-        with st.status("Planning...", expanded=False) as status:
+        with st.status(t("chat.planning"), expanded=False) as status:
             try:
                 with use_budget(budget):
-                    result = run_agent(question, history=conversation, on_step=lambda text: status.update(label=text),
-                                       currency=st.session_state.currency, cards=True, model=model, mode=mode)
+                    result = run_agent(question, history=conversation,
+                                       on_step=lambda text: status.update(label=step_text(text)),
+                                       currency=st.session_state.currency, cards=True, model=model, mode=mode,
+                                       language=language())
             except InputValidationError as error:
-                status.update(label="Couldn't answer", state="error")
+                status.update(label=t("chat.cant_answer"), state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "refused", refusal_reason(error),
                                     time.monotonic() - started, mode=mode, owner=current_owner())
                 return
             except AgentError as error:
-                status.update(label="Couldn't answer", state="error")
+                status.update(label=t("chat.cant_answer"), state="error")
                 st.error(str(error))
                 history.log_request(st.session_state.chat_id, model, "error", str(error)[:200],
                                     time.monotonic() - started, mode=mode, owner=current_owner())
                 return
             except Exception:
-                status.update(label="Something went wrong", state="error")
-                st.error("Something unexpected went wrong. Please try again.")
+                status.update(label=t("chat.went_wrong"), state="error")
+                st.error(t("chat.unexpected"))
                 history.log_request(st.session_state.chat_id, model, "error", "unexpected error",
                                     time.monotonic() - started, mode=mode, owner=current_owner())
                 return
-            status.update(label=f"Done · {len(result.tool_calls)} tool call(s)", state="complete")
+            status.update(label=t("chat.done", count=len(result.tool_calls)), state="complete")
 
         message = {
             "role": "assistant",
@@ -173,7 +175,7 @@ def ask(question: str) -> None:
 
 def _mode_picker() -> None:
     """Plan or Explore. A new chat (or another chat) starts from the chat's own mode."""
-    choice = st.segmented_control("Mode", list(MODE_LABELS), format_func=MODE_LABELS.get,
+    choice = st.segmented_control("Mode", list(MODE_ICONS), format_func=_mode_label,
                                   default=st.session_state.mode, label_visibility="collapsed",
                                   key=mode_key(st.session_state.chat_id))
     if choice and choice != st.session_state.mode:
@@ -188,14 +190,14 @@ def _composer() -> str | None:
     with st.container(key="composer"):
         _mode_picker()
         text = st.chat_input("", key="composer-input")
-        st.caption(MODE_HELP[st.session_state.mode])
-    if st.button("Fill in the trip form instead", icon=":material/edit_note:", type="tertiary"):
+        st.caption(t(f"mode.{st.session_state.mode}_help"))
+    if st.button(t("chat.form_instead"), icon=":material/edit_note:", type="tertiary"):
         trip_dialog()
     return text.strip() if text and text.strip() else None
 
 
 def _examples() -> str | None:
-    st.markdown("**Try one of these**")
+    st.markdown(f"**{t('chat.try')}**")
     with st.container(key="examples"):  # small one-line chips (frontend/html/theme.css)
         columns = st.columns(3)
         for index, example in enumerate(example_questions(mode=st.session_state.mode)):
@@ -215,21 +217,21 @@ def _ask_from_tile(target: str) -> None:
 
 def _tiles() -> None:
     """What TripMate can do, as small cards: the feature, one line about it and a link to try it."""
-    st.markdown("**What TripMate can do**")
+    st.markdown(f"**{t('chat.can_do')}**")
     with st.container(key="tiles"):  # compact cards (frontend/html/theme.css)
-        for number, (icon, title, text, action) in enumerate(TILES):
+        for number, (icon, text_key, action) in enumerate(TILES):
             if number % 3 == 0:
                 columns = st.columns(3)  # a new row, so the cards in a row line up
             with columns[number % 3].container(border=True, height="stretch"):
-                st.markdown(f"{icon} **{title}**")
-                st.caption(text)
+                st.markdown(f"{icon} **{t(text_key + '.title')}**")
+                st.caption(t(text_key + ".text"))
                 st.space("stretch")
                 if action.startswith("page:"):
-                    if st.button("Open", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
+                    if st.button(t("chat.open"), key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:"):
                         st.switch_page(PAGES[action.split(":")[1]])
                 else:
                     # A callback, so the Plan / Explore switch can be changed before it's drawn again.
-                    st.button("Try it", key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:",
+                    st.button(t("chat.try_it"), key=f"tile-{number}", type="tertiary", icon=":material/arrow_forward:",
                               on_click=_ask_from_tile, args=(action.split(":")[1],))
 
 
@@ -238,7 +240,7 @@ def render() -> None:
         st.query_params["chat"] = st.session_state.chat_id  # keeps the chat open after a refresh
 
     if not st.session_state.messages:
-        html.hero(TAGLINE)
+        html.hero(tagline())
         question = _composer() or _examples() or st.session_state.pop("pending_question", None)
         _tiles()
     else:
@@ -246,7 +248,7 @@ def render() -> None:
         title.markdown("### TripMate")
         with mode:
             _mode_picker()
-        if button.button("Plan a trip", icon=":material/flight_takeoff:", width="stretch"):
+        if button.button(t("chat.plan_trip"), icon=":material/flight_takeoff:", width="stretch"):
             trip_dialog()
         for index, message in enumerate(st.session_state.messages):
             with st.chat_message(message["role"]):

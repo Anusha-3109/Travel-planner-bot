@@ -11,6 +11,7 @@ from backend.live.status import ServiceStatus, live_status
 from backend.rag.ingest import ensure_index
 from backend.security.rate_limit import RateLimiter
 from backend.storage import history
+from frontend.i18n import DEFAULT_LANGUAGE, t
 
 PAGES: dict = {}  # the app's pages by name, filled in by app.py, for links between pages
 
@@ -32,6 +33,7 @@ def init_state() -> None:
     st.session_state.setdefault("rate_limiter", RateLimiter())
     st.session_state.setdefault("live_budget", SessionBudget())
     st.session_state.setdefault("currency", "USD")
+    st.session_state.setdefault("language", DEFAULT_LANGUAGE)
     st.session_state.setdefault("model", config.OPENROUTER_MODEL)
     st.session_state.setdefault("mode", "plan")
 
@@ -111,7 +113,7 @@ def chat_totals(messages: list[dict]) -> dict:
 def cost_text(cost_usd: float | None) -> str:
     """A model cost such as "$0.0021 (≈ EUR 0.0019)"; costs are tiny, so four decimals."""
     if cost_usd is None:
-        return "not reported"
+        return t("cost.not_reported")
     text = r"\$" + f"{cost_usd:,.4f}"  # escaped: Streamlit reads text between two "$" as LaTeX
     currency = st.session_state.get("currency", "USD")
     if currency != "USD":

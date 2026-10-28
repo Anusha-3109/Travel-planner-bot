@@ -33,9 +33,10 @@ The Sprint 2 task description is in [`125.md`](125.md).
 | **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer, and each card can take the next step: **Use this flight**, **Use this stay**, **Use this route**, or **Add to the plan** for a restaurant at a day and meal you pick. A click sends that choice as your next message, naming the option by its id, so TripMate swaps only that item and re-costs the plan with its exact live price. **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
 | **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover, plus what you add: a budget tracker (planned against spent, and spent per traveller), a packing list made for the trip, a journal with a note, rating and photos per day, and documents such as tickets and bookings. |
 | **Dashboard** | Requests, answer times, tokens, cost, tool calls, refused questions, errors and live searches per day, from the request log. |
-| **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
+| **Benchmarks** | The evaluation results: retrieval strategies, the embedding probe (dot plot or table), RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
 | **How it answers** | How a question becomes an answer, the tools, the knowledge base (with a free search box), data sources, costing rules and safety checks. |
-| **Settings** | The answer model (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash), currency, chat export, deleting history, rebuilding the knowledge base. |
+| **Settings** | The language (English or Deutsch), the answer model (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash), currency, chat export, deleting history, rebuilding the knowledge base. |
+| **English or German** | Two buttons at the top of Settings, **English \| Deutsch**, switch the chat page, the trip form, the result cards, the sidebar and Settings at once, and TripMate answers in that language. It also answers in German when you write in German. Place names stay as the sources wrote them, and Benchmarks, Dashboard, How it answers and the trip pages stay in English. |
 | **Light or dark** | Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu at the top right: **⋮ → System, Light or Dark** (System follows your computer). The switch takes effect at once and is remembered in your browser. |
 
 Chats are saved on your computer (`.history/`), so a refresh or restart keeps them. Example questions:
@@ -44,6 +45,7 @@ Chats are saved on your computer (`.history/`), so a refresh or restart keeps th
 - *"Flights from New York to Tokyo on 22 November."*
 - *"Find an Airbnb in Rome from 10 to 14 November for 2 people."* (add *"in a table"* for a table)
 - *"Museums for kids in Chicago."* (Explore mode)
+- *"Welche Museen in Wien sind gut für Kinder?"* (in German, Explore mode)
 
 ## How it works
 
@@ -51,13 +53,13 @@ Chats are saved on your computer (`.history/`), so a refresh or restart keeps th
 
 ```mermaid
 flowchart TD
-    U([Browser]) --> F["<b>frontend/</b><br/>Streamlit pages, components,<br/>HTML and CSS parts"]
-    F -->|"your question"| SEC["<b>backend/security</b><br/>input guard, tool output<br/>screening, key redaction"]
+    U([Browser]) --> F["<b>frontend/</b><br/>Streamlit pages, components,<br/>HTML and CSS parts,<br/>English and German texts"]
+    F -->|"your question and language"| SEC["<b>backend/security</b><br/>input guard, tool output<br/>screening, key redaction"]
     SEC -->|"checked question"| A["<b>backend/agent</b><br/>LangChain tool loop,<br/>OpenRouter model"]
-    A -->|"answer and result cards"| F
+    A -->|"answer in your language,<br/>result cards"| F
     F -->|"saves chats, log and trips"| S[("<b>backend/storage</b><br/>chats, request log, trips<br/>SQLite")]
     A -->|"picks tools"| T["<b>backend/tools</b><br/>7 tools"]
-    T --> R["<b>backend/rag</b><br/>Chroma knowledge base,<br/>query translation, filters,<br/>rank fusion"]
+    T --> R["<b>backend/rag</b><br/>Chroma knowledge base,<br/>query translation into English,<br/>filters, rank fusion"]
     T --> L["<b>backend/live</b><br/>SerpApi: Google Flights, Airbnb,<br/>Google Hotels · Google Places<br/>and Routes · exchange rates"]
     L -.->|"falls back to"| D[("<b>backend/travel_data</b><br/>2026 city files")]
     R --> D
@@ -69,7 +71,7 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 ### From question to answer
 
 1. **Input guard.** Your message is checked for length, control characters and prompt-injection patterns before any model sees it. Refused messages are logged with their reason.
-2. **Agent.** The model reads the question with today's date, your currency and the mode, and decides which tools to call (up to 10 steps). Explore mode only offers the place, restaurant and transport tools.
+2. **Agent.** The model reads the question with today's date, your currency, the language and the mode, and decides which tools to call (up to 10 steps). Explore mode only offers the place, restaurant and transport tools.
 3. **Tools.** Live data first (dates from today on). If a search fails, the date is in the past or a key is missing, the tool falls back to the 2026 snapshot data and says so.
 4. **Screening.** Text from outside sources (listing names, place descriptions) is screened for injected instructions before the model reads it.
 5. **Cost and checks.** For a full plan the agent must call `calculate_trip_cost` and `check_constraints` with the ids of the results it chose, so totals use the prices the services returned, never numbers the model typed. If it skips them, it is sent back once to use them.
@@ -96,7 +98,8 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 ### The knowledge base (RAG)
 
 - **Documents:** 54,309 places in 245 cities (29,118 restaurants, 15,080 stays, 10,111 attractions), one document per attraction, restaurant or stay (records are short, so each stays whole), with category, city, country, price and rating as metadata (`backend/rag/ingest.py`).
-- **Embeddings:** local all-MiniLM-L6-v2 in Chroma, cosine similarity, no API key (`backend/rag/vectorstore.py`). The app adds new places by itself at startup.
+- **Embeddings:** local all-MiniLM-L6-v2 in Chroma, cosine similarity, no API key (`backend/rag/vectorstore.py`). The app adds new places by itself at startup. The embedding probe (see [Evaluation](#evaluation)) compared it with OpenAI's text-embedding-3-small and -large.
+- **Other languages:** the knowledge base is in English, so the query translation always writes its searches and the city filter in English (Vienna, not Wien), whatever language the question is in, and they're merged with the original question. The embedding probe showed why: searched directly, German questions with German city names found the right city for only 6 of 10 with the local model; with the English searches added, 10 of 10.
 - **Retrieval** (`backend/rag/retriever.py`): the model rewrites the question into 2–3 focused searches (query translation), extracts `category` and `city` filters (structured retrieval), and the results are merged with reciprocal rank fusion. The places are shown under **Sources** in the answer.
 
 ### Saved data
@@ -108,22 +111,22 @@ The **frontend** only draws the pages and passes your input on; the **backend** 
 | Requirement | How TripMate covers it |
 |---|---|
 | Knowledge base | 54,309 places, all from 2026, for 245 cities: OpenStreetMap restaurants and attractions everywhere, Inside Airbnb stays with prices for 50 cities and OpenStreetMap hotels without prices for the other 195 US cities (`backend/travel_data/catalog.py`) |
-| Embeddings and similarity search | Chroma with local all-MiniLM-L6-v2 embeddings (cosine similarity) |
+| Embeddings and similarity search | Chroma with local all-MiniLM-L6-v2 embeddings (cosine similarity), compared with two OpenAI embedding models in the [embedding probe](docs/EVALUATION.md#part-4-embeddings) |
 | Chunking | One chunk per place, with metadata for filtering |
-| Query translation | The model rewrites each question into 2–3 focused searches (multi-query) |
+| Query translation | The model rewrites each question into 2–3 focused searches in English, whatever language it was asked in (multi-query) |
 | Structured retrieval | Category and city filters extracted by the model; reciprocal rank fusion over all searches |
 | Tool calling | 7 tools, see [The 7 tools](#the-7-tools) |
 | Domain specialisation | A travel-planning system prompt with rules for live versus snapshot data, budgets, citations and answer formats |
 | Security | See [Security](#security) |
 | LangChain + OpenRouter | `ChatOpenAI` pointed at OpenRouter, LangChain tools and messages, a hand-written tool loop |
 | Error handling and validation | Clear messages for missing or rejected keys, rate limits, timeouts and failing services; every tool input is validated |
-| User interface | Streamlit pages (chat, My trips, dashboard, benchmarks, How it answers), result cards, a Settings pop-up, saved history, and HTML and CSS parts in `frontend/html/` |
+| User interface | Streamlit pages (chat, My trips, dashboard, benchmarks, How it answers), result cards, a Settings pop-up, saved history, English and German, and HTML and CSS parts in `frontend/html/` |
 
 **Optional tasks implemented**
 
 - *Easy:* conversation history and export (Markdown and JSON), source citations, an interactive help page (How it answers, with a search box).
-- *Medium:* real-time data (live flights, stays, restaurants and transport), prompt-injection protection (user messages and tool results), rate limiting and API key management, token usage and cost display, multi-model support, visualisation of tool call results (result cards, trip timeline and map), logging and monitoring (request log and dashboard).
-- *Hard:* an evaluation of the RAG system with RAGAS and retrieval metrics, plus A/B testing of four retrieval strategies (see [Evaluation](#evaluation)). The results are on the Benchmarks page and written up in [docs/EVALUATION.md](docs/EVALUATION.md).
+- *Medium:* real-time data (live flights, stays, restaurants and transport), prompt-injection protection (user messages and tool results), rate limiting and API key management, token usage and cost display, multi-model support, visualisation of tool call results (result cards, trip timeline and map), logging and monitoring (request log and dashboard), multi-language support (English and German, with the language buttons in Settings).
+- *Hard:* an evaluation of the RAG system with RAGAS and retrieval metrics, plus A/B testing of four retrieval strategies and of three embedding models in English and German (see [Evaluation](#evaluation)). The results are on the Benchmarks page and written up in [docs/EVALUATION.md](docs/EVALUATION.md).
 
 ## Data sources
 
@@ -203,16 +206,18 @@ The deployed copy has its own saved chats and trips (in the bucket), separate fr
 
 ## Evaluation
 
-The scripts in `evaluation/` save their results in `evaluation/results/`, which the Benchmarks page reads. The method, results and lessons of all three parts are in **[docs/EVALUATION.md](docs/EVALUATION.md)**.
+The scripts in `evaluation/` save their results in `evaluation/results/`, which the Benchmarks page reads. The method, results and lessons of all four parts are in **[docs/EVALUATION.md](docs/EVALUATION.md)**.
 
 - **Retrieval:** the app's strategy finds a right place for 96.7% of 60 questions, with 12% of places from the wrong city (29% with plain vector search).
 - **Answers (RAGAS, judged by GPT-6.1 Sol):** faithfulness 0.90 for GPT-6 Luna, 0.85 for Gemini 3.7 Flash and 0.81 for Haiku, after a prompt fix the evaluation found; two other judges were compared.
 - **Trip plans:** all 18 TravelPlanner trips got a costed plan with live 2026 data, and 39% pass every check (72% without the house-rule check, which live stays can't pass).
+- **Embedding probe:** the app's local all-MiniLM-L6-v2 against OpenAI's text-embedding-3-small and text-embedding-3-large, on 50 hand-written sentence pairs in five groups, a 10-city retrieval check and the same city questions in English and German ($0.029, [part 4](docs/EVALUATION.md#part-4-embeddings)). In English the three models tie: all found every place, and all see a city swap almost like a rewording (0.69 against 0.80), which is why the city filter matters. In German the OpenAI models are much stronger (0.67–0.73 against 0.38 on sentence pairs): asked with German city names (Wien, Rom, Prag) and searched directly, the local model found the right city for 6 of 10 questions against 10 of 10 for both OpenAI models. Searched the way the app does it, with English searches added, the local model also got 10 of 10, so the app keeps the free model.
 
 ```bash
 python -m evaluation.retrieval                                   # four retrieval strategies, known answers
 python -m backend.travel_data.download                           # TravelPlanner questions (about 70 MB)
 python -m evaluation.plans                                       # trip plans on TravelPlanner questions, live
+python -m evaluation.embeddings                                  # embedding probe: local model against OpenAI's
 uv venv .venv-eval --python 3.12                                 # RAGAS needs its own environment
 uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r requirements-eval.txt
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model anthropic/claude-haiku-5.5
@@ -224,6 +229,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **OpenRouter:** with Claude Haiku 5.5, a full trip plan costs about $0.02 and a simple question well under a cent. Each answer shows its exact cost and the dashboard shows the totals. A simple knowledge-base question cost about $0.0023 with Claude Haiku 5.5, $0.0008 with GPT-6 Luna and $0.009 with Gemini 3.7 Flash. Claude Haiku 5.5 was tested on full plans; the other models may follow the answer formats less closely.
 - **SerpApi:** a full plan uses about 3–4 searches (flights both ways and a stay); Explore mode uses none. Repeat questions come from the cache for free, and each chat is limited to 20 searches.
 - **Google Maps:** restaurant and route requests are small and covered by Google's free monthly allowance at this scale; each chat is limited to 60.
+- **Languages:** a German answer costs the same as an English one; a German question in Explore mode cost about $0.0016 with Claude Haiku 5.5.
 
 ## Security
 
@@ -242,7 +248,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-292 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+309 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -264,7 +270,7 @@ travel-planner-bot/
 │   ├── travel_data/
 │   ├── storage/
 │   └── config.py
-├── evaluation/         retrieval, RAGAS and trip-plan tests
+├── evaluation/         retrieval, RAGAS, trip-plan and embedding tests
 │   └── results/
 ├── data/               2026 city files and airports
 │   ├── world/
@@ -280,6 +286,7 @@ travel-planner-bot/
 | Folder | What's in it |
 |---|---|
 | [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
+| [`frontend/i18n.py`](frontend/i18n.py) | Every interface text in English and German, and the language chosen in Settings |
 | [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, both themes' colours for charts, maps and the flow diagram (`palette.py`), shared session state and labels |
 | [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, and `theme.css`, whose colours follow the light or dark theme) and `render.py`, which fills them in |
 | [`frontend/assets/`](frontend/assets) | The logo and the icon used in this README |
@@ -289,7 +296,7 @@ travel-planner-bot/
 
 | Folder | What's in it |
 |---|---|
-| [`backend/agent/`](backend/agent) | Tool loop, system prompt, OpenRouter client, trip request text |
+| [`backend/agent/`](backend/agent) | Tool loop, system prompt (with the language rule), OpenRouter client, trip request text |
 | [`backend/tools/`](backend/tools) | The 7 tools |
 | [`backend/live/`](backend/live) | SerpApi and Google clients: flights, stays, restaurants, routes, exchange rates, cache and limits |
 | [`backend/rag/`](backend/rag) | Chroma store, indexing and retrieval |
@@ -306,7 +313,7 @@ travel-planner-bot/
 | [`data/us_cities.json`](data/us_cities.json) | Centres of the 195 smaller US cities | Yes |
 | [`data/ourairports/`](data/ourairports) | Airport list | Yes |
 | `data/travelplanner/` | TravelPlanner questions for the evaluation | No, downloaded |
-| [`evaluation/`](evaluation) | The three evaluation scripts; `results/` feeds the Benchmarks page | Yes |
+| [`evaluation/`](evaluation) | The evaluation scripts (retrieval, RAGAS, trip plans, embedding probe); `results/` feeds the Benchmarks page | Yes |
 | [`tests/`](tests) | pytest suite, recorded API answers in `tests/fixtures/` | Yes |
 | [`docs/`](docs) | The evaluation write-up ([EVALUATION.md](docs/EVALUATION.md)), reflection and notes | Yes |
 | [`legacy/tripmate/`](legacy/tripmate) | The first version's tools, kept for reference | Yes |
@@ -319,6 +326,7 @@ travel-planner-bot/
 - **Round trips** are searched as two one-way flights; real round-trip fares can be a little cheaper.
 - **Public transport times** are for your travel day up to 100 days ahead (Google's limit); further ahead they come from the current timetable.
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain. Tools supply all prices, ids and links to keep this to the text.
+- **Languages:** English and German only. Benchmarks, Dashboard, How it answers and the trip pages are in English, and texts from the tools (such as "per person" on the cards) stay in English; the written answer translates them. Amounts keep the English number format (EUR 742.80). A German trip plan in Plan mode hasn't been tested with live searches yet.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
 - **Sign-in:** the deployed copy signs in with Google only, and only the test users added to the Google sign-in screen can sign in (up to 100) until it's published. On a computer without sign-in settings, everything belongs to one local user.
 - **Next steps:** hybrid search (BM25 plus vectors), and serving the tools as an MCP server.

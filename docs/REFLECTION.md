@@ -13,7 +13,8 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 7. **Evaluation.** Retrieval on 60 questions with known answers (four strategies), RAGAS on three models with three judges and a fresh run, and 18 TravelPlanner trips planned with live 2026 data. The results are on the Benchmarks page and in [EVALUATION.md](EVALUATION.md).
 8. **Deployment.** A Docker image with the knowledge base built in, on Google Cloud Run, with saved data in a Cloud Storage bucket and keys in Secret Manager. Every push to `main` now deploys automatically after the tests pass.
 9. **For travellers, not only for planning.** A budget tracker, packing list, journal and documents on every saved trip, and user accounts with Google sign-in, so each person sees only their own chats, trips and files.
-10. **A finished interface.** Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu, with CSS colours worked out from the theme's text colour so a switch shows at once; a compact, full-width layout; a home box that sends on Enter; and result cards that take the next step ("Use this stay", "Add to the plan") by naming the option's live id, so the planner swaps exactly that item. The suite now has 292 tests.
+10. **A finished interface.** Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu, with CSS colours worked out from the theme's text colour so a switch shows at once; a compact, full-width layout; a home box that sends on Enter; and result cards that take the next step ("Use this stay", "Add to the plan") by naming the option's live id, so the planner swaps exactly that item.
+11. **German, and a check of the embedding model.** English and German buttons in Settings switch the chat page, trip form, cards, sidebar and Settings, and TripMate answers in the chosen language while its searches stay in English. An embedding probe compared the local model with two OpenAI models in English and German. The suite now has 309 tests.
 
 ## Key decisions
 
@@ -33,6 +34,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 - **Faithfulness found a real prompt problem.** Answers named only retrieved places but added descriptions from the model's own knowledge. One prompt rule (describe places only with what the results say) raised faithfulness from 0.79 to 0.89 for GPT-6 Luna and from 0.70 to 0.89 for Gemini.
 - **LLM judges can be confidently wrong.** Sonnet 5.5 scored a fully supported answer at 0.13; GPT-6.1 Sol gave it 0.88. Three judges agree on answer relevancy, mostly agree on faithfulness and disagree on context precision, so it pays to check the lowest scores by hand.
 - **Scores move between runs.** A fresh run of the same questions moved faithfulness and context precision by up to 0.05, while the ranking of the models held. Differences smaller than that aren't real.
+- **A bigger embedding model isn't needed, because of how the app searches.** In English the local model and two OpenAI models found every place. In German with German city names (Wien, Prag), the local model alone found the right city for only 6 of 10 questions, against 10 of 10 for the OpenAI models, but with the app's English searches added it got 10 of 10 too. The query translation the app already had turned out to be what makes German work.
 - **The biggest planning failure is missing data, not the model.** Live Airbnb listings don't publish house rules, so every trip with a rule like "must allow pets" fails that check: 39% of plans pass every check, 72% without it. The knowledge base helps plans: 67% passed with it against 50% without.
 
 ## Problems found and how I fixed them
@@ -79,4 +81,5 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 4. **A shared database** (Firestore or Cloud SQL) instead of SQLite, so the app can run more than one instance.
 5. **Faster deploys:** build the knowledge base once per data change and reuse it, instead of on every deploy.
 6. **TripMate's search as an MCP server**, so other assistants can use the 2026 knowledge base.
-7. **Measure the hotel-room wording change** by running the private-room RAGAS questions again.
+7. **More languages and a German trip plan:** the interface texts are in one dictionary, so a third language is mostly translation; a full German trip plan with live searches is still untested.
+8. **Measure the hotel-room wording change** by running the private-room RAGAS questions again.

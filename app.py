@@ -62,7 +62,7 @@ def signed_in() -> bool:
             st.session_state.claimed = True
         return True
     render.theme()
-    render.hero(chat.TAGLINE)
+    render.hero(chat.tagline())
     with st.container(horizontal_alignment="center"):
         st.button("Sign in with Google", icon=":material/login:", type="primary", on_click=st.login)
         st.caption("Your chats, trips and documents are private to your account.")

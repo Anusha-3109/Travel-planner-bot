@@ -165,15 +165,26 @@ not a costed trip plan. Use search_destination_options, search_restaurants and g
 search flights or places to stay or cost a plan in this mode; if the user asks for those, answer what you can and \
 say they can switch to Plan mode for a full, costed trip."""
 
+# The language the app is set to. Tool inputs stay in English, as the knowledge base and the services use English
+# names; the answer is in the user's language.
+LANGUAGE_NAMES = {"en": "English", "de": "German"}
+LANGUAGE_RULE = """Language: the app is set to {name}. Write your answer in {name}, and answer in the language the \
+user writes in if that differs. Call the tools in English: English city names (Vienna, not Wien; Munich, not \
+München) and English search words. Copy ids, amounts, prices and place names exactly as the tools give them; you may \
+translate the words around them (for example "per person" or "per night")."""
 
-def system_prompt(today: date | None = None, currency: str = "USD", cards: bool = False, mode: str = "plan") -> str:
+
+def system_prompt(today: date | None = None, currency: str = "USD", cards: bool = False, mode: str = "plan",
+                  language: str = "en") -> str:
     """The system prompt with today's date, so the model can turn "next Friday" into a real date,
     the currency the user picked in the app, the shorter answer rule when the app shows result cards,
-    and the Explore rule in Explore mode."""
+    the Explore rule in Explore mode and the language rule when the app isn't in English."""
     today = today or date.today()
     prompt = f"{SYSTEM_PROMPT}\n\n{CARDS_RULE}" if cards else SYSTEM_PROMPT
     if mode == "explore":
         prompt += f"\n\n{EXPLORE_RULE}"
+    if language != "en":
+        prompt += "\n\n" + LANGUAGE_RULE.format(name=LANGUAGE_NAMES.get(language, language))
     return (f"{prompt}\n\nToday is {today:%A, %d %B %Y} ({today.isoformat()}). The user's currency is "
             f"{currency}: treat budgets without a currency as {currency} and set calculate_trip_cost's currency to "
             f"{currency}, unless the user names another one.")
@@ -266,22 +277,25 @@ def _call_llm(llm, messages: list[BaseMessage], model: str) -> AIMessage:
 
 def run_agent(question: str, history: list[dict] | None = None,
               on_step: Callable[[str], None] | None = None, currency: str = "USD",
-              cards: bool = False, model: str | None = None, mode: str = "plan") -> AgentResult:
+              cards: bool = False, model: str | None = None, mode: str = "plan",
+              language: str = "en") -> AgentResult:
     """Answer a question, calling tools as needed. Raises InputValidationError for
     bad input and AgentError for problems the user should know about. Listing prices
     in tool results are shown in the chosen currency. cards=True when the app shows
     the results as cards, so the written answer can be shorter. model is an OpenRouter
     model id from config.MODELS (default: OPENROUTER_MODEL). mode is "plan" (all tools) or
-    "explore" (places, restaurants and transport only)."""
+    "explore" (places, restaurants and transport only). language is the app's language
+    ("en" or "de"), which the answer is written in."""
     if mode not in MODES:
         raise AgentError(f"Unknown mode '{mode}'. Use one of: {', '.join(MODES)}.")
     with use_display_currency(currency):
-        return _run_agent(question, history, on_step, currency, cards, model or config.OPENROUTER_MODEL, mode)
+        return _run_agent(question, history, on_step, currency, cards, model or config.OPENROUTER_MODEL, mode,
+                          language)
 
 
 def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str], None] | None,
                currency: str, cards: bool = False, model: str = config.OPENROUTER_MODEL,
-               mode: str = "plan") -> AgentResult:
+               mode: str = "plan", language: str = "en") -> AgentResult:
     question = validate_question(question)
     notify = on_step or (lambda _: None)
     try:
@@ -292,7 +306,8 @@ def _run_agent(question: str, history: list[dict] | None, on_step: Callable[[str
     allowed = {t.name for t in tools}
     llm = base_llm.bind_tools(tools)
 
-    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards, mode=mode)),
+    messages: list[BaseMessage] = [SystemMessage(system_prompt(currency=currency, cards=cards, mode=mode,
+                                                               language=language)),
                                    *_history_messages(history or []), HumanMessage(question)]
     result = AgentResult(answer="", model=model, mode=mode)
 

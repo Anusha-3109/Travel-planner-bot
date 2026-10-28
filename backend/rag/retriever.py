@@ -27,12 +27,14 @@ class SearchPlan(BaseModel):
     """Search queries and filters derived from a user question."""
 
     queries: list[str] = Field(
-        description="2-3 short, self-contained search queries that together cover the question."
+        description="2-3 short, self-contained search queries that together cover the question, in English "
+                    "(the catalog is in English), whatever language the question is in."
     )
     category: str | None = Field(
         default=None, description=f"One of {list(PLACE_CATEGORIES)} if the question is clearly about one kind of place, else null."
     )
-    city: str | None = Field(default=None, description="City name if the question is about one specific city, else null.")
+    city: str | None = Field(default=None, description="The city's English name (Vienna, not Wien) if the question is "
+                                                       "about one specific city, else null.")
 
 
 @dataclass
