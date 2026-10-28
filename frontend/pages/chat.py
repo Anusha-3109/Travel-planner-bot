@@ -70,7 +70,11 @@ def _save_trip_button(index: int) -> None:
 
 def _render_details(message: dict, index: int | None = None) -> None:
     tool_calls = message.get("tool_calls") or []
-    render_result_cards(tool_calls)
+    if index is None:  # an answer being drawn for the first time: the page reruns at once with buttons
+        render_result_cards(tool_calls)
+    else:
+        latest = trips.find_plan(trips.tool_calls(st.session_state.messages, index))
+        render_result_cards(tool_calls, key=f"cards-{index}", plan=latest[0] if latest else None)
     if index is not None:
         _save_trip_button(index)
     sources = message.get("sources") or []

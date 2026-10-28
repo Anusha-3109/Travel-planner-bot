@@ -159,3 +159,60 @@ def test_headings_show_found_and_shown_counts_and_the_travel_day():
     text = _text(_cards([_call("search_accommodations", stays), _call("get_local_transport", transport)]))
     assert "· 10 of 11 shown" in text
     assert "Fri 06 Nov 2026, 14:30 local time" in text and "leaving from 14:30" in text
+
+
+PLAN = {"people": 2, "stay": "stay-1", "days": [{"day": 1, "city": "Rome"}, {"day": 2, "city": "Rome"}]}
+OTHER_STAY = {**STAYS, "stays": [*STAYS["stays"], {**STAYS["stays"][0], "id": "stay-2", "name": "Casa Monti"}]}
+
+
+def _cards_with_actions(tool_calls: list[dict], plan: dict | None):
+    def script(calls, plan):
+        import streamlit as st
+
+        from frontend.components.cards import render_result_cards
+        render_result_cards(calls, key="cards-1", plan=plan)
+        st.write(f"pending: {st.session_state.get('pending_question')}")
+
+    at = AppTest.from_function(script, args=(tool_calls, plan), default_timeout=30)
+    at.run()
+    assert not at.exception
+    return at
+
+
+def test_follow_ups_name_the_option_by_its_id_and_what_to_do():
+    from frontend.components.cards import follow_up
+    flight = FLIGHTS["airlines"][1]["flights"][0]
+    assert follow_up("flight", flight, FLIGHTS, PLAN) == ("Use flight AZ 201 (flight-9) for the London → Rome flight on "
+                                                          "2026-11-06 and update the plan and its cost.")
+    assert follow_up("flight", flight, FLIGHTS, None).startswith("Plan a trip with flight AZ 201 (flight-9)")
+    stay = OTHER_STAY["stays"][1]
+    assert follow_up("stay", stay, STAYS, PLAN) == ("Use the stay Casa Monti (stay-2) for every night instead of the "
+                                                    "current stay, and update the plan and its cost.")
+    assert follow_up("restaurant", RESTAURANTS["restaurants"][0], RESTAURANTS, PLAN, 2, "lunch") == (
+        "Use Da Enzo (restaurant-1) for lunch on day 2 and update the plan and its cost.")
+    long_name = {**stay, "name": "Casa " + "x" * 200}
+    assert len(follow_up("stay", long_name, STAYS, PLAN)) < 200  # names from outside services are cut
+
+
+def test_cards_take_the_next_step_from_a_plan():
+    at = _cards_with_actions([_call("search_accommodations", OTHER_STAY), _call("search_flights", FLIGHTS)], PLAN)
+    labels = [b.label for b in at.button]
+    assert labels.count("In the plan") == 1 and labels.count("Use this stay") == 1  # the plan's stay can't be picked
+    assert labels.count("Use this flight") == 5  # all 4 easyJet (one in the "1 more" pop-up) and the ITA flight
+    next(b for b in at.button if b.label == "Use this stay").click().run()
+    assert "pending: Use the stay Casa Monti (stay-2)" in at.markdown[-1].value
+
+
+def test_a_restaurant_is_added_at_the_chosen_day_and_meal():
+    at = _cards_with_actions([_call("search_restaurants", RESTAURANTS)], PLAN)
+    at.selectbox[0].select(2)
+    at.selectbox[1].select("lunch")
+    next(b for b in at.button if b.label == "Add").click().run()
+    assert "pending: Use Da Enzo (restaurant-1) for lunch on day 2" in at.markdown[-1].value
+
+
+def test_without_a_plan_the_cards_start_one_and_restaurants_wait():
+    at = _cards_with_actions([_call("search_accommodations", STAYS), _call("search_restaurants", RESTAURANTS)], None)
+    assert [b.label for b in at.button] == ["Plan with this stay"] and not at.selectbox
+    plain = _cards([_call("search_accommodations", STAYS)])  # an answer still being drawn: no buttons
+    assert not plain.button

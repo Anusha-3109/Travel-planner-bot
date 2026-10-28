@@ -4,9 +4,15 @@ every price is the tool's, not the model's wording.
 
 Each card reads the JSON a tool returned (already screened by security.tool_output).
 Results that can't be read, and tools without a card, are skipped.
+
+Cards with a live result's id also take the next step: "Use this flight", "Use this stay",
+"Add to the plan" (a restaurant at a chosen day and meal) and "Use this route" send a short
+follow-up as the user's next message, naming the option by its id, so the planner swaps exactly
+that item and the cost tool uses its exact live price. follow_up() writes those messages.
 """
 
 import json
+from contextvars import ContextVar
 
 import streamlit as st
 
@@ -14,6 +20,83 @@ COLUMNS = 3
 FLIGHTS_PER_AIRLINE = 3
 SEARCH_TOOLS = ("search_flights", "search_accommodations", "search_restaurants", "get_local_transport")
 PLAN_TOOLS = ("calculate_trip_cost", "check_constraints")
+MEALS = ("breakfast", "lunch", "dinner")
+NAME_CHARS = 80  # option names in a follow-up are cut to this, as they come from outside services
+
+# For the message being drawn: its key prefix (so buttons are unique per message), the latest plan
+# (or None) and a counter. A context variable, as each session's script runs in its own thread.
+_ACTIONS: ContextVar[dict | None] = ContextVar("card_actions", default=None)
+
+
+def _name(text: object) -> str:
+    return " ".join(str(text or "").split())[:NAME_CHARS]
+
+
+def follow_up(kind: str, item: dict, data: dict, plan: dict | None, day: int | None = None,
+              meal: str | None = None) -> str:
+    """The message a card's button sends: which option, by its id, and what to do with it."""
+    item_id = item.get("id")
+    if kind == "flight":
+        what = f"flight {_name(' + '.join(item.get('flight_numbers') or []))} ({item_id})"
+        leg = f" for the {_name(data.get('route'))} flight on {data.get('date')}"
+        return (f"Use {what}{leg} and update the plan and its cost." if plan
+                else f"Plan a trip with {what}{leg}.")
+    if kind == "stay":
+        what = f"the stay {_name(item.get('name'))} ({item_id})"
+        if not plan:
+            return f"Plan a trip with {what}."
+        return f"Use {what} for every night instead of the current stay, and update the plan and its cost."
+    if kind == "restaurant":
+        return f"Use {_name(item.get('name'))} ({item_id}) for {meal} on day {day} and update the plan and its cost."
+    if kind == "transit":
+        return (f"Use the public transport route {_name(item.get('summary'))} ({item_id}) for the "
+                f"{_name(data.get('from'))} to {_name(data.get('to'))} transfer and update the plan and its cost.")
+    raise ValueError(f"No follow-up for {kind}")
+
+
+def _send(text: str) -> None:
+    st.session_state.pending_question = text  # the chat asks it on this rerun
+
+
+def _key(kind: str, item: dict) -> str:
+    actions = _ACTIONS.get()
+    actions["count"] += 1
+    return f"{actions['prefix']}-{kind}-{item.get('id')}-{actions['count']}"
+
+
+def _action(kind: str, item: dict, data: dict, label: str) -> None:
+    """The card's next-step button (nothing without a live id or outside a chat message)."""
+    actions = _ACTIONS.get()
+    if actions is None or not item.get("id"):
+        return
+    plan = actions["plan"]
+    if kind == "stay" and plan and plan.get("stay") == item["id"]:
+        st.button("In the plan", key=_key(kind, item), icon=":material/check:", disabled=True, width="stretch")
+        return
+    if kind == "flight" and not plan:
+        label = "Plan with this flight"
+    if kind == "stay" and not plan:
+        label = "Plan with this stay"
+    st.button(label, key=_key(kind, item), icon=":material/swap_horiz:", width="stretch",
+              on_click=_send, args=(follow_up(kind, item, data, plan),))
+
+
+def _restaurant_action(place: dict, data: dict) -> None:
+    """A restaurant goes into the plan at a day and meal the user picks."""
+    actions = _ACTIONS.get()
+    plan = actions and actions["plan"]
+    if not plan or not place.get("id"):
+        return
+    days = [d.get("day") for d in plan.get("days") or [] if isinstance(d.get("day"), int)]
+    if not days:
+        return
+    key = _key("restaurant", place)
+    with st.popover("Add to the plan", icon=":material/add:", width="stretch"):
+        day = st.selectbox("Day", days, key=f"{key}-day", format_func=lambda d: f"Day {d}")
+        meal = st.selectbox("Meal", MEALS, index=2, key=f"{key}-meal")
+        if st.button("Add", key=f"{key}-add", type="primary", width="stretch"):
+            _send(follow_up("restaurant", place, data, plan, day, meal))
+            st.rerun()
 
 
 def _md(text: object) -> str:
@@ -70,26 +153,27 @@ def _stops(flight: dict) -> str:
     return f"{stops} stop{'s' if stops > 1 else ''}" + (f" via {via}" if via else "")
 
 
-def _airline_card(group: dict) -> None:
+def _airline_card(group: dict, data: dict) -> None:
     flights = group.get("flights") or []
     cheapest = flights[0].get("price_text") if flights else None
     st.markdown(f"**{_md(group.get('airline') or 'Flights')}**")
     st.caption(f"{group.get('flight_count', len(flights))} flight(s)" + (f" · from {_md(cheapest)}" if cheapest else ""))
     for flight in flights[:FLIGHTS_PER_AIRLINE]:
-        _flight_line(flight)
+        _flight_line(flight, data)
     if len(flights) > FLIGHTS_PER_AIRLINE:
         st.space("stretch")
         with st.popover(f"{len(flights) - FLIGHTS_PER_AIRLINE} more", width="stretch"):
             for flight in flights[FLIGHTS_PER_AIRLINE:]:
-                _flight_line(flight)
+                _flight_line(flight, data)
 
 
-def _flight_line(flight: dict) -> None:
+def _flight_line(flight: dict, data: dict) -> None:
     number = " + ".join(flight.get("flight_numbers") or [])
     st.markdown(f"{_md(flight.get('departs') or '?')} → {_md(flight.get('arrives') or '?')}  \n"
                 f"**{_md(flight.get('price_text') or 'Price not shown')}**")
     st.caption(" · ".join(p for p in (number, f"{flight.get('from_airport')} → {flight.get('to_airport')}",
                                       flight.get("duration"), _stops(flight)) if p))
+    _action("flight", flight, data, "Use this flight")
 
 
 def _estimated_flight_card(estimate: dict) -> None:
@@ -109,7 +193,7 @@ def flight_cards(data: dict) -> None:
                 + _shown(data, "flights_shown", "flight_count"))
     _source_badge(data.get("flights_source"))
     if data.get("airlines"):
-        _grid(data["airlines"], _airline_card)
+        _grid(data["airlines"], lambda group: _airline_card(group, data))
     elif isinstance(data.get("estimated_flight"), dict):
         _grid([data["estimated_flight"]], _estimated_flight_card)
     else:
@@ -121,7 +205,7 @@ def flight_cards(data: dict) -> None:
 
 # Stays
 
-def _live_stay_card(stay: dict) -> None:
+def _live_stay_card(stay: dict, data: dict) -> None:
     st.markdown(f"**{_md(stay.get('name'))}**")
     st.caption(_md(stay.get("kind") or stay.get("provider") or ""))
     st.markdown(f"{_md(stay.get('per_night_text', 'n/a'))} / night  \n**{_md(stay.get('total_text', 'n/a'))} total**")
@@ -130,6 +214,7 @@ def _live_stay_card(stay: dict) -> None:
         st.badge(stay["cancellation_text"], icon=":material/event_available:", color="green")
     label = "View on Airbnb" if stay.get("provider") == "Airbnb" else "View hotel"
     _link(label, stay.get("link"))
+    _action("stay", stay, data, "Use this stay")
 
 
 def _snapshot_stay_card(stay: dict) -> None:
@@ -154,7 +239,7 @@ def stay_cards(data: dict) -> None:
                 + _shown(data, "stays_shown", "stay_count"))
     _source_badge(data.get("stays_source"))
     if data.get("stays"):
-        _grid(data["stays"], _live_stay_card)
+        _grid(data["stays"], lambda stay: _live_stay_card(stay, data))
     elif data.get("accommodations"):
         _grid(data["accommodations"], _snapshot_stay_card)
     else:
@@ -163,7 +248,7 @@ def stay_cards(data: dict) -> None:
 
 # Restaurants
 
-def _live_restaurant_card(place: dict) -> None:
+def _live_restaurant_card(place: dict, data: dict) -> None:
     st.markdown(f"**{_md(place.get('name'))}**")
     st.caption(_md(place.get("address") or ""))
     st.markdown(f"⭐ {_md(place.get('rating_text', 'No rating'))}  \n{_md(place.get('price_text', 'Price not listed'))}")
@@ -172,6 +257,7 @@ def _live_restaurant_card(place: dict) -> None:
     elif place.get("open_now") is False:
         st.badge("Closed now", color="red")
     _link("Map", place.get("maps_link"))
+    _restaurant_action(place, data)
 
 
 def _snapshot_restaurant_card(place: dict) -> None:
@@ -191,14 +277,14 @@ def restaurant_cards(data: dict) -> None:
     if not places:
         st.caption("No restaurants match these filters.")
     elif "rating_text" in places[0] or "maps_link" in places[0]:
-        _grid(places, _live_restaurant_card)
+        _grid(places, lambda place: _live_restaurant_card(place, data))
     else:
         _grid(places, _snapshot_restaurant_card)
 
 
 # Local transport
 
-def _transit_card(option: dict) -> None:
+def _transit_card(option: dict, data: dict) -> None:
     changes = option.get("transfers") or 0
     st.markdown(f"**{_md(option.get('summary'))}**")
     st.caption(f"{option.get('duration')} · {'no changes' if not changes else f'{changes} change(s)'}")
@@ -206,6 +292,8 @@ def _transit_card(option: dict) -> None:
     st.space("stretch")
     with st.popover("Steps", width="stretch"):  # a popover, as expanders can't sit inside the plan's expander
         st.markdown("\n".join(f"1. {_md(step)}" for step in option.get("steps") or []))
+    if (_ACTIONS.get() or {}).get("plan"):
+        _action("transit", option, data, "Use this route")
 
 
 def _drive_card(driving: dict) -> None:
@@ -227,7 +315,7 @@ def transport_cards(data: dict) -> None:
                 f"{_md(data.get('to', ''))}"
                 + (f" · {_md(data['departure_time'])}" if data.get("departure_time") else ""))
     _source_badge(data.get("transport_source"))
-    cards = [(_transit_card, o) for o in data.get("public_transport") or []]
+    cards = [(lambda o: _transit_card(o, data), o) for o in data.get("public_transport") or []]
     if data.get("driving"):
         cards.append((_drive_card, data["driving"]))
     cards += [(_ground_card, g) for g in data.get("ground_options") or []]
@@ -284,9 +372,19 @@ def _latest(tool_calls: list[dict], name: str) -> dict | None:
     return None
 
 
-def render_result_cards(tool_calls: list[dict]) -> None:
+def render_result_cards(tool_calls: list[dict], key: str | None = None, plan: dict | None = None) -> None:
     """Cards for one answer's tool results. In a full plan the cost card comes first and the
-    search results sit in a collapsed section; otherwise the search results are shown directly."""
+    search results sit in a collapsed section; otherwise the search results are shown directly.
+    With a key (one per chat message), cards get their next-step buttons, using plan (the latest
+    costed plan in the chat, or None) to word them."""
+    token = _ACTIONS.set({"prefix": key, "plan": plan, "count": 0} if key else None)
+    try:
+        _draw_cards(tool_calls)
+    finally:
+        _ACTIONS.reset(token)
+
+
+def _draw_cards(tool_calls: list[dict]) -> None:
     searches, seen = [], set()
     for call in tool_calls:
         data = _output(call) if call.get("name") in RENDERERS else None

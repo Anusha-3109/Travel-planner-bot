@@ -275,3 +275,26 @@ def test_signed_in_the_author_gets_the_data_saved_before_sign_in(offline, monkey
     assert not at.exception and "Signed in as Ana" in [c.value for c in at.sidebar.caption]
     assert "Sign out" in [b.label for b in at.sidebar.button]
     assert [c["title"] for c in history.list_chats(history.owner_for("ana@example.com"))] == ["Saved before sign-in"]
+
+
+def test_a_card_button_asks_the_planner_to_swap_that_option(offline, monkeypatch):
+    from backend.agent.agent import ToolCallRecord
+    from tests.test_trips import COST, FLIGHTS_BACK, FLIGHTS_OUT, RESTAURANTS, STAYS, TRANSFER
+    asked = []
+
+    def plan(question, **kwargs):
+        asked.append(question)
+        calls = [ToolCallRecord(c["name"], c["args"], c["output"])
+                 for c in (FLIGHTS_OUT, FLIGHTS_BACK, STAYS, RESTAURANTS, TRANSFER, COST)]
+        return AgentResult(answer="Your Boston plan", model=kwargs["model"], tool_calls=calls,
+                           token_usage={"input_tokens": 1, "output_tokens": 1, "total_tokens": 2, "cost_usd": 0.0})
+    monkeypatch.setattr("frontend.pages.chat.run_agent", plan)
+    at = AppTest.from_file("../app.py", default_timeout=30)
+    at.run()
+    send(at, "Plan 2 nights in Boston from Washington")
+    assert "In the plan" in [b.label for b in at.button]  # Shelly's Swan Room, the plan's stay
+    next(b for b in at.button if b.label == "Use this stay").click().run()
+    assert not at.exception and asked[-1] == ("Use the stay The Jazzy Airbnb (stay-2) for every night instead of the "
+                                              "current stay, and update the plan and its cost.")
+    # The follow-up is saved as the user's next message, so the chat shows what was asked.
+    assert history.load_chat(history.list_chats()[0]["id"])["messages"][2]["content"].startswith("Use the stay")

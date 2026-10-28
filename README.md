@@ -28,7 +28,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 
 | Page | What it's for |
 |---|---|
-| **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer; **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
+| **Chat** | Ask in **Plan** mode for a full trip (flights, stay, meals, transport, cost and checks) or in **Explore** mode for places, food and getting around (no flight or stay searches). Results appear as cards under the answer, and each card can take the next step: **Use this flight**, **Use this stay**, **Use this route**, or **Add to the plan** for a restaurant at a day and meal you pick. A click sends that choice as your next message, naming the option by its id, so TripMate swaps only that item and re-costs the plan with its exact live price. **Save as trip** keeps a costed plan. The trip form opens from the chat page. |
 | **My trips** | Saved trips, each with a day-by-day timeline, the route on a map, the stays found (with booking links) and places to discover, plus what you add: a budget tracker (planned against spent, and spent per traveller), a packing list made for the trip, a journal with a note, rating and photos per day, and documents such as tickets and bookings. |
 | **Dashboard** | Requests, answer times, tokens, cost, tool calls, refused questions, errors and live searches per day, from the request log. |
 | **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
@@ -240,7 +240,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-286 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+292 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, the saved history and trips, the evaluation scoring, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
