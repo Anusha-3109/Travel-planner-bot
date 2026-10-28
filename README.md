@@ -1,4 +1,6 @@
-# TripMate ✈️ travel planner chatbot
+# <img src="frontend/assets/icon.svg" alt="" height="34"> TripMate
+
+**Your AI travel planner with live prices, costed against your budget.**
 
 [![Tests](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/tests.yml) [![Deploy](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/deploy.yml/badge.svg)](https://github.com/Anusha-3109/Travel-planner-bot/actions/workflows/deploy.yml)
 
@@ -280,7 +282,7 @@ travel-planner-bot/
 | [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
 | [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, both themes' colours for charts, maps and the flow diagram (`palette.py`), shared session state and labels |
 | [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, and `theme.css`, whose colours follow the light or dark theme) and `render.py`, which fills them in |
-| [`frontend/assets/`](frontend/assets) | The logo |
+| [`frontend/assets/`](frontend/assets) | The logo and the icon used in this README |
 | [`.streamlit/config.toml`](.streamlit/config.toml) | The two themes, Graphite amber (dark) and Light amber, with 15px base text, and where secrets are read from |
 
 ### Backend (the logic)
