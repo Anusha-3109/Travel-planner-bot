@@ -1,6 +1,6 @@
 # Evaluation
 
-How well TripMate finds places, answers from them and plans whole trips, measured on the 2026 knowledge base (54,309 places in 245 cities) and live 2026 data. All runs are from 26 October 2026. The result files are in [`evaluation/results/`](../evaluation/results), and the app's **Benchmarks** page shows them.
+How well TripMate finds places, answers from them and plans whole trips, and what its embedding model notices, measured on the 2026 knowledge base (54,309 places in 245 cities) and live 2026 data. Parts 1 to 3 ran on 26 October 2026 and part 4 on 28 October 2026. The result files are in [`evaluation/results/`](../evaluation/results), and the app's **Benchmarks** page shows them.
 
 ## Contents
 
@@ -8,6 +8,7 @@ How well TripMate finds places, answers from them and plans whole trips, measure
 - [Part 1: Retrieval](#part-1-retrieval)
 - [Part 2: Answer quality (RAGAS)](#part-2-answer-quality-ragas)
 - [Part 3: Trip plans](#part-3-trip-plans)
+- [Part 4: Embeddings](#part-4-embeddings)
 - [What it cost](#what-it-cost)
 - [Limitations](#limitations)
 - [How to run it again](#how-to-run-it-again)
@@ -19,6 +20,7 @@ How well TripMate finds places, answers from them and plans whole trips, measure
 | 1. Retrieval | Does the search find the right places? | The app's strategy finds a right place for **96.7%** of questions, with **12%** of places from the wrong city (29% with plain vector search) |
 | 2. Answers (RAGAS) | Are answers built on what was found? | Faithfulness **0.90** for GPT-6 Luna, **0.85** for Gemini 3.7 Flash and **0.81** for Haiku (judged by GPT-6.1 Sol), after a prompt fix the evaluation found; two other judges and a fresh run rank Haiku last too, and a fresh run moves scores by up to 0.05 |
 | 3. Trip plans | Does a full plan meet the traveller's rules? | **100%** of 18 plans delivered, **39%** pass every check, **72%** if the house-rule check is left out |
+| 4. Embeddings | Would a bigger embedding model search better, in English and in German? | In English the local model and two OpenAI models tie (every place found). Searched directly in German with German city names, the local model finds the right city for only **6 of 10** questions against **10 of 10** for the OpenAI models, but searched the way the app does it (with English searches added) it gets **10 of 10** too |
 
 ## Part 1: Retrieval
 
@@ -212,6 +214,70 @@ With and without the knowledge base, on the same 6 trips:
 - **The knowledge base helps plans:** it supplies real restaurants and attractions, which the commonsense checks look for.
 - **Prices:** only 44% of plans were fully priced. Taxi fares, many transit fares and some restaurant prices aren't published, so the real totals are higher than the priced ones.
 
+## Part 4: Embeddings
+
+**Script:** [`evaluation/embeddings.py`](../evaluation/embeddings.py) · **Results:** [`results/embeddings.json`](../evaluation/results/embeddings.json)
+
+The app embeds its places with all-MiniLM-L6-v2, a small model that runs locally for free. This part checks what that choice gives up against two larger OpenAI models, text-embedding-3-small and text-embedding-3-large (called through OpenRouter).
+
+### Method
+
+- **Sentence groups.** 50 hand-written sentence pairs in five groups, 10 each. Every pair is embedded by each model and scored with **cosine similarity** (1 = the model sees the two as the same, 0 = unrelated), and the scores are averaged per group.
+
+| Group | What it tests | Example pair |
+|---|---|---|
+| paraphrase | Same request, other words | "museums to visit in Lisbon" / "which Lisbon museums are worth seeing" |
+| cross_lingual | Same request in German or Lithuanian | "Restaurants mit vegetarischem Essen in Wien" / "vegetarian restaurants in Vienna" |
+| city_differs | Same words, another city | "a private room to stay in Boston" / "a private room to stay in Seattle" |
+| category_differs | Similar words, another kind of place | "Italian restaurants in Rome" / "Italian-style guest houses in Rome" |
+| unrelated | Nothing in common (the baseline) | "museums in Paris" / "how to reset a router password" |
+
+- **Each model has its own scale**, so the order of the groups within a model is what counts, above all the **gap** between paraphrase and city_differs. A small gap means the model sees "the same request elsewhere" almost like "the same request".
+- **Retrieval check.** A small index per model with every place in 10 US cities (3,031 places), searched with plain vector search and **no filters**: 10 place questions (an attraction's name; right if that place comes first) and 10 city questions ("museums in Tulsa"; right if the first result is in that city). The **margin** is how far the right place's score is ahead of the best other place.
+- **Questions in German.** City questions asked in English and in German, in two sets: the 10 US cities, whose names are the same in German ("Welche Museen gibt es in Tulsa?"), and 5 European cities in an index of their own (2,595 places) asked with their **German names**: Wien, Rom, Prag, Lissabon and Athen ("Wo kann ich in Prag übernachten?"). Each German question is searched two ways, still with no filters:
+  - *directly:* the German question alone;
+  - *as the app does:* the German question plus the 2–3 English searches the app's query translation writes ("accommodation in Prague", "hotels in Prague"), merged with reciprocal rank fusion.
+
+  A question counts when the first result is in the asked **city** and of the asked **kind** (museum, restaurant or stay).
+
+### Results
+
+| Sentence group | all-MiniLM-L6-v2 (the app, local) | text-embedding-3-small | text-embedding-3-large |
+|---|---|---|---|
+| paraphrase | 0.803 | 0.796 | 0.796 |
+| cross_lingual | **0.382** | 0.672 | **0.732** |
+| city_differs | 0.689 | 0.690 | 0.699 |
+| category_differs | 0.729 | 0.768 | 0.740 |
+| unrelated | 0.040 | 0.091 | 0.088 |
+| **Gap: paraphrase minus city_differs** | **0.114** | 0.106 | 0.097 |
+
+| Retrieval check | all-MiniLM-L6-v2 | text-embedding-3-small | text-embedding-3-large |
+|---|---|---|---|
+| Right place first | 10/10 | 10/10 | 10/10 |
+| Right city first | 10/10 | 10/10 | 10/10 |
+| Mean margin | 0.31 | 0.28 | 0.27 |
+
+| Questions in German (right city · right kind, of 10) | all-MiniLM-L6-v2 | text-embedding-3-small | text-embedding-3-large |
+|---|---|---|---|
+| US cities, English question | 10 · 10 | 10 · 10 | 10 · 10 |
+| US cities, German question, directly | 10 · 10 | 10 · 10 | 10 · 10 |
+| US cities, German question, as the app searches | 10 · 10 | 10 · 10 | 10 · 10 |
+| European cities, English question | 10 · 10 | 10 · 10 | 10 · 10 |
+| European cities, German names, directly | **6 · 7** | 10 · 10 | 10 · 10 |
+| European cities, German names, as the app searches | **10 · 10** | 10 · 10 | 10 · 10 |
+| Cost of the whole run | free | $0.0036 | $0.0233 |
+
+The query translation for the 20 German questions cost $0.0020 with Claude Haiku 5.5.
+
+### What it shows
+
+- **Every model notices the city, but only a little.** All three rank a rewording above a city swap (gap 0.10–0.11), yet "a private room in Boston" and "a private room in Seattle" still score about 0.69 against 0.80 for two wordings of one request. The larger models don't do better here: MiniLM's gap is the largest. This is why the city filter matters (part 1: wrong-city places fell from 29% to 12% with filters), and a bigger model wouldn't replace it.
+- **Kinds of place are even harder.** Restaurant against guest house in the same city scores 0.73–0.77 on every model, close to a paraphrase, which supports the category filter.
+- **Languages are MiniLM's real weakness.** It scores 0.38 across languages against 0.67–0.73 for the OpenAI models, as it was trained mostly on English. The German questions show what that means for search: with the US cities, whose names are the same in German, MiniLM still finds the right places, but with German city names it finds the right city for only 6 of 10 questions and the right kind of place for 7 ("Wien" isn't "Vienna" to it), while both OpenAI models get every one right.
+- **On TripMate's own searches the models tie.** All three found every place and the right city first. The check was too easy to separate them (10 cities, distinct place names), so it shows that MiniLM is good enough here, not that it is better.
+- **The app's English searches close that gap.** Since the app's German option, the query translation writes its searches and city filter in English whatever the question's language, and the app merges them with the original question. Searched that way, MiniLM gets all 10 European questions right (city and kind), like the OpenAI models, and in the app the English city filter (Vienna, not Wien) would also keep out other cities. A German chat question ("Welche Museen in Wien sind gut für Kinder?") was searched as "museums for kids" with the city filter Vienna and found both of Vienna's children's museums, with a German answer, for $0.0016.
+- **Conclusion:** keeping the free local model costs nothing in search quality for English questions, and for German questions the app's English searches make up for its language weakness, for a query-translation call the app makes anyway. A multilingual embedding model would be worth it if the query translation were dropped, or if the knowledge base itself were in several languages.
+
 ## What it cost
 
 | Part | Model calls | Live searches |
@@ -221,6 +287,7 @@ With and without the knowledge base, on the same 6 trips:
 | 2. Two more judges on the saved answers | $4.92 (GPT-6.1 Sol $1.98, Sonnet 5.5 $2.94) | none |
 | 2. Fresh run, judged by GPT-6.1 Sol | $2.11 ($0.11 answers, $2.01 judge) | none |
 | 3. Trip plans (18 + 6 without the knowledge base) | about $0.76 | 61 SerpApi searches, 230 Google Maps calls |
+| 4. Embeddings (two OpenAI models, and the query translation of 20 German questions; the local model is free) | $0.029 | none |
 
 ## Limitations
 
@@ -229,6 +296,7 @@ With and without the knowledge base, on the same 6 trips:
 - **Live data changes:** the trip plans use live prices and availability, so a new run gives different plans and totals.
 - **Not TravelPlanner's official score:** the checks follow its rules, but the questions were moved to 2026 and scored with TripMate's own checks.
 - **The house-rule check can't pass** for live stays until a source publishes house rules.
+- **The embedding check is small:** 50 sentence pairs, 20 retrieval questions in 10 US cities and 40 language questions in 15 cities. In English every model answered every question correctly, so it can't show small differences in search quality; running the 60 questions of part 1 with each model's own full index would. The German questions are short and written by hand, and German is the only other language tested.
 
 ## How to run it again
 
@@ -236,6 +304,7 @@ With and without the knowledge base, on the same 6 trips:
 python -m evaluation.retrieval                                        # part 1, about $0.01
 python -m backend.travel_data.download                                # TravelPlanner questions, once
 python -m evaluation.plans                                            # part 3, about $0.76 and 61 SerpApi searches
+python -m evaluation.embeddings                                       # part 4, about $0.03
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna            # part 2, per model
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge  # score saved answers again
 .venv-eval/Scripts/python.exe -m evaluation.ragas_eval --model openai/gpt-6-luna --rejudge --judge openai/gpt-6.1-sol  # another judge, about $0.66

@@ -52,6 +52,43 @@ def _fill(results):
              "transportation": "no self-driving", "usage": {"cost_usd": 0.0412},
              "score": {"delivered": True, "passed": False, "checks": [
                  {"check": "budget", "passed": True}, {"check": "house rule", "passed": False}]}}]})
+    _write(results / "embeddings.json", PROBE)
+
+
+def _check(city, kind):
+    return {"city_hits": city, "kind_hits": kind, "questions": 10, "kind_share": kind / 10}
+
+
+def _probe_model(cross_lingual, europe_direct, cost):
+    return {"means": {"paraphrase": 0.8, "cross_lingual": cross_lingual, "city_differs": 0.69,
+                      "category_differs": 0.73, "unrelated": 0.05}, "gap": 0.11, "cost_usd": cost,
+            "retrieval": {"place_hits": 10, "place_questions": 10, "city_hits": 10, "city_questions": 10,
+                          "mean_margin": 0.3},
+            "languages": {"us": {s: _check(10, 10) for s in ("english", "german", "german_translated")},
+                          "europe": {"english": _check(10, 10), "german": europe_direct,
+                                     "german_translated": _check(10, 10)}}}
+
+
+PROBE = {"run_at": "2026-10-28T12:00:00+00:00", "test_cities": ["Tulsa"] * 10, "places": 3031,
+         "pairs_per_group": {"paraphrase": 10}, "translation_cost_usd": 0.002, "models": {
+             "all-MiniLM-L6-v2": _probe_model(0.38, _check(6, 7), 0.0),
+             "openai/text-embedding-3-small": _probe_model(0.67, _check(10, 10), 0.0036),
+             "openai/text-embedding-3-large": _probe_model(0.73, _check(10, 10), 0.0233)}}
+
+
+def test_embedding_probe_tables_and_dot_plot():
+    table = benchmarks.probe_table(PROBE)
+    assert list(table.columns)[0] == "Sentence group" and len(table) == 6  # five groups and the gap
+    assert table.iloc[-1]["all-MiniLM-L6-v2 (the app, local)"] == 0.11
+    assert len(benchmarks.probe_scores(PROBE)) == 15  # five groups for three models
+    retrieval = benchmarks.probe_retrieval_table(PROBE)
+    assert list(retrieval["Cost"]) == ["free", "$0.0036", "$0.0233"]
+    languages = benchmarks.probe_language_table(PROBE)
+    assert len(languages) == 6  # two city sets, three ways of searching
+    row = languages.iloc[4]
+    assert row["Search"] == "German, searched directly" and row["Cities"].startswith("Europe")
+    assert row["MiniLM (the app)"] == "city 6/10 · kind 7/10"
+    benchmarks.probe_dot_plot(PROBE).to_dict()  # builds without errors
 
 
 def test_tables_are_built_from_the_result_files(results):
@@ -146,6 +183,7 @@ def test_page_explains_how_to_run_each_missing_evaluation(results):
     assert not at.exception
     messages = " ".join(i.value for i in at.info)
     assert "evaluation.ragas_eval" in messages and "evaluation.retrieval" in messages and "evaluation.plans" in messages
+    assert "evaluation.embeddings" in messages
 
 
 def test_page_shows_the_results(results):
@@ -153,6 +191,6 @@ def test_page_shows_the_results(results):
     at = AppTest.from_function(_page, default_timeout=30)
     at.run()
     assert not at.exception and not at.info
-    assert len(at.dataframe) == 6  # models, strategies, by kind, plans, with/without RAG, each trip
+    assert len(at.dataframe) == 8  # models, strategies, by kind, probe retrieval and German, plans, with/without RAG, each trip
     assert len(at.metric) == 4 and "70 SerpApi searches" in " ".join(c.value for c in at.caption)
     assert any("Not measured yet: OpenAI GPT-6 Luna, Google Gemini 3.7 Flash" in c.value for c in at.caption)

@@ -248,6 +248,87 @@ def trip_table(result: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+# The embedding probe (evaluation/embeddings.py): its sentence groups and models, in the order shown.
+PROBE_GROUPS = {"paraphrase": "Paraphrase (same request, other words)",
+                "cross_lingual": "Cross-lingual (German or Lithuanian vs English)",
+                "city_differs": "City differs (same words, other city)",
+                "category_differs": "Category differs (restaurant vs stay vs sight)",
+                "unrelated": "Unrelated (not travel)"}
+PROBE_MODELS = {"all-MiniLM-L6-v2": "all-MiniLM-L6-v2 (the app, local)",
+                "openai/text-embedding-3-small": "text-embedding-3-small",
+                "openai/text-embedding-3-large": "text-embedding-3-large"}
+
+
+def _probe_name(model: str) -> str:
+    return PROBE_MODELS.get(model, model)
+
+
+def probe_scores(result: dict) -> pd.DataFrame:
+    """One row per sentence group and embedding model with its mean cosine similarity, for the dot plot."""
+    return pd.DataFrame([{"Group": PROBE_GROUPS.get(group, group), "Model": _probe_name(model), "Score": score}
+                         for model, scores in result["models"].items() for group, score in scores["means"].items()])
+
+
+def probe_table(result: dict) -> pd.DataFrame:
+    """The groups as rows and the models as columns, with the paraphrase-minus-city gap as the last row."""
+    models = result["models"]
+    rows = [{"Sentence group": label, **{_probe_name(m): models[m]["means"].get(group) for m in models}}
+            for group, label in PROBE_GROUPS.items()]
+    rows.append({"Sentence group": "Gap: paraphrase minus city differs",
+                 **{_probe_name(m): models[m]["gap"] for m in models}})
+    return pd.DataFrame(rows)
+
+
+def probe_dot_plot(result: dict) -> alt.Chart:
+    """A row per sentence group with a dot per embedding model, on the 0-to-1 cosine scale."""
+    scores = probe_scores(result)
+    names = [_probe_name(m) for m in result["models"]]
+    y = alt.Y("Group:N", title=None, sort=list(PROBE_GROUPS.values()), axis=alt.Axis(labelLimit=320))
+    return alt.Chart(scores).mark_point(size=140, filled=True, opacity=1).encode(
+        x=alt.X("Score:Q", title="Mean cosine similarity (0 to 1)", scale=alt.Scale(domain=[0, 1])), y=y,
+        color=alt.Color("Model:N", title=None, scale=alt.Scale(domain=names, range=JUDGE_COLOURS),
+                        legend=alt.Legend(orient="top", labelLimit=260)),
+        shape=alt.Shape("Model:N", scale=alt.Scale(domain=names, range=JUDGE_SHAPES)),
+        tooltip=["Group:N", "Model:N", alt.Tooltip("Score:Q", format=".3f")],
+    ).properties(height=60 * len(PROBE_GROUPS) + 40)
+
+
+def probe_retrieval_table(result: dict) -> pd.DataFrame:
+    """The small retrieval check: right place first, right city first, the margin and the cost per model."""
+    rows = []
+    for model, scores in result["models"].items():
+        check = scores["retrieval"]
+        rows.append({"Embedding model": _probe_name(model),
+                     "Right place first": f"{check['place_hits']}/{check['place_questions']}",
+                     "Right city first": f"{check['city_hits']}/{check['city_questions']}",
+                     "Margin": check["mean_margin"],
+                     "Cost": "free" if not scores.get("cost_usd") else f"${scores['cost_usd']:.4f}"})
+    return pd.DataFrame(rows)
+
+
+PROBE_SETS = {"us": "US (same names)", "europe": "Europe (Wien, Rom…)"}
+PROBE_SEARCHES = {"english": "English", "german": "German, searched directly",
+                  "german_translated": "German, as the app searches"}
+PROBE_SHORT = {"all-MiniLM-L6-v2": "MiniLM (the app)", "openai/text-embedding-3-small": "3-small",
+               "openai/text-embedding-3-large": "3-large"}
+
+
+def probe_language_table(result: dict) -> pd.DataFrame:
+    """For each question set and way of searching: right city and right kind first, per embedding model."""
+    rows = []
+    for name, label in PROBE_SETS.items():
+        for search, search_label in PROBE_SEARCHES.items():
+            row = {"Cities": label, "Search": search_label}
+            for model, scores in result["models"].items():
+                check = (scores.get("languages") or {}).get(name, {}).get(search)
+                if check:
+                    row[PROBE_SHORT.get(model, model)] = (f"city {check['city_hits']}/{check['questions']} · "
+                                                          f"kind {check['kind_hits']}/{check['questions']}")
+            if len(row) > 2:
+                rows.append(row)
+    return pd.DataFrame(rows)
+
+
 def key_results(models: pd.DataFrame, retrieval: dict | None, plans: dict | None) -> list[tuple[str, str, str]]:
     """(label, value, note) for the metrics row at the top, from whichever evaluations have run."""
     items = []
@@ -272,7 +353,7 @@ def _not_run(command: str) -> None:
 
 def render() -> None:
     st.title("Benchmarks")
-    st.caption("How well TripMate's retrieval, answers and trip plans do, and what each model costs. Scores are from "
+    st.caption("How well TripMate's retrieval, embeddings, answers and trip plans do, and what each model costs. Scores are from "
                "the evaluation scripts in evaluation/ and the files they save.")
 
     models = model_table()
@@ -341,6 +422,41 @@ def render() -> None:
                 for kind in kinds for strategy, scores in retrieval["summary"].items()]),
                 hide_index=True, width="stretch", column_config={"Hit rate": SCORE, "Precision": SCORE, "MRR": SCORE})
 
+    st.subheader("Embedding probe")
+    probe = load(RESULTS_DIR / "embeddings.json")
+    if not probe:
+        _not_run("python -m evaluation.embeddings")
+    else:
+        pairs = next(iter(probe["pairs_per_group"].values()), 0)
+        st.caption(f"Mean cosine similarity per sentence group ({pairs} hand-written pairs each), for the app's local "
+                   "embedding model and two OpenAI models. Each model has its own scale, so compare the order of the "
+                   "groups within a model, above all paraphrase against city differs.")
+        view = st.segmented_control("View", ["Dot plot", "Table"], default="Dot plot", key="probe-view")
+        if view == "Table":
+            st.dataframe(probe_table(probe), hide_index=True, width="stretch", column_config={
+                name: st.column_config.NumberColumn(format="%.3f") for name in map(_probe_name, probe["models"])})
+        else:
+            st.altair_chart(probe_dot_plot(probe))
+            st.caption("Each dot is one model's mean score for that group. Hover a dot for the value.")
+        st.markdown(f"**Retrieval check: {len(probe['test_cities'])} cities, {probe['places']:,} places, no filters**")
+        st.dataframe(probe_retrieval_table(probe), hide_index=True, width="stretch",
+                     column_config={"Margin": st.column_config.NumberColumn(format="%.2f")})
+        languages = probe_language_table(probe)
+        if not languages.empty:
+            st.markdown("**Questions in German**")
+            st.dataframe(languages, hide_index=True, width="stretch")
+            st.caption("The same 10 questions per set in English and German, searched in the English knowledge base "
+                       "with no filters: 10 US cities whose names are the same in German, and 5 European cities asked "
+                       "with their German names. City: the first result is in the asked city; kind: it's a museum, "
+                       "restaurant or stay as asked. The app keeps the German question and adds searches the model "
+                       "writes in English, merged with rank fusion.")
+        cost = sum(scores.get("cost_usd") or 0 for scores in probe["models"].values())
+        cost += probe.get("translation_cost_usd") or 0
+        st.caption(("A city swap scores almost as high as a rewording on every model, so the city filter does that "
+                    "work; the OpenAI models are much better across languages. Margin: how far the right place's "
+                    "score is ahead of the next place, on each model's own scale. "
+                    f"Cost ${cost:.3f} · run {probe['run_at'][:10]}").replace("$", r"\$"))
+
     st.subheader("Trip plans")
     if not plans:
         _not_run("python -m evaluation.plans")
@@ -379,6 +495,9 @@ def render() -> None:
         "- **Answers (RAGAS):** the agent answers with only its knowledge-base search, and RAGAS checks each answer "
         "against the places it was given: faithfulness (claims supported by them), answer relevancy (it answers "
         "the question) and context precision (useful places ranked first).\n"
+        "- **Embedding probe:** hand-written sentence pairs in five groups are embedded by each model and compared "
+        "with cosine similarity (1 = the model sees them as the same, 0 = unrelated); a small test index of ten "
+        "cities is then searched with plain vector search and no filters.\n"
         "- **Trip plans:** delivered means a costed plan for the right number of days; hard constraints are budget, "
         "house rule, room type, cuisine and transport; common sense covers items that exist, no repeats, minimum "
         "nights, a stay every night, travelling out and back. These are TripMate's checks modelled on "

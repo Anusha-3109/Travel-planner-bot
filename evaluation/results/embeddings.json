@@ -1,0 +1,2823 @@
+{
+ "run_at": "2026-10-28T13:28:45+00:00",
+ "test_cities": [
+  "Tulsa",
+  "Memphis",
+  "Albuquerque",
+  "Cleveland",
+  "Omaha",
+  "Tucson",
+  "Louisville",
+  "Pittsburgh",
+  "Atlanta",
+  "Baltimore"
+ ],
+ "places": 3031,
+ "europe_cities": {
+  "Vienna": "Wien",
+  "Rome": "Rom",
+  "Prague": "Prag",
+  "Lisbon": "Lissabon",
+  "Athens": "Athen"
+ },
+ "europe_places": 2595,
+ "pairs_per_group": {
+  "paraphrase": 10,
+  "cross_lingual": 10,
+  "city_differs": 10,
+  "category_differs": 10,
+  "unrelated": 10
+ },
+ "questions": {
+  "place": [
+   {
+    "question": "Center of the Universe",
+    "city": "Tulsa",
+    "source": "attraction: Center of the Universe, Tulsa"
+   },
+   {
+    "question": "Man & Guitar Statue",
+    "city": "Memphis",
+    "source": "attraction: Man & Guitar Statue, Memphis"
+   },
+   {
+    "question": "New Mexico Museum of Natural History & Science",
+    "city": "Albuquerque",
+    "source": "attraction: New Mexico Museum of Natural History & Science, Albuquerque"
+   },
+   {
+    "question": "USS Cod Submarine Memorial",
+    "city": "Cleveland",
+    "source": "attraction: USS Cod Submarine Memorial, Cleveland"
+   },
+   {
+    "question": "Mandan Park Nature Center",
+    "city": "Omaha",
+    "source": "attraction: Mandan Park Nature Center, Omaha"
+   },
+   {
+    "question": "Cattletank History Wall",
+    "city": "Tucson",
+    "source": "attraction: Cattletank History Wall, Tucson"
+   },
+   {
+    "question": "James Bourne Gallery",
+    "city": "Louisville",
+    "source": "attraction: James Bourne Gallery, Louisville"
+   },
+   {
+    "question": "Stephen Foster Memorial",
+    "city": "Pittsburgh",
+    "source": "attraction: Stephen Foster Memorial, Pittsburgh"
+   },
+   {
+    "question": "Trail Sign - Grasshopper",
+    "city": "Atlanta",
+    "source": "attraction: Trail Sign - Grasshopper, Atlanta"
+   },
+   {
+    "question": "Marine Mammal Pavilion",
+    "city": "Baltimore",
+    "source": "attraction: Marine Mammal Pavilion, Baltimore"
+   }
+  ],
+  "city": [
+   {
+    "question": "museums in Tulsa",
+    "city": "Tulsa",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Tulsa?"
+   },
+   {
+    "question": "American restaurants in Memphis",
+    "city": "Memphis",
+    "kind": "restaurant",
+    "german": "Gute amerikanische Restaurants in Memphis"
+   },
+   {
+    "question": "a place to stay in Albuquerque",
+    "city": "Albuquerque",
+    "kind": "stay",
+    "german": "Wo kann ich in Albuquerque übernachten?"
+   },
+   {
+    "question": "museums in Cleveland",
+    "city": "Cleveland",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Cleveland?"
+   },
+   {
+    "question": "American restaurants in Omaha",
+    "city": "Omaha",
+    "kind": "restaurant",
+    "german": "Gute amerikanische Restaurants in Omaha"
+   },
+   {
+    "question": "a place to stay in Tucson",
+    "city": "Tucson",
+    "kind": "stay",
+    "german": "Wo kann ich in Tucson übernachten?"
+   },
+   {
+    "question": "museums in Louisville",
+    "city": "Louisville",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Louisville?"
+   },
+   {
+    "question": "Pizza restaurants in Pittsburgh",
+    "city": "Pittsburgh",
+    "kind": "restaurant",
+    "german": "Gute Pizzerien in Pittsburgh"
+   },
+   {
+    "question": "a place to stay in Atlanta",
+    "city": "Atlanta",
+    "kind": "stay",
+    "german": "Wo kann ich in Atlanta übernachten?"
+   },
+   {
+    "question": "museums in Baltimore",
+    "city": "Baltimore",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Baltimore?"
+   }
+  ]
+ },
+ "language_questions": {
+  "us": [
+   {
+    "question": "museums in Tulsa",
+    "city": "Tulsa",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Tulsa?"
+   },
+   {
+    "question": "American restaurants in Memphis",
+    "city": "Memphis",
+    "kind": "restaurant",
+    "german": "Gute amerikanische Restaurants in Memphis"
+   },
+   {
+    "question": "a place to stay in Albuquerque",
+    "city": "Albuquerque",
+    "kind": "stay",
+    "german": "Wo kann ich in Albuquerque übernachten?"
+   },
+   {
+    "question": "museums in Cleveland",
+    "city": "Cleveland",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Cleveland?"
+   },
+   {
+    "question": "American restaurants in Omaha",
+    "city": "Omaha",
+    "kind": "restaurant",
+    "german": "Gute amerikanische Restaurants in Omaha"
+   },
+   {
+    "question": "a place to stay in Tucson",
+    "city": "Tucson",
+    "kind": "stay",
+    "german": "Wo kann ich in Tucson übernachten?"
+   },
+   {
+    "question": "museums in Louisville",
+    "city": "Louisville",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Louisville?"
+   },
+   {
+    "question": "Pizza restaurants in Pittsburgh",
+    "city": "Pittsburgh",
+    "kind": "restaurant",
+    "german": "Gute Pizzerien in Pittsburgh"
+   },
+   {
+    "question": "a place to stay in Atlanta",
+    "city": "Atlanta",
+    "kind": "stay",
+    "german": "Wo kann ich in Atlanta übernachten?"
+   },
+   {
+    "question": "museums in Baltimore",
+    "city": "Baltimore",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Baltimore?"
+   }
+  ],
+  "europe": [
+   {
+    "question": "museums in Vienna",
+    "city": "Vienna",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Wien?"
+   },
+   {
+    "question": "restaurants in Vienna",
+    "city": "Vienna",
+    "kind": "restaurant",
+    "german": "Gute Restaurants in Wien"
+   },
+   {
+    "question": "a place to stay in Rome",
+    "city": "Rome",
+    "kind": "stay",
+    "german": "Wo kann ich in Rom übernachten?"
+   },
+   {
+    "question": "museums in Rome",
+    "city": "Rome",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Rom?"
+   },
+   {
+    "question": "restaurants in Prague",
+    "city": "Prague",
+    "kind": "restaurant",
+    "german": "Gute Restaurants in Prag"
+   },
+   {
+    "question": "a place to stay in Prague",
+    "city": "Prague",
+    "kind": "stay",
+    "german": "Wo kann ich in Prag übernachten?"
+   },
+   {
+    "question": "museums in Lisbon",
+    "city": "Lisbon",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Lissabon?"
+   },
+   {
+    "question": "restaurants in Lisbon",
+    "city": "Lisbon",
+    "kind": "restaurant",
+    "german": "Gute Restaurants in Lissabon"
+   },
+   {
+    "question": "a place to stay in Athens",
+    "city": "Athens",
+    "kind": "stay",
+    "german": "Wo kann ich in Athen übernachten?"
+   },
+   {
+    "question": "museums in Athens",
+    "city": "Athens",
+    "kind": "museum",
+    "german": "Welche Museen gibt es in Athen?"
+   }
+  ]
+ },
+ "app_searches": {
+  "us": [
+   [
+    "Welche Museen gibt es in Tulsa?",
+    "museums in Tulsa",
+    "Tulsa art museum",
+    "Tulsa history museum"
+   ],
+   [
+    "Gute amerikanische Restaurants in Memphis",
+    "American restaurants in Memphis",
+    "Memphis American cuisine restaurant",
+    "best rated American restaurant Memphis"
+   ],
+   [
+    "Wo kann ich in Albuquerque übernachten?",
+    "accommodation in Albuquerque",
+    "hotels in Albuquerque",
+    "Albuquerque lodging"
+   ],
+   [
+    "Welche Museen gibt es in Cleveland?",
+    "museums in Cleveland",
+    "Cleveland museum attractions",
+    "art and history museums Cleveland Ohio"
+   ],
+   [
+    "Gute amerikanische Restaurants in Omaha",
+    "American restaurants in Omaha",
+    "Omaha restaurants American cuisine",
+    "best American food Omaha"
+   ],
+   [
+    "Wo kann ich in Tucson übernachten?",
+    "accommodation in Tucson",
+    "hotels Tucson",
+    "places to stay Tucson"
+   ],
+   [
+    "Welche Museen gibt es in Louisville?",
+    "museums in Louisville",
+    "Louisville museum attractions",
+    "Louisville art history science museum"
+   ],
+   [
+    "Gute Pizzerien in Pittsburgh",
+    "pizza restaurant Pittsburgh",
+    "best pizzeria Pittsburgh",
+    "Italian pizza Pittsburgh"
+   ],
+   [
+    "Wo kann ich in Atlanta übernachten?",
+    "accommodation in Atlanta",
+    "hotels Atlanta",
+    "places to stay Atlanta"
+   ],
+   [
+    "Welche Museen gibt es in Baltimore?",
+    "museums in Baltimore",
+    "Baltimore museum attractions",
+    "Baltimore art and history museums"
+   ]
+  ],
+  "europe": [
+   [
+    "Welche Museen gibt es in Wien?",
+    "museums in Vienna",
+    "Vienna museum attractions",
+    "art and history museums Vienna"
+   ],
+   [
+    "Gute Restaurants in Wien",
+    "good restaurants in Vienna",
+    "best restaurants Vienna Austria",
+    "Vienna restaurants cuisine rating"
+   ],
+   [
+    "Wo kann ich in Rom übernachten?",
+    "accommodation in Rome",
+    "hotels Rome",
+    "places to stay Rome"
+   ],
+   [
+    "Welche Museen gibt es in Rom?",
+    "museums in Rome",
+    "Rome museums attractions",
+    "art museums Rome Italy"
+   ],
+   [
+    "Gute Restaurants in Prag",
+    "good restaurants in Prague",
+    "best restaurants Prague",
+    "Prague restaurants cuisine rating"
+   ],
+   [
+    "Wo kann ich in Prag übernachten?",
+    "accommodation in Prague",
+    "hotels in Prague",
+    "places to stay Prague"
+   ],
+   [
+    "Welche Museen gibt es in Lissabon?",
+    "museums in Lisbon",
+    "Lisbon museum attractions",
+    "art and history museums Lisbon"
+   ],
+   [
+    "Gute Restaurants in Lissabon",
+    "good restaurants in Lisbon",
+    "Lisbon restaurants",
+    "Lisbon Portuguese cuisine restaurant"
+   ],
+   [
+    "Wo kann ich in Athen übernachten?",
+    "accommodation in Athens",
+    "hotels in Athens",
+    "places to stay Athens"
+   ],
+   [
+    "Welche Museen gibt es in Athen?",
+    "museums in Athens",
+    "Athens museum attraction",
+    "Athens archaeological museum art gallery"
+   ]
+  ]
+ },
+ "translation_cost_usd": 0.001984,
+ "models": {
+  "all-MiniLM-L6-v2": {
+   "means": {
+    "paraphrase": 0.803,
+    "cross_lingual": 0.382,
+    "city_differs": 0.689,
+    "category_differs": 0.729,
+    "unrelated": 0.04
+   },
+   "gap": 0.114,
+   "pairs": {
+    "paraphrase": [
+     0.9351,
+     0.7483,
+     0.8083,
+     0.8224,
+     0.7722,
+     0.7179,
+     0.8041,
+     0.805,
+     0.8307,
+     0.7857
+    ],
+    "cross_lingual": [
+     0.6628,
+     0.029,
+     0.7062,
+     0.3277,
+     0.4596,
+     0.2867,
+     0.1216,
+     0.2291,
+     0.8407,
+     0.153
+    ],
+    "city_differs": [
+     0.7298,
+     0.7913,
+     0.7896,
+     0.6094,
+     0.7284,
+     0.6756,
+     0.9004,
+     0.3114,
+     0.6705,
+     0.6822
+    ],
+    "category_differs": [
+     0.6803,
+     0.7414,
+     0.8166,
+     0.5787,
+     0.8278,
+     0.5902,
+     0.7362,
+     0.7651,
+     0.6629,
+     0.8916
+    ],
+    "unrelated": [
+     -0.0514,
+     0.1219,
+     -0.0009,
+     0.0409,
+     0.0805,
+     0.1355,
+     0.15,
+     0.0323,
+     -0.076,
+     -0.0358
+    ]
+   },
+   "retrieval": {
+    "place_hits": 10,
+    "place_questions": 10,
+    "city_hits": 10,
+    "city_questions": 10,
+    "mean_margin": 0.3116,
+    "rows": [
+     {
+      "kind": "place",
+      "question": "Center of the Universe",
+      "first": "attraction: Center of the Universe, Tulsa",
+      "hit": true,
+      "margin": 0.4463
+     },
+     {
+      "kind": "place",
+      "question": "Man & Guitar Statue",
+      "first": "attraction: Man & Guitar Statue, Memphis",
+      "hit": true,
+      "margin": 0.33
+     },
+     {
+      "kind": "place",
+      "question": "New Mexico Museum of Natural History & Science",
+      "first": "attraction: New Mexico Museum of Natural History & Science, Albuquerque",
+      "hit": true,
+      "margin": 0.1584
+     },
+     {
+      "kind": "place",
+      "question": "USS Cod Submarine Memorial",
+      "first": "attraction: USS Cod Submarine Memorial, Cleveland",
+      "hit": true,
+      "margin": 0.2783
+     },
+     {
+      "kind": "place",
+      "question": "Mandan Park Nature Center",
+      "first": "attraction: Mandan Park Nature Center, Omaha",
+      "hit": true,
+      "margin": 0.3538
+     },
+     {
+      "kind": "place",
+      "question": "Cattletank History Wall",
+      "first": "attraction: Cattletank History Wall, Tucson",
+      "hit": true,
+      "margin": 0.5455
+     },
+     {
+      "kind": "place",
+      "question": "James Bourne Gallery",
+      "first": "attraction: James Bourne Gallery, Louisville",
+      "hit": true,
+      "margin": 0.2415
+     },
+     {
+      "kind": "place",
+      "question": "Stephen Foster Memorial",
+      "first": "attraction: Stephen Foster Memorial, Pittsburgh",
+      "hit": true,
+      "margin": 0.085
+     },
+     {
+      "kind": "place",
+      "question": "Trail Sign - Grasshopper",
+      "first": "attraction: Trail Sign - Grasshopper, Atlanta",
+      "hit": true,
+      "margin": 0.257
+     },
+     {
+      "kind": "place",
+      "question": "Marine Mammal Pavilion",
+      "first": "attraction: Marine Mammal Pavilion, Baltimore",
+      "hit": true,
+      "margin": 0.4199
+     },
+     {
+      "kind": "city",
+      "question": "museums in Tulsa",
+      "first": "attraction: Tulsa Historical Society, Tulsa",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Memphis",
+      "first": "restaurant: Happy Memphis, Memphis",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Albuquerque",
+      "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Cleveland",
+      "first": "attraction: Cleveland Hungarian Heritage Museum, Cleveland",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Omaha",
+      "first": "restaurant: LOCAL Beer Patio & Kitchen, Omaha",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Tucson",
+      "first": "accommodation: Arizona Inn, Tucson",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Louisville",
+      "first": "attraction: Kentucky Derby Museum, Louisville",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "Pizza restaurants in Pittsburgh",
+      "first": "restaurant: Pizza Bellagio, Pittsburgh",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Atlanta",
+      "first": "accommodation: Courtyard Atlanta Decatur Downtown/Emory, Atlanta",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Baltimore",
+      "first": "attraction: Maryland Center for History and Culture Museum, Baltimore",
+      "hit": true
+     }
+    ]
+   },
+   "languages": {
+    "us": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Tulsa"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Albuquerque"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Cleveland"
+        ],
+        "first": "attraction: Cleveland Hungarian Heritage Museum, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Omaha"
+        ],
+        "first": "restaurant: LOCAL Beer Patio & Kitchen, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Tucson"
+        ],
+        "first": "accommodation: Arizona Inn, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Louisville"
+        ],
+        "first": "attraction: Kentucky Derby Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Pizza restaurants in Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Bellagio, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Atlanta"
+        ],
+        "first": "accommodation: Courtyard Atlanta Decatur Downtown/Emory, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Baltimore"
+        ],
+        "first": "attraction: Maryland Center for History and Culture Museum, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 0.95,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis"
+        ],
+        "first": "restaurant: Downtown Nutrition, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha"
+        ],
+        "first": "restaurant: LOCAL Beer Patio & Kitchen, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?"
+        ],
+        "first": "accommodation: Studio 6 Tucson, AZ - Irvington Road, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?"
+        ],
+        "first": "attraction: Floyd County Historical Society Padgett Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh"
+        ],
+        "first": "restaurant: Graziano's Pizzeria, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?"
+        ],
+        "first": "accommodation: Courtyard Atlanta Decatur Downtown/Emory, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?"
+        ],
+        "first": "attraction: Maryland Center for History and Culture Museum, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 0.983,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?",
+         "museums in Tulsa",
+         "Tulsa art museum",
+         "Tulsa history museum"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis",
+         "American restaurants in Memphis",
+         "Memphis American cuisine restaurant",
+         "best rated American restaurant Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?",
+         "accommodation in Albuquerque",
+         "hotels in Albuquerque",
+         "Albuquerque lodging"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?",
+         "museums in Cleveland",
+         "Cleveland museum attractions",
+         "art and history museums Cleveland Ohio"
+        ],
+        "first": "attraction: Cleveland Museum of Natural History, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha",
+         "American restaurants in Omaha",
+         "Omaha restaurants American cuisine",
+         "best American food Omaha"
+        ],
+        "first": "restaurant: LOCAL Beer Patio & Kitchen, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?",
+         "accommodation in Tucson",
+         "hotels Tucson",
+         "places to stay Tucson"
+        ],
+        "first": "accommodation: Arizona Inn, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?",
+         "museums in Louisville",
+         "Louisville museum attractions",
+         "Louisville art history science museum"
+        ],
+        "first": "attraction: 1883 Gallery, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh",
+         "pizza restaurant Pittsburgh",
+         "best pizzeria Pittsburgh",
+         "Italian pizza Pittsburgh"
+        ],
+        "first": "restaurant: Joe Cestone's Pizzeria, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?",
+         "accommodation in Atlanta",
+         "hotels Atlanta",
+         "places to stay Atlanta"
+        ],
+        "first": "accommodation: The Westin Peachtree Plaza, Atlanta, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?",
+         "museums in Baltimore",
+         "Baltimore museum attractions",
+         "Baltimore art and history museums"
+        ],
+        "first": "attraction: Maryland Center for History and Culture Museum, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    },
+    "europe": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Vienna"
+        ],
+        "first": "attraction: Literature Museum, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Vienna"
+        ],
+        "first": "restaurant: Plain Kitchen Vienna, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Rome"
+        ],
+        "first": "accommodation: Your place by the Colosseum, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Rome"
+        ],
+        "first": "attraction: Vatican Museums, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Prague"
+        ],
+        "first": "restaurant: The Eatery, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Prague"
+        ],
+        "first": "accommodation: Simply the best location and view., Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Lisbon"
+        ],
+        "first": "attraction: Lisbon Geographical Society Museum, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Lisbon"
+        ],
+        "first": "restaurant: Restaurante Colina, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Athens"
+        ],
+        "first": "accommodation: Elegant,Charming Apartment in The Center Of Athens, Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Athens"
+        ],
+        "first": "attraction: Athens University History Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 6,
+      "kind_hits": 7,
+      "questions": 10,
+      "kind_share": 0.7,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?"
+        ],
+        "first": "attraction: Kunsthalle Wien, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien"
+        ],
+        "first": "restaurant: Gasthaus Alt Wien, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?"
+        ],
+        "first": "restaurant: Libro d'oro, Athens",
+        "right_city": false,
+        "right_kind": false
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?"
+        ],
+        "first": "attraction: Museo Carlo Bilotti Aranciera di Villa Borghese, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag"
+        ],
+        "first": "restaurant: Perdinci Bistrò, Rome",
+        "right_city": false,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?"
+        ],
+        "first": "restaurant: Prater Alm, Vienna",
+        "right_city": false,
+        "right_kind": false
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?"
+        ],
+        "first": "attraction: Museu Calouste Gulbenkian - Centro de Arte Moderna, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon"
+        ],
+        "first": "restaurant: The Eatery, Prague",
+        "right_city": false,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?"
+        ],
+        "first": "restaurant: Atlantikos, Athens",
+        "right_city": true,
+        "right_kind": false
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?"
+        ],
+        "first": "attraction: Ileana Tounta Contemporary Art Center, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 0.917,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?",
+         "museums in Vienna",
+         "Vienna museum attractions",
+         "art and history museums Vienna"
+        ],
+        "first": "attraction: Literature Museum, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien",
+         "good restaurants in Vienna",
+         "best restaurants Vienna Austria",
+         "Vienna restaurants cuisine rating"
+        ],
+        "first": "restaurant: Plain Kitchen Vienna, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?",
+         "accommodation in Rome",
+         "hotels Rome",
+         "places to stay Rome"
+        ],
+        "first": "accommodation: Central cozy room, private bathroom inside, Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?",
+         "museums in Rome",
+         "Rome museums attractions",
+         "art museums Rome Italy"
+        ],
+        "first": "attraction: MACRO - Museo d'Arte Contemporanea di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag",
+         "good restaurants in Prague",
+         "best restaurants Prague",
+         "Prague restaurants cuisine rating"
+        ],
+        "first": "restaurant: The Eatery, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?",
+         "accommodation in Prague",
+         "hotels in Prague",
+         "places to stay Prague"
+        ],
+        "first": "accommodation: Simply the best location and view., Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?",
+         "museums in Lisbon",
+         "Lisbon museum attractions",
+         "art and history museums Lisbon"
+        ],
+        "first": "attraction: Museum of Popular Art, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon",
+         "good restaurants in Lisbon",
+         "Lisbon restaurants",
+         "Lisbon Portuguese cuisine restaurant"
+        ],
+        "first": "restaurant: Restaurante Colina, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?",
+         "accommodation in Athens",
+         "hotels in Athens",
+         "places to stay Athens"
+        ],
+        "first": "accommodation: Elegant,Charming Apartment in The Center Of Athens, Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?",
+         "museums in Athens",
+         "Athens museum attraction",
+         "Athens archaeological museum art gallery"
+        ],
+        "first": "attraction: Athens University History Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    }
+   },
+   "tokens": 0,
+   "cost_usd": 0.0
+  },
+  "openai/text-embedding-3-small": {
+   "means": {
+    "paraphrase": 0.796,
+    "cross_lingual": 0.672,
+    "city_differs": 0.69,
+    "category_differs": 0.768,
+    "unrelated": 0.091
+   },
+   "gap": 0.106,
+   "pairs": {
+    "paraphrase": [
+     0.8262,
+     0.8032,
+     0.8381,
+     0.8021,
+     0.7732,
+     0.8097,
+     0.7207,
+     0.7835,
+     0.8505,
+     0.7524
+    ],
+    "cross_lingual": [
+     0.8276,
+     0.4792,
+     0.9468,
+     0.6079,
+     0.8653,
+     0.5525,
+     0.7657,
+     0.3792,
+     0.8072,
+     0.4868
+    ],
+    "city_differs": [
+     0.722,
+     0.7358,
+     0.6418,
+     0.6747,
+     0.6803,
+     0.7062,
+     0.7548,
+     0.5824,
+     0.6932,
+     0.7121
+    ],
+    "category_differs": [
+     0.6894,
+     0.8195,
+     0.8384,
+     0.7117,
+     0.7955,
+     0.5305,
+     0.7399,
+     0.824,
+     0.8349,
+     0.8938
+    ],
+    "unrelated": [
+     0.0685,
+     0.124,
+     0.0438,
+     0.1294,
+     0.0735,
+     0.1112,
+     0.1611,
+     0.0858,
+     0.081,
+     0.0315
+    ]
+   },
+   "retrieval": {
+    "place_hits": 10,
+    "place_questions": 10,
+    "city_hits": 10,
+    "city_questions": 10,
+    "mean_margin": 0.2836,
+    "rows": [
+     {
+      "kind": "place",
+      "question": "Center of the Universe",
+      "first": "attraction: Center of the Universe, Tulsa",
+      "hit": true,
+      "margin": 0.3492
+     },
+     {
+      "kind": "place",
+      "question": "Man & Guitar Statue",
+      "first": "attraction: Man & Guitar Statue, Memphis",
+      "hit": true,
+      "margin": 0.3919
+     },
+     {
+      "kind": "place",
+      "question": "New Mexico Museum of Natural History & Science",
+      "first": "attraction: New Mexico Museum of Natural History & Science, Albuquerque",
+      "hit": true,
+      "margin": 0.1655
+     },
+     {
+      "kind": "place",
+      "question": "USS Cod Submarine Memorial",
+      "first": "attraction: USS Cod Submarine Memorial, Cleveland",
+      "hit": true,
+      "margin": 0.3475
+     },
+     {
+      "kind": "place",
+      "question": "Mandan Park Nature Center",
+      "first": "attraction: Mandan Park Nature Center, Omaha",
+      "hit": true,
+      "margin": 0.2903
+     },
+     {
+      "kind": "place",
+      "question": "Cattletank History Wall",
+      "first": "attraction: Cattletank History Wall, Tucson",
+      "hit": true,
+      "margin": 0.4519
+     },
+     {
+      "kind": "place",
+      "question": "James Bourne Gallery",
+      "first": "attraction: James Bourne Gallery, Louisville",
+      "hit": true,
+      "margin": 0.2567
+     },
+     {
+      "kind": "place",
+      "question": "Stephen Foster Memorial",
+      "first": "attraction: Stephen Foster Memorial, Pittsburgh",
+      "hit": true,
+      "margin": 0.0336
+     },
+     {
+      "kind": "place",
+      "question": "Trail Sign - Grasshopper",
+      "first": "attraction: Trail Sign - Grasshopper, Atlanta",
+      "hit": true,
+      "margin": 0.2019
+     },
+     {
+      "kind": "place",
+      "question": "Marine Mammal Pavilion",
+      "first": "attraction: Marine Mammal Pavilion, Baltimore",
+      "hit": true,
+      "margin": 0.3474
+     },
+     {
+      "kind": "city",
+      "question": "museums in Tulsa",
+      "first": "attraction: Tulsa Historical Society, Tulsa",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Memphis",
+      "first": "restaurant: Happy Memphis, Memphis",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Albuquerque",
+      "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Cleveland",
+      "first": "attraction: Museum of Contemporary Art Cleveland, Cleveland",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Omaha",
+      "first": "restaurant: Great American Grille, Omaha",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Tucson",
+      "first": "accommodation: TownePlace Suites Tucson, Tucson",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Louisville",
+      "first": "attraction: Kentucky Derby Museum, Louisville",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "Pizza restaurants in Pittsburgh",
+      "first": "restaurant: Pizza Fiesta, Pittsburgh",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Atlanta",
+      "first": "accommodation: Element Atlanta Midtown, Atlanta",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Baltimore",
+      "first": "attraction: Baltimore Museum of Art, Baltimore",
+      "hit": true
+     }
+    ]
+   },
+   "languages": {
+    "us": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Tulsa"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Albuquerque"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Cleveland"
+        ],
+        "first": "attraction: Museum of Contemporary Art Cleveland, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Omaha"
+        ],
+        "first": "restaurant: Great American Grille, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Tucson"
+        ],
+        "first": "accommodation: TownePlace Suites Tucson, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Louisville"
+        ],
+        "first": "attraction: Kentucky Derby Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Pizza restaurants in Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Fiesta, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Atlanta"
+        ],
+        "first": "accommodation: Element Atlanta Midtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Baltimore"
+        ],
+        "first": "attraction: Baltimore Museum of Art, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha"
+        ],
+        "first": "restaurant: Great American Grille, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?"
+        ],
+        "first": "accommodation: Travelodge Tucson, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?"
+        ],
+        "first": "attraction: Kentucky Derby Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Hut, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?"
+        ],
+        "first": "accommodation: Hyatt Place Atlanta/Downtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?"
+        ],
+        "first": "attraction: Baltimore Tattoo Museum, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?",
+         "museums in Tulsa",
+         "Tulsa art museum",
+         "Tulsa history museum"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis",
+         "American restaurants in Memphis",
+         "Memphis American cuisine restaurant",
+         "best rated American restaurant Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?",
+         "accommodation in Albuquerque",
+         "hotels in Albuquerque",
+         "Albuquerque lodging"
+        ],
+        "first": "accommodation: ARRIVE Albuquerque, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?",
+         "museums in Cleveland",
+         "Cleveland museum attractions",
+         "art and history museums Cleveland Ohio"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha",
+         "American restaurants in Omaha",
+         "Omaha restaurants American cuisine",
+         "best American food Omaha"
+        ],
+        "first": "restaurant: Great American Grille, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?",
+         "accommodation in Tucson",
+         "hotels Tucson",
+         "places to stay Tucson"
+        ],
+        "first": "accommodation: TownePlace Suites Tucson, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?",
+         "museums in Louisville",
+         "Louisville museum attractions",
+         "Louisville art history science museum"
+        ],
+        "first": "attraction: 1883 Gallery, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh",
+         "pizza restaurant Pittsburgh",
+         "best pizzeria Pittsburgh",
+         "Italian pizza Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Italia, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?",
+         "accommodation in Atlanta",
+         "hotels Atlanta",
+         "places to stay Atlanta"
+        ],
+        "first": "accommodation: Element Atlanta Midtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?",
+         "museums in Baltimore",
+         "Baltimore museum attractions",
+         "Baltimore art and history museums"
+        ],
+        "first": "attraction: Baltimore Museum of Art, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    },
+    "europe": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Vienna"
+        ],
+        "first": "attraction: MUSA, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Vienna"
+        ],
+        "first": "restaurant: Plain Kitchen Vienna, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Rome"
+        ],
+        "first": "accommodation: Single room in the center of Rome, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Rome"
+        ],
+        "first": "attraction: Museo di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Prague"
+        ],
+        "first": "restaurant: The Eatery, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Prague"
+        ],
+        "first": "accommodation: Comfortable, separate room near a park, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Lisbon"
+        ],
+        "first": "attraction: Museu do Oriente, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Lisbon"
+        ],
+        "first": "restaurant: This is a Restaurant, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Athens"
+        ],
+        "first": "accommodation: Athens Boutique Pod (Syntagma Square), Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Athens"
+        ],
+        "first": "attraction: Athens Olympic Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?"
+        ],
+        "first": "attraction: Wiener Kriminalmuseum, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien"
+        ],
+        "first": "restaurant: Weinschenke, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?"
+        ],
+        "first": "accommodation: Single room in the center of Rome, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?"
+        ],
+        "first": "attraction: Museo Nazionale Romano, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag"
+        ],
+        "first": "restaurant: Plzeňská restaurace, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?"
+        ],
+        "first": "accommodation: In the heart of historic Prague, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?"
+        ],
+        "first": "attraction: Lisbon Geographical Society Museum, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon"
+        ],
+        "first": "restaurant: Monte Mar Lisboa, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?"
+        ],
+        "first": "accommodation: Athens Boutique Pod (Syntagma Square), Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?"
+        ],
+        "first": "attraction: Athens Olympic Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?",
+         "museums in Vienna",
+         "Vienna museum attractions",
+         "art and history museums Vienna"
+        ],
+        "first": "attraction: Weltmuseum, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien",
+         "good restaurants in Vienna",
+         "best restaurants Vienna Austria",
+         "Vienna restaurants cuisine rating"
+        ],
+        "first": "restaurant: Gasthaus Alt Wien, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?",
+         "accommodation in Rome",
+         "hotels Rome",
+         "places to stay Rome"
+        ],
+        "first": "accommodation: Single room in the center of Rome, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?",
+         "museums in Rome",
+         "Rome museums attractions",
+         "art museums Rome Italy"
+        ],
+        "first": "attraction: Museo di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag",
+         "good restaurants in Prague",
+         "best restaurants Prague",
+         "Prague restaurants cuisine rating"
+        ],
+        "first": "restaurant: Plzeňská restaurace, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?",
+         "accommodation in Prague",
+         "hotels in Prague",
+         "places to stay Prague"
+        ],
+        "first": "accommodation: In the heart of historic Prague, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?",
+         "museums in Lisbon",
+         "Lisbon museum attractions",
+         "art and history museums Lisbon"
+        ],
+        "first": "attraction: Lisbon Geographical Society Museum, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon",
+         "good restaurants in Lisbon",
+         "Lisbon restaurants",
+         "Lisbon Portuguese cuisine restaurant"
+        ],
+        "first": "restaurant: Monte Mar Lisboa, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?",
+         "accommodation in Athens",
+         "hotels in Athens",
+         "places to stay Athens"
+        ],
+        "first": "accommodation: Athens Boutique Pod (Syntagma Square), Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?",
+         "museums in Athens",
+         "Athens museum attraction",
+         "Athens archaeological museum art gallery"
+        ],
+        "first": "attraction: Athens Olympic Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    }
+   },
+   "tokens": 179304,
+   "cost_usd": 0.003586
+  },
+  "openai/text-embedding-3-large": {
+   "means": {
+    "paraphrase": 0.796,
+    "cross_lingual": 0.732,
+    "city_differs": 0.699,
+    "category_differs": 0.74,
+    "unrelated": 0.088
+   },
+   "gap": 0.097,
+   "pairs": {
+    "paraphrase": [
+     0.7991,
+     0.8553,
+     0.8446,
+     0.8122,
+     0.7769,
+     0.803,
+     0.7679,
+     0.7379,
+     0.8247,
+     0.7414
+    ],
+    "cross_lingual": [
+     0.82,
+     0.6311,
+     0.9085,
+     0.6558,
+     0.8218,
+     0.6668,
+     0.7211,
+     0.6284,
+     0.7793,
+     0.6897
+    ],
+    "city_differs": [
+     0.7318,
+     0.7263,
+     0.6728,
+     0.7105,
+     0.7048,
+     0.6645,
+     0.7856,
+     0.5924,
+     0.6427,
+     0.7618
+    ],
+    "category_differs": [
+     0.6661,
+     0.7716,
+     0.7856,
+     0.6422,
+     0.7876,
+     0.5548,
+     0.6895,
+     0.8475,
+     0.7633,
+     0.8892
+    ],
+    "unrelated": [
+     0.089,
+     0.068,
+     0.0499,
+     0.1236,
+     0.0833,
+     0.1331,
+     0.0852,
+     0.0595,
+     0.1147,
+     0.0698
+    ]
+   },
+   "retrieval": {
+    "place_hits": 10,
+    "place_questions": 10,
+    "city_hits": 10,
+    "city_questions": 10,
+    "mean_margin": 0.2735,
+    "rows": [
+     {
+      "kind": "place",
+      "question": "Center of the Universe",
+      "first": "attraction: Center of the Universe, Tulsa",
+      "hit": true,
+      "margin": 0.3566
+     },
+     {
+      "kind": "place",
+      "question": "Man & Guitar Statue",
+      "first": "attraction: Man & Guitar Statue, Memphis",
+      "hit": true,
+      "margin": 0.3593
+     },
+     {
+      "kind": "place",
+      "question": "New Mexico Museum of Natural History & Science",
+      "first": "attraction: New Mexico Museum of Natural History & Science, Albuquerque",
+      "hit": true,
+      "margin": 0.1968
+     },
+     {
+      "kind": "place",
+      "question": "USS Cod Submarine Memorial",
+      "first": "attraction: USS Cod Submarine Memorial, Cleveland",
+      "hit": true,
+      "margin": 0.2781
+     },
+     {
+      "kind": "place",
+      "question": "Mandan Park Nature Center",
+      "first": "attraction: Mandan Park Nature Center, Omaha",
+      "hit": true,
+      "margin": 0.3122
+     },
+     {
+      "kind": "place",
+      "question": "Cattletank History Wall",
+      "first": "attraction: Cattletank History Wall, Tucson",
+      "hit": true,
+      "margin": 0.4036
+     },
+     {
+      "kind": "place",
+      "question": "James Bourne Gallery",
+      "first": "attraction: James Bourne Gallery, Louisville",
+      "hit": true,
+      "margin": 0.3263
+     },
+     {
+      "kind": "place",
+      "question": "Stephen Foster Memorial",
+      "first": "attraction: Stephen Foster Memorial, Pittsburgh",
+      "hit": true,
+      "margin": 0.0082
+     },
+     {
+      "kind": "place",
+      "question": "Trail Sign - Grasshopper",
+      "first": "attraction: Trail Sign - Grasshopper, Atlanta",
+      "hit": true,
+      "margin": 0.1989
+     },
+     {
+      "kind": "place",
+      "question": "Marine Mammal Pavilion",
+      "first": "attraction: Marine Mammal Pavilion, Baltimore",
+      "hit": true,
+      "margin": 0.2945
+     },
+     {
+      "kind": "city",
+      "question": "museums in Tulsa",
+      "first": "attraction: Tulsa Historical Society, Tulsa",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Memphis",
+      "first": "restaurant: Happy Memphis, Memphis",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Albuquerque",
+      "first": "accommodation: SureStay by Best Western Albuquerque Midtown, Albuquerque",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Cleveland",
+      "first": "attraction: Cleveland Museum of Art, Cleveland",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "American restaurants in Omaha",
+      "first": "restaurant: Omaha Prime, Omaha",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Tucson",
+      "first": "accommodation: TownePlace Suites Tucson, Tucson",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Louisville",
+      "first": "attraction: Portland Museum, Louisville",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "Pizza restaurants in Pittsburgh",
+      "first": "restaurant: Pizza Hut, Pittsburgh",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "a place to stay in Atlanta",
+      "first": "accommodation: Element Atlanta Midtown, Atlanta",
+      "hit": true
+     },
+     {
+      "kind": "city",
+      "question": "museums in Baltimore",
+      "first": "attraction: Baltimore Museum of Art, Baltimore",
+      "hit": true
+     }
+    ]
+   },
+   "languages": {
+    "us": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Tulsa"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Albuquerque"
+        ],
+        "first": "accommodation: SureStay by Best Western Albuquerque Midtown, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Cleveland"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "American restaurants in Omaha"
+        ],
+        "first": "restaurant: Omaha Prime, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Tucson"
+        ],
+        "first": "accommodation: TownePlace Suites Tucson, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Louisville"
+        ],
+        "first": "attraction: Portland Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Pizza restaurants in Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Hut, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Atlanta"
+        ],
+        "first": "accommodation: Element Atlanta Midtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Baltimore"
+        ],
+        "first": "attraction: Baltimore Museum of Art, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?"
+        ],
+        "first": "attraction: Philbrook Museum of Art, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?"
+        ],
+        "first": "accommodation: Super 8 by Wyndham Albuquerque Downtown, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha"
+        ],
+        "first": "restaurant: Great American Grille, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?"
+        ],
+        "first": "accommodation: Comfort Suites at Tucson Mall, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?"
+        ],
+        "first": "attraction: Portland Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Italia, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?"
+        ],
+        "first": "accommodation: Aloft Atlanta Downtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?"
+        ],
+        "first": "attraction: Baltimore Museum of Art, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Tulsa?",
+         "museums in Tulsa",
+         "Tulsa art museum",
+         "Tulsa history museum"
+        ],
+        "first": "attraction: Tulsa Historical Society, Tulsa",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Memphis",
+         "American restaurants in Memphis",
+         "Memphis American cuisine restaurant",
+         "best rated American restaurant Memphis"
+        ],
+        "first": "restaurant: Happy Memphis, Memphis",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Albuquerque übernachten?",
+         "accommodation in Albuquerque",
+         "hotels in Albuquerque",
+         "Albuquerque lodging"
+        ],
+        "first": "accommodation: Super 8 by Wyndham Albuquerque Downtown, Albuquerque",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Cleveland?",
+         "museums in Cleveland",
+         "Cleveland museum attractions",
+         "art and history museums Cleveland Ohio"
+        ],
+        "first": "attraction: Cleveland Museum of Art, Cleveland",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute amerikanische Restaurants in Omaha",
+         "American restaurants in Omaha",
+         "Omaha restaurants American cuisine",
+         "best American food Omaha"
+        ],
+        "first": "restaurant: Great American Grille, Omaha",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Tucson übernachten?",
+         "accommodation in Tucson",
+         "hotels Tucson",
+         "places to stay Tucson"
+        ],
+        "first": "accommodation: Comfort Suites at Tucson Mall, Tucson",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Louisville?",
+         "museums in Louisville",
+         "Louisville museum attractions",
+         "Louisville art history science museum"
+        ],
+        "first": "attraction: Portland Museum, Louisville",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Pizzerien in Pittsburgh",
+         "pizza restaurant Pittsburgh",
+         "best pizzeria Pittsburgh",
+         "Italian pizza Pittsburgh"
+        ],
+        "first": "restaurant: Pizza Italia, Pittsburgh",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Atlanta übernachten?",
+         "accommodation in Atlanta",
+         "hotels Atlanta",
+         "places to stay Atlanta"
+        ],
+        "first": "accommodation: Element Atlanta Midtown, Atlanta",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Baltimore?",
+         "museums in Baltimore",
+         "Baltimore museum attractions",
+         "Baltimore art and history museums"
+        ],
+        "first": "attraction: Baltimore Museum of Art, Baltimore",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    },
+    "europe": {
+     "english": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "museums in Vienna"
+        ],
+        "first": "attraction: Museum of Science, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Vienna"
+        ],
+        "first": "restaurant: Citrus Vienna, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Rome"
+        ],
+        "first": "accommodation: THE PLACE TO A SWEET ROMAN HOLIDAY, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Rome"
+        ],
+        "first": "attraction: Museo di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Prague"
+        ],
+        "first": "restaurant: Plzeňská restaurace, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Prague"
+        ],
+        "first": "accommodation: The BEST place in Prague - Old Town, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Lisbon"
+        ],
+        "first": "attraction: Museu do Oriente, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "restaurants in Lisbon"
+        ],
+        "first": "restaurant: Lisboa Tu e Eu, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "a place to stay in Athens"
+        ],
+        "first": "accommodation: Let me Athens you!, Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "museums in Athens"
+        ],
+        "first": "attraction: Museum of the City of Athens, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?"
+        ],
+        "first": "attraction: Wien Museum Karlsplatz, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien"
+        ],
+        "first": "restaurant: Oben, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?"
+        ],
+        "first": "accommodation: In the heart of Rome gorgeous house, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?"
+        ],
+        "first": "attraction: Museo di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag"
+        ],
+        "first": "restaurant: U dobré myšlenky, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?"
+        ],
+        "first": "accommodation: In the heart of historic Prague, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?"
+        ],
+        "first": "attraction: Museu do Oriente, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon"
+        ],
+        "first": "restaurant: Lisboa Tu e Eu, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?"
+        ],
+        "first": "accommodation: One block away from the Akropolis., Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?"
+        ],
+        "first": "attraction: National Archaeological Museum, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     },
+     "german_translated": {
+      "city_hits": 10,
+      "kind_hits": 10,
+      "questions": 10,
+      "kind_share": 1.0,
+      "rows": [
+       {
+        "searches": [
+         "Welche Museen gibt es in Wien?",
+         "museums in Vienna",
+         "Vienna museum attractions",
+         "art and history museums Vienna"
+        ],
+        "first": "attraction: Museum of Art History, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Wien",
+         "good restaurants in Vienna",
+         "best restaurants Vienna Austria",
+         "Vienna restaurants cuisine rating"
+        ],
+        "first": "restaurant: Oben, Vienna",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Rom übernachten?",
+         "accommodation in Rome",
+         "hotels Rome",
+         "places to stay Rome"
+        ],
+        "first": "accommodation: Central cozy room, private bathroom inside, Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Rom?",
+         "museums in Rome",
+         "Rome museums attractions",
+         "art museums Rome Italy"
+        ],
+        "first": "attraction: Museo di Roma, Rome",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Prag",
+         "good restaurants in Prague",
+         "best restaurants Prague",
+         "Prague restaurants cuisine rating"
+        ],
+        "first": "restaurant: Lokal, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Prag übernachten?",
+         "accommodation in Prague",
+         "hotels in Prague",
+         "places to stay Prague"
+        ],
+        "first": "accommodation: The BEST place in Prague - Old Town, Prague",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Lissabon?",
+         "museums in Lisbon",
+         "Lisbon museum attractions",
+         "art and history museums Lisbon"
+        ],
+        "first": "attraction: Museum of Popular Art, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Gute Restaurants in Lissabon",
+         "good restaurants in Lisbon",
+         "Lisbon restaurants",
+         "Lisbon Portuguese cuisine restaurant"
+        ],
+        "first": "restaurant: Lisboa Tu e Eu, Lisbon",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Wo kann ich in Athen übernachten?",
+         "accommodation in Athens",
+         "hotels in Athens",
+         "places to stay Athens"
+        ],
+        "first": "accommodation: Athens Boutique Pod (Syntagma Square), Athens",
+        "right_city": true,
+        "right_kind": true
+       },
+       {
+        "searches": [
+         "Welche Museen gibt es in Athen?",
+         "museums in Athens",
+         "Athens museum attraction",
+         "Athens archaeological museum art gallery"
+        ],
+        "first": "attraction: Museum of the City of Athens, Athens",
+        "right_city": true,
+        "right_kind": true
+       }
+      ]
+     }
+    }
+   },
+   "tokens": 179304,
+   "cost_usd": 0.02331
+  }
+ }
+}
