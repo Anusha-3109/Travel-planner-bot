@@ -34,6 +34,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 | **Benchmarks** | The evaluation results: retrieval strategies, RAGAS answer scores per model, a comparison of three RAGAS judges (dot plot or table), how stable the scores are between runs, and trip-plan pass rates. |
 | **How it answers** | How a question becomes an answer, the tools, the knowledge base (with a free search box), data sources, costing rules and safety checks. |
 | **Settings** | The answer model (Claude Haiku 5.5, OpenAI GPT-6 Luna or Google Gemini 3.7 Flash), currency, chat export, deleting history, rebuilding the knowledge base. |
+| **Light or dark** | Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu at the top right: **⋮ → System, Light or Dark** (System follows your computer). The switch takes effect at once and is remembered in your browser. |
 
 Chats are saved on your computer (`.history/`), so a refresh or restart keeps them. Example questions:
 
@@ -277,10 +278,10 @@ travel-planner-bot/
 | Folder | What's in it |
 |---|---|
 | [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
-| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, the theme's colours for charts and maps (`palette.py`), shared session state and labels |
-| [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, `theme.css`) and `render.py`, which fills them in |
+| [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, both themes' colours for charts, maps and the flow diagram (`palette.py`), shared session state and labels |
+| [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, and `theme.css`, whose colours follow the light or dark theme) and `render.py`, which fills them in |
 | [`frontend/assets/`](frontend/assets) | The logo |
-| [`.streamlit/config.toml`](.streamlit/config.toml) | The Graphite amber theme (graphite background, amber accent, 14px text) and where secrets are read from |
+| [`.streamlit/config.toml`](.streamlit/config.toml) | The two themes, Graphite amber (dark) and Light amber, with compact 14px text, and where secrets are read from |
 
 ### Backend (the logic)
 
