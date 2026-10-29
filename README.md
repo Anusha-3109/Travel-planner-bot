@@ -20,6 +20,7 @@ The Sprint 2 task description is in [`125.md`](125.md).
 - [Deployment](#deployment)
 - [Evaluation](#evaluation)
 - [Costs and limits](#costs-and-limits)
+- [Accounts](#accounts)
 - [Security](#security)
 - [Tests](#tests)
 - [Project structure](#project-structure)
@@ -177,20 +178,20 @@ streamlit run app.py
 
 Open <http://localhost:8501>. On the first start the app downloads a small embedding model (about 80 MB) and indexes the places into `.chroma/`; later starts only add new places and replace places whose description changed. To rebuild the index yourself, run `python -m backend.rag.ingest`.
 
-Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered models are listed in `backend/config.py`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`, and for a deployed copy `APP_PASSWORD` (a password screen before the app opens) and `HISTORY_DIR` (where the saved chats and trips are kept).
+Other settings in `.env`: `OPENROUTER_MODEL` (the default model; the offered models are listed in `backend/config.py`), `SESSION_SERPAPI_LIMIT` and `SESSION_GOOGLE_LIMIT` (live calls allowed per chat, default 20 and 60), `LIVE_TIMEOUT_SECONDS`, and for a deployed copy `APP_PASSWORD` (a password screen before the app opens) and `HISTORY_DIR` (where the saved chats and trips are kept). For password accounts (see [Accounts](#accounts)): `PASSWORD_ACCOUNTS=1` turns them on without Google sign-in (for example to try them on your computer), and the optional `BREVO_API_KEY`, `MAIL_FROM` and `APP_URL` send the confirm and reset emails.
 
 ## Deployment
 
-TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app>. You sign in with your Google account, and you see only your own chats, trips, expenses, packing lists, journal and documents. Sign-in is limited to the test users the author has added, so ask the author to add your Google email. Before sign-in is set up, the deployed copy asks for a password instead (`APP_PASSWORD`).
+TripMate runs on **Google Cloud Run**: <https://tripmate-6d5rna4tra-ew.a.run.app>. You sign in with your Google account or with a TripMate account (a username or email and a password, see [Accounts](#accounts)), and you see only your own chats, trips, expenses, packing lists, journal and documents. Google sign-in is limited to the test users the author has added, so ask the author to add your Google email, or create a TripMate account. Before sign-in is set up, the deployed copy asks for a password instead (`APP_PASSWORD`).
 
 | Part | How it's set up |
 |---|---|
 | Image | [`Dockerfile`](Dockerfile): Python 3.12, the app and the 2026 city files, and the knowledge base built into the image, so a cold start doesn't re-embed 54,309 places. [`.dockerignore`](.dockerignore) keeps `.env`, local state, tests and the evaluation data out of it |
 | Registry | Artifact Registry, `europe-west1-docker.pkg.dev/<project>/tripmate/app` |
 | Service | Cloud Run `tripmate` in `europe-west1`: 1 CPU, 2 GiB, at most 1 instance, session affinity for Streamlit's connection, scales to zero when unused |
-| Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY` and `APP_PASSWORD` in Secret Manager, passed in as environment variables; never in the image or the repository |
+| Keys | `OPENROUTER_API_KEY`, `SERPAPI_API_KEY`, `GOOGLE_MAPS_API_KEY`, `APP_PASSWORD` and, once emails are set up, `BREVO_API_KEY` in Secret Manager, passed in as environment variables; never in the image or the repository |
 | Saved chats and trips | A Cloud Storage bucket mounted at `/mnt/history` (`HISTORY_DIR`), so they survive restarts. At most one instance writes to the SQLite file |
-| Sign-in | Streamlit's built-in Google sign-in (`st.login`). Its settings (`[auth]`: client id and secret, cookie secret, redirect address) are a Secret Manager secret mounted as `/secrets/streamlit/secrets.toml`, which `.streamlit/config.toml` lists as a secrets file. `OWNER_EMAIL` names the author, whose first sign-in takes over everything saved before sign-in |
+| Sign-in | Streamlit's built-in Google sign-in (`st.login`). Its settings (`[auth]`: client id and secret, cookie secret, redirect address) are a Secret Manager secret mounted as `/secrets/streamlit/secrets.toml`, which `.streamlit/config.toml` lists as a secrets file. `OWNER_EMAIL` names the author, whose first sign-in takes over everything saved before sign-in. Password accounts are offered next to Google; their hashes and tokens are in the same SQLite file in the bucket |
 
 **Every push to `main` deploys automatically.** After the tests pass, [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the image, tags it with the commit id, pushes it and deploys it, so the live link shows the new version about 40 minutes later (most of that is building the knowledge base into the image). GitHub signs in to Google Cloud with Workload Identity Federation: there's no key file, and Google Cloud accepts only this repository's `main` branch. The deploy account (`github-deployer`) can push images and deploy, but can't read the secrets. Copies of the repository run the tests and skip the deploy.
 
@@ -231,6 +232,22 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **Google Maps:** restaurant and route requests are small and covered by Google's free monthly allowance at this scale; each chat is limited to 60.
 - **Languages:** a German answer costs the same as an English one: a German question in Explore mode cost about $0.0016 and a full German trip plan (Berlin to Vienna, 3 nights for 2) about $0.02–0.03 with Claude Haiku 5.5.
 
+## Accounts
+
+TripMate has two ways to sign in, on one screen: a **TripMate account** (a username or email address and a password) and **Continue with Google**. Both lead to the same data: a person's chats and trips belong to a hash of their email, so the same email through Google or a password is one person. The screen also has sign-up, "Forgot your password?", "Remember me" and an English/Deutsch switch.
+
+| Step | What happens |
+|---|---|
+| Sign up | A username (3 to 30 letters, digits, dots, dashes or underscores), an email and a password typed twice (at least 10 characters). Usernames and emails are unique in any letter case |
+| Confirm the email | The account can sign in only once its email is confirmed: through a link emailed to it (valid 24 hours), or, while emails aren't set up, by the owner in Settings ("Accounts waiting for confirmation", shown only to `OWNER_EMAIL`) or in a terminal with `python -m backend.accounts waiting` and `python -m backend.accounts confirm <username or email>`. Without this, anyone could sign up with someone else's email and see that person's chats and trips |
+| Sign in | By username or email. A wrong name and a wrong password both say "Wrong username, email or password" and take the same time. After 5 wrong tries the account waits 15 minutes |
+| Remember me | Ticked: a random token in a cookie keeps you signed in on that browser for 30 days. Not ticked: you're signed in until you close the tab. Sign-out deletes the token, so the cookie stops working |
+| Forgot your password? | Emails a link to choose a new password. The link works once, for 30 minutes, and the page says the same whether or not the email has an account. Choosing a new password signs you out on other browsers. At most one reset email every 2 minutes |
+
+**How it's stored.** `backend/accounts/accounts.py` keeps accounts, wrong tries and tokens in the same SQLite file as the chats. A password is stored only as a salted [scrypt](https://docs.python.org/3/library/hashlib.html#hashlib.scrypt) hash (`backend/accounts/passwords.py`), never the password itself, and checked in constant time. Remember-me cookies and emailed links are random tokens; only their sha256 hash is stored, so a copy of the database can't be used to sign in. Streamlit can read cookies but not set them, so a tiny custom component (`frontend/components/cookie.py`) sets and deletes the remember-me cookie with one line of JavaScript.
+
+**Emails** go through [Brevo](https://www.brevo.com)'s free plan (300 emails a day). To turn them on, create an API key and verify a sender address in Brevo, then set `BREVO_API_KEY` and `MAIL_FROM` (and on Cloud Run `APP_URL`, the app's address, for the links). Until then, new accounts wait for the owner, and "Forgot your password?" says to ask the owner. The owner can then make a one-time reset link in a terminal with `python -m backend.accounts reset-link <username or email>` (it uses `APP_URL`, or http://localhost:8501) and pass it on.
+
 ## Security
 
 - **Keys** live only in `.env` (git-ignored), are sent in request headers or separate parameters, are never cached, and are replaced with `[hidden key]` in every log line, traceback and error message (`backend/security/redaction.py`). A test scans every committed file for key patterns.
@@ -238,7 +255,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 - **Tool results** (listing names, place descriptions and other outside text) are screened before the model reads them: instruction-like text is removed, only http(s) links are kept and long text is trimmed (`backend/security/tool_output.py`).
 - **Tool inputs** chosen by the model are validated like user input: cities, dates, people, prices, ratings, cuisines, place names and plan structure.
 - **Limits:** a per-session message rate limit, per-chat live-call limits, at most 10 agent steps per answer, and clear limits for Google Flights (9 passengers) and Airbnb (16 guests).
-- **Accounts:** Google sign-in, so TripMate never stores a password; each user's chats, trips, request log and documents are reached only through their own owner id, and a test opens another user's trip link to check it shows nothing.
+- **Accounts:** Google sign-in, or a TripMate account whose password is stored only as a salted scrypt hash and checked in constant time. A wrong name and a wrong password get the same answer and take the same time, and 5 wrong tries lock the account for 15 minutes. Remember-me cookies and emailed links are random tokens of which only a hash is stored; reset links work once, for 30 minutes. An account can sign in only after its email is confirmed, because it shares that email's data with Google sign-in. Each user's chats, trips, request log and documents are reached only through their own owner id, and a test opens another user's trip link to check it shows nothing. Details in [Accounts](#accounts).
 - **Uploads:** documents and photos are kept only if their first bytes are a PDF, PNG, JPEG or WebP and they're up to 5 MB; file names are cleaned so they can't point to another folder.
 - **HTML:** answers never render raw HTML; the HTML parts in `frontend/html/` escape every value they show and only link to http(s) addresses.
 
@@ -248,7 +265,7 @@ uv pip install --python .venv-eval/Scripts/python.exe -r requirements.txt -r req
 python -m pytest -q
 ```
 
-311 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+357 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, password accounts (hashing, sign-up checks, sign-in by name or email, the lockout, remember-me and one-time reset links, and the sign-in pages), the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
@@ -285,7 +302,7 @@ travel-planner-bot/
 
 | Folder | What's in it |
 |---|---|
-| [`frontend/pages/`](frontend/pages) | Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
+| [`frontend/pages/`](frontend/pages) | Sign-in (with sign-up and password reset), Chat, My trips and the trip page, Dashboard, Benchmarks, How it answers, Settings pop-up |
 | [`frontend/i18n.py`](frontend/i18n.py) | Every interface text in English and German, and the language chosen in Settings |
 | [`frontend/components/`](frontend/components) | Sidebar, result cards, trip form and examples, the trip page's Budget, Packing, Journal and Documents tabs, both themes' colours for charts, maps and the flow diagram (`palette.py`), shared session state and labels |
 | [`frontend/html/`](frontend/html) | Parts written in HTML and CSS (`hero.html`, `timeline.html`, and `theme.css`, whose colours follow the light or dark theme) and `render.py`, which fills them in |
@@ -302,6 +319,7 @@ travel-planner-bot/
 | [`backend/rag/`](backend/rag) | Chroma store, indexing and retrieval |
 | [`backend/security/`](backend/security) | Input checks, rate limits, key redaction, tool output screening |
 | [`backend/travel_data/`](backend/travel_data) | Catalog of the 2026 city files, city download script, TravelPlanner download |
+| [`backend/accounts/`](backend/accounts) | Password accounts: hashing, sign-up and sign-in checks, the lockout, remember-me and emailed tokens, and the emails |
 | [`backend/storage/`](backend/storage) | Saved chats, request log, trips and what's added to them (expenses, packing, journal, documents) |
 | [`backend/config.py`](backend/config.py) | Keys, models, limits, cache times, paths |
 
@@ -328,7 +346,7 @@ travel-planner-bot/
 - **Model accuracy:** the model occasionally adds a detail the data doesn't contain. Tools supply all prices, ids and links to keep this to the text.
 - **Languages:** English and German only. Benchmarks, Dashboard, How it answers and the trip pages are in English, and texts from the tools (such as "per person" on the cards) stay in English; the written answer translates them. Amounts keep the English number format (EUR 742.80). A full German trip plan was tested once with live searches (Berlin to Vienna): German answer, English tool inputs, totals in EUR and every check passed.
 - **Prompt-injection screening** is pattern-based and can miss rephrased attacks; an LLM-based classifier would be stronger.
-- **Sign-in:** the deployed copy signs in with Google only, and only the test users added to the Google sign-in screen can sign in (up to 100) until it's published. On a computer without sign-in settings, everything belongs to one local user.
+- **Sign-in:** Google sign-in is limited to the test users added to the Google sign-in screen (up to 100) until it's published; anyone else can create a TripMate account. Until Brevo is set up, the owner confirms new accounts by hand and can't send reset emails. There's no "change password" in Settings yet (the reset link does the same) and no two-factor sign-in. On a computer without sign-in settings, everything belongs to one local user.
 - **Next steps:** hybrid search (BM25 plus vectors), and serving the tools as an MCP server.
 
 ## Attribution

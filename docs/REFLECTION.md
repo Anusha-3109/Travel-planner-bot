@@ -15,6 +15,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 9. **For travellers, not only for planning.** A budget tracker, packing list, journal and documents on every saved trip, and user accounts with Google sign-in, so each person sees only their own chats, trips and files.
 10. **A finished interface.** Two themes, Graphite amber (dark) and Light amber, chosen in Streamlit's menu, with CSS colours worked out from the theme's text colour so a switch shows at once; a compact, full-width layout; a home box that sends on Enter; and result cards that take the next step ("Use this stay", "Add to the plan") by naming the option's live id, so the planner swaps exactly that item.
 11. **German, and a check of the embedding model.** English and German buttons in Settings switch the chat page, trip form, cards, sidebar and Settings, and TripMate answers in the chosen language while its searches stay in English. An embedding probe compared the local model with two OpenAI models in English and German, and a full German trip plan was tested with live searches. The suite now has 311 tests.
+12. **Accounts with a password.** Next to Google, people can sign up with a username, email and password, with confirm emails, a lockout after wrong tries, "Remember me" and password resets by email, in both languages. The suite now has 357 tests.
 
 ## Key decisions
 
@@ -25,7 +26,7 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 - **Current data only.** Nobody plans a trip on four-year-old prices, so all 2022 data was replaced. The cost: smaller US cities have no snapshot stay prices and there are no snapshot flight prices at all, so without live data those items are unpriced instead of outdated.
 - **A judge that isn't one of the judged.** RAGAS needs a model to judge answers. I moved from Haiku (the smallest model, judging its own answers) to GPT-6.1 Sol, a larger model that isn't one of the three answering, and scored the same saved answers with every judge so only the judge changed.
 - **Free where possible.** The packing list starts from plain rules (documents, clothes for the nights, a plug adapter when the sockets differ, items for the season), and only "Suggest more" calls the model. The budget, journal and documents use no model at all.
-- **No passwords of my own.** Accounts use Streamlit's Google sign-in, so the app never stores a password, and the owner of each chat or trip is a hash of the email, not the email.
+- **Passwords of my own, after all.** At first accounts used only Streamlit's Google sign-in, so the app stored no passwords. That left out people without a Google account and anyone not on the sign-in screen's test-user list, so I added TripMate accounts next to Google. Storing passwords meant doing it carefully: salted scrypt hashes, constant-time checks, the same answer for a wrong name or password, a 15-minute lockout, and only hashes of the remember-me and reset tokens. The owner of each chat or trip is still a hash of the email, so Google and a password with the same email are one person. That's also the catch: a new account must confirm its email first, or anyone could sign up with someone else's email and see their trips.
 - **The index inside the image.** Building the knowledge base takes minutes, so it's built when the image is built, and a cold start on Cloud Run takes seconds instead.
 
 ## What the evaluation taught me
@@ -60,6 +61,8 @@ This is a reflection on how TripMate was built, the decisions behind it, what th
 | Trip totals in USD for a EUR trip | A German test plan (Berlin to Vienna, budget 1,200 EUR) came back as "USD 1,133.00" against a "USD 1,200" budget: the model sent the currency and budget next to the plan, where the cost tool ignored them | The agent moves a currency or budget sent beside the plan into it, and the prompt says to set the plan's own currency field; the same trip then came back as EUR 1,136.79 against EUR 1,200 |
 | Theme colours lagged after a switch | Streamlit's menu changes the theme in the browser without rerunning the app, so CSS colours picked on the server stayed on the old theme until a refresh | The CSS colours are worked out from each element's text colour (`currentColor`), which follows the theme at once |
 | Stale code in the running app | Streamlit's reload kept old modules in memory after changes | Restart the app after code changes |
+| Enter would have opened "Forgot your password?" | In a Streamlit form, Enter clicks the form's first button, and the reset link came before Sign in | Sign in is first in the form, and CSS shows it under the Remember me row |
+| One email, two people? | Email-and-password accounts share the owner id of Google sign-in, so signing up with someone else's email would open their chats | New accounts sign in only after confirming their email, by an emailed link or by the owner |
 
 ## Limitations
 
