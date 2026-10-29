@@ -22,6 +22,7 @@ KEY_PATTERNS = {
     "OpenRouter key": re.compile(r"sk-or-v1-[0-9a-f]{32,}"),
     "Google API key": re.compile(r"AIza[0-9A-Za-z_\-]{35}"),
     "SerpApi key in a URL": re.compile(r"api_key=[0-9a-f]{40,}"),
+    "Brevo key": re.compile(r"xkeysib-[0-9a-f]{40,}"),
 }
 
 

@@ -50,8 +50,17 @@ HISTORY_DB = Path(os.getenv("HISTORY_DIR") or ROOT_DIR / ".history") / "chats.sq
 # When set, the app asks for this password first (for a deployed copy; empty locally). Google sign-in
 # ([auth] in .streamlit/secrets.toml) replaces it when that's set up.
 APP_PASSWORD = os.getenv("APP_PASSWORD", "")
-# With sign-in: the Google email that gets everything saved before sign-in was turned on.
+# With sign-in: the Google email that gets everything saved before sign-in was turned on. Signed in
+# with it, the owner also confirms new password accounts while emails aren't set up.
 OWNER_EMAIL = os.getenv("OWNER_EMAIL", "")
+# Password accounts are offered whenever Google sign-in is set up. PASSWORD_ACCOUNTS=1 turns them on
+# without Google too (for example to try sign-in on a computer).
+PASSWORD_ACCOUNTS = os.getenv("PASSWORD_ACCOUNTS", "").strip().lower() in ("1", "true", "yes", "on")
+# Emails for password accounts (confirm links, password resets), through Brevo. Optional.
+BREVO_API_KEY = os.getenv("BREVO_API_KEY", "")
+MAIL_FROM = os.getenv("MAIL_FROM", "")  # a sender address verified in Brevo
+# The app's address for links in emails, e.g. https://tripmate-....run.app. Empty: the page's own address.
+APP_URL = os.getenv("APP_URL", "")
 COLLECTION_NAME = "travelplanner_places"
 
 INDEX_BATCH_SIZE = 500

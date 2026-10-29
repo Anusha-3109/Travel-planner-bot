@@ -16,6 +16,8 @@ def no_live_calls(tmp_path, monkeypatch):
     live data set a fake key and mock the network themselves."""
     monkeypatch.setattr(config, "SERPAPI_API_KEY", "")
     monkeypatch.setattr(config, "GOOGLE_MAPS_API_KEY", "")
+    monkeypatch.setattr(config, "BREVO_API_KEY", "")  # no account emails are sent
+    monkeypatch.setattr(config, "MAIL_FROM", "")
     monkeypatch.setattr(config, "CACHE_DB", tmp_path / "live-cache.sqlite3")
     monkeypatch.setattr(config, "HISTORY_DB", tmp_path / "chats.sqlite3")
     # A fresh per-chat live search budget, so mocked searches in earlier tests don't use it up.

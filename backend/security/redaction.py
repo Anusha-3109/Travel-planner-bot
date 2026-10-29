@@ -11,7 +11,7 @@ import traceback
 from backend import config
 
 REPLACEMENT = "[hidden key]"
-_KEY_NAMES = ("OPENROUTER_API_KEY", "SERPAPI_API_KEY", "GOOGLE_MAPS_API_KEY")
+_KEY_NAMES = ("OPENROUTER_API_KEY", "SERPAPI_API_KEY", "GOOGLE_MAPS_API_KEY", "BREVO_API_KEY")
 
 
 def _secrets() -> list[str]:
