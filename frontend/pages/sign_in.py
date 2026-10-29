@@ -150,7 +150,7 @@ def render() -> None:
         if not st.session_state.auth_note:
             st.session_state.auth_error = "link_expired"
 
-    html.hero(chat.tagline())
+    html.hero(chat.tagline(), centered=True)
     with st.container(horizontal_alignment="center"):
         with st.container(width=CARD_WIDTH, key="auth-card"):
             if note := st.session_state.get("auth_note"):

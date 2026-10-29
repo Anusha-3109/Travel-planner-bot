@@ -153,6 +153,19 @@ def test_hero_and_theme_load_from_the_html_folder():
     assert ".st-key-composer" in render._read("theme.css") and "$tagline" in render._read("hero.html")
 
 
+def test_the_hero_is_centred_on_the_sign_in_page_only():
+    def script():
+        from frontend.html import render
+        render.hero("Left", centered=False)
+        render.hero("Centred", centered=True)
+
+    at = AppTest.from_function(script, default_timeout=30)
+    at.run()
+    left, centred = [h.proto.body for h in at.get("html")]
+    assert "align-items: flex-start" in left and "width: 140px" in left and "tm-hero-center" not in left
+    assert "align-items: center" in centred and "width: 170px" in centred and "tm-hero-center" in centred
+
+
 def test_theme_has_nothing_that_looks_like_a_tag():
     """Streamlit's HTML cleaner drops a whole style block containing something that looks like a tag."""
     from frontend.html import render

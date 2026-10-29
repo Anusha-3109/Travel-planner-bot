@@ -50,8 +50,11 @@ def _logo_data_uri(path: Path) -> str:
     return f"data:image/svg+xml;base64,{data}"
 
 
-def hero(tagline: str) -> None:
-    st.html(_fill(_read("hero.html"), logo=_logo_data_uri(logo_path()), tagline=escape(tagline)))
+def hero(tagline: str, centered: bool = False) -> None:
+    """The logo and tagline: on the left above a new chat, or centred above the sign-in form."""
+    st.html(_fill(_read("hero.html"), logo=_logo_data_uri(logo_path()), tagline=escape(tagline),
+                  align="center" if centered else "flex-start", width="170px" if centered else "140px",
+                  place="tm-hero-center" if centered else ""))
 
 
 def divider(text: str) -> None:

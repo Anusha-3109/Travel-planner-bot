@@ -49,6 +49,8 @@ h1 { padding-top: 0.25rem !important; }
 /* The hero on an empty chat: the logo with the tagline under it. */
 .tm-hero { margin: 0.25rem 0 0.35rem; }
 .tm-hero p { font-size: 0.95rem; color: var(--tm-muted); }
+/* On the sign-in page: centred over the form, with more room around it. */
+.tm-hero-center { margin: 1.5rem 0 1.25rem; text-align: center; }
 
 /* Example questions: small chips that keep to one line; the full question shows on hover. */
 .st-key-examples button { min-height: 0; padding: 0.3rem 0.65rem; }

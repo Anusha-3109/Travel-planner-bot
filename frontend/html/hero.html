@@ -1,6 +1,7 @@
-<!-- The hero on an empty chat: the logo with the tagline under it, on the left and kept small so
-     the box, examples and feature cards fit on a laptop screen. Filled in by render.hero(). -->
-<div class="tm-hero" style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;">
-  <img src="$logo" alt="tripmate" style="width: 140px;">
+<!-- The logo with the tagline under it. On an empty chat it's on the left and kept small so the box,
+     examples and feature cards fit on a laptop screen; on the sign-in page it's centred over the form
+     and a little bigger. Filled in by render.hero(). -->
+<div class="tm-hero $place" style="display: flex; flex-direction: column; align-items: $align; gap: 0.15rem;">
+  <img src="$logo" alt="tripmate" style="width: $width;">
   <p style="margin: 0;">$tagline</p>
 </div>
