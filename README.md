@@ -265,7 +265,7 @@ TripMate has two ways to sign in, on one screen: a **TripMate account** (a usern
 python -m pytest -q
 ```
 
-357 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, password accounts (hashing, sign-up checks, sign-in by name or email, the lockout, remember-me and one-time reset links, and the sign-in pages), the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
+358 tests cover the catalog, RAG, every tool, the live clients (with recorded API answers, so no keys, credit or searches are used), trip costing, the agent loop and its error handling, every page, both languages (every text has an English and a German version), the saved history and trips, password accounts (hashing, sign-up checks, sign-in by name or email, the lockout, remember-me and one-time reset links, and the sign-in pages), the evaluation scoring including the embedding probe, and the security checks. GitHub Actions runs the suite on every push to `main` (`.github/workflows/tests.yml`).
 
 ## Project structure
 
