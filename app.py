@@ -7,7 +7,8 @@ Dashboard and How it answers, with Settings as a pop-up. Chats, trips and the
 request log are saved by history.py, and the open chat's id is kept in the page
 address so a refresh reopens it. With Google sign-in set up ([auth] in
 .streamlit/secrets.toml), everyone signs in and sees only their own chats and
-trips; without it (on a computer), the app opens straight away.
+trips; without it (on a computer), the app opens straight away. Next to Google, people can sign in
+with a username or email and a password (frontend/pages/sign_in.py, backend/accounts/).
 """
 
 import hmac
@@ -17,7 +18,7 @@ import streamlit as st
 from backend import config
 from backend.security.redaction import protect_logs
 from backend.storage import history
-from frontend.components import sidebar
+from frontend.components import cookie, sidebar
 from frontend.components.common import (
     PAGES,
     current_owner,
@@ -28,7 +29,7 @@ from frontend.components.common import (
     sync_chat_with_url,
 )
 from frontend.html import render
-from frontend.pages import benchmarks, chat, dashboard, how_it_answers
+from frontend.pages import benchmarks, chat, dashboard, how_it_answers, sign_in
 from frontend.pages import trips as trips_pages
 
 st.set_page_config(page_title="TripMate travel planner", page_icon="✈️", layout="wide")
@@ -51,7 +52,8 @@ def password_ok() -> bool:
 
 
 def signed_in() -> bool:
-    """Google sign-in when it's set up, otherwise the password screen, otherwise straight in."""
+    """Sign-in (Google or a password account) when it's set up, otherwise the password screen,
+    otherwise straight in."""
     if not sign_in_enabled():
         return password_ok()
     if user := signed_in_user():
@@ -62,10 +64,8 @@ def signed_in() -> bool:
             st.session_state.claimed = True
         return True
     render.theme()
-    render.hero(chat.tagline())
-    with st.container(horizontal_alignment="center"):
-        st.button("Sign in with Google", icon=":material/login:", type="primary", on_click=st.login)
-        st.caption("Your chats, trips and documents are private to your account.")
+    cookie.sync()  # deletes the remember-me cookie after signing out
+    sign_in.render()
     return False
 
 
@@ -97,6 +97,7 @@ def main() -> None:
     if page.url_path in ("", "chat"):
         sync_chat_with_url()
     render.theme()  # frontend/html/theme.css
+    cookie.sync()  # sets the remember-me cookie after signing in with it ticked
     sidebar.render(pages)
     sidebar.open_settings_if_asked()
     page.run()

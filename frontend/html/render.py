@@ -54,6 +54,11 @@ def hero(tagline: str) -> None:
     st.html(_fill(_read("hero.html"), logo=_logo_data_uri(logo_path()), tagline=escape(tagline)))
 
 
+def divider(text: str) -> None:
+    """A line with a word in the middle ("or"), styled in theme.css."""
+    st.html(f'<div class="tm-or">{escape(text)}</div>')
+
+
 def _item_html(template: str, item: dict) -> str:
     link = item.get("link") or ""
     steps = item.get("steps") or []

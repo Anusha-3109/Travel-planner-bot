@@ -5,12 +5,14 @@ from datetime import datetime
 import streamlit as st
 
 from backend import config
+from backend.accounts import accounts
 from backend.live import fx
 from backend.live.budget import SessionBudget
 from backend.live.status import ServiceStatus, live_status
 from backend.rag.ingest import ensure_index
 from backend.security.rate_limit import RateLimiter
 from backend.storage import history
+from frontend.components import cookie
 from frontend.i18n import DEFAULT_LANGUAGE, t
 
 PAGES: dict = {}  # the app's pages by name, filled in by app.py, for links between pages
@@ -57,7 +59,7 @@ def start_new_chat() -> None:
     st.query_params.clear()
 
 
-def sign_in_enabled() -> bool:
+def google_enabled() -> bool:
     """True when Google sign-in is set up ([auth] in .streamlit/secrets.toml)."""
     try:
         return "auth" in st.secrets
@@ -65,11 +67,43 @@ def sign_in_enabled() -> bool:
         return False
 
 
+def sign_in_enabled() -> bool:
+    """True when everyone signs in first: Google sign-in is set up, or password accounts are turned on
+    (PASSWORD_ACCOUNTS). Password accounts always come with Google sign-in."""
+    return google_enabled() or config.PASSWORD_ACCOUNTS
+
+
 def signed_in_user() -> dict | None:
-    """The signed-in user's details (name, email), or None when nobody is signed in or sign-in isn't set up."""
-    if sign_in_enabled() and st.user.get("is_logged_in"):
-        return {"name": st.user.get("name"), "email": st.user.get("email") or ""}
+    """The signed-in user's details (name, email, how they signed in), or None when nobody is signed in
+    or sign-in isn't set up. A password account is in the session after signing in, or comes back
+    from this browser's remember-me cookie."""
+    if not sign_in_enabled():
+        return None
+    if google_enabled() and st.user.get("is_logged_in"):
+        return {"name": st.user.get("name"), "email": st.user.get("email") or "", "via": "google"}
+    account = st.session_state.get("account")
+    if account is None and "cookie" not in st.session_state and (token := cookie.remembered_token()):
+        account = st.session_state.account = accounts.remembered_account(token)
+    if account:
+        return {"name": account["username"], "email": account["email"], "via": "password"}
     return None
+
+
+def sign_out() -> None:
+    """Signs out of Google, or ends a password sign-in and its remember-me cookie."""
+    if user := signed_in_user():
+        if user["via"] == "google":
+            st.logout()
+            return
+        accounts.forget(st.session_state.get("cookie") or cookie.remembered_token())
+        cookie.delete()
+        st.session_state.account = None
+
+
+def is_owner() -> bool:
+    """True when the signed-in user is the app's owner (OWNER_EMAIL), who confirms new accounts."""
+    user = signed_in_user()
+    return bool(user and config.OWNER_EMAIL and user["email"].strip().lower() == config.OWNER_EMAIL.strip().lower())
 
 
 def current_owner() -> str:

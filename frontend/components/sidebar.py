@@ -3,7 +3,7 @@
 import streamlit as st
 
 from backend.storage import history
-from frontend.components.common import current_owner, signed_in_user, start_new_chat
+from frontend.components.common import current_owner, sign_out, signed_in_user, start_new_chat
 from frontend.html import render as html
 from frontend.i18n import t
 from frontend.pages.settings import settings_dialog
@@ -55,7 +55,7 @@ def render(pages: dict) -> None:
             st.divider()
             if user := signed_in_user():
                 st.caption(t("side.signed_in", name=user["name"] or user["email"]))
-                st.button(t("side.sign_out"), icon=":material/logout:", type="tertiary", on_click=st.logout)
+                st.button(t("side.sign_out"), icon=":material/logout:", type="tertiary", on_click=sign_out)
             else:
                 st.caption(t("side.saved_here"))
             # The pop-up opens from the main area (app.py), as dialogs don't open from inside the sidebar.

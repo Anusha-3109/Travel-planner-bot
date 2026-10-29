@@ -1,15 +1,18 @@
-"""The Settings pop-up: language, answer model, currency, chat history and the knowledge base."""
+"""The Settings pop-up: language, answer model, currency, chat history, the knowledge base and, for the
+owner, new accounts to confirm."""
 
 import json
 
 import streamlit as st
 
 from backend import config
+from backend.accounts import accounts
 from backend.rag.ingest import build_index
 from backend.storage import history
 from frontend.components.common import (
     current_owner,
     export_markdown,
+    is_owner,
     model_label,
     prepare_index,
     start_new_chat,
@@ -43,6 +46,24 @@ def _set_language() -> None:
         st.session_state.language_changed = st.session_state.open_settings = True
     else:
         st.session_state["language-picker"] = language()
+
+
+def _waiting_accounts() -> None:
+    """New password accounts the owner confirms by hand (needed while emails aren't set up)."""
+    waiting = accounts.waiting_accounts()
+    with st.expander(f"{t('set.accounts')} ({len(waiting)})"):
+        st.caption(t("set.accounts_note"))
+        if not waiting:
+            st.caption(t("set.accounts_none"))
+        for account in waiting:
+            left, confirm, delete = st.columns([4, 2, 2], vertical_alignment="center")
+            left.text(f"{account['username']}\n{account['email']}")  # plain text: no Markdown in a name
+            if confirm.button(t("set.confirm"), key=f"confirm-{account['id']}", icon=":material/check:"):
+                accounts.confirm_account(account["id"])
+                st.rerun(scope="fragment")
+            if delete.button(t("side.delete"), key=f"delete-account-{account['id']}", icon=":material/delete:"):
+                accounts.delete_account(account["id"])
+                st.rerun(scope="fragment")
 
 
 def settings_dialog() -> None:
@@ -100,6 +121,9 @@ def _settings() -> None:
         history.delete_all(current_owner())
         start_new_chat()
         st.rerun()
+
+    if is_owner():
+        _waiting_accounts()
 
     with st.expander(t("set.kb")):
         st.caption(t("set.kb_note"))

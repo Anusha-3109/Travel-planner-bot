@@ -80,3 +80,17 @@ h1 { padding-top: 0.25rem !important; }
 .tm-item details { font-size: 0.85rem; color: var(--tm-soft-text); }
 .tm-item details ol { margin: 0.25rem 0 0; padding-left: 1.2rem; }
 .tm-unpriced { color: var(--tm-muted); font-size: 0.8rem; margin-top: 0.5rem; }
+
+/* The sign-in screen (frontend/pages/sign_in.py): the form in a card under the logo. Sign in comes first
+   in the form, so Enter presses it, and is shown under the Remember me row. */
+.st-key-auth-card { border: 1px solid var(--tm-border); border-radius: 14px; padding: 1.4rem 1.5rem 1rem; }
+.st-key-auth-card [data-testid="stForm"] { padding: 0; }
+.st-key-sign-in-button { order: 1; }
+.st-key-remember-row button p { color: var(--tm-accent); font-size: 0.88rem; }
+[class*="st-key-switch-"] [data-testid="stCaptionContainer"], [class*="st-key-switch-"] [data-testid="stCaptionContainer"] p { margin: 0; }
+[class*="st-key-switch-"] button { min-height: 0; padding: 0; }
+[class*="st-key-switch-"] button p { color: var(--tm-accent); font-weight: 600; font-size: 0.875rem; }
+.st-key-cookie-sync { display: none; }
+/* The "or" line between the form and Continue with Google. */
+.tm-or { display: flex; align-items: center; gap: 0.75rem; color: var(--tm-muted); font-size: 0.85rem; }
+.tm-or::before, .tm-or::after { content: ""; flex: 1; border-top: 1px solid var(--tm-border); }

@@ -23,6 +23,7 @@ def offline(monkeypatch):
     build, so the app renders without network calls."""
     monkeypatch.setattr(config, "OPENROUTER_API_KEY", "test-key")
     monkeypatch.setattr(config, "APP_PASSWORD", "")
+    monkeypatch.setattr(config, "PASSWORD_ACCOUNTS", False)
     monkeypatch.setattr("frontend.components.common.ensure_index", lambda on_progress=None: 0)
 
 
@@ -258,17 +259,20 @@ def test_password_screen_opens_the_app_only_with_the_right_password(offline, mon
 
 
 def test_with_sign_in_set_up_the_app_asks_to_sign_in_first(offline, monkeypatch):
-    monkeypatch.setattr("frontend.components.common.sign_in_enabled", lambda: True)
+    monkeypatch.setattr("frontend.components.common.google_enabled", lambda: True)
+    monkeypatch.setattr("frontend.pages.sign_in.google_enabled", lambda: True)
     at = AppTest.from_file("../app.py", default_timeout=30).run()
-    assert not at.exception and [b.label for b in at.button] == ["Sign in with Google"]
-    assert not at.chat_input and "private to your account" in at.caption[0].value
+    assert not at.exception and not at.chat_input
+    assert [b.label for b in at.button] == ["Sign in", "Forgot your password?", "Continue with Google", "Sign up"]
+    assert [i.label for i in at.text_input] == ["Username or email address", "Password"]
+    assert any("private to your account" in c.value for c in at.caption)
 
 
 def test_signed_in_the_author_gets_the_data_saved_before_sign_in(offline, monkeypatch):
     history.create_chat("Saved before sign-in")
     user = {"name": "Ana", "email": "ana@example.com"}
     monkeypatch.setattr(config, "OWNER_EMAIL", "ANA@example.com")
-    monkeypatch.setattr("frontend.components.common.sign_in_enabled", lambda: True)
+    monkeypatch.setattr("frontend.components.common.google_enabled", lambda: True)
     monkeypatch.setattr("frontend.components.common.signed_in_user", lambda: user)
     monkeypatch.setattr("frontend.components.sidebar.signed_in_user", lambda: user)
     at = AppTest.from_file("../app.py", default_timeout=30).run()

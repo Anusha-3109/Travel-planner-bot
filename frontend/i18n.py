@@ -304,6 +304,94 @@ TEXTS: dict[str, dict[str, str]] = {
     "set.kb_done": {"en": "Indexed {count} places.", "de": "{count} Orte indexiert."},
     "set.applies": {"en": "Changes apply straight away.", "de": "Änderungen gelten sofort."},
     "set.done": {"en": "Done", "de": "Fertig"},
+    # Sign-in, sign-up and password reset (frontend/pages/sign_in.py)
+    "auth.name": {"en": "Username or email address", "de": "Benutzername oder E-Mail-Adresse"},
+    "auth.password": {"en": "Password", "de": "Passwort"},
+    "auth.remember": {"en": "Remember me", "de": "Angemeldet bleiben"},
+    "auth.remember_help": {"en": "Stay signed in on this browser for 30 days.",
+                           "de": "30 Tage lang in diesem Browser angemeldet bleiben."},
+    "auth.forgot": {"en": "Forgot your password?", "de": "Passwort vergessen?"},
+    "auth.sign_in": {"en": "Sign in", "de": "Anmelden"},
+    "auth.or": {"en": "or", "de": "oder"},
+    "auth.google": {"en": "Continue with Google", "de": "Weiter mit Google"},
+    "auth.no_account": {"en": "Don't have an account?", "de": "Noch kein Konto?"},
+    "auth.sign_up": {"en": "Sign up", "de": "Registrieren"},
+    "auth.private": {"en": "Your chats, trips and documents are private to your account.",
+                     "de": "Deine Chats, Reisen und Dokumente sind nur für dein Konto sichtbar."},
+    "auth.sign_up_title": {"en": "Create your account", "de": "Konto erstellen"},
+    "auth.username": {"en": "Username", "de": "Benutzername"},
+    "auth.username_help": {"en": "3 to 30 letters, digits, dots, dashes or underscores.",
+                           "de": "3 bis 30 Buchstaben, Ziffern, Punkte, Binde- oder Unterstriche."},
+    "auth.email": {"en": "Email address", "de": "E-Mail-Adresse"},
+    "auth.email_example": {"en": "you@example.com", "de": "du@beispiel.de"},
+    "auth.password_help": {"en": "At least 10 characters.", "de": "Mindestens 10 Zeichen."},
+    "auth.repeat": {"en": "Repeat password", "de": "Passwort wiederholen"},
+    "auth.create": {"en": "Create account", "de": "Konto erstellen"},
+    "auth.have_account": {"en": "Already have an account?", "de": "Schon ein Konto?"},
+    "auth.check_inbox": {"en": "Almost done: we've sent a link to {email}. Open it to confirm your email, "
+                               "then sign in.",
+                         "de": "Fast fertig: Wir haben einen Link an {email} geschickt. Öffne ihn, um deine "
+                               "E-Mail zu bestätigen, und melde dich dann an."},
+    "auth.waiting_owner": {"en": "Your account is created. The TripMate owner confirms new accounts; you can "
+                                 "sign in once yours is confirmed.",
+                           "de": "Dein Konto ist erstellt. Der TripMate-Betreiber bestätigt neue Konten; du "
+                                 "kannst dich anmelden, sobald deins bestätigt ist."},
+    "auth.confirmed": {"en": "Your email is confirmed. You can sign in now.",
+                       "de": "Deine E-Mail ist bestätigt. Du kannst dich jetzt anmelden."},
+    "auth.forgot_title": {"en": "Reset your password", "de": "Passwort zurücksetzen"},
+    "auth.forgot_note": {"en": "Enter your account's email address and we'll send you a link to choose a new "
+                               "password.",
+                         "de": "Gib die E-Mail-Adresse deines Kontos ein, und wir schicken dir einen Link, um ein "
+                               "neues Passwort zu wählen."},
+    "auth.send_link": {"en": "Send reset link", "de": "Link senden"},
+    "auth.link_sent": {"en": "If an account has this email, a link is on its way. It works once, for 30 minutes.",
+                       "de": "Wenn ein Konto diese E-Mail hat, ist ein Link unterwegs. Er funktioniert einmal, "
+                             "30 Minuten lang."},
+    "auth.ask_owner": {"en": "Password resets by email aren't set up yet. Please ask the TripMate owner to "
+                             "help you.",
+                       "de": "Passwort-Zurücksetzen per E-Mail ist noch nicht eingerichtet. Bitte wende dich an "
+                             "den TripMate-Betreiber."},
+    "auth.back": {"en": "Back to sign in", "de": "Zurück zur Anmeldung"},
+    "auth.new_title": {"en": "Choose a new password", "de": "Wähle ein neues Passwort"},
+    "auth.new_password": {"en": "New password", "de": "Neues Passwort"},
+    "auth.save_password": {"en": "Save new password", "de": "Neues Passwort speichern"},
+    "auth.password_saved": {"en": "Your new password is saved. You can sign in with it now.",
+                            "de": "Dein neues Passwort ist gespeichert. Du kannst dich jetzt damit anmelden."},
+    "auth.error.wrong": {"en": "Wrong username, email or password.",
+                         "de": "Falscher Benutzername, falsche E-Mail oder falsches Passwort."},
+    "auth.error.locked": {"en": "Too many wrong tries. Please wait {minutes} minutes and try again.",
+                          "de": "Zu viele falsche Versuche. Bitte warte {minutes} Minuten und versuch es "
+                                "noch einmal."},
+    "auth.error.not_confirmed": {"en": "Please confirm your email first: open the link we sent you.",
+                                 "de": "Bitte bestätige zuerst deine E-Mail: Öffne den Link, den wir dir "
+                                       "geschickt haben."},
+    "auth.error.not_confirmed_owner": {"en": "Your account is waiting for the TripMate owner to confirm it.",
+                                       "de": "Dein Konto wartet darauf, dass der TripMate-Betreiber es "
+                                             "bestätigt."},
+    "auth.error.username_invalid": {"en": "Usernames have 3 to 30 letters, digits, dots, dashes or underscores.",
+                                    "de": "Benutzernamen haben 3 bis 30 Buchstaben, Ziffern, Punkte, Binde- "
+                                          "oder Unterstriche."},
+    "auth.error.email_invalid": {"en": "Please enter a valid email address.",
+                                 "de": "Bitte gib eine gültige E-Mail-Adresse ein."},
+    "auth.error.password_short": {"en": "The password needs at least 10 characters.",
+                                  "de": "Das Passwort braucht mindestens 10 Zeichen."},
+    "auth.error.password_long": {"en": "The password can have at most 200 characters.",
+                                 "de": "Das Passwort darf höchstens 200 Zeichen haben."},
+    "auth.error.password_mismatch": {"en": "The two passwords don't match.",
+                                     "de": "Die beiden Passwörter stimmen nicht überein."},
+    "auth.error.account_taken": {"en": "That username or email already has an account.",
+                                 "de": "Für diesen Benutzernamen oder diese E-Mail gibt es schon ein Konto."},
+    "auth.error.link_expired": {"en": "This link has expired or was already used. Ask for a new one.",
+                                "de": "Dieser Link ist abgelaufen oder wurde schon benutzt. Fordere einen "
+                                      "neuen an."},
+    "set.accounts": {"en": "Accounts waiting for confirmation", "de": "Konten, die auf Bestätigung warten"},
+    "set.accounts_note": {"en": "Only you see this, as the owner. Confirm an account when you know the person "
+                                "owns its email address: it will see that email's chats and trips.",
+                          "de": "Nur du siehst das, als Betreiber. Bestätige ein Konto, wenn du weißt, dass "
+                                "der Person die E-Mail-Adresse gehört: Sie sieht die Chats und Reisen dieser "
+                                "E-Mail."},
+    "set.accounts_none": {"en": "No accounts are waiting.", "de": "Keine Konten warten."},
+    "set.confirm": {"en": "Confirm", "de": "Bestätigen"},
     # Progress messages while the agent works (backend/agent/agent.py sends them in English)
     "step.Reading your request...": {"en": "Reading your request...", "de": "Lese deine Anfrage..."},
     "step.Costing the plan...": {"en": "Costing the plan...", "de": "Berechne die Kosten..."},

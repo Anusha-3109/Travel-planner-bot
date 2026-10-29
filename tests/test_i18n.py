@@ -28,7 +28,8 @@ def test_every_key_the_pages_use_exists():
     from pathlib import Path
     root = Path(__file__).resolve().parents[1]
     files = ["frontend/pages/chat.py", "frontend/pages/settings.py", "frontend/components/cards.py",
-             "frontend/components/sidebar.py", "frontend/components/trip_form.py", "frontend/components/common.py"]
+             "frontend/components/sidebar.py", "frontend/components/trip_form.py", "frontend/components/common.py",
+             "frontend/pages/sign_in.py"]
     used = {key for f in files for key in re.findall(r"""\bt\(["']([a-z_.]*[a-z_])["']""", (root / f).read_text("utf-8"))}
     assert used and used <= set(TEXTS), used - set(TEXTS)
 
